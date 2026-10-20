@@ -1,53 +1,48 @@
 {
- "at": "2026-10-20T13:00:21+00:00",
+ "at": "2026-10-20T13:20:36+00:00",
  "companies": {
   "Air France": {
    "links_found": 22,
-   "keyword_matches": 5,
+   "keyword_matches": 4,
    "errors": [],
    "sample_all": [
-    "2026-23566 - Mécanicienne/Mécanicien maintenance équipements Air France F/H",
-    "2026-24209 - Agent de Maintenance Industrielle F/H",
-    "2026-25588 - Analyste de vols - Revenue Management F/H",
-    "2026-25287 - Technicienne/Technicien avion F/H",
-    "2026-25286 - Mécanicienne/Mécanicien avion F/H",
-    "2026-25557 - Software Engineer F/H",
-    "2026-25402 - Agent logistique magasin F/H",
-    "2025-21563 - Customer Support Manager (CSM) Sénior Equipements Aéronautiques H/F",
-    "2026-23561 - Mécanicienne/Mécanicien Moteur F/H",
-    "2026-25589 - Analyste Stratégie Network F/H"
+    "Mécanicienne/Mécanicien maintenance équipements Air France F/H",
+    "Agent de Maintenance Industrielle F/H",
+    "Analyste de vols - Revenue Management F/H",
+    "Technicienne/Technicien avion F/H",
+    "Mécanicienne/Mécanicien avion F/H",
+    "Software Engineer F/H",
+    "Agent logistique magasin F/H",
+    "Customer Support Manager (CSM) Sénior Equipements Aéronautiques H/F",
+    "Mécanicienne/Mécanicien Moteur F/H",
+    "Analyste Stratégie Network F/H"
    ],
    "sample_matching": [
     {
-     "title": "2026-25588 - Analyste de vols - Revenue Management F/H",
+     "title": "Analyste de vols - Revenue Management F/H",
      "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25588&idOrigine=502&offerReference=2026-25588",
      "context": "Stratégie et développement/Revenue/Yield management CDI 45 rue de Paris 95747 ROISSY CHARLES DE GAULLE CEDEX Métier : Stratégie et développement/Revenue/Yield management Type de contrat : CDI Descript"
     },
     {
-     "title": "2026-25589 - Analyste Stratégie Network F/H",
+     "title": "Analyste Stratégie Network F/H",
      "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25589&idOrigine=502&offerReference=2026-25589",
      "context": "Stratégie et développement/Programme des Vols CDI 45 rue de Paris 95747 ROISSY CHARLES DE GAULLE CEDEX Métier : Stratégie et développement/Programme des Vols Type de contrat : CDI Description du poste"
     },
     {
-     "title": "2025-23302 - Data Analyst Commercial - Digital Product F/H",
+     "title": "Data Analyst Commercial - Digital Product F/H",
      "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=23302&idOrigine=502&offerReference=2025-23302",
      "context": "Digital/e-Marketing CDI 45 rue de Paris 95747 ROISSY CHARLES DE GAULLE CEDEX Métier : Digital/e-Marketing Type de contrat : CDI Description du poste : Les analystes Performance Insights & Analytics so"
     },
     {
-     "title": "2026-25019 - Business Analyst Senior – Crew Tracking – Opération Aériennes F/H",
-     "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25019&idOrigine=502&offerReference=2026-25019",
-     "context": "Exploitation & Opérations aériennes/Opérations aériennes & Préparation des Vols CDI Cité PN Air France - Roissy - Charles de Gaulle Métier : Exploitation & Opérations aériennes/Opérations aériennes & "
-    },
-    {
-     "title": "2026-25600 - Coordinateur d'Équipes de Pratique Data, Recherche Opérationnelle & IA F/H",
+     "title": "Coordinateur d'Équipes de Pratique Data, Recherche Opérationnelle & IA F/H",
      "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25600&idOrigine=502&offerReference=2026-25600",
      "context": "Systèmes d'informations/Infrastructures & Production informatique CDI 45 rue de Paris 95747 ROISSY CHARLES DE GAULLE CEDEX Métier : Systèmes d'informations/Infrastructures & Production informatique Ty"
     }
    ]
   },
   "TotalEnergies": {
-   "links_found": 120,
-   "keyword_matches": 9,
+   "links_found": 200,
+   "keyword_matches": 15,
    "errors": [],
    "sample_all": [
     "Sales Support Advisor (FTC 24 Months)",
@@ -66,6 +61,21 @@
      "title": "Analyste financier de données débutant H/F",
      "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Analyste-financier-de-donn-es-d-butant-H-F/84738",
      "context": "Analyste financier de données débutant H/F 20-10-2026 France Contrat de professionnalisation temps plein TotalEnergies SE Postuler"
+    },
+    {
+     "title": "CDD – Analyste Réglementaire Énergie Europe (H/F/X)",
+     "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/CDD-Analyste-R-glementaire-nergie-Europe-H-F-X/85354",
+     "context": "CDD – Analyste Réglementaire Énergie Europe (H/F/X) 19-10-2026 France CDD TotalEnergies Renouvelables France Postuler"
+    },
+    {
+     "title": "Compensation & Benefits Analyst",
+     "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Compensation-Benefits-Analyst/85349",
+     "context": "Compensation & Benefits Analyst 19-10-2026 Malaisie CDD TotalEnergies EP Sarawak Inc. Postuler"
+    },
+    {
+     "title": "STAGE - Quantitative Performance Analyst - H/F",
+     "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/STAGE-Quantitative-Performance-Analyst-H-F/85315",
+     "context": "STAGE - Quantitative Performance Analyst - H/F 16-10-2026 France Stage conventionné TotalEnergies SE Postuler"
     },
     {
      "title": "Analyst FP&A (External)",
@@ -88,24 +98,14 @@
      "context": "Stage – Data & Automation Analyst – Finance - AS 24 16-10-2026 France Stage conventionné AS 24 FRANCE Postuler"
     },
     {
-     "title": "Derivatives & Market Risk Analyst Intern",
-     "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Derivatives-Market-Risk-Analyst-Intern/85015",
-     "context": "Derivatives & Market Risk Analyst Intern 08-10-2026 Suisse Stage conventionné TOTSA TotalEnergies Trading SA Postuler"
+     "title": "Energy Trading| Trade Support Analyst",
+     "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Energy-Trading-Trade-Support-Analyst/78455",
+     "context": "|Energy Trading| Trade Support Analyst 15-10-2026 Grèce CDI TOTSA TotalEnergies Trading SA Postuler"
     },
     {
-     "title": "Engineering Analyst",
-     "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Engineering-Analyst/84800",
-     "context": "Engineering Analyst 03-10-2026 Etats-Unis CDI HUTCHINSON AEROSPACE & INDUSTRY, INC. Postuler"
-    },
-    {
-     "title": "VIE – Ingénieur Transformation Digitale & Data Finance (H/F) – Belgique",
-     "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/VIE-Ing-nieur-Transformation-Digitale-Data-Finance-H-F-Belgique/84754",
-     "context": "VIE – Ingénieur Transformation Digitale & Data Finance (H/F) – Belgique 01-10-2026 Belgique VIE TotalEnergies Petrochemicals & Refining Postuler"
-    },
-    {
-     "title": "Data Engineer for Cognite Platform (CDF) - débutant H/F",
-     "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Data-Engineer-for-Cognite-Platform-CDF-d-butant-H-F/84521",
-     "context": "Data Engineer for Cognite Platform (CDF) - débutant H/F 25-09-2026 France Contrat de professionnalisation temps plein TotalEnergies OneTech Postuler"
+     "title": "Analyste Facturation MassMarket",
+     "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Analyste-Facturation-Mass-Market/77520",
+     "context": "Analyste Facturation MassMarket 12-10-2026 France CDI TotalEnergies Electricité et Gaz France Postuler"
     }
    ]
   },
@@ -114,42 +114,50 @@
    "keyword_matches": 0,
    "errors": [],
    "sample_all": [],
-   "sample_matching": []
+   "sample_matching": [],
+   "page_info": "titre « Rechercher une offre d'emploi Société Générale | Careers Société Générale », 108 liens <a>",
+   "json_calls": [
+    "GET 200 https://careers.societegenerale.com/sg-careers-offers/get-token",
+    "POST 200 https://careers.societegenerale.com/search-proxy.php",
+    "POST 200 https://careers.societegenerale.com/search-proxy.php",
+    "POST 200 https://careers.societegenerale.com/search-proxy.php",
+    "POST 200 https://careers.societegenerale.com/search-proxy.php",
+    "POST 200 https://careers.societegenerale.com/search-proxy.php"
+   ]
   },
   "BNP Paribas": {
    "links_found": 0,
    "keyword_matches": 0,
-   "errors": [],
+   "errors": [
+    "https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/data-analytics?page=1 → HTTPError: 403 Client Error: Forbidden for url: https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/data-analytics?page=1",
+    "https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/data-analytics?page=2 → HTTPError: 403 Client Error: Forbidden for url: https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/data-analytics?page=2",
+    "https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/data-analytics?page=3 → HTTPError: 403 Client Error: Forbidden for url: https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/data-analytics?page=3",
+    "https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/data-analytics?page=4 → HTTPError: 403 Client Error: Forbidden for url: https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/data-analytics?page=4",
+    "https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/data-analytics?page=5 → HTTPError: 403 Client Error: Forbidden for url: https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/data-analytics?page=5",
+    "https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/data-analytics?page=6 → HTTPError: 403 Client Error: Forbidden for url: https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/data-analytics?page=6",
+    "https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/data-analytics?page=7 → HTTPError: 403 Client Error: Forbidden for url: https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/data-analytics?page=7",
+    "https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/data-analytics?page=8 → HTTPError: 403 Client Error: Forbidden for url: https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/data-analytics?page=8"
+   ],
    "sample_all": [],
    "sample_matching": []
   },
   "Crédit Agricole": {
-   "links_found": 12,
-   "keyword_matches": 12,
+   "links_found": 33,
+   "keyword_matches": 7,
    "errors": [],
    "sample_all": [
-    "Ligne Métier IT, Digital & Data",
-    "IT, Digital & Data",
+    "Responsable Marché des entrepreneurs E-RIS (Intermédiation)",
+    "Project Manager Relations Sociales H/F",
     "Compensation analyst H/F",
-    "Stage - Business Strategy Analyst H/F",
-    "Data Manager Trade Finance H/F",
-    "Analyste Résultat, Risques de Marché et Liquidité périmètre Trésorerie H/F",
-    "ANALYSTE SUPPORT AGENCY & TRANSACTION MANAGEMENT IMMOBILIER STRUCTURE (CDD) H/F",
-    "STAGE - Fund Dealing Officer / Transfer - Static Data – Account opening H/F",
-    "STAGE - Analyste Coverage France - Lyon H/F",
-    "Johann Analyste Liquide Lire l'interview"
+    "STAGE JUNIOR ACCOUNTANT M/F",
+    "Client Operations Officer, Network Invoicing (12 months contract) M/F",
+    "Développeur Java (Collatéral Management) H/F",
+    "Client Operations Officer, Network Invoicing M/F",
+    "Manager Equipe Assurances Sinistres IARD H/F",
+    "Manager Equipe Assurances Sinistres IARD H/F",
+    "Stage - Business Strategy Analyst H/F"
    ],
    "sample_matching": [
-    {
-     "title": "Ligne Métier IT, Digital & Data",
-     "url": "https://groupecreditagricole.jobs/fr/nos-marques/it-digital-data/",
-     "context": ""
-    },
-    {
-     "title": "IT, Digital & Data",
-     "url": "https://groupecreditagricole.jobs/fr/nos-metiers/it-digital-et-data/",
-     "context": ""
-    },
     {
      "title": "Compensation analyst H/F",
      "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170475-124-compensation-analyst-hf-reference--2026-116678--/",
@@ -184,27 +192,50 @@
      "title": "STAGE - Analyste Coverage France - Lyon H/F",
      "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-3-stage---analyste-coverage-france---lyon-hf-reference--2026-116545--/",
      "context": "STAGE - Analyste Coverage France - Lyon H/F Favori Mis à jour le 20/10/2026 Stage 18 RUE DE LA REPUBLIQUE 69002 LYON - France Finances / Comptabilité / Contrôle de gestion"
-    },
-    {
-     "title": "Johann Analyste Liquide Lire l'interview",
-     "url": "https://groupecreditagricole.jobs/fr/metier/analyste-liquide/",
-     "context": "Hajer B. Responsable d’unité conformité chez LCL Lire l'interview Thibault C. Responsable de la prévention de la fraude caisse régionale sud-méditerranée Lire l'interview Sabine M. Sanction compliance"
     }
    ]
   },
   "BPCE": {
-   "links_found": 1,
+   "links_found": 9,
    "keyword_matches": 1,
    "errors": [],
    "sample_all": [
-    "IT Data Architect (F/H) Natixis CIB France CDI Paris Découvrir"
+    "Conseiller(ère) en Financements, Spécialiste Leasing (h/f)",
+    "Senior Documentation Specialist",
+    "IT Data Architect (F/H)",
+    "International Coordination - Acquisition and Strategic Finance (F/H)",
+    "Conseiller clientèle Particuliers F/H",
+    "Conseiller Clientèle Particuliers H/F",
+    "Conseiller Clientèle Particuliers (F/H)",
+    "Cash manager - F/H",
+    "Gestionnaire de clientèle (F/H) - Nuits Saint Georges (21)"
    ],
    "sample_matching": [
     {
-     "title": "IT Data Architect (F/H) Natixis CIB France CDI Paris Découvrir",
+     "title": "IT Data Architect (F/H)",
      "url": "https://recrutement.bpce.fr/job/it-data-architect-f-h",
-     "context": ""
+     "context": "IT Data Architect (F/H) Natixis CIB France CDI Paris Découvrir"
     }
+   ],
+   "page_info": "titre « Offres d’emploi - BPCE Recrutement », 51 liens <a>",
+   "json_calls": [
+    "GET 200 https://recrutement.bpce.fr/app/wp-json/bpce/v1/posts/?lang=fr&target_id=null",
+    "GET 200 https://recrutement.bpce.fr/app/wp-json/bpce/v1/global/?lang=fr",
+    "GET 200 https://recrutement.bpce.fr/app/wp-json/bpce/v1/routes/?lang=fr",
+    "GET 200 https://recrutement.bpce.fr/app/wp-json/bpce/v1/elevator/choices/?lang=fr",
+    "GET 200 https://recrutement.bpce.fr/app/wp-json/bpce/v1/user/popin/create/?lang=fr",
+    "GET 200 https://recrutement.bpce.fr/app/wp-json/bpce/v1/user/popin/login/?lang=fr",
+    "GET 200 https://recrutement.bpce.fr/app/wp-json/bpce/v1/jobs/popin/alert/?lang=fr",
+    "GET 200 https://recrutement.bpce.fr/app/wp-json/bpce/v1/user/popin/password/forgot/?lang=fr",
+    "POST 200 https://recrutement.bpce.fr/app/wp-json/bpce/v2/jobs/alert/list",
+    "GET 200 https://recrutement.bpce.fr/app/wp-json/bpce/v1/pages/?lang=fr&_uid=page-270-03f0f210019cc",
+    "GET 200 https://recrutement.bpce.fr/app/wp-json/bpce/v1/user/popin/password/reset/?lang=fr",
+    "POST 200 https://symposium.dashboard.davenhr.com/hit",
+    "POST 200 https://symposium.dashboard.davenhr.com/hit",
+    "POST 200 https://recrutement.bpce.fr/app/wp-json/bpce/v1/search/jobs",
+    "POST 200 https://recrutement.bpce.fr/app/wp-json/bpce/v1/search/jobs",
+    "POST 200 https://symposium.dashboard.davenhr.com/hit",
+    "POST 200 https://recrutement.bpce.fr/app/wp-json/bpce/v1/search/jobs"
    ]
   },
   "AXA": {
@@ -212,20 +243,35 @@
    "keyword_matches": 0,
    "errors": [],
    "sample_all": [],
-   "sample_matching": []
+   "sample_matching": [],
+   "page_info": "titre « AXA », 31 liens <a>",
+   "json_calls": []
   },
   "EDF": {
    "links_found": 0,
    "keyword_matches": 0,
    "errors": [],
    "sample_all": [],
-   "sample_matching": []
+   "sample_matching": [],
+   "page_info": "titre « Le site EDF est en cours de maintenance | EDF », 2 liens <a>",
+   "json_calls": []
   },
   "SNCF": {
-   "links_found": 0,
+   "links_found": 20,
    "keyword_matches": 0,
    "errors": [],
-   "sample_all": [],
+   "sample_all": [
+    "SNCF RESEAU Ingénieur ou Ingénieure d'études Système Maintenance Sol NExTEO Paris 9e Arrondissement, Paris (75) CDI De 6 à 10 ans Niveau 7 (Master, Ingénieur, BAC+5)",
+    "SNCF RESEAU",
+    "SNCF RESEAU",
+    "SNCF RESEAU",
+    "SNCF RESEAU",
+    "SNCF RESEAU",
+    "SNCF RESEAU",
+    "SNCF RESEAU Ingénieur ou ingénieure d'études signalisation - Spécialité Données d'Exécution Saint-Denis, Seine Saint-Denis (93) CDI Moins de 3 ans Niveau 7 (Master, Ingénieur, BAC+5)",
+    "SNCF VOYAGEURS",
+    "SNCF VOYAGEURS Agente ou agent de maintenance de première intervention Intercités, Paris 13e Paris 13e Arrondissement, Paris (75) CDI De 3 à 5 ans, Moins de 3 ans Niveau 4 (BAC)"
+   ],
    "sample_matching": []
   },
   "ETF (VINCI)": {
@@ -233,7 +279,12 @@
    "keyword_matches": 0,
    "errors": [],
    "sample_all": [],
-   "sample_matching": []
+   "sample_matching": [],
+   "page_info": "titre « Vinci Jobs | Politique de confidentialité », 22 liens <a>",
+   "json_calls": [
+    "POST 200 https://jobs.vinci.com/fr/tracking/gettracking",
+    "GET 200 https://jobs.vinci.com/fr/search-jobs/GetSearchRequestGeoLocation?lat=52.3667&lon=4.89454&IsUsingGeolocation=true&hasHtml5GeoError=false&geoType=ip2ifnohtml5"
+   ]
   },
   "CFL": {
    "links_found": 25,
@@ -251,25 +302,42 @@
     "Stagiaire Marketing (M/F)",
     "Expert / Experte SAP BTP & Architecture d’intégration"
    ],
-   "sample_matching": []
+   "sample_matching": [],
+   "page_info": "titre « Postes à pourvoir actuellement - sncfl », 44 liens <a>",
+   "json_calls": [
+    "GET 200 https://sncfl.csod.com/services/x/localization/v1/localizations/ui?groups=CareerSite&culture=fr-FR",
+    "GET 200 https://sncfl.csod.com/services/x/corpsettings/v1/corpsettings/ExternalCareerSiteDisplayKilometerFilter",
+    "GET 200 https://sncfl.csod.com/services/x/corpsettings/v1/corpsettings/CareerSiteDisplayPostingEndDate",
+    "GET 200 https://sncfl.csod.com/services/x/corpsettings/v1/corpsettings/EnableAllValuesForCustomFieldInMFC",
+    "GET 200 https://sncfl.csod.com/services/x/corpsettings/v1/corpsettings/EnableCountryStateCityFilterMFC",
+    "GET 200 https://sncfl.csod.com/services/x/corpsettings/v1/corpsettings/PostingDateInJobDetailsPage",
+    "GET 200 https://sncfl.csod.com/services/x/career-site/v1/careersites/1?cultureId=13",
+    "GET 200 https://sncfl.csod.com/services/x/localization/v1/localizations/ui?groups=CareerSite&culture=fr-FR",
+    "GET 200 https://sncfl.csod.com/services/x/core-customfields-service/v1/CustomFields?fieldIds=157&fieldIds=158&fieldIds=159&fieldIds=287&fieldIds=236&respectAvailablity=false&cultureId=13",
+    "POST 200 https://eu-fra.api.csod.com/rec-job-search/external/jobs"
+   ]
   },
   "SBB CFF FFS": {
    "links_found": 10,
    "keyword_matches": 0,
    "errors": [],
    "sample_all": [
-    "Fachspezialist:in Arbeitsvorbereitung, 60-100%, Bern / Work Smart La description du poste",
-    "Quereinstieg Kundenbegleiter:in für Frequenzerfassung, 50%, Zürich La description du poste",
-    "Techniker:in Fahrleitung, Chefmonteur:in, 100%, Biel/Bienne La description du poste",
-    "Technicien·ne lignes de contact, chef·fe monteur·euse, 100%, Biel/Bienne La description du poste",
-    "Kundenassistent:in, 60-100%, Bern La description du poste",
-    "Technicien·ne lignes de contact, chef·fe monteur·euse, 100%, Neuchâtel La description du poste",
-    "Technicien·ne qualifié·e lignes de contact, 60-100%, Neuchâtel La description du poste",
-    "Transportkoordinator:in Kurzfristplanung, 60-100%, Olten La description du poste",
-    "Polizist:in Transportpolizei, 60-100%, Winterthur La description du poste",
-    "Polizist:in Transportpolizei, 60-100%, Zürich La description du poste"
+    "Fachspezialist:in Arbeitsvorbereitung, 60-100%, Bern / Work Smart",
+    "Quereinstieg Kundenbegleiter:in für Frequenzerfassung, 50%, Zürich",
+    "Techniker:in Fahrleitung, Chefmonteur:in, 100%, Biel/Bienne",
+    "Technicien·ne lignes de contact, chef·fe monteur·euse, 100%, Biel/Bienne",
+    "Kundenassistent:in, 60-100%, Bern",
+    "Technicien·ne lignes de contact, chef·fe monteur·euse, 100%, Neuchâtel",
+    "Technicien·ne qualifié·e lignes de contact, 60-100%, Neuchâtel",
+    "Transportkoordinator:in Kurzfristplanung, 60-100%, Olten",
+    "Polizist:in Transportpolizei, 60-100%, Winterthur",
+    "Polizist:in Transportpolizei, 60-100%, Zürich"
    ],
-   "sample_matching": []
+   "sample_matching": [],
+   "page_info": "titre « Postes vacants | CFF », 147 liens <a>",
+   "json_calls": [
+    "GET 200 https://company.sbb.ch/content/internet/corporate/fr/jobs-karriere/jobs/job-suche/jcr:content/parmain/jobfilter.results.json?_=1792502431742"
+   ]
   }
  }
 }
