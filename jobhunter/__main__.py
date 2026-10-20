@@ -76,6 +76,9 @@ def run(argv=None) -> int:
                     if not matching:
                         for l in listings[:5]:
                             log.info("    (tout) %s  →  %s", l.title, l.url)
+                    for line in fetcher.diag[:6]:
+                        log.info("    %s", line)
+                    diagnose[name]["json"] = fetcher.diag[:10]
                     if len(matching) < 3 and comp.get("render"):
                         noise = ("google", "analytics", "doubleclick", "facebook", "linkedin", "hotjar",
                                  "didomi", "onetrust", "cookie", "consent", "tagcommander", "contentsquare")

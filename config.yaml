@@ -88,6 +88,7 @@ alert_after_failures: 6          # notif "source en panne" après 6 passages rat
 #                  render: true    = ouvrir avec un vrai navigateur (sites en JavaScript)
 #                  link_pattern    = morceau d'URL propre aux fiches d'offre (regex)
 #                                    sans lui : liens du même site dont le titre contient un mot-clé
+#                  url_template    = modèle d'adresse d'offre quand le JSON du site n'a pas de lien
 #  default_location : zone à utiliser si la fiche ne précise pas le lieu
 #  enabled: false   → désactive sans supprimer
 # ═══════════════════════════════════════════════════════════════════
@@ -115,10 +116,11 @@ companies:
     link_pattern: /offres-d-emploi/
 
   - name: BNP Paribas
-    source: html                # catégorie "Data Analytics", pages servies sans JavaScript
+    source: html                # catégorie "Data Analytics" (le site bloque les requêtes simples → navigateur)
+    render: true
     urls:
       - https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/data-analytics?page={page}
-    pages: [1, 2, 3, 4, 5, 6, 7, 8]
+    pages: [1, 2, 3, 4, 5]
     link_pattern: /emploi-carriere/offre-emploi/
 
   - name: Crédit Agricole
@@ -154,18 +156,18 @@ companies:
     link_pattern: /edf-recrute/offre/detail/
 
   - name: SNCF
-    source: html                # liste servie sans JavaScript, ~30 pages
+    source: html                # liste servie sans JavaScript (les ~200 offres les plus récentes)
     urls:
       - https://emploi.sncf.com/nos-offres?page={page}
-    pages: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    pages: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
     link_pattern: /nos-offres/\d+$
 
   - name: ETF (VINCI)
-    source: html
+    source: html                # site VINCI : recherche "ETF", puis filtre sur nos mots-clés
     render: true
     urls:
-      - https://jobs.vinci.com/fr/recherche-d-offres?keywords=ETF%20{q}
-    context_must_contain: [ETF]   # le site VINCI mélange toutes ses filiales
+      - https://jobs.vinci.com/fr/search-jobs/ETF
+    link_pattern: /job/
 
   - name: CFL
     source: html

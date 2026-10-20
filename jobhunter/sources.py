@@ -67,6 +67,8 @@ class Fetcher:
         self._ctx = None
         self._last: dict[str, float] = {}
         self.json_calls: list[str] = []   # appels JSON vus pendant le dernier rendu (pour --diagnose)
+        self.json_payloads: list = []     # (url, données) des réponses JSON du dernier rendu
+        self.diag: list[str] = []         # remarques pour --diagnose
         self.page_info: str = ""          # titre de page + nb de liens du dernier rendu
 
     def _polite(self, url: str):
@@ -95,12 +97,15 @@ class Fetcher:
                                                   viewport={"width": 1366, "height": 900})
         page = self._ctx.new_page()
         self.json_calls = []
+        self.json_payloads = []
+        responses = []
 
         def on_response(resp):
             try:
                 ct = resp.headers.get("content-type", "")
                 if "json" in ct and resp.request.resource_type in ("xhr", "fetch"):
                     self.json_calls.append(f"{resp.request.method} {resp.status} {resp.url[:250]}")
+                    responses.append(resp)
             except Exception:
                 pass
 
@@ -116,6 +121,12 @@ class Fetcher:
                         break
                 except Exception:
                     pass
+            # Si le clic nous a emmenés ailleurs (page "confidentialité"…), on revient à la liste
+            try:
+                if urlparse(page.url).path.rstrip("/") != urlparse(url).path.rstrip("/"):
+                    page.goto(url, wait_until="domcontentloaded", timeout=60000)
+            except Exception:
+                pass
             try:
                 page.wait_for_load_state("networkidle", timeout=15000)
             except Exception:
@@ -129,6 +140,12 @@ class Fetcher:
                 self.page_info = f"titre « {page.title()[:80]} », {page.locator('a').count()} liens <a>"
             except Exception:
                 self.page_info = ""
+            # Réponses JSON de la page (les sites en JavaScript y chargent souvent leurs offres)
+            for resp in responses[:60]:
+                try:
+                    self.json_payloads.append((resp.url, resp.json()))
+                except Exception:
+                    pass
             return html
         finally:
             page.close()
@@ -181,6 +198,12 @@ def _anchor_title(a) -> str:
     h = a.find(["h1", "h2", "h3", "h4"])
     if h and len(squash(h.get_text(" ", strip=True))) >= 4:
         return clean_title(h.get_text(" ", strip=True))[:200]
+    # Carte sans titre balisé (entreprise, intitulé, lieu, contrat…) : l'intitulé est
+    # en général le morceau de texte le plus long
+    parts = [squash(s) for s in a.stripped_strings]
+    parts = [p for p in parts if 4 <= len(p) <= 160]
+    if len(parts) >= 3:
+        return clean_title(max(parts, key=len))[:200]
     t = squash(a.get_text(" ", strip=True))
     if len(t) < 4 or len(t) > 200 or t.lower() in GENERIC_ANCHORS:
         h = a.find(["strong", "span"])
@@ -234,8 +257,14 @@ def harvest_links(html: str, base_url: str, link_pattern: str | None, keyword_hi
         if not title:
             continue
         old = found.get(url)
-        if not old or (len(old.title) < 6 <= len(title)):
+        better = (not old or (len(old.title) < 6 <= len(title))
+                  or (keyword_hit(title) and not keyword_hit(old.title)))
+        if better:
+            if old and len(old.context) > len(ctx):
+                ctx = old.context
             found[url] = Listing(url=url, title=title, context=ctx if ctx != title else "")
+        elif old and len(ctx) > len(old.context):
+            old.context = ctx
     # Certains sites (Phenom, Cornerstone…) mettent les offres dans un JSON embarqué
     for script in soup.find_all("script", type="application/ld+json"):
         for jp in _jobpostings(script.string or ""):
@@ -243,6 +272,96 @@ def harvest_links(html: str, base_url: str, link_pattern: str | None, keyword_hi
             if jp.get("title") and url.startswith("http") and url not in found:
                 found[url] = Listing(url=url, title=squash(jp["title"]), context=_jp_struct(jp))
     return list(found.values())
+
+
+# ----------------------------------------------------------- offres dans du JSON
+TITLE_KEYS = ("title", "jobTitle", "job_title", "JobTitle", "Title", "postingTitle", "displayJobTitle",
+              "intitule", "intitulePoste", "titre", "libelle", "name", "label")
+URL_KEYS = ("url", "jobUrl", "job_url", "applyUrl", "detailUrl", "detailsUrl", "externalUrl", "absolute_url",
+            "canonicalUrl", "seoUrl", "link", "href", "permalink", "jobLink", "Url", "URL")
+
+
+def _first(d: dict, keys) -> str:
+    for k in keys:
+        v = d.get(k)
+        if isinstance(v, str) and v.strip():
+            return v.strip()
+    return ""
+
+
+def _flat_text(d, depth: int = 0) -> str:
+    """Valeurs texte courtes d'un objet (lieu, contrat, expérience…) pour le filtrage."""
+    out = []
+    if isinstance(d, dict):
+        for k, v in d.items():
+            if isinstance(v, (str, int, float)) and not isinstance(v, bool):
+                s = str(v)
+                if 1 < len(s) <= 120 and not s.startswith("http"):
+                    out.append(s)
+            elif depth < 2:
+                out.append(_flat_text(v, depth + 1))
+    elif isinstance(d, list) and depth < 2:
+        out += [_flat_text(x, depth + 1) for x in d[:5]]
+    return squash(" ".join(o for o in out if o))[:700]
+
+
+def _job_lists(data):
+    """Trouve les listes d'au moins 2 objets qui ressemblent à des offres (ont un titre)."""
+    stack = [data]
+    while stack:
+        x = stack.pop()
+        if isinstance(x, list):
+            dicts = [y for y in x if isinstance(y, dict)]
+            if len(dicts) >= 2 and sum(1 for y in dicts if _first(y, TITLE_KEYS)) >= max(2, len(dicts) // 2):
+                yield dicts
+            stack.extend(y for y in x if isinstance(y, (list, dict)))
+        elif isinstance(x, dict):
+            stack.extend(v for v in x.values() if isinstance(v, (list, dict)))
+
+
+class _Blank(dict):
+    def __missing__(self, key):
+        return ""
+
+
+def listings_from_json(data, base_url: str, url_template: str | None = None) -> tuple[list[Listing], dict | None]:
+    """Renvoie (offres, exemple d'objet sans lien exploitable — pour le diagnostic)."""
+    out, sample = [], None
+    for objs in _job_lists(data):
+        for o in objs:
+            title = clean_title(_first(o, TITLE_KEYS))
+            if not (4 <= len(title) <= 200):
+                continue
+            link = _first(o, URL_KEYS)
+            if url_template:
+                try:
+                    flat = _Blank({k: v for k, v in o.items() if isinstance(v, (str, int, float))})
+                    link = url_template.format_map(flat)
+                except Exception:
+                    link = ""
+            if not link:
+                sample = sample or o
+                continue
+            url = clean_url(urljoin(base_url, link))
+            if url.startswith("http") and not url.rstrip("/").endswith(urlparse(url).netloc):
+                out.append(Listing(url=url, title=title, context=_flat_text(o)))
+            else:
+                sample = sample or o
+    return out, sample
+
+
+PHENOM_RE = re.compile(r"phApp\.ddo\s*=\s*(\{.*?\});\s*\n", re.S)
+
+
+def inline_json(html: str):
+    """JSON d'offres embarqué dans la page (sites Phenom, Next.js…)."""
+    for rx in (PHENOM_RE, re.compile(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', re.S)):
+        m = rx.search(html)
+        if m:
+            try:
+                yield json.loads(m.group(1))
+            except Exception:
+                pass
 
 
 def fetch_rss(fetcher: Fetcher, url: str) -> list[Listing]:
@@ -270,14 +389,33 @@ def collect(comp: dict, fetcher: Fetcher, keywords: list[str], keyword_hit) -> t
     src = comp.get("source", "html")
     listings: dict[str, Listing] = {}
     errors = []
+    fetcher.diag = []
+    tpl = comp.get("url_template")
     for url in expand_urls(comp, keywords):
         try:
             if src == "rss":
                 items = fetch_rss(fetcher, url)
             else:
-                html = fetcher.get(url, render=comp.get("render", False),
+                render = comp.get("render", False)
+                fetcher.json_payloads = []
+                html = fetcher.get(url, render=render,
                                    wait_ms=comp.get("wait_ms", 3000), scroll=comp.get("scroll", 0))
                 items = harvest_links(html, url, comp.get("link_pattern"), keyword_hit)
+                # Offres trouvées dans les réponses JSON ou le JSON embarqué
+                payloads = list(fetcher.json_payloads) if render else []
+                payloads += [("(page)", d) for d in inline_json(html)]
+                for src_url, data in payloads:
+                    js, sample = listings_from_json(data, url, tpl)
+                    if comp.get("json_url_pattern"):
+                        js = [j for j in js if re.search(comp["json_url_pattern"], j.url, re.I)]
+                    if js:
+                        fetcher.diag.append(f"[json-offres] {len(js)} offres dans {src_url[:120]} "
+                                            f"(ex. « {js[0].title} » → {js[0].url})")
+                        items += js
+                    elif sample:
+                        keys = ", ".join(list(sample.keys())[:25])
+                        fetcher.diag.append(f"[json-sans-lien] {src_url[:120]} — clés : {keys} — exemple : "
+                                            f"{json.dumps(sample, ensure_ascii=False)[:500]}")
             for it in items:
                 listings.setdefault(it.url, it)
         except Exception as e:  # une URL en panne n'arrête pas les autres
