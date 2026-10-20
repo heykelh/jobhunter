@@ -1,4 +1,4 @@
-"""Point d'entrée : `python -m jobwatch` (veille normale) ou `python -m jobwatch --diagnose`.
+"""Point d'entrée : `python -m jobhunter` (veille normale) ou `python -m jobhunter --diagnose`.
 
 --diagnose : n'ouvre aucune fiche et n'envoie aucune notif. Affiche, pour chaque
 entreprise, combien de liens d'offres ont été trouvés et quelques titres. Sert à
@@ -76,6 +76,15 @@ def run(argv=None) -> int:
                     if not matching:
                         for l in listings[:5]:
                             log.info("    (tout) %s  →  %s", l.title, l.url)
+                    if len(matching) < 3 and comp.get("render"):
+                        noise = ("google", "analytics", "doubleclick", "facebook", "linkedin", "hotjar",
+                                 "didomi", "onetrust", "cookie", "consent", "tagcommander", "contentsquare")
+                        calls = [c for c in fetcher.json_calls if not any(n in c.lower() for n in noise)]
+                        log.info("    [page] %s", fetcher.page_info or "?")
+                        for c in calls[:12]:
+                            log.info("    [json] %s", c)
+                        diagnose[name]["page_info"] = fetcher.page_info
+                        diagnose[name]["json_calls"] = calls[:30]
                     continue
 
                 if not listings and errors:
@@ -154,7 +163,7 @@ def run(argv=None) -> int:
 
     notifier.new_jobs(fresh)
     if seeded_summary:
-        notifier.send("JobWatch est en route ✅",
+        notifier.send("JobHunter est en route ✅",
                       "Offres déjà en ligne ajoutées au site (sans notif) : " + ", ".join(seeded_summary)
                       + ". Tu seras notifié pour chaque nouvelle offre à partir de maintenant.",
                       click=notifier.site_url or None, tags=["tada"])

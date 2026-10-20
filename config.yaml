@@ -1,5 +1,5 @@
 # ═══════════════════════════════════════════════════════════════════
-#  JobWatch — tes critères et tes entreprises
+#  JobHunter — tes critères et tes entreprises
 #  Modifie ce fichier directement sur GitHub (icône crayon), puis "Commit".
 #  Le prochain passage (toutes les 30 min) prendra les changements en compte.
 # ═══════════════════════════════════════════════════════════════════
@@ -100,24 +100,25 @@ companies:
       - https://recrutement.airfrance.com/handlers/offerRss.ashx?LCID=1036&Rss_Contract=3443
 
   - name: TotalEnergies
-    source: html                # site Avature, pages servies sans JavaScript
+    source: html                # site Avature, 20 offres par page, les plus récentes d'abord
     urls:
-      - https://jobs.totalenergies.com/fr_FR/careers/SearchJobs/?jobRecordsPerPage=50&jobOffset={offset}
-    offsets: [0, 50, 100, 150, 200, 250]
+      - https://jobs.totalenergies.com/fr_FR/careers/SearchJobs/?jobRecordsPerPage=20&jobOffset={offset}
+    offsets: [0, 20, 40, 60, 80, 100, 120, 140, 160, 180]
     link_pattern: /careers/JobDetail/
 
   - name: Société Générale
     source: html
     render: true
+    wait_ms: 6000
     urls:
       - https://careers.societegenerale.com/rechercher?query={q}
     link_pattern: /offres-d-emploi/
 
   - name: BNP Paribas
-    source: html
-    render: true
+    source: html                # catégorie "Data Analytics", pages servies sans JavaScript
     urls:
-      - https://group.bnpparibas/emploi-carriere/toutes-offres-emploi?q={q}
+      - https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/data-analytics?page={page}
+    pages: [1, 2, 3, 4, 5, 6, 7, 8]
     link_pattern: /emploi-carriere/offre-emploi/
 
   - name: Crédit Agricole
@@ -125,16 +126,21 @@ companies:
     render: true
     urls:
       - https://groupecreditagricole.jobs/fr/nos-offres/?keyword={q}
+    link_pattern: /nos-offres-emploi/
 
   - name: BPCE
     source: html
     render: true
+    scroll: 4
+    wait_ms: 5000
     urls:
       - https://recrutement.bpce.fr/offres-emploi?keywords={q}
+    link_pattern: /job/
 
   - name: AXA
     source: html
     render: true
+    wait_ms: 6000
     urls:
       - https://careers.axa.com/global/en/search-results?keywords={q}
     link_pattern: /job/
@@ -142,15 +148,17 @@ companies:
   - name: EDF
     source: html
     render: true
+    wait_ms: 6000
     urls:
       - https://www.edf.fr/edf-recrute/rejoignez-nous/voir-les-offres/nos-offres?search={q}
     link_pattern: /edf-recrute/offre/detail/
 
   - name: SNCF
-    source: html
-    render: true
+    source: html                # liste servie sans JavaScript, ~30 pages
     urls:
-      - https://www.emploi.sncf.com/nos-offres/?keywords={q}
+      - https://emploi.sncf.com/nos-offres?page={page}
+    pages: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    link_pattern: /nos-offres/\d+$
 
   - name: ETF (VINCI)
     source: html

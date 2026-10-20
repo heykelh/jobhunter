@@ -66,6 +66,8 @@ class Fetcher:
         self._browser = None
         self._ctx = None
         self._last: dict[str, float] = {}
+        self.json_calls: list[str] = []   # appels JSON vus pendant le dernier rendu (pour --diagnose)
+        self.page_info: str = ""          # titre de page + nb de liens du dernier rendu
 
     def _polite(self, url: str):
         host = urlparse(url).netloc
@@ -92,8 +94,28 @@ class Fetcher:
             self._ctx = self._browser.new_context(user_agent=UA, locale="fr-FR",
                                                   viewport={"width": 1366, "height": 900})
         page = self._ctx.new_page()
+        self.json_calls = []
+
+        def on_response(resp):
+            try:
+                ct = resp.headers.get("content-type", "")
+                if "json" in ct and resp.request.resource_type in ("xhr", "fetch"):
+                    self.json_calls.append(f"{resp.request.method} {resp.status} {resp.url[:250]}")
+            except Exception:
+                pass
+
+        page.on("response", on_response)
         try:
             page.goto(url, wait_until="domcontentloaded", timeout=60000)
+            # Bandeau cookies : on tente d'accepter pour débloquer la liste
+            for label in ("Tout accepter", "Accepter", "Accept all", "Accept", "J'accepte", "Alle akzeptieren"):
+                try:
+                    btn = page.get_by_role("button", name=label, exact=False).first
+                    if btn.is_visible(timeout=500):
+                        btn.click(timeout=1500)
+                        break
+                except Exception:
+                    pass
             try:
                 page.wait_for_load_state("networkidle", timeout=15000)
             except Exception:
@@ -102,7 +124,12 @@ class Fetcher:
             for _ in range(scroll):
                 page.mouse.wheel(0, 4000)
                 page.wait_for_timeout(1200)
-            return page.content()
+            html = page.content()
+            try:
+                self.page_info = f"titre « {page.title()[:80]} », {page.locator('a').count()} liens <a>"
+            except Exception:
+                self.page_info = ""
+            return html
         finally:
             page.close()
 
@@ -137,13 +164,29 @@ def expand_urls(comp: dict, keywords: list[str]) -> list[str]:
     return list(dict.fromkeys(out))
 
 
+TITLE_PREFIX = re.compile(r"^\s*(?:ref\.?\s*:?\s*)?\d{4}-\d{3,}\s*[-–:]\s*", re.I)
+TITLE_SUFFIX = re.compile(r"\s*(?:la description du poste|stellenbeschreibung|job description|d[ée]couvrir|"
+                          r"voir l'offre|postuler|en savoir plus|lire la suite)\s*$", re.I)
+
+
+def clean_title(t: str) -> str:
+    t = TITLE_PREFIX.sub("", squash(t))
+    for _ in range(2):
+        t = TITLE_SUFFIX.sub("", t)
+    return t.strip(" -–|·")
+
+
 def _anchor_title(a) -> str:
+    # Lien qui englobe toute une carte : on préfère le titre (h1-h4) qu'elle contient
+    h = a.find(["h1", "h2", "h3", "h4"])
+    if h and len(squash(h.get_text(" ", strip=True))) >= 4:
+        return clean_title(h.get_text(" ", strip=True))[:200]
     t = squash(a.get_text(" ", strip=True))
     if len(t) < 4 or len(t) > 200 or t.lower() in GENERIC_ANCHORS:
-        h = a.find(["h1", "h2", "h3", "h4", "strong", "span"])
+        h = a.find(["strong", "span"])
         t2 = squash(h.get_text(" ", strip=True)) if h else ""
         t = t2 or squash(a.get("title") or a.get("aria-label") or "")
-    return t[:200]
+    return clean_title(t)[:200]
 
 
 def _context(a) -> str:
@@ -183,6 +226,9 @@ def harvest_links(html: str, base_url: str, link_pattern: str | None, keyword_hi
             if base_host not in host or not keyword_hit(title):
                 continue
         ctx = _context(a)
+        own = squash(a.get_text(" ", strip=True))
+        if len(own) > len(ctx):  # lien-carte : les infos (contrat, lieu) sont dans le lien lui-même
+            ctx = own[:700]
         if (title.lower() in GENERIC_ANCHORS or len(title) < 4) and ctx:
             title = ctx[:140]
         if not title:
@@ -204,7 +250,7 @@ def fetch_rss(fetcher: Fetcher, url: str) -> list[Listing]:
     soup = BeautifulSoup(xml, "xml")
     out = []
     for it in soup.find_all(["item", "entry"]):
-        title = squash(it.title.get_text()) if it.title else ""
+        title = clean_title(it.title.get_text()) if it.title else ""
         link = ""
         if it.link:
             link = it.link.get("href") or it.link.get_text()
