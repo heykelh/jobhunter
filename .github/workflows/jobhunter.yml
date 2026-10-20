@@ -1,0 +1,71 @@
+name: JobHunter
+
+on:
+  schedule:
+    # Toutes les 30 min de 6h à minuit (heure de Paris ≈ UTC+1/+2). GitHub peut décaler de quelques minutes.
+    - cron: "7,37 4-22 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "run = veille normale · diagnose = tester les sources sans notif"
+        type: choice
+        options: [run, diagnose]
+        default: run
+      only:
+        description: "Nom d'une seule entreprise (facultatif)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: jobhunter
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installer les dépendances
+        run: pip install -r requirements.txt
+
+      - name: Cache du navigateur
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: pw-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
+
+      - name: Installer Chromium
+        run: python -m playwright install --with-deps chromium
+
+      - name: Lancer la veille
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
+          NTFY_SERVER: ${{ vars.NTFY_SERVER }}
+          MODE: ${{ github.event.inputs.mode }}
+          ONLY: ${{ github.event.inputs.only }}
+        run: |
+          set --
+          if [ "$MODE" = "diagnose" ]; then set -- --diagnose; fi
+          if [ -n "$ONLY" ]; then set -- "$@" --only "$ONLY"; fi
+          python -m jobhunter "$@"
+
+      - name: Enregistrer les offres
+        run: |
+          git config user.name "jobhunter-bot"
+          git config user.email "jobhunter-bot@users.noreply.github.com"
+          git add docs/data state
+          if git diff --cached --quiet; then echo "Rien de neuf"; exit 0; fi
+          git commit -m "Offres $(date -u +'%Y-%m-%d %H:%M') UTC"
+          git pull --rebase --autostash || true
+          git push

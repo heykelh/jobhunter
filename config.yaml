@@ -1,0 +1,177 @@
+# ═══════════════════════════════════════════════════════════════════
+#  JobWatch — tes critères et tes entreprises
+#  Modifie ce fichier directement sur GitHub (icône crayon), puis "Commit".
+#  Le prochain passage (toutes les 30 min) prendra les changements en compte.
+# ═══════════════════════════════════════════════════════════════════
+
+# Lien de ton site — utilisé dans les notifs
+site_url: "https://heykelh.github.io/jobwatch/"
+
+# ─── MOTS-CLÉS ──────────────────────────────────────────────────────
+# Le TITRE de l'offre doit contenir au moins un de ces mots.
+# Insensible aux majuscules/accents ; "analyst" trouve aussi "analyste".
+# Pour en ajouter plus tard : une ligne par mot (ex. "- gouvernance", "- bi", "- daten").
+keywords:
+  - data
+  - analyst
+
+# Titres écartés d'office (seniorité, stages, alternances…)
+exclude_title:
+  - senior
+  - sr
+  - lead
+  - principal
+  - head
+  - chief
+  - directeur
+  - directrice
+  - director
+  - manager
+  - expert
+  - experte
+  - confirmé
+  - confirmée
+  - expérimenté
+  - expérimentée
+  - stage
+  - stagiaire
+  - intern
+  - internship
+  - trainee
+  - alternance
+  - alternant
+  - alternante
+  - apprenti
+  - apprentie
+  - apprentissage
+  - apprenticeship
+  - work-study
+  - thèse
+  - doctorat
+  - phd
+  - postdoc
+  - intérim
+  - freelance
+  - praktikum
+  - praktikant
+  - werkstudent
+  - lehre
+
+# ─── CONTRAT / EXPÉRIENCE / LIEU ────────────────────────────────────
+contracts: [CDI, CDD]
+max_experience_years: 2          # écarte les offres qui demandent 3 ans ou plus
+zones: [ile-de-france, luxembourg, suisse]
+
+# Si l'info n'est pas trouvée dans l'offre : keep = on garde (avec "?"), drop = on écarte
+unknown_contract: keep
+unknown_experience: keep
+unknown_location: drop
+
+# ─── NOTIFICATIONS ntfy ─────────────────────────────────────────────
+# Le nom du topic se met dans les "Secrets" GitHub (NTFY_TOPIC), pas ici.
+notify:
+  first_run: false               # pas de rafale de notifs pour le stock déjà en ligne
+  max_per_run: 15                # au-delà, une seule notif récapitulative
+
+# ─── RÉGLAGES TECHNIQUES ────────────────────────────────────────────
+delay_seconds: 1.5               # pause entre deux requêtes vers un même site (politesse)
+max_details_per_company: 25      # fiches ouvertes par entreprise et par passage
+alert_after_failures: 6          # notif "source en panne" après 6 passages ratés (~3 h)
+
+# ═══════════════════════════════════════════════════════════════════
+#  ENTREPRISES
+#  Pour en ajouter une : copie un bloc, change le nom et l'URL, puis lance
+#  le workflow en mode "diagnose" pour vérifier que des offres remontent.
+#
+#  source: rss   → url d'un flux RSS (le plus fiable)
+#  source: html  → urls de pages de résultats ; {q} = remplacé par chaque mot-clé
+#                  render: true    = ouvrir avec un vrai navigateur (sites en JavaScript)
+#                  link_pattern    = morceau d'URL propre aux fiches d'offre (regex)
+#                                    sans lui : liens du même site dont le titre contient un mot-clé
+#  default_location : zone à utiliser si la fiche ne précise pas le lieu
+#  enabled: false   → désactive sans supprimer
+# ═══════════════════════════════════════════════════════════════════
+companies:
+
+  - name: Air France
+    source: rss                 # flux officiels CDI + CDD du site recrutement.airfrance.com
+    urls:
+      - https://recrutement.airfrance.com/handlers/offerRss.ashx?LCID=1036&Rss_Contract=3444
+      - https://recrutement.airfrance.com/handlers/offerRss.ashx?LCID=1036&Rss_Contract=3443
+
+  - name: TotalEnergies
+    source: html                # site Avature, pages servies sans JavaScript
+    urls:
+      - https://jobs.totalenergies.com/fr_FR/careers/SearchJobs/?jobRecordsPerPage=50&jobOffset={offset}
+    offsets: [0, 50, 100, 150, 200, 250]
+    link_pattern: /careers/JobDetail/
+
+  - name: Société Générale
+    source: html
+    render: true
+    urls:
+      - https://careers.societegenerale.com/rechercher?query={q}
+    link_pattern: /offres-d-emploi/
+
+  - name: BNP Paribas
+    source: html
+    render: true
+    urls:
+      - https://group.bnpparibas/emploi-carriere/toutes-offres-emploi?q={q}
+    link_pattern: /emploi-carriere/offre-emploi/
+
+  - name: Crédit Agricole
+    source: html
+    render: true
+    urls:
+      - https://groupecreditagricole.jobs/fr/nos-offres/?keyword={q}
+
+  - name: BPCE
+    source: html
+    render: true
+    urls:
+      - https://recrutement.bpce.fr/offres-emploi?keywords={q}
+
+  - name: AXA
+    source: html
+    render: true
+    urls:
+      - https://careers.axa.com/global/en/search-results?keywords={q}
+    link_pattern: /job/
+
+  - name: EDF
+    source: html
+    render: true
+    urls:
+      - https://www.edf.fr/edf-recrute/rejoignez-nous/voir-les-offres/nos-offres?search={q}
+    link_pattern: /edf-recrute/offre/detail/
+
+  - name: SNCF
+    source: html
+    render: true
+    urls:
+      - https://www.emploi.sncf.com/nos-offres/?keywords={q}
+
+  - name: ETF (VINCI)
+    source: html
+    render: true
+    urls:
+      - https://jobs.vinci.com/fr/recherche-d-offres?keywords=ETF%20{q}
+    context_must_contain: [ETF]   # le site VINCI mélange toutes ses filiales
+
+  - name: CFL
+    source: html
+    render: true                  # site Cornerstone (sncfl.csod.com)
+    urls:
+      - https://sncfl.csod.com/ux/ats/careersite/1/home?c=sncfl
+    link_pattern: /requisition/
+    scroll: 4
+    default_location: luxembourg
+
+  - name: SBB CFF FFS
+    source: html
+    render: true
+    urls:
+      - https://jobs.sbb.ch/v2/offene-stellen?term={q}
+    link_pattern: /offene-stellen/[^/?]+/[0-9a-f-]{36}
+    default_location: suisse

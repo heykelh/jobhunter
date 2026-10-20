@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JobWatch</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>">
+<style>
+  :root {
+    --bg: #f5f4f0; --surface: #ffffff; --ink: #1b1d1f; --muted: #6b6f75; --line: #e3e1db;
+    --accent: #0f6b5c; --accent-soft: #e2f1ed; --new: #c2410c; --new-soft: #fdeee4;
+    --warn: #a16207; --warn-soft: #fdf6dc; --bad: #b91c1c; --bad-soft: #fde8e8;
+    --radius: 14px; --shadow: 0 1px 2px rgba(0,0,0,.04), 0 4px 14px rgba(0,0,0,.04);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #111314; --surface: #1a1d1f; --ink: #ecebe7; --muted: #9a9ea4; --line: #2a2e31;
+      --accent: #4fc3a8; --accent-soft: #15322c; --new: #fb923c; --new-soft: #3a2113;
+      --warn: #facc15; --warn-soft: #332a0c; --bad: #f87171; --bad-soft: #3a1515; --shadow: none;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font: 15px/1.45 ui-sans-serif, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 20px 16px 60px; }
+  header { display: flex; justify-content: space-between; align-items: flex-end; gap: 12px; flex-wrap: wrap; }
+  h1 { margin: 0; font-size: 26px; letter-spacing: -.02em; }
+  h1 span { color: var(--accent); }
+  .updated { color: var(--muted); font-size: 13px; }
+  .criteria { margin: 10px 0 18px; color: var(--muted); font-size: 13px; }
+  .criteria b { color: var(--ink); font-weight: 600; }
+
+  .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 16px; }
+  .stat { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 14px; }
+  .stat .n { font-size: 24px; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .stat .l { color: var(--muted); font-size: 12px; }
+
+  nav.tabs { display: flex; gap: 6px; margin-bottom: 12px; border-bottom: 1px solid var(--line); overflow-x: auto; }
+  nav.tabs button { background: none; border: 0; padding: 10px 12px; font: inherit; color: var(--muted);
+                    border-bottom: 2px solid transparent; cursor: pointer; white-space: nowrap; }
+  nav.tabs button[aria-selected="true"] { color: var(--ink); border-color: var(--accent); font-weight: 600; }
+
+  .filters { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+  .filters input[type=search], .filters select {
+    flex: 1 1 180px; min-width: 0; padding: 10px 12px; border-radius: 10px; border: 1px solid var(--line);
+    background: var(--surface); color: var(--ink); font: inherit; }
+  .toggle { display: inline-flex; align-items: center; gap: 6px; padding: 8px 12px; border-radius: 999px;
+            border: 1px solid var(--line); background: var(--surface); font-size: 13px; cursor: pointer; user-select: none; }
+  .toggle input { accent-color: var(--accent); }
+
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+          padding: 14px 16px; margin-bottom: 10px; box-shadow: var(--shadow); }
+  .card.applied { opacity: .55; }
+  .row1 { display: flex; justify-content: space-between; gap: 10px; align-items: baseline; }
+  .company { font-size: 12px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--accent); }
+  .when { font-size: 12px; color: var(--muted); white-space: nowrap; }
+  .title { display: block; margin: 4px 0 8px; font-size: 16.5px; font-weight: 600; color: var(--ink); text-decoration: none; }
+  .title:hover { text-decoration: underline; }
+  .tags { display: flex; gap: 6px; flex-wrap: wrap; }
+  .tag { font-size: 12px; padding: 3px 8px; border-radius: 999px; background: var(--bg); border: 1px solid var(--line); color: var(--muted); }
+  .tag.new { background: var(--new-soft); color: var(--new); border-color: transparent; font-weight: 700; }
+  .tag.junior { background: var(--accent-soft); color: var(--accent); border-color: transparent; }
+  .tag.gone { background: var(--warn-soft); color: var(--warn); border-color: transparent; }
+  .actions { display: flex; gap: 8px; margin-top: 12px; flex-wrap: wrap; }
+  .btn { font: inherit; font-size: 13px; padding: 7px 12px; border-radius: 9px; border: 1px solid var(--line);
+         background: var(--surface); color: var(--ink); cursor: pointer; text-decoration: none; }
+  .btn.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+  @media (prefers-color-scheme: dark) { .btn.primary { color: #0b1714; } }
+  .btn[aria-pressed="true"] { background: var(--accent-soft); color: var(--accent); border-color: transparent; }
+
+  .empty { text-align: center; color: var(--muted); padding: 40px 10px; }
+  .reason { font-size: 13px; color: var(--muted); margin-top: 2px; }
+  table.health { width: 100%; border-collapse: collapse; background: var(--surface); border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); }
+  table.health th, table.health td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); font-size: 13.5px; vertical-align: top; }
+  table.health th { color: var(--muted); font-weight: 600; font-size: 12px; }
+  .pill { display: inline-block; font-size: 12px; padding: 2px 8px; border-radius: 999px; font-weight: 600; }
+  .pill.ok { background: var(--accent-soft); color: var(--accent); }
+  .pill.vide { background: var(--warn-soft); color: var(--warn); }
+  .pill.erreur { background: var(--bad-soft); color: var(--bad); }
+  .err { color: var(--bad); font-size: 12px; word-break: break-word; }
+  .hint { color: var(--muted); font-size: 13px; margin: 10px 2px; }
+  @media (max-width: 520px) { .stats { grid-template-columns: repeat(3, 1fr); } .stat .n { font-size: 20px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Job<span>Watch</span></h1>
+    <div class="updated" id="updated">Chargement…</div>
+  </header>
+  <div class="criteria" id="criteria"></div>
+
+  <div class="stats">
+    <div class="stat"><div class="n" id="s-active">–</div><div class="l">offres en ligne</div></div>
+    <div class="stat"><div class="n" id="s-new">–</div><div class="l">nouvelles (48 h)</div></div>
+    <div class="stat"><div class="n" id="s-applied">–</div><div class="l">candidatures</div></div>
+  </div>
+
+  <nav class="tabs" role="tablist">
+    <button role="tab" data-tab="jobs" aria-selected="true">Offres</button>
+    <button role="tab" data-tab="rejected" aria-selected="false">Écartées</button>
+    <button role="tab" data-tab="health" aria-selected="false">Sources</button>
+  </nav>
+
+  <section id="tab-jobs">
+    <div class="filters">
+      <input type="search" id="q" placeholder="Rechercher un titre…">
+      <select id="company"><option value="">Toutes les entreprises</option></select>
+      <label class="toggle"><input type="checkbox" id="only-new"> Nouvelles</label>
+      <label class="toggle"><input type="checkbox" id="hide-applied"> Masquer postulées</label>
+      <label class="toggle"><input type="checkbox" id="show-gone"> Inclure retirées</label>
+    </div>
+    <div id="jobs"></div>
+  </section>
+
+  <section id="tab-rejected" hidden>
+    <p class="hint">Offres qui contenaient tes mots-clés mais ont été écartées par un filtre. Utile pour ajuster <code>config.yaml</code>.</p>
+    <div class="filters"><input type="search" id="rq" placeholder="Rechercher…"></div>
+    <div id="rejected"></div>
+  </section>
+
+  <section id="tab-health" hidden>
+    <p class="hint">État de chaque site carrière au dernier passage. « vide » ou « erreur » plusieurs fois de suite = le site a sans doute changé : relance en mode <b>diagnose</b>.</p>
+    <div id="health"></div>
+  </section>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+const store = {
+  get(k, d) { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
+};
+let applied = new Set(store.get("jw-applied", []));
+let hidden = new Set(store.get("jw-hidden", []));
+let DATA = { jobs: [], rejected: [], health: {}, meta: {} };
+
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
+const hours = iso => (Date.now() - new Date(iso).getTime()) / 36e5;
+function ago(iso) {
+  if (!iso) return "";
+  const h = hours(iso);
+  if (h < 1) return `il y a ${Math.max(1, Math.round(h * 60))} min`;
+  if (h < 24) return `il y a ${Math.round(h)} h`;
+  const d = Math.round(h / 24);
+  return d === 1 ? "hier" : `il y a ${d} j`;
+}
+const isNew = j => !j.seed && hours(j.first_seen) < 48;
+const isGone = j => hours(j.last_seen) > 72;
+
+async function load(name, fallback) {
+  try { const r = await fetch(`data/${name}.json?t=${Date.now()}`); if (!r.ok) throw 0; return await r.json(); }
+  catch { return fallback; }
+}
+
+async function init() {
+  const [jobs, rej, health, meta] = await Promise.all([
+    load("jobs", { jobs: [] }), load("rejected", { items: [] }), load("health", { companies: {} }), load("meta", {})
+  ]);
+  DATA = { jobs: jobs.jobs || [], rejected: rej.items || [], health: health.companies || {}, meta };
+  $("#updated").textContent = jobs.updated ? `Mis à jour ${ago(jobs.updated)}` : "Pas encore de données — lance le workflow une première fois.";
+  if (meta.keywords) {
+    $("#criteria").innerHTML = `Mots-clés <b>${meta.keywords.map(esc).join(", ")}</b> · ${esc(meta.contracts.join("/"))} · ≤ ${meta.max_experience_years} ans d'exp. · ${esc(meta.zones.join(", "))} · ${meta.companies.length} entreprises`;
+  }
+  const companies = [...new Set(DATA.jobs.map(j => j.company))].sort((a, b) => a.localeCompare(b, "fr"));
+  $("#company").innerHTML += companies.map(c => `<option>${esc(c)}</option>`).join("");
+  renderJobs(); renderRejected(); renderHealth();
+}
+
+function renderJobs() {
+  const q = $("#q").value.trim().toLowerCase();
+  const co = $("#company").value;
+  const list = DATA.jobs.filter(j =>
+    !hidden.has(j.id) &&
+    (!q || j.title.toLowerCase().includes(q)) &&
+    (!co || j.company === co) &&
+    (!$("#only-new").checked || isNew(j)) &&
+    (!$("#hide-applied").checked || !applied.has(j.id)) &&
+    ($("#show-gone").checked || !isGone(j))
+  );
+  const active = DATA.jobs.filter(j => !isGone(j) && !hidden.has(j.id));
+  $("#s-active").textContent = active.length;
+  $("#s-new").textContent = active.filter(isNew).length;
+  $("#s-applied").textContent = DATA.jobs.filter(j => applied.has(j.id)).length;
+
+  $("#jobs").innerHTML = list.length ? list.map(j => `
+    <article class="card ${applied.has(j.id) ? "applied" : ""}">
+      <div class="row1"><span class="company">${esc(j.company)}</span><span class="when" title="${esc(j.first_seen)}">${j.seed ? "déjà en ligne" : "repérée " + ago(j.first_seen)}</span></div>
+      <a class="title" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
+      <div class="tags">
+        ${isNew(j) ? '<span class="tag new">NOUVEAU</span>' : ""}
+        ${isGone(j) ? '<span class="tag gone">plus vue depuis ' + esc(ago(j.last_seen).replace("il y a ", "")) + '</span>' : ""}
+        <span class="tag">📍 ${esc(j.zone)}</span>
+        <span class="tag">📄 ${esc(j.contract)}</span>
+        <span class="tag ${j.junior ? "junior" : ""}">🎓 ${esc(j.experience)}</span>
+      </div>
+      <div class="actions">
+        <a class="btn primary" href="${esc(j.url)}" target="_blank" rel="noopener">Voir et postuler</a>
+        <button class="btn" data-apply="${j.id}" aria-pressed="${applied.has(j.id)}">${applied.has(j.id) ? "✓ Postulé" : "J'ai postulé"}</button>
+        <button class="btn" data-hide="${j.id}">Masquer</button>
+      </div>
+    </article>`).join("")
+    : `<div class="empty">${DATA.jobs.length ? "Aucune offre ne correspond à ces filtres." : "Aucune offre pour l'instant. Elles apparaîtront ici dès le premier passage."}</div>`;
+}
+
+function renderRejected() {
+  const q = $("#rq").value.trim().toLowerCase();
+  const list = DATA.rejected.filter(r => !q || (r.title + " " + r.company + " " + r.reason).toLowerCase().includes(q)).slice(0, 300);
+  $("#rejected").innerHTML = list.length ? list.map(r => `
+    <article class="card">
+      <div class="row1"><span class="company">${esc(r.company)}</span><span class="when">${ago(r.at)}</span></div>
+      <a class="title" href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a>
+      <div class="reason">Écartée : ${esc(r.reason)}</div>
+    </article>`).join("") : `<div class="empty">Rien d'écarté pour l'instant.</div>`;
+}
+
+function renderHealth() {
+  const rows = Object.entries(DATA.health).sort((a, b) => a[0].localeCompare(b[0], "fr"));
+  $("#health").innerHTML = rows.length ? `<table class="health"><thead><tr><th>Entreprise</th><th>État</th><th>Liens / mots-clés</th><th>Dernier succès</th></tr></thead><tbody>${
+    rows.map(([name, h]) => `<tr>
+      <td><b>${esc(name)}</b>${h.error ? `<div class="err">${esc(h.error)}</div>` : ""}</td>
+      <td><span class="pill ${esc(h.status)}">${esc(h.status || "?")}</span>${h.failures ? `<div class="reason">${h.failures} échec(s) de suite</div>` : ""}</td>
+      <td>${h.links_found ?? "–"} / ${h.keyword_matches ?? "–"}</td>
+      <td>${h.last_ok ? ago(h.last_ok) : "jamais"}</td></tr>`).join("")
+  }</tbody></table>` : `<div class="empty">Pas encore de passage.</div>`;
+}
+
+document.addEventListener("click", e => {
+  const tab = e.target.closest("[data-tab]");
+  if (tab) {
+    document.querySelectorAll("[data-tab]").forEach(b => b.setAttribute("aria-selected", b === tab));
+    ["jobs", "rejected", "health"].forEach(t => $("#tab-" + t).hidden = t !== tab.dataset.tab);
+  }
+  const ap = e.target.closest("[data-apply]");
+  if (ap) { const id = ap.dataset.apply; applied.has(id) ? applied.delete(id) : applied.add(id); store.set("jw-applied", [...applied]); renderJobs(); }
+  const hd = e.target.closest("[data-hide]");
+  if (hd) { hidden.add(hd.dataset.hide); store.set("jw-hidden", [...hidden]); renderJobs(); }
+});
+["#q", "#company", "#only-new", "#hide-applied", "#show-gone"].forEach(s => $(s).addEventListener("input", renderJobs));
+$("#rq").addEventListener("input", renderRejected);
+init();
+</script>
+</body>
+</html>
