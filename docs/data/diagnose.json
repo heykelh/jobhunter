@@ -1,0 +1,275 @@
+{
+ "at": "2026-10-20T13:00:21+00:00",
+ "companies": {
+  "Air France": {
+   "links_found": 22,
+   "keyword_matches": 5,
+   "errors": [],
+   "sample_all": [
+    "2026-23566 - Mécanicienne/Mécanicien maintenance équipements Air France F/H",
+    "2026-24209 - Agent de Maintenance Industrielle F/H",
+    "2026-25588 - Analyste de vols - Revenue Management F/H",
+    "2026-25287 - Technicienne/Technicien avion F/H",
+    "2026-25286 - Mécanicienne/Mécanicien avion F/H",
+    "2026-25557 - Software Engineer F/H",
+    "2026-25402 - Agent logistique magasin F/H",
+    "2025-21563 - Customer Support Manager (CSM) Sénior Equipements Aéronautiques H/F",
+    "2026-23561 - Mécanicienne/Mécanicien Moteur F/H",
+    "2026-25589 - Analyste Stratégie Network F/H"
+   ],
+   "sample_matching": [
+    {
+     "title": "2026-25588 - Analyste de vols - Revenue Management F/H",
+     "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25588&idOrigine=502&offerReference=2026-25588",
+     "context": "Stratégie et développement/Revenue/Yield management CDI 45 rue de Paris 95747 ROISSY CHARLES DE GAULLE CEDEX Métier : Stratégie et développement/Revenue/Yield management Type de contrat : CDI Descript"
+    },
+    {
+     "title": "2026-25589 - Analyste Stratégie Network F/H",
+     "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25589&idOrigine=502&offerReference=2026-25589",
+     "context": "Stratégie et développement/Programme des Vols CDI 45 rue de Paris 95747 ROISSY CHARLES DE GAULLE CEDEX Métier : Stratégie et développement/Programme des Vols Type de contrat : CDI Description du poste"
+    },
+    {
+     "title": "2025-23302 - Data Analyst Commercial - Digital Product F/H",
+     "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=23302&idOrigine=502&offerReference=2025-23302",
+     "context": "Digital/e-Marketing CDI 45 rue de Paris 95747 ROISSY CHARLES DE GAULLE CEDEX Métier : Digital/e-Marketing Type de contrat : CDI Description du poste : Les analystes Performance Insights & Analytics so"
+    },
+    {
+     "title": "2026-25019 - Business Analyst Senior – Crew Tracking – Opération Aériennes F/H",
+     "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25019&idOrigine=502&offerReference=2026-25019",
+     "context": "Exploitation & Opérations aériennes/Opérations aériennes & Préparation des Vols CDI Cité PN Air France - Roissy - Charles de Gaulle Métier : Exploitation & Opérations aériennes/Opérations aériennes & "
+    },
+    {
+     "title": "2026-25600 - Coordinateur d'Équipes de Pratique Data, Recherche Opérationnelle & IA F/H",
+     "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25600&idOrigine=502&offerReference=2026-25600",
+     "context": "Systèmes d'informations/Infrastructures & Production informatique CDI 45 rue de Paris 95747 ROISSY CHARLES DE GAULLE CEDEX Métier : Systèmes d'informations/Infrastructures & Production informatique Ty"
+    }
+   ]
+  },
+  "TotalEnergies": {
+   "links_found": 120,
+   "keyword_matches": 9,
+   "errors": [],
+   "sample_all": [
+    "Sales Support Advisor (FTC 24 Months)",
+    "CDD Coordinateur projets transverses H/F/X",
+    "JURISTE H/F",
+    "Agent d'Exploitation H/F -CDD",
+    "Chargé.e de mission Intégrité & Gouvernance - CDD 12 mois à partir du 01/01/2027",
+    "Gestionnaire de formation terrains et spécifiques débutant H/F",
+    "RESPONSABLE COMPTABLE HOLDING (H/F)",
+    "CDD Coordinateur anti-corruption H/F/X",
+    "MAINTENANCE TECH - BLDG",
+    "MAINTENANCE TECH - PLANT 1 - 2ND SHIFT"
+   ],
+   "sample_matching": [
+    {
+     "title": "Analyste financier de données débutant H/F",
+     "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Analyste-financier-de-donn-es-d-butant-H-F/84738",
+     "context": "Analyste financier de données débutant H/F 20-10-2026 France Contrat de professionnalisation temps plein TotalEnergies SE Postuler"
+    },
+    {
+     "title": "Analyst FP&A (External)",
+     "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Analyst-FP-A-External/85295",
+     "context": "Analyst FP&A (External) 16-10-2026 Singapour CDI TotalEnergies Singapore Services Pte Ltd Postuler"
+    },
+    {
+     "title": "BUSINESS ANALYST (H/F)",
+     "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/BUSINESS-ANALYST-H-F/85099",
+     "context": "BUSINESS ANALYST (H/F) 16-10-2026 Congo, République Démocratique CDD TotalEnergies Marketing RDC SA Postuler"
+    },
+    {
+     "title": "DATA ANALYST LIVRAISON & TRANSPORT (H/F)",
+     "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/DATA-ANALYST-LIVRAISON-TRANSPORT-H-F/85096",
+     "context": "DATA ANALYST LIVRAISON & TRANSPORT (H/F) 16-10-2026 Congo, République Démocratique CDD TotalEnergies Marketing RDC SA Postuler"
+    },
+    {
+     "title": "Stage – Data & Automation Analyst – Finance - AS 24",
+     "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Stage-Business-Analyst-Finance-Credit-Management-H-F-AS-24/83992",
+     "context": "Stage – Data & Automation Analyst – Finance - AS 24 16-10-2026 France Stage conventionné AS 24 FRANCE Postuler"
+    },
+    {
+     "title": "Derivatives & Market Risk Analyst Intern",
+     "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Derivatives-Market-Risk-Analyst-Intern/85015",
+     "context": "Derivatives & Market Risk Analyst Intern 08-10-2026 Suisse Stage conventionné TOTSA TotalEnergies Trading SA Postuler"
+    },
+    {
+     "title": "Engineering Analyst",
+     "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Engineering-Analyst/84800",
+     "context": "Engineering Analyst 03-10-2026 Etats-Unis CDI HUTCHINSON AEROSPACE & INDUSTRY, INC. Postuler"
+    },
+    {
+     "title": "VIE – Ingénieur Transformation Digitale & Data Finance (H/F) – Belgique",
+     "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/VIE-Ing-nieur-Transformation-Digitale-Data-Finance-H-F-Belgique/84754",
+     "context": "VIE – Ingénieur Transformation Digitale & Data Finance (H/F) – Belgique 01-10-2026 Belgique VIE TotalEnergies Petrochemicals & Refining Postuler"
+    },
+    {
+     "title": "Data Engineer for Cognite Platform (CDF) - débutant H/F",
+     "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Data-Engineer-for-Cognite-Platform-CDF-d-butant-H-F/84521",
+     "context": "Data Engineer for Cognite Platform (CDF) - débutant H/F 25-09-2026 France Contrat de professionnalisation temps plein TotalEnergies OneTech Postuler"
+    }
+   ]
+  },
+  "Société Générale": {
+   "links_found": 0,
+   "keyword_matches": 0,
+   "errors": [],
+   "sample_all": [],
+   "sample_matching": []
+  },
+  "BNP Paribas": {
+   "links_found": 0,
+   "keyword_matches": 0,
+   "errors": [],
+   "sample_all": [],
+   "sample_matching": []
+  },
+  "Crédit Agricole": {
+   "links_found": 12,
+   "keyword_matches": 12,
+   "errors": [],
+   "sample_all": [
+    "Ligne Métier IT, Digital & Data",
+    "IT, Digital & Data",
+    "Compensation analyst H/F",
+    "Stage - Business Strategy Analyst H/F",
+    "Data Manager Trade Finance H/F",
+    "Analyste Résultat, Risques de Marché et Liquidité périmètre Trésorerie H/F",
+    "ANALYSTE SUPPORT AGENCY & TRANSACTION MANAGEMENT IMMOBILIER STRUCTURE (CDD) H/F",
+    "STAGE - Fund Dealing Officer / Transfer - Static Data – Account opening H/F",
+    "STAGE - Analyste Coverage France - Lyon H/F",
+    "Johann Analyste Liquide Lire l'interview"
+   ],
+   "sample_matching": [
+    {
+     "title": "Ligne Métier IT, Digital & Data",
+     "url": "https://groupecreditagricole.jobs/fr/nos-marques/it-digital-data/",
+     "context": ""
+    },
+    {
+     "title": "IT, Digital & Data",
+     "url": "https://groupecreditagricole.jobs/fr/nos-metiers/it-digital-et-data/",
+     "context": ""
+    },
+    {
+     "title": "Compensation analyst H/F",
+     "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170475-124-compensation-analyst-hf-reference--2026-116678--/",
+     "context": "Compensation analyst H/F Favori Mis à jour le 20/10/2026 CDI Ile-de-France - France Ressources Humaines"
+    },
+    {
+     "title": "Stage - Business Strategy Analyst H/F",
+     "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage---business-strategy-analyst-hf-reference--2026-115426--/",
+     "context": "Stage - Business Strategy Analyst H/F Favori Mis à jour le 20/10/2026 Stage Paris - France Gestion d'Actifs"
+    },
+    {
+     "title": "Data Manager Trade Finance H/F",
+     "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-data-manager-trade-finance-hf-reference--2026-116669--/",
+     "context": "Data Manager Trade Finance H/F Favori Mis à jour le 20/10/2026 Stage Saint-Quentin-en-Yvelines - France Financement et Investissement"
+    },
+    {
+     "title": "Analyste Résultat, Risques de Marché et Liquidité périmètre Trésorerie H/F",
+     "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170470-4-analyste-resultat-risques-de-marche-et-liquidite-perimetre-tresorerie-hf-reference--2026-116667--/",
+     "context": "Analyste Résultat, Risques de Marché et Liquidité périmètre Trésorerie H/F Favori Mis à jour le 20/10/2026 Stage Montrouge - France Risques / Contrôles permanents"
+    },
+    {
+     "title": "ANALYSTE SUPPORT AGENCY & TRANSACTION MANAGEMENT IMMOBILIER STRUCTURE (CDD) H/F",
+     "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/578-170466-4-analyste-support-agency-et-transaction-management-immobilier-structure---cdd-hf-reference--2026-110139--/",
+     "context": "ANALYSTE SUPPORT AGENCY & TRANSACTION MANAGEMENT IMMOBILIER STRUCTURE (CDD) H/F Favori Mis à jour le 20/10/2026 CDD Montrouge - France Financement et Investissement"
+    },
+    {
+     "title": "STAGE - Fund Dealing Officer / Transfer - Static Data – Account opening H/F",
+     "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-136-stage---fund-dealing-officer--transfer---static-data--account-opening-hf-reference--2026-115854--/",
+     "context": "STAGE - Fund Dealing Officer / Transfer - Static Data – Account opening H/F Favori Mis à jour le 20/10/2026 Stage Esch-sur-Alzette - Luxembourg Gestion d'Actifs"
+    },
+    {
+     "title": "STAGE - Analyste Coverage France - Lyon H/F",
+     "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-3-stage---analyste-coverage-france---lyon-hf-reference--2026-116545--/",
+     "context": "STAGE - Analyste Coverage France - Lyon H/F Favori Mis à jour le 20/10/2026 Stage 18 RUE DE LA REPUBLIQUE 69002 LYON - France Finances / Comptabilité / Contrôle de gestion"
+    },
+    {
+     "title": "Johann Analyste Liquide Lire l'interview",
+     "url": "https://groupecreditagricole.jobs/fr/metier/analyste-liquide/",
+     "context": "Hajer B. Responsable d’unité conformité chez LCL Lire l'interview Thibault C. Responsable de la prévention de la fraude caisse régionale sud-méditerranée Lire l'interview Sabine M. Sanction compliance"
+    }
+   ]
+  },
+  "BPCE": {
+   "links_found": 1,
+   "keyword_matches": 1,
+   "errors": [],
+   "sample_all": [
+    "IT Data Architect (F/H) Natixis CIB France CDI Paris Découvrir"
+   ],
+   "sample_matching": [
+    {
+     "title": "IT Data Architect (F/H) Natixis CIB France CDI Paris Découvrir",
+     "url": "https://recrutement.bpce.fr/job/it-data-architect-f-h",
+     "context": ""
+    }
+   ]
+  },
+  "AXA": {
+   "links_found": 0,
+   "keyword_matches": 0,
+   "errors": [],
+   "sample_all": [],
+   "sample_matching": []
+  },
+  "EDF": {
+   "links_found": 0,
+   "keyword_matches": 0,
+   "errors": [],
+   "sample_all": [],
+   "sample_matching": []
+  },
+  "SNCF": {
+   "links_found": 0,
+   "keyword_matches": 0,
+   "errors": [],
+   "sample_all": [],
+   "sample_matching": []
+  },
+  "ETF (VINCI)": {
+   "links_found": 0,
+   "keyword_matches": 0,
+   "errors": [],
+   "sample_all": [],
+   "sample_matching": []
+  },
+  "CFL": {
+   "links_found": 25,
+   "keyword_matches": 0,
+   "errors": [],
+   "sample_all": [
+    "Fahrdienstleiter/ Fahrdienstleiterinnen",
+    "Régulateurs / Régulatrices Alimentation électrique ferroviaire",
+    "Superviseur / Superviseuse technique des P+R",
+    "Opérateurs/ Opératrices de Manoeuvre",
+    "Conducteur / Conductrice de Manoeuvre",
+    "Ingénieur / Ingénieure de projet en Maintenance des trains",
+    "Déclarant/Déclarante Douane",
+    "Manœuvres train de service (M/F)",
+    "Stagiaire Marketing (M/F)",
+    "Expert / Experte SAP BTP & Architecture d’intégration"
+   ],
+   "sample_matching": []
+  },
+  "SBB CFF FFS": {
+   "links_found": 10,
+   "keyword_matches": 0,
+   "errors": [],
+   "sample_all": [
+    "Fachspezialist:in Arbeitsvorbereitung, 60-100%, Bern / Work Smart La description du poste",
+    "Quereinstieg Kundenbegleiter:in für Frequenzerfassung, 50%, Zürich La description du poste",
+    "Techniker:in Fahrleitung, Chefmonteur:in, 100%, Biel/Bienne La description du poste",
+    "Technicien·ne lignes de contact, chef·fe monteur·euse, 100%, Biel/Bienne La description du poste",
+    "Kundenassistent:in, 60-100%, Bern La description du poste",
+    "Technicien·ne lignes de contact, chef·fe monteur·euse, 100%, Neuchâtel La description du poste",
+    "Technicien·ne qualifié·e lignes de contact, 60-100%, Neuchâtel La description du poste",
+    "Transportkoordinator:in Kurzfristplanung, 60-100%, Olten La description du poste",
+    "Polizist:in Transportpolizei, 60-100%, Winterthur La description du poste",
+    "Polizist:in Transportpolizei, 60-100%, Zürich La description du poste"
+   ],
+   "sample_matching": []
+  }
+ }
+}
