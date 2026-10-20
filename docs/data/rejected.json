@@ -1,6 +1,678 @@
 {
- "updated": "2026-10-20T13:29:03+00:00",
+ "updated": "2026-10-20T14:01:24+00:00",
  "items": [
+  {
+   "id": "91535e155529",
+   "company": "AXA",
+   "title": "Business Analyst - 14 Month FTC",
+   "url": "https://careers.axa.com/jobs/27929",
+   "reason": "lieu hors zones",
+   "at": "2026-10-20T14:00:20+00:00"
+  },
+  {
+   "id": "9d79dcd2c37e",
+   "company": "AXA",
+   "title": "Data Analyst / Développeur Power BI (H/F) - Stage",
+   "url": "https://careers.axa.com/jobs/36891",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T14:00:20+00:00"
+  },
+  {
+   "id": "4807a43b3254",
+   "company": "AXA",
+   "title": "Business Analyst Courtage (F/H) - Stage",
+   "url": "https://careers.axa.com/jobs/36861",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T14:00:20+00:00"
+  },
+  {
+   "id": "5f34802aac27",
+   "company": "AXA",
+   "title": "Stage - Group Investment Monitoring Analyst - Janvier 2027",
+   "url": "https://careers.axa.com/jobs/28766",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T14:00:20+00:00"
+  },
+  {
+   "id": "cec2960f8a46",
+   "company": "AXA",
+   "title": "Senior Analyst",
+   "url": "https://careers.axa.com/jobs/27586",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-20T14:00:20+00:00"
+  },
+  {
+   "id": "eb30fa608949",
+   "company": "AXA",
+   "title": "Capital Modelling Analyst",
+   "url": "https://careers.axa.com/jobs/28342",
+   "reason": "lieu hors zones",
+   "at": "2026-10-20T14:00:19+00:00"
+  },
+  {
+   "id": "b7607409c670",
+   "company": "AXA",
+   "title": "Assistant Manager, Anaplan & Data Solutions Analyst",
+   "url": "https://careers.axa.com/jobs/26085",
+   "reason": "titre exclu (manager)",
+   "at": "2026-10-20T14:00:19+00:00"
+  },
+  {
+   "id": "4c38ae287490",
+   "company": "AXA",
+   "title": "Technical Analyst",
+   "url": "https://careers.axa.com/jobs/27582",
+   "reason": "lieu hors zones",
+   "at": "2026-10-20T14:00:17+00:00"
+  },
+  {
+   "id": "bf96b82ad30d",
+   "company": "AXA",
+   "title": "Senior Provider Relations Analyst",
+   "url": "https://careers.axa.com/jobs/28653",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-20T14:00:17+00:00"
+  },
+  {
+   "id": "a876cace4e7d",
+   "company": "AXA",
+   "title": "Senior Business Analyst (Power Automate & Data Analysis)",
+   "url": "https://careers.axa.com/jobs/28476",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-20T14:00:17+00:00"
+  },
+  {
+   "id": "419fd2534846",
+   "company": "AXA",
+   "title": "WFM Analyst",
+   "url": "https://careers.axa.com/jobs/28794",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-20T14:00:16+00:00"
+  },
+  {
+   "id": "1f2aa0750b24",
+   "company": "AXA",
+   "title": "Senior Business Analyst / Requirements Engineer mit Fokus Produktimplementierung (all genders)",
+   "url": "https://careers.axa.com/jobs/28170",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-20T14:00:16+00:00"
+  },
+  {
+   "id": "634db9805852",
+   "company": "AXA",
+   "title": "Data Analyst Senior Voix Du Client (F/H)",
+   "url": "https://careers.axa.com/jobs/29048",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-20T14:00:16+00:00"
+  },
+  {
+   "id": "33064f99c32a",
+   "company": "AXA",
+   "title": "Business Analyst betriebliche Altersvorsorge (m/w/d) Prozesse & Systeme",
+   "url": "https://careers.axa.com/jobs/29274",
+   "reason": "lieu hors zones",
+   "at": "2026-10-20T14:00:14+00:00"
+  },
+  {
+   "id": "76a0b464b22f",
+   "company": "AXA",
+   "title": "Senior Analyst",
+   "url": "https://careers.axa.com/jobs/25616",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-20T14:00:14+00:00"
+  },
+  {
+   "id": "cf1e9c75c499",
+   "company": "AXA",
+   "title": "Senior Data Analyst - CDI F/H LYON",
+   "url": "https://careers.axa.com/jobs/27458",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-20T14:00:14+00:00"
+  },
+  {
+   "id": "df9c892999be",
+   "company": "AXA",
+   "title": "Data Scientist - Data Analytics im Schadenmanagement (m/w/d)",
+   "url": "https://careers.axa.com/jobs/29332",
+   "reason": "lieu hors zones",
+   "at": "2026-10-20T14:00:13+00:00"
+  },
+  {
+   "id": "996ba61afb66",
+   "company": "AXA",
+   "title": "Procurement Data & Process Analyst",
+   "url": "https://careers.axa.com/jobs/28633",
+   "reason": "lieu hors zones",
+   "at": "2026-10-20T14:00:11+00:00"
+  },
+  {
+   "id": "887abc63a431",
+   "company": "AXA",
+   "title": "Finance & Data Transformation Staff/Associate/Assistant Manager(P1/P2/P3)【アクサ生命】",
+   "url": "https://careers.axa.com/jobs/28371",
+   "reason": "titre exclu (manager)",
+   "at": "2026-10-20T14:00:11+00:00"
+  },
+  {
+   "id": "05ab367d2932",
+   "company": "AXA",
+   "title": "Insights Analyst",
+   "url": "https://careers.axa.com/jobs/20179",
+   "reason": "lieu hors zones",
+   "at": "2026-10-20T14:00:10+00:00"
+  },
+  {
+   "id": "15e5ce1365b9",
+   "company": "AXA",
+   "title": "Business Analyst – Digital Transformation & Process Optimization",
+   "url": "https://careers.axa.com/jobs/27555",
+   "reason": "lieu hors zones",
+   "at": "2026-10-20T14:00:08+00:00"
+  },
+  {
+   "id": "2069c2b70c29",
+   "company": "AXA",
+   "title": "Vendor Management Operations Analyst",
+   "url": "https://careers.axa.com/jobs/25476",
+   "reason": "lieu hors zones",
+   "at": "2026-10-20T14:00:07+00:00"
+  },
+  {
+   "id": "80e89e88df7f",
+   "company": "AXA",
+   "title": "Stagiaire – Direction des Achats – Equipe Solutions, data et performance (H",
+   "url": "https://careers.axa.com/jobs/36943",
+   "reason": "titre exclu (stagiaire)",
+   "at": "2026-10-20T14:00:07+00:00"
+  },
+  {
+   "id": "85b3cb14294e",
+   "company": "AXA",
+   "title": "Market Risk Analyst (F/H) - stage",
+   "url": "https://careers.axa.com/jobs/37102",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T14:00:07+00:00"
+  },
+  {
+   "id": "c9caefe3b70c",
+   "company": "AXA",
+   "title": "Data Scientist (F/H) - stage",
+   "url": "https://careers.axa.com/jobs/37059",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T14:00:07+00:00"
+  },
+  {
+   "id": "93ffcac754e9",
+   "company": "AXA",
+   "title": "Data Stewart - finance (F/H) - stage",
+   "url": "https://careers.axa.com/jobs/37126",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T14:00:07+00:00"
+  },
+  {
+   "id": "e198542b27b2",
+   "company": "AXA",
+   "title": "Analyst, Policy Management - UW Services Ops",
+   "url": "https://careers.axa.com/jobs/28358",
+   "reason": "lieu hors zones",
+   "at": "2026-10-20T14:00:05+00:00"
+  },
+  {
+   "id": "48431adf31af",
+   "company": "AXA",
+   "title": "Stage - Investment Strategy and Financial Data Analyst",
+   "url": "https://careers.axa.com/jobs/29384",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T14:00:05+00:00"
+  },
+  {
+   "id": "67090168ab25",
+   "company": "AXA",
+   "title": "Associate Analyst, Data & Analytics",
+   "url": "https://careers.axa.com/jobs/21357",
+   "reason": "lieu hors zones",
+   "at": "2026-10-20T14:00:04+00:00"
+  },
+  {
+   "id": "8dc8b412d658",
+   "company": "AXA",
+   "title": "Senior Analyst, Pricing",
+   "url": "https://careers.axa.com/jobs/24090",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-20T14:00:04+00:00"
+  },
+  {
+   "id": "cc9be11a2cd2",
+   "company": "AXA",
+   "title": "Data Management CoE Lead",
+   "url": "https://careers.axa.com/jobs/29155",
+   "reason": "titre exclu (lead)",
+   "at": "2026-10-20T14:00:04+00:00"
+  },
+  {
+   "id": "8e0d4442f971",
+   "company": "AXA",
+   "title": "Data scientist (F/H) - stage",
+   "url": "https://careers.axa.com/jobs/37145",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T14:00:03+00:00"
+  },
+  {
+   "id": "f26b3b86cb0c",
+   "company": "BPCE",
+   "title": "Stage – Gestionnaire/Analyste Crédits H/F",
+   "url": "https://recrutement.bpce.fr/job/stage-gestionnaire-analyste-credits-h-f",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T13:59:55+00:00"
+  },
+  {
+   "id": "47d09296da85",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Assistant Analyste Risques de Crédit F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-assistant-analyste-risques-de-credit-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T13:59:55+00:00"
+  },
+  {
+   "id": "59af01756136",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Ingénieur Data &amp; Supervision Applicative (ELK / Grafana) F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-ingenieur-data-supervision-applicative-elk-grafana-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T13:59:55+00:00"
+  },
+  {
+   "id": "64ea2a1c548c",
+   "company": "BPCE",
+   "title": "Stage - 6 mois- Analyste Technique et Expert Automatisation F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-analyste-technique-et-expert-automatisation-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T13:59:55+00:00"
+  },
+  {
+   "id": "24c6056b35ce",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Expert Sécurité DATA F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-expert-securite-data-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T13:59:55+00:00"
+  },
+  {
+   "id": "8231d581f2b1",
+   "company": "BPCE",
+   "title": "Data Scientist / Machine Learning Engineer Confirmé F/H",
+   "url": "https://recrutement.bpce.fr/job/data-scientist-machine-learning-engineer-confirme-f-h",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-10-20T13:59:55+00:00"
+  },
+  {
+   "id": "5310f55d9351",
+   "company": "BPCE",
+   "title": "Stage (6 mois) - Assistant Analyste Crédit - F/H - Paris",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-assistant-analyste-credit-f-h-paris",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T13:59:55+00:00"
+  },
+  {
+   "id": "26533a2b17d6",
+   "company": "BPCE",
+   "title": "Analyste décideur confirmé crédits entreprises (F/H)",
+   "url": "https://recrutement.bpce.fr/job/analyste-decideur-confirme-credits-entreprises-f-h",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-10-20T13:59:55+00:00"
+  },
+  {
+   "id": "db1c9fe676b4",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Sustainable Finance Data Expert F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-sustainable-finance-data-expert-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T13:59:55+00:00"
+  },
+  {
+   "id": "40ec7e74f588",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Analyste Fonds d’Investissement Immobiliers F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-analyste-fonds-dinvestissement-immobiliers-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T13:59:55+00:00"
+  },
+  {
+   "id": "7e8c9b4d8804",
+   "company": "BPCE",
+   "title": "Senior Analyst/Associate REF Spain",
+   "url": "https://recrutement.bpce.fr/job/senior-analyst-associate-ref-spain",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-20T13:59:55+00:00"
+  },
+  {
+   "id": "67a838dd2802",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Analyste - Healthcare Sector F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-analyste-healthcare-sector-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T13:59:55+00:00"
+  },
+  {
+   "id": "0532b01acdcd",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Financial Analyst - Advisory &amp; Coverage FIG F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-financial-analyst-advisory-coverage-fig-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T13:59:55+00:00"
+  },
+  {
+   "id": "e269302a7428",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Business Analyst/Support Fonctionnel Applicatif F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-business-analyst-support-fonctionnel-applicatif-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T13:59:55+00:00"
+  },
+  {
+   "id": "0fc21ddeae49",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Analyste ESG F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-analyste-esg-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T13:59:55+00:00"
+  },
+  {
+   "id": "0947e17d475b",
+   "company": "BPCE",
+   "title": "Analyste risque de credit Senior Real Estate (F/H)",
+   "url": "https://recrutement.bpce.fr/job/analyste-risque-de-credit-senior-real-estate-f-h",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-20T13:59:55+00:00"
+  },
+  {
+   "id": "304eb92f90c1",
+   "company": "BPCE",
+   "title": "Data Governance Manager (F/H)",
+   "url": "https://recrutement.bpce.fr/job/data-governance-manager-f-h",
+   "reason": "titre exclu (manager)",
+   "at": "2026-10-20T13:59:55+00:00"
+  },
+  {
+   "id": "722b4f63fdcb",
+   "company": "BPCE",
+   "title": "Analyste Conformité Services d'Investissement - H/F",
+   "url": "https://recrutement.bpce.fr/job/analyste-conformite-services-dinvestissement-h-f",
+   "reason": "expérience demandée ≥ 3 ans",
+   "at": "2026-10-20T13:59:46+00:00"
+  },
+  {
+   "id": "246775d10322",
+   "company": "BPCE",
+   "title": "Stagiaire Analyste Investissements H/F",
+   "url": "https://recrutement.bpce.fr/job/stagiaire-analyste-investissements-h-f",
+   "reason": "titre exclu (stagiaire)",
+   "at": "2026-10-20T13:59:37+00:00"
+  },
+  {
+   "id": "ad81cbedac12",
+   "company": "BPCE",
+   "title": "Banking Support Analyst - Team Lead",
+   "url": "https://recrutement.bpce.fr/job/banking-support-analyst-team-lead",
+   "reason": "titre exclu (lead)",
+   "at": "2026-10-20T13:59:19+00:00"
+  },
+  {
+   "id": "0989c5d4b0c6",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Data Analyst &amp; Automatisation - F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-data-analyst-automatisation-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T13:59:19+00:00"
+  },
+  {
+   "id": "83af28b349ef",
+   "company": "BPCE",
+   "title": "Stage - 6 mois -Analyste Quantitatif F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-analyste-quantitatif-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T13:59:10+00:00"
+  },
+  {
+   "id": "188b513c1cc9",
+   "company": "BPCE",
+   "title": "Data Steward F/H",
+   "url": "https://recrutement.bpce.fr/job/data-steward-f-h",
+   "reason": "expérience demandée ≥ 5 ans",
+   "at": "2026-10-20T13:59:01+00:00"
+  },
+  {
+   "id": "562ba87b1fbc",
+   "company": "BPCE",
+   "title": "Credit Risk Quantitative Analyst",
+   "url": "https://recrutement.bpce.fr/job/credit-risk-quantitative-analyst",
+   "reason": "expérience demandée ≥ 5 ans",
+   "at": "2026-10-20T13:58:52+00:00"
+  },
+  {
+   "id": "25b1356da9bd",
+   "company": "BPCE",
+   "title": "Analyste financier (F/H)",
+   "url": "https://recrutement.bpce.fr/job/analyste-financier-f-h-2",
+   "reason": "lieu hors zones",
+   "at": "2026-10-20T13:58:34+00:00"
+  },
+  {
+   "id": "629f90c02bbe",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Market Risk FRTB Data Quality Analyst F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-market-risk-frtb-data-quality-analyst-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T13:58:34+00:00"
+  },
+  {
+   "id": "0b7683bb3625",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Analyste Financier Fixed Income F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-analyste-financier-fixed-income-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T13:58:34+00:00"
+  },
+  {
+   "id": "7708425252f7",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Analyste Sponsor Coverage F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-analyste-sponsor-coverage-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T13:58:34+00:00"
+  },
+  {
+   "id": "cf6c9c5cb1ce",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Analyste Marchés Immobiliers F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-analyste-marches-immobiliers-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T13:58:34+00:00"
+  },
+  {
+   "id": "a668fde66b84",
+   "company": "BPCE",
+   "title": "Analyste risques (F/H)",
+   "url": "https://recrutement.bpce.fr/job/analyste-risques-f-h-2",
+   "reason": "lieu hors zones",
+   "at": "2026-10-20T13:58:25+00:00"
+  },
+  {
+   "id": "fea2a9979353",
+   "company": "BPCE",
+   "title": "Analyste Risques Quantitatifs et Scorings (F/H)",
+   "url": "https://recrutement.bpce.fr/job/analyste-risques-quantitatifs-et-scorings-f-h",
+   "reason": "expérience demandée ≥ 3 ans",
+   "at": "2026-10-20T13:58:16+00:00"
+  },
+  {
+   "id": "8de087a83b1a",
+   "company": "BPCE",
+   "title": "Contrôleur de gestion/ Data Analyst Senior F/H",
+   "url": "https://recrutement.bpce.fr/job/controleur-de-gestion-data-analyst-senior-f-h",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-20T13:58:16+00:00"
+  },
+  {
+   "id": "61de51aeaf89",
+   "company": "BPCE",
+   "title": "STAGE- Data Analyst H/F",
+   "url": "https://recrutement.bpce.fr/job/stage-data-analyst-h-f",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T13:58:16+00:00"
+  },
+  {
+   "id": "89e2c3c866f3",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Ingénieur Big Data &amp; Développeur Front-End F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-ingenieur-big-data-developpeur-front-end-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T13:58:16+00:00"
+  },
+  {
+   "id": "5c6e8e0e1cab",
+   "company": "BPCE",
+   "title": "Stage - 3 à 6 mois - Analyste Dashboard Splunk &amp; ITSI - F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-3-a-6-mois-analyste-dashboard-splunk-itsi-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T13:58:16+00:00"
+  },
+  {
+   "id": "ad4d387f1993",
+   "company": "BPCE",
+   "title": "Stage Data Analyst F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-data-analyst-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T13:58:16+00:00"
+  },
+  {
+   "id": "f9c0f05961ba",
+   "company": "BPCE",
+   "title": "Stage - Business Analyst (F/H) - Paris",
+   "url": "https://recrutement.bpce.fr/job/stage-business-analyst-f-h-paris",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T13:58:16+00:00"
+  },
+  {
+   "id": "87bffd8800e3",
+   "company": "BPCE",
+   "title": "Data Analyst (F/H)",
+   "url": "https://recrutement.bpce.fr/job/data-analyst-f-h",
+   "reason": "lieu hors zones",
+   "at": "2026-10-20T13:57:58+00:00"
+  },
+  {
+   "id": "262fcb703242",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Analyste ESG F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-analyste-esg-f-h-2",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T13:57:58+00:00"
+  },
+  {
+   "id": "975e790e507a",
+   "company": "BPCE",
+   "title": "Stage Transformation Digitale Data IA - Dijon (21)",
+   "url": "https://recrutement.bpce.fr/job/stage-transformation-digitale-data-ia-dijon-21",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T13:57:58+00:00"
+  },
+  {
+   "id": "c927cecbbe38",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Business Analyst IT Risques de Marché F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-business-analyst-it-risques-de-marche-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T13:57:40+00:00"
+  },
+  {
+   "id": "985d68b53459",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Développeur Big Data/Fullstack F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-developpeur-big-data-fullstack-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T13:57:40+00:00"
+  },
+  {
+   "id": "1a834a7d5fcd",
+   "company": "BPCE",
+   "title": "Analyste Engagements Affaires spéciales F/H- CDD- BTP BANQUE",
+   "url": "https://recrutement.bpce.fr/job/analyste-engagements-affaires-speciales-f-h-cdd-btp-banque",
+   "reason": "expérience demandée ≥ 5 ans",
+   "at": "2026-10-20T13:57:22+00:00"
+  },
+  {
+   "id": "b9ae46562079",
+   "company": "BPCE",
+   "title": "Business Analyst Finance - F/H",
+   "url": "https://recrutement.bpce.fr/job/business-analyst-finance-f-h",
+   "reason": "expérience demandée ≥ 3 ans",
+   "at": "2026-10-20T13:57:12+00:00"
+  },
+  {
+   "id": "9ba20f167267",
+   "company": "BPCE",
+   "title": "Data Analyst H/F - Orléans",
+   "url": "https://recrutement.bpce.fr/job/data-analyst-h-f-orleans",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-20T13:56:54+00:00"
+  },
+  {
+   "id": "9a12b0cb57ff",
+   "company": "BPCE",
+   "title": "V.I.E. - 18 months - HRIS Data Analyst F/M - Boston",
+   "url": "https://recrutement.bpce.fr/job/v-i-e-18-months-hris-data-analyst-f-m-boston",
+   "reason": "titre exclu (VIE)",
+   "at": "2026-10-20T13:56:54+00:00"
+  },
+  {
+   "id": "15da33e73c97",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Analyste Risques Investissement F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-analyste-risques-investissement-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T13:56:54+00:00"
+  },
+  {
+   "id": "4342a4d1ec10",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Data Scientist IA F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-data-scientist-ia-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T13:56:36+00:00"
+  },
+  {
+   "id": "c01f49b89d39",
+   "company": "BPCE",
+   "title": "Chef de Projet SI (Gouvernance Data) (F/H)",
+   "url": "https://recrutement.bpce.fr/job/chef-de-projet-si-gouvernance-data-f-h",
+   "reason": "expérience demandée ≥ 4 ans",
+   "at": "2026-10-20T13:56:27+00:00"
+  },
+  {
+   "id": "900294458b97",
+   "company": "BPCE",
+   "title": "Audit Interne - Data investigation (F/H) - CDD 6 mois",
+   "url": "https://recrutement.bpce.fr/job/audit-interne-data-investigation-f-h-cdd-6-mois",
+   "reason": "expérience demandée ≥ 5 ans",
+   "at": "2026-10-20T13:56:18+00:00"
+  },
+  {
+   "id": "3241ffb98a91",
+   "company": "Crédit Agricole",
+   "title": "photo data analyst",
+   "url": "https://groupecreditagricole.jobs/wp-content/uploads/2025/11/photo-data-analyst.jpg",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-20T13:55:28+00:00"
+  },
+  {
+   "id": "8111a90107d7",
+   "company": "Crédit Agricole",
+   "title": "STAGE - Analyste Coverage H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-3-stage---analyste-coverage-hf-reference--2026-116545--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T13:55:28+00:00"
+  },
   {
    "id": "40d13c9f407d",
    "company": "BPCE",

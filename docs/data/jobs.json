@@ -1,6 +1,230 @@
 {
- "updated": "2026-10-20T13:29:03+00:00",
+ "updated": "2026-10-20T14:01:24+00:00",
  "jobs": [
+  {
+   "id": "7c1058e5e710",
+   "company": "SBB CFF FFS",
+   "title": "Data Engineer (m/w/d)",
+   "url": "https://jobs.sbb.ch/v2/offene-stellen/data-engineer-m-w-d/5eb1bd60-9853-4ae5-b801-c178de4823c2",
+   "zone": "Suisse",
+   "contract": "?",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-10-15T22:00:00+00:00",
+   "seed": false,
+   "first_seen": "2026-10-20T14:01:23+00:00",
+   "last_seen": "2026-10-20T14:01:23+00:00"
+  },
+  {
+   "id": "90c1eefcf644",
+   "company": "SNCF",
+   "title": "Analyste revenue management (F ou H)",
+   "url": "https://emploi.sncf.com/nos-offres/2239",
+   "zone": "Île-de-France",
+   "contract": "CDI",
+   "experience": "débutant accepté",
+   "junior": true,
+   "published": null,
+   "seed": false,
+   "first_seen": "2026-10-20T14:00:40+00:00",
+   "last_seen": "2026-10-20T14:00:40+00:00"
+  },
+  {
+   "id": "3619499ec7fb",
+   "company": "SNCF",
+   "title": "SI & Data",
+   "url": "https://emploi.sncf.com/nos-offres/2428",
+   "zone": "Île-de-France",
+   "contract": "CDI",
+   "experience": "débutant accepté",
+   "junior": true,
+   "published": null,
+   "seed": false,
+   "first_seen": "2026-10-20T14:00:39+00:00",
+   "last_seen": "2026-10-20T14:00:39+00:00"
+  },
+  {
+   "id": "544cc6c58005",
+   "company": "BPCE",
+   "title": "Contrôleur de gestion/data analyst H/F",
+   "url": "https://recrutement.bpce.fr/job/controleur-de-gestion-data-analyst-h-f",
+   "zone": "Île-de-France",
+   "contract": "CDD",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": null,
+   "seed": false,
+   "first_seen": "2026-10-20T13:59:55+00:00",
+   "last_seen": "2026-10-20T13:59:55+00:00"
+  },
+  {
+   "id": "536c22c5b2bd",
+   "company": "BPCE",
+   "title": "CREDIT STRESS TEST QUANTITATIVE ANALYST (F/H) - CDD 6 mois",
+   "url": "https://recrutement.bpce.fr/job/credit-stress-test-quantitative-analyst-f-h-cdd-6-mois",
+   "zone": "Île-de-France",
+   "contract": "CDD",
+   "experience": "non précisée",
+   "junior": false,
+   "published": null,
+   "seed": false,
+   "first_seen": "2026-10-20T13:59:37+00:00",
+   "last_seen": "2026-10-20T13:59:37+00:00"
+  },
+  {
+   "id": "aa43f082a76c",
+   "company": "BPCE",
+   "title": "Valuation Risk Analyst",
+   "url": "https://recrutement.bpce.fr/job/valuation-risk-analyst",
+   "zone": "Île-de-France",
+   "contract": "CDD",
+   "experience": "non précisée",
+   "junior": false,
+   "published": null,
+   "seed": false,
+   "first_seen": "2026-10-20T13:59:28+00:00",
+   "last_seen": "2026-10-20T13:59:28+00:00"
+  },
+  {
+   "id": "519a0d59715a",
+   "company": "BPCE",
+   "title": "Analyste Risque Transverse - Data &amp; Innovation",
+   "url": "https://recrutement.bpce.fr/job/analyste-risque-transverse-data-innovation",
+   "zone": "Île-de-France",
+   "contract": "CDI",
+   "experience": "non précisée",
+   "junior": false,
+   "published": null,
+   "seed": false,
+   "first_seen": "2026-10-20T13:59:19+00:00",
+   "last_seen": "2026-10-20T13:59:19+00:00"
+  },
+  {
+   "id": "307deaa627a2",
+   "company": "BPCE",
+   "title": "CDD - Analyste Risques Financiers H/F",
+   "url": "https://recrutement.bpce.fr/job/cdd-analyste-risques-financiers-h-f",
+   "zone": "Île-de-France",
+   "contract": "CDI/CDD",
+   "experience": "non précisée",
+   "junior": false,
+   "published": null,
+   "seed": false,
+   "first_seen": "2026-10-20T13:59:10+00:00",
+   "last_seen": "2026-10-20T13:59:10+00:00"
+  },
+  {
+   "id": "ff9740f1b7eb",
+   "company": "BPCE",
+   "title": "Market Risk Quant Analyst",
+   "url": "https://recrutement.bpce.fr/job/market-risk-quant-analyst",
+   "zone": "Île-de-France",
+   "contract": "CDI",
+   "experience": "2 ans min.",
+   "junior": false,
+   "published": null,
+   "seed": false,
+   "first_seen": "2026-10-20T13:58:43+00:00",
+   "last_seen": "2026-10-20T13:58:43+00:00"
+  },
+  {
+   "id": "c18e4d27eaf9",
+   "company": "BPCE",
+   "title": "Ingénieur Système Data - F/H",
+   "url": "https://recrutement.bpce.fr/job/ingenieur-systeme-data-f-h",
+   "zone": "Île-de-France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": null,
+   "seed": false,
+   "first_seen": "2026-10-20T13:58:07+00:00",
+   "last_seen": "2026-10-20T13:58:07+00:00"
+  },
+  {
+   "id": "189b8dd7a5b7",
+   "company": "BPCE",
+   "title": "Data Analyst Facturation - H/F",
+   "url": "https://recrutement.bpce.fr/job/data-analyst-facturation-h-f",
+   "zone": "Île-de-France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": null,
+   "seed": false,
+   "first_seen": "2026-10-20T13:57:49+00:00",
+   "last_seen": "2026-10-20T13:57:49+00:00"
+  },
+  {
+   "id": "88f35d9b8c11",
+   "company": "BPCE",
+   "title": "Analyste Financement de Projet - Modélisation F/H",
+   "url": "https://recrutement.bpce.fr/job/analyste-financement-de-projet-modelisation-f-h",
+   "zone": "Île-de-France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": null,
+   "seed": false,
+   "first_seen": "2026-10-20T13:57:40+00:00",
+   "last_seen": "2026-10-20T13:57:40+00:00"
+  },
+  {
+   "id": "a76e1272afc5",
+   "company": "BPCE",
+   "title": "Data Scientist Junior - CDD H/F",
+   "url": "https://recrutement.bpce.fr/job/data-scientist-junior-cdd-h-f",
+   "zone": "Île-de-France",
+   "contract": "CDD",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": null,
+   "seed": false,
+   "first_seen": "2026-10-20T13:57:31+00:00",
+   "last_seen": "2026-10-20T13:57:31+00:00"
+  },
+  {
+   "id": "d9c7eb43d88a",
+   "company": "BPCE",
+   "title": "Analyste support fonctionnel monétique commerçant (F/H)",
+   "url": "https://recrutement.bpce.fr/job/analyste-support-fonctionnel-monetique-commercant-f-h",
+   "zone": "Île-de-France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": null,
+   "seed": false,
+   "first_seen": "2026-10-20T13:57:03+00:00",
+   "last_seen": "2026-10-20T13:57:03+00:00"
+  },
+  {
+   "id": "93f48f9a0777",
+   "company": "BPCE",
+   "title": "BUSINESS ANALYST - F/H",
+   "url": "https://recrutement.bpce.fr/job/business-analyst-f-h-4",
+   "zone": "Île-de-France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": null,
+   "seed": false,
+   "first_seen": "2026-10-20T13:56:45+00:00",
+   "last_seen": "2026-10-20T13:56:45+00:00"
+  },
+  {
+   "id": "e944b60874a1",
+   "company": "BPCE",
+   "title": "Data Analyst - Pilotage de la Rentabilité Commerciale",
+   "url": "https://recrutement.bpce.fr/job/data-analyst-pilotage-de-la-rentabilite-commerciale",
+   "zone": "Île-de-France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": null,
+   "seed": false,
+   "first_seen": "2026-10-20T13:56:36+00:00",
+   "last_seen": "2026-10-20T13:56:36+00:00"
+  },
   {
    "id": "18a068234299",
    "company": "Crédit Agricole",
@@ -27,7 +251,7 @@
    "published": null,
    "seed": true,
    "first_seen": "2026-10-20T13:26:12+00:00",
-   "last_seen": "2026-10-20T13:26:12+00:00"
+   "last_seen": "2026-10-20T13:55:28+00:00"
   },
   {
    "id": "a463557e25d7",
@@ -41,7 +265,7 @@
    "published": null,
    "seed": true,
    "first_seen": "2026-10-20T13:24:50+00:00",
-   "last_seen": "2026-10-20T13:24:50+00:00"
+   "last_seen": "2026-10-20T13:54:34+00:00"
   },
   {
    "id": "1af5621d9cca",
@@ -55,7 +279,7 @@
    "published": null,
    "seed": true,
    "first_seen": "2026-10-20T13:24:49+00:00",
-   "last_seen": "2026-10-20T13:24:49+00:00"
+   "last_seen": "2026-10-20T13:54:34+00:00"
   },
   {
    "id": "3a1094fb030f",
@@ -69,7 +293,7 @@
    "published": null,
    "seed": true,
    "first_seen": "2026-10-20T13:24:39+00:00",
-   "last_seen": "2026-10-20T13:24:39+00:00"
+   "last_seen": "2026-10-20T13:54:34+00:00"
   },
   {
    "id": "c95f8118ef39",
@@ -83,7 +307,7 @@
    "published": "Tue, 06 Oct 2026 14:52:19 Z",
    "seed": true,
    "first_seen": "2026-10-20T13:24:12+00:00",
-   "last_seen": "2026-10-20T13:24:12+00:00"
+   "last_seen": "2026-10-20T13:54:09+00:00"
   },
   {
    "id": "828e74cf97c5",
@@ -97,7 +321,7 @@
    "published": "Tue, 13 Oct 2026 12:22:49 Z",
    "seed": true,
    "first_seen": "2026-10-20T13:24:10+00:00",
-   "last_seen": "2026-10-20T13:24:10+00:00"
+   "last_seen": "2026-10-20T13:54:09+00:00"
   },
   {
    "id": "6f87aac13152",
@@ -111,7 +335,7 @@
    "published": "Tue, 13 Oct 2026 12:32:45 Z",
    "seed": true,
    "first_seen": "2026-10-20T13:24:09+00:00",
-   "last_seen": "2026-10-20T13:24:09+00:00"
+   "last_seen": "2026-10-20T13:54:09+00:00"
   },
   {
    "id": "37f347acf9dc",
@@ -125,7 +349,7 @@
    "published": "Fri, 16 Oct 2026 13:25:34 Z",
    "seed": true,
    "first_seen": "2026-10-20T13:24:07+00:00",
-   "last_seen": "2026-10-20T13:24:07+00:00"
+   "last_seen": "2026-10-20T13:54:09+00:00"
   }
  ]
 }
