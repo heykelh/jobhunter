@@ -1,6 +1,142 @@
 {
- "updated": "2026-10-20T14:01:24+00:00",
+ "updated": "2026-10-20T17:38:01+00:00",
  "items": [
+  {
+   "id": "7847f27d0670",
+   "company": "BPCE",
+   "title": "Business Analyst Risques - F/H",
+   "url": "https://recrutement.bpce.fr/job/business-analyst-risques-f-h",
+   "reason": "expérience demandée ≥ 5 ans",
+   "at": "2026-10-20T17:36:55+00:00"
+  },
+  {
+   "id": "d6ca027068ba",
+   "company": "BPCE",
+   "title": "Responsable Projets Data Risques de Crédit (F/H)",
+   "url": "https://recrutement.bpce.fr/job/responsable-projets-data-risques-de-credit-f-h",
+   "reason": "expérience demandée ≥ 10 ans",
+   "at": "2026-10-20T17:35:40+00:00"
+  },
+  {
+   "id": "c6953d163424",
+   "company": "BPCE",
+   "title": "Business Analyst Data Finance - F/H",
+   "url": "https://recrutement.bpce.fr/job/business-analyst-data-finance-f-h",
+   "reason": "expérience demandée ≥ 3 ans",
+   "at": "2026-10-20T17:35:31+00:00"
+  },
+  {
+   "id": "7f178f32100c",
+   "company": "BPCE",
+   "title": "Business Analyst Risque IT (F/H)",
+   "url": "https://recrutement.bpce.fr/job/business-analyst-risque-it-f-h",
+   "reason": "expérience demandée ≥ 5 ans",
+   "at": "2026-10-20T17:35:22+00:00"
+  },
+  {
+   "id": "08d595adbd22",
+   "company": "BPCE",
+   "title": "Analyste Risque de Crédit dossiers sensibles (F/H)",
+   "url": "https://recrutement.bpce.fr/job/analyste-risque-de-credit-dossiers-sensibles-f-h",
+   "reason": "expérience demandée ≥ 5 ans",
+   "at": "2026-10-20T17:35:11+00:00"
+  },
+  {
+   "id": "b7c1eed77808",
+   "company": "BPCE",
+   "title": "Data Engineer F/H",
+   "url": "https://recrutement.bpce.fr/job/data-engineer-f-h",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-20T17:35:03+00:00"
+  },
+  {
+   "id": "1448d82fb9f2",
+   "company": "BPCE",
+   "title": "Analyste Reporting Risque (H/F)",
+   "url": "https://recrutement.bpce.fr/job/analyste-reporting-risque-h-f",
+   "reason": "expérience demandée ≥ 10 ans",
+   "at": "2026-10-20T17:34:52+00:00"
+  },
+  {
+   "id": "c81331855a99",
+   "company": "BPCE",
+   "title": "Analyste Risques (H/F)",
+   "url": "https://recrutement.bpce.fr/job/analyste-risques-h-f",
+   "reason": "expérience demandée ≥ 3 ans",
+   "at": "2026-10-20T17:34:44+00:00"
+  },
+  {
+   "id": "f90fb40c27df",
+   "company": "BPCE",
+   "title": "Business Analyst IT Parcours Conseillers (F/H)",
+   "url": "https://recrutement.bpce.fr/job/business-analyst-it-parcours-conseillers-f-h",
+   "reason": "lieu hors zones",
+   "at": "2026-10-20T17:34:35+00:00"
+  },
+  {
+   "id": "7a77e7b235e5",
+   "company": "BPCE",
+   "title": "Ingénieur Méthodes et Qualité - Datacenter (F/H)",
+   "url": "https://recrutement.bpce.fr/job/ingenieur-methodes-et-qualite-datacenter-f-h-2",
+   "reason": "expérience demandée ≥ 3 ans",
+   "at": "2026-10-20T17:34:26+00:00"
+  },
+  {
+   "id": "ffb3dca2004e",
+   "company": "BPCE",
+   "title": "Ingénieur Méthodes et Qualité - Datacenter (F/H)",
+   "url": "https://recrutement.bpce.fr/job/ingenieur-methodes-et-qualite-datacenter-f-h-3",
+   "reason": "expérience demandée ≥ 3 ans",
+   "at": "2026-10-20T17:34:17+00:00"
+  },
+  {
+   "id": "445790dbe6f1",
+   "company": "BPCE",
+   "title": "Ingénieur Méthodes et Qualité - Datacenter (F/H)",
+   "url": "https://recrutement.bpce.fr/job/ingenieur-methodes-et-qualite-datacenter-f-h-4",
+   "reason": "expérience demandée ≥ 3 ans",
+   "at": "2026-10-20T17:34:08+00:00"
+  },
+  {
+   "id": "4f795f0b347d",
+   "company": "BPCE",
+   "title": "Analyste Risques , Sud Service Accompagnement",
+   "url": "https://recrutement.bpce.fr/job/analyste-risques-sud-service-accompagnement",
+   "reason": "lieu hors zones",
+   "at": "2026-10-20T17:33:16+00:00"
+  },
+  {
+   "id": "36c60edd0a4e",
+   "company": "BPCE",
+   "title": "STAGE - QA Analyst (F/H) - PARIS",
+   "url": "https://recrutement.bpce.fr/job/stage-qa-analyst-f-h-paris",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T17:32:57+00:00"
+  },
+  {
+   "id": "d47d8375ca50",
+   "company": "BPCE",
+   "title": "STAGE - Business Analyst (F/H) - PARIS",
+   "url": "https://recrutement.bpce.fr/job/stage-business-analyst-f-h-paris-3",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T17:32:57+00:00"
+  },
+  {
+   "id": "733629080785",
+   "company": "BPCE",
+   "title": "STAGE - Business Analyst (F/H) - Paris",
+   "url": "https://recrutement.bpce.fr/job/stage-business-analyst-f-h-paris-2",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-20T17:32:57+00:00"
+  },
+  {
+   "id": "97d05177a19b",
+   "company": "Crédit Agricole",
+   "title": "Credit Analyst-Risk Manager (ARM) H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170470-124-credit-analyst-risk-manager-arm-hf-reference--2026-114438--/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-10-20T17:32:08+00:00"
+  },
   {
    "id": "91535e155529",
    "company": "AXA",
