@@ -9,6 +9,24 @@ import requests
 log = logging.getLogger("jobwatch")
 
 
+def fmt_published(p: str | None) -> str:
+    """"2026-10-16T09:41:00+00:00" → "16/10 à 11:41" (heure de Paris) ; "2026-10-16" → "16/10/2026"."""
+    if not p:
+        return ""
+    try:
+        from datetime import datetime
+        from zoneinfo import ZoneInfo
+        if len(p) == 10:
+            y, m, d = p.split("-")
+            return f"{d}/{m}/{y}"
+        dt = datetime.fromisoformat(p)
+        if dt.tzinfo:
+            dt = dt.astimezone(ZoneInfo("Europe/Paris"))
+        return dt.strftime("%d/%m à %H:%M")
+    except Exception:
+        return ""
+
+
 class Notifier:
     def __init__(self, cfg: dict):
         n = cfg.get("notify", {}) or {}
@@ -52,6 +70,8 @@ class Notifier:
             return
         for j in jobs:
             msg = f"{j['company']} · {j['zone']} · {j['contract']} · {j['experience']}"
+            if j.get("published"):
+                msg += f"\nPubliée le {fmt_published(j['published'])}"
             actions = [{"action": "view", "label": "Voir l'offre", "url": j["url"]}]
             if self.site_url:
                 actions.append({"action": "view", "label": "Mon site", "url": self.site_url})

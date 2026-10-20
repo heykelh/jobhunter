@@ -13,7 +13,7 @@ from dataclasses import dataclass, field
 def norm(s: str | None) -> str:
     s = unicodedata.normalize("NFKD", s or "")
     s = "".join(c for c in s if not unicodedata.combining(c))
-    s = s.replace("\u2019", "'").replace("\u2013", "-").replace("\u2014", "-")
+    s = s.replace("’", "'").replace("–", "-").replace("—", "-")
     return re.sub(r"\s+", " ", s.lower()).strip()
 
 
@@ -125,7 +125,9 @@ def detect_experience(text: str) -> tuple[int | None, bool]:
     for rx, kind in ((UPTO_RE, "upto"), (RANGE_RE, "range"), (SINGLE_RE, "single")):
         for m in rx.finditer(t):
             a, b = m.span()
-            if overlaps(a, b) or not near_exp(a, b):
+            # "De 6 à 10 ans" (étiquette SNCF) compte même sans le mot "expérience"
+            tagged = kind == "range" and t[max(0, a - 3):a] == "de "
+            if overlaps(a, b) or not (near_exp(a, b) or tagged):
                 continue
             n = 0 if kind == "upto" else int(m.group(1))
             if n > 20:

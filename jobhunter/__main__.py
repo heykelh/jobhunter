@@ -127,7 +127,7 @@ def run(argv=None) -> int:
                         continue
                     job = {"id": jid, "company": name, "title": title, "url": l.url,
                            "zone": v.zone, "contract": v.contract, "experience": v.experience,
-                           "junior": v.junior, "published": (d.published if d else None) or l.published,
+                           "junior": v.junior, "published": l.published or (d.published if d else None),
                            "seed": first_time}
                     store.add(job)
                     kept += 1

@@ -56,6 +56,65 @@ def squash(s: str | None) -> str:
     return re.sub(r"\s+", " ", s or "").strip()
 
 
+# ------------------------------------------------------------ date de publication
+DATE_KEYS = ("datePosted", "publicationDate", "posted_date", "postedDate", "postedOn", "postingEffectiveDate",
+             "publishedDate", "published_at", "publishedAt", "publication_date", "datePublication",
+             "start_date", "creationDate", "create_date", "createdAt", "created_at")
+_DMY = re.compile(r"(?<!\d)(\d{1,2})[./-](\d{1,2})[./-](20\d\d)(?:[ T,àa]+(\d{1,2})[:h](\d{2}))?")
+_ISO = re.compile(r"(20\d\d)-(\d{2})-(\d{2})(?:[T ](\d{2}):(\d{2})(?::(\d{2}))?(\.\d+)?(Z|[+-]\d{2}:?\d{2})?)?")
+
+
+def parse_date(value) -> str | None:
+    """Date de publication → texte ISO ("2026-10-16T09:41:00+00:00", ou "2026-10-16" sans heure)."""
+    from datetime import datetime, timezone
+    from email.utils import parsedate_to_datetime
+    if value is None or value == "":
+        return None
+    if isinstance(value, (int, float)) and value > 1e9:          # timestamp (s ou ms)
+        ts = value / 1000 if value > 1e11 else value
+        return datetime.fromtimestamp(ts, timezone.utc).replace(microsecond=0).isoformat()
+    s = str(value).strip()
+    m = _ISO.search(s)
+    if m:
+        y, mo, d, hh, mm, ss, _, tz = m.groups()
+        if not hh:
+            return f"{y}-{mo}-{d}"
+        tz = "+00:00" if tz in (None, "Z") else (tz if ":" in tz else tz[:3] + ":" + tz[3:])
+        return f"{y}-{mo}-{d}T{hh}:{mm}:{ss or '00'}{tz}"
+    try:                                                          # format RSS : "Tue, 20 Oct 2026 10:00:00 GMT"
+        dt = parsedate_to_datetime(s)
+        if dt:
+            if not dt.tzinfo:
+                dt = dt.replace(tzinfo=timezone.utc)
+            return dt.isoformat()
+    except Exception:
+        pass
+    m = _DMY.search(s)
+    if m:
+        d, mo, y, hh, mm = m.groups()
+        if 1 <= int(mo) <= 12 and 1 <= int(d) <= 31:
+            base = f"{y}-{int(mo):02d}-{int(d):02d}"
+            # heure locale (Paris) : on la garde sans fuseau, le site l'affichera telle quelle
+            return f"{base}T{int(hh):02d}:{mm}:00" if hh else base
+    return None
+
+
+def find_date(obj, depth: int = 0) -> str | None:
+    if isinstance(obj, dict):
+        for k in DATE_KEYS:
+            if k in obj:
+                p = parse_date(obj[k])
+                if p:
+                    return p
+        if depth < 2:
+            for v in obj.values():
+                if isinstance(v, dict):
+                    p = find_date(v, depth + 1)
+                    if p:
+                        return p
+    return None
+
+
 # --------------------------------------------------------------------------- fetch
 class Fetcher:
     def __init__(self, delay: float = 1.0):
@@ -262,7 +321,9 @@ def harvest_links(html: str, base_url: str, link_pattern: str | None, keyword_hi
         if better:
             if old and len(old.context) > len(ctx):
                 ctx = old.context
-            found[url] = Listing(url=url, title=title, context=ctx if ctx != title else "")
+            m = _DMY.search(ctx) or _ISO.search(ctx)
+            found[url] = Listing(url=url, title=title, context=ctx if ctx != title else "",
+                                 published=parse_date(m.group(0)) if m else None)
         elif old and len(ctx) > len(old.context):
             old.context = ctx
     # Certains sites (Phenom, Cornerstone…) mettent les offres dans un JSON embarqué
@@ -275,10 +336,12 @@ def harvest_links(html: str, base_url: str, link_pattern: str | None, keyword_hi
 
 
 # ----------------------------------------------------------- offres dans du JSON
-TITLE_KEYS = ("title", "jobTitle", "job_title", "JobTitle", "Title", "postingTitle", "displayJobTitle",
+TITLE_KEYS = ("title", "post_title", "jobTitle", "job_title", "JobTitle", "Title", "postingTitle", "displayJobTitle",
               "intitule", "intitulePoste", "titre", "libelle", "name", "label")
 URL_KEYS = ("url", "jobUrl", "job_url", "applyUrl", "detailUrl", "detailsUrl", "externalUrl", "absolute_url",
-            "canonicalUrl", "seoUrl", "link", "href", "permalink", "jobLink", "Url", "URL")
+            "canonicalUrl", "canonical_url", "seoUrl", "link", "href", "permalink", "jobLink", "directlink",
+            "Url", "URL")
+EMBEDDED_URL = re.compile(r"https?://[^\s\"'|<>]+")
 
 
 def _first(d: dict, keys) -> str:
@@ -286,6 +349,24 @@ def _first(d: dict, keys) -> str:
         v = d.get(k)
         if isinstance(v, str) and v.strip():
             return v.strip()
+    return ""
+
+
+def _find_link(o: dict) -> str:
+    link = _first(o, URL_KEYS)
+    if link:
+        return link
+    for v in o.values():                       # un niveau plus bas : {"links": {"directlink": …}}
+        if isinstance(v, dict):
+            link = _first(v, URL_KEYS)
+            if link:
+                return link
+    for k in ("docid", "uri", "sourceurl", "originalurl"):   # ex. "collection|https://…"
+        v = o.get(k)
+        if isinstance(v, str):
+            m = EMBEDDED_URL.search(v)
+            if m:
+                return m.group(0)
     return ""
 
 
@@ -298,11 +379,20 @@ def _flat_text(d, depth: int = 0) -> str:
                 s = str(v)
                 if 1 < len(s) <= 120 and not s.startswith("http"):
                     out.append(s)
-            elif depth < 2:
+            elif depth < 3:
                 out.append(_flat_text(v, depth + 1))
-    elif isinstance(d, list) and depth < 2:
-        out += [_flat_text(x, depth + 1) for x in d[:5]]
+    elif isinstance(d, list) and depth < 3:
+        out += [_flat_text(x, depth + 1) if isinstance(x, (dict, list)) else str(x) for x in d[:6]]
     return squash(" ".join(o for o in out if o))[:700]
+
+
+def _unwrap(y: dict) -> dict:
+    """{"data": {...offre...}} → {...offre...}"""
+    if not _first(y, TITLE_KEYS):
+        for v in y.values():
+            if isinstance(v, dict) and _first(v, TITLE_KEYS):
+                return v
+    return y
 
 
 def _job_lists(data):
@@ -311,12 +401,27 @@ def _job_lists(data):
     while stack:
         x = stack.pop()
         if isinstance(x, list):
-            dicts = [y for y in x if isinstance(y, dict)]
+            dicts = [_unwrap(y) for y in x if isinstance(y, dict)]
             if len(dicts) >= 2 and sum(1 for y in dicts if _first(y, TITLE_KEYS)) >= max(2, len(dicts) // 2):
                 yield dicts
             stack.extend(y for y in x if isinstance(y, (list, dict)))
         elif isinstance(x, dict):
             stack.extend(v for v in x.values() if isinstance(v, (list, dict)))
+
+
+def _html_strings(data, out=None):
+    """Morceaux de HTML renvoyés dans du JSON (ex. résultats de recherche VINCI)."""
+    out = [] if out is None else out
+    if isinstance(data, str):
+        if "href=" in data and len(data) > 200:
+            out.append(data)
+    elif isinstance(data, dict):
+        for v in data.values():
+            _html_strings(v, out)
+    elif isinstance(data, list):
+        for v in data:
+            _html_strings(v, out)
+    return out
 
 
 class _Blank(dict):
@@ -332,7 +437,7 @@ def listings_from_json(data, base_url: str, url_template: str | None = None) -> 
             title = clean_title(_first(o, TITLE_KEYS))
             if not (4 <= len(title) <= 200):
                 continue
-            link = _first(o, URL_KEYS)
+            link = _find_link(o)
             if url_template:
                 try:
                     flat = _Blank({k: v for k, v in o.items() if isinstance(v, (str, int, float))})
@@ -344,7 +449,7 @@ def listings_from_json(data, base_url: str, url_template: str | None = None) -> 
                 continue
             url = clean_url(urljoin(base_url, link))
             if url.startswith("http") and not url.rstrip("/").endswith(urlparse(url).netloc):
-                out.append(Listing(url=url, title=title, context=_flat_text(o)))
+                out.append(Listing(url=url, title=title, context=_flat_text(o), published=find_date(o)))
             else:
                 sample = sample or o
     return out, sample
@@ -380,7 +485,7 @@ def fetch_rss(fetcher: Fetcher, url: str) -> list[Listing]:
         if title and link:
             out.append(Listing(url=clean_url(link.strip()), title=title,
                                context=squash(cats + " " + desc)[:1500],
-                               published=pub.get_text().strip() if pub else None))
+                               published=parse_date(pub.get_text()) if pub else None))
     return out
 
 
@@ -391,33 +496,50 @@ def collect(comp: dict, fetcher: Fetcher, keywords: list[str], keyword_hit) -> t
     errors = []
     fetcher.diag = []
     tpl = comp.get("url_template")
+    link_rx = comp.get("link_pattern")
     for url in expand_urls(comp, keywords):
         try:
             if src == "rss":
                 items = fetch_rss(fetcher, url)
+                json_items = []
             else:
                 render = comp.get("render", False)
                 fetcher.json_payloads = []
-                html = fetcher.get(url, render=render,
-                                   wait_ms=comp.get("wait_ms", 3000), scroll=comp.get("scroll", 0))
-                items = harvest_links(html, url, comp.get("link_pattern"), keyword_hit)
+                if src == "json":                       # API JSON appelée directement
+                    html = ""
+                    payloads = [(url, json.loads(fetcher.get(url)))]
+                    items = []
+                else:
+                    html = fetcher.get(url, render=render,
+                                       wait_ms=comp.get("wait_ms", 3000), scroll=comp.get("scroll", 0))
+                    items = harvest_links(html, url, link_rx, keyword_hit)
+                    payloads = list(fetcher.json_payloads) if render else []
+                    payloads += [("(page)", d) for d in inline_json(html)]
                 # Offres trouvées dans les réponses JSON ou le JSON embarqué
-                payloads = list(fetcher.json_payloads) if render else []
-                payloads += [("(page)", d) for d in inline_json(html)]
+                json_items = []
                 for src_url, data in payloads:
                     js, sample = listings_from_json(data, url, tpl)
+                    for frag in _html_strings(data):    # HTML de résultats renvoyé dans du JSON
+                        js += harvest_links(frag, url, link_rx, keyword_hit)
                     if comp.get("json_url_pattern"):
                         js = [j for j in js if re.search(comp["json_url_pattern"], j.url, re.I)]
                     if js:
                         fetcher.diag.append(f"[json-offres] {len(js)} offres dans {src_url[:120]} "
-                                            f"(ex. « {js[0].title} » → {js[0].url})")
-                        items += js
+                                            f"(ex. « {js[0].title} » → {js[0].url}, publiée {js[0].published or '?'})")
+                        json_items += js
                     elif sample:
                         keys = ", ".join(list(sample.keys())[:25])
                         fetcher.diag.append(f"[json-sans-lien] {src_url[:120]} — clés : {keys} — exemple : "
                                             f"{json.dumps(sample, ensure_ascii=False)[:500]}")
-            for it in items:
-                listings.setdefault(it.url, it)
+            # Le JSON est plus fiable (titre, date) que les liens de la page : il passe en premier
+            for it in json_items + items:
+                old = listings.get(it.url)
+                if not old:
+                    listings[it.url] = it
+                else:
+                    old.published = old.published or it.published
+                    if len(it.context) > len(old.context):
+                        old.context = it.context
         except Exception as e:  # une URL en panne n'arrête pas les autres
             errors.append(f"{url} → {type(e).__name__}: {str(e)[:160]}")
             log.warning("  ! %s", errors[-1])
@@ -482,7 +604,7 @@ def fetch_detail(fetcher: Fetcher, url: str, render: bool = False) -> Detail:
             jp = jps[0]
             d.structured = _jp_struct(jp)
             d.title = squash(jp.get("title"))
-            d.published = jp.get("datePosted")
+            d.published = parse_date(jp.get("datePosted"))
             desc = BeautifulSoup(str(jp.get("description") or ""), "lxml").get_text(" ")
             if len(desc) > 200:
                 d.text = squash(desc) + " " + text[:2000]

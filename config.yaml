@@ -84,11 +84,11 @@ alert_after_failures: 6          # notif "source en panne" après 6 passages rat
 #  le workflow en mode "diagnose" pour vérifier que des offres remontent.
 #
 #  source: rss   → url d'un flux RSS (le plus fiable)
+#  source: json  → url d'une API JSON (offres lues directement)
 #  source: html  → urls de pages de résultats ; {q} = remplacé par chaque mot-clé
 #                  render: true    = ouvrir avec un vrai navigateur (sites en JavaScript)
 #                  link_pattern    = morceau d'URL propre aux fiches d'offre (regex)
 #                                    sans lui : liens du même site dont le titre contient un mot-clé
-#                  url_template    = modèle d'adresse d'offre quand le JSON du site n'a pas de lien
 #  default_location : zone à utiliser si la fiche ne précise pas le lieu
 #  enabled: false   → désactive sans supprimer
 # ═══════════════════════════════════════════════════════════════════
@@ -108,15 +108,17 @@ companies:
     link_pattern: /careers/JobDetail/
 
   - name: Société Générale
-    source: html
+    source: html                # offres lues dans le JSON de leur moteur de recherche
     render: true
     wait_ms: 6000
     urls:
       - https://careers.societegenerale.com/rechercher?query={q}
     link_pattern: /offres-d-emploi/
+    json_url_pattern: /offres-d-emploi/
 
   - name: BNP Paribas
-    source: html                # catégorie "Data Analytics" (le site bloque les requêtes simples → navigateur)
+    enabled: false              # le site bloque les robots ("Access Denied") — à réactiver si ça change
+    source: html
     render: true
     urls:
       - https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/data-analytics?page={page}
@@ -140,12 +142,10 @@ companies:
     link_pattern: /job/
 
   - name: AXA
-    source: html
-    render: true
-    wait_ms: 6000
+    source: json                # API publique du site carrière AXA (monde entier, filtré ensuite par lieu)
     urls:
-      - https://careers.axa.com/global/en/search-results?keywords={q}
-    link_pattern: /job/
+      - https://jobs.axa.com/api/jobs?keywords={q}&page={page}&sortBy=posted_date&descending=true
+    pages: [1, 2, 3]
 
   - name: EDF
     source: html
@@ -156,11 +156,12 @@ companies:
     link_pattern: /edf-recrute/offre/detail/
 
   - name: SNCF
-    source: html                # liste servie sans JavaScript (les ~200 offres les plus récentes)
+    source: html                # les 20 offres les plus récentes (lues dans le JSON de la page)
     urls:
       - https://emploi.sncf.com/nos-offres?page={page}
-    pages: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    pages: [0]
     link_pattern: /nos-offres/\d+$
+    url_template: https://emploi.sncf.com/nos-offres/{id}
 
   - name: ETF (VINCI)
     source: html                # site VINCI : recherche "ETF", puis filtre sur nos mots-clés
@@ -175,6 +176,7 @@ companies:
     urls:
       - https://sncfl.csod.com/ux/ats/careersite/1/home?c=sncfl
     link_pattern: /requisition/
+    url_template: https://sncfl.csod.com/ux/ats/careersite/1/home/requisition/{requisitionId}?c=sncfl
     scroll: 4
     default_location: luxembourg
 

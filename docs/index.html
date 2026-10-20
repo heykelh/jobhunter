@@ -61,6 +61,7 @@
   .tag { font-size: 12px; padding: 3px 8px; border-radius: 999px; background: var(--bg); border: 1px solid var(--line); color: var(--muted); }
   .tag.new { background: var(--new-soft); color: var(--new); border-color: transparent; font-weight: 700; }
   .tag.junior { background: var(--accent-soft); color: var(--accent); border-color: transparent; }
+  .tag.pub { color: var(--ink); }
   .tag.gone { background: var(--warn-soft); color: var(--warn); border-color: transparent; }
   .actions { display: flex; gap: 8px; margin-top: 12px; flex-wrap: wrap; }
   .btn { font: inherit; font-size: 13px; padding: 7px 12px; border-radius: 9px; border: 1px solid var(--line);
@@ -148,6 +149,23 @@ function ago(iso) {
 }
 const isNew = j => !j.seed && hours(j.first_seen) < 48;
 const isGone = j => hours(j.last_seen) > 72;
+// Date de publication par l'entreprise : "2026-10-16" (jour seul) ou "2026-10-16T09:41:00+00:00"
+function fmtPub(p) {
+  if (!p) return "";
+  if (p.length === 10) {
+    const [y, m, d] = p.split("-");
+    return `${d}/${m}/${y}`;
+  }
+  const dt = new Date(p);
+  if (isNaN(dt)) return "";
+  const opts = { timeZone: "Europe/Paris" };
+  return dt.toLocaleDateString("fr-FR", opts) + " à " +
+         dt.toLocaleTimeString("fr-FR", { ...opts, hour: "2-digit", minute: "2-digit" });
+}
+const sortKey = j => {
+  const t = j.published ? new Date(j.published.length === 10 ? j.published + "T12:00:00" : j.published).getTime() : NaN;
+  return isNaN(t) ? new Date(j.first_seen).getTime() : t;
+};
 
 async function load(name, fallback) {
   try { const r = await fetch(`data/${name}.json?t=${Date.now()}`); if (!r.ok) throw 0; return await r.json(); }
@@ -178,7 +196,7 @@ function renderJobs() {
     (!$("#only-new").checked || isNew(j)) &&
     (!$("#hide-applied").checked || !applied.has(j.id)) &&
     ($("#show-gone").checked || !isGone(j))
-  );
+  ).sort((a, b) => sortKey(b) - sortKey(a));
   const active = DATA.jobs.filter(j => !isGone(j) && !hidden.has(j.id));
   $("#s-active").textContent = active.length;
   $("#s-new").textContent = active.filter(isNew).length;
@@ -191,6 +209,7 @@ function renderJobs() {
       <div class="tags">
         ${isNew(j) ? '<span class="tag new">NOUVEAU</span>' : ""}
         ${isGone(j) ? '<span class="tag gone">plus vue depuis ' + esc(ago(j.last_seen).replace("il y a ", "")) + '</span>' : ""}
+        ${j.published ? `<span class="tag pub">📅 Publiée le ${esc(fmtPub(j.published))}</span>` : ""}
         <span class="tag">📍 ${esc(j.zone)}</span>
         <span class="tag">📄 ${esc(j.contract)}</span>
         <span class="tag ${j.junior ? "junior" : ""}">🎓 ${esc(j.experience)}</span>
