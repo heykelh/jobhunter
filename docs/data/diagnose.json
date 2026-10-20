@@ -1,5 +1,5 @@
 {
- "at": "2026-10-20T13:20:36+00:00",
+ "at": "2026-10-20T13:35:01+00:00",
  "companies": {
   "Air France": {
    "links_found": 22,
@@ -38,7 +38,8 @@
      "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25600&idOrigine=502&offerReference=2026-25600",
      "context": "Systèmes d'informations/Infrastructures & Production informatique CDI 45 rue de Paris 95747 ROISSY CHARLES DE GAULLE CEDEX Métier : Systèmes d'informations/Infrastructures & Production informatique Ty"
     }
-   ]
+   ],
+   "json": []
   },
   "TotalEnergies": {
    "links_found": 200,
@@ -107,7 +108,8 @@
      "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Analyste-Facturation-Mass-Market/77520",
      "context": "Analyste Facturation MassMarket 12-10-2026 France CDI TotalEnergies Electricité et Gaz France Postuler"
     }
-   ]
+   ],
+   "json": []
   },
   "Société Générale": {
    "links_found": 0,
@@ -115,6 +117,17 @@
    "errors": [],
    "sample_all": [],
    "sample_matching": [],
+   "json": [
+    "[json-sans-lien] https://careers.societegenerale.com/search-proxy.php — clés : type, name, display, tooltip, column, items — exemple : {\"type\": \"List\", \"name\": \"ces_box_sgcareers_job_location\", \"display\": \"Location[fr]Localisation\", \"tooltip\": null, \"column\": \"sourcecsv1\", \"items\": [{\"Type\": \"boxlist\", \"Name\": \"IND\", \"Value\": \"\\\"ces_box_sgcareers_job_location;sourcecsv1;ind;IND\\\"\", \"Count\": 102, \"Url\": \"search?action=select&resultid=729D6B42CB224E1E94C4565573D72D6C&item=%22ces_box_sgcareers_job_location%3Bsourcecsv1%3Bind%3BIND%22\", \"Trad\": \"Inde\"}, {\"Type\": \"boxlist\", \"Name\": \"IND_A37\", \"Value\": \"\\\"ces_box_sgcareers_job_locati",
+    "[json-sans-lien] https://careers.societegenerale.com/search-proxy.php — clés : type, name, display, tooltip, column, items — exemple : {\"type\": \"List\", \"name\": \"ces_box_sgcareers_job_location\", \"display\": \"Location[fr]Localisation\", \"tooltip\": null, \"column\": \"sourcecsv1\", \"items\": [{\"Type\": \"boxlist\", \"Name\": \"IND\", \"Value\": \"\\\"ces_box_sgcareers_job_location;sourcecsv1;ind;IND\\\"\", \"Count\": 102, \"Url\": \"search?action=select&resultid=8F99D326776E46F6955599BE4F5859E0&item=%22ces_box_sgcareers_job_location%3Bsourcecsv1%3Bind%3BIND%22\", \"Trad\": \"Inde\"}, {\"Type\": \"boxlist\", \"Name\": \"IND_A37\", \"Value\": \"\\\"ces_box_sgcareers_job_locati",
+    "[json-sans-lien] https://careers.societegenerale.com/search-proxy.php — clés : type, name, display, tooltip, column, items — exemple : {\"type\": \"List\", \"name\": \"ces_box_sgcareers_job_location\", \"display\": \"Location[fr]Localisation\", \"tooltip\": null, \"column\": \"sourcecsv1\", \"items\": [{\"Type\": \"boxlist\", \"Name\": \"IND\", \"Value\": \"\\\"ces_box_sgcareers_job_location;sourcecsv1;ind;IND\\\"\", \"Count\": 102, \"Url\": \"search?action=select&resultid=59C2EC14E00B472BB905A72643FE2A8A&item=%22ces_box_sgcareers_job_location%3Bsourcecsv1%3Bind%3BIND%22\", \"Trad\": \"Inde\"}, {\"Type\": \"boxlist\", \"Name\": \"IND_A37\", \"Value\": \"\\\"ces_box_sgcareers_job_locati",
+    "[json-sans-lien] https://careers.societegenerale.com/search-proxy.php — clés : type, name, display, tooltip, column, items — exemple : {\"type\": \"List\", \"name\": \"ces_box_sgcareers_job_location\", \"display\": \"Location[fr]Localisation\", \"tooltip\": null, \"column\": \"sourcecsv1\", \"items\": [{\"Type\": \"boxlist\", \"Name\": \"IND\", \"Value\": \"\\\"ces_box_sgcareers_job_location;sourcecsv1;ind;IND\\\"\", \"Count\": 102, \"Url\": \"search?action=select&resultid=D71EDA04A1374347A36D1B4F61399A96&item=%22ces_box_sgcareers_job_location%3Bsourcecsv1%3Bind%3BIND%22\", \"Trad\": \"Inde\"}, {\"Type\": \"boxlist\", \"Name\": \"IND_A37\", \"Value\": \"\\\"ces_box_sgcareers_job_locati",
+    "[json-sans-lien] https://careers.societegenerale.com/search-proxy.php — clés : docid, collection, docrank, docformat, exacthash, extracts, fileext, filename, flags, fullsummaryhtml, geo, globalrelevance, index, indexationtime, internalglobalrelevance, imageurl, languages, largesummaryhtml, matchingpartnames, matchlocations, matchlocationsperterm, modified, meta, nearhash, source — exemple : {\"docid\": \"/ces_src_sgcareers/collection_sgcareers/|https://careers.societegenerale.com/metiers/it-digital/business-analyst\", \"collection\": \"/ces_src_sgcareers/collection_sgcareers/\", \"docrank\": 0, \"docformat\": \"gWeb\", \"exacthash\": \"DXh+Nx4IQN7S/9k5MTOzDA==\", \"extracts\": \"Business {b}Analyst{nb};9788,16,2,16,62,16;705481,16,63354,16,65040,16;Société Générale vous propose de rejoindre sa communauté de Business {b}Analyst{nb}, engagée pour améliorer les applications et lâ€expérience utilisateur.;",
+    "[json-sans-lien] https://careers.societegenerale.com/search-proxy.php — clés : type, name, display, tooltip, column, items — exemple : {\"type\": \"List\", \"name\": \"ces_box_sgcareers_job_location\", \"display\": \"Location[fr]Localisation\", \"tooltip\": null, \"column\": \"sourcecsv1\", \"items\": [{\"Type\": \"boxlist\", \"Name\": \"IND\", \"Value\": \"\\\"ces_box_sgcareers_job_location;sourcecsv1;ind;IND\\\"\", \"Count\": 69, \"Url\": \"search?action=select&resultid=7FA1D994D170464D80CA7151701611A1&item=%22ces_box_sgcareers_job_location%3Bsourcecsv1%3Bind%3BIND%22\", \"Trad\": \"Inde\"}, {\"Type\": \"boxlist\", \"Name\": \"IND_A37\", \"Value\": \"\\\"ces_box_sgcareers_job_locatio",
+    "[json-sans-lien] https://careers.societegenerale.com/search-proxy.php — clés : type, name, display, tooltip, column, items — exemple : {\"type\": \"List\", \"name\": \"ces_box_sgcareers_job_location\", \"display\": \"Location[fr]Localisation\", \"tooltip\": null, \"column\": \"sourcecsv1\", \"items\": [{\"Type\": \"boxlist\", \"Name\": \"IND\", \"Value\": \"\\\"ces_box_sgcareers_job_location;sourcecsv1;ind;IND\\\"\", \"Count\": 69, \"Url\": \"search?action=select&resultid=2F5340250E7C4C17A883F25CCCE9525B&item=%22ces_box_sgcareers_job_location%3Bsourcecsv1%3Bind%3BIND%22\", \"Trad\": \"Inde\"}, {\"Type\": \"boxlist\", \"Name\": \"IND_A37\", \"Value\": \"\\\"ces_box_sgcareers_job_locatio",
+    "[json-sans-lien] https://careers.societegenerale.com/search-proxy.php — clés : type, name, display, tooltip, column, items — exemple : {\"type\": \"List\", \"name\": \"ces_box_sgcareers_job_location\", \"display\": \"Location[fr]Localisation\", \"tooltip\": null, \"column\": \"sourcecsv1\", \"items\": [{\"Type\": \"boxlist\", \"Name\": \"IND\", \"Value\": \"\\\"ces_box_sgcareers_job_location;sourcecsv1;ind;IND\\\"\", \"Count\": 69, \"Url\": \"search?action=select&resultid=34FEB00356BC472B81B4C906B48D0A8D&item=%22ces_box_sgcareers_job_location%3Bsourcecsv1%3Bind%3BIND%22\", \"Trad\": \"Inde\"}, {\"Type\": \"boxlist\", \"Name\": \"IND_A37\", \"Value\": \"\\\"ces_box_sgcareers_job_locatio",
+    "[json-sans-lien] https://careers.societegenerale.com/search-proxy.php — clés : type, name, display, tooltip, column, items — exemple : {\"type\": \"List\", \"name\": \"ces_box_sgcareers_job_location\", \"display\": \"Location[fr]Localisation\", \"tooltip\": null, \"column\": \"sourcecsv1\", \"items\": [{\"Type\": \"boxlist\", \"Name\": \"IND\", \"Value\": \"\\\"ces_box_sgcareers_job_location;sourcecsv1;ind;IND\\\"\", \"Count\": 69, \"Url\": \"search?action=select&resultid=F82FBCBA4C5049FFBF18C81AA3E8383F&item=%22ces_box_sgcareers_job_location%3Bsourcecsv1%3Bind%3BIND%22\", \"Trad\": \"Inde\"}, {\"Type\": \"boxlist\", \"Name\": \"IND_A37\", \"Value\": \"\\\"ces_box_sgcareers_job_locatio"
+   ],
    "page_info": "titre « Rechercher une offre d'emploi Société Générale | Careers Société Générale », 108 liens <a>",
    "json_calls": [
     "GET 200 https://careers.societegenerale.com/sg-careers-offers/get-token",
@@ -128,36 +141,35 @@
   "BNP Paribas": {
    "links_found": 0,
    "keyword_matches": 0,
-   "errors": [
-    "https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/data-analytics?page=1 → HTTPError: 403 Client Error: Forbidden for url: https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/data-analytics?page=1",
-    "https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/data-analytics?page=2 → HTTPError: 403 Client Error: Forbidden for url: https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/data-analytics?page=2",
-    "https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/data-analytics?page=3 → HTTPError: 403 Client Error: Forbidden for url: https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/data-analytics?page=3",
-    "https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/data-analytics?page=4 → HTTPError: 403 Client Error: Forbidden for url: https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/data-analytics?page=4",
-    "https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/data-analytics?page=5 → HTTPError: 403 Client Error: Forbidden for url: https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/data-analytics?page=5",
-    "https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/data-analytics?page=6 → HTTPError: 403 Client Error: Forbidden for url: https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/data-analytics?page=6",
-    "https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/data-analytics?page=7 → HTTPError: 403 Client Error: Forbidden for url: https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/data-analytics?page=7",
-    "https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/data-analytics?page=8 → HTTPError: 403 Client Error: Forbidden for url: https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/data-analytics?page=8"
-   ],
+   "errors": [],
    "sample_all": [],
-   "sample_matching": []
+   "sample_matching": [],
+   "json": [],
+   "page_info": "titre « Access Denied », 0 liens <a>",
+   "json_calls": []
   },
   "Crédit Agricole": {
    "links_found": 33,
-   "keyword_matches": 7,
+   "keyword_matches": 5,
    "errors": [],
    "sample_all": [
-    "Responsable Marché des entrepreneurs E-RIS (Intermédiation)",
-    "Project Manager Relations Sociales H/F",
-    "Compensation analyst H/F",
-    "STAGE JUNIOR ACCOUNTANT M/F",
-    "Client Operations Officer, Network Invoicing (12 months contract) M/F",
-    "Développeur Java (Collatéral Management) H/F",
-    "Client Operations Officer, Network Invoicing M/F",
-    "Manager Equipe Assurances Sinistres IARD H/F",
-    "Manager Equipe Assurances Sinistres IARD H/F",
-    "Stage - Business Strategy Analyst H/F"
+    "Fund Accounting H/F",
+    "Cloudops sur SI LCL H/F",
+    "STAGE - Chargé d'Affaires Entreprises Adjoint H/F",
+    "STAGE - Chargé d'Affaires Entreprises Adjoint H/F",
+    "Conseiller·ère Clientèle Professionnels H/F",
+    "STAGE - Chargé d'Affaires Entreprises Adjoint H/F",
+    "STAGE - Chargé d'Affaires Entreprises Adjoint H/F",
+    "Ingénieur IA Junior H/F",
+    "STAGE - Analyste Coverage H/F",
+    "Directeur d'Agence H/F"
    ],
    "sample_matching": [
+    {
+     "title": "STAGE - Analyste Coverage H/F",
+     "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-3-stage---analyste-coverage-hf-reference--2026-116545--/",
+     "context": "STAGE - Analyste Coverage H/F Favori Mis à jour le 20/10/2026 Stage 18 RUE DE LA REPUBLIQUE 69002 LYON - France Finances / Comptabilité / Contrôle de gestion"
+    },
     {
      "title": "Compensation analyst H/F",
      "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170475-124-compensation-analyst-hf-reference--2026-116678--/",
@@ -177,22 +189,19 @@
      "title": "Analyste Résultat, Risques de Marché et Liquidité périmètre Trésorerie H/F",
      "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170470-4-analyste-resultat-risques-de-marche-et-liquidite-perimetre-tresorerie-hf-reference--2026-116667--/",
      "context": "Analyste Résultat, Risques de Marché et Liquidité périmètre Trésorerie H/F Favori Mis à jour le 20/10/2026 Stage Montrouge - France Risques / Contrôles permanents"
-    },
-    {
-     "title": "ANALYSTE SUPPORT AGENCY & TRANSACTION MANAGEMENT IMMOBILIER STRUCTURE (CDD) H/F",
-     "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/578-170466-4-analyste-support-agency-et-transaction-management-immobilier-structure---cdd-hf-reference--2026-110139--/",
-     "context": "ANALYSTE SUPPORT AGENCY & TRANSACTION MANAGEMENT IMMOBILIER STRUCTURE (CDD) H/F Favori Mis à jour le 20/10/2026 CDD Montrouge - France Financement et Investissement"
-    },
-    {
-     "title": "STAGE - Fund Dealing Officer / Transfer - Static Data – Account opening H/F",
-     "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-136-stage---fund-dealing-officer--transfer---static-data--account-opening-hf-reference--2026-115854--/",
-     "context": "STAGE - Fund Dealing Officer / Transfer - Static Data – Account opening H/F Favori Mis à jour le 20/10/2026 Stage Esch-sur-Alzette - Luxembourg Gestion d'Actifs"
-    },
-    {
-     "title": "STAGE - Analyste Coverage France - Lyon H/F",
-     "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-3-stage---analyste-coverage-france---lyon-hf-reference--2026-116545--/",
-     "context": "STAGE - Analyste Coverage France - Lyon H/F Favori Mis à jour le 20/10/2026 Stage 18 RUE DE LA REPUBLIQUE 69002 LYON - France Finances / Comptabilité / Contrôle de gestion"
     }
+   ],
+   "json": [
+    "[json-sans-lien] https://groupecreditagricole.jobs/wp-admin/admin-ajax.php — clés : label, code_api — exemple : {\"label\": \"Alternance / Apprentissage\", \"code_api\": 1292}",
+    "[json-sans-lien] https://groupecreditagricole.jobs/wp-admin/admin-ajax.php — clés : label, code_api, parent_code — exemple : {\"label\": \"Afrique\", \"code_api\": 19, \"parent_code\": null}",
+    "[json-sans-lien] https://groupecreditagricole.jobs/wp-admin/admin-ajax.php — clés : label, code_api, parentCode — exemple : {\"label\": \"Amundi\", \"code_api\": 124, \"parentCode\": null}",
+    "[json-sans-lien] https://groupecreditagricole.jobs/wp-admin/admin-ajax.php — clés : label, code_api, parent_code — exemple : {\"label\": \"Albanie\", \"code_api\": 27, \"parent_code\": 22}",
+    "[json-sans-lien] https://groupecreditagricole.jobs/wp-admin/admin-ajax.php — clés : label, code_api — exemple : {\"label\": \"Inférieur à Bac\", \"code_api\": 191976}",
+    "[json-sans-lien] https://groupecreditagricole.jobs/wp-admin/admin-ajax.php — clés : label, code_api, parentCode — exemple : {\"label\": \"Amundi\", \"code_api\": 124, \"parentCode\": null}",
+    "[json-sans-lien] https://groupecreditagricole.jobs/wp-admin/admin-ajax.php — clés : label, code_api, parentCode — exemple : {\"label\": \"Achat\", \"code_api\": 170460, \"parentCode\": 342}",
+    "[json-sans-lien] https://groupecreditagricole.jobs/wp-admin/admin-ajax.php — clés : label, code_api, parentCode — exemple : {\"label\": \"Achat\", \"code_api\": 170460, \"parentCode\": 342}",
+    "[json-sans-lien] https://groupecreditagricole.jobs/wp-admin/admin-ajax.php — clés : label, code_api, parent_code — exemple : {\"label\": \"Afrique\", \"code_api\": 19, \"parent_code\": null}",
+    "[json-sans-lien] https://groupecreditagricole.jobs/wp-admin/admin-ajax.php — clés : label, code_api, parent_code — exemple : {\"label\": \"Antilles\", \"code_api\": 192426, \"parent_code\": 79}"
    ]
   },
   "BPCE": {
@@ -200,15 +209,15 @@
    "keyword_matches": 1,
    "errors": [],
    "sample_all": [
+    "Chargé de Clientèle Particuliers H/F - TOURS (37)",
     "Conseiller(ère) en Financements, Spécialiste Leasing (h/f)",
     "Senior Documentation Specialist",
     "IT Data Architect (F/H)",
     "International Coordination - Acquisition and Strategic Finance (F/H)",
-    "Conseiller clientèle Particuliers F/H",
-    "Conseiller Clientèle Particuliers H/F",
-    "Conseiller Clientèle Particuliers (F/H)",
-    "Cash manager - F/H",
-    "Gestionnaire de clientèle (F/H) - Nuits Saint Georges (21)"
+    "Conseiller Professionnel Junior (F/H)",
+    "Chargé d'Affaires Professionnels Conquête Santé (F/H) - Lyon",
+    "Stage – Stratégie & Développement International (H/F)",
+    "Chargé d'Affaires Large Pro - F/H"
    ],
    "sample_matching": [
     {
@@ -217,18 +226,30 @@
      "context": "IT Data Architect (F/H) Natixis CIB France CDI Paris Découvrir"
     }
    ],
+   "json": [
+    "[json-sans-lien] https://recrutement.bpce.fr/app/wp-json/bpce/v1/global/?lang=fr — clés : title, link, submenu — exemple : {\"title\": \"Mentions légales\", \"link\": {\"url\": \"/mentions-legales\", \"title\": \"Mentions légales\", \"target\": \"_self\", \"internal\": true}, \"submenu\": []}",
+    "[json-sans-lien] https://recrutement.bpce.fr/app/wp-json/bpce/v1/elevator/choices/?lang=fr — clés : id, titre, next — exemple : {\"id\": 1, \"titre\": \"La mixité  \", \"next\": 25}",
+    "[json-sans-lien] https://recrutement.bpce.fr/app/wp-json/bpce/v1/jobs/popin/alert/?lang=fr — clés : title, id, choices — exemple : {\"title\": \"Famille de métier\", \"id\": \"tax_sector\", \"choices\": [{\"label\": \"--Veuillez sélectionner--\", \"value\": \"veuillez-selectionner\"}, {\"label\": \"Assurance\", \"value\": \"assurance\"}, {\"label\": \"Commercial\", \"value\": \"commercial\"}, {\"label\": \"Digital\", \"value\": \"digital\"}, {\"label\": \"Direction\", \"value\": \"direction\"}, {\"label\": \"Finance & Strategie\", \"value\": \"finance-strategie\"}, {\"label\": \"Finance de Marché\", \"value\": \"finance-de-marche\"}, {\"label\": \"Gestion des Operations et Support clientele\"",
+    "[json-sans-lien] https://recrutement.bpce.fr/app/wp-json/bpce/v1/pages/?lang=fr&_uid=page-270-68080cd566cb7 — clés : title, id, choices — exemple : {\"title\": \"Channel\", \"id\": \"tax_channel\", \"choices\": [{\"label\": \"CHANNELNATIXIS\", \"value\": \"channelnatixis\"}, {\"label\": \"Le CFA du Campus BPCE \", \"value\": \"p6bfk026203f3vbqb7v8n8mis\"}, {\"label\": \"Site BPCE\", \"value\": \"q7sfk026203f3vbqb7v8n8mo5\"}]}",
+    "[json-sans-lien] https://recrutement.bpce.fr/app/wp-json/bpce/v1/search/jobs — clés : title, id, choices — exemple : {\"title\": \"Channel\", \"id\": \"tax_channel\", \"choices\": [{\"label\": \"CHANNELNATIXIS\", \"value\": \"channelnatixis\"}, {\"label\": \"Le CFA du Campus BPCE \", \"value\": \"p6bfk026203f3vbqb7v8n8mis\"}, {\"label\": \"Site BPCE\", \"value\": \"q7sfk026203f3vbqb7v8n8mo5\"}]}",
+    "[json-sans-lien] https://recrutement.bpce.fr/app/wp-json/bpce/v1/search/jobs — clés : title, id, choices — exemple : {\"title\": \"Channel\", \"id\": \"tax_channel\", \"choices\": [{\"label\": \"CHANNELNATIXIS\", \"value\": \"channelnatixis\"}, {\"label\": \"Le CFA du Campus BPCE \", \"value\": \"p6bfk026203f3vbqb7v8n8mis\"}, {\"label\": \"Site BPCE\", \"value\": \"q7sfk026203f3vbqb7v8n8mo5\"}]}",
+    "[json-sans-lien] https://recrutement.bpce.fr/app/wp-json/bpce/v1/search/jobs — clés : post_id, title, jobcode_bpce, brand, contract, link, localisation, salaire_min, salaire_max, teletravail, localisations — exemple : {\"post_id\": 157825, \"title\": \"Chargé de Clientèle Particuliers H/F - TOURS (37)\", \"jobcode_bpce\": \"\", \"brand\": [\"Caisse d'Epargne Loire Centre\"], \"contract\": [\"CDI\"], \"link\": {\"url\": \"/job/charge-de-clientele-particuliers-h-f-tours-37\", \"title\": \"Découvrir\", \"target\": \"_self\", \"internal\": true}, \"localisation\": \"TOURS\", \"salaire_min\": \"\", \"salaire_max\": \"\", \"teletravail\": \"\", \"localisations\": [{\"zipcode\": \"37000\", \"localisation\": \"TOURS\", \"coordinates\": {\"latitude\": \"47.388123\", \"longitude\": \"0.",
+    "[json-sans-lien] https://recrutement.bpce.fr/app/wp-json/bpce/v1/global/?lang=fr — clés : title, link, submenu — exemple : {\"title\": \"Mentions légales\", \"link\": {\"url\": \"/mentions-legales\", \"title\": \"Mentions légales\", \"target\": \"_self\", \"internal\": true}, \"submenu\": []}",
+    "[json-sans-lien] https://recrutement.bpce.fr/app/wp-json/bpce/v1/elevator/choices/?lang=fr — clés : id, titre, next — exemple : {\"id\": 1, \"titre\": \"La mixité  \", \"next\": 25}",
+    "[json-sans-lien] https://recrutement.bpce.fr/app/wp-json/bpce/v1/jobs/popin/alert/?lang=fr — clés : title, id, choices — exemple : {\"title\": \"Famille de métier\", \"id\": \"tax_sector\", \"choices\": [{\"label\": \"--Veuillez sélectionner--\", \"value\": \"veuillez-selectionner\"}, {\"label\": \"Assurance\", \"value\": \"assurance\"}, {\"label\": \"Commercial\", \"value\": \"commercial\"}, {\"label\": \"Digital\", \"value\": \"digital\"}, {\"label\": \"Direction\", \"value\": \"direction\"}, {\"label\": \"Finance & Strategie\", \"value\": \"finance-strategie\"}, {\"label\": \"Finance de Marché\", \"value\": \"finance-de-marche\"}, {\"label\": \"Gestion des Operations et Support clientele\""
+   ],
    "page_info": "titre « Offres d’emploi - BPCE Recrutement », 51 liens <a>",
    "json_calls": [
     "GET 200 https://recrutement.bpce.fr/app/wp-json/bpce/v1/posts/?lang=fr&target_id=null",
     "GET 200 https://recrutement.bpce.fr/app/wp-json/bpce/v1/global/?lang=fr",
     "GET 200 https://recrutement.bpce.fr/app/wp-json/bpce/v1/routes/?lang=fr",
     "GET 200 https://recrutement.bpce.fr/app/wp-json/bpce/v1/elevator/choices/?lang=fr",
-    "GET 200 https://recrutement.bpce.fr/app/wp-json/bpce/v1/user/popin/create/?lang=fr",
     "GET 200 https://recrutement.bpce.fr/app/wp-json/bpce/v1/user/popin/login/?lang=fr",
+    "GET 200 https://recrutement.bpce.fr/app/wp-json/bpce/v1/user/popin/create/?lang=fr",
     "GET 200 https://recrutement.bpce.fr/app/wp-json/bpce/v1/jobs/popin/alert/?lang=fr",
-    "GET 200 https://recrutement.bpce.fr/app/wp-json/bpce/v1/user/popin/password/forgot/?lang=fr",
     "POST 200 https://recrutement.bpce.fr/app/wp-json/bpce/v2/jobs/alert/list",
-    "GET 200 https://recrutement.bpce.fr/app/wp-json/bpce/v1/pages/?lang=fr&_uid=page-270-03f0f210019cc",
+    "GET 200 https://recrutement.bpce.fr/app/wp-json/bpce/v1/user/popin/password/forgot/?lang=fr",
+    "GET 200 https://recrutement.bpce.fr/app/wp-json/bpce/v1/pages/?lang=fr&_uid=page-270-9875a7272453c",
     "GET 200 https://recrutement.bpce.fr/app/wp-json/bpce/v1/user/popin/password/reset/?lang=fr",
     "POST 200 https://symposium.dashboard.davenhr.com/hit",
     "POST 200 https://symposium.dashboard.davenhr.com/hit",
@@ -244,6 +265,7 @@
    "errors": [],
    "sample_all": [],
    "sample_matching": [],
+   "json": [],
    "page_info": "titre « AXA », 31 liens <a>",
    "json_calls": []
   },
@@ -253,6 +275,7 @@
    "errors": [],
    "sample_all": [],
    "sample_matching": [],
+   "json": [],
    "page_info": "titre « Le site EDF est en cours de maintenance | EDF », 2 liens <a>",
    "json_calls": []
   },
@@ -261,18 +284,30 @@
    "keyword_matches": 0,
    "errors": [],
    "sample_all": [
-    "SNCF RESEAU Ingénieur ou Ingénieure d'études Système Maintenance Sol NExTEO Paris 9e Arrondissement, Paris (75) CDI De 6 à 10 ans Niveau 7 (Master, Ingénieur, BAC+5)",
-    "SNCF RESEAU",
-    "SNCF RESEAU",
-    "SNCF RESEAU",
-    "SNCF RESEAU",
-    "SNCF RESEAU",
-    "SNCF RESEAU",
-    "SNCF RESEAU Ingénieur ou ingénieure d'études signalisation - Spécialité Données d'Exécution Saint-Denis, Seine Saint-Denis (93) CDI Moins de 3 ans Niveau 7 (Master, Ingénieur, BAC+5)",
-    "SNCF VOYAGEURS",
-    "SNCF VOYAGEURS Agente ou agent de maintenance de première intervention Intercités, Paris 13e Paris 13e Arrondissement, Paris (75) CDI De 3 à 5 ans, Moins de 3 ans Niveau 4 (BAC)"
+    "Ingénieur ou Ingénieure d'études Système Maintenance Sol NExTEO",
+    "Niveau 5 (BTS, DUT, BP, BAC+2), Niveau 6 (Licence, Maitrise, B.U.T, BAC+3)",
+    "Ingénieur ou Ingénieure Génie Civil Junior - Responsable lots travaux Génie civil",
+    "Niveau 5 (BTS, DUT, BP, BAC+2), Niveau 6 (Licence, Maitrise, B.U.T, BAC+3)",
+    "Aucune certification, Niveau 3 (CAP, BEP), Niveau 4 (BAC), Niveau 5 (BTS, DUT, BP, BAC+2), Niveau 6 (Licence, Maitrise, B.U.T, BAC+3)",
+    "Chargé Etude Document d'Exécution Signalisation Ferroviaire (F/H) - CDI - Lyon",
+    "De 3 à 5 ans, De 6 à 10 ans, Plus de 10 ans, Moins de 3 ans, Débutant - 1ère expérience",
+    "Ingénieur ou ingénieure d'études signalisation - Spécialité Données d'Exécution",
+    "Niveau 6 (Licence, Maitrise, B.U.T, BAC+3), Niveau 7 (Master, Ingénieur, BAC+5)",
+    "Agente ou agent de maintenance de première intervention Intercités, Paris 13e"
    ],
-   "sample_matching": []
+   "sample_matching": [],
+   "json": [
+    "[json-sans-lien] (page) — clés : id, company, companyLogo, location, department, customTags, tagIdValues, description, title, metaTitle, metaDescription, publicationDate, lastChangeDate, jobCategoryLabel, jobCategoryId, hiringOrganization, externalApplyLink, contactPersonName, contactPersonPhone, contactPersonEmail, inactive, jobApplyChannelLinks — exemple : {\"id\": \"881057\", \"company\": \"SNCF RESEAU\", \"companyLogo\": \"https://sncf-preprod.talentry.com/image/jgqkxup52ah7v55x96vufi\", \"location\": \"Paris 9e Arrondissement, Paris (75)\", \"department\": \"Chargé de production ingénierie\", \"customTags\": [{\"id\": \"187\", \"value\": \"CDI\"}, {\"id\": \"189\", \"value\": \"NON_CONCERNE\"}, {\"id\": \"190\", \"value\": \"Niveau 7 (Master, Ingénieur, BAC+5)\"}, {\"id\": \"191\", \"value\": \"De 6 à 10 ans\"}, {\"id\": \"193\", \"value\": \"Ingénierie & Cadres\"}, {\"id\": \"274\", \"value\": \"AGENCE CADRES\"}",
+    "[json-sans-lien] (page) — clés : id, company, companyLogo, location, department, customTags, tagIdValues, description, title, metaTitle, metaDescription, publicationDate, lastChangeDate, jobCategoryLabel, jobCategoryId, hiringOrganization, externalApplyLink, contactPersonName, contactPersonPhone, contactPersonEmail, inactive, jobApplyChannelLinks — exemple : {\"id\": \"881057\", \"company\": \"SNCF RESEAU\", \"companyLogo\": \"https://sncf-preprod.talentry.com/image/jgqkxup52ah7v55x96vufi\", \"location\": \"Paris 9e Arrondissement, Paris (75)\", \"department\": \"Chargé de production ingénierie\", \"customTags\": [{\"id\": \"187\", \"value\": \"CDI\"}, {\"id\": \"189\", \"value\": \"NON_CONCERNE\"}, {\"id\": \"190\", \"value\": \"Niveau 7 (Master, Ingénieur, BAC+5)\"}, {\"id\": \"191\", \"value\": \"De 6 à 10 ans\"}, {\"id\": \"193\", \"value\": \"Ingénierie & Cadres\"}, {\"id\": \"274\", \"value\": \"AGENCE CADRES\"}",
+    "[json-sans-lien] (page) — clés : id, company, companyLogo, location, department, customTags, tagIdValues, description, title, metaTitle, metaDescription, publicationDate, lastChangeDate, jobCategoryLabel, jobCategoryId, hiringOrganization, externalApplyLink, contactPersonName, contactPersonPhone, contactPersonEmail, inactive, jobApplyChannelLinks — exemple : {\"id\": \"881057\", \"company\": \"SNCF RESEAU\", \"companyLogo\": \"https://sncf-preprod.talentry.com/image/jgqkxup52ah7v55x96vufi\", \"location\": \"Paris 9e Arrondissement, Paris (75)\", \"department\": \"Chargé de production ingénierie\", \"customTags\": [{\"id\": \"187\", \"value\": \"CDI\"}, {\"id\": \"189\", \"value\": \"NON_CONCERNE\"}, {\"id\": \"190\", \"value\": \"Niveau 7 (Master, Ingénieur, BAC+5)\"}, {\"id\": \"191\", \"value\": \"De 6 à 10 ans\"}, {\"id\": \"193\", \"value\": \"Ingénierie & Cadres\"}, {\"id\": \"274\", \"value\": \"AGENCE CADRES\"}",
+    "[json-sans-lien] (page) — clés : id, company, companyLogo, location, department, customTags, tagIdValues, description, title, metaTitle, metaDescription, publicationDate, lastChangeDate, jobCategoryLabel, jobCategoryId, hiringOrganization, externalApplyLink, contactPersonName, contactPersonPhone, contactPersonEmail, inactive, jobApplyChannelLinks — exemple : {\"id\": \"881057\", \"company\": \"SNCF RESEAU\", \"companyLogo\": \"https://sncf-preprod.talentry.com/image/jgqkxup52ah7v55x96vufi\", \"location\": \"Paris 9e Arrondissement, Paris (75)\", \"department\": \"Chargé de production ingénierie\", \"customTags\": [{\"id\": \"187\", \"value\": \"CDI\"}, {\"id\": \"189\", \"value\": \"NON_CONCERNE\"}, {\"id\": \"190\", \"value\": \"Niveau 7 (Master, Ingénieur, BAC+5)\"}, {\"id\": \"191\", \"value\": \"De 6 à 10 ans\"}, {\"id\": \"193\", \"value\": \"Ingénierie & Cadres\"}, {\"id\": \"274\", \"value\": \"AGENCE CADRES\"}",
+    "[json-sans-lien] (page) — clés : id, company, companyLogo, location, department, customTags, tagIdValues, description, title, metaTitle, metaDescription, publicationDate, lastChangeDate, jobCategoryLabel, jobCategoryId, hiringOrganization, externalApplyLink, contactPersonName, contactPersonPhone, contactPersonEmail, inactive, jobApplyChannelLinks — exemple : {\"id\": \"881057\", \"company\": \"SNCF RESEAU\", \"companyLogo\": \"https://sncf-preprod.talentry.com/image/jgqkxup52ah7v55x96vufi\", \"location\": \"Paris 9e Arrondissement, Paris (75)\", \"department\": \"Chargé de production ingénierie\", \"customTags\": [{\"id\": \"187\", \"value\": \"CDI\"}, {\"id\": \"189\", \"value\": \"NON_CONCERNE\"}, {\"id\": \"190\", \"value\": \"Niveau 7 (Master, Ingénieur, BAC+5)\"}, {\"id\": \"191\", \"value\": \"De 6 à 10 ans\"}, {\"id\": \"193\", \"value\": \"Ingénierie & Cadres\"}, {\"id\": \"274\", \"value\": \"AGENCE CADRES\"}",
+    "[json-sans-lien] (page) — clés : id, company, companyLogo, location, department, customTags, tagIdValues, description, title, metaTitle, metaDescription, publicationDate, lastChangeDate, jobCategoryLabel, jobCategoryId, hiringOrganization, externalApplyLink, contactPersonName, contactPersonPhone, contactPersonEmail, inactive, jobApplyChannelLinks — exemple : {\"id\": \"881057\", \"company\": \"SNCF RESEAU\", \"companyLogo\": \"https://sncf-preprod.talentry.com/image/jgqkxup52ah7v55x96vufi\", \"location\": \"Paris 9e Arrondissement, Paris (75)\", \"department\": \"Chargé de production ingénierie\", \"customTags\": [{\"id\": \"187\", \"value\": \"CDI\"}, {\"id\": \"189\", \"value\": \"NON_CONCERNE\"}, {\"id\": \"190\", \"value\": \"Niveau 7 (Master, Ingénieur, BAC+5)\"}, {\"id\": \"191\", \"value\": \"De 6 à 10 ans\"}, {\"id\": \"193\", \"value\": \"Ingénierie & Cadres\"}, {\"id\": \"274\", \"value\": \"AGENCE CADRES\"}",
+    "[json-sans-lien] (page) — clés : id, company, companyLogo, location, department, customTags, tagIdValues, description, title, metaTitle, metaDescription, publicationDate, lastChangeDate, jobCategoryLabel, jobCategoryId, hiringOrganization, externalApplyLink, contactPersonName, contactPersonPhone, contactPersonEmail, inactive, jobApplyChannelLinks — exemple : {\"id\": \"881057\", \"company\": \"SNCF RESEAU\", \"companyLogo\": \"https://sncf-preprod.talentry.com/image/jgqkxup52ah7v55x96vufi\", \"location\": \"Paris 9e Arrondissement, Paris (75)\", \"department\": \"Chargé de production ingénierie\", \"customTags\": [{\"id\": \"187\", \"value\": \"CDI\"}, {\"id\": \"189\", \"value\": \"NON_CONCERNE\"}, {\"id\": \"190\", \"value\": \"Niveau 7 (Master, Ingénieur, BAC+5)\"}, {\"id\": \"191\", \"value\": \"De 6 à 10 ans\"}, {\"id\": \"193\", \"value\": \"Ingénierie & Cadres\"}, {\"id\": \"274\", \"value\": \"AGENCE CADRES\"}",
+    "[json-sans-lien] (page) — clés : id, company, companyLogo, location, department, customTags, tagIdValues, description, title, metaTitle, metaDescription, publicationDate, lastChangeDate, jobCategoryLabel, jobCategoryId, hiringOrganization, externalApplyLink, contactPersonName, contactPersonPhone, contactPersonEmail, inactive, jobApplyChannelLinks — exemple : {\"id\": \"881057\", \"company\": \"SNCF RESEAU\", \"companyLogo\": \"https://sncf-preprod.talentry.com/image/jgqkxup52ah7v55x96vufi\", \"location\": \"Paris 9e Arrondissement, Paris (75)\", \"department\": \"Chargé de production ingénierie\", \"customTags\": [{\"id\": \"187\", \"value\": \"CDI\"}, {\"id\": \"189\", \"value\": \"NON_CONCERNE\"}, {\"id\": \"190\", \"value\": \"Niveau 7 (Master, Ingénieur, BAC+5)\"}, {\"id\": \"191\", \"value\": \"De 6 à 10 ans\"}, {\"id\": \"193\", \"value\": \"Ingénierie & Cadres\"}, {\"id\": \"274\", \"value\": \"AGENCE CADRES\"}",
+    "[json-sans-lien] (page) — clés : id, company, companyLogo, location, department, customTags, tagIdValues, description, title, metaTitle, metaDescription, publicationDate, lastChangeDate, jobCategoryLabel, jobCategoryId, hiringOrganization, externalApplyLink, contactPersonName, contactPersonPhone, contactPersonEmail, inactive, jobApplyChannelLinks — exemple : {\"id\": \"881057\", \"company\": \"SNCF RESEAU\", \"companyLogo\": \"https://sncf-preprod.talentry.com/image/jgqkxup52ah7v55x96vufi\", \"location\": \"Paris 9e Arrondissement, Paris (75)\", \"department\": \"Chargé de production ingénierie\", \"customTags\": [{\"id\": \"187\", \"value\": \"CDI\"}, {\"id\": \"189\", \"value\": \"NON_CONCERNE\"}, {\"id\": \"190\", \"value\": \"Niveau 7 (Master, Ingénieur, BAC+5)\"}, {\"id\": \"191\", \"value\": \"De 6 à 10 ans\"}, {\"id\": \"193\", \"value\": \"Ingénierie & Cadres\"}, {\"id\": \"274\", \"value\": \"AGENCE CADRES\"}",
+    "[json-sans-lien] (page) — clés : id, company, companyLogo, location, department, customTags, tagIdValues, description, title, metaTitle, metaDescription, publicationDate, lastChangeDate, jobCategoryLabel, jobCategoryId, hiringOrganization, externalApplyLink, contactPersonName, contactPersonPhone, contactPersonEmail, inactive, jobApplyChannelLinks — exemple : {\"id\": \"881057\", \"company\": \"SNCF RESEAU\", \"companyLogo\": \"https://sncf-preprod.talentry.com/image/jgqkxup52ah7v55x96vufi\", \"location\": \"Paris 9e Arrondissement, Paris (75)\", \"department\": \"Chargé de production ingénierie\", \"customTags\": [{\"id\": \"187\", \"value\": \"CDI\"}, {\"id\": \"189\", \"value\": \"NON_CONCERNE\"}, {\"id\": \"190\", \"value\": \"Niveau 7 (Master, Ingénieur, BAC+5)\"}, {\"id\": \"191\", \"value\": \"De 6 à 10 ans\"}, {\"id\": \"193\", \"value\": \"Ingénierie & Cadres\"}, {\"id\": \"274\", \"value\": \"AGENCE CADRES\"}"
+   ]
   },
   "ETF (VINCI)": {
    "links_found": 0,
@@ -280,10 +315,11 @@
    "errors": [],
    "sample_all": [],
    "sample_matching": [],
-   "page_info": "titre « Vinci Jobs | Politique de confidentialité », 22 liens <a>",
+   "json": [],
+   "page_info": "titre « Vinci Jobs | Rerchercher », 41 liens <a>",
    "json_calls": [
-    "POST 200 https://jobs.vinci.com/fr/tracking/gettracking",
-    "GET 200 https://jobs.vinci.com/fr/search-jobs/GetSearchRequestGeoLocation?lat=52.3667&lon=4.89454&IsUsingGeolocation=true&hasHtml5GeoError=false&geoType=ip2ifnohtml5"
+    "GET 200 https://jobs.vinci.com/fr/search-jobs/results?ActiveFacetID=0&CurrentPage=1&RecordsPerPage=15&TotalContentResults=&Distance=50&RadiusUnitType=0&Keywords=ETF&Location=&ShowRadius=False&IsPagination=False&CustomFacetName=&FacetTerm=&FacetType=0&SearchR",
+    "POST 200 https://jobs.vinci.com/fr/search-jobs/SetSearchRequestGeoLocation?lat=null&lon=null&IsUsingGeolocation=true&hasHtml5GeoError=true&geoType=ip2ifnohtml5"
    ]
   },
   "CFL": {
@@ -303,14 +339,18 @@
     "Expert / Experte SAP BTP & Architecture d’intégration"
    ],
    "sample_matching": [],
+   "json": [
+    "[json-sans-lien] https://sncfl.csod.com/services/x/core-customfields-service/v1/CustomFields?fieldIds=157&fieldIds=158&fieldIds=159&field — clés : items, id, entityTypeId, itemTypeId, name, emailTag, isUiReadOnly, dataType, displayType, validationCriteria — exemple : {\"items\": [{\"id\": 114, \"title\": \"Conduite\", \"default\": false, \"selectable\": true, \"sortOrder\": 0}, {\"id\": 115, \"title\": \"Fonctions support\", \"default\": false, \"selectable\": true, \"sortOrder\": 1}, {\"id\": 116, \"title\": \"Circulation ferroviaire\", \"default\": false, \"selectable\": true, \"sortOrder\": 2}, {\"id\": 117, \"title\": \"TEST\", \"default\": false, \"selectable\": false, \"sortOrder\": 3}, {\"id\": 118, \"title\": \"Technique\", \"default\": false, \"selectable\": true, \"sortOrder\": 4}, {\"id\": 119, \"title\": \"Ingén",
+    "[json-sans-lien] https://eu-fra.api.csod.com/rec-job-search/external/jobs — clés : requisitionId, postingEffectiveDate, postingExpirationDate, displayJobTitle, locations, externalDescription — exemple : {\"requisitionId\": 1807, \"postingEffectiveDate\": \"20/10/2026\", \"postingExpirationDate\": \"26/04/2027\", \"displayJobTitle\": \"Fahrdienstleiter/ Fahrdienstleiterinnen\", \"locations\": [{\"city\": \"Luxembourg\", \"country\": \"LU\"}], \"externalDescription\": \" Découvrez l'annonce complète \"}"
+   ],
    "page_info": "titre « Postes à pourvoir actuellement - sncfl », 44 liens <a>",
    "json_calls": [
     "GET 200 https://sncfl.csod.com/services/x/localization/v1/localizations/ui?groups=CareerSite&culture=fr-FR",
-    "GET 200 https://sncfl.csod.com/services/x/corpsettings/v1/corpsettings/ExternalCareerSiteDisplayKilometerFilter",
-    "GET 200 https://sncfl.csod.com/services/x/corpsettings/v1/corpsettings/CareerSiteDisplayPostingEndDate",
     "GET 200 https://sncfl.csod.com/services/x/corpsettings/v1/corpsettings/EnableAllValuesForCustomFieldInMFC",
-    "GET 200 https://sncfl.csod.com/services/x/corpsettings/v1/corpsettings/EnableCountryStateCityFilterMFC",
     "GET 200 https://sncfl.csod.com/services/x/corpsettings/v1/corpsettings/PostingDateInJobDetailsPage",
+    "GET 200 https://sncfl.csod.com/services/x/corpsettings/v1/corpsettings/EnableCountryStateCityFilterMFC",
+    "GET 200 https://sncfl.csod.com/services/x/corpsettings/v1/corpsettings/CareerSiteDisplayPostingEndDate",
+    "GET 200 https://sncfl.csod.com/services/x/corpsettings/v1/corpsettings/ExternalCareerSiteDisplayKilometerFilter",
     "GET 200 https://sncfl.csod.com/services/x/career-site/v1/careersites/1?cultureId=13",
     "GET 200 https://sncfl.csod.com/services/x/localization/v1/localizations/ui?groups=CareerSite&culture=fr-FR",
     "GET 200 https://sncfl.csod.com/services/x/core-customfields-service/v1/CustomFields?fieldIds=157&fieldIds=158&fieldIds=159&fieldIds=287&fieldIds=236&respectAvailablity=false&cultureId=13",
@@ -334,9 +374,13 @@
     "Polizist:in Transportpolizei, 60-100%, Zürich"
    ],
    "sample_matching": [],
+   "json": [
+    "[json-sans-lien] https://company.sbb.ch/content/internet/corporate/fr/jobs-karriere/jobs/job-suche/jcr:content/parmain/jobfilter.results. — clés : id, viewkey, title, attributes, links, start_date, end_date, last_modification_timestamp, text — exemple : {\"id\": \"10232410\", \"viewkey\": \"d5645fba-96c6-48bd-8fda-db62805cd27d\", \"title\": \"Fachspezialist:in Arbeitsvorbereitung\", \"attributes\": {\"110\": [\"Berne Mittelland (BE/SO/AG)\"], \"100\": [\"Bern\"], \"135\": [\"false\"], \"80\": [\"1\"], \"70\": [\"1\"], \"60\": [\"Professionnel expérimenté\"], \"50\": [\"Temps partiel\", \"Temps complet\"], \"160\": [\"60-100%\"], \"150\": [\"true\"], \"20\": [\"Artisanat / Fabrication / Production / Technique\", \"Professions diverses\"], \"130\": [\"true\"], \"65\": [\"Schweiz\"]}, \"links\": {\"directlink\": \"ht",
+    "[json-sans-lien] https://company.sbb.ch/content/internet/corporate/fr/jobs-karriere/jobs/job-suche/jcr:content/parmain/jobfilter.results. — clés : id, viewkey, title, attributes, links, start_date, end_date, last_modification_timestamp, text — exemple : {\"id\": \"10232410\", \"viewkey\": \"d5645fba-96c6-48bd-8fda-db62805cd27d\", \"title\": \"Fachspezialist:in Arbeitsvorbereitung\", \"attributes\": {\"110\": [\"Berne Mittelland (BE/SO/AG)\"], \"100\": [\"Bern\"], \"135\": [\"false\"], \"80\": [\"1\"], \"70\": [\"1\"], \"60\": [\"Professionnel expérimenté\"], \"50\": [\"Temps partiel\", \"Temps complet\"], \"160\": [\"60-100%\"], \"150\": [\"true\"], \"20\": [\"Artisanat / Fabrication / Production / Technique\", \"Professions diverses\"], \"130\": [\"true\"], \"65\": [\"Schweiz\"]}, \"links\": {\"directlink\": \"ht"
+   ],
    "page_info": "titre « Postes vacants | CFF », 147 liens <a>",
    "json_calls": [
-    "GET 200 https://company.sbb.ch/content/internet/corporate/fr/jobs-karriere/jobs/job-suche/jcr:content/parmain/jobfilter.results.json?_=1792502431742"
+    "GET 200 https://company.sbb.ch/content/internet/corporate/fr/jobs-karriere/jobs/job-suche/jcr:content/parmain/jobfilter.results.json?_=1792503293228"
    ]
   }
  }
