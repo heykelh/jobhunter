@@ -1,37 +1,37 @@
 {
- "updated": "2026-10-20T23:53:04+00:00",
+ "updated": "2026-10-21T09:24:03+00:00",
  "companies": {
   "Air France": {
-   "checked_at": "2026-10-20T23:49:53+00:00",
+   "checked_at": "2026-10-21T09:19:40+00:00",
    "error": "",
    "warnings": [],
    "links_found": 22,
    "keyword_matches": 4,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-20T23:49:55+00:00",
+   "last_ok": "2026-10-21T09:19:41+00:00",
    "failures": 0
   },
   "TotalEnergies": {
-   "checked_at": "2026-10-20T23:49:55+00:00",
+   "checked_at": "2026-10-21T09:19:41+00:00",
    "error": "",
    "warnings": [],
    "links_found": 200,
-   "keyword_matches": 14,
-   "kept_this_run": 0,
+   "keyword_matches": 16,
+   "kept_this_run": 1,
    "status": "ok",
-   "last_ok": "2026-10-20T23:50:18+00:00",
+   "last_ok": "2026-10-21T09:20:06+00:00",
    "failures": 0
   },
   "Société Générale": {
-   "checked_at": "2026-10-20T23:50:18+00:00",
+   "checked_at": "2026-10-21T09:20:06+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "vide",
-   "failures": 5
+   "failures": 6
   },
   "BNP Paribas": {
    "checked_at": "2026-10-20T13:25:43+00:00",
@@ -49,89 +49,89 @@
    "failures": 1
   },
   "Crédit Agricole": {
-   "checked_at": "2026-10-20T23:50:54+00:00",
+   "checked_at": "2026-10-21T09:20:43+00:00",
    "error": "",
    "warnings": [],
    "links_found": 42,
-   "keyword_matches": 8,
-   "kept_this_run": 0,
+   "keyword_matches": 7,
+   "kept_this_run": 1,
    "status": "ok",
-   "last_ok": "2026-10-20T23:51:19+00:00",
+   "last_ok": "2026-10-21T09:22:17+00:00",
    "failures": 0
   },
   "BPCE": {
-   "checked_at": "2026-10-20T23:51:19+00:00",
+   "checked_at": "2026-10-21T09:22:17+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 1554,
+   "links_found": 1549,
    "keyword_matches": 92,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-20T23:51:59+00:00",
+   "last_ok": "2026-10-21T09:22:55+00:00",
    "failures": 0
   },
   "AXA": {
-   "checked_at": "2026-10-20T23:51:59+00:00",
+   "checked_at": "2026-10-21T09:22:55+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 53,
+   "links_found": 48,
    "keyword_matches": 30,
-   "kept_this_run": 0,
+   "kept_this_run": 1,
    "status": "ok",
    "failures": 0,
-   "last_ok": "2026-10-20T23:52:08+00:00"
+   "last_ok": "2026-10-21T09:23:11+00:00"
   },
   "EDF": {
-   "checked_at": "2026-10-20T23:52:08+00:00",
+   "checked_at": "2026-10-21T09:23:11+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "vide",
-   "failures": 5
+   "failures": 6
   },
   "SNCF": {
-   "checked_at": "2026-10-20T23:52:24+00:00",
+   "checked_at": "2026-10-21T09:23:27+00:00",
    "error": "",
    "warnings": [],
    "links_found": 385,
    "keyword_matches": 2,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-20T23:52:25+00:00",
+   "last_ok": "2026-10-21T09:23:27+00:00",
    "failures": 0
   },
   "ETF (VINCI)": {
-   "checked_at": "2026-10-20T23:52:25+00:00",
+   "checked_at": "2026-10-21T09:23:27+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "vide",
-   "failures": 5
+   "failures": 6
   },
   "CFL": {
-   "checked_at": "2026-10-20T23:52:33+00:00",
+   "checked_at": "2026-10-21T09:23:35+00:00",
    "error": "",
    "warnings": [],
    "links_found": 26,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-20T23:52:47+00:00",
+   "last_ok": "2026-10-21T09:23:47+00:00",
    "failures": 0
   },
   "SBB CFF FFS": {
-   "checked_at": "2026-10-20T23:52:47+00:00",
+   "checked_at": "2026-10-21T09:23:47+00:00",
    "error": "",
    "warnings": [],
    "links_found": 127,
    "keyword_matches": 1,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-20T23:53:04+00:00",
+   "last_ok": "2026-10-21T09:24:03+00:00",
    "failures": 0
   }
  }
