@@ -1,6 +1,30 @@
 {
- "updated": "2026-10-22T08:16:49+00:00",
+ "updated": "2026-10-22T09:30:24+00:00",
  "items": [
+  {
+   "id": "88f9ee731d27",
+   "company": "BPCE",
+   "title": "Analyste des Engagements - Stage 4 à 6 mois",
+   "url": "https://recrutement.bpce.fr/job/analyste-des-engagements-stage-4-a-6-mois",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-22T09:25:35+00:00"
+  },
+  {
+   "id": "1062fe88b86b",
+   "company": "Crédit Agricole",
+   "title": "Analyste Quantitatif - Deal Flow H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-quantitatif---deal-flow-hf-reference--2026-116128--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-10-22T09:24:56+00:00"
+  },
+  {
+   "id": "6e7700ec6c61",
+   "company": "Crédit Agricole",
+   "title": "Stage - Data Scientist H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170473-122-stage---data-scientist-hf-reference--2026-116771--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-22T09:24:56+00:00"
+  },
   {
    "id": "7b0c8fac3cae",
    "company": "AXA",

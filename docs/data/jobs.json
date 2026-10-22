@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T08:16:49+00:00",
+ "updated": "2026-10-22T09:30:24+00:00",
  "jobs": [
   {
    "id": "db95476e9659",
@@ -13,7 +13,7 @@
    "published": "2026-10-22T07:14:00+00:00",
    "seed": false,
    "first_seen": "2026-10-22T08:15:53+00:00",
-   "last_seen": "2026-10-22T08:15:53+00:00"
+   "last_seen": "2026-10-22T09:29:29+00:00"
   },
   {
    "id": "4d9edd0a8476",
@@ -27,7 +27,7 @@
    "published": "2026-10-19T08:31:00+00:00",
    "seed": false,
    "first_seen": "2026-10-22T08:15:53+00:00",
-   "last_seen": "2026-10-22T08:15:53+00:00"
+   "last_seen": "2026-10-22T09:29:29+00:00"
   },
   {
    "id": "0b6c9a9a0237",
@@ -41,7 +41,7 @@
    "published": "2026-10-14T10:27:00+00:00",
    "seed": false,
    "first_seen": "2026-10-22T08:15:53+00:00",
-   "last_seen": "2026-10-22T08:15:53+00:00"
+   "last_seen": "2026-10-22T09:29:29+00:00"
   },
   {
    "id": "2e3b7d0b2047",
@@ -83,7 +83,7 @@
    "published": "2026-10-20",
    "seed": false,
    "first_seen": "2026-10-21T19:19:39+00:00",
-   "last_seen": "2026-10-22T08:13:16+00:00",
+   "last_seen": "2026-10-22T09:25:35+00:00",
    "date_tries": 1
   },
   {
@@ -98,7 +98,7 @@
    "published": "2026-10-21T08:56:00+00:00",
    "seed": false,
    "first_seen": "2026-10-21T09:23:11+00:00",
-   "last_seen": "2026-10-22T08:15:53+00:00"
+   "last_seen": "2026-10-22T09:29:29+00:00"
   },
   {
    "id": "7806fd0201f6",
@@ -126,7 +126,7 @@
    "published": "2026-10-21",
    "seed": false,
    "first_seen": "2026-10-21T09:20:06+00:00",
-   "last_seen": "2026-10-22T08:09:53+00:00"
+   "last_seen": "2026-10-22T09:22:42+00:00"
   },
   {
    "id": "e1b63d6f7953",
@@ -140,7 +140,7 @@
    "published": null,
    "seed": false,
    "first_seen": "2026-10-20T17:36:46+00:00",
-   "last_seen": "2026-10-22T08:15:36+00:00"
+   "last_seen": "2026-10-22T09:29:12+00:00"
   },
   {
    "id": "88a2592ac7df",
@@ -154,7 +154,7 @@
    "published": null,
    "seed": false,
    "first_seen": "2026-10-20T17:36:36+00:00",
-   "last_seen": "2026-10-22T08:15:36+00:00"
+   "last_seen": "2026-10-22T09:29:12+00:00"
   },
   {
    "id": "4fc6dc7dd901",
@@ -168,7 +168,7 @@
    "published": null,
    "seed": false,
    "first_seen": "2026-10-20T17:36:27+00:00",
-   "last_seen": "2026-10-22T08:15:36+00:00"
+   "last_seen": "2026-10-22T09:29:12+00:00"
   },
   {
    "id": "8843a39d2993",
@@ -182,7 +182,7 @@
    "published": null,
    "seed": false,
    "first_seen": "2026-10-20T17:36:17+00:00",
-   "last_seen": "2026-10-22T08:15:36+00:00"
+   "last_seen": "2026-10-22T09:29:03+00:00"
   },
   {
    "id": "1194ed50e0a6",
@@ -193,10 +193,11 @@
    "contract": "CDI",
    "experience": "junior / débutant",
    "junior": true,
-   "published": null,
+   "published": "2026-05-17",
    "seed": false,
    "first_seen": "2026-10-20T17:36:08+00:00",
-   "last_seen": "2026-10-22T08:15:36+00:00"
+   "last_seen": "2026-10-22T09:28:46+00:00",
+   "date_tries": 1
   },
   {
    "id": "9f090aa24154",
@@ -207,10 +208,11 @@
    "contract": "CDI",
    "experience": "junior / débutant",
    "junior": true,
-   "published": null,
+   "published": "2025-11-19",
    "seed": false,
    "first_seen": "2026-10-20T17:35:58+00:00",
-   "last_seen": "2026-10-22T08:15:36+00:00"
+   "last_seen": "2026-10-22T09:28:29+00:00",
+   "date_tries": 1
   },
   {
    "id": "ae3fc1b0149b",
@@ -221,10 +223,11 @@
    "contract": "CDI",
    "experience": "junior / débutant",
    "junior": true,
-   "published": null,
+   "published": "2026-05-21",
    "seed": false,
    "first_seen": "2026-10-20T17:35:49+00:00",
-   "last_seen": "2026-10-22T08:15:36+00:00"
+   "last_seen": "2026-10-22T09:28:11+00:00",
+   "date_tries": 1
   },
   {
    "id": "a4c0d875360f",
@@ -235,10 +238,11 @@
    "contract": "CDD",
    "experience": "non précisée",
    "junior": false,
-   "published": null,
+   "published": "2026-09-13",
    "seed": false,
    "first_seen": "2026-10-20T17:33:36+00:00",
-   "last_seen": "2026-10-22T08:15:36+00:00"
+   "last_seen": "2026-10-22T09:27:54+00:00",
+   "date_tries": 1
   },
   {
    "id": "0a6beae7a2ff",
@@ -249,10 +253,11 @@
    "contract": "CDI",
    "experience": "non précisée",
    "junior": false,
-   "published": null,
+   "published": "2026-08-04",
    "seed": false,
    "first_seen": "2026-10-20T17:33:06+00:00",
-   "last_seen": "2026-10-22T08:15:36+00:00"
+   "last_seen": "2026-10-22T09:27:37+00:00",
+   "date_tries": 1
   },
   {
    "id": "690e41651caa",
@@ -266,7 +271,7 @@
    "published": "2026-10-20",
    "seed": false,
    "first_seen": "2026-10-20T17:32:57+00:00",
-   "last_seen": "2026-10-22T08:13:34+00:00",
+   "last_seen": "2026-10-22T09:25:35+00:00",
    "date_tries": 1
   },
   {
@@ -281,7 +286,7 @@
    "published": "2026-10-15T22:00:00+00:00",
    "seed": false,
    "first_seen": "2026-10-20T14:01:23+00:00",
-   "last_seen": "2026-10-22T08:16:49+00:00"
+   "last_seen": "2026-10-22T09:30:24+00:00"
   },
   {
    "id": "90c1eefcf644",
@@ -320,10 +325,11 @@
    "contract": "CDD",
    "experience": "junior / débutant",
    "junior": true,
-   "published": null,
+   "published": "2026-09-22",
    "seed": false,
    "first_seen": "2026-10-20T13:59:55+00:00",
-   "last_seen": "2026-10-22T08:15:36+00:00"
+   "last_seen": "2026-10-22T09:27:20+00:00",
+   "date_tries": 1
   },
   {
    "id": "536c22c5b2bd",
@@ -334,10 +340,11 @@
    "contract": "CDD",
    "experience": "non précisée",
    "junior": false,
-   "published": null,
+   "published": "2026-09-25",
    "seed": false,
    "first_seen": "2026-10-20T13:59:37+00:00",
-   "last_seen": "2026-10-22T08:15:36+00:00"
+   "last_seen": "2026-10-22T09:27:02+00:00",
+   "date_tries": 1
   },
   {
    "id": "aa43f082a76c",
@@ -348,10 +355,11 @@
    "contract": "CDD",
    "experience": "non précisée",
    "junior": false,
-   "published": null,
+   "published": "2026-09-30",
    "seed": false,
    "first_seen": "2026-10-20T13:59:28+00:00",
-   "last_seen": "2026-10-22T08:15:36+00:00"
+   "last_seen": "2026-10-22T09:26:44+00:00",
+   "date_tries": 1
   },
   {
    "id": "519a0d59715a",
@@ -362,10 +370,11 @@
    "contract": "CDI",
    "experience": "non précisée",
    "junior": false,
-   "published": null,
+   "published": "2026-10-01",
    "seed": false,
    "first_seen": "2026-10-20T13:59:19+00:00",
-   "last_seen": "2026-10-22T08:15:36+00:00"
+   "last_seen": "2026-10-22T09:26:28+00:00",
+   "date_tries": 1
   },
   {
    "id": "307deaa627a2",
@@ -376,10 +385,11 @@
    "contract": "CDI/CDD",
    "experience": "non précisée",
    "junior": false,
-   "published": null,
+   "published": "2026-10-01",
    "seed": false,
    "first_seen": "2026-10-20T13:59:10+00:00",
-   "last_seen": "2026-10-22T08:15:36+00:00"
+   "last_seen": "2026-10-22T09:26:10+00:00",
+   "date_tries": 1
   },
   {
    "id": "ff9740f1b7eb",
@@ -393,7 +403,7 @@
    "published": "2026-10-06",
    "seed": false,
    "first_seen": "2026-10-20T13:58:43+00:00",
-   "last_seen": "2026-10-22T08:15:27+00:00",
+   "last_seen": "2026-10-22T09:26:02+00:00",
    "date_tries": 1
   },
   {
@@ -408,7 +418,7 @@
    "published": "2026-10-08",
    "seed": false,
    "first_seen": "2026-10-20T13:58:07+00:00",
-   "last_seen": "2026-10-22T08:15:18+00:00",
+   "last_seen": "2026-10-22T09:25:53+00:00",
    "date_tries": 1
   },
   {
@@ -423,7 +433,7 @@
    "published": "2026-10-11",
    "seed": false,
    "first_seen": "2026-10-20T13:57:49+00:00",
-   "last_seen": "2026-10-22T08:15:09+00:00",
+   "last_seen": "2026-10-22T09:25:44+00:00",
    "date_tries": 1
   },
   {
@@ -438,7 +448,7 @@
    "published": "2026-10-13",
    "seed": false,
    "first_seen": "2026-10-20T13:57:40+00:00",
-   "last_seen": "2026-10-22T08:15:01+00:00",
+   "last_seen": "2026-10-22T09:25:35+00:00",
    "date_tries": 1
   },
   {
@@ -453,7 +463,7 @@
    "published": "2026-10-14",
    "seed": false,
    "first_seen": "2026-10-20T13:57:31+00:00",
-   "last_seen": "2026-10-22T08:14:44+00:00",
+   "last_seen": "2026-10-22T09:25:35+00:00",
    "date_tries": 1
   },
   {
@@ -468,7 +478,7 @@
    "published": "2026-10-14",
    "seed": false,
    "first_seen": "2026-10-20T13:57:03+00:00",
-   "last_seen": "2026-10-22T08:14:26+00:00",
+   "last_seen": "2026-10-22T09:25:35+00:00",
    "date_tries": 1
   },
   {
@@ -483,7 +493,7 @@
    "published": "2026-10-18",
    "seed": false,
    "first_seen": "2026-10-20T13:56:45+00:00",
-   "last_seen": "2026-10-22T08:14:09+00:00",
+   "last_seen": "2026-10-22T09:25:35+00:00",
    "date_tries": 1
   },
   {
@@ -498,7 +508,7 @@
    "published": "2026-10-18",
    "seed": false,
    "first_seen": "2026-10-20T13:56:36+00:00",
-   "last_seen": "2026-10-22T08:13:51+00:00",
+   "last_seen": "2026-10-22T09:25:35+00:00",
    "date_tries": 1
   },
   {
@@ -541,7 +551,7 @@
    "published": "2026-10-12",
    "seed": true,
    "first_seen": "2026-10-20T13:24:50+00:00",
-   "last_seen": "2026-10-22T08:09:59+00:00"
+   "last_seen": "2026-10-22T09:22:42+00:00"
   },
   {
    "id": "1af5621d9cca",
@@ -555,7 +565,7 @@
    "published": "2026-10-15",
    "seed": true,
    "first_seen": "2026-10-20T13:24:49+00:00",
-   "last_seen": "2026-10-22T08:09:57+00:00"
+   "last_seen": "2026-10-22T09:22:42+00:00"
   },
   {
    "id": "3a1094fb030f",
@@ -569,7 +579,7 @@
    "published": "2026-10-19",
    "seed": true,
    "first_seen": "2026-10-20T13:24:39+00:00",
-   "last_seen": "2026-10-22T08:09:55+00:00"
+   "last_seen": "2026-10-22T09:22:42+00:00"
   },
   {
    "id": "c95f8118ef39",
@@ -597,7 +607,7 @@
    "published": "Tue, 13 Oct 2026 12:22:49 Z",
    "seed": true,
    "first_seen": "2026-10-20T13:24:10+00:00",
-   "last_seen": "2026-10-22T08:09:26+00:00"
+   "last_seen": "2026-10-22T09:22:18+00:00"
   },
   {
    "id": "6f87aac13152",
@@ -611,7 +621,7 @@
    "published": "Tue, 13 Oct 2026 12:32:45 Z",
    "seed": true,
    "first_seen": "2026-10-20T13:24:09+00:00",
-   "last_seen": "2026-10-22T08:09:24+00:00"
+   "last_seen": "2026-10-22T09:22:18+00:00"
   },
   {
    "id": "37f347acf9dc",
@@ -625,7 +635,7 @@
    "published": "Fri, 16 Oct 2026 13:25:34 Z",
    "seed": true,
    "first_seen": "2026-10-20T13:24:07+00:00",
-   "last_seen": "2026-10-22T08:09:22+00:00"
+   "last_seen": "2026-10-22T09:22:18+00:00"
   }
  ]
 }
