@@ -15,6 +15,7 @@ from pathlib import Path
 
 import yaml
 
+from . import cv as cvgen
 from .filters import Criteria, norm
 from .notify import Notifier
 from .sources import Fetcher, collect, fetch_detail
@@ -45,6 +46,7 @@ def run(argv=None) -> int:
     if args.only:
         companies = [c for c in companies if c["name"].lower() == args.only.lower()]
 
+    cv_budget = int(cfg.get("cv_per_run", 15))   # CV générés par passage (nouvelles offres d'abord)
     fresh: list[dict] = []
     seeded_summary: list[str] = []
     diagnose: dict = {}
@@ -98,10 +100,35 @@ def run(argv=None) -> int:
                 max_details = int(comp.get("max_details", cfg.get("max_details_per_company", 25)))
                 if first_time:  # au 1er passage on ingère tout le stock existant, sans notif
                     max_details = max(max_details, 120)
+                backfill = int(cfg.get("date_backfill_per_company", 10))
                 for l in matching:
                     jid = job_id(name, l.url)
                     if store.has(jid):
                         store.touch(jid)
+                        job = store.jobs[jid]
+                        if cv_budget > 0 and not cvgen.has_cv(jid) and cfg.get("cv_enabled", True):
+                            cv_budget -= 1
+                            try:
+                                dd = fetch_detail(fetcher, l.url, render=comp.get("render_detail", comp.get("render", False))) \
+                                    if comp.get("details", True) else None
+                                cvgen.generate(job, (dd.text if dd else "") or l.context)
+                                log.info("  📄 CV généré : %s", l.title)
+                            except Exception as e:
+                                log.warning("  CV non généré (%s) : %s", type(e).__name__, l.title)
+                        # Date de publication manquante sur une offre déjà connue : on la complète
+                        if not job.get("published"):
+                            if l.published:
+                                job["published"] = l.published
+                            elif backfill > 0 and comp.get("details", True) and job.get("date_tries", 0) < 3:
+                                backfill -= 1
+                                job["date_tries"] = job.get("date_tries", 0) + 1
+                                try:
+                                    dd = fetch_detail(fetcher, l.url, render=comp.get("render_detail", comp.get("render", False)))
+                                    if dd.published:
+                                        job["published"] = dd.published
+                                        log.info("  📅 %s → publiée %s", l.title, dd.published)
+                                except Exception:
+                                    pass
                         continue
                     if jid in store.rejected:
                         continue
@@ -112,11 +139,12 @@ def run(argv=None) -> int:
                     if details_done >= max_details:  # le reste sera traité au prochain passage
                         continue
                     details_done += 1
-                    try:
-                        d = fetch_detail(fetcher, l.url, render=comp.get("render_detail", comp.get("render", False)))
-                    except Exception as e:
-                        log.warning("  fiche illisible (%s) : %s", type(e).__name__, l.url)
-                        d = None
+                    d = None
+                    if comp.get("details", True):   # details: false → on se contente des infos de la liste
+                        try:
+                            d = fetch_detail(fetcher, l.url, render=comp.get("render_detail", comp.get("render", False)))
+                        except Exception as e:
+                            log.warning("  fiche illisible (%s) : %s", type(e).__name__, l.url)
                     title = l.title
                     structured = " ".join(filter(None, [l.context, d.structured if d else ""]))
                     text = d.text if d else ""
@@ -131,7 +159,15 @@ def run(argv=None) -> int:
                            "seed": first_time}
                     store.add(job)
                     kept += 1
-                    log.info("  ✓ %s (%s, %s, %s)", title, v.zone, v.contract, v.experience)
+                    if cv_budget > 0 and cfg.get("cv_enabled", True):
+                        cv_budget -= 1
+                        try:
+                            c = cvgen.generate(job, text or l.context)
+                            log.info("  📄 CV généré (%s)", c["methode"])
+                        except Exception as e:
+                            log.warning("  CV non généré (%s)", type(e).__name__)
+                    log.info("  ✓ %s (%s, %s, %s, publiée %s)", title, v.zone, v.contract, v.experience,
+                             job["published"] or "?")
                     if not first_time or cfg.get("notify", {}).get("first_run", False):
                         fresh.append(job)
                 if first_time:
@@ -174,6 +210,7 @@ def run(argv=None) -> int:
             "zones": sorted(crit.zone_labels), "max_experience_years": crit.max_experience_years,
             "companies": [c["name"] for c in companies]}
     store.save(meta)
+    cvgen.publish_base()
     log.info("\nTerminé : %d nouvelle(s) offre(s), %d notif(s) envoyée(s).", len(fresh), notifier.sent)
     return 0
 

@@ -73,7 +73,14 @@ notify:
   first_run: false               # pas de rafale de notifs pour le stock déjà en ligne
   max_per_run: 15                # au-delà, une seule notif récapitulative
 
+# ─── CV OPTIMISÉ PAR OFFRE ───────────────────────────────────────────
+# Ton CV de référence est dans cv/base_cv.json. La reformulation par IA utilise
+# le secret GitHub GROQ_API_KEY (gratuit) ; sans lui, le CV est adapté par règles seules.
+cv_enabled: true
+cv_per_run: 15                   # CV générés au maximum par passage
+
 # ─── RÉGLAGES TECHNIQUES ────────────────────────────────────────────
+date_backfill_per_company: 10    # offres déjà affichées sans date : fiches rouvertes par passage pour la trouver
 delay_seconds: 1.5               # pause entre deux requêtes vers un même site (politesse)
 max_details_per_company: 25      # fiches ouvertes par entreprise et par passage
 alert_after_failures: 6          # notif "source en panne" après 6 passages ratés (~3 h)
@@ -142,10 +149,13 @@ companies:
     link_pattern: /job/
 
   - name: AXA
-    source: json                # API publique du site carrière AXA (monde entier, filtré ensuite par lieu)
+    source: json                # API publique du site carrière AXA, filtrée par pays
     urls:
-      - https://jobs.axa.com/api/jobs?keywords={q}&page={page}&sortBy=posted_date&descending=true
-    pages: [1, 2, 3]
+      - https://jobs.axa.com/api/jobs?keywords={q}&location=France&page={page}&sortBy=posted_date&descending=true
+      - https://jobs.axa.com/api/jobs?keywords={q}&location=Luxembourg&page={page}&sortBy=posted_date&descending=true
+      - https://jobs.axa.com/api/jobs?keywords={q}&location=Switzerland&page={page}&sortBy=posted_date&descending=true
+    pages: [1, 2]
+    details: false              # tout est dans l'API (lieu, contrat, date) ; les fiches bloquent les robots
 
   - name: EDF
     source: html
@@ -160,7 +170,7 @@ companies:
     urls:
       - https://emploi.sncf.com/nos-offres?page={page}
     pages: [0]
-    link_pattern: /nos-offres/\d+$
+    link_pattern: /nos-offres/\d{5,}$       # les vraies offres ont un n° à 6 chiffres (les petits = catégories)
     url_template: https://emploi.sncf.com/nos-offres/{id}
 
   - name: ETF (VINCI)

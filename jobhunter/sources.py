@@ -13,6 +13,7 @@ import re
 import time
 from dataclasses import dataclass, field
 from itertools import product
+from string import Formatter
 from urllib.parse import quote_plus, urljoin, urlparse, urlunparse, parse_qsl, urlencode
 
 import requests
@@ -57,9 +58,21 @@ def squash(s: str | None) -> str:
 
 
 # ------------------------------------------------------------ date de publication
-DATE_KEYS = ("datePosted", "publicationDate", "posted_date", "postedDate", "postedOn", "postingEffectiveDate",
-             "publishedDate", "published_at", "publishedAt", "publication_date", "datePublication",
-             "start_date", "creationDate", "create_date", "createdAt", "created_at")
+DATE_KEYS = ("datePosted", "DatePosted", "publicationDate", "posted_date", "postedDate", "PostedDate", "postedOn",
+             "postingDate", "postingEffectiveDate", "publishedDate", "datePublished", "published_at", "publishedAt",
+             "publication_date", "datePublication", "publishDate", "firstPublishedDate", "post_date_gmt",
+             "post_date", "date_gmt", "start_date", "creationDate", "create_date", "createdAt", "created_at", "date")
+MONTHS = {"janvier": 1, "fevrier": 2, "février": 2, "mars": 3, "avril": 4, "mai": 5, "juin": 6, "juillet": 7,
+          "aout": 8, "août": 8, "septembre": 9, "octobre": 10, "novembre": 11, "decembre": 12, "décembre": 12,
+          "january": 1, "february": 2, "march": 3, "april": 4, "may": 5, "june": 6, "july": 7, "august": 8,
+          "september": 9, "october": 10, "november": 11, "december": 12,
+          "januar": 1, "februar": 2, "märz": 3, "juni": 6, "juli": 7, "oktober": 10, "dezember": 12}
+_LONG = re.compile(r"(?<!\d)(\d{1,2})(?:er)?\.?\s+(" + "|".join(MONTHS) + r")\s+(20\d\d)", re.I)
+# Mentions de date de publication dans le texte d'une fiche
+PUB_LABEL = re.compile(
+    r"(?:publi[ée]e?s?\s*(?:le|on)?|date\s+de\s+(?:publication|parution|mise\s+en\s+ligne)|mise?\s+en\s+ligne\s+le"
+    r"|posted\s*(?:on|date)?|date\s+posted|publication\s+date|ver[öo]ffentlicht\s*(?:am)?|publiziert\s*(?:am)?"
+    r"|online\s+seit)\s*:?\s*", re.I)
 _DMY = re.compile(r"(?<!\d)(\d{1,2})[./-](\d{1,2})[./-](20\d\d)(?:[ T,àa]+(\d{1,2})[:h](\d{2}))?")
 _ISO = re.compile(r"(20\d\d)-(\d{2})-(\d{2})(?:[T ](\d{2}):(\d{2})(?::(\d{2}))?(\.\d+)?(Z|[+-]\d{2}:?\d{2})?)?")
 
@@ -89,6 +102,10 @@ def parse_date(value) -> str | None:
             return dt.isoformat()
     except Exception:
         pass
+    m = _LONG.search(s)
+    if m:
+        d, mon, y = m.groups()
+        return f"{y}-{MONTHS[mon.lower()]:02d}-{int(d):02d}"
     m = _DMY.search(s)
     if m:
         d, mo, y, hh, mm = m.groups()
@@ -99,9 +116,20 @@ def parse_date(value) -> str | None:
     return None
 
 
+def date_in_text(text: str) -> str | None:
+    """Cherche "Publiée le 16/10/2026", "Date de publication : 16 octobre 2026", "Posted on …"."""
+    for m in PUB_LABEL.finditer(text or ""):
+        p = parse_date(text[m.end(): m.end() + 40])
+        if p:
+            return p
+    return None
+
+
 def find_date(obj, depth: int = 0) -> str | None:
     if isinstance(obj, dict):
         for k in DATE_KEYS:
+            if k == "date" and not _first(obj, TITLE_KEYS):   # "date" seul : seulement sur un objet-offre
+                continue
             if k in obj:
                 p = parse_date(obj[k])
                 if p:
@@ -424,6 +452,9 @@ def _html_strings(data, out=None):
     return out
 
 
+IMG_EXT = re.compile(r"\.(?:jpe?g|png|gif|webp|svg|pdf|mp4)$", re.I)
+
+
 class _Blank(dict):
     def __missing__(self, key):
         return ""
@@ -439,15 +470,18 @@ def listings_from_json(data, base_url: str, url_template: str | None = None) -> 
                 continue
             link = _find_link(o)
             if url_template:
-                try:
+                fields = [f for _, f, _, _ in Formatter().parse(url_template) if f]
+                if all(str(o.get(f, "")).strip() for f in fields):
                     flat = _Blank({k: v for k, v in o.items() if isinstance(v, (str, int, float))})
                     link = url_template.format_map(flat)
-                except Exception:
+                else:
                     link = ""
             if not link:
                 sample = sample or o
                 continue
             url = clean_url(urljoin(base_url, link))
+            if IMG_EXT.search(urlparse(url).path):
+                continue
             if url.startswith("http") and not url.rstrip("/").endswith(urlparse(url).netloc):
                 out.append(Listing(url=url, title=title, context=_flat_text(o), published=find_date(o)))
             else:
@@ -521,8 +555,9 @@ def collect(comp: dict, fetcher: Fetcher, keywords: list[str], keyword_hit) -> t
                     js, sample = listings_from_json(data, url, tpl)
                     for frag in _html_strings(data):    # HTML de résultats renvoyé dans du JSON
                         js += harvest_links(frag, url, link_rx, keyword_hit)
-                    if comp.get("json_url_pattern"):
-                        js = [j for j in js if re.search(comp["json_url_pattern"], j.url, re.I)]
+                    jpat = comp.get("json_url_pattern") or link_rx
+                    if jpat:
+                        js = [j for j in js if re.search(jpat, j.url, re.I)]
                     if js:
                         fetcher.diag.append(f"[json-offres] {len(js)} offres dans {src_url[:120]} "
                                             f"(ex. « {js[0].title} » → {js[0].url}, publiée {js[0].published or '?'})")
@@ -586,29 +621,45 @@ def _jp_struct(jp: dict) -> str:
 
 def fetch_detail(fetcher: Fetcher, url: str, render: bool = False) -> Detail:
     html = ""
+    fetcher.json_payloads = []
     try:
         html = fetcher.get(url)
     except Exception:
         if not render:
             raise
-    soup = BeautifulSoup(html, "lxml") if html else None
-    text = _page_text(soup) if soup else ""
-    if render and len(text) < 600:
+    if render and len(_page_text(BeautifulSoup(html, "lxml")) if html else "") < 600:
         html = fetcher.get(url, render=True, wait_ms=2500)
-        soup = BeautifulSoup(html, "lxml")
-        text = _page_text(soup)
-    d = Detail(text=text)
-    for script in soup.find_all("script", type="application/ld+json") if soup else []:
+    soup = BeautifulSoup(html or "", "lxml")
+    d = Detail()
+    # 1) Données structurées (à lire avant de nettoyer la page, qui retire les <script>)
+    for meta in soup.find_all("meta"):
+        key = (meta.get("property") or meta.get("name") or meta.get("itemprop") or "").lower()
+        if key in ("article:published_time", "dateposted", "datepublished", "date", "dc.date", "og:published_time"):
+            d.published = d.published or parse_date(meta.get("content"))
+    desc = ""
+    for script in soup.find_all("script", type="application/ld+json"):
         jps = _jobpostings(script.string or script.get_text() or "")
         if jps:
             jp = jps[0]
             d.structured = _jp_struct(jp)
             d.title = squash(jp.get("title"))
-            d.published = parse_date(jp.get("datePosted"))
-            desc = BeautifulSoup(str(jp.get("description") or ""), "lxml").get_text(" ")
-            if len(desc) > 200:
-                d.text = squash(desc) + " " + text[:2000]
+            d.published = parse_date(jp.get("datePosted")) or d.published
+            desc = squash(BeautifulSoup(str(jp.get("description") or ""), "lxml").get_text(" "))
             break
+    for data in inline_json(html or ""):
+        d.published = d.published or find_date(data)
+    # 2) Texte de la fiche
+    text = _page_text(soup)
+    d.text = (desc + " " + text[:2000]) if len(desc) > 200 else text
+    if not d.published:
+        d.published = date_in_text(text)
+    # 3) Fiche chargée en JavaScript : la date est souvent dans ses réponses JSON
+    if not d.published:
+        for _, data in fetcher.json_payloads:
+            if isinstance(data, dict):
+                d.published = find_date(data)
+                if d.published:
+                    break
     return d
 
 

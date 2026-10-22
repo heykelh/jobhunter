@@ -54,7 +54,7 @@
   .card.applied { opacity: .55; }
   .row1 { display: flex; justify-content: space-between; gap: 10px; align-items: baseline; }
   .company { font-size: 12px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--accent); }
-  .when { font-size: 12px; color: var(--muted); white-space: nowrap; }
+  .when { font-size: 12.5px; color: var(--ink); font-weight: 600; white-space: nowrap; }
   .title { display: block; margin: 4px 0 8px; font-size: 16.5px; font-weight: 600; color: var(--ink); text-decoration: none; }
   .title:hover { text-decoration: underline; }
   .tags { display: flex; gap: 6px; flex-wrap: wrap; }
@@ -204,18 +204,18 @@ function renderJobs() {
 
   $("#jobs").innerHTML = list.length ? list.map(j => `
     <article class="card ${applied.has(j.id) ? "applied" : ""}">
-      <div class="row1"><span class="company">${esc(j.company)}</span><span class="when" title="${esc(j.first_seen)}">${j.seed ? "déjà en ligne" : "repérée " + ago(j.first_seen)}</span></div>
+      <div class="row1"><span class="company">${esc(j.company)}</span><span class="when">${j.published ? "Publiée le " + esc(fmtPub(j.published)) : "Date de publication non communiquée"}</span></div>
       <a class="title" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
       <div class="tags">
         ${isNew(j) ? '<span class="tag new">NOUVEAU</span>' : ""}
         ${isGone(j) ? '<span class="tag gone">plus vue depuis ' + esc(ago(j.last_seen).replace("il y a ", "")) + '</span>' : ""}
-        ${j.published ? `<span class="tag pub">📅 Publiée le ${esc(fmtPub(j.published))}</span>` : ""}
         <span class="tag">📍 ${esc(j.zone)}</span>
         <span class="tag">📄 ${esc(j.contract)}</span>
         <span class="tag ${j.junior ? "junior" : ""}">🎓 ${esc(j.experience)}</span>
       </div>
       <div class="actions">
         <a class="btn primary" href="${esc(j.url)}" target="_blank" rel="noopener">Voir et postuler</a>
+        <a class="btn" href="cv.html?id=${encodeURIComponent(j.id)}">📄 Mon CV pour cette offre</a>
         <button class="btn" data-apply="${j.id}" aria-pressed="${applied.has(j.id)}">${applied.has(j.id) ? "✓ Postulé" : "J'ai postulé"}</button>
         <button class="btn" data-hide="${j.id}">Masquer</button>
       </div>
