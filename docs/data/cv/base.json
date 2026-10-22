@@ -1,0 +1,379 @@
+{
+ "_aide": "CV de référence. Le robot y choisit, pour chaque offre, les projets et compétences les plus pertinents. N'écris ici que des faits vrais et défendables en entretien. Pas de tiret long. Les 'tags' servent à relier un projet aux mots de l'offre.",
+ "nom": "Heykel Hachiche",
+ "contact": {
+  "ville": "Lagny-sur-Marne (77)",
+  "telephone": "",
+  "email": "",
+  "portfolio": "heykelhachiche.com",
+  "github": "github.com/heykelh",
+  "linkedin": ""
+ },
+ "profil_modele": "Profil data alliant 13 ans d'expérience opérationnelle au sein du Groupe SNCF, en environnement à forts enjeux de sécurité, et un Master Data Engineer / Data Product Manager (Bac+5, Mines Paris - PSL). Plus de 15 projets data réalisés et déployés sur mon portfolio, avec une montée en compétences continue, notamment en {domaines}.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio",
+    "Excel"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "GitHub Actions (CI/CD)",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Simulation d'une mission d'inspection Data sur la chaîne de données du risque de crédit : cadrage, investigations, débriefing.",
+    "Moteur de contrôles qualité en règles SQL, scoring de risque, registre des constats et rapport de restitution."
+   ]
+  },
+  {
+   "id": "frontierbank",
+   "titre": "FrontierBank : gouvernance des données d'une banque fictive",
+   "stack": "BCBS 239, DAMA-DMBOK, AI Act, Power BI",
+   "lien": "frontierbank-data.vercel.app",
+   "tags": [
+    "gouvernance",
+    "governance",
+    "steward",
+    "qualité",
+    "quality",
+    "bcbs",
+    "dama",
+    "lignage",
+    "lineage",
+    "banque",
+    "bancaire",
+    "risque",
+    "réglementaire",
+    "conformité",
+    "raci",
+    "référentiel",
+    "métadonnées"
+   ],
+   "puces": [
+    "Mission de conseil complète en gouvernance des données : diagnostic BCBS 239, cadre DAMA-DMBOK, lignage et matrice RACI.",
+    "Tableaux de bord Power BI de suivi de la qualité des données et cartographie des usages soumis à l'AI Act."
+   ]
+  },
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Simulation d'une mission de Business Analyst sur un SI Crédit (recouvrement amiable et contentieux), de l'expression du besoin à la recette.",
+    "Livrables publiés en ligne : cartographie des processus, spécifications fonctionnelles et plan de tests."
+   ]
+  },
+  {
+   "id": "palier",
+   "titre": "PALIER : tarification et yield management TGV",
+   "stack": "Python, DuckDB, Power BI, Next.js, GitHub Actions",
+   "lien": "palier-sncf.vercel.app",
+   "tags": [
+    "pricing",
+    "prix",
+    "tarif",
+    "tarification",
+    "revenue",
+    "yield",
+    "élasticité",
+    "demande",
+    "transport",
+    "ferroviaire",
+    "voyageurs",
+    "sncf",
+    "commercial",
+    "offre"
+   ],
+   "puces": [
+    "Analyse de la tarification TGV sur données ouvertes SNCF : élasticité prix, comparaison des offres et positionnement concurrentiel.",
+    "Module de yield management : allocation des places par palier tarifaire (algorithme EMSR-b), mise à jour automatique par GitHub Actions."
+   ]
+  },
+  {
+   "id": "escale",
+   "titre": "ESCALE : ponctualité des vols CDG et Orly",
+   "stack": "Python, PostgreSQL (médaillon), API AeroDataBox, Next.js",
+   "lien": "escale-ops.vercel.app",
+   "tags": [
+    "aérien",
+    "aerien",
+    "aviation",
+    "vol",
+    "vols",
+    "airline",
+    "opérations",
+    "operations",
+    "ponctualité",
+    "retard",
+    "rgpd",
+    "privacy",
+    "données personnelles",
+    "ai act",
+    "prédiction",
+    "client"
+   ],
+   "puces": [
+    "Collecte automatique des vols deux fois par jour en couches Bronze, Silver, Gold et score de risque de retard de 0 à 100.",
+    "Console de suivi de la ponctualité avec modèle de prédiction et registres RGPD et AI Act intégrés (privacy by design)."
+   ]
+  },
+  {
+   "id": "pokewatch",
+   "titre": "PokéWatch : surveillance de marché et détection d'anomalies de prix",
+   "stack": "PostgreSQL, Supabase, SQL, GitHub Actions, Next.js",
+   "lien": "pokewatch-three.vercel.app",
+   "tags": [
+    "surveillance",
+    "monitoring",
+    "anomalie",
+    "anomalies",
+    "fraude",
+    "prix",
+    "marché",
+    "pipeline",
+    "automatisation",
+    "alerte",
+    "data engineer",
+    "ingestion",
+    "sql"
+   ],
+   "puces": [
+    "Pipeline de collecte des prix Cardmarket et eBay, automatisé par GitHub Actions, avec alertes ntfy en temps réel.",
+    "Règles SQL de détection d'anomalies de prix et tableau de bord Next.js de suivi du marché."
+   ]
+  },
+  {
+   "id": "regard",
+   "titre": "REGARD : copilote de conformité bancaire",
+   "stack": "LangGraph.js, Groq, Supabase (pgvector), Langfuse",
+   "lien": "regard-wine.vercel.app",
+   "tags": [
+    "conformité",
+    "compliance",
+    "banque",
+    "bancaire",
+    "réglementaire",
+    "lcb-ft",
+    "kyc",
+    "ia",
+    "llm",
+    "rag",
+    "risque"
+   ],
+   "puces": [
+    "Copilote d'analyse de conformité bancaire : les contrôles sont codés en règles, l'IA ne rédige que les synthèses.",
+    "28 cas de test de référence validés et suivi des appels avec Langfuse."
+   ]
+  },
+  {
+   "id": "prisme",
+   "titre": "PRISME : copilote d'audit AI Act",
+   "stack": "Python, FastAPI, RAG, Supabase (pgvector), Groq",
+   "lien": "",
+   "tags": [
+    "ai act",
+    "audit",
+    "conformité",
+    "ia",
+    "intelligence artificielle",
+    "rag",
+    "llm",
+    "réglementaire",
+    "api"
+   ],
+   "puces": [
+    "API d'aide à l'audit de conformité AI Act : recherche dans les textes réglementaires (RAG) et grille de qualification des systèmes d'IA.",
+    "Backend FastAPI déployé sur Render, base vectorielle pgvector."
+   ]
+  },
+  {
+   "id": "dockz",
+   "titre": "DOCKZ : plateforme data du marché de l'entrepôt",
+   "stack": "Python, données publiques, Next.js",
+   "lien": "dockz.vercel.app",
+   "tags": [
+    "immobilier",
+    "logistique",
+    "entrepôt",
+    "études",
+    "marché",
+    "géo",
+    "géographique",
+    "cartographie",
+    "dataviz"
+   ],
+   "puces": [
+    "Plateforme d'analyse du marché de l'entrepôt logistique en France à partir de données publiques.",
+    "Indicateurs de marché et visualisations cartographiques pour une société fictive de conseil immobilier."
+   ]
+  },
+  {
+   "id": "customer-experience",
+   "titre": "Customer Experience Intelligence : analyse et dataviz",
+   "stack": "Python, Power BI",
+   "lien": "github.com/heykelh/customer-experience-intelligence",
+   "tags": [
+    "client",
+    "clients",
+    "expérience client",
+    "marketing",
+    "kpi",
+    "dashboard",
+    "tableau de bord",
+    "power bi",
+    "reporting",
+    "analyse",
+    "satisfaction",
+    "parcours"
+   ],
+   "puces": [
+    "Analyse exploratoire de données clients : insights, tendances et anomalies impactant la performance.",
+    "Dashboards interactifs Power BI et indicateurs de pilotage à destination des décideurs métier."
+   ]
+  },
+  {
+   "id": "finance-audit",
+   "titre": "Finance Digital Audit Dashboard",
+   "stack": "Python, pandas, scikit-learn, FastAPI, Next.js, Plotly",
+   "lien": "",
+   "tags": [
+    "finance",
+    "financier",
+    "audit",
+    "anomalie",
+    "anomalies",
+    "machine learning",
+    "contrôle de gestion",
+    "comptabilité",
+    "bourse",
+    "api"
+   ],
+   "puces": [
+    "Ingestion des données financières des sociétés du CAC 40, ETL pandas et détection d'anomalies (Isolation Forest).",
+    "API FastAPI (dont export PDF) et tableau de bord Next.js / Plotly, déployés avec intégration continue GitHub Actions."
+   ]
+  }
+ ],
+ "experiences": [
+  {
+   "titre": "Technicien Supérieur de la Voie Ferrée",
+   "entreprise": "SNCF Réseau",
+   "dates": "Oct. 2022 - Aujourd'hui",
+   "puces": [
+    "Pilotage d'équipes opérationnelles en environnement critique : décisions engageant la sécurité, sous forte contrainte de temps.",
+    "Coordination multi-acteurs (exploitation, maintenance, sous-traitants) et arbitrages en temps réel à partir d'indicateurs terrain.",
+    "Gestion des incidents, analyse des causes et suivi d'actions correctives, dans une culture du contrôle et de la traçabilité."
+   ]
+  },
+  {
+   "titre": "Opérateur de Voie",
+   "entreprise": "SFERIS (Groupe SNCF)",
+   "dates": "Déc. 2013 - Oct. 2022",
+   "puces": [
+    "Mise en œuvre de dispositifs de sécurité sur chantiers ferroviaires, en conformité stricte avec le référentiel réglementaire.",
+    "Application de procédures normées et contribution à la maîtrise des risques opérationnels."
+   ]
+  }
+ ],
+ "formations": [
+  {
+   "titre": "Master Data Engineer / Data Product Manager (Bac+5, RNCP niveau 7)",
+   "ecole": "Mines Paris - PSL x DataScientest",
+   "dates": "2026"
+  },
+  {
+   "titre": "Licence Informatique",
+   "ecole": "Université Montpellier 2",
+   "dates": ""
+  }
+ ],
+ "langues": "Français : langue maternelle. Anglais : niveau professionnel (C1).",
+ "atouts": "Plus de 15 projets data publiés sur heykelhachiche.com et github.com/heykelh, en montée en compétences continue."
+}

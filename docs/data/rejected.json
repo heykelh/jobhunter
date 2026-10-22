@@ -1,6 +1,86 @@
 {
- "updated": "2026-10-21T22:46:07+00:00",
+ "updated": "2026-10-22T08:16:49+00:00",
  "items": [
+  {
+   "id": "7b0c8fac3cae",
+   "company": "AXA",
+   "title": "Alternance - Risk Analyst",
+   "url": "https://careers.axa.com/jobs/28695",
+   "reason": "titre exclu (alternance)",
+   "at": "2026-10-22T08:15:53+00:00"
+  },
+  {
+   "id": "9a394c68665d",
+   "company": "AXA",
+   "title": "Security Monitoring Analyst APPRENTICESHIP",
+   "url": "https://careers.axa.com/jobs/19066",
+   "reason": "titre exclu (apprenticeship)",
+   "at": "2026-10-22T08:15:53+00:00"
+  },
+  {
+   "id": "6f5c3a63b9e9",
+   "company": "AXA",
+   "title": "Internship - Credit Analyst - January 2027",
+   "url": "https://careers.axa.com/jobs/28239",
+   "reason": "titre exclu (internship)",
+   "at": "2026-10-22T08:15:53+00:00"
+  },
+  {
+   "id": "be9bb597a27a",
+   "company": "AXA",
+   "title": "Senior Data analyst (F/H)",
+   "url": "https://careers.axa.com/jobs/27892",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-22T08:15:53+00:00"
+  },
+  {
+   "id": "55940bcc9c20",
+   "company": "AXA",
+   "title": "Process Analyst F/H - STAGE 6 mois",
+   "url": "https://careers.axa.com/jobs/19610",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-22T08:15:53+00:00"
+  },
+  {
+   "id": "3ae61b5f91d0",
+   "company": "AXA",
+   "title": "Learning and development analyst - apprentice",
+   "url": "https://careers.axa.com/jobs/17638",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-10-22T08:15:53+00:00"
+  },
+  {
+   "id": "a0336c779566",
+   "company": "AXA",
+   "title": "Internship - Product Portfolio Management Analyst",
+   "url": "https://careers.axa.com/jobs/23068",
+   "reason": "titre exclu (internship)",
+   "at": "2026-10-22T08:15:53+00:00"
+  },
+  {
+   "id": "46be45c93e27",
+   "company": "AXA",
+   "title": "Senior Product Manager Motorfahrzeug-Flottenversicherung mit Data Analytics Flair (all genders)",
+   "url": "https://careers.axa.com/jobs/26436",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-22T08:15:53+00:00"
+  },
+  {
+   "id": "bcd0acff6dd5",
+   "company": "Crédit Agricole",
+   "title": "Tech Lead Data H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170477-270-tech-lead-data-hf-reference--2026-114911--/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-10-22T08:12:14+00:00"
+  },
+  {
+   "id": "75044f02a98f",
+   "company": "Crédit Agricole",
+   "title": "Stage - Analyste Financement Middle Office PERES H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-136-stage---analyste-financement-middle-office-peres-hf-reference--2026-116094--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-22T08:12:01+00:00"
+  },
   {
    "id": "305ed5d25845",
    "company": "AXA",
