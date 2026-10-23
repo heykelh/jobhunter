@@ -1,6 +1,48 @@
 {
- "updated": "2026-10-22T22:48:01+00:00",
+ "updated": "2026-10-23T09:33:24+00:00",
  "jobs": [
+  {
+   "id": "ae7bf5765e36",
+   "company": "Crédit Agricole",
+   "title": "Business Analyst Crédit H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170477-127-business-analyst-credit-hf-reference--2026-116547--/",
+   "zone": "Suisse",
+   "contract": "CDI",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-10-23",
+   "seed": false,
+   "first_seen": "2026-10-23T09:31:28+00:00",
+   "last_seen": "2026-10-23T09:31:28+00:00"
+  },
+  {
+   "id": "3fc3d13e2622",
+   "company": "Crédit Agricole",
+   "title": "Network Management Analyst (Non-IT) H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/578-170478-136-network-management-analyst-non-it-hf-reference--2026-116837--/",
+   "zone": "Île-de-France",
+   "contract": "CDD",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-10-23",
+   "seed": false,
+   "first_seen": "2026-10-23T09:31:25+00:00",
+   "last_seen": "2026-10-23T09:31:25+00:00"
+  },
+  {
+   "id": "b78fca48e84a",
+   "company": "Air France",
+   "title": "HOP! Ingénieur Projets et Data Sécurité des Vols – Roissy Charles De Gaulle (95) F/H",
+   "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25715&idOrigine=502&offerReference=2026-25715",
+   "zone": "Île-de-France",
+   "contract": "CDI",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-10-23T09:23:46+00:00",
+   "seed": false,
+   "first_seen": "2026-10-23T09:29:55+00:00",
+   "last_seen": "2026-10-23T09:29:55+00:00"
+  },
   {
    "id": "461cd6cf95a9",
    "company": "Crédit Agricole",
@@ -27,7 +69,7 @@
    "published": "2026-10-22T10:00:00+00:00",
    "seed": false,
    "first_seen": "2026-10-22T14:47:10+00:00",
-   "last_seen": "2026-10-22T22:47:11+00:00"
+   "last_seen": "2026-10-23T09:32:28+00:00"
   },
   {
    "id": "518eff4ae159",
@@ -55,7 +97,7 @@
    "published": "2026-10-22T14:29:17+00:00",
    "seed": false,
    "first_seen": "2026-10-22T14:42:23+00:00",
-   "last_seen": "2026-10-22T22:44:33+00:00"
+   "last_seen": "2026-10-23T09:29:55+00:00"
   },
   {
    "id": "db95476e9659",
@@ -69,7 +111,7 @@
    "published": "2026-10-22T07:14:00+00:00",
    "seed": false,
    "first_seen": "2026-10-22T08:15:53+00:00",
-   "last_seen": "2026-10-22T22:47:11+00:00"
+   "last_seen": "2026-10-23T09:32:28+00:00"
   },
   {
    "id": "4d9edd0a8476",
@@ -97,7 +139,7 @@
    "published": "2026-10-14T10:27:00+00:00",
    "seed": false,
    "first_seen": "2026-10-22T08:15:53+00:00",
-   "last_seen": "2026-10-22T22:47:11+00:00"
+   "last_seen": "2026-10-23T09:32:28+00:00"
   },
   {
    "id": "2e3b7d0b2047",
@@ -139,7 +181,7 @@
    "published": "2026-10-20",
    "seed": false,
    "first_seen": "2026-10-21T19:19:39+00:00",
-   "last_seen": "2026-10-22T22:46:55+00:00",
+   "last_seen": "2026-10-23T09:32:12+00:00",
    "date_tries": 1
   },
   {
@@ -182,7 +224,7 @@
    "published": "2026-10-21",
    "seed": false,
    "first_seen": "2026-10-21T09:20:06+00:00",
-   "last_seen": "2026-10-22T22:44:55+00:00"
+   "last_seen": "2026-10-23T09:30:21+00:00"
   },
   {
    "id": "e1b63d6f7953",
@@ -196,7 +238,7 @@
    "published": "2026-02-23",
    "seed": false,
    "first_seen": "2026-10-20T17:36:46+00:00",
-   "last_seen": "2026-10-22T22:46:55+00:00",
+   "last_seen": "2026-10-23T09:32:12+00:00",
    "date_tries": 1
   },
   {
@@ -211,7 +253,7 @@
    "published": "2026-03-15",
    "seed": false,
    "first_seen": "2026-10-20T17:36:36+00:00",
-   "last_seen": "2026-10-22T22:46:55+00:00",
+   "last_seen": "2026-10-23T09:32:12+00:00",
    "date_tries": 1
   },
   {
@@ -226,7 +268,7 @@
    "published": "2026-06-18",
    "seed": false,
    "first_seen": "2026-10-20T17:36:27+00:00",
-   "last_seen": "2026-10-22T22:46:55+00:00",
+   "last_seen": "2026-10-23T09:32:12+00:00",
    "date_tries": 1
   },
   {
@@ -241,7 +283,7 @@
    "published": "2026-07-07",
    "seed": false,
    "first_seen": "2026-10-20T17:36:17+00:00",
-   "last_seen": "2026-10-22T22:46:55+00:00",
+   "last_seen": "2026-10-23T09:32:12+00:00",
    "date_tries": 1
   },
   {
@@ -256,7 +298,7 @@
    "published": "2026-05-17",
    "seed": false,
    "first_seen": "2026-10-20T17:36:08+00:00",
-   "last_seen": "2026-10-22T22:46:55+00:00",
+   "last_seen": "2026-10-23T09:32:12+00:00",
    "date_tries": 1
   },
   {
@@ -271,7 +313,7 @@
    "published": "2025-11-19",
    "seed": false,
    "first_seen": "2026-10-20T17:35:58+00:00",
-   "last_seen": "2026-10-22T22:46:55+00:00",
+   "last_seen": "2026-10-23T09:32:12+00:00",
    "date_tries": 1
   },
   {
@@ -286,7 +328,7 @@
    "published": "2026-05-21",
    "seed": false,
    "first_seen": "2026-10-20T17:35:49+00:00",
-   "last_seen": "2026-10-22T22:46:55+00:00",
+   "last_seen": "2026-10-23T09:32:12+00:00",
    "date_tries": 1
   },
   {
@@ -301,7 +343,7 @@
    "published": "2026-09-13",
    "seed": false,
    "first_seen": "2026-10-20T17:33:36+00:00",
-   "last_seen": "2026-10-22T22:46:55+00:00",
+   "last_seen": "2026-10-23T09:32:12+00:00",
    "date_tries": 1
   },
   {
@@ -316,7 +358,7 @@
    "published": "2026-08-04",
    "seed": false,
    "first_seen": "2026-10-20T17:33:06+00:00",
-   "last_seen": "2026-10-22T22:46:55+00:00",
+   "last_seen": "2026-10-23T09:32:12+00:00",
    "date_tries": 1
   },
   {
@@ -331,7 +373,7 @@
    "published": "2026-10-20",
    "seed": false,
    "first_seen": "2026-10-20T17:32:57+00:00",
-   "last_seen": "2026-10-22T22:46:55+00:00",
+   "last_seen": "2026-10-23T09:32:12+00:00",
    "date_tries": 1
   },
   {
@@ -346,7 +388,7 @@
    "published": "2026-10-15T22:00:00+00:00",
    "seed": false,
    "first_seen": "2026-10-20T14:01:23+00:00",
-   "last_seen": "2026-10-22T22:48:01+00:00"
+   "last_seen": "2026-10-23T09:33:23+00:00"
   },
   {
    "id": "90c1eefcf644",
@@ -388,7 +430,7 @@
    "published": "2026-09-22",
    "seed": false,
    "first_seen": "2026-10-20T13:59:55+00:00",
-   "last_seen": "2026-10-22T22:46:55+00:00",
+   "last_seen": "2026-10-23T09:32:12+00:00",
    "date_tries": 1
   },
   {
@@ -403,7 +445,7 @@
    "published": "2026-09-25",
    "seed": false,
    "first_seen": "2026-10-20T13:59:37+00:00",
-   "last_seen": "2026-10-22T22:46:55+00:00",
+   "last_seen": "2026-10-23T09:32:12+00:00",
    "date_tries": 1
   },
   {
@@ -418,7 +460,7 @@
    "published": "2026-09-30",
    "seed": false,
    "first_seen": "2026-10-20T13:59:28+00:00",
-   "last_seen": "2026-10-22T22:46:55+00:00",
+   "last_seen": "2026-10-23T09:32:12+00:00",
    "date_tries": 1
   },
   {
@@ -433,7 +475,7 @@
    "published": "2026-10-01",
    "seed": false,
    "first_seen": "2026-10-20T13:59:19+00:00",
-   "last_seen": "2026-10-22T22:46:55+00:00",
+   "last_seen": "2026-10-23T09:32:12+00:00",
    "date_tries": 1
   },
   {
@@ -448,7 +490,7 @@
    "published": "2026-10-01",
    "seed": false,
    "first_seen": "2026-10-20T13:59:10+00:00",
-   "last_seen": "2026-10-22T22:46:55+00:00",
+   "last_seen": "2026-10-23T09:32:12+00:00",
    "date_tries": 1
   },
   {
@@ -463,7 +505,7 @@
    "published": "2026-10-06",
    "seed": false,
    "first_seen": "2026-10-20T13:58:43+00:00",
-   "last_seen": "2026-10-22T22:46:55+00:00",
+   "last_seen": "2026-10-23T09:32:12+00:00",
    "date_tries": 1
   },
   {
@@ -478,7 +520,7 @@
    "published": "2026-10-08",
    "seed": false,
    "first_seen": "2026-10-20T13:58:07+00:00",
-   "last_seen": "2026-10-22T22:46:55+00:00",
+   "last_seen": "2026-10-23T09:32:12+00:00",
    "date_tries": 1
   },
   {
@@ -493,7 +535,7 @@
    "published": "2026-10-11",
    "seed": false,
    "first_seen": "2026-10-20T13:57:49+00:00",
-   "last_seen": "2026-10-22T22:46:55+00:00",
+   "last_seen": "2026-10-23T09:32:12+00:00",
    "date_tries": 1
   },
   {
@@ -508,7 +550,7 @@
    "published": "2026-10-13",
    "seed": false,
    "first_seen": "2026-10-20T13:57:40+00:00",
-   "last_seen": "2026-10-22T22:46:55+00:00",
+   "last_seen": "2026-10-23T09:32:12+00:00",
    "date_tries": 1
   },
   {
@@ -523,7 +565,7 @@
    "published": "2026-10-14",
    "seed": false,
    "first_seen": "2026-10-20T13:57:31+00:00",
-   "last_seen": "2026-10-22T22:46:55+00:00",
+   "last_seen": "2026-10-23T09:32:12+00:00",
    "date_tries": 1
   },
   {
@@ -538,7 +580,7 @@
    "published": "2026-10-14",
    "seed": false,
    "first_seen": "2026-10-20T13:57:03+00:00",
-   "last_seen": "2026-10-22T22:46:55+00:00",
+   "last_seen": "2026-10-23T09:32:12+00:00",
    "date_tries": 1
   },
   {
@@ -553,7 +595,7 @@
    "published": "2026-10-18",
    "seed": false,
    "first_seen": "2026-10-20T13:56:45+00:00",
-   "last_seen": "2026-10-22T22:46:55+00:00",
+   "last_seen": "2026-10-23T09:32:12+00:00",
    "date_tries": 1
   },
   {
@@ -568,7 +610,7 @@
    "published": "2026-10-18",
    "seed": false,
    "first_seen": "2026-10-20T13:56:36+00:00",
-   "last_seen": "2026-10-22T22:46:55+00:00",
+   "last_seen": "2026-10-23T09:32:12+00:00",
    "date_tries": 1
   },
   {
@@ -611,7 +653,7 @@
    "published": "2026-10-12",
    "seed": true,
    "first_seen": "2026-10-20T13:24:50+00:00",
-   "last_seen": "2026-10-22T22:44:55+00:00"
+   "last_seen": "2026-10-23T09:30:21+00:00"
   },
   {
    "id": "1af5621d9cca",
@@ -625,7 +667,7 @@
    "published": "2026-10-15",
    "seed": true,
    "first_seen": "2026-10-20T13:24:49+00:00",
-   "last_seen": "2026-10-22T22:44:55+00:00"
+   "last_seen": "2026-10-23T09:30:21+00:00"
   },
   {
    "id": "3a1094fb030f",
@@ -639,7 +681,7 @@
    "published": "2026-10-19",
    "seed": true,
    "first_seen": "2026-10-20T13:24:39+00:00",
-   "last_seen": "2026-10-22T22:44:55+00:00"
+   "last_seen": "2026-10-23T09:30:21+00:00"
   },
   {
    "id": "c95f8118ef39",
@@ -667,7 +709,7 @@
    "published": "Tue, 13 Oct 2026 12:22:49 Z",
    "seed": true,
    "first_seen": "2026-10-20T13:24:10+00:00",
-   "last_seen": "2026-10-22T22:44:33+00:00"
+   "last_seen": "2026-10-23T09:29:55+00:00"
   },
   {
    "id": "6f87aac13152",
@@ -681,7 +723,7 @@
    "published": "Tue, 13 Oct 2026 12:32:45 Z",
    "seed": true,
    "first_seen": "2026-10-20T13:24:09+00:00",
-   "last_seen": "2026-10-22T22:44:33+00:00"
+   "last_seen": "2026-10-23T09:29:55+00:00"
   },
   {
    "id": "37f347acf9dc",
@@ -695,7 +737,7 @@
    "published": "Fri, 16 Oct 2026 13:25:34 Z",
    "seed": true,
    "first_seen": "2026-10-20T13:24:07+00:00",
-   "last_seen": "2026-10-22T22:44:33+00:00"
+   "last_seen": "2026-10-23T09:29:55+00:00"
   }
  ]
 }
