@@ -1,37 +1,37 @@
 {
- "updated": "2026-10-23T14:28:57+00:00",
+ "updated": "2026-10-23T18:45:34+00:00",
  "companies": {
   "Air France": {
-   "checked_at": "2026-10-23T14:25:21+00:00",
+   "checked_at": "2026-10-23T18:42:07+00:00",
    "error": "",
    "warnings": [],
    "links_found": 23,
    "keyword_matches": 4,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-23T14:25:23+00:00",
+   "last_ok": "2026-10-23T18:42:09+00:00",
    "failures": 0
   },
   "TotalEnergies": {
-   "checked_at": "2026-10-23T14:25:23+00:00",
+   "checked_at": "2026-10-23T18:42:09+00:00",
    "error": "",
    "warnings": [],
    "links_found": 200,
-   "keyword_matches": 17,
-   "kept_this_run": 1,
+   "keyword_matches": 16,
+   "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-23T14:25:55+00:00",
+   "last_ok": "2026-10-23T18:42:34+00:00",
    "failures": 0
   },
   "Société Générale": {
-   "checked_at": "2026-10-23T14:25:55+00:00",
+   "checked_at": "2026-10-23T18:42:34+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "vide",
-   "failures": 16
+   "failures": 17
   },
   "BNP Paribas": {
    "checked_at": "2026-10-20T13:25:43+00:00",
@@ -49,89 +49,89 @@
    "failures": 1
   },
   "Crédit Agricole": {
-   "checked_at": "2026-10-23T14:26:32+00:00",
+   "checked_at": "2026-10-23T18:43:08+00:00",
    "error": "",
    "warnings": [],
    "links_found": 33,
-   "keyword_matches": 5,
-   "kept_this_run": 0,
+   "keyword_matches": 7,
+   "kept_this_run": 2,
    "status": "ok",
-   "last_ok": "2026-10-23T14:26:49+00:00",
+   "last_ok": "2026-10-23T18:43:43+00:00",
    "failures": 0
   },
   "BPCE": {
-   "checked_at": "2026-10-23T14:26:49+00:00",
+   "checked_at": "2026-10-23T18:43:43+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 1544,
-   "keyword_matches": 96,
-   "kept_this_run": 1,
+   "links_found": 1549,
+   "keyword_matches": 94,
+   "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-23T14:27:38+00:00",
+   "last_ok": "2026-10-23T18:44:23+00:00",
    "failures": 0
   },
   "AXA": {
-   "checked_at": "2026-10-23T14:27:38+00:00",
+   "checked_at": "2026-10-23T18:44:23+00:00",
    "error": "",
    "warnings": [],
    "links_found": 45,
    "keyword_matches": 23,
-   "kept_this_run": 1,
+   "kept_this_run": 0,
    "status": "ok",
    "failures": 0,
-   "last_ok": "2026-10-23T14:27:55+00:00"
+   "last_ok": "2026-10-23T18:44:40+00:00"
   },
   "EDF": {
-   "checked_at": "2026-10-23T14:27:55+00:00",
+   "checked_at": "2026-10-23T18:44:40+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "vide",
-   "failures": 16
+   "failures": 17
   },
   "SNCF": {
-   "checked_at": "2026-10-23T14:28:12+00:00",
+   "checked_at": "2026-10-23T18:44:56+00:00",
    "error": "",
    "warnings": [],
    "links_found": 222,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-23T14:28:14+00:00",
+   "last_ok": "2026-10-23T18:44:57+00:00",
    "failures": 0
   },
   "ETF (VINCI)": {
-   "checked_at": "2026-10-23T14:28:14+00:00",
+   "checked_at": "2026-10-23T18:44:57+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "vide",
-   "failures": 16
+   "failures": 17
   },
   "CFL": {
-   "checked_at": "2026-10-23T14:28:22+00:00",
+   "checked_at": "2026-10-23T18:45:05+00:00",
    "error": "",
    "warnings": [],
    "links_found": 25,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-23T14:28:37+00:00",
+   "last_ok": "2026-10-23T18:45:18+00:00",
    "failures": 0
   },
   "SBB CFF FFS": {
-   "checked_at": "2026-10-23T14:28:37+00:00",
+   "checked_at": "2026-10-23T18:45:18+00:00",
    "error": "",
    "warnings": [],
    "links_found": 134,
    "keyword_matches": 1,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-23T14:28:56+00:00",
+   "last_ok": "2026-10-23T18:45:34+00:00",
    "failures": 0
   }
  }
