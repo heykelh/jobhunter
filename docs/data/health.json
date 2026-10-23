@@ -1,37 +1,37 @@
 {
- "updated": "2026-10-23T09:33:24+00:00",
+ "updated": "2026-10-23T14:28:57+00:00",
  "companies": {
   "Air France": {
-   "checked_at": "2026-10-23T09:29:51+00:00",
+   "checked_at": "2026-10-23T14:25:21+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 21,
-   "keyword_matches": 5,
-   "kept_this_run": 1,
+   "links_found": 23,
+   "keyword_matches": 4,
+   "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-23T09:29:55+00:00",
+   "last_ok": "2026-10-23T14:25:23+00:00",
    "failures": 0
   },
   "TotalEnergies": {
-   "checked_at": "2026-10-23T09:29:55+00:00",
+   "checked_at": "2026-10-23T14:25:23+00:00",
    "error": "",
    "warnings": [],
    "links_found": 200,
-   "keyword_matches": 16,
-   "kept_this_run": 0,
+   "keyword_matches": 17,
+   "kept_this_run": 1,
    "status": "ok",
-   "last_ok": "2026-10-23T09:30:21+00:00",
+   "last_ok": "2026-10-23T14:25:55+00:00",
    "failures": 0
   },
   "Société Générale": {
-   "checked_at": "2026-10-23T09:30:21+00:00",
+   "checked_at": "2026-10-23T14:25:55+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "vide",
-   "failures": 15
+   "failures": 16
   },
   "BNP Paribas": {
    "checked_at": "2026-10-20T13:25:43+00:00",
@@ -49,89 +49,89 @@
    "failures": 1
   },
   "Crédit Agricole": {
-   "checked_at": "2026-10-23T09:30:57+00:00",
+   "checked_at": "2026-10-23T14:26:32+00:00",
    "error": "",
    "warnings": [],
    "links_found": 33,
-   "keyword_matches": 4,
-   "kept_this_run": 2,
+   "keyword_matches": 5,
+   "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-23T09:31:32+00:00",
+   "last_ok": "2026-10-23T14:26:49+00:00",
    "failures": 0
   },
   "BPCE": {
-   "checked_at": "2026-10-23T09:31:32+00:00",
+   "checked_at": "2026-10-23T14:26:49+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 1532,
-   "keyword_matches": 95,
-   "kept_this_run": 0,
+   "links_found": 1544,
+   "keyword_matches": 96,
+   "kept_this_run": 1,
    "status": "ok",
-   "last_ok": "2026-10-23T09:32:12+00:00",
+   "last_ok": "2026-10-23T14:27:38+00:00",
    "failures": 0
   },
   "AXA": {
-   "checked_at": "2026-10-23T09:32:12+00:00",
+   "checked_at": "2026-10-23T14:27:38+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 43,
-   "keyword_matches": 21,
-   "kept_this_run": 0,
+   "links_found": 45,
+   "keyword_matches": 23,
+   "kept_this_run": 1,
    "status": "ok",
    "failures": 0,
-   "last_ok": "2026-10-23T09:32:28+00:00"
+   "last_ok": "2026-10-23T14:27:55+00:00"
   },
   "EDF": {
-   "checked_at": "2026-10-23T09:32:28+00:00",
+   "checked_at": "2026-10-23T14:27:55+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "vide",
-   "failures": 15
+   "failures": 16
   },
   "SNCF": {
-   "checked_at": "2026-10-23T09:32:45+00:00",
+   "checked_at": "2026-10-23T14:28:12+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 223,
+   "links_found": 222,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-23T09:32:46+00:00",
+   "last_ok": "2026-10-23T14:28:14+00:00",
    "failures": 0
   },
   "ETF (VINCI)": {
-   "checked_at": "2026-10-23T09:32:46+00:00",
+   "checked_at": "2026-10-23T14:28:14+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "vide",
-   "failures": 15
+   "failures": 16
   },
   "CFL": {
-   "checked_at": "2026-10-23T09:32:55+00:00",
+   "checked_at": "2026-10-23T14:28:22+00:00",
    "error": "",
    "warnings": [],
    "links_found": 25,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-23T09:33:07+00:00",
+   "last_ok": "2026-10-23T14:28:37+00:00",
    "failures": 0
   },
   "SBB CFF FFS": {
-   "checked_at": "2026-10-23T09:33:07+00:00",
+   "checked_at": "2026-10-23T14:28:37+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 131,
+   "links_found": 134,
    "keyword_matches": 1,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-23T09:33:23+00:00",
+   "last_ok": "2026-10-23T14:28:56+00:00",
    "failures": 0
   }
  }
