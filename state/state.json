@@ -10,6 +10,17 @@
   "SNCF",
   "ETF (VINCI)",
   "CFL",
-  "SBB CFF FFS"
- ]
+  "SBB CFF FFS",
+  "RATP Dev",
+  "Alstom",
+  "EDF / Enedis",
+  "VINCI (dont ETF)",
+  "Eiffage",
+  "Orange"
+ ],
+ "sequence": {
+  "EDF / Enedis": {
+   "last": 182723
+  }
+ }
 }

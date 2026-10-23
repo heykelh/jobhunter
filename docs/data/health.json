@@ -1,37 +1,38 @@
 {
- "updated": "2026-10-23T22:16:23+00:00",
+ "updated": "2026-10-23T23:35:29+00:00",
  "companies": {
   "Air France": {
-   "checked_at": "2026-10-23T22:12:52+00:00",
+   "checked_at": "2026-10-23T23:28:33+00:00",
    "error": "",
    "warnings": [],
    "links_found": 23,
    "keyword_matches": 4,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-23T22:12:53+00:00",
+   "last_ok": "2026-10-23T23:28:34+00:00",
    "failures": 0
   },
   "TotalEnergies": {
-   "checked_at": "2026-10-23T22:12:53+00:00",
+   "checked_at": "2026-10-23T23:33:56+00:00",
    "error": "",
    "warnings": [],
    "links_found": 200,
    "keyword_matches": 16,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-23T22:13:17+00:00",
+   "last_ok": "2026-10-23T23:34:18+00:00",
    "failures": 0
   },
   "Société Générale": {
-   "checked_at": "2026-10-23T22:13:17+00:00",
+   "checked_at": "2026-10-23T23:29:54+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 0,
-   "keyword_matches": 0,
+   "links_found": 41,
+   "keyword_matches": 6,
    "kept_this_run": 0,
-   "status": "vide",
-   "failures": 18
+   "status": "ok",
+   "failures": 0,
+   "last_ok": "2026-10-23T23:30:44+00:00"
   },
   "BNP Paribas": {
    "checked_at": "2026-10-20T13:25:43+00:00",
@@ -49,29 +50,29 @@
    "failures": 1
   },
   "Crédit Agricole": {
-   "checked_at": "2026-10-23T22:13:55+00:00",
+   "checked_at": "2026-10-23T23:30:44+00:00",
    "error": "",
    "warnings": [],
    "links_found": 33,
-   "keyword_matches": 7,
-   "kept_this_run": 0,
+   "keyword_matches": 11,
+   "kept_this_run": 1,
    "status": "ok",
-   "last_ok": "2026-10-23T22:14:29+00:00",
+   "last_ok": "2026-10-23T23:31:03+00:00",
    "failures": 0
   },
   "BPCE": {
-   "checked_at": "2026-10-23T22:14:29+00:00",
+   "checked_at": "2026-10-23T23:31:03+00:00",
    "error": "",
    "warnings": [],
    "links_found": 1549,
    "keyword_matches": 94,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-23T22:15:09+00:00",
+   "last_ok": "2026-10-23T23:31:40+00:00",
    "failures": 0
   },
   "AXA": {
-   "checked_at": "2026-10-23T22:15:09+00:00",
+   "checked_at": "2026-10-23T23:31:40+00:00",
    "error": "",
    "warnings": [],
    "links_found": 45,
@@ -79,7 +80,7 @@
    "kept_this_run": 0,
    "status": "ok",
    "failures": 0,
-   "last_ok": "2026-10-23T22:15:26+00:00"
+   "last_ok": "2026-10-23T23:31:57+00:00"
   },
   "EDF": {
    "checked_at": "2026-10-23T22:15:26+00:00",
@@ -92,14 +93,14 @@
    "failures": 18
   },
   "SNCF": {
-   "checked_at": "2026-10-23T22:15:42+00:00",
+   "checked_at": "2026-10-23T23:28:34+00:00",
    "error": "",
    "warnings": [],
    "links_found": 222,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-23T22:15:44+00:00",
+   "last_ok": "2026-10-23T23:28:35+00:00",
    "failures": 0
   },
   "ETF (VINCI)": {
@@ -113,25 +114,101 @@
    "failures": 18
   },
   "CFL": {
-   "checked_at": "2026-10-23T22:15:52+00:00",
+   "checked_at": "2026-10-23T23:29:27+00:00",
    "error": "",
    "warnings": [],
    "links_found": 25,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-23T22:16:06+00:00",
+   "last_ok": "2026-10-23T23:29:39+00:00",
    "failures": 0
   },
   "SBB CFF FFS": {
-   "checked_at": "2026-10-23T22:16:06+00:00",
+   "checked_at": "2026-10-23T23:29:39+00:00",
    "error": "",
    "warnings": [],
    "links_found": 128,
    "keyword_matches": 1,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-23T22:16:23+00:00",
+   "last_ok": "2026-10-23T23:29:54+00:00",
+   "failures": 0
+  },
+  "RATP Dev": {
+   "checked_at": "2026-10-23T23:28:35+00:00",
+   "error": "",
+   "warnings": [],
+   "links_found": 20,
+   "keyword_matches": 0,
+   "kept_this_run": 0,
+   "status": "ok",
+   "last_ok": "2026-10-23T23:28:47+00:00",
+   "failures": 0
+  },
+  "Alstom": {
+   "checked_at": "2026-10-23T23:28:47+00:00",
+   "error": "",
+   "warnings": [],
+   "links_found": 91,
+   "keyword_matches": 40,
+   "kept_this_run": 0,
+   "status": "ok",
+   "last_ok": "2026-10-23T23:29:27+00:00",
+   "failures": 0
+  },
+  "EDF / Enedis": {
+   "checked_at": "2026-10-23T23:31:57+00:00",
+   "error": "",
+   "warnings": [],
+   "links_found": 5,
+   "keyword_matches": 0,
+   "kept_this_run": 0,
+   "status": "ok",
+   "last_ok": "2026-10-23T23:33:56+00:00",
+   "failures": 0
+  },
+  "VINCI (dont ETF)": {
+   "checked_at": "2026-10-23T23:34:18+00:00",
+   "error": "",
+   "warnings": [],
+   "links_found": 0,
+   "keyword_matches": 0,
+   "kept_this_run": 0,
+   "status": "vide",
+   "failures": 1
+  },
+  "Eiffage": {
+   "checked_at": "2026-10-23T23:34:33+00:00",
+   "error": "",
+   "warnings": [],
+   "links_found": 79,
+   "keyword_matches": 15,
+   "kept_this_run": 3,
+   "status": "ok",
+   "last_ok": "2026-10-23T23:34:56+00:00",
+   "failures": 0
+  },
+  "Bouygues Telecom": {
+   "checked_at": "2026-10-23T23:34:56+00:00",
+   "error": "RuntimeError: https://bouyguestelecom-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036 → ConnectionError: HTTPSConnectionPool(host='bouyguestelecom-recrute.talent-soft.com', port=443): Max retries exceeded with url: /handlers/offerRss.ashx?LCID=1036 (Caused by NameR",
+   "warnings": [
+    "https://bouyguestelecom-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036 → ConnectionError: HTTPSConnectionPool(host='bouyguestelecom-recrute.talent-soft.com', port=443): Max retries exceeded with url: /handlers/offerRss.ashx?LCID=1036 (Caused by NameR"
+   ],
+   "links_found": 0,
+   "keyword_matches": 0,
+   "status": "erreur",
+   "failures": 1
+  },
+  "Orange": {
+   "checked_at": "2026-10-23T23:34:56+00:00",
+   "error": "",
+   "warnings": [],
+   "links_found": 57,
+   "keyword_matches": 12,
+   "kept_this_run": 2,
+   "status": "ok",
+   "last_ok": "2026-10-23T23:35:29+00:00",
    "failures": 0
   }
  }

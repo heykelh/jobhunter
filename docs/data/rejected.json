@@ -1,6 +1,622 @@
 {
- "updated": "2026-10-23T22:16:23+00:00",
+ "updated": "2026-10-23T23:35:29+00:00",
  "items": [
+  {
+   "id": "3845f49acfce",
+   "company": "Orange",
+   "title": "Reporting Analyst",
+   "url": "https://orange.jobs/fr/fr/job/ERC-587483-20136094/Reporting-Analyst",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-23T23:35:29+00:00"
+  },
+  {
+   "id": "a41588a7ea67",
+   "company": "Orange",
+   "title": "Data Analyst​",
+   "url": "https://orange.jobs/fr/fr/job/ERC-564099-20136094/Data-Analyst​",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-23T23:35:28+00:00"
+  },
+  {
+   "id": "b1dffbe98bbd",
+   "company": "Orange",
+   "title": "Data Analyst",
+   "url": "https://orange.jobs/fr/fr/job/ICM-588944/Data-Analyst",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-23T23:35:26+00:00"
+  },
+  {
+   "id": "3f81b8cad3ff",
+   "company": "Orange",
+   "title": "SOC Analyst",
+   "url": "https://orange.jobs/fr/fr/job/ICM-588151/SOC-Analyst",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-23T23:35:22+00:00"
+  },
+  {
+   "id": "497a99ca5a01",
+   "company": "Orange",
+   "title": "Finance Analyst",
+   "url": "https://orange.jobs/fr/fr/job/ICM-587549/Finance-Analyst",
+   "reason": "expérience demandée ≥ 3 ans",
+   "at": "2026-10-23T23:35:20+00:00"
+  },
+  {
+   "id": "7ed8f7718203",
+   "company": "Orange",
+   "title": "Business Analyst",
+   "url": "https://orange.jobs/fr/fr/job/ICM-588315/Business-Analyst",
+   "reason": "lieu hors zones",
+   "at": "2026-10-23T23:35:19+00:00"
+  },
+  {
+   "id": "74b4f619ed04",
+   "company": "Orange",
+   "title": "Fraud Analyst",
+   "url": "https://orange.jobs/fr/fr/job/ICM-589226/Fraud-Analyst",
+   "reason": "lieu hors zones",
+   "at": "2026-10-23T23:35:17+00:00"
+  },
+  {
+   "id": "3acd26186d82",
+   "company": "Orange",
+   "title": "Data Engineer",
+   "url": "https://orange.jobs/fr/fr/job/ICM-589002/Data-Engineer",
+   "reason": "lieu hors zones",
+   "at": "2026-10-23T23:35:16+00:00"
+  },
+  {
+   "id": "090321d0d795",
+   "company": "Orange",
+   "title": "Data Engineer",
+   "url": "https://orange.jobs/fr/fr/job/TOB-6575786/Data-Engineer",
+   "reason": "expérience demandée ≥ 3 ans",
+   "at": "2026-10-23T23:35:14+00:00"
+  },
+  {
+   "id": "4818b839c6fe",
+   "company": "Orange",
+   "title": "Data Scientist",
+   "url": "https://orange.jobs/fr/fr/job/ICM-588283/Data-Scientist",
+   "reason": "lieu hors zones",
+   "at": "2026-10-23T23:35:14+00:00"
+  },
+  {
+   "id": "41c2801df0d1",
+   "company": "Eiffage",
+   "title": "Technicien de maintenance CVC/froid data center Bussy-Saint-Georges 77 F/H",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Bussy-Saint-Georges/Technicien-de-maintenance-CVC-froid-data-center-Bussy-Saint-Georges-77-F-H_JR2026-3549",
+   "reason": "expérience demandée ≥ 3 ans",
+   "at": "2026-10-23T23:34:54+00:00"
+  },
+  {
+   "id": "c19367491557",
+   "company": "Eiffage",
+   "title": "Technicien de maintenance CFO HT/BT data center Marcoussis 91 F/H",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Marcoussis/Technicien-de-maintenance-CFO-HT-BT-data-center-Marcoussis-91-F-H_JR2026-3545",
+   "reason": "expérience demandée ≥ 3 ans",
+   "at": "2026-10-23T23:34:53+00:00"
+  },
+  {
+   "id": "fd5a873a18bd",
+   "company": "Eiffage",
+   "title": "Chargé de méthodes data center Bussy Saint-Georges 77 F/H",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Bussy-Saint-Georges/Charg-de-mthodes-data-center-Bussy-Saint-Georges-77-F-H_JR2026-3556",
+   "reason": "expérience demandée ≥ 3 ans",
+   "at": "2026-10-23T23:34:51+00:00"
+  },
+  {
+   "id": "d2d9b0886f75",
+   "company": "Eiffage",
+   "title": "Technicien d'exploitation maintenance data center Bussy-Saint-Georges 77 F/H",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Bussy-Saint-Georges/Technicien-d-exploitation-maintenance-data-center-Bussy-Saint-Georges-77-F-H_JR2026-3550",
+   "reason": "expérience demandée ≥ 3 ans",
+   "at": "2026-10-23T23:34:50+00:00"
+  },
+  {
+   "id": "79ef3e072f7b",
+   "company": "Eiffage",
+   "title": "Responsable d'affaires maintenance data center Bussy Saint-Georges 77 F/H",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Bussy-Saint-Georges/Responsable-d-affaires-maintenance-data-center-Bussy-Saint-Georges-77-F-H_JR2026-3542",
+   "reason": "expérience demandée ≥ 5 ans",
+   "at": "2026-10-23T23:34:48+00:00"
+  },
+  {
+   "id": "26d8dfb48393",
+   "company": "Eiffage",
+   "title": "Technicien de maintenance CVC/froid data center Marcoussis 91 F/H",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Marcoussis/Technicien-de-maintenance-CVC-froid-data-center-Marcoussis-91-F-H_JR2026-3544",
+   "reason": "expérience demandée ≥ 3 ans",
+   "at": "2026-10-23T23:34:47+00:00"
+  },
+  {
+   "id": "e7253cb1f11c",
+   "company": "Eiffage",
+   "title": "Chargé de méthodes en data center Marcoussis 91 F/H",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Marcoussis/Charg-de-mthodes-en-data-center-Marcoussis-91-F-H_JR2026-5305",
+   "reason": "expérience demandée ≥ 3 ans",
+   "at": "2026-10-23T23:34:45+00:00"
+  },
+  {
+   "id": "09077f942614",
+   "company": "Eiffage",
+   "title": "Technicien d'exploitation maintenance data center Marcoussis 91 F/H",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Marcoussis/Technicien-d-exploitation-maintenance-data-center-Marcoussis-91-F-H_JR2026-3529",
+   "reason": "expérience demandée ≥ 3 ans",
+   "at": "2026-10-23T23:34:42+00:00"
+  },
+  {
+   "id": "40e00b9d24a0",
+   "company": "Eiffage",
+   "title": "Directeur technique Datacenter F/H",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Le-Mans/Directeur-technique-Datacenter-F-H_JR2026-1619",
+   "reason": "titre exclu (directeur)",
+   "at": "2026-10-23T23:34:41+00:00"
+  },
+  {
+   "id": "af3d163e0bab",
+   "company": "Eiffage",
+   "title": "Responsable Logistique Data Center (H/F)",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Les-Ulis/Responsable-Logistique-Data-Center--H-F-_JR2026-3963",
+   "reason": "expérience demandée ≥ 5 ans",
+   "at": "2026-10-23T23:34:39+00:00"
+  },
+  {
+   "id": "33ad3740d4c1",
+   "company": "Eiffage",
+   "title": "Stage PFE Data Scientist F/H",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Nanterre/Stage-PFE-Data-Scientist-F-H_JR2026-5568",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-23T23:34:39+00:00"
+  },
+  {
+   "id": "e2464dbeb2a2",
+   "company": "Eiffage",
+   "title": "Directeur de travaux TCE Data F/H",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Ormoy/Directeur-de-travaux-TCE-Data-F-H_JR2026-1615",
+   "reason": "titre exclu (directeur)",
+   "at": "2026-10-23T23:34:39+00:00"
+  },
+  {
+   "id": "2ce6a63c7da3",
+   "company": "Crédit Agricole",
+   "title": "VIE - Data Analyst H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170477-137-vie---data-analyst-hf-reference--2026-109017--/",
+   "reason": "titre exclu (VIE)",
+   "at": "2026-10-23T23:31:03+00:00"
+  },
+  {
+   "id": "83801123e0aa",
+   "company": "Crédit Agricole",
+   "title": "Stage - Analyste data Achats H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170460-122-stage---analyste-data-achats-hf-reference--2026-116086--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-23T23:31:03+00:00"
+  },
+  {
+   "id": "22720e2c9f64",
+   "company": "Crédit Agricole",
+   "title": "STAGE Stratégie– Analyste en charge de projets stratégiques H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170463-122-stage-strategie-analyste-en-charge-de-projets-strategiques-hf-reference--2026-116078--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-23T23:31:03+00:00"
+  },
+  {
+   "id": "2c78ab446f9a",
+   "company": "Crédit Agricole",
+   "title": "Stage - Datascientist H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170470-122-stage---datascientist-hf-reference--2026-116063--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-23T23:31:03+00:00"
+  },
+  {
+   "id": "6aaef1d0b28e",
+   "company": "Crédit Agricole",
+   "title": "Stage - Analyste risques financiers H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170470-122-stage---analyste-risques-financiers-hf-reference--2026-116062--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-23T23:31:03+00:00"
+  },
+  {
+   "id": "3dd14788a36a",
+   "company": "Crédit Agricole",
+   "title": "Analyste ECA & Multilateral Financing Solutions H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-eca-et-multilateral-financing-solutions-hf-reference--2026-116461--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-10-23T23:31:01+00:00"
+  },
+  {
+   "id": "b8101362df2f",
+   "company": "Crédit Agricole",
+   "title": "Stagiaire analyste en financement collatéralisé H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-122-stagiaire-analyste-en-financement-collateralise-hf-reference--2026-116454--/",
+   "reason": "titre exclu (stagiaire)",
+   "at": "2026-10-23T23:31:01+00:00"
+  },
+  {
+   "id": "dfda9191f69f",
+   "company": "Crédit Agricole",
+   "title": "Stage - Analyste Financier / Mesure du Risque de Taux H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-122-stage---analyste-financier--mesure-du-risque-de-taux-hf-reference--2026-116448--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-23T23:31:01+00:00"
+  },
+  {
+   "id": "9224a4d0393f",
+   "company": "Crédit Agricole",
+   "title": "Data Analyst H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-data-analyst-hf-reference--2026-116482--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-10-23T23:31:00+00:00"
+  },
+  {
+   "id": "a4d764b929d8",
+   "company": "Société Générale",
+   "title": "Analyste Quantitatif Risque de crédit IRB Retail",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-quantitatif-risque-de-credit-irb-retail-26000LEQ-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-10-23T23:30:44+00:00"
+  },
+  {
+   "id": "14b0487c54c4",
+   "company": "Société Générale",
+   "title": "Analyste risque de crédit",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-risque-de-credit-26000MB3-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-10-23T23:30:43+00:00"
+  },
+  {
+   "id": "970703cde5e5",
+   "company": "Société Générale",
+   "title": "Sales Analyst",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/sales-analyst-26000MB9-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-10-23T23:30:41+00:00"
+  },
+  {
+   "id": "e3a01f742807",
+   "company": "Société Générale",
+   "title": "Analyste risque pays",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-risque-pays-26000MEW-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-10-23T23:30:40+00:00"
+  },
+  {
+   "id": "f5603dce6343",
+   "company": "Société Générale",
+   "title": "Analyste quantitatif stage - IRB Non Retail - Vision prospective des évolutions de modèle",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-quantitatif-stage-irb-non-retail-vision-prospective-des-evolutions-de-modele-26000KW0-fr",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-23T23:30:40+00:00"
+  },
+  {
+   "id": "adbffc314636",
+   "company": "Société Générale",
+   "title": "Analyste quantitatif stage - IRB Non Retail - Optimisation du clustering",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-quantitatif-stage-irb-non-retail-optimisation-du-clustering-26000KVZ-fr",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-23T23:30:40+00:00"
+  },
+  {
+   "id": "cac6de276ec8",
+   "company": "Alstom",
+   "title": "Support Analyst - Mercury",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Support-Analyst-Mercury-KA/1402744133/",
+   "reason": "lieu hors zones",
+   "at": "2026-10-23T23:29:27+00:00"
+  },
+  {
+   "id": "7d2bba6513f5",
+   "company": "Alstom",
+   "title": "Methods Analyst 1",
+   "url": "https://jobsearch.alstom.com/job/Thunder-Bay-Methods-Analyst-1-ON/1444329133/",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-23T23:29:26+00:00"
+  },
+  {
+   "id": "e69406c3d004",
+   "company": "Alstom",
+   "title": "VIE - Fleet Data Analyst CMAX (w/m/d) 1 1",
+   "url": "https://jobsearch.alstom.com/job/Braunschweig-VIE-Fleet-Data-Analyst-CMAX-%28wmd%29-1-1/1444455733/",
+   "reason": "titre exclu (VIE)",
+   "at": "2026-10-23T23:29:26+00:00"
+  },
+  {
+   "id": "0db0da042162",
+   "company": "Alstom",
+   "title": "Methods Analyst 1",
+   "url": "https://jobsearch.alstom.com/job/Thunder-Bay-Methods-Analyst-1-ON/1444328233/",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-23T23:29:24+00:00"
+  },
+  {
+   "id": "c7048cf0ad41",
+   "company": "Alstom",
+   "title": "Data Catalog Analyst",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Data-Catalog-Analyst/1382503733/",
+   "reason": "lieu hors zones",
+   "at": "2026-10-23T23:29:23+00:00"
+  },
+  {
+   "id": "223130c6ce57",
+   "company": "Alstom",
+   "title": "SLM Analyst",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-SLM-Analyst/1402308033/",
+   "reason": "expérience demandée ≥ 5 ans",
+   "at": "2026-10-23T23:29:21+00:00"
+  },
+  {
+   "id": "e4ffd9296740",
+   "company": "Alstom",
+   "title": "Project Warranty Data Analyst [RS eLOCO]",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Project-Warranty-Data-Analyst-RS-eLOCO-KA/1445165933/",
+   "reason": "lieu hors zones",
+   "at": "2026-10-23T23:29:20+00:00"
+  },
+  {
+   "id": "4c56f8d45fb8",
+   "company": "Alstom",
+   "title": "Analyste principal des coûts",
+   "url": "https://jobsearch.alstom.com/job/Saint-Bruno-Analyste-principal-des-co%C3%BBts-QC/1393777233/",
+   "reason": "titre exclu (principal)",
+   "at": "2026-10-23T23:29:20+00:00"
+  },
+  {
+   "id": "c92a0054e238",
+   "company": "Alstom",
+   "title": "PKI Operation Analyst",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-PKI-Operation-Analyst-KA/1445605933/",
+   "reason": "expérience demandée ≥ 6 ans",
+   "at": "2026-10-23T23:29:18+00:00"
+  },
+  {
+   "id": "b5cb659d80e9",
+   "company": "Alstom",
+   "title": "Project Management Analyst",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Project-Management-Analyst/1445610133/",
+   "reason": "expérience demandée ≥ 3 ans",
+   "at": "2026-10-23T23:29:17+00:00"
+  },
+  {
+   "id": "d380c9dc08bb",
+   "company": "Alstom",
+   "title": "Analyst - FP&A",
+   "url": "https://jobsearch.alstom.com/job/Saint-Bruno-Analyst-FP&A-QC/1405230933/",
+   "reason": "expérience demandée ≥ 3 ans",
+   "at": "2026-10-23T23:29:15+00:00"
+  },
+  {
+   "id": "041595979453",
+   "company": "Alstom",
+   "title": "Analyste FP&A",
+   "url": "https://jobsearch.alstom.com/job/Saint-Bruno-Analyste-FP&A-QC/1405231033/",
+   "reason": "expérience demandée ≥ 3 ans",
+   "at": "2026-10-23T23:29:14+00:00"
+  },
+  {
+   "id": "435da67160e8",
+   "company": "Alstom",
+   "title": "Data Design and Delivery Specialist",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Data-Design-and-Delivery-Specialist/1446479733/",
+   "reason": "lieu hors zones",
+   "at": "2026-10-23T23:29:12+00:00"
+  },
+  {
+   "id": "efd32f4650a3",
+   "company": "Alstom",
+   "title": "Data Design and DelivData Design and Delivery Specialistery Manager",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Data-Design-and-DelivData-Design-and-Delivery-Specialistery-Manager/1446481133/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-10-23T23:29:12+00:00"
+  },
+  {
+   "id": "489d5416c3d9",
+   "company": "Alstom",
+   "title": "Stage - 6 mois - Analyste des opérations financières F/H",
+   "url": "https://jobsearch.alstom.com/job/Saint-Ouen-Stage-6-mois-Analyste-des-op%C3%A9rations-financi%C3%A8res-FH/1446360433/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-23T23:29:12+00:00"
+  },
+  {
+   "id": "af5d335280e6",
+   "company": "Alstom",
+   "title": "Stage - Finance operation analyst F/H",
+   "url": "https://jobsearch.alstom.com/job/Saint-Ouen-Stage-Finance-operation-analyst-FH/1446359333/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-23T23:29:12+00:00"
+  },
+  {
+   "id": "7228a2511daf",
+   "company": "Alstom",
+   "title": "Data Solution Specialist",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Data-Solution-Specialist/1446478933/",
+   "reason": "lieu hors zones",
+   "at": "2026-10-23T23:29:11+00:00"
+  },
+  {
+   "id": "6b2cb20255de",
+   "company": "Alstom",
+   "title": "FP&A Cash Analyst F/H",
+   "url": "https://jobsearch.alstom.com/job/Saint-Ouen-FP&A-Cash-Analyst-FH/1406545433/",
+   "reason": "expérience demandée ≥ 5 ans",
+   "at": "2026-10-23T23:29:09+00:00"
+  },
+  {
+   "id": "1f44ec6aefd9",
+   "company": "Alstom",
+   "title": "Data Solution Lead",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Data-Solution-Lead/1446482233/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-10-23T23:29:09+00:00"
+  },
+  {
+   "id": "0bc30d6de4d2",
+   "company": "Alstom",
+   "title": "Analyst - Endpoint Management",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Analyst-Endpoint-Management-KA/1391361733/",
+   "reason": "expérience demandée ≥ 4 ans",
+   "at": "2026-10-23T23:29:08+00:00"
+  },
+  {
+   "id": "ec9f2dcaadca",
+   "company": "Alstom",
+   "title": "HR Administration Senior Analyst with French",
+   "url": "https://jobsearch.alstom.com/job/Cluj-Napoca-HR-Administration-Senior-Analyst-with-French/1437425933/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-23T23:29:08+00:00"
+  },
+  {
+   "id": "3f963f4b5634",
+   "company": "Alstom",
+   "title": "Business Analyst & Digital Transformation Intern",
+   "url": "https://jobsearch.alstom.com/job/Saint-Ouen-Business-Analyst-&-Digital-Transformation-Intern/1447611933/",
+   "reason": "titre exclu (intern)",
+   "at": "2026-10-23T23:29:08+00:00"
+  },
+  {
+   "id": "d923386d3605",
+   "company": "Alstom",
+   "title": "Stage - 6 mois - Analyste Business & Transformation digitale F/H",
+   "url": "https://jobsearch.alstom.com/job/Saint-Ouen-Stage-6-mois-Analyste-Business-&-Transformation-digitale-FH/1447612033/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-23T23:29:08+00:00"
+  },
+  {
+   "id": "b32bfe9d02ce",
+   "company": "Alstom",
+   "title": "TEMP LABOUR - Business Process & Reporting Analyst H/F",
+   "url": "https://jobsearch.alstom.com/job/Charleroi-TEMP-LABOUR-Business-Process-&-Reporting-Analyst-HF/1427905333/",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-23T23:29:06+00:00"
+  },
+  {
+   "id": "cbd7ddb14e49",
+   "company": "Alstom",
+   "title": "HR Admin Analyst with German",
+   "url": "https://jobsearch.alstom.com/job/Cluj-Napoca-HR-Admin-Analyst-with-German-CJ/1428263833/",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-23T23:29:05+00:00"
+  },
+  {
+   "id": "1d6181ff87b7",
+   "company": "Alstom",
+   "title": "FP&A Analyst",
+   "url": "https://jobsearch.alstom.com/job/Toronto-FP&A-Analyst-ON/1449197833/",
+   "reason": "expérience demandée ≥ 5 ans",
+   "at": "2026-10-23T23:29:03+00:00"
+  },
+  {
+   "id": "c393e949f39d",
+   "company": "Alstom",
+   "title": "HR Admin Senior Analyst with German",
+   "url": "https://jobsearch.alstom.com/job/Cluj-Napoca-HR-Admin-Senior-Analyst-with-German-CJ/1428265133/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-23T23:29:03+00:00"
+  },
+  {
+   "id": "ff88d6c93265",
+   "company": "Alstom",
+   "title": "Senior Financial Analyst",
+   "url": "https://jobsearch.alstom.com/job/Xian-Senior-Financial-Analyst-SN/1438242433/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-23T23:29:03+00:00"
+  },
+  {
+   "id": "ef2d33119e78",
+   "company": "Alstom",
+   "title": "IT Project Analyst",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-IT-Project-Analyst-KA/1372968233/",
+   "reason": "expérience demandée ≥ 6 ans",
+   "at": "2026-10-23T23:29:02+00:00"
+  },
+  {
+   "id": "93909de6f1c6",
+   "company": "Alstom",
+   "title": "Analyst End point Security",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Analyst-End-point-Security-KA/1383899733/",
+   "reason": "expérience demandée ≥ 4 ans",
+   "at": "2026-10-23T23:29:00+00:00"
+  },
+  {
+   "id": "b6de83310a38",
+   "company": "Alstom",
+   "title": "Record to Report, Senior Analyst",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Record-to-Report%2C-Senior-Analyst-KA/1440475833/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-23T23:29:00+00:00"
+  },
+  {
+   "id": "28bc7d0b1185",
+   "company": "Alstom",
+   "title": "AI Business Analyst",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-AI-Business-Analyst/1379235733/",
+   "reason": "expérience demandée ≥ 5 ans",
+   "at": "2026-10-23T23:28:59+00:00"
+  },
+  {
+   "id": "36de981bab9c",
+   "company": "Alstom",
+   "title": "Salesforce Services Technical Analyst",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Salesforce-Services-Technical-Analyst-KA/1398765633/",
+   "reason": "lieu hors zones",
+   "at": "2026-10-23T23:28:57+00:00"
+  },
+  {
+   "id": "dd07461d83f0",
+   "company": "Alstom",
+   "title": "Finance Project Analyst (Work Package)",
+   "url": "https://jobsearch.alstom.com/job/Cluj-Napoca-Finance-Project-Analyst-%28Work-Package%29-CJ/1430079833/",
+   "reason": "expérience demandée ≥ 5 ans",
+   "at": "2026-10-23T23:28:56+00:00"
+  },
+  {
+   "id": "c54e292688cc",
+   "company": "Alstom",
+   "title": "Senior Analyst - Project Controlling",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Senior-Analyst-Project-Controlling-KA/1440365133/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-23T23:28:56+00:00"
+  },
+  {
+   "id": "391838251018",
+   "company": "Alstom",
+   "title": "Senior Analyst - Project Controlling",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Senior-Analyst-Project-Controlling-KA/1440363733/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-23T23:28:56+00:00"
+  },
+  {
+   "id": "b71121bc4937",
+   "company": "Alstom",
+   "title": "HR Admin Senior Analyst with German",
+   "url": "https://jobsearch.alstom.com/job/Cluj-Napoca-HR-Admin-Senior-Analyst-with-German-CJ/1419121133/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-23T23:28:56+00:00"
+  },
+  {
+   "id": "54326281806c",
+   "company": "Alstom",
+   "title": "STAGE - Stage assistant ingénieur Data & Outils Décisionnels - Design To Cost - F/H",
+   "url": "https://jobsearch.alstom.com/job/Ornans-STAGE-Stage-assistant-ing%C3%A9nieur-Data-&-Outils-D%C3%A9cisionnels-Design-To-Cost-FH-I/1440180433/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-23T23:28:56+00:00"
+  },
+  {
+   "id": "3f0c9afa10bd",
+   "company": "Alstom",
+   "title": "Configuration Management Analyst",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Configuration-Management-Analyst/1440952833/",
+   "reason": "expérience demandée ≥ 3 ans",
+   "at": "2026-10-23T23:28:54+00:00"
+  },
+  {
+   "id": "ca8582b4d52d",
+   "company": "Alstom",
+   "title": "Analyst - FP&A",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Analyst-FP&A-KA/1425158133/",
+   "reason": "expérience demandée ≥ 3 ans",
+   "at": "2026-10-23T23:28:53+00:00"
+  },
   {
    "id": "93998babec71",
    "company": "AXA",
