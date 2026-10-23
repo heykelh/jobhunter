@@ -57,7 +57,8 @@ def run(argv=None) -> int:
             h = store.health.get(name, {})
             h.update({"checked_at": now(), "error": "", "warnings": []})
             try:
-                listings, errors = collect(comp, fetcher, crit.keywords, crit.keyword_hit)
+                listings, errors = collect(comp, fetcher, crit.keywords, crit.keyword_hit,
+                                           None if args.diagnose else store.state)
                 must = [norm(x) for x in comp.get("context_must_contain", [])]
                 if must:
                     listings = [l for l in listings if any(m in norm(l.title + " " + l.context) for m in must)]
@@ -139,8 +140,8 @@ def run(argv=None) -> int:
                     if details_done >= max_details:  # le reste sera traité au prochain passage
                         continue
                     details_done += 1
-                    d = None
-                    if comp.get("details", True):   # details: false → on se contente des infos de la liste
+                    d = l.detail
+                    if d is None and comp.get("details", True):   # details: false → infos de la liste seules
                         try:
                             d = fetch_detail(fetcher, l.url, render=comp.get("render_detail", comp.get("render", False)))
                         except Exception as e:
@@ -153,7 +154,7 @@ def run(argv=None) -> int:
                         store.reject(jid, name, title, l.url, v.reason)
                         log.info("  ✗ %s — %s", title, v.reason)
                         continue
-                    job = {"id": jid, "company": name, "title": title, "url": l.url,
+                    job = {"id": jid, "company": l.company or name, "title": title, "url": l.url,
                            "zone": v.zone, "contract": v.contract, "experience": v.experience,
                            "junior": v.junior, "published": l.published or (d.published if d else None),
                            "seed": first_time}

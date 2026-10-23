@@ -54,7 +54,9 @@
   .card.applied { opacity: .55; }
   .row1 { display: flex; justify-content: space-between; gap: 10px; align-items: baseline; }
   .company { font-size: 12px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--accent); }
-  .when { font-size: 12.5px; color: var(--ink); font-weight: 600; white-space: nowrap; }
+  .when { font-size: 12.5px; color: var(--muted); white-space: nowrap; }
+  .dates { display: flex; flex-wrap: wrap; gap: 4px 18px; margin: -2px 0 9px; font-size: 13px; font-weight: 600; }
+  .dates .dl { font-weight: 400; color: var(--muted); margin-right: 3px; }
   .title { display: block; margin: 4px 0 8px; font-size: 16.5px; font-weight: 600; color: var(--ink); text-decoration: none; }
   .title:hover { text-decoration: underline; }
   .tags { display: flex; gap: 6px; flex-wrap: wrap; }
@@ -87,7 +89,7 @@
 <body>
 <div class="wrap">
   <header>
-    <h1>Job<span>Watch</span></h1>
+    <h1>Job<span>Hunter</span></h1>
     <div class="updated" id="updated">Chargement…</div>
   </header>
   <div class="criteria" id="criteria"></div>
@@ -204,8 +206,12 @@ function renderJobs() {
 
   $("#jobs").innerHTML = list.length ? list.map(j => `
     <article class="card ${applied.has(j.id) ? "applied" : ""}">
-      <div class="row1"><span class="company">${esc(j.company)}</span><span class="when">${j.published ? "Publiée le " + esc(fmtPub(j.published)) : "Date de publication non communiquée"}</span></div>
+      <div class="row1"><span class="company">${esc(j.company)}</span></div>
       <a class="title" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
+      <div class="dates">
+        <span><span class="dl">Publiée sur le site</span> ${j.published ? esc(fmtPub(j.published)) : "non communiquée"}</span>
+        <span><span class="dl">Récupérée par JobHunter</span> ${esc(fmtPub(j.first_seen))}</span>
+      </div>
       <div class="tags">
         ${isNew(j) ? '<span class="tag new">NOUVEAU</span>' : ""}
         ${isGone(j) ? '<span class="tag gone">plus vue depuis ' + esc(ago(j.last_seen).replace("il y a ", "")) + '</span>' : ""}

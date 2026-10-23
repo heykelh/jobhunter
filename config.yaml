@@ -91,7 +91,9 @@ alert_after_failures: 6          # notif "source en panne" après 6 passages rat
 #  le workflow en mode "diagnose" pour vérifier que des offres remontent.
 #
 #  source: rss   → url d'un flux RSS (le plus fiable)
-#  source: json  → url d'une API JSON (offres lues directement)
+#  source: json      → url d'une API JSON (offres lues directement)
+#  source: workday   → sites Workday : api + public_url (ex. Eiffage)
+#  source: sequence  → fiches à numéro croissant lues une à une (ex. EDF / Enedis)
 #  source: html  → urls de pages de résultats ; {q} = remplacé par chaque mot-clé
 #                  render: true    = ouvrir avec un vrai navigateur (sites en JavaScript)
 #                  link_pattern    = morceau d'URL propre aux fiches d'offre (regex)
@@ -101,25 +103,62 @@ alert_after_failures: 6          # notif "source en panne" après 6 passages rat
 # ═══════════════════════════════════════════════════════════════════
 companies:
 
+  # ─── Transport ───────────────────────────────────────────────────
   - name: Air France
     source: rss                 # flux officiels CDI + CDD du site recrutement.airfrance.com
     urls:
       - https://recrutement.airfrance.com/handlers/offerRss.ashx?LCID=1036&Rss_Contract=3444
       - https://recrutement.airfrance.com/handlers/offerRss.ashx?LCID=1036&Rss_Contract=3443
 
-  - name: TotalEnergies
-    source: html                # site Avature, 20 offres par page, les plus récentes d'abord
+  - name: SNCF
+    source: html                # les 20 offres les plus récentes (lues dans le JSON de la page)
     urls:
-      - https://jobs.totalenergies.com/fr_FR/careers/SearchJobs/?jobRecordsPerPage=20&jobOffset={offset}
-    offsets: [0, 20, 40, 60, 80, 100, 120, 140, 160, 180]
-    link_pattern: /careers/JobDetail/
+      - https://emploi.sncf.com/nos-offres?page={page}
+    pages: [0]
+    link_pattern: /nos-offres/\d{5,}$       # les vraies offres ont un n° à 6 chiffres (les petits = catégories)
+    url_template: https://emploi.sncf.com/nos-offres/{id}
 
+  - name: RATP Dev
+    source: html                # site carrière careers.ratpdev.com
+    render: true
+    scroll: 3
+    urls:
+      - https://careers.ratpdev.com/fr/annonces
+    link_pattern: /annonce/\d+
+
+  - name: Alstom
+    source: html                # site SuccessFactors, offres les plus récentes d'abord
+    urls:
+      - https://jobsearch.alstom.com/search/?q={q}&sortColumn=referencedate&sortDirection=desc&startrow={offset}
+    offsets: [0, 25]
+    link_pattern: /job/
+
+  - name: CFL
+    source: html
+    render: true                  # site Cornerstone (sncfl.csod.com)
+    urls:
+      - https://sncfl.csod.com/ux/ats/careersite/1/home?c=sncfl
+    link_pattern: /requisition/
+    url_template: https://sncfl.csod.com/ux/ats/careersite/1/home/requisition/{requisitionId}?c=sncfl
+    scroll: 4
+    default_location: luxembourg
+
+  - name: SBB CFF FFS
+    source: html
+    render: true
+    urls:
+      - https://jobs.sbb.ch/v2/offene-stellen?term={q}
+    link_pattern: /offene-stellen/[^/?]+/[0-9a-f-]{36}
+    default_location: suisse
+
+  # ─── Banque et assurance ─────────────────────────────────────────
   - name: Société Générale
     source: html                # offres lues dans le JSON de leur moteur de recherche
     render: true
     wait_ms: 6000
     urls:
       - https://careers.societegenerale.com/rechercher?query={q}
+      - https://careers.societegenerale.com/
     link_pattern: /offres-d-emploi/
     json_url_pattern: /offres-d-emploi/
 
@@ -157,43 +196,45 @@ companies:
     pages: [1, 2]
     details: false              # tout est dans l'API (lieu, contrat, date) ; les fiches bloquent les robots
 
-  - name: EDF
-    source: html
-    render: true
-    wait_ms: 6000
-    urls:
-      - https://www.edf.fr/edf-recrute/rejoignez-nous/voir-les-offres/nos-offres?search={q}
-    link_pattern: /edf-recrute/offre/detail/
+  # ─── Énergie ─────────────────────────────────────────────────────
+  - name: EDF / Enedis
+    source: sequence            # la liste du site EDF est inaccessible : on lit les nouvelles fiches par numéro
+    url_template: https://www.edf.fr/edf-recrute/offre/detail/2026-{n}
+    start: 182700               # dernier numéro connu au 23/10/2026 ; mis à jour automatiquement
+    max_probe: 80               # fiches lues au maximum par passage
+    max_miss: 60
+    companies: [Enedis, Framatome, Dalkia, EDF Renouvelables, Cyclife, EDF]
 
-  - name: SNCF
-    source: html                # les 20 offres les plus récentes (lues dans le JSON de la page)
+  - name: TotalEnergies
+    source: html                # site Avature, 20 offres par page, les plus récentes d'abord
     urls:
-      - https://emploi.sncf.com/nos-offres?page={page}
-    pages: [0]
-    link_pattern: /nos-offres/\d{5,}$       # les vraies offres ont un n° à 6 chiffres (les petits = catégories)
-    url_template: https://emploi.sncf.com/nos-offres/{id}
+      - https://jobs.totalenergies.com/fr_FR/careers/SearchJobs/?jobRecordsPerPage=20&jobOffset={offset}
+    offsets: [0, 20, 40, 60, 80, 100, 120, 140, 160, 180]
+    link_pattern: /careers/JobDetail/
 
-  - name: ETF (VINCI)
-    source: html                # site VINCI : recherche "ETF", puis filtre sur nos mots-clés
+  # ─── BTP et industrie ────────────────────────────────────────────
+  - name: VINCI (dont ETF)
+    source: html                # site du groupe VINCI : toutes les filiales, dont ETF
     render: true
     urls:
-      - https://jobs.vinci.com/fr/search-jobs/ETF
+      - https://jobs.vinci.com/fr/search-jobs/{q}/1440/1
     link_pattern: /job/
 
-  - name: CFL
-    source: html
-    render: true                  # site Cornerstone (sncfl.csod.com)
-    urls:
-      - https://sncfl.csod.com/ux/ats/careersite/1/home?c=sncfl
-    link_pattern: /requisition/
-    url_template: https://sncfl.csod.com/ux/ats/careersite/1/home/requisition/{requisitionId}?c=sncfl
-    scroll: 4
-    default_location: luxembourg
+  - name: Eiffage
+    source: workday             # API publique Workday du site jobs.eiffage.com
+    api: https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs
+    public_url: https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers
+    offsets: [0, 20]
 
-  - name: SBB CFF FFS
-    source: html
-    render: true
+  - name: Bouygues Telecom
+    source: rss                 # même plateforme qu'Air France (Talentsoft) : flux RSS officiel
     urls:
-      - https://jobs.sbb.ch/v2/offene-stellen?term={q}
-    link_pattern: /offene-stellen/[^/?]+/[0-9a-f-]{36}
-    default_location: suisse
+      - https://bouyguestelecom-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036
+
+  # ─── Télécoms ────────────────────────────────────────────────────
+  - name: Orange
+    source: html                # site Phenom : offres lues dans le JSON de la page
+    render: true
+    wait_ms: 5000
+    urls:
+      - https://orange.jobs/fr/fr/search-results?keywords={q}

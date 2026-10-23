@@ -35,6 +35,8 @@ class Listing:
     title: str
     context: str = ""          # texte autour du lien dans la liste (contrat, lieu…)
     published: str | None = None
+    company: str | None = None  # entité précise si la source la donne (ex. Enedis sur le site EDF)
+    detail: "Detail | None" = None  # fiche déjà lue par la source (évite de la relire)
 
 
 @dataclass
@@ -114,6 +116,25 @@ def parse_date(value) -> str | None:
             # heure locale (Paris) : on la garde sans fuseau, le site l'affichera telle quelle
             return f"{base}T{int(hh):02d}:{mm}:00" if hh else base
     return None
+
+
+_REL = re.compile(r"(today|aujourd'hui|heute|yesterday|hier|gestern|(\d+)\+?\s*(?:days?|jours?|tagen?))", re.I)
+
+
+def relative_date(text: str) -> str | None:
+    """"Posted Today", "Posted 3 Days Ago", "Publié il y a 2 jours" → date du jour correspondant."""
+    from datetime import date, timedelta
+    m = _REL.search(text or "")
+    if not m:
+        return None
+    word = m.group(1).lower()
+    if m.group(2):
+        n = int(m.group(2))
+        if "+" in m.group(0) or n >= 30:          # "30+ Days Ago" : trop vague
+            return None
+    else:
+        n = 0 if word in ("today", "aujourd'hui", "heute") else 1
+    return (date.today() - timedelta(days=n)).isoformat()
 
 
 def date_in_text(text: str) -> str | None:
@@ -523,9 +544,88 @@ def fetch_rss(fetcher: Fetcher, url: str) -> list[Listing]:
     return out
 
 
-def collect(comp: dict, fetcher: Fetcher, keywords: list[str], keyword_hit) -> tuple[list[Listing], list[str]]:
+# ---------------------------------------------------------------- Workday (API JSON)
+def collect_workday(comp: dict, fetcher: Fetcher, keywords: list[str]) -> tuple[list[Listing], list[str]]:
+    """Sites Workday (ex. Eiffage) : API publique POST …/wday/cxs/<tenant>/<site>/jobs."""
+    api, public = comp["api"].rstrip("/"), comp["public_url"].rstrip("/")
+    out, errors = {}, []
+    for q in comp.get("search_terms") or keywords:
+        for offset in comp.get("offsets", [0, 20]):
+            try:
+                fetcher._polite(api)
+                r = fetcher.s.post(api, json={"appliedFacets": comp.get("facets", {}), "limit": 20,
+                                              "offset": offset, "searchText": q}, timeout=30)
+                r.raise_for_status()
+                for jp in r.json().get("jobPostings", []):
+                    path = jp.get("externalPath") or ""
+                    if not path or not jp.get("title"):
+                        continue
+                    url = clean_url(public + path)
+                    ctx = squash(" ".join([jp.get("locationsText") or ""] + [str(x) for x in jp.get("bulletFields") or []]))
+                    out.setdefault(url, Listing(url=url, title=clean_title(jp["title"]), context=ctx,
+                                                published=relative_date(jp.get("postedOn") or "")))
+            except Exception as e:
+                errors.append(f"{api} [{q}/{offset}] → {type(e).__name__}: {str(e)[:120]}")
+    fetcher.diag.append(f"[workday] {len(out)} offres via l'API")
+    return list(out.values()), errors
+
+
+# ------------------------------------------- numéros d'offres consécutifs (ex. EDF)
+def collect_sequence(comp: dict, fetcher: Fetcher, state: dict) -> tuple[list[Listing], list[str]]:
+    """Pour les sites dont la liste est inaccessible mais dont les fiches ont un numéro croissant
+    (EDF : /offre/detail/2026-182699). On lit les numéros suivant le dernier connu."""
+    key = comp["name"]
+    st = state.setdefault("sequence", {}).setdefault(key, {})
+    last = int(st.get("last", comp.get("start", 0)))
+    max_probe, max_miss = int(comp.get("max_probe", 60)), int(comp.get("max_miss", 30))
+    out, errors, misses, n, best = [], [], 0, last, last
+    tried = 0
+    while tried < max_probe and misses < max_miss:
+        n += 1
+        tried += 1
+        url = comp["url_template"].format(n=n)
+        try:
+            fetcher._polite(url)
+            r = fetcher.s.get(url, timeout=30)
+            if r.status_code >= 400:
+                misses += 1
+                continue
+            soup = BeautifulSoup(r.text, "lxml")
+            h = soup.find("h1") or soup.find("h2")
+            title = clean_title(re.sub(r"\s*\(\d{4}-\d+\)\s*$", "", squash(h.get_text(" ")) if h else ""))
+            bad = [w.lower() for w in comp.get("skip_titles", ["maintenance", "introuvable", "erreur", "error", "404"])]
+            if not title or any(w in title.lower() for w in bad) or \
+                    (comp.get("not_found_text") and comp["not_found_text"].lower() in r.text.lower()):
+                misses += 1
+                continue
+            misses, best = 0, n
+            detail = Detail(text=_page_text(BeautifulSoup(r.text, "lxml")))
+            detail.published = date_in_text(detail.text)
+            company = None
+            for c in comp.get("companies", []):
+                if c.lower() in detail.text[:3000].lower():
+                    company = c
+                    break
+            out.append(Listing(url=clean_url(url), title=title, context=detail.text[:1500],
+                               published=detail.published, company=company, detail=detail))
+        except Exception as e:
+            errors.append(f"{url} → {type(e).__name__}: {str(e)[:120]}")
+            misses += 1
+    if best > last:
+        st["last"] = best
+    fetcher.diag.append(f"[séquence] numéros {last + 1} à {n} lus, {len(out)} offres, dernier trouvé {best}")
+    return out, errors
+
+
+def collect(comp: dict, fetcher: Fetcher, keywords: list[str], keyword_hit,
+            state: dict | None = None) -> tuple[list[Listing], list[str]]:
     """Renvoie (offres trouvées, erreurs par URL)."""
     src = comp.get("source", "html")
+    if src in ("workday", "sequence"):
+        fetcher.diag = []
+        if src == "workday":
+            return collect_workday(comp, fetcher, keywords)
+        return collect_sequence(comp, fetcher, state if state is not None else {})
     listings: dict[str, Listing] = {}
     errors = []
     fetcher.diag = []
