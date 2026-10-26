@@ -155,7 +155,7 @@ def run(argv=None) -> int:
                         log.info("  ✗ %s — %s", title, v.reason)
                         continue
                     job = {"id": jid, "company": l.company or name, "title": title, "url": l.url,
-                           "zone": v.zone, "contract": v.contract, "experience": v.experience,
+                           "zone": v.zone, "country": v.country, "contract": v.contract, "experience": v.experience,
                            "junior": v.junior, "published": l.published or (d.published if d else None),
                            "seed": first_time}
                     store.add(job)

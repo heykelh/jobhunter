@@ -27,6 +27,18 @@ def fmt_published(p: str | None) -> str:
         return ""
 
 
+FLAGS = {"France": "🇫🇷", "Suisse": "🇨🇭", "Luxembourg": "🇱🇺", "Malaisie": "🇲🇾", "Oman": "🇴🇲"}
+
+
+def country_of(j: dict) -> str:
+    from .filters import COUNTRY
+    return j.get("country") or COUNTRY.get(j.get("zone"), j.get("zone") or "?")
+
+
+def flag(j: dict) -> str:
+    return FLAGS.get(country_of(j), "🌍")
+
+
 class Notifier:
     def __init__(self, cfg: dict):
         n = cfg.get("notify", {}) or {}
@@ -61,18 +73,19 @@ class Notifier:
             log.warning("ntfy en échec : %s", e)
 
     def new_jobs(self, jobs: list[dict]):
+        """Une notif par offre, avec le drapeau du pays en tête pour les distinguer d'un coup d'œil."""
         if not jobs:
             return
         if len(jobs) > self.max_per_run:
-            lines = [f"• {j['company']} — {j['title']}" for j in jobs[:25]]
+            lines = [f"{flag(j)} {j['company']} — {j['title']}" for j in jobs[:25]]
             self.send(f"{len(jobs)} nouvelles offres", "\n".join(lines), click=self.site_url or None,
                       tags=["briefcase"], priority=4)
             return
         for j in jobs:
-            msg = f"{j['company']} · {j['zone']} · {j['contract']} · {j['experience']}"
+            msg = f"{flag(j)} {country_of(j).upper()} · {j['company']} · {j['zone']} · {j['contract']} · {j['experience']}"
             if j.get("published"):
                 msg += f"\nPubliée le {fmt_published(j['published'])}"
             actions = [{"action": "view", "label": "Voir l'offre", "url": j["url"]}]
             if self.site_url:
                 actions.append({"action": "view", "label": "Mon site", "url": self.site_url})
-            self.send(j["title"], msg, click=j["url"], tags=["briefcase"], priority=4, actions=actions)
+            self.send(f"{flag(j)} {j['title']}", msg, click=j["url"], tags=["briefcase"], priority=4, actions=actions)

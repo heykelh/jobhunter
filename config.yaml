@@ -60,7 +60,17 @@ exclude_title:
 # ─── CONTRAT / EXPÉRIENCE / LIEU ────────────────────────────────────
 contracts: [CDI, CDD]
 max_experience_years: 2          # écarte les offres qui demandent 3 ans ou plus
-zones: [ile-de-france, luxembourg, suisse]
+zones: [ile-de-france, luxembourg, suisse, malaisie, oman]
+# Chaque offre est rangée dans une catégorie pays (France, Suisse, Luxembourg, Malaisie, Oman),
+# visible en boutons sur le site et en drapeau dans les notifs.
+
+# Réglages propres à un pays (facultatif) : remplacent les réglages généraux ci-dessus.
+# Ex. pour accepter jusqu'à 3 ans d'expérience en Suisse, décommente :
+country_rules: {}
+#  Suisse:
+#    max_experience_years: 3
+#  Oman:
+#    contracts: [CDI, CDD]
 
 # Si l'info n'est pas trouvée dans l'offre : keep = on garde (avec "?"), drop = on écarte
 unknown_contract: keep
@@ -238,3 +248,104 @@ companies:
     wait_ms: 5000
     urls:
       - https://orange.jobs/fr/fr/search-results?keywords={q}
+
+  - name: Vodafone Oman
+    source: html                # ⚠ à confirmer au premier diagnose
+    render: true
+    urls:
+      - https://www.vodafone.om/en/careers
+    default_location: oman
+
+  # ─── Luxe / grande conso ─────────────────────────────────────────
+  - name: L'Oréal
+    source: html                # site Avature (comme TotalEnergies)
+    urls:
+      - https://careers.loreal.com/fr_FR/jobs/SearchJobs/{q}?jobRecordsPerPage=20&jobOffset={offset}
+    offsets: [0, 20]
+    link_pattern: /jobs/JobDetail/
+
+  # ─── Banque et assurance : Luxembourg / Suisse ───────────────────
+  - name: Julius Baer
+    source: workday             # API publique Workday (Zurich, Luxembourg, Genève…)
+    api: https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs
+    public_url: https://juliusbaer.wd3.myworkdayjobs.com/en-US/External
+    offsets: [0, 20]
+
+  - name: UBS
+    source: html                # ⚠ à confirmer : site Brassring, souvent fermé aux robots
+    render: true
+    wait_ms: 6000
+    urls:
+      - https://jobs.ubs.com/TGnewUI/Search/Home/Home?partnerid=25008&siteid=5012#keyWordSearch={q}
+    link_pattern: jobdetails
+
+  - name: SIX Group
+    source: html                # site SuccessFactors (comme Alstom)
+    urls:
+      - https://jobs.six-group.com/search/?q={q}&sortColumn=referencedate&sortDirection=desc
+    link_pattern: /job/
+    default_location: suisse
+
+  - name: Advanzia Bank
+    source: html
+    render: true
+    urls:
+      - https://www.advanzia.com/en/careers
+    link_pattern: /en/job/
+    default_location: luxembourg
+
+  - name: ING
+    source: html                # site Radancy (comme VINCI) ; lieu lu sur chaque fiche
+    render: true
+    urls:
+      - https://careers.ing.com/en/search-jobs/{q}/3121/1
+    link_pattern: /job/
+
+  - name: Swiss Life
+    source: html                # pages carrière CH et FR (offres hébergées sur Workday) ⚠ à confirmer
+    render: true
+    wait_ms: 6000
+    urls:
+      - https://www.swisslife.ch/de/ueber-uns/karriere/jobs.html
+      - https://www.swisslife.fr/home/carrieres.html
+    link_pattern: (myworkdayjobs\.com/.+/job/|/job/)
+
+  # ─── Conseil / IT ────────────────────────────────────────────────
+  - name: SII Group
+    source: html                # ⚠ à confirmer au premier diagnose
+    render: true
+    urls:
+      - https://sii-group.com/fr-FR/jobs?search={q}
+    link_pattern: /job
+
+  - name: EPAM Systems
+    source: html                # recherche filtrée Malaisie
+    render: true
+    wait_ms: 6000
+    urls:
+      - https://www.epam.com/careers/job-listings?query={q}&country=Malaysia
+    link_pattern: /careers/job-listings/job\.
+    default_location: malaisie
+
+  - name: AIA Digital
+    source: html                # ⚠ à confirmer : AIA Digital+ (Kuala Lumpur)
+    render: true
+    urls:
+      - https://careers.aia.com/search/?q={q}&locationsearch=Malaysia
+    link_pattern: /job/
+    default_location: malaisie
+
+  # ─── Oman ────────────────────────────────────────────────────────
+  - name: OQ
+    source: html                # ⚠ à confirmer au premier diagnose
+    render: true
+    urls:
+      - https://oq.com/en/careers
+    default_location: oman
+
+  - name: Rihal
+    source: html                # ⚠ à confirmer au premier diagnose
+    render: true
+    urls:
+      - https://rihal.om/careers
+    default_location: oman

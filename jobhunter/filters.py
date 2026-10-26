@@ -53,10 +53,23 @@ ZONES: dict[str, re.Pattern] = {
         r"suisse|switzerland|schweiz|svizzera|geneve|geneva|genf|lausanne|zurich|(?<![a-z])bern(?![a-z])"
         r"|berne|basel|(?<![a-z])bale(?![a-z])|lugano|fribourg|neuchatel|luzern|lucerne|(?<![a-z])sion(?![a-z])"
         r"|winterthur|olten|(?<![a-z])biel|bienne|st\.? ?gallen|(?<![a-z])zug(?![a-z])|renens|yverdon|(?<![a-z])chur(?![a-z])"
+        r"|opfikon|wallisellen|altstetten|oerlikon|schlieren|dubendorf"
+    ),
+    "Malaisie": re.compile(
+        r"malaysia|malaisie|kuala[\s\-]lumpur|(?<![a-z])kl(?![a-z]) sentral|petaling[\s\-]jaya|cyberjaya|putrajaya"
+        r"|selangor|penang|pulau pinang|johor|shah alam|subang|bangsar|mont kiara"
+    ),
+    "Oman": re.compile(
+        r"(?<![a-z])oman(?![a-z])|sultanate of oman|muscat|mascate|(?<![a-z])sohar(?![a-z])|salalah|(?<![a-z])duqm(?![a-z])"
+        r"|(?<![a-z])nizwa(?![a-z])|(?<![a-z])sur(?![a-z]), oman|al[\s\-]khuwair|(?<![a-z])ruwi(?![a-z])"
     ),
 }
 ZONE_KEYS = {"ile-de-france": "Île-de-France", "idf": "Île-de-France",
-             "luxembourg": "Luxembourg", "suisse": "Suisse", "switzerland": "Suisse"}
+             "luxembourg": "Luxembourg", "suisse": "Suisse", "switzerland": "Suisse",
+             "malaisie": "Malaisie", "malaysia": "Malaisie", "oman": "Oman"}
+# Catégorie (pays) affichée sur le site pour chaque zone
+COUNTRY = {"Île-de-France": "France", "Luxembourg": "Luxembourg", "Suisse": "Suisse",
+           "Malaisie": "Malaisie", "Oman": "Oman"}
 
 # Lieux clairement hors zones : sert à écarter une offre dont la fiche
 # dit "Lisbonne" même si le pied de page mentionne "Paris".
@@ -147,6 +160,7 @@ class Verdict:
     experience: str = "non précisée"
     zone: str = "?"
     junior: bool = False
+    country: str = "?"
 
 
 @dataclass
@@ -159,6 +173,7 @@ class Criteria:
     unknown_contract: str = "keep"
     unknown_experience: str = "keep"
     unknown_location: str = "drop"
+    country_rules: dict = field(default_factory=dict)   # réglages propres à un pays (contrats, expérience)
 
     def __post_init__(self):
         self.kw_re = words_re(self.keywords, prefix=True)
@@ -169,7 +184,7 @@ class Criteria:
     @classmethod
     def from_config(cls, cfg: dict) -> "Criteria":
         keys = ("keywords", "exclude_title", "contracts", "max_experience_years", "zones",
-                "unknown_contract", "unknown_experience", "unknown_location")
+                "unknown_contract", "unknown_experience", "unknown_location", "country_rules")
         return cls(**{k: cfg[k] for k in keys if k in cfg})
 
     # 1) Filtre rapide sur le titre (avant d'ouvrir la fiche)
@@ -194,36 +209,7 @@ class Criteria:
         v = Verdict(True)
         nt = norm(title)
 
-        # Contrat : d'abord les infos structurées (liste, JSON-LD, flux RSS), puis le texte
-        found = detect_contracts(structured)
-        if not found and OTHER_CONTRACT.search(norm(structured)):
-            return Verdict(False, "contrat hors CDI/CDD (stage, alternance…)")
-        if not found:
-            found = detect_contracts(text)
-        if found:
-            wanted = [c for c in self.contracts if c in found]
-            if not wanted:
-                return Verdict(False, "contrat " + "/".join(sorted(found)))
-            v.contract = "/".join(wanted)
-        elif self.unknown_contract == "drop":
-            return Verdict(False, "contrat non précisé")
-
-        # Expérience
-        years, junior = detect_experience(text + " " + structured)
-        v.junior = junior or bool(JUNIOR_RE.search(nt))
-        title_junior = bool(JUNIOR_RE.search(nt))
-        if years is not None:
-            if years > self.max_experience_years and not title_junior:
-                return Verdict(False, f"expérience demandée ≥ {years} ans")
-            v.experience = "débutant accepté" if years == 0 else f"{years} an{'s' if years > 1 else ''} min."
-        elif v.junior:
-            v.experience = "junior / débutant"
-        elif self.unknown_experience == "drop":
-            return Verdict(False, "expérience non précisée")
-        if v.junior and years:
-            v.experience += " · junior"
-
-        # Zone
+        # 1) Lieu (il décide du pays, donc des règles à appliquer)
         zone = None
         if structured:
             zone = detect_zone(structured)
@@ -237,6 +223,40 @@ class Criteria:
             if zone not in self.zone_labels:
                 return Verdict(False, f"lieu hors zones ({zone})")
             v.zone = zone
+            v.country = COUNTRY.get(zone, zone)
         elif self.unknown_location == "drop":
             return Verdict(False, "lieu inconnu ou hors zones")
+        rules = self.country_rules.get(v.country, {}) or {}
+        contracts = [c.upper() for c in rules.get("contracts", self.contracts)]
+        max_exp = int(rules.get("max_experience_years", self.max_experience_years))
+        unknown_contract = rules.get("unknown_contract", self.unknown_contract)
+
+        # 2) Contrat : d'abord les infos structurées (liste, JSON-LD, flux RSS), puis le texte
+        found = detect_contracts(structured)
+        if not found and OTHER_CONTRACT.search(norm(structured)):
+            return Verdict(False, "contrat hors CDI/CDD (stage, alternance…)")
+        if not found:
+            found = detect_contracts(text)
+        if found:
+            wanted = [c for c in contracts if c in found]
+            if not wanted:
+                return Verdict(False, "contrat " + "/".join(sorted(found)))
+            v.contract = "/".join(wanted)
+        elif unknown_contract == "drop":
+            return Verdict(False, "contrat non précisé")
+
+        # 3) Expérience
+        years, junior = detect_experience(text + " " + structured)
+        v.junior = junior or bool(JUNIOR_RE.search(nt))
+        title_junior = bool(JUNIOR_RE.search(nt))
+        if years is not None:
+            if years > max_exp and not title_junior:
+                return Verdict(False, f"expérience demandée ≥ {years} ans")
+            v.experience = "débutant accepté" if years == 0 else f"{years} an{'s' if years > 1 else ''} min."
+        elif v.junior:
+            v.experience = "junior / débutant"
+        elif self.unknown_experience == "drop":
+            return Verdict(False, "expérience non précisée")
+        if v.junior and years:
+            v.experience += " · junior"
         return v

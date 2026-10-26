@@ -80,6 +80,13 @@
   .pill { display: inline-block; font-size: 12px; padding: 2px 8px; border-radius: 999px; font-weight: 600; }
   .pill.ok { background: var(--accent-soft); color: var(--accent); }
   .pill.vide { background: var(--warn-soft); color: var(--warn); }
+  .countries { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
+  .countries button { font: inherit; font-size: 14px; padding: 7px 14px; border-radius: 999px; cursor: pointer;
+    border: 1px solid var(--line); background: var(--surface); color: var(--ink); }
+  .countries button .c { color: var(--muted); font-variant-numeric: tabular-nums; margin-left: 4px; }
+  .countries button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+  .countries button[aria-pressed="true"] .c { color: rgba(255,255,255,.85); }
+  .card .flag { font-size: 15px; margin-right: 4px; }
   .pill.erreur { background: var(--bad-soft); color: var(--bad); }
   .err { color: var(--bad); font-size: 12px; word-break: break-word; }
   .hint { color: var(--muted); font-size: 13px; margin: 10px 2px; }
@@ -107,6 +114,7 @@
   </nav>
 
   <section id="tab-jobs">
+    <div class="countries" id="countries" role="group" aria-label="Pays"></div>
     <div class="filters">
       <input type="search" id="q" placeholder="Rechercher un titre…">
       <select id="company"><option value="">Toutes les entreprises</option></select>
@@ -188,17 +196,34 @@ async function init() {
   renderJobs(); renderRejected(); renderHealth();
 }
 
+const FLAGS = { France: "🇫🇷", Suisse: "🇨🇭", Luxembourg: "🇱🇺", Malaisie: "🇲🇾", Oman: "🇴🇲" };
+const ZONE_COUNTRY = { "Île-de-France": "France", "Luxembourg": "Luxembourg", "Suisse": "Suisse", "Malaisie": "Malaisie", "Oman": "Oman" };
+const COUNTRY_ORDER = ["France", "Suisse", "Luxembourg", "Malaisie", "Oman"];
+const countryOf = j => j.country || ZONE_COUNTRY[j.zone] || j.zone || "?";
+let country = store.get("jh-country", "");
+
+function renderCountries(base) {
+  const counts = {};
+  base.forEach(j => { const c = countryOf(j); counts[c] = (counts[c] || 0) + 1; });
+  const names = [...new Set([...COUNTRY_ORDER, ...Object.keys(counts)])];
+  const btn = (val, label, n) => `<button data-country="${esc(val)}" aria-pressed="${country === val}">${label}<span class="c">${n}</span></button>`;
+  $("#countries").innerHTML = btn("", "🌍 Tous", base.length) +
+    names.map(c => btn(c, `${FLAGS[c] || "🌍"} ${esc(c)}`, counts[c] || 0)).join("");
+}
+
 function renderJobs() {
   const q = $("#q").value.trim().toLowerCase();
   const co = $("#company").value;
-  const list = DATA.jobs.filter(j =>
+  const base = DATA.jobs.filter(j =>
     !hidden.has(j.id) &&
     (!q || j.title.toLowerCase().includes(q)) &&
     (!co || j.company === co) &&
     (!$("#only-new").checked || isNew(j)) &&
     (!$("#hide-applied").checked || !applied.has(j.id)) &&
     ($("#show-gone").checked || !isGone(j))
-  ).sort((a, b) => sortKey(b) - sortKey(a));
+  );
+  renderCountries(base);
+  const list = base.filter(j => !country || countryOf(j) === country).sort((a, b) => sortKey(b) - sortKey(a));
   const active = DATA.jobs.filter(j => !isGone(j) && !hidden.has(j.id));
   $("#s-active").textContent = active.length;
   $("#s-new").textContent = active.filter(isNew).length;
@@ -206,7 +231,7 @@ function renderJobs() {
 
   $("#jobs").innerHTML = list.length ? list.map(j => `
     <article class="card ${applied.has(j.id) ? "applied" : ""}">
-      <div class="row1"><span class="company">${esc(j.company)}</span></div>
+      <div class="row1"><span class="company"><span class="flag" title="${esc(countryOf(j))}">${FLAGS[countryOf(j)] || "🌍"}</span>${esc(j.company)}</span></div>
       <a class="title" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
       <div class="dates">
         <span><span class="dl">Publiée sur le site</span> ${j.published ? esc(fmtPub(j.published)) : "non communiquée"}</span>
@@ -259,6 +284,8 @@ document.addEventListener("click", e => {
   }
   const ap = e.target.closest("[data-apply]");
   if (ap) { const id = ap.dataset.apply; applied.has(id) ? applied.delete(id) : applied.add(id); store.set("jw-applied", [...applied]); renderJobs(); }
+  const ct = e.target.closest("[data-country]");
+  if (ct) { country = ct.dataset.country; store.set("jh-country", country); renderJobs(); }
   const hd = e.target.closest("[data-hide]");
   if (hd) { hidden.add(hd.dataset.hide); store.set("jw-hidden", [...hidden]); renderJobs(); }
 });
