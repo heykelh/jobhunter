@@ -1,30 +1,30 @@
 {
- "updated": "2026-10-25T23:24:52+00:00",
+ "updated": "2026-10-26T08:09:05+00:00",
  "companies": {
   "Air France": {
-   "checked_at": "2026-10-25T23:19:41+00:00",
+   "checked_at": "2026-10-26T08:02:09+00:00",
    "error": "",
    "warnings": [],
    "links_found": 23,
    "keyword_matches": 4,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-25T23:19:43+00:00",
+   "last_ok": "2026-10-26T08:02:12+00:00",
    "failures": 0
   },
   "TotalEnergies": {
-   "checked_at": "2026-10-25T23:23:52+00:00",
+   "checked_at": "2026-10-26T08:08:00+00:00",
    "error": "",
    "warnings": [],
    "links_found": 200,
    "keyword_matches": 16,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-25T23:24:16+00:00",
+   "last_ok": "2026-10-26T08:08:24+00:00",
    "failures": 0
   },
   "Société Générale": {
-   "checked_at": "2026-10-25T23:20:30+00:00",
+   "checked_at": "2026-10-26T08:03:02+00:00",
    "error": "",
    "warnings": [],
    "links_found": 42,
@@ -32,7 +32,7 @@
    "kept_this_run": 0,
    "status": "ok",
    "failures": 0,
-   "last_ok": "2026-10-25T23:21:13+00:00"
+   "last_ok": "2026-10-26T08:03:46+00:00"
   },
   "BNP Paribas": {
    "checked_at": "2026-10-20T13:25:43+00:00",
@@ -50,37 +50,37 @@
    "failures": 1
   },
   "Crédit Agricole": {
-   "checked_at": "2026-10-25T23:21:13+00:00",
+   "checked_at": "2026-10-26T08:03:46+00:00",
    "error": "",
    "warnings": [],
    "links_found": 33,
-   "keyword_matches": 3,
-   "kept_this_run": 0,
+   "keyword_matches": 6,
+   "kept_this_run": 4,
    "status": "ok",
-   "last_ok": "2026-10-25T23:21:27+00:00",
+   "last_ok": "2026-10-26T08:05:32+00:00",
    "failures": 0
   },
   "BPCE": {
-   "checked_at": "2026-10-25T23:21:27+00:00",
+   "checked_at": "2026-10-26T08:05:32+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 1539,
-   "keyword_matches": 96,
+   "links_found": 1537,
+   "keyword_matches": 95,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-25T23:22:07+00:00",
+   "last_ok": "2026-10-26T08:06:13+00:00",
    "failures": 0
   },
   "AXA": {
-   "checked_at": "2026-10-25T23:22:07+00:00",
+   "checked_at": "2026-10-26T08:06:13+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 44,
-   "keyword_matches": 23,
+   "links_found": 43,
+   "keyword_matches": 22,
    "kept_this_run": 0,
    "status": "ok",
    "failures": 0,
-   "last_ok": "2026-10-25T23:22:23+00:00"
+   "last_ok": "2026-10-26T08:06:29+00:00"
   },
   "EDF": {
    "checked_at": "2026-10-23T22:15:26+00:00",
@@ -93,14 +93,14 @@
    "failures": 18
   },
   "SNCF": {
-   "checked_at": "2026-10-25T23:19:43+00:00",
+   "checked_at": "2026-10-26T08:02:12+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 224,
+   "links_found": 223,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-25T23:19:44+00:00",
+   "last_ok": "2026-10-26T08:02:14+00:00",
    "failures": 0
   },
   "ETF (VINCI)": {
@@ -114,51 +114,51 @@
    "failures": 18
   },
   "CFL": {
-   "checked_at": "2026-10-25T23:20:02+00:00",
+   "checked_at": "2026-10-26T08:02:31+00:00",
    "error": "",
    "warnings": [],
    "links_found": 25,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-25T23:20:15+00:00",
+   "last_ok": "2026-10-26T08:02:44+00:00",
    "failures": 0
   },
   "SBB CFF FFS": {
-   "checked_at": "2026-10-25T23:20:15+00:00",
+   "checked_at": "2026-10-26T08:02:44+00:00",
    "error": "",
    "warnings": [],
    "links_found": 126,
    "keyword_matches": 1,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-25T23:20:30+00:00",
+   "last_ok": "2026-10-26T08:03:02+00:00",
    "failures": 0
   },
   "RATP Dev": {
-   "checked_at": "2026-10-25T23:19:44+00:00",
+   "checked_at": "2026-10-26T08:02:14+00:00",
    "error": "",
    "warnings": [],
    "links_found": 20,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-25T23:19:57+00:00",
+   "last_ok": "2026-10-26T08:02:26+00:00",
    "failures": 0
   },
   "Alstom": {
-   "checked_at": "2026-10-25T23:19:57+00:00",
+   "checked_at": "2026-10-26T08:02:26+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 94,
+   "links_found": 95,
    "keyword_matches": 39,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-25T23:20:02+00:00",
+   "last_ok": "2026-10-26T08:02:31+00:00",
    "failures": 0
   },
   "EDF / Enedis": {
-   "checked_at": "2026-10-25T23:22:23+00:00",
+   "checked_at": "2026-10-26T08:06:29+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
@@ -166,31 +166,31 @@
    "kept_this_run": 0,
    "status": "vide",
    "last_ok": "2026-10-23T23:33:56+00:00",
-   "failures": 13
+   "failures": 14
   },
   "VINCI (dont ETF)": {
-   "checked_at": "2026-10-25T23:24:16+00:00",
+   "checked_at": "2026-10-26T08:08:24+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "vide",
-   "failures": 14
+   "failures": 15
   },
   "Eiffage": {
-   "checked_at": "2026-10-25T23:24:30+00:00",
+   "checked_at": "2026-10-26T08:08:39+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 80,
+   "links_found": 79,
    "keyword_matches": 15,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-25T23:24:35+00:00",
+   "last_ok": "2026-10-26T08:08:44+00:00",
    "failures": 0
   },
   "Bouygues Telecom": {
-   "checked_at": "2026-10-25T23:24:35+00:00",
+   "checked_at": "2026-10-26T08:08:44+00:00",
    "error": "RuntimeError: https://bouyguestelecom-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036 → ConnectionError: HTTPSConnectionPool(host='bouyguestelecom-recrute.talent-soft.com', port=443): Max retries exceeded with url: /handlers/offerRss.ashx?LCID=1036 (Caused by NameR",
    "warnings": [
     "https://bouyguestelecom-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036 → ConnectionError: HTTPSConnectionPool(host='bouyguestelecom-recrute.talent-soft.com', port=443): Max retries exceeded with url: /handlers/offerRss.ashx?LCID=1036 (Caused by NameR"
@@ -198,17 +198,17 @@
    "links_found": 0,
    "keyword_matches": 0,
    "status": "erreur",
-   "failures": 14
+   "failures": 15
   },
   "Orange": {
-   "checked_at": "2026-10-25T23:24:35+00:00",
+   "checked_at": "2026-10-26T08:08:44+00:00",
    "error": "",
    "warnings": [],
    "links_found": 56,
    "keyword_matches": 11,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-25T23:24:52+00:00",
+   "last_ok": "2026-10-26T08:09:04+00:00",
    "failures": 0
   }
  }
