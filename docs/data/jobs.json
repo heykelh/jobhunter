@@ -1,6 +1,96 @@
 {
- "updated": "2026-10-26T10:11:44+00:00",
+ "updated": "2026-10-26T16:54:49+00:00",
  "jobs": [
+  {
+   "id": "34608462df17",
+   "company": "BPCE",
+   "title": "BUSINESS ANALYST - F/H",
+   "url": "https://recrutement.bpce.fr/job/business-analyst-f-h-3",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-10-18",
+   "seed": false,
+   "first_seen": "2026-10-26T16:49:33+00:00",
+   "last_seen": "2026-10-26T16:49:33+00:00"
+  },
+  {
+   "id": "9e6271b7f744",
+   "company": "BPCE",
+   "title": "Equity &amp; Debt Advisory Analyst (F/H)",
+   "url": "https://recrutement.bpce.fr/job/equity-debt-advisory-analyst-f-h",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "1 an min.",
+   "junior": false,
+   "published": "2026-10-26",
+   "seed": false,
+   "first_seen": "2026-10-26T16:49:15+00:00",
+   "last_seen": "2026-10-26T16:49:15+00:00"
+  },
+  {
+   "id": "ad8fc96490ff",
+   "company": "Crédit Agricole",
+   "title": "Business Analyst IT moyens de paiement H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170477-126-business-analyst-it-moyens-de-paiement-hf-reference--2026-109893--/",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-10-26",
+   "seed": false,
+   "first_seen": "2026-10-26T16:48:27+00:00",
+   "last_seen": "2026-10-26T16:48:27+00:00"
+  },
+  {
+   "id": "1cb1fdbf5283",
+   "company": "Crédit Agricole",
+   "title": "Business Analyst Fiduciaire H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170477-126-business-analyst-fiduciaire-hf--reference--2026-114032--/",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-10-26",
+   "seed": false,
+   "first_seen": "2026-10-26T16:48:26+00:00",
+   "last_seen": "2026-10-26T16:48:26+00:00"
+  },
+  {
+   "id": "cb011f3a3aee",
+   "company": "Crédit Agricole",
+   "title": "GCO - Data Advisor H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170477-4-gco---data-advisor-hf-reference--2026-115304--/",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-10-26",
+   "seed": false,
+   "first_seen": "2026-10-26T16:48:24+00:00",
+   "last_seen": "2026-10-26T16:48:24+00:00"
+  },
+  {
+   "id": "0f606276aefd",
+   "company": "Crédit Agricole",
+   "title": "CDD - Data Officer (Static Data) H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/578-170479-136-cdd---data-officer-static-data-hf-reference--2026-109914--/",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDD",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-10-26",
+   "seed": false,
+   "first_seen": "2026-10-26T16:48:22+00:00",
+   "last_seen": "2026-10-26T16:48:22+00:00"
+  },
   {
    "id": "32f524565723",
    "company": "Rihal",
@@ -14,7 +104,8 @@
    "published": null,
    "seed": true,
    "first_seen": "2026-10-26T10:11:44+00:00",
-   "last_seen": "2026-10-26T10:11:44+00:00"
+   "last_seen": "2026-10-26T16:54:46+00:00",
+   "date_tries": 1
   },
   {
    "id": "98602bf58326",
@@ -29,7 +120,7 @@
    "published": "2026-09-08T08:03:31+00:00",
    "seed": true,
    "first_seen": "2026-10-26T10:09:50+00:00",
-   "last_seen": "2026-10-26T10:09:50+00:00"
+   "last_seen": "2026-10-26T16:53:18+00:00"
   },
   {
    "id": "675f0fff37f7",
@@ -44,7 +135,7 @@
    "published": "2026-08-07T07:10:39+00:00",
    "seed": true,
    "first_seen": "2026-10-26T10:09:49+00:00",
-   "last_seen": "2026-10-26T10:09:49+00:00"
+   "last_seen": "2026-10-26T16:53:18+00:00"
   },
   {
    "id": "cf0a5f07c299",
@@ -59,7 +150,7 @@
    "published": "2026-08-07T14:39:23+00:00",
    "seed": true,
    "first_seen": "2026-10-26T10:09:47+00:00",
-   "last_seen": "2026-10-26T10:09:47+00:00"
+   "last_seen": "2026-10-26T16:53:18+00:00"
   },
   {
    "id": "5dc149476418",
@@ -74,7 +165,7 @@
    "published": "2026-10-09T02:01:00+00:00",
    "seed": true,
    "first_seen": "2026-10-26T10:09:34+00:00",
-   "last_seen": "2026-10-26T10:09:34+00:00"
+   "last_seen": "2026-10-26T16:53:11+00:00"
   },
   {
    "id": "67bbce45ef25",
@@ -89,7 +180,7 @@
    "published": "2026-10-13T00:00:00+00:00",
    "seed": true,
    "first_seen": "2026-10-26T10:09:31+00:00",
-   "last_seen": "2026-10-26T10:09:31+00:00"
+   "last_seen": "2026-10-26T16:53:11+00:00"
   },
   {
    "id": "928937b6c673",
@@ -104,7 +195,7 @@
    "published": "2026-10-15T00:00:00+00:00",
    "seed": true,
    "first_seen": "2026-10-26T10:09:28+00:00",
-   "last_seen": "2026-10-26T10:09:28+00:00"
+   "last_seen": "2026-10-26T16:53:11+00:00"
   },
   {
    "id": "c943ac058338",
@@ -119,7 +210,7 @@
    "published": "2026-10-08",
    "seed": true,
    "first_seen": "2026-10-26T10:08:47+00:00",
-   "last_seen": "2026-10-26T10:08:47+00:00"
+   "last_seen": "2026-10-26T16:52:49+00:00"
   },
   {
    "id": "d506507d9675",
@@ -219,7 +310,7 @@
    "published": "2026-10-23",
    "seed": false,
    "first_seen": "2026-10-24T00:43:13+00:00",
-   "last_seen": "2026-10-26T10:08:25+00:00"
+   "last_seen": "2026-10-26T16:52:33+00:00"
   },
   {
    "id": "ef70d3002be2",
@@ -233,7 +324,7 @@
    "published": "2026-10-23",
    "seed": true,
    "first_seen": "2026-10-23T23:35:25+00:00",
-   "last_seen": "2026-10-26T10:08:25+00:00"
+   "last_seen": "2026-10-26T16:52:33+00:00"
   },
   {
    "id": "932e322b190d",
@@ -247,7 +338,7 @@
    "published": "2026-10-23",
    "seed": true,
    "first_seen": "2026-10-23T23:35:23+00:00",
-   "last_seen": "2026-10-26T10:08:25+00:00"
+   "last_seen": "2026-10-26T16:52:33+00:00"
   },
   {
    "id": "45d8f976ba64",
@@ -261,7 +352,7 @@
    "published": "2026-07-30",
    "seed": true,
    "first_seen": "2026-10-23T23:34:56+00:00",
-   "last_seen": "2026-10-26T10:08:08+00:00"
+   "last_seen": "2026-10-26T16:52:10+00:00"
   },
   {
    "id": "9215f7c0b3d5",
@@ -275,7 +366,7 @@
    "published": "2026-08-26",
    "seed": true,
    "first_seen": "2026-10-23T23:34:44+00:00",
-   "last_seen": "2026-10-26T10:08:08+00:00"
+   "last_seen": "2026-10-26T16:52:10+00:00"
   },
   {
    "id": "92ae21ef048e",
@@ -289,7 +380,7 @@
    "published": "2025-05-14",
    "seed": true,
    "first_seen": "2026-10-23T23:34:41+00:00",
-   "last_seen": "2026-10-26T10:08:08+00:00"
+   "last_seen": "2026-10-26T16:52:10+00:00"
   },
   {
    "id": "e1e57a982770",
@@ -359,7 +450,7 @@
    "published": "2026-10-22",
    "seed": false,
    "first_seen": "2026-10-23T14:27:38+00:00",
-   "last_seen": "2026-10-26T08:06:13+00:00"
+   "last_seen": "2026-10-26T16:49:24+00:00"
   },
   {
    "id": "6a71deb689bb",
@@ -373,7 +464,7 @@
    "published": "2026-10-12",
    "seed": false,
    "first_seen": "2026-10-23T14:25:55+00:00",
-   "last_seen": "2026-10-26T10:07:49+00:00"
+   "last_seen": "2026-10-26T16:51:51+00:00"
   },
   {
    "id": "ae7bf5765e36",
@@ -415,7 +506,7 @@
    "published": "2026-10-23T09:23:46+00:00",
    "seed": false,
    "first_seen": "2026-10-23T09:29:55+00:00",
-   "last_seen": "2026-10-26T10:01:45+00:00"
+   "last_seen": "2026-10-26T16:46:26+00:00"
   },
   {
    "id": "461cd6cf95a9",
@@ -513,7 +604,7 @@
    "published": "2026-10-14T10:27:00+00:00",
    "seed": false,
    "first_seen": "2026-10-22T08:15:53+00:00",
-   "last_seen": "2026-10-26T10:05:51+00:00"
+   "last_seen": "2026-10-26T16:49:58+00:00"
   },
   {
    "id": "2e3b7d0b2047",
@@ -555,7 +646,7 @@
    "published": "2026-10-20",
    "seed": false,
    "first_seen": "2026-10-21T19:19:39+00:00",
-   "last_seen": "2026-10-26T08:06:13+00:00",
+   "last_seen": "2026-10-26T16:49:33+00:00",
    "date_tries": 1
   },
   {
@@ -598,7 +689,7 @@
    "published": "2026-10-21",
    "seed": false,
    "first_seen": "2026-10-21T09:20:06+00:00",
-   "last_seen": "2026-10-26T10:07:49+00:00"
+   "last_seen": "2026-10-26T16:51:51+00:00"
   },
   {
    "id": "e1b63d6f7953",
@@ -612,7 +703,7 @@
    "published": "2026-02-23",
    "seed": false,
    "first_seen": "2026-10-20T17:36:46+00:00",
-   "last_seen": "2026-10-26T10:05:35+00:00",
+   "last_seen": "2026-10-26T16:49:41+00:00",
    "date_tries": 1
   },
   {
@@ -627,7 +718,7 @@
    "published": "2026-03-15",
    "seed": false,
    "first_seen": "2026-10-20T17:36:36+00:00",
-   "last_seen": "2026-10-26T10:05:35+00:00",
+   "last_seen": "2026-10-26T16:49:41+00:00",
    "date_tries": 1
   },
   {
@@ -642,7 +733,7 @@
    "published": "2026-06-18",
    "seed": false,
    "first_seen": "2026-10-20T17:36:27+00:00",
-   "last_seen": "2026-10-26T08:06:13+00:00",
+   "last_seen": "2026-10-26T16:49:41+00:00",
    "date_tries": 1
   },
   {
@@ -672,7 +763,7 @@
    "published": "2026-05-17",
    "seed": false,
    "first_seen": "2026-10-20T17:36:08+00:00",
-   "last_seen": "2026-10-26T10:05:35+00:00",
+   "last_seen": "2026-10-26T16:49:41+00:00",
    "date_tries": 1
   },
   {
@@ -687,7 +778,7 @@
    "published": "2025-11-19",
    "seed": false,
    "first_seen": "2026-10-20T17:35:58+00:00",
-   "last_seen": "2026-10-26T10:05:35+00:00",
+   "last_seen": "2026-10-26T16:49:41+00:00",
    "date_tries": 1
   },
   {
@@ -702,7 +793,7 @@
    "published": "2026-05-21",
    "seed": false,
    "first_seen": "2026-10-20T17:35:49+00:00",
-   "last_seen": "2026-10-26T10:05:35+00:00",
+   "last_seen": "2026-10-26T16:49:41+00:00",
    "date_tries": 1
   },
   {
@@ -717,7 +808,7 @@
    "published": "2026-09-13",
    "seed": false,
    "first_seen": "2026-10-20T17:33:36+00:00",
-   "last_seen": "2026-10-26T08:06:13+00:00",
+   "last_seen": "2026-10-26T16:49:33+00:00",
    "date_tries": 1
   },
   {
@@ -732,7 +823,7 @@
    "published": "2026-08-04",
    "seed": false,
    "first_seen": "2026-10-20T17:33:06+00:00",
-   "last_seen": "2026-10-26T08:06:13+00:00",
+   "last_seen": "2026-10-26T16:49:33+00:00",
    "date_tries": 1
   },
   {
@@ -747,7 +838,7 @@
    "published": "2026-10-20",
    "seed": false,
    "first_seen": "2026-10-20T17:32:57+00:00",
-   "last_seen": "2026-10-26T10:05:35+00:00",
+   "last_seen": "2026-10-26T16:49:24+00:00",
    "date_tries": 1
   },
   {
@@ -762,7 +853,7 @@
    "published": "2026-10-15T22:00:00+00:00",
    "seed": false,
    "first_seen": "2026-10-20T14:01:23+00:00",
-   "last_seen": "2026-10-26T10:02:35+00:00"
+   "last_seen": "2026-10-26T16:47:14+00:00"
   },
   {
    "id": "90c1eefcf644",
@@ -804,7 +895,7 @@
    "published": "2026-09-22",
    "seed": false,
    "first_seen": "2026-10-20T13:59:55+00:00",
-   "last_seen": "2026-10-26T08:06:13+00:00",
+   "last_seen": "2026-10-26T16:49:33+00:00",
    "date_tries": 1
   },
   {
@@ -819,7 +910,7 @@
    "published": "2026-09-25",
    "seed": false,
    "first_seen": "2026-10-20T13:59:37+00:00",
-   "last_seen": "2026-10-26T10:05:35+00:00",
+   "last_seen": "2026-10-26T16:49:33+00:00",
    "date_tries": 1
   },
   {
@@ -834,7 +925,7 @@
    "published": "2026-09-30",
    "seed": false,
    "first_seen": "2026-10-20T13:59:28+00:00",
-   "last_seen": "2026-10-26T10:05:35+00:00",
+   "last_seen": "2026-10-26T16:49:33+00:00",
    "date_tries": 1
   },
   {
@@ -849,7 +940,7 @@
    "published": "2026-10-01",
    "seed": false,
    "first_seen": "2026-10-20T13:59:19+00:00",
-   "last_seen": "2026-10-26T10:05:35+00:00",
+   "last_seen": "2026-10-26T16:49:33+00:00",
    "date_tries": 1
   },
   {
@@ -864,7 +955,7 @@
    "published": "2026-10-01",
    "seed": false,
    "first_seen": "2026-10-20T13:59:10+00:00",
-   "last_seen": "2026-10-26T08:06:13+00:00",
+   "last_seen": "2026-10-26T16:49:33+00:00",
    "date_tries": 1
   },
   {
@@ -879,7 +970,7 @@
    "published": "2026-10-06",
    "seed": false,
    "first_seen": "2026-10-20T13:58:43+00:00",
-   "last_seen": "2026-10-26T10:05:35+00:00",
+   "last_seen": "2026-10-26T16:49:33+00:00",
    "date_tries": 1
   },
   {
@@ -894,7 +985,7 @@
    "published": "2026-10-08",
    "seed": false,
    "first_seen": "2026-10-20T13:58:07+00:00",
-   "last_seen": "2026-10-26T08:06:13+00:00",
+   "last_seen": "2026-10-26T16:49:33+00:00",
    "date_tries": 1
   },
   {
@@ -909,7 +1000,7 @@
    "published": "2026-10-11",
    "seed": false,
    "first_seen": "2026-10-20T13:57:49+00:00",
-   "last_seen": "2026-10-26T08:06:13+00:00",
+   "last_seen": "2026-10-26T16:49:33+00:00",
    "date_tries": 1
   },
   {
@@ -924,7 +1015,7 @@
    "published": "2026-10-13",
    "seed": false,
    "first_seen": "2026-10-20T13:57:40+00:00",
-   "last_seen": "2026-10-26T08:06:13+00:00",
+   "last_seen": "2026-10-26T16:49:33+00:00",
    "date_tries": 1
   },
   {
@@ -939,7 +1030,7 @@
    "published": "2026-10-14",
    "seed": false,
    "first_seen": "2026-10-20T13:57:31+00:00",
-   "last_seen": "2026-10-26T10:05:35+00:00",
+   "last_seen": "2026-10-26T16:49:33+00:00",
    "date_tries": 1
   },
   {
@@ -954,7 +1045,7 @@
    "published": "2026-10-14",
    "seed": false,
    "first_seen": "2026-10-20T13:57:03+00:00",
-   "last_seen": "2026-10-26T08:06:13+00:00",
+   "last_seen": "2026-10-26T16:49:33+00:00",
    "date_tries": 1
   },
   {
@@ -984,7 +1075,7 @@
    "published": "2026-10-18",
    "seed": false,
    "first_seen": "2026-10-20T13:56:36+00:00",
-   "last_seen": "2026-10-26T08:06:13+00:00",
+   "last_seen": "2026-10-26T16:49:24+00:00",
    "date_tries": 1
   },
   {
@@ -1041,7 +1132,7 @@
    "published": "2026-10-15",
    "seed": true,
    "first_seen": "2026-10-20T13:24:49+00:00",
-   "last_seen": "2026-10-26T10:07:49+00:00"
+   "last_seen": "2026-10-26T16:51:51+00:00"
   },
   {
    "id": "3a1094fb030f",
@@ -1083,7 +1174,7 @@
    "published": "Tue, 13 Oct 2026 12:22:49 Z",
    "seed": true,
    "first_seen": "2026-10-20T13:24:10+00:00",
-   "last_seen": "2026-10-26T10:01:45+00:00"
+   "last_seen": "2026-10-26T16:46:26+00:00"
   },
   {
    "id": "6f87aac13152",
@@ -1111,7 +1202,7 @@
    "published": "Fri, 16 Oct 2026 13:25:34 Z",
    "seed": true,
    "first_seen": "2026-10-20T13:24:07+00:00",
-   "last_seen": "2026-10-26T10:01:45+00:00"
+   "last_seen": "2026-10-26T16:46:26+00:00"
   }
  ]
 }

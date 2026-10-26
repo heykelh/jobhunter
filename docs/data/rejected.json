@@ -1,6 +1,150 @@
 {
- "updated": "2026-10-26T10:11:44+00:00",
+ "updated": "2026-10-26T16:54:49+00:00",
  "items": [
+  {
+   "id": "21f2932e0fe5",
+   "company": "ING",
+   "title": "Data Analyst in Risk Reporting",
+   "url": "https://careers.ing.com/en/job/warsaw/data-analyst-in-risk-reporting/3121/46362822912",
+   "reason": "lieu hors zones",
+   "at": "2026-10-26T16:53:35+00:00"
+  },
+  {
+   "id": "569f77f7f3f7",
+   "company": "Advanzia Bank",
+   "title": "Our vacancies Customer Service Trainee – Italian & Spanish speaker Customer Service Customer Service Corporate Finance Analyst Finance Finan",
+   "url": "https://www.advanzia.com/en/job/customer-service-trainee-italian-spanish-speaker",
+   "reason": "titre exclu (trainee)",
+   "at": "2026-10-26T16:53:18+00:00"
+  },
+  {
+   "id": "ba1130b9dbf0",
+   "company": "Advanzia Bank",
+   "title": "Our vacancies Customer Service Trainee – Italian & Spanish speaker Customer Service Customer Service Corporate Finance Analyst Finance Finan",
+   "url": "https://www.advanzia.com/en/job/customers-service-and-complaints-officer-german-speaker",
+   "reason": "titre exclu (trainee)",
+   "at": "2026-10-26T16:53:18+00:00"
+  },
+  {
+   "id": "d207e3f07020",
+   "company": "Advanzia Bank",
+   "title": "Our vacancies Customer Service Trainee – Italian & Spanish speaker Customer Service Customer Service Corporate Finance Analyst Finance Finan",
+   "url": "https://www.advanzia.com/en/job/internal-audit-officer-full-part-time",
+   "reason": "titre exclu (trainee)",
+   "at": "2026-10-26T16:53:18+00:00"
+  },
+  {
+   "id": "6822142c70a1",
+   "company": "Advanzia Bank",
+   "title": "Our vacancies Customer Service Trainee – Italian & Spanish speaker Customer Service Customer Service Corporate Finance Analyst Finance Finan",
+   "url": "https://www.advanzia.com/en/job/risk-management-officer",
+   "reason": "titre exclu (trainee)",
+   "at": "2026-10-26T16:53:18+00:00"
+  },
+  {
+   "id": "b2eef3565eec",
+   "company": "Advanzia Bank",
+   "title": "Our vacancies Customer Service Trainee – Italian & Spanish speaker Customer Service Customer Service Corporate Finance Analyst Finance Finan",
+   "url": "https://www.advanzia.com/en/job/it-service-management-trainee",
+   "reason": "titre exclu (trainee)",
+   "at": "2026-10-26T16:53:18+00:00"
+  },
+  {
+   "id": "d54910275906",
+   "company": "Advanzia Bank",
+   "title": "Our vacancies Customer Service Trainee – Italian & Spanish speaker Customer Service Customer Service Corporate Finance Analyst Finance Finan",
+   "url": "https://www.advanzia.com/en/job/junior-software-engineer",
+   "reason": "titre exclu (trainee)",
+   "at": "2026-10-26T16:53:18+00:00"
+  },
+  {
+   "id": "7660535b29ca",
+   "company": "Advanzia Bank",
+   "title": "Our vacancies Customer Service Trainee – Italian & Spanish speaker Customer Service Customer Service Corporate Finance Analyst Finance Finan",
+   "url": "https://www.advanzia.com/en/job/customer-service-trainee-internships-german-speakers",
+   "reason": "titre exclu (trainee)",
+   "at": "2026-10-26T16:53:18+00:00"
+  },
+  {
+   "id": "732f92107537",
+   "company": "Advanzia Bank",
+   "title": "Our vacancies Customer Service Trainee – Italian & Spanish speaker Customer Service Customer Service Corporate Finance Analyst Finance Finan",
+   "url": "https://www.advanzia.com/en/job/payment-systems-and-automation-associate-director",
+   "reason": "titre exclu (trainee)",
+   "at": "2026-10-26T16:53:18+00:00"
+  },
+  {
+   "id": "b70c66c47b5e",
+   "company": "UBS",
+   "title": "Authorized Officer, Research Analyst - Partnership Solutions",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=353108",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-26T16:53:09+00:00"
+  },
+  {
+   "id": "3949a148342b",
+   "company": "TotalEnergies",
+   "title": "STAGE Analyste Data & Power Market H/F",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/STAGE-Analyste-Data-Power-Market-H-F/85144",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-26T16:51:51+00:00"
+  },
+  {
+   "id": "a790cd721824",
+   "company": "AXA",
+   "title": "Data Scientist / ML Engineer (F/H) stage",
+   "url": "https://careers.axa.com/jobs/37078",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-26T16:49:58+00:00"
+  },
+  {
+   "id": "7941753b438f",
+   "company": "AXA",
+   "title": "Datascientist - Actuaire (F/H) - Stage",
+   "url": "https://careers.axa.com/jobs/37305",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-26T16:49:58+00:00"
+  },
+  {
+   "id": "1c22eb79f774",
+   "company": "BPCE",
+   "title": "Ingénieur Méthodes et Qualité - Datacenter (F/H)",
+   "url": "https://recrutement.bpce.fr/job/ingenieur-methodes-et-qualite-datacenter-f-h",
+   "reason": "expérience demandée ≥ 3 ans",
+   "at": "2026-10-26T16:49:41+00:00"
+  },
+  {
+   "id": "b9555b9fb583",
+   "company": "BPCE",
+   "title": "Analyste Risque Reporting Prudentiel et Réglementaire F/H",
+   "url": "https://recrutement.bpce.fr/job/analyste-risque-reporting-prudentiel-et-reglementaire-f-h",
+   "reason": "expérience demandée ≥ 3 ans",
+   "at": "2026-10-26T16:49:24+00:00"
+  },
+  {
+   "id": "a8ffc3e19ca9",
+   "company": "BPCE",
+   "title": "V.I.E. 12 months - Credit Analyst F/M - Milan",
+   "url": "https://recrutement.bpce.fr/job/v-i-e-12-months-credit-analyst-f-m-milan",
+   "reason": "titre exclu (VIE)",
+   "at": "2026-10-26T16:49:16+00:00"
+  },
+  {
+   "id": "67cf7c5a4768",
+   "company": "Crédit Agricole",
+   "title": "VIE HR Analyst H/F M/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170475-136-vie-hr-analyst-hf-mf-reference--2026-116885--/",
+   "reason": "titre exclu (VIE)",
+   "at": "2026-10-26T16:48:19+00:00"
+  },
+  {
+   "id": "d7a0476b8c56",
+   "company": "Alstom",
+   "title": "Analyst - Intune",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Analyst-Intune-KA/1451215433/",
+   "reason": "lieu hors zones",
+   "at": "2026-10-26T16:46:46+00:00"
+  },
   {
    "id": "e7f29488b13e",
    "company": "ING",
