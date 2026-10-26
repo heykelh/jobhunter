@@ -1,6 +1,46 @@
 {
- "updated": "2026-10-26T16:54:49+00:00",
+ "updated": "2026-10-26T21:45:07+00:00",
  "items": [
+  {
+   "id": "657ae67231bb",
+   "company": "ING",
+   "title": "Data Analist",
+   "url": "https://careers.ing.com/en/job/amsterdam/data-analist/3121/46369312128",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-26T21:44:08+00:00"
+  },
+  {
+   "id": "e7af59f02120",
+   "company": "UBS",
+   "title": "Mid-Cap M&A Analyst - Investment Banking",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5049&PageType=JobDetails&jobid=349007&frmSiteId=5012",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-26T21:43:43+00:00"
+  },
+  {
+   "id": "46c2cb3a36e5",
+   "company": "AXA",
+   "title": "Actuaire Data, Modélisation et Pilotage Business - IARD (F/H) - stage",
+   "url": "https://careers.axa.com/jobs/37164",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-26T21:40:41+00:00"
+  },
+  {
+   "id": "e9caf4f9c650",
+   "company": "AXA",
+   "title": "Actuaire assurance vie/ Data, IA ( F/H) - stage",
+   "url": "https://careers.axa.com/jobs/37119",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-26T21:40:41+00:00"
+  },
+  {
+   "id": "b7bf6d4c172d",
+   "company": "BPCE",
+   "title": "Stage - Data Analyst Risques (H/F)",
+   "url": "https://recrutement.bpce.fr/job/stage-data-analyst-risques-h-f",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-26T21:40:24+00:00"
+  },
   {
    "id": "21f2932e0fe5",
    "company": "ING",
