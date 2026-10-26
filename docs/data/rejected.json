@@ -1,6 +1,558 @@
 {
- "updated": "2026-10-26T08:09:05+00:00",
+ "updated": "2026-10-26T10:11:44+00:00",
  "items": [
+  {
+   "id": "e7f29488b13e",
+   "company": "ING",
+   "title": "IT Business Analyst with Payment System Experience",
+   "url": "https://careers.ing.com/en/job/istanbul/it-business-analyst-with-payment-system-experience/3121/33919715200",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-26T10:10:35+00:00"
+  },
+  {
+   "id": "96e987ccc812",
+   "company": "ING",
+   "title": "Business Analyst - Regulatory Reporting",
+   "url": "https://careers.ing.com/en/job/makati-city/business-analyst-regulatory-reporting/3121/44659395904",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-26T10:10:33+00:00"
+  },
+  {
+   "id": "763f9d6037bd",
+   "company": "ING",
+   "title": "Digital Campaign Analyst",
+   "url": "https://careers.ing.com/en/job/silesia/digital-campaign-analyst/3121/45574995200",
+   "reason": "lieu hors zones",
+   "at": "2026-10-26T10:10:32+00:00"
+  },
+  {
+   "id": "44f1d09d6e25",
+   "company": "ING",
+   "title": "NL Cards Disputes Analyst",
+   "url": "https://careers.ing.com/en/job/makati-city/nl-cards-disputes-analyst/3121/45961167744",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-26T10:10:30+00:00"
+  },
+  {
+   "id": "aa0d5a6bd00e",
+   "company": "ING",
+   "title": "Business Analyst (Tribe Services)",
+   "url": "https://careers.ing.com/en/job/makati-city/business-analyst-tribe-services/3121/20976434304",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-26T10:10:29+00:00"
+  },
+  {
+   "id": "4bbee68e5c5c",
+   "company": "ING",
+   "title": "Transaction Monitoring Analyst",
+   "url": "https://careers.ing.com/en/job/makati-city/transaction-monitoring-analyst/3121/45682205952",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-26T10:10:27+00:00"
+  },
+  {
+   "id": "645277c09905",
+   "company": "ING",
+   "title": "IT Business Analyst",
+   "url": "https://careers.ing.com/en/job/makati-city/it-business-analyst/3121/44659394112",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-26T10:10:25+00:00"
+  },
+  {
+   "id": "26e53b799218",
+   "company": "ING",
+   "title": "Sr. Analyst",
+   "url": "https://careers.ing.com/en/job/city-of-taguig/sr-analyst/3121/45689053504",
+   "reason": "titre exclu (sr)",
+   "at": "2026-10-26T10:10:25+00:00"
+  },
+  {
+   "id": "8430a2c8cd9d",
+   "company": "ING",
+   "title": "IT Business Analyst",
+   "url": "https://careers.ing.com/en/job/makati-city/it-business-analyst/3121/45306843840",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-26T10:10:24+00:00"
+  },
+  {
+   "id": "12e2825d1c8c",
+   "company": "ING",
+   "title": "Digital Analyst",
+   "url": "https://careers.ing.com/en/job/milan/digital-analyst/3121/41695666368",
+   "reason": "lieu hors zones",
+   "at": "2026-10-26T10:10:22+00:00"
+  },
+  {
+   "id": "4b0a72b8b3e8",
+   "company": "ING",
+   "title": "Real Time Analyst",
+   "url": "https://careers.ing.com/en/job/makati-city/real-time-analyst/3121/42373877824",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-26T10:10:21+00:00"
+  },
+  {
+   "id": "85a0ce06e4b7",
+   "company": "ING",
+   "title": "Business Analyst",
+   "url": "https://careers.ing.com/en/job/istanbul/business-analyst/3121/45961168064",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-26T10:10:19+00:00"
+  },
+  {
+   "id": "46acd6453c1a",
+   "company": "ING",
+   "title": "Business Analyst",
+   "url": "https://careers.ing.com/en/job/istanbul/business-analyst/3121/35307051968",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-26T10:10:18+00:00"
+  },
+  {
+   "id": "ddcae9ddb3b1",
+   "company": "ING",
+   "title": "Data Scientist Specialist-1",
+   "url": "https://careers.ing.com/en/job/silesia/data-scientist-specialist-1/3121/46131517440",
+   "reason": "lieu hors zones",
+   "at": "2026-10-26T10:10:17+00:00"
+  },
+  {
+   "id": "3486420fd6eb",
+   "company": "ING",
+   "title": "Data Operations Professional",
+   "url": "https://careers.ing.com/en/job/makati-city/data-operations-professional/3121/46155027328",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-26T10:10:15+00:00"
+  },
+  {
+   "id": "d9f49bcadba2",
+   "company": "ING",
+   "title": "Global HR Data Consumption Specialist",
+   "url": "https://careers.ing.com/en/job/makati-city/global-hr-data-consumption-specialist/3121/41176897600",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-26T10:10:14+00:00"
+  },
+  {
+   "id": "217a0e9feaa1",
+   "company": "ING",
+   "title": "Senior Specialist - Data Analyst",
+   "url": "https://careers.ing.com/en/job/silesia/senior-specialist-data-analyst/3121/43435291584",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-26T10:10:14+00:00"
+  },
+  {
+   "id": "0b5f3567c910",
+   "company": "ING",
+   "title": "Compliance Data Methodology",
+   "url": "https://careers.ing.com/en/job/warsaw/compliance-data-methodology/3121/45101610880",
+   "reason": "lieu hors zones",
+   "at": "2026-10-26T10:10:12+00:00"
+  },
+  {
+   "id": "4601c5632100",
+   "company": "ING",
+   "title": "Data Management Expert",
+   "url": "https://careers.ing.com/en/job/brussels/data-management-expert/3121/46176274432",
+   "reason": "titre exclu (expert)",
+   "at": "2026-10-26T10:10:12+00:00"
+  },
+  {
+   "id": "234d2e91c873",
+   "company": "ING",
+   "title": "Data Analyst / Data Modeler | GKYC @ING Hubs Romania",
+   "url": "https://careers.ing.com/en/job/bucharest/data-analyst-data-modeler-gkyc-ing-hubs-romania/3121/46193006464",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-26T10:10:11+00:00"
+  },
+  {
+   "id": "64ea4b7f26a3",
+   "company": "ING",
+   "title": "Senior Data Analyst (GenAI)",
+   "url": "https://careers.ing.com/en/job/istanbul/senior-data-analyst-genai/3121/46208587072",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-26T10:10:11+00:00"
+  },
+  {
+   "id": "88ff7a739d95",
+   "company": "ING",
+   "title": "Data Management Expert",
+   "url": "https://careers.ing.com/en/job/madrid/data-management-expert/3121/45904708800",
+   "reason": "titre exclu (expert)",
+   "at": "2026-10-26T10:10:11+00:00"
+  },
+  {
+   "id": "22bb5602ca93",
+   "company": "ING",
+   "title": "Data Analyst (Credit Risk)",
+   "url": "https://careers.ing.com/en/job/city-of-taguig/data-analyst-credit-risk/3121/45167336448",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-26T10:10:09+00:00"
+  },
+  {
+   "id": "7d1e43cd1386",
+   "company": "ING",
+   "title": "Data Quality Expert II",
+   "url": "https://careers.ing.com/en/job/makati-city/data-quality-expert-ii/3121/46185946624",
+   "reason": "titre exclu (expert)",
+   "at": "2026-10-26T10:10:09+00:00"
+  },
+  {
+   "id": "d7493c9d0f11",
+   "company": "ING",
+   "title": "Data Protection Professional",
+   "url": "https://careers.ing.com/en/job/makati-city/data-protection-professional/3121/45386467904",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-26T10:10:08+00:00"
+  },
+  {
+   "id": "ad6c1c0023b7",
+   "company": "ING",
+   "title": "Principal Data Scientist",
+   "url": "https://careers.ing.com/en/job/istanbul/principal-data-scientist/3121/31474962112",
+   "reason": "titre exclu (principal)",
+   "at": "2026-10-26T10:10:08+00:00"
+  },
+  {
+   "id": "bb3c48855852",
+   "company": "ING",
+   "title": "Data Modeling Analyst",
+   "url": "https://careers.ing.com/en/job/makati-city/data-modeling-analyst/3121/43998316160",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-26T10:10:06+00:00"
+  },
+  {
+   "id": "e3c6d2e4ca85",
+   "company": "ING",
+   "title": "Data Governance Expert",
+   "url": "https://careers.ing.com/en/job/singapore/data-governance-expert/3121/46155027200",
+   "reason": "titre exclu (expert)",
+   "at": "2026-10-26T10:10:05+00:00"
+  },
+  {
+   "id": "e0c08637e59b",
+   "company": "SIX Group",
+   "title": "ServiceNow Business Analyst",
+   "url": "https://jobs.six-group.com/job/Warsaw-ServiceNow-Business-Analyst/1412192933/",
+   "reason": "lieu hors zones",
+   "at": "2026-10-26T10:09:40+00:00"
+  },
+  {
+   "id": "37c96c4ec135",
+   "company": "SIX Group",
+   "title": "Quantitative Risk Analyst",
+   "url": "https://jobs.six-group.com/job/Las-Rozas-de-Madrid-Quantitative-Risk-Analyst/1414748633/",
+   "reason": "lieu hors zones",
+   "at": "2026-10-26T10:09:38+00:00"
+  },
+  {
+   "id": "60e7cd8552c0",
+   "company": "SIX Group",
+   "title": "SOC Analyst",
+   "url": "https://jobs.six-group.com/job/Las-Rozas-de-Madrid-SOC-Analyst/1416240433/",
+   "reason": "lieu hors zones",
+   "at": "2026-10-26T10:09:37+00:00"
+  },
+  {
+   "id": "dc61bbf1c140",
+   "company": "SIX Group",
+   "title": "Data Acquisition Specialist",
+   "url": "https://jobs.six-group.com/job/Las-Rozas-de-Madrid-Data-Acquisition-Specialist/1445274533/",
+   "reason": "lieu hors zones",
+   "at": "2026-10-26T10:09:35+00:00"
+  },
+  {
+   "id": "e1fa0b316172",
+   "company": "SIX Group",
+   "title": "Head Funds Static Data Onboarding",
+   "url": "https://jobs.six-group.com/job/Warsaw-Head-Funds-Static-Data-Onboarding/1444640433/",
+   "reason": "titre exclu (head)",
+   "at": "2026-10-26T10:09:35+00:00"
+  },
+  {
+   "id": "44134b6ab1e6",
+   "company": "SIX Group",
+   "title": "Senior Software Engineer - Data",
+   "url": "https://jobs.six-group.com/job/Zurich-Senior-Software-Engineer-Data/1443824333/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-26T10:09:35+00:00"
+  },
+  {
+   "id": "6db75ffa7a22",
+   "company": "SIX Group",
+   "title": "Senior Business Analyst",
+   "url": "https://jobs.six-group.com/job/Las-Rozas-de-Madrid-Senior-Business-Analyst/1441842933/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-26T10:09:35+00:00"
+  },
+  {
+   "id": "34d3383b4341",
+   "company": "SIX Group",
+   "title": "Real-time Data Service Specialist",
+   "url": "https://jobs.six-group.com/job/Warsaw-Real-time-Data-Service-Specialist/1416225533/",
+   "reason": "lieu hors zones",
+   "at": "2026-10-26T10:09:32+00:00"
+  },
+  {
+   "id": "3e8531936567",
+   "company": "SIX Group",
+   "title": "(Senior) IAM Business Analyst (80-100%)",
+   "url": "https://jobs.six-group.com/job/Zurich-%28Senior%29-IAM-Business-Analyst-%2880-100%29/1436066033/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-26T10:09:32+00:00"
+  },
+  {
+   "id": "8834aba7e277",
+   "company": "SIX Group",
+   "title": "Marketing Data Scientist",
+   "url": "https://jobs.six-group.com/job/Warsaw-Marketing-Data-Scientist/1447426133/",
+   "reason": "lieu hors zones",
+   "at": "2026-10-26T10:09:29+00:00"
+  },
+  {
+   "id": "4f959e046a79",
+   "company": "SIX Group",
+   "title": "CMC Data & Process Governance Manager",
+   "url": "https://jobs.six-group.com/job/Warsaw-CMC-Data-&-Process-Governance-Manager/1447459033/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-10-26T10:09:29+00:00"
+  },
+  {
+   "id": "d17c4b302fa1",
+   "company": "SIX Group",
+   "title": "Business Analyst",
+   "url": "https://jobs.six-group.com/job/Warsaw-Business-Analyst/1448087833/",
+   "reason": "lieu hors zones",
+   "at": "2026-10-26T10:09:26+00:00"
+  },
+  {
+   "id": "2c6037c458c3",
+   "company": "SIX Group",
+   "title": "Customer Support Agent & Market Data Platform Specialist",
+   "url": "https://jobs.six-group.com/job/Copenhagen-Customer-Support-Agent-&-Market-Data-Platform-Specialist/1448413133/",
+   "reason": "expérience demandée ≥ 3 ans",
+   "at": "2026-10-26T10:09:25+00:00"
+  },
+  {
+   "id": "99eb1d5db54f",
+   "company": "SIX Group",
+   "title": "Data Analyst",
+   "url": "https://jobs.six-group.com/job/Singapore-Data-Analyst/1448871033/",
+   "reason": "lieu hors zones",
+   "at": "2026-10-26T10:09:23+00:00"
+  },
+  {
+   "id": "b52adefa9926",
+   "company": "SIX Group",
+   "title": "Data Analyst",
+   "url": "https://jobs.six-group.com/job/Las-Rozas-de-Madrid-Data-Analyst/1439649333/",
+   "reason": "lieu hors zones",
+   "at": "2026-10-26T10:09:22+00:00"
+  },
+  {
+   "id": "39a167e86d53",
+   "company": "SIX Group",
+   "title": "Data Quality Analyst",
+   "url": "https://jobs.six-group.com/job/Warsaw-Data-Quality-Analyst/1449916133/",
+   "reason": "lieu hors zones",
+   "at": "2026-10-26T10:09:20+00:00"
+  },
+  {
+   "id": "e9c454c518d1",
+   "company": "SIX Group",
+   "title": "Senior Data Acquisition Manager (80-100%)",
+   "url": "https://jobs.six-group.com/job/Zurich-Senior-Data-Acquisition-Manager-%2880-100%29/1450317433/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-26T10:09:19+00:00"
+  },
+  {
+   "id": "7ef4e5776f50",
+   "company": "SIX Group",
+   "title": "Data Transformation Manager",
+   "url": "https://jobs.six-group.com/job/Warsaw-Data-Transformation-Manager/1449676433/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-10-26T10:09:19+00:00"
+  },
+  {
+   "id": "c4b6beaa1523",
+   "company": "UBS",
+   "title": "Market Conduct Surveillance Analyst",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=347482",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-26T10:09:17+00:00"
+  },
+  {
+   "id": "f2a42c1b9365",
+   "company": "UBS",
+   "title": "SAP Analytics Cloud with Databricks",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=349756",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-26T10:09:16+00:00"
+  },
+  {
+   "id": "b973e979e250",
+   "company": "UBS",
+   "title": "Internship in AM Sales Insights & Technology (Data Scientist)",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=352023",
+   "reason": "titre exclu (internship)",
+   "at": "2026-10-26T10:09:14+00:00"
+  },
+  {
+   "id": "077ca8f780fe",
+   "company": "Julius Baer",
+   "title": "12 months Contract - Business Analyst, Private Bank Credit Risk Applications (Through an External Agency Payroll Provider)",
+   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Singapore/XMLNAME-12-months-Contract---Business-Analyst--Private-Bank-Credit-Risk-Applications--Through-an-External-Agency-Payroll-Provider-_r-19987-2",
+   "reason": "lieu hors zones",
+   "at": "2026-10-26T10:08:55+00:00"
+  },
+  {
+   "id": "7376b2b3e566",
+   "company": "Julius Baer",
+   "title": "Senior Quantitative Analyst - Interest Rate Pricing Models 100% (f/m/d) (Contract through our external payroll partner with immediate start for 12 months, possible extension)",
+   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Zurich/Senior-Quantitative-Analyst---Interest-Rate-Pricing-Models-100---f-m-d---Contract-through-our-external-payroll-partner-with-immediate-start-until-31122027--possible-extension-_r-20119-1",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-26T10:08:55+00:00"
+  },
+  {
+   "id": "0595a2c87ec9",
+   "company": "Julius Baer",
+   "title": "12 months Contract - GPS Platform Transformation: Business Analyst – FX/PM (Through an External Agency)",
+   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Singapore/XMLNAME-12-months-Contract---Business-Analyst---Structured-Product--Through-an-External-Agency-_r-16676",
+   "reason": "lieu hors zones",
+   "at": "2026-10-26T10:08:54+00:00"
+  },
+  {
+   "id": "0bc9ff775ab9",
+   "company": "Julius Baer",
+   "title": "Transformation Analyst - 100% (f/m/d)",
+   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Madrid/Transformation-Analyst---100---f-m-d-_r-20149-2",
+   "reason": "lieu hors zones",
+   "at": "2026-10-26T10:08:52+00:00"
+  },
+  {
+   "id": "8002ae6d6122",
+   "company": "Julius Baer",
+   "title": "Strategic Financial Analyst & Performance Manager 100% (f/m/d)",
+   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Zurich/Strategic-Financial-Analyst---Performance-Manager-100---f-m-d-_r-20012-1",
+   "reason": "titre exclu (manager)",
+   "at": "2026-10-26T10:08:52+00:00"
+  },
+  {
+   "id": "71304bec4221",
+   "company": "Julius Baer",
+   "title": "Financial Analyst, Performance- & Initiative Manager 80 - 100% (f/m/d)",
+   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Zurich/Strategic-Financial-Controller-100---f-m-d-_r-18428-1",
+   "reason": "titre exclu (manager)",
+   "at": "2026-10-26T10:08:52+00:00"
+  },
+  {
+   "id": "74f746a0974c",
+   "company": "Julius Baer",
+   "title": "PMO Analyst - 100% (f/m/d)",
+   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Madrid/PMO-Analyst---100---f-m-d-_r-20148-1",
+   "reason": "lieu hors zones",
+   "at": "2026-10-26T10:08:51+00:00"
+  },
+  {
+   "id": "09e0bc765e53",
+   "company": "Julius Baer",
+   "title": "Global Financial Accounting – Business Analyst 100%",
+   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Zurich/Project-Manager---Analyst-in-Global-Financial-Accounting-100-_r-18176-3",
+   "reason": "expérience demandée ≥ 3 ans",
+   "at": "2026-10-26T10:08:50+00:00"
+  },
+  {
+   "id": "9d6ccd8cc3a5",
+   "company": "Julius Baer",
+   "title": "Database Migration Specialist - CRM Systems 100% (f/m/d) (Contract through our external payroll partner with immediate start for 12 months, possible extension)",
+   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Zurich/Database-Migration-Specialist---CRM-Systems-100---f-m-d---Contract-through-our-external-payroll-partner-with-immediate-start-for-12-months--possible-extension-_r-20139-1",
+   "reason": "expérience demandée ≥ 5 ans",
+   "at": "2026-10-26T10:08:48+00:00"
+  },
+  {
+   "id": "955d3dd4b42d",
+   "company": "Julius Baer",
+   "title": "Exposure Management Data Analyst 100% (f/m/d)",
+   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Madrid/Exposure-Management-Data-Analyst-100---f-m-d-_r-20114-1",
+   "reason": "lieu hors zones",
+   "at": "2026-10-26T10:08:45+00:00"
+  },
+  {
+   "id": "5356b033dc72",
+   "company": "Julius Baer",
+   "title": "Data Governance & Lifecycle Enablement Lead 80-100% (f/m/d)",
+   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Zurich/Data-Governance---Lifecycle-Enablement-Lead-80-100---f-m-d-_r-19741-1",
+   "reason": "titre exclu (lead)",
+   "at": "2026-10-26T10:08:45+00:00"
+  },
+  {
+   "id": "7afd9e52063d",
+   "company": "Julius Baer",
+   "title": "Business & Data Manager – Technology Operating Office - 100% (f/m/d)",
+   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Madrid/Business---Data-Manager---Technology-Operating-Office---100---f-m-d-_r-19459",
+   "reason": "titre exclu (manager)",
+   "at": "2026-10-26T10:08:45+00:00"
+  },
+  {
+   "id": "15251ddf830e",
+   "company": "Julius Baer",
+   "title": "Senior Data Engineer – Data Analytics Platform 80-100% (f/m/d) - (Contract through our external payroll partner with immediate start for 12 months with possible extension)",
+   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Zurich/Senior-Data-Engineer---Data-Analytics-Platform-80-100---f-m-d-----Contract-through-our-external-payroll-partner-with-immediate-start-for-12-months-with-possible-extension-_r-19553-1",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-26T10:08:45+00:00"
+  },
+  {
+   "id": "c9d7f0eb68c8",
+   "company": "Julius Baer",
+   "title": "Internship: Data Analytics Intern - Product Control 100% (f/m/d) - [6–12-month Internship Programme]",
+   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Zurich/Internship--Data-Analytics-Intern---Product-Control-100---f-m-d-----6-12-month-Internship-Programme-_r-19706-2",
+   "reason": "titre exclu (internship)",
+   "at": "2026-10-26T10:08:45+00:00"
+  },
+  {
+   "id": "d4b1cc476b0c",
+   "company": "Julius Baer",
+   "title": "Data Platform Responsible 100% (f/m/d)",
+   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Zurich/Data-Platform-Responsible-100---f-m-d-_r-17774-2",
+   "reason": "expérience demandée ≥ 8 ans",
+   "at": "2026-10-26T10:08:43+00:00"
+  },
+  {
+   "id": "12095f17286f",
+   "company": "Julius Baer",
+   "title": "EuroHUB Senior Data Engineer 100% (f/m/d)",
+   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Madrid/EuroHUB-Senior-Data-Engineer-100---f-m-d-_r-20098-1",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-26T10:08:43+00:00"
+  },
+  {
+   "id": "f6a0f6436f18",
+   "company": "Julius Baer",
+   "title": "Data Scientist 100% (f/m/d)",
+   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Zurich/Data-Scientist-100---f-m-d-_r-17167-2",
+   "reason": "expérience demandée ≥ 5 ans",
+   "at": "2026-10-26T10:08:42+00:00"
+  },
+  {
+   "id": "3a2f609e4b51",
+   "company": "Julius Baer",
+   "title": "Head Data Office-100% (m/f/d)",
+   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Zurich/Team-Head---Data-Platform---Analytics-100---m-f-d-_r-16704-2",
+   "reason": "titre exclu (head)",
+   "at": "2026-10-26T10:08:42+00:00"
+  },
+  {
+   "id": "b1548d64f082",
+   "company": "TotalEnergies",
+   "title": "Ingénieur Data Solaire et IA débutant H/F",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Ing-nieur-Data-Solaire-et-IA-d-butant-H-F/85164",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-10-26T10:07:49+00:00"
+  },
+  {
+   "id": "582f2e73ec3a",
+   "company": "Crédit Agricole",
+   "title": "Stage - Analyste Quantitatif H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-124-stage---analyste-quantitatif-hf-reference--2026-116630--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-26T10:04:41+00:00"
+  },
   {
    "id": "224bbb0571cc",
    "company": "Crédit Agricole",

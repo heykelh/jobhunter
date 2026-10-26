@@ -1,6 +1,156 @@
 {
- "updated": "2026-10-26T08:09:05+00:00",
+ "updated": "2026-10-26T10:11:44+00:00",
  "jobs": [
+  {
+   "id": "32f524565723",
+   "company": "Rihal",
+   "title": "Data Management",
+   "url": "https://rihal.om/services/dm",
+   "zone": "Oman",
+   "country": "Oman",
+   "contract": "?",
+   "experience": "non précisée",
+   "junior": false,
+   "published": null,
+   "seed": true,
+   "first_seen": "2026-10-26T10:11:44+00:00",
+   "last_seen": "2026-10-26T10:11:44+00:00"
+  },
+  {
+   "id": "98602bf58326",
+   "company": "Advanzia Bank",
+   "title": "Financial Reporting Analyst",
+   "url": "https://www.advanzia.com/en/job/financial-reporting-analyst",
+   "zone": "Luxembourg",
+   "country": "Luxembourg",
+   "contract": "CDI",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-09-08T08:03:31+00:00",
+   "seed": true,
+   "first_seen": "2026-10-26T10:09:50+00:00",
+   "last_seen": "2026-10-26T10:09:50+00:00"
+  },
+  {
+   "id": "675f0fff37f7",
+   "company": "Advanzia Bank",
+   "title": "Junior Data Analyst",
+   "url": "https://www.advanzia.com/en/job/junior-data-analyst",
+   "zone": "Luxembourg",
+   "country": "Luxembourg",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-08-07T07:10:39+00:00",
+   "seed": true,
+   "first_seen": "2026-10-26T10:09:49+00:00",
+   "last_seen": "2026-10-26T10:09:49+00:00"
+  },
+  {
+   "id": "cf0a5f07c299",
+   "company": "Advanzia Bank",
+   "title": "Corporate Finance Analyst",
+   "url": "https://www.advanzia.com/en/job/corporate-finance-analyst",
+   "zone": "Luxembourg",
+   "country": "Luxembourg",
+   "contract": "CDI",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-08-07T14:39:23+00:00",
+   "seed": true,
+   "first_seen": "2026-10-26T10:09:47+00:00",
+   "last_seen": "2026-10-26T10:09:47+00:00"
+  },
+  {
+   "id": "5dc149476418",
+   "company": "SIX Group",
+   "title": "Data Analyst",
+   "url": "https://jobs.six-group.com/job/Stockholm-Data-Analyst/1435832733/",
+   "zone": "Suisse",
+   "country": "Suisse",
+   "contract": "?",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-10-09T02:01:00+00:00",
+   "seed": true,
+   "first_seen": "2026-10-26T10:09:34+00:00",
+   "last_seen": "2026-10-26T10:09:34+00:00"
+  },
+  {
+   "id": "67bbce45ef25",
+   "company": "SIX Group",
+   "title": "Regulatory Data Analyst (80-100%)",
+   "url": "https://jobs.six-group.com/job/Zurich-Regulatory-Data-Analyst-%2880-100%29/1446600433/",
+   "zone": "Suisse",
+   "country": "Suisse",
+   "contract": "?",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-10-13T00:00:00+00:00",
+   "seed": true,
+   "first_seen": "2026-10-26T10:09:31+00:00",
+   "last_seen": "2026-10-26T10:09:31+00:00"
+  },
+  {
+   "id": "928937b6c673",
+   "company": "SIX Group",
+   "title": "Data Licensing Specialist (100%)",
+   "url": "https://jobs.six-group.com/job/Zurich-Data-Licensing-Specialist-%28100%29/1448061833/",
+   "zone": "Suisse",
+   "country": "Suisse",
+   "contract": "?",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-10-15T00:00:00+00:00",
+   "seed": true,
+   "first_seen": "2026-10-26T10:09:28+00:00",
+   "last_seen": "2026-10-26T10:09:28+00:00"
+  },
+  {
+   "id": "c943ac058338",
+   "company": "Julius Baer",
+   "title": "Test Environment and Data Specialist 100% (f/m/d) (Contract through our external payroll partner with immediate start for 11 months, possible extension)",
+   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Zurich/Test-Environment-and-Data-Specialist-100---f-m-d---Contract-through-our-external-payroll-partner-with-immediate-start-for-11-months--possible-extension-_r-20062-1",
+   "zone": "Suisse",
+   "country": "Suisse",
+   "contract": "?",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-10-08",
+   "seed": true,
+   "first_seen": "2026-10-26T10:08:47+00:00",
+   "last_seen": "2026-10-26T10:08:47+00:00"
+  },
+  {
+   "id": "d506507d9675",
+   "company": "Crédit Agricole",
+   "title": "CDD - Analyste Stratégie Paiements – Euro numérique et fiduciaire H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/578-170463-126-cdd---analyste-strategie-paiements--euro-numerique-et-fiduciaire-hf-reference--2026-116854--/",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDD",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-10-26",
+   "seed": false,
+   "first_seen": "2026-10-26T10:05:00+00:00",
+   "last_seen": "2026-10-26T10:05:00+00:00"
+  },
+  {
+   "id": "951528de23cc",
+   "company": "Crédit Agricole",
+   "title": "Contrôleur Data & IA (RDARR) H/F H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170470-138-controleur-data-et-ia-rdarr-hf-hf-reference--2026-116859--/",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-10-26",
+   "seed": false,
+   "first_seen": "2026-10-26T10:04:40+00:00",
+   "last_seen": "2026-10-26T10:04:40+00:00"
+  },
   {
    "id": "acb285a51f89",
    "company": "Crédit Agricole",
@@ -41,7 +191,7 @@
    "published": "2026-10-26",
    "seed": false,
    "first_seen": "2026-10-26T08:05:14+00:00",
-   "last_seen": "2026-10-26T08:05:14+00:00"
+   "last_seen": "2026-10-26T10:05:00+00:00"
   },
   {
    "id": "1ff05bd030c4",
@@ -55,7 +205,7 @@
    "published": "2026-10-26",
    "seed": false,
    "first_seen": "2026-10-26T08:05:08+00:00",
-   "last_seen": "2026-10-26T08:05:08+00:00"
+   "last_seen": "2026-10-26T10:05:00+00:00"
   },
   {
    "id": "46997fb71984",
@@ -69,7 +219,7 @@
    "published": "2026-10-23",
    "seed": false,
    "first_seen": "2026-10-24T00:43:13+00:00",
-   "last_seen": "2026-10-25T23:24:52+00:00"
+   "last_seen": "2026-10-26T10:08:25+00:00"
   },
   {
    "id": "ef70d3002be2",
@@ -83,7 +233,7 @@
    "published": "2026-10-23",
    "seed": true,
    "first_seen": "2026-10-23T23:35:25+00:00",
-   "last_seen": "2026-10-26T08:09:04+00:00"
+   "last_seen": "2026-10-26T10:08:25+00:00"
   },
   {
    "id": "932e322b190d",
@@ -97,7 +247,7 @@
    "published": "2026-10-23",
    "seed": true,
    "first_seen": "2026-10-23T23:35:23+00:00",
-   "last_seen": "2026-10-26T08:09:04+00:00"
+   "last_seen": "2026-10-26T10:08:25+00:00"
   },
   {
    "id": "45d8f976ba64",
@@ -111,7 +261,7 @@
    "published": "2026-07-30",
    "seed": true,
    "first_seen": "2026-10-23T23:34:56+00:00",
-   "last_seen": "2026-10-26T08:08:44+00:00"
+   "last_seen": "2026-10-26T10:08:08+00:00"
   },
   {
    "id": "9215f7c0b3d5",
@@ -125,7 +275,7 @@
    "published": "2026-08-26",
    "seed": true,
    "first_seen": "2026-10-23T23:34:44+00:00",
-   "last_seen": "2026-10-26T08:08:44+00:00"
+   "last_seen": "2026-10-26T10:08:08+00:00"
   },
   {
    "id": "92ae21ef048e",
@@ -139,7 +289,7 @@
    "published": "2025-05-14",
    "seed": true,
    "first_seen": "2026-10-23T23:34:41+00:00",
-   "last_seen": "2026-10-26T08:08:44+00:00"
+   "last_seen": "2026-10-26T10:08:08+00:00"
   },
   {
    "id": "e1e57a982770",
@@ -223,7 +373,7 @@
    "published": "2026-10-12",
    "seed": false,
    "first_seen": "2026-10-23T14:25:55+00:00",
-   "last_seen": "2026-10-26T08:08:24+00:00"
+   "last_seen": "2026-10-26T10:07:49+00:00"
   },
   {
    "id": "ae7bf5765e36",
@@ -265,7 +415,7 @@
    "published": "2026-10-23T09:23:46+00:00",
    "seed": false,
    "first_seen": "2026-10-23T09:29:55+00:00",
-   "last_seen": "2026-10-26T08:02:12+00:00"
+   "last_seen": "2026-10-26T10:01:45+00:00"
   },
   {
    "id": "461cd6cf95a9",
@@ -335,7 +485,7 @@
    "published": "2026-10-22T07:14:00+00:00",
    "seed": false,
    "first_seen": "2026-10-22T08:15:53+00:00",
-   "last_seen": "2026-10-26T08:06:29+00:00"
+   "last_seen": "2026-10-26T10:05:51+00:00"
   },
   {
    "id": "4d9edd0a8476",
@@ -363,7 +513,7 @@
    "published": "2026-10-14T10:27:00+00:00",
    "seed": false,
    "first_seen": "2026-10-22T08:15:53+00:00",
-   "last_seen": "2026-10-26T08:06:29+00:00"
+   "last_seen": "2026-10-26T10:05:51+00:00"
   },
   {
    "id": "2e3b7d0b2047",
@@ -448,7 +598,7 @@
    "published": "2026-10-21",
    "seed": false,
    "first_seen": "2026-10-21T09:20:06+00:00",
-   "last_seen": "2026-10-26T08:08:24+00:00"
+   "last_seen": "2026-10-26T10:07:49+00:00"
   },
   {
    "id": "e1b63d6f7953",
@@ -462,7 +612,7 @@
    "published": "2026-02-23",
    "seed": false,
    "first_seen": "2026-10-20T17:36:46+00:00",
-   "last_seen": "2026-10-26T08:06:13+00:00",
+   "last_seen": "2026-10-26T10:05:35+00:00",
    "date_tries": 1
   },
   {
@@ -477,7 +627,7 @@
    "published": "2026-03-15",
    "seed": false,
    "first_seen": "2026-10-20T17:36:36+00:00",
-   "last_seen": "2026-10-26T08:06:13+00:00",
+   "last_seen": "2026-10-26T10:05:35+00:00",
    "date_tries": 1
   },
   {
@@ -507,7 +657,7 @@
    "published": "2026-07-07",
    "seed": false,
    "first_seen": "2026-10-20T17:36:17+00:00",
-   "last_seen": "2026-10-26T08:06:13+00:00",
+   "last_seen": "2026-10-26T10:05:35+00:00",
    "date_tries": 1
   },
   {
@@ -522,7 +672,7 @@
    "published": "2026-05-17",
    "seed": false,
    "first_seen": "2026-10-20T17:36:08+00:00",
-   "last_seen": "2026-10-26T08:06:13+00:00",
+   "last_seen": "2026-10-26T10:05:35+00:00",
    "date_tries": 1
   },
   {
@@ -537,7 +687,7 @@
    "published": "2025-11-19",
    "seed": false,
    "first_seen": "2026-10-20T17:35:58+00:00",
-   "last_seen": "2026-10-26T08:06:13+00:00",
+   "last_seen": "2026-10-26T10:05:35+00:00",
    "date_tries": 1
   },
   {
@@ -552,7 +702,7 @@
    "published": "2026-05-21",
    "seed": false,
    "first_seen": "2026-10-20T17:35:49+00:00",
-   "last_seen": "2026-10-26T08:06:13+00:00",
+   "last_seen": "2026-10-26T10:05:35+00:00",
    "date_tries": 1
   },
   {
@@ -597,7 +747,7 @@
    "published": "2026-10-20",
    "seed": false,
    "first_seen": "2026-10-20T17:32:57+00:00",
-   "last_seen": "2026-10-26T08:06:13+00:00",
+   "last_seen": "2026-10-26T10:05:35+00:00",
    "date_tries": 1
   },
   {
@@ -612,7 +762,7 @@
    "published": "2026-10-15T22:00:00+00:00",
    "seed": false,
    "first_seen": "2026-10-20T14:01:23+00:00",
-   "last_seen": "2026-10-26T08:03:02+00:00"
+   "last_seen": "2026-10-26T10:02:35+00:00"
   },
   {
    "id": "90c1eefcf644",
@@ -669,7 +819,7 @@
    "published": "2026-09-25",
    "seed": false,
    "first_seen": "2026-10-20T13:59:37+00:00",
-   "last_seen": "2026-10-26T08:06:13+00:00",
+   "last_seen": "2026-10-26T10:05:35+00:00",
    "date_tries": 1
   },
   {
@@ -684,7 +834,7 @@
    "published": "2026-09-30",
    "seed": false,
    "first_seen": "2026-10-20T13:59:28+00:00",
-   "last_seen": "2026-10-26T08:06:13+00:00",
+   "last_seen": "2026-10-26T10:05:35+00:00",
    "date_tries": 1
   },
   {
@@ -699,7 +849,7 @@
    "published": "2026-10-01",
    "seed": false,
    "first_seen": "2026-10-20T13:59:19+00:00",
-   "last_seen": "2026-10-26T08:06:13+00:00",
+   "last_seen": "2026-10-26T10:05:35+00:00",
    "date_tries": 1
   },
   {
@@ -729,7 +879,7 @@
    "published": "2026-10-06",
    "seed": false,
    "first_seen": "2026-10-20T13:58:43+00:00",
-   "last_seen": "2026-10-26T08:06:13+00:00",
+   "last_seen": "2026-10-26T10:05:35+00:00",
    "date_tries": 1
   },
   {
@@ -789,7 +939,7 @@
    "published": "2026-10-14",
    "seed": false,
    "first_seen": "2026-10-20T13:57:31+00:00",
-   "last_seen": "2026-10-26T08:06:13+00:00",
+   "last_seen": "2026-10-26T10:05:35+00:00",
    "date_tries": 1
   },
   {
@@ -891,7 +1041,7 @@
    "published": "2026-10-15",
    "seed": true,
    "first_seen": "2026-10-20T13:24:49+00:00",
-   "last_seen": "2026-10-26T08:08:24+00:00"
+   "last_seen": "2026-10-26T10:07:49+00:00"
   },
   {
    "id": "3a1094fb030f",
@@ -933,7 +1083,7 @@
    "published": "Tue, 13 Oct 2026 12:22:49 Z",
    "seed": true,
    "first_seen": "2026-10-20T13:24:10+00:00",
-   "last_seen": "2026-10-26T08:02:12+00:00"
+   "last_seen": "2026-10-26T10:01:45+00:00"
   },
   {
    "id": "6f87aac13152",
@@ -947,7 +1097,7 @@
    "published": "Tue, 13 Oct 2026 12:32:45 Z",
    "seed": true,
    "first_seen": "2026-10-20T13:24:09+00:00",
-   "last_seen": "2026-10-26T08:02:12+00:00"
+   "last_seen": "2026-10-26T10:01:45+00:00"
   },
   {
    "id": "37f347acf9dc",
@@ -961,7 +1111,7 @@
    "published": "Fri, 16 Oct 2026 13:25:34 Z",
    "seed": true,
    "first_seen": "2026-10-20T13:24:07+00:00",
-   "last_seen": "2026-10-26T08:02:12+00:00"
+   "last_seen": "2026-10-26T10:01:45+00:00"
   }
  ]
 }

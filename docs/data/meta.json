@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T08:09:05+00:00",
+ "updated": "2026-10-26T10:11:44+00:00",
  "keywords": [
   "data",
   "analyst"
@@ -10,6 +10,8 @@
  ],
  "zones": [
   "Luxembourg",
+  "Malaisie",
+  "Oman",
   "Suisse",
   "Île-de-France"
  ],
@@ -30,6 +32,19 @@
   "VINCI (dont ETF)",
   "Eiffage",
   "Bouygues Telecom",
-  "Orange"
+  "Orange",
+  "Vodafone Oman",
+  "L'Oréal",
+  "Julius Baer",
+  "UBS",
+  "SIX Group",
+  "Advanzia Bank",
+  "ING",
+  "Swiss Life",
+  "SII Group",
+  "EPAM Systems",
+  "AIA Digital",
+  "OQ",
+  "Rihal"
  ]
 }
