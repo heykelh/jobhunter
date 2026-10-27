@@ -1,7 +1,13 @@
 // Protection du site par mot de passe (Vercel Routing Middleware, gratuit).
 // Le mot de passe se règle dans Vercel : Settings → Environment Variables → SITE_PASSWORD
 // (et SITE_USER si tu veux un autre identifiant que "heykel"), puis "Redeploy".
+// Fichiers d'installation de l'appli (sans donnée perso) : servis sans mot de passe,
+// car le téléphone les télécharge sans transmettre l'identifiant.
+const PUBLIC = new Set(["/manifest.webmanifest", "/sw.js", "/icon-192.png", "/icon-512.png",
+                        "/icon-maskable-512.png", "/apple-touch-icon.png", "/favicon.ico"]);
+
 export default function middleware(request) {
+  if (PUBLIC.has(new URL(request.url).pathname)) return;
   const pass = process.env.SITE_PASSWORD;
   const user = process.env.SITE_USER || "heykel";
   if (!pass) {

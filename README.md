@@ -93,13 +93,23 @@ country_rules:
 
 Adresse : https://jobhunter-docs.vercel.app/. Le navigateur demande l'identifiant et le mot de passe (voir [§ 9](#9-confidentialité)).
 
-- **Offres** : boutons par pays, recherche, filtre par entreprise, « Nouvelles » (moins de 48 h), « Masquer postulées ».
+- **En haut** : ce qui est arrivé **depuis ta dernière visite** (une visite = une session ; après 30 min d'absence, la suivante commence), puis 4 compteurs : offres en ligne, nouvelles depuis ta visite, candidatures en cours, candidatures à relancer.
+- **Offres** : boutons par pays, recherche, filtre par entreprise, tri « Plus récentes » ou « Meilleure correspondance », « Nouvelles », « Masquer suivies ».
 - Chaque carte affiche :
+  - le **score de correspondance** 🎯 : la part des compétences demandées dans la fiche que l'on retrouve dans ton CV de base (vert ≥ 70 %, orange 40-69 %, rouge < 40 %). En dépliant « Compétences demandées », tu vois celles que tu as (✓) et celles qui manquent (✗) ;
   - la date de publication sur le site d'origine et la date de récupération ;
   - le lieu, le contrat et l'expérience ;
-  - les boutons **Voir et postuler**, **Mon CV pour cette offre**, **J'ai postulé** et **Masquer**.
+  - les boutons **Voir et postuler**, **Mon CV pour cette offre**, le menu **Suivi** et **Masquer**.
+- **Mes candidatures** : les étapes À postuler → Postulé → Entretien → Refus / Offre, avec la date d'envoi (J+n), une note libre et le bouton **J'ai relancé**. Une candidature passe **⏰ À relancer** 7 jours après l'envoi ou après la dernière relance. Ce suivi est enregistré **sur l'appareil** (il n'est pas partagé entre ton PC et ton téléphone).
 - **Écartées** : les offres rejetées et la raison. Utile pour vérifier que le tri ne jette rien de bon.
 - **Sources** : l'état de chaque entreprise (ok / vide / erreur), le nombre de liens trouvés et le dernier succès.
+
+### Installer le site comme une appli
+
+- **Android (Chrome)** : bouton **📲 Installer l'appli** en haut de la page, ou menu ⋮ → *Installer l'application*.
+- **iPhone (Safari)** : bouton *Partager* → *Sur l'écran d'accueil* (un bandeau le rappelle).
+
+L'icône JobHunter apparaît sur l'écran d'accueil et le site s'ouvre en plein écran.
 
 ### Le CV par offre
 
@@ -125,6 +135,7 @@ Tout se règle dans **`config.yaml`**. Tu peux le modifier directement sur GitHu
 | `notify.max_per_run` | au-delà, une seule notif récapitulative |
 | `cv_enabled`, `cv_per_run` | génération des CV |
 | `time_budget_minutes` | durée maximum d'un passage |
+| `match_backfill_per_company` | offres déjà affichées dont le score est calculé par passage (8) |
 
 ---
 
@@ -218,6 +229,7 @@ jobhunter/                     ← racine du dépôt
 │  ├─ sources.py               lecture des sites : RSS, HTML, JSON, Workday, navigateur, fiches
 │  ├─ filters.py               mots-clés, contrat, expérience, lieu → pays
 │  ├─ ai_check.py              contrôle IA de l'expérience (avec citation vérifiée)
+│  ├─ match.py                 score de correspondance offre / CV
 │  ├─ cv.py                    CV adapté à chaque offre
 │  ├─ notify.py                notifications ntfy
 │  └─ store.py                 fichiers JSON (offres, écartées, état des sources)
@@ -226,6 +238,7 @@ jobhunter/                     ← racine du dépôt
 │  ├─ index.html               liste des offres
 │  ├─ cv.html, cv-docx.js, cv-pdf.js   éditeur et export du CV
 │  ├─ middleware.js, package.json      mot de passe du site
+│  ├─ manifest.webmanifest, sw.js, icon-*.png, apple-touch-icon.png   appli installable
 │  └─ data/                    écrit par le robot : jobs.json, rejected.json, health.json, cv/…
 ├─ state/state.json            mémoire du robot (entreprises déjà initialisées, curseurs)
 └─ tests/test_filters.py       tests des filtres (python -m pytest -q)

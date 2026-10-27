@@ -5,6 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>JobHunter</title>
 <meta name="robots" content="noindex">
+<meta name="theme-color" content="#0f6b5c">
+<link rel="manifest" href="manifest.webmanifest" crossorigin="use-credentials">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="JobHunter">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>">
 <style>
   :root {
@@ -90,25 +97,70 @@
   .pill.erreur { background: var(--bad-soft); color: var(--bad); }
   .err { color: var(--bad); font-size: 12px; word-break: break-word; }
   .hint { color: var(--muted); font-size: 13px; margin: 10px 2px; }
-  @media (max-width: 520px) { .stats { grid-template-columns: repeat(3, 1fr); } .stat .n { font-size: 20px; } }
+  .stats { grid-template-columns: repeat(4, 1fr); }
+  .stat.alert .n { color: var(--new); }
+  @media (max-width: 560px) { .stats { grid-template-columns: repeat(2, 1fr); } .stat .n { font-size: 20px; } }
+
+  .head-actions { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; justify-content: flex-end; }
+  .ios-hint { background: var(--accent-soft); color: var(--ink); border-radius: var(--radius); padding: 10px 14px;
+              font-size: 13.5px; margin: 0 0 14px; display: flex; gap: 10px; justify-content: space-between; align-items: center; }
+  .ios-hint[hidden], [hidden] { display: none !important; }
+  .ios-hint button { background: none; border: 0; font: inherit; color: var(--muted); cursor: pointer; font-size: 18px; }
+  .welcome { font-size: 14px; margin: 0 0 14px; color: var(--muted); }
+  .welcome b { color: var(--new); }
+
+  .score { font-size: 12px; font-weight: 700; padding: 3px 9px; border-radius: 999px; white-space: nowrap; }
+  .score.hi { background: var(--accent-soft); color: var(--accent); }
+  .score.mid { background: var(--warn-soft); color: var(--warn); }
+  .score.lo { background: var(--bad-soft); color: var(--bad); }
+  details.skills { margin-top: 8px; font-size: 13px; }
+  details.skills summary { cursor: pointer; color: var(--muted); }
+  .chips { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 6px; }
+  .chip { font-size: 12px; padding: 2px 8px; border-radius: 999px; }
+  .chip.ok { background: var(--accent-soft); color: var(--accent); }
+  .chip.ko { background: var(--bad-soft); color: var(--bad); }
+  .tag.relance { background: var(--new-soft); color: var(--new); border-color: transparent; font-weight: 700; }
+
+  select.status { font: inherit; font-size: 13px; padding: 7px 10px; border-radius: 9px; border: 1px solid var(--line);
+                  background: var(--surface); color: var(--ink); cursor: pointer; }
+  select.status.set { background: var(--accent-soft); color: var(--accent); border-color: transparent; font-weight: 600; }
+  .pipeline { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+  .pipeline .step { flex: 1 1 0; min-width: 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 10px 12px; }
+  .pipeline .step .n { font-size: 20px; font-weight: 700; }
+  .pipeline .step .l { font-size: 12px; color: var(--muted); line-height: 1.25; }
+  @media (max-width: 560px) { .pipeline { gap: 5px; } .pipeline .step { padding: 8px 7px; } .pipeline .step .l { font-size: 11px; } }
+  h2.group { font-size: 13px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); margin: 18px 2px 8px; }
+  .app-meta { font-size: 13px; color: var(--muted); margin: -2px 0 8px; }
+  textarea.note { width: 100%; min-height: 54px; resize: vertical; font: inherit; font-size: 13.5px; padding: 8px 10px;
+                  border-radius: 9px; border: 1px solid var(--line); background: var(--bg); color: var(--ink); }
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
     <h1>Job<span>Hunter</span></h1>
-    <div class="updated" id="updated">Chargement…</div>
+    <div class="head-actions">
+      <button class="btn" id="install" hidden>📲 Installer l'appli</button>
+      <div class="updated" id="updated">Chargement…</div>
+    </div>
   </header>
   <div class="criteria" id="criteria"></div>
+  <div class="ios-hint" id="ios-hint" hidden>
+    <span>📲 Pour l'installer sur ton iPhone : bouton <b>Partager</b> puis <b>Sur l'écran d'accueil</b>.</span>
+    <button id="ios-close" aria-label="Fermer">×</button>
+  </div>
+  <p class="welcome" id="welcome"></p>
 
   <div class="stats">
     <div class="stat"><div class="n" id="s-active">–</div><div class="l">offres en ligne</div></div>
-    <div class="stat"><div class="n" id="s-new">–</div><div class="l">nouvelles (48 h)</div></div>
-    <div class="stat"><div class="n" id="s-applied">–</div><div class="l">candidatures</div></div>
+    <div class="stat"><div class="n" id="s-new">–</div><div class="l" id="s-new-l">nouvelles depuis ta visite</div></div>
+    <div class="stat"><div class="n" id="s-applied">–</div><div class="l">candidatures en cours</div></div>
+    <div class="stat" id="s-relance-box"><div class="n" id="s-relance">–</div><div class="l">à relancer</div></div>
   </div>
 
   <nav class="tabs" role="tablist">
     <button role="tab" data-tab="jobs" aria-selected="true">Offres</button>
+    <button role="tab" data-tab="apps" aria-selected="false">Mes candidatures <span id="apps-count"></span></button>
     <button role="tab" data-tab="rejected" aria-selected="false">Écartées</button>
     <button role="tab" data-tab="health" aria-selected="false">Sources</button>
   </nav>
@@ -118,11 +170,21 @@
     <div class="filters">
       <input type="search" id="q" placeholder="Rechercher un titre…">
       <select id="company"><option value="">Toutes les entreprises</option></select>
+      <select id="sort" aria-label="Trier">
+        <option value="date">Plus récentes d'abord</option>
+        <option value="score">Meilleure correspondance d'abord</option>
+      </select>
       <label class="toggle"><input type="checkbox" id="only-new"> Nouvelles</label>
-      <label class="toggle"><input type="checkbox" id="hide-applied"> Masquer postulées</label>
+      <label class="toggle"><input type="checkbox" id="hide-applied"> Masquer suivies</label>
       <label class="toggle"><input type="checkbox" id="show-gone"> Inclure retirées</label>
     </div>
     <div id="jobs"></div>
+  </section>
+
+  <section id="tab-apps" hidden>
+    <p class="hint">Ton suivi : change l'étape d'une offre depuis sa carte ou ici. Une candidature passe « à relancer » 7 jours après l'envoi (ou après ta dernière relance). Ce suivi est enregistré sur cet appareil.</p>
+    <div class="pipeline" id="pipeline"></div>
+    <div id="apps"></div>
   </section>
 
   <section id="tab-rejected" hidden>
@@ -143,10 +205,53 @@ const store = {
   get(k, d) { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch { return d; } },
   set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
 };
-let applied = new Set(store.get("jw-applied", []));
+const DAY = 864e5;
 let hidden = new Set(store.get("jw-hidden", []));
 let DATA = { jobs: [], rejected: [], health: {}, meta: {} };
 
+// ---------------------------------------------------------------- suivi des candidatures
+const STATUSES = [
+  ["a_postuler", "À postuler"], ["postule", "Postulé"], ["entretien", "Entretien"],
+  ["refus", "Refus"], ["offre", "Offre 🎉"],
+];
+const STATUS_LABEL = Object.fromEntries(STATUSES);
+const ACTIVE = new Set(["postule", "entretien"]);
+let apps = store.get("jh-apps", null);
+if (!apps) {   // reprise des anciens « J'ai postulé »
+  apps = {};
+  for (const id of store.get("jw-applied", [])) apps[id] = { status: "postule", applied_at: new Date().toISOString() };
+  store.set("jh-apps", apps);
+}
+const saveApps = () => store.set("jh-apps", apps);
+const relanceDue = a => a && a.status === "postule" &&
+  Date.now() - new Date(a.relance_at || a.applied_at || Date.now()).getTime() >= 7 * DAY;
+
+function setStatus(id, status) {
+  const job = DATA.jobs.find(j => j.id === id);
+  if (!status) { delete apps[id]; saveApps(); return; }
+  const a = apps[id] || {};
+  a.status = status;
+  a.updated = new Date().toISOString();
+  if (status === "postule" && !a.applied_at) a.applied_at = a.updated;
+  if (job) Object.assign(a, { title: job.title, company: job.company, url: job.url, country: countryOf(job) });
+  apps[id] = a;
+  saveApps();
+}
+
+// ---------------------------------------------------------------- dernière visite
+// Une "visite" = une session ; après 30 min d'absence, la visite suivante commence.
+const visit = store.get("jh-visit", null);
+let since;
+{
+  const nowIso = new Date().toISOString();
+  if (!visit) { since = new Date(Date.now() - 2 * DAY).toISOString(); store.set("jh-visit", { prev: since, cur: nowIso, seen: nowIso }); }
+  else if (Date.now() - new Date(visit.seen).getTime() > 30 * 60e3) {
+    since = visit.cur; store.set("jh-visit", { prev: visit.cur, cur: nowIso, seen: nowIso });
+  } else { since = visit.prev; store.set("jh-visit", { ...visit, seen: nowIso }); }
+}
+setInterval(() => { const v = store.get("jh-visit", {}); store.set("jh-visit", { ...v, seen: new Date().toISOString() }); }, 60e3);
+
+// ---------------------------------------------------------------- utilitaires
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
 const hours = iso => (Date.now() - new Date(iso).getTime()) / 36e5;
 function ago(iso) {
@@ -157,25 +262,29 @@ function ago(iso) {
   const d = Math.round(h / 24);
   return d === 1 ? "hier" : `il y a ${d} j`;
 }
-const isNew = j => !j.seed && hours(j.first_seen) < 48;
+const isNew = j => !j.seed && j.first_seen > since;
 const isGone = j => hours(j.last_seen) > 72;
-// Date de publication par l'entreprise : "2026-10-16" (jour seul) ou "2026-10-16T09:41:00+00:00"
 function fmtPub(p) {
   if (!p) return "";
-  if (p.length === 10) {
-    const [y, m, d] = p.split("-");
-    return `${d}/${m}/${y}`;
-  }
+  if (p.length === 10) { const [y, m, d] = p.split("-"); return `${d}/${m}/${y}`; }
   const dt = new Date(p);
   if (isNaN(dt)) return "";
   const opts = { timeZone: "Europe/Paris" };
-  return dt.toLocaleDateString("fr-FR", opts) + " à " +
-         dt.toLocaleTimeString("fr-FR", { ...opts, hour: "2-digit", minute: "2-digit" });
+  return dt.toLocaleDateString("fr-FR", opts) + " à " + dt.toLocaleTimeString("fr-FR", { ...opts, hour: "2-digit", minute: "2-digit" });
 }
+const fmtDay = iso => iso ? new Date(iso).toLocaleDateString("fr-FR", { day: "numeric", month: "short" }) : "";
 const sortKey = j => {
   const t = j.published ? new Date(j.published.length === 10 ? j.published + "T12:00:00" : j.published).getTime() : NaN;
   return isNaN(t) ? new Date(j.first_seen).getTime() : t;
 };
+const scoreOf = j => (j.match && typeof j.match.score === "number") ? j.match.score : -1;
+
+const FLAGS = { France: "🇫🇷", Suisse: "🇨🇭", Luxembourg: "🇱🇺", Malaisie: "🇲🇾", Oman: "🇴🇲" };
+const ZONE_COUNTRY = { "Île-de-France": "France", "Luxembourg": "Luxembourg", "Suisse": "Suisse", "Malaisie": "Malaisie", "Oman": "Oman" };
+const COUNTRY_ORDER = ["France", "Suisse", "Luxembourg", "Malaisie", "Oman"];
+const countryOf = j => j.country || ZONE_COUNTRY[j.zone] || j.zone || "?";
+let country = store.get("jh-country", "");
+$("#sort").value = store.get("jh-sort", "date");
 
 async function load(name, fallback) {
   try { const r = await fetch(`data/${name}.json?t=${Date.now()}`); if (!r.ok) throw 0; return await r.json(); }
@@ -187,20 +296,38 @@ async function init() {
     load("jobs", { jobs: [] }), load("rejected", { items: [] }), load("health", { companies: {} }), load("meta", {})
   ]);
   DATA = { jobs: jobs.jobs || [], rejected: rej.items || [], health: health.companies || {}, meta };
-  $("#updated").textContent = jobs.updated ? `Mis à jour ${ago(jobs.updated)}` : "Pas encore de données — lance le workflow une première fois.";
+  $("#updated").textContent = jobs.updated ? `Mis à jour ${ago(jobs.updated)}` : "Pas encore de données : lance le workflow une première fois.";
   if (meta.keywords) {
     $("#criteria").innerHTML = `Mots-clés <b>${meta.keywords.map(esc).join(", ")}</b> · ${esc(meta.contracts.join("/"))} · ≤ ${meta.max_experience_years} ans d'exp. · ${esc(meta.zones.join(", "))} · ${meta.companies.length} entreprises`;
   }
   const companies = [...new Set(DATA.jobs.map(j => j.company))].sort((a, b) => a.localeCompare(b, "fr"));
   $("#company").innerHTML += companies.map(c => `<option>${esc(c)}</option>`).join("");
-  renderJobs(); renderRejected(); renderHealth();
+  // Fiches des candidatures tenues à jour (titre, lien) tant que l'offre est sur le site
+  for (const j of DATA.jobs) if (apps[j.id]) Object.assign(apps[j.id], { title: j.title, company: j.company, url: j.url, country: countryOf(j) });
+  saveApps();
+  renderAll();
 }
 
-const FLAGS = { France: "🇫🇷", Suisse: "🇨🇭", Luxembourg: "🇱🇺", Malaisie: "🇲🇾", Oman: "🇴🇲" };
-const ZONE_COUNTRY = { "Île-de-France": "France", "Luxembourg": "Luxembourg", "Suisse": "Suisse", "Malaisie": "Malaisie", "Oman": "Oman" };
-const COUNTRY_ORDER = ["France", "Suisse", "Luxembourg", "Malaisie", "Oman"];
-const countryOf = j => j.country || ZONE_COUNTRY[j.zone] || j.zone || "?";
-let country = store.get("jh-country", "");
+function renderAll() { renderJobs(); renderApps(); renderRejected(); renderHealth(); renderStats(); }
+
+function renderStats() {
+  const active = DATA.jobs.filter(j => !isGone(j) && !hidden.has(j.id));
+  const nNew = active.filter(isNew).length;
+  const inProgress = Object.values(apps).filter(a => ACTIVE.has(a.status)).length;
+  const toRelance = Object.values(apps).filter(relanceDue).length;
+  $("#s-active").textContent = active.length;
+  $("#s-new").textContent = nNew;
+  $("#s-applied").textContent = inProgress;
+  $("#s-relance").textContent = toRelance;
+  $("#s-relance-box").classList.toggle("alert", toRelance > 0);
+  $("#apps-count").textContent = Object.keys(apps).length ? `(${Object.keys(apps).length})` : "";
+  const last = new Date(since);
+  const when = hours(since) < 24 ? "à " + last.toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" })
+                                 : "le " + last.toLocaleDateString("fr-FR", { weekday: "long", day: "numeric", month: "long" });
+  $("#welcome").innerHTML = nNew
+    ? `Depuis ta dernière visite (${esc(when)}) : <b>${nNew} nouvelle${nNew > 1 ? "s" : ""} offre${nNew > 1 ? "s" : ""}</b>${toRelance ? ` · ${toRelance} candidature${toRelance > 1 ? "s" : ""} à relancer` : ""}.`
+    : `Rien de neuf depuis ta dernière visite (${esc(when)}).${toRelance ? ` ${toRelance} candidature${toRelance > 1 ? "s" : ""} à relancer.` : ""}`;
+}
 
 function renderCountries(base) {
   const counts = {};
@@ -211,6 +338,27 @@ function renderCountries(base) {
     names.map(c => btn(c, `${FLAGS[c] || "🌍"} ${esc(c)}`, counts[c] || 0)).join("");
 }
 
+function scoreBadge(j) {
+  const s = scoreOf(j);
+  if (s < 0) return "";
+  const cls = s >= 70 ? "hi" : s >= 40 ? "mid" : "lo";
+  return `<span class="score ${cls}" title="Compétences de l'offre présentes dans ton CV">🎯 ${s} %</span>`;
+}
+function skillsBlock(j) {
+  const m = j.match;
+  if (!m || (!m.have?.length && !m.missing?.length)) return "";
+  return `<details class="skills"><summary>Compétences demandées : ${m.have.length} sur ${m.have.length + m.missing.length} dans ton CV</summary>
+    <div class="chips">${m.have.map(w => `<span class="chip ok">✓ ${esc(w)}</span>`).join("")}${m.missing.map(w => `<span class="chip ko">✗ ${esc(w)}</span>`).join("")}</div>
+  </details>`;
+}
+function statusSelect(id) {
+  const a = apps[id];
+  return `<select class="status ${a ? "set" : ""}" data-status="${esc(id)}" aria-label="Suivi de la candidature">
+    <option value="">Suivi…</option>
+    ${STATUSES.map(([v, l]) => `<option value="${v}" ${a && a.status === v ? "selected" : ""}>${l}</option>`).join("")}
+  </select>`;
+}
+
 function renderJobs() {
   const q = $("#q").value.trim().toLowerCase();
   const co = $("#company").value;
@@ -219,19 +367,20 @@ function renderJobs() {
     (!q || j.title.toLowerCase().includes(q)) &&
     (!co || j.company === co) &&
     (!$("#only-new").checked || isNew(j)) &&
-    (!$("#hide-applied").checked || !applied.has(j.id)) &&
+    (!$("#hide-applied").checked || !apps[j.id]) &&
     ($("#show-gone").checked || !isGone(j))
   );
   renderCountries(base);
-  const list = base.filter(j => !country || countryOf(j) === country).sort((a, b) => sortKey(b) - sortKey(a));
-  const active = DATA.jobs.filter(j => !isGone(j) && !hidden.has(j.id));
-  $("#s-active").textContent = active.length;
-  $("#s-new").textContent = active.filter(isNew).length;
-  $("#s-applied").textContent = DATA.jobs.filter(j => applied.has(j.id)).length;
+  const bySort = $("#sort").value === "score"
+    ? (a, b) => scoreOf(b) - scoreOf(a) || sortKey(b) - sortKey(a)
+    : (a, b) => sortKey(b) - sortKey(a);
+  const list = base.filter(j => !country || countryOf(j) === country).sort(bySort);
 
-  $("#jobs").innerHTML = list.length ? list.map(j => `
-    <article class="card ${applied.has(j.id) ? "applied" : ""}">
-      <div class="row1"><span class="company"><span class="flag" title="${esc(countryOf(j))}">${FLAGS[countryOf(j)] || "🌍"}</span>${esc(j.company)}</span></div>
+  $("#jobs").innerHTML = list.length ? list.map(j => {
+    const a = apps[j.id];
+    return `
+    <article class="card ${a && a.status !== "a_postuler" ? "applied" : ""}">
+      <div class="row1"><span class="company"><span class="flag" title="${esc(countryOf(j))}">${FLAGS[countryOf(j)] || "🌍"}</span>${esc(j.company)}</span>${scoreBadge(j)}</div>
       <a class="title" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
       <div class="dates">
         <span><span class="dl">Publiée sur le site</span> ${j.published ? esc(fmtPub(j.published)) : "non communiquée"}</span>
@@ -239,19 +388,58 @@ function renderJobs() {
       </div>
       <div class="tags">
         ${isNew(j) ? '<span class="tag new">NOUVEAU</span>' : ""}
+        ${relanceDue(a) ? '<span class="tag relance">⏰ À relancer</span>' : ""}
         ${isGone(j) ? '<span class="tag gone">plus vue depuis ' + esc(ago(j.last_seen).replace("il y a ", "")) + '</span>' : ""}
         <span class="tag">📍 ${esc(j.zone)}</span>
         <span class="tag">📄 ${esc(j.contract)}</span>
         <span class="tag ${j.junior ? "junior" : ""}">🎓 ${esc(j.experience)}</span>
       </div>
+      ${skillsBlock(j)}
       <div class="actions">
         <a class="btn primary" href="${esc(j.url)}" target="_blank" rel="noopener">Voir et postuler</a>
         <a class="btn" href="cv.html?id=${encodeURIComponent(j.id)}">📄 Mon CV pour cette offre</a>
-        <button class="btn" data-apply="${j.id}" aria-pressed="${applied.has(j.id)}">${applied.has(j.id) ? "✓ Postulé" : "J'ai postulé"}</button>
-        <button class="btn" data-hide="${j.id}">Masquer</button>
+        ${statusSelect(j.id)}
+        <button class="btn" data-hide="${esc(j.id)}">Masquer</button>
       </div>
-    </article>`).join("")
+    </article>`; }).join("")
     : `<div class="empty">${DATA.jobs.length ? "Aucune offre ne correspond à ces filtres." : "Aucune offre pour l'instant. Elles apparaîtront ici dès le premier passage."}</div>`;
+}
+
+function renderApps() {
+  const entries = Object.entries(apps);
+  const counts = Object.fromEntries(STATUSES.map(([v]) => [v, 0]));
+  entries.forEach(([, a]) => counts[a.status] = (counts[a.status] || 0) + 1);
+  $("#pipeline").innerHTML = STATUSES.map(([v, l]) => `<div class="step"><div class="n">${counts[v] || 0}</div><div class="l">${l}</div></div>`).join("");
+  if (!entries.length) {
+    $("#apps").innerHTML = `<div class="empty">Aucune candidature suivie. Sur une offre, choisis une étape dans le menu « Suivi… ».</div>`;
+    return;
+  }
+  const order = ["relance", ...STATUSES.map(([v]) => v)];
+  const groups = { relance: [] };
+  for (const [id, a] of entries) {
+    const g = relanceDue(a) ? "relance" : a.status;
+    (groups[g] = groups[g] || []).push([id, a]);
+  }
+  const title = { relance: "⏰ À relancer", ...STATUS_LABEL };
+  $("#apps").innerHTML = order.filter(g => groups[g]?.length).map(g => `
+    <h2 class="group">${title[g]} · ${groups[g].length}</h2>
+    ${groups[g].sort((x, y) => (y[1].updated || "").localeCompare(x[1].updated || "")).map(([id, a]) => {
+      const onSite = DATA.jobs.some(j => j.id === id);
+      const days = a.applied_at ? Math.floor((Date.now() - new Date(a.applied_at)) / DAY) : null;
+      return `
+      <article class="card">
+        <div class="row1"><span class="company"><span class="flag">${FLAGS[a.country] || "🌍"}</span>${esc(a.company || "?")}</span>
+          <span class="when">${a.applied_at ? `postulé le ${esc(fmtDay(a.applied_at))}${days !== null ? ` (J+${days})` : ""}` : ""}</span></div>
+        <a class="title" href="${esc(a.url || "#")}" target="_blank" rel="noopener">${esc(a.title || "Offre retirée du site")}</a>
+        <div class="app-meta">${a.relance_at ? `Relancé le ${esc(fmtDay(a.relance_at))} · ` : ""}${onSite ? "" : "Offre plus affichée sur le site · "}Dernière mise à jour ${esc(ago(a.updated))}</div>
+        <textarea class="note" data-note="${esc(id)}" placeholder="Notes : contact RH, date d'entretien, questions posées…">${esc(a.note || "")}</textarea>
+        <div class="actions">
+          ${statusSelect(id)}
+          ${a.status === "postule" ? `<button class="btn" data-relance="${esc(id)}">J'ai relancé</button>` : ""}
+          ${onSite ? `<a class="btn" href="cv.html?id=${encodeURIComponent(id)}">📄 CV</a>` : ""}
+          <button class="btn" data-forget="${esc(id)}">Retirer du suivi</button>
+        </div>
+      </article>`; }).join("")}`).join("");
 }
 
 function renderRejected() {
@@ -276,21 +464,52 @@ function renderHealth() {
   }</tbody></table>` : `<div class="empty">Pas encore de passage.</div>`;
 }
 
+// ---------------------------------------------------------------- événements
+function showTab(name) {
+  document.querySelectorAll("[data-tab]").forEach(b => b.setAttribute("aria-selected", b.dataset.tab === name));
+  ["jobs", "apps", "rejected", "health"].forEach(t => $("#tab-" + t).hidden = t !== name);
+}
 document.addEventListener("click", e => {
   const tab = e.target.closest("[data-tab]");
-  if (tab) {
-    document.querySelectorAll("[data-tab]").forEach(b => b.setAttribute("aria-selected", b === tab));
-    ["jobs", "rejected", "health"].forEach(t => $("#tab-" + t).hidden = t !== tab.dataset.tab);
-  }
-  const ap = e.target.closest("[data-apply]");
-  if (ap) { const id = ap.dataset.apply; applied.has(id) ? applied.delete(id) : applied.add(id); store.set("jw-applied", [...applied]); renderJobs(); }
+  if (tab) showTab(tab.dataset.tab);
   const ct = e.target.closest("[data-country]");
   if (ct) { country = ct.dataset.country; store.set("jh-country", country); renderJobs(); }
   const hd = e.target.closest("[data-hide]");
-  if (hd) { hidden.add(hd.dataset.hide); store.set("jw-hidden", [...hidden]); renderJobs(); }
+  if (hd) { hidden.add(hd.dataset.hide); store.set("jw-hidden", [...hidden]); renderJobs(); renderStats(); }
+  const rl = e.target.closest("[data-relance]");
+  if (rl) { const a = apps[rl.dataset.relance]; a.relance_at = a.updated = new Date().toISOString(); saveApps(); renderAll(); }
+  const fg = e.target.closest("[data-forget]");
+  if (fg) {
+    if (fg.dataset.armed) { delete apps[fg.dataset.forget]; saveApps(); renderAll(); }
+    else { fg.dataset.armed = "1"; fg.textContent = "Confirmer ?"; setTimeout(() => { if (fg.isConnected) { delete fg.dataset.armed; fg.textContent = "Retirer du suivi"; } }, 3000); }
+  }
+  if (e.target.closest("#s-relance-box")) showTab("apps");
+});
+document.addEventListener("change", e => {
+  const sel = e.target.closest("[data-status]");
+  if (sel) { setStatus(sel.dataset.status, sel.value); renderAll(); }
+});
+document.addEventListener("input", e => {
+  const nt = e.target.closest("[data-note]");
+  if (nt && apps[nt.dataset.note]) { apps[nt.dataset.note].note = nt.value; saveApps(); }
 });
 ["#q", "#company", "#only-new", "#hide-applied", "#show-gone"].forEach(s => $(s).addEventListener("input", renderJobs));
+$("#sort").addEventListener("change", () => { store.set("jh-sort", $("#sort").value); renderJobs(); });
 $("#rq").addEventListener("input", renderRejected);
+$("#s-relance-box").style.cursor = "pointer";
+
+// ---------------------------------------------------------------- appli installable
+if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+let installPrompt = null;
+window.addEventListener("beforeinstallprompt", e => { e.preventDefault(); installPrompt = e; $("#install").hidden = false; });
+$("#install").addEventListener("click", async () => {
+  if (!installPrompt) return;
+  installPrompt.prompt(); await installPrompt.userChoice; installPrompt = null; $("#install").hidden = true;
+});
+const standalone = matchMedia("(display-mode: standalone)").matches || navigator.standalone;
+if (/iphone|ipad|ipod/i.test(navigator.userAgent) && !standalone && !store.get("jh-ios-hint-closed", false)) $("#ios-hint").hidden = false;
+$("#ios-close").addEventListener("click", () => { $("#ios-hint").hidden = true; store.set("jh-ios-hint-closed", true); });
+
 init();
 </script>
 </body>

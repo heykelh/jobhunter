@@ -18,6 +18,7 @@ from pathlib import Path
 import yaml
 
 from . import cv as cvgen
+from . import match
 from .ai_check import ExperienceAI
 from .filters import Criteria, norm
 from .notify import Notifier
@@ -82,6 +83,7 @@ def run(argv=None) -> int:
     ai = ExperienceAI(enabled=cfg.get("experience_ai", True) and not args.diagnose,
                       budget=int(cfg.get("experience_ai_per_run", 40)))
     recheck_budget = int(cfg.get("recheck_per_company", 12))
+    match_budget = int(cfg.get("match_backfill_per_company", 8))
 
     # Offres déjà affichées dont le titre ne passe plus (mots exclus ajoutés depuis) : on les retire
     if not args.diagnose:
@@ -154,7 +156,7 @@ def run(argv=None) -> int:
                 if first_time:  # au 1er passage on ingère tout le stock existant, sans notif
                     max_details = max(max_details, 120)
                 backfill = int(cfg.get("date_backfill_per_company", 10))
-                rechecks = recheck_budget
+                rechecks, matches = recheck_budget, match_budget
                 render_detail = comp.get("render_detail", comp.get("render", False))
                 for l in matching:
                     l.title = html.unescape(l.title)
@@ -162,12 +164,18 @@ def run(argv=None) -> int:
                     if store.has(jid):
                         store.touch(jid)
                         job = store.jobs[jid]
+                        dd_cache: list = []
+
+                        def detail_once():
+                            if not dd_cache:
+                                dd_cache.append(l.detail or (fetch_detail(fetcher, l.url, render=render_detail)
+                                                             if comp.get("details", True) else None))
+                            return dd_cache[0]
                         # Revérification avec les règles à jour (fiche rouverte)
                         if job.get("rv", 1) < RULES_VERSION and rechecks > 0:
                             rechecks -= 1
                             try:
-                                dd = l.detail or (fetch_detail(fetcher, l.url, render=render_detail)
-                                                  if comp.get("details", True) else None)
+                                dd = detail_once()
                                 ok, reason, v = judge(crit, ai, comp, l.title, l.context, dd)
                             except Exception as e:
                                 log.warning("  revérification impossible (%s) : %s", type(e).__name__, l.title)
@@ -180,11 +188,19 @@ def run(argv=None) -> int:
                             if v is not None:
                                 job.update({"zone": v.zone, "country": v.country, "contract": v.contract,
                                             "experience": v.experience, "junior": v.junior, "rv": RULES_VERSION})
+                        # Score de correspondance pour les offres affichées avant cette fonction
+                        if "match" not in job and (dd_cache or matches > 0):
+                            if not dd_cache:
+                                matches -= 1
+                            try:
+                                dd = detail_once()
+                                job["match"] = match.compute(l.title, ((dd.text if dd else "") or l.context))
+                            except Exception:
+                                job["match"] = None
                         if cv_budget > 0 and not cvgen.has_cv(jid) and cfg.get("cv_enabled", True):
                             cv_budget -= 1
                             try:
-                                dd = fetch_detail(fetcher, l.url, render=render_detail) \
-                                    if comp.get("details", True) else None
+                                dd = detail_once()
                                 cvgen.generate(job, (dd.text if dd else "") or l.context)
                                 log.info("  📄 CV généré : %s", l.title)
                             except Exception as e:
@@ -197,8 +213,8 @@ def run(argv=None) -> int:
                                 backfill -= 1
                                 job["date_tries"] = job.get("date_tries", 0) + 1
                                 try:
-                                    dd = fetch_detail(fetcher, l.url, render=render_detail)
-                                    if dd.published:
+                                    dd = detail_once()
+                                    if dd and dd.published:
                                         job["published"] = dd.published
                                         log.info("  📅 %s → publiée %s", l.title, dd.published)
                                 except Exception:
@@ -229,7 +245,8 @@ def run(argv=None) -> int:
                     job = {"id": jid, "company": l.company or name, "title": title, "url": l.url,
                            "zone": v.zone, "country": v.country, "contract": v.contract, "experience": v.experience,
                            "junior": v.junior, "published": l.published or (d.published if d else None),
-                           "seed": first_time, "rv": RULES_VERSION}
+                           "seed": first_time, "rv": RULES_VERSION,
+                           "match": match.compute(title, text or l.context)}
                     store.add(job)
                     kept += 1
                     if cv_budget > 0 and cfg.get("cv_enabled", True):
