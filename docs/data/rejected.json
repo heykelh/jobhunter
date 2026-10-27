@@ -1,6 +1,118 @@
 {
- "updated": "2026-10-27T16:03:06+00:00",
+ "updated": "2026-10-27T20:48:36+00:00",
  "items": [
+  {
+   "id": "8bfb55496568",
+   "company": "UBS",
+   "title": "Equity Research Analyst – Japanese Equities",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=352324",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-27T20:47:14+00:00"
+  },
+  {
+   "id": "becc28b3beea",
+   "company": "TotalEnergies",
+   "title": "CHAPTER LEAD DATA ENGINEERING - TOTALENERGIES DIGITAL FACTORY",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/CHAPTER-LEAD-DATA-ENGINEERING-TOTALENERGIES-DIGITAL-FACTORY/85639",
+   "reason": "titre exclu (lead)",
+   "at": "2026-10-27T20:46:02+00:00"
+  },
+  {
+   "id": "a4c0d875360f",
+   "company": "BPCE",
+   "title": "Acheteur Market Data (F/H)",
+   "url": "https://recrutement.bpce.fr/job/acheteur-market-data-f-h",
+   "reason": "expérience demandée ≥ 5 ans « justifiez d'une experience significative de 5 a 6 ans post formation dans les » (retirée)",
+   "at": "2026-10-27T20:43:11+00:00"
+  },
+  {
+   "id": "0a6beae7a2ff",
+   "company": "BPCE",
+   "title": "Chef de projet conformité & data F/H",
+   "url": "https://recrutement.bpce.fr/job/chef-de-projet-conformite-data-f-h",
+   "reason": "expérience demandée ≥ 3 ans « transformation digitale. vous disposez d'une experience confirmee et mature dans un etabli » (retirée)",
+   "at": "2026-10-27T20:43:02+00:00"
+  },
+  {
+   "id": "536c22c5b2bd",
+   "company": "BPCE",
+   "title": "CREDIT STRESS TEST QUANTITATIVE ANALYST (F/H) - CDD 6 mois",
+   "url": "https://recrutement.bpce.fr/job/credit-stress-test-quantitative-analyst-f-h-cdd-6-mois",
+   "reason": "expérience demandée ≥ 3 ans « nce, machine learning) vous beneficiez d'une experience confirmee dans le domaine des risq » (retirée)",
+   "at": "2026-10-27T20:42:45+00:00"
+  },
+  {
+   "id": "519a0d59715a",
+   "company": "BPCE",
+   "title": "Analyste Risque Transverse - Data & Innovation",
+   "url": "https://recrutement.bpce.fr/job/analyste-risque-transverse-data-innovation",
+   "reason": "expérience demandée ≥ 4 ans « it.e pour travailler avec nous : • vous avez plus de 3 annees d'experience dans un rol » (retirée)",
+   "at": "2026-10-27T20:42:29+00:00"
+  },
+  {
+   "id": "307deaa627a2",
+   "company": "BPCE",
+   "title": "CDD - Analyste Risques Financiers H/F",
+   "url": "https://recrutement.bpce.fr/job/cdd-analyste-risques-financiers-h-f",
+   "reason": "expérience demandée ≥ 3 ans « e formation superieure, vous justifiez d'une solide experience dans les metriques de su » (retirée)",
+   "at": "2026-10-27T20:42:21+00:00"
+  },
+  {
+   "id": "1e375cba25ae",
+   "company": "BPCE",
+   "title": "Market Data & Access Support Engineer",
+   "url": "https://recrutement.bpce.fr/job/market-data-access-support-engineer",
+   "reason": "lieu hors zones",
+   "at": "2026-10-27T20:42:12+00:00"
+  },
+  {
+   "id": "92d5a0d7e7c6",
+   "company": "Crédit Agricole",
+   "title": "Analyste risque de liquidité H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170464-4-analyste-risque-de-liquidite-hf-reference--2026-114164--/",
+   "reason": "expérience demandée ≥ 3 ans « e en normes ifrs et des normes prudentielles niveau d'experience minimum 3 - 5 ans competences recherchees com » (retirée)",
+   "at": "2026-10-27T20:41:17+00:00"
+  },
+  {
+   "id": "cc1d88147236",
+   "company": "Crédit Agricole",
+   "title": "STAGE - Investor Data Officer H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170479-136-stage---investor-data-officer-hf-reference--2026-116914--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-27T20:41:17+00:00"
+  },
+  {
+   "id": "e1f30acf63ff",
+   "company": "Crédit Agricole",
+   "title": "Stage Data Officer - Data Management Pricing H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170479-136-stage-data-officer---data-management-pricing-hf-reference--2026-108286--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-27T20:41:17+00:00"
+  },
+  {
+   "id": "ea3386d63c1c",
+   "company": "Crédit Agricole",
+   "title": "Senior Analyst / Associate - Corporate & Leveraged Finance (w/m/d)",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170466-4-senior-analyst--associate---corporate-et-leveraged-finance-wmd-reference--2026-110854--/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-27T20:41:15+00:00"
+  },
+  {
+   "id": "00dab19fc02a",
+   "company": "Société Générale",
+   "title": "Analyst Advisory & Financing Group",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyst-advisory-financing-group-26000MGW-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-10-27T20:40:56+00:00"
+  },
+  {
+   "id": "7b4386688844",
+   "company": "Alstom",
+   "title": "Internship - 6 months - Business Analyst & Digital Transformation Intern (F/M)",
+   "url": "https://jobsearch.alstom.com/job/Saint-Ouen-Internship-6-months-Business-Analyst-&-Digital-Transformation-Intern-%28FM%29/1447611933/",
+   "reason": "titre exclu (internship)",
+   "at": "2026-10-27T20:39:44+00:00"
+  },
   {
    "id": "276c560c2fdc",
    "company": "ING",
