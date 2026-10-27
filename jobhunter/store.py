@@ -53,6 +53,9 @@ class Store:
         job["last_seen"] = t
         self.jobs[job["id"]] = job
 
+    def remove(self, jid: str):
+        self.jobs.pop(jid, None)
+
     def reject(self, jid: str, company: str, title: str, url: str, reason: str):
         self.rejected[jid] = {"id": jid, "company": company, "title": title, "url": url,
                               "reason": reason, "at": now()}

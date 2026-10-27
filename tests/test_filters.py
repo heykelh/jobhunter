@@ -21,7 +21,7 @@ def test_keywords_and_exclusions():
 
 
 def test_experience():
-    assert detect_experience("Vous justifiez de 4/5 années d'expérience minimum")[0] == 5
+    assert detect_experience("Vous justifiez de 4/5 années d'expérience minimum")[0] == 4
     assert detect_experience("au moins 3 ans d'expérience en data")[0] == 3
     assert detect_experience("Up to 2 years of professional experience")[0] == 0
     assert detect_experience("Une expérience de 2 à 5 ans sur un poste similaire")[0] == 2
@@ -218,3 +218,16 @@ def test_country_categories():
     assert c.evaluate("Data Analyst", "Zürich", "CDI 3 ans d'expérience").ok      # règle propre à la Suisse
     assert not c.evaluate("Data Analyst", "Paris", "CDI 3 ans d'expérience").ok
     assert detect_zone("Women in data, romandie") != "Oman"
+
+
+def test_experience_strict():
+    from jobhunter.filters import detect_experience as d
+    assert d("Niveau minimum d'expérience : 3 - 5 ans")[0] == 3          # champ Crédit Agricole
+    assert d("Niveau d'expérience : 6 - 10 ans")[0] == 6
+    assert d("Niveau d'expérience : Confirmé")[0] == 3
+    assert d("Une première expérience. 5 ans d'expérience en gestion de projet requis")[0] == 5   # la plus exigeante
+    assert d("at least three years of experience")[0] == 3
+    assert d("mindestens drei Jahre Berufserfahrung")[0] == 3
+    assert d("Vous justifiez d'une solide expérience en SQL")[0] == 3
+    assert d("Fort de 40 ans d'expérience, notre groupe recrute") == (None, False)
+    assert d("Expérience : 0 - 2 ans") == (0, True)

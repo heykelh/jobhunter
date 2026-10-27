@@ -33,6 +33,16 @@ exclude_title:
   - confirmée
   - expérimenté
   - expérimentée
+  - leader                       # "Team Leader", "Tech Leader"
+  - architect
+  - architecte
+  - coordinateur
+  - coordinatrice
+  - vice president
+  - datacenter                   # "data center" n'a rien à voir avec la data
+  - datacenters
+  - data center
+  - data centre
   - stage
   - stagiaire
   - intern
@@ -60,6 +70,14 @@ exclude_title:
 # ─── CONTRAT / EXPÉRIENCE / LIEU ────────────────────────────────────
 contracts: [CDI, CDD]
 max_experience_years: 2          # écarte les offres qui demandent 3 ans ou plus
+# Lecture de l'expérience volontairement stricte :
+#  - un champ "Niveau d'expérience : 3 - 5 ans" ou "Confirmé" sur la fiche est prioritaire ;
+#  - si la fiche cite plusieurs durées, la plus exigeante compte ;
+#  - "solide expérience", "plusieurs années", "several years" = 3 ans ;
+#  - un titre contenant "Junior" ou "Jeune diplômé" passe quand même.
+# Ensuite l'IA (secret GROQ_API_KEY) relit chaque fiche retenue et doit citer la phrase exacte.
+experience_ai: true
+experience_ai_per_run: 40        # fiches relues par l'IA au maximum par passage
 zones: [ile-de-france, luxembourg, suisse, malaisie, oman]
 # Chaque offre est rangée dans une catégorie pays (France, Suisse, Luxembourg, Malaisie, Oman),
 # visible en boutons sur le site et en drapeau dans les notifs.
@@ -90,6 +108,8 @@ cv_enabled: true
 cv_per_run: 15                   # CV générés au maximum par passage
 
 # ─── RÉGLAGES TECHNIQUES ────────────────────────────────────────────
+time_budget_minutes: 38         # au-delà, le passage s'arrête proprement (reprise au même endroit la fois suivante)
+recheck_per_company: 12          # offres déjà affichées revérifiées par passage quand les règles changent
 date_backfill_per_company: 10    # offres déjà affichées sans date : fiches rouvertes par passage pour la trouver
 delay_seconds: 1.5               # pause entre deux requêtes vers un même site (politesse)
 max_details_per_company: 25      # fiches ouvertes par entreprise et par passage

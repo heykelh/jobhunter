@@ -112,43 +112,112 @@ def detect_contracts(text: str) -> set[str]:
 
 
 # ---------------------------------------------------------------------- expérience
-EXP_WORD = re.compile(r"experi|erfahrung|esperienz")
-UNIT = r"(?:ans?|annees?|years?|yrs|jahren?)"
-RANGE_RE = re.compile(r"(?<!\d)(\d{1,2})\s*(?:a|-|to|bis|et)\s*(\d{1,2})\s*" + UNIT + r"(?![a-z])")
-UPTO_RE = re.compile(r"(?:jusqu'a|up to|maximum|max\.?|moins de|less than|bis zu)\s*(\d{1,2})\s*" + UNIT + r"(?![a-z])")
+EXP_WORD = re.compile(r"experi|erfahrung|esperienz|seniorit")
+UNIT = r"(?:ans?|annees?|years?|yrs|jahren?|jahre)"
+# "trois ans", "five years", "drei Jahre" : on convertit les nombres écrits en lettres
+NUM_WORDS = {
+    "un": 1, "une": 1, "deux": 2, "trois": 3, "quatre": 4, "cinq": 5, "six": 6, "sept": 7, "huit": 8, "dix": 10,
+    "one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "seven": 7, "eight": 8, "ten": 10,
+    "ein": 1, "einem": 1, "zwei": 2, "drei": 3, "vier": 4, "funf": 5, "sechs": 6, "sieben": 7, "acht": 8, "zehn": 10,
+}
+_NUMW = re.compile(r"(?<![a-z])(" + "|".join(sorted(NUM_WORDS, key=len, reverse=True)) + r")(?=[\s\-]*(?:\+|\(|a |-|to |bis )?[\s\-]*(?:\d|"
+                   + "|".join(NUM_WORDS) + r")?[\s\-]*" + UNIT + r"(?![a-z]))")
+RANGE_RE = re.compile(r"(?<!\d)(\d{1,2})\s*(?:a|-|to|bis|et|ou|/)\s*(\d{1,2})\s*\+?\s*" + UNIT + r"(?![a-z])")
+UPTO_RE = re.compile(r"(?:jusqu'a|up to|maximum|max\.?|moins de|less than|bis zu|under)\s*(\d{1,2})\s*" + UNIT + r"(?![a-z])")
 SINGLE_RE = re.compile(r"(?<!\d)(\d{1,2})\s*\+?\s*" + UNIT + r"(?![a-z])")
-JUNIOR_RE = re.compile(
-    r"junior|debutant|jeune diplome|young graduate|graduate|entry[\s\-]level|premiere experience"
-    r"|first experience|sortie d'ecole|berufseinsteiger|einsteiger|0 ?(?:a|-) ?[12] ans"
+PLUS_RE = re.compile(r"(?:plus de|more than|over|uber|mehr als)\s*(\d{1,2})\s*" + UNIT + r"(?![a-z])")
+# Champ étiqueté de la fiche : "Niveau d'expérience minimum : 3 - 5 ans", "Experience level: Mid-Senior"…
+LABEL_RE = re.compile(
+    r"(?:niveau (?:minimum |min\.? )?d'experiences?(?: minimum| min\.?| requis[e]?| souhaite[e]?)?"
+    r"|experiences? (?:requise|souhaitee|minimum|min\.?|demandee|professionnelle requise)"
+    r"|annees? d'experience|experience level|level of experience|seniority level|years of experience"
+    r"|required experience|berufserfahrung|erfahrungsstufe|karrierestufe)\s*:?\s*(.{0,40})"
 )
+LEVEL_SENIOR = re.compile(r"^\W*(?:confirme|experimente|senior|expert|mid[\s\-]?senior|intermediaire|intermediate"
+                          r"|professionnel confirme|berufserfahren|erfahren|manager|11 ans|plus de)")
+LEVEL_JUNIOR = re.compile(r"^\W*(?:debutant|junior|jeune diplome|entry|associate|graduate|berufseinsteiger"
+                          r"|einsteiger|aucune|sans experience|0\b|moins d'un an|less than)")
+# Formules sans chiffre qui veulent dire "plusieurs années" (= 3 ans par défaut)
+SIGNIFICANT_RE = re.compile(
+    r"experience (?:significative|solide|confirmee|consequente|approfondie|averee|probante|reussie de plusieurs"
+    r"|de plusieurs annees|professionnelle significative|minimum de plusieurs)|(?:solide|forte|longue|riche|vaste) experience"
+    r"|plusieurs annees d'experience|several years of (?:professional |relevant )?experience|extensive experience"
+    r"|proven (?:track record|experience)|significant experience|substantial experience|solid experience"
+    r"|mehrjahrige|langjahrige|fundierte (?:berufs)?erfahrung"
+)
+JUNIOR_RE = re.compile(
+    r"junior|debutant|jeune diplome|young graduate|recent graduate|graduate program|entry[\s\-]level|premiere experience"
+    r"|first experience|sortie d'ecole|berufseinsteiger|(?<![a-z])einsteiger|0 ?(?:a|-) ?[12] ans"
+)
+IMPLIED_YEARS = 3
+
+
+def _words_to_digits(t: str) -> str:
+    return _NUMW.sub(lambda m: str(NUM_WORDS[m.group(1)]), t)
 
 
 def detect_experience(text: str) -> tuple[int | None, bool]:
-    """Renvoie (années minimum demandées ou None, mention junior/débutant ?)."""
-    t = norm(text)
-    lows: list[int] = []
+    years, junior, _ = explain_experience(text)
+    return years, junior
+
+
+def _snip(t: str, a: int, b: int) -> str:
+    return t[max(0, a - 45): b + 25].strip()
+
+
+def explain_experience(text: str) -> tuple[int | None, bool, str]:
+    """Renvoie (années minimum demandées ou None, mention junior/débutant ?, extrait qui justifie).
+
+    Règle volontairement stricte : si la fiche cite plusieurs durées d'expérience,
+    on retient la PLUS EXIGEANTE (une offre "0-2 ans" qui demande ailleurs "5 ans en
+    gestion de projet" est écartée). Un champ étiqueté ("Niveau d'expérience : 3 - 5 ans")
+    passe avant tout le reste."""
+    t = _words_to_digits(norm(text))
+    junior = bool(JUNIOR_RE.search(t))
+
+    # 1) Champ étiqueté
+    for m in LABEL_RE.finditer(t):
+        val = m.group(1)
+        nums = [int(x) for x in re.findall(r"(?<!\d)(\d{1,2})(?!\d)", val[:25])]
+        ex = _snip(t, m.start(), m.start() + len(m.group(0)) - len(val) + 25)
+        if nums and re.search(UNIT, val[:30]):
+            return min(nums[0], 20), junior or nums[0] == 0, ex
+        if LEVEL_SENIOR.search(val):
+            return IMPLIED_YEARS, junior, ex
+        if LEVEL_JUNIOR.search(val):
+            return 0, True, ex
+
+    # 2) Durées trouvées près du mot "expérience"
+    lows: list[tuple[int, str]] = []
     taken: list[tuple[int, int]] = []
 
     def near_exp(a: int, b: int) -> bool:
-        return bool(EXP_WORD.search(t[max(0, a - 90): b + 90]))
+        return bool(EXP_WORD.search(t[max(0, a - 70): b + 70]))
 
     def overlaps(a: int, b: int) -> bool:
         return any(a < y and b > x for x, y in taken)
 
-    for rx, kind in ((UPTO_RE, "upto"), (RANGE_RE, "range"), (SINGLE_RE, "single")):
+    for rx, kind in ((UPTO_RE, "upto"), (PLUS_RE, "plus"), (RANGE_RE, "range"), (SINGLE_RE, "single")):
         for m in rx.finditer(t):
             a, b = m.span()
             # "De 6 à 10 ans" (étiquette SNCF) compte même sans le mot "expérience"
             tagged = kind == "range" and t[max(0, a - 3):a] == "de "
             if overlaps(a, b) or not (near_exp(a, b) or tagged):
                 continue
-            n = 0 if kind == "upto" else int(m.group(1))
-            if n > 20:
-                continue
+            n = 0 if kind == "upto" else int(m.group(1)) + (1 if kind == "plus" else 0)
             taken.append((a, b))
-            lows.append(n)
-    years = min(lows) if lows else None
-    return years, bool(JUNIOR_RE.search(t))
+            if n > 15:          # "fort de 30 ans d'expérience" : l'entreprise, pas le poste
+                continue
+            lows.append((n, _snip(t, a, b)))
+    if lows:
+        n, ex = max(lows, key=lambda x: x[0])
+        return n, junior, ex
+
+    # 3) "solide expérience", "several years of experience"…
+    m = SIGNIFICANT_RE.search(t)
+    if m:
+        return IMPLIED_YEARS, junior, _snip(t, *m.span())
+    return None, junior, ""
 
 
 # ------------------------------------------------------------------------- critères
@@ -190,6 +259,9 @@ class Criteria:
     # 1) Filtre rapide sur le titre (avant d'ouvrir la fiche)
     def keyword_hit(self, title: str) -> bool:
         return bool(self.kw_re and self.kw_re.search(norm(title)))
+
+    def title_is_junior(self, title: str) -> bool:
+        return bool(JUNIOR_RE.search(norm(title)))
 
     def title_check(self, title: str) -> tuple[bool, str]:
         if not self.keyword_hit(title):
@@ -246,12 +318,12 @@ class Criteria:
             return Verdict(False, "contrat non précisé")
 
         # 3) Expérience
-        years, junior = detect_experience(text + " " + structured)
+        years, junior, evidence = explain_experience(structured + " \n " + text)
         v.junior = junior or bool(JUNIOR_RE.search(nt))
         title_junior = bool(JUNIOR_RE.search(nt))
         if years is not None:
             if years > max_exp and not title_junior:
-                return Verdict(False, f"expérience demandée ≥ {years} ans")
+                return Verdict(False, f"expérience demandée ≥ {years} ans" + (f" « {evidence[:110]} »" if evidence else ""))
             v.experience = "débutant accepté" if years == 0 else f"{years} an{'s' if years > 1 else ''} min."
         elif v.junior:
             v.experience = "junior / débutant"

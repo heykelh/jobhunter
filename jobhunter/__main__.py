@@ -8,7 +8,9 @@ vérifier qu'une source fonctionne (à lancer après avoir ajouté une entrepris
 from __future__ import annotations
 
 import argparse
+import html
 import json
+import time
 import logging
 import sys
 from pathlib import Path
@@ -16,12 +18,39 @@ from pathlib import Path
 import yaml
 
 from . import cv as cvgen
+from .ai_check import ExperienceAI
 from .filters import Criteria, norm
 from .notify import Notifier
 from .sources import Fetcher, collect, fetch_detail
 from .store import ROOT, SITE_DATA, Store, job_id, now, _save
 
 log = logging.getLogger("jobwatch")
+
+# À augmenter quand les règles de tri changent : les offres déjà affichées sont alors
+# revérifiées (fiche rouverte) et retirées si elles ne passent plus.
+RULES_VERSION = 2
+
+
+def judge(crit: Criteria, ai: ExperienceAI, comp: dict, title: str, context: str, d) -> tuple[bool, str, object]:
+    """Verdict complet d'une offre : règles (filters.py) puis, si elles laissent passer, contrôle IA."""
+    structured = " ".join(filter(None, [context, d.structured if d else ""]))
+    text = d.text if d else ""
+    v = crit.evaluate(title, structured, text, comp.get("default_location"))
+    if not v.ok:
+        return False, v.reason, v
+    res = ai.check(title, comp["name"], (structured + "\n" + text).strip())
+    if res:
+        rules = crit.country_rules.get(v.country, {}) or {}
+        max_exp = int(rules.get("max_experience_years", crit.max_experience_years))
+        years, level = res["years"], res["level"]
+        too_much = (years is not None and years > max_exp) or level == "senior"
+        if too_much and not crit.title_is_junior(title):
+            label = f"≥ {years} ans" if years is not None else level
+            return False, f"expérience demandée {label} (lu par l'IA) « {res['quote'][:110]} »", v
+        if v.experience == "non précisée" and years is not None:
+            v.experience = "débutant accepté" if years == 0 else f"{years} an{'s' if years > 1 else ''} min."
+            v.junior = v.junior or years <= 1
+    return True, "", v
 
 
 def load_config(path: Path) -> dict:
@@ -45,14 +74,37 @@ def run(argv=None) -> int:
     companies = [c for c in cfg.get("companies", []) if c.get("enabled", True)]
     if args.only:
         companies = [c for c in companies if c["name"].lower() == args.only.lower()]
+    all_names = [c["name"] for c in companies]
+    # Tour de rôle : on commence là où le passage précédent s'est arrêté (si coupé faute de temps)
+    start = store.state.get("next_company", 0) % max(1, len(companies)) if not args.only else 0
+    companies = companies[start:] + companies[:start]
+    deadline = time.monotonic() + 60 * float(cfg.get("time_budget_minutes", 38))
+    ai = ExperienceAI(enabled=cfg.get("experience_ai", True) and not args.diagnose,
+                      budget=int(cfg.get("experience_ai_per_run", 40)))
+    recheck_budget = int(cfg.get("recheck_per_company", 12))
+
+    # Offres déjà affichées dont le titre ne passe plus (mots exclus ajoutés depuis) : on les retire
+    if not args.diagnose:
+        for jid, job in list(store.jobs.items()):
+            job["title"] = html.unescape(job.get("title", ""))
+            ok, reason = crit.title_check(job["title"])
+            if not ok:
+                store.remove(jid)
+                store.reject(jid, job["company"], job["title"], job["url"], reason + " (retirée)")
+                log.info("  retirée : %s — %s", job["title"], reason)
 
     cv_budget = int(cfg.get("cv_per_run", 15))   # CV générés par passage (nouvelles offres d'abord)
     fresh: list[dict] = []
     seeded_summary: list[str] = []
     diagnose: dict = {}
     try:
-        for comp in companies:
+        for i, comp in enumerate(companies):
             name = comp["name"]
+            if not args.diagnose and time.monotonic() > deadline:
+                store.state["next_company"] = all_names.index(name)
+                log.warning("⏱ Temps écoulé : %s et les suivantes passent en premier au prochain passage", name)
+                break
+            store.state["next_company"] = 0
             log.info("▶ %s", name)
             h = store.health.get(name, {})
             h.update({"checked_at": now(), "error": "", "warnings": []})
@@ -102,15 +154,36 @@ def run(argv=None) -> int:
                 if first_time:  # au 1er passage on ingère tout le stock existant, sans notif
                     max_details = max(max_details, 120)
                 backfill = int(cfg.get("date_backfill_per_company", 10))
+                rechecks = recheck_budget
+                render_detail = comp.get("render_detail", comp.get("render", False))
                 for l in matching:
+                    l.title = html.unescape(l.title)
                     jid = job_id(name, l.url)
                     if store.has(jid):
                         store.touch(jid)
                         job = store.jobs[jid]
+                        # Revérification avec les règles à jour (fiche rouverte)
+                        if job.get("rv", 1) < RULES_VERSION and rechecks > 0:
+                            rechecks -= 1
+                            try:
+                                dd = l.detail or (fetch_detail(fetcher, l.url, render=render_detail)
+                                                  if comp.get("details", True) else None)
+                                ok, reason, v = judge(crit, ai, comp, l.title, l.context, dd)
+                            except Exception as e:
+                                log.warning("  revérification impossible (%s) : %s", type(e).__name__, l.title)
+                                ok, reason, v = True, "", None
+                            if not ok:
+                                store.remove(jid)
+                                store.reject(jid, name, l.title, l.url, reason + " (retirée)")
+                                log.info("  ✗ retirée : %s — %s", l.title, reason)
+                                continue
+                            if v is not None:
+                                job.update({"zone": v.zone, "country": v.country, "contract": v.contract,
+                                            "experience": v.experience, "junior": v.junior, "rv": RULES_VERSION})
                         if cv_budget > 0 and not cvgen.has_cv(jid) and cfg.get("cv_enabled", True):
                             cv_budget -= 1
                             try:
-                                dd = fetch_detail(fetcher, l.url, render=comp.get("render_detail", comp.get("render", False))) \
+                                dd = fetch_detail(fetcher, l.url, render=render_detail) \
                                     if comp.get("details", True) else None
                                 cvgen.generate(job, (dd.text if dd else "") or l.context)
                                 log.info("  📄 CV généré : %s", l.title)
@@ -124,7 +197,7 @@ def run(argv=None) -> int:
                                 backfill -= 1
                                 job["date_tries"] = job.get("date_tries", 0) + 1
                                 try:
-                                    dd = fetch_detail(fetcher, l.url, render=comp.get("render_detail", comp.get("render", False)))
+                                    dd = fetch_detail(fetcher, l.url, render=render_detail)
                                     if dd.published:
                                         job["published"] = dd.published
                                         log.info("  📅 %s → publiée %s", l.title, dd.published)
@@ -143,21 +216,20 @@ def run(argv=None) -> int:
                     d = l.detail
                     if d is None and comp.get("details", True):   # details: false → infos de la liste seules
                         try:
-                            d = fetch_detail(fetcher, l.url, render=comp.get("render_detail", comp.get("render", False)))
+                            d = fetch_detail(fetcher, l.url, render=render_detail)
                         except Exception as e:
                             log.warning("  fiche illisible (%s) : %s", type(e).__name__, l.url)
                     title = l.title
-                    structured = " ".join(filter(None, [l.context, d.structured if d else ""]))
                     text = d.text if d else ""
-                    v = crit.evaluate(title, structured, text, comp.get("default_location"))
-                    if not v.ok:
-                        store.reject(jid, name, title, l.url, v.reason)
-                        log.info("  ✗ %s — %s", title, v.reason)
+                    ok, reason, v = judge(crit, ai, comp, title, l.context, d)
+                    if not ok:
+                        store.reject(jid, name, title, l.url, reason)
+                        log.info("  ✗ %s — %s", title, reason)
                         continue
                     job = {"id": jid, "company": l.company or name, "title": title, "url": l.url,
                            "zone": v.zone, "country": v.country, "contract": v.contract, "experience": v.experience,
                            "junior": v.junior, "published": l.published or (d.published if d else None),
-                           "seed": first_time}
+                           "seed": first_time, "rv": RULES_VERSION}
                     store.add(job)
                     kept += 1
                     if cv_budget > 0 and cfg.get("cv_enabled", True):
@@ -209,10 +281,11 @@ def run(argv=None) -> int:
                       click=notifier.site_url or None, tags=["tada"])
     meta = {"updated": now(), "keywords": crit.keywords, "contracts": crit.contracts,
             "zones": sorted(crit.zone_labels), "max_experience_years": crit.max_experience_years,
-            "companies": [c["name"] for c in companies]}
+            "companies": all_names}
     store.save(meta)
     cvgen.publish_base()
-    log.info("\nTerminé : %d nouvelle(s) offre(s), %d notif(s) envoyée(s).", len(fresh), notifier.sent)
+    log.info("\nTerminé : %d nouvelle(s) offre(s), %d notif(s) envoyée(s), %d contrôle(s) IA.",
+             len(fresh), notifier.sent, ai.calls)
     return 0
 
 

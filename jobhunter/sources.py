@@ -7,6 +7,7 @@ Chaque entreprise du config.yaml choisit une `source` :
 """
 from __future__ import annotations
 
+import html as html_lib
 import json
 import logging
 import re
@@ -295,7 +296,7 @@ TITLE_SUFFIX = re.compile(r"\s*(?:la description du poste|stellenbeschreibung|jo
 
 
 def clean_title(t: str) -> str:
-    t = TITLE_PREFIX.sub("", squash(t))
+    t = TITLE_PREFIX.sub("", squash(html_lib.unescape(html_lib.unescape(t or ""))))
     for _ in range(2):
         t = TITLE_SUFFIX.sub("", t)
     return t.strip(" -–|·")
@@ -750,7 +751,9 @@ def fetch_detail(fetcher: Fetcher, url: str, render: bool = False) -> Detail:
         d.published = d.published or find_date(data)
     # 2) Texte de la fiche
     text = _page_text(soup)
-    d.text = (desc + " " + text[:2000]) if len(desc) > 200 else text
+    # Description JSON-LD + TOUTE la page : les critères (expérience, contrat) sont souvent
+    # dans un encadré à part, loin après la description (ex. Crédit Agricole)
+    d.text = (desc + " \n " + text[:20000]) if len(desc) > 200 else text[:25000]
     if not d.published:
         d.published = date_in_text(text)
     # 3) Fiche chargée en JavaScript : la date est souvent dans ses réponses JSON
