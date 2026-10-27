@@ -1,6 +1,182 @@
 {
- "updated": "2026-10-27T09:53:33+00:00",
+ "updated": "2026-10-27T16:03:06+00:00",
  "items": [
+  {
+   "id": "276c560c2fdc",
+   "company": "ING",
+   "title": "IT Business Analyst",
+   "url": "https://careers.ing.com/en/job/makati-city/it-business-analyst/3121/46391157824",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-27T16:02:04+00:00"
+  },
+  {
+   "id": "24523f912177",
+   "company": "ING",
+   "title": "Data Strategy Oversight Analyst",
+   "url": "https://careers.ing.com/en/job/warsaw/data-strategy-oversight-analyst/3121/46391158400",
+   "reason": "lieu hors zones",
+   "at": "2026-10-27T16:02:03+00:00"
+  },
+  {
+   "id": "675f0fff37f7",
+   "company": "Advanzia Bank",
+   "title": "Junior Data Analyst",
+   "url": "https://www.advanzia.com/en/job/junior-data-analyst",
+   "reason": "contrat hors CDI/CDD (stage, alternance…) (retirée)",
+   "at": "2026-10-27T16:01:47+00:00"
+  },
+  {
+   "id": "98602bf58326",
+   "company": "Advanzia Bank",
+   "title": "Financial Reporting Analyst",
+   "url": "https://www.advanzia.com/en/job/financial-reporting-analyst",
+   "reason": "contrat hors CDI/CDD (stage, alternance…) (retirée)",
+   "at": "2026-10-27T16:01:46+00:00"
+  },
+  {
+   "id": "cf0a5f07c299",
+   "company": "Advanzia Bank",
+   "title": "Corporate Finance Analyst",
+   "url": "https://www.advanzia.com/en/job/corporate-finance-analyst",
+   "reason": "contrat hors CDI/CDD (stage, alternance…) (retirée)",
+   "at": "2026-10-27T16:01:45+00:00"
+  },
+  {
+   "id": "928937b6c673",
+   "company": "SIX Group",
+   "title": "Data Licensing Specialist (100%)",
+   "url": "https://jobs.six-group.com/job/Zurich-Data-Licensing-Specialist-%28100%29/1448061833/",
+   "reason": "expérience demandée ≥ 3 ans « s impacting the organization. what you bring extensive experience in market data, referenc » (retirée)",
+   "at": "2026-10-27T16:01:34+00:00"
+  },
+  {
+   "id": "c943ac058338",
+   "company": "Julius Baer",
+   "title": "Test Environment and Data Specialist 100% (f/m/d) (Contract through our external payroll partner with immediate start for 11 months, possible extension)",
+   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Zurich/Test-Environment-and-Data-Specialist-100---f-m-d---Contract-through-our-external-payroll-partner-with-immediate-start-for-11-months--possible-extension-_r-20062-1",
+   "reason": "expérience demandée ≥ 3 ans « ease pipelines where applicable your profile proven experience in test environment mana » (retirée)",
+   "at": "2026-10-27T16:01:12+00:00"
+  },
+  {
+   "id": "ef70d3002be2",
+   "company": "Orange",
+   "title": "SOC Analyst",
+   "url": "https://orange.jobs/fr/fr/job/ICM-583788/SOC-Analyst",
+   "reason": "expérience demandée ≥ 3 ans « t-family: verdana, geneva; font-size: 16px;\">3+ years of experience in securit » (retirée)",
+   "at": "2026-10-27T16:00:55+00:00"
+  },
+  {
+   "id": "932e322b190d",
+   "company": "Orange",
+   "title": "SOC Analyst",
+   "url": "https://orange.jobs/fr/fr/job/ICM-588846/SOC-Analyst",
+   "reason": "expérience demandée ≥ 3 ans « e: 16px;\" data-olk-copy-source=\"mailcompose\">3+ years of experience in securit » (retirée)",
+   "at": "2026-10-27T16:00:54+00:00"
+  },
+  {
+   "id": "e8af2263cc11",
+   "company": "TotalEnergies",
+   "title": "CDI - Analyste de Laboratoire (H/F)",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/CDI-Analyste-de-Laboratoire-H-F/85596",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-27T16:00:03+00:00"
+  },
+  {
+   "id": "fde882c04973",
+   "company": "BPCE",
+   "title": "Analyste financier (F/H)",
+   "url": "https://recrutement.bpce.fr/job/analyste-financier-f-h",
+   "reason": "lieu hors zones (retirée)",
+   "at": "2026-10-27T15:56:33+00:00"
+  },
+  {
+   "id": "189b8dd7a5b7",
+   "company": "BPCE",
+   "title": "Data Analyst Facturation - H/F",
+   "url": "https://recrutement.bpce.fr/job/data-analyst-facturation-h-f",
+   "reason": "expérience demandée ≥ 3 ans « rie, statistiques ou dans un domaine connexe experience significative en analyse de donnees, i » (retirée)",
+   "at": "2026-10-27T15:56:15+00:00"
+  },
+  {
+   "id": "d9c7eb43d88a",
+   "company": "BPCE",
+   "title": "Analyste support fonctionnel monétique commerçant (F/H)",
+   "url": "https://recrutement.bpce.fr/job/analyste-support-fonctionnel-monetique-commercant-f-h",
+   "reason": "expérience demandée ≥ 3 ans « e formation superieure, vous justifiez d'une experience significative dans un environnement mo » (retirée)",
+   "at": "2026-10-27T15:55:49+00:00"
+  },
+  {
+   "id": "2c7a6baa8513",
+   "company": "BPCE",
+   "title": "Analyste Engagements (F/H) - BTP Banque",
+   "url": "https://recrutement.bpce.fr/job/analyste-engagements-f-h-btp-banque",
+   "reason": "expérience demandée ≥ 4 ans « vement d'une experience confirmee de minimum 4/5 ans en tant que charge·e de »",
+   "at": "2026-10-27T15:54:58+00:00"
+  },
+  {
+   "id": "15e27112b8d7",
+   "company": "Crédit Agricole",
+   "title": "Credit Analyst - Nordic Countries M/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170466-4-credit-analyst---nordic-countries-mf-reference--2026-116921--/",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-27T15:54:09+00:00"
+  },
+  {
+   "id": "e2bd1917f277",
+   "company": "Crédit Agricole",
+   "title": "VIE - Operations Transformation & AI Support Analyst M/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170477-124-vie---operations-transformation-et-ai-support-analyst-mf--reference--2026-116915--/",
+   "reason": "titre exclu (VIE)",
+   "at": "2026-10-27T15:54:09+00:00"
+  },
+  {
+   "id": "61c5aeff4d27",
+   "company": "Alstom",
+   "title": "Business Analyst & Digital Transformation Intern M/F",
+   "url": "https://jobsearch.alstom.com/job/Saint-Ouen-Business-Analyst-&-Digital-Transformation-Intern-MF/1447611933/",
+   "reason": "titre exclu (intern)",
+   "at": "2026-10-27T15:51:58+00:00"
+  },
+  {
+   "id": "1ff05bd030c4",
+   "company": "Crédit Agricole",
+   "title": "Architect Cloud et Data H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170477-122-architect-cloud-et-data-hf-reference--2025-101481--/",
+   "reason": "titre exclu (architect) (retirée)",
+   "at": "2026-10-27T15:51:34+00:00"
+  },
+  {
+   "id": "9215f7c0b3d5",
+   "company": "Eiffage",
+   "title": "Responsable d'affaires CVCD/PL projets DATA CENTER F/H",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Orsay/Responsable-d-affaires-CVCD-PL-projets-DATA-CENTER-F-H_JR2026-4510",
+   "reason": "titre exclu (data center) (retirée)",
+   "at": "2026-10-27T15:51:34+00:00"
+  },
+  {
+   "id": "92ae21ef048e",
+   "company": "Eiffage",
+   "title": "Responsable Offre Datacenter (F/H)",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Le-Mans/Responsable-Offre-Datacenter--F-H-_JR2025-1660",
+   "reason": "titre exclu (datacenter) (retirée)",
+   "at": "2026-10-27T15:51:34+00:00"
+  },
+  {
+   "id": "9f090aa24154",
+   "company": "BPCE",
+   "title": "Team Leader Adjoint Réseaux Datacenter LAN MAN - F/H",
+   "url": "https://recrutement.bpce.fr/job/team-leader-adjoint-reseaux-datacenter-lan-man-f-h",
+   "reason": "titre exclu (leader) (retirée)",
+   "at": "2026-10-27T15:51:34+00:00"
+  },
+  {
+   "id": "c95f8118ef39",
+   "company": "Air France",
+   "title": "Coordinateur d'Équipes de Pratique Data, Recherche Opérationnelle & IA F/H",
+   "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25600&idOrigine=502&offerReference=2026-25600",
+   "reason": "titre exclu (coordinateur) (retirée)",
+   "at": "2026-10-27T15:51:34+00:00"
+  },
   {
    "id": "f8b188de08bd",
    "company": "UBS",

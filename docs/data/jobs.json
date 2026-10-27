@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T09:53:33+00:00",
+ "updated": "2026-10-27T16:03:06+00:00",
  "jobs": [
   {
    "id": "deb616687b85",
@@ -14,7 +14,9 @@
    "published": "2026-10-27T06:16:00+00:00",
    "seed": false,
    "first_seen": "2026-10-27T09:22:13+00:00",
-   "last_seen": "2026-10-27T09:48:50+00:00"
+   "last_seen": "2026-10-27T15:58:07+00:00",
+   "rv": 2,
+   "match": null
   },
   {
    "id": "92d5a0d7e7c6",
@@ -39,17 +41,27 @@
    "zone": "Île-de-France",
    "country": "France",
    "contract": "CDI",
-   "experience": "junior / débutant",
-   "junior": true,
+   "experience": "non précisée",
+   "junior": false,
    "published": "2026-10-18",
    "seed": false,
    "first_seen": "2026-10-26T16:49:33+00:00",
-   "last_seen": "2026-10-27T09:48:34+00:00"
+   "last_seen": "2026-10-27T15:55:32+00:00",
+   "rv": 2,
+   "match": {
+    "score": 100,
+    "have": [
+     "python",
+     "recette",
+     "business analyst"
+    ],
+    "missing": []
+   }
   },
   {
    "id": "9e6271b7f744",
    "company": "BPCE",
-   "title": "Equity &amp; Debt Advisory Analyst (F/H)",
+   "title": "Equity & Debt Advisory Analyst (F/H)",
    "url": "https://recrutement.bpce.fr/job/equity-debt-advisory-analyst-f-h",
    "zone": "Île-de-France",
    "country": "France",
@@ -59,7 +71,9 @@
    "published": "2026-10-26",
    "seed": false,
    "first_seen": "2026-10-26T16:49:15+00:00",
-   "last_seen": "2026-10-27T09:48:34+00:00"
+   "last_seen": "2026-10-27T15:54:58+00:00",
+   "rv": 2,
+   "match": null
   },
   {
    "id": "ad8fc96490ff",
@@ -134,53 +148,21 @@
    "published": null,
    "seed": true,
    "first_seen": "2026-10-26T10:11:44+00:00",
-   "last_seen": "2026-10-27T09:53:33+00:00",
-   "date_tries": 3
-  },
-  {
-   "id": "98602bf58326",
-   "company": "Advanzia Bank",
-   "title": "Financial Reporting Analyst",
-   "url": "https://www.advanzia.com/en/job/financial-reporting-analyst",
-   "zone": "Luxembourg",
-   "country": "Luxembourg",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-09-08T08:03:31+00:00",
-   "seed": true,
-   "first_seen": "2026-10-26T10:09:50+00:00",
-   "last_seen": "2026-10-27T09:52:21+00:00"
-  },
-  {
-   "id": "675f0fff37f7",
-   "company": "Advanzia Bank",
-   "title": "Junior Data Analyst",
-   "url": "https://www.advanzia.com/en/job/junior-data-analyst",
-   "zone": "Luxembourg",
-   "country": "Luxembourg",
-   "contract": "CDI",
-   "experience": "junior / débutant",
-   "junior": true,
-   "published": "2026-08-07T07:10:39+00:00",
-   "seed": true,
-   "first_seen": "2026-10-26T10:09:49+00:00",
-   "last_seen": "2026-10-27T09:52:21+00:00"
-  },
-  {
-   "id": "cf0a5f07c299",
-   "company": "Advanzia Bank",
-   "title": "Corporate Finance Analyst",
-   "url": "https://www.advanzia.com/en/job/corporate-finance-analyst",
-   "zone": "Luxembourg",
-   "country": "Luxembourg",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-08-07T14:39:23+00:00",
-   "seed": true,
-   "first_seen": "2026-10-26T10:09:47+00:00",
-   "last_seen": "2026-10-27T09:52:21+00:00"
+   "last_seen": "2026-10-27T16:03:04+00:00",
+   "date_tries": 3,
+   "rv": 2,
+   "match": {
+    "score": 80,
+    "have": [
+     "power bi",
+     "etl",
+     "machine learning",
+     "reporting"
+    ],
+    "missing": [
+     "catalogue"
+    ]
+   }
   },
   {
    "id": "5dc149476418",
@@ -195,7 +177,19 @@
    "published": "2026-10-09T02:01:00+00:00",
    "seed": true,
    "first_seen": "2026-10-26T10:09:34+00:00",
-   "last_seen": "2026-10-27T09:52:14+00:00"
+   "last_seen": "2026-10-27T16:01:35+00:00",
+   "rv": 2,
+   "match": {
+    "score": 50,
+    "have": [
+     "excel",
+     "data quality"
+    ],
+    "missing": [
+     "agile",
+     "scrum"
+    ]
+   }
   },
   {
    "id": "67bbce45ef25",
@@ -210,37 +204,22 @@
    "published": "2026-10-13T00:00:00+00:00",
    "seed": true,
    "first_seen": "2026-10-26T10:09:31+00:00",
-   "last_seen": "2026-10-27T09:52:14+00:00"
-  },
-  {
-   "id": "928937b6c673",
-   "company": "SIX Group",
-   "title": "Data Licensing Specialist (100%)",
-   "url": "https://jobs.six-group.com/job/Zurich-Data-Licensing-Specialist-%28100%29/1448061833/",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "?",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-15T00:00:00+00:00",
-   "seed": true,
-   "first_seen": "2026-10-26T10:09:28+00:00",
-   "last_seen": "2026-10-27T09:52:14+00:00"
-  },
-  {
-   "id": "c943ac058338",
-   "company": "Julius Baer",
-   "title": "Test Environment and Data Specialist 100% (f/m/d) (Contract through our external payroll partner with immediate start for 11 months, possible extension)",
-   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Zurich/Test-Environment-and-Data-Specialist-100---f-m-d---Contract-through-our-external-payroll-partner-with-immediate-start-for-11-months--possible-extension-_r-20062-1",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "?",
-   "experience": "junior / débutant",
-   "junior": true,
-   "published": "2026-10-08",
-   "seed": true,
-   "first_seen": "2026-10-26T10:08:47+00:00",
-   "last_seen": "2026-10-27T09:51:54+00:00"
+   "last_seen": "2026-10-27T16:01:34+00:00",
+   "rv": 2,
+   "match": {
+    "score": 57,
+    "have": [
+     "python",
+     "sql",
+     "data quality",
+     "reporting"
+    ],
+    "missing": [
+     "databricks",
+     "agile",
+     "scrum"
+    ]
+   }
   },
   {
    "id": "d506507d9675",
@@ -315,20 +294,6 @@
    "last_seen": "2026-10-26T10:05:00+00:00"
   },
   {
-   "id": "1ff05bd030c4",
-   "company": "Crédit Agricole",
-   "title": "Architect Cloud et Data H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170477-122-architect-cloud-et-data-hf-reference--2025-101481--/",
-   "zone": "Île-de-France",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-26",
-   "seed": false,
-   "first_seen": "2026-10-26T08:05:08+00:00",
-   "last_seen": "2026-10-26T10:05:00+00:00"
-  },
-  {
    "id": "46997fb71984",
    "company": "Orange",
    "title": "Commercial Analyst",
@@ -340,35 +305,19 @@
    "published": "2026-10-23",
    "seed": false,
    "first_seen": "2026-10-24T00:43:13+00:00",
-   "last_seen": "2026-10-27T09:24:43+00:00"
-  },
-  {
-   "id": "ef70d3002be2",
-   "company": "Orange",
-   "title": "SOC Analyst",
-   "url": "https://orange.jobs/fr/fr/job/ICM-583788/SOC-Analyst",
-   "zone": "Suisse",
-   "contract": "CDI",
-   "experience": "2 ans min.",
-   "junior": false,
-   "published": "2026-10-23",
-   "seed": true,
-   "first_seen": "2026-10-23T23:35:25+00:00",
-   "last_seen": "2026-10-27T09:51:38+00:00"
-  },
-  {
-   "id": "932e322b190d",
-   "company": "Orange",
-   "title": "SOC Analyst",
-   "url": "https://orange.jobs/fr/fr/job/ICM-588846/SOC-Analyst",
-   "zone": "Suisse",
-   "contract": "CDI",
-   "experience": "2 ans min.",
-   "junior": false,
-   "published": "2026-10-23",
-   "seed": true,
-   "first_seen": "2026-10-23T23:35:23+00:00",
-   "last_seen": "2026-10-27T09:51:38+00:00"
+   "last_seen": "2026-10-27T16:00:55+00:00",
+   "country": "Suisse",
+   "rv": 2,
+   "match": {
+    "score": 67,
+    "have": [
+     "sql",
+     "intelligence artificielle"
+    ],
+    "missing": [
+     "tableau"
+    ]
+   }
   },
   {
    "id": "45d8f976ba64",
@@ -382,35 +331,23 @@
    "published": "2026-07-30",
    "seed": true,
    "first_seen": "2026-10-23T23:34:56+00:00",
-   "last_seen": "2026-10-27T09:51:00+00:00"
-  },
-  {
-   "id": "9215f7c0b3d5",
-   "company": "Eiffage",
-   "title": "Responsable d'affaires CVCD/PL projets DATA CENTER F/H",
-   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Orsay/Responsable-d-affaires-CVCD-PL-projets-DATA-CENTER-F-H_JR2026-4510",
-   "zone": "Île-de-France",
-   "contract": "?",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-08-26",
-   "seed": true,
-   "first_seen": "2026-10-23T23:34:44+00:00",
-   "last_seen": "2026-10-27T09:51:00+00:00"
-  },
-  {
-   "id": "92ae21ef048e",
-   "company": "Eiffage",
-   "title": "Responsable Offre Datacenter (F/H)",
-   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Le-Mans/Responsable-Offre-Datacenter--F-H-_JR2025-1660",
-   "zone": "Île-de-France",
-   "contract": "?",
-   "experience": "2 ans min.",
-   "junior": false,
-   "published": "2025-05-14",
-   "seed": true,
-   "first_seen": "2026-10-23T23:34:41+00:00",
-   "last_seen": "2026-10-27T09:51:00+00:00"
+   "last_seen": "2026-10-27T16:00:28+00:00",
+   "country": "France",
+   "rv": 2,
+   "match": {
+    "score": 86,
+    "have": [
+     "gouvernance",
+     "rgpd",
+     "conformité",
+     "reporting",
+     "tableaux de bord",
+     "anglais"
+    ],
+    "missing": [
+     "jira"
+    ]
+   }
   },
   {
    "id": "e1e57a982770",
@@ -466,7 +403,10 @@
    "published": "2026-10-23T10:37:00+00:00",
    "seed": false,
    "first_seen": "2026-10-23T14:27:55+00:00",
-   "last_seen": "2026-10-27T09:48:50+00:00"
+   "last_seen": "2026-10-27T15:58:07+00:00",
+   "country": "Suisse",
+   "rv": 2,
+   "match": null
   },
   {
    "id": "8eb505bf08c1",
@@ -475,12 +415,24 @@
    "url": "https://recrutement.bpce.fr/job/business-analyst-f-h-bancarisation-et-tenue-de-compte-mysys-f-h",
    "zone": "Île-de-France",
    "contract": "CDI",
-   "experience": "junior / débutant",
-   "junior": true,
+   "experience": "non précisée",
+   "junior": false,
    "published": "2026-10-22",
    "seed": false,
    "first_seen": "2026-10-23T14:27:38+00:00",
-   "last_seen": "2026-10-27T09:48:34+00:00"
+   "last_seen": "2026-10-27T15:55:07+00:00",
+   "country": "France",
+   "rv": 2,
+   "match": {
+    "score": 100,
+    "have": [
+     "pilotage",
+     "recette",
+     "spécifications",
+     "business analyst"
+    ],
+    "missing": []
+   }
   },
   {
    "id": "6a71deb689bb",
@@ -489,12 +441,24 @@
    "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/CDI-Analyste-Facturation-Mass-Market-H-F/77520",
    "zone": "Île-de-France",
    "contract": "CDI",
-   "experience": "débutant accepté",
+   "experience": "1 an min. · junior",
    "junior": true,
    "published": "2026-10-12",
    "seed": false,
    "first_seen": "2026-10-23T14:25:55+00:00",
-   "last_seen": "2026-10-27T09:50:43+00:00"
+   "last_seen": "2026-10-27T16:00:07+00:00",
+   "country": "France",
+   "rv": 2,
+   "match": {
+    "score": 67,
+    "have": [
+     "excel",
+     "reporting"
+    ],
+    "missing": [
+     "sap"
+    ]
+   }
   },
   {
    "id": "ae7bf5765e36",
@@ -536,7 +500,10 @@
    "published": "2026-10-23T09:23:46+00:00",
    "seed": false,
    "first_seen": "2026-10-23T09:29:55+00:00",
-   "last_seen": "2026-10-27T09:46:14+00:00"
+   "last_seen": "2026-10-27T15:51:38+00:00",
+   "country": "France",
+   "rv": 2,
+   "match": null
   },
   {
    "id": "461cd6cf95a9",
@@ -634,7 +601,10 @@
    "published": "2026-10-14T10:27:00+00:00",
    "seed": false,
    "first_seen": "2026-10-22T08:15:53+00:00",
-   "last_seen": "2026-10-27T09:48:50+00:00"
+   "last_seen": "2026-10-27T15:58:07+00:00",
+   "country": "Suisse",
+   "rv": 2,
+   "match": null
   },
   {
    "id": "2e3b7d0b2047",
@@ -663,21 +633,6 @@
    "seed": false,
    "first_seen": "2026-10-22T08:12:14+00:00",
    "last_seen": "2026-10-22T08:12:14+00:00"
-  },
-  {
-   "id": "fde882c04973",
-   "company": "BPCE",
-   "title": "Analyste Financier (F/H)",
-   "url": "https://recrutement.bpce.fr/job/analyste-financier-f-h",
-   "zone": "Suisse",
-   "contract": "CDD",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-20",
-   "seed": false,
-   "first_seen": "2026-10-21T19:19:39+00:00",
-   "last_seen": "2026-10-27T09:48:34+00:00",
-   "date_tries": 1
   },
   {
    "id": "ce248b62a42c",
@@ -719,7 +674,18 @@
    "published": "2026-10-21",
    "seed": false,
    "first_seen": "2026-10-21T09:20:06+00:00",
-   "last_seen": "2026-10-27T09:50:43+00:00"
+   "last_seen": "2026-10-27T16:00:03+00:00",
+   "country": "Suisse",
+   "rv": 2,
+   "match": {
+    "score": 100,
+    "have": [
+     "excel",
+     "data quality",
+     "spécifications"
+    ],
+    "missing": []
+   }
   },
   {
    "id": "e1b63d6f7953",
@@ -733,7 +699,7 @@
    "published": "2026-02-23",
    "seed": false,
    "first_seen": "2026-10-20T17:36:46+00:00",
-   "last_seen": "2026-10-27T09:48:34+00:00",
+   "last_seen": "2026-10-27T15:57:50+00:00",
    "date_tries": 1
   },
   {
@@ -748,7 +714,7 @@
    "published": "2026-03-15",
    "seed": false,
    "first_seen": "2026-10-20T17:36:36+00:00",
-   "last_seen": "2026-10-27T09:48:34+00:00",
+   "last_seen": "2026-10-27T15:57:50+00:00",
    "date_tries": 1
   },
   {
@@ -763,7 +729,7 @@
    "published": "2026-06-18",
    "seed": false,
    "first_seen": "2026-10-20T17:36:27+00:00",
-   "last_seen": "2026-10-27T09:48:34+00:00",
+   "last_seen": "2026-10-27T15:57:50+00:00",
    "date_tries": 1
   },
   {
@@ -793,22 +759,7 @@
    "published": "2026-05-17",
    "seed": false,
    "first_seen": "2026-10-20T17:36:08+00:00",
-   "last_seen": "2026-10-27T09:48:34+00:00",
-   "date_tries": 1
-  },
-  {
-   "id": "9f090aa24154",
-   "company": "BPCE",
-   "title": "Team Leader Adjoint Réseaux Datacenter LAN MAN - F/H",
-   "url": "https://recrutement.bpce.fr/job/team-leader-adjoint-reseaux-datacenter-lan-man-f-h",
-   "zone": "Île-de-France",
-   "contract": "CDI",
-   "experience": "junior / débutant",
-   "junior": true,
-   "published": "2025-11-19",
-   "seed": false,
-   "first_seen": "2026-10-20T17:35:58+00:00",
-   "last_seen": "2026-10-27T09:48:34+00:00",
+   "last_seen": "2026-10-27T15:57:50+00:00",
    "date_tries": 1
   },
   {
@@ -823,8 +774,22 @@
    "published": "2026-05-21",
    "seed": false,
    "first_seen": "2026-10-20T17:35:49+00:00",
-   "last_seen": "2026-10-27T09:48:34+00:00",
-   "date_tries": 1
+   "last_seen": "2026-10-27T15:57:41+00:00",
+   "date_tries": 1,
+   "match": {
+    "score": 71,
+    "have": [
+     "python",
+     "sql",
+     "power bi",
+     "conformité",
+     "business analyst"
+    ],
+    "missing": [
+     "agile",
+     "jira"
+    ]
+   }
   },
   {
    "id": "a4c0d875360f",
@@ -838,13 +803,23 @@
    "published": "2026-09-13",
    "seed": false,
    "first_seen": "2026-10-20T17:33:36+00:00",
-   "last_seen": "2026-10-27T09:48:34+00:00",
-   "date_tries": 1
+   "last_seen": "2026-10-27T15:57:32+00:00",
+   "date_tries": 1,
+   "match": {
+    "score": 100,
+    "have": [
+     "conformité",
+     "reporting",
+     "pilotage",
+     "anglais"
+    ],
+    "missing": []
+   }
   },
   {
    "id": "0a6beae7a2ff",
    "company": "BPCE",
-   "title": "Chef de projet conformité &amp; data F/H",
+   "title": "Chef de projet conformité & data F/H",
    "url": "https://recrutement.bpce.fr/job/chef-de-projet-conformite-data-f-h",
    "zone": "Île-de-France",
    "contract": "CDI",
@@ -853,8 +828,26 @@
    "published": "2026-08-04",
    "seed": false,
    "first_seen": "2026-10-20T17:33:06+00:00",
-   "last_seen": "2026-10-27T09:48:34+00:00",
-   "date_tries": 1
+   "last_seen": "2026-10-27T15:57:24+00:00",
+   "date_tries": 1,
+   "match": {
+    "score": 92,
+    "have": [
+     "python",
+     "sql",
+     "power bi",
+     "intelligence artificielle",
+     "gouvernance",
+     "conformité",
+     "reporting",
+     "tableaux de bord",
+     "pilotage",
+     "recette"
+    ],
+    "missing": [
+     "dataiku"
+    ]
+   }
   },
   {
    "id": "690e41651caa",
@@ -863,13 +856,16 @@
    "url": "https://recrutement.bpce.fr/job/data-scientist-python-f-h-cdd-6-mois",
    "zone": "Île-de-France",
    "contract": "CDD",
-   "experience": "junior / débutant",
-   "junior": true,
+   "experience": "non précisée",
+   "junior": false,
    "published": "2026-10-20",
    "seed": false,
    "first_seen": "2026-10-20T17:32:57+00:00",
-   "last_seen": "2026-10-27T09:48:34+00:00",
-   "date_tries": 1
+   "last_seen": "2026-10-27T15:55:24+00:00",
+   "date_tries": 1,
+   "country": "France",
+   "rv": 2,
+   "match": null
   },
   {
    "id": "7c1058e5e710",
@@ -925,8 +921,23 @@
    "published": "2026-09-22",
    "seed": false,
    "first_seen": "2026-10-20T13:59:55+00:00",
-   "last_seen": "2026-10-27T09:48:34+00:00",
-   "date_tries": 1
+   "last_seen": "2026-10-27T15:57:15+00:00",
+   "date_tries": 1,
+   "match": {
+    "score": 75,
+    "have": [
+     "sql",
+     "power bi",
+     "excel",
+     "conformité",
+     "tableaux de bord",
+     "pilotage"
+    ],
+    "missing": [
+     "vba",
+     "alteryx"
+    ]
+   }
   },
   {
    "id": "536c22c5b2bd",
@@ -940,8 +951,20 @@
    "published": "2026-09-25",
    "seed": false,
    "first_seen": "2026-10-20T13:59:37+00:00",
-   "last_seen": "2026-10-27T09:48:34+00:00",
-   "date_tries": 1
+   "last_seen": "2026-10-27T15:57:07+00:00",
+   "date_tries": 1,
+   "match": {
+    "score": 60,
+    "have": [
+     "python",
+     "machine learning",
+     "pilotage"
+    ],
+    "missing": [
+     "modélisation",
+     "statistiques"
+    ]
+   }
   },
   {
    "id": "aa43f082a76c",
@@ -955,13 +978,14 @@
    "published": "2026-09-30",
    "seed": false,
    "first_seen": "2026-10-20T13:59:28+00:00",
-   "last_seen": "2026-10-27T09:48:34+00:00",
-   "date_tries": 1
+   "last_seen": "2026-10-27T15:56:58+00:00",
+   "date_tries": 1,
+   "match": null
   },
   {
    "id": "519a0d59715a",
    "company": "BPCE",
-   "title": "Analyste Risque Transverse - Data &amp; Innovation",
+   "title": "Analyste Risque Transverse - Data & Innovation",
    "url": "https://recrutement.bpce.fr/job/analyste-risque-transverse-data-innovation",
    "zone": "Île-de-France",
    "contract": "CDI",
@@ -970,8 +994,22 @@
    "published": "2026-10-01",
    "seed": false,
    "first_seen": "2026-10-20T13:59:19+00:00",
-   "last_seen": "2026-10-27T09:48:34+00:00",
-   "date_tries": 1
+   "last_seen": "2026-10-27T15:56:50+00:00",
+   "date_tries": 1,
+   "match": {
+    "score": 100,
+    "have": [
+     "python",
+     "sql",
+     "machine learning",
+     "intelligence artificielle",
+     "qualité des données",
+     "gouvernance",
+     "conformité",
+     "anglais"
+    ],
+    "missing": []
+   }
   },
   {
    "id": "307deaa627a2",
@@ -985,8 +1023,20 @@
    "published": "2026-10-01",
    "seed": false,
    "first_seen": "2026-10-20T13:59:10+00:00",
-   "last_seen": "2026-10-27T09:48:34+00:00",
-   "date_tries": 1
+   "last_seen": "2026-10-27T15:56:41+00:00",
+   "date_tries": 1,
+   "match": {
+    "score": 80,
+    "have": [
+     "python",
+     "power bi",
+     "conformité",
+     "reporting"
+    ],
+    "missing": [
+     "modélisation"
+    ]
+   }
   },
   {
    "id": "ff9740f1b7eb",
@@ -1000,8 +1050,20 @@
    "published": "2026-10-06",
    "seed": false,
    "first_seen": "2026-10-20T13:58:43+00:00",
-   "last_seen": "2026-10-27T09:48:34+00:00",
-   "date_tries": 1
+   "last_seen": "2026-10-27T15:56:33+00:00",
+   "date_tries": 1,
+   "country": "France",
+   "rv": 2,
+   "match": {
+    "score": 67,
+    "have": [
+     "python",
+     "anglais"
+    ],
+    "missing": [
+     "modélisation"
+    ]
+   }
   },
   {
    "id": "c18e4d27eaf9",
@@ -1015,23 +1077,22 @@
    "published": "2026-10-08",
    "seed": false,
    "first_seen": "2026-10-20T13:58:07+00:00",
-   "last_seen": "2026-10-27T09:48:34+00:00",
-   "date_tries": 1
-  },
-  {
-   "id": "189b8dd7a5b7",
-   "company": "BPCE",
-   "title": "Data Analyst Facturation - H/F",
-   "url": "https://recrutement.bpce.fr/job/data-analyst-facturation-h-f",
-   "zone": "Île-de-France",
-   "contract": "CDI",
-   "experience": "junior / débutant",
-   "junior": true,
-   "published": "2026-10-11",
-   "seed": false,
-   "first_seen": "2026-10-20T13:57:49+00:00",
-   "last_seen": "2026-10-27T09:48:34+00:00",
-   "date_tries": 1
+   "last_seen": "2026-10-27T15:56:15+00:00",
+   "date_tries": 1,
+   "country": "France",
+   "rv": 2,
+   "match": {
+    "score": 40,
+    "have": [
+     "python",
+     "etl"
+    ],
+    "missing": [
+     "spark",
+     "data lake",
+     "data warehouse"
+    ]
+   }
   },
   {
    "id": "88f35d9b8c11",
@@ -1045,8 +1106,21 @@
    "published": "2026-10-13",
    "seed": false,
    "first_seen": "2026-10-20T13:57:40+00:00",
-   "last_seen": "2026-10-27T09:48:34+00:00",
-   "date_tries": 1
+   "last_seen": "2026-10-27T15:55:58+00:00",
+   "date_tries": 1,
+   "country": "France",
+   "rv": 2,
+   "match": {
+    "score": 75,
+    "have": [
+     "excel",
+     "conformité",
+     "anglais"
+    ],
+    "missing": [
+     "modélisation"
+    ]
+   }
   },
   {
    "id": "a76e1272afc5",
@@ -1055,28 +1129,31 @@
    "url": "https://recrutement.bpce.fr/job/data-scientist-junior-cdd-h-f",
    "zone": "Île-de-France",
    "contract": "CDD",
-   "experience": "junior / débutant",
+   "experience": "1 an min. · junior",
    "junior": true,
    "published": "2026-10-14",
    "seed": false,
    "first_seen": "2026-10-20T13:57:31+00:00",
-   "last_seen": "2026-10-27T09:48:34+00:00",
-   "date_tries": 1
-  },
-  {
-   "id": "d9c7eb43d88a",
-   "company": "BPCE",
-   "title": "Analyste support fonctionnel monétique commerçant (F/H)",
-   "url": "https://recrutement.bpce.fr/job/analyste-support-fonctionnel-monetique-commercant-f-h",
-   "zone": "Île-de-France",
-   "contract": "CDI",
-   "experience": "junior / débutant",
-   "junior": true,
-   "published": "2026-10-14",
-   "seed": false,
-   "first_seen": "2026-10-20T13:57:03+00:00",
-   "last_seen": "2026-10-27T09:48:34+00:00",
-   "date_tries": 1
+   "last_seen": "2026-10-27T15:55:49+00:00",
+   "date_tries": 1,
+   "country": "France",
+   "rv": 2,
+   "match": {
+    "score": 78,
+    "have": [
+     "python",
+     "sql",
+     "power bi",
+     "machine learning",
+     "gouvernance",
+     "reporting",
+     "dashboard"
+    ],
+    "missing": [
+     "git",
+     "modélisation"
+    ]
+   }
   },
   {
    "id": "93f48f9a0777",
@@ -1100,13 +1177,29 @@
    "url": "https://recrutement.bpce.fr/job/data-analyst-pilotage-de-la-rentabilite-commerciale",
    "zone": "Île-de-France",
    "contract": "CDI",
-   "experience": "junior / débutant",
-   "junior": true,
+   "experience": "non précisée",
+   "junior": false,
    "published": "2026-10-18",
    "seed": false,
    "first_seen": "2026-10-20T13:56:36+00:00",
-   "last_seen": "2026-10-27T09:48:34+00:00",
-   "date_tries": 1
+   "last_seen": "2026-10-27T15:55:15+00:00",
+   "date_tries": 1,
+   "country": "France",
+   "rv": 2,
+   "match": {
+    "score": 71,
+    "have": [
+     "python",
+     "sql",
+     "power bi",
+     "tableaux de bord",
+     "pilotage"
+    ],
+    "missing": [
+     "alteryx",
+     "oracle"
+    ]
+   }
   },
   {
    "id": "18a068234299",
@@ -1162,7 +1255,10 @@
    "published": "2026-10-15",
    "seed": true,
    "first_seen": "2026-10-20T13:24:49+00:00",
-   "last_seen": "2026-10-27T09:50:43+00:00"
+   "last_seen": "2026-10-27T16:00:05+00:00",
+   "country": "France",
+   "rv": 2,
+   "match": null
   },
   {
    "id": "3a1094fb030f",
@@ -1179,20 +1275,6 @@
    "last_seen": "2026-10-23T14:25:53+00:00"
   },
   {
-   "id": "c95f8118ef39",
-   "company": "Air France",
-   "title": "Coordinateur d'Équipes de Pratique Data, Recherche Opérationnelle & IA F/H",
-   "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25600&idOrigine=502&offerReference=2026-25600",
-   "zone": "Île-de-France",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "Tue, 06 Oct 2026 14:52:19 Z",
-   "seed": true,
-   "first_seen": "2026-10-20T13:24:12+00:00",
-   "last_seen": "2026-10-21T09:19:41+00:00"
-  },
-  {
    "id": "828e74cf97c5",
    "company": "Air France",
    "title": "Data Analyst Commercial - Digital Product F/H",
@@ -1204,7 +1286,10 @@
    "published": "Tue, 13 Oct 2026 12:22:49 Z",
    "seed": true,
    "first_seen": "2026-10-20T13:24:10+00:00",
-   "last_seen": "2026-10-27T09:46:14+00:00"
+   "last_seen": "2026-10-27T15:51:36+00:00",
+   "country": "France",
+   "rv": 2,
+   "match": null
   },
   {
    "id": "6f87aac13152",
@@ -1232,7 +1317,10 @@
    "published": "Fri, 16 Oct 2026 13:25:34 Z",
    "seed": true,
    "first_seen": "2026-10-20T13:24:07+00:00",
-   "last_seen": "2026-10-27T09:46:14+00:00"
+   "last_seen": "2026-10-27T15:51:39+00:00",
+   "country": "France",
+   "rv": 2,
+   "match": null
   }
  ]
 }
