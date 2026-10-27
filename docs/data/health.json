@@ -1,30 +1,30 @@
 {
- "updated": "2026-10-27T09:26:41+00:00",
+ "updated": "2026-10-27T09:53:33+00:00",
  "companies": {
   "Air France": {
-   "checked_at": "2026-10-27T09:19:31+00:00",
+   "checked_at": "2026-10-27T09:46:12+00:00",
    "error": "",
    "warnings": [],
    "links_found": 23,
    "keyword_matches": 3,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-27T09:19:34+00:00",
+   "last_ok": "2026-10-27T09:46:14+00:00",
    "failures": 0
   },
   "TotalEnergies": {
-   "checked_at": "2026-10-27T09:23:43+00:00",
+   "checked_at": "2026-10-27T09:50:19+00:00",
    "error": "",
    "warnings": [],
    "links_found": 200,
    "keyword_matches": 17,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-27T09:24:09+00:00",
+   "last_ok": "2026-10-27T09:50:43+00:00",
    "failures": 0
   },
   "Société Générale": {
-   "checked_at": "2026-10-27T09:20:19+00:00",
+   "checked_at": "2026-10-27T09:46:59+00:00",
    "error": "",
    "warnings": [],
    "links_found": 48,
@@ -32,7 +32,7 @@
    "kept_this_run": 0,
    "status": "ok",
    "failures": 0,
-   "last_ok": "2026-10-27T09:21:01+00:00"
+   "last_ok": "2026-10-27T09:47:40+00:00"
   },
   "BNP Paribas": {
    "checked_at": "2026-10-20T13:25:43+00:00",
@@ -50,37 +50,37 @@
    "failures": 1
   },
   "Crédit Agricole": {
-   "checked_at": "2026-10-27T09:21:01+00:00",
+   "checked_at": "2026-10-27T09:47:40+00:00",
    "error": "",
    "warnings": [],
    "links_found": 33,
    "keyword_matches": 2,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-27T09:21:16+00:00",
+   "last_ok": "2026-10-27T09:47:56+00:00",
    "failures": 0
   },
   "BPCE": {
-   "checked_at": "2026-10-27T09:21:16+00:00",
+   "checked_at": "2026-10-27T09:47:56+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 1546,
+   "links_found": 1541,
    "keyword_matches": 98,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-27T09:21:57+00:00",
+   "last_ok": "2026-10-27T09:48:34+00:00",
    "failures": 0
   },
   "AXA": {
-   "checked_at": "2026-10-27T09:21:57+00:00",
+   "checked_at": "2026-10-27T09:48:34+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 44,
-   "keyword_matches": 24,
-   "kept_this_run": 1,
+   "links_found": 43,
+   "keyword_matches": 23,
+   "kept_this_run": 0,
    "status": "ok",
    "failures": 0,
-   "last_ok": "2026-10-27T09:22:13+00:00"
+   "last_ok": "2026-10-27T09:48:50+00:00"
   },
   "EDF": {
    "checked_at": "2026-10-23T22:15:26+00:00",
@@ -93,14 +93,14 @@
    "failures": 18
   },
   "SNCF": {
-   "checked_at": "2026-10-27T09:19:34+00:00",
+   "checked_at": "2026-10-27T09:46:14+00:00",
    "error": "",
    "warnings": [],
    "links_found": 227,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-27T09:19:35+00:00",
+   "last_ok": "2026-10-27T09:46:15+00:00",
    "failures": 0
   },
   "ETF (VINCI)": {
@@ -114,51 +114,51 @@
    "failures": 18
   },
   "CFL": {
-   "checked_at": "2026-10-27T09:19:51+00:00",
+   "checked_at": "2026-10-27T09:46:32+00:00",
    "error": "",
    "warnings": [],
    "links_found": 25,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-27T09:20:04+00:00",
+   "last_ok": "2026-10-27T09:46:44+00:00",
    "failures": 0
   },
   "SBB CFF FFS": {
-   "checked_at": "2026-10-27T09:20:04+00:00",
+   "checked_at": "2026-10-27T09:46:44+00:00",
    "error": "",
    "warnings": [],
    "links_found": 129,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-27T09:20:19+00:00",
+   "last_ok": "2026-10-27T09:46:59+00:00",
    "failures": 0
   },
   "RATP Dev": {
-   "checked_at": "2026-10-27T09:19:35+00:00",
+   "checked_at": "2026-10-27T09:46:15+00:00",
    "error": "",
    "warnings": [],
    "links_found": 20,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-27T09:19:47+00:00",
+   "last_ok": "2026-10-27T09:46:28+00:00",
    "failures": 0
   },
   "Alstom": {
-   "checked_at": "2026-10-27T09:19:47+00:00",
+   "checked_at": "2026-10-27T09:46:28+00:00",
    "error": "",
    "warnings": [],
    "links_found": 94,
    "keyword_matches": 33,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-27T09:19:51+00:00",
+   "last_ok": "2026-10-27T09:46:32+00:00",
    "failures": 0
   },
   "EDF / Enedis": {
-   "checked_at": "2026-10-27T09:22:13+00:00",
+   "checked_at": "2026-10-27T09:48:50+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
@@ -166,31 +166,31 @@
    "kept_this_run": 0,
    "status": "vide",
    "last_ok": "2026-10-23T23:33:56+00:00",
-   "failures": 19
+   "failures": 20
   },
   "VINCI (dont ETF)": {
-   "checked_at": "2026-10-27T09:24:09+00:00",
+   "checked_at": "2026-10-27T09:50:43+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "vide",
-   "failures": 20
+   "failures": 21
   },
   "Eiffage": {
-   "checked_at": "2026-10-27T09:24:21+00:00",
+   "checked_at": "2026-10-27T09:50:55+00:00",
    "error": "",
    "warnings": [],
    "links_found": 79,
    "keyword_matches": 15,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-27T09:24:26+00:00",
+   "last_ok": "2026-10-27T09:51:00+00:00",
    "failures": 0
   },
   "Bouygues Telecom": {
-   "checked_at": "2026-10-27T09:24:26+00:00",
+   "checked_at": "2026-10-27T09:51:00+00:00",
    "error": "RuntimeError: https://bouyguestelecom-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036 → ConnectionError: HTTPSConnectionPool(host='bouyguestelecom-recrute.talent-soft.com', port=443): Max retries exceeded with url: /handlers/offerRss.ashx?LCID=1036 (Caused by NameR",
    "warnings": [
     "https://bouyguestelecom-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036 → ConnectionError: HTTPSConnectionPool(host='bouyguestelecom-recrute.talent-soft.com', port=443): Max retries exceeded with url: /handlers/offerRss.ashx?LCID=1036 (Caused by NameR"
@@ -198,127 +198,127 @@
    "links_found": 0,
    "keyword_matches": 0,
    "status": "erreur",
-   "failures": 20
+   "failures": 21
   },
   "Orange": {
-   "checked_at": "2026-10-27T09:24:26+00:00",
+   "checked_at": "2026-10-27T09:51:00+00:00",
    "error": "",
    "warnings": [],
    "links_found": 56,
    "keyword_matches": 11,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-27T09:24:43+00:00",
+   "last_ok": "2026-10-27T09:51:38+00:00",
    "failures": 0
   },
   "Vodafone Oman": {
-   "checked_at": "2026-10-27T09:24:43+00:00",
+   "checked_at": "2026-10-27T09:51:38+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "vide",
-   "failures": 5
+   "failures": 6
   },
   "L'Oréal": {
-   "checked_at": "2026-10-27T09:24:48+00:00",
+   "checked_at": "2026-10-27T09:51:43+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "vide",
-   "failures": 5
+   "failures": 6
   },
   "Julius Baer": {
-   "checked_at": "2026-10-27T09:24:54+00:00",
+   "checked_at": "2026-10-27T09:51:48+00:00",
    "error": "",
    "warnings": [],
    "links_found": 65,
    "keyword_matches": 19,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-27T09:24:59+00:00",
+   "last_ok": "2026-10-27T09:51:54+00:00",
    "failures": 0
   },
   "UBS": {
-   "checked_at": "2026-10-27T09:24:59+00:00",
+   "checked_at": "2026-10-27T09:51:54+00:00",
    "error": "",
    "warnings": [],
    "links_found": 12,
    "keyword_matches": 2,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-27T09:25:20+00:00",
+   "last_ok": "2026-10-27T09:52:12+00:00",
    "failures": 0
   },
   "SIX Group": {
-   "checked_at": "2026-10-27T09:25:20+00:00",
+   "checked_at": "2026-10-27T09:52:12+00:00",
    "error": "",
    "warnings": [],
    "links_found": 50,
    "keyword_matches": 20,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-27T09:25:22+00:00",
+   "last_ok": "2026-10-27T09:52:14+00:00",
    "failures": 0
   },
   "Advanzia Bank": {
-   "checked_at": "2026-10-27T09:25:22+00:00",
+   "checked_at": "2026-10-27T09:52:14+00:00",
    "error": "",
    "warnings": [],
    "links_found": 11,
    "keyword_matches": 11,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-27T09:25:29+00:00",
+   "last_ok": "2026-10-27T09:52:21+00:00",
    "failures": 0
   },
   "ING": {
-   "checked_at": "2026-10-27T09:25:29+00:00",
+   "checked_at": "2026-10-27T09:52:21+00:00",
    "error": "",
    "warnings": [],
    "links_found": 28,
    "keyword_matches": 28,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-27T09:25:43+00:00",
+   "last_ok": "2026-10-27T09:52:34+00:00",
    "failures": 0
   },
   "Swiss Life": {
-   "checked_at": "2026-10-27T09:25:43+00:00",
+   "checked_at": "2026-10-27T09:52:34+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "vide",
-   "failures": 5
+   "failures": 6
   },
   "SII Group": {
-   "checked_at": "2026-10-27T09:25:58+00:00",
+   "checked_at": "2026-10-27T09:52:49+00:00",
    "error": "",
    "warnings": [],
    "links_found": 1,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-27T09:26:11+00:00",
+   "last_ok": "2026-10-27T09:53:02+00:00",
    "failures": 0
   },
   "EPAM Systems": {
-   "checked_at": "2026-10-27T09:26:11+00:00",
+   "checked_at": "2026-10-27T09:53:02+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "vide",
-   "failures": 5
+   "failures": 6
   },
   "AIA Digital": {
-   "checked_at": "2026-10-27T09:26:26+00:00",
+   "checked_at": "2026-10-27T09:53:19+00:00",
    "error": "RuntimeError: https://careers.aia.com/search/?q=data&locationsearch=Malaysia → Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.aia.com/search/?q=data&locationsearch=Malaysia\nCall log:\nnavigating to \"https://careers.aia.com/search/",
    "warnings": [
     "https://careers.aia.com/search/?q=data&locationsearch=Malaysia → Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.aia.com/search/?q=data&locationsearch=Malaysia\nCall log:\nnavigating to \"https://careers.aia.com/search/",
@@ -327,27 +327,27 @@
    "links_found": 0,
    "keyword_matches": 0,
    "status": "erreur",
-   "failures": 5
+   "failures": 6
   },
   "OQ": {
-   "checked_at": "2026-10-27T09:26:27+00:00",
+   "checked_at": "2026-10-27T09:53:21+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "vide",
-   "failures": 5
+   "failures": 6
   },
   "Rihal": {
-   "checked_at": "2026-10-27T09:26:33+00:00",
+   "checked_at": "2026-10-27T09:53:26+00:00",
    "error": "",
    "warnings": [],
    "links_found": 1,
    "keyword_matches": 1,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-27T09:26:40+00:00",
+   "last_ok": "2026-10-27T09:53:33+00:00",
    "failures": 0
   }
  }
