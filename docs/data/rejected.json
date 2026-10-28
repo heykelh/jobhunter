@@ -1,6 +1,46 @@
 {
- "updated": "2026-10-28T00:35:36+00:00",
+ "updated": "2026-10-28T10:39:33+00:00",
  "items": [
+  {
+   "id": "56ce8da8b11d",
+   "company": "ING",
+   "title": "Data Analyst (Data Modelling)",
+   "url": "https://careers.ing.com/en/job/makati-city/data-analyst-data-modelling/3121/46281037632",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-28T10:38:35+00:00"
+  },
+  {
+   "id": "68e169d98c5e",
+   "company": "ING",
+   "title": "Data Governance Circle Lead, Scalable Data Services",
+   "url": "https://careers.ing.com/en/job/makati-city/data-governance-circle-lead-scalable-data-services/3121/46408993408",
+   "reason": "titre exclu (lead)",
+   "at": "2026-10-28T10:38:35+00:00"
+  },
+  {
+   "id": "beca86b1dbde",
+   "company": "Société Générale",
+   "title": "Analyste risques sur opérations de marché",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-risques-sur-operations-de-marche-26000MOT-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-10-28T10:33:21+00:00"
+  },
+  {
+   "id": "a28a63858746",
+   "company": "Alstom",
+   "title": "Ingénieur(e) Process / Data - H/F",
+   "url": "https://jobsearch.alstom.com/job/Ornans-Ing%C3%A9nieur%28e%29-Process-Data-HF-I/1431947533/",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-28T10:32:08+00:00"
+  },
+  {
+   "id": "9770997a211f",
+   "company": "Alstom",
+   "title": "Data & AI V&V Leader",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Data-&-AI-V&V-Leader/1442310133/",
+   "reason": "titre exclu (leader)",
+   "at": "2026-10-28T10:32:06+00:00"
+  },
   {
    "id": "8bfb55496568",
    "company": "UBS",

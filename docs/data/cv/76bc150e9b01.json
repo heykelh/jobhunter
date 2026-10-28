@@ -1,0 +1,165 @@
+{
+ "titre": "Data Scientist junior : Data & IA",
+ "profil": "Profil data alliant 13 ans d'expérience opérationnelle au sein du Groupe SNCF, en environnement à forts enjeux de sécurité, et un Master Data Engineer / Data Product Manager (Bac+5, Mines Paris - PSL). Plus de 15 projets data réalisés et déployés sur mon portfolio, avec une montée en compétences continue, notamment en analyse de données et data engineering.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "SQL",
+    "Excel",
+    "Python (pandas)",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Simulation d'une mission d'inspection Data sur la chaîne de données du risque de crédit : cadrage, investigations, débriefing.",
+    "Moteur de contrôles qualité en règles SQL, scoring de risque, registre des constats et rapport de restitution."
+   ]
+  },
+  {
+   "id": "regard",
+   "titre": "REGARD : copilote de conformité bancaire",
+   "stack": "LangGraph.js, Groq, Supabase (pgvector), Langfuse",
+   "lien": "regard-wine.vercel.app",
+   "tags": [
+    "conformité",
+    "compliance",
+    "banque",
+    "bancaire",
+    "réglementaire",
+    "lcb-ft",
+    "kyc",
+    "ia",
+    "llm",
+    "rag",
+    "risque"
+   ],
+   "puces": [
+    "Copilote d'analyse de conformité bancaire : les contrôles sont codés en règles, l'IA ne rédige que les synthèses.",
+    "28 cas de test de référence validés et suivi des appels avec Langfuse."
+   ]
+  },
+  {
+   "id": "prisme",
+   "titre": "PRISME : copilote d'audit AI Act",
+   "stack": "Python, FastAPI, RAG, Supabase (pgvector), Groq",
+   "lien": "",
+   "tags": [
+    "ai act",
+    "audit",
+    "conformité",
+    "ia",
+    "intelligence artificielle",
+    "rag",
+    "llm",
+    "réglementaire",
+    "api"
+   ],
+   "puces": [
+    "API d'aide à l'audit de conformité AI Act : recherche dans les textes réglementaires (RAG) et grille de qualification des systèmes d'IA.",
+    "Backend FastAPI déployé sur Render, base vectorielle pgvector."
+   ]
+  },
+  {
+   "id": "customer-experience",
+   "titre": "Customer Experience Intelligence : analyse et dataviz",
+   "stack": "Python, Power BI",
+   "lien": "github.com/heykelh/customer-experience-intelligence",
+   "tags": [
+    "client",
+    "clients",
+    "expérience client",
+    "marketing",
+    "kpi",
+    "dashboard",
+    "tableau de bord",
+    "power bi",
+    "reporting",
+    "analyse",
+    "satisfaction",
+    "parcours"
+   ],
+   "puces": [
+    "Analyse exploratoire de données clients : insights, tendances et anomalies impactant la performance.",
+    "Dashboards interactifs Power BI et indicateurs de pilotage à destination des décideurs métier."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [],
+ "methode": "règles seules (IA en échec : HTTPError)",
+ "job_id": "76bc150e9b01",
+ "entreprise": "BPCE",
+ "intitule_offre": "Data Scientist junior – Data & IA (F/H) – CDD 6 mois",
+ "url_offre": "https://recrutement.bpce.fr/job/data-scientist-junior-data-ia-f-h-cdd-6-mois",
+ "genere_le": "2026-10-28T10:34:37+00:00"
+}

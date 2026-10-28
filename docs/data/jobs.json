@@ -1,6 +1,83 @@
 {
- "updated": "2026-10-28T00:35:36+00:00",
+ "updated": "2026-10-28T10:39:33+00:00",
  "jobs": [
+  {
+   "id": "77d6a6774f0a",
+   "company": "BPCE",
+   "title": "Data Scientist junior – Exploration de cas d’usage Data & IA (F/H) - CDD 6 mois",
+   "url": "https://recrutement.bpce.fr/job/data-scientist-junior-exploration-de-cas-dusage-data-ia-f-h-cdd-6-mois",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDD",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-10-28",
+   "seed": false,
+   "rv": 2,
+   "match": null,
+   "first_seen": "2026-10-28T10:34:45+00:00",
+   "last_seen": "2026-10-28T10:34:45+00:00"
+  },
+  {
+   "id": "76bc150e9b01",
+   "company": "BPCE",
+   "title": "Data Scientist junior – Data & IA (F/H) – CDD 6 mois",
+   "url": "https://recrutement.bpce.fr/job/data-scientist-junior-data-ia-f-h-cdd-6-mois",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDD",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-10-28",
+   "seed": false,
+   "rv": 2,
+   "match": {
+    "score": 100,
+    "have": [
+     "python",
+     "sql",
+     "excel",
+     "machine learning",
+     "intelligence artificielle",
+     "reporting",
+     "anglais"
+    ],
+    "missing": []
+   },
+   "first_seen": "2026-10-28T10:34:36+00:00",
+   "last_seen": "2026-10-28T10:34:36+00:00"
+  },
+  {
+   "id": "4e80bd2f5d16",
+   "company": "Crédit Agricole",
+   "title": "Inspecteur-rice Data H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170473-122-inspecteur-rice-data-hf-reference--2026-115064--/",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "débutant accepté",
+   "junior": true,
+   "published": "2026-10-28",
+   "seed": false,
+   "rv": 2,
+   "match": {
+    "score": 75,
+    "have": [
+     "python",
+     "sql",
+     "power bi",
+     "gouvernance",
+     "conformité",
+     "anglais"
+    ],
+    "missing": [
+     "sas",
+     "statistiques"
+    ]
+   },
+   "first_seen": "2026-10-28T10:33:48+00:00",
+   "last_seen": "2026-10-28T10:33:48+00:00"
+  },
   {
    "id": "4a2f3ab23b1b",
    "company": "BPCE",
@@ -28,7 +105,7 @@
     ]
    },
    "first_seen": "2026-10-27T20:42:04+00:00",
-   "last_seen": "2026-10-28T00:31:03+00:00"
+   "last_seen": "2026-10-28T10:34:45+00:00"
   },
   {
    "id": "deb616687b85",
@@ -43,7 +120,7 @@
    "published": "2026-10-27T06:16:00+00:00",
    "seed": false,
    "first_seen": "2026-10-27T09:22:13+00:00",
-   "last_seen": "2026-10-28T00:31:20+00:00",
+   "last_seen": "2026-10-28T10:35:02+00:00",
    "rv": 2,
    "match": null
   },
@@ -60,7 +137,7 @@
    "published": "2026-10-18",
    "seed": false,
    "first_seen": "2026-10-26T16:49:33+00:00",
-   "last_seen": "2026-10-28T00:31:03+00:00",
+   "last_seen": "2026-10-28T10:34:45+00:00",
    "rv": 2,
    "match": {
     "score": 100,
@@ -85,7 +162,7 @@
    "published": "2026-10-26",
    "seed": false,
    "first_seen": "2026-10-26T16:49:15+00:00",
-   "last_seen": "2026-10-28T00:31:03+00:00",
+   "last_seen": "2026-10-28T10:34:45+00:00",
    "rv": 2,
    "match": null
   },
@@ -162,7 +239,7 @@
    "published": null,
    "seed": true,
    "first_seen": "2026-10-26T10:11:44+00:00",
-   "last_seen": "2026-10-28T00:35:36+00:00",
+   "last_seen": "2026-10-28T10:39:32+00:00",
    "date_tries": 3,
    "rv": 2,
    "match": {
@@ -191,7 +268,7 @@
    "published": "2026-10-09T02:01:00+00:00",
    "seed": true,
    "first_seen": "2026-10-26T10:09:34+00:00",
-   "last_seen": "2026-10-28T00:34:23+00:00",
+   "last_seen": "2026-10-28T10:38:11+00:00",
    "rv": 2,
    "match": {
     "score": 50,
@@ -218,7 +295,7 @@
    "published": "2026-10-13T00:00:00+00:00",
    "seed": true,
    "first_seen": "2026-10-26T10:09:31+00:00",
-   "last_seen": "2026-10-28T00:34:23+00:00",
+   "last_seen": "2026-10-28T10:38:11+00:00",
    "rv": 2,
    "match": {
     "score": 57,
@@ -319,7 +396,7 @@
    "published": "2026-10-23",
    "seed": false,
    "first_seen": "2026-10-24T00:43:13+00:00",
-   "last_seen": "2026-10-28T00:33:47+00:00",
+   "last_seen": "2026-10-28T10:37:34+00:00",
    "country": "Suisse",
    "rv": 2,
    "match": {
@@ -345,7 +422,7 @@
    "published": "2026-07-30",
    "seed": true,
    "first_seen": "2026-10-23T23:34:56+00:00",
-   "last_seen": "2026-10-28T00:33:30+00:00",
+   "last_seen": "2026-10-28T10:37:16+00:00",
    "country": "France",
    "rv": 2,
    "match": {
@@ -417,7 +494,7 @@
    "published": "2026-10-23T10:37:00+00:00",
    "seed": false,
    "first_seen": "2026-10-23T14:27:55+00:00",
-   "last_seen": "2026-10-28T00:31:20+00:00",
+   "last_seen": "2026-10-28T10:35:02+00:00",
    "country": "Suisse",
    "rv": 2,
    "match": null
@@ -434,7 +511,7 @@
    "published": "2026-10-22",
    "seed": false,
    "first_seen": "2026-10-23T14:27:38+00:00",
-   "last_seen": "2026-10-28T00:31:03+00:00",
+   "last_seen": "2026-10-28T10:34:45+00:00",
    "country": "France",
    "rv": 2,
    "match": {
@@ -460,7 +537,7 @@
    "published": "2026-10-12",
    "seed": false,
    "first_seen": "2026-10-23T14:25:55+00:00",
-   "last_seen": "2026-10-28T00:33:11+00:00",
+   "last_seen": "2026-10-28T10:36:56+00:00",
    "country": "France",
    "rv": 2,
    "match": {
@@ -514,7 +591,7 @@
    "published": "2026-10-23T09:23:46+00:00",
    "seed": false,
    "first_seen": "2026-10-23T09:29:55+00:00",
-   "last_seen": "2026-10-28T00:28:41+00:00",
+   "last_seen": "2026-10-28T10:31:47+00:00",
    "country": "France",
    "rv": 2,
    "match": null
@@ -615,7 +692,7 @@
    "published": "2026-10-14T10:27:00+00:00",
    "seed": false,
    "first_seen": "2026-10-22T08:15:53+00:00",
-   "last_seen": "2026-10-28T00:31:20+00:00",
+   "last_seen": "2026-10-28T10:35:02+00:00",
    "country": "Suisse",
    "rv": 2,
    "match": null
@@ -688,7 +765,7 @@
    "published": "2026-10-21",
    "seed": false,
    "first_seen": "2026-10-21T09:20:06+00:00",
-   "last_seen": "2026-10-28T00:33:11+00:00",
+   "last_seen": "2026-10-28T10:36:56+00:00",
    "country": "Suisse",
    "rv": 2,
    "match": {
@@ -713,7 +790,7 @@
    "published": "2026-02-23",
    "seed": false,
    "first_seen": "2026-10-20T17:36:46+00:00",
-   "last_seen": "2026-10-28T00:31:03+00:00",
+   "last_seen": "2026-10-28T10:34:45+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 2,
@@ -742,7 +819,7 @@
    "published": "2026-03-15",
    "seed": false,
    "first_seen": "2026-10-20T17:36:36+00:00",
-   "last_seen": "2026-10-28T00:31:03+00:00",
+   "last_seen": "2026-10-28T10:34:45+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 2,
@@ -771,7 +848,7 @@
    "published": "2026-06-18",
    "seed": false,
    "first_seen": "2026-10-20T17:36:27+00:00",
-   "last_seen": "2026-10-28T00:31:03+00:00",
+   "last_seen": "2026-10-28T10:34:45+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 2,
@@ -816,7 +893,7 @@
    "published": "2026-05-17",
    "seed": false,
    "first_seen": "2026-10-20T17:36:08+00:00",
-   "last_seen": "2026-10-28T00:31:03+00:00",
+   "last_seen": "2026-10-28T10:34:45+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 2,
@@ -842,7 +919,7 @@
    "published": "2026-05-21",
    "seed": false,
    "first_seen": "2026-10-20T17:35:49+00:00",
-   "last_seen": "2026-10-28T00:31:03+00:00",
+   "last_seen": "2026-10-28T10:34:45+00:00",
    "date_tries": 1,
    "match": {
     "score": 71,
@@ -873,7 +950,7 @@
    "published": "2026-10-20",
    "seed": false,
    "first_seen": "2026-10-20T17:32:57+00:00",
-   "last_seen": "2026-10-28T00:31:03+00:00",
+   "last_seen": "2026-10-28T10:34:45+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 2,
@@ -933,7 +1010,7 @@
    "published": "2026-09-22",
    "seed": false,
    "first_seen": "2026-10-20T13:59:55+00:00",
-   "last_seen": "2026-10-28T00:31:03+00:00",
+   "last_seen": "2026-10-28T10:34:45+00:00",
    "date_tries": 1,
    "match": {
     "score": 75,
@@ -965,7 +1042,7 @@
    "published": "2026-09-30",
    "seed": false,
    "first_seen": "2026-10-20T13:59:28+00:00",
-   "last_seen": "2026-10-28T00:31:03+00:00",
+   "last_seen": "2026-10-28T10:34:45+00:00",
    "date_tries": 1,
    "match": null,
    "country": "France",
@@ -983,7 +1060,7 @@
    "published": "2026-10-06",
    "seed": false,
    "first_seen": "2026-10-20T13:58:43+00:00",
-   "last_seen": "2026-10-28T00:31:03+00:00",
+   "last_seen": "2026-10-28T10:34:45+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 2,
@@ -1010,7 +1087,7 @@
    "published": "2026-10-08",
    "seed": false,
    "first_seen": "2026-10-20T13:58:07+00:00",
-   "last_seen": "2026-10-28T00:31:03+00:00",
+   "last_seen": "2026-10-28T10:34:45+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 2,
@@ -1039,7 +1116,7 @@
    "published": "2026-10-13",
    "seed": false,
    "first_seen": "2026-10-20T13:57:40+00:00",
-   "last_seen": "2026-10-28T00:31:03+00:00",
+   "last_seen": "2026-10-28T10:34:45+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 2,
@@ -1067,7 +1144,7 @@
    "published": "2026-10-14",
    "seed": false,
    "first_seen": "2026-10-20T13:57:31+00:00",
-   "last_seen": "2026-10-28T00:31:03+00:00",
+   "last_seen": "2026-10-28T10:34:45+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 2,
@@ -1115,7 +1192,7 @@
    "published": "2026-10-18",
    "seed": false,
    "first_seen": "2026-10-20T13:56:36+00:00",
-   "last_seen": "2026-10-28T00:31:03+00:00",
+   "last_seen": "2026-10-28T10:34:45+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 2,
@@ -1188,7 +1265,7 @@
    "published": "2026-10-15",
    "seed": true,
    "first_seen": "2026-10-20T13:24:49+00:00",
-   "last_seen": "2026-10-28T00:33:11+00:00",
+   "last_seen": "2026-10-28T10:36:56+00:00",
    "country": "France",
    "rv": 2,
    "match": null
@@ -1219,7 +1296,7 @@
    "published": "Tue, 13 Oct 2026 12:22:49 Z",
    "seed": true,
    "first_seen": "2026-10-20T13:24:10+00:00",
-   "last_seen": "2026-10-28T00:28:41+00:00",
+   "last_seen": "2026-10-28T10:31:47+00:00",
    "country": "France",
    "rv": 2,
    "match": null
@@ -1250,7 +1327,7 @@
    "published": "Fri, 16 Oct 2026 13:25:34 Z",
    "seed": true,
    "first_seen": "2026-10-20T13:24:07+00:00",
-   "last_seen": "2026-10-28T00:28:41+00:00",
+   "last_seen": "2026-10-28T10:31:47+00:00",
    "country": "France",
    "rv": 2,
    "match": null
