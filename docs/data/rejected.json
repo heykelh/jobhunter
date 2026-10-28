@@ -1,6 +1,110 @@
 {
- "updated": "2026-10-28T10:39:33+00:00",
+ "updated": "2026-10-28T16:56:19+00:00",
  "items": [
+  {
+   "id": "992a9ec3546a",
+   "company": "UBS",
+   "title": "Business Risk Specialist - Data Protection",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=352596",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-28T16:55:07+00:00"
+  },
+  {
+   "id": "7995df2396ae",
+   "company": "UBS",
+   "title": "India Banks Analyst",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=353052",
+   "reason": "lieu hors zones",
+   "at": "2026-10-28T16:55:05+00:00"
+  },
+  {
+   "id": "e778702f42d3",
+   "company": "UBS",
+   "title": "Data Steward - Static and Sustainability",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=352185",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-28T16:55:04+00:00"
+  },
+  {
+   "id": "4782b7a1cde4",
+   "company": "UBS",
+   "title": "Data Analyst - Data Services",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=352268",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-28T16:55:03+00:00"
+  },
+  {
+   "id": "affaf68d8270",
+   "company": "TotalEnergies",
+   "title": "STAGE - Analyste projet Transformation Finance & IA H/F",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/STAGE-Analyste-projet-Transformation-Finance-IA-H-F/85680",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-28T16:53:48+00:00"
+  },
+  {
+   "id": "a022959ed121",
+   "company": "TotalEnergies",
+   "title": "STAGE - Ingénieur Data et Intelligence Artificielle (69) H/F",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/STAGE-Ing-nieur-Data-et-Intelligence-Artificielle-69-H-F/85672",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-28T16:53:48+00:00"
+  },
+  {
+   "id": "86906994ec7c",
+   "company": "TotalEnergies",
+   "title": "STAGE - Data Science /Ontologie dans la classification documentaire - H/F",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/STAGE-Data-Science-Ontologie-dans-la-classification-documentaire-H-F/85662",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-28T16:53:48+00:00"
+  },
+  {
+   "id": "9acdc7e7abee",
+   "company": "BPCE",
+   "title": "Analyste Risques de Crédits CDD (F/H) - Rennes (35)",
+   "url": "https://recrutement.bpce.fr/job/analyste-risques-de-credits-cdd-f-h-rennes-35",
+   "reason": "lieu hors zones",
+   "at": "2026-10-28T16:51:37+00:00"
+  },
+  {
+   "id": "159891e5095c",
+   "company": "Crédit Agricole",
+   "title": "Analyst Export Finance Originator for CEE-CIS-Africa H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170466-4-analyst-export-finance-originator-for-cee-cis-africa-hf-reference--2026-116898--/",
+   "reason": "expérience demandée ≥ 3 ans « ie, commerce. le cfa constituerait un atout. experience souhaitee d'au moins 3 ans, dans le secteur du finance »",
+   "at": "2026-10-28T16:50:49+00:00"
+  },
+  {
+   "id": "65f3baa14794",
+   "company": "Société Générale",
+   "title": "Analyste risque de crédit",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-risque-de-credit-26000LBB-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-10-28T16:50:32+00:00"
+  },
+  {
+   "id": "7bf0f9b7c713",
+   "company": "Alstom",
+   "title": "Analyste Financier FP&A",
+   "url": "https://jobsearch.alstom.com/job/Saint-Bruno-Analyste-Financier-FP&A-QC/1452260533/",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-28T16:49:19+00:00"
+  },
+  {
+   "id": "7c7ca9f266fa",
+   "company": "Alstom",
+   "title": "FP&A Financial Analyst",
+   "url": "https://jobsearch.alstom.com/job/Saint-Bruno-FP&A-Financial-Analyst-QC/1452260433/",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-28T16:49:18+00:00"
+  },
+  {
+   "id": "2fb0fe4be166",
+   "company": "SNCF",
+   "title": "Architecte IA & DATA F/H",
+   "url": "https://emploi.sncf.com/nos-offres/884661",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-10-28T16:49:00+00:00"
+  },
   {
    "id": "56ce8da8b11d",
    "company": "ING",
