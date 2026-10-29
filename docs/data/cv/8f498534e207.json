@@ -1,0 +1,172 @@
+{
+ "titre": "Data Licensing Specialist : Finance & Process Automation",
+ "profil": "Professionnel avec 13 ans d’expérience opérationnelle au sein du groupe SNCF, spécialisé dans la gestion de données critiques et la conformité. Titulaire d’un Master Data Engineer / Data Product Manager (Mines Paris : PSL), j’ai conduit plus de 15 projets data couvrant l’ingestion, la qualité et l’automatisation. Mes compétences couvrent le contrôle de la qualité des données, la gestion de référentiels maîtres et l’amélioration continue des processus.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Excel",
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "GitHub Actions (CI/CD)",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "escale",
+   "titre": "ESCALE : ponctualité des vols CDG et Orly",
+   "stack": "Python, PostgreSQL (médaillon), API AeroDataBox, Next.js",
+   "lien": "escale-ops.vercel.app",
+   "tags": [
+    "aérien",
+    "aerien",
+    "aviation",
+    "vol",
+    "vols",
+    "airline",
+    "opérations",
+    "operations",
+    "ponctualité",
+    "retard",
+    "rgpd",
+    "privacy",
+    "données personnelles",
+    "ai act",
+    "prédiction",
+    "client"
+   ],
+   "puces": [
+    "Collecte automatisée des données de ponctualité, enrichissement des référentiels maîtres avec scores de risque, garantissant précision et intégrité.",
+    "Console de suivi intégrant des modèles de prédiction et conformité RGPD, facilitant la résolution d’anomalies opérationnelles."
+   ]
+  },
+  {
+   "id": "finance-audit",
+   "titre": "Finance Digital Audit Dashboard",
+   "stack": "Python, pandas, scikit-learn, FastAPI, Next.js, Plotly",
+   "lien": "",
+   "tags": [
+    "finance",
+    "financier",
+    "audit",
+    "anomalie",
+    "anomalies",
+    "machine learning",
+    "contrôle de gestion",
+    "comptabilité",
+    "bourse",
+    "api"
+   ],
+   "puces": [
+    "Ingestion ETL des données financières, validation et contrôle de qualité pour détecter les anomalies, assurant la conformité aux exigences réglementaires.",
+    "API de génération de rapports et tableau de bord interactif, automatisant la diffusion d’informations aux parties prenantes."
+   ]
+  },
+  {
+   "id": "regard",
+   "titre": "REGARD : copilote de conformité bancaire",
+   "stack": "LangGraph.js, Groq, Supabase (pgvector), Langfuse",
+   "lien": "regard-wine.vercel.app",
+   "tags": [
+    "conformité",
+    "compliance",
+    "banque",
+    "bancaire",
+    "réglementaire",
+    "lcb-ft",
+    "kyc",
+    "ia",
+    "llm",
+    "rag",
+    "risque"
+   ],
+   "puces": [
+    "Co‑pilote de conformité bancaire, codage des contrôles sous forme de règles, assurant la traçabilité et la conformité KYC/AML.",
+    "Gestion de cas de test et suivi des appels, renforçant la fiabilité des processus de contrôle."
+   ]
+  },
+  {
+   "id": "customer-experience",
+   "titre": "Customer Experience Intelligence : analyse et dataviz",
+   "stack": "Python, Power BI",
+   "lien": "github.com/heykelh/customer-experience-intelligence",
+   "tags": [
+    "client",
+    "clients",
+    "expérience client",
+    "marketing",
+    "kpi",
+    "dashboard",
+    "tableau de bord",
+    "power bi",
+    "reporting",
+    "analyse",
+    "satisfaction",
+    "parcours"
+   ],
+   "puces": [
+    "Analyse exploratoire des données clients, identification d’insights et d’anomalies pour améliorer la satisfaction et la qualité du service.",
+    "Création de tableaux de bord interactifs, facilitant le pilotage décisionnel et la communication avec les parties prenantes."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "data quality",
+  "agile",
+  "scrum"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "8f498534e207",
+ "entreprise": "SIX Group",
+ "intitule_offre": "Data Licensing Specialist (Finance & Process Automation)",
+ "url_offre": "https://jobs.six-group.com/job/London-Data-Licensing-Specialist-%28Finance-&-Process-Automation%29/1427122333/",
+ "genere_le": "2026-10-29T17:31:54+00:00"
+}

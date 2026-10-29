@@ -1,6 +1,94 @@
 {
- "updated": "2026-10-29T14:22:59+00:00",
+ "updated": "2026-10-29T17:32:26+00:00",
  "items": [
+  {
+   "id": "6a4f7b67a977",
+   "company": "jobs.ch",
+   "title": "Fachbereichsleiter/in Data Science (nebenberuflich, 30%)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/85d7806a-2651-4e5b-a5ad-979e594e1942/",
+   "reason": "expérience demandée ≥ 3 ans « es bon reseau dans le monde professionnel et experience averee dans l'enseignement supe »",
+   "at": "2026-10-29T17:30:38+00:00"
+  },
+  {
+   "id": "453a8472deaa",
+   "company": "jobs.ch",
+   "title": "Senior Business Analyst",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/d41c7732-1373-44b4-9b05-91ef09ef5757/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-29T17:30:38+00:00"
+  },
+  {
+   "id": "fceae94c41ac",
+   "company": "TotalEnergies",
+   "title": "Business Analyst",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Business-Analyst/85734",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T17:30:02+00:00"
+  },
+  {
+   "id": "844932d6fd6e",
+   "company": "TotalEnergies",
+   "title": "DATA ENGINEER SENIOR – TOTALENERGIES DIGITAL FACTORY",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/DATA-ENGINEER-SENIOR-TOTALENERGIES-DIGITAL-FACTORY/68768",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-29T17:30:02+00:00"
+  },
+  {
+   "id": "4d610ad57323",
+   "company": "BPCE",
+   "title": "3966 - Analyste risques de marché",
+   "url": "https://recrutement.bpce.fr/job/3966-analyste-risques-de-marche",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « CDI \"Confirmé\" »",
+   "at": "2026-10-29T17:27:36+00:00"
+  },
+  {
+   "id": "7e7a195d0f98",
+   "company": "BPCE",
+   "title": "Analyste risques de marché (F/H)",
+   "url": "https://recrutement.bpce.fr/job/analyste-risques-de-marche-f-h",
+   "reason": "expérience demandée ≥ 7 ans « e: nous recherchons un profil ayant a minima 7 ans d'experience avec les co »",
+   "at": "2026-10-29T17:27:26+00:00"
+  },
+  {
+   "id": "b4247c90e79b",
+   "company": "BPCE",
+   "title": "Analyste risques financiers et suivi des portefeuilles d'investissement (F/H)",
+   "url": "https://recrutement.bpce.fr/job/analyste-risques-financiers-et-suivi-des-portefeuilles-dinvestissement-f-h",
+   "reason": "expérience demandée ≥ 7 ans « e: nous recherchons un profil ayant a minima 7 ans d'experience avec les co »",
+   "at": "2026-10-29T17:27:17+00:00"
+  },
+  {
+   "id": "6e9a814f4f5c",
+   "company": "BPCE",
+   "title": "Stage - 6 mois – Analyste Quantitatif - Multi Actifs Privés F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-analyste-quantitatif-multi-actifs-prives-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-29T17:27:09+00:00"
+  },
+  {
+   "id": "2b8d4cc7b151",
+   "company": "Crédit Agricole",
+   "title": "SOLUTION ANALYST - WERO H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170477-3-solution-analyst---wero-hf-reference--2026-116986--/",
+   "reason": "expérience demandée ≥ 11 ans « alisation informatique si banque / assurance niveau d'experience minimum 11 ans et plus competences recherchee »",
+   "at": "2026-10-29T17:26:29+00:00"
+  },
+  {
+   "id": "811add909771",
+   "company": "Crédit Agricole",
+   "title": "SOLUTION ANALYST - CHEQUE ET PRELEVEMENT",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170477-3-solution-analyst---cheque-et-prelevement-reference--2026-116985--/",
+   "reason": "expérience demandée ≥ 11 ans « systemes d'information banques / assurances niveau d'experience minimum 11 ans et plus competences recherchees »",
+   "at": "2026-10-29T17:26:28+00:00"
+  },
+  {
+   "id": "e1e57a982770",
+   "company": "Crédit Agricole",
+   "title": "Private Equity Real Estate Analyste H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170479-136-private-equity-real-estate-analyste-hf-reference--2025-106861--/",
+   "reason": "expérience demandée ≥ 6 ans « duction, en banque ou en societe de gestion. niveau d'experience minimum 6 - 10 ans competences recherchees co » (retirée)",
+   "at": "2026-10-29T17:26:27+00:00"
+  },
   {
    "id": "96e987ccc812",
    "company": "ING",
