@@ -1,6 +1,86 @@
 {
- "updated": "2026-10-29T17:32:26+00:00",
+ "updated": "2026-10-29T22:06:55+00:00",
  "jobs": [
+  {
+   "id": "8f7739ac7e0e",
+   "company": "Cotra Autotransport AG",
+   "title": "Integration Engineer – Business Applications & Data 80-100% (m, w, d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/914efef8-ea31-40e8-ada4-5a28d4836989/",
+   "via": "jobup.ch",
+   "zone": "Suisse",
+   "country": "Suisse",
+   "contract": "CDI",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-09-01T02:33:45+02:00",
+   "seed": false,
+   "rv": 2,
+   "match": {
+    "score": 40,
+    "have": [
+     "sql",
+     "anglais"
+    ],
+    "missing": [
+     "snowflake",
+     "allemand",
+     "salesforce"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-10-29T22:05:06+00:00",
+   "last_seen": "2026-10-29T22:05:06+00:00"
+  },
+  {
+   "id": "7caa606d6350",
+   "company": "Société Générale",
+   "title": "Data Visualization Analyst",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/data-visualization-analyst-26000MAS-fr",
+   "via": null,
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDD",
+   "experience": "débutant accepté",
+   "junior": true,
+   "published": "2026-10-29",
+   "seed": false,
+   "rv": 2,
+   "match": {
+    "score": 67,
+    "have": [
+     "power bi",
+     "excel",
+     "qualité des données",
+     "tableaux de bord"
+    ],
+    "missing": [
+     "vba",
+     "sap"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-10-29T22:01:12+00:00",
+   "last_seen": "2026-10-29T22:01:12+00:00"
+  },
+  {
+   "id": "d582e25d1f0c",
+   "company": "Société Générale",
+   "title": "Business Analyste - Vente produits structurés",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/business-analyste-vente-produits-structures-26000KNA-fr",
+   "via": null,
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDD",
+   "experience": "débutant accepté",
+   "junior": true,
+   "published": "2026-10-29",
+   "seed": false,
+   "rv": 2,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-10-29T22:01:08+00:00",
+   "last_seen": "2026-10-29T22:01:08+00:00"
+  },
   {
    "id": "8f498534e207",
    "company": "SIX Group",
@@ -28,7 +108,7 @@
    "salary": null,
    "sponsor": "skilled",
    "first_seen": "2026-10-29T17:31:50+00:00",
-   "last_seen": "2026-10-29T17:31:50+00:00"
+   "last_seen": "2026-10-29T22:06:22+00:00"
   },
   {
    "id": "327b49e49fed",
@@ -47,7 +127,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-29T17:29:57+00:00",
-   "last_seen": "2026-10-29T17:29:57+00:00"
+   "last_seen": "2026-10-29T22:04:20+00:00"
   },
   {
    "id": "2dc2e84b47d5",
@@ -74,7 +154,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T17:26:22+00:00",
-   "last_seen": "2026-10-29T17:26:22+00:00"
+   "last_seen": "2026-10-29T22:01:29+00:00"
   },
   {
    "id": "4b8bd036748a",
@@ -107,7 +187,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T14:20:52+00:00",
-   "last_seen": "2026-10-29T17:30:38+00:00"
+   "last_seen": "2026-10-29T22:04:54+00:00"
   },
   {
    "id": "df8dfe28604b",
@@ -139,7 +219,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T14:20:44+00:00",
-   "last_seen": "2026-10-29T17:30:37+00:00"
+   "last_seen": "2026-10-29T22:04:54+00:00"
   },
   {
    "id": "3ca060478dbd",
@@ -168,7 +248,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:28:53+00:00",
-   "last_seen": "2026-10-29T17:31:25+00:00"
+   "last_seen": "2026-10-29T22:06:00+00:00"
   },
   {
    "id": "b9a0be535054",
@@ -226,7 +306,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:28:16+00:00",
-   "last_seen": "2026-10-29T10:57:25+00:00"
+   "last_seen": "2026-10-29T22:05:23+00:00"
   },
   {
    "id": "54e37897c3ae",
@@ -259,7 +339,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:28:07+00:00",
-   "last_seen": "2026-10-29T17:30:53+00:00"
+   "last_seen": "2026-10-29T22:05:23+00:00"
   },
   {
    "id": "d6974f5955a6",
@@ -278,7 +358,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-29T10:28:05+00:00",
-   "last_seen": "2026-10-29T17:30:53+00:00"
+   "last_seen": "2026-10-29T22:05:23+00:00"
   },
   {
    "id": "4b9b91a1656f",
@@ -310,7 +390,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:28:04+00:00",
-   "last_seen": "2026-10-29T17:30:53+00:00"
+   "last_seen": "2026-10-29T22:05:23+00:00"
   },
   {
    "id": "cf46f120bf80",
@@ -340,7 +420,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:28:00+00:00",
-   "last_seen": "2026-10-29T17:30:53+00:00"
+   "last_seen": "2026-10-29T22:05:23+00:00"
   },
   {
    "id": "72a9a945f81b",
@@ -359,7 +439,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-29T10:27:55+00:00",
-   "last_seen": "2026-10-29T17:30:48+00:00"
+   "last_seen": "2026-10-29T22:05:20+00:00"
   },
   {
    "id": "dab274884e02",
@@ -387,7 +467,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:27:54+00:00",
-   "last_seen": "2026-10-29T17:30:48+00:00"
+   "last_seen": "2026-10-29T22:05:20+00:00"
   },
   {
    "id": "bcaa9e9350f2",
@@ -417,7 +497,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:27:45+00:00",
-   "last_seen": "2026-10-29T17:30:48+00:00"
+   "last_seen": "2026-10-29T22:05:05+00:00"
   },
   {
    "id": "d7e4516fff26",
@@ -436,7 +516,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-29T10:27:37+00:00",
-   "last_seen": "2026-10-29T17:30:48+00:00"
+   "last_seen": "2026-10-29T22:05:05+00:00"
   },
   {
    "id": "c58eef5c3d9a",
@@ -465,7 +545,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:27:23+00:00",
-   "last_seen": "2026-10-29T17:30:38+00:00"
+   "last_seen": "2026-10-29T22:04:54+00:00"
   },
   {
    "id": "903bbe48ffba",
@@ -514,7 +594,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-29T10:27:20+00:00",
-   "last_seen": "2026-10-29T17:30:38+00:00"
+   "last_seen": "2026-10-29T22:04:54+00:00"
   },
   {
    "id": "e58ee0da019a",
@@ -533,7 +613,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-29T10:27:19+00:00",
-   "last_seen": "2026-10-29T17:30:38+00:00"
+   "last_seen": "2026-10-29T22:04:54+00:00"
   },
   {
    "id": "65ad705f0995",
@@ -561,7 +641,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:27:14+00:00",
-   "last_seen": "2026-10-29T17:30:38+00:00"
+   "last_seen": "2026-10-29T22:04:54+00:00"
   },
   {
    "id": "f8340aca03c6",
@@ -592,7 +672,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:27:05+00:00",
-   "last_seen": "2026-10-29T17:30:38+00:00"
+   "last_seen": "2026-10-29T22:04:54+00:00"
   },
   {
    "id": "cd3a9c28f5a8",
@@ -622,7 +702,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:27:03+00:00",
-   "last_seen": "2026-10-29T17:30:38+00:00"
+   "last_seen": "2026-10-29T22:04:54+00:00"
   },
   {
    "id": "33b675108649",
@@ -651,7 +731,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:27:02+00:00",
-   "last_seen": "2026-10-29T17:30:38+00:00"
+   "last_seen": "2026-10-29T22:04:54+00:00"
   },
   {
    "id": "c32969a21d88",
@@ -679,7 +759,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:26:55+00:00",
-   "last_seen": "2026-10-29T17:30:38+00:00"
+   "last_seen": "2026-10-29T22:04:54+00:00"
   },
   {
    "id": "13d3626e86f9",
@@ -721,7 +801,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:26:52+00:00",
-   "last_seen": "2026-10-29T17:30:37+00:00"
+   "last_seen": "2026-10-29T22:04:54+00:00"
   },
   {
    "id": "2ceb968a9668",
@@ -740,7 +820,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-29T10:26:46+00:00",
-   "last_seen": "2026-10-29T17:30:37+00:00"
+   "last_seen": "2026-10-29T22:04:54+00:00"
   },
   {
    "id": "49e9b9f023ad",
@@ -772,7 +852,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:26:39+00:00",
-   "last_seen": "2026-10-29T17:30:35+00:00"
+   "last_seen": "2026-10-29T22:04:52+00:00"
   },
   {
    "id": "47ae7550f550",
@@ -804,7 +884,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:26:36+00:00",
-   "last_seen": "2026-10-29T17:30:35+00:00"
+   "last_seen": "2026-10-29T22:04:52+00:00"
   },
   {
    "id": "8096a608d3ba",
@@ -840,7 +920,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:26:33+00:00",
-   "last_seen": "2026-10-29T17:30:35+00:00"
+   "last_seen": "2026-10-29T22:04:52+00:00"
   },
   {
    "id": "6219b5d66c6b",
@@ -859,7 +939,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-29T10:26:30+00:00",
-   "last_seen": "2026-10-29T17:30:35+00:00"
+   "last_seen": "2026-10-29T22:04:52+00:00"
   },
   {
    "id": "7ac708e3d27f",
@@ -897,7 +977,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:26:27+00:00",
-   "last_seen": "2026-10-29T17:30:35+00:00"
+   "last_seen": "2026-10-29T22:04:52+00:00"
   },
   {
    "id": "417e43af90e5",
@@ -926,7 +1006,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:26:19+00:00",
-   "last_seen": "2026-10-29T17:30:35+00:00"
+   "last_seen": "2026-10-29T22:04:52+00:00"
   },
   {
    "id": "4bebdcca4697",
@@ -946,7 +1026,7 @@
    "salary": null,
    "sponsor": "skilled",
    "first_seen": "2026-10-29T10:23:12+00:00",
-   "last_seen": "2026-10-29T17:27:59+00:00"
+   "last_seen": "2026-10-29T22:02:28+00:00"
   },
   {
    "id": "77d6a6774f0a",
@@ -963,7 +1043,7 @@
    "rv": 2,
    "match": null,
    "first_seen": "2026-10-28T10:34:45+00:00",
-   "last_seen": "2026-10-29T17:27:36+00:00"
+   "last_seen": "2026-10-29T22:02:05+00:00"
   },
   {
    "id": "76bc150e9b01",
@@ -992,7 +1072,7 @@
     "missing": []
    },
    "first_seen": "2026-10-28T10:34:36+00:00",
-   "last_seen": "2026-10-29T17:27:36+00:00"
+   "last_seen": "2026-10-29T22:02:05+00:00"
   },
   {
    "id": "4e80bd2f5d16",
@@ -1052,7 +1132,7 @@
     ]
    },
    "first_seen": "2026-10-27T20:42:04+00:00",
-   "last_seen": "2026-10-29T17:27:36+00:00"
+   "last_seen": "2026-10-29T22:02:05+00:00"
   },
   {
    "id": "deb616687b85",
@@ -1067,7 +1147,7 @@
    "published": "2026-10-27T06:16:00+00:00",
    "seed": false,
    "first_seen": "2026-10-27T09:22:13+00:00",
-   "last_seen": "2026-10-29T17:27:59+00:00",
+   "last_seen": "2026-10-29T22:02:28+00:00",
    "rv": 2,
    "match": null
   },
@@ -1084,7 +1164,7 @@
    "published": "2026-10-18",
    "seed": false,
    "first_seen": "2026-10-26T16:49:33+00:00",
-   "last_seen": "2026-10-29T17:27:36+00:00",
+   "last_seen": "2026-10-29T22:02:05+00:00",
    "rv": 2,
    "match": {
     "score": 100,
@@ -1109,7 +1189,7 @@
    "published": "2026-10-26",
    "seed": false,
    "first_seen": "2026-10-26T16:49:15+00:00",
-   "last_seen": "2026-10-29T17:27:36+00:00",
+   "last_seen": "2026-10-29T22:02:05+00:00",
    "rv": 2,
    "match": null
   },
@@ -1186,7 +1266,7 @@
    "published": "2026-10-09T02:01:00+00:00",
    "seed": true,
    "first_seen": "2026-10-26T10:09:34+00:00",
-   "last_seen": "2026-10-29T17:31:46+00:00",
+   "last_seen": "2026-10-29T22:06:22+00:00",
    "rv": 2,
    "match": {
     "score": 50,
@@ -1213,7 +1293,7 @@
    "published": "2026-10-13T00:00:00+00:00",
    "seed": true,
    "first_seen": "2026-10-26T10:09:31+00:00",
-   "last_seen": "2026-10-29T17:31:46+00:00",
+   "last_seen": "2026-10-29T22:06:22+00:00",
    "rv": 2,
    "match": {
     "score": 57,
@@ -1314,7 +1394,7 @@
    "published": "2026-10-23",
    "seed": false,
    "first_seen": "2026-10-24T00:43:13+00:00",
-   "last_seen": "2026-10-29T17:30:30+00:00",
+   "last_seen": "2026-10-29T22:04:47+00:00",
    "country": "Suisse",
    "rv": 2,
    "match": {
@@ -1340,7 +1420,7 @@
    "published": "2026-07-30",
    "seed": true,
    "first_seen": "2026-10-23T23:34:56+00:00",
-   "last_seen": "2026-10-29T17:30:12+00:00",
+   "last_seen": "2026-10-29T22:04:30+00:00",
    "country": "France",
    "rv": 2,
    "match": {
@@ -1384,7 +1464,7 @@
    "published": "2026-10-23T10:37:00+00:00",
    "seed": false,
    "first_seen": "2026-10-23T14:27:55+00:00",
-   "last_seen": "2026-10-29T17:27:59+00:00",
+   "last_seen": "2026-10-29T22:02:28+00:00",
    "country": "Suisse",
    "rv": 2,
    "match": null
@@ -1401,7 +1481,7 @@
    "published": "2026-10-22",
    "seed": false,
    "first_seen": "2026-10-23T14:27:38+00:00",
-   "last_seen": "2026-10-29T17:27:36+00:00",
+   "last_seen": "2026-10-29T22:02:05+00:00",
    "country": "France",
    "rv": 2,
    "match": {
@@ -1481,7 +1561,7 @@
    "published": "2026-10-23T09:23:46+00:00",
    "seed": false,
    "first_seen": "2026-10-23T09:29:55+00:00",
-   "last_seen": "2026-10-29T17:24:34+00:00",
+   "last_seen": "2026-10-29T21:59:37+00:00",
    "country": "France",
    "rv": 2,
    "match": null
@@ -1582,7 +1662,7 @@
    "published": "2026-10-14T10:27:00+00:00",
    "seed": false,
    "first_seen": "2026-10-22T08:15:53+00:00",
-   "last_seen": "2026-10-29T17:27:59+00:00",
+   "last_seen": "2026-10-29T22:02:28+00:00",
    "country": "Suisse",
    "rv": 2,
    "match": null
@@ -1655,7 +1735,7 @@
    "published": "2026-10-21",
    "seed": false,
    "first_seen": "2026-10-21T09:20:06+00:00",
-   "last_seen": "2026-10-29T17:30:02+00:00",
+   "last_seen": "2026-10-29T22:04:20+00:00",
    "country": "Suisse",
    "rv": 2,
    "match": {
@@ -1840,7 +1920,7 @@
    "published": "2026-10-20",
    "seed": false,
    "first_seen": "2026-10-20T17:32:57+00:00",
-   "last_seen": "2026-10-29T17:27:36+00:00",
+   "last_seen": "2026-10-29T22:02:05+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 2,
@@ -1977,7 +2057,7 @@
    "published": "2026-10-08",
    "seed": false,
    "first_seen": "2026-10-20T13:58:07+00:00",
-   "last_seen": "2026-10-29T17:27:36+00:00",
+   "last_seen": "2026-10-29T22:02:05+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 2,
@@ -2006,7 +2086,7 @@
    "published": "2026-10-13",
    "seed": false,
    "first_seen": "2026-10-20T13:57:40+00:00",
-   "last_seen": "2026-10-29T17:27:36+00:00",
+   "last_seen": "2026-10-29T22:02:05+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 2,
@@ -2034,7 +2114,7 @@
    "published": "2026-10-14",
    "seed": false,
    "first_seen": "2026-10-20T13:57:31+00:00",
-   "last_seen": "2026-10-29T17:27:36+00:00",
+   "last_seen": "2026-10-29T22:02:05+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 2,
@@ -2082,7 +2162,7 @@
    "published": "2026-10-18",
    "seed": false,
    "first_seen": "2026-10-20T13:56:36+00:00",
-   "last_seen": "2026-10-29T17:27:36+00:00",
+   "last_seen": "2026-10-29T22:02:05+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 2,
@@ -2155,7 +2235,7 @@
    "published": "2026-10-15",
    "seed": true,
    "first_seen": "2026-10-20T13:24:49+00:00",
-   "last_seen": "2026-10-29T17:30:02+00:00",
+   "last_seen": "2026-10-29T22:04:20+00:00",
    "country": "France",
    "rv": 2,
    "match": null
@@ -2186,7 +2266,7 @@
    "published": "Tue, 13 Oct 2026 12:22:49 Z",
    "seed": true,
    "first_seen": "2026-10-20T13:24:10+00:00",
-   "last_seen": "2026-10-29T17:24:34+00:00",
+   "last_seen": "2026-10-29T21:59:37+00:00",
    "country": "France",
    "rv": 2,
    "match": null
@@ -2217,7 +2297,7 @@
    "published": "Fri, 16 Oct 2026 13:25:34 Z",
    "seed": true,
    "first_seen": "2026-10-20T13:24:07+00:00",
-   "last_seen": "2026-10-29T17:24:34+00:00",
+   "last_seen": "2026-10-29T21:59:37+00:00",
    "country": "France",
    "rv": 2,
    "match": null
