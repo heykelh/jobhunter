@@ -254,8 +254,7 @@ jobhunter/                     ← racine du dépôt
 │  ├─ cv.html, cv-docx.js, cv-pdf.js   éditeur et export du CV
 │  ├─ middleware.js, package.json      mot de passe du site
 │  ├─ manifest.webmanifest, sw.js, icon-*.png, apple-touch-icon.png   appli installable
-│  ├─ fonts/                   police Kanit (hébergée avec le site, licence OFL)
-│  ├─ flags/                   drapeaux des pays (images SVG, lisibles sous Windows)
+│  ├─ kanit.css                police Kanit intégrée (licence SIL OFL) ; les drapeaux sont intégrés à index.html
 │  └─ data/                    écrit par le robot : jobs.json, rejected.json, health.json, cv/…
 ├─ state/state.json            mémoire du robot (entreprises déjà initialisées, curseurs)
 └─ tests/test_filters.py       tests des filtres (python -m pytest -q)

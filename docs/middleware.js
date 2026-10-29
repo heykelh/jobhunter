@@ -4,7 +4,7 @@
 // Fichiers d'installation de l'appli (sans donnée perso) : servis sans mot de passe,
 // car le téléphone les télécharge sans transmettre l'identifiant.
 const PUBLIC = new Set(["/manifest.webmanifest", "/sw.js", "/icon-192.png", "/icon-512.png",
-                        "/icon-maskable-512.png", "/apple-touch-icon.png", "/favicon.ico"]);
+                        "/icon-maskable-512.png", "/apple-touch-icon.png", "/favicon.ico", "/kanit.css"]);
 
 export default function middleware(request) {
   const path = new URL(request.url).pathname;

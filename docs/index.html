@@ -2,224 +2,287 @@
 <html lang="fr">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>JobHunter</title>
 <meta name="robots" content="noindex">
-<meta name="theme-color" content="#0b1211">
+<meta name="theme-color" content="#0f1c2e">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%2322d3a5'/%3E%3Cstop offset='1' stop-color='%230e7a64'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='url(%23g)'/%3E%3Cg fill='none' stroke='%23fff' stroke-width='5'%3E%3Ccircle cx='32' cy='32' r='19'/%3E%3Ccircle cx='32' cy='32' r='9'/%3E%3C/g%3E%3Ccircle cx='32' cy='32' r='2.5' fill='%23fff'/%3E%3C/svg%3E">
 <link rel="manifest" href="manifest.webmanifest" crossorigin="use-credentials">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="JobHunter">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<link rel="icon" href="icon-192.png">
-<link rel="stylesheet" href="fonts/kanit.css">
+<link rel="stylesheet" href="kanit.css">
 <style>
   :root {
-    /* Bandeau sombre */
-    --night: #0b1211; --night-2: #12201d; --night-line: rgba(255,255,255,.09); --night-ink: #eef3f1; --night-muted: #93a6a0;
-    /* Contenu clair */
-    --bg: #f2f1ec; --surface: #ffffff; --ink: #14201d; --muted: #66726e; --line: #e2e0d8;
-    --accent: #0e7a64; --accent-2: #19c39a; --accent-soft: #e0f3ed;
-    --new: #c2410c; --new-soft: #fdeee4; --warn: #9a6a00; --warn-soft: #fbf1d4; --bad: #b42318; --bad-soft: #fde8e6;
-    --radius: 16px; --shadow: 0 1px 2px rgba(16,24,22,.05), 0 8px 24px rgba(16,24,22,.06);
-    font-family: "Kanit", ui-sans-serif, system-ui, sans-serif;
+    --board: #0f1c2e;      /* bleu nuit des panneaux de gare */
+    --board-2: #142640;
+    --board-line: #22385a;
+    --board-ink: #e6edf7;
+    --board-muted: #8ea2bf;
+    --amber: #f5b83d;      /* affichage des départs */
+    --paper: #eef1f5;      /* contenu */
+    --surface: #ffffff;
+    --ink: #172233;
+    --muted: #5d6b80;
+    --rule: #dbe1e9;
+    --brand: #17b890;      /* vert du logo : positif */
+    --brand-ink: #0b7d61;
+    --brand-soft: #def5ee;
+    --signal: #d9473f;     /* alerte */
+    --signal-soft: #fbe7e5;
+    --caution: #a86b00;
+    --caution-soft: #fdf1d8;
+    --font: "Kanit", system-ui, sans-serif;
   }
   * { box-sizing: border-box; }
-  html, body, button, input, select, textarea { font-family: "Kanit", ui-sans-serif, system-ui, sans-serif; }
-  body { margin: 0; background: var(--bg); color: var(--ink); font-size: 15px; line-height: 1.45; font-weight: 400; }
+  html { -webkit-text-size-adjust: 100%; }
+  body, button, input, select, textarea { font-family: var(--font); }
+  body { margin: 0; background: var(--paper); color: var(--ink); font-size: 15px; line-height: 1.5; font-weight: 400; }
   [hidden] { display: none !important; }
-  .wrap { max-width: 920px; margin: 0 auto; padding: 0 16px; }
-  .ico { width: 15px; height: 15px; flex: none; vertical-align: -2px; }
-  img.flag { width: 20px; height: 15px; border-radius: 3px; object-fit: cover; vertical-align: -2px; flex: none;
-             box-shadow: 0 0 0 1px rgba(0,0,0,.08); }
+  a { color: inherit; }
+  :focus-visible { outline: 2px solid var(--amber); outline-offset: 2px; border-radius: 6px; }
+  .wrap { max-width: 1000px; margin: 0 auto; padding: 0 20px; }
+  .ico { width: 16px; height: 16px; flex: none; }
+  img.flag { width: 21px; height: 15px; border-radius: 2px; object-fit: cover; flex: none; box-shadow: 0 0 0 1px rgba(0,0,0,.12); }
 
-  /* ---------- Bandeau sombre ---------- */
-  .hero { background: radial-gradient(1200px 400px at 85% -10%, rgba(25,195,154,.22), transparent 60%),
-                      linear-gradient(180deg, var(--night) 0%, var(--night-2) 100%);
-          color: var(--night-ink); padding: 26px 0 0; }
-  header { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
-  .brand { display: flex; align-items: center; gap: 11px; }
-  .brand .logo { width: 38px; height: 38px; border-radius: 11px; background: linear-gradient(135deg, var(--accent-2), var(--accent));
-                 display: grid; place-items: center; box-shadow: 0 6px 18px rgba(25,195,154,.35); }
-  h1 { margin: 0; font-size: 28px; font-weight: 600; letter-spacing: -.01em; }
-  h1 span { color: var(--accent-2); }
-  .head-actions { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; justify-content: flex-end; }
-  .updated { color: var(--night-muted); font-size: 13px; display: inline-flex; align-items: center; gap: 6px; }
-  .updated::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--accent-2); box-shadow: 0 0 0 3px rgba(25,195,154,.2); }
-  .criteria { margin: 12px 0 0; color: var(--night-muted); font-size: 13px; font-weight: 300; }
-  .criteria b { color: var(--night-ink); font-weight: 500; }
-  .welcome { font-size: 17px; font-weight: 300; margin: 20px 0 16px; color: var(--night-ink); }
-  .welcome b { color: #ffb37a; font-weight: 500; }
-  .ios-hint { background: rgba(255,255,255,.06); border: 1px solid var(--night-line); color: var(--night-ink); border-radius: 12px;
-              padding: 10px 14px; font-size: 13.5px; margin: 16px 0 0; display: flex; gap: 10px; justify-content: space-between; align-items: center; }
-  .ios-hint button { background: none; border: 0; color: var(--night-muted); cursor: pointer; font-size: 20px; line-height: 1; }
+  /* ======================= Tableau des départs (partie sombre) ======================= */
+  .board { background: var(--board); color: var(--board-ink); padding: 22px 0 0;
+           background-image: linear-gradient(180deg, var(--board) 0%, var(--board-2) 100%); }
+  .topbar { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+  .brand svg { width: 40px; height: 40px; flex: none; }
+  .brand .name { font-size: 26px; font-weight: 600; letter-spacing: -.01em; line-height: 1; }
+  .brand .name span { color: var(--brand); }
+  .topbar .right { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; color: var(--board-muted); font-size: 13.5px; font-weight: 300; }
+  .live { display: inline-flex; align-items: center; gap: 7px; }
+  .live::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--brand); box-shadow: 0 0 0 3px rgba(23,184,144,.22); }
+  .btn-board { font-size: 13.5px; padding: 7px 13px; border-radius: 8px; border: 1px solid var(--board-line);
+               background: transparent; color: var(--board-ink); cursor: pointer; }
+  .criteria { margin: 14px 0 0; color: var(--board-muted); font-size: 13.5px; font-weight: 300; max-width: 80ch; }
+  .criteria strong { color: var(--board-ink); font-weight: 500; }
+  .ios-hint { margin: 14px 0 0; padding: 10px 14px; border: 1px solid var(--board-line); border-radius: 10px; font-size: 13.5px;
+              display: flex; justify-content: space-between; gap: 12px; align-items: center; }
+  .ios-hint button { background: none; border: 0; color: var(--board-muted); font-size: 22px; line-height: 1; cursor: pointer; }
 
-  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
-  .stat { background: rgba(255,255,255,.045); border: 1px solid var(--night-line); border-radius: 14px; padding: 14px 16px; }
-  .stat .n { font-size: 30px; font-weight: 600; line-height: 1.1; font-variant-numeric: tabular-nums; }
-  .stat .l { color: var(--night-muted); font-size: 12.5px; font-weight: 300; margin-top: 2px; }
-  .stat.alert { border-color: rgba(255,179,122,.45); background: rgba(255,140,60,.1); }
-  .stat.alert .n { color: #ffb37a; }
-  #s-relance-box { cursor: pointer; }
+  .departures { margin-top: 22px; border: 1px solid var(--board-line); border-radius: 12px; overflow: hidden; background: rgba(0,0,0,.18); }
+  .dep-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding: 14px 18px 10px; }
+  .dep-head h2 { margin: 0; font-size: 18px; font-weight: 500; }
+  .dep-head .sub { color: var(--board-muted); font-size: 13px; font-weight: 300; }
+  table.dep { width: 100%; border-collapse: collapse; }
+  table.dep th { text-align: left; font-size: 12.5px; font-weight: 400; color: var(--board-muted); padding: 6px 18px; border-bottom: 1px solid var(--board-line); }
+  table.dep td { padding: 11px 18px; border-bottom: 1px solid rgba(34,56,90,.6); vertical-align: middle; }
+  table.dep tr:last-child td { border-bottom: 0; }
+  table.dep tbody tr { cursor: pointer; }
+  table.dep tbody tr:hover td { background: rgba(255,255,255,.03); }
+  .d-time { color: var(--amber); font-weight: 600; font-size: 19px; font-variant-numeric: tabular-nums; letter-spacing: .02em; white-space: nowrap; width: 1%; }
+  .d-co { font-weight: 500; white-space: nowrap; max-width: 200px; overflow: hidden; text-overflow: ellipsis; }
+  .d-job { color: var(--board-ink); font-weight: 300; }
+  .d-job a { text-decoration: none; }
+  .d-dest { white-space: nowrap; }
+  .d-dest span { display: inline-flex; align-items: center; gap: 8px; }
+  .d-state { text-align: right; white-space: nowrap; width: 1%; }
+  .state { display: inline-block; font-size: 12.5px; font-weight: 500; padding: 3px 9px; border-radius: 5px; }
+  .state.new { background: var(--amber); color: #1d1300; }
+  .state.relance { background: var(--signal); color: #fff; }
+  .state.applied { background: rgba(23,184,144,.18); color: #5fe3bf; }
+  .state.on { color: var(--board-muted); padding-left: 0; padding-right: 0; font-weight: 400; }
+  .dep-empty { padding: 18px; color: var(--board-muted); font-weight: 300; }
+  @media (prefers-reduced-motion: no-preference) {
+    table.dep tbody tr { animation: flip .45s cubic-bezier(.2,.7,.3,1) both; animation-delay: calc(var(--i) * 70ms); }
+    @keyframes flip { from { opacity: 0; transform: perspective(600px) rotateX(-70deg); transform-origin: top; } to { opacity: 1; transform: none; } }
+  }
 
-  nav.tabs { display: flex; gap: 4px; margin-top: 22px; overflow-x: auto; scrollbar-width: none; }
-  nav.tabs button { background: none; border: 0; padding: 12px 16px 13px; font-size: 14.5px; font-weight: 400; color: var(--night-muted);
-                    cursor: pointer; white-space: nowrap; border-radius: 12px 12px 0 0; }
-  nav.tabs button:hover { color: var(--night-ink); }
-  nav.tabs button[aria-selected="true"] { background: var(--bg); color: var(--ink); font-weight: 500; }
+  .ticker { display: flex; flex-wrap: wrap; gap: 0; margin: 14px 0 0; border-top: 1px solid var(--board-line); }
+  .ticker > div { padding: 12px 22px 12px 0; margin-right: 22px; border-right: 1px solid var(--board-line); font-size: 14px; color: var(--board-muted); font-weight: 300; }
+  .ticker > div:last-child { border-right: 0; }
+  .ticker b { color: var(--board-ink); font-weight: 600; font-size: 20px; margin-right: 6px; font-variant-numeric: tabular-nums; }
+  .ticker .hot b { color: var(--amber); }
+  .ticker .alarm { cursor: pointer; }
+  .ticker .alarm b { color: #ff8a80; }
 
-  /* ---------- Contenu clair ---------- */
-  main { padding-top: 18px; padding-bottom: 60px; }
-  .countries { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
-  .countries button { font-size: 14px; padding: 7px 14px 7px 11px; border-radius: 999px; cursor: pointer; display: inline-flex; align-items: center; gap: 7px;
-    border: 1px solid var(--line); background: var(--surface); color: var(--ink); }
-  .countries button .c { color: var(--muted); font-variant-numeric: tabular-nums; font-size: 13px; }
-  .countries button[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: #fff; }
-  .countries button[aria-pressed="true"] .c { color: rgba(255,255,255,.7); }
-  .filters { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
-  .filters input[type=search], .filters select {
-    flex: 1 1 180px; min-width: 0; padding: 10px 13px; border-radius: 12px; border: 1px solid var(--line);
-    background: var(--surface); color: var(--ink); font-size: 14px; }
-  .filters input:focus, .filters select:focus, textarea:focus { outline: 2px solid var(--accent-2); outline-offset: 1px; }
-  .toggle { display: inline-flex; align-items: center; gap: 7px; padding: 8px 13px; border-radius: 999px;
-            border: 1px solid var(--line); background: var(--surface); font-size: 13.5px; cursor: pointer; user-select: none; }
-  .toggle input { accent-color: var(--accent); }
+  nav.tabs { display: flex; gap: 6px; margin-top: 8px; overflow-x: auto; scrollbar-width: none; }
+  nav.tabs::-webkit-scrollbar { display: none; }
+  nav.tabs button { flex: none; background: none; border: 0; cursor: pointer; padding: 12px 18px 14px; font-size: 15px; font-weight: 400;
+                    color: var(--board-muted); border-radius: 10px 10px 0 0; }
+  nav.tabs button:hover { color: var(--board-ink); }
+  nav.tabs button[aria-selected="true"] { background: var(--paper); color: var(--ink); font-weight: 500; }
+  nav.tabs .count { font-size: 12.5px; margin-left: 4px; opacity: .7; }
 
-  .card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
-          padding: 16px 18px; margin-bottom: 12px; box-shadow: var(--shadow); transition: border-color .15s; }
-  .card:hover { border-color: #cfccc1; }
-  .card.applied { opacity: .6; }
-  .row1 { display: flex; justify-content: space-between; gap: 10px; align-items: center; }
-  .company { display: inline-flex; align-items: center; gap: 8px; font-size: 12.5px; font-weight: 600; letter-spacing: .05em;
-             text-transform: uppercase; color: var(--accent); min-width: 0; }
-  .via { font-weight: 300; text-transform: none; letter-spacing: 0; color: var(--muted); }
-  .when { font-size: 12.5px; color: var(--muted); white-space: nowrap; }
-  .title { display: block; margin: 6px 0 8px; font-size: 18px; font-weight: 500; line-height: 1.3; color: var(--ink); text-decoration: none; }
-  .title:hover { color: var(--accent); }
-  .dates { display: flex; flex-wrap: wrap; gap: 4px 20px; margin: 0 0 11px; font-size: 13px; font-weight: 500; }
-  .dates .dl { font-weight: 300; color: var(--muted); margin-right: 4px; }
-  .tags { display: flex; gap: 6px; flex-wrap: wrap; }
-  .tag { display: inline-flex; align-items: center; gap: 5px; font-size: 12.5px; padding: 3px 10px; border-radius: 999px;
-         background: var(--bg); border: 1px solid var(--line); color: #4b5653; }
-  .tag .ico { width: 13px; height: 13px; }
-  .tag.new { background: var(--new); color: #fff; border-color: transparent; font-weight: 500; letter-spacing: .04em; }
-  .tag.junior { background: var(--accent-soft); color: var(--accent); border-color: transparent; }
-  .tag.gone { background: var(--warn-soft); color: var(--warn); border-color: transparent; }
-  .tag.relance { background: var(--new-soft); color: var(--new); border-color: transparent; font-weight: 500; }
-  .tag.sp-ok { background: var(--accent-soft); color: var(--accent); border-color: transparent; font-weight: 500; }
-  .tag.sp-mid { background: var(--warn-soft); color: var(--warn); border-color: transparent; }
-  .tag.sp-ko { background: var(--bad-soft); color: var(--bad); border-color: transparent; }
+  /* ======================= Contenu (partie claire) ======================= */
+  main.wrap { padding-top: 30px; padding-bottom: 72px; }
+  .countries { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+  .countries button { display: inline-flex; align-items: center; gap: 8px; padding: 8px 14px; border-radius: 8px; font-size: 14.5px;
+                      background: var(--surface); color: var(--ink); border: 1px solid var(--rule); cursor: pointer; }
+  .countries button .n { color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; }
+  .countries button[aria-pressed="true"] { background: var(--board); color: #fff; border-color: var(--board); }
+  .countries button[aria-pressed="true"] .n { color: var(--amber); }
+  .filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 22px; }
+  .filters input[type=search], .filters select { flex: 1 1 190px; min-width: 0; font-size: 14.5px; padding: 10px 13px; border-radius: 8px;
+         border: 1px solid var(--rule); background: var(--surface); color: var(--ink); }
+  .toggle { display: inline-flex; align-items: center; gap: 8px; padding: 9px 13px; border-radius: 8px; border: 1px solid var(--rule);
+            background: var(--surface); font-size: 14px; cursor: pointer; user-select: none; }
+  .toggle input { accent-color: var(--board); width: 15px; height: 15px; margin: 0; }
 
-  .score { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 600; padding: 4px 11px 4px 8px; border-radius: 999px; white-space: nowrap; }
-  .score .ring { width: 18px; height: 18px; border-radius: 50%; flex: none;
-                 background: conic-gradient(currentColor calc(var(--p) * 1%), rgba(0,0,0,.1) 0); -webkit-mask: radial-gradient(circle 5px, transparent 98%, #000 100%);
-                 mask: radial-gradient(circle 5px, transparent 98%, #000 100%); }
-  .score.hi { background: var(--accent-soft); color: var(--accent); }
-  .score.mid { background: var(--warn-soft); color: var(--warn); }
-  .score.lo { background: var(--bad-soft); color: var(--bad); }
-  details.skills { margin-top: 10px; font-size: 13px; }
-  details.skills summary { cursor: pointer; color: var(--muted); font-weight: 300; }
-  .chips { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 7px; }
-  .chip { font-size: 12px; padding: 2px 9px; border-radius: 999px; }
-  .chip.ok { background: var(--accent-soft); color: var(--accent); }
-  .chip.ko { background: var(--bad-soft); color: var(--bad); }
+  /* Une offre = un billet : souche (date) | corps */
+  .ticket { display: grid; grid-template-columns: 104px 1fr; background: var(--surface); border: 1px solid var(--rule); border-radius: 12px;
+            margin-bottom: 12px; overflow: hidden; }
+  .ticket.dim { opacity: .62; }
+  .stub { padding: 16px 12px; text-align: center; border-right: 2px dashed var(--rule); background: #f8fafc; display: flex; flex-direction: column; align-items: center; gap: 2px; }
+  .stub .day { font-size: 34px; font-weight: 600; line-height: 1; font-variant-numeric: tabular-nums; }
+  .stub .mon { font-size: 14px; font-weight: 500; color: var(--muted); }
+  .stub .cap { font-size: 11.5px; color: var(--muted); font-weight: 300; margin-top: 6px; line-height: 1.3; }
+  .stub .nd { font-size: 13px; color: var(--muted); font-weight: 300; }
+  .body { padding: 15px 18px 16px; min-width: 0; }
+  .line1 { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+  .who { display: inline-flex; align-items: center; gap: 9px; min-width: 0; font-size: 14px; font-weight: 500; color: var(--brand-ink); }
+  .who .co { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .who .via { color: var(--muted); font-weight: 300; white-space: nowrap; }
+  .jt { display: block; margin: 5px 0 9px; font-size: 19px; font-weight: 500; line-height: 1.3; text-decoration: none; color: var(--ink); }
+  .jt:hover { color: var(--brand-ink); }
+  .facts { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 14px; color: #3b4a5e; }
+  .facts span { display: inline-flex; align-items: center; gap: 6px; }
+  .facts .ico { width: 15px; height: 15px; color: var(--muted); }
+  .facts .good { color: var(--brand-ink); } .facts .good .ico { color: var(--brand); }
+  .facts .warn { color: var(--caution); } .facts .warn .ico { color: var(--caution); }
+  .facts .bad { color: var(--signal); } .facts .bad .ico { color: var(--signal); }
+  .flags { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 10px; }
+  .pill { font-size: 12.5px; font-weight: 500; padding: 2px 9px; border-radius: 5px; }
+  .pill.new { background: var(--amber); color: #1d1300; }
+  .pill.relance { background: var(--signal-soft); color: var(--signal); }
+  .pill.gone { background: var(--caution-soft); color: var(--caution); }
 
-  .actions { display: flex; gap: 8px; margin-top: 14px; flex-wrap: wrap; align-items: center; }
-  .btn { display: inline-flex; align-items: center; gap: 7px; font-size: 13.5px; font-weight: 400; padding: 8px 14px; border-radius: 11px;
-         border: 1px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer; text-decoration: none; }
-  .btn:hover { border-color: #c7c4b8; }
-  .btn.primary { background: var(--ink); color: #fff; border-color: var(--ink); font-weight: 500; }
-  .btn.primary:hover { background: var(--accent); border-color: var(--accent); }
-  .btn.ghost-dark { background: rgba(255,255,255,.08); border-color: var(--night-line); color: var(--night-ink); }
-  select.status { font-size: 13.5px; padding: 8px 12px; border-radius: 11px; border: 1px solid var(--line);
-                  background: var(--surface); color: var(--ink); cursor: pointer; }
-  select.status.set { background: var(--accent-soft); color: var(--accent); border-color: transparent; font-weight: 500; }
+  .gauge { display: inline-flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 600; white-space: nowrap; color: var(--ink); }
+  .gauge svg { width: 30px; height: 30px; transform: rotate(-90deg); }
+  .gauge .track { stroke: var(--rule); }
+  .gauge.hi .arc { stroke: var(--brand); } .gauge.mid .arc { stroke: var(--amber); } .gauge.lo .arc { stroke: var(--signal); }
+  .gauge small { font-weight: 300; color: var(--muted); font-size: 12px; }
+  details.skills { margin-top: 10px; font-size: 13.5px; }
+  details.skills summary { cursor: pointer; color: var(--muted); font-weight: 300; width: fit-content; }
+  .chips { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 8px; }
+  .chip { font-size: 12.5px; padding: 2px 9px; border-radius: 5px; }
+  .chip.ok { background: var(--brand-soft); color: var(--brand-ink); }
+  .chip.ko { background: var(--signal-soft); color: var(--signal); text-decoration: line-through; text-decoration-thickness: 1px; }
 
-  .pipeline { display: flex; gap: 8px; margin-bottom: 16px; }
-  .pipeline .step { flex: 1 1 0; min-width: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; box-shadow: var(--shadow); }
-  .pipeline .step .n { font-size: 24px; font-weight: 600; }
-  .pipeline .step .l { font-size: 12.5px; color: var(--muted); line-height: 1.25; }
-  h2.group { font-size: 12.5px; font-weight: 500; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin: 22px 2px 10px; }
-  .app-meta { font-size: 13px; color: var(--muted); font-weight: 300; margin: -2px 0 10px; }
-  textarea.note { width: 100%; min-height: 56px; resize: vertical; font-size: 14px; padding: 9px 11px;
-                  border-radius: 11px; border: 1px solid var(--line); background: var(--bg); color: var(--ink); }
+  .actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; align-items: center; }
+  .btn { display: inline-flex; align-items: center; gap: 7px; font-size: 14px; padding: 8px 14px; border-radius: 8px; border: 1px solid var(--rule);
+         background: var(--surface); color: var(--ink); text-decoration: none; cursor: pointer; }
+  .btn:hover { border-color: #b9c3d1; }
+  .btn.go { background: var(--board); border-color: var(--board); color: #fff; font-weight: 500; }
+  .btn.go:hover { background: #1b3152; }
+  .btn.quiet { border-color: transparent; background: transparent; color: var(--muted); padding-left: 8px; padding-right: 8px; }
+  .btn.quiet:hover { color: var(--ink); }
+  select.status { font-size: 14px; padding: 8px 12px; border-radius: 8px; border: 1px solid var(--rule); background: var(--surface); color: var(--ink); cursor: pointer; }
+  select.status.set { background: var(--brand-soft); border-color: transparent; color: var(--brand-ink); font-weight: 500; }
 
-  .empty { text-align: center; color: var(--muted); padding: 48px 10px; font-weight: 300; }
-  .reason { font-size: 13px; color: var(--muted); margin-top: 2px; font-weight: 300; }
-  .hint { color: var(--muted); font-size: 13.5px; margin: 0 2px 14px; font-weight: 300; }
-  code { font-family: ui-monospace, Consolas, monospace; font-size: .92em; background: var(--bg); padding: 1px 5px; border-radius: 5px; }
-  table.health { width: 100%; border-collapse: separate; border-spacing: 0; background: var(--surface); border-radius: var(--radius);
-                 overflow: hidden; border: 1px solid var(--line); box-shadow: var(--shadow); }
-  table.health th, table.health td { text-align: left; padding: 11px 14px; border-bottom: 1px solid var(--line); font-size: 13.5px; vertical-align: top; }
-  table.health tr:last-child td { border-bottom: 0; }
-  table.health th { color: var(--muted); font-weight: 500; font-size: 12px; text-transform: uppercase; letter-spacing: .05em; background: #faf9f6; }
-  .pill { display: inline-block; font-size: 12px; padding: 2px 9px; border-radius: 999px; font-weight: 500; }
-  .pill.ok { background: var(--accent-soft); color: var(--accent); }
-  .pill.vide { background: var(--warn-soft); color: var(--warn); }
-  .pill.erreur { background: var(--bad-soft); color: var(--bad); }
-  .ai-status { font-size: 13.5px; }
-  .ai-status.good { border-left: 4px solid var(--accent-2); }
-  .ai-status.bad { border-left: 4px solid var(--bad); }
-  .err { color: var(--bad); font-size: 12px; word-break: break-word; }
+  /* Candidatures */
+  .steps { display: grid; grid-template-columns: repeat(5, 1fr); gap: 0; margin-bottom: 26px; background: var(--surface); border: 1px solid var(--rule); border-radius: 12px; overflow: hidden; }
+  .steps div { padding: 14px 16px; border-right: 1px solid var(--rule); }
+  .steps div:last-child { border-right: 0; }
+  .steps b { display: block; font-size: 26px; font-weight: 600; line-height: 1.1; }
+  .steps span { font-size: 13px; color: var(--muted); }
+  h3.group { font-size: 15px; font-weight: 500; margin: 24px 0 10px; display: flex; align-items: center; gap: 10px; }
+  h3.group .n { font-size: 13px; color: var(--muted); font-weight: 300; }
+  .app { background: var(--surface); border: 1px solid var(--rule); border-radius: 12px; padding: 15px 18px; margin-bottom: 10px; }
+  .app .meta { font-size: 13.5px; color: var(--muted); font-weight: 300; margin: 2px 0 10px; }
+  textarea.note { width: 100%; min-height: 58px; resize: vertical; font-size: 14px; padding: 9px 11px; border-radius: 8px; border: 1px solid var(--rule); background: #f8fafc; color: var(--ink); }
 
-  @media (max-width: 600px) {
-    .hero { padding-top: 20px; }
-    h1 { font-size: 24px; }
-    .stats { grid-template-columns: repeat(2, 1fr); }
-    .stat .n { font-size: 24px; }
-    .pipeline { gap: 5px; } .pipeline .step { padding: 9px 8px; } .pipeline .step .n { font-size: 20px; } .pipeline .step .l { font-size: 11px; }
-    .card { padding: 14px; }
-    .title { font-size: 17px; }
-    table.health th:nth-child(3), table.health td:nth-child(3) { display: none; }
+  /* Écartées / Sources */
+  .lead { color: var(--muted); font-size: 14px; font-weight: 300; margin: 0 0 16px; max-width: 75ch; }
+  .rej { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 12px 16px; margin-bottom: 8px; }
+  .rej .top { display: flex; justify-content: space-between; gap: 10px; font-size: 13.5px; color: var(--muted); }
+  .rej a { display: block; font-weight: 500; text-decoration: none; margin: 2px 0; }
+  .rej .why { font-size: 13.5px; color: var(--signal); font-weight: 300; }
+  .ai-box { background: var(--surface); border: 1px solid var(--rule); border-left: 4px solid var(--brand); border-radius: 10px; padding: 12px 16px; margin-bottom: 14px; font-size: 14px; }
+  .ai-box.bad { border-left-color: var(--signal); }
+  .ai-box .err { color: var(--signal); font-size: 13px; margin-top: 4px; word-break: break-word; }
+  table.src { width: 100%; border-collapse: separate; border-spacing: 0; background: var(--surface); border: 1px solid var(--rule); border-radius: 12px; overflow: hidden; }
+  table.src th, table.src td { text-align: left; padding: 11px 14px; border-bottom: 1px solid var(--rule); font-size: 14px; vertical-align: top; }
+  table.src th { font-weight: 400; color: var(--muted); font-size: 13px; background: #f8fafc; }
+  table.src tr:last-child td { border-bottom: 0; }
+  .st { font-size: 12.5px; font-weight: 500; padding: 2px 8px; border-radius: 5px; }
+  .st.ok { background: var(--brand-soft); color: var(--brand-ink); }
+  .st.vide { background: var(--caution-soft); color: var(--caution); }
+  .st.erreur { background: var(--signal-soft); color: var(--signal); }
+  .src .err { color: var(--signal); font-size: 12.5px; word-break: break-word; font-weight: 300; }
+  .empty { text-align: center; color: var(--muted); padding: 48px 12px; font-weight: 300; }
+  code { font-size: .9em; background: #e3e8ef; padding: 1px 5px; border-radius: 4px; }
+
+  @media (max-width: 680px) {
+    .wrap { padding: 0 14px; }
+    .brand .name { font-size: 22px; } .brand svg { width: 34px; height: 34px; }
+    table.dep thead { display: none; }
+    table.dep tr { display: grid; grid-template-columns: auto 1fr auto; column-gap: 12px; padding: 10px 14px; border-bottom: 1px solid rgba(34,56,90,.6); }
+    table.dep tr:last-child { border-bottom: 0; }
+    table.dep td { padding: 0; border: 0; }
+    .d-time { grid-row: 1 / span 2; font-size: 17px; align-self: center; }
+    .d-co { grid-column: 2; max-width: none; }
+    .d-job { grid-column: 2; grid-row: 2; font-size: 13.5px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .d-dest { display: none; }
+    .d-state { grid-column: 3; grid-row: 1 / span 2; align-self: center; }
+    .dep-head { flex-direction: column; gap: 2px; padding: 12px 14px 8px; }
+    .ticker { display: grid; grid-template-columns: 1fr 1fr; }
+    .ticker > div { padding: 10px 0; margin: 0; border-right: 0; border-bottom: 1px solid var(--board-line); font-size: 13px; }
+    .ticker > div:nth-last-child(-n+2) { border-bottom: 0; }
+    .ticker b { font-size: 18px; }
+    .ticket { grid-template-columns: 74px 1fr; }
+    .stub { padding: 14px 6px; } .stub .day { font-size: 26px; } .stub .cap { display: none; }
+    .body { padding: 13px 14px 14px; }
+    .jt { font-size: 17px; }
+    .steps { grid-template-columns: repeat(5, minmax(0, 1fr)); } .steps div { padding: 10px 8px; } .steps b { font-size: 20px; } .steps span { font-size: 11.5px; }
+    table.src th:nth-child(3), table.src td:nth-child(3) { display: none; }
   }
 </style>
 </head>
 <body>
-<div class="hero">
+
+<section class="board">
   <div class="wrap">
-    <header>
-      <div class="brand">
-        <div class="logo"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.2"/><circle cx="12" cy="12" r="0.6" fill="#fff"/></svg></div>
-        <h1>Job<span>Hunter</span></h1>
+    <div class="topbar">
+      <a class="brand" href="./" aria-label="JobHunter, accueil">
+        <svg viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22d3a5"/><stop offset="1" stop-color="#0e7a64"/></linearGradient></defs><rect width="64" height="64" rx="16" fill="url(#lg)"/><g fill="none" stroke="#fff" stroke-width="5"><circle cx="32" cy="32" r="19"/><circle cx="32" cy="32" r="9"/></g><circle cx="32" cy="32" r="2.5" fill="#fff"/></svg>
+        <span class="name">Job<span>Hunter</span></span>
+      </a>
+      <div class="right">
+        <button class="btn-board" id="install" hidden>Installer l'appli</button>
+        <span class="live" id="updated">Chargement…</span>
       </div>
-      <div class="head-actions">
-        <button class="btn ghost-dark" id="install" hidden>Installer l'appli</button>
-        <div class="updated" id="updated">Chargement…</div>
-      </div>
-    </header>
-    <div class="criteria" id="criteria"></div>
+    </div>
+    <p class="criteria" id="criteria"></p>
     <div class="ios-hint" id="ios-hint" hidden>
-      <span>Pour l'installer sur ton iPhone : bouton <b>Partager</b> puis <b>Sur l'écran d'accueil</b>.</span>
+      <span>Pour l'installer sur ton iPhone : bouton Partager, puis « Sur l'écran d'accueil ».</span>
       <button id="ios-close" aria-label="Fermer">×</button>
     </div>
-    <p class="welcome" id="welcome"></p>
 
-    <div class="stats">
-      <div class="stat"><div class="n" id="s-active">–</div><div class="l">offres en ligne</div></div>
-      <div class="stat"><div class="n" id="s-new">–</div><div class="l" id="s-new-l">nouvelles depuis ta visite</div></div>
-      <div class="stat"><div class="n" id="s-applied">–</div><div class="l">candidatures en cours</div></div>
-      <div class="stat" id="s-relance-box"><div class="n" id="s-relance">–</div><div class="l">à relancer</div></div>
+    <div class="departures">
+      <div class="dep-head"><h2>Dernières offres arrivées</h2><span class="sub" id="dep-sub"></span></div>
+      <table class="dep">
+        <thead><tr><th>Arrivée</th><th>Entreprise</th><th>Poste</th><th>Destination</th><th style="text-align:right">État</th></tr></thead>
+        <tbody id="dep"></tbody>
+      </table>
     </div>
+
+    <div class="ticker" id="ticker"></div>
 
     <nav class="tabs" role="tablist">
       <button role="tab" data-tab="jobs" aria-selected="true">Offres</button>
-      <button role="tab" data-tab="apps" aria-selected="false">Mes candidatures <span id="apps-count"></span></button>
+      <button role="tab" data-tab="apps" aria-selected="false">Mes candidatures<span class="count" id="apps-count"></span></button>
       <button role="tab" data-tab="rejected" aria-selected="false">Écartées</button>
       <button role="tab" data-tab="health" aria-selected="false">Sources</button>
     </nav>
   </div>
-</div>
+</section>
 
 <main class="wrap">
   <section id="tab-jobs">
-    <div class="countries" id="countries" role="group" aria-label="Pays"></div>
+    <div class="countries" id="countries" role="group" aria-label="Filtrer par pays"></div>
     <div class="filters">
-      <input type="search" id="q" placeholder="Rechercher un titre…">
-      <select id="company"><option value="">Toutes les entreprises</option></select>
+      <input type="search" id="q" placeholder="Rechercher un intitulé" aria-label="Rechercher un intitulé">
+      <select id="company" aria-label="Entreprise"><option value="">Toutes les entreprises</option></select>
       <select id="sort" aria-label="Trier">
-        <option value="date">Plus récentes d'abord</option>
-        <option value="score">Meilleure correspondance d'abord</option>
+        <option value="date">Les plus récentes</option>
+        <option value="score">Meilleure correspondance</option>
       </select>
       <label class="toggle"><input type="checkbox" id="only-new"> Nouvelles</label>
       <label class="toggle"><input type="checkbox" id="hide-applied"> Masquer suivies</label>
@@ -229,19 +292,19 @@
   </section>
 
   <section id="tab-apps" hidden>
-    <p class="hint">Ton suivi : change l'étape d'une offre depuis sa carte ou ici. Une candidature passe « à relancer » 7 jours après l'envoi (ou après ta dernière relance). Ce suivi est enregistré sur cet appareil.</p>
-    <div class="pipeline" id="pipeline"></div>
+    <p class="lead">Change l'étape depuis une offre ou ici. Une candidature passe « à relancer » 7 jours après l'envoi ou après ta dernière relance. Ce suivi est enregistré sur cet appareil.</p>
+    <div class="steps" id="pipeline"></div>
     <div id="apps"></div>
   </section>
 
   <section id="tab-rejected" hidden>
-    <p class="hint">Offres qui contenaient tes mots-clés mais ont été écartées par un filtre. Utile pour ajuster <code>config.yaml</code>.</p>
-    <div class="filters"><input type="search" id="rq" placeholder="Rechercher…"></div>
+    <p class="lead">Offres qui avaient tes mots-clés mais qu'un filtre a écartées, avec la raison. Si une bonne offre est ici, ajuste <code>config.yaml</code>.</p>
+    <div class="filters"><input type="search" id="rq" placeholder="Rechercher" aria-label="Rechercher dans les offres écartées"></div>
     <div id="rejected"></div>
   </section>
 
   <section id="tab-health" hidden>
-    <p class="hint">État de chaque site carrière au dernier passage. « vide » ou « erreur » plusieurs fois de suite : le site a sans doute changé, relance en mode <b>diagnose</b>.</p>
+    <p class="lead">État de chaque site au dernier passage. Une source « vide » ou « erreur » plusieurs fois de suite a sans doute changé : relance le robot en mode diagnose.</p>
     <div id="health"></div>
   </section>
 </main>
@@ -257,22 +320,18 @@ let hidden = new Set(store.get("jw-hidden", []));
 let DATA = { jobs: [], rejected: [], health: {}, meta: {} };
 
 // ---------------------------------------------------------------- suivi des candidatures
-const STATUSES = [
-  ["a_postuler", "À postuler"], ["postule", "Postulé"], ["entretien", "Entretien"],
-  ["refus", "Refus"], ["offre", "Offre reçue"],
-];
+const STATUSES = [["a_postuler", "À postuler"], ["postule", "Postulé"], ["entretien", "Entretien"], ["refus", "Refus"], ["offre", "Offre reçue"]];
 const STATUS_LABEL = Object.fromEntries(STATUSES);
 const ACTIVE = new Set(["postule", "entretien"]);
 let apps = store.get("jh-apps", null);
-if (!apps) {   // reprise des anciens « J'ai postulé »
+if (!apps) {
   apps = {};
   for (const id of store.get("jw-applied", [])) apps[id] = { status: "postule", applied_at: new Date().toISOString() };
   store.set("jh-apps", apps);
 }
 const saveApps = () => store.set("jh-apps", apps);
-const relanceDue = a => a && a.status === "postule" &&
+const relanceDue = a => !!a && a.status === "postule" &&
   Date.now() - new Date(a.relance_at || a.applied_at || Date.now()).getTime() >= 7 * DAY;
-
 function setStatus(id, status) {
   const job = DATA.jobs.find(j => j.id === id);
   if (!status) { delete apps[id]; saveApps(); return; }
@@ -285,21 +344,21 @@ function setStatus(id, status) {
   saveApps();
 }
 
-// ---------------------------------------------------------------- dernière visite
-// Une "visite" = une session ; après 30 min d'absence, la visite suivante commence.
-const visit = store.get("jh-visit", null);
+// ---------------------------------------------------------------- dernière visite (une session ; 30 min d'absence = nouvelle visite)
 let since;
 {
-  const nowIso = new Date().toISOString();
+  const visit = store.get("jh-visit", null), nowIso = new Date().toISOString();
   if (!visit) { since = new Date(Date.now() - 2 * DAY).toISOString(); store.set("jh-visit", { prev: since, cur: nowIso, seen: nowIso }); }
-  else if (Date.now() - new Date(visit.seen).getTime() > 30 * 60e3) {
-    since = visit.cur; store.set("jh-visit", { prev: visit.cur, cur: nowIso, seen: nowIso });
-  } else { since = visit.prev; store.set("jh-visit", { ...visit, seen: nowIso }); }
+  else if (Date.now() - new Date(visit.seen).getTime() > 30 * 60e3) { since = visit.cur; store.set("jh-visit", { prev: visit.cur, cur: nowIso, seen: nowIso }); }
+  else { since = visit.prev; store.set("jh-visit", { ...visit, seen: nowIso }); }
 }
 setInterval(() => { const v = store.get("jh-visit", {}); store.set("jh-visit", { ...v, seen: new Date().toISOString() }); }, 60e3);
 
 // ---------------------------------------------------------------- utilitaires
-const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
+// Titres enregistrés avec des entités HTML ("&amp;") : décodés une fois avant affichage
+const _dec = document.createElement("textarea");
+const decode = s => { if (!s || !/&[#a-z0-9]+;/i.test(s)) return s; _dec.innerHTML = s; return _dec.value; };
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const hours = iso => (Date.now() - new Date(iso).getTime()) / 36e5;
 function ago(iso) {
   if (!iso) return "";
@@ -309,49 +368,45 @@ function ago(iso) {
   const d = Math.round(h / 24);
   return d === 1 ? "hier" : `il y a ${d} j`;
 }
+const TZ = { timeZone: "Europe/Paris" };
+const pubDate = p => !p ? null : new Date(p.length === 10 ? p + "T12:00:00" : p);
 const isNew = j => !j.seed && j.first_seen > since;
 const isGone = j => hours(j.last_seen) > 72;
-function fmtPub(p) {
-  if (!p) return "";
-  if (p.length === 10) { const [y, m, d] = p.split("-"); return `${d}/${m}/${y}`; }
-  const dt = new Date(p);
-  if (isNaN(dt)) return "";
-  const opts = { timeZone: "Europe/Paris" };
-  return dt.toLocaleDateString("fr-FR", opts) + " à " + dt.toLocaleTimeString("fr-FR", { ...opts, hour: "2-digit", minute: "2-digit" });
-}
-const fmtDay = iso => iso ? new Date(iso).toLocaleDateString("fr-FR", { day: "numeric", month: "short" }) : "";
-const sortKey = j => {
-  const t = j.published ? new Date(j.published.length === 10 ? j.published + "T12:00:00" : j.published).getTime() : NaN;
-  return isNaN(t) ? new Date(j.first_seen).getTime() : t;
-};
+const fmtTime = iso => new Date(iso).toLocaleTimeString("fr-FR", { ...TZ, hour: "2-digit", minute: "2-digit" });
+const fmtShort = iso => new Date(iso).toLocaleDateString("fr-FR", { ...TZ, day: "2-digit", month: "2-digit" });
+const fmtDay = iso => iso ? new Date(iso).toLocaleDateString("fr-FR", { ...TZ, day: "numeric", month: "short" }) : "";
+const sameDay = (a, b) => new Date(a).toLocaleDateString("fr-FR", TZ) === new Date(b).toLocaleDateString("fr-FR", TZ);
+const sortKey = j => { const d = pubDate(j.published); return d && !isNaN(d) ? d.getTime() : new Date(j.first_seen).getTime(); };
 const scoreOf = j => (j.match && typeof j.match.score === "number") ? j.match.score : -1;
 
-// Drapeaux en images (les emojis drapeaux ne s'affichent pas sous Windows)
-const FLAG_CODE = { France: "fr", Suisse: "ch", Luxembourg: "lu", "Royaume-Uni": "gb", Malaisie: "my", Oman: "om" };
-const I = (d, extra = "") => `<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"${extra}>${d}</svg>`;
+// ---------------------------------------------------------------- drapeaux (images intégrées : les emojis drapeaux ne s'affichent pas sous Windows)
+const FLAG_SVG = {"France": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJmbGFnLWljb25zLWZyIiB2aWV3Qm94PSIwIDAgNjQwIDQ4MCI+PHBhdGggZmlsbD0iIzAwMDA5MSIgZD0iTTAgMGgyMTMuM3Y0ODBIMHoiLz48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMjEzLjMgMGgyMTMuNHY0ODBIMjEzLjN6Ii8+PHBhdGggZmlsbD0iI2UxMDAwZiIgZD0iTTQyNi43IDBINjQwdjQ4MEg0MjYuN3oiLz48L3N2Zz4=",
+  "Suisse": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJmbGFnLWljb25zLWNoIiB2aWV3Qm94PSIwIDAgNjQwIDQ4MCI+PGcgZmlsbC1ydWxlPSJldmVub2RkIiBzdHJva2Utd2lkdGg9IjFwdCI+PHBhdGggZmlsbD0icmVkIiBkPSJNMCAwaDY0MHY0ODBIMHoiLz48ZyBmaWxsPSIjZmZmIj48cGF0aCBkPSJNMTcwIDE5NWgzMDB2OTBIMTcweiIvPjxwYXRoIGQ9Ik0yNzUgOTBoOTB2MzAwaC05MHoiLz48L2c+PC9nPjwvc3ZnPg==",
+  "Luxembourg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJmbGFnLWljb25zLWx1IiB2aWV3Qm94PSIwIDAgNjQwIDQ4MCI+PHBhdGggZmlsbD0iI2VkMjkzOSIgZD0iTTAgMGg2NDB2MTYwSDB6Ii8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMTYwaDY0MHYxNjBIMHoiLz48cGF0aCBmaWxsPSIjMDBhMWRlIiBkPSJNMCAzMjBoNjQwdjE2MEgweiIvPjwvc3ZnPg==",
+  "Royaume-Uni": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJmbGFnLWljb25zLWdiIiB2aWV3Qm94PSIwIDAgNjQwIDQ4MCI+PHBhdGggZmlsbD0iIzAxMjE2OSIgZD0iTTAgMGg2NDB2NDgwSDB6Ii8+PHBhdGggZmlsbD0iI0ZGRiIgZD0ibTc1IDAgMjQ0IDE4MUw1NjIgMGg3OHY2Mkw0MDAgMjQxbDI0MCAxNzh2NjFoLTgwTDMyMCAzMDEgODEgNDgwSDB2LTYwbDIzOS0xNzhMMCA2NFYweiIvPjxwYXRoIGZpbGw9IiNDODEwMkUiIGQ9Im00MjQgMjgxIDIxNiAxNTl2NDBMMzY5IDI4MXptLTE4NCAyMCA2IDM1TDU0IDQ4MEgwek02NDAgMHYzTDM5MSAxOTFsMi00NEw1OTAgMHpNMCAwbDIzOSAxNzZoLTYwTDAgNDJ6Ii8+PHBhdGggZmlsbD0iI0ZGRiIgZD0iTTI0MSAwdjQ4MGgxNjBWMHpNMCAxNjB2MTYwaDY0MFYxNjB6Ii8+PHBhdGggZmlsbD0iI0M4MTAyRSIgZD0iTTAgMTkzdjk2aDY0MHYtOTZ6TTI3MyAwdjQ4MGg5NlYweiIvPjwvc3ZnPg==",
+  "Malaisie": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJmbGFnLWljb25zLW15IiB2aWV3Qm94PSIwIDAgNjQwIDQ4MCI+PGcgY2xpcC1wYXRoPSJ1cmwoI215LWEpIj48cGF0aCBmaWxsPSIjQzAwIiBkPSJNMCAwaDY0MHY0ODBIMHoiLz48cGF0aCBmaWxsPSIjQzAwIiBkPSJNMCAwaDY0MHYzNC4zSDB6Ii8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMzQuM2g2NDB2MzQuM0gweiIvPjxwYXRoIGZpbGw9IiNDMDAiIGQ9Ik0wIDY4LjZoNjQwdjM0LjNIMHoiLz48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMCAxMDIuOWg2NDBWMTM3SDB6Ii8+PHBhdGggZmlsbD0iI0MwMCIgZD0iTTAgMTM3LjFoNjQwdjM0LjNIMHoiLz48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMCAxNzEuNGg2NDB2MzQuM0gweiIvPjxwYXRoIGZpbGw9IiNDMDAiIGQ9Ik0wIDIwNS43aDY0MFYyNDBIMHoiLz48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMCAyNDBoNjQwdjM0LjNIMHoiLz48cGF0aCBmaWxsPSIjQzAwIiBkPSJNMCAyNzQuM2g2NDB2MzQuM0gweiIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0wIDMwOC42aDY0MHYzNC4zSDB6Ii8+PHBhdGggZmlsbD0iI0MwMCIgZD0iTTAgMzQyLjloNjQwVjM3N0gweiIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0wIDM3Ny4xaDY0MHYzNC4zSDB6Ii8+PHBhdGggZmlsbD0iI0MwMCIgZD0iTTAgNDExLjRoNjQwdjM0LjNIMHoiLz48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMCA0NDUuN2g2NDBWNDgwSDB6Ii8+PHBhdGggZmlsbD0iIzAwNiIgZD0iTTAgLjVoMzIwdjI3NC4zSDB6Ii8+PHBhdGggZmlsbD0iI0ZDMCIgZD0ibTIwNy41IDczLjggNiA0MC43IDIzLTM0LTEyLjQgMzkuMiAzNS41LTIwLjgtMjguMSAzMCA0MS0zLjItMzguMyAxNC44IDM4LjMgMTQuOC00MS0zLjIgMjguMSAzMC0zNS41LTIwLjggMTIuMyAzOS4zLTIzLTM0LjEtNiA0MC43LTUuOS00MC43LTIzIDM0IDEyLjQtMzkuMi0zNS41IDIwLjggMjgtMzAtNDEgMy4yIDM4LjQtMTQuOC0zOC4zLTE0LjggNDEgMy4yLTI4LjEtMzAgMzUuNSAyMC44LTEyLjQtMzkuMyAyMyAzNC4xem0tMzMuMyAxLjdhNzEgNzEgMCAwIDAtMTAwIDY1IDcxIDcxIDAgMCAwIDEwMCA2NSA4MCA4MCAwIDAgMS04My4yIDYuMiA4MCA4MCAwIDAgMS00My40LTcxLjIgODAgODAgMCAwIDEgMTI2LjYtNjUiLz48L2c+PGRlZnM+PGNsaXBQYXRoIGlkPSJteS1hIj48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMCAwaDY0MHY0ODBIMHoiLz48L2NsaXBQYXRoPjwvZGVmcz48L3N2Zz4=",
+  "Oman": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNDgwIj48cGF0aCBmaWxsPSIjZGIxNjFiIiBkPSJNMCAwaDY0MHY0ODBIMHoiLz48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMjEwIDBoNDMwdjE2MEgyMTB6Ii8+PHBhdGggZmlsbD0iIzAwODAwMCIgZD0iTTIxMCAzMjBoNDMwdjE2MEgyMTB6Ii8+PC9zdmc+"};
+const ZONE_COUNTRY = { "Île-de-France": "France", "Luxembourg": "Luxembourg", "Suisse": "Suisse", "Londres": "Royaume-Uni", "Malaisie": "Malaisie", "Oman": "Oman" };
+const COUNTRY_ORDER = ["France", "Suisse", "Luxembourg", "Royaume-Uni", "Malaisie", "Oman"];
+const countryOf = j => j.country || ZONE_COUNTRY[j.zone] || j.zone || "?";
+const I = d => `<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
 const ICON = {
   globe: I('<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/>'),
   pin: I('<path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/>'),
   doc: I('<path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h4"/>'),
   cap: I('<path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c3 2.5 9 2.5 12 0v-5"/>'),
   cash: I('<rect x="3" y="6" width="18" height="12" rx="2"/><circle cx="12" cy="12" r="2.5"/>'),
-  clock: I('<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>'),
-  check: I('<path d="M5 12.5l4.5 4.5L19 7.5"/>'),
-  cross: I('<path d="M6 6l12 12M18 6L6 18"/>'),
   shield: I('<path d="M12 3l8 3v6c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/>'),
   alert: I('<path d="M12 3l9.5 17h-19z"/><path d="M12 10v4M12 17.5v.1"/>'),
   ban: I('<circle cx="12" cy="12" r="9"/><path d="M6 6l12 12"/>'),
   ext: I('<path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/>'),
 };
-const flag = c => FLAG_CODE[c] ? `<img class="flag" src="flags/${FLAG_CODE[c]}.svg" alt="" title="${esc(c)}">` : ICON.globe;
-const ZONE_COUNTRY = { "Île-de-France": "France", "Luxembourg": "Luxembourg", "Suisse": "Suisse", "Londres": "Royaume-Uni", "Malaisie": "Malaisie", "Oman": "Oman" };
-const COUNTRY_ORDER = ["France", "Suisse", "Luxembourg", "Royaume-Uni", "Malaisie", "Oman"];
+const flag = c => FLAG_SVG[c] ? `<img class="flag" src="${FLAG_SVG[c]}" alt="${esc(c)}" title="${esc(c)}">` : ICON.globe;
 const SPONSOR = {
-  skilled: ['ok', ICON.shield + "sponsor visa", "Employeur inscrit au registre britannique des sponsors (Skilled Worker)"],
-  other: ['mid', ICON.alert + "sponsor (autre visa)", "Licence de sponsor, mais pas pour le visa Skilled Worker"],
-  false: ['ko', ICON.ban + "pas sponsor de visa", "Employeur absent du registre britannique des sponsors : pas de visa possible chez lui"],
+  skilled: ["good", ICON.shield, "Sponsor de visa", "Employeur inscrit au registre britannique des sponsors (Skilled Worker)"],
+  other: ["warn", ICON.alert, "Sponsor d'un autre visa", "Licence de sponsor, mais pas pour le visa Skilled Worker"],
+  false: ["bad", ICON.ban, "Pas sponsor de visa", "Employeur absent du registre britannique des sponsors"],
 };
-const countryOf = j => j.country || ZONE_COUNTRY[j.zone] || j.zone || "?";
 let country = store.get("jh-country", "");
 $("#sort").value = store.get("jh-sort", "date");
 
@@ -365,229 +420,227 @@ async function init() {
     load("jobs", { jobs: [] }), load("rejected", { items: [] }), load("health", { companies: {} }), load("meta", {})
   ]);
   DATA = { jobs: jobs.jobs || [], rejected: rej.items || [], health: health.companies || {}, meta };
-  $("#updated").textContent = jobs.updated ? `Mis à jour ${ago(jobs.updated)}` : "Pas encore de données : lance le workflow une première fois.";
+  for (const j of [...DATA.jobs, ...DATA.rejected]) { j.title = decode(j.title); j.company = decode(j.company); }
+  $("#updated").textContent = jobs.updated ? `Mis à jour ${ago(jobs.updated)}` : "Pas encore de données";
   if (meta.keywords) {
-    $("#criteria").innerHTML = `Mots-clés <b>${meta.keywords.map(esc).join(", ")}</b> · ${esc(meta.contracts.join("/"))} · ≤ ${meta.max_experience_years} ans d'exp. · ${esc(meta.zones.join(", "))} · ${meta.companies.length} entreprises`;
+    const zones = (meta.zones || []).join(", ");
+    $("#criteria").innerHTML = `Tu suis <strong>${esc(meta.keywords.join(", "))}</strong> en ${esc(meta.contracts.join(" ou "))}, jusqu'à ${meta.max_experience_years} ans d'expérience, sur ${esc(zones)}, dans ${meta.companies.length} entreprises et sites d'annonces.`;
   }
   const companies = [...new Set(DATA.jobs.map(j => j.company))].sort((a, b) => a.localeCompare(b, "fr"));
   $("#company").innerHTML += companies.map(c => `<option>${esc(c)}</option>`).join("");
-  // Fiches des candidatures tenues à jour (titre, lien) tant que l'offre est sur le site
   for (const j of DATA.jobs) if (apps[j.id]) Object.assign(apps[j.id], { title: j.title, company: j.company, url: j.url, country: countryOf(j) });
   saveApps();
   renderAll();
 }
 
-function renderAll() { renderJobs(); renderApps(); renderRejected(); renderHealth(); renderStats(); }
+function renderAll() { renderBoard(); renderJobs(); renderApps(); renderRejected(); renderHealth(); }
 
-function renderStats() {
+// ---------------------------------------------------------------- tableau des départs
+function renderBoard() {
   const active = DATA.jobs.filter(j => !isGone(j) && !hidden.has(j.id));
+  const latest = [...active].sort((a, b) => b.first_seen.localeCompare(a.first_seen)).slice(0, 6);
+  const now = new Date().toISOString();
+  $("#dep").innerHTML = latest.length ? latest.map((j, i) => {
+    const a = apps[j.id];
+    const state = relanceDue(a) ? '<span class="state relance">À relancer</span>'
+      : a && a.status !== "a_postuler" ? `<span class="state applied">${esc(STATUS_LABEL[a.status])}</span>`
+      : isNew(j) ? '<span class="state new">Nouveau</span>' : '<span class="state on">En ligne</span>';
+    const t = sameDay(j.first_seen, now) ? fmtTime(j.first_seen) : fmtShort(j.first_seen);
+    return `<tr style="--i:${i}" data-open="${esc(j.url)}">
+      <td class="d-time">${t}</td>
+      <td class="d-co">${esc(j.company)}</td>
+      <td class="d-job"><a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a></td>
+      <td class="d-dest"><span>${flag(countryOf(j))}${esc(j.zone)}</span></td>
+      <td class="d-state">${state}</td></tr>`;
+  }).join("") : `<tr><td colspan="5" class="dep-empty">Aucune offre pour l'instant : elles s'afficheront ici dès le premier passage du robot.</td></tr>`;
+
   const nNew = active.filter(isNew).length;
   const inProgress = Object.values(apps).filter(a => ACTIVE.has(a.status)).length;
   const toRelance = Object.values(apps).filter(relanceDue).length;
-  $("#s-active").textContent = active.length;
-  $("#s-new").textContent = nNew;
-  $("#s-applied").textContent = inProgress;
-  $("#s-relance").textContent = toRelance;
-  $("#s-relance-box").classList.toggle("alert", toRelance > 0);
-  $("#apps-count").textContent = Object.keys(apps).length ? `(${Object.keys(apps).length})` : "";
   const last = new Date(since);
-  const when = hours(since) < 24 ? "à " + last.toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" })
-                                 : "le " + last.toLocaleDateString("fr-FR", { weekday: "long", day: "numeric", month: "long" });
-  $("#welcome").innerHTML = nNew
-    ? `Depuis ta dernière visite (${esc(when)}) : <b>${nNew} nouvelle${nNew > 1 ? "s" : ""} offre${nNew > 1 ? "s" : ""}</b>${toRelance ? ` · ${toRelance} candidature${toRelance > 1 ? "s" : ""} à relancer` : ""}.`
-    : `Rien de neuf depuis ta dernière visite (${esc(when)}).${toRelance ? ` ${toRelance} candidature${toRelance > 1 ? "s" : ""} à relancer.` : ""}`;
+  const when = hours(since) < 24 ? "à " + fmtTime(since) : "le " + last.toLocaleDateString("fr-FR", { ...TZ, weekday: "long", day: "numeric", month: "long" });
+  $("#dep-sub").textContent = `Ta dernière visite : ${when}`;
+  $("#ticker").innerHTML = `
+    <div><b>${active.length}</b>offres en ligne</div>
+    <div class="${nNew ? "hot" : ""}"><b>${nNew}</b>nouvelle${nNew > 1 ? "s" : ""} depuis ta visite</div>
+    <div><b>${inProgress}</b>candidature${inProgress > 1 ? "s" : ""} en cours</div>
+    <div class="${toRelance ? "alarm" : ""}" ${toRelance ? 'data-tab="apps" role="button" tabindex="0"' : ""}><b>${toRelance}</b>à relancer</div>`;
+  $("#apps-count").textContent = Object.keys(apps).length ? ` ${Object.keys(apps).length}` : "";
 }
 
+// ---------------------------------------------------------------- liste des offres
 function renderCountries(base) {
   const counts = {};
   base.forEach(j => { const c = countryOf(j); counts[c] = (counts[c] || 0) + 1; });
   const names = [...new Set([...COUNTRY_ORDER, ...Object.keys(counts)])];
-  const btn = (val, label, n) => `<button data-country="${esc(val)}" aria-pressed="${country === val}">${label}<span class="c">${n}</span></button>`;
-  $("#countries").innerHTML = btn("", ICON.globe + "Tous", base.length) +
-    names.map(c => btn(c, `${flag(c)}${esc(c)}`, counts[c] || 0)).join("");
+  const btn = (val, label, n) => `<button data-country="${esc(val)}" aria-pressed="${country === val}">${label}<span class="n">${n}</span></button>`;
+  $("#countries").innerHTML = btn("", ICON.globe + "Tous", base.length) + names.map(c => btn(c, flag(c) + esc(c), counts[c] || 0)).join("");
 }
-
-function scoreBadge(j) {
+function gauge(j) {
   const s = scoreOf(j);
   if (s < 0) return "";
-  const cls = s >= 70 ? "hi" : s >= 40 ? "mid" : "lo";
-  return `<span class="score ${cls}" title="Compétences de l'offre présentes dans ton CV"><span class="ring" style="--p:${s}"></span>${s} %</span>`;
+  const cls = s >= 70 ? "hi" : s >= 40 ? "mid" : "lo", c = 2 * Math.PI * 12;
+  return `<span class="gauge ${cls}" title="Part des compétences demandées par l'offre que l'on retrouve dans ton CV">
+    <svg viewBox="0 0 30 30"><circle class="track" cx="15" cy="15" r="12" fill="none" stroke-width="4"/>
+    <circle class="arc" cx="15" cy="15" r="12" fill="none" stroke-width="4" stroke-linecap="round" stroke-dasharray="${(s / 100 * c).toFixed(1)} ${c.toFixed(1)}"/></svg>
+    ${s} %<small>du profil</small></span>`;
 }
-function skillsBlock(j) {
+function skills(j) {
   const m = j.match;
   if (!m || (!m.have?.length && !m.missing?.length)) return "";
-  return `<details class="skills"><summary>Compétences demandées : ${m.have.length} sur ${m.have.length + m.missing.length} dans ton CV</summary>
-    <div class="chips">${m.have.map(w => `<span class="chip ok">${esc(w)}</span>`).join("")}${m.missing.map(w => `<span class="chip ko">${esc(w)}</span>`).join("")}</div>
-  </details>`;
+  const total = m.have.length + m.missing.length;
+  return `<details class="skills"><summary>${m.have.length} compétence${m.have.length > 1 ? "s" : ""} sur ${total} demandées dans ton CV</summary>
+    <div class="chips">${m.have.map(w => `<span class="chip ok">${esc(w)}</span>`).join("")}${m.missing.map(w => `<span class="chip ko" title="Absente de ton CV">${esc(w)}</span>`).join("")}</div></details>`;
 }
 function statusSelect(id) {
   const a = apps[id];
-  return `<select class="status ${a ? "set" : ""}" data-status="${esc(id)}" aria-label="Suivi de la candidature">
-    <option value="">Suivi…</option>
-    ${STATUSES.map(([v, l]) => `<option value="${v}" ${a && a.status === v ? "selected" : ""}>${l}</option>`).join("")}
-  </select>`;
+  return `<select class="status ${a ? "set" : ""}" data-status="${esc(id)}" aria-label="Étape de la candidature">
+    <option value="">Suivre…</option>${STATUSES.map(([v, l]) => `<option value="${v}" ${a && a.status === v ? "selected" : ""}>${l}</option>`).join("")}</select>`;
+}
+function stub(j) {
+  const d = pubDate(j.published);
+  const seen = new Date(j.first_seen);
+  if (d && !isNaN(d)) {
+    return `<div class="stub" title="Publiée sur le site de l'entreprise">
+      <span class="day">${d.toLocaleDateString("fr-FR", { ...TZ, day: "numeric" })}</span>
+      <span class="mon">${d.toLocaleDateString("fr-FR", { ...TZ, month: "short" })}</span>
+      <span class="cap">publiée<br>vue le ${fmtShort(seen)} à ${fmtTime(seen)}</span></div>`;
+  }
+  return `<div class="stub" title="Date de publication non communiquée">
+    <span class="day">${seen.toLocaleDateString("fr-FR", { ...TZ, day: "numeric" })}</span>
+    <span class="mon">${seen.toLocaleDateString("fr-FR", { ...TZ, month: "short" })}</span>
+    <span class="cap">vue à ${fmtTime(seen)}<br>publication non communiquée</span></div>`;
 }
 
 function renderJobs() {
   const q = $("#q").value.trim().toLowerCase();
   const co = $("#company").value;
-  const base = DATA.jobs.filter(j =>
-    !hidden.has(j.id) &&
-    (!q || j.title.toLowerCase().includes(q)) &&
-    (!co || j.company === co) &&
-    (!$("#only-new").checked || isNew(j)) &&
-    (!$("#hide-applied").checked || !apps[j.id]) &&
-    ($("#show-gone").checked || !isGone(j))
-  );
+  const base = DATA.jobs.filter(j => !hidden.has(j.id) && (!q || j.title.toLowerCase().includes(q)) && (!co || j.company === co) &&
+    (!$("#only-new").checked || isNew(j)) && (!$("#hide-applied").checked || !apps[j.id]) && ($("#show-gone").checked || !isGone(j)));
   renderCountries(base);
-  const bySort = $("#sort").value === "score"
-    ? (a, b) => scoreOf(b) - scoreOf(a) || sortKey(b) - sortKey(a)
-    : (a, b) => sortKey(b) - sortKey(a);
+  const bySort = $("#sort").value === "score" ? (a, b) => scoreOf(b) - scoreOf(a) || sortKey(b) - sortKey(a) : (a, b) => sortKey(b) - sortKey(a);
   const list = base.filter(j => !country || countryOf(j) === country).sort(bySort);
-
   $("#jobs").innerHTML = list.length ? list.map(j => {
     const a = apps[j.id];
-    return `
-    <article class="card ${a && a.status !== "a_postuler" ? "applied" : ""}">
-      <div class="row1"><span class="company">${flag(countryOf(j))}${esc(j.company)}${j.via ? `<span class="via">via ${esc(j.via)}</span>` : ""}</span>${scoreBadge(j)}</div>
-      <a class="title" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
-      <div class="dates">
-        <span><span class="dl">Publiée sur le site</span> ${j.published ? esc(fmtPub(j.published)) : "non communiquée"}</span>
-        <span><span class="dl">Récupérée par JobHunter</span> ${esc(fmtPub(j.first_seen))}</span>
-      </div>
-      <div class="tags">
-        ${isNew(j) ? '<span class="tag new">NOUVEAU</span>' : ""}
-        ${relanceDue(a) ? '<span class="tag relance">' + ICON.clock + 'À relancer</span>' : ""}
-        ${isGone(j) ? '<span class="tag gone">plus vue depuis ' + esc(ago(j.last_seen).replace("il y a ", "")) + '</span>' : ""}
-        <span class="tag">${ICON.pin}${esc(j.zone)}</span>
-        <span class="tag">${ICON.doc}${esc(j.contract)}</span>
-        ${j.salary ? `<span class="tag">${ICON.cash}${esc(j.salary)}</span>` : ""}
-        ${j.sponsor !== undefined && j.sponsor !== null ? `<span class="tag sp-${SPONSOR[j.sponsor][0]}" title="${esc(SPONSOR[j.sponsor][2])}">${SPONSOR[j.sponsor][1]}</span>` : ""}
-        <span class="tag ${j.junior ? "junior" : ""}">${ICON.cap}${esc(j.experience)}</span>
-      </div>
-      ${skillsBlock(j)}
-      <div class="actions">
-        <a class="btn primary" href="${esc(j.url)}" target="_blank" rel="noopener">Voir et postuler ${ICON.ext}</a>
-        <a class="btn" href="cv.html?id=${encodeURIComponent(j.id)}">${ICON.doc}Mon CV pour cette offre</a>
-        ${statusSelect(j.id)}
-        <button class="btn" data-hide="${esc(j.id)}">Masquer</button>
-      </div>
-    </article>`; }).join("")
-    : `<div class="empty">${DATA.jobs.length ? "Aucune offre ne correspond à ces filtres." : "Aucune offre pour l'instant. Elles apparaîtront ici dès le premier passage."}</div>`;
+    const sp = j.sponsor === undefined || j.sponsor === null ? null : SPONSOR[j.sponsor];
+    const pills = [isNew(j) ? '<span class="pill new">Nouveau</span>' : "", relanceDue(a) ? '<span class="pill relance">À relancer</span>' : "",
+                   isGone(j) ? `<span class="pill gone">Plus vue depuis ${esc(ago(j.last_seen).replace("il y a ", ""))}</span>` : ""].join("");
+    return `<article class="ticket ${a && a.status !== "a_postuler" ? "dim" : ""}">
+      ${stub(j)}
+      <div class="body">
+        <div class="line1"><span class="who">${flag(countryOf(j))}<span class="co">${esc(j.company)}</span>${j.via ? `<span class="via">via ${esc(j.via)}</span>` : ""}</span>${gauge(j)}</div>
+        <a class="jt" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
+        <div class="facts">
+          <span>${ICON.pin}${esc(j.zone)}</span>
+          <span>${ICON.doc}${esc(j.contract === "?" ? "Contrat non précisé" : j.contract)}</span>
+          <span class="${j.junior ? "good" : ""}">${ICON.cap}${esc(j.experience === "non précisée" ? "Expérience non précisée" : j.experience)}</span>
+          ${j.salary ? `<span>${ICON.cash}${esc(j.salary)}</span>` : ""}
+          ${sp ? `<span class="${sp[0]}" title="${esc(sp[3])}">${sp[1]}${sp[2]}</span>` : ""}
+        </div>
+        ${pills ? `<div class="flags">${pills}</div>` : ""}
+        ${skills(j)}
+        <div class="actions">
+          <a class="btn go" href="${esc(j.url)}" target="_blank" rel="noopener">Voir et postuler ${ICON.ext}</a>
+          <a class="btn" href="cv.html?id=${encodeURIComponent(j.id)}">${ICON.doc}Mon CV pour cette offre</a>
+          ${statusSelect(j.id)}
+          <button class="btn quiet" data-hide="${esc(j.id)}">Masquer</button>
+        </div>
+      </div></article>`;
+  }).join("") : `<div class="empty">${DATA.jobs.length ? "Aucune offre avec ces filtres. Essaie « Tous » ou retire un filtre." : "Aucune offre pour l'instant : elles s'afficheront ici dès le premier passage du robot."}</div>`;
 }
 
+// ---------------------------------------------------------------- candidatures
 function renderApps() {
   const entries = Object.entries(apps);
   const counts = Object.fromEntries(STATUSES.map(([v]) => [v, 0]));
   entries.forEach(([, a]) => counts[a.status] = (counts[a.status] || 0) + 1);
-  $("#pipeline").innerHTML = STATUSES.map(([v, l]) => `<div class="step"><div class="n">${counts[v] || 0}</div><div class="l">${l}</div></div>`).join("");
-  if (!entries.length) {
-    $("#apps").innerHTML = `<div class="empty">Aucune candidature suivie. Sur une offre, choisis une étape dans le menu « Suivi… ».</div>`;
-    return;
-  }
-  const order = ["relance", ...STATUSES.map(([v]) => v)];
+  $("#pipeline").innerHTML = STATUSES.map(([v, l]) => `<div><b>${counts[v] || 0}</b><span>${l}</span></div>`).join("");
+  if (!entries.length) { $("#apps").innerHTML = `<div class="empty">Aucune candidature suivie. Sur une offre, choisis une étape dans le menu « Suivre… ».</div>`; return; }
   const groups = { relance: [] };
-  for (const [id, a] of entries) {
-    const g = relanceDue(a) ? "relance" : a.status;
-    (groups[g] = groups[g] || []).push([id, a]);
-  }
+  for (const [id, a] of entries) { const g = relanceDue(a) ? "relance" : a.status; (groups[g] = groups[g] || []).push([id, a]); }
   const title = { relance: "À relancer", ...STATUS_LABEL };
-  $("#apps").innerHTML = order.filter(g => groups[g]?.length).map(g => `
-    <h2 class="group">${title[g]} · ${groups[g].length}</h2>
+  $("#apps").innerHTML = ["relance", ...STATUSES.map(([v]) => v)].filter(g => groups[g]?.length).map(g => `
+    <h3 class="group">${title[g]}<span class="n">${groups[g].length}</span></h3>
     ${groups[g].sort((x, y) => (y[1].updated || "").localeCompare(x[1].updated || "")).map(([id, a]) => {
       const onSite = DATA.jobs.some(j => j.id === id);
       const days = a.applied_at ? Math.floor((Date.now() - new Date(a.applied_at)) / DAY) : null;
-      return `
-      <article class="card">
-        <div class="row1"><span class="company">${flag(a.country)}${esc(a.company || "?")}</span>
-          <span class="when">${a.applied_at ? `postulé le ${esc(fmtDay(a.applied_at))}${days !== null ? ` (J+${days})` : ""}` : ""}</span></div>
-        <a class="title" href="${esc(a.url || "#")}" target="_blank" rel="noopener">${esc(a.title || "Offre retirée du site")}</a>
-        <div class="app-meta">${a.relance_at ? `Relancé le ${esc(fmtDay(a.relance_at))} · ` : ""}${onSite ? "" : "Offre plus affichée sur le site · "}Dernière mise à jour ${esc(ago(a.updated))}</div>
+      const bits = [a.applied_at ? `Postulé le ${fmtDay(a.applied_at)} (J+${days})` : "", a.relance_at ? `relancé le ${fmtDay(a.relance_at)}` : "",
+                    onSite ? "" : "offre plus affichée sur le site", `mis à jour ${ago(a.updated)}`].filter(Boolean);
+      return `<article class="app">
+        <div class="line1"><span class="who">${flag(a.country)}<span class="co">${esc(a.company || "?")}</span></span></div>
+        <a class="jt" href="${esc(a.url || "#")}" target="_blank" rel="noopener">${esc(a.title || "Offre retirée du site")}</a>
+        <div class="meta">${esc(bits.join(", "))}</div>
         <textarea class="note" data-note="${esc(id)}" placeholder="Notes : contact RH, date d'entretien, questions posées…">${esc(a.note || "")}</textarea>
         <div class="actions">
           ${statusSelect(id)}
           ${a.status === "postule" ? `<button class="btn" data-relance="${esc(id)}">J'ai relancé</button>` : ""}
           ${onSite ? `<a class="btn" href="cv.html?id=${encodeURIComponent(id)}">${ICON.doc}CV</a>` : ""}
-          <button class="btn" data-forget="${esc(id)}">Retirer du suivi</button>
-        </div>
-      </article>`; }).join("")}`).join("");
+          <button class="btn quiet" data-forget="${esc(id)}">Retirer du suivi</button>
+        </div></article>`; }).join("")}`).join("");
 }
 
+// ---------------------------------------------------------------- écartées et sources
 function renderRejected() {
   const q = $("#rq").value.trim().toLowerCase();
   const list = DATA.rejected.filter(r => !q || (r.title + " " + r.company + " " + r.reason).toLowerCase().includes(q)).slice(0, 300);
-  $("#rejected").innerHTML = list.length ? list.map(r => `
-    <article class="card">
-      <div class="row1"><span class="company">${esc(r.company)}</span><span class="when">${ago(r.at)}</span></div>
-      <a class="title" href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a>
-      <div class="reason">Écartée : ${esc(r.reason)}</div>
-    </article>`).join("") : `<div class="empty">Rien d'écarté pour l'instant.</div>`;
+  $("#rejected").innerHTML = list.length ? list.map(r => `<div class="rej">
+      <div class="top"><span>${esc(r.company)}</span><span>${ago(r.at)}</span></div>
+      <a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a>
+      <div class="why">${esc(r.reason.charAt(0).toUpperCase() + r.reason.slice(1))}</div></div>`).join("")
+    : `<div class="empty">Aucune offre écartée pour l'instant.</div>`;
 }
-
 function renderHealth() {
   const rows = Object.entries(DATA.health).sort((a, b) => a[0].localeCompare(b[0], "fr"));
   const ai = DATA.meta && DATA.meta.ai;
-  const aiBox = ai ? `<div class="card ai-status ${ai.errors && !ai.ok ? "bad" : "good"}">
-      <b>IA Groq (CV et contrôle de l'expérience) :</b>
-      ${ai.ok ? `${ai.ok} appel(s) réussi(s)${ai.model ? ` avec ${esc(ai.model)}` : ""}` : "aucun appel réussi"}${ai.errors ? ` · ${ai.errors} échec(s)` : ""} au dernier passage.
-      ${ai.errors && ai.last_error ? `<div class="err">Dernière erreur : ${esc(ai.last_error)}</div>` : ""}
-    </div>` : "";
-  $("#health").innerHTML = aiBox + (rows.length ? `<table class="health"><thead><tr><th>Entreprise</th><th>État</th><th>Liens / mots-clés</th><th>Dernier succès</th></tr></thead><tbody>${
-    rows.map(([name, h]) => `<tr>
-      <td><b>${esc(name)}</b>${h.error ? `<div class="err">${esc(h.error)}</div>` : ""}</td>
-      <td><span class="pill ${esc(h.status)}">${esc(h.status || "?")}</span>${h.failures ? `<div class="reason">${h.failures} échec(s) de suite</div>` : ""}</td>
-      <td>${h.links_found ?? "–"} / ${h.keyword_matches ?? "–"}</td>
-      <td>${h.last_ok ? ago(h.last_ok) : "jamais"}</td></tr>`).join("")
-  }</tbody></table>` : `<div class="empty">Pas encore de passage.</div>`);
+  const aiBox = ai ? `<div class="ai-box ${ai.errors && !ai.ok ? "bad" : ""}"><strong>IA Groq (CV et contrôle de l'expérience)</strong> :
+      ${ai.ok ? `${ai.ok} appel${ai.ok > 1 ? "s" : ""} réussi${ai.ok > 1 ? "s" : ""}${ai.model ? ` avec ${esc(ai.model)}` : ""}` : "aucun appel réussi"}${ai.errors ? `, ${ai.errors} échec${ai.errors > 1 ? "s" : ""}` : ""} au dernier passage.
+      ${ai.errors && ai.last_error ? `<div class="err">Dernière erreur : ${esc(ai.last_error)}</div>` : ""}</div>` : "";
+  $("#health").innerHTML = aiBox + (rows.length ? `<table class="src"><thead><tr><th>Source</th><th>État</th><th>Liens / avec mots-clés</th><th>Dernier succès</th></tr></thead><tbody>${
+    rows.map(([name, h]) => `<tr><td><strong>${esc(name)}</strong>${h.error ? `<div class="err">${esc(h.error)}</div>` : ""}</td>
+      <td><span class="st ${esc(h.status)}">${esc(h.status || "?")}</span>${h.failures ? `<div class="err">${h.failures} échec${h.failures > 1 ? "s" : ""} de suite</div>` : ""}</td>
+      <td>${h.links_found ?? "–"} / ${h.keyword_matches ?? "–"}</td><td>${h.last_ok ? ago(h.last_ok) : "jamais"}</td></tr>`).join("")
+  }</tbody></table>` : `<div class="empty">Le robot n'est pas encore passé.</div>`);
 }
 
 // ---------------------------------------------------------------- événements
 function showTab(name) {
-  document.querySelectorAll("[data-tab]").forEach(b => b.setAttribute("aria-selected", b.dataset.tab === name));
+  document.querySelectorAll("nav.tabs [data-tab]").forEach(b => b.setAttribute("aria-selected", b.dataset.tab === name));
   ["jobs", "apps", "rejected", "health"].forEach(t => $("#tab-" + t).hidden = t !== name);
 }
 document.addEventListener("click", e => {
   const tab = e.target.closest("[data-tab]");
-  if (tab) showTab(tab.dataset.tab);
+  if (tab) { showTab(tab.dataset.tab); if (!tab.closest("nav")) $("main").scrollIntoView({ behavior: "smooth" }); }
+  const row = e.target.closest("tr[data-open]");
+  if (row && !e.target.closest("a")) window.open(row.dataset.open, "_blank", "noopener");
   const ct = e.target.closest("[data-country]");
   if (ct) { country = ct.dataset.country; store.set("jh-country", country); renderJobs(); }
   const hd = e.target.closest("[data-hide]");
-  if (hd) { hidden.add(hd.dataset.hide); store.set("jw-hidden", [...hidden]); renderJobs(); renderStats(); }
+  if (hd) { hidden.add(hd.dataset.hide); store.set("jw-hidden", [...hidden]); renderJobs(); renderBoard(); }
   const rl = e.target.closest("[data-relance]");
   if (rl) { const a = apps[rl.dataset.relance]; a.relance_at = a.updated = new Date().toISOString(); saveApps(); renderAll(); }
   const fg = e.target.closest("[data-forget]");
   if (fg) {
     if (fg.dataset.armed) { delete apps[fg.dataset.forget]; saveApps(); renderAll(); }
-    else { fg.dataset.armed = "1"; fg.textContent = "Confirmer ?"; setTimeout(() => { if (fg.isConnected) { delete fg.dataset.armed; fg.textContent = "Retirer du suivi"; } }, 3000); }
+    else { fg.dataset.armed = "1"; fg.textContent = "Confirmer le retrait"; setTimeout(() => { if (fg.isConnected) { delete fg.dataset.armed; fg.textContent = "Retirer du suivi"; } }, 3000); }
   }
-  if (e.target.closest("#s-relance-box")) showTab("apps");
 });
-document.addEventListener("change", e => {
-  const sel = e.target.closest("[data-status]");
-  if (sel) { setStatus(sel.dataset.status, sel.value); renderAll(); }
-});
-document.addEventListener("input", e => {
-  const nt = e.target.closest("[data-note]");
-  if (nt && apps[nt.dataset.note]) { apps[nt.dataset.note].note = nt.value; saveApps(); }
-});
+document.addEventListener("change", e => { const sel = e.target.closest("[data-status]"); if (sel) { setStatus(sel.dataset.status, sel.value); renderAll(); } });
+document.addEventListener("input", e => { const nt = e.target.closest("[data-note]"); if (nt && apps[nt.dataset.note]) { apps[nt.dataset.note].note = nt.value; saveApps(); } });
 ["#q", "#company", "#only-new", "#hide-applied", "#show-gone"].forEach(s => $(s).addEventListener("input", renderJobs));
 $("#sort").addEventListener("change", () => { store.set("jh-sort", $("#sort").value); renderJobs(); });
 $("#rq").addEventListener("input", renderRejected);
-$("#s-relance-box").style.cursor = "pointer";
 
 // ---------------------------------------------------------------- appli installable
 if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
 let installPrompt = null;
 window.addEventListener("beforeinstallprompt", e => { e.preventDefault(); installPrompt = e; $("#install").hidden = false; });
-$("#install").addEventListener("click", async () => {
-  if (!installPrompt) return;
-  installPrompt.prompt(); await installPrompt.userChoice; installPrompt = null; $("#install").hidden = true;
-});
+$("#install").addEventListener("click", async () => { if (!installPrompt) return; installPrompt.prompt(); await installPrompt.userChoice; installPrompt = null; $("#install").hidden = true; });
 const standalone = matchMedia("(display-mode: standalone)").matches || navigator.standalone;
 if (/iphone|ipad|ipod/i.test(navigator.userAgent) && !standalone && !store.get("jh-ios-hint-closed", false)) $("#ios-hint").hidden = false;
 $("#ios-close").addEventListener("click", () => { $("#ios-hint").hidden = true; store.set("jh-ios-hint-closed", true); });
 
 init();
+
 </script>
 </body>
 </html>
