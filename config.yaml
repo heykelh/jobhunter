@@ -252,10 +252,10 @@ companies:
 
   # ─── BTP et industrie ────────────────────────────────────────────
   - name: VINCI (dont ETF)
-    source: html                # site du groupe VINCI : toutes les filiales, dont ETF
-    render: true
+    source: json                # moteur de recherche du site VINCI (la page seule géolocalise le robot en Suède)
     urls:
-      - https://jobs.vinci.com/fr/search-jobs/{q}/1440/1
+      - https://jobs.vinci.com/fr/search-jobs/results?ActiveFacetID=0&CurrentPage={page}&RecordsPerPage=50&Distance=50&RadiusUnitType=0&Keywords={q}&Location=&ShowRadius=False&IsPagination=False&SearchResultsModuleName=Search+Results&SearchFiltersModuleName=Search+Filters&SortCriteria=0&SortDirection=0&SearchType=5
+    pages: [1, 2]
     link_pattern: /job/
 
   - name: Eiffage
@@ -265,9 +265,10 @@ companies:
     offsets: [0, 20]
 
   - name: Bouygues Telecom
-    source: rss                 # même plateforme qu'Air France (Talentsoft) : flux RSS officiel
+    source: html                # l'ancien site Talentsoft ne répond plus (29/10/2026) ⚠ à confirmer au diagnose
+    render: true
     urls:
-      - https://bouyguestelecom-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036
+      - https://www.corporate.bouyguestelecom.fr/travailler-ensemble/
 
   # ─── Télécoms ────────────────────────────────────────────────────
   - name: Orange
@@ -278,7 +279,8 @@ companies:
       - https://orange.jobs/fr/fr/search-results?keywords={q}
 
   - name: Vodafone Oman
-    source: html                # ⚠ à confirmer au premier diagnose
+    enabled: false              # le site refuse les robots ("Request Rejected") ; ses offres passent par GulfTalent
+    source: html
     render: true
     urls:
       - https://www.vodafone.om/en/careers
@@ -311,6 +313,7 @@ companies:
 
   # ─── Londres ─────────────────────────────────────────────────────
   - name: Reed (Londres)
+    requires_env: REED_API_KEY  # source ignorée tant que la clé n'est pas dans les secrets GitHub
     source: reed                # API officielle gratuite de Reed.co.uk : clé dans le secret GitHub REED_API_KEY
     location: London
     distance_miles: 15
@@ -321,7 +324,8 @@ companies:
 
   # ─── Luxe / grande conso ─────────────────────────────────────────
   - name: L'Oréal
-    source: html                # site Avature (comme TotalEnergies)
+    source: html                # site Avature (comme TotalEnergies), chargé en JavaScript
+    render: true
     urls:
       - https://careers.loreal.com/fr_FR/jobs/SearchJobs/{q}?jobRecordsPerPage=20&jobOffset={offset}
     offsets: [0, 20]
@@ -365,6 +369,7 @@ companies:
     link_pattern: /job/
 
   - name: Swiss Life
+    enabled: false              # bloqué par Cloudflare ("Attention Required")
     source: html                # pages carrière CH et FR (offres hébergées sur Workday) ⚠ à confirmer
     render: true
     wait_ms: 6000
@@ -375,13 +380,15 @@ companies:
 
   # ─── Conseil / IT ────────────────────────────────────────────────
   - name: SII Group
-    source: html                # ⚠ à confirmer au premier diagnose
+    enabled: false              # l'adresse de recherche n'existe pas ("Page not found") : à remplacer si tu trouves la bonne
+    source: html
     render: true
     urls:
       - https://sii-group.com/fr-FR/jobs?search={q}
     link_pattern: /job
 
   - name: EPAM Systems
+    enabled: false              # bloqué par Cloudflare ("Un instant…")
     source: html                # recherche filtrée Malaisie
     render: true
     wait_ms: 6000
@@ -391,6 +398,7 @@ companies:
     default_location: malaisie
 
   - name: AIA Digital
+    enabled: false              # careers.aia.com n'existe pas ; AIA Malaisie recrute via Hiredly et Maukerja
     source: html                # ⚠ à confirmer : AIA Digital+ (Kuala Lumpur)
     render: true
     urls:
@@ -400,6 +408,7 @@ companies:
 
   # ─── Oman ────────────────────────────────────────────────────────
   - name: OQ
+    enabled: false              # le site coupe la connexion aux robots
     source: html                # ⚠ à confirmer au premier diagnose
     render: true
     urls:
@@ -407,8 +416,17 @@ companies:
     default_location: oman
 
   - name: Rihal
-    source: html                # ⚠ à confirmer au premier diagnose
+    enabled: false              # sa page carrières ne liste pas d'offres
+    source: html
     render: true
     urls:
       - https://rihal.om/careers
+    default_location: oman
+
+  - name: GulfTalent (Oman)
+    source: html                # site d'annonces n°1 du Golfe : toutes les offres data/analyst à Oman ⚠ à confirmer
+    aggregator: true
+    render: true
+    urls:
+      - https://www.gulftalent.com/oman/jobs/title/{q}
     default_location: oman

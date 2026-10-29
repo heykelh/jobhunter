@@ -120,6 +120,12 @@ def run(argv=None) -> int:
                 log.warning("⏱ Temps écoulé : %s et les suivantes passent en premier au prochain passage", name)
                 break
             store.state["next_company"] = 0
+            need = comp.get("requires_env")
+            if need and not __import__("os").getenv(need, "").strip():
+                log.info("▶ %s : ignorée (secret %s absent)", name, need)
+                store.health[name] = {"checked_at": now(), "status": "désactivée", "error": f"ajoute le secret GitHub {need} pour l'activer",
+                                      "failures": 0, "warnings": []}
+                continue
             log.info("▶ %s", name)
             h = store.health.get(name, {})
             h.update({"checked_at": now(), "error": "", "warnings": []})
