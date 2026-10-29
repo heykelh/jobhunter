@@ -1,6 +1,78 @@
 {
- "updated": "2026-10-28T21:46:10+00:00",
+ "updated": "2026-10-29T01:53:32+00:00",
  "items": [
+  {
+   "id": "07971f422f88",
+   "company": "AXA",
+   "title": "Chargé d'études actuarielles/Data Analyst (F/H) - stage",
+   "url": "https://careers.axa.com/jobs/37044",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-29T01:49:07+00:00"
+  },
+  {
+   "id": "be435ee0c180",
+   "company": "Crédit Agricole",
+   "title": "Global Investment Banking Analyst M/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170466-4-global-investment-banking-analyst-mf--reference--2026-115374--/",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-29T01:48:13+00:00"
+  },
+  {
+   "id": "8d89d6fb929a",
+   "company": "Crédit Agricole",
+   "title": "Data Officer (DM Funds) H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/578-170479-136-data-officer-dm-funds-hf-reference--2026-115524--/",
+   "reason": "expérience demandée ≥ 6 ans « xperience de 4 a 5 ans en comptabilite opcvm niveau d'experience minimum 6 - 10 ans competences recherchees co » (retirée)",
+   "at": "2026-10-29T01:48:11+00:00"
+  },
+  {
+   "id": "f89329aa6be1",
+   "company": "Crédit Agricole",
+   "title": "KYC Analyst H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170478-136-kyc-analyst-hf-reference--2026-115530--/",
+   "reason": "expérience demandée ≥ 3 ans « te, securite financiere, kyc, analyse risque niveau d'experience minimum 3 - 5 ans competences recherchees ant »",
+   "at": "2026-10-29T01:48:10+00:00"
+  },
+  {
+   "id": "28e3903b2b17",
+   "company": "Crédit Agricole",
+   "title": "Stage - Assistant(e) Data Scientist - Routage intelligent des prompts H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-122-stage---assistante-data-scientist---routage-intelligent-des-prompts-hf-reference--2026-116076--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-29T01:48:09+00:00"
+  },
+  {
+   "id": "7f874ac688c6",
+   "company": "Crédit Agricole",
+   "title": "Stage - Assistant(e) Data Scientist – Agents pour le développement ML H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-122-stage---assistante-data-scientist--agents-pour-le-developpement-ml-hf-reference--2026-116074--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-29T01:48:09+00:00"
+  },
+  {
+   "id": "407819e0b1a9",
+   "company": "Crédit Agricole",
+   "title": "Stage - Assistant(e) Data Ingenieur / Data Analyst – Monitoring des usages et de l'adoption de l'IA H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-122-stage---assistante-data-ingenieur--data-analyst--monitoring-des-usages-et-de-l-adoption-de-l-ia-hf-reference--2026-116071--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-29T01:48:09+00:00"
+  },
+  {
+   "id": "6f52f9d83016",
+   "company": "Crédit Agricole",
+   "title": "Stage - Assistant(e) Data Scientist – Speech-to-speech en temps réel H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-122-stage---assistante-data-scientist--speech-to-speech-en-temps-reel-hf-reference--2026-116067--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-29T01:48:09+00:00"
+  },
+  {
+   "id": "23ff8ae914cf",
+   "company": "Crédit Agricole",
+   "title": "Stage - Assistant(e) Data Scientist – Red-team IA/Sécurité des LLMs H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-122-stage---assistante-data-scientist--red-team-iasecurite-des-llms-hf-reference--2026-116066--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-29T01:48:09+00:00"
+  },
   {
    "id": "8abc707db815",
    "company": "UBS",
