@@ -1,0 +1,176 @@
+{
+ "titre": "Master Data Administrator",
+ "profil": "Professionnel avec 13 ans d’expérience opérationnelle au sein du Groupe SNCF, spécialisé dans la gestion des données principales en environnement critique. Titulaire d’un Master Data Engineer / Data Product Manager (Mines Paris : PSL) et ayant conduit plus de 15 projets de gouvernance, conformité et ingénierie des données. Approche analytique, rigoureuse et orientée qualité, avec capacité à travailler de façon transversale.",
+ "competences": [
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio",
+    "Excel"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Simulation d’une mission d’inspection des données principales du risque de crédit, incluant cadrage, investigations et débriefing.",
+    "Développement d’un moteur de contrôles qualité en SQL, avec scoring de risque, registre des constats et rapport de restitution."
+   ]
+  },
+  {
+   "id": "palier",
+   "titre": "PALIER : tarification et yield management TGV",
+   "stack": "Python, DuckDB, Power BI, Next.js, GitHub Actions",
+   "lien": "palier-sncf.vercel.app",
+   "tags": [
+    "pricing",
+    "prix",
+    "tarif",
+    "tarification",
+    "revenue",
+    "yield",
+    "élasticité",
+    "demande",
+    "transport",
+    "ferroviaire",
+    "voyageurs",
+    "sncf",
+    "commercial",
+    "offre"
+   ],
+   "puces": [
+    "Analyse de la tarification TGV à partir de données ouvertes, évaluant élasticité prix et positionnement concurrentiel.",
+    "Conception d’un module de yield management automatisé via GitHub Actions pour mise à jour des allocations tarifaires."
+   ]
+  },
+  {
+   "id": "customer-experience",
+   "titre": "Customer Experience Intelligence : analyse et dataviz",
+   "stack": "Python, Power BI",
+   "lien": "github.com/heykelh/customer-experience-intelligence",
+   "tags": [
+    "client",
+    "clients",
+    "expérience client",
+    "marketing",
+    "kpi",
+    "dashboard",
+    "tableau de bord",
+    "power bi",
+    "reporting",
+    "analyse",
+    "satisfaction",
+    "parcours"
+   ],
+   "puces": [
+    "Analyse exploratoire des données clients pour identifier insights, tendances et anomalies affectant la performance.",
+    "Création de tableaux de bord interactifs Power BI avec indicateurs de pilotage pour les décideurs métier."
+   ]
+  },
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Simulation d’une mission de Business Analyst sur un SI Crédit, couvrant expression du besoin, conception et recette.",
+    "Production de livrables en ligne : cartographie des processus, spécifications fonctionnelles et plan de tests."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "allemand",
+  "sap"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "417e43af90e5",
+ "entreprise": "Sealed Air GmbH",
+ "intitule_offre": "Master Data Administrator (w/m/d) 100%",
+ "url_offre": "https://www.jobs.ch/fr/offres-emplois/detail/5d2c1cc4-588e-49ca-b21f-a1ce7554d45f/",
+ "genere_le": "2026-10-29T10:26:23+00:00"
+}

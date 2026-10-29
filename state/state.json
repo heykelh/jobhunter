@@ -28,12 +28,17 @@
   "SII Group",
   "EPAM Systems",
   "OQ",
-  "Rihal"
+  "Rihal",
+  "Bouygues Telecom",
+  "jobs.ch",
+  "jobup.ch",
+  "GulfTalent (Oman)"
  ],
  "sequence": {
   "EDF / Enedis": {
    "last": 182723
   }
  },
- "next_company": 0
+ "next_company": 0,
+ "zones_sig": "Londres,Luxembourg,Malaisie,Oman,Suisse,Île-de-France"
 }

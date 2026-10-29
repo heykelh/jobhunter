@@ -1,0 +1,171 @@
+{
+ "titre": "Data Scientist : Bouygues Telecom",
+ "profil": "Professionnel de la data avec 13 ans d’expérience opérationnelle au sein du groupe SNCF, notamment en environnement à forts enjeux de sécurité. Titulaire d’un Master Data Engineer / Data Product Manager (Bac+5, Mines Paris : PSL), je maîtrise la gestion de données massives et les langages Python et SQL. J’ai conduit plus de 15 projets data, alliant analyse, visualisation et mise en production d’outils d’aide à la décision.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "SQL",
+    "Python (pandas)",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio",
+    "Excel"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "customer-experience",
+   "titre": "Customer Experience Intelligence : analyse et dataviz",
+   "stack": "Python, Power BI",
+   "lien": "github.com/heykelh/customer-experience-intelligence",
+   "tags": [
+    "client",
+    "clients",
+    "expérience client",
+    "marketing",
+    "kpi",
+    "dashboard",
+    "tableau de bord",
+    "power bi",
+    "reporting",
+    "analyse",
+    "satisfaction",
+    "parcours"
+   ],
+   "puces": [
+    "Analyse exploratoire des données clients pour identifier insights, tendances et anomalies influençant la performance, puis diffusion aux métiers.",
+    "Création de tableaux de bord interactifs Power BI et d’indicateurs de pilotage destinés aux décideurs métier."
+   ]
+  },
+  {
+   "id": "prisme",
+   "titre": "PRISME : copilote d'audit AI Act",
+   "stack": "Python, FastAPI, RAG, Supabase (pgvector), Groq",
+   "lien": "",
+   "tags": [
+    "ai act",
+    "audit",
+    "conformité",
+    "ia",
+    "intelligence artificielle",
+    "rag",
+    "llm",
+    "réglementaire",
+    "api"
+   ],
+   "puces": [
+    "Développement d’une API d’aide à l’audit de conformité IA Act, intégrant recherche dans les textes réglementaires (RAG) et grille de qualification.",
+    "Mise en place d’un backend FastAPI déployé sur Render avec stockage vectoriel pgvector."
+   ]
+  },
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Simulation d’une mission d’inspection data sur la chaîne de données du risque de crédit : cadrage, investigations et débriefing.",
+    "Conception d’un moteur de contrôles qualité en SQL, scoring de risque, registre des constats et rapport de restitution."
+   ]
+  },
+  {
+   "id": "palier",
+   "titre": "PALIER : tarification et yield management TGV",
+   "stack": "Python, DuckDB, Power BI, Next.js, GitHub Actions",
+   "lien": "palier-sncf.vercel.app",
+   "tags": [
+    "pricing",
+    "prix",
+    "tarif",
+    "tarification",
+    "revenue",
+    "yield",
+    "élasticité",
+    "demande",
+    "transport",
+    "ferroviaire",
+    "voyageurs",
+    "sncf",
+    "commercial",
+    "offre"
+   ],
+   "puces": [
+    "Analyse de la tarification TGV à partir de données ouvertes SNCF : élasticité prix, comparaison d’offres et positionnement concurrentiel.",
+    "Développement d’un module de yield management (algorithme EMSR‑b) avec mise à jour automatisée via GitHub Actions."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "catalogue",
+  "sap"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "6001e4e5710e",
+ "entreprise": "Bouygues Telecom",
+ "intitule_offre": "Data",
+ "url_offre": "https://www.corporate.bouyguestelecom.fr/travailler-ensemble/nos-metiers/data/",
+ "genere_le": "2026-10-29T10:25:39+00:00"
+}

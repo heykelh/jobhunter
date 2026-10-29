@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T01:53:32+00:00",
+ "updated": "2026-10-29T10:30:35+00:00",
  "keywords": [
   "data",
   "analyst"
@@ -9,6 +9,7 @@
   "CDD"
  ],
  "zones": [
+  "Londres",
   "Luxembourg",
   "Malaisie",
   "Oman",
@@ -33,18 +34,22 @@
   "Eiffage",
   "Bouygues Telecom",
   "Orange",
-  "Vodafone Oman",
+  "jobs.ch",
+  "jobup.ch",
+  "Reed (Londres)",
   "L'Oréal",
   "Julius Baer",
   "UBS",
   "SIX Group",
   "Advanzia Bank",
   "ING",
-  "Swiss Life",
-  "SII Group",
-  "EPAM Systems",
-  "AIA Digital",
-  "OQ",
-  "Rihal"
- ]
+  "GulfTalent (Oman)"
+ ],
+ "ai": {
+  "ok": 9,
+  "errors": 11,
+  "last_error": "HTTP 429 (openai/gpt-oss-120b) : {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kkqt4ecsfjybqscgqhm4275e` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6045, Req",
+  "model": "openai/gpt-oss-120b",
+  "at": "2026-10-29T10:30:35+00:00"
+ }
 }

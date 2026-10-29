@@ -1,13 +1,1165 @@
 {
- "updated": "2026-10-29T01:53:32+00:00",
+ "updated": "2026-10-29T10:30:35+00:00",
  "items": [
   {
-   "id": "07971f422f88",
+   "id": "763f9d6037bd",
+   "company": "ING",
+   "title": "Digital Campaign Analyst",
+   "url": "https://careers.ing.com/en/job/silesia/digital-campaign-analyst/3121/45574995200",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:30:24+00:00"
+  },
+  {
+   "id": "44f1d09d6e25",
+   "company": "ING",
+   "title": "NL Cards Disputes Analyst",
+   "url": "https://careers.ing.com/en/job/makati-city/nl-cards-disputes-analyst/3121/45961167744",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-29T10:30:22+00:00"
+  },
+  {
+   "id": "4e92513ce278",
+   "company": "ING",
+   "title": "BE Customer Care Analyst",
+   "url": "https://careers.ing.com/en/job/makati-city/be-customer-care-analyst/3121/46442737664",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-29T10:30:21+00:00"
+  },
+  {
+   "id": "aa0d5a6bd00e",
+   "company": "ING",
+   "title": "Business Analyst (Tribe Services)",
+   "url": "https://careers.ing.com/en/job/makati-city/business-analyst-tribe-services/3121/20976434304",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-29T10:30:19+00:00"
+  },
+  {
+   "id": "4bbee68e5c5c",
+   "company": "ING",
+   "title": "Transaction Monitoring Analyst",
+   "url": "https://careers.ing.com/en/job/makati-city/transaction-monitoring-analyst/3121/45682205952",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-29T10:30:18+00:00"
+  },
+  {
+   "id": "8430a2c8cd9d",
+   "company": "ING",
+   "title": "IT Business Analyst",
+   "url": "https://careers.ing.com/en/job/makati-city/it-business-analyst/3121/45306843840",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-29T10:30:16+00:00"
+  },
+  {
+   "id": "12e2825d1c8c",
+   "company": "ING",
+   "title": "Digital Analyst",
+   "url": "https://careers.ing.com/en/job/milan/digital-analyst/3121/41695666368",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:30:15+00:00"
+  },
+  {
+   "id": "276c560c2fdc",
+   "company": "ING",
+   "title": "IT Business Analyst",
+   "url": "https://careers.ing.com/en/job/makati-city/it-business-analyst/3121/46391157824",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-29T10:30:14+00:00"
+  },
+  {
+   "id": "4b0a72b8b3e8",
+   "company": "ING",
+   "title": "Real Time Analyst",
+   "url": "https://careers.ing.com/en/job/makati-city/real-time-analyst/3121/42373877824",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-29T10:30:13+00:00"
+  },
+  {
+   "id": "85a0ce06e4b7",
+   "company": "ING",
+   "title": "Business Analyst",
+   "url": "https://careers.ing.com/en/job/istanbul/business-analyst/3121/45961168064",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-29T10:30:11+00:00"
+  },
+  {
+   "id": "46acd6453c1a",
+   "company": "ING",
+   "title": "Business Analyst",
+   "url": "https://careers.ing.com/en/job/istanbul/business-analyst/3121/35307051968",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-29T10:30:09+00:00"
+  },
+  {
+   "id": "0b5f3567c910",
+   "company": "ING",
+   "title": "Compliance Data Methodology",
+   "url": "https://careers.ing.com/en/job/warsaw/compliance-data-methodology/3121/45101610880",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:30:07+00:00"
+  },
+  {
+   "id": "21f2932e0fe5",
+   "company": "ING",
+   "title": "Data Analyst in Risk Reporting",
+   "url": "https://careers.ing.com/en/job/warsaw/data-analyst-in-risk-reporting/3121/46362822912",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:30:06+00:00"
+  },
+  {
+   "id": "234d2e91c873",
+   "company": "ING",
+   "title": "Data Analyst / Data Modeler | GKYC @ING Hubs Romania",
+   "url": "https://careers.ing.com/en/job/bucharest/data-analyst-data-modeler-gkyc-ing-hubs-romania/3121/46193006464",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-29T10:30:04+00:00"
+  },
+  {
+   "id": "24523f912177",
+   "company": "ING",
+   "title": "Data Strategy Oversight Analyst",
+   "url": "https://careers.ing.com/en/job/warsaw/data-strategy-oversight-analyst/3121/46391158400",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:30:04+00:00"
+  },
+  {
+   "id": "22bb5602ca93",
+   "company": "ING",
+   "title": "Data Analyst (Credit Risk)",
+   "url": "https://careers.ing.com/en/job/city-of-taguig/data-analyst-credit-risk/3121/45167336448",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-29T10:30:01+00:00"
+  },
+  {
+   "id": "d7493c9d0f11",
+   "company": "ING",
+   "title": "Data Protection Professional",
+   "url": "https://careers.ing.com/en/job/makati-city/data-protection-professional/3121/45386467904",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-29T10:30:00+00:00"
+  },
+  {
+   "id": "bb3c48855852",
+   "company": "ING",
+   "title": "Data Modeling Analyst",
+   "url": "https://careers.ing.com/en/job/makati-city/data-modeling-analyst/3121/43998316160",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-29T10:29:59+00:00"
+  },
+  {
+   "id": "56ce8da8b11d",
+   "company": "ING",
+   "title": "Data Analyst (Data Modelling)",
+   "url": "https://careers.ing.com/en/job/makati-city/data-analyst-data-modelling/3121/46281037632",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-29T10:29:57+00:00"
+  },
+  {
+   "id": "657ae67231bb",
+   "company": "ING",
+   "title": "Data Analist",
+   "url": "https://careers.ing.com/en/job/amsterdam/data-analist/3121/46369312128",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-29T10:29:55+00:00"
+  },
+  {
+   "id": "37c96c4ec135",
+   "company": "SIX Group",
+   "title": "Quantitative Risk Analyst",
+   "url": "https://jobs.six-group.com/job/Las-Rozas-de-Madrid-Quantitative-Risk-Analyst/1414748633/",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:29:33+00:00"
+  },
+  {
+   "id": "60e7cd8552c0",
+   "company": "SIX Group",
+   "title": "SOC Analyst",
+   "url": "https://jobs.six-group.com/job/Las-Rozas-de-Madrid-SOC-Analyst/1416240433/",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:29:31+00:00"
+  },
+  {
+   "id": "dc61bbf1c140",
+   "company": "SIX Group",
+   "title": "Data Acquisition Specialist",
+   "url": "https://jobs.six-group.com/job/Las-Rozas-de-Madrid-Data-Acquisition-Specialist/1445274533/",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:29:30+00:00"
+  },
+  {
+   "id": "34d3383b4341",
+   "company": "SIX Group",
+   "title": "Real-time Data Service Specialist",
+   "url": "https://jobs.six-group.com/job/Warsaw-Real-time-Data-Service-Specialist/1416225533/",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:29:28+00:00"
+  },
+  {
+   "id": "8834aba7e277",
+   "company": "SIX Group",
+   "title": "Marketing Data Scientist",
+   "url": "https://jobs.six-group.com/job/Warsaw-Marketing-Data-Scientist/1447426133/",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:29:27+00:00"
+  },
+  {
+   "id": "d17c4b302fa1",
+   "company": "SIX Group",
+   "title": "Business Analyst",
+   "url": "https://jobs.six-group.com/job/Warsaw-Business-Analyst/1448087833/",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:29:25+00:00"
+  },
+  {
+   "id": "99eb1d5db54f",
+   "company": "SIX Group",
+   "title": "Data Analyst",
+   "url": "https://jobs.six-group.com/job/Singapore-Data-Analyst/1448871033/",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:29:24+00:00"
+  },
+  {
+   "id": "b52adefa9926",
+   "company": "SIX Group",
+   "title": "Data Analyst",
+   "url": "https://jobs.six-group.com/job/Las-Rozas-de-Madrid-Data-Analyst/1439649333/",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:29:22+00:00"
+  },
+  {
+   "id": "39a167e86d53",
+   "company": "SIX Group",
+   "title": "Data Quality Analyst",
+   "url": "https://jobs.six-group.com/job/Warsaw-Data-Quality-Analyst/1449916133/",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:29:21+00:00"
+  },
+  {
+   "id": "35b2988592d7",
+   "company": "UBS",
+   "title": "Trade Support Analyst – Australia & New Zealand Equities",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=352917",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-29T10:29:17+00:00"
+  },
+  {
+   "id": "077ca8f780fe",
+   "company": "Julius Baer",
+   "title": "12 months Contract - Business Analyst, Private Bank Credit Risk Applications (Through an External Agency Payroll Provider)",
+   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Singapore/XMLNAME-12-months-Contract---Business-Analyst--Private-Bank-Credit-Risk-Applications--Through-an-External-Agency-Payroll-Provider-_r-19987-2",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:28:56+00:00"
+  },
+  {
+   "id": "0595a2c87ec9",
+   "company": "Julius Baer",
+   "title": "12 months Contract - GPS Platform Transformation: Business Analyst – FX/PM (Through an External Agency)",
+   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Singapore/XMLNAME-12-months-Contract---Business-Analyst---Structured-Product--Through-an-External-Agency-_r-16676",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:28:55+00:00"
+  },
+  {
+   "id": "955d3dd4b42d",
+   "company": "Julius Baer",
+   "title": "Exposure Management Data Analyst 100% (f/m/d)",
+   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Madrid/Exposure-Management-Data-Analyst-100---f-m-d-_r-20114-1",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:28:52+00:00"
+  },
+  {
+   "id": "23cfcd390920",
+   "company": "jobup.ch",
+   "title": "Business Analyst Rechnungswegsen, Buchungssystem & Kontoabschluss (all) 100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/58f918b0-ec6a-46a4-a76c-cc7cac280dbf/",
+   "reason": "expérience demandée ≥ 3 ans « banque ou une qualification comparable avec plusieurs annees d'experience professionnelle et un sa »",
+   "at": "2026-10-29T10:28:14+00:00"
+  },
+  {
+   "id": "5f0b5c71836d",
+   "company": "jobup.ch",
+   "title": "Developer & Business Analyst - Trading Systems",
+   "url": "https://www.jobup.ch/fr/emplois/detail/524c7674-2ea2-432c-b014-0639f453ba9d/",
+   "reason": "expérience demandée ≥ 3 ans « informatique ou en ingenierie, avec au moins 3 ans d'experience. competence »",
+   "at": "2026-10-29T10:28:13+00:00"
+  },
+  {
+   "id": "0520944662fc",
+   "company": "jobup.ch",
+   "title": "Senior Analyst, GTM Pricing, Costing and Margin (Temp 9 months)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/77078f08-12c2-4253-b7cb-2ac5f7be9657/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-29T10:28:13+00:00"
+  },
+  {
+   "id": "50a552ca242a",
+   "company": "jobup.ch",
+   "title": "Senior Consolidation and Reporting Analyst",
+   "url": "https://www.jobup.ch/fr/emplois/detail/914effc6-e670-4e9b-9ca1-25942844b736/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-29T10:28:13+00:00"
+  },
+  {
+   "id": "93a1330d2187",
+   "company": "jobup.ch",
+   "title": "Pricing analyst [maternity cover]",
+   "url": "https://www.jobup.ch/fr/emplois/detail/5a04762b-50c0-414f-aae0-bcdab3f5ac06/",
+   "reason": "expérience demandée ≥ 3 ans « olides avec les clients. competences minimum 3 ans d'experience en finance »",
+   "at": "2026-10-29T10:28:11+00:00"
+  },
+  {
+   "id": "4b0c7744a208",
+   "company": "jobup.ch",
+   "title": "Senior IT-Business Analyst",
+   "url": "https://www.jobup.ch/fr/emplois/detail/a3400bb9-4fd3-45b9-8441-421dd983fb2e/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-29T10:28:11+00:00"
+  },
+  {
+   "id": "acbe5fcd3e44",
+   "company": "jobup.ch",
+   "title": "Business Analyst - Payments and Fintech",
+   "url": "https://www.jobup.ch/fr/emplois/detail/eed7ce1a-33ba-466e-9253-7706a5c1e6b2/",
+   "reason": "expérience demandée ≥ 4 ans « ec des donnees. competences diplome en stem, 4-5 ans d'experience en analyse »",
+   "at": "2026-10-29T10:28:10+00:00"
+  },
+  {
+   "id": "edc5d66d2100",
+   "company": "jobup.ch",
+   "title": "Business Analyst Prozesse Privatkundschaft",
+   "url": "https://www.jobup.ch/fr/emplois/detail/744f8601-2769-40a7-9509-f1b2e45d992a/",
+   "reason": "expérience demandée ≥ 3 ans « art, soit a winterthour ce que vous apportez plusieurs annees d'experience professionnelle dans le »",
+   "at": "2026-10-29T10:28:08+00:00"
+  },
+  {
+   "id": "9b0259f47cf7",
+   "company": "jobup.ch",
+   "title": "Managing Director Assistant & Business Analyst (80%) H/F",
+   "url": "https://www.jobup.ch/fr/emplois/detail/95c087ec-4ddc-484e-a232-0eb73a11b6a9/",
+   "reason": "titre exclu (director)",
+   "at": "2026-10-29T10:28:05+00:00"
+  },
+  {
+   "id": "a7e42780158a",
+   "company": "jobup.ch",
+   "title": "Business Analyst GMAO / EAM (H/F)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/56825a7f-e9f2-46ab-bf31-9265c35fe03b/",
+   "reason": "expérience demandée ≥ 3 ans « enierie, supply chain ou domaine equivalent. experience significative en tant que business ana »",
+   "at": "2026-10-29T10:28:03+00:00"
+  },
+  {
+   "id": "2adeb89bfa5a",
+   "company": "jobup.ch",
+   "title": "Incidence & Brand Tracker Analyst",
+   "url": "https://www.jobup.ch/fr/emplois/detail/ae6e3eb3-beb7-4bc3-a7a4-de2d6ea3d7ca/",
+   "reason": "expérience demandée ≥ 6 ans « tude. profil recherche diplome universitaire plus de 5 ans d'experience en insights »",
+   "at": "2026-10-29T10:28:01+00:00"
+  },
+  {
+   "id": "dd2da0e4a3fe",
+   "company": "jobup.ch",
+   "title": "Business Analyst MES (H/F) - Genève - CDI",
+   "url": "https://www.jobup.ch/fr/emplois/detail/46071736-c3be-4ed1-8109-54e777154598/",
+   "reason": "expérience demandée ≥ 3 ans « atique de gestion, ou experience equivalente experience confirmee en tant que business ana »",
+   "at": "2026-10-29T10:27:56+00:00"
+  },
+  {
+   "id": "69d7b9c6f623",
+   "company": "jobup.ch",
+   "title": "Business Analyst Senior (h/f/x) - 80-100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/384bcecf-aaba-48c6-95a0-cb563480c13d/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-29T10:27:54+00:00"
+  },
+  {
+   "id": "738f6f4c57b4",
+   "company": "jobup.ch",
+   "title": "Business Analyst (h/f/x) 80-100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/15d1fd26-fc7b-42fc-b959-1d2316cccf64/",
+   "reason": "expérience demandée ≥ 6 ans « . votre profil : une experience d'au minimum 6 a 8 ans en tant que business ana »",
+   "at": "2026-10-29T10:27:52+00:00"
+  },
+  {
+   "id": "84525603066a",
+   "company": "jobup.ch",
+   "title": "Business Analyst (h/f/x) 80 - 100 %",
+   "url": "https://www.jobup.ch/fr/emplois/detail/08c70922-dca5-40c9-a851-8b64d2308b44/",
+   "reason": "expérience demandée ≥ 5 ans « perience professionnelle equivalente 3 ans a 5 ans d'experience dans le dom »",
+   "at": "2026-10-29T10:27:50+00:00"
+  },
+  {
+   "id": "6fdc6b83ad74",
+   "company": "jobup.ch",
+   "title": "Financial Analyst & AI Engineer",
+   "url": "https://www.jobup.ch/fr/emplois/detail/18943dd6-c820-41e9-9e37-0da70fd57866/",
+   "reason": "expérience demandée ≥ 3 ans « ion et recuperation de donnees financieres : experience averee en extraction web financ »",
+   "at": "2026-10-29T10:27:49+00:00"
+  },
+  {
+   "id": "2a91c17eecee",
+   "company": "jobup.ch",
+   "title": "Business Analyst – Enterprise Data Management (EDM)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/7f713930-d509-47c0-a31a-1516d17fe386/",
+   "reason": "expérience demandée ≥ 3 ans « et animer des ateliers metiers. competences 3 a 5 ans d'experience en edm ou r »",
+   "at": "2026-10-29T10:27:47+00:00"
+  },
+  {
+   "id": "2447625a7c2e",
+   "company": "jobup.ch",
+   "title": "Data manager clinique",
+   "url": "https://www.jobup.ch/fr/emplois/detail/1a3cf59d-ccbb-4847-a694-27cd262b34a6/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-10-29T10:27:47+00:00"
+  },
+  {
+   "id": "aa14dfc0521d",
+   "company": "jobup.ch",
+   "title": "Stadler: Master Data Manager:in 100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/21c764fe-a854-4362-a2da-0cb72ef515c1/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-10-29T10:27:47+00:00"
+  },
+  {
+   "id": "302e218aa18b",
+   "company": "jobup.ch",
+   "title": "Head Data Office-100% (m/f/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/2814385e-0a98-44da-8bfd-1b2bf0870a79/",
+   "reason": "titre exclu (head)",
+   "at": "2026-10-29T10:27:47+00:00"
+  },
+  {
+   "id": "ddd46caabccd",
+   "company": "jobup.ch",
+   "title": "SAP Data Manager 100 % (w/m/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/3b927192-6165-4d8e-8e7e-d33f6adae11c/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-10-29T10:27:47+00:00"
+  },
+  {
+   "id": "9471dfb1939a",
+   "company": "jobup.ch",
+   "title": "SAP Data Manager 100 % (w/m/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/e43ce24e-3db9-42a6-964f-fd2eb9a95af0/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-10-29T10:27:47+00:00"
+  },
+  {
+   "id": "8f875f2f9381",
+   "company": "jobup.ch",
+   "title": "Data Engineer (w/m/d) 80 - 100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/4ade4add-936c-4ed8-b4df-5b2221b4fe7b/",
+   "reason": "expérience demandée ≥ 3 ans « donnees ou une qualification equivalente une experience approfondie avec les services gcp te »",
+   "at": "2026-10-29T10:27:46+00:00"
+  },
+  {
+   "id": "1dad88f1834c",
+   "company": "jobup.ch",
+   "title": "Data Integration Engineer",
+   "url": "https://www.jobup.ch/fr/emplois/detail/43ae0392-5ab4-46cd-9cdd-a4d34b9b7078/",
+   "reason": "expérience demandée ≥ 3 ans « s et le developpement logiciel nos exigences experience de plusieurs annees dans la mise en place et »",
+   "at": "2026-10-29T10:27:43+00:00"
+  },
+  {
+   "id": "e11af8eef971",
+   "company": "jobup.ch",
+   "title": "Databricks Consultant / Data Engineer",
+   "url": "https://www.jobup.ch/fr/emplois/detail/33755515-cbd2-4e44-9d61-6269d110ec80/",
+   "reason": "expérience demandée ≥ 3 ans « pratiques d'ingenierie. competences requises experience averee en tant qu' ingenieur da »",
+   "at": "2026-10-29T10:27:41+00:00"
+  },
+  {
+   "id": "a492c9fd5cc3",
+   "company": "jobup.ch",
+   "title": "Data Engineer*in (m/w/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/ccaed49b-9f5e-4eeb-acf7-c4b5a3b1d6dd/",
+   "reason": "expérience demandée ≥ 3 ans « s ou dans un domaine comparable apportez une experience approfondie dans l'analyse et la mod »",
+   "at": "2026-10-29T10:27:40+00:00"
+  },
+  {
+   "id": "f4a26f08c1fe",
+   "company": "jobup.ch",
+   "title": "Database Reliability Engineer (f/m/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/06b0220f-0e4d-41d6-a12f-38f92d8fb896/",
+   "reason": "expérience demandée ≥ 3 ans « er ou database reliability engineer. minimum 3 ans d'experience dans un rol »",
+   "at": "2026-10-29T10:27:39+00:00"
+  },
+  {
+   "id": "9dbe598684fe",
+   "company": "jobup.ch",
+   "title": "Data Quality Manager (AI)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/3c0f77d5-7f80-47a4-816b-da37540a4f80/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-10-29T10:27:36+00:00"
+  },
+  {
+   "id": "927d1dc606a8",
+   "company": "jobup.ch",
+   "title": "Sovereign Data Program Intern",
+   "url": "https://www.jobup.ch/fr/emplois/detail/1cb9f955-33a8-4d95-90c8-3914e04dc201/",
+   "reason": "titre exclu (intern)",
+   "at": "2026-10-29T10:27:36+00:00"
+  },
+  {
+   "id": "fd462b193f6b",
+   "company": "jobup.ch",
+   "title": "Stagiaire - Data, IA & Développement",
+   "url": "https://www.jobup.ch/fr/emplois/detail/d277dd5c-3004-4128-b287-7caa36785d20/",
+   "reason": "titre exclu (stagiaire)",
+   "at": "2026-10-29T10:27:34+00:00"
+  },
+  {
+   "id": "cbfc69eff7ca",
+   "company": "jobup.ch",
+   "title": "ERP, Data Digitalisation Specialist CDI 100 (H/F)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/d825b889-f4ff-405c-be2b-d723d200619f/",
+   "reason": "expérience demandée ≥ 3 ans « c des solutions du marche (proconcept, odoo) solide experience dans l'analyse de besoin »",
+   "at": "2026-10-29T10:27:31+00:00"
+  },
+  {
+   "id": "825613562919",
+   "company": "jobup.ch",
+   "title": "Data Analyst (H/F), CDD 12 mois",
+   "url": "https://www.jobup.ch/fr/emplois/detail/4f454c0c-a9e5-48f7-bac0-287795532eaa/",
+   "reason": "expérience demandée ≥ 3 ans « informatique centrale du groupe votre profil experience confirmee en tant que data analyst »",
+   "at": "2026-10-29T10:27:29+00:00"
+  },
+  {
+   "id": "2059142b081a",
+   "company": "jobup.ch",
+   "title": "Business Analyst senior Data (h/f/x) - 80-100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/94dbac24-2b13-40f0-a2a4-2c2db2a8445e/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-29T10:27:28+00:00"
+  },
+  {
+   "id": "44f3544a6668",
+   "company": "jobup.ch",
+   "title": "Data manager clinique",
+   "url": "https://www.jobup.ch/fr/emplois/detail/8a421378-920f-4521-8252-154730e3b507/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-10-29T10:27:28+00:00"
+  },
+  {
+   "id": "3f488bb6b648",
+   "company": "jobs.ch",
+   "title": "Managing Director Assistant & Business Analyst (80%) H/F",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/62c6c8c2-4cc5-4f07-92fe-1f1ed1cf80e6/",
+   "reason": "titre exclu (director)",
+   "at": "2026-10-29T10:27:23+00:00"
+  },
+  {
+   "id": "d0e185d73e8f",
+   "company": "jobs.ch",
+   "title": "Senior Business Analyst Digital Banking Security (a) (80-100%)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/4accdb78-5b1f-42d9-a1e0-5ddd5d68ffd6/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-29T10:27:22+00:00"
+  },
+  {
+   "id": "585eee907788",
+   "company": "jobs.ch",
+   "title": "Senior Technical Business Analyst Digital Identity & Open Banking (a) (80-100%)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/f69c4cba-a0ba-4db2-87ec-f113fd944f02/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-29T10:27:22+00:00"
+  },
+  {
+   "id": "c20a9301791e",
+   "company": "jobs.ch",
+   "title": "Senior IT Business Analyst – Compliance & Workflow Automation (100%)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/fedd8697-f73e-4782-bf35-ba9ecc2ea015/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-29T10:27:19+00:00"
+  },
+  {
+   "id": "191eb95ffaef",
+   "company": "jobs.ch",
+   "title": "SAP PP & WM Business Analyst 100% (w/m/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/47a37f15-bafd-4d6c-8e9c-a21419a0a675/",
+   "reason": "expérience demandée ≥ 10 ans « de gestion ou gestion d'entreprise au moins 10 ans d'experience dans l'envi »",
+   "at": "2026-10-29T10:27:17+00:00"
+  },
+  {
+   "id": "994ed81098a2",
+   "company": "jobs.ch",
+   "title": "Business Analyst - Banking (Fokus Karten & Zahlungsverkehr) 100% (a), Zürich",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/d6333f06-b4e4-44d7-b771-82b200d170b9/",
+   "reason": "expérience demandée ≥ 5 ans « qualifikation mit starkem it-/banken-bezug). berufserfahrung: mindestens 5 jahre erfahrung als business analys »",
+   "at": "2026-10-29T10:27:15+00:00"
+  },
+  {
+   "id": "22000dae8e05",
+   "company": "jobs.ch",
+   "title": "Business Analyst Geschäftsprozesse & SAP (m/w/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/8588f9a6-eeec-467a-be45-c7037f933015/",
+   "reason": "expérience demandée ≥ 3 ans « er schweiz sowie im europaischen ausland mit langjahrigen partnern zusammen. im r »",
+   "at": "2026-10-29T10:27:13+00:00"
+  },
+  {
+   "id": "e448edaac7e0",
+   "company": "jobs.ch",
+   "title": "Security Analyst (w/m/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/e26f6172-a732-41b9-a02c-79005f84ddf9/",
+   "reason": "expérience demandée ≥ 3 ans « ndows & linux, owasp, mitre att&ck) au moins 3 ans d'experience en analyse »",
+   "at": "2026-10-29T10:27:11+00:00"
+  },
+  {
+   "id": "48e6c9fc5e3c",
+   "company": "jobs.ch",
+   "title": "Business Analyst Rechnungswegsen, Buchungssystem & Kontoabschluss (all) 100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/8291eda8-3a53-41d6-b68e-420f5becb6ff/",
+   "reason": "expérience demandée ≥ 3 ans « banque ou une qualification comparable avec plusieurs annees d'experience professionnelle et un sa »",
+   "at": "2026-10-29T10:27:09+00:00"
+  },
+  {
+   "id": "889fab6da75a",
+   "company": "jobs.ch",
+   "title": "Sales & Market Analyst (w/m/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/5f426ad7-04d9-4a2f-8430-c5d5f5d9ae64/",
+   "reason": "expérience demandée ≥ 3 ans « stique ou gestion d'entreprise est un atout. plusieurs annees d'experience professionnelle dans l'a »",
+   "at": "2026-10-29T10:27:09+00:00"
+  },
+  {
+   "id": "f21c9ac838d6",
+   "company": "jobs.ch",
+   "title": "Group Senior Analyst Quality Applications",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/6e3e7afc-90da-4c0c-ac25-c851fd24f3ce/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-29T10:27:09+00:00"
+  },
+  {
+   "id": "b8901b98b964",
+   "company": "jobs.ch",
+   "title": "Senior Business Analyst - Digital Banking",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/892e6925-6909-40ab-aafe-280049e54ee0/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-29T10:27:09+00:00"
+  },
+  {
+   "id": "fdc7f635cd06",
+   "company": "jobs.ch",
+   "title": "Senior FMI Business Analyst",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/dcae3f55-c1ab-4d51-b78a-3f754b43a865/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-29T10:27:07+00:00"
+  },
+  {
+   "id": "4af323e3f597",
+   "company": "jobs.ch",
+   "title": "Senior Business Analyst Vertriebsstammdaten (m/w/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/8fe8c846-f821-4927-a12d-6ed03a197f3d/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-29T10:27:07+00:00"
+  },
+  {
+   "id": "07905e325d26",
+   "company": "jobs.ch",
+   "title": "Business Analyst 80 - 100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/4a4beda6-1a30-4c43-8e3b-f802929d0af4/",
+   "reason": "expérience demandée ≥ 5 ans « ue business analyst : tu disposes d'au moins 5 ans d'experience en business »",
+   "at": "2026-10-29T10:27:00+00:00"
+  },
+  {
+   "id": "63e7bb8fea5f",
+   "company": "jobs.ch",
+   "title": "Business Analyst / Product Owner",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/23e7c4d0-35c5-4523-b959-e0d21a9834fc/",
+   "reason": "expérience demandée ≥ 3 ans « 'affaires (fh/uni) ou experience equivalente plusieurs annees d'experience en analyse d'affaires et »",
+   "at": "2026-10-29T10:26:59+00:00"
+  },
+  {
+   "id": "483973902147",
+   "company": "jobs.ch",
+   "title": "Business Analyst/-in 80 - 100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/3087494a-9480-4a8a-bcd1-c92e4385075d/",
+   "reason": "expérience demandée ≥ 5 ans « qu'analyste d'affaires : vous avez au moins 5 ans d'experience dans l'anal »",
+   "at": "2026-10-29T10:26:57+00:00"
+  },
+  {
+   "id": "4e5177cd8aa3",
+   "company": "jobs.ch",
+   "title": "Business Analyst Vertriebsstammdaten und -Prozesse",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/5dc95ee0-650b-44ae-aac9-f296f56a9ba0/",
+   "reason": "expérience demandée ≥ 3 ans « estion des clients et des contrats exigences experience approfondie de plusieurs annees en t »",
+   "at": "2026-10-29T10:26:56+00:00"
+  },
+  {
+   "id": "f88fd7b3312d",
+   "company": "jobs.ch",
+   "title": "Senior Quantitative Analyst - Interest Rate Pricing Models",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/61b08291-c509-4827-baaf-ce7e995a1fbb/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-29T10:26:55+00:00"
+  },
+  {
+   "id": "97c3b98a8caa",
+   "company": "jobs.ch",
+   "title": "Teamleitung SAP Services / Business Analyst Order-to-Cash (OTC) 80-100% (m/w/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/c0a47671-36e6-49f9-892e-c1697b853bab/",
+   "reason": "expérience demandée ≥ 3 ans « stion d'entreprise ou formation equivalente. experience significative dans la gestion ou la su »",
+   "at": "2026-10-29T10:26:53+00:00"
+  },
+  {
+   "id": "dc5699d90f4c",
+   "company": "jobs.ch",
+   "title": "Product Owner Data & Billing 80-100% (m/w/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/66906ac1-bd7f-4506-8a59-6f91529e1232/",
+   "reason": "expérience demandée ≥ 3 ans « e ou commerciale solide avec un fort lien it experience de plusieurs annees en tant que product owne »",
+   "at": "2026-10-29T10:26:50+00:00"
+  },
+  {
+   "id": "eb5402b60c10",
+   "company": "jobs.ch",
+   "title": "Business Development & Data Analytics Manager (80-100%)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/69703fc7-638c-4098-9797-375390458194/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-10-29T10:26:50+00:00"
+  },
+  {
+   "id": "7616a2335568",
+   "company": "jobs.ch",
+   "title": "Data Scientist Sensors",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/7994eb55-3fbd-4bdb-a33d-ce78ad07a415/",
+   "reason": "expérience demandée ≥ 3 ans « ientifique et l'analyse de donnees, avec une experience confirmee des bibliotheques pertin »",
+   "at": "2026-10-29T10:26:48+00:00"
+  },
+  {
+   "id": "27e407d55d96",
+   "company": "jobs.ch",
+   "title": "Data Quality Manager (AI)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/e16b6921-c924-4421-9979-568e6bc49a70/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-10-29T10:26:48+00:00"
+  },
+  {
+   "id": "1fd59610ebef",
+   "company": "jobs.ch",
+   "title": "Data & Analytics DevOps Engineer (all) 80-100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/2091064f-9994-4690-b7bc-b8126f98abe4/",
+   "reason": "expérience demandée ≥ 3 ans « les versions tu nous enthousiasmes... par ta longue experience professionnelle en devel »",
+   "at": "2026-10-29T10:26:47+00:00"
+  },
+  {
+   "id": "f7021c6cd41d",
+   "company": "jobs.ch",
+   "title": "Senior Data Migration Engineer | Investment Finance | 80-100% (m/w/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/4987a77b-a171-4aad-9a9e-7514ad5049e3/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-29T10:26:46+00:00"
+  },
+  {
+   "id": "76cc48f56f0a",
+   "company": "jobs.ch",
+   "title": "Manager - Technology Consulting - AI & Data (80-100%)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/80fc3d50-85a8-4ac8-8678-3c5a5c8ac2c5/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-10-29T10:26:46+00:00"
+  },
+  {
+   "id": "0c93b4c9c08b",
+   "company": "jobs.ch",
+   "title": "Data Scientist Sensors",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/0a5885a1-e898-4268-a7e5-f8afa1499744/",
+   "reason": "expérience demandée ≥ 3 ans « ientifique et l'analyse de donnees, avec une experience solide des bibliotheques pertin »",
+   "at": "2026-10-29T10:26:44+00:00"
+  },
+  {
+   "id": "a5f19170922e",
+   "company": "jobs.ch",
+   "title": "(Senior) Data Engineer Beschaffung & Logistik (w/m/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/fbb188ec-bd95-4b4c-a04e-4a893e62d201/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-29T10:26:44+00:00"
+  },
+  {
+   "id": "29cd82291620",
+   "company": "jobs.ch",
+   "title": "Data Analyst / Controller 80-100% (w/m/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/d3ca9d68-7437-47c0-aaba-c22bce98381e/",
+   "reason": "expérience demandée ≥ 3 ans « chtenstein, nous vous convainquons par notre longue experience dans la gestion de grand »",
+   "at": "2026-10-29T10:26:43+00:00"
+  },
+  {
+   "id": "b4b895d09efa",
+   "company": "jobs.ch",
+   "title": "Stagiaire - Data, IA & Développement",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/ed2ffa51-f44c-440b-a982-19db347fa2cc/",
+   "reason": "titre exclu (stagiaire)",
+   "at": "2026-10-29T10:26:43+00:00"
+  },
+  {
+   "id": "617d1a05755e",
+   "company": "jobs.ch",
+   "title": "Product Change & Master Data Manager 80 - 100 % (w/m/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/79cdf28c-9cf2-49a6-b829-9735d233a6c4/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-10-29T10:26:41+00:00"
+  },
+  {
+   "id": "10b35c44f30e",
+   "company": "jobs.ch",
+   "title": "Consultant SAP Data & Analytics 60–100% (m/w/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/70e61529-82b5-4f26-b15a-328b9d737a89/",
+   "reason": "expérience demandée ≥ 3 ans « vous agissez en ce sens ce que vous apportez 3 a 5 ans d'experience en tant que »",
+   "at": "2026-10-29T10:26:34+00:00"
+  },
+  {
+   "id": "592d2660a50b",
+   "company": "jobs.ch",
+   "title": "Client Data Services Officer 100% ( w/m/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/290f18a9-ca4d-4464-88b8-6e412e61fcbd/",
+   "reason": "expérience demandée ≥ 3 ans « chtenstein, nous vous convainquons par notre longue experience dans la gestion de grand »",
+   "at": "2026-10-29T10:26:31+00:00"
+  },
+  {
+   "id": "b1d59325d198",
+   "company": "jobs.ch",
+   "title": "Software Architect - Product Data (w/m/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/265096f6-e18e-4620-b1b1-a8b7e314912d/",
+   "reason": "titre exclu (architect)",
+   "at": "2026-10-29T10:26:31+00:00"
+  },
+  {
+   "id": "07b2bad6ebd5",
+   "company": "jobs.ch",
+   "title": "Data Quality Specialist 80-100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/122cf9bd-f99a-4f61-9ca1-d5bbd5468a6f/",
+   "reason": "expérience demandée ≥ 3 ans « e discipline quantitative comparable, ou une experience solide dans le domaine de la qu »",
+   "at": "2026-10-29T10:26:28+00:00"
+  },
+  {
+   "id": "a84276519941",
+   "company": "jobs.ch",
+   "title": "Senior Data Engineer (MSSQL) mit Data Lakehouse Perspektive",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/a5dca662-cf6d-46ca-a3f6-b585ef59ff38/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-29T10:26:28+00:00"
+  },
+  {
+   "id": "46b5079cc712",
+   "company": "jobs.ch",
+   "title": "Principal Data and AI Consultant",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/425e7e14-05eb-4068-bcfb-89726525f38f/",
+   "reason": "titre exclu (principal)",
+   "at": "2026-10-29T10:26:28+00:00"
+  },
+  {
+   "id": "29bdab48816c",
+   "company": "jobs.ch",
+   "title": "Business Analyst Data & Integration (m/w/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/58a8b271-917c-4195-8a44-98c7d4d8090e/",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « Expérience en gestion des données, intégration système ou analyse business »",
+   "at": "2026-10-29T10:26:25+00:00"
+  },
+  {
+   "id": "18670124c599",
+   "company": "jobs.ch",
+   "title": "Data Analyst (H/F), CDD 12 mois",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/342c9c32-b6da-47e6-98e3-ac42136e16d9/",
+   "reason": "expérience demandée ≥ 3 ans « informatique centrale du groupe votre profil experience confirmee en tant que data analyst »",
+   "at": "2026-10-29T10:26:25+00:00"
+  },
+  {
+   "id": "99e94e2f0577",
+   "company": "jobs.ch",
+   "title": "Senior Data Engineer",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/ad98dd37-053d-41c9-af5b-ca84f62fdcb1/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-29T10:26:23+00:00"
+  },
+  {
+   "id": "9ae315c9e0cd",
+   "company": "jobs.ch",
+   "title": "Principal Data Architect",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/79ad8494-a4c2-424f-8f3d-30e2c81c5ecb/",
+   "reason": "titre exclu (principal)",
+   "at": "2026-10-29T10:26:23+00:00"
+  },
+  {
+   "id": "ae01da3443b5",
+   "company": "jobs.ch",
+   "title": "Data manager clinique",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/f758e181-956b-40e7-ba88-bd74d9acf0e7/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-10-29T10:26:23+00:00"
+  },
+  {
+   "id": "62a8d16c9582",
+   "company": "jobs.ch",
+   "title": "PIM & Master Data Specialist (80-100 %)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/6d8ea46d-325b-4405-a50e-b5114ddc4284/",
+   "reason": "expérience demandée ≥ 3 ans « ausbildung, hohere weiterbildung von vorteil mehrjahrige berufserfahrung, idealer »",
+   "at": "2026-10-29T10:26:17+00:00"
+  },
+  {
+   "id": "b176adfa2818",
+   "company": "jobs.ch",
+   "title": "Senior Consultant - Consulting - Data Management & Governance",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/2a950003-8f6c-4b18-b933-614228140b99/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-29T10:26:17+00:00"
+  },
+  {
+   "id": "2da80b91be95",
+   "company": "jobs.ch",
+   "title": "(Senior) Consultant Data & Analytics",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/40747050-d331-4fb1-8105-cca61f3b3b45/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-29T10:26:17+00:00"
+  },
+  {
+   "id": "690d87ff37f1",
+   "company": "jobs.ch",
+   "title": "Data Architect 80-100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/5ba18304-8e80-4b25-a309-994d1263bd6f/",
+   "reason": "titre exclu (architect)",
+   "at": "2026-10-29T10:26:17+00:00"
+  },
+  {
+   "id": "a1c6bdc782ce",
+   "company": "jobs.ch",
+   "title": "Data Engineer (w/m/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/96509b44-d5da-40cb-8cf6-6ddb06333399/",
+   "reason": "expérience demandée ≥ 3 ans « science ou une qualification equivalente une experience approfondie avec les services gcp te »",
+   "at": "2026-10-29T10:26:15+00:00"
+  },
+  {
+   "id": "0ae142969472",
+   "company": "jobs.ch",
+   "title": "Professor/in für Data Engineering",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/a8bda89a-52cf-419d-8bad-e8250b5dcc47/",
+   "reason": "expérience demandée ≥ 3 ans « du data engineering et du data science, avec plusieurs annees d'experience pratique attestee dans v »",
+   "at": "2026-10-29T10:26:14+00:00"
+  },
+  {
+   "id": "3845f49acfce",
+   "company": "Orange",
+   "title": "Reporting Analyst",
+   "url": "https://orange.jobs/fr/fr/job/ERC-587483-20136094/Reporting-Analyst",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-29T10:26:07+00:00"
+  },
+  {
+   "id": "3f81b8cad3ff",
+   "company": "Orange",
+   "title": "SOC Analyst",
+   "url": "https://orange.jobs/fr/fr/job/ICM-588151/SOC-Analyst",
+   "reason": "expérience demandée ≥ 3 ans « e in computer science or programming</li><li>3+ years of experience in securit »",
+   "at": "2026-10-29T10:26:06+00:00"
+  },
+  {
+   "id": "74b4f619ed04",
+   "company": "Orange",
+   "title": "Fraud Analyst",
+   "url": "https://orange.jobs/fr/fr/job/ICM-589226/Fraud-Analyst",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:26:05+00:00"
+  },
+  {
+   "id": "7ed8f7718203",
+   "company": "Orange",
+   "title": "Business Analyst",
+   "url": "https://orange.jobs/fr/fr/job/ICM-588315/Business-Analyst",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:26:03+00:00"
+  },
+  {
+   "id": "3acd26186d82",
+   "company": "Orange",
+   "title": "Data Engineer",
+   "url": "https://orange.jobs/fr/fr/job/ICM-589002/Data-Engineer",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:26:02+00:00"
+  },
+  {
+   "id": "4818b839c6fe",
+   "company": "Orange",
+   "title": "Data Scientist",
+   "url": "https://orange.jobs/fr/fr/job/ICM-588283/Data-Scientist",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:26:00+00:00"
+  },
+  {
+   "id": "b1dffbe98bbd",
+   "company": "Orange",
+   "title": "Data Analyst",
+   "url": "https://orange.jobs/fr/fr/job/ICM-588944/Data-Analyst",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-29T10:25:59+00:00"
+  },
+  {
+   "id": "e6380881a101",
+   "company": "TotalEnergies",
+   "title": "BI/DATA Developer",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/BI-DATA-Developer/85536",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:25:19+00:00"
+  },
+  {
+   "id": "8e38d6254362",
+   "company": "TotalEnergies",
+   "title": "ACCOUNTING & CREDIT ANALYST",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/ACCOUNTING-CREDIT-ANALYST/81353",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-29T10:25:17+00:00"
+  },
+  {
+   "id": "e8af2263cc11",
+   "company": "TotalEnergies",
+   "title": "CDI - Analyste de Laboratoire (H/F)",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/CDI-Analyste-de-Laboratoire-H-F/85596",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-29T10:25:15+00:00"
+  },
+  {
+   "id": "7e9f5092460c",
    "company": "AXA",
-   "title": "Chargé d'études actuarielles/Data Analyst (F/H) - stage",
-   "url": "https://careers.axa.com/jobs/37044",
-   "reason": "titre exclu (stage)",
-   "at": "2026-10-29T01:49:07+00:00"
+   "title": "Senior Analyst, Pricing - International Casualty",
+   "url": "https://careers.axa.com/jobs/15936",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-29T10:23:16+00:00"
+  },
+  {
+   "id": "71e0a034c0f6",
+   "company": "AXA",
+   "title": "Data Operations Support Analyst",
+   "url": "https://careers.axa.com/jobs/28646",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:23:07+00:00"
+  },
+  {
+   "id": "ae5942ee8674",
+   "company": "AXA",
+   "title": "Data & Analytics Product Owner",
+   "url": "https://careers.axa.com/jobs/25337",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:23:07+00:00"
+  },
+  {
+   "id": "82b06476de88",
+   "company": "AXA",
+   "title": "Consumer Analyst",
+   "url": "https://careers.axa.com/jobs/29192",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:23:07+00:00"
+  },
+  {
+   "id": "614bc4a14706",
+   "company": "AXA",
+   "title": "Senior Pricing Governance Analyst",
+   "url": "https://careers.axa.com/jobs/28651",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-29T10:23:07+00:00"
+  },
+  {
+   "id": "f83cf44d7dc1",
+   "company": "AXA",
+   "title": "Data Scientist",
+   "url": "https://careers.axa.com/jobs/28649",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:23:07+00:00"
+  },
+  {
+   "id": "91535e155529",
+   "company": "AXA",
+   "title": "Business Analyst - 14 Month FTC",
+   "url": "https://careers.axa.com/jobs/27929",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:23:07+00:00"
+  },
+  {
+   "id": "c6be341a93ac",
+   "company": "AXA",
+   "title": "Senior Capital Analyst",
+   "url": "https://careers.axa.com/jobs/25345",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-29T10:23:07+00:00"
+  },
+  {
+   "id": "6369e3b811b2",
+   "company": "AXA",
+   "title": "Business Analyst (FTC 6 months)",
+   "url": "https://careers.axa.com/jobs/22861",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:23:07+00:00"
+  },
+  {
+   "id": "b7c1eed77808",
+   "company": "BPCE",
+   "title": "Data Engineer F/H",
+   "url": "https://recrutement.bpce.fr/job/data-engineer-f-h",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:22:44+00:00"
+  },
+  {
+   "id": "f90fb40c27df",
+   "company": "BPCE",
+   "title": "Business Analyst IT Parcours Conseillers (F/H)",
+   "url": "https://recrutement.bpce.fr/job/business-analyst-it-parcours-conseillers-f-h",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:22:35+00:00"
+  },
+  {
+   "id": "4f795f0b347d",
+   "company": "BPCE",
+   "title": "Analyste Risques , Sud Service Accompagnement",
+   "url": "https://recrutement.bpce.fr/job/analyste-risques-sud-service-accompagnement",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:22:26+00:00"
+  },
+  {
+   "id": "fde882c04973",
+   "company": "BPCE",
+   "title": "Analyste financier (F/H)",
+   "url": "https://recrutement.bpce.fr/job/analyste-financier-f-h",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:22:17+00:00"
+  },
+  {
+   "id": "9ba20f167267",
+   "company": "BPCE",
+   "title": "Data Analyst H/F - Orléans",
+   "url": "https://recrutement.bpce.fr/job/data-analyst-h-f-orleans",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:22:08+00:00"
+  },
+  {
+   "id": "25b1356da9bd",
+   "company": "BPCE",
+   "title": "Analyste Financier (F/H)",
+   "url": "https://recrutement.bpce.fr/job/analyste-financier-f-h-2",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:21:59+00:00"
+  },
+  {
+   "id": "2c7728331e8d",
+   "company": "BPCE",
+   "title": "Information Technology Risk 1LoD Analyst",
+   "url": "https://recrutement.bpce.fr/job/information-technology-risk-1lod-analyst",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:21:50+00:00"
+  },
+  {
+   "id": "1e375cba25ae",
+   "company": "BPCE",
+   "title": "Market Data & Access Support Engineer",
+   "url": "https://recrutement.bpce.fr/job/market-data-access-support-engineer",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:21:41+00:00"
+  },
+  {
+   "id": "9acdc7e7abee",
+   "company": "BPCE",
+   "title": "Analyste Risques de Crédits CDD (F/H) - Rennes (35)",
+   "url": "https://recrutement.bpce.fr/job/analyste-risques-de-credits-cdd-f-h-rennes-35",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:21:33+00:00"
+  },
+  {
+   "id": "ee09d636c6ee",
+   "company": "BPCE",
+   "title": "Analyste Risque de Crédit dossiers sensibles (F/H)",
+   "url": "https://recrutement.bpce.fr/job/analyste-risque-de-credit-dossiers-sensibles-f-h-2",
+   "reason": "expérience demandée ≥ 5 ans « e en question experience bancaire d'au moins 5-10 ans dans des fonctions explo »",
+   "at": "2026-10-29T10:21:24+00:00"
   },
   {
    "id": "be435ee0c180",
@@ -15,7 +1167,127 @@
    "title": "Global Investment Banking Analyst M/F",
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170466-4-global-investment-banking-analyst-mf--reference--2026-115374--/",
    "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-29T01:48:13+00:00"
+   "at": "2026-10-29T10:20:31+00:00"
+  },
+  {
+   "id": "7b88fae200a7",
+   "company": "Société Générale",
+   "title": "Stage - Analyste Conformité et Risques Opérationnels",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/stage-analyste-conformite-et-risques-operationnels-26000MSP-fr",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-29T10:19:56+00:00"
+  },
+  {
+   "id": "e4ffd9296740",
+   "company": "Alstom",
+   "title": "Project Warranty Data Analyst [RS eLOCO]",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Project-Warranty-Data-Analyst-RS-eLOCO-KA/1445165933/",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:18:40+00:00"
+  },
+  {
+   "id": "435da67160e8",
+   "company": "Alstom",
+   "title": "Data Design and Delivery Specialist",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Data-Design-and-Delivery-Specialist/1446479733/",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:18:39+00:00"
+  },
+  {
+   "id": "7228a2511daf",
+   "company": "Alstom",
+   "title": "Data Solution Specialist",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Data-Solution-Specialist/1446478933/",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:18:37+00:00"
+  },
+  {
+   "id": "b32bfe9d02ce",
+   "company": "Alstom",
+   "title": "TEMP LABOUR - Business Process & Reporting Analyst H/F",
+   "url": "https://jobsearch.alstom.com/job/Charleroi-TEMP-LABOUR-Business-Process-&-Reporting-Analyst-HF/1427905333/",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-29T10:18:36+00:00"
+  },
+  {
+   "id": "cbd7ddb14e49",
+   "company": "Alstom",
+   "title": "HR Admin Analyst with German",
+   "url": "https://jobsearch.alstom.com/job/Cluj-Napoca-HR-Admin-Analyst-with-German-CJ/1428263833/",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-29T10:18:34+00:00"
+  },
+  {
+   "id": "36de981bab9c",
+   "company": "Alstom",
+   "title": "Salesforce Services Technical Analyst",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Salesforce-Services-Technical-Analyst-KA/1398765633/",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:18:33+00:00"
+  },
+  {
+   "id": "d7a0476b8c56",
+   "company": "Alstom",
+   "title": "Analyst - Intune",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Analyst-Intune-KA/1451215433/",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:18:31+00:00"
+  },
+  {
+   "id": "7bf0f9b7c713",
+   "company": "Alstom",
+   "title": "Analyste Financier FP&A",
+   "url": "https://jobsearch.alstom.com/job/Saint-Bruno-Analyste-Financier-FP&A-QC/1452260533/",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-29T10:18:30+00:00"
+  },
+  {
+   "id": "312fdfc8d217",
+   "company": "Alstom",
+   "title": "Inter-company Analyst",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Inter-company-Analyst-KA/1452452233/",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T10:18:28+00:00"
+  },
+  {
+   "id": "cc70cba7ad98",
+   "company": "Alstom",
+   "title": "Record to Report, Senior Analyst",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Record-to-Report%2C-Senior-Analyst-KA/1452364033/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-29T10:18:28+00:00"
+  },
+  {
+   "id": "7c7ca9f266fa",
+   "company": "Alstom",
+   "title": "FP&A Financial Analyst",
+   "url": "https://jobsearch.alstom.com/job/Saint-Bruno-FP&A-Financial-Analyst-QC/1452260433/",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-29T10:18:27+00:00"
+  },
+  {
+   "id": "a28a63858746",
+   "company": "Alstom",
+   "title": "Ingénieur(e) Process / Data - H/F",
+   "url": "https://jobsearch.alstom.com/job/Ornans-Ing%C3%A9nieur%28e%29-Process-Data-HF-I/1431947533/",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-29T10:18:25+00:00"
+  },
+  {
+   "id": "fec4864cc359",
+   "company": "Alstom",
+   "title": "Intern - Data Engineering (Winter 2027)",
+   "url": "https://jobsearch.alstom.com/job/Saint-Bruno-Intern-Data-Engineering-%28Winter-2027%29-QC/1442839933/",
+   "reason": "titre exclu (intern)",
+   "at": "2026-10-29T10:18:24+00:00"
+  },
+  {
+   "id": "07971f422f88",
+   "company": "AXA",
+   "title": "Chargé d'études actuarielles/Data Analyst (F/H) - stage",
+   "url": "https://careers.axa.com/jobs/37044",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-29T01:49:07+00:00"
   },
   {
    "id": "8d89d6fb929a",
@@ -74,22 +1346,6 @@
    "at": "2026-10-29T01:48:09+00:00"
   },
   {
-   "id": "8abc707db815",
-   "company": "UBS",
-   "title": "Business Risk Specialist - Data Protection",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=353233",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-28T21:44:46+00:00"
-  },
-  {
-   "id": "bbecd6c15e88",
-   "company": "Crédit Agricole",
-   "title": "Analyste Coverage H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-coverage-hf-reference--2026-116954--/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-28T21:40:47+00:00"
-  },
-  {
    "id": "c2f2e596c385",
    "company": "Société Générale",
    "title": "Assistant Analyste Risque de Crédit",
@@ -104,38 +1360,6 @@
    "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-risques-sur-operations-de-marche-26000MAG-fr",
    "reason": "contrat hors CDI/CDD (stage, alternance…)",
    "at": "2026-10-28T21:40:26+00:00"
-  },
-  {
-   "id": "992a9ec3546a",
-   "company": "UBS",
-   "title": "Business Risk Specialist - Data Protection",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=352596",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-28T16:55:07+00:00"
-  },
-  {
-   "id": "7995df2396ae",
-   "company": "UBS",
-   "title": "India Banks Analyst",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=353052",
-   "reason": "lieu hors zones",
-   "at": "2026-10-28T16:55:05+00:00"
-  },
-  {
-   "id": "e778702f42d3",
-   "company": "UBS",
-   "title": "Data Steward - Static and Sustainability",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=352185",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-28T16:55:04+00:00"
-  },
-  {
-   "id": "4782b7a1cde4",
-   "company": "UBS",
-   "title": "Data Analyst - Data Services",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=352268",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-28T16:55:03+00:00"
   },
   {
    "id": "affaf68d8270",
@@ -162,14 +1386,6 @@
    "at": "2026-10-28T16:53:48+00:00"
   },
   {
-   "id": "9acdc7e7abee",
-   "company": "BPCE",
-   "title": "Analyste Risques de Crédits CDD (F/H) - Rennes (35)",
-   "url": "https://recrutement.bpce.fr/job/analyste-risques-de-credits-cdd-f-h-rennes-35",
-   "reason": "lieu hors zones",
-   "at": "2026-10-28T16:51:37+00:00"
-  },
-  {
    "id": "159891e5095c",
    "company": "Crédit Agricole",
    "title": "Analyst Export Finance Originator for CEE-CIS-Africa H/F",
@@ -186,36 +1402,12 @@
    "at": "2026-10-28T16:50:32+00:00"
   },
   {
-   "id": "7bf0f9b7c713",
-   "company": "Alstom",
-   "title": "Analyste Financier FP&A",
-   "url": "https://jobsearch.alstom.com/job/Saint-Bruno-Analyste-Financier-FP&A-QC/1452260533/",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-28T16:49:19+00:00"
-  },
-  {
-   "id": "7c7ca9f266fa",
-   "company": "Alstom",
-   "title": "FP&A Financial Analyst",
-   "url": "https://jobsearch.alstom.com/job/Saint-Bruno-FP&A-Financial-Analyst-QC/1452260433/",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-28T16:49:18+00:00"
-  },
-  {
    "id": "2fb0fe4be166",
    "company": "SNCF",
    "title": "Architecte IA & DATA F/H",
    "url": "https://emploi.sncf.com/nos-offres/884661",
    "reason": "titre exclu (architecte)",
    "at": "2026-10-28T16:49:00+00:00"
-  },
-  {
-   "id": "56ce8da8b11d",
-   "company": "ING",
-   "title": "Data Analyst (Data Modelling)",
-   "url": "https://careers.ing.com/en/job/makati-city/data-analyst-data-modelling/3121/46281037632",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-28T10:38:35+00:00"
   },
   {
    "id": "68e169d98c5e",
@@ -234,28 +1426,12 @@
    "at": "2026-10-28T10:33:21+00:00"
   },
   {
-   "id": "a28a63858746",
-   "company": "Alstom",
-   "title": "Ingénieur(e) Process / Data - H/F",
-   "url": "https://jobsearch.alstom.com/job/Ornans-Ing%C3%A9nieur%28e%29-Process-Data-HF-I/1431947533/",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-28T10:32:08+00:00"
-  },
-  {
    "id": "9770997a211f",
    "company": "Alstom",
    "title": "Data & AI V&V Leader",
    "url": "https://jobsearch.alstom.com/job/Bangalore-Data-&-AI-V&V-Leader/1442310133/",
    "reason": "titre exclu (leader)",
    "at": "2026-10-28T10:32:06+00:00"
-  },
-  {
-   "id": "8bfb55496568",
-   "company": "UBS",
-   "title": "Equity Research Analyst – Japanese Equities",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=352324",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-27T20:47:14+00:00"
   },
   {
    "id": "becc28b3beea",
@@ -306,14 +1482,6 @@
    "at": "2026-10-27T20:42:21+00:00"
   },
   {
-   "id": "1e375cba25ae",
-   "company": "BPCE",
-   "title": "Market Data & Access Support Engineer",
-   "url": "https://recrutement.bpce.fr/job/market-data-access-support-engineer",
-   "reason": "lieu hors zones",
-   "at": "2026-10-27T20:42:12+00:00"
-  },
-  {
    "id": "92d5a0d7e7c6",
    "company": "Crédit Agricole",
    "title": "Analyste risque de liquidité H/F",
@@ -360,22 +1528,6 @@
    "url": "https://jobsearch.alstom.com/job/Saint-Ouen-Internship-6-months-Business-Analyst-&-Digital-Transformation-Intern-%28FM%29/1447611933/",
    "reason": "titre exclu (internship)",
    "at": "2026-10-27T20:39:44+00:00"
-  },
-  {
-   "id": "276c560c2fdc",
-   "company": "ING",
-   "title": "IT Business Analyst",
-   "url": "https://careers.ing.com/en/job/makati-city/it-business-analyst/3121/46391157824",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-27T16:02:04+00:00"
-  },
-  {
-   "id": "24523f912177",
-   "company": "ING",
-   "title": "Data Strategy Oversight Analyst",
-   "url": "https://careers.ing.com/en/job/warsaw/data-strategy-oversight-analyst/3121/46391158400",
-   "reason": "lieu hors zones",
-   "at": "2026-10-27T16:02:03+00:00"
   },
   {
    "id": "675f0fff37f7",
@@ -434,22 +1586,6 @@
    "at": "2026-10-27T16:00:54+00:00"
   },
   {
-   "id": "e8af2263cc11",
-   "company": "TotalEnergies",
-   "title": "CDI - Analyste de Laboratoire (H/F)",
-   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/CDI-Analyste-de-Laboratoire-H-F/85596",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-27T16:00:03+00:00"
-  },
-  {
-   "id": "fde882c04973",
-   "company": "BPCE",
-   "title": "Analyste financier (F/H)",
-   "url": "https://recrutement.bpce.fr/job/analyste-financier-f-h",
-   "reason": "lieu hors zones (retirée)",
-   "at": "2026-10-27T15:56:33+00:00"
-  },
-  {
    "id": "189b8dd7a5b7",
    "company": "BPCE",
    "title": "Data Analyst Facturation - H/F",
@@ -472,14 +1608,6 @@
    "url": "https://recrutement.bpce.fr/job/analyste-engagements-f-h-btp-banque",
    "reason": "expérience demandée ≥ 4 ans « vement d'une experience confirmee de minimum 4/5 ans en tant que charge·e de »",
    "at": "2026-10-27T15:54:58+00:00"
-  },
-  {
-   "id": "15e27112b8d7",
-   "company": "Crédit Agricole",
-   "title": "Credit Analyst - Nordic Countries M/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170466-4-credit-analyst---nordic-countries-mf-reference--2026-116921--/",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-27T15:54:09+00:00"
   },
   {
    "id": "e2bd1917f277",
@@ -538,30 +1666,6 @@
    "at": "2026-10-27T15:51:34+00:00"
   },
   {
-   "id": "f8b188de08bd",
-   "company": "UBS",
-   "title": "Data Management Analyst",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=352158",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-27T09:25:20+00:00"
-  },
-  {
-   "id": "96af09eb8fa4",
-   "company": "UBS",
-   "title": "Email Reviewer Analyst",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=352562",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-27T09:25:19+00:00"
-  },
-  {
-   "id": "8e38d6254362",
-   "company": "TotalEnergies",
-   "title": "ACCOUNTING & CREDIT ANALYST",
-   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/ACCOUNTING-CREDIT-ANALYST/81353",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-27T09:24:09+00:00"
-  },
-  {
    "id": "e7479cca9fff",
    "company": "TotalEnergies",
    "title": "Quantitative Development & Data Science Intern",
@@ -570,36 +1674,12 @@
    "at": "2026-10-27T09:24:07+00:00"
   },
   {
-   "id": "5b4b8c822bf4",
-   "company": "Crédit Agricole",
-   "title": "Sustainable Banking Analyst H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170466-4-sustainable-banking-analyst-hf-reference--2026-116893--/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-27T09:21:16+00:00"
-  },
-  {
    "id": "62c61289b6b8",
    "company": "Crédit Agricole",
    "title": "Business analyst confirmé(e) Moteurs de paiements H/F",
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170477-4-business-analyst-confirmee-moteurs-de-paiements-hf-reference--2025-105622--/",
    "reason": "titre exclu (confirme)",
    "at": "2026-10-27T01:28:50+00:00"
-  },
-  {
-   "id": "657ae67231bb",
-   "company": "ING",
-   "title": "Data Analist",
-   "url": "https://careers.ing.com/en/job/amsterdam/data-analist/3121/46369312128",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-26T21:44:08+00:00"
-  },
-  {
-   "id": "e7af59f02120",
-   "company": "UBS",
-   "title": "Mid-Cap M&A Analyst - Investment Banking",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5049&PageType=JobDetails&jobid=349007&frmSiteId=5012",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-26T21:43:43+00:00"
   },
   {
    "id": "46c2cb3a36e5",
@@ -624,14 +1704,6 @@
    "url": "https://recrutement.bpce.fr/job/stage-data-analyst-risques-h-f",
    "reason": "titre exclu (stage)",
    "at": "2026-10-26T21:40:24+00:00"
-  },
-  {
-   "id": "21f2932e0fe5",
-   "company": "ING",
-   "title": "Data Analyst in Risk Reporting",
-   "url": "https://careers.ing.com/en/job/warsaw/data-analyst-in-risk-reporting/3121/46362822912",
-   "reason": "lieu hors zones",
-   "at": "2026-10-26T16:53:35+00:00"
   },
   {
    "id": "569f77f7f3f7",
@@ -698,14 +1770,6 @@
    "at": "2026-10-26T16:53:18+00:00"
   },
   {
-   "id": "b70c66c47b5e",
-   "company": "UBS",
-   "title": "Authorized Officer, Research Analyst - Partnership Solutions",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=353108",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-26T16:53:09+00:00"
-  },
-  {
    "id": "3949a148342b",
    "company": "TotalEnergies",
    "title": "STAGE Analyste Data & Power Market H/F",
@@ -762,140 +1826,12 @@
    "at": "2026-10-26T16:48:19+00:00"
   },
   {
-   "id": "d7a0476b8c56",
-   "company": "Alstom",
-   "title": "Analyst - Intune",
-   "url": "https://jobsearch.alstom.com/job/Bangalore-Analyst-Intune-KA/1451215433/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-26T16:46:46+00:00"
-  },
-  {
-   "id": "e7f29488b13e",
-   "company": "ING",
-   "title": "IT Business Analyst with Payment System Experience",
-   "url": "https://careers.ing.com/en/job/istanbul/it-business-analyst-with-payment-system-experience/3121/33919715200",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-26T10:10:35+00:00"
-  },
-  {
-   "id": "96e987ccc812",
-   "company": "ING",
-   "title": "Business Analyst - Regulatory Reporting",
-   "url": "https://careers.ing.com/en/job/makati-city/business-analyst-regulatory-reporting/3121/44659395904",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-26T10:10:33+00:00"
-  },
-  {
-   "id": "763f9d6037bd",
-   "company": "ING",
-   "title": "Digital Campaign Analyst",
-   "url": "https://careers.ing.com/en/job/silesia/digital-campaign-analyst/3121/45574995200",
-   "reason": "lieu hors zones",
-   "at": "2026-10-26T10:10:32+00:00"
-  },
-  {
-   "id": "44f1d09d6e25",
-   "company": "ING",
-   "title": "NL Cards Disputes Analyst",
-   "url": "https://careers.ing.com/en/job/makati-city/nl-cards-disputes-analyst/3121/45961167744",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-26T10:10:30+00:00"
-  },
-  {
-   "id": "aa0d5a6bd00e",
-   "company": "ING",
-   "title": "Business Analyst (Tribe Services)",
-   "url": "https://careers.ing.com/en/job/makati-city/business-analyst-tribe-services/3121/20976434304",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-26T10:10:29+00:00"
-  },
-  {
-   "id": "4bbee68e5c5c",
-   "company": "ING",
-   "title": "Transaction Monitoring Analyst",
-   "url": "https://careers.ing.com/en/job/makati-city/transaction-monitoring-analyst/3121/45682205952",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-26T10:10:27+00:00"
-  },
-  {
-   "id": "645277c09905",
-   "company": "ING",
-   "title": "IT Business Analyst",
-   "url": "https://careers.ing.com/en/job/makati-city/it-business-analyst/3121/44659394112",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-26T10:10:25+00:00"
-  },
-  {
    "id": "26e53b799218",
    "company": "ING",
    "title": "Sr. Analyst",
    "url": "https://careers.ing.com/en/job/city-of-taguig/sr-analyst/3121/45689053504",
    "reason": "titre exclu (sr)",
    "at": "2026-10-26T10:10:25+00:00"
-  },
-  {
-   "id": "8430a2c8cd9d",
-   "company": "ING",
-   "title": "IT Business Analyst",
-   "url": "https://careers.ing.com/en/job/makati-city/it-business-analyst/3121/45306843840",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-26T10:10:24+00:00"
-  },
-  {
-   "id": "12e2825d1c8c",
-   "company": "ING",
-   "title": "Digital Analyst",
-   "url": "https://careers.ing.com/en/job/milan/digital-analyst/3121/41695666368",
-   "reason": "lieu hors zones",
-   "at": "2026-10-26T10:10:22+00:00"
-  },
-  {
-   "id": "4b0a72b8b3e8",
-   "company": "ING",
-   "title": "Real Time Analyst",
-   "url": "https://careers.ing.com/en/job/makati-city/real-time-analyst/3121/42373877824",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-26T10:10:21+00:00"
-  },
-  {
-   "id": "85a0ce06e4b7",
-   "company": "ING",
-   "title": "Business Analyst",
-   "url": "https://careers.ing.com/en/job/istanbul/business-analyst/3121/45961168064",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-26T10:10:19+00:00"
-  },
-  {
-   "id": "46acd6453c1a",
-   "company": "ING",
-   "title": "Business Analyst",
-   "url": "https://careers.ing.com/en/job/istanbul/business-analyst/3121/35307051968",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-26T10:10:18+00:00"
-  },
-  {
-   "id": "ddcae9ddb3b1",
-   "company": "ING",
-   "title": "Data Scientist Specialist-1",
-   "url": "https://careers.ing.com/en/job/silesia/data-scientist-specialist-1/3121/46131517440",
-   "reason": "lieu hors zones",
-   "at": "2026-10-26T10:10:17+00:00"
-  },
-  {
-   "id": "3486420fd6eb",
-   "company": "ING",
-   "title": "Data Operations Professional",
-   "url": "https://careers.ing.com/en/job/makati-city/data-operations-professional/3121/46155027328",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-26T10:10:15+00:00"
-  },
-  {
-   "id": "d9f49bcadba2",
-   "company": "ING",
-   "title": "Global HR Data Consumption Specialist",
-   "url": "https://careers.ing.com/en/job/makati-city/global-hr-data-consumption-specialist/3121/41176897600",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-26T10:10:14+00:00"
   },
   {
    "id": "217a0e9feaa1",
@@ -906,28 +1842,12 @@
    "at": "2026-10-26T10:10:14+00:00"
   },
   {
-   "id": "0b5f3567c910",
-   "company": "ING",
-   "title": "Compliance Data Methodology",
-   "url": "https://careers.ing.com/en/job/warsaw/compliance-data-methodology/3121/45101610880",
-   "reason": "lieu hors zones",
-   "at": "2026-10-26T10:10:12+00:00"
-  },
-  {
    "id": "4601c5632100",
    "company": "ING",
    "title": "Data Management Expert",
    "url": "https://careers.ing.com/en/job/brussels/data-management-expert/3121/46176274432",
    "reason": "titre exclu (expert)",
    "at": "2026-10-26T10:10:12+00:00"
-  },
-  {
-   "id": "234d2e91c873",
-   "company": "ING",
-   "title": "Data Analyst / Data Modeler | GKYC @ING Hubs Romania",
-   "url": "https://careers.ing.com/en/job/bucharest/data-analyst-data-modeler-gkyc-ing-hubs-romania/3121/46193006464",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-26T10:10:11+00:00"
   },
   {
    "id": "64ea4b7f26a3",
@@ -946,28 +1866,12 @@
    "at": "2026-10-26T10:10:11+00:00"
   },
   {
-   "id": "22bb5602ca93",
-   "company": "ING",
-   "title": "Data Analyst (Credit Risk)",
-   "url": "https://careers.ing.com/en/job/city-of-taguig/data-analyst-credit-risk/3121/45167336448",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-26T10:10:09+00:00"
-  },
-  {
    "id": "7d1e43cd1386",
    "company": "ING",
    "title": "Data Quality Expert II",
    "url": "https://careers.ing.com/en/job/makati-city/data-quality-expert-ii/3121/46185946624",
    "reason": "titre exclu (expert)",
    "at": "2026-10-26T10:10:09+00:00"
-  },
-  {
-   "id": "d7493c9d0f11",
-   "company": "ING",
-   "title": "Data Protection Professional",
-   "url": "https://careers.ing.com/en/job/makati-city/data-protection-professional/3121/45386467904",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-26T10:10:08+00:00"
   },
   {
    "id": "ad6c1c0023b7",
@@ -978,52 +1882,12 @@
    "at": "2026-10-26T10:10:08+00:00"
   },
   {
-   "id": "bb3c48855852",
-   "company": "ING",
-   "title": "Data Modeling Analyst",
-   "url": "https://careers.ing.com/en/job/makati-city/data-modeling-analyst/3121/43998316160",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-26T10:10:06+00:00"
-  },
-  {
    "id": "e3c6d2e4ca85",
    "company": "ING",
    "title": "Data Governance Expert",
    "url": "https://careers.ing.com/en/job/singapore/data-governance-expert/3121/46155027200",
    "reason": "titre exclu (expert)",
    "at": "2026-10-26T10:10:05+00:00"
-  },
-  {
-   "id": "e0c08637e59b",
-   "company": "SIX Group",
-   "title": "ServiceNow Business Analyst",
-   "url": "https://jobs.six-group.com/job/Warsaw-ServiceNow-Business-Analyst/1412192933/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-26T10:09:40+00:00"
-  },
-  {
-   "id": "37c96c4ec135",
-   "company": "SIX Group",
-   "title": "Quantitative Risk Analyst",
-   "url": "https://jobs.six-group.com/job/Las-Rozas-de-Madrid-Quantitative-Risk-Analyst/1414748633/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-26T10:09:38+00:00"
-  },
-  {
-   "id": "60e7cd8552c0",
-   "company": "SIX Group",
-   "title": "SOC Analyst",
-   "url": "https://jobs.six-group.com/job/Las-Rozas-de-Madrid-SOC-Analyst/1416240433/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-26T10:09:37+00:00"
-  },
-  {
-   "id": "dc61bbf1c140",
-   "company": "SIX Group",
-   "title": "Data Acquisition Specialist",
-   "url": "https://jobs.six-group.com/job/Las-Rozas-de-Madrid-Data-Acquisition-Specialist/1445274533/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-26T10:09:35+00:00"
   },
   {
    "id": "e1fa0b316172",
@@ -1050,28 +1914,12 @@
    "at": "2026-10-26T10:09:35+00:00"
   },
   {
-   "id": "34d3383b4341",
-   "company": "SIX Group",
-   "title": "Real-time Data Service Specialist",
-   "url": "https://jobs.six-group.com/job/Warsaw-Real-time-Data-Service-Specialist/1416225533/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-26T10:09:32+00:00"
-  },
-  {
    "id": "3e8531936567",
    "company": "SIX Group",
    "title": "(Senior) IAM Business Analyst (80-100%)",
    "url": "https://jobs.six-group.com/job/Zurich-%28Senior%29-IAM-Business-Analyst-%2880-100%29/1436066033/",
    "reason": "titre exclu (senior)",
    "at": "2026-10-26T10:09:32+00:00"
-  },
-  {
-   "id": "8834aba7e277",
-   "company": "SIX Group",
-   "title": "Marketing Data Scientist",
-   "url": "https://jobs.six-group.com/job/Warsaw-Marketing-Data-Scientist/1447426133/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-26T10:09:29+00:00"
   },
   {
    "id": "4f959e046a79",
@@ -1082,44 +1930,12 @@
    "at": "2026-10-26T10:09:29+00:00"
   },
   {
-   "id": "d17c4b302fa1",
-   "company": "SIX Group",
-   "title": "Business Analyst",
-   "url": "https://jobs.six-group.com/job/Warsaw-Business-Analyst/1448087833/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-26T10:09:26+00:00"
-  },
-  {
    "id": "2c6037c458c3",
    "company": "SIX Group",
    "title": "Customer Support Agent & Market Data Platform Specialist",
    "url": "https://jobs.six-group.com/job/Copenhagen-Customer-Support-Agent-&-Market-Data-Platform-Specialist/1448413133/",
    "reason": "expérience demandée ≥ 3 ans",
    "at": "2026-10-26T10:09:25+00:00"
-  },
-  {
-   "id": "99eb1d5db54f",
-   "company": "SIX Group",
-   "title": "Data Analyst",
-   "url": "https://jobs.six-group.com/job/Singapore-Data-Analyst/1448871033/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-26T10:09:23+00:00"
-  },
-  {
-   "id": "b52adefa9926",
-   "company": "SIX Group",
-   "title": "Data Analyst",
-   "url": "https://jobs.six-group.com/job/Las-Rozas-de-Madrid-Data-Analyst/1439649333/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-26T10:09:22+00:00"
-  },
-  {
-   "id": "39a167e86d53",
-   "company": "SIX Group",
-   "title": "Data Quality Analyst",
-   "url": "https://jobs.six-group.com/job/Warsaw-Data-Quality-Analyst/1449916133/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-26T10:09:20+00:00"
   },
   {
    "id": "e9c454c518d1",
@@ -1138,22 +1954,6 @@
    "at": "2026-10-26T10:09:19+00:00"
   },
   {
-   "id": "c4b6beaa1523",
-   "company": "UBS",
-   "title": "Market Conduct Surveillance Analyst",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=347482",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-26T10:09:17+00:00"
-  },
-  {
-   "id": "f2a42c1b9365",
-   "company": "UBS",
-   "title": "SAP Analytics Cloud with Databricks",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=349756",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-26T10:09:16+00:00"
-  },
-  {
    "id": "b973e979e250",
    "company": "UBS",
    "title": "Internship in AM Sales Insights & Technology (Data Scientist)",
@@ -1162,36 +1962,12 @@
    "at": "2026-10-26T10:09:14+00:00"
   },
   {
-   "id": "077ca8f780fe",
-   "company": "Julius Baer",
-   "title": "12 months Contract - Business Analyst, Private Bank Credit Risk Applications (Through an External Agency Payroll Provider)",
-   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Singapore/XMLNAME-12-months-Contract---Business-Analyst--Private-Bank-Credit-Risk-Applications--Through-an-External-Agency-Payroll-Provider-_r-19987-2",
-   "reason": "lieu hors zones",
-   "at": "2026-10-26T10:08:55+00:00"
-  },
-  {
    "id": "7376b2b3e566",
    "company": "Julius Baer",
    "title": "Senior Quantitative Analyst - Interest Rate Pricing Models 100% (f/m/d) (Contract through our external payroll partner with immediate start for 12 months, possible extension)",
    "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Zurich/Senior-Quantitative-Analyst---Interest-Rate-Pricing-Models-100---f-m-d---Contract-through-our-external-payroll-partner-with-immediate-start-until-31122027--possible-extension-_r-20119-1",
    "reason": "titre exclu (senior)",
    "at": "2026-10-26T10:08:55+00:00"
-  },
-  {
-   "id": "0595a2c87ec9",
-   "company": "Julius Baer",
-   "title": "12 months Contract - GPS Platform Transformation: Business Analyst – FX/PM (Through an External Agency)",
-   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Singapore/XMLNAME-12-months-Contract---Business-Analyst---Structured-Product--Through-an-External-Agency-_r-16676",
-   "reason": "lieu hors zones",
-   "at": "2026-10-26T10:08:54+00:00"
-  },
-  {
-   "id": "0bc9ff775ab9",
-   "company": "Julius Baer",
-   "title": "Transformation Analyst - 100% (f/m/d)",
-   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Madrid/Transformation-Analyst---100---f-m-d-_r-20149-2",
-   "reason": "lieu hors zones",
-   "at": "2026-10-26T10:08:52+00:00"
   },
   {
    "id": "8002ae6d6122",
@@ -1210,14 +1986,6 @@
    "at": "2026-10-26T10:08:52+00:00"
   },
   {
-   "id": "74f746a0974c",
-   "company": "Julius Baer",
-   "title": "PMO Analyst - 100% (f/m/d)",
-   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Madrid/PMO-Analyst---100---f-m-d-_r-20148-1",
-   "reason": "lieu hors zones",
-   "at": "2026-10-26T10:08:51+00:00"
-  },
-  {
    "id": "09e0bc765e53",
    "company": "Julius Baer",
    "title": "Global Financial Accounting – Business Analyst 100%",
@@ -1232,14 +2000,6 @@
    "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Zurich/Database-Migration-Specialist---CRM-Systems-100---f-m-d---Contract-through-our-external-payroll-partner-with-immediate-start-for-12-months--possible-extension-_r-20139-1",
    "reason": "expérience demandée ≥ 5 ans",
    "at": "2026-10-26T10:08:48+00:00"
-  },
-  {
-   "id": "955d3dd4b42d",
-   "company": "Julius Baer",
-   "title": "Exposure Management Data Analyst 100% (f/m/d)",
-   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Madrid/Exposure-Management-Data-Analyst-100---f-m-d-_r-20114-1",
-   "reason": "lieu hors zones",
-   "at": "2026-10-26T10:08:45+00:00"
   },
   {
    "id": "5356b033dc72",
@@ -1322,28 +2082,12 @@
    "at": "2026-10-26T10:04:41+00:00"
   },
   {
-   "id": "224bbb0571cc",
-   "company": "Crédit Agricole",
-   "title": "International Business Development Analyst",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170466-4-international-business-development-analyst-reference--2026-109846--/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-26T08:05:20+00:00"
-  },
-  {
    "id": "317fa480141c",
    "company": "Crédit Agricole",
    "title": "Analyste Sustainable Investment Banking H/F",
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-sustainable-investment-banking-hf-reference--2026-114887--/",
    "reason": "contrat hors CDI/CDD (stage, alternance…)",
    "at": "2026-10-25T00:19:46+00:00"
-  },
-  {
-   "id": "66480440b787",
-   "company": "Crédit Agricole",
-   "title": "Coverage Analyst",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170466-4-coverage-analyst-reference--2026-116483--/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-25T00:19:45+00:00"
   },
   {
    "id": "ada66b228379",
@@ -1378,38 +2122,6 @@
    "at": "2026-10-24T08:50:44+00:00"
   },
   {
-   "id": "3845f49acfce",
-   "company": "Orange",
-   "title": "Reporting Analyst",
-   "url": "https://orange.jobs/fr/fr/job/ERC-587483-20136094/Reporting-Analyst",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-23T23:35:29+00:00"
-  },
-  {
-   "id": "a41588a7ea67",
-   "company": "Orange",
-   "title": "Data Analyst​",
-   "url": "https://orange.jobs/fr/fr/job/ERC-564099-20136094/Data-Analyst​",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-23T23:35:28+00:00"
-  },
-  {
-   "id": "b1dffbe98bbd",
-   "company": "Orange",
-   "title": "Data Analyst",
-   "url": "https://orange.jobs/fr/fr/job/ICM-588944/Data-Analyst",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-23T23:35:26+00:00"
-  },
-  {
-   "id": "3f81b8cad3ff",
-   "company": "Orange",
-   "title": "SOC Analyst",
-   "url": "https://orange.jobs/fr/fr/job/ICM-588151/SOC-Analyst",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-23T23:35:22+00:00"
-  },
-  {
    "id": "497a99ca5a01",
    "company": "Orange",
    "title": "Finance Analyst",
@@ -1418,43 +2130,11 @@
    "at": "2026-10-23T23:35:20+00:00"
   },
   {
-   "id": "7ed8f7718203",
-   "company": "Orange",
-   "title": "Business Analyst",
-   "url": "https://orange.jobs/fr/fr/job/ICM-588315/Business-Analyst",
-   "reason": "lieu hors zones",
-   "at": "2026-10-23T23:35:19+00:00"
-  },
-  {
-   "id": "74b4f619ed04",
-   "company": "Orange",
-   "title": "Fraud Analyst",
-   "url": "https://orange.jobs/fr/fr/job/ICM-589226/Fraud-Analyst",
-   "reason": "lieu hors zones",
-   "at": "2026-10-23T23:35:17+00:00"
-  },
-  {
-   "id": "3acd26186d82",
-   "company": "Orange",
-   "title": "Data Engineer",
-   "url": "https://orange.jobs/fr/fr/job/ICM-589002/Data-Engineer",
-   "reason": "lieu hors zones",
-   "at": "2026-10-23T23:35:16+00:00"
-  },
-  {
    "id": "090321d0d795",
    "company": "Orange",
    "title": "Data Engineer",
    "url": "https://orange.jobs/fr/fr/job/TOB-6575786/Data-Engineer",
    "reason": "expérience demandée ≥ 3 ans",
-   "at": "2026-10-23T23:35:14+00:00"
-  },
-  {
-   "id": "4818b839c6fe",
-   "company": "Orange",
-   "title": "Data Scientist",
-   "url": "https://orange.jobs/fr/fr/job/ICM-588283/Data-Scientist",
-   "reason": "lieu hors zones",
    "at": "2026-10-23T23:35:14+00:00"
   },
   {
@@ -1674,22 +2354,6 @@
    "at": "2026-10-23T23:30:40+00:00"
   },
   {
-   "id": "cac6de276ec8",
-   "company": "Alstom",
-   "title": "Support Analyst - Mercury",
-   "url": "https://jobsearch.alstom.com/job/Bangalore-Support-Analyst-Mercury-KA/1402744133/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-23T23:29:27+00:00"
-  },
-  {
-   "id": "7d2bba6513f5",
-   "company": "Alstom",
-   "title": "Methods Analyst 1",
-   "url": "https://jobsearch.alstom.com/job/Thunder-Bay-Methods-Analyst-1-ON/1444329133/",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-23T23:29:26+00:00"
-  },
-  {
    "id": "e69406c3d004",
    "company": "Alstom",
    "title": "VIE - Fleet Data Analyst CMAX (w/m/d) 1 1",
@@ -1698,36 +2362,12 @@
    "at": "2026-10-23T23:29:26+00:00"
   },
   {
-   "id": "0db0da042162",
-   "company": "Alstom",
-   "title": "Methods Analyst 1",
-   "url": "https://jobsearch.alstom.com/job/Thunder-Bay-Methods-Analyst-1-ON/1444328233/",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-23T23:29:24+00:00"
-  },
-  {
-   "id": "c7048cf0ad41",
-   "company": "Alstom",
-   "title": "Data Catalog Analyst",
-   "url": "https://jobsearch.alstom.com/job/Bangalore-Data-Catalog-Analyst/1382503733/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-23T23:29:23+00:00"
-  },
-  {
    "id": "223130c6ce57",
    "company": "Alstom",
    "title": "SLM Analyst",
    "url": "https://jobsearch.alstom.com/job/Bangalore-SLM-Analyst/1402308033/",
    "reason": "expérience demandée ≥ 5 ans",
    "at": "2026-10-23T23:29:21+00:00"
-  },
-  {
-   "id": "e4ffd9296740",
-   "company": "Alstom",
-   "title": "Project Warranty Data Analyst [RS eLOCO]",
-   "url": "https://jobsearch.alstom.com/job/Bangalore-Project-Warranty-Data-Analyst-RS-eLOCO-KA/1445165933/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-23T23:29:20+00:00"
   },
   {
    "id": "4c56f8d45fb8",
@@ -1770,14 +2410,6 @@
    "at": "2026-10-23T23:29:14+00:00"
   },
   {
-   "id": "435da67160e8",
-   "company": "Alstom",
-   "title": "Data Design and Delivery Specialist",
-   "url": "https://jobsearch.alstom.com/job/Bangalore-Data-Design-and-Delivery-Specialist/1446479733/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-23T23:29:12+00:00"
-  },
-  {
    "id": "efd32f4650a3",
    "company": "Alstom",
    "title": "Data Design and DelivData Design and Delivery Specialistery Manager",
@@ -1800,14 +2432,6 @@
    "url": "https://jobsearch.alstom.com/job/Saint-Ouen-Stage-Finance-operation-analyst-FH/1446359333/",
    "reason": "titre exclu (stage)",
    "at": "2026-10-23T23:29:12+00:00"
-  },
-  {
-   "id": "7228a2511daf",
-   "company": "Alstom",
-   "title": "Data Solution Specialist",
-   "url": "https://jobsearch.alstom.com/job/Bangalore-Data-Solution-Specialist/1446478933/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-23T23:29:11+00:00"
   },
   {
    "id": "6b2cb20255de",
@@ -1856,22 +2480,6 @@
    "url": "https://jobsearch.alstom.com/job/Saint-Ouen-Stage-6-mois-Analyste-Business-&-Transformation-digitale-FH/1447612033/",
    "reason": "titre exclu (stage)",
    "at": "2026-10-23T23:29:08+00:00"
-  },
-  {
-   "id": "b32bfe9d02ce",
-   "company": "Alstom",
-   "title": "TEMP LABOUR - Business Process & Reporting Analyst H/F",
-   "url": "https://jobsearch.alstom.com/job/Charleroi-TEMP-LABOUR-Business-Process-&-Reporting-Analyst-HF/1427905333/",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-23T23:29:06+00:00"
-  },
-  {
-   "id": "cbd7ddb14e49",
-   "company": "Alstom",
-   "title": "HR Admin Analyst with German",
-   "url": "https://jobsearch.alstom.com/job/Cluj-Napoca-HR-Admin-Analyst-with-German-CJ/1428263833/",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-23T23:29:05+00:00"
   },
   {
    "id": "1d6181ff87b7",
@@ -1928,14 +2536,6 @@
    "url": "https://jobsearch.alstom.com/job/Bangalore-AI-Business-Analyst/1379235733/",
    "reason": "expérience demandée ≥ 5 ans",
    "at": "2026-10-23T23:28:59+00:00"
-  },
-  {
-   "id": "36de981bab9c",
-   "company": "Alstom",
-   "title": "Salesforce Services Technical Analyst",
-   "url": "https://jobsearch.alstom.com/job/Bangalore-Salesforce-Services-Technical-Analyst-KA/1398765633/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-23T23:28:57+00:00"
   },
   {
    "id": "dd07461d83f0",
@@ -2042,14 +2642,6 @@
    "at": "2026-10-23T09:31:27+00:00"
   },
   {
-   "id": "e6380881a101",
-   "company": "TotalEnergies",
-   "title": "BI/DATA Developer",
-   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/BI-DATA-Developer/85536",
-   "reason": "lieu hors zones",
-   "at": "2026-10-23T09:30:21+00:00"
-  },
-  {
    "id": "7c440b3deaa3",
    "company": "Crédit Agricole",
    "title": "Senior Analyst / Associate Leveraged Finance (w/m/d)",
@@ -2088,14 +2680,6 @@
    "url": "https://careers.axa.com/jobs/37084",
    "reason": "titre exclu (stage)",
    "at": "2026-10-22T14:47:10+00:00"
-  },
-  {
-   "id": "2c7728331e8d",
-   "company": "BPCE",
-   "title": "Information Technology Risk 1LoD Analyst",
-   "url": "https://recrutement.bpce.fr/job/information-technology-risk-1lod-analyst",
-   "reason": "lieu hors zones",
-   "at": "2026-10-22T14:45:50+00:00"
   },
   {
    "id": "ae67af626e9f",
@@ -2274,30 +2858,6 @@
    "at": "2026-10-21T22:45:15+00:00"
   },
   {
-   "id": "da9f2a07161c",
-   "company": "Crédit Agricole",
-   "title": "Summer Analyst - Energy and Real Assets - North America",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/578-170466-4-summer-analyst---energy-and-real-assets---north-america-reference--2026-116766--/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-21T22:44:29+00:00"
-  },
-  {
-   "id": "7b1f53007280",
-   "company": "Crédit Agricole",
-   "title": "Summer Analyst – Energy and Real Assets – Latin America",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/578-170466-4-summer-analyst--energy-and-real-assets--latin-america-reference--2026-116765--/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-21T22:44:28+00:00"
-  },
-  {
-   "id": "830166a7739d",
-   "company": "Crédit Agricole",
-   "title": "Summer Analyst - Energy and Real Assets - Real Estate",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/578-170466-4-summer-analyst---energy-and-real-assets---real-estate-reference--2026-116767--/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-21T22:44:21+00:00"
-  },
-  {
    "id": "5a0347973f08",
    "company": "AXA",
    "title": "Senior Pricing Actuary Data Modelling F/H",
@@ -2370,46 +2930,6 @@
    "at": "2026-10-21T14:39:50+00:00"
   },
   {
-   "id": "3388d5be322b",
-   "company": "AXA",
-   "title": "Assistant Business Analyst (1-year contract)",
-   "url": "https://careers.axa.com/jobs/29131",
-   "reason": "lieu hors zones",
-   "at": "2026-10-21T09:23:10+00:00"
-  },
-  {
-   "id": "8e57a9271692",
-   "company": "AXA",
-   "title": "Analyst, Claims",
-   "url": "https://careers.axa.com/jobs/28920",
-   "reason": "lieu hors zones",
-   "at": "2026-10-21T09:23:08+00:00"
-  },
-  {
-   "id": "78eeb67a7b7b",
-   "company": "AXA",
-   "title": "Analyst, Claims",
-   "url": "https://careers.axa.com/jobs/28753",
-   "reason": "lieu hors zones",
-   "at": "2026-10-21T09:23:07+00:00"
-  },
-  {
-   "id": "f85e3ce1406d",
-   "company": "AXA",
-   "title": "Portfolio Insights Analyst",
-   "url": "https://careers.axa.com/jobs/28652",
-   "reason": "lieu hors zones",
-   "at": "2026-10-21T09:23:05+00:00"
-  },
-  {
-   "id": "906028047733",
-   "company": "AXA",
-   "title": "Analyst, Claims",
-   "url": "https://careers.axa.com/jobs/28210",
-   "reason": "lieu hors zones",
-   "at": "2026-10-21T09:23:04+00:00"
-  },
-  {
    "id": "f836af4edc29",
    "company": "Crédit Agricole",
    "title": "Manager innovation et data H/F",
@@ -2424,14 +2944,6 @@
    "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/STAGE-Middle-Office-Tr-sorerie-Analyste-Risques-Reporting-H-F/85435",
    "reason": "titre exclu (stage)",
    "at": "2026-10-21T09:20:05+00:00"
-  },
-  {
-   "id": "a635778d8bea",
-   "company": "AXA",
-   "title": "Operations Metrics and Reporting Analyst",
-   "url": "https://careers.axa.com/jobs/23280",
-   "reason": "lieu hors zones",
-   "at": "2026-10-20T23:52:08+00:00"
   },
   {
    "id": "ca17b28dbbb2",
@@ -2474,14 +2986,6 @@
    "at": "2026-10-20T23:51:15+00:00"
   },
   {
-   "id": "91e51149ea34",
-   "company": "Crédit Agricole",
-   "title": "Credit Analyst - Nordic Countries M/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170466-4-credit-analyst---nordic-countries-mf-reference--2026-115859--/",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-20T23:51:13+00:00"
-  },
-  {
    "id": "b141fe2f1016",
    "company": "Crédit Agricole",
    "title": "Analyste Data Risques Environnementaux et Sociaux H/F",
@@ -2504,30 +3008,6 @@
    "url": "https://recrutement.bpce.fr/job/stage-business-analyst-f-h-paris-4",
    "reason": "titre exclu (stage)",
    "at": "2026-10-20T20:53:18+00:00"
-  },
-  {
-   "id": "53a88ab9426e",
-   "company": "Crédit Agricole",
-   "title": "Summer Analyst – Energy and Real Assets – Advisory",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/578-170466-4-summer-analyst--energy-and-real-assets--advisory-reference--2026-116711--/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-20T20:52:38+00:00"
-  },
-  {
-   "id": "71741df6cd95",
-   "company": "Crédit Agricole",
-   "title": "Summer Analyst – Energy and Real Assets – Shipping Finance & Intermodal",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/578-170466-4-summer-analyst--energy-and-real-assets--shipping-finance-et-intermodal-reference--2026-116712--/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-20T20:52:37+00:00"
-  },
-  {
-   "id": "5e8522060103",
-   "company": "Crédit Agricole",
-   "title": "Summer Analyst – Energy and Real Assets – Structured Finance, Transportation",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/578-170466-4-summer-analyst--energy-and-real-assets--structured-finance-transportation-reference--2026-116713--/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-20T20:52:36+00:00"
   },
   {
    "id": "7847f27d0670",
@@ -2570,14 +3050,6 @@
    "at": "2026-10-20T17:35:11+00:00"
   },
   {
-   "id": "b7c1eed77808",
-   "company": "BPCE",
-   "title": "Data Engineer F/H",
-   "url": "https://recrutement.bpce.fr/job/data-engineer-f-h",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-20T17:35:03+00:00"
-  },
-  {
    "id": "1448d82fb9f2",
    "company": "BPCE",
    "title": "Analyste Reporting Risque (H/F)",
@@ -2592,14 +3064,6 @@
    "url": "https://recrutement.bpce.fr/job/analyste-risques-h-f",
    "reason": "expérience demandée ≥ 3 ans",
    "at": "2026-10-20T17:34:44+00:00"
-  },
-  {
-   "id": "f90fb40c27df",
-   "company": "BPCE",
-   "title": "Business Analyst IT Parcours Conseillers (F/H)",
-   "url": "https://recrutement.bpce.fr/job/business-analyst-it-parcours-conseillers-f-h",
-   "reason": "lieu hors zones",
-   "at": "2026-10-20T17:34:35+00:00"
   },
   {
    "id": "7a77e7b235e5",
@@ -2624,14 +3088,6 @@
    "url": "https://recrutement.bpce.fr/job/ingenieur-methodes-et-qualite-datacenter-f-h-4",
    "reason": "expérience demandée ≥ 3 ans",
    "at": "2026-10-20T17:34:08+00:00"
-  },
-  {
-   "id": "4f795f0b347d",
-   "company": "BPCE",
-   "title": "Analyste Risques , Sud Service Accompagnement",
-   "url": "https://recrutement.bpce.fr/job/analyste-risques-sud-service-accompagnement",
-   "reason": "lieu hors zones",
-   "at": "2026-10-20T17:33:16+00:00"
   },
   {
    "id": "36c60edd0a4e",
@@ -2666,14 +3122,6 @@
    "at": "2026-10-20T17:32:08+00:00"
   },
   {
-   "id": "91535e155529",
-   "company": "AXA",
-   "title": "Business Analyst - 14 Month FTC",
-   "url": "https://careers.axa.com/jobs/27929",
-   "reason": "lieu hors zones",
-   "at": "2026-10-20T14:00:20+00:00"
-  },
-  {
    "id": "9d79dcd2c37e",
    "company": "AXA",
    "title": "Data Analyst / Développeur Power BI (H/F) - Stage",
@@ -2706,28 +3154,12 @@
    "at": "2026-10-20T14:00:20+00:00"
   },
   {
-   "id": "eb30fa608949",
-   "company": "AXA",
-   "title": "Capital Modelling Analyst",
-   "url": "https://careers.axa.com/jobs/28342",
-   "reason": "lieu hors zones",
-   "at": "2026-10-20T14:00:19+00:00"
-  },
-  {
    "id": "b7607409c670",
    "company": "AXA",
    "title": "Assistant Manager, Anaplan & Data Solutions Analyst",
    "url": "https://careers.axa.com/jobs/26085",
    "reason": "titre exclu (manager)",
    "at": "2026-10-20T14:00:19+00:00"
-  },
-  {
-   "id": "4c38ae287490",
-   "company": "AXA",
-   "title": "Technical Analyst",
-   "url": "https://careers.axa.com/jobs/27582",
-   "reason": "lieu hors zones",
-   "at": "2026-10-20T14:00:17+00:00"
   },
   {
    "id": "bf96b82ad30d",
@@ -2746,14 +3178,6 @@
    "at": "2026-10-20T14:00:17+00:00"
   },
   {
-   "id": "419fd2534846",
-   "company": "AXA",
-   "title": "WFM Analyst",
-   "url": "https://careers.axa.com/jobs/28794",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-20T14:00:16+00:00"
-  },
-  {
    "id": "1f2aa0750b24",
    "company": "AXA",
    "title": "Senior Business Analyst / Requirements Engineer mit Fokus Produktimplementierung (all genders)",
@@ -2768,14 +3192,6 @@
    "url": "https://careers.axa.com/jobs/29048",
    "reason": "titre exclu (senior)",
    "at": "2026-10-20T14:00:16+00:00"
-  },
-  {
-   "id": "33064f99c32a",
-   "company": "AXA",
-   "title": "Business Analyst betriebliche Altersvorsorge (m/w/d) Prozesse & Systeme",
-   "url": "https://careers.axa.com/jobs/29274",
-   "reason": "lieu hors zones",
-   "at": "2026-10-20T14:00:14+00:00"
   },
   {
    "id": "76a0b464b22f",
@@ -2794,52 +3210,12 @@
    "at": "2026-10-20T14:00:14+00:00"
   },
   {
-   "id": "df9c892999be",
-   "company": "AXA",
-   "title": "Data Scientist - Data Analytics im Schadenmanagement (m/w/d)",
-   "url": "https://careers.axa.com/jobs/29332",
-   "reason": "lieu hors zones",
-   "at": "2026-10-20T14:00:13+00:00"
-  },
-  {
-   "id": "996ba61afb66",
-   "company": "AXA",
-   "title": "Procurement Data & Process Analyst",
-   "url": "https://careers.axa.com/jobs/28633",
-   "reason": "lieu hors zones",
-   "at": "2026-10-20T14:00:11+00:00"
-  },
-  {
    "id": "887abc63a431",
    "company": "AXA",
    "title": "Finance & Data Transformation Staff/Associate/Assistant Manager(P1/P2/P3)【アクサ生命】",
    "url": "https://careers.axa.com/jobs/28371",
    "reason": "titre exclu (manager)",
    "at": "2026-10-20T14:00:11+00:00"
-  },
-  {
-   "id": "05ab367d2932",
-   "company": "AXA",
-   "title": "Insights Analyst",
-   "url": "https://careers.axa.com/jobs/20179",
-   "reason": "lieu hors zones",
-   "at": "2026-10-20T14:00:10+00:00"
-  },
-  {
-   "id": "15e5ce1365b9",
-   "company": "AXA",
-   "title": "Business Analyst – Digital Transformation & Process Optimization",
-   "url": "https://careers.axa.com/jobs/27555",
-   "reason": "lieu hors zones",
-   "at": "2026-10-20T14:00:08+00:00"
-  },
-  {
-   "id": "2069c2b70c29",
-   "company": "AXA",
-   "title": "Vendor Management Operations Analyst",
-   "url": "https://careers.axa.com/jobs/25476",
-   "reason": "lieu hors zones",
-   "at": "2026-10-20T14:00:07+00:00"
   },
   {
    "id": "80e89e88df7f",
@@ -2874,28 +3250,12 @@
    "at": "2026-10-20T14:00:07+00:00"
   },
   {
-   "id": "e198542b27b2",
-   "company": "AXA",
-   "title": "Analyst, Policy Management - UW Services Ops",
-   "url": "https://careers.axa.com/jobs/28358",
-   "reason": "lieu hors zones",
-   "at": "2026-10-20T14:00:05+00:00"
-  },
-  {
    "id": "48431adf31af",
    "company": "AXA",
    "title": "Stage - Investment Strategy and Financial Data Analyst",
    "url": "https://careers.axa.com/jobs/29384",
    "reason": "titre exclu (stage)",
    "at": "2026-10-20T14:00:05+00:00"
-  },
-  {
-   "id": "67090168ab25",
-   "company": "AXA",
-   "title": "Associate Analyst, Data & Analytics",
-   "url": "https://careers.axa.com/jobs/21357",
-   "reason": "lieu hors zones",
-   "at": "2026-10-20T14:00:04+00:00"
   },
   {
    "id": "8dc8b412d658",
@@ -3114,14 +3474,6 @@
    "at": "2026-10-20T13:58:52+00:00"
   },
   {
-   "id": "25b1356da9bd",
-   "company": "BPCE",
-   "title": "Analyste financier (F/H)",
-   "url": "https://recrutement.bpce.fr/job/analyste-financier-f-h-2",
-   "reason": "lieu hors zones",
-   "at": "2026-10-20T13:58:34+00:00"
-  },
-  {
    "id": "629f90c02bbe",
    "company": "BPCE",
    "title": "Stage - 6 mois - Market Risk FRTB Data Quality Analyst F/H",
@@ -3152,14 +3504,6 @@
    "url": "https://recrutement.bpce.fr/job/stage-6-mois-analyste-marches-immobiliers-f-h",
    "reason": "titre exclu (stage)",
    "at": "2026-10-20T13:58:34+00:00"
-  },
-  {
-   "id": "a668fde66b84",
-   "company": "BPCE",
-   "title": "Analyste risques (F/H)",
-   "url": "https://recrutement.bpce.fr/job/analyste-risques-f-h-2",
-   "reason": "lieu hors zones",
-   "at": "2026-10-20T13:58:25+00:00"
   },
   {
    "id": "fea2a9979353",
@@ -3218,14 +3562,6 @@
    "at": "2026-10-20T13:58:16+00:00"
   },
   {
-   "id": "87bffd8800e3",
-   "company": "BPCE",
-   "title": "Data Analyst (F/H)",
-   "url": "https://recrutement.bpce.fr/job/data-analyst-f-h",
-   "reason": "lieu hors zones",
-   "at": "2026-10-20T13:57:58+00:00"
-  },
-  {
    "id": "262fcb703242",
    "company": "BPCE",
    "title": "Stage - 6 mois - Analyste ESG F/H",
@@ -3274,14 +3610,6 @@
    "at": "2026-10-20T13:57:12+00:00"
   },
   {
-   "id": "9ba20f167267",
-   "company": "BPCE",
-   "title": "Data Analyst H/F - Orléans",
-   "url": "https://recrutement.bpce.fr/job/data-analyst-h-f-orleans",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-20T13:56:54+00:00"
-  },
-  {
    "id": "9a12b0cb57ff",
    "company": "BPCE",
    "title": "V.I.E. - 18 months - HRIS Data Analyst F/M - Boston",
@@ -3320,14 +3648,6 @@
    "url": "https://recrutement.bpce.fr/job/audit-interne-data-investigation-f-h-cdd-6-mois",
    "reason": "expérience demandée ≥ 5 ans",
    "at": "2026-10-20T13:56:18+00:00"
-  },
-  {
-   "id": "3241ffb98a91",
-   "company": "Crédit Agricole",
-   "title": "photo data analyst",
-   "url": "https://groupecreditagricole.jobs/wp-content/uploads/2025/11/photo-data-analyst.jpg",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-20T13:55:28+00:00"
   },
   {
    "id": "8111a90107d7",
