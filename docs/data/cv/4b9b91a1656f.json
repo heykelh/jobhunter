@@ -1,0 +1,179 @@
+{
+ "titre": "IT Business Analyst - domaine Opérations de Marché",
+ "profil": "Profil data alliant 13 ans d'expérience opérationnelle au sein du Groupe SNCF, en environnement à forts enjeux de sécurité, et un Master Data Engineer / Data Product Manager (Bac+5, Mines Paris - PSL). Plus de 15 projets data réalisés et déployés sur mon portfolio, avec une montée en compétences continue, notamment en analyse de données.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "SQL",
+    "Excel",
+    "Python (pandas)",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "GitHub Actions (CI/CD)",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Simulation d'une mission de Business Analyst sur un SI Crédit (recouvrement amiable et contentieux), de l'expression du besoin à la recette.",
+    "Livrables publiés en ligne : cartographie des processus, spécifications fonctionnelles et plan de tests."
+   ]
+  },
+  {
+   "id": "escale",
+   "titre": "ESCALE : ponctualité des vols CDG et Orly",
+   "stack": "Python, PostgreSQL (médaillon), API AeroDataBox, Next.js",
+   "lien": "escale-ops.vercel.app",
+   "tags": [
+    "aérien",
+    "aerien",
+    "aviation",
+    "vol",
+    "vols",
+    "airline",
+    "opérations",
+    "operations",
+    "ponctualité",
+    "retard",
+    "rgpd",
+    "privacy",
+    "données personnelles",
+    "ai act",
+    "prédiction",
+    "client"
+   ],
+   "puces": [
+    "Collecte automatique des vols deux fois par jour en couches Bronze, Silver, Gold et score de risque de retard de 0 à 100.",
+    "Console de suivi de la ponctualité avec modèle de prédiction et registres RGPD et AI Act intégrés (privacy by design)."
+   ]
+  },
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Simulation d'une mission d'inspection Data sur la chaîne de données du risque de crédit : cadrage, investigations, débriefing.",
+    "Moteur de contrôles qualité en règles SQL, scoring de risque, registre des constats et rapport de restitution."
+   ]
+  },
+  {
+   "id": "pokewatch",
+   "titre": "PokéWatch : surveillance de marché et détection d'anomalies de prix",
+   "stack": "PostgreSQL, Supabase, SQL, GitHub Actions, Next.js",
+   "lien": "pokewatch-three.vercel.app",
+   "tags": [
+    "surveillance",
+    "monitoring",
+    "anomalie",
+    "anomalies",
+    "fraude",
+    "prix",
+    "marché",
+    "pipeline",
+    "automatisation",
+    "alerte",
+    "data engineer",
+    "ingestion",
+    "sql"
+   ],
+   "puces": [
+    "Pipeline de collecte des prix Cardmarket et eBay, automatisé par GitHub Actions, avec alertes ntfy en temps réel.",
+    "Règles SQL de détection d'anomalies de prix et tableau de bord Next.js de suivi du marché."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "data warehouse",
+  "allemand"
+ ],
+ "methode": "règles seules (IA en échec : HTTP 429 (openai/gpt-oss-120b) : {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization)",
+ "job_id": "4b9b91a1656f",
+ "entreprise": "Banque Cantonale Vaudoise",
+ "intitule_offre": "IT Business Analyst - domaine Opérations de Marché",
+ "url_offre": "https://www.jobup.ch/fr/emplois/detail/04d3e5ad-a1fa-4654-9042-d5cb9448baaf/",
+ "genere_le": "2026-10-29T10:57:22+00:00"
+}

@@ -1,0 +1,172 @@
+{
+ "titre": "Data Scientist",
+ "profil": "Profil data alliant 13 ans d'expérience opérationnelle au sein du Groupe SNCF, en environnement à forts enjeux de sécurité, et un Master Data Engineer / Data Product Manager (Bac+5, Mines Paris - PSL). Plus de 15 projets data réalisés et déployés sur mon portfolio, avec une montée en compétences continue, notamment en analyse de données.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Excel",
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "GitHub Actions (CI/CD)",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Simulation d'une mission de Business Analyst sur un SI Crédit (recouvrement amiable et contentieux), de l'expression du besoin à la recette.",
+    "Livrables publiés en ligne : cartographie des processus, spécifications fonctionnelles et plan de tests."
+   ]
+  },
+  {
+   "id": "customer-experience",
+   "titre": "Customer Experience Intelligence : analyse et dataviz",
+   "stack": "Python, Power BI",
+   "lien": "github.com/heykelh/customer-experience-intelligence",
+   "tags": [
+    "client",
+    "clients",
+    "expérience client",
+    "marketing",
+    "kpi",
+    "dashboard",
+    "tableau de bord",
+    "power bi",
+    "reporting",
+    "analyse",
+    "satisfaction",
+    "parcours"
+   ],
+   "puces": [
+    "Analyse exploratoire de données clients : insights, tendances et anomalies impactant la performance.",
+    "Dashboards interactifs Power BI et indicateurs de pilotage à destination des décideurs métier."
+   ]
+  },
+  {
+   "id": "palier",
+   "titre": "PALIER : tarification et yield management TGV",
+   "stack": "Python, DuckDB, Power BI, Next.js, GitHub Actions",
+   "lien": "palier-sncf.vercel.app",
+   "tags": [
+    "pricing",
+    "prix",
+    "tarif",
+    "tarification",
+    "revenue",
+    "yield",
+    "élasticité",
+    "demande",
+    "transport",
+    "ferroviaire",
+    "voyageurs",
+    "sncf",
+    "commercial",
+    "offre"
+   ],
+   "puces": [
+    "Analyse de la tarification TGV sur données ouvertes SNCF : élasticité prix, comparaison des offres et positionnement concurrentiel.",
+    "Module de yield management : allocation des places par palier tarifaire (algorithme EMSR-b), mise à jour automatique par GitHub Actions."
+   ]
+  },
+  {
+   "id": "prisme",
+   "titre": "PRISME : copilote d'audit AI Act",
+   "stack": "Python, FastAPI, RAG, Supabase (pgvector), Groq",
+   "lien": "",
+   "tags": [
+    "ai act",
+    "audit",
+    "conformité",
+    "ia",
+    "intelligence artificielle",
+    "rag",
+    "llm",
+    "réglementaire",
+    "api"
+   ],
+   "puces": [
+    "API d'aide à l'audit de conformité AI Act : recherche dans les textes réglementaires (RAG) et grille de qualification des systèmes d'IA.",
+    "Backend FastAPI déployé sur Render, base vectorielle pgvector."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "statistiques",
+  "agile",
+  "allemand"
+ ],
+ "methode": "règles seules (IA en échec : HTTP 429 (openai/gpt-oss-120b) : {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization)",
+ "job_id": "bcaa9e9350f2",
+ "entreprise": "Körber Supply Chain AG",
+ "intitule_offre": "Data Scientist (m/w/d)",
+ "url_offre": "https://www.jobup.ch/fr/emplois/detail/b9c89fd2-6cd5-4fbd-b253-ac8cb15ef466/",
+ "genere_le": "2026-10-29T10:57:10+00:00"
+}

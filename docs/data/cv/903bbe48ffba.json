@@ -1,0 +1,174 @@
+{
+ "titre": "Report Analyst - Dashboard Design / PL/SQL / XML",
+ "profil": "Profil data alliant 13 ans d'expérience opérationnelle au sein du Groupe SNCF, en environnement à forts enjeux de sécurité, et un Master Data Engineer / Data Product Manager (Bac+5, Mines Paris - PSL). Plus de 15 projets data réalisés et déployés sur mon portfolio, avec une montée en compétences continue, notamment en analyse de données.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "SQL",
+    "Python (pandas)",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio",
+    "Excel"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "GitHub Actions (CI/CD)",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "customer-experience",
+   "titre": "Customer Experience Intelligence : analyse et dataviz",
+   "stack": "Python, Power BI",
+   "lien": "github.com/heykelh/customer-experience-intelligence",
+   "tags": [
+    "client",
+    "clients",
+    "expérience client",
+    "marketing",
+    "kpi",
+    "dashboard",
+    "tableau de bord",
+    "power bi",
+    "reporting",
+    "analyse",
+    "satisfaction",
+    "parcours"
+   ],
+   "puces": [
+    "Analyse exploratoire de données clients : insights, tendances et anomalies impactant la performance.",
+    "Dashboards interactifs Power BI et indicateurs de pilotage à destination des décideurs métier."
+   ]
+  },
+  {
+   "id": "pokewatch",
+   "titre": "PokéWatch : surveillance de marché et détection d'anomalies de prix",
+   "stack": "PostgreSQL, Supabase, SQL, GitHub Actions, Next.js",
+   "lien": "pokewatch-three.vercel.app",
+   "tags": [
+    "surveillance",
+    "monitoring",
+    "anomalie",
+    "anomalies",
+    "fraude",
+    "prix",
+    "marché",
+    "pipeline",
+    "automatisation",
+    "alerte",
+    "data engineer",
+    "ingestion",
+    "sql"
+   ],
+   "puces": [
+    "Pipeline de collecte des prix Cardmarket et eBay, automatisé par GitHub Actions, avec alertes ntfy en temps réel.",
+    "Règles SQL de détection d'anomalies de prix et tableau de bord Next.js de suivi du marché."
+   ]
+  },
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Simulation d'une mission de Business Analyst sur un SI Crédit (recouvrement amiable et contentieux), de l'expression du besoin à la recette.",
+    "Livrables publiés en ligne : cartographie des processus, spécifications fonctionnelles et plan de tests."
+   ]
+  },
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Simulation d'une mission d'inspection Data sur la chaîne de données du risque de crédit : cadrage, investigations, débriefing.",
+    "Moteur de contrôles qualité en règles SQL, scoring de risque, registre des constats et rapport de restitution."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "allemand"
+ ],
+ "methode": "règles seules (IA en échec : HTTP 429 (openai/gpt-oss-120b) : {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization)",
+ "job_id": "903bbe48ffba",
+ "entreprise": "ITech Consult AG",
+ "intitule_offre": "Report Analyst - Dashboard Design / PL/SQL / XML",
+ "url_offre": "https://www.jobs.ch/fr/offres-emplois/detail/d8014240-2535-4852-9c24-2152ae875919/",
+ "genere_le": "2026-10-29T10:56:56+00:00"
+}

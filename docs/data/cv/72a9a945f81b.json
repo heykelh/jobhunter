@@ -1,0 +1,179 @@
+{
+ "titre": "Production Planning Analyst",
+ "profil": "Professionnel avec 13 ans d’expérience opérationnelle au sein du groupe SNCF, spécialisé dans la gestion de flux critiques et l’optimisation des processus. Titulaire d’un Master en Data Engineering (Mines Paris - PSL) et habitué à piloter des projets d’analyse de données. Compétences avérées en planification, anticipation des risques et communication en environnement collaboratif.",
+ "competences": [
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio",
+    "Excel"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Simulation d’une mission d’inspection des flux de données, incluant le cadrage, l’investigation et le débriefing pour garantir la conformité du processus.",
+    "Développement d’un moteur de contrôles qualité en SQL, permettant le scoring et le suivi des écarts, utile à l’analyse des écarts planifié/réalisé."
+   ]
+  },
+  {
+   "id": "customer-experience",
+   "titre": "Customer Experience Intelligence : analyse et dataviz",
+   "stack": "Python, Power BI",
+   "lien": "github.com/heykelh/customer-experience-intelligence",
+   "tags": [
+    "client",
+    "clients",
+    "expérience client",
+    "marketing",
+    "kpi",
+    "dashboard",
+    "tableau de bord",
+    "power bi",
+    "reporting",
+    "analyse",
+    "satisfaction",
+    "parcours"
+   ],
+   "puces": [
+    "Analyse exploratoire des données pour identifier tendances et anomalies, facilitant l’anticipation des besoins de production.",
+    "Création de tableaux de bord Power BI avec indicateurs de suivi, soutenant la prise de décision et la communication avec les ateliers."
+   ]
+  },
+  {
+   "id": "frontierbank",
+   "titre": "FrontierBank : gouvernance des données d'une banque fictive",
+   "stack": "BCBS 239, DAMA-DMBOK, AI Act, Power BI",
+   "lien": "frontierbank-data.vercel.app",
+   "tags": [
+    "gouvernance",
+    "governance",
+    "steward",
+    "qualité",
+    "quality",
+    "bcbs",
+    "dama",
+    "lignage",
+    "lineage",
+    "banque",
+    "bancaire",
+    "risque",
+    "réglementaire",
+    "conformité",
+    "raci",
+    "référentiel",
+    "métadonnées"
+   ],
+   "puces": [
+    "Conduite d’une mission de gouvernance, incluant diagnostic, définition de processus et matrice RACI, afin d’optimiser la capacité de traitement.",
+    "Mise en place de tableaux de bord Power BI pour suivre la qualité et la disponibilité des données, supportant la planification des ressources."
+   ]
+  },
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Simulation d’une mission d’analyse fonctionnelle, de la collecte des besoins à la validation, pour assurer la cohérence du plan de charge.",
+    "Production de livrables détaillés (cartographie des processus, spécifications, plan de tests) facilitant le suivi des ordres de fabrication."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "prévision",
+  "sap"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "72a9a945f81b",
+ "entreprise": "Mikron Switzerland AG",
+ "intitule_offre": "PRODUCTION PLANNING ANALYST (M/F/D)",
+ "url_offre": "https://www.jobup.ch/fr/emplois/detail/0c149667-d764-4516-b54a-f0cb93137818/",
+ "genere_le": "2026-10-29T10:57:19+00:00"
+}

@@ -1,0 +1,180 @@
+{
+ "titre": "Junior Business Analyst : Banking Operations Transformation",
+ "profil": "13 ans d’expérience opérationnelle au sein du Groupe SNCF, complétés par un Master Data Engineer (Mines Paris : PSL). Réalisation de plus de 15 projets data incluant analyse, modélisation et gouvernance. Expertise en extraction, validation et visualisation de données, ainsi qu’en cartographie de processus et accompagnement du changement.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "SQL",
+    "Excel",
+    "Power BI (DAX)",
+    "Python (pandas)",
+    "PostgreSQL",
+    "DuckDB",
+    "Looker Studio"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "escale",
+   "titre": "ESCALE : ponctualité des vols CDG et Orly",
+   "stack": "Python, PostgreSQL (médaillon), API AeroDataBox, Next.js",
+   "lien": "escale-ops.vercel.app",
+   "tags": [
+    "aérien",
+    "aerien",
+    "aviation",
+    "vol",
+    "vols",
+    "airline",
+    "opérations",
+    "operations",
+    "ponctualité",
+    "retard",
+    "rgpd",
+    "privacy",
+    "données personnelles",
+    "ai act",
+    "prédiction",
+    "client"
+   ],
+   "puces": [
+    "Extraction et validation quotidienne de données de vols, avec scoring de risque, pour alimenter les analyses opérationnelles.",
+    "Mise en place d’un tableau de bord de suivi, intégrant les exigences de conformité et de confidentialité."
+   ]
+  },
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Cartographie des processus de recouvrement, rédaction des spécifications fonctionnelles et élaboration du plan de tests.",
+    "Collaboration avec les parties prenantes pour valider les exigences et assurer la conformité des livrables."
+   ]
+  },
+  {
+   "id": "customer-experience",
+   "titre": "Customer Experience Intelligence : analyse et dataviz",
+   "stack": "Python, Power BI",
+   "lien": "github.com/heykelh/customer-experience-intelligence",
+   "tags": [
+    "client",
+    "clients",
+    "expérience client",
+    "marketing",
+    "kpi",
+    "dashboard",
+    "tableau de bord",
+    "power bi",
+    "reporting",
+    "analyse",
+    "satisfaction",
+    "parcours"
+   ],
+   "puces": [
+    "Analyse exploratoire des données clients et identification d’indicateurs clés pour piloter la performance.",
+    "Création de tableaux de bord interactifs Power BI destinés aux décideurs opérationnels."
+   ]
+  },
+  {
+   "id": "frontierbank",
+   "titre": "FrontierBank : gouvernance des données d'une banque fictive",
+   "stack": "BCBS 239, DAMA-DMBOK, AI Act, Power BI",
+   "lien": "frontierbank-data.vercel.app",
+   "tags": [
+    "gouvernance",
+    "governance",
+    "steward",
+    "qualité",
+    "quality",
+    "bcbs",
+    "dama",
+    "lignage",
+    "lineage",
+    "banque",
+    "bancaire",
+    "risque",
+    "réglementaire",
+    "conformité",
+    "raci",
+    "référentiel",
+    "métadonnées"
+   ],
+   "puces": [
+    "Audit de gouvernance des données selon les standards BCBS 239 et DAMA‑DMBOK, avec définition de la traçabilité.",
+    "Développement de rapports Power BI de suivi de la qualité des données et documentation des processus."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "data quality"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "3ca060478dbd",
+ "entreprise": "Julius Baer",
+ "intitule_offre": "Junior Business Analyst – Banking Operations Transformation 100% (f/m/d) - (Contract through our external payroll partner with immediate start until 31.12.2027 with possible extension)",
+ "url_offre": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Zurich/Junior-Business-Analyst---Banking-Operations-Transformation-100---f-m-d-----Contract-through-our-external-payroll-partner-with-immediate-start-until-31122027-with-possible-extension-_r-20345-1",
+ "genere_le": "2026-10-29T10:58:07+00:00"
+}
