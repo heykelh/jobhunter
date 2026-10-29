@@ -64,7 +64,7 @@
   .p-just { text-align: justify; }
   .p-line { display: flex; justify-content: space-between; gap: 12px; margin-top: 4px; }
   .p-line .r { color: #555; white-space: nowrap; }
-  .p-line a { color: #2E75B6; text-decoration: none; }
+  .p-line a, .page a { color: #2E75B6; text-decoration: none; }
   .p-stack { font-style: italic; color: #555; }
   .page ul { margin: 1px 0 2px; padding-left: 18px; }
   .page li { margin: 0 0 1px; }
@@ -144,6 +144,15 @@ function set(path, value) {
   o[last] = Array.isArray(o[last]) ? value.split("\n").map(s => s.trim()).filter(Boolean) : value;
 }
 
+function cardHead(kind, i, item) {
+  return `<div class="card-h">
+      <label style="margin:0;display:flex;gap:6px;align-items:center;color:var(--ink)"><input type="checkbox" data-act="${kind}inc" data-i="${i}" ${item.inclus === false ? "" : "checked"}> Inclure</label>
+      <span class="grow"></span>
+      <button class="btn small" data-act="${kind}move" data-i="${i}" data-d="-1" aria-label="Monter">↑</button>
+      <button class="btn small" data-act="${kind}move" data-i="${i}" data-d="1" aria-label="Descendre">↓</button>
+      <button class="btn small" data-act="${kind}del" data-i="${i}">Supprimer</button></div>`;
+}
+
 function render() {
   const g = GEN || {};
   const missing = g.mots_cles_manquants || [];
@@ -186,8 +195,8 @@ function render() {
         <button class="btn small" data-act="pmove" data-i="${i}" data-d="-1">↑</button>
         <button class="btn small" data-act="pmove" data-i="${i}" data-d="1">↓</button>
         <button class="btn small" data-act="pdel" data-i="${i}">Supprimer</button></div>
-      ${field("Titre", `projets.${i}.titre`)}
-      <div class="row">${field("Technologies", `projets.${i}.stack`)}${field("Lien", `projets.${i}.lien`)}</div>
+      <div class="row">${field("Titre", `projets.${i}.titre`)}${field("Date (à droite)", `projets.${i}.dates`)}</div>
+      <div class="row">${field("Lien (sous le titre)", `projets.${i}.lien`)}${field("Technologies", `projets.${i}.stack`)}</div>
       ${field("Puces (une par ligne)", `projets.${i}.puces`, { area: true, rows: 3 })}
     </div>`).join("")}
     <div class="row" style="align-items:end">
@@ -197,14 +206,20 @@ function render() {
   </div>
 
   <div class="panel"><h2>Expérience</h2>
-    ${cv.experiences.map((e, i) => `<div class="card">
+    ${cv.experiences.map((e, i) => `<div class="card ${e.inclus === false ? "off" : ""}">
+      ${cardHead("e", i, e)}
       <div class="row">${field("Poste", `experiences.${i}.titre`)}${field("Entreprise", `experiences.${i}.entreprise`)}${field("Dates", `experiences.${i}.dates`)}</div>
       ${field("Puces (une par ligne)", `experiences.${i}.puces`, { area: true, rows: 4 })}
     </div>`).join("")}
+    <button class="btn small" data-act="enew">+ Ajouter une expérience</button>
   </div>
 
   <div class="panel"><h2>Formation</h2>
-    ${cv.formations.map((f, i) => `<div class="row">${field("Diplôme", `formations.${i}.titre`)}${field("École", `formations.${i}.ecole`)}${field("Année", `formations.${i}.dates`)}</div>`).join("")}
+    ${cv.formations.map((f, i) => `<div class="card ${f.inclus === false ? "off" : ""}">
+      ${cardHead("f", i, f)}
+      <div class="row">${field("Diplôme", `formations.${i}.titre`)}${field("École", `formations.${i}.ecole`)}${field("Dates", `formations.${i}.dates`)}</div>
+    </div>`).join("")}
+    <button class="btn small" data-act="fnew">+ Ajouter une formation</button>
   </div>
 
   <div class="panel"><h2>Langues et atouts</h2>
@@ -231,6 +246,9 @@ function preview() {
     ? `<ul>${arr.filter(x => String(x).trim()).map(x => `<li>${esc(CvDocx.clean(x))}</li>`).join("")}</ul>` : "";
   const sec = t => `<div class="p-sec" style="${fs(pt + 1)};margin-top:${12 * gap}px">${t}</div>`;
   const projets = cv.projets.filter(p => p.inclus !== false);
+  const exps = (cv.experiences || []).filter(x => x.inclus !== false);
+  const forms = (cv.formations || []).filter(x => x.inclus !== false);
+  const href = u => /^https?:\/\//.test(u) ? u : "https://" + u;
   $("#page").innerHTML = `
     <div class="p-name" style="${fs(pt + 9)}">${esc(cv.nom)}</div>
     ${cv.titre ? `<div class="p-title" style="${fs(pt + 3)}">${esc(CvDocx.clean(cv.titre))}</div>` : ""}
@@ -239,11 +257,12 @@ function preview() {
     ${cv.profil ? sec("Profil") + `<div class="p-just">${esc(CvDocx.clean(cv.profil))}</div>` : ""}
     ${cv.competences.some(g => g.items.length) ? sec("Compétences") + cv.competences.filter(g => g.items.length).map(g => `<div style="margin-bottom:${2 * gap}px"><b>${esc(g.groupe)} :</b> ${esc(g.items.join(", "))}</div>`).join("") : ""}
     ${projets.length ? sec("Projets data (portfolio)") + projets.map(p => `
-      <div class="p-line" style="margin-top:${4 * gap}px"><b>${esc(CvDocx.clean(p.titre))}</b>${p.lien ? `<a class="r" style="${fs(pt - 0.5)}">${esc(p.lien)}</a>` : ""}</div>
+      <div class="p-line" style="margin-top:${4 * gap}px"><b>${esc(CvDocx.clean(p.titre))}</b>${p.dates ? `<span class="r" style="${fs(pt - 0.5)}">${esc(p.dates)}</span>` : ""}</div>
+      ${p.lien ? `<div style="${fs(pt - 0.5)}"><a href="${esc(href(p.lien))}" target="_blank" rel="noopener">${esc(p.lien)}</a></div>` : ""}
       ${p.stack ? `<div class="p-stack" style="${fs(pt - 0.5)}">${esc(p.stack)}</div>` : ""}${ul(p.puces)}`).join("") : ""}
-    ${cv.experiences.length ? sec("Expérience professionnelle") + cv.experiences.map(e => `
+    ${exps.length ? sec("Expérience professionnelle") + exps.map(e => `
       <div class="p-line" style="margin-top:${4 * gap}px"><span><b>${esc(e.titre)}</b>${e.entreprise ? ", " + esc(e.entreprise) : ""}</span><span class="r" style="${fs(pt - 0.5)}">${esc(e.dates)}</span></div>${ul(e.puces)}`).join("") : ""}
-    ${cv.formations.length ? sec("Formation") + cv.formations.map(f => `
+    ${forms.length ? sec("Formation") + forms.map(f => `
       <div class="p-line" style="margin-top:${3 * gap}px"><span><b>${esc(f.titre)}</b>${f.ecole ? ", " + esc(f.ecole) : ""}</span><span class="r" style="${fs(pt - 0.5)}">${esc(f.dates)}</span></div>`).join("") : ""}
     ${(cv.langues || cv.atouts) ? sec("Langues et atouts") + [cv.langues, cv.atouts].filter(Boolean).map(x => `<div>${esc(x)}</div>`).join("") : ""}
     </div>
@@ -280,6 +299,14 @@ document.addEventListener("click", e => {
     if (p) cv.projets.push({ ...JSON.parse(JSON.stringify(p)), inclus: true });
   }
   else if (act === "pnew") cv.projets.push({ id: "perso-" + Date.now(), titre: "Nouveau projet", stack: "", lien: "", puces: [], inclus: true });
+  else if (act === "einc") cv.experiences[i].inclus = b.checked;
+  else if (act === "emove") move(cv.experiences);
+  else if (act === "edel") cv.experiences.splice(i, 1);
+  else if (act === "enew") cv.experiences.push({ titre: "Nouveau poste", entreprise: "", dates: "", puces: [], inclus: true });
+  else if (act === "finc") cv.formations[i].inclus = b.checked;
+  else if (act === "fmove") move(cv.formations);
+  else if (act === "fdel") cv.formations.splice(i, 1);
+  else if (act === "fnew") cv.formations.push({ titre: "Nouvelle formation", ecole: "", dates: "", inclus: true });
   else if (act === "cmove") move(cv.competences);
   else if (act === "cdel") cv.competences.splice(i, 1);
   else if (act === "cadd") cv.competences.push({ groupe: "Autres", items: [] });

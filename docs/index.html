@@ -58,6 +58,8 @@
   .topbar .right { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; color: var(--board-muted); font-size: 13.5px; font-weight: 300; }
   .live { display: inline-flex; align-items: center; gap: 7px; }
   .live::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--brand); box-shadow: 0 0 0 3px rgba(23,184,144,.22); }
+  .btn-board:hover { border-color: var(--board-muted); }
+  .board.folded nav.tabs { margin-top: 18px; }
   .btn-board { font-size: 13.5px; padding: 7px 13px; border-radius: 8px; border: 1px solid var(--board-line);
                background: transparent; color: var(--board-ink); cursor: pointer; }
   .criteria { margin: 14px 0 0; color: var(--board-muted); font-size: 13.5px; font-weight: 300; max-width: 80ch; }
@@ -247,9 +249,11 @@
       </a>
       <div class="right">
         <button class="btn-board" id="install" hidden>Installer l'appli</button>
+        <button class="btn-board" id="fold" aria-expanded="true" aria-controls="board-body">Masquer le tableau</button>
         <span class="live" id="updated">Chargement…</span>
       </div>
     </div>
+    <div id="board-body">
     <p class="criteria" id="criteria"></p>
     <div class="ios-hint" id="ios-hint" hidden>
       <span>Pour l'installer sur ton iPhone : bouton Partager, puis « Sur l'écran d'accueil ».</span>
@@ -265,6 +269,7 @@
     </div>
 
     <div class="ticker" id="ticker"></div>
+    </div>
 
     <nav class="tabs" role="tablist">
       <button role="tab" data-tab="jobs" aria-selected="true">Offres</button>
@@ -640,8 +645,18 @@ const standalone = matchMedia("(display-mode: standalone)").matches || navigator
 if (/iphone|ipad|ipod/i.test(navigator.userAgent) && !standalone && !store.get("jh-ios-hint-closed", false)) $("#ios-hint").hidden = false;
 $("#ios-close").addEventListener("click", () => { $("#ios-hint").hidden = true; store.set("jh-ios-hint-closed", true); });
 
-init();
+// Tableau du haut repliable (choix mémorisé sur l'appareil)
+function setFold(folded) {
+  $("#board-body").hidden = folded;
+  $(".board").classList.toggle("folded", folded);
+  $("#fold").textContent = folded ? "Afficher le tableau" : "Masquer le tableau";
+  $("#fold").setAttribute("aria-expanded", String(!folded));
+  store.set("jh-board-folded", folded);
+}
+$("#fold").addEventListener("click", () => setFold(!$("#board-body").hidden));
+setFold(store.get("jh-board-folded", false));
 
+init();
 </script>
 </body>
 </html>

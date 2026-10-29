@@ -265,7 +265,8 @@ companies:
     offsets: [0, 20]
 
   - name: Bouygues Telecom
-    source: html                # l'ancien site Talentsoft ne répond plus (29/10/2026) ⚠ à confirmer au diagnose
+    enabled: false              # l'ancien site Talentsoft ne répond plus et le nouveau ne publie pas d'offres lisibles (29/10/2026)
+    source: html
     render: true
     urls:
       - https://www.corporate.bouyguestelecom.fr/travailler-ensemble/

@@ -48,9 +48,9 @@ class ExperienceAI:
         self.calls += 1
         from .llm import LLMError, chat_json
         try:
-            out = chat_json(SYSTEM, f"Intitulé : {title}\nEntreprise : {company}\n\n{text[:9000]}", temperature=0, timeout=45)
+            out = chat_json(SYSTEM, f"Intitulé : {title}\nEntreprise : {company}\n\n{text[:6000]}", temperature=0, timeout=45)
         except LLMError as e:
-            if "401" in str(e) or "429" in str(e) or "clé" in str(e):
+            if "401" in str(e) or "clé" in str(e):
                 self.enabled = False          # clé refusée ou quota atteint : inutile de continuer ce passage
             return None
         quote = str(out.get("citation") or "").strip()

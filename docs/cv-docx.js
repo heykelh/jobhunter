@@ -98,28 +98,26 @@
     if (projets.length) {
       body.push(section("Projets data (portfolio)"));
       for (const p of projets) {
-        const left = [run(p.titre, { bold: true })];
-        body.push(new Paragraph({
-          tabStops: [{ type: TabStopType.RIGHT, position: RIGHT }],
-          spacing: { before: GAP, after: 0 },
-          children: p.lien ? [...left, tab(), link(clean(p.lien), p.lien, { size: SZ - 1 })] : left,
-        }));
+        body.push(header([run(p.titre, { bold: true })], p.dates));
+        if (p.lien) body.push(new Paragraph({ spacing: { after: 0 }, children: [link(clean(p.lien), p.lien, { size: SZ - 1 })] }));
         if (p.stack) body.push(new Paragraph({ spacing: { after: 20 }, children: [run(p.stack, { italics: true, color: "555555", size: SZ - 1 })] }));
         for (const b of p.puces || []) if (clean(b)) body.push(bullet(b));
       }
     }
     // Expérience
-    if ((cv.experiences || []).length) {
+    const exps = (cv.experiences || []).filter((x) => x.inclus !== false);
+    if (exps.length) {
       body.push(section("Expérience professionnelle"));
-      for (const e of cv.experiences) {
+      for (const e of exps) {
         body.push(header([run(clean(e.titre), { bold: true }), run(e.entreprise ? ", " + clean(e.entreprise) : "")], e.dates));
         for (const b of e.puces || []) if (clean(b)) body.push(bullet(b));
       }
     }
     // Formation
-    if ((cv.formations || []).length) {
+    const forms = (cv.formations || []).filter((x) => x.inclus !== false);
+    if (forms.length) {
       body.push(section("Formation"));
-      for (const f of cv.formations) {
+      for (const f of forms) {
         body.push(header([run(clean(f.titre), { bold: true }), run(f.ecole ? ", " + clean(f.ecole) : "")], f.dates));
       }
     }

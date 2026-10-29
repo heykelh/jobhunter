@@ -67,23 +67,26 @@
     if (projets.length) {
       section("Projets data (portfolio)");
       for (const p of projets) {
-        content.push(line([{ text: clean(p.titre), bold: true }], p.lien, true));
+        content.push(line([{ text: clean(p.titre), bold: true }], p.dates));
+        if (p.lien) content.push({ text: clean(p.lien), link: href(p.lien), color: ACCENT, fontSize: pt - 0.5 });
         if (p.stack) content.push({ text: clean(p.stack), italics: true, color: GREY, fontSize: pt - 0.5 });
         bullets(p.puces);
       }
     }
 
-    if ((cv.experiences || []).length) {
+    const exps = (cv.experiences || []).filter((x) => x.inclus !== false);
+    if (exps.length) {
       section("Expérience professionnelle");
-      for (const e of cv.experiences) {
+      for (const e of exps) {
         content.push(line([{ text: clean(e.titre), bold: true }, e.entreprise ? ", " + clean(e.entreprise) : ""], e.dates));
         bullets(e.puces);
       }
     }
 
-    if ((cv.formations || []).length) {
+    const forms = (cv.formations || []).filter((x) => x.inclus !== false);
+    if (forms.length) {
       section("Formation");
-      for (const f of cv.formations) {
+      for (const f of forms) {
         content.push(line([{ text: clean(f.titre), bold: true }, f.ecole ? ", " + clean(f.ecole) : ""], f.dates));
       }
     }

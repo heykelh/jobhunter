@@ -98,6 +98,13 @@ def run(argv=None) -> int:
         log.info("Zones modifiées : %d offre(s) écartée(s) pour leur lieu seront réexaminées", before - len(store.rejected))
     match_budget = int(cfg.get("match_backfill_per_company", 8))
 
+    # Offres venant d'une source désactivée depuis (ex. faux résultats) : on les retire du site
+    disabled = {c["name"] for c in cfg.get("companies", []) if not c.get("enabled", True)}
+    if not args.diagnose and disabled:
+        for jid, job in list(store.jobs.items()):
+            if job.get("company") in disabled and not job.get("via"):
+                store.remove(jid)
+                log.info("  retirée (source désactivée) : %s", job.get("title"))
     # Offres déjà affichées dont le titre ne passe plus (mots exclus ajoutés depuis) : on les retire
     if not args.diagnose:
         for jid, job in list(store.jobs.items()):

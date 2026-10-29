@@ -274,3 +274,25 @@ def test_llm_fallback_and_errors(monkeypatch):
         assert False
     except llm.LLMError as e:
         assert "401" in str(e) and "Invalid API Key" in str(e)
+
+
+def test_llm_rate_limit_switches_model(monkeypatch):
+    import jobhunter.llm as llm
+    monkeypatch.setenv("GROQ_API_KEY", "x")
+    monkeypatch.delenv("GROQ_MODEL", raising=False)
+    monkeypatch.setattr(llm.time, "sleep", lambda s: None)
+    llm._dead.clear()
+    calls = []
+
+    class R:
+        def __init__(self, code, text="", js=None): self.status_code, self.text, self._js = code, text, js
+        def json(self): return self._js
+
+    def post(url, headers=None, json=None, timeout=0):
+        calls.append(json["model"])
+        if len(calls) == 1:
+            return R(429, "Rate limit reached on tokens per minute (TPM). Please try again in 2.5s.")
+        return R(200, js={"choices": [{"message": {"content": '{"ok": 1}'}}]})
+    monkeypatch.setattr(llm.requests, "post", post)
+    assert llm.chat_json("s", "u") == {"ok": 1}
+    assert len(calls) == 2 and calls[0] != calls[1]

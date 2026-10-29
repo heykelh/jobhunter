@@ -9,6 +9,8 @@ from __future__ import annotations
 import json
 import logging
 import os
+import re
+import time
 
 import requests
 
@@ -58,7 +60,17 @@ def chat_json(system: str, user: str, temperature: float = 0.3, timeout: int = 6
         if r.status_code in (400, 404) and ("model" in body.lower() or "decommission" in body.lower()):
             _dead.add(model)                      # modèle retiré ou inconnu : on essaie le suivant
             continue
-        break                                     # 401 clé refusée, 429 quota… : inutile d'insister
+        if r.status_code == 429:
+            # Limite gratuite par minute : on attend un peu (au plus 20 s) puis on tente le modèle suivant,
+            # chaque modèle Groq ayant son propre quota
+            m = re.search(r"try again in ([\d.]+)s", r.text)
+            wait = min(20.0, float(m.group(1)) + 0.5) if m else 6.0
+            if "per day" in r.text.lower() or "(TPD)" in r.text or "(RPD)" in r.text:
+                _dead.add(model)                  # quota du jour épuisé pour ce modèle
+            time.sleep(wait)
+            STATUS["waits"] = STATUS.get("waits", 0) + 1
+            continue
+        break                                     # 401 clé refusée… : inutile d'insister
     STATUS["errors"] += 1
     STATUS["last_error"] = last
     log.warning("  IA Groq en échec : %s", last)
