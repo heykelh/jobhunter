@@ -1,450 +1,197 @@
 {
- "at": "2026-10-20T13:52:26+00:00",
+ "at": "2026-10-29T08:59:08+00:00",
  "companies": {
   "Air France": {
-   "links_found": 22,
-   "keyword_matches": 5,
+   "links_found": 23,
+   "keyword_matches": 3,
    "errors": [],
    "sample_all": [
-    "Mécanicienne/Mécanicien maintenance équipements Air France F/H",
-    "Agent de Maintenance Industrielle F/H",
-    "Analyste de vols - Revenue Management F/H",
+    "Chargé d'approvisionnement - Gestionnaire de commandes F/H",
+    "Product Owner Portail et Catalogue de Services F/H",
+    "Cheffe/chef de projet Sécurité des réseaux industriels et objets connectés F/H",
+    "Responsable performance & formalités douanières carburants F/H",
+    "Data Analyst Commercial - Digital Product F/H",
+    "Infirmière du Travail à temps plein F/H",
+    "Technicienne/Technicien Planning Structure Maintenance Avion H/F",
+    "Mécanicienne/Mécanicien cabine F/H",
     "Technicienne/Technicien avion F/H",
-    "Mécanicienne/Mécanicien avion F/H",
-    "Software Engineer F/H",
-    "Agent logistique magasin F/H",
-    "Customer Support Manager (CSM) Sénior Equipements Aéronautiques H/F",
-    "Mécanicienne/Mécanicien Moteur F/H",
-    "Analyste Stratégie Network F/H"
+    "HOP! Ingénieur Projets et Data Sécurité des Vols – Roissy Charles De Gaulle (95) F/H"
    ],
    "sample_matching": [
-    {
-     "title": "Analyste de vols - Revenue Management F/H",
-     "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25588&idOrigine=502&offerReference=2026-25588",
-     "context": "Stratégie et développement/Revenue/Yield management CDI 45 rue de Paris 95747 ROISSY CHARLES DE GAULLE CEDEX Métier : Stratégie et développement/Revenue/Yield management Type de contrat : CDI Descript"
-    },
-    {
-     "title": "Analyste Stratégie Network F/H",
-     "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25589&idOrigine=502&offerReference=2026-25589",
-     "context": "Stratégie et développement/Programme des Vols CDI 45 rue de Paris 95747 ROISSY CHARLES DE GAULLE CEDEX Métier : Stratégie et développement/Programme des Vols Type de contrat : CDI Description du poste"
-    },
     {
      "title": "Data Analyst Commercial - Digital Product F/H",
      "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=23302&idOrigine=502&offerReference=2025-23302",
      "context": "Digital/e-Marketing CDI 45 rue de Paris 95747 ROISSY CHARLES DE GAULLE CEDEX Métier : Digital/e-Marketing Type de contrat : CDI Description du poste : Les analystes Performance Insights & Analytics so"
     },
     {
-     "title": "Business Analyst Senior – Crew Tracking – Opération Aériennes F/H",
-     "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25019&idOrigine=502&offerReference=2026-25019",
-     "context": "Exploitation & Opérations aériennes/Opérations aériennes & Préparation des Vols CDI Cité PN Air France - Roissy - Charles de Gaulle Métier : Exploitation & Opérations aériennes/Opérations aériennes & "
+     "title": "HOP! Ingénieur Projets et Data Sécurité des Vols – Roissy Charles De Gaulle (95) F/H",
+     "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25715&idOrigine=502&offerReference=2026-25715",
+     "context": "Maîtrise des risques/Sécurité des vols et Sûreté CDI HOP! Site de CDG (95) Métier : Maîtrise des risques/Sécurité des vols et Sûreté Type de contrat : CDI Description du poste : 1. Elaborer des tablea"
     },
     {
-     "title": "Coordinateur d'Équipes de Pratique Data, Recherche Opérationnelle & IA F/H",
-     "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25600&idOrigine=502&offerReference=2026-25600",
-     "context": "Systèmes d'informations/Infrastructures & Production informatique CDI 45 rue de Paris 95747 ROISSY CHARLES DE GAULLE CEDEX Métier : Systèmes d'informations/Infrastructures & Production informatique Ty"
+     "title": "Analyste de vols - Revenue Management F/H",
+     "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25588&idOrigine=502&offerReference=2026-25588",
+     "context": "Stratégie et développement/Revenue/Yield management CDI 45 rue de Paris 95747 ROISSY CHARLES DE GAULLE CEDEX Métier : Stratégie et développement/Revenue/Yield management Type de contrat : CDI Descript"
     }
    ],
    "json": []
-  },
-  "TotalEnergies": {
-   "links_found": 200,
-   "keyword_matches": 15,
-   "errors": [],
-   "sample_all": [
-    "CDI - OT, Contrôleur de Gestion industriel H/F - Pau",
-    "Sales Support Advisor (FTC 24 Months)",
-    "CDD Coordinateur projets transverses H/F/X",
-    "JURISTE H/F",
-    "Agent d'Exploitation H/F -CDD",
-    "Chargé.e de mission Intégrité & Gouvernance - CDD 12 mois à partir du 01/01/2027",
-    "Gestionnaire de formation terrains et spécifiques débutant H/F",
-    "RESPONSABLE COMPTABLE HOLDING (H/F)",
-    "CDD Coordinateur anti-corruption H/F/X",
-    "MAINTENANCE TECH - BLDG"
-   ],
-   "sample_matching": [
-    {
-     "title": "Analyste financier de données débutant H/F",
-     "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Analyste-financier-de-donn-es-d-butant-H-F/84738",
-     "context": "Analyste financier de données débutant H/F 20-10-2026 France Contrat de professionnalisation temps plein TotalEnergies SE Postuler"
-    },
-    {
-     "title": "CDD – Analyste Réglementaire Énergie Europe (H/F/X)",
-     "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/CDD-Analyste-R-glementaire-nergie-Europe-H-F-X/85354",
-     "context": "CDD – Analyste Réglementaire Énergie Europe (H/F/X) 19-10-2026 France CDD TotalEnergies Renouvelables France Postuler"
-    },
-    {
-     "title": "Compensation & Benefits Analyst",
-     "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Compensation-Benefits-Analyst/85349",
-     "context": "Compensation & Benefits Analyst 19-10-2026 Malaisie CDD TotalEnergies EP Sarawak Inc. Postuler"
-    },
-    {
-     "title": "STAGE - Quantitative Performance Analyst - H/F",
-     "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/STAGE-Quantitative-Performance-Analyst-H-F/85315",
-     "context": "STAGE - Quantitative Performance Analyst - H/F 16-10-2026 France Stage conventionné TotalEnergies SE Postuler"
-    },
-    {
-     "title": "Analyst FP&A (External)",
-     "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Analyst-FP-A-External/85295",
-     "context": "Analyst FP&A (External) 16-10-2026 Singapour CDI TotalEnergies Singapore Services Pte Ltd Postuler"
-    },
-    {
-     "title": "BUSINESS ANALYST (H/F)",
-     "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/BUSINESS-ANALYST-H-F/85099",
-     "context": "BUSINESS ANALYST (H/F) 16-10-2026 Congo, République Démocratique CDD TotalEnergies Marketing RDC SA Postuler"
-    },
-    {
-     "title": "DATA ANALYST LIVRAISON & TRANSPORT (H/F)",
-     "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/DATA-ANALYST-LIVRAISON-TRANSPORT-H-F/85096",
-     "context": "DATA ANALYST LIVRAISON & TRANSPORT (H/F) 16-10-2026 Congo, République Démocratique CDD TotalEnergies Marketing RDC SA Postuler"
-    },
-    {
-     "title": "Stage – Data & Automation Analyst – Finance - AS 24",
-     "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Stage-Business-Analyst-Finance-Credit-Management-H-F-AS-24/83992",
-     "context": "Stage – Data & Automation Analyst – Finance - AS 24 16-10-2026 France Stage conventionné AS 24 FRANCE Postuler"
-    },
-    {
-     "title": "Energy Trading| Trade Support Analyst",
-     "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Energy-Trading-Trade-Support-Analyst/78455",
-     "context": "|Energy Trading| Trade Support Analyst 15-10-2026 Grèce CDI TOTSA TotalEnergies Trading SA Postuler"
-    },
-    {
-     "title": "Analyste Facturation MassMarket",
-     "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Analyste-Facturation-Mass-Market/77520",
-     "context": "Analyste Facturation MassMarket 12-10-2026 France CDI TotalEnergies Electricité et Gaz France Postuler"
-    }
-   ],
-   "json": []
-  },
-  "Société Générale": {
-   "links_found": 0,
-   "keyword_matches": 0,
-   "errors": [],
-   "sample_all": [],
-   "sample_matching": [],
-   "json": [
-    "[json-sans-lien] https://careers.societegenerale.com/search-proxy.php — clés : type, name, display, tooltip, column, items — exemple : {\"type\": \"List\", \"name\": \"ces_box_sgcareers_job_location\", \"display\": \"Location[fr]Localisation\", \"tooltip\": null, \"column\": \"sourcecsv1\", \"items\": [{\"Type\": \"boxlist\", \"Name\": \"IND\", \"Value\": \"\\\"ces_box_sgcareers_job_location;sourcecsv1;ind;IND\\\"\", \"Count\": 102, \"Url\": \"search?action=select&resultid=AC1188DFE7D340EC925D08076C853947&item=%22ces_box_sgcareers_job_location%3Bsourcecsv1%3Bind%3BIND%22\", \"Trad\": \"Inde\"}, {\"Type\": \"boxlist\", \"Name\": \"IND_A37\", \"Value\": \"\\\"ces_box_sgcareers_job_locati",
-    "[json-sans-lien] https://careers.societegenerale.com/search-proxy.php — clés : type, name, display, tooltip, column, items — exemple : {\"type\": \"List\", \"name\": \"ces_box_sgcareers_job_location\", \"display\": \"Location[fr]Localisation\", \"tooltip\": null, \"column\": \"sourcecsv1\", \"items\": [{\"Type\": \"boxlist\", \"Name\": \"IND\", \"Value\": \"\\\"ces_box_sgcareers_job_location;sourcecsv1;ind;IND\\\"\", \"Count\": 102, \"Url\": \"search?action=select&resultid=A73A0DB450C64CC3A4B2C4F27AB3096F&item=%22ces_box_sgcareers_job_location%3Bsourcecsv1%3Bind%3BIND%22\", \"Trad\": \"Inde\"}, {\"Type\": \"boxlist\", \"Name\": \"IND_A37\", \"Value\": \"\\\"ces_box_sgcareers_job_locati",
-    "[json-sans-lien] https://careers.societegenerale.com/search-proxy.php — clés : type, name, display, tooltip, column, items — exemple : {\"type\": \"List\", \"name\": \"ces_box_sgcareers_job_location\", \"display\": \"Location[fr]Localisation\", \"tooltip\": null, \"column\": \"sourcecsv1\", \"items\": [{\"Type\": \"boxlist\", \"Name\": \"IND\", \"Value\": \"\\\"ces_box_sgcareers_job_location;sourcecsv1;ind;IND\\\"\", \"Count\": 102, \"Url\": \"search?action=select&resultid=8645F73C06BE448985623A387DED5B59&item=%22ces_box_sgcareers_job_location%3Bsourcecsv1%3Bind%3BIND%22\", \"Trad\": \"Inde\"}, {\"Type\": \"boxlist\", \"Name\": \"IND_A37\", \"Value\": \"\\\"ces_box_sgcareers_job_locati",
-    "[json-sans-lien] https://careers.societegenerale.com/search-proxy.php — clés : type, name, display, tooltip, column, items — exemple : {\"type\": \"List\", \"name\": \"ces_box_sgcareers_job_location\", \"display\": \"Location[fr]Localisation\", \"tooltip\": null, \"column\": \"sourcecsv1\", \"items\": [{\"Type\": \"boxlist\", \"Name\": \"IND\", \"Value\": \"\\\"ces_box_sgcareers_job_location;sourcecsv1;ind;IND\\\"\", \"Count\": 102, \"Url\": \"search?action=select&resultid=D9AF5C6478CF4943825F46E44B836845&item=%22ces_box_sgcareers_job_location%3Bsourcecsv1%3Bind%3BIND%22\", \"Trad\": \"Inde\"}, {\"Type\": \"boxlist\", \"Name\": \"IND_A37\", \"Value\": \"\\\"ces_box_sgcareers_job_locati",
-    "[json-sans-lien] https://careers.societegenerale.com/search-proxy.php — clés : type, name, display, tooltip, column, items — exemple : {\"type\": \"List\", \"name\": \"ces_box_sgcareers_job_location\", \"display\": \"Location[fr]Localisation\", \"tooltip\": null, \"column\": \"sourcecsv1\", \"items\": [{\"Type\": \"boxlist\", \"Name\": \"IND\", \"Value\": \"\\\"ces_box_sgcareers_job_location;sourcecsv1;ind;IND\\\"\", \"Count\": 69, \"Url\": \"search?action=select&resultid=94ABDB00A5014949A59E3BCFCD757EE4&item=%22ces_box_sgcareers_job_location%3Bsourcecsv1%3Bind%3BIND%22\", \"Trad\": \"Inde\"}, {\"Type\": \"boxlist\", \"Name\": \"IND_A37\", \"Value\": \"\\\"ces_box_sgcareers_job_locatio",
-    "[json-sans-lien] https://careers.societegenerale.com/search-proxy.php — clés : type, name, display, tooltip, column, items — exemple : {\"type\": \"List\", \"name\": \"ces_box_sgcareers_job_location\", \"display\": \"Location[fr]Localisation\", \"tooltip\": null, \"column\": \"sourcecsv1\", \"items\": [{\"Type\": \"boxlist\", \"Name\": \"IND\", \"Value\": \"\\\"ces_box_sgcareers_job_location;sourcecsv1;ind;IND\\\"\", \"Count\": 69, \"Url\": \"search?action=select&resultid=9FB356F8C8E54CBEA2F6716AD957C49E&item=%22ces_box_sgcareers_job_location%3Bsourcecsv1%3Bind%3BIND%22\", \"Trad\": \"Inde\"}, {\"Type\": \"boxlist\", \"Name\": \"IND_A37\", \"Value\": \"\\\"ces_box_sgcareers_job_locatio",
-    "[json-sans-lien] https://careers.societegenerale.com/search-proxy.php — clés : type, name, display, tooltip, column, items — exemple : {\"type\": \"List\", \"name\": \"ces_box_sgcareers_job_location\", \"display\": \"Location[fr]Localisation\", \"tooltip\": null, \"column\": \"sourcecsv1\", \"items\": [{\"Type\": \"boxlist\", \"Name\": \"IND\", \"Value\": \"\\\"ces_box_sgcareers_job_location;sourcecsv1;ind;IND\\\"\", \"Count\": 69, \"Url\": \"search?action=select&resultid=4F1814195F8741EC821C282B2D7956F4&item=%22ces_box_sgcareers_job_location%3Bsourcecsv1%3Bind%3BIND%22\", \"Trad\": \"Inde\"}, {\"Type\": \"boxlist\", \"Name\": \"IND_A37\", \"Value\": \"\\\"ces_box_sgcareers_job_locatio",
-    "[json-sans-lien] https://careers.societegenerale.com/search-proxy.php — clés : type, name, display, tooltip, column, items — exemple : {\"type\": \"List\", \"name\": \"ces_box_sgcareers_job_location\", \"display\": \"Location[fr]Localisation\", \"tooltip\": null, \"column\": \"sourcecsv1\", \"items\": [{\"Type\": \"boxlist\", \"Name\": \"IND\", \"Value\": \"\\\"ces_box_sgcareers_job_location;sourcecsv1;ind;IND\\\"\", \"Count\": 69, \"Url\": \"search?action=select&resultid=ECF67E6F4FF24080842048C1BC2C1EC4&item=%22ces_box_sgcareers_job_location%3Bsourcecsv1%3Bind%3BIND%22\", \"Trad\": \"Inde\"}, {\"Type\": \"boxlist\", \"Name\": \"IND_A37\", \"Value\": \"\\\"ces_box_sgcareers_job_locatio"
-   ],
-   "page_info": "titre « Rechercher une offre d'emploi Société Générale | Careers Société Générale », 108 liens <a>",
-   "json_calls": [
-    "GET 200 https://careers.societegenerale.com/sg-careers-offers/get-token",
-    "POST 200 https://careers.societegenerale.com/search-proxy.php",
-    "POST 200 https://careers.societegenerale.com/search-proxy.php",
-    "POST 200 https://careers.societegenerale.com/search-proxy.php",
-    "POST 200 https://careers.societegenerale.com/search-proxy.php",
-    "POST 200 https://careers.societegenerale.com/search-proxy.php"
-   ]
-  },
-  "Crédit Agricole": {
-   "links_found": 42,
-   "keyword_matches": 6,
-   "errors": [],
-   "sample_all": [
-    "Hajer_B_325x340",
-    "Thibaut_C_325x340",
-    "Sabine_M_325x340",
-    "323&#215;339",
-    "Johann",
-    "photo data analyst",
-    "farid",
-    "Image2",
-    "Image1",
-    "Fund Accounting H/F"
-   ],
-   "sample_matching": [
-    {
-     "title": "photo data analyst",
-     "url": "https://groupecreditagricole.jobs/wp-content/uploads/2025/11/photo-data-analyst.jpg",
-     "context": "325 340 photo data analyst"
-    },
-    {
-     "title": "STAGE - Analyste Coverage H/F",
-     "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-3-stage---analyste-coverage-hf-reference--2026-116545--/",
-     "context": "STAGE - Analyste Coverage H/F Favori Mis à jour le 20/10/2026 Stage 18 RUE DE LA REPUBLIQUE 69002 LYON - France Finances / Comptabilité / Contrôle de gestion"
-    },
-    {
-     "title": "Compensation analyst H/F",
-     "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170475-124-compensation-analyst-hf-reference--2026-116678--/",
-     "context": "Compensation analyst H/F Favori Mis à jour le 20/10/2026 CDI Ile-de-France - France Ressources Humaines"
-    },
-    {
-     "title": "Stage - Business Strategy Analyst H/F",
-     "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage---business-strategy-analyst-hf-reference--2026-115426--/",
-     "context": "Stage - Business Strategy Analyst H/F Favori Mis à jour le 20/10/2026 Stage Paris - France Gestion d'Actifs"
-    },
-    {
-     "title": "Data Manager Trade Finance H/F",
-     "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-data-manager-trade-finance-hf-reference--2026-116669--/",
-     "context": "Data Manager Trade Finance H/F Favori Mis à jour le 20/10/2026 Stage Saint-Quentin-en-Yvelines - France Financement et Investissement"
-    },
-    {
-     "title": "Analyste Résultat, Risques de Marché et Liquidité périmètre Trésorerie H/F",
-     "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170470-4-analyste-resultat-risques-de-marche-et-liquidite-perimetre-tresorerie-hf-reference--2026-116667--/",
-     "context": "Analyste Résultat, Risques de Marché et Liquidité périmètre Trésorerie H/F Favori Mis à jour le 20/10/2026 Stage Montrouge - France Risques / Contrôles permanents"
-    }
-   ],
-   "json": [
-    "[json-sans-lien] https://groupecreditagricole.jobs/wp-admin/admin-ajax.php — clés : label, code_api, parentCode — exemple : {\"label\": \"Achat\", \"code_api\": 170460, \"parentCode\": 342}",
-    "[json-sans-lien] https://groupecreditagricole.jobs/wp-admin/admin-ajax.php — clés : label, code_api, parentCode — exemple : {\"label\": \"Amundi\", \"code_api\": 124, \"parentCode\": null}",
-    "[json-sans-lien] https://groupecreditagricole.jobs/wp-admin/admin-ajax.php — clés : label, code_api, parent_code — exemple : {\"label\": \"Antilles\", \"code_api\": 192426, \"parent_code\": 79}",
-    "[json-sans-lien] https://groupecreditagricole.jobs/wp-admin/admin-ajax.php — clés : label, code_api, parent_code — exemple : {\"label\": \"Afrique\", \"code_api\": 19, \"parent_code\": null}",
-    "[json-sans-lien] https://groupecreditagricole.jobs/wp-admin/admin-ajax.php — clés : label, code_api — exemple : {\"label\": \"Alternance / Apprentissage\", \"code_api\": 1292}",
-    "[json-sans-lien] https://groupecreditagricole.jobs/wp-admin/admin-ajax.php — clés : label, code_api, parentCode — exemple : {\"label\": \"Achat\", \"code_api\": 170460, \"parentCode\": 342}",
-    "[json-sans-lien] https://groupecreditagricole.jobs/wp-admin/admin-ajax.php — clés : label, code_api, parent_code — exemple : {\"label\": \"Afrique\", \"code_api\": 19, \"parent_code\": null}",
-    "[json-sans-lien] https://groupecreditagricole.jobs/wp-admin/admin-ajax.php — clés : label, code_api — exemple : {\"label\": \"Inférieur à Bac\", \"code_api\": 191976}",
-    "[json-sans-lien] https://groupecreditagricole.jobs/wp-admin/admin-ajax.php — clés : label, code_api — exemple : {\"label\": \"0 - 2 ans\", \"code_api\": 580}",
-    "[json-sans-lien] https://groupecreditagricole.jobs/wp-admin/admin-ajax.php — clés : label, code_api, parentCode — exemple : {\"label\": \"Amundi\", \"code_api\": 124, \"parentCode\": null}"
-   ]
-  },
-  "BPCE": {
-   "links_found": 1548,
-   "keyword_matches": 86,
-   "errors": [],
-   "sample_all": [
-    "Mentions légales",
-    "Données personnelles",
-    "Politique de gestion des cookies",
-    "Accessibilité : partiellement conforme",
-    "Banque Populaire",
-    "Caisse d'Épargne",
-    "Casden",
-    "Crédit Coopératif",
-    "novobanco",
-    "Oney"
-   ],
-   "sample_matching": [
-    {
-     "title": "IT Data Architect (F/H)",
-     "url": "https://recrutement.bpce.fr/job/it-data-architect-f-h",
-     "context": "157343 18717 18717 18717 1792501806 CHANNELNATIXIS IT Data Architect (F/H) 2026-08-28 2026-08-28 12:10: 1787919007 Informatique Architecte technique OHX03 Natixis CIB France CDI /job/it-data-architect"
-    },
-    {
-     "title": "Audit Interne - Data investigation (F/H) - CDD 6 mois",
-     "url": "https://recrutement.bpce.fr/job/audit-interne-data-investigation-f-h-cdd-6-mois",
-     "context": "158998 Audit Interne - Data investigation (F/H) - CDD 6 mois Natixis CIB France CDD /job/audit-interne-data-investigation-f-h-cdd-6-mois Découvrir _self Paris Ile-de-France Paris France Paris"
-    },
-    {
-     "title": "Chef de Projet SI (Gouvernance Data) (F/H)",
-     "url": "https://recrutement.bpce.fr/job/chef-de-projet-si-gouvernance-data-f-h",
-     "context": "159546 Chef de Projet SI (Gouvernance Data) (F/H) OLX01 BPCE Solutions Informatiques CDI /job/chef-de-projet-si-gouvernance-data-f-h Découvrir _self 44800 Saint-Herblain 47.231504 -1.638219 13592 Aix-"
-    },
-    {
-     "title": "Data Analyst - Pilotage de la Rentabilité Commerciale",
-     "url": "https://recrutement.bpce.fr/job/data-analyst-pilotage-de-la-rentabilite-commerciale",
-     "context": "159517 Data Analyst - Pilotage de la Rentabilité Commerciale Caisse d'Epargne Ile de France CDI /job/data-analyst-pilotage-de-la-rentabilite-commerciale Découvrir _self Paris 75013 Paris 48.831307 2.3"
-    },
-    {
-     "title": "Stage - 6 mois - Data Scientist IA F/H",
-     "url": "https://recrutement.bpce.fr/job/stage-6-mois-data-scientist-ia-f-h",
-     "context": "159505 Stage - 6 mois - Data Scientist IA F/H DTB01 BPCE VIE Stage sup à 2 mois /job/stage-6-mois-data-scientist-ia-f-h Découvrir _self Saint-Grégoire 35760 Saint-Grégoire 48.146639 -1.696443"
-    },
-    {
-     "title": "BUSINESS ANALYST - F/H",
-     "url": "https://recrutement.bpce.fr/job/business-analyst-f-h-4",
-     "context": "159491 BUSINESS ANALYST - F/H Casden - Banque Populaire CDI /job/business-analyst-f-h-4 Découvrir _self Champs-sur-Marne 77420 Champs-sur-Marne 48.845236 2.581291"
-    },
-    {
-     "title": "Data Analyst H/F - Orléans",
-     "url": "https://recrutement.bpce.fr/job/data-analyst-h-f-orleans",
-     "context": "159470 Data Analyst H/F - Orléans Caisse d'Epargne Loire Centre CDI /job/data-analyst-h-f-orleans Découvrir _self St Jean de la Ruelle 45140 St Jean de la Ruelle 47.897614 1.871694"
-    },
-    {
-     "title": "V.I.E. - 18 months - HRIS Data Analyst F/M - Boston",
-     "url": "https://recrutement.bpce.fr/job/v-i-e-18-months-hris-data-analyst-f-m-boston",
-     "context": "159454 V.I.E. - 18 months - HRIS Data Analyst F/M - Boston Natixis Investment Managers, L VIE /job/v-i-e-18-months-hris-data-analyst-f-m-boston Découvrir _self Boston États-Unis Boston International B"
-    },
-    {
-     "title": "Stage - 6 mois - Analyste Risques Investissement F/H",
-     "url": "https://recrutement.bpce.fr/job/stage-6-mois-analyste-risques-investissement-f-h",
-     "context": "159446 Stage - 6 mois - Analyste Risques Investissement F/H Ostrum Asset Management Stage /job/stage-6-mois-analyste-risques-investissement-f-h Découvrir _self Paris Ile-de-France Paris France Paris"
-    },
-    {
-     "title": "Analyste support fonctionnel monétique commerçant (F/H)",
-     "url": "https://recrutement.bpce.fr/job/analyste-support-fonctionnel-monetique-commercant-f-h",
-     "context": "159418 Analyste support fonctionnel monétique commerçant (F/H) OKX07 BPCE Payment Services CDI /job/analyste-support-fonctionnel-monetique-commercant-f-h Découvrir _self Charenton-le-Pont 94220 Charen"
-    }
-   ],
-   "json": [
-    "[json-sans-lien] https://recrutement.bpce.fr/app/wp-json/bpce/v1/elevator/choices/?lang=fr — clés : id, titre, next — exemple : {\"id\": 1, \"titre\": \"La mixité  \", \"next\": 25}",
-    "[json-offres] 35 offres dans https://recrutement.bpce.fr/app/wp-json/bpce/v1/global/?lang=fr (ex. « Mentions légales » → https://recrutement.bpce.fr/mentions-legales, publiée ?)",
-    "[json-sans-lien] https://recrutement.bpce.fr/app/wp-json/bpce/v1/jobs/popin/alert/?lang=fr — clés : title, id, choices — exemple : {\"title\": \"Famille de métier\", \"id\": \"tax_sector\", \"choices\": [{\"label\": \"--Veuillez sélectionner--\", \"value\": \"veuillez-selectionner\"}, {\"label\": \"Assurance\", \"value\": \"assurance\"}, {\"label\": \"Commercial\", \"value\": \"commercial\"}, {\"label\": \"Digital\", \"value\": \"digital\"}, {\"label\": \"Direction\", \"value\": \"direction\"}, {\"label\": \"Finance & Strategie\", \"value\": \"finance-strategie\"}, {\"label\": \"Finance de Marché\", \"value\": \"finance-de-marche\"}, {\"label\": \"Gestion des Operations et Support clientele\"",
-    "[json-sans-lien] https://recrutement.bpce.fr/app/wp-json/bpce/v1/pages/?lang=fr&_uid=page-270-8adc8b325d91d — clés : title, id, choices — exemple : {\"title\": \"Channel\", \"id\": \"tax_channel\", \"choices\": [{\"label\": \"CHANNELNATIXIS\", \"value\": \"channelnatixis\"}, {\"label\": \"Le CFA du Campus BPCE \", \"value\": \"p6bfk026203f3vbqb7v8n8mis\"}, {\"label\": \"Site BPCE\", \"value\": \"q7sfk026203f3vbqb7v8n8mo5\"}]}",
-    "[json-offres] 9 offres dans https://recrutement.bpce.fr/app/wp-json/bpce/v1/search/jobs (ex. « Chargé de Clientèle Particuliers H/F - TOURS (37) » → https://recrutement.bpce.fr/job/charge-de-clientele-particuliers-h-f-tours-37, publiée ?)",
-    "[json-offres] 9 offres dans https://recrutement.bpce.fr/app/wp-json/bpce/v1/search/jobs (ex. « Chargé de Clientèle Particuliers H/F - TOURS (37) » → https://recrutement.bpce.fr/job/charge-de-clientele-particuliers-h-f-tours-37, publiée ?)",
-    "[json-offres] 1522 offres dans https://recrutement.bpce.fr/app/wp-json/bpce/v1/search/jobs (ex. « Chargé de Clientèle Particuliers H/F - TOURS (37) » → https://recrutement.bpce.fr/job/charge-de-clientele-particuliers-h-f-tours-37, publiée ?)",
-    "[json-offres] 35 offres dans https://recrutement.bpce.fr/app/wp-json/bpce/v1/global/?lang=fr (ex. « Mentions légales » → https://recrutement.bpce.fr/mentions-legales, publiée ?)",
-    "[json-sans-lien] https://recrutement.bpce.fr/app/wp-json/bpce/v1/elevator/choices/?lang=fr — clés : id, titre, next — exemple : {\"id\": 1, \"titre\": \"La mixité  \", \"next\": 25}",
-    "[json-sans-lien] https://recrutement.bpce.fr/app/wp-json/bpce/v1/jobs/popin/alert/?lang=fr — clés : title, id, choices — exemple : {\"title\": \"Famille de métier\", \"id\": \"tax_sector\", \"choices\": [{\"label\": \"--Veuillez sélectionner--\", \"value\": \"veuillez-selectionner\"}, {\"label\": \"Assurance\", \"value\": \"assurance\"}, {\"label\": \"Commercial\", \"value\": \"commercial\"}, {\"label\": \"Digital\", \"value\": \"digital\"}, {\"label\": \"Direction\", \"value\": \"direction\"}, {\"label\": \"Finance & Strategie\", \"value\": \"finance-strategie\"}, {\"label\": \"Finance de Marché\", \"value\": \"finance-de-marche\"}, {\"label\": \"Gestion des Operations et Support clientele\""
-   ]
-  },
-  "AXA": {
-   "links_found": 53,
-   "keyword_matches": 32,
-   "errors": [],
-   "sample_all": [
-    "Claims Adjuster - Energy",
-    "Data scientist (F/H) - stage",
-    "Associate Analyst, Data & Analytics",
-    "Senior Manager, Retail Bancassurance & FI Business (General Insurance)",
-    "CISO Health",
-    "Product Designer",
-    "CISO AI",
-    "Senior Analyst, Pricing",
-    "Expert/Assistant manager(E1/P3), Financial Reporting and Solutions【アクサ生命】",
-    "Associate Underwriter, Aviation"
-   ],
-   "sample_matching": [
-    {
-     "title": "Data scientist (F/H) - stage",
-     "url": "https://careers.axa.com/jobs/37145",
-     "context": "37145 fr-fr en-us fr-fr 37145 Data scientist (F/H) - stage NANTERRE France FR 92727 LAT_LNG 48.8973052 2.2218688 DATA ET IA Full-time Apprenticeship AXA France 2026-10-20T10:00:00+0000 axa-prod-taleo-"
-    },
-    {
-     "title": "Associate Analyst, Data & Analytics",
-     "url": "https://careers.axa.com/jobs/21357",
-     "context": "21357 en-us en-us 21357 Associate Analyst, Data & Analytics 15/F AXA Southside 15/F, AXA Southside 38 Wong Chuk Hang Road, Wong Chuk Hang HONG KONG Hong Kong HK LAT_LNG 22.2481054 114.1660903 DATA AND"
-    },
-    {
-     "title": "Senior Analyst, Pricing",
-     "url": "https://careers.axa.com/jobs/24090",
-     "context": "24090 en-us en-us 24090 Senior Analyst, Pricing PL Wroclaw Pegaz Building Kazimierza Wielkiego no. 3 3rd & 4th Floor WROCLAW Poland PL 50-077 LAT_LNG 51.1109518 17.0264298 IN Gurugram 14th Floor - Blo"
-    },
-    {
-     "title": "Data Management CoE Lead",
-     "url": "https://careers.axa.com/jobs/29155",
-     "context": "29155 en-us en-us 29155 Data Management CoE Lead GO_FR ENJOY 81 rue Mstislav Rostropovitch PARIS France FR 75017 LAT_LNG 48.8917694 2.309848 DATA AND AI Full-time Permanent contract AXA Group Operatio"
-    },
-    {
-     "title": "Analyst, Policy Management - UW Services Ops",
-     "url": "https://careers.axa.com/jobs/28358",
-     "context": "28358 en-us en-us 28358 Analyst, Policy Management - UW Services Ops PL Wroclaw Pegaz Building Kazimierza Wielkiego no. 3 3rd & 4th Floor WROCLAW Poland PL 50-077 LAT_LNG 51.1109518 17.0264298 UNDERWR"
-    },
-    {
-     "title": "Stage - Investment Strategy and Financial Data Analyst",
-     "url": "https://careers.axa.com/jobs/29384",
-     "context": "29384 fr-fr en-us fr-fr 29384 Stage - Investment Strategy and Financial Data Analyst MATIGNON GIE AXA PARIS France FR 75008 LAT_LNG 48.8452801 2.3518921 FINANCE Temps plein Stage / Alternance / Étudia"
-    },
-    {
-     "title": "Vendor Management Operations Analyst",
-     "url": "https://careers.axa.com/jobs/25476",
-     "context": "25476 en-us en-us 25476 Vendor Management Operations Analyst IN Gurugram 14th Floor - Block B2 Silokhera 12th, 14th & 15th (Block B3) DLF IT/ITES SEZ GURUGRAM India IN 122001 LAT_LNG 28.4325372 77.152"
-    },
-    {
-     "title": "Stagiaire – Direction des Achats – Equipe Solutions, data et performance (H",
-     "url": "https://careers.axa.com/jobs/36943",
-     "context": "36943 fr-fr en-us fr-fr 36943 Stagiaire – Direction des Achats – Equipe Solutions, data et performance (H NANTERRE France FR 92000 LAT_LNG 48.8973052 2.2218688 ACHATS Full-time Apprenticeship AXA Fran"
-    },
-    {
-     "title": "Market Risk Analyst (F/H) - stage",
-     "url": "https://careers.axa.com/jobs/37102",
-     "context": "37102 fr-fr en-us fr-fr 37102 Market Risk Analyst (F/H) - stage NANTERRE France FR 92000 LAT_LNG 48.8973052 2.2218688 GESTION DES RISQUES Full-time Apprenticeship AXA France 2026-10-19T10:00:00+0000 a"
-    },
-    {
-     "title": "Data Scientist (F/H) - stage",
-     "url": "https://careers.axa.com/jobs/37059",
-     "context": "37059 fr-fr en-us fr-fr 37059 Data Scientist (F/H) - stage NANTERRE France FR 92000 LAT_LNG 48.8973052 2.2218688 DATA ET IA Full-time Apprenticeship AXA France 2026-10-19T10:00:00+0000 axa-prod-taleo-"
-    }
-   ],
-   "json": [
-    "[json-offres] 10 offres dans https://jobs.axa.com/api/jobs?keywords=data&page=1&sortBy=posted_date&descending=true (ex. « Claims Adjuster - Energy » → https://careers.axa.com/jobs/28521, publiée 2026-10-20T11:21:00+00:00)",
-    "[json-offres] 10 offres dans https://jobs.axa.com/api/jobs?keywords=data&page=2&sortBy=posted_date&descending=true (ex. « Claims Specialist, Select Professional » → https://careers.axa.com/jobs/27061, publiée 2026-10-19T18:08:00+00:00)",
-    "[json-offres] 10 offres dans https://jobs.axa.com/api/jobs?keywords=data&page=3&sortBy=posted_date&descending=true (ex. « Operational Resilience Officer – Business Continuity Management » → https://careers.axa.com/jobs/29137, publiée 2026-10-19T10:21:00+00:00)",
-    "[json-offres] 10 offres dans https://jobs.axa.com/api/jobs?keywords=analyst&page=1&sortBy=posted_date&descending=true (ex. « Business Analyst – Digital Transformation & Process Optimization » → https://careers.axa.com/jobs/27555, publiée 2026-10-20T13:21:00+00:00)",
-    "[json-offres] 10 offres dans https://jobs.axa.com/api/jobs?keywords=analyst&page=2&sortBy=posted_date&descending=true (ex. « Finance & Data Transformation Staff/Associate/Assistant Manager(P1/P2/P3)【アクサ生命】 » → https://careers.axa.com/jobs/28371, publiée 2026-10-19T06:48:00+00:00)",
-    "[json-offres] 10 offres dans https://jobs.axa.com/api/jobs?keywords=analyst&page=3&sortBy=posted_date&descending=true (ex. « Senior Provider Relations Analyst » → https://careers.axa.com/jobs/28653, publiée 2026-10-12T14:03:00+00:00)"
-   ]
-  },
-  "EDF": {
-   "links_found": 0,
-   "keyword_matches": 0,
-   "errors": [],
-   "sample_all": [],
-   "sample_matching": [],
-   "json": [],
-   "page_info": "titre « Le site EDF est en cours de maintenance | EDF », 2 liens <a>",
-   "json_calls": []
   },
   "SNCF": {
-   "links_found": 384,
-   "keyword_matches": 2,
+   "links_found": 221,
+   "keyword_matches": 1,
    "errors": [],
    "sample_all": [
-    "Ingénieur ou Ingénieure d'études Système Maintenance Sol NExTEO",
-    "Technicien supérieur de la circulation ferroviaire (F/H) - CDI - ST CLOUD",
-    "Ingénieur ou Ingénieure Génie Civil Junior - Responsable lots travaux Génie civil",
-    "Agent d'études énergie électrique (METZ)",
-    "Electricien haute et moyenne tension (F/H) - CDI - VALENCIENNES",
-    "Chargé Etude Document d'Exécution Signalisation Ferroviaire (F/H) - CDI - Lyon",
-    "Responsable de Lot Travaux Voie F/H",
-    "Ingénieur ou ingénieure d'études signalisation - Spécialité Données d'Exécution",
-    "Responsable technique de produit METEOR",
-    "Agente ou agent de maintenance de première intervention Intercités, Paris 13e"
+    "Aiguilleur du rail (F/H) - CDI - NANTES",
+    "Electricien basse tension (F/H) - CDI - Saint-Jean-de-Maurienne",
+    "Technicien supérieur en électricité basse tension (F/H) - CDI - Chambery",
+    "Opérateur de maintenance spécialité confort",
+    "Opérateur de maintenance spécialité climatisation",
+    "Expert ou experte technique acquisition Télésurveillance",
+    "Manager Adjoint Maintenance Matériel Roulant (H/F) Intercités, Ivry Massena ou Villeneuve Saint Georges",
+    "Architecte Logiciel OGTR - F/H",
+    "Gestionnaire de Moyen - Agent ou Agente du service commercial train - Saint-Denis",
+    "Superviseur du réseau électrique ferroviaire (F/H) - CDI - CHAMBERY"
    ],
    "sample_matching": [
     {
-     "title": "SI & Data",
-     "url": "https://emploi.sncf.com/nos-offres/2428",
-     "context": "2428 SI & Data"
-    },
-    {
-     "title": "Analyste revenue management (F ou H)",
-     "url": "https://emploi.sncf.com/nos-offres/2239",
-     "context": "2239 Analyste revenue management (F ou H)"
+     "title": "Architecte IA & DATA F/H",
+     "url": "https://emploi.sncf.com/nos-offres/884661",
+     "context": "884661 SNCF RESEAU Saint-Denis, Seine Saint-Denis (93) Architecte et Urbaniste des SI 187 CDI 189 NON_CONCERNE 190 Niveau 7 (Master, Ingénieur, BAC+5) 191 De 3 à 5 ans 193 SI & Data 274 AGENCE CADRES "
     }
    ],
    "json": [
-    "[json-offres] 447 offres dans (page) (ex. « Ingénieur ou Ingénieure d'études Système Maintenance Sol NExTEO » → https://emploi.sncf.com/nos-offres/881057, publiée 2026-10-19T14:44:14+00:00)"
+    "[json-offres] 226 offres dans (page) (ex. « Aiguilleur du rail (F/H) - CDI - NANTES » → https://emploi.sncf.com/nos-offres/853381, publiée 2026-08-14T10:49:58+00:00)"
    ]
   },
-  "ETF (VINCI)": {
-   "links_found": 0,
-   "keyword_matches": 0,
-   "errors": [],
-   "sample_all": [],
-   "sample_matching": [],
-   "json": [],
-   "page_info": "titre « Vinci Jobs | Rerchercher », 41 liens <a>",
-   "json_calls": [
-    "GET 200 https://jobs.vinci.com/fr/search-jobs/results?ActiveFacetID=0&CurrentPage=1&RecordsPerPage=15&TotalContentResults=&Distance=50&RadiusUnitType=0&Keywords=ETF&Location=&ShowRadius=False&IsPagination=False&CustomFacetName=&FacetTerm=&FacetType=0&SearchR",
-    "POST 200 https://jobs.vinci.com/fr/search-jobs/SetSearchRequestGeoLocation?lat=null&lon=null&IsUsingGeolocation=true&hasHtml5GeoError=true&geoType=ip2ifnohtml5"
-   ]
-  },
-  "CFL": {
-   "links_found": 26,
+  "RATP Dev": {
+   "links_found": 20,
    "keyword_matches": 0,
    "errors": [],
    "sample_all": [
-    "Domaine de compétences",
+    "木藝技工",
+    "維修技工(機械/氣動/焊鐵/電氣/路軌/天線)",
+    "電車車長",
+    "Medium Vehicle Driver",
+    "Transit Road Supervisor",
+    "Mobile Master Diesel Mechanic (Up to 100% Travel)",
+    "Responsable QSE & Amélioration continue",
+    "Facilities Maintenance Technician",
+    "Pilote de sûreté H/F",
+    "Agent de sûreté H/F"
+   ],
+   "sample_matching": [],
+   "json": [
+    "[json-sans-lien] https://api.digitalrecruiters.com/public/v1/careers-site/job-ads?domainName=careers.ratpdev.com&limit=20&page=1&locale=f — clés : id, count, name — exemple : {\"id\": 34333, \"count\": 1, \"name\": \"Communication\"}",
+    "[json-sans-lien] https://api.digitalrecruiters.com/public/v1/careers-site/job-ads?domainName=careers.ratpdev.com&limit=20&page=1&locale=f — clés : id, count, name — exemple : {\"id\": 34333, \"count\": 1, \"name\": \"Communication\"}"
+   ],
+   "page_info": "titre « Tous les jobs chez RATP Dev », 63 liens <a>",
+   "json_calls": [
+    "POST 200 https://api.digitalrecruiters.com/public/v1/careers-site/map-pins?domainName=careers.ratpdev.com&zoom=6&locale=fr_FR",
+    "POST 200 https://api.digitalrecruiters.com/public/v1/careers-site/job-ads?domainName=careers.ratpdev.com&limit=20&page=1&locale=fr_FR",
+    "POST 200 https://api.digitalrecruiters.com/public/v1/careers-site/map-pins?domainName=careers.ratpdev.com&zoom=2&locale=fr_FR",
+    "POST 200 https://api.digitalrecruiters.com/public/v1/careers-site/job-ads?domainName=careers.ratpdev.com&limit=20&page=1&locale=fr_FR",
+    "POST 200 https://api-eu.mixpanel.com/track/?verbose=1&ip=1&_=1793263871899"
+   ]
+  },
+  "Alstom": {
+   "links_found": 95,
+   "keyword_matches": 35,
+   "errors": [],
+   "sample_all": [
+    "International Logistic Cooridnator",
+    "HR Business Partner",
+    "Finance Tender Manager",
+    "Intern - Data Engineering (Winter 2027)",
+    "TCMS Software Tester",
+    "ServiceNow Specialist",
+    "Responsable équipe PrEMs bogie",
+    "Bogie development Manager",
+    "Project Documentation Controller",
+    "Ingénieur(e) Process / Data - H/F"
+   ],
+   "sample_matching": [
+    {
+     "title": "Intern - Data Engineering (Winter 2027)",
+     "url": "https://jobsearch.alstom.com/job/Saint-Bruno-Intern-Data-Engineering-%28Winter-2027%29-QC/1442839933/",
+     "context": "Intern - Data Engineering (Winter 2027) Intern - Data Engineering (Winter 2027) Saint-Bruno, QC, CA 29 Oct 2026 Saint-Bruno, QC, CA Engineering Internship/Apprenticeship 29 Oct 2026"
+    },
+    {
+     "title": "Ingénieur(e) Process / Data - H/F",
+     "url": "https://jobsearch.alstom.com/job/Ornans-Ing%C3%A9nieur%28e%29-Process-Data-HF-I/1431947533/",
+     "context": "Ingénieur(e) Process / Data - H/F Ingénieur(e) Process / Data - H/F Ornans, I, FR 28 Oct 2026 Ornans, I, FR Industrial Expérimenté 28 Oct 2026"
+    },
+    {
+     "title": "Data & AI V&V Leader",
+     "url": "https://jobsearch.alstom.com/job/Bangalore-Data-&-AI-V&V-Leader/1442310133/",
+     "context": "Data & AI V&V Leader Data & AI V&V Leader Bangalore, IN 28 Oct 2026 Bangalore, IN Digital Transformation Experienced 28 Oct 2026"
+    },
+    {
+     "title": "FP&A Financial Analyst",
+     "url": "https://jobsearch.alstom.com/job/Saint-Bruno-FP&A-Financial-Analyst-QC/1452260433/",
+     "context": "FP&A Financial Analyst FP&A Financial Analyst Saint-Bruno, CA 28 Oct 2026 Saint-Bruno, CA Finance Experienced 28 Oct 2026"
+    },
+    {
+     "title": "Record to Report, Senior Analyst",
+     "url": "https://jobsearch.alstom.com/job/Bangalore-Record-to-Report%2C-Senior-Analyst-KA/1452364033/",
+     "context": "Record to Report, Senior Analyst Record to Report, Senior Analyst Bangalore, KA, IN 29 Oct 2026 Bangalore, KA, IN Finance Experienced 29 Oct 2026"
+    },
+    {
+     "title": "Analyste Financier FP&A",
+     "url": "https://jobsearch.alstom.com/job/Saint-Bruno-Analyste-Financier-FP&A-QC/1452260533/",
+     "context": "Analyste Financier FP&A Analyste Financier FP&A Saint-Bruno, CA 28 Oct 2026 Saint-Bruno, CA Finance Expérimenté 28 Oct 2026"
+    },
+    {
+     "title": "Analyst - Intune",
+     "url": "https://jobsearch.alstom.com/job/Bangalore-Analyst-Intune-KA/1451215433/",
+     "context": "Analyst - Intune Analyst - Intune Bangalore, KA, IN 26 Oct 2026 Bangalore, KA, IN Digital Transformation Experienced 26 Oct 2026"
+    },
+    {
+     "title": "Configuration Management Analyst",
+     "url": "https://jobsearch.alstom.com/job/Bangalore-Configuration-Management-Analyst/1440952833/",
+     "context": "Configuration Management Analyst Configuration Management Analyst Bangalore, IN 23 Oct 2026 Bangalore, IN Digital Transformation Experienced 23 Oct 2026"
+    },
+    {
+     "title": "Record to Report, Senior Analyst",
+     "url": "https://jobsearch.alstom.com/job/Bangalore-Record-to-Report%2C-Senior-Analyst-KA/1440475833/",
+     "context": "Record to Report, Senior Analyst Record to Report, Senior Analyst Bangalore, KA, IN 22 Oct 2026 Bangalore, KA, IN Finance Experienced 22 Oct 2026"
+    },
+    {
+     "title": "Senior Analyst - Project Controlling",
+     "url": "https://jobsearch.alstom.com/job/Bangalore-Senior-Analyst-Project-Controlling-KA/1440365133/",
+     "context": "Senior Analyst - Project Controlling Senior Analyst - Project Controlling Bangalore, KA, IN 22 Oct 2026 Bangalore, KA, IN Finance Experienced 22 Oct 2026"
+    }
+   ],
+   "json": []
+  },
+  "CFL": {
+   "links_found": 25,
+   "keyword_matches": 0,
+   "errors": [],
+   "sample_all": [
+    "Chef / Cheffe de projet Digital & innovation",
+    "Shift Supervisor DOTF(H/F)",
+    "Shift Supervisor DOTF(H/F)",
+    "IT Change Manager (M/F)",
+    "Chefs / Cheffes de circulation",
     "Fahrdienstleiter/ Fahrdienstleiterinnen",
     "Régulateurs / Régulatrices Alimentation électrique ferroviaire",
     "Superviseur / Superviseuse technique des P+R",
     "Opérateurs/ Opératrices de Manoeuvre",
-    "Conducteur / Conductrice de Manoeuvre",
-    "Ingénieur / Ingénieure de projet en Maintenance des trains",
-    "Déclarant/Déclarante Douane",
-    "Manœuvres train de service (M/F)",
-    "Stagiaire Marketing (M/F)"
+    "Conducteur / Conductrice de Manoeuvre"
    ],
    "sample_matching": [],
    "json": [
-    "[json-offres] 41 offres dans https://sncfl.csod.com/services/x/core-customfields-service/v1/CustomFields?fieldIds=157&fieldIds=158&fieldIds=159&field (ex. « Domaine de compétences » → https://sncfl.csod.com/ux/ats/careersite/1/home/requisition/?c=sncfl, publiée ?)",
-    "[json-offres] 25 offres dans https://eu-fra.api.csod.com/rec-job-search/external/jobs (ex. « Fahrdienstleiter/ Fahrdienstleiterinnen » → https://sncfl.csod.com/ux/ats/careersite/1/home/requisition/1807?c=sncfl, publiée 2026-10-20)"
+    "[json-sans-lien] https://sncfl.csod.com/services/x/core-customfields-service/v1/CustomFields?fieldIds=157&fieldIds=158&fieldIds=159&field — clés : items, id, entityTypeId, itemTypeId, name, emailTag, isUiReadOnly, dataType, displayType, validationCriteria — exemple : {\"items\": [{\"id\": 114, \"title\": \"Conduite\", \"default\": false, \"selectable\": true, \"sortOrder\": 0}, {\"id\": 115, \"title\": \"Fonctions support\", \"default\": false, \"selectable\": true, \"sortOrder\": 1}, {\"id\": 116, \"title\": \"Circulation ferroviaire\", \"default\": false, \"selectable\": true, \"sortOrder\": 2}, {\"id\": 117, \"title\": \"TEST\", \"default\": false, \"selectable\": false, \"sortOrder\": 3}, {\"id\": 118, \"title\": \"Technique\", \"default\": false, \"selectable\": true, \"sortOrder\": 4}, {\"id\": 119, \"title\": \"Ingén",
+    "[json-offres] 25 offres dans https://eu-fra.api.csod.com/rec-job-search/external/jobs (ex. « Chef / Cheffe de projet Digital & innovation » → https://sncfl.csod.com/ux/ats/careersite/1/home/requisition/1598?c=sncfl, publiée 2026-10-26)"
    ],
    "page_info": "titre « Postes à pourvoir actuellement - sncfl », 44 liens <a>",
    "json_calls": [
     "GET 200 https://sncfl.csod.com/services/x/localization/v1/localizations/ui?groups=CareerSite&culture=fr-FR",
-    "GET 200 https://sncfl.csod.com/services/x/corpsettings/v1/corpsettings/PostingDateInJobDetailsPage",
-    "GET 200 https://sncfl.csod.com/services/x/corpsettings/v1/corpsettings/EnableCountryStateCityFilterMFC",
-    "GET 200 https://sncfl.csod.com/services/x/corpsettings/v1/corpsettings/EnableAllValuesForCustomFieldInMFC",
     "GET 200 https://sncfl.csod.com/services/x/corpsettings/v1/corpsettings/ExternalCareerSiteDisplayKilometerFilter",
     "GET 200 https://sncfl.csod.com/services/x/corpsettings/v1/corpsettings/CareerSiteDisplayPostingEndDate",
+    "GET 200 https://sncfl.csod.com/services/x/corpsettings/v1/corpsettings/EnableAllValuesForCustomFieldInMFC",
+    "GET 200 https://sncfl.csod.com/services/x/corpsettings/v1/corpsettings/PostingDateInJobDetailsPage",
+    "GET 200 https://sncfl.csod.com/services/x/corpsettings/v1/corpsettings/EnableCountryStateCityFilterMFC",
     "GET 200 https://sncfl.csod.com/services/x/career-site/v1/careersites/1?cultureId=13",
     "GET 200 https://sncfl.csod.com/services/x/localization/v1/localizations/ui?groups=CareerSite&culture=fr-FR",
     "GET 200 https://sncfl.csod.com/services/x/core-customfields-service/v1/CustomFields?fieldIds=157&fieldIds=158&fieldIds=159&fieldIds=287&fieldIds=236&respectAvailablity=false&cultureId=13",
@@ -452,35 +199,1093 @@
    ]
   },
   "SBB CFF FFS": {
-   "links_found": 132,
-   "keyword_matches": 1,
+   "links_found": 135,
+   "keyword_matches": 0,
    "errors": [],
    "sample_all": [
-    "Fachspezialist:in Arbeitsvorbereitung",
-    "Quereinstieg Kundenbegleiter:in für Frequenzerfassung",
-    "Techniker:in Fahrleitung, Chefmonteur:in",
-    "Technicien·ne lignes de contact, chef·fe monteur·euse",
-    "Kundenassistent:in",
-    "Technicien·ne lignes de contact, chef·fe monteur·euse",
-    "Technicien·ne qualifié·e lignes de contact",
-    "Transportkoordinator:in Kurzfristplanung",
+    "Kundenberater:in First Level Support",
+    "Mitarbeiter:in Bahnproduktion 80-100%",
+    "Lokführer:in Bauzüge",
+    "Netzleiter:in / Spezialist:in Bahnverkehr",
+    "Fachspezialist:in Einsatzgruppe Transportpolizei",
+    "Gruppenchef:in Einsatzleitzentrale Transportpolizei",
     "Polizist:in Transportpolizei",
-    "Polizist:in Transportpolizei"
+    "Polizist:in Transportpolizei",
+    "Polizist:in Transportpolizei",
+    "Quereinstieg als Polizist:in mit eidg. Fachausweis bei der Transportpolizei"
+   ],
+   "sample_matching": [],
+   "json": [
+    "[json-offres] 135 offres dans https://company.sbb.ch/content/internet/corporate/fr/jobs-karriere/jobs/job-suche/jcr:content/parmain/jobfilter.results. (ex. « Kundenberater:in First Level Support » → https://jobs.sbb.ch/v2/offene-stellen/kundenberater-in-first-level-support/99b007d9-e5eb-4a17-b1f9-7ed51ad4af29, publiée 2026-10-29T07:43:42+00:00)",
+    "[json-offres] 135 offres dans https://company.sbb.ch/content/internet/corporate/fr/jobs-karriere/jobs/job-suche/jcr:content/parmain/jobfilter.results. (ex. « Kundenberater:in First Level Support » → https://jobs.sbb.ch/v2/offene-stellen/kundenberater-in-first-level-support/99b007d9-e5eb-4a17-b1f9-7ed51ad4af29, publiée 2026-10-29T07:43:42+00:00)"
+   ],
+   "page_info": "titre « Postes vacants | CFF », 150 liens <a>",
+   "json_calls": [
+    "GET 200 https://company.sbb.ch/content/internet/corporate/fr/jobs-karriere/jobs/job-suche/jcr:content/parmain/jobfilter.results.json?_=1793263907031"
+   ]
+  },
+  "Société Générale": {
+   "links_found": 53,
+   "keyword_matches": 5,
+   "errors": [],
+   "sample_all": [
+    "Analyste risques sur opérations de marché",
+    "AI & Agentic Software Engineering",
+    "Chargé de crédits syndiqués",
+    "Analyste risque de crédit",
+    "Stage Conseiller Clientèle Particuliers",
+    "Analyste risques sur opérations de marché",
+    "Stage - Assistant RH",
+    "Stage Conseiller Clientèle Particuliers",
+    "Liability Management and Corporate Hybrids - DCM Solutions and Advisory",
+    "Assistant développement et financements export structurés pour l'Europe et l'Asie"
    ],
    "sample_matching": [
     {
-     "title": "Data Engineer (m/w/d)",
-     "url": "https://jobs.sbb.ch/v2/offene-stellen/data-engineer-m-w-d/5eb1bd60-9853-4ae5-b801-c178de4823c2",
-     "context": "10226952 5eb1bd60-9853-4ae5-b801-c178de4823c2 Data Engineer (m/w/d) Berne Mittelland (BE/SO/AG) Bern false 1 1 Professionnel expérimenté Temps partiel Temps complet 60-100% false Informatique / Téléco"
+     "title": "Analyste risques sur opérations de marché",
+     "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-risques-sur-operations-de-marche-26000MOT-fr",
+     "context": "/ces_src_sgcareers/collection_sgcareers/ SOCIETE GENERALE;Société Générale;3881,16;94026,20 gWeb I2458Tm+RypkyChBx4rtlw== htm analyste-risques-sur-operations-de-marche-26000MOT-fr c__NoConversion FRAN"
+    },
+    {
+     "title": "Analyste risque de crédit",
+     "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-risque-de-credit-26000LBB-fr",
+     "context": "/ces_src_sgcareers/collection_sgcareers/ gWeb 1U+jcsmzUXBlQuOLiwHHLg== htm analyste-risque-de-credit-26000LBB-fr c__NoConversion ces_index_sgcareers 2026-10-28 15:30:49 skins/_v10/formats/defaut-35.pn"
+    },
+    {
+     "title": "Analyste risques sur opérations de marché",
+     "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-risques-sur-operations-de-marche-26000MAG-fr",
+     "context": "/ces_src_sgcareers/collection_sgcareers/ SOCIETE GENERALE;Société Générale;5113,16;98781,20 15 gWeb /TaNo6uHTeG3g2X7Hue4og== htm analyste-risques-sur-operations-de-marche-26000MAG-fr c__NoConversion F"
+    },
+    {
+     "title": "Assistant Analyste Risque de Crédit",
+     "url": "https://careers.societegenerale.com/offres-d-emploi/assistant-analyste-risque-de-credit-26000MJP-fr",
+     "context": "/ces_src_sgcareers/collection_sgcareers/ SOCIETE GENERALE;Société Générale;4790,16;97178,20 25 gWeb LFwSz7m1CqhSrxJcpzg1AA== htm assistant-analyste-risque-de-credit-26000MJP-fr c__NoConversion ces_ind"
+    },
+    {
+     "title": "Analyst Advisory & Financing Group",
+     "url": "https://careers.societegenerale.com/offres-d-emploi/analyst-advisory-financing-group-26000MGW-fr",
+     "context": "/ces_src_sgcareers/collection_sgcareers/ SOCIETE GENERALE;Société Générale;909,16,4845,16;79078,20,96836,20 47 gWeb 2T1/P1Z+4Rs7wEbafuZrJA== htm analyst-advisory-financing-group-26000MGW-fr c__NoConve"
     }
    ],
    "json": [
-    "[json-offres] 132 offres dans https://company.sbb.ch/content/internet/corporate/fr/jobs-karriere/jobs/job-suche/jcr:content/parmain/jobfilter.results. (ex. « Fachspezialist:in Arbeitsvorbereitung » → https://jobs.sbb.ch/v2/offene-stellen/fachspezialist-in-arbeitsvorbereitung/d5645fba-96c6-48bd-8fda-db62805cd27d, publiée 2026-10-20T12:38:51+00:00)",
-    "[json-offres] 132 offres dans https://company.sbb.ch/content/internet/corporate/fr/jobs-karriere/jobs/job-suche/jcr:content/parmain/jobfilter.results. (ex. « Fachspezialist:in Arbeitsvorbereitung » → https://jobs.sbb.ch/v2/offene-stellen/fachspezialist-in-arbeitsvorbereitung/d5645fba-96c6-48bd-8fda-db62805cd27d, publiée 2026-10-20T12:38:51+00:00)"
+    "[json-sans-lien] https://careers.societegenerale.com/search-proxy.php — clés : type, name, display, tooltip, column, items — exemple : {\"type\": \"List\", \"name\": \"ces_box_sgcareers_job_location\", \"display\": \"Location[fr]Localisation\", \"tooltip\": null, \"column\": \"sourcecsv1\", \"items\": [{\"Type\": \"boxlist\", \"Name\": \"IND\", \"Value\": \"\\\"ces_box_sgcareers_job_location;sourcecsv1;ind;IND\\\"\", \"Count\": 109, \"Url\": \"search?action=select&resultid=E6E58E556A8A4F3B9B9426B98DB4C841&item=%22ces_box_sgcareers_job_location%3Bsourcecsv1%3Bind%3BIND%22\", \"Trad\": \"Inde\"}, {\"Type\": \"boxlist\", \"Name\": \"IND_A37\", \"Value\": \"\\\"ces_box_sgcareers_job_locati",
+    "[json-sans-lien] https://careers.societegenerale.com/search-proxy.php — clés : type, name, display, tooltip, column, items — exemple : {\"type\": \"List\", \"name\": \"ces_box_sgcareers_job_location\", \"display\": \"Location[fr]Localisation\", \"tooltip\": null, \"column\": \"sourcecsv1\", \"items\": [{\"Type\": \"boxlist\", \"Name\": \"IND\", \"Value\": \"\\\"ces_box_sgcareers_job_location;sourcecsv1;ind;IND\\\"\", \"Count\": 109, \"Url\": \"search?action=select&resultid=45688AC916A7498587BFB339BD2DA3E5&item=%22ces_box_sgcareers_job_location%3Bsourcecsv1%3Bind%3BIND%22\", \"Trad\": \"Inde\"}, {\"Type\": \"boxlist\", \"Name\": \"IND_A37\", \"Value\": \"\\\"ces_box_sgcareers_job_locati",
+    "[json-sans-lien] https://careers.societegenerale.com/search-proxy.php — clés : type, name, display, tooltip, column, items — exemple : {\"type\": \"List\", \"name\": \"ces_box_sgcareers_job_location\", \"display\": \"Location[fr]Localisation\", \"tooltip\": null, \"column\": \"sourcecsv1\", \"items\": [{\"Type\": \"boxlist\", \"Name\": \"IND\", \"Value\": \"\\\"ces_box_sgcareers_job_location;sourcecsv1;ind;IND\\\"\", \"Count\": 109, \"Url\": \"search?action=select&resultid=F53EBCF89CB848B398EC575B68834F09&item=%22ces_box_sgcareers_job_location%3Bsourcecsv1%3Bind%3BIND%22\", \"Trad\": \"Inde\"}, {\"Type\": \"boxlist\", \"Name\": \"IND_A37\", \"Value\": \"\\\"ces_box_sgcareers_job_locati",
+    "[json-sans-lien] https://careers.societegenerale.com/search-proxy.php — clés : type, name, display, tooltip, column, items — exemple : {\"type\": \"List\", \"name\": \"ces_box_sgcareers_job_location\", \"display\": \"Location[fr]Localisation\", \"tooltip\": null, \"column\": \"sourcecsv1\", \"items\": [{\"Type\": \"boxlist\", \"Name\": \"IND\", \"Value\": \"\\\"ces_box_sgcareers_job_location;sourcecsv1;ind;IND\\\"\", \"Count\": 109, \"Url\": \"search?action=select&resultid=7715BB3085B544DBA0EC1957F2B7E66D&item=%22ces_box_sgcareers_job_location%3Bsourcecsv1%3Bind%3BIND%22\", \"Trad\": \"Inde\"}, {\"Type\": \"boxlist\", \"Name\": \"IND_A37\", \"Value\": \"\\\"ces_box_sgcareers_job_locati",
+    "[json-sans-lien] https://careers.societegenerale.com/search-proxy.php — clés : type, name, display, tooltip, column, items — exemple : {\"type\": \"List\", \"name\": \"ces_box_sgcareers_job_location\", \"display\": \"Location[fr]Localisation\", \"tooltip\": null, \"column\": \"sourcecsv1\", \"items\": [{\"Type\": \"boxlist\", \"Name\": \"IND\", \"Value\": \"\\\"ces_box_sgcareers_job_location;sourcecsv1;ind;IND\\\"\", \"Count\": 70, \"Url\": \"search?action=select&resultid=004A747EE604400CA25F692D02849159&item=%22ces_box_sgcareers_job_location%3Bsourcecsv1%3Bind%3BIND%22\", \"Trad\": \"Inde\"}, {\"Type\": \"boxlist\", \"Name\": \"IND_A37\", \"Value\": \"\\\"ces_box_sgcareers_job_locatio",
+    "[json-sans-lien] https://careers.societegenerale.com/search-proxy.php — clés : type, name, display, tooltip, column, items — exemple : {\"type\": \"List\", \"name\": \"ces_box_sgcareers_job_location\", \"display\": \"Location[fr]Localisation\", \"tooltip\": null, \"column\": \"sourcecsv1\", \"items\": [{\"Type\": \"boxlist\", \"Name\": \"IND\", \"Value\": \"\\\"ces_box_sgcareers_job_location;sourcecsv1;ind;IND\\\"\", \"Count\": 70, \"Url\": \"search?action=select&resultid=58CE0F844DBC4E8A82473C99FD74796D&item=%22ces_box_sgcareers_job_location%3Bsourcecsv1%3Bind%3BIND%22\", \"Trad\": \"Inde\"}, {\"Type\": \"boxlist\", \"Name\": \"IND_A37\", \"Value\": \"\\\"ces_box_sgcareers_job_locatio",
+    "[json-sans-lien] https://careers.societegenerale.com/search-proxy.php — clés : type, name, display, tooltip, column, items — exemple : {\"type\": \"List\", \"name\": \"ces_box_sgcareers_job_location\", \"display\": \"Location[fr]Localisation\", \"tooltip\": null, \"column\": \"sourcecsv1\", \"items\": [{\"Type\": \"boxlist\", \"Name\": \"IND\", \"Value\": \"\\\"ces_box_sgcareers_job_location;sourcecsv1;ind;IND\\\"\", \"Count\": 70, \"Url\": \"search?action=select&resultid=40CAB05BB8724BBAB73B3FAE759C8403&item=%22ces_box_sgcareers_job_location%3Bsourcecsv1%3Bind%3BIND%22\", \"Trad\": \"Inde\"}, {\"Type\": \"boxlist\", \"Name\": \"IND_A37\", \"Value\": \"\\\"ces_box_sgcareers_job_locatio",
+    "[json-sans-lien] https://careers.societegenerale.com/search-proxy.php — clés : type, name, display, tooltip, column, items — exemple : {\"type\": \"List\", \"name\": \"ces_box_sgcareers_job_location\", \"display\": \"Location[fr]Localisation\", \"tooltip\": null, \"column\": \"sourcecsv1\", \"items\": [{\"Type\": \"boxlist\", \"Name\": \"IND\", \"Value\": \"\\\"ces_box_sgcareers_job_location;sourcecsv1;ind;IND\\\"\", \"Count\": 70, \"Url\": \"search?action=select&resultid=5CB47F9371B4467B8E10B81F1DA8C0DF&item=%22ces_box_sgcareers_job_location%3Bsourcecsv1%3Bind%3BIND%22\", \"Trad\": \"Inde\"}, {\"Type\": \"boxlist\", \"Name\": \"IND_A37\", \"Value\": \"\\\"ces_box_sgcareers_job_locatio",
+    "[json-offres] 53 offres dans https://careers.societegenerale.com/search-proxy.php (ex. « Analyste risques sur opérations de marché » → https://careers.societegenerale.com/offres-d-emploi/analyste-risques-sur-operations-de-marche-26000MOT-fr, publiée ?)"
+   ]
+  },
+  "Crédit Agricole": {
+   "links_found": 33,
+   "keyword_matches": 8,
+   "errors": [],
+   "sample_all": [
+    "Juriste Conseil H/F",
+    "Job de vacances - Lyon H/F",
+    "Conseiller·ère Clientèle Professionnels H/F",
+    "Gestionnaire Technique H/F",
+    "Customer success manager H/F",
+    "Juriste Financier H/F",
+    "Conseiller·ère Clientèle Particuliers H/F",
+    "Conseiller·ère Clientèle Particuliers H/F",
+    "Stage - Assistant(e) Chef de projet IA H/F",
+    "Stage - Assistant(e) Data Scientist - Routage intelligent des prompts H/F"
    ],
-   "page_info": "titre « Postes vacants | CFF », 147 liens <a>",
+   "sample_matching": [
+    {
+     "title": "Stage - Assistant(e) Data Scientist - Routage intelligent des prompts H/F",
+     "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-122-stage---assistante-data-scientist---routage-intelligent-des-prompts-hf-reference--2026-116076--/",
+     "context": "Stage - Assistant(e) Data Scientist - Routage intelligent des prompts H/F Favori Mis à jour le 29/10/2026 Stage Montrouge - France IT, Digital et Data"
+    },
+    {
+     "title": "Stage - Assistant(e) Data Scientist – Agents pour le développement ML H/F",
+     "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-122-stage---assistante-data-scientist--agents-pour-le-developpement-ml-hf-reference--2026-116074--/",
+     "context": "Stage - Assistant(e) Data Scientist – Agents pour le développement ML H/F Favori Mis à jour le 29/10/2026 Stage Montrouge - France IT, Digital et Data"
+    },
+    {
+     "title": "Stage - Assistant(e) Data Ingenieur / Data Analyst – Monitoring des usages et de l'adoption de l'IA H/F",
+     "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-122-stage---assistante-data-ingenieur--data-analyst--monitoring-des-usages-et-de-l-adoption-de-l-ia-hf-reference--2026-116071--/",
+     "context": "Stage - Assistant(e) Data Ingenieur / Data Analyst – Monitoring des usages et de l'adoption de l'IA H/F Favori Mis à jour le 29/10/2026 Stage Montrouge - France IT, Digital et Data"
+    },
+    {
+     "title": "Stage - Assistant(e) Data Scientist – Speech-to-speech en temps réel H/F",
+     "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-122-stage---assistante-data-scientist--speech-to-speech-en-temps-reel-hf-reference--2026-116067--/",
+     "context": "Stage - Assistant(e) Data Scientist – Speech-to-speech en temps réel H/F Favori Mis à jour le 29/10/2026 Stage Montrouge - France IT, Digital et Data"
+    },
+    {
+     "title": "Stage - Assistant(e) Data Scientist – Red-team IA/Sécurité des LLMs H/F",
+     "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-122-stage---assistante-data-scientist--red-team-iasecurite-des-llms-hf-reference--2026-116066--/",
+     "context": "Stage - Assistant(e) Data Scientist – Red-team IA/Sécurité des LLMs H/F Favori Mis à jour le 29/10/2026 Stage Montrouge - France IT, Digital et Data"
+    },
+    {
+     "title": "KYC Analyst H/F",
+     "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170478-136-kyc-analyst-hf-reference--2026-115530--/",
+     "context": "KYC Analyst H/F Favori Mis à jour le 29/10/2026 CDI Montrouge - France Commercial / Relations Clients"
+    },
+    {
+     "title": "Data Officer (DM Funds) H/F",
+     "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/578-170479-136-data-officer-dm-funds-hf-reference--2026-115524--/",
+     "context": "Data Officer (DM Funds) H/F Favori Mis à jour le 29/10/2026 CDD Montrouge - France Gestion des opérations"
+    },
+    {
+     "title": "Global Investment Banking Analyst M/F",
+     "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170466-4-global-investment-banking-analyst-mf--reference--2026-115374--/",
+     "context": "Global Investment Banking Analyst M/F Favori Mis à jour le 29/10/2026 VIE Stockholm - Suède Financement et Investissement"
+    }
+   ],
+   "json": [
+    "[json-sans-lien] https://groupecreditagricole.jobs/wp-admin/admin-ajax.php — clés : label, code_api — exemple : {\"label\": \"Alternance / Apprentissage\", \"code_api\": 1292}",
+    "[json-sans-lien] https://groupecreditagricole.jobs/wp-admin/admin-ajax.php — clés : label, code_api — exemple : {\"label\": \"Alternance / Apprentissage\", \"code_api\": 1292}",
+    "[json-sans-lien] https://groupecreditagricole.jobs/wp-admin/admin-ajax.php — clés : label, code_api, parentCode — exemple : {\"label\": \"Achat\", \"code_api\": 170460, \"parentCode\": 342}",
+    "[json-sans-lien] https://groupecreditagricole.jobs/wp-admin/admin-ajax.php — clés : label, code_api, parent_code — exemple : {\"label\": \"Antilles\", \"code_api\": 192426, \"parent_code\": 79}",
+    "[json-sans-lien] https://groupecreditagricole.jobs/wp-admin/admin-ajax.php — clés : label, code_api — exemple : {\"label\": \"Inférieur à Bac\", \"code_api\": 191976}",
+    "[json-sans-lien] https://groupecreditagricole.jobs/wp-admin/admin-ajax.php — clés : label, code_api, parent_code — exemple : {\"label\": \"Afrique\", \"code_api\": 19, \"parent_code\": null}",
+    "[json-sans-lien] https://groupecreditagricole.jobs/wp-admin/admin-ajax.php — clés : label, code_api — exemple : {\"label\": \"0 - 2 ans\", \"code_api\": 580}",
+    "[json-sans-lien] https://groupecreditagricole.jobs/wp-admin/admin-ajax.php — clés : label, code_api, parentCode — exemple : {\"label\": \"Achat\", \"code_api\": 170460, \"parentCode\": 342}",
+    "[json-sans-lien] https://groupecreditagricole.jobs/wp-admin/admin-ajax.php — clés : label, code_api, parent_code — exemple : {\"label\": \"Antilles\", \"code_api\": 192426, \"parent_code\": 79}",
+    "[json-sans-lien] https://groupecreditagricole.jobs/wp-admin/admin-ajax.php — clés : label, code_api — exemple : {\"label\": \"0 - 2 ans\", \"code_api\": 580}"
+   ]
+  },
+  "BPCE": {
+   "links_found": 1562,
+   "keyword_matches": 102,
+   "errors": [],
+   "sample_all": [
+    "Conseiller Clientèle Particuliers Expérimenté H/F",
+    "Starszy Doradca / Starsza Doradczyni ds. Leasingu",
+    "Conseiller(ère) en Financements, Spécialiste Leasing (h/f)",
+    "Starszy Doradca / Starsza Doradczyni ds. Leasingu",
+    "Starszy Doradca / Starsza Doradczyni ds. Leasingu",
+    "Senior Documentation Specialist",
+    "IT Data Architect (F/H)",
+    "International Coordination - Acquisition and Strategic Finance (F/H)",
+    "Conseiller Clientèle Particuliers H/F",
+    "Chargé d’Affaires Professionnels – H/F"
+   ],
+   "sample_matching": [
+    {
+     "title": "IT Data Architect (F/H)",
+     "url": "https://recrutement.bpce.fr/job/it-data-architect-f-h",
+     "context": "157343 18717 18717 18717 1793261406 CHANNELNATIXIS IT Data Architect (F/H) 2026-08-28 2026-08-28 12:10: 1787919007 Informatique Architecte technique OHX03 Natixis CIB France CDI /job/it-data-architect"
+    },
+    {
+     "title": "Analyste Risques de Crédits CDD (F/H) - Rennes (35)",
+     "url": "https://recrutement.bpce.fr/job/analyste-risques-de-credits-cdd-f-h-rennes-35",
+     "context": "161230 Analyste Risques de Crédits CDD (F/H) - Rennes (35) Banque Populaire Grand Ouest CDD /job/analyste-risques-de-credits-cdd-f-h-rennes-35 Découvrir _self SAINT GREGOIRE 35760 SAINT GREGOIRE 48.14"
+    },
+    {
+     "title": "STAGE - QA analyst (F/H) - PARIS",
+     "url": "https://recrutement.bpce.fr/job/stage-qa-analyst-f-h-paris",
+     "context": "160975 STAGE - QA analyst (F/H) - PARIS OIX08 BPCE Solutions Informatiques Stage sup à 2 mois /job/stage-qa-analyst-f-h-paris Découvrir _self Paris 75013 Paris 48.830919 2.376158"
+    },
+    {
+     "title": "Analyste Risques (H/F)",
+     "url": "https://recrutement.bpce.fr/job/analyste-risques-h-f",
+     "context": "159992 Analyste Risques (H/F) Caisse d'Epargne Hauts de France CDI /job/analyste-risques-h-f Découvrir _self Lille 59800 Lille 50.634845 3.080072"
+    },
+    {
+     "title": "Data Scientist junior – Data & IA (F/H) – CDD 6 mois",
+     "url": "https://recrutement.bpce.fr/job/data-scientist-junior-data-ia-f-h-cdd-6-mois",
+     "context": "161199 Data Scientist junior – Data &amp; IA (F/H) – CDD 6 mois Natixis CIB France CDD /job/data-scientist-junior-data-ia-f-h-cdd-6-mois Découvrir _self Paris Ile-de-France Paris France Paris"
+    },
+    {
+     "title": "Data Scientist junior – Exploration de cas d’usage Data & IA (F/H) - CDD 6 mois",
+     "url": "https://recrutement.bpce.fr/job/data-scientist-junior-exploration-de-cas-dusage-data-ia-f-h-cdd-6-mois",
+     "context": "161198 Data Scientist junior – Exploration de cas d’usage Data &amp; IA (F/H) - CDD 6 mois Natixis CIB France CDD /job/data-scientist-junior-exploration-de-cas-dusage-data-ia-f-h-cdd-6-mois Découvrir "
+    },
+    {
+     "title": "Analyste en projections financières - CFP & SWD (F/H) - CDD 6 mois",
+     "url": "https://recrutement.bpce.fr/job/analyste-en-projections-financieres-cfp-swd-f-h-cdd-6-mois",
+     "context": "161197 Analyste en projections financières - CFP &amp; SWD (F/H) - CDD 6 mois Natixis CIB France CDD /job/analyste-en-projections-financieres-cfp-swd-f-h-cdd-6-mois Découvrir _self Paris Ile-de-France"
+    },
+    {
+     "title": "Market Data & Access Support Engineer",
+     "url": "https://recrutement.bpce.fr/job/market-data-access-support-engineer",
+     "context": "161191 Market Data &amp; Access Support Engineer Natixis CIB North America CDI /job/market-data-access-support-engineer Découvrir _self New York États-Unis New York International New York"
+    },
+    {
+     "title": "Analyste Engagements (F/H) - BTP Banque",
+     "url": "https://recrutement.bpce.fr/job/analyste-engagements-f-h-btp-banque",
+     "context": "161176 Analyste Engagements (F/H) - BTP Banque Groupe Crédit Coopératif CDI /job/analyste-engagements-f-h-btp-banque Découvrir _self NANTERRE 92000 NANTERRE 48.89348 2.226498"
+    },
+    {
+     "title": "Stage - Data Analyst Risques (H/F)",
+     "url": "https://recrutement.bpce.fr/job/stage-data-analyst-risques-h-f",
+     "context": "161155 Stage - Data Analyst Risques (H/F) Banque BCP Stage sup à 2 mois /job/stage-data-analyst-risques-h-f Découvrir _self Paris 75001 Paris 48.865045 2.341966"
+    }
+   ],
+   "json": [
+    "[json-sans-lien] https://recrutement.bpce.fr/app/wp-json/bpce/v1/elevator/choices/?lang=fr — clés : id, titre, next — exemple : {\"id\": 1, \"titre\": \"La mixité  \", \"next\": 25}",
+    "[json-sans-lien] https://recrutement.bpce.fr/app/wp-json/bpce/v1/global/?lang=fr — clés : title, link, submenu — exemple : {\"title\": \"Nous connaître\", \"link\": [], \"submenu\": [{\"title\": \"Découvrir BPCE\", \"link\": [], \"submenu\": [{\"title\": \"Qui sommes-nous ?\", \"link\": {\"url\": \"/le-groupe/decouvrir-bpce/qui-sommes-nous/\", \"title\": \"Qui sommes-nous ?\", \"target\": \"_self\", \"internal\": true}, \"submenu\": []}, {\"title\": \"Rejoindre le Groupe BPCE, c’est s’engager dans une carrière qui a du sens !\", \"link\": {\"url\": \"/le-groupe/decouvrir-bpce/ce-qui-nous-rassemble/\", \"title\": \"Rejoindre le Groupe BPCE, c’est s’engager dans une c",
+    "[json-sans-lien] https://recrutement.bpce.fr/app/wp-json/bpce/v1/jobs/popin/alert/?lang=fr — clés : title, id, choices — exemple : {\"title\": \"Famille de métier\", \"id\": \"tax_sector\", \"choices\": [{\"label\": \"--Veuillez sélectionner--\", \"value\": \"veuillez-selectionner\"}, {\"label\": \"Assurance\", \"value\": \"assurance\"}, {\"label\": \"Commercial\", \"value\": \"commercial\"}, {\"label\": \"Digital\", \"value\": \"digital\"}, {\"label\": \"Direction\", \"value\": \"direction\"}, {\"label\": \"Finance & Strategie\", \"value\": \"finance-strategie\"}, {\"label\": \"Finance de Marché\", \"value\": \"finance-de-marche\"}, {\"label\": \"Gestion des Operations et Support clientele\"",
+    "[json-sans-lien] https://recrutement.bpce.fr/app/wp-json/bpce/v1/pages/?lang=fr&_uid=page-270-25b87e4280823 — clés : title, id, choices — exemple : {\"title\": \"Channel\", \"id\": \"tax_channel\", \"choices\": [{\"label\": \"CHANNELNATIXIS\", \"value\": \"channelnatixis\"}, {\"label\": \"Le CFA du Campus BPCE \", \"value\": \"p6bfk026203f3vbqb7v8n8mis\"}, {\"label\": \"Site BPCE\", \"value\": \"q7sfk026203f3vbqb7v8n8mo5\"}]}",
+    "[json-offres] 9 offres dans https://recrutement.bpce.fr/app/wp-json/bpce/v1/search/jobs (ex. « Conseiller Clientèle Particuliers Expérimenté H/F » → https://recrutement.bpce.fr/job/conseiller-clientele-particuliers-experimente-h-f, publiée 2026-10-28)",
+    "[json-offres] 9 offres dans https://recrutement.bpce.fr/app/wp-json/bpce/v1/search/jobs (ex. « Conseiller Clientèle Particuliers Expérimenté H/F » → https://recrutement.bpce.fr/job/conseiller-clientele-particuliers-experimente-h-f, publiée 2026-10-28)",
+    "[json-offres] 1562 offres dans https://recrutement.bpce.fr/app/wp-json/bpce/v1/search/jobs (ex. « Conseiller Clientèle Particuliers Expérimenté H/F » → https://recrutement.bpce.fr/job/conseiller-clientele-particuliers-experimente-h-f, publiée ?)",
+    "[json-sans-lien] https://recrutement.bpce.fr/app/wp-json/bpce/v1/global/?lang=fr — clés : title, link, submenu — exemple : {\"title\": \"Nous connaître\", \"link\": [], \"submenu\": [{\"title\": \"Découvrir BPCE\", \"link\": [], \"submenu\": [{\"title\": \"Qui sommes-nous ?\", \"link\": {\"url\": \"/le-groupe/decouvrir-bpce/qui-sommes-nous/\", \"title\": \"Qui sommes-nous ?\", \"target\": \"_self\", \"internal\": true}, \"submenu\": []}, {\"title\": \"Rejoindre le Groupe BPCE, c’est s’engager dans une carrière qui a du sens !\", \"link\": {\"url\": \"/le-groupe/decouvrir-bpce/ce-qui-nous-rassemble/\", \"title\": \"Rejoindre le Groupe BPCE, c’est s’engager dans une c",
+    "[json-sans-lien] https://recrutement.bpce.fr/app/wp-json/bpce/v1/elevator/choices/?lang=fr — clés : id, titre, next — exemple : {\"id\": 1, \"titre\": \"La mixité  \", \"next\": 25}",
+    "[json-sans-lien] https://recrutement.bpce.fr/app/wp-json/bpce/v1/jobs/popin/alert/?lang=fr — clés : title, id, choices — exemple : {\"title\": \"Famille de métier\", \"id\": \"tax_sector\", \"choices\": [{\"label\": \"--Veuillez sélectionner--\", \"value\": \"veuillez-selectionner\"}, {\"label\": \"Assurance\", \"value\": \"assurance\"}, {\"label\": \"Commercial\", \"value\": \"commercial\"}, {\"label\": \"Digital\", \"value\": \"digital\"}, {\"label\": \"Direction\", \"value\": \"direction\"}, {\"label\": \"Finance & Strategie\", \"value\": \"finance-strategie\"}, {\"label\": \"Finance de Marché\", \"value\": \"finance-de-marche\"}, {\"label\": \"Gestion des Operations et Support clientele\""
+   ]
+  },
+  "AXA": {
+   "links_found": 66,
+   "keyword_matches": 30,
+   "errors": [],
+   "sample_all": [
+    "Security Product & Deputy Chapter Manager",
+    "CRM Lead Expert",
+    "Vendor Risk Lead",
+    "Chargé d'études actuarielles/Data Analyst (F/H) - stage",
+    "Chargé d'études actuarielles (F/H) - stage",
+    "Actuaire Data, Modélisation et Pilotage Business - IARD (F/H) - stage",
+    "Chargé d'études actuarielles (F/H) - Stage",
+    "Head of Data Solution - F/H",
+    "Chef de Projets Stratégiques (F/H) - stage",
+    "Technical Reinsurance Accountant"
+   ],
+   "sample_matching": [
+    {
+     "title": "Chargé d'études actuarielles/Data Analyst (F/H) - stage",
+     "url": "https://careers.axa.com/jobs/37044",
+     "context": "37044 fr-fr en-us fr-fr 37044 Chargé d'études actuarielles/Data Analyst (F/H) - stage NANTERRE France FR 92727 LAT_LNG 48.8973052 2.2218688 DATA ET IA Full-time Apprenticeship AXA France 2026-10-28T10"
+    },
+    {
+     "title": "Actuaire Data, Modélisation et Pilotage Business - IARD (F/H) - stage",
+     "url": "https://careers.axa.com/jobs/37164",
+     "context": "37164 fr-fr en-us fr-fr 37164 Actuaire Data, Modélisation et Pilotage Business - IARD (F/H) - stage NANTERRE France FR 92000 LAT_LNG 48.8973052 2.2218688 ACTUARIAT ET TARIFICATION Full-time Apprentice"
+    },
+    {
+     "title": "Head of Data Solution - F/H",
+     "url": "https://careers.axa.com/jobs/27894",
+     "context": "27894 fr-fr fr-fr 27894 Head of Data Solution - F/H APFR-Malakoff 8-10 rue Paul Vaillant Couturier MALAKOFF France FR 92240 LAT_LNG 48.8117393 2.2988331 DONNÉES ET INTELLIGENCE ARTIFICIELLE Temps plei"
+    },
+    {
+     "title": "Stage - M365 Power Platform, Data and AI intern",
+     "url": "https://careers.axa.com/jobs/29576",
+     "context": "29576 fr-fr en-us fr-fr 29576 Stage - M365 Power Platform, Data and AI intern MATIGNON GIE AXA PARIS France FR 75008 LAT_LNG 48.8452801 2.3518921 TECHNOLOGIES DE L'INFORMATION Temps plein Stage / Alte"
+    },
+    {
+     "title": "Chef de Projet Data (F/H) - stage",
+     "url": "https://careers.axa.com/jobs/37084",
+     "context": "37084 fr-fr en-us fr-fr 37084 Chef de Projet Data (F/H) - stage NANTERRE France FR 92000 LAT_LNG 48.8973052 2.2218688 DATA ET IA Full-time Apprenticeship AXA France 2026-10-22T10:00:00+0000 axa-prod-t"
+    },
+    {
+     "title": "Senior Pricing Actuary Data Modelling F/H",
+     "url": "https://careers.axa.com/jobs/28300",
+     "context": "28300 fr-fr fr-fr 28300 Senior Pricing Actuary Data Modelling F/H APFR-Malakoff 8-10 rue Paul Vaillant Couturier MALAKOFF France FR 92240 LAT_LNG 48.8117393 2.2988331 SOUSCRIPTION Temps plein Contrat "
+    },
+    {
+     "title": "Chargé de Projet Pilotage Data (F/H) - stage",
+     "url": "https://careers.axa.com/jobs/36881",
+     "context": "36881 fr-fr en-us fr-fr 36881 Chargé de Projet Pilotage Data (F/H) - stage FONTENAY SOUS BOIS France FR 94120 LAT_LNG 48.851542 2.475907 DATA ET IA Full-time Apprenticeship AXA France 2026-10-21T10:00"
+    },
+    {
+     "title": "Data Management CoE Lead",
+     "url": "https://careers.axa.com/jobs/29155",
+     "context": "29155 en-us en-us 29155 Data Management CoE Lead GO_FR ENJOY 81 rue Mstislav Rostropovitch PARIS France FR 75017 LAT_LNG 48.8917694 2.309848 DATA AND AI Full-time Permanent contract AXA Group Operatio"
+    },
+    {
+     "title": "Stage - Investment Strategy and Financial Data Analyst",
+     "url": "https://careers.axa.com/jobs/29384",
+     "context": "29384 fr-fr en-us fr-fr 29384 Stage - Investment Strategy and Financial Data Analyst MATIGNON GIE AXA PARIS France FR 75008 LAT_LNG 48.8452801 2.3518921 FINANCE Temps plein Stage / Alternance / Étudia"
+    },
+    {
+     "title": "Business Analyst Courtage (F/H) - Stage",
+     "url": "https://careers.axa.com/jobs/36861",
+     "context": "36861 fr-fr en-us fr-fr 36861 Business Analyst Courtage (F/H) - Stage NANTERRE France FR 92727 LAT_LNG 48.8973052 2.2218688 VENTES ET DISTRIBUTION Full-time Apprenticeship AXA France 2026-10-26T10:00:"
+    }
+   ],
+   "json": [
+    "[json-offres] 10 offres dans https://jobs.axa.com/api/jobs?keywords=data&location=France&page=1&sortBy=posted_date&descending=true (ex. « Security Product & Deputy Chapter Manager » → https://careers.axa.com/jobs/29587, publiée 2026-10-28T15:58:00+00:00)",
+    "[json-offres] 10 offres dans https://jobs.axa.com/api/jobs?keywords=data&location=France&page=2&sortBy=posted_date&descending=true (ex. « Stage - M365 Power Platform, Data and AI intern » → https://careers.axa.com/jobs/29576, publiée 2026-10-22T14:12:00+00:00)",
+    "[json-offres] 10 offres dans https://jobs.axa.com/api/jobs?keywords=analyst&location=France&page=1&sortBy=posted_date&descending=true (ex. « Chargé d'études actuarielles/Data Analyst (F/H) - stage » → https://careers.axa.com/jobs/37044, publiée 2026-10-28T10:00:00+00:00)",
+    "[json-offres] 2 offres dans https://jobs.axa.com/api/jobs?keywords=analyst&location=France&page=2&sortBy=posted_date&descending=true (ex. « Responsable Digital Analytics (F/H) » → https://careers.axa.com/jobs/27418, publiée 2026-09-15T12:35:00+00:00)",
+    "[json-offres] 10 offres dans https://jobs.axa.com/api/jobs?keywords=data&location=Switzerland&page=1&sortBy=posted_date&descending=true (ex. « Senior Mainframe System Engineer (all genders) / Befristet bis 31.12.2030 » → https://careers.axa.com/jobs/28727, publiée 2026-10-28T07:21:00+00:00)",
+    "[json-offres] 2 offres dans https://jobs.axa.com/api/jobs?keywords=data&location=Switzerland&page=2&sortBy=posted_date&descending=true (ex. « Head of Technology & AI, APAC, Europe and ESS » → https://careers.axa.com/jobs/24153, publiée 2026-09-07T05:11:00+00:00)",
+    "[json-offres] 2 offres dans https://jobs.axa.com/api/jobs?keywords=analyst&location=Switzerland&page=1&sortBy=posted_date&descending=true (ex. « Data Analyst Omnichannel Kampagnenmanagement (all genders) » → https://careers.axa.com/jobs/28586, publiée 2026-10-27T06:16:00+00:00)",
+    "[json-offres] 10 offres dans https://jobs.axa.com/api/jobs?keywords=data&location=United%20Kingdom&page=1&sortBy=posted_date&descending=true (ex. « Senior Energy Transition Risk Consultant » → https://careers.axa.com/jobs/27198, publiée 2026-10-28T15:52:00+00:00)",
+    "[json-offres] 10 offres dans https://jobs.axa.com/api/jobs?keywords=data&location=United%20Kingdom&page=2&sortBy=posted_date&descending=true (ex. « Home Emergency & Motor Breakdown Product & Proposition Manager » → https://careers.axa.com/jobs/28627, publiée 2026-10-20T19:06:00+00:00)",
+    "[json-offres] 8 offres dans https://jobs.axa.com/api/jobs?keywords=analyst&location=United%20Kingdom&page=1&sortBy=posted_date&descending=true (ex. « Data Operations Support Analyst » → https://careers.axa.com/jobs/28646, publiée 2026-10-28T11:22:00+00:00)"
+   ]
+  },
+  "EDF / Enedis": {
+   "links_found": 5,
+   "keyword_matches": 0,
+   "errors": [],
+   "sample_all": [
+    "Chargé d'affaires Génie Civil F/H",
+    "Ingénieure ou ingénieur matériaux F/H - STAGE",
+    "Electrotechnicien F/H",
+    "Electrotechnicien F/H",
+    "Gestionnaire de site Industriel F/H"
+   ],
+   "sample_matching": [],
+   "json": [
+    "[séquence] numéros 182701 à 182780 lus, 5 offres, dernier trouvé 182723"
+   ]
+  },
+  "TotalEnergies": {
+   "links_found": 200,
+   "keyword_matches": 19,
+   "errors": [],
+   "sample_all": [
+    "Assets Trader – Power & Gas (Europe)",
+    "Engenheiro Júnior de Reservatórios",
+    "Ingénieur séparation des gaz (adsorption) - Débutant H/F",
+    "STAGE - Analyste projet Transformation Finance & IA H/F",
+    "Editorial Manager",
+    "Supporto Area legale - stage",
+    "STAGE - Ingénieur Data et Intelligence Artificielle (69) H/F",
+    "Management Trainee – Rotational (SFS and TM)",
+    "Project Engineer II",
+    "Opérateur (trice) Table 2D Soir"
+   ],
+   "sample_matching": [
+    {
+     "title": "STAGE - Analyste projet Transformation Finance & IA H/F",
+     "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/STAGE-Analyste-projet-Transformation-Finance-IA-H-F/85680",
+     "context": "STAGE - Analyste projet Transformation Finance & IA H/F 28-10-2026 France Stage conventionné TotalEnergies Global Financial Services Postuler"
+    },
+    {
+     "title": "STAGE - Ingénieur Data et Intelligence Artificielle (69) H/F",
+     "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/STAGE-Ing-nieur-Data-et-Intelligence-Artificielle-69-H-F/85672",
+     "context": "STAGE - Ingénieur Data et Intelligence Artificielle (69) H/F 28-10-2026 France Stage conventionné TotalEnergies OneTech Postuler"
+    },
+    {
+     "title": "STAGE - Data Science /Ontologie dans la classification documentaire - H/F",
+     "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/STAGE-Data-Science-Ontologie-dans-la-classification-documentaire-H-F/85662",
+     "context": "STAGE - Data Science /Ontologie dans la classification documentaire - H/F 28-10-2026 France Stage conventionné TotalEnergies OneTech Postuler"
+    },
+    {
+     "title": "CHAPTER LEAD DATA ENGINEERING - TOTALENERGIES DIGITAL FACTORY",
+     "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/CHAPTER-LEAD-DATA-ENGINEERING-TOTALENERGIES-DIGITAL-FACTORY/85639",
+     "context": "CHAPTER LEAD DATA ENGINEERING - TOTALENERGIES DIGITAL FACTORY 27-10-2026 France CDI TotalEnergies Digital Factory Postuler"
+    },
+    {
+     "title": "Quantitative Development & Data Science Intern",
+     "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Quantitative-Development-Data-Science-Intern/85607",
+     "context": "Quantitative Development & Data Science Intern 27-10-2026 Suisse Stage conventionné TotalEnergies Gas & Power Ltd Postuler"
+    },
+    {
+     "title": "CDI - Analyste de Laboratoire (H/F)",
+     "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/CDI-Analyste-de-Laboratoire-H-F/85596",
+     "context": "CDI - Analyste de Laboratoire (H/F) 27-10-2026 France CDI TotalEnergies Lubrifiants Postuler"
+    },
+    {
+     "title": "ACCOUNTING & CREDIT ANALYST",
+     "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/ACCOUNTING-CREDIT-ANALYST/81353",
+     "context": "ACCOUNTING & CREDIT ANALYST 27-10-2026 Tanzanie CDI TotalEnergies Marketing Tanzania Limited Postuler"
+    },
+    {
+     "title": "Ingénieur Data Solaire et IA débutant H/F",
+     "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Ing-nieur-Data-Solaire-et-IA-d-butant-H-F/85164",
+     "context": "Ingénieur Data Solaire et IA débutant H/F 26-10-2026 France Contrat de professionnalisation temps plein TotalEnergies OneTech Postuler"
+    },
+    {
+     "title": "STAGE Analyste Data & Power Market H/F",
+     "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/STAGE-Analyste-Data-Power-Market-H-F/85144",
+     "context": "STAGE Analyste Data & Power Market H/F 26-10-2026 France Stage conventionné TotalEnergies Renewables Postuler"
+    },
+    {
+     "title": "BI/DATA Developer",
+     "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/BI-DATA-Developer/85536",
+     "context": "BI/DATA Developer 23-10-2026 Tunisie CDI HUTCHINSON TUNISIE SARL Postuler"
+    }
+   ],
+   "json": []
+  },
+  "VINCI (dont ETF)": {
+   "links_found": 0,
+   "keyword_matches": 0,
+   "errors": [],
+   "sample_all": [],
+   "sample_matching": [],
+   "json": [],
+   "page_info": "titre « Vinci Jobs | Recherche », 28 liens <a>",
    "json_calls": [
-    "GET 200 https://company.sbb.ch/content/internet/corporate/fr/jobs-karriere/jobs/job-suche/jcr:content/parmain/jobfilter.results.json?_=1792504340938"
+    "GET 200 https://jobs.vinci.com/fr/search-jobs/GetSearchRequestGeoLocation?lat=59.2745&lon=18.0051&IsUsingGeolocation=true&hasHtml5GeoError=false&geoType=ip2ifnohtml5"
+   ]
+  },
+  "Eiffage": {
+   "links_found": 79,
+   "keyword_matches": 15,
+   "errors": [],
+   "sample_all": [
+    "Responsable Logistique Data Center (H/F)",
+    "Stage PFE Data Scientist F/H",
+    "Directeur de travaux TCE Data F/H",
+    "Responsable Offre Datacenter (F/H)",
+    "Directeur technique Datacenter F/H",
+    "Technicien d'exploitation maintenance data center Marcoussis 91 F/H",
+    "Responsable d'affaires CVCD/PL projets DATA CENTER F/H",
+    "Chargé de méthodes en data center Marcoussis 91 F/H",
+    "Technicien de maintenance CVC/froid data center Marcoussis 91 F/H",
+    "Responsable d'affaires maintenance data center Bussy Saint-Georges 77 F/H"
+   ],
+   "sample_matching": [
+    {
+     "title": "Responsable Logistique Data Center (H/F)",
+     "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Les-Ulis/Responsable-Logistique-Data-Center--H-F-_JR2026-3963",
+     "context": "Les Ulis"
+    },
+    {
+     "title": "Stage PFE Data Scientist F/H",
+     "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Nanterre/Stage-PFE-Data-Scientist-F-H_JR2026-5568",
+     "context": "Nanterre"
+    },
+    {
+     "title": "Directeur de travaux TCE Data F/H",
+     "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Ormoy/Directeur-de-travaux-TCE-Data-F-H_JR2026-1615",
+     "context": "Ormoy"
+    },
+    {
+     "title": "Responsable Offre Datacenter (F/H)",
+     "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Le-Mans/Responsable-Offre-Datacenter--F-H-_JR2025-1660",
+     "context": "Le Mans"
+    },
+    {
+     "title": "Directeur technique Datacenter F/H",
+     "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Le-Mans/Directeur-technique-Datacenter-F-H_JR2026-1619",
+     "context": "Le Mans"
+    },
+    {
+     "title": "Technicien d'exploitation maintenance data center Marcoussis 91 F/H",
+     "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Marcoussis/Technicien-d-exploitation-maintenance-data-center-Marcoussis-91-F-H_JR2026-3529",
+     "context": "Marcoussis"
+    },
+    {
+     "title": "Responsable d'affaires CVCD/PL projets DATA CENTER F/H",
+     "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Orsay/Responsable-d-affaires-CVCD-PL-projets-DATA-CENTER-F-H_JR2026-4510",
+     "context": "Orsay"
+    },
+    {
+     "title": "Chargé de méthodes en data center Marcoussis 91 F/H",
+     "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Marcoussis/Charg-de-mthodes-en-data-center-Marcoussis-91-F-H_JR2026-5305",
+     "context": "Marcoussis"
+    },
+    {
+     "title": "Technicien de maintenance CVC/froid data center Marcoussis 91 F/H",
+     "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Marcoussis/Technicien-de-maintenance-CVC-froid-data-center-Marcoussis-91-F-H_JR2026-3544",
+     "context": "Marcoussis"
+    },
+    {
+     "title": "Responsable d'affaires maintenance data center Bussy Saint-Georges 77 F/H",
+     "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Bussy-Saint-Georges/Responsable-d-affaires-maintenance-data-center-Bussy-Saint-Georges-77-F-H_JR2026-3542",
+     "context": "Bussy-Saint-Georges"
+    }
+   ],
+   "json": [
+    "[workday] 79 offres via l'API"
+   ]
+  },
+  "Bouygues Telecom": {
+   "links_found": 0,
+   "keyword_matches": 0,
+   "errors": [
+    "https://bouyguestelecom-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036 → ConnectionError: HTTPSConnectionPool(host='bouyguestelecom-recrute.talent-soft.com', port=443): Max retries exceeded with url: /handlers/offerRss.ashx?LCID=1036 (Caused by NameR"
+   ],
+   "sample_all": [],
+   "sample_matching": [],
+   "json": []
+  },
+  "Orange": {
+   "links_found": 56,
+   "keyword_matches": 11,
+   "errors": [],
+   "sample_all": [
+    "Mentions légales et CGU",
+    "Politique des cookies",
+    "Données personnelles",
+    "Accessibilité – Non conforme",
+    "CERT",
+    "Contacts",
+    "Explorer : travailler chez Orange",
+    "Avantages et rémunération",
+    "Formation et développement",
+    "Explorer : m'engager pour avoir un impact"
+   ],
+   "sample_matching": [
+    {
+     "title": "Data Engineer",
+     "url": "https://orange.jobs/fr/fr/job/TOB-6575786/Data-Engineer",
+     "context": "Data Engineer Associé à 3 catégories Associé à 3 catégories Lieu: OSLO,NORWAY undefined: 6575786 undefined: Autre undefined: Temps complet undefined: Orange Business undefined: Monthly Join our team a"
+    },
+    {
+     "title": "Data Analyst",
+     "url": "https://orange.jobs/fr/fr/job/ICM-588944/Data-Analyst",
+     "context": "Data Analyst Disponible dans 2 endroits Disponible dans 2 endroits Catégorie: Autre undefined: 588944 undefined: CDI undefined: Temps complet undefined: Orange Business Exciting opportunity for a Data"
+    },
+    {
+     "title": "Data Scientist",
+     "url": "https://orange.jobs/fr/fr/job/ICM-588283/Data-Scientist",
+     "context": "Data Scientist Disponible dans 2 endroits Disponible dans 2 endroits Catégorie: Autre undefined: 588283 undefined: CDI undefined: Temps complet undefined: Orange Business Take on the role of Data Scie"
+    },
+    {
+     "title": "Commercial Analyst",
+     "url": "https://orange.jobs/fr/fr/job/ERC-569973-20136094/Commercial-Analyst",
+     "context": "Commercial Analyst Associé à 2 catégories Associé à 2 catégories Lieu: MOLDOVA undefined: 569973-20136094 undefined: CDI undefined: Temps complet undefined: Orange Moldova SA Become part of our team a"
+    },
+    {
+     "title": "SOC Analyst",
+     "url": "https://orange.jobs/fr/fr/job/ICM-583788/SOC-Analyst",
+     "context": "SOC Analyst Disponible dans 2 endroits Disponible dans 2 endroits Catégorie: Cybersecurité undefined: 583788 undefined: CDI undefined: Temps complet undefined: Orange Business Join our team as a SOC A"
+    },
+    {
+     "title": "SOC Analyst",
+     "url": "https://orange.jobs/fr/fr/job/ICM-588846/SOC-Analyst",
+     "context": "SOC Analyst Disponible dans 2 endroits Disponible dans 2 endroits Catégorie: IT & Ingénierie undefined: 588846 undefined: CDI undefined: Temps complet undefined: Orange Business We are looking for a S"
+    },
+    {
+     "title": "Reporting Analyst",
+     "url": "https://orange.jobs/fr/fr/job/ERC-587483-20136094/Reporting-Analyst",
+     "context": "Reporting Analyst undefined: Chisinau Lieu: MOLDOVA Catégorie: Autre undefined: 587483-20136094 undefined: CDI undefined: Non spécifié undefined: Orange Moldova SA We are recruiting a Reporting Analys"
+    },
+    {
+     "title": "Business Analyst",
+     "url": "https://orange.jobs/fr/fr/job/ICM-588315/Business-Analyst",
+     "context": "Business Analyst Disponible dans 2 endroits Disponible dans 2 endroits Catégorie: IT & Ingénierie undefined: 588315 undefined: CDI undefined: Temps complet undefined: Orange Business Nous recherchons "
+    },
+    {
+     "title": "Fraud Analyst",
+     "url": "https://orange.jobs/fr/fr/job/ICM-589226/Fraud-Analyst",
+     "context": "Fraud Analyst Disponible dans 2 endroits Disponible dans 2 endroits Catégorie: Autre undefined: 589226 undefined: CDI undefined: Temps complet undefined: Orange Business Nous recherchons un Analyste d"
+    },
+    {
+     "title": "SOC Analyst",
+     "url": "https://orange.jobs/fr/fr/job/ICM-588151/SOC-Analyst",
+     "context": "SOC Analyst Disponible dans 2 endroits Disponible dans 2 endroits Catégorie: IT & Ingénierie undefined: 588151 undefined: CDI undefined: Temps complet undefined: Orange Business Take on the role of SO"
+    }
+   ],
+   "json": [
+    "[json-offres] 73 offres dans https://orange.jobs/widgets (ex. « Mentions légales et CGU » → https://orange.jobs/fr/fr/mention-legal-et-cgu, publiée ?)",
+    "[json-offres] 73 offres dans https://orange.jobs/widgets (ex. « Mentions légales et CGU » → https://orange.jobs/fr/fr/mention-legal-et-cgu, publiée ?)"
+   ]
+  },
+  "Vodafone Oman": {
+   "links_found": 0,
+   "keyword_matches": 0,
+   "errors": [],
+   "sample_all": [],
+   "sample_matching": [],
+   "json": [],
+   "page_info": "titre « Request Rejected », 1 liens <a>",
+   "json_calls": []
+  },
+  "jobs.ch": {
+   "links_found": 82,
+   "keyword_matches": 67,
+   "errors": [],
+   "sample_all": [
+    "Professor/in für Data Engineering",
+    "Data Engineer (w/m/d)",
+    "PIM & Master Data Specialist (80-100 %)",
+    "Generali Personenversicherung AG",
+    "Senior Consultant - Consulting - Data Management & Governance",
+    "(Senior) Consultant Data & Analytics",
+    "Data Architect 80-100%",
+    "Master Data Administrator (w/m/d) 100%",
+    "Senior Data Engineer",
+    "Principal Data Architect"
+   ],
+   "sample_matching": [
+    {
+     "title": "Professor/in für Data Engineering",
+     "url": "https://www.jobs.ch/fr/offres-emplois/detail/a8bda89a-52cf-419d-8bad-e8250b5dcc47/",
+     "context": "Il y a 2 semaines Professor/in für Data Engineering Lieu de travail : Rapperswil Taux d'activité : 80 – 100% Type de contrat : Durée indéterminée OST - Ostschweizer Fachhochschule Mis en avant Offre p"
+    },
+    {
+     "title": "Data Engineer (w/m/d)",
+     "url": "https://www.jobs.ch/fr/offres-emplois/detail/96509b44-d5da-40cb-8cf6-6ddb06333399/",
+     "context": "Hier Data Engineer (w/m/d) Lieu de travail : Sursee Taux d'activité : 80 – 100% Type de contrat : Durée indéterminée Bison Schweiz AG Nouveau Offre pertinente ?"
+    },
+    {
+     "title": "PIM & Master Data Specialist (80-100 %)",
+     "url": "https://www.jobs.ch/fr/offres-emplois/detail/6d8ea46d-325b-4405-a50e-b5114ddc4284/",
+     "context": "Il y a 3 jours PIM & Master Data Specialist (80-100 %) Lieu de travail : Altendorf Taux d'activité : 80 – 100% Type de contrat : Durée indéterminée Workmanagement AG Candidature simplifiée Offre perti"
+    },
+    {
+     "title": "Senior Consultant - Consulting - Data Management & Governance",
+     "url": "https://www.jobs.ch/fr/offres-emplois/detail/2a950003-8f6c-4b18-b933-614228140b99/",
+     "context": "Il y a 3 semaines Senior Consultant - Consulting - Data Management & Governance Lieu de travail : Zurich Taux d'activité : 100% Type de contrat : Durée indéterminée EY (Ernst & Young AG) Offre pertine"
+    },
+    {
+     "title": "(Senior) Consultant Data & Analytics",
+     "url": "https://www.jobs.ch/fr/offres-emplois/detail/40747050-d331-4fb1-8105-cca61f3b3b45/",
+     "context": "Il y a 4 semaines (Senior) Consultant Data & Analytics Lieu de travail : Zürich Taux d'activité : 80 – 100% Type de contrat : Durée indéterminée ti&m AG Offre pertinente ?"
+    },
+    {
+     "title": "Data Architect 80-100%",
+     "url": "https://www.jobs.ch/fr/offres-emplois/detail/5ba18304-8e80-4b25-a309-994d1263bd6f/",
+     "context": "Avant-hier Data Architect 80-100% Lieu de travail : Gisikon Taux d'activité : 80 – 100% Type de contrat : Durée indéterminée Sabag AG Offre pertinente ?"
+    },
+    {
+     "title": "Master Data Administrator (w/m/d) 100%",
+     "url": "https://www.jobs.ch/fr/offres-emplois/detail/5d2c1cc4-588e-49ca-b21f-a1ce7554d45f/",
+     "context": "La semaine dernière Master Data Administrator (w/m/d) 100% Lieu de travail : Root D4 Taux d'activité : 100% Type de contrat : Durée indéterminée Sealed Air GmbH Offre pertinente ?"
+    },
+    {
+     "title": "Senior Data Engineer",
+     "url": "https://www.jobs.ch/fr/offres-emplois/detail/ad98dd37-053d-41c9-af5b-ca84f62fdcb1/",
+     "context": "Il y a 3 semaines Senior Data Engineer Lieu de travail : Langenthal Taux d'activité : 80 – 100% Type de contrat : Durée indéterminée Avesco Offre pertinente ?"
+    },
+    {
+     "title": "Principal Data Architect",
+     "url": "https://www.jobs.ch/fr/offres-emplois/detail/79ad8494-a4c2-424f-8f3d-30e2c81c5ecb/",
+     "context": "Il y a 2 semaines Principal Data Architect Lieu de travail : Schlieren Taux d'activité : 80 – 100% Type de contrat : Durée indéterminée Zühlke Engineering AG Offre pertinente ?"
+    },
+    {
+     "title": "Data manager clinique",
+     "url": "https://www.jobs.ch/fr/offres-emplois/detail/f758e181-956b-40e7-ba88-bd74d9acf0e7/",
+     "context": "Avant-hier Data manager clinique Lieu de travail : 1004 Lausanne Taux d'activité : 80% Type de contrat : Durée indéterminée Clinique de La Source Offre pertinente ?"
+    }
+   ],
+   "json": []
+  },
+  "jobup.ch": {
+   "links_found": 78,
+   "keyword_matches": 47,
+   "errors": [],
+   "sample_all": [
+    "Business Analyst senior Data (h/f/x) - 80-100%",
+    "Data manager clinique",
+    "Data Analyst (H/F), CDD 12 mois",
+    "ERP, Data Digitalisation Specialist CDI 100 (H/F)",
+    "Online Data Analyst - German speakers in Switzerland",
+    "Marketing Data Scientist",
+    "Stagiaire - Data, IA & Développement",
+    "NAT SEC - Technical Coordinator / Data Specialist - 400 031 (M/F)",
+    "Data Quality Manager (AI)",
+    "Sovereign Data Program Intern"
+   ],
+   "sample_matching": [
+    {
+     "title": "Business Analyst senior Data (h/f/x) - 80-100%",
+     "url": "https://www.jobup.ch/fr/emplois/detail/94dbac24-2b13-40f0-a2a4-2c2db2a8445e/",
+     "context": "Il y a 2 semaines Business Analyst senior Data (h/f/x) - 80-100% Lieu de travail : Lausanne Taux d'activité : 80 – 100% Type de contrat : Durée indéterminée Vaudoise Assurances Offre pertinente ?"
+    },
+    {
+     "title": "Data manager clinique",
+     "url": "https://www.jobup.ch/fr/emplois/detail/8a421378-920f-4521-8252-154730e3b507/",
+     "context": "Il y a 3 jours Data manager clinique Lieu de travail : Lausanne Taux d'activité : 80% Type de contrat : Durée indéterminée Clinique de La Source Offre pertinente ?"
+    },
+    {
+     "title": "Data Analyst (H/F), CDD 12 mois",
+     "url": "https://www.jobup.ch/fr/emplois/detail/4f454c0c-a9e5-48f7-bac0-287795532eaa/",
+     "context": "Il y a 4 jours Data Analyst (H/F), CDD 12 mois Lieu de travail : Les Acacias Taux d'activité : 100% Type de contrat : Temporaire Accès Personnel SA Candidature simplifiée Offre pertinente ?"
+    },
+    {
+     "title": "ERP, Data Digitalisation Specialist CDI 100 (H/F)",
+     "url": "https://www.jobup.ch/fr/emplois/detail/d825b889-f4ff-405c-be2b-d723d200619f/",
+     "context": "Il y a 24 minutes ERP, Data Digitalisation Specialist CDI 100 (H/F) Lieu de travail : Le Landeron Taux d'activité : 100% Type de contrat : Stage Rollomatic SA Candidature simplifiée Nouveau Offre pert"
+    },
+    {
+     "title": "Online Data Analyst - German speakers in Switzerland",
+     "url": "https://www.jobup.ch/fr/emplois/detail/bdeb5475-2eed-422f-b4d4-faa1c16520d8/",
+     "context": "Il y a 3 semaines Online Data Analyst - German speakers in Switzerland Lieu de travail : Zurich Taux d'activité : 100% Type de contrat : Indépendant Telus Digital Offre pertinente ?"
+    },
+    {
+     "title": "Marketing Data Scientist",
+     "url": "https://www.jobup.ch/fr/emplois/detail/eb0fd6ec-fde8-4f4a-b03a-8bd1d99687c8/",
+     "context": "Hier Marketing Data Scientist Lieu de travail : Prilly Taux d'activité : 100% Type de contrat : Durée indéterminée Salt Mobile SA Candidature simplifiée Nouveau Offre pertinente ?"
+    },
+    {
+     "title": "Stagiaire - Data, IA & Développement",
+     "url": "https://www.jobup.ch/fr/emplois/detail/d277dd5c-3004-4128-b287-7caa36785d20/",
+     "context": "Il y a 2 semaines Stagiaire - Data, IA & Développement Lieu de travail : Zürich Taux d'activité : 100% Type de contrat : Temporaire Losinger Marazzi Offre pertinente ?"
+    },
+    {
+     "title": "NAT SEC - Technical Coordinator / Data Specialist - 400 031 (M/F)",
+     "url": "https://www.jobup.ch/fr/emplois/detail/46a7cd7c-fcc0-4cf6-8939-bfd76b2e8d2c/",
+     "context": "Il y a 3 jours NAT SEC - Technical Coordinator / Data Specialist - 400 031 (M/F) Lieu de travail : Le Grand-Saconnex Taux d'activité : 60 – 65% Type de contrat : Temporaire Ecolint Offre pertinente ?"
+    },
+    {
+     "title": "Data Quality Manager (AI)",
+     "url": "https://www.jobup.ch/fr/emplois/detail/3c0f77d5-7f80-47a4-816b-da37540a4f80/",
+     "context": "Il y a 3 semaines Data Quality Manager (AI) Lieu de travail : Wallisellen Taux d'activité : 80 – 100% Type de contrat : Durée indéterminée Migros Bank Offre pertinente ?"
+    },
+    {
+     "title": "Sovereign Data Program Intern",
+     "url": "https://www.jobup.ch/fr/emplois/detail/1cb9f955-33a8-4d95-90c8-3914e04dc201/",
+     "context": "Il y a 2 semaines Sovereign Data Program Intern Lieu de travail : Prilly Taux d'activité : 100% Type de contrat : Stage SICPA SA Offre pertinente ?"
+    }
+   ],
+   "json": []
+  },
+  "Reed (Londres)": {
+   "links_found": 0,
+   "keyword_matches": 0,
+   "errors": [
+    "Reed : pas de clé (secret GitHub REED_API_KEY) — source ignorée"
+   ],
+   "sample_all": [],
+   "sample_matching": [],
+   "json": []
+  },
+  "L'Oréal": {
+   "links_found": 0,
+   "keyword_matches": 0,
+   "errors": [],
+   "sample_all": [],
+   "sample_matching": [],
+   "json": []
+  },
+  "Julius Baer": {
+   "links_found": 64,
+   "keyword_matches": 16,
+   "errors": [],
+   "sample_all": [
+    "Data Scientist 100% (f/m/d)",
+    "Head Data Office-100% (m/f/d)",
+    "Data Platform Responsible 100% (f/m/d)",
+    "EuroHUB Senior Data Engineer 100% (f/m/d)",
+    "Exposure Management Data Analyst 100% (f/m/d)",
+    "Business & Data Manager – Technology Operating Office - 100% (f/m/d)",
+    "Data Governance & Lifecycle Enablement Lead 80-100% (f/m/d)",
+    "Senior Data Engineer – Data Analytics Platform 80-100% (f/m/d) - (Contract through our external payroll partner with immediate start for 12 months with possible extension)",
+    "Internship: Data Analytics Intern - Product Control 100% (f/m/d) - [6–12-month Internship Programme]",
+    "Test Environment and Data Specialist 100% (f/m/d) (Contract through our external payroll partner with immediate start for 11 months, possible extension)"
+   ],
+   "sample_matching": [
+    {
+     "title": "Data Scientist 100% (f/m/d)",
+     "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Zurich/Data-Scientist-100---f-m-d-_r-17167-2",
+     "context": "Zurich r-17167"
+    },
+    {
+     "title": "Head Data Office-100% (m/f/d)",
+     "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Zurich/Team-Head---Data-Platform---Analytics-100---m-f-d-_r-16704-2",
+     "context": "Zurich r-16704"
+    },
+    {
+     "title": "Data Platform Responsible 100% (f/m/d)",
+     "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Zurich/Data-Platform-Responsible-100---f-m-d-_r-17774-2",
+     "context": "Zurich r-17774"
+    },
+    {
+     "title": "EuroHUB Senior Data Engineer 100% (f/m/d)",
+     "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Madrid/EuroHUB-Senior-Data-Engineer-100---f-m-d-_r-20098-1",
+     "context": "Madrid r-20098"
+    },
+    {
+     "title": "Exposure Management Data Analyst 100% (f/m/d)",
+     "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Madrid/Exposure-Management-Data-Analyst-100---f-m-d-_r-20114-1",
+     "context": "Madrid r-20114"
+    },
+    {
+     "title": "Business & Data Manager – Technology Operating Office - 100% (f/m/d)",
+     "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Madrid/Business---Data-Manager---Technology-Operating-Office---100---f-m-d-_r-19459",
+     "context": "Madrid r-19459"
+    },
+    {
+     "title": "Data Governance & Lifecycle Enablement Lead 80-100% (f/m/d)",
+     "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Zurich/Data-Governance---Lifecycle-Enablement-Lead-80-100---f-m-d-_r-19741-1",
+     "context": "Zurich r-19741"
+    },
+    {
+     "title": "Senior Data Engineer – Data Analytics Platform 80-100% (f/m/d) - (Contract through our external payroll partner with immediate start for 12 months with possible extension)",
+     "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Zurich/Senior-Data-Engineer---Data-Analytics-Platform-80-100---f-m-d-----Contract-through-our-external-payroll-partner-with-immediate-start-for-12-months-with-possible-extension-_r-19553-1",
+     "context": "Zurich r-19553"
+    },
+    {
+     "title": "Internship: Data Analytics Intern - Product Control 100% (f/m/d) - [6–12-month Internship Programme]",
+     "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Zurich/Internship--Data-Analytics-Intern---Product-Control-100---f-m-d-----6-12-month-Internship-Programme-_r-19706-2",
+     "context": "Zurich r-19706"
+    },
+    {
+     "title": "Test Environment and Data Specialist 100% (f/m/d) (Contract through our external payroll partner with immediate start for 11 months, possible extension)",
+     "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Zurich/Test-Environment-and-Data-Specialist-100---f-m-d---Contract-through-our-external-payroll-partner-with-immediate-start-for-11-months--possible-extension-_r-20062-1",
+     "context": "Zurich r-20062"
+    }
+   ],
+   "json": [
+    "[workday] 64 offres via l'API"
+   ]
+  },
+  "UBS": {
+   "links_found": 14,
+   "keyword_matches": 1,
+   "errors": [],
+   "sample_all": [
+    "Premium Advisory Specialist",
+    "Wealth Planner",
+    "Securities Specialist",
+    "Payments & Cash Specialist (Operations)",
+    "Software Engineer / Chapter Lead – Japan Platform",
+    "Corporate Action Specialist",
+    "IB Operations - Securities Specialist",
+    "Research - APAC Equity - SMID Research Associate",
+    "Audit Expert (AO), Group Finance and Group Treasury Audit team",
+    "Collateral Specialist"
+   ],
+   "sample_matching": [
+    {
+     "title": "Trade Support Analyst – Australia & New Zealand Equities",
+     "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=352917",
+     "context": ""
+    }
+   ],
+   "json": [],
+   "page_info": "titre « Search Jobs at UBS - Experienced professionals - job boards », 67 liens <a>",
+   "json_calls": [
+    "GET 200 https://jobs.ubs.com/TgNewUI/CandidateZone/Ajax/AngularTgsettingLoad?partnerId=25008&siteId=5012",
+    "POST 200 https://jobs.ubs.com/TgNewUI/Search/Ajax/HomeSearch",
+    "POST 200 https://jobs.ubs.com/TgNewUI/WebTracker/WebTracker/GetScript",
+    "GET 200 https://jobs.ubs.com/TGNewUI/NG-Widgets/browser/assets/i18n/GlobalResources.en-US.json"
+   ]
+  },
+  "SIX Group": {
+   "links_found": 48,
+   "keyword_matches": 19,
+   "errors": [],
+   "sample_all": [
+    "Product Manager",
+    "Python Software Engineer",
+    "Senior Tax Expert",
+    "Senior Business Analyst",
+    "Working Student Asset Servicing 40-60%",
+    "AI Engineer - AI SDLC Tooling & Guardrails",
+    "AI Engineer Internship",
+    "Analytics Engineer",
+    "Senior Data Acquisition Manager (80-100%)",
+    "Senior Security Platforms Engineer"
+   ],
+   "sample_matching": [
+    {
+     "title": "Senior Business Analyst",
+     "url": "https://jobs.six-group.com/job/Las-Rozas-de-Madrid-Senior-Business-Analyst/1441842933/",
+     "context": "Senior Business Analyst Senior Business Analyst Las Rozas de Madrid, ES Las Rozas de Madrid, ES"
+    },
+    {
+     "title": "Senior Data Acquisition Manager (80-100%)",
+     "url": "https://jobs.six-group.com/job/Zurich-Senior-Data-Acquisition-Manager-%2880-100%29/1450317433/",
+     "context": "Senior Data Acquisition Manager (80-100%) Senior Data Acquisition Manager (80-100%) Zurich, CH Zurich, CH"
+    },
+    {
+     "title": "Data Transformation Manager",
+     "url": "https://jobs.six-group.com/job/Warsaw-Data-Transformation-Manager/1449676433/",
+     "context": "Data Transformation Manager Data Transformation Manager Warsaw, PL Warsaw, PL"
+    },
+    {
+     "title": "Data Quality Analyst",
+     "url": "https://jobs.six-group.com/job/Warsaw-Data-Quality-Analyst/1449916133/",
+     "context": "Data Quality Analyst Data Quality Analyst Warsaw, PL Warsaw, PL"
+    },
+    {
+     "title": "Data Analyst",
+     "url": "https://jobs.six-group.com/job/Las-Rozas-de-Madrid-Data-Analyst/1439649333/",
+     "context": "Data Analyst Data Analyst Las Rozas de Madrid, ES Las Rozas de Madrid, ES"
+    },
+    {
+     "title": "Data Analyst",
+     "url": "https://jobs.six-group.com/job/Singapore-Data-Analyst/1448871033/",
+     "context": "Data Analyst Data Analyst Singapore, SG Singapore, SG"
+    },
+    {
+     "title": "Customer Support Agent & Market Data Platform Specialist",
+     "url": "https://jobs.six-group.com/job/Copenhagen-Customer-Support-Agent-&-Market-Data-Platform-Specialist/1448413133/",
+     "context": "Customer Support Agent & Market Data Platform Specialist Customer Support Agent & Market Data Platform Specialist Copenhagen, DK Copenhagen, DK"
+    },
+    {
+     "title": "Business Analyst",
+     "url": "https://jobs.six-group.com/job/Warsaw-Business-Analyst/1448087833/",
+     "context": "Business Analyst Business Analyst Warsaw, PL Warsaw, PL"
+    },
+    {
+     "title": "Data Licensing Specialist (100%)",
+     "url": "https://jobs.six-group.com/job/Zurich-Data-Licensing-Specialist-%28100%29/1448061833/",
+     "context": "Data Licensing Specialist (100%) Data Licensing Specialist (100%) Zurich, CH Zurich, CH"
+    },
+    {
+     "title": "CMC Data & Process Governance Manager",
+     "url": "https://jobs.six-group.com/job/Warsaw-CMC-Data-&-Process-Governance-Manager/1447459033/",
+     "context": "CMC Data & Process Governance Manager CMC Data & Process Governance Manager Warsaw, PL Warsaw, PL"
+    }
+   ],
+   "json": []
+  },
+  "Advanzia Bank": {
+   "links_found": 12,
+   "keyword_matches": 3,
+   "errors": [],
+   "sample_all": [
+    "Customers Service & Complaints Officer – German Speaker",
+    "Customer Service Trainee – Internship opportunities for German speakers",
+    "Customer Service Trainee – Italian & Spanish speaker",
+    "Corporate Finance Analyst",
+    "Financial Reporting Analyst",
+    "Junior Data Analyst",
+    "Payment Systems & Automation Associate Director",
+    "Risk Management Officer",
+    "Internal Audit Officer (full/part-time)",
+    "Azure DevOps Infrastructure-as-Code Engineer"
+   ],
+   "sample_matching": [
+    {
+     "title": "Corporate Finance Analyst",
+     "url": "https://www.advanzia.com/en/job/corporate-finance-analyst",
+     "context": "Customers Service & Complaints Officer – German Speaker Customer Service Customer Service Customer Service Trainee – Internship opportunities for German speakers Customer Service Customer Service Cust"
+    },
+    {
+     "title": "Financial Reporting Analyst",
+     "url": "https://www.advanzia.com/en/job/financial-reporting-analyst",
+     "context": "Customers Service & Complaints Officer – German Speaker Customer Service Customer Service Customer Service Trainee – Internship opportunities for German speakers Customer Service Customer Service Cust"
+    },
+    {
+     "title": "Junior Data Analyst",
+     "url": "https://www.advanzia.com/en/job/junior-data-analyst",
+     "context": "Customers Service & Complaints Officer – German Speaker Customer Service Customer Service Customer Service Trainee – Internship opportunities for German speakers Customer Service Customer Service Cust"
+    }
+   ],
+   "json": [
+    "[json-sans-lien] https://mkiw82r3.apicdn.sanity.io/v2025-09-20/data/query/production?query=%0A++*%5B_type+%3D%3D+%22navigation%22+%26%26+ — clés : internalLink, label, openInNewTab, submenu, url — exemple : {\"internalLink\": {\"slug\": {\"_type\": \"slug\", \"current\": \"private-customers\"}}, \"label\": \"Private  customers\", \"openInNewTab\": false, \"submenu\": null, \"url\": null}",
+    "[json-sans-lien] https://tiles.openfreemap.org/planet — clés : class, ele, ele_ft, iata, icao, name, name:af, name:am, name:ar, name:az, name:be, name:bg, name:bn, name:br, name:bs, name:ca, name:co, name:cs, name:cy, name:da, name:de, name:el, name:en, name:eo, name:es — exemple : {\"class\": \"String\", \"ele\": \"Number\", \"ele_ft\": \"Number\", \"iata\": \"String\", \"icao\": \"String\", \"name\": \"String\", \"name:af\": \"String\", \"name:am\": \"String\", \"name:ar\": \"String\", \"name:az\": \"String\", \"name:be\": \"String\", \"name:bg\": \"String\", \"name:bn\": \"String\", \"name:br\": \"String\", \"name:bs\": \"String\", \"name:ca\": \"String\", \"name:co\": \"String\", \"name:cs\": \"String\", \"name:cy\": \"String\", \"name:da\": \"String\", \"name:de\": \"String\", \"name:el\": \"String\", \"name:en\": \"String\", \"name:eo\": \"String\", \"name:es\": "
+   ]
+  },
+  "ING": {
+   "links_found": 27,
+   "keyword_matches": 27,
+   "errors": [],
+   "sample_all": [
+    "Data Analist",
+    "Data Analyst (Data Modelling)",
+    "Data Governance Expert",
+    "Data Governance Circle Lead, Scalable Data Services",
+    "Data Modeling Analyst",
+    "Data Protection Professional",
+    "Principal Data Scientist",
+    "Data Analyst (Credit Risk)",
+    "Data Quality Expert II",
+    "Data Analyst / Data Modeler | GKYC @ING Hubs Romania"
+   ],
+   "sample_matching": [
+    {
+     "title": "Data Analist",
+     "url": "https://careers.ing.com/en/job/amsterdam/data-analist/3121/46369312128",
+     "context": "Data Analist Amsterdam, Netherlands Data Analysis Full time Professional ING Bank Save for Later Show job"
+    },
+    {
+     "title": "Data Analyst (Data Modelling)",
+     "url": "https://careers.ing.com/en/job/makati-city/data-analyst-data-modelling/3121/46281037632",
+     "context": "Data Analyst (Data Modelling) Makati City, Philippines Customer Journey Full time Professional ING Hubs Save for Later Show job"
+    },
+    {
+     "title": "Data Governance Expert",
+     "url": "https://careers.ing.com/en/job/singapore/data-governance-expert/3121/46155027200",
+     "context": "Data Governance Expert Singapore, Singapore Data Governance Full time Professional ING Bank Save for Later Show job"
+    },
+    {
+     "title": "Data Governance Circle Lead, Scalable Data Services",
+     "url": "https://careers.ing.com/en/job/makati-city/data-governance-circle-lead-scalable-data-services/3121/46408993408",
+     "context": "Data Governance Circle Lead, Scalable Data Services Makati City, Philippines Data Governance Full time Professional ING Hubs Save for Later Show job"
+    },
+    {
+     "title": "Data Modeling Analyst",
+     "url": "https://careers.ing.com/en/job/makati-city/data-modeling-analyst/3121/43998316160",
+     "context": "Data Modeling Analyst Makati City, Philippines Meta Data Management & Data Modelling Full time Professional ING Hubs Save for Later Show job"
+    },
+    {
+     "title": "Data Protection Professional",
+     "url": "https://careers.ing.com/en/job/makati-city/data-protection-professional/3121/45386467904",
+     "context": "Data Protection Professional Makati City, Philippines Data Governance Full time Professional ING Hubs Save for Later Show job"
+    },
+    {
+     "title": "Principal Data Scientist",
+     "url": "https://careers.ing.com/en/job/istanbul/principal-data-scientist/3121/31474962112",
+     "context": "Principal Data Scientist Istanbul, Turkiye Data Science Full time Professional ING Hubs Save for Later Show job"
+    },
+    {
+     "title": "Data Analyst (Credit Risk)",
+     "url": "https://careers.ing.com/en/job/city-of-taguig/data-analyst-credit-risk/3121/45167336448",
+     "context": "Data Analyst (Credit Risk) City of Taguig, Philippines Data Analysis Full time Starter / Graduate ING Hubs Save for Later Show job"
+    },
+    {
+     "title": "Data Quality Expert II",
+     "url": "https://careers.ing.com/en/job/makati-city/data-quality-expert-ii/3121/46185946624",
+     "context": "Data Quality Expert II Makati City, Philippines Data Governance Full time Professional ING Hubs Save for Later Show job"
+    },
+    {
+     "title": "Data Analyst / Data Modeler | GKYC @ING Hubs Romania",
+     "url": "https://careers.ing.com/en/job/bucharest/data-analyst-data-modeler-gkyc-ing-hubs-romania/3121/46193006464",
+     "context": "Data Analyst / Data Modeler | GKYC @ING Hubs Romania Bucharest, Romania Meta Data Management & Data Modelling Full time Professional ING Hubs Save for Later Show job"
+    }
+   ],
+   "json": [
+    "[json-sans-lien] https://sidebar.bugherd.com/sidebar/resources?apikey=6d6ra2droxxmeejg0qjrhq — clés : id, project_id, name, task_count, created_at, updated_at, archived_at, deleted_at, inactive_count, active_count, active — exemple : {\"id\": 1052969, \"project_id\": 412844, \"name\": \"Back-End\", \"task_count\": 6, \"created_at\": \"2025-02-03T14:49:18.085Z\", \"updated_at\": \"2025-02-10T15:06:30.586Z\", \"archived_at\": null, \"deleted_at\": null, \"inactive_count\": 0, \"active_count\": 6, \"active\": true}",
+    "[json-offres] 15 offres dans https://careers.ing.com/en/search-jobs/results?ActiveFacetID=0&CurrentPage=1&RecordsPerPage=15&TotalContentResults=58&Di (ex. « Data Analist » → https://careers.ing.com/en/job/amsterdam/data-analist/3121/46369312128, publiée ?)",
+    "[json-sans-lien] https://sidebar.bugherd.com/sidebar/resources?apikey=6d6ra2droxxmeejg0qjrhq — clés : id, project_id, name, task_count, created_at, updated_at, archived_at, deleted_at, inactive_count, active_count, active — exemple : {\"id\": 1052969, \"project_id\": 412844, \"name\": \"Back-End\", \"task_count\": 6, \"created_at\": \"2025-02-03T14:49:18.085Z\", \"updated_at\": \"2025-02-10T15:06:30.586Z\", \"archived_at\": null, \"deleted_at\": null, \"inactive_count\": 0, \"active_count\": 6, \"active\": true}"
+   ]
+  },
+  "Swiss Life": {
+   "links_found": 0,
+   "keyword_matches": 0,
+   "errors": [],
+   "sample_all": [],
+   "sample_matching": [],
+   "json": [],
+   "page_info": "titre « Attention Required! | Cloudflare », 1 liens <a>",
+   "json_calls": []
+  },
+  "SII Group": {
+   "links_found": 1,
+   "keyword_matches": 0,
+   "errors": [],
+   "sample_all": [
+    "Nos entités"
+   ],
+   "sample_matching": [],
+   "json": [],
+   "page_info": "titre « Page not found | Groupe SII », 215 liens <a>",
+   "json_calls": []
+  },
+  "EPAM Systems": {
+   "links_found": 0,
+   "keyword_matches": 0,
+   "errors": [],
+   "sample_all": [],
+   "sample_matching": [],
+   "json": [],
+   "page_info": "titre « Un instant… », 2 liens <a>",
+   "json_calls": []
+  },
+  "AIA Digital": {
+   "links_found": 0,
+   "keyword_matches": 0,
+   "errors": [
+    "https://careers.aia.com/search/?q=data&locationsearch=Malaysia → Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.aia.com/search/?q=data&locationsearch=Malaysia\nCall log:\nnavigating to \"https://careers.aia.com/search/",
+    "https://careers.aia.com/search/?q=analyst&locationsearch=Malaysia → Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.aia.com/search/?q=analyst&locationsearch=Malaysia\nCall log:\nnavigating to \"https://careers.aia.com/sear"
+   ],
+   "sample_all": [],
+   "sample_matching": [],
+   "json": [],
+   "page_info": "titre « Un instant… », 2 liens <a>",
+   "json_calls": []
+  },
+  "OQ": {
+   "links_found": 0,
+   "keyword_matches": 0,
+   "errors": [
+    "https://oq.com/en/careers → Error: Page.goto: net::ERR_CONNECTION_RESET at https://oq.com/en/careers\nCall log:\nnavigating to \"https://oq.com/en/careers\", waiting until \"domcontentloaded\"\n"
+   ],
+   "sample_all": [],
+   "sample_matching": [],
+   "json": [],
+   "page_info": "titre « Un instant… », 2 liens <a>",
+   "json_calls": []
+  },
+  "Rihal": {
+   "links_found": 0,
+   "keyword_matches": 0,
+   "errors": [],
+   "sample_all": [],
+   "sample_matching": [],
+   "json": [],
+   "page_info": "titre « Careers at Rihal | Technology Jobs in Oman », 31 liens <a>",
+   "json_calls": [
+    "GET 200 https://api.framer.com/auth/web/access-token?source=editorbar"
    ]
   }
  }
