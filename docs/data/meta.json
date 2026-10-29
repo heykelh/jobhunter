@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T10:59:02+00:00",
+ "updated": "2026-10-29T14:22:59+00:00",
  "keywords": [
   "data",
   "analyst"
@@ -32,7 +32,6 @@
   "TotalEnergies",
   "VINCI (dont ETF)",
   "Eiffage",
-  "Bouygues Telecom",
   "Orange",
   "jobs.ch",
   "jobup.ch",
@@ -46,10 +45,11 @@
   "GulfTalent (Oman)"
  ],
  "ai": {
-  "ok": 5,
-  "errors": 12,
-  "last_error": "HTTP 429 (openai/gpt-oss-120b) : {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kkqt4ecsfjybqscgqhm4275e` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6109, Req",
+  "ok": 7,
+  "errors": 2,
+  "last_error": "HTTP 429 (openai/gpt-oss-120b) : {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kkqt4ecsfjybqscgqhm4275e` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7300, Req",
   "model": "openai/gpt-oss-120b",
-  "at": "2026-10-29T10:59:02+00:00"
+  "waits": 2,
+  "at": "2026-10-29T14:22:59+00:00"
  }
 }

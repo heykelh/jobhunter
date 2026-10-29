@@ -1,0 +1,181 @@
+{
+ "titre": "MitarbeiterIn Data Quality & Stammdatenmanagement",
+ "profil": "Professionnel avec 13 ans d’expérience au sein du groupe SNCF, spécialisé en gestion et gouvernance des données de base. Titulaire d’un Master Data Engineer / Data Product Manager (Bac+5, Mines Paris). Réalisation de plus de 15 projets axés sur la qualité, la conformité et la maintenance des données.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Excel",
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "GitHub Actions (CI/CD)",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "frontierbank",
+   "titre": "FrontierBank : gouvernance des données d'une banque fictive",
+   "stack": "BCBS 239, DAMA-DMBOK, AI Act, Power BI",
+   "lien": "frontierbank-data.vercel.app",
+   "tags": [
+    "gouvernance",
+    "governance",
+    "steward",
+    "qualité",
+    "quality",
+    "bcbs",
+    "dama",
+    "lignage",
+    "lineage",
+    "banque",
+    "bancaire",
+    "risque",
+    "réglementaire",
+    "conformité",
+    "raci",
+    "référentiel",
+    "métadonnées"
+   ],
+   "puces": [
+    "Conseil en gouvernance des données : diagnostic conformité, cadre de référence, cartographie du lignage et matrice RACI.",
+    "Déploiement de tableaux de bord Power BI pour suivre la qualité des données et la conformité aux exigences légales."
+   ]
+  },
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Analyse fonctionnelle d’un système de crédit : de la collecte du besoin à la validation des recettes.",
+    "Production de livrables incluant cartographie des processus, spécifications fonctionnelles et plan de tests."
+   ]
+  },
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Inspection de la chaîne de données du risque de crédit : cadrage, investigations et restitution des constats.",
+    "Développement de contrôles qualité en SQL, scoring de risque et registre des constats."
+   ]
+  },
+  {
+   "id": "palier",
+   "titre": "PALIER : tarification et yield management TGV",
+   "stack": "Python, DuckDB, Power BI, Next.js, GitHub Actions",
+   "lien": "palier-sncf.vercel.app",
+   "tags": [
+    "pricing",
+    "prix",
+    "tarif",
+    "tarification",
+    "revenue",
+    "yield",
+    "élasticité",
+    "demande",
+    "transport",
+    "ferroviaire",
+    "voyageurs",
+    "sncf",
+    "commercial",
+    "offre"
+   ],
+   "puces": [
+    "Analyse de la tarification TGV à partir de données ouvertes : élasticité prix et positionnement concurrentiel.",
+    "Mise en place d’un module de gestion du yield : allocation des places par palier tarifaire avec mise à jour automatisée."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "data quality",
+  "allemand"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "df8dfe28604b",
+ "entreprise": "GAUTSCHI SPEZIALITÄTEN AG",
+ "intitule_offre": "MitarbeiterIn Data Quality & Stammdatenmanagement 60 - 80 %",
+ "url_offre": "https://www.jobs.ch/fr/offres-emplois/detail/346be9c4-fdf3-47ef-b141-919aea38ab34/",
+ "genere_le": "2026-10-29T14:20:48+00:00"
+}

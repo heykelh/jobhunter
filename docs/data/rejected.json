@@ -1,6 +1,134 @@
 {
- "updated": "2026-10-29T10:59:02+00:00",
+ "updated": "2026-10-29T14:22:59+00:00",
  "items": [
+  {
+   "id": "96e987ccc812",
+   "company": "ING",
+   "title": "Business Analyst - Regulatory Reporting",
+   "url": "https://careers.ing.com/en/job/makati-city/business-analyst-regulatory-reporting/3121/44659395904",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-29T14:22:50+00:00"
+  },
+  {
+   "id": "cbccd0c2ffb1",
+   "company": "UBS",
+   "title": "GM Distribution - Quantitative Analyst/Engineer",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=352647",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-29T14:22:25+00:00"
+  },
+  {
+   "id": "e778702f42d3",
+   "company": "UBS",
+   "title": "Data Steward - Static and Sustainability",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=352185",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-29T14:22:25+00:00"
+  },
+  {
+   "id": "a545436fe7b1",
+   "company": "jobup.ch",
+   "title": "Security Analyst / Architect (f/m/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/678ec0ee-ec68-44e4-bf70-3e52ad5a354f/",
+   "reason": "titre exclu (architect)",
+   "at": "2026-10-29T14:21:34+00:00"
+  },
+  {
+   "id": "b7cdf4b79132",
+   "company": "jobup.ch",
+   "title": "Data Analyst Industriel (H/F)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/95e1db66-1cfd-4751-baaa-f001c1a68bb6/",
+   "reason": "expérience demandée ≥ 6 ans « e ou genie industriel. experience confirmee (6-15 ans) en data analyse dans de »",
+   "at": "2026-10-29T14:21:32+00:00"
+  },
+  {
+   "id": "6de7e9e5355a",
+   "company": "jobup.ch",
+   "title": "Data Governance & Lifecycle Enablement Lead 80-100% (f/m/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/bfa319a4-57bd-41d6-89af-175e0606f02e/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-10-29T14:21:32+00:00"
+  },
+  {
+   "id": "11f57fd75381",
+   "company": "jobs.ch",
+   "title": "Data Analyst Industriel (H/F)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/95e1db66-1cfd-4751-baaa-f001c1a68bb6/",
+   "reason": "expérience demandée ≥ 6 ans « e ou genie industriel. experience confirmee (6-15 ans) en data analyse dans de »",
+   "at": "2026-10-29T14:20:50+00:00"
+  },
+  {
+   "id": "56c864f665a8",
+   "company": "jobs.ch",
+   "title": "Tech Partner Analytics, Reporting, Data & Platform (w/m/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/0e64e5cd-bc3f-4a91-9cca-3457c137f86d/",
+   "reason": "expérience demandée ≥ 3 ans « tion comparable experience professionnelle : plusieurs annees d'experience dans des environnements »",
+   "at": "2026-10-29T14:20:48+00:00"
+  },
+  {
+   "id": "a250d6af7143",
+   "company": "jobs.ch",
+   "title": "ERP, Data Digitalisation Specialist CDI 100 (H/F)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/ad46930e-37a9-4011-bd2d-a6b4c81a73fb/",
+   "reason": "expérience demandée ≥ 3 ans « c des solutions du marche (proconcept, odoo) solide experience dans l'analyse de besoin »",
+   "at": "2026-10-29T14:20:40+00:00"
+  },
+  {
+   "id": "a7267ef9e4c5",
+   "company": "TotalEnergies",
+   "title": "STAGE Short Term Power Middle Office Analyst H/F",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/STAGE-Short-Term-Power-Middle-Office-Analyst-H-F/85697",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-29T14:19:51+00:00"
+  },
+  {
+   "id": "3d7367dc34df",
+   "company": "Crédit Agricole",
+   "title": "Assistant Data scientist H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-assistant-data-scientist-hf-reference--2026-116968--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-10-29T14:16:57+00:00"
+  },
+  {
+   "id": "e670779e2d82",
+   "company": "Crédit Agricole",
+   "title": "Data & Reporting Analyst H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-data-et-reporting-analyst-hf-reference--2026-115082--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-10-29T14:16:55+00:00"
+  },
+  {
+   "id": "26fc07faa5f8",
+   "company": "Crédit Agricole",
+   "title": "Analyste Crédit Early Detection H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-credit-early-detection-hf-reference--2026-113297--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-10-29T14:16:54+00:00"
+  },
+  {
+   "id": "b1e4183b0c46",
+   "company": "Crédit Agricole",
+   "title": "Analyste Pilotage Référentiel des Processus et Plan de Contrôles Opérationnels H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170470-4-analyste-pilotage-referentiel-des-processus-et-plan-de-controles-operationnels-hf-reference--2026-115346--/",
+   "reason": "expérience demandée ≥ 5 ans « erce, ingenieurs ou universite un minimum de 5 annees d'experience niveau d'ex »",
+   "at": "2026-10-29T14:16:52+00:00"
+  },
+  {
+   "id": "2ae3266042a6",
+   "company": "Crédit Agricole",
+   "title": "Stage - Analyste Multigestion Private Equity H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-124-stage---analyste-multigestion-private-equity-hf-reference--2026-116979--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-29T14:16:50+00:00"
+  },
+  {
+   "id": "55386513b70e",
+   "company": "Alstom",
+   "title": "Analytics Technical Analyst",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Analytics-Technical-Analyst/1441849233/",
+   "reason": "lieu hors zones",
+   "at": "2026-10-29T14:15:06+00:00"
+  },
   {
    "id": "763f9d6037bd",
    "company": "ING",

@@ -1,6 +1,71 @@
 {
- "updated": "2026-10-29T10:59:02+00:00",
+ "updated": "2026-10-29T14:22:59+00:00",
  "jobs": [
+  {
+   "id": "4b8bd036748a",
+   "company": "Stadler Rail Schweiz AG",
+   "title": "Stadler: Data Analyst",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/cdefb3fb-486c-4036-a000-204f2a8f7616/",
+   "via": "jobs.ch",
+   "zone": "Suisse",
+   "country": "Suisse",
+   "contract": "?",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-10-06T06:13:21+02:00",
+   "seed": false,
+   "rv": 2,
+   "match": {
+    "score": 75,
+    "have": [
+     "python",
+     "sql",
+     "power bi",
+     "excel",
+     "tableaux de bord",
+     "anglais"
+    ],
+    "missing": [
+     "vba",
+     "allemand"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-10-29T14:20:52+00:00",
+   "last_seen": "2026-10-29T14:20:52+00:00"
+  },
+  {
+   "id": "df8dfe28604b",
+   "company": "GAUTSCHI SPEZIALITÄTEN AG",
+   "title": "MitarbeiterIn Data Quality & Stammdatenmanagement 60 - 80 %",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/346be9c4-fdf3-47ef-b141-919aea38ab34/",
+   "via": "jobs.ch",
+   "zone": "Suisse",
+   "country": "Suisse",
+   "contract": "CDI",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-10-29T14:34:44+01:00",
+   "seed": false,
+   "rv": 2,
+   "match": {
+    "score": 86,
+    "have": [
+     "excel",
+     "data quality",
+     "qualité des données",
+     "conformité",
+     "spécifications",
+     "anglais"
+    ],
+    "missing": [
+     "allemand"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-10-29T14:20:44+00:00",
+   "last_seen": "2026-10-29T14:20:44+00:00"
+  },
   {
    "id": "3ca060478dbd",
    "company": "Julius Baer",
@@ -28,7 +93,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:28:53+00:00",
-   "last_seen": "2026-10-29T10:58:00+00:00"
+   "last_seen": "2026-10-29T14:22:05+00:00"
   },
   {
    "id": "b9a0be535054",
@@ -119,7 +184,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:28:07+00:00",
-   "last_seen": "2026-10-29T10:57:24+00:00"
+   "last_seen": "2026-10-29T14:21:34+00:00"
   },
   {
    "id": "d6974f5955a6",
@@ -138,7 +203,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-29T10:28:05+00:00",
-   "last_seen": "2026-10-29T10:57:22+00:00"
+   "last_seen": "2026-10-29T14:21:34+00:00"
   },
   {
    "id": "4b9b91a1656f",
@@ -170,7 +235,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:28:04+00:00",
-   "last_seen": "2026-10-29T10:57:21+00:00"
+   "last_seen": "2026-10-29T14:21:34+00:00"
   },
   {
    "id": "cf46f120bf80",
@@ -200,7 +265,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:28:00+00:00",
-   "last_seen": "2026-10-29T10:57:19+00:00"
+   "last_seen": "2026-10-29T14:21:34+00:00"
   },
   {
    "id": "72a9a945f81b",
@@ -219,7 +284,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-29T10:27:55+00:00",
-   "last_seen": "2026-10-29T10:57:12+00:00"
+   "last_seen": "2026-10-29T14:21:32+00:00"
   },
   {
    "id": "dab274884e02",
@@ -247,7 +312,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:27:54+00:00",
-   "last_seen": "2026-10-29T10:57:10+00:00"
+   "last_seen": "2026-10-29T14:21:32+00:00"
   },
   {
    "id": "bcaa9e9350f2",
@@ -277,7 +342,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:27:45+00:00",
-   "last_seen": "2026-10-29T10:57:09+00:00"
+   "last_seen": "2026-10-29T14:21:32+00:00"
   },
   {
    "id": "d7e4516fff26",
@@ -296,7 +361,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-29T10:27:37+00:00",
-   "last_seen": "2026-10-29T10:57:07+00:00"
+   "last_seen": "2026-10-29T14:21:31+00:00"
   },
   {
    "id": "c58eef5c3d9a",
@@ -325,7 +390,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:27:23+00:00",
-   "last_seen": "2026-10-29T10:56:56+00:00"
+   "last_seen": "2026-10-29T14:20:48+00:00"
   },
   {
    "id": "903bbe48ffba",
@@ -355,7 +420,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:27:22+00:00",
-   "last_seen": "2026-10-29T10:56:55+00:00"
+   "last_seen": "2026-10-29T14:20:48+00:00"
   },
   {
    "id": "3d45871efb4e",
@@ -374,7 +439,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-29T10:27:20+00:00",
-   "last_seen": "2026-10-29T10:56:51+00:00"
+   "last_seen": "2026-10-29T14:20:48+00:00"
   },
   {
    "id": "e58ee0da019a",
@@ -393,7 +458,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-29T10:27:19+00:00",
-   "last_seen": "2026-10-29T10:56:48+00:00"
+   "last_seen": "2026-10-29T14:20:48+00:00"
   },
   {
    "id": "65ad705f0995",
@@ -421,7 +486,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:27:14+00:00",
-   "last_seen": "2026-10-29T10:56:48+00:00"
+   "last_seen": "2026-10-29T14:20:48+00:00"
   },
   {
    "id": "f8340aca03c6",
@@ -452,7 +517,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:27:05+00:00",
-   "last_seen": "2026-10-29T10:56:48+00:00"
+   "last_seen": "2026-10-29T14:20:48+00:00"
   },
   {
    "id": "cd3a9c28f5a8",
@@ -482,7 +547,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:27:03+00:00",
-   "last_seen": "2026-10-29T10:56:48+00:00"
+   "last_seen": "2026-10-29T14:20:48+00:00"
   },
   {
    "id": "33b675108649",
@@ -511,7 +576,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:27:02+00:00",
-   "last_seen": "2026-10-29T10:56:48+00:00"
+   "last_seen": "2026-10-29T14:20:48+00:00"
   },
   {
    "id": "c32969a21d88",
@@ -539,7 +604,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:26:55+00:00",
-   "last_seen": "2026-10-29T10:56:48+00:00"
+   "last_seen": "2026-10-29T14:20:48+00:00"
   },
   {
    "id": "13d3626e86f9",
@@ -581,7 +646,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:26:52+00:00",
-   "last_seen": "2026-10-29T10:56:48+00:00"
+   "last_seen": "2026-10-29T14:20:48+00:00"
   },
   {
    "id": "2ceb968a9668",
@@ -600,7 +665,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-29T10:26:46+00:00",
-   "last_seen": "2026-10-29T10:56:48+00:00"
+   "last_seen": "2026-10-29T14:20:43+00:00"
   },
   {
    "id": "49e9b9f023ad",
@@ -632,7 +697,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:26:39+00:00",
-   "last_seen": "2026-10-29T10:56:46+00:00"
+   "last_seen": "2026-10-29T14:20:40+00:00"
   },
   {
    "id": "47ae7550f550",
@@ -664,7 +729,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:26:36+00:00",
-   "last_seen": "2026-10-29T10:56:46+00:00"
+   "last_seen": "2026-10-29T14:20:40+00:00"
   },
   {
    "id": "8096a608d3ba",
@@ -700,7 +765,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:26:33+00:00",
-   "last_seen": "2026-10-29T10:56:46+00:00"
+   "last_seen": "2026-10-29T14:20:40+00:00"
   },
   {
    "id": "6219b5d66c6b",
@@ -719,7 +784,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-29T10:26:30+00:00",
-   "last_seen": "2026-10-29T10:56:46+00:00"
+   "last_seen": "2026-10-29T14:20:40+00:00"
   },
   {
    "id": "7ac708e3d27f",
@@ -757,7 +822,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:26:27+00:00",
-   "last_seen": "2026-10-29T10:56:46+00:00"
+   "last_seen": "2026-10-29T14:20:38+00:00"
   },
   {
    "id": "417e43af90e5",
@@ -786,37 +851,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:26:19+00:00",
-   "last_seen": "2026-10-29T10:56:46+00:00"
-  },
-  {
-   "id": "6001e4e5710e",
-   "company": "Bouygues Telecom",
-   "title": "Data",
-   "url": "https://www.corporate.bouyguestelecom.fr/travailler-ensemble/nos-metiers/data/",
-   "via": null,
-   "zone": "Île-de-France",
-   "country": "France",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-27",
-   "seed": true,
-   "rv": 2,
-   "match": {
-    "score": 60,
-    "have": [
-     "python",
-     "sql",
-     "intelligence artificielle"
-    ],
-    "missing": [
-     "catalogue",
-     "sap"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-10-29T10:25:36+00:00",
-   "last_seen": "2026-10-29T10:56:21+00:00"
+   "last_seen": "2026-10-29T14:20:38+00:00"
   },
   {
    "id": "4bebdcca4697",
@@ -836,7 +871,7 @@
    "salary": null,
    "sponsor": "skilled",
    "first_seen": "2026-10-29T10:23:12+00:00",
-   "last_seen": "2026-10-29T10:54:10+00:00"
+   "last_seen": "2026-10-29T14:17:59+00:00"
   },
   {
    "id": "77d6a6774f0a",
@@ -853,7 +888,7 @@
    "rv": 2,
    "match": null,
    "first_seen": "2026-10-28T10:34:45+00:00",
-   "last_seen": "2026-10-29T10:53:47+00:00"
+   "last_seen": "2026-10-29T14:17:36+00:00"
   },
   {
    "id": "76bc150e9b01",
@@ -882,7 +917,7 @@
     "missing": []
    },
    "first_seen": "2026-10-28T10:34:36+00:00",
-   "last_seen": "2026-10-29T10:53:47+00:00"
+   "last_seen": "2026-10-29T14:17:36+00:00"
   },
   {
    "id": "4e80bd2f5d16",
@@ -942,7 +977,7 @@
     ]
    },
    "first_seen": "2026-10-27T20:42:04+00:00",
-   "last_seen": "2026-10-29T10:53:47+00:00"
+   "last_seen": "2026-10-29T14:17:36+00:00"
   },
   {
    "id": "deb616687b85",
@@ -957,7 +992,7 @@
    "published": "2026-10-27T06:16:00+00:00",
    "seed": false,
    "first_seen": "2026-10-27T09:22:13+00:00",
-   "last_seen": "2026-10-29T10:54:10+00:00",
+   "last_seen": "2026-10-29T14:17:59+00:00",
    "rv": 2,
    "match": null
   },
@@ -974,7 +1009,7 @@
    "published": "2026-10-18",
    "seed": false,
    "first_seen": "2026-10-26T16:49:33+00:00",
-   "last_seen": "2026-10-29T10:53:47+00:00",
+   "last_seen": "2026-10-29T14:17:36+00:00",
    "rv": 2,
    "match": {
     "score": 100,
@@ -999,7 +1034,7 @@
    "published": "2026-10-26",
    "seed": false,
    "first_seen": "2026-10-26T16:49:15+00:00",
-   "last_seen": "2026-10-29T10:53:47+00:00",
+   "last_seen": "2026-10-29T14:17:36+00:00",
    "rv": 2,
    "match": null
   },
@@ -1064,35 +1099,6 @@
    "last_seen": "2026-10-26T21:39:46+00:00"
   },
   {
-   "id": "32f524565723",
-   "company": "Rihal",
-   "title": "Data Management",
-   "url": "https://rihal.om/services/dm",
-   "zone": "Oman",
-   "country": "Oman",
-   "contract": "?",
-   "experience": "non précisée",
-   "junior": false,
-   "published": null,
-   "seed": true,
-   "first_seen": "2026-10-26T10:11:44+00:00",
-   "last_seen": "2026-10-28T10:39:32+00:00",
-   "date_tries": 3,
-   "rv": 2,
-   "match": {
-    "score": 80,
-    "have": [
-     "power bi",
-     "etl",
-     "machine learning",
-     "reporting"
-    ],
-    "missing": [
-     "catalogue"
-    ]
-   }
-  },
-  {
    "id": "5dc149476418",
    "company": "SIX Group",
    "title": "Data Analyst",
@@ -1105,7 +1111,7 @@
    "published": "2026-10-09T02:01:00+00:00",
    "seed": true,
    "first_seen": "2026-10-26T10:09:34+00:00",
-   "last_seen": "2026-10-29T10:58:28+00:00",
+   "last_seen": "2026-10-29T14:22:27+00:00",
    "rv": 2,
    "match": {
     "score": 50,
@@ -1132,7 +1138,7 @@
    "published": "2026-10-13T00:00:00+00:00",
    "seed": true,
    "first_seen": "2026-10-26T10:09:31+00:00",
-   "last_seen": "2026-10-29T10:58:28+00:00",
+   "last_seen": "2026-10-29T14:22:27+00:00",
    "rv": 2,
    "match": {
     "score": 57,
@@ -1233,7 +1239,7 @@
    "published": "2026-10-23",
    "seed": false,
    "first_seen": "2026-10-24T00:43:13+00:00",
-   "last_seen": "2026-10-29T10:56:41+00:00",
+   "last_seen": "2026-10-29T14:20:33+00:00",
    "country": "Suisse",
    "rv": 2,
    "match": {
@@ -1259,7 +1265,7 @@
    "published": "2026-07-30",
    "seed": true,
    "first_seen": "2026-10-23T23:34:56+00:00",
-   "last_seen": "2026-10-29T10:56:14+00:00",
+   "last_seen": "2026-10-29T14:20:02+00:00",
    "country": "France",
    "rv": 2,
    "match": {
@@ -1317,7 +1323,7 @@
    "published": "2026-10-23T10:37:00+00:00",
    "seed": false,
    "first_seen": "2026-10-23T14:27:55+00:00",
-   "last_seen": "2026-10-29T10:54:10+00:00",
+   "last_seen": "2026-10-29T14:17:59+00:00",
    "country": "Suisse",
    "rv": 2,
    "match": null
@@ -1334,7 +1340,7 @@
    "published": "2026-10-22",
    "seed": false,
    "first_seen": "2026-10-23T14:27:38+00:00",
-   "last_seen": "2026-10-29T10:53:47+00:00",
+   "last_seen": "2026-10-29T14:17:36+00:00",
    "country": "France",
    "rv": 2,
    "match": {
@@ -1414,7 +1420,7 @@
    "published": "2026-10-23T09:23:46+00:00",
    "seed": false,
    "first_seen": "2026-10-23T09:29:55+00:00",
-   "last_seen": "2026-10-29T10:51:18+00:00",
+   "last_seen": "2026-10-29T14:14:47+00:00",
    "country": "France",
    "rv": 2,
    "match": null
@@ -1515,7 +1521,7 @@
    "published": "2026-10-14T10:27:00+00:00",
    "seed": false,
    "first_seen": "2026-10-22T08:15:53+00:00",
-   "last_seen": "2026-10-29T10:54:10+00:00",
+   "last_seen": "2026-10-29T14:17:59+00:00",
    "country": "Suisse",
    "rv": 2,
    "match": null
@@ -1588,7 +1594,7 @@
    "published": "2026-10-21",
    "seed": false,
    "first_seen": "2026-10-21T09:20:06+00:00",
-   "last_seen": "2026-10-29T10:56:05+00:00",
+   "last_seen": "2026-10-29T14:19:51+00:00",
    "country": "Suisse",
    "rv": 2,
    "match": {
@@ -1613,7 +1619,7 @@
    "published": "2026-02-23",
    "seed": false,
    "first_seen": "2026-10-20T17:36:46+00:00",
-   "last_seen": "2026-10-29T10:53:47+00:00",
+   "last_seen": "2026-10-29T14:17:36+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 2,
@@ -1642,7 +1648,7 @@
    "published": "2026-03-15",
    "seed": false,
    "first_seen": "2026-10-20T17:36:36+00:00",
-   "last_seen": "2026-10-29T10:53:47+00:00",
+   "last_seen": "2026-10-29T14:17:36+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 2,
@@ -1671,7 +1677,7 @@
    "published": "2026-06-18",
    "seed": false,
    "first_seen": "2026-10-20T17:36:27+00:00",
-   "last_seen": "2026-10-29T10:53:47+00:00",
+   "last_seen": "2026-10-29T14:17:36+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 2,
@@ -1716,7 +1722,7 @@
    "published": "2026-05-17",
    "seed": false,
    "first_seen": "2026-10-20T17:36:08+00:00",
-   "last_seen": "2026-10-29T10:53:47+00:00",
+   "last_seen": "2026-10-29T14:17:36+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 2,
@@ -1742,7 +1748,7 @@
    "published": "2026-05-21",
    "seed": false,
    "first_seen": "2026-10-20T17:35:49+00:00",
-   "last_seen": "2026-10-29T10:53:47+00:00",
+   "last_seen": "2026-10-29T14:17:36+00:00",
    "date_tries": 1,
    "match": {
     "score": 71,
@@ -1773,7 +1779,7 @@
    "published": "2026-10-20",
    "seed": false,
    "first_seen": "2026-10-20T17:32:57+00:00",
-   "last_seen": "2026-10-29T10:53:47+00:00",
+   "last_seen": "2026-10-29T14:17:36+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 2,
@@ -1833,7 +1839,7 @@
    "published": "2026-09-22",
    "seed": false,
    "first_seen": "2026-10-20T13:59:55+00:00",
-   "last_seen": "2026-10-29T10:53:47+00:00",
+   "last_seen": "2026-10-29T14:17:36+00:00",
    "date_tries": 1,
    "match": {
     "score": 75,
@@ -1910,7 +1916,7 @@
    "published": "2026-10-08",
    "seed": false,
    "first_seen": "2026-10-20T13:58:07+00:00",
-   "last_seen": "2026-10-29T10:53:47+00:00",
+   "last_seen": "2026-10-29T14:17:36+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 2,
@@ -1939,7 +1945,7 @@
    "published": "2026-10-13",
    "seed": false,
    "first_seen": "2026-10-20T13:57:40+00:00",
-   "last_seen": "2026-10-29T10:53:47+00:00",
+   "last_seen": "2026-10-29T14:17:36+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 2,
@@ -1967,7 +1973,7 @@
    "published": "2026-10-14",
    "seed": false,
    "first_seen": "2026-10-20T13:57:31+00:00",
-   "last_seen": "2026-10-29T10:53:47+00:00",
+   "last_seen": "2026-10-29T14:17:36+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 2,
@@ -2015,7 +2021,7 @@
    "published": "2026-10-18",
    "seed": false,
    "first_seen": "2026-10-20T13:56:36+00:00",
-   "last_seen": "2026-10-29T10:53:47+00:00",
+   "last_seen": "2026-10-29T14:17:36+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 2,
@@ -2088,7 +2094,7 @@
    "published": "2026-10-15",
    "seed": true,
    "first_seen": "2026-10-20T13:24:49+00:00",
-   "last_seen": "2026-10-29T10:56:05+00:00",
+   "last_seen": "2026-10-29T14:19:51+00:00",
    "country": "France",
    "rv": 2,
    "match": null
@@ -2119,7 +2125,7 @@
    "published": "Tue, 13 Oct 2026 12:22:49 Z",
    "seed": true,
    "first_seen": "2026-10-20T13:24:10+00:00",
-   "last_seen": "2026-10-29T10:51:18+00:00",
+   "last_seen": "2026-10-29T14:14:47+00:00",
    "country": "France",
    "rv": 2,
    "match": null
@@ -2150,7 +2156,7 @@
    "published": "Fri, 16 Oct 2026 13:25:34 Z",
    "seed": true,
    "first_seen": "2026-10-20T13:24:07+00:00",
-   "last_seen": "2026-10-29T10:51:18+00:00",
+   "last_seen": "2026-10-29T14:14:47+00:00",
    "country": "France",
    "rv": 2,
    "match": null
