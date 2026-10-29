@@ -46,23 +46,12 @@ class ExperienceAI:
         if not self.enabled or self.calls >= self.budget or len(text or "") < 300:
             return None
         self.calls += 1
+        from .llm import LLMError, chat_json
         try:
-            r = requests.post(
-                "https://api.groq.com/openai/v1/chat/completions",
-                headers={"Authorization": f"Bearer {self.key}"},
-                json={"model": os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile"), "temperature": 0,
-                      "response_format": {"type": "json_object"},
-                      "messages": [{"role": "system", "content": SYSTEM},
-                                   {"role": "user", "content": f"Intitulé : {title}\nEntreprise : {company}\n\n{text[:9000]}"}]},
-                timeout=45)
-            if r.status_code == 429:            # quota gratuit atteint : on arrête pour ce passage
-                self.enabled = False
-                log.warning("  IA : quota Groq atteint, contrôle suspendu pour ce passage")
-                return None
-            r.raise_for_status()
-            out = json.loads(r.json()["choices"][0]["message"]["content"])
-        except Exception as e:
-            log.warning("  IA expérience indisponible (%s)", type(e).__name__)
+            out = chat_json(SYSTEM, f"Intitulé : {title}\nEntreprise : {company}\n\n{text[:9000]}", temperature=0, timeout=45)
+        except LLMError as e:
+            if "401" in str(e) or "429" in str(e) or "clé" in str(e):
+                self.enabled = False          # clé refusée ou quota atteint : inutile de continuer ce passage
             return None
         quote = str(out.get("citation") or "").strip()
         level = str(out.get("niveau") or "inconnu").lower()

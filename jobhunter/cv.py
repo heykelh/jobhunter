@@ -127,20 +127,12 @@ def rewrite_with_llm(cv: dict, base: dict, title: str, company: str, description
         "Ne mets pas l'IA en avant si l'offre ne le demande pas. Interdits : tirets longs (utilise les deux-points), "
         "les mots harnais et déterministe. Chaque puce fait moins de 200 caractères. Accents français corrects."
     )
+    from .llm import LLMError, chat_json
     try:
-        r = requests.post(
-            "https://api.groq.com/openai/v1/chat/completions",
-            headers={"Authorization": f"Bearer {key}"},
-            json={"model": os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile"), "temperature": 0.3,
-                  "response_format": {"type": "json_object"},
-                  "messages": [{"role": "system", "content": system},
-                               {"role": "user", "content": json.dumps(payload, ensure_ascii=False)}]},
-            timeout=60)
-        r.raise_for_status()
-        out = json.loads(r.json()["choices"][0]["message"]["content"])
-    except Exception as e:
-        log.warning("  CV : reformulation IA indisponible (%s), version règles conservée", type(e).__name__)
-        return f"règles seules (IA en échec : {type(e).__name__})"
+        out = chat_json(system, json.dumps(payload, ensure_ascii=False), temperature=0.3)
+    except LLMError as e:
+        log.warning("  CV : reformulation IA indisponible, version règles conservée")
+        return f"règles seules (IA en échec : {str(e)[:120]})"
 
     source = json.dumps(base, ensure_ascii=False) + " " + title + " " + description
     changed = 0

@@ -5,35 +5,34 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>CV optimisé · JobHunter</title>
 <meta name="robots" content="noindex">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📄</text></svg>">
+<link rel="icon" href="icon-192.png">
+<link rel="stylesheet" href="fonts/kanit.css">
 <style>
   :root {
     --bg: #f5f4f0; --surface: #ffffff; --ink: #1b1d1f; --muted: #6b6f75; --line: #e3e1db;
-    --accent: #0f6b5c; --accent-soft: #e2f1ed; --warn: #a16207; --warn-soft: #fdf6dc; --bad: #b91c1c;
+    --accent: #0e7a64; --accent-soft: #e2f1ed; --warn: #a16207; --warn-soft: #fdf6dc; --bad: #b91c1c;
     --radius: 12px;
   }
-  @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) {
-      --bg: #111314; --surface: #1a1d1f; --ink: #ecebe7; --muted: #9a9ea4; --line: #2a2e31;
-      --accent: #4fc3a8; --accent-soft: #15322c; --warn: #facc15; --warn-soft: #332a0c; --bad: #f87171;
-    }
-  }
   * { box-sizing: border-box; }
-  body { margin: 0; background: var(--bg); color: var(--ink);
-         font: 14px/1.45 ui-sans-serif, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
-  .top { position: sticky; top: 0; z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line); }
-  .top .in { max-width: 1400px; margin: 0 auto; padding: 10px 16px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
-  .top a.back { color: var(--muted); text-decoration: none; }
-  .top h1 { font-size: 16px; margin: 0; flex: 1 1 260px; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .btn { font: inherit; font-size: 13px; padding: 8px 12px; border-radius: 9px; border: 1px solid var(--line);
+  html, body, button, input, select, textarea { font-family: "Kanit", ui-sans-serif, system-ui, sans-serif; }
+  body { margin: 0; background: #f2f1ec; color: var(--ink); font-size: 14px; line-height: 1.45; }
+  .top { position: sticky; top: 0; z-index: 5; color: #eef3f1;
+         background: radial-gradient(900px 200px at 85% -40%, rgba(25,195,154,.25), transparent 60%), linear-gradient(180deg, #0b1211, #12201d); }
+  .top .in { max-width: 1400px; margin: 0 auto; padding: 12px 16px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+  .top a.back { color: #93a6a0; text-decoration: none; }
+  .top a.back:hover { color: #fff; }
+  .top h1 { font-size: 17px; font-weight: 500; margin: 0; flex: 1 1 260px; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .btn { font-size: 13.5px; padding: 8px 13px; border-radius: 11px; border: 1px solid var(--line);
          background: var(--surface); color: var(--ink); cursor: pointer; text-decoration: none; white-space: nowrap; }
-  .btn.primary { background: var(--accent); color: #fff; border-color: var(--accent); font-weight: 600; }
-  @media (prefers-color-scheme: dark) { .btn.primary { color: #0b1714; } }
+  .top .btn { background: rgba(255,255,255,.08); border-color: rgba(255,255,255,.12); color: #eef3f1; }
+  .top .btn:hover { background: rgba(255,255,255,.14); }
+  .btn.primary, .top .btn.primary { background: #19c39a; color: #062b22; border-color: #19c39a; font-weight: 500; }
   .btn.small { padding: 4px 8px; font-size: 12px; }
   .wrap { max-width: 1400px; margin: 0 auto; padding: 16px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr); gap: 20px; align-items: start; }
   @media (max-width: 1000px) { .wrap { grid-template-columns: minmax(0, 1fr); } }
-  .panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px; margin-bottom: 14px; }
-  .panel h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .05em; color: var(--accent); margin: 0 0 10px; }
+  .panel { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 16px; margin-bottom: 14px;
+           box-shadow: 0 1px 2px rgba(16,24,22,.05), 0 8px 24px rgba(16,24,22,.06); }
+  .panel h2 { font-size: 12.5px; font-weight: 500; text-transform: uppercase; letter-spacing: .07em; color: var(--accent); margin: 0 0 10px; }
   label { display: block; font-size: 12px; color: var(--muted); margin: 8px 0 3px; }
   input[type=text], textarea, select { width: 100%; font: inherit; padding: 8px 10px; border-radius: 8px;
          border: 1px solid var(--line); background: var(--bg); color: var(--ink); }

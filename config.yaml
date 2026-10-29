@@ -78,13 +78,20 @@ max_experience_years: 2          # écarte les offres qui demandent 3 ans ou plu
 # Ensuite l'IA (secret GROQ_API_KEY) relit chaque fiche retenue et doit citer la phrase exacte.
 experience_ai: true
 experience_ai_per_run: 40        # fiches relues par l'IA au maximum par passage
-zones: [ile-de-france, luxembourg, suisse, malaisie, oman]
+zones: [ile-de-france, luxembourg, suisse, londres, malaisie, oman]
 # Chaque offre est rangée dans une catégorie pays (France, Suisse, Luxembourg, Malaisie, Oman),
 # visible en boutons sur le site et en drapeau dans les notifs.
 
 # Réglages propres à un pays (facultatif) : remplacent les réglages généraux ci-dessus.
 # Ex. pour accepter jusqu'à 3 ans d'expérience en Suisse, décommente :
-country_rules: {}
+country_rules:
+  Royaume-Uni:
+    # Visa Skilled Worker : salaire minimum de 41 700 £/an (ou plus selon le métier) depuis juillet 2025.
+    # Une offre dont le salaire MAXIMUM affiché est plus bas ne peut pas mener à un visa : écartée.
+    min_salary: 41700
+    currency: GBP
+    # true = écarter aussi les employeurs absents du registre officiel des sponsors de visa
+    require_sponsor: false
 #  Suisse:
 #    max_experience_years: 3
 #  Oman:
@@ -223,6 +230,7 @@ companies:
       - https://jobs.axa.com/api/jobs?keywords={q}&location=France&page={page}&sortBy=posted_date&descending=true
       - https://jobs.axa.com/api/jobs?keywords={q}&location=Luxembourg&page={page}&sortBy=posted_date&descending=true
       - https://jobs.axa.com/api/jobs?keywords={q}&location=Switzerland&page={page}&sortBy=posted_date&descending=true
+      - https://jobs.axa.com/api/jobs?keywords={q}&location=United%20Kingdom&page={page}&sortBy=posted_date&descending=true
     pages: [1, 2]
     details: false              # tout est dans l'API (lieu, contrat, date) ; les fiches bloquent les robots
 
@@ -275,6 +283,41 @@ companies:
     urls:
       - https://www.vodafone.om/en/careers
     default_location: oman
+
+  # ─── Sites d'annonces suisses (toutes entreprises) ───────────────
+  # aggregator: true → l'entreprise affichée est le vrai employeur, et une annonce déjà vue
+  # ailleurs (sur l'autre site ou sur le site de l'entreprise) n'est pas comptée deux fois.
+  - name: jobs.ch
+    source: html
+    aggregator: true
+    urls:
+      - https://www.jobs.ch/fr/offres-emplois/?term={q}&page={page}
+    pages: [1, 2]
+    link_pattern: /detail/[0-9a-f-]{36}
+    url_template: https://www.jobs.ch/fr/offres-emplois/detail/{id}/
+    default_location: suisse
+    max_details: 30
+
+  - name: jobup.ch
+    source: html                # même plateforme que jobs.ch, surtout Suisse romande
+    aggregator: true
+    urls:
+      - https://www.jobup.ch/fr/emplois/?term={q}&page={page}
+    pages: [1, 2]
+    link_pattern: /detail/[0-9a-f-]{36}
+    url_template: https://www.jobup.ch/fr/emplois/detail/{id}/
+    default_location: suisse
+    max_details: 30
+
+  # ─── Londres ─────────────────────────────────────────────────────
+  - name: Reed (Londres)
+    source: reed                # API officielle gratuite de Reed.co.uk : clé dans le secret GitHub REED_API_KEY
+    location: London
+    distance_miles: 15
+    direct_employers_only: true # sans les cabinets de recrutement (employeur caché = sponsor de visa invérifiable)
+    min_salary: 35000           # inutile de lire les offres trop basses pour un visa
+    aggregator: true
+    max_details: 30
 
   # ─── Luxe / grande conso ─────────────────────────────────────────
   - name: L'Oréal

@@ -57,7 +57,8 @@ Une offre est retenue seulement si elle passe **toutes** les étapes. Sinon, ell
 |---|---|---|
 | Titre | contient un mot-clé (`keywords`) | « Mécanicien avion » |
 | Titre | ne contient aucun mot exclu (`exclude_title`) | « Senior Data Analyst », « Stage… », « Team Leader… », « …Datacenter » |
-| Lieu | Île-de-France, Suisse, Luxembourg, Malaisie ou Oman | « Data Analyst, Lyon » |
+| Lieu | Île-de-France, Suisse, Luxembourg, Londres, Malaisie ou Oman | « Data Analyst, Lyon » |
+| Salaire (Londres) | salaire maximum affiché ≥ 41 700 £, le minimum du visa Skilled Worker | « Data Analyst, £30 000 - £35 000 » |
 | Contrat | CDI ou CDD | « Alternance », « VIE » |
 | Expérience | 2 ans maximum (`max_experience_years`) | « Niveau d'expérience : 3 - 5 ans » |
 | IA | relit l'expérience sur la fiche | « vous justifiez d'une expérience réussie de plusieurs années… » |
@@ -78,7 +79,16 @@ Quand les règles changent (constante `RULES_VERSION` dans `jobhunter/__main__.p
 
 ### Catégories par pays
 
-Chaque offre est rangée dans un pays : 🇫🇷 France, 🇨🇭 Suisse, 🇱🇺 Luxembourg, 🇲🇾 Malaisie, 🇴🇲 Oman. Le pays apparaît en boutons sur le site et en drapeau dans les notifs.
+Chaque offre est rangée dans un pays : 🇫🇷 France, 🇨🇭 Suisse, 🇱🇺 Luxembourg, 🇬🇧 Royaume-Uni (Londres), 🇲🇾 Malaisie, 🇴🇲 Oman. Le pays apparaît en boutons sur le site et en drapeau dans les notifs.
+
+### Londres et le visa
+
+Pour chaque offre à Londres, le robot cherche l'employeur dans le [registre officiel des sponsors de visa](https://www.gov.uk/government/publications/register-of-licensed-sponsors-workers), téléchargé à chaque passage. La carte et la notif affichent :
+- ✅ sponsor visa : l'employeur peut sponsoriser un visa Skilled Worker ;
+- ⚠ sponsor (autre visa) : il a une licence, mais pas pour le Skilled Worker ;
+- ⛔ pas sponsor de visa : il est absent du registre.
+
+Avec `require_sponsor: true` dans `country_rules`, les employeurs non sponsors sont écartés.
 Pour assouplir les règles dans un seul pays, utilise `country_rules` dans `config.yaml` :
 
 ```yaml
@@ -146,6 +156,7 @@ Tout se règle dans **`config.yaml`**. Tu peux le modifier directement sur GitHu
 | `source` | Pour quel site | Exemple déjà en place |
 |---|---|---|
 | `rss` | flux RSS (le plus fiable) | Air France, Bouygues Telecom |
+| `reed` | API officielle de Reed.co.uk (clé `REED_API_KEY`) | Reed (Londres) |
 | `workday` | sites `*.myworkdayjobs.com` | Eiffage, Julius Baer |
 | `json` | API JSON publique | AXA |
 | `sequence` | fiches à numéro croissant | EDF / Enedis |
@@ -155,7 +166,8 @@ Options utiles pour `html` :
 - `{q}` dans l'URL est remplacé par chaque mot-clé, `{page}` par `pages`, `{offset}` par `offsets` ;
 - `link_pattern` est le morceau d'URL propre aux fiches (ex. `/job/`) ;
 - `default_location` sert de lieu si la fiche n'en donne pas ;
-- `enabled: false` désactive une entreprise sans supprimer son bloc.
+- `enabled: false` désactive une entreprise sans supprimer son bloc ;
+- `aggregator: true` pour un site d'annonces (jobs.ch, jobup.ch, Reed) : la carte affiche le vrai employeur (« via jobs.ch »), et une annonce déjà vue ailleurs n'est pas ajoutée deux fois.
 
 2. Lance le workflow en mode **diagnose** (voir § 6), avec le nom de l'entreprise dans *only*. Le log montre les liens et les titres trouvés.
 3. Si rien ne remonte, envoie le log à Claude pour ajuster l'URL ou le `link_pattern`.
@@ -198,6 +210,7 @@ git push
    Dans *Settings → Secrets and variables → Actions*, ajoute :
    - `NTFY_TOPIC` : le nom du topic (obligatoire) ;
    - `GROQ_API_KEY` : clé gratuite sur console.groq.com, pour les CV reformulés et le contrôle IA de l'expérience (recommandé) ;
+   - `REED_API_KEY` : clé gratuite du portail développeur de Reed.co.uk, pour les offres à Londres (facultatif) ;
    - `NTFY_TOKEN` : facultatif, seulement pour un serveur ntfy protégé.
 3. **Actions** : onglet Actions, activer les workflows, puis *Run workflow* une première fois.
 4. **Vercel** : *Add New Project* et importer le dépôt, avec :
@@ -230,6 +243,8 @@ jobhunter/                     ← racine du dépôt
 │  ├─ filters.py               mots-clés, contrat, expérience, lieu → pays
 │  ├─ ai_check.py              contrôle IA de l'expérience (avec citation vérifiée)
 │  ├─ match.py                 score de correspondance offre / CV
+│  ├─ sponsors.py              registre britannique des sponsors de visa
+│  ├─ llm.py                   appel à l'IA Groq (erreur exacte affichée, modèle de secours)
 │  ├─ cv.py                    CV adapté à chaque offre
 │  ├─ notify.py                notifications ntfy
 │  └─ store.py                 fichiers JSON (offres, écartées, état des sources)
@@ -239,6 +254,8 @@ jobhunter/                     ← racine du dépôt
 │  ├─ cv.html, cv-docx.js, cv-pdf.js   éditeur et export du CV
 │  ├─ middleware.js, package.json      mot de passe du site
 │  ├─ manifest.webmanifest, sw.js, icon-*.png, apple-touch-icon.png   appli installable
+│  ├─ fonts/                   police Kanit (hébergée avec le site, licence OFL)
+│  ├─ flags/                   drapeaux des pays (images SVG, lisibles sous Windows)
 │  └─ data/                    écrit par le robot : jobs.json, rejected.json, health.json, cv/…
 ├─ state/state.json            mémoire du robot (entreprises déjà initialisées, curseurs)
 └─ tests/test_filters.py       tests des filtres (python -m pytest -q)

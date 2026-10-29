@@ -152,6 +152,7 @@ def test_cv_generation_guards(monkeypatch, tmp_path):
     monkeypatch.setenv("GROQ_API_KEY", "x")
 
     class R:
+        status_code, text = 200, ""
         def raise_for_status(self): pass
         def json(self):
             out = {"titre": "Data Analyst Revenue Management", "profil": "Profil data — 20 ans d'expérience.",
@@ -231,3 +232,45 @@ def test_experience_strict():
     assert d("Vous justifiez d'une solide expérience en SQL")[0] == 3
     assert d("Fort de 40 ans d'expérience, notre groupe recrute") == (None, False)
     assert d("Expérience : 0 - 2 ans") == (0, True)
+
+
+def test_sponsor_register_and_london():
+    from jobhunter.sponsors import parse_register, lookup
+    from jobhunter.filters import detect_zone
+    reg = parse_register('"Organisation Name","Town/City","County","Type & Rating","Route"\n'
+                         '"Barclays Bank UK PLC","London","","Worker (A rating)","Skilled Worker"\n'
+                         '"Acme Events Ltd","London","","Temporary Worker (A rating)","Creative Worker"\n')
+    assert lookup(reg, "Barclays") == "skilled"
+    assert lookup(reg, "BARCLAYS BANK UK") == "skilled"
+    assert lookup(reg, "Acme Events Limited") == "other"
+    assert lookup(reg, "Unknown Startup Ltd") is False
+    assert detect_zone("Canary Wharf, London") == "Londres"
+    assert detect_zone("Experience with AWS EC2") is None
+
+
+def test_llm_fallback_and_errors(monkeypatch):
+    import jobhunter.llm as llm
+    monkeypatch.setenv("GROQ_API_KEY", "x")
+    monkeypatch.delenv("GROQ_MODEL", raising=False)
+    llm._dead.clear()
+    calls = []
+
+    class R:
+        def __init__(self, code, text="", js=None): self.status_code, self.text, self._js = code, text, js
+        def json(self): return self._js
+
+    def post(url, headers=None, json=None, timeout=0):
+        calls.append(json["model"])
+        if json["model"] == "llama-3.3-70b-versatile":
+            return R(400, '{"error":{"message":"The model has been decommissioned"}}')
+        return R(200, js={"choices": [{"message": {"content": '{"ok": true}'}}]})
+    monkeypatch.setattr(llm.requests, "post", post)
+    assert llm.chat_json("s", "u") == {"ok": True}
+    assert calls[:2] == ["llama-3.3-70b-versatile", "openai/gpt-oss-120b"]
+
+    monkeypatch.setattr(llm.requests, "post", lambda *a, **k: R(401, '{"error":{"message":"Invalid API Key"}}'))
+    try:
+        llm.chat_json("s", "u")
+        assert False
+    except llm.LLMError as e:
+        assert "401" in str(e) and "Invalid API Key" in str(e)

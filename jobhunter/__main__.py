@@ -19,10 +19,11 @@ import yaml
 
 from . import cv as cvgen
 from . import match
+from .sponsors import SponsorRegister
 from .ai_check import ExperienceAI
 from .filters import Criteria, norm
 from .notify import Notifier
-from .sources import Fetcher, collect, fetch_detail
+from .sources import Fetcher, collect, detail_for, fetch_detail
 from .store import ROOT, SITE_DATA, Store, job_id, now, _save
 
 log = logging.getLogger("jobwatch")
@@ -39,9 +40,13 @@ def judge(crit: Criteria, ai: ExperienceAI, comp: dict, title: str, context: str
     v = crit.evaluate(title, structured, text, comp.get("default_location"))
     if not v.ok:
         return False, v.reason, v
+    rules = crit.country_rules.get(v.country, {}) or {}
+    sal_max = (d.extra.get("salary_max") if d else None)
+    if rules.get("min_salary") and sal_max and sal_max < int(rules["min_salary"]):
+        return False, (f"salaire max {d.extra.get('salary') or sal_max} sous le minimum visa "
+                       f"({int(rules['min_salary']):,} {rules.get('currency', 'GBP')})".replace(",", " ")), v
     res = ai.check(title, comp["name"], (structured + "\n" + text).strip())
     if res:
-        rules = crit.country_rules.get(v.country, {}) or {}
         max_exp = int(rules.get("max_experience_years", crit.max_experience_years))
         years, level = res["years"], res["level"]
         too_much = (years is not None and years > max_exp) or level == "senior"
@@ -83,6 +88,14 @@ def run(argv=None) -> int:
     ai = ExperienceAI(enabled=cfg.get("experience_ai", True) and not args.diagnose,
                       budget=int(cfg.get("experience_ai_per_run", 40)))
     recheck_budget = int(cfg.get("recheck_per_company", 12))
+    sponsors = SponsorRegister(fetcher.s)
+    # Zones ajoutées depuis le dernier passage : les offres écartées pour leur lieu sont réexaminées
+    zones_sig = ",".join(sorted(crit.zone_labels))
+    if not args.diagnose and store.state.get("zones_sig") != zones_sig:
+        before = len(store.rejected)
+        store.rejected = {k: r for k, r in store.rejected.items() if not r.get("reason", "").startswith("lieu")}
+        store.state["zones_sig"] = zones_sig
+        log.info("Zones modifiées : %d offre(s) écartée(s) pour leur lieu seront réexaminées", before - len(store.rejected))
     match_budget = int(cfg.get("match_backfill_per_company", 8))
 
     # Offres déjà affichées dont le titre ne passe plus (mots exclus ajoutés depuis) : on les retire
@@ -168,7 +181,7 @@ def run(argv=None) -> int:
 
                         def detail_once():
                             if not dd_cache:
-                                dd_cache.append(l.detail or (fetch_detail(fetcher, l.url, render=render_detail)
+                                dd_cache.append(l.detail or (detail_for(comp, fetcher, l.url)
                                                              if comp.get("details", True) else None))
                             return dd_cache[0]
                         # Revérification avec les règles à jour (fiche rouverte)
@@ -222,6 +235,9 @@ def run(argv=None) -> int:
                         continue
                     if jid in store.rejected:
                         continue
+                    aggregator = comp.get("aggregator", False)
+                    if aggregator and l.employer and store.similar(l.employer, l.title):
+                        continue      # déjà vue sur un autre site (jobs.ch ↔ jobup.ch, ou site de l'entreprise)
                     ok, reason = crit.title_check(l.title)
                     if not ok:
                         store.reject(jid, name, l.title, l.url, reason)
@@ -232,7 +248,7 @@ def run(argv=None) -> int:
                     d = l.detail
                     if d is None and comp.get("details", True):   # details: false → infos de la liste seules
                         try:
-                            d = fetch_detail(fetcher, l.url, render=render_detail)
+                            d = detail_for(comp, fetcher, l.url)
                         except Exception as e:
                             log.warning("  fiche illisible (%s) : %s", type(e).__name__, l.url)
                     title = l.title
@@ -242,11 +258,22 @@ def run(argv=None) -> int:
                         store.reject(jid, name, title, l.url, reason)
                         log.info("  ✗ %s — %s", title, reason)
                         continue
-                    job = {"id": jid, "company": l.company or name, "title": title, "url": l.url,
+                    employer = l.company or ((l.employer or (d.employer if d else None)) if aggregator else None)
+                    if aggregator and employer and store.similar(employer, title):
+                        continue
+                    job = {"id": jid, "company": employer or name, "title": title, "url": l.url,
+                           "via": name if aggregator else None,
                            "zone": v.zone, "country": v.country, "contract": v.contract, "experience": v.experience,
                            "junior": v.junior, "published": l.published or (d.published if d else None),
                            "seed": first_time, "rv": RULES_VERSION,
-                           "match": match.compute(title, text or l.context)}
+                           "match": match.compute(title, text or l.context),
+                           "salary": (d.extra.get("salary") if d else None) or None}
+                    if v.country == "Royaume-Uni":
+                        job["sponsor"] = sponsors.status(employer or name)
+                        if crit.country_rules.get("Royaume-Uni", {}).get("require_sponsor") and job["sponsor"] is False:
+                            store.reject(jid, name, title, l.url, f"{employer or name} n'est pas sponsor de visa (registre UK)")
+                            log.info("  ✗ %s — employeur non sponsor", title)
+                            continue
                     store.add(job)
                     kept += 1
                     if cv_budget > 0 and cfg.get("cv_enabled", True):
@@ -299,6 +326,13 @@ def run(argv=None) -> int:
     meta = {"updated": now(), "keywords": crit.keywords, "contracts": crit.contracts,
             "zones": sorted(crit.zone_labels), "max_experience_years": crit.max_experience_years,
             "companies": all_names}
+    from .llm import STATUS as ai_status
+    if ai_status["ok"] or ai_status["errors"]:
+        meta["ai"] = dict(ai_status, at=now())
+    else:
+        old = (json.loads((SITE_DATA / "meta.json").read_text(encoding="utf-8")) if (SITE_DATA / "meta.json").exists() else {}).get("ai")
+        if old:
+            meta["ai"] = old
     store.save(meta)
     cvgen.publish_base()
     log.info("\nTerminé : %d nouvelle(s) offre(s), %d notif(s) envoyée(s), %d contrôle(s) IA.",
