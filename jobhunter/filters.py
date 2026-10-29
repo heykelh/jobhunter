@@ -59,6 +59,10 @@ ZONES: dict[str, re.Pattern] = {
         r"malaysia|malaisie|kuala[\s\-]lumpur|(?<![a-z])kl(?![a-z]) sentral|petaling[\s\-]jaya|cyberjaya|putrajaya"
         r"|selangor|penang|pulau pinang|johor|shah alam|subang|bangsar|mont kiara"
     ),
+    "Londres": re.compile(
+        r"(?<![a-z])london(?![a-z])|(?<![a-z])londres(?![a-z])|canary wharf|city of london|greater london"
+        r"|shoreditch|southwark|westminster|holborn|king's cross|paddington|hammersmith|stratford, london"
+    ),
     "Oman": re.compile(
         r"(?<![a-z])oman(?![a-z])|sultanate of oman|muscat|mascate|(?<![a-z])sohar(?![a-z])|salalah|(?<![a-z])duqm(?![a-z])"
         r"|(?<![a-z])nizwa(?![a-z])|(?<![a-z])sur(?![a-z]), oman|al[\s\-]khuwair|(?<![a-z])ruwi(?![a-z])"
@@ -66,10 +70,11 @@ ZONES: dict[str, re.Pattern] = {
 }
 ZONE_KEYS = {"ile-de-france": "Île-de-France", "idf": "Île-de-France",
              "luxembourg": "Luxembourg", "suisse": "Suisse", "switzerland": "Suisse",
-             "malaisie": "Malaisie", "malaysia": "Malaisie", "oman": "Oman"}
+             "malaisie": "Malaisie", "malaysia": "Malaisie", "oman": "Oman",
+             "londres": "Londres", "london": "Londres"}
 # Catégorie (pays) affichée sur le site pour chaque zone
 COUNTRY = {"Île-de-France": "France", "Luxembourg": "Luxembourg", "Suisse": "Suisse",
-           "Malaisie": "Malaisie", "Oman": "Oman"}
+           "Malaisie": "Malaisie", "Oman": "Oman", "Londres": "Royaume-Uni"}
 
 # Lieux clairement hors zones : sert à écarter une offre dont la fiche
 # dit "Lisbonne" même si le pied de page mentionne "Paris".

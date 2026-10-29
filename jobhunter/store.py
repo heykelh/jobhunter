@@ -53,6 +53,15 @@ class Store:
         job["last_seen"] = t
         self.jobs[job["id"]] = job
 
+    def similar(self, company: str, title: str) -> str | None:
+        """Même offre déjà connue (même employeur, même intitulé), ex. publiée sur jobs.ch ET jobup.ch."""
+        from .filters import norm
+        key = (norm(company), norm(title))
+        for j in self.jobs.values():
+            if (norm(j.get("company")), norm(j.get("title"))) == key:
+                return j["id"]
+        return None
+
     def remove(self, jid: str):
         self.jobs.pop(jid, None)
 

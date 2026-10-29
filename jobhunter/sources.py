@@ -37,6 +37,7 @@ class Listing:
     context: str = ""          # texte autour du lien dans la liste (contrat, lieu…)
     published: str | None = None
     company: str | None = None  # entité précise si la source la donne (ex. Enedis sur le site EDF)
+    employer: str | None = None  # employeur réel lu sur un site d'annonces (jobs.ch, jobup.ch…)
     detail: "Detail | None" = None  # fiche déjà lue par la source (évite de la relire)
 
 
@@ -46,6 +47,7 @@ class Detail:
     structured: str = ""       # infos fiables : JSON-LD (lieu, contrat), champs RSS
     title: str | None = None
     published: str | None = None
+    employer: str | None = None   # hiringOrganization du JSON-LD
     extra: dict = field(default_factory=dict)
 
 
@@ -482,6 +484,20 @@ class _Blank(dict):
         return ""
 
 
+COMPANY_KEYS = ("company", "companyName", "company_name", "employer", "employerName", "hiringOrganization",
+                "organization", "organisation", "advertiser")
+
+
+def _employer(o: dict) -> str | None:
+    for k in COMPANY_KEYS:
+        v = o.get(k)
+        if isinstance(v, dict):
+            v = v.get("name") or v.get("displayName") or v.get("title")
+        if isinstance(v, str) and 2 <= len(v.strip()) <= 120:
+            return squash(v)
+    return None
+
+
 def listings_from_json(data, base_url: str, url_template: str | None = None) -> tuple[list[Listing], dict | None]:
     """Renvoie (offres, exemple d'objet sans lien exploitable — pour le diagnostic)."""
     out, sample = [], None
@@ -505,7 +521,8 @@ def listings_from_json(data, base_url: str, url_template: str | None = None) -> 
             if IMG_EXT.search(urlparse(url).path):
                 continue
             if url.startswith("http") and not url.rstrip("/").endswith(urlparse(url).netloc):
-                out.append(Listing(url=url, title=title, context=_flat_text(o), published=find_date(o)))
+                out.append(Listing(url=url, title=title, context=_flat_text(o), published=find_date(o),
+                                   employer=_employer(o)))
             else:
                 sample = sample or o
     return out, sample
@@ -514,13 +531,47 @@ def listings_from_json(data, base_url: str, url_template: str | None = None) -> 
 PHENOM_RE = re.compile(r"phApp\.ddo\s*=\s*(\{.*?\});\s*\n", re.S)
 
 
+STATE_RE = re.compile(r"window\.(?:__INIT__|__PRELOADED_STATE__|__INITIAL_STATE__|__APOLLO_STATE__|__DATA__)\s*=\s*\{")
+
+
+def _balanced(src: str, start: int) -> str | None:
+    """Objet JSON qui commence à src[start] == '{' (tient compte des chaînes)."""
+    depth, i, n, in_str, esc = 0, start, len(src), False, False
+    while i < n:
+        c = src[i]
+        if in_str:
+            if esc:
+                esc = False
+            elif c == "\\":
+                esc = True
+            elif c == '"':
+                in_str = False
+        elif c == '"':
+            in_str = True
+        elif c == "{":
+            depth += 1
+        elif c == "}":
+            depth -= 1
+            if depth == 0:
+                return src[start:i + 1]
+        i += 1
+    return None
+
+
 def inline_json(html: str):
-    """JSON d'offres embarqué dans la page (sites Phenom, Next.js…)."""
+    """JSON d'offres embarqué dans la page (sites Phenom, Next.js, JobCloud…)."""
     for rx in (PHENOM_RE, re.compile(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', re.S)):
         m = rx.search(html)
         if m:
             try:
                 yield json.loads(m.group(1))
+            except Exception:
+                pass
+    for m in STATE_RE.finditer(html or ""):     # window.__INIT__ = {...} (jobs.ch, jobup.ch)
+        raw = _balanced(html, m.end() - 1)
+        if raw:
+            try:
+                yield json.loads(re.sub(r"(?<=[:\[,])\s*undefined(?=\s*[,}\]])", "null", raw))
             except Exception:
                 pass
 
@@ -569,6 +620,93 @@ def collect_workday(comp: dict, fetcher: Fetcher, keywords: list[str]) -> tuple[
                 errors.append(f"{api} [{q}/{offset}] → {type(e).__name__}: {str(e)[:120]}")
     fetcher.diag.append(f"[workday] {len(out)} offres via l'API")
     return list(out.values()), errors
+
+
+# ------------------------------------------------------------- Reed.co.uk (Londres)
+REED_API = "https://www.reed.co.uk/api/1.0"
+
+
+def _reed_auth():
+    import os
+    key = os.getenv("REED_API_KEY", "").strip()
+    return (key, "") if key else None
+
+
+def _money(v) -> int | None:
+    try:
+        return int(float(v)) if v not in (None, "", 0) else None
+    except (TypeError, ValueError):
+        return None
+
+
+def salary_text(lo, hi, cur: str = "GBP") -> str:
+    sym = {"GBP": "£", "EUR": "€", "CHF": "CHF "}.get((cur or "GBP").upper(), "")
+    f = lambda n: f"{sym}{n:,}".replace(",", " ")
+    if lo and hi and lo != hi:
+        return f"{f(lo)} - {f(hi)}"
+    return f(hi or lo) if (hi or lo) else ""
+
+
+def collect_reed(comp: dict, fetcher: Fetcher, keywords: list[str]) -> tuple[list[Listing], list[str]]:
+    """API officielle et gratuite de Reed.co.uk (clé personnelle : secret REED_API_KEY)."""
+    auth = _reed_auth()
+    if not auth:
+        return [], ["Reed : pas de clé (secret GitHub REED_API_KEY) — source ignorée"]
+    out, errors = {}, []
+    for q in comp.get("search_terms") or keywords:
+        params = {"keywords": q, "locationName": comp.get("location", "London"),
+                  "distanceFromLocation": comp.get("distance_miles", 15), "resultsToTake": 100}
+        if comp.get("direct_employers_only", True):
+            params["postedByDirectEmployer"] = "true"
+        if comp.get("min_salary"):
+            params["minimumSalary"] = comp["min_salary"]
+        try:
+            fetcher._polite(REED_API)
+            r = fetcher.s.get(REED_API + "/search", params=params, auth=auth, timeout=30)
+            r.raise_for_status()
+            for jp in r.json().get("results", []):
+                jid, title = jp.get("jobId"), clean_title(jp.get("jobTitle") or "")
+                if not jid or not title:
+                    continue
+                url = jp.get("jobUrl") or f"https://www.reed.co.uk/jobs/{jid}"
+                lo, hi = _money(jp.get("minimumSalary")), _money(jp.get("maximumSalary"))
+                ctx = squash(" ".join(str(x) for x in (jp.get("locationName"), salary_text(lo, hi, jp.get("currency")),
+                                                       jp.get("jobDescription")) if x))
+                out.setdefault(str(jid), Listing(url=clean_url(url), title=title, context=ctx,
+                                                 published=parse_date(jp.get("date")),
+                                                 employer=squash(jp.get("employerName") or "") or None))
+        except Exception as e:
+            errors.append(f"Reed [{q}] → {type(e).__name__}: {str(e)[:120]}")
+    fetcher.diag.append(f"[reed] {len(out)} offres via l'API")
+    return list(out.values()), errors
+
+
+def fetch_reed_detail(fetcher: Fetcher, url: str) -> Detail:
+    m = re.search(r"/(\d{6,})(?:[/?#]|$)", url)
+    if not m:
+        raise ValueError("identifiant Reed introuvable")
+    fetcher._polite(REED_API)
+    r = fetcher.s.get(f"{REED_API}/jobs/{m.group(1)}", auth=_reed_auth(), timeout=30)
+    r.raise_for_status()
+    j = r.json()
+    desc = squash(BeautifulSoup(j.get("jobDescription") or "", "lxml").get_text(" "))
+    contract = (j.get("contractType") or "").lower()
+    kind = {"permanent": "permanent", "temporary": "fixed-term temporary contract", "contract": "freelance"}.get(contract, contract)
+    lo = _money(j.get("yearlyMinimumSalary") or j.get("minimumSalary"))
+    hi = _money(j.get("yearlyMaximumSalary") or j.get("maximumSalary"))
+    d = Detail(text=desc, structured=squash(f"{j.get('locationName') or ''} {kind}"),
+               title=j.get("jobTitle"), published=parse_date(j.get("datePosted") or j.get("date")),
+               employer=squash(j.get("employerName") or "") or None)
+    d.extra = {"salary_min": lo, "salary_max": hi, "currency": j.get("currency") or "GBP",
+               "salary": salary_text(lo, hi, j.get("currency") or "GBP") or squash(j.get("salary") or "")}
+    return d
+
+
+def detail_for(comp: dict, fetcher: Fetcher, url: str) -> Detail:
+    """Fiche complète, selon la source."""
+    if comp.get("source") == "reed":
+        return fetch_reed_detail(fetcher, url)
+    return fetch_detail(fetcher, url, render=comp.get("render_detail", comp.get("render", False)))
 
 
 # ------------------------------------------- numéros d'offres consécutifs (ex. EDF)
@@ -622,10 +760,12 @@ def collect(comp: dict, fetcher: Fetcher, keywords: list[str], keyword_hit,
             state: dict | None = None) -> tuple[list[Listing], list[str]]:
     """Renvoie (offres trouvées, erreurs par URL)."""
     src = comp.get("source", "html")
-    if src in ("workday", "sequence"):
+    if src in ("workday", "sequence", "reed"):
         fetcher.diag = []
         if src == "workday":
             return collect_workday(comp, fetcher, keywords)
+        if src == "reed":
+            return collect_reed(comp, fetcher, keywords)
         return collect_sequence(comp, fetcher, state if state is not None else {})
     listings: dict[str, Listing] = {}
     errors = []
@@ -745,6 +885,7 @@ def fetch_detail(fetcher: Fetcher, url: str, render: bool = False) -> Detail:
             d.structured = _jp_struct(jp)
             d.title = squash(jp.get("title"))
             d.published = parse_date(jp.get("datePosted")) or d.published
+            d.employer = _employer(jp)
             desc = squash(BeautifulSoup(str(jp.get("description") or ""), "lxml").get_text(" "))
             break
     for data in inline_json(html or ""):

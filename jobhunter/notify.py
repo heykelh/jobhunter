@@ -27,7 +27,7 @@ def fmt_published(p: str | None) -> str:
         return ""
 
 
-FLAGS = {"France": "🇫🇷", "Suisse": "🇨🇭", "Luxembourg": "🇱🇺", "Malaisie": "🇲🇾", "Oman": "🇴🇲"}
+FLAGS = {"France": "🇫🇷", "Suisse": "🇨🇭", "Luxembourg": "🇱🇺", "Malaisie": "🇲🇾", "Oman": "🇴🇲", "Royaume-Uni": "🇬🇧"}
 
 
 def country_of(j: dict) -> str:
@@ -83,6 +83,11 @@ class Notifier:
             return
         for j in jobs:
             msg = f"{flag(j)} {country_of(j).upper()} · {j['company']} · {j['zone']} · {j['contract']} · {j['experience']}"
+            if j.get("salary"):
+                msg += f" · {j['salary']}"
+            if j.get("sponsor") is not None:
+                msg += "\n" + {"skilled": "✅ Employeur sponsor de visa Skilled Worker",
+                                "other": "⚠ Licence de sponsor, mais pas pour le Skilled Worker"}.get(j["sponsor"], "⛔ Employeur absent du registre des sponsors de visa")
             if j.get("published"):
                 msg += f"\nPubliée le {fmt_published(j['published'])}"
             actions = [{"action": "view", "label": "Voir l'offre", "url": j["url"]}]
