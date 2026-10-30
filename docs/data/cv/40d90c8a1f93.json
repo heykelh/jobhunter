@@ -1,0 +1,175 @@
+{
+ "titre": "QA Analyst : Testeur Agile H/F",
+ "profil": "Professionnel avec 13 ans d’expérience au sein du groupe SNCF, habitué aux environnements critiques et à la rigueur des processus. Expertise en ingénierie des données et gestion de produit, avec une approche analytique et orientée qualité. Agile, autonome et doté d’un excellent relationnel, je sais piloter la recette et accompagner les équipes de développement.",
+ "competences": [
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio",
+    "Excel"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Conception de scénarios de test et plan de recette pour un système de crédit, de l’expression du besoin à la validation",
+    "Production de livrables incluant cartographie des processus, spécifications fonctionnelles et plan de tests, assurant la traçabilité"
+   ]
+  },
+  {
+   "id": "pokewatch",
+   "titre": "PokéWatch : surveillance de marché et détection d'anomalies de prix",
+   "stack": "PostgreSQL, Supabase, SQL, GitHub Actions, Next.js",
+   "lien": "pokewatch-three.vercel.app",
+   "tags": [
+    "surveillance",
+    "monitoring",
+    "anomalie",
+    "anomalies",
+    "fraude",
+    "prix",
+    "marché",
+    "pipeline",
+    "automatisation",
+    "alerte",
+    "data engineer",
+    "ingestion",
+    "sql"
+   ],
+   "puces": [
+    "Mise en place d’un pipeline automatisé de collecte de données et d’alertes, permettant de valider la conformité des prix",
+    "Développement de règles SQL de détection d’anomalies et tableau de bord pour le suivi des résultats de test"
+   ]
+  },
+  {
+   "id": "customer-experience",
+   "titre": "Customer Experience Intelligence : analyse et dataviz",
+   "stack": "Python, Power BI",
+   "lien": "github.com/heykelh/customer-experience-intelligence",
+   "tags": [
+    "client",
+    "clients",
+    "expérience client",
+    "marketing",
+    "kpi",
+    "dashboard",
+    "tableau de bord",
+    "power bi",
+    "reporting",
+    "analyse",
+    "satisfaction",
+    "parcours"
+   ],
+   "puces": [
+    "Analyse exploratoire des données clients pour identifier anomalies impactant la performance, avec production de rapports de recette",
+    "Création de dashboards interactifs pour visualiser les indicateurs de qualité et soutenir les décisions"
+   ]
+  },
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Simulation d’une mission d’inspection de données, incluant la définition de scénarios de test et la réalisation de contrôles qualité SQL",
+    "Élaboration d’un registre des constats, scoring de risque et rapport de restitution pour la validation finale"
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "agile",
+  "jira"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "40d90c8a1f93",
+ "entreprise": "WeFiit",
+ "intitule_offre": "QA Analyst - Testeur Agile H/F WeFiit",
+ "url_offre": "https://www.hellowork.com/fr-fr/emplois/84142860.html",
+ "genere_le": "2026-10-30T23:01:21+00:00"
+}

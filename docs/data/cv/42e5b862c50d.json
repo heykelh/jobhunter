@@ -1,0 +1,170 @@
+{
+ "titre": "Chargé d'Études Transport & Logistique - Tender Analyst",
+ "profil": "Data Engineer avec 13 ans d’expérience au sein du Groupe SNCF, spécialisé dans l’analyse de données complexes et la mise en œuvre de modèles tarifaires. Titulaire d’un Master Data Engineer (Mines Paris : PSL) et auteur de plus de quinze projets data couvrant tarification, études de marché et pilotage de la performance. Fort d’une expertise en analyse chiffrée, il contribue à la construction d’offres commerciales et à l’optimisation de leur rentabilité.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Excel",
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "palier",
+   "titre": "PALIER : tarification et yield management TGV",
+   "stack": "Python, DuckDB, Power BI, Next.js, GitHub Actions",
+   "lien": "palier-sncf.vercel.app",
+   "tags": [
+    "pricing",
+    "prix",
+    "tarif",
+    "tarification",
+    "revenue",
+    "yield",
+    "élasticité",
+    "demande",
+    "transport",
+    "ferroviaire",
+    "voyageurs",
+    "sncf",
+    "commercial",
+    "offre"
+   ],
+   "puces": [
+    "Analyse tarifaire du TGV à partir de données ouvertes SNCF, identification de l’élasticité prix et du positionnement concurrentiel.",
+    "Développement d’un module de yield management pour l’allocation des places par palier tarifaire, automatisé via GitHub Actions."
+   ]
+  },
+  {
+   "id": "dockz",
+   "titre": "DOCKZ : plateforme data du marché de l'entrepôt",
+   "stack": "Python, données publiques, Next.js",
+   "lien": "dockz.vercel.app",
+   "tags": [
+    "immobilier",
+    "logistique",
+    "entrepôt",
+    "études",
+    "marché",
+    "géo",
+    "géographique",
+    "cartographie",
+    "dataviz"
+   ],
+   "puces": [
+    "Conception d’une plateforme d’analyse du marché de l’entrepôt logistique français à partir de sources publiques.",
+    "Création d’indicateurs de marché et de visualisations cartographiques pour soutenir les décisions commerciales."
+   ]
+  },
+  {
+   "id": "customer-experience",
+   "titre": "Customer Experience Intelligence : analyse et dataviz",
+   "stack": "Python, Power BI",
+   "lien": "github.com/heykelh/customer-experience-intelligence",
+   "tags": [
+    "client",
+    "clients",
+    "expérience client",
+    "marketing",
+    "kpi",
+    "dashboard",
+    "tableau de bord",
+    "power bi",
+    "reporting",
+    "analyse",
+    "satisfaction",
+    "parcours"
+   ],
+   "puces": [
+    "Analyse exploratoire des données clients pour dégager insights, tendances et anomalies influençant la performance.",
+    "Production de tableaux de bord interactifs sous Power BI, fournissant des indicateurs de pilotage aux décideurs."
+   ]
+  },
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Simulation d’une mission d’inspection data sur la chaîne de risque de crédit, incluant cadrage, investigations et débriefing.",
+    "Mise en place d’un moteur de contrôles qualité basé sur des règles SQL, avec scoring de risque et rapport de restitution."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "vba"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "42e5b862c50d",
+ "entreprise": "hinq.",
+ "intitule_offre": "Chargé d'Études Transport & Logistique - Tender Analyst H/F hinq.",
+ "url_offre": "https://www.hellowork.com/fr-fr/emplois/84277302.html",
+ "genere_le": "2026-10-30T23:02:05+00:00"
+}

@@ -1,0 +1,177 @@
+{
+ "titre": "Financial Analyst : 13 ans d’expérience SNCF, Master Data Engineer",
+ "profil": "13 ans d’expérience au sein du groupe SNCF, spécialisé dans la gestion de données critiques et la production de rapports décisionnels. Titulaire d’un Master Data Engineer (Bac+5) de Mines Paris - PSL, j’ai conduit plus de quinze projets d’analyse et de visualisation. Mes compétences en Power BI et en suivi de performance me permettent d’assurer le reporting financier et le suivi des indicateurs contractuels.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Excel",
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "customer-experience",
+   "titre": "Customer Experience Intelligence : analyse et dataviz",
+   "stack": "Python, Power BI",
+   "lien": "github.com/heykelh/customer-experience-intelligence",
+   "tags": [
+    "client",
+    "clients",
+    "expérience client",
+    "marketing",
+    "kpi",
+    "dashboard",
+    "tableau de bord",
+    "power bi",
+    "reporting",
+    "analyse",
+    "satisfaction",
+    "parcours"
+   ],
+   "puces": [
+    "Analyse exploratoire des données clients pour identifier tendances et anomalies impactant la performance financière.",
+    "Création de tableaux de bord Power BI permettant le suivi des indicateurs clés et le reporting aux décideurs."
+   ]
+  },
+  {
+   "id": "escale",
+   "titre": "ESCALE : ponctualité des vols CDG et Orly",
+   "stack": "Python, PostgreSQL (médaillon), API AeroDataBox, Next.js",
+   "lien": "escale-ops.vercel.app",
+   "tags": [
+    "aérien",
+    "aerien",
+    "aviation",
+    "vol",
+    "vols",
+    "airline",
+    "opérations",
+    "operations",
+    "ponctualité",
+    "retard",
+    "rgpd",
+    "privacy",
+    "données personnelles",
+    "ai act",
+    "prédiction",
+    "client"
+   ],
+   "puces": [
+    "Collecte automatisée des données de ponctualité des vols, avec scoring de risque, afin d’alimenter les tableaux de suivi.",
+    "Mise en place d’un tableau de bord de suivi opérationnel intégrant les exigences de conformité RGPD."
+   ]
+  },
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Simulation d’une mission d’analyse fonctionnelle sur un système de crédit, de la collecte du besoin à la recette.",
+    "Production de livrables détaillés (cartographie, spécifications, plan de tests) facilitant le contrôle de la conformité."
+   ]
+  },
+  {
+   "id": "palier",
+   "titre": "PALIER : tarification et yield management TGV",
+   "stack": "Python, DuckDB, Power BI, Next.js, GitHub Actions",
+   "lien": "palier-sncf.vercel.app",
+   "tags": [
+    "pricing",
+    "prix",
+    "tarif",
+    "tarification",
+    "revenue",
+    "yield",
+    "élasticité",
+    "demande",
+    "transport",
+    "ferroviaire",
+    "voyageurs",
+    "sncf",
+    "commercial",
+    "offre"
+   ],
+   "puces": [
+    "Analyse de la tarification TGV et élasticité prix pour optimiser le revenu et la compétitivité.",
+    "Développement d’un module de yield management automatisé, avec mise à jour continue via GitHub Actions."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "catalogue"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "34748263bec3",
+ "entreprise": "Brink's",
+ "intitule_offre": "Financial Analyst H/F Brink's",
+ "url_offre": "https://www.hellowork.com/fr-fr/emplois/84702529.html",
+ "genere_le": "2026-10-30T23:01:40+00:00"
+}

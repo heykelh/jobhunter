@@ -1,0 +1,181 @@
+{
+ "titre": "Business Analyst : Crédit Consommation (BPCE Solutions informatiques)",
+ "profil": "13 ans d’expérience au sein du groupe SNCF, dont la gestion d’applications critiques et la conduite de projets SI. Expertise en analyse fonctionnelle, spécifications et recette, avec une forte capacité rédactionnelle et communicationnelle. Connaissance du secteur bancaire et du crédit à la consommation acquise à travers des missions d’inspection de données de risque de crédit.",
+ "competences": [
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio",
+    "Excel"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Analyse fonctionnelle du SI Crédit, de la collecte du besoin à la rédaction des spécifications et à la validation métier.",
+    "Conduite de la recette fonctionnelle, élaboration du plan de tests et suivi des corrections."
+   ]
+  },
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Audit de la chaîne de données du risque de crédit, cadrage des exigences et production d’un rapport d’inspection.",
+    "Mise en place de contrôles qualité SQL et restitution des constats aux équipes métier."
+   ]
+  },
+  {
+   "id": "palier",
+   "titre": "PALIER : tarification et yield management TGV",
+   "stack": "Python, DuckDB, Power BI, Next.js, GitHub Actions",
+   "lien": "palier-sncf.vercel.app",
+   "tags": [
+    "pricing",
+    "prix",
+    "tarif",
+    "tarification",
+    "revenue",
+    "yield",
+    "élasticité",
+    "demande",
+    "transport",
+    "ferroviaire",
+    "voyageurs",
+    "sncf",
+    "commercial",
+    "offre"
+   ],
+   "puces": [
+    "Analyse de la tarification TGV sur données ouvertes SNCF : élasticité prix, comparaison des offres et positionnement concurrentiel.",
+    "Module de yield management : allocation des places par palier tarifaire (algorithme EMSR-b), mise à jour automatique par GitHub Actions."
+   ]
+  },
+  {
+   "id": "frontierbank",
+   "titre": "FrontierBank : gouvernance des données d'une banque fictive",
+   "stack": "BCBS 239, DAMA-DMBOK, AI Act, Power BI",
+   "lien": "frontierbank-data.vercel.app",
+   "tags": [
+    "gouvernance",
+    "governance",
+    "steward",
+    "qualité",
+    "quality",
+    "bcbs",
+    "dama",
+    "lignage",
+    "lineage",
+    "banque",
+    "bancaire",
+    "risque",
+    "réglementaire",
+    "conformité",
+    "raci",
+    "référentiel",
+    "métadonnées"
+   ],
+   "puces": [
+    "Conseil en gouvernance des données bancaires, élaboration de la cartographie des processus et du registre de qualité.",
+    "Création de tableaux de bord Power BI pour le suivi des indicateurs de qualité et conformité."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "agile",
+  "jira"
+ ],
+ "methode": "règles + reformulation IA (5 blocs adaptés)",
+ "job_id": "d9cf2064efdc",
+ "entreprise": "BPCE Solutions informatiques",
+ "intitule_offre": "Business Analyst H/F BPCE Solutions informatiques",
+ "url_offre": "https://www.hellowork.com/fr-fr/emplois/76119521.html",
+ "genere_le": "2026-10-30T23:01:04+00:00"
+}

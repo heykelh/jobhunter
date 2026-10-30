@@ -1,0 +1,176 @@
+{
+ "titre": "Business Analyst : Assurance",
+ "profil": "13 ans d’expérience opérationnelle au sein du Groupe SNCF, spécialisé dans les environnements critiques. Titulaire d’un Master Data Engineer/Data Product Manager (Bac+5, Mines Paris‑PSL). Compétences avérées en analyse fonctionnelle, conception de solutions et pilotage de recettes.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Excel",
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Analyse des besoins fonctionnels pour un SI Crédit, rédaction de spécifications et suivi de la mise en œuvre",
+    "Conception du plan de tests et exécution de la phase de recette pour valider les processus de recouvrement"
+   ]
+  },
+  {
+   "id": "customer-experience",
+   "titre": "Customer Experience Intelligence : analyse et dataviz",
+   "stack": "Python, Power BI",
+   "lien": "github.com/heykelh/customer-experience-intelligence",
+   "tags": [
+    "client",
+    "clients",
+    "expérience client",
+    "marketing",
+    "kpi",
+    "dashboard",
+    "tableau de bord",
+    "power bi",
+    "reporting",
+    "analyse",
+    "satisfaction",
+    "parcours"
+   ],
+   "puces": [
+    "Exploration des données clients pour identifier tendances et anomalies, production de synthèses à destination des métiers",
+    "Création de tableaux de bord interactifs Power BI pour le pilotage de la performance"
+   ]
+  },
+  {
+   "id": "escale",
+   "titre": "ESCALE : ponctualité des vols CDG et Orly",
+   "stack": "Python, PostgreSQL (médaillon), API AeroDataBox, Next.js",
+   "lien": "escale-ops.vercel.app",
+   "tags": [
+    "aérien",
+    "aerien",
+    "aviation",
+    "vol",
+    "vols",
+    "airline",
+    "opérations",
+    "operations",
+    "ponctualité",
+    "retard",
+    "rgpd",
+    "privacy",
+    "données personnelles",
+    "ai act",
+    "prédiction",
+    "client"
+   ],
+   "puces": [
+    "Collecte automatisée des données de ponctualité des vols, modélisation du risque de retard et suivi réglementaire RGPD",
+    "Développement d’une console de suivi avec indicateurs de performance et alertes"
+   ]
+  },
+  {
+   "id": "pokewatch",
+   "titre": "PokéWatch : surveillance de marché et détection d'anomalies de prix",
+   "stack": "PostgreSQL, Supabase, SQL, GitHub Actions, Next.js",
+   "lien": "pokewatch-three.vercel.app",
+   "tags": [
+    "surveillance",
+    "monitoring",
+    "anomalie",
+    "anomalies",
+    "fraude",
+    "prix",
+    "marché",
+    "pipeline",
+    "automatisation",
+    "alerte",
+    "data engineer",
+    "ingestion",
+    "sql"
+   ],
+   "puces": [
+    "Mise en place d’un pipeline de collecte des prix de marché, automatisation via GitHub Actions et détection d’anomalies SQL",
+    "Visualisation des variations de prix sur tableau de bord Next.js pour les parties prenantes"
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "jira"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "408015d34413",
+ "entreprise": "Storm Group",
+ "intitule_offre": "Business Analyst - Assurance H/F Storm Group",
+ "url_offre": "https://www.hellowork.com/fr-fr/emplois/84789652.html",
+ "genere_le": "2026-10-30T23:02:34+00:00"
+}
