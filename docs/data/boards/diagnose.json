@@ -1,0 +1,85 @@
+{
+ "at": "2026-10-30T18:50:59+00:00",
+ "companies": {
+  "APEC": {
+   "links_found": 0,
+   "keyword_matches": 0,
+   "errors": [],
+   "sample_all": [],
+   "sample_matching": [],
+   "json": [],
+   "page_info": "titre « apec.fr », 0 liens <a>",
+   "json_calls": []
+  },
+  "HelloWork": {
+   "links_found": 120,
+   "keyword_matches": 120,
+   "errors": [],
+   "sample_all": [
+    "Lead Data H/F Team.is",
+    "Manager Data H/F CYNÉGÉ CONSEIL",
+    "Data Architecte H/F ALTEN",
+    "Data Integrity H/F Akkodis",
+    "Data Engineer - Data Solutions H/F JCDecaux",
+    "Data Quality - Data Steward H/F Storm Group",
+    "Data Architecte H/F HELPLINE",
+    "Chef de Produit Data H/F Veolia Recyclage et Valorisation des Déchets",
+    "Tech Lead Data - Data Architect H/F Externatic",
+    "Data Leader Qualité H/F Safran"
+   ],
+   "sample_matching": [
+    {
+     "title": "Lead Data H/F Team.is",
+     "url": "https://www.hellowork.com/fr-fr/emplois/84972584.html",
+     "context": "Ajouter l'offre Lead Data H/F aux favoris Suivi de candidature Lead Data H/F Team.is Paris 10e - 75 CDI 80 000 - 100 000 € / an Télétravail partiel Voir l’offre il y a 9 heures"
+    },
+    {
+     "title": "Manager Data H/F CYNÉGÉ CONSEIL",
+     "url": "https://www.hellowork.com/fr-fr/emplois/84884804.html",
+     "context": "Ajouter l'offre Manager Data H/F aux favoris Suivi de candidature Manager Data H/F CYNÉGÉ CONSEIL Paris - 75 CDI Voir l’offre il y a 2 jours"
+    },
+    {
+     "title": "Data Architecte H/F ALTEN",
+     "url": "https://www.hellowork.com/fr-fr/emplois/84909933.html",
+     "context": "Ajouter l'offre Data Architecte H/F aux favoris Suivi de candidature Data Architecte H/F ALTEN Boulogne-Billancourt - 92 CDI 50 000 - 90 000 € / an Voir l’offre il y a 2 jours"
+    },
+    {
+     "title": "Data Integrity H/F Akkodis",
+     "url": "https://www.hellowork.com/fr-fr/emplois/84649639.html",
+     "context": "Ajouter l'offre Data Integrity H/F aux favoris Data Integrity H/F Akkodis Paris - 75 CDI Voir l’offre il y a 9 jours"
+    },
+    {
+     "title": "Data Engineer - Data Solutions H/F JCDecaux",
+     "url": "https://www.hellowork.com/fr-fr/emplois/77084750.html",
+     "context": "Ajouter l'offre Data Engineer - Data Solutions H/F aux favoris Data Engineer - Data Solutions H/F JCDecaux Neuilly-sur-Seine - 92 CDI Voir l’offre il y a 8 jours"
+    },
+    {
+     "title": "Data Quality - Data Steward H/F Storm Group",
+     "url": "https://www.hellowork.com/fr-fr/emplois/84789688.html",
+     "context": "Ajouter l'offre Data Quality - Data Steward H/F aux favoris Suivi de candidature Data Quality - Data Steward H/F Storm Group Paris 2e - 75 CDI Télétravail partiel Voir l’offre il y a 4 jours"
+    },
+    {
+     "title": "Data Architecte H/F HELPLINE",
+     "url": "https://www.hellowork.com/fr-fr/emplois/84644206.html",
+     "context": "Ajouter l'offre Data Architecte H/F aux favoris Suivi de candidature Data Architecte H/F HELPLINE Paris - 75 CDI Voir l’offre il y a 9 jours"
+    },
+    {
+     "title": "Chef de Produit Data H/F Veolia Recyclage et Valorisation des Déchets",
+     "url": "https://www.hellowork.com/fr-fr/emplois/84859134.html",
+     "context": "Ajouter l'offre Chef de Produit Data H/F aux favoris Suivi de candidature Chef de Produit Data H/F Veolia Recyclage et Valorisation des Déchets Aubervilliers - 93 CDI Voir l’offre il y a 3 jours"
+    },
+    {
+     "title": "Tech Lead Data - Data Architect H/F Externatic",
+     "url": "https://www.hellowork.com/fr-fr/emplois/84831555.html",
+     "context": "Ajouter l'offre Tech Lead Data - Data Architect H/F aux favoris Suivi de candidature Tech Lead Data - Data Architect H/F Externatic Super recruteur Nanterre - 92 CDI 70 000 - 85 000 € / an Télétravail"
+    },
+    {
+     "title": "Data Leader Qualité H/F Safran",
+     "url": "https://www.hellowork.com/fr-fr/emplois/82666127.html",
+     "context": "Ajouter l'offre Data Leader Qualité H/F aux favoris Suivi de candidature Data Leader Qualité H/F Safran Montereau-sur-le-Jard - 77 CDI Voir l’offre il y a 4 jours"
+    }
+   ],
+   "json": []
+  }
+ }
+}
