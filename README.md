@@ -222,7 +222,11 @@ git push
    - `SITE_USER` : facultatif, `heykel` par défaut.
 
    Puis *Deployments → … → Redeploy*.
-6. **Test local** (facultatif) :
+6. **Bouton « Lancer une recherche maintenant »** (facultatif) :
+   - sur GitHub, *Settings* (de ton compte) → *Developer settings* → *Personal access tokens* → *Fine-grained tokens* → *Generate new token* : accès au seul dépôt `jobhunter`, permission **Actions : Read and write** ;
+   - dans Vercel, *Settings → Environment Variables* : `GH_TOKEN` = ce jeton, et `NTFY_TOPIC` = le même nom de topic que dans les secrets GitHub (il sert à lire l'avancement) ;
+   - *Redeploy*. Le bouton lance alors le robot et affiche, source par source, ce qu'il est en train de lire. L'avancement passe par un canal ntfy séparé (`<topic>-live`) auquel ton téléphone n'est pas abonné.
+7. **Test local** (facultatif) :
    ```powershell
    pip install requests beautifulsoup4 lxml PyYAML pytest
    python -m pytest -q
@@ -253,6 +257,7 @@ jobhunter/                     ← racine du dépôt
 │  ├─ index.html               liste des offres
 │  ├─ cv.html, cv-docx.js, cv-pdf.js   éditeur et export du CV
 │  ├─ middleware.js, package.json      mot de passe du site
+│  ├─ api/run.js               bouton « Lancer une recherche » (lance GitHub Actions, lit l'avancement)
 │  ├─ manifest.webmanifest, sw.js, icon-*.png, apple-touch-icon.png   appli installable
 │  ├─ kanit.css                police Kanit intégrée (licence SIL OFL) ; les drapeaux sont intégrés à index.html
 │  └─ data/                    écrit par le robot : jobs.json, rejected.json, health.json, cv/…

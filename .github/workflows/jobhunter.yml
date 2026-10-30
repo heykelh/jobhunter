@@ -15,6 +15,10 @@ on:
         description: "Nom d'une seule entreprise (facultatif)"
         required: false
         default: ""
+      progress:
+        description: "1 = publier l'avancement pour la page (bouton du site)"
+        required: false
+        default: "0"
 
 permissions:
   contents: write
@@ -56,6 +60,7 @@ jobs:
           NTFY_SERVER: ${{ vars.NTFY_SERVER }}
           MODE: ${{ github.event.inputs.mode }}
           ONLY: ${{ github.event.inputs.only }}
+          PROGRESS: ${{ github.event.inputs.progress }}
         run: |
           set --
           if [ "$MODE" = "diagnose" ]; then set -- --diagnose; fi

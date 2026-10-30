@@ -112,6 +112,46 @@
   nav.tabs button[aria-selected="true"] { background: var(--paper); color: var(--ink); font-weight: 500; }
   nav.tabs .count { font-size: 12.5px; margin-left: 4px; opacity: .7; }
 
+
+  /* ---------- Lancer une recherche ---------- */
+  .launch { margin-top: 18px; display: grid; grid-template-columns: auto 1fr; gap: 6px 20px; align-items: center;
+            padding: 16px 18px; border: 1px solid var(--board-line); border-radius: 12px; background: rgba(245,184,61,.06); }
+  .go-run { display: inline-flex; align-items: center; gap: 10px; font-size: 16px; font-weight: 600; padding: 13px 22px; border-radius: 10px;
+            border: 0; background: var(--amber); color: #1d1300; cursor: pointer; white-space: nowrap; box-shadow: 0 6px 20px rgba(245,184,61,.25); }
+  .go-run:hover { background: #ffc657; }
+  .go-run:disabled { background: transparent; color: var(--amber); outline: 1.5px solid rgba(245,184,61,.6); outline-offset: -1.5px; cursor: default; box-shadow: none; }
+  .go-run.busy > svg { display: none; }
+  .go-run:disabled .spin { border-color: rgba(245,184,61,.3); border-top-color: var(--amber); }
+  .go-run svg { width: 18px; height: 18px; }
+  #go-label { display: inline-flex; align-items: center; gap: 10px; }
+  .launch .what { color: var(--board-ink); font-size: 14px; font-weight: 300; max-width: 70ch; }
+  .launch .what strong { font-weight: 500; }
+  .launch .last { grid-column: 2; color: var(--board-muted); font-size: 13px; font-weight: 300; }
+  .launch .last a { color: var(--board-muted); }
+  .run-live { grid-column: 1 / -1; margin-top: 10px; }
+  .bar { height: 8px; border-radius: 99px; background: rgba(255,255,255,.08); overflow: hidden; }
+  .bar i { display: block; height: 100%; width: 0; background: linear-gradient(90deg, var(--amber), #ffd27a); border-radius: 99px; transition: width .6s ease; }
+  .run-head { display: flex; justify-content: space-between; gap: 12px; font-size: 14px; margin-bottom: 8px; flex-wrap: wrap; }
+  .run-head b { color: var(--amber); font-weight: 600; }
+  .run-head span { color: var(--board-muted); font-weight: 300; }
+  .co-grid { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+  .co { font-size: 12.5px; padding: 4px 10px; border-radius: 6px; border: 1px solid var(--board-line); color: var(--board-muted); display: inline-flex; gap: 6px; align-items: center; }
+  .co.done { color: var(--board-ink); border-color: rgba(23,184,144,.35); background: rgba(23,184,144,.08); }
+  .co.done .k { color: #5fe3bf; font-weight: 600; }
+  .co.err { color: #ff9b93; border-color: rgba(217,71,63,.45); }
+  .co.off { opacity: .45; }
+  .co.now { color: #1d1300; background: var(--amber); border-color: var(--amber); font-weight: 500; }
+  @media (prefers-reduced-motion: no-preference) { .co.now { animation: pulse 1.2s ease-in-out infinite; } @keyframes pulse { 50% { opacity: .55; } } }
+  .run-done { margin-top: 10px; font-size: 14.5px; }
+  .run-done b { color: var(--amber); }
+  .spin { width: 16px; height: 16px; border-radius: 50%; border: 2px solid rgba(29,19,0,.25); border-top-color: #1d1300; display: inline-block; }
+  @media (prefers-reduced-motion: no-preference) { .spin { animation: spin .8s linear infinite; } @keyframes spin { to { transform: rotate(360deg); } } }
+  @media (max-width: 680px) {
+    .launch { grid-template-columns: 1fr; padding: 14px; }
+    .go-run { width: 100%; justify-content: center; }
+    .launch .last { grid-column: 1; }
+  }
+
   /* ======================= Contenu (partie claire) ======================= */
   main.wrap { padding-top: 30px; padding-bottom: 72px; }
   .countries { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
@@ -253,6 +293,16 @@
         <span class="live" id="updated">Chargement…</span>
       </div>
     </div>
+    <section class="launch" id="launch" aria-live="polite">
+      <button class="go-run" id="go-run" type="button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 1 1-2.64-6.36"/><path d="M21 3v6h-6"/></svg>
+        <span id="go-label">Lancer une recherche maintenant</span>
+      </button>
+      <p class="what" id="run-what">Le robot va visiter <strong>tous les sites carrière que tu suis</strong>, un par un. Il garde les offres qui collent à tes critères, prépare un CV pour chacune et t'envoie une notif par nouvelle offre. Compte <strong>10 à 25 minutes</strong>. Tu peux fermer la page, il continue sans toi.</p>
+      <p class="last" id="run-last"></p>
+      <div class="run-live" id="run-live" hidden></div>
+    </section>
+
     <div id="board-body">
     <p class="criteria" id="criteria"></p>
     <div class="ios-hint" id="ios-hint" hidden>
@@ -644,6 +694,110 @@ $("#install").addEventListener("click", async () => { if (!installPrompt) return
 const standalone = matchMedia("(display-mode: standalone)").matches || navigator.standalone;
 if (/iphone|ipad|ipod/i.test(navigator.userAgent) && !standalone && !store.get("jh-ios-hint-closed", false)) $("#ios-hint").hidden = false;
 $("#ios-close").addEventListener("click", () => { $("#ios-hint").hidden = true; store.set("jh-ios-hint-closed", true); });
+
+
+// ---------------------------------------------------------------- lancer une recherche (via /api/run)
+const RUN = { timer: null, requestedAt: null, lastRunId: null, ready: true, list: [] };
+const fmtDur = ms => { const m = Math.max(0, Math.round(ms / 60000)); return m < 1 ? "moins d'une minute" : `${m} min`; };
+
+async function runStatus() {
+  try {
+    const r = await fetch("api/run", { cache: "no-store" });
+    const j = await r.json().catch(() => ({}));
+    if (!r.ok) return { error: j.error || `erreur ${r.status}` };
+    return j;
+  } catch { return { error: "Fonction /api/run injoignable (le site est-il bien déployé sur Vercel ?)" }; }
+}
+
+function renderRun(st) {
+  const btn = $("#go-run"), label = $("#go-label"), live = $("#run-live"), last = $("#run-last");
+  if (st.error) {
+    RUN.ready = false;
+    btn.disabled = true; btn.classList.remove("busy"); last.hidden = false; label.textContent = "Bouton à configurer";
+    last.textContent = st.error;
+    live.hidden = true;
+    return false;
+  }
+  RUN.ready = true;
+  const run = st.run;
+  const running = run && run.status !== "completed";
+  const waiting = RUN.requestedAt && (!run || run.created_at < RUN.requestedAt);
+  if (waiting) {
+    btn.disabled = true; btn.classList.add("busy"); last.hidden = true; label.innerHTML = '<span class="spin"></span> Démarrage…';
+    live.hidden = false;
+    live.innerHTML = `<div class="run-head"><b>Demande envoyée</b><span>GitHub démarre le robot, cela prend 10 à 40 secondes.</span></div><div class="bar"><i style="width:3%"></i></div>`;
+    return true;
+  }
+  if (running) {
+    btn.disabled = true; btn.classList.add("busy"); last.hidden = true; label.innerHTML = '<span class="spin"></span> Recherche en cours';
+    const ev = st.events || [];
+    const start = ev.find(e => e.state === "start");
+    const done = ev.filter(e => e.state === "company");
+    const names = start ? start.companies : [];
+    const n = start ? start.n : 0;
+    const elapsed = Date.now() - new Date(run.run_started_at || run.created_at).getTime();
+    live.hidden = false;
+    if (!start) {
+      live.innerHTML = `<div class="run-head"><b>${run.event === "schedule" ? "Passage automatique en cours" : "Installation du robot"}</b><span>démarré il y a ${fmtDur(elapsed)}${run.event === "schedule" ? " · le détail par entreprise s'affiche seulement pour les recherches lancées d'ici" : " · préparation du navigateur (1 à 2 min)"}</span></div><div class="bar"><i style="width:${run.event === "schedule" ? 50 : 6}%"></i></div>`;
+      return true;
+    }
+    const byName = Object.fromEntries(done.map(e => [e.company, e]));
+    const current = names.find(x => !byName[x]);
+    const kept = done.reduce((a, e) => a + (e.kept || 0), 0);
+    const pct = n ? Math.round(done.length / n * 100) : 0;
+    live.innerHTML = `
+      <div class="run-head"><b>${done.length} / ${n} sources lues${current ? ` · en ce moment : ${esc(current)}` : ""}</b>
+        <span>${kept} offre${kept > 1 ? "s" : ""} retenue${kept > 1 ? "s" : ""} pour l'instant · démarré il y a ${fmtDur(elapsed)}</span></div>
+      <div class="bar"><i style="width:${Math.max(4, pct)}%"></i></div>
+      <div class="co-grid">${names.map(x => {
+        const e = byName[x];
+        if (!e) return `<span class="co ${x === current ? "now" : ""}">${esc(x)}</span>`;
+        if (e.status === "désactivée") return `<span class="co off" title="Source désactivée">${esc(x)}</span>`;
+        if (e.status === "erreur") return `<span class="co err" title="${esc(e.error || "erreur")}">${esc(x)} · erreur</span>`;
+        return `<span class="co done" title="${e.links} liens lus">${esc(x)}${e.kept ? ` <span class="k">+${e.kept}</span>` : " ✓"}</span>`;
+      }).join("")}</div>`;
+    return true;
+  }
+  // Aucun passage en cours
+  btn.disabled = false; btn.classList.remove("busy"); last.hidden = false; label.textContent = "Lancer une recherche maintenant";
+  if (run) {
+    const ok = run.conclusion === "success";
+    const how = run.event === "schedule" ? "automatique" : "lancé à la main";
+    last.innerHTML = `Dernier passage (${how}) : terminé ${ago(run.updated_at)}${ok ? "" : ` · <a href="${esc(run.url)}" target="_blank" rel="noopener">échec, voir le détail sur GitHub</a>`}.`;
+  }
+  const fin = (st.events || []).find(e => e.state === "done");
+  if (RUN.lastRunId && run && run.id === RUN.lastRunId && fin) {
+    live.hidden = false;
+    live.innerHTML = `<div class="run-done">Recherche terminée : <b>${fin.fresh} nouvelle${fin.fresh > 1 ? "s" : ""} offre${fin.fresh > 1 ? "s" : ""}</b>. La page se met à jour dès que le site est redéployé (environ une minute).</div>`;
+  } else if (!RUN.lastRunId) live.hidden = true;
+  return false;
+}
+
+async function pollRun() {
+  clearTimeout(RUN.timer);
+  const st = await runStatus();
+  if (st.run && st.run.status !== "completed" && (!RUN.requestedAt || st.run.created_at >= RUN.requestedAt)) RUN.lastRunId = st.run.id;
+  const busy = renderRun(st);
+  if (st.run && st.run.status === "completed" && RUN.lastRunId === st.run.id && RUN.requestedAt) {
+    RUN.requestedAt = null;
+    setTimeout(() => location.reload(), 75000);      // le temps que Vercel publie les nouvelles données
+  }
+  if (busy) RUN.timer = setTimeout(pollRun, 5000);
+}
+
+$("#go-run").addEventListener("click", async () => {
+  if (!RUN.ready) return;
+  $("#go-run").disabled = true;
+  RUN.requestedAt = new Date(Date.now() - 5000).toISOString();
+  try {
+    const r = await fetch("api/run", { method: "POST" });
+    const j = await r.json().catch(() => ({}));
+    if (!r.ok) { RUN.requestedAt = null; renderRun({ error: j.error || `erreur ${r.status}` }); return; }
+    if (j.started === false) RUN.requestedAt = null;     // un passage tournait déjà : on le suit
+  } catch { RUN.requestedAt = null; }
+  pollRun();
+});
+pollRun();
 
 // Tableau du haut repliable (choix mémorisé sur l'appareil)
 function setFold(folded) {

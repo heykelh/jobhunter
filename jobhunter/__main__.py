@@ -22,7 +22,7 @@ from . import match
 from .sponsors import SponsorRegister
 from .ai_check import ExperienceAI
 from .filters import Criteria, norm
-from .notify import Notifier
+from .notify import Notifier, Progress
 from .sources import Fetcher, collect, detail_for, fetch_detail
 from .store import ROOT, SITE_DATA, Store, job_id, now, _save
 
@@ -76,6 +76,7 @@ def run(argv=None) -> int:
     fetcher = Fetcher(delay=float(cfg.get("delay_seconds", 1.5)))
     store = Store()
     notifier = Notifier(cfg)
+    progress = Progress(notifier)
     alert_after = int(cfg.get("alert_after_failures", 6))
     companies = [c for c in cfg.get("companies", []) if c.get("enabled", True)]
     if args.only:
@@ -119,12 +120,14 @@ def run(argv=None) -> int:
     fresh: list[dict] = []
     seeded_summary: list[str] = []
     diagnose: dict = {}
+    progress.emit(state="start", companies=[c["name"] for c in companies], n=len(companies))
     try:
         for i, comp in enumerate(companies):
             name = comp["name"]
             if not args.diagnose and time.monotonic() > deadline:
                 store.state["next_company"] = all_names.index(name)
                 log.warning("⏱ Temps écoulé : %s et les suivantes passent en premier au prochain passage", name)
+                progress.emit(state="timeout", company=name)
                 break
             store.state["next_company"] = 0
             need = comp.get("requires_env")
@@ -132,6 +135,7 @@ def run(argv=None) -> int:
                 log.info("▶ %s : ignorée (secret %s absent)", name, need)
                 store.health[name] = {"checked_at": now(), "status": "désactivée", "error": f"ajoute le secret GitHub {need} pour l'activer",
                                       "failures": 0, "warnings": []}
+                progress.emit(state="company", company=name, i=i + 1, n=len(companies), status="désactivée", links=0, kept=0, error="")
                 continue
             log.info("▶ %s", name)
             h = store.health.get(name, {})
@@ -322,6 +326,8 @@ def run(argv=None) -> int:
                               f"{h.get('error') or 'page vide (le site a peut-être changé)'}",
                               tags=["warning"], priority=3, click=notifier.site_url or None)
             store.health[name] = h
+            progress.emit(state="company", company=name, i=i + 1, n=len(companies), status=h.get("status"),
+                          links=h.get("links_found", 0), kept=h.get("kept_this_run", 0), error=(h.get("error") or "")[:160])
     finally:
         fetcher.close()
 
@@ -348,6 +354,7 @@ def run(argv=None) -> int:
             meta["ai"] = old
     store.save(meta)
     cvgen.publish_base()
+    progress.emit(state="done", fresh=len(fresh), total=len(store.jobs))
     log.info("\nTerminé : %d nouvelle(s) offre(s), %d notif(s) envoyée(s), %d contrôle(s) IA.",
              len(fresh), notifier.sent, ai.calls)
     return 0

@@ -1,6 +1,7 @@
 """Notifications ntfy (https://ntfy.sh) — publication en JSON pour bien gérer les accents."""
 from __future__ import annotations
 
+import json
 import logging
 import os
 
@@ -94,3 +95,27 @@ class Notifier:
             if self.site_url:
                 actions.append({"action": "view", "label": "Mon site", "url": self.site_url})
             self.send(f"{flag(j)} {j['title']}", msg, click=j["url"], tags=["briefcase"], priority=4, actions=actions)
+
+
+class Progress:
+    """Avancement d'un passage lancé depuis le site (bouton « Lancer une recherche »).
+
+    Publié sur un canal ntfy séparé (<topic>-live) auquel ton téléphone n'est pas abonné :
+    seule la page JobHunter le lit, via sa fonction /api/run. Rien n'est envoyé lors des
+    passages automatiques, pour ménager le quota gratuit de ntfy.sh."""
+
+    def __init__(self, notifier: "Notifier"):
+        self.on = os.getenv("PROGRESS") == "1" and notifier.enabled
+        self.url = f"{notifier.server}/{notifier.topic}-live"
+        self.headers = {"Authorization": f"Bearer {notifier.token}"} if notifier.token else {}
+        self.run = os.getenv("GITHUB_RUN_ID", "local")
+
+    def emit(self, **event):
+        if not self.on:
+            return
+        event["run"] = self.run
+        try:
+            requests.post(self.url, data=json.dumps(event, ensure_ascii=False).encode("utf-8"),
+                          headers={**self.headers, "Priority": "1"}, timeout=8)
+        except Exception as e:
+            log.debug("avancement non publié : %s", e)
