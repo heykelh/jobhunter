@@ -111,6 +111,56 @@ OTHER_CONTRACT = re.compile(
 )
 
 
+# Fiche qui décrit en réalité un stage / une alternance, même si "CDD" ou "6 mois" y figure
+INTERNSHIP_RE = re.compile(
+    r"stage de \d{1,2} ?mois|stage d'une duree de|stage de fin d'etudes|stage pre[\s\-]?embauche|convention de stage"
+    r"|duree du stage|date de debut du stage|gratification(?: de stage)?|offre de stage|(?<![a-z])stage \(\d{1,2} ?mois\)"
+    r"|(?:type de contrat|contrat|contract type|type of contract|employment type)\s*:?\s*(?:stage|internship|alternance|apprentissage|v\.?i\.?e\b)"
+    r"|this internship|internship duration|duration of the internship|(?<![a-z])stage \d{1,2} ?mois"
+)
+
+
+def internship_evidence(text: str) -> str | None:
+    t = norm(text)
+    m = INTERNSHIP_RE.search(t)
+    return t[max(0, m.start() - 30): m.end() + 30].strip() if m else None
+
+
+# Allemand exigé (offres suisses) : formulation explicite, ou annonce rédigée en allemand
+GERMAN_REQ_RE = re.compile(
+    r"(?:parlez|maitrisez|parler|maitriser|parlant|speak|speaking)\s+(?:[a-z']+[\s,]+){0,5}(?:l')?(?:allemand|german)"
+    r"|(?:allemand|german|deutsch)\w*\s*(?:couramment|courant|bilingue|indispensable|obligatoire|exige|requis|native|fluent|is required|required|mandatory"
+    r"|essential|c1|c2|b2|fliessend|verhandlungssicher|in wort und schrift|muttersprache)"
+    r"|(?:maitrise|excellente connaissance|tres bonne connaissance|bonne maitrise|connaissances?)\s+(?:courante\s+)?(?:de l'|en |de |d')?allemand"
+    r"|(?:fluent|fluency|proficient|proficiency|excellent|business[\s\-]fluent|native)\s+(?:command of |skills in |in |level of )?german"
+    r"|deutschkenntnisse|deutsch (?:und|sowie|oder) (?:englisch|franzosisch)|(?:sehr gute|gute|fundierte) deutsch"
+    r"|(?:allemand|german) (?:et|and|ou|or) (?:anglais|english|francais|french)\s*(?:courant|fluent|indispensable|required|obligatoire)"
+)
+GERMAN_OPTIONAL_RE = re.compile(r"atout|plus|souhait|appreci|advantage|asset|nice to have|bonus|vorteil|wunschenswert|ideally|ideal")
+GERMAN_WORDS = re.compile(r"(?<![a-z])(?:und|der|die|das|mit|fur|wir|sie|ihre|unsere|eine|einen|sowie|bei|auf|ist|zur|zum|deine|du|dich)(?![a-z])")
+FR_EN_WORDS = re.compile(r"(?<![a-z])(?:et|le|la|les|des|vous|nous|une|pour|avec|the|and|you|our|with|for|are|will|your|des|du)(?![a-z])")
+
+
+def german_required(title: str, text: str) -> str | None:
+    """Renvoie la raison si l'offre exige l'allemand, sinon None."""
+    tt = norm(title)
+    # (m/w/d), (w/m/d) : "weiblich" = annonce allemande ; "Spezialist:in", "Analyst*in", "Mitarbeiter/-in"
+    if re.search(r"\b(?:m\s*/\s*w|w\s*/\s*m)\s*/\s*[dx]\b|[a-z](?::|\*|_|/-?)in(?:nen)?\b", tt):
+        return "annonce en allemand (titre)"
+    t = norm(text)[:20000]
+    for m in GERMAN_REQ_RE.finditer(t):
+        after = t[m.end(): m.end() + 45]
+        before = t[max(0, m.start() - 25): m.start()]
+        if GERMAN_OPTIONAL_RE.search(after) or GERMAN_OPTIONAL_RE.search(before):
+            continue
+        return "allemand exigé « " + t[max(0, m.start() - 25): m.end() + 20].strip() + " »"
+    head = t[:6000]
+    de, other = len(GERMAN_WORDS.findall(head)), len(FR_EN_WORDS.findall(head))
+    if de >= 25 and de > 1.3 * other:
+        return "annonce rédigée en allemand"
+    return None
+
+
 def detect_contracts(text: str) -> set[str]:
     t = norm(text)
     return {k for k, rx in CONTRACT_RE.items() if rx.search(t)}
@@ -153,6 +203,7 @@ SIGNIFICANT_RE = re.compile(
 JUNIOR_RE = re.compile(
     r"junior|debutant|jeune diplome|young graduate|recent graduate|graduate program|entry[\s\-]level|premiere experience"
     r"|first experience|sortie d'ecole|berufseinsteiger|(?<![a-z])einsteiger|0 ?(?:a|-) ?[12] ans"
+    r"|tous niveaux d'experience|debutant accepte|aucune experience (?:requise|exigee)"
 )
 IMPLIED_YEARS = 3
 

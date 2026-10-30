@@ -5,7 +5,8 @@
 //   NTFY_TOPIC  le même nom de topic ntfy que dans les secrets GitHub (pour lire l'avancement)
 //   GH_REPO     facultatif, "heykelh/jobhunter" par défaut
 const REPO = process.env.GH_REPO || "heykelh/jobhunter";
-const WORKFLOW = "jobhunter.yml";
+// ?w=boards → robot des sites d'emploi (APEC, HelloWork) ; sinon robot des sites carrière
+const WORKFLOWS = { main: "jobhunter.yml", boards: "boards.yml" };
 
 async function gh(path, init = {}) {
   const r = await fetch(`https://api.github.com/repos/${REPO}${path}`, {
@@ -16,7 +17,7 @@ async function gh(path, init = {}) {
   return r;
 }
 
-async function latestRun() {
+async function latestRun(WORKFLOW) {
   const r = await gh(`/actions/workflows/${WORKFLOW}/runs?per_page=5`);
   if (!r.ok) throw new Error(`GitHub a répondu ${r.status} : vérifie le jeton GH_TOKEN`);
   const runs = (await r.json()).workflow_runs || [];
@@ -46,12 +47,14 @@ async function progressFor(runId) {
 
 export default async function handler(req, res) {
   res.setHeader("Cache-Control", "no-store");
+  const w = new URL(req.url, "http://x").searchParams.get("w");
+  const WORKFLOW = WORKFLOWS[w] || WORKFLOWS.main;
   if (!process.env.GH_TOKEN) {
     return res.status(503).json({ error: "Bouton pas encore configuré : ajoute la variable GH_TOKEN dans Vercel, puis redéploie." });
   }
   try {
     if (req.method === "POST") {
-      const cur = await latestRun();
+      const cur = await latestRun(WORKFLOW);
       if (cur && cur.status !== "completed") {
         return res.status(200).json({ started: false, reason: "Un passage est déjà en cours.", run: slim(cur) });
       }
@@ -65,7 +68,7 @@ export default async function handler(req, res) {
       }
       return res.status(202).json({ started: true, requested_at: new Date().toISOString() });
     }
-    const run = await latestRun();
+    const run = await latestRun(WORKFLOW);
     const events = run ? await progressFor(run.id) : [];
     return res.status(200).json({ run: run ? slim(run) : null, events });
   } catch (e) {

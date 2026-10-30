@@ -1,0 +1,34 @@
+# ═══════════════════════════════════════════════════════════════════
+#  JobHunter — sites d'emploi (APEC, HelloWork)
+#  Mêmes critères que config.yaml (mots-clés, contrats, expérience, zones…) :
+#  ce fichier ne précise que les sources. Une offre déjà présente dans la liste
+#  « Sites carrière » n'est pas ajoutée une deuxième fois.
+#  Page du site : onglet « Sites d'emploi » · workflow GitHub : JobHunter sites d'emploi
+# ═══════════════════════════════════════════════════════════════════
+extends: config.yaml
+
+# Ces sites renvoient beaucoup d'offres : fiches lues par source et par passage
+max_details_per_company: 40
+experience_ai_per_run: 50
+
+companies:
+
+  - name: APEC
+    source: html                # offres cadres ; résultats lus dans le JSON du moteur de recherche APEC
+    aggregator: true            # l'entreprise affichée est le vrai employeur
+    render: true
+    wait_ms: 6000
+    urls:
+      - https://www.apec.fr/candidat/recherche-emploi.html/emploi?motsCles={q}&lieux=711&sortsType=DATE
+    link_pattern: /detail-offre/
+    url_template: https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/{numeroOffre}
+    render_detail: true
+    default_location: ile-de-france
+
+  - name: HelloWork
+    source: html                # chaque fiche contient ses données structurées (employeur, lieu, contrat, date)
+    aggregator: true
+    urls:
+      - https://www.hellowork.com/fr-fr/emploi/recherche.html?k={q}&l=%C3%8Ele-de-France&c=CDI&c=CDD&p={page}
+    pages: [1, 2]
+    link_pattern: /fr-fr/emplois/\d+\.html

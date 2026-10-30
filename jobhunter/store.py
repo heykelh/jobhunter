@@ -34,11 +34,21 @@ def _save(path: Path, data):
 
 
 class Store:
-    def __init__(self):
-        self.jobs: dict[str, dict] = {j["id"]: j for j in _load(SITE_DATA / "jobs.json", {}).get("jobs", [])}
-        self.rejected: dict[str, dict] = {r["id"]: r for r in _load(SITE_DATA / "rejected.json", {}).get("items", [])}
-        self.health: dict[str, dict] = _load(SITE_DATA / "health.json", {}).get("companies", {})
-        self.state: dict = _load(STATE, {"seeded": []})
+    """Une liste d'offres. "main" = sites carrière (docs/data), "boards" = sites d'emploi (docs/data/boards)."""
+
+    def __init__(self, name: str = "main"):
+        self.dir = SITE_DATA if name == "main" else SITE_DATA / name
+        self.state_path = STATE if name == "main" else STATE.with_name(f"{name}.json")
+        self.jobs: dict[str, dict] = {j["id"]: j for j in _load(self.dir / "jobs.json", {}).get("jobs", [])}
+        self.rejected: dict[str, dict] = {r["id"]: r for r in _load(self.dir / "rejected.json", {}).get("items", [])}
+        self.health: dict[str, dict] = _load(self.dir / "health.json", {}).get("companies", {})
+        self.state: dict = _load(self.state_path, {"seeded": []})
+        self.elsewhere: set[tuple[str, str]] = set()   # offres déjà présentes dans l'autre liste
+
+    def see_also(self, other_dir: Path):
+        from .filters import norm
+        for j in _load(other_dir / "jobs.json", {}).get("jobs", []):
+            self.elsewhere.add((norm(j.get("company")), norm(j.get("title"))))
 
     # -- offres
     def has(self, jid: str) -> bool:
@@ -57,6 +67,8 @@ class Store:
         """Même offre déjà connue (même employeur, même intitulé), ex. publiée sur jobs.ch ET jobup.ch."""
         from .filters import norm
         key = (norm(company), norm(title))
+        if key in self.elsewhere:
+            return "ailleurs"
         for j in self.jobs.values():
             if (norm(j.get("company")), norm(j.get("title"))) == key:
                 return j["id"]
@@ -82,8 +94,8 @@ class Store:
         jobs = [j for j in jobs if j["last_seen"] >= cutoff]           # on oublie après 60 j sans être vue
         rej = sorted(self.rejected.values(), key=lambda r: r["at"], reverse=True)
         rej = [r for r in rej if r["at"] >= cutoff][:1500]             # on retente après 60 j
-        _save(SITE_DATA / "jobs.json", {"updated": now(), "jobs": jobs})
-        _save(SITE_DATA / "rejected.json", {"updated": now(), "items": rej})
-        _save(SITE_DATA / "health.json", {"updated": now(), "companies": self.health})
-        _save(SITE_DATA / "meta.json", meta)
-        _save(STATE, self.state)
+        _save(self.dir / "jobs.json", {"updated": now(), "jobs": jobs})
+        _save(self.dir / "rejected.json", {"updated": now(), "items": rej})
+        _save(self.dir / "health.json", {"updated": now(), "companies": self.health})
+        _save(self.dir / "meta.json", meta)
+        _save(self.state_path, self.state)

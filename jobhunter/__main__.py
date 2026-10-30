@@ -21,7 +21,7 @@ from . import cv as cvgen
 from . import match
 from .sponsors import SponsorRegister
 from .ai_check import ExperienceAI
-from .filters import Criteria, norm
+from .filters import Criteria, german_required, internship_evidence, norm
 from .notify import Notifier, Progress
 from .sources import Fetcher, collect, detail_for, fetch_detail
 from .store import ROOT, SITE_DATA, Store, job_id, now, _save
@@ -30,17 +30,26 @@ log = logging.getLogger("jobwatch")
 
 # À augmenter quand les règles de tri changent : les offres déjà affichées sont alors
 # revérifiées (fiche rouverte) et retirées si elles ne passent plus.
-RULES_VERSION = 2
+RULES_VERSION = 3
 
 
 def judge(crit: Criteria, ai: ExperienceAI, comp: dict, title: str, context: str, d) -> tuple[bool, str, object]:
     """Verdict complet d'une offre : règles (filters.py) puis, si elles laissent passer, contrôle IA."""
-    structured = " ".join(filter(None, [context, d.structured if d else ""]))
-    text = d.text if d else ""
+    # Le texte autour du lien n'est fiable que s'il est court (sinon c'est toute la liste d'offres de la page)
+    ctx = context if len(context or "") <= 400 else ""
+    structured = " ".join(filter(None, [ctx, d.structured if d else ""]))
+    text = d.text if d else ("" if ctx else context or "")
     v = crit.evaluate(title, structured, text, comp.get("default_location"))
     if not v.ok:
         return False, v.reason, v
+    ev = internship_evidence(structured + " " + text)
+    if ev:
+        return False, f"stage / alternance « {ev[:110]} »", v
     rules = crit.country_rules.get(v.country, {}) or {}
+    if rules.get("reject_german"):
+        why = german_required(title, structured + " " + text)
+        if why:
+            return False, why[:160], v
     sal_max = (d.extra.get("salary_max") if d else None)
     if rules.get("min_salary") and sal_max and sal_max < int(rules["min_salary"]):
         return False, (f"salaire max {d.extra.get('salary') or sal_max} sous le minimum visa "
@@ -60,7 +69,14 @@ def judge(crit: Criteria, ai: ExperienceAI, comp: dict, title: str, context: str
 
 
 def load_config(path: Path) -> dict:
-    return yaml.safe_load(path.read_text(encoding="utf-8"))
+    """Un fichier peut reprendre les critères d'un autre ("extends: config.yaml") et n'y changer que ce qu'il précise."""
+    cfg = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    base = cfg.pop("extends", None)
+    if base:
+        merged = load_config(path.parent / base)
+        merged.update(cfg)
+        return merged
+    return cfg
 
 
 def run(argv=None) -> int:
@@ -68,13 +84,15 @@ def run(argv=None) -> int:
     ap.add_argument("--diagnose", action="store_true")
     ap.add_argument("--only", default="")
     ap.add_argument("--config", default=str(ROOT / "config.yaml"))
+    ap.add_argument("--data", default="main", help="main = sites carrière, boards = sites d'emploi (APEC, HelloWork)")
     args = ap.parse_args(argv)
     logging.basicConfig(level=logging.INFO, format="%(message)s", stream=sys.stdout)
 
     cfg = load_config(Path(args.config))
     crit = Criteria.from_config(cfg)
     fetcher = Fetcher(delay=float(cfg.get("delay_seconds", 1.5)))
-    store = Store()
+    store = Store(args.data)
+    store.see_also(SITE_DATA if args.data != "main" else SITE_DATA / "boards")
     notifier = Notifier(cfg)
     progress = Progress(notifier)
     alert_after = int(cfg.get("alert_after_failures", 6))
@@ -106,6 +124,19 @@ def run(argv=None) -> int:
             if job.get("company") in disabled and not job.get("via"):
                 store.remove(jid)
                 log.info("  retirée (source désactivée) : %s", job.get("title"))
+    # Règles changées : les offres écartées pour leur contrat sont réexaminées une fois
+    # (la v3 ne lit plus le texte de toute une page de liste, qui faisait passer des CDI pour des stages)
+    if not args.diagnose and store.state.get("rules_version", 1) < RULES_VERSION:
+        before = len(store.rejected)
+        store.rejected = {k: r for k, r in store.rejected.items() if not r.get("reason", "").startswith("contrat")}
+        store.state["rules_version"] = RULES_VERSION
+        log.info("Règles v%d : %d offre(s) écartée(s) pour leur contrat seront réexaminées", RULES_VERSION, before - len(store.rejected))
+    # Offres d'une zone retirée de config.yaml (ex. Londres) : on les retire du site
+    if not args.diagnose:
+        for jid, job in list(store.jobs.items()):
+            if job.get("zone") and job["zone"] not in crit.zone_labels:
+                store.remove(jid)
+                log.info("  retirée (zone %s abandonnée) : %s", job["zone"], job.get("title"))
     # Offres déjà affichées dont le titre ne passe plus (mots exclus ajoutés depuis) : on les retire
     if not args.diagnose:
         for jid, job in list(store.jobs.items()):
@@ -332,7 +363,7 @@ def run(argv=None) -> int:
         fetcher.close()
 
     if args.diagnose:
-        _save(SITE_DATA / "diagnose.json", {"at": now(), "companies": diagnose})
+        _save(store.dir / "diagnose.json", {"at": now(), "companies": diagnose})
         log.info("\nDiagnostic écrit dans docs/data/diagnose.json")
         return 0
 
@@ -349,7 +380,7 @@ def run(argv=None) -> int:
     if ai_status["ok"] or ai_status["errors"]:
         meta["ai"] = dict(ai_status, at=now())
     else:
-        old = (json.loads((SITE_DATA / "meta.json").read_text(encoding="utf-8")) if (SITE_DATA / "meta.json").exists() else {}).get("ai")
+        old = (json.loads((store.dir / "meta.json").read_text(encoding="utf-8")) if (store.dir / "meta.json").exists() else {}).get("ai")
         if old:
             meta["ai"] = old
     store.save(meta)

@@ -348,8 +348,9 @@ $("#pdf").addEventListener("click", () => {
 window.addEventListener("resize", fitScale);
 
 (async function init() {
-  const [base, gen, jobs] = await Promise.all([getJSON("data/cv/base.json"), id ? getJSON(`data/cv/${id}.json`) : null, getJSON("data/jobs.json")]);
+  const [base, gen, jobs] = await Promise.all([getJSON("data/cv/base.json"), id ? getJSON(`data/cv/${id}.json`) : null, getJSON("data/jobs.json"), getJSON("data/boards/jobs.json")]).then(([b, g, j1, j2]) => [b, g, { jobs: [...((j1 && j1.jobs) || []), ...((j2 && j2.jobs) || [])] }]);
   BASE = base; GEN = gen; JOB = (jobs?.jobs || []).find(j => j.id === id) || null;
+  if (new URLSearchParams(location.search).get("p") === "boards") document.querySelector("a.back").href = "./?p=boards";
   if (!BASE) { $("#form").innerHTML = `<div class="empty">CV de base introuvable. Lance un passage du robot (mode run) pour publier cv/base_cv.json.</div>`; return; }
   $("#h").textContent = "CV · " + (JOB ? `${JOB.company} · ${JOB.title}` : (GEN?.intitule_offre || "CV de base"));
   const url = JOB?.url || GEN?.url_offre; if (url) $("#offer").href = url; else $("#offer").style.display = "none";

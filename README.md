@@ -49,6 +49,15 @@ Un passage s'arrête de lui-même après 38 minutes (`time_budget_minutes`). Le 
 
 ---
 
+### Deux listes : sites carrière et sites d'emploi
+
+| Liste | Sources | Réglages | Robot (GitHub Actions) | Données |
+|---|---|---|---|---|
+| Sites carrière (page d'accueil) | ~25 entreprises + jobs.ch, jobup.ch, Moovijob… | `config.yaml` | **JobHunter**, toutes les 30 min | `docs/data/` |
+| Sites d'emploi (`?p=boards`) | APEC, HelloWork | `config_boards.yaml` (reprend les critères de `config.yaml`) | **JobHunter sites d'emploi**, toutes les 2 h | `docs/data/boards/` |
+
+On passe de l'une à l'autre avec le sélecteur en haut du site. Chaque page a son bouton « Lancer une recherche ». Une offre déjà présente dans une liste n'est pas ajoutée à l'autre. Le suivi des candidatures et les CV sont communs aux deux.
+
 ## 2. Le tri des offres
 
 Une offre est retenue seulement si elle passe **toutes** les étapes. Sinon, elle est rangée dans l'onglet **Écartées** du site, avec la raison.
@@ -57,7 +66,9 @@ Une offre est retenue seulement si elle passe **toutes** les étapes. Sinon, ell
 |---|---|---|
 | Titre | contient un mot-clé (`keywords`) | « Mécanicien avion » |
 | Titre | ne contient aucun mot exclu (`exclude_title`) | « Senior Data Analyst », « Stage… », « Team Leader… », « …Datacenter » |
-| Lieu | Île-de-France, Suisse, Luxembourg, Londres, Malaisie ou Oman | « Data Analyst, Lyon » |
+| Lieu | Île-de-France, Suisse, Luxembourg, Malaisie ou Oman | « Data Analyst, Lyon » |
+| Stage déguisé | « Type de contrat : Stage », « stage de 6 mois », « gratification »… même si « CDD » figure aussi | « Data Visualization Analyst, stage 6 mois » |
+| Allemand (Suisse) | l'offre exige l'allemand, est rédigée en allemand ou porte (m/w/d) ; « l'allemand est un atout » reste accepté | « Data Analyst (m/w/d) » |
 | Salaire (Londres) | salaire maximum affiché ≥ 41 700 £, le minimum du visa Skilled Worker | « Data Analyst, £30 000 - £35 000 » |
 | Contrat | CDI ou CDD | « Alternance », « VIE » |
 | Expérience | 2 ans maximum (`max_experience_years`) | « Niveau d'expérience : 3 - 5 ans » |
@@ -239,8 +250,10 @@ git push
 ```
 jobhunter/                     ← racine du dépôt
 ├─ config.yaml                 critères + liste des entreprises
+├─ config_boards.yaml          sources APEC et HelloWork (mêmes critères)
 ├─ requirements.txt
-├─ .github/workflows/jobhunter.yml   planification et commit des résultats
+├─ .github/workflows/jobhunter.yml   robot des sites carrière
+├─ .github/workflows/boards.yml      robot des sites d'emploi
 ├─ jobhunter/                  le robot (Python)
 │  ├─ __main__.py              déroulé d'un passage (tri, revérification, CV, notifs)
 │  ├─ sources.py               lecture des sites : RSS, HTML, JSON, Workday, navigateur, fiches

@@ -484,7 +484,7 @@ class _Blank(dict):
         return ""
 
 
-COMPANY_KEYS = ("company", "companyName", "company_name", "employer", "employerName", "hiringOrganization",
+COMPANY_KEYS = ("nomCommercial", "nomEntreprise", "raisonSociale", "company", "companyName", "company_name", "employer", "employerName", "hiringOrganization",
                 "organization", "organisation", "advertiser")
 
 

@@ -74,5 +74,9 @@ jobs:
           git add docs/data state
           if git diff --cached --quiet; then echo "Rien de neuf"; exit 0; fi
           git commit -m "Offres $(date -u +'%Y-%m-%d %H:%M') UTC"
-          git pull --rebase --autostash || true
-          git push
+          # les deux robots peuvent publier en même temps : on réessaie jusqu'à 4 fois
+          for i in 1 2 3 4; do
+            git pull --rebase --autostash && git push && exit 0
+            sleep $((i * 7))
+          done
+          exit 1
