@@ -1,6 +1,86 @@
 {
- "updated": "2026-10-30T02:02:24+00:00",
+ "updated": "2026-10-30T09:25:05+00:00",
  "items": [
+  {
+   "id": "a4b5fc5fc31d",
+   "company": "jobup.ch",
+   "title": "Global Logistics Analyst",
+   "url": "https://www.jobup.ch/fr/emplois/detail/3ffe5b78-e723-417c-8a96-5b50f09fdc5d/",
+   "reason": "expérience demandée ≥ 5 ans « plome en logistique ou domaine connexe, avec 5 ans d'experience. competence »",
+   "at": "2026-10-30T09:23:36+00:00"
+  },
+  {
+   "id": "7925b9ec8c1a",
+   "company": "jobup.ch",
+   "title": "(Senior) SAP Data Engineer in der Business Data Cloud / Datasphere (m/w/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/4029dfb9-159a-45db-ac1a-f50d84c3861b/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-30T09:23:24+00:00"
+  },
+  {
+   "id": "668d934bc671",
+   "company": "jobup.ch",
+   "title": "Senior Data Engineer (MSSQL) mit Data Lakehouse Perspektive",
+   "url": "https://www.jobup.ch/fr/emplois/detail/d82aa6e9-f385-4885-83e1-024277246e89/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-30T09:23:24+00:00"
+  },
+  {
+   "id": "ac7b5f7b6d3b",
+   "company": "jobs.ch",
+   "title": "Business Analyst und Product Consultant Pensionskassen-Software",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/6c1bc0d5-c15b-4188-aab7-1c0593b35f1d/",
+   "reason": "expérience demandée ≥ 3 ans « ications suivantes sont requises : vous avez plusieurs annees d'experience professionnelle dans le »",
+   "at": "2026-10-30T09:23:11+00:00"
+  },
+  {
+   "id": "655f59510ac4",
+   "company": "jobs.ch",
+   "title": "Security Analyst / Architect (f/m/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/9d6db0ed-4c8e-4fb1-b9ff-7edd1da916fa/",
+   "reason": "titre exclu (architect)",
+   "at": "2026-10-30T09:23:11+00:00"
+  },
+  {
+   "id": "dc61a84c6f17",
+   "company": "jobs.ch",
+   "title": "Business Applications & Datamanagement Specialist (m/w/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/bd695e62-26c2-46b8-b718-97edf62178c5/",
+   "reason": "expérience demandée ≥ 3 ans « 8134 ch duree indeterminee vous apportez une experience solide et de longue date a l'in »",
+   "at": "2026-10-30T09:23:04+00:00"
+  },
+  {
+   "id": "f85e1a185ac3",
+   "company": "jobs.ch",
+   "title": "Area Sales Lead Data Center & AI Infrastructure (w/m/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/218e6fef-28eb-4ad4-be2e-799c717100a7/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-10-30T09:23:03+00:00"
+  },
+  {
+   "id": "740bdb27a3d0",
+   "company": "Orange",
+   "title": "Reporting Analyst",
+   "url": "https://orange.jobs/fr/fr/job/ERC-596982-20136094/Reporting-Analyst",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-30T09:22:58+00:00"
+  },
+  {
+   "id": "f25bfb771aec",
+   "company": "Alstom",
+   "title": "Mobility Data Architect",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Mobility-Data-Architect/1292400301/",
+   "reason": "titre exclu (architect)",
+   "at": "2026-10-30T09:17:38+00:00"
+  },
+  {
+   "id": "6d271e35b276",
+   "company": "Air France",
+   "title": "Business Analyst SAP - Domaine comptabilité F/H",
+   "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25264&idOrigine=502&offerReference=2026-25264",
+   "reason": "expérience demandée ≥ 3 ans « naires externes) bac+5, master avec au moins 3 ans d'experience sap - conna »",
+   "at": "2026-10-30T09:17:18+00:00"
+  },
   {
    "id": "00f48b28cb24",
    "company": "Crédit Agricole",
