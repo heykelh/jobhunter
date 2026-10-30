@@ -1,6 +1,94 @@
 {
- "updated": "2026-10-30T14:28:55+00:00",
+ "updated": "2026-10-30T17:07:16+00:00",
  "items": [
+  {
+   "id": "86c1bb321c3b",
+   "company": "jobup.ch",
+   "title": "SAP Data Manager 100 % (w/m/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/21a5c892-6c3c-4d87-a40f-9ecd7573369f/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-10-30T17:05:45+00:00"
+  },
+  {
+   "id": "ea2558834c2b",
+   "company": "jobup.ch",
+   "title": "Digital Consumer Data Analyst Geneva | Temporary assignment, 6 to 12 months",
+   "url": "https://www.jobup.ch/fr/emplois/detail/8ecc72d8-7703-413d-b2e7-b833c3bd26f0/",
+   "reason": "expérience demandée ≥ 5 ans « ennent la prise de decision profil recherche 5 a 7 ans d'experience en analyse »",
+   "at": "2026-10-30T17:05:40+00:00"
+  },
+  {
+   "id": "36b9fe225be3",
+   "company": "jobs.ch",
+   "title": "Senior Business Analyst / Requirements Engineer (76080)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/0eb0d73b-9eed-4c76-9125-70f3bf7492f6/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-30T17:05:33+00:00"
+  },
+  {
+   "id": "a919e0ac3693",
+   "company": "TotalEnergies",
+   "title": "Solutions Analyst",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Solutions-Analyst/85679",
+   "reason": "lieu hors zones",
+   "at": "2026-10-30T17:04:59+00:00"
+  },
+  {
+   "id": "17eb0aa5e8be",
+   "company": "TotalEnergies",
+   "title": "Analyste débutant relations investisseurs H/F",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Analyste-d-butant-relations-investisseurs-H-F/85755",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-10-30T17:04:57+00:00"
+  },
+  {
+   "id": "2fdf3df39737",
+   "company": "AXA",
+   "title": "Stage - Health equity analyst and communication officer",
+   "url": "https://careers.axa.com/jobs/29969",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-30T17:03:02+00:00"
+  },
+  {
+   "id": "57c97b3afde1",
+   "company": "Crédit Agricole",
+   "title": "Analyste Comptable H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170464-128-analyste-comptable-hf-reference--2026-115625--/",
+   "reason": "expérience demandée ≥ 3 ans « xperience en consolidation serait appreciee. niveau d'experience minimum 3 - 5 ans competences recherchees mot »",
+   "at": "2026-10-30T17:02:00+00:00"
+  },
+  {
+   "id": "0e6de47c65cb",
+   "company": "Crédit Agricole",
+   "title": "Analyste Onboarding - Front office H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-onboarding---front-office-hf-reference--2026-117009--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-10-30T17:01:59+00:00"
+  },
+  {
+   "id": "c33b9263ebc9",
+   "company": "Crédit Agricole",
+   "title": "Stage - Analyste SCPI H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-191859-124-stage---analyste-scpi-hf-reference--2026-115301--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-30T17:01:59+00:00"
+  },
+  {
+   "id": "c84cf1ccb81b",
+   "company": "Société Générale",
+   "title": "Analyste Risques Opérationnels - Risques CryptoActifs",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-risques-operationnels-risques-cryptoactifs-26000HEP-fr",
+   "reason": "expérience demandée ≥ 3 ans « erieure bac + 4/5, vous justifiez d'au moins 3 ans d'experience dans le dom »",
+   "at": "2026-10-30T17:01:33+00:00"
+  },
+  {
+   "id": "df8f9b9a1398",
+   "company": "Air France",
+   "title": "Data Engineer / Tech Lead Dataviz F/H",
+   "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25739&idOrigine=502&offerReference=2026-25739",
+   "reason": "titre exclu (lead)",
+   "at": "2026-10-30T17:00:03+00:00"
+  },
   {
    "id": "d9f49bcadba2",
    "company": "ING",

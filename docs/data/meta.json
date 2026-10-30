@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T14:28:55+00:00",
+ "updated": "2026-10-30T17:07:16+00:00",
  "keywords": [
   "data",
   "analyst"
@@ -46,10 +46,9 @@
  ],
  "ai": {
   "ok": 5,
-  "errors": 2,
-  "last_error": "HTTP 429 (openai/gpt-oss-120b) : {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kkqt4ecsfjybqscgqhm4275e` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7230, Req",
+  "errors": 0,
+  "last_error": "",
   "model": "openai/gpt-oss-120b",
-  "waits": 2,
-  "at": "2026-10-30T14:28:55+00:00"
+  "at": "2026-10-30T17:07:16+00:00"
  }
 }
