@@ -1,0 +1,172 @@
+{
+ "titre": "Ingénieur Data Integrity : 13 ans d’expérience SNCF",
+ "profil": "13 ans d’expérience au sein du Groupe SNCF, environnement critique avec exigences de sécurité et de traçabilité des données. Titulaire d’un Master Data Engineer / Data Product Manager (Bac+5, Mines Paris‑PSL) spécialisé en gestion de bases de données et contrôle qualité. Expérience confirmée dans la mise en œuvre de procédures de validation, d’audit de données et de formation des utilisateurs.",
+ "competences": [
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio",
+    "Excel"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Simulation d’une mission d’inspection de données avec cadrage, investigations et restitution conforme aux exigences d’intégrité",
+    "Développement d’un moteur de contrôles qualité en SQL, incluant scoring de risque, registre des constats et rapport de validation"
+   ]
+  },
+  {
+   "id": "pokewatch",
+   "titre": "PokéWatch : surveillance de marché et détection d'anomalies de prix",
+   "stack": "PostgreSQL, Supabase, SQL, GitHub Actions, Next.js",
+   "lien": "pokewatch-three.vercel.app",
+   "tags": [
+    "surveillance",
+    "monitoring",
+    "anomalie",
+    "anomalies",
+    "fraude",
+    "prix",
+    "marché",
+    "pipeline",
+    "automatisation",
+    "alerte",
+    "data engineer",
+    "ingestion",
+    "sql"
+   ],
+   "puces": [
+    "Mise en place d’un pipeline automatisé de collecte de prix, avec alertes en temps réel, assurant la traçabilité des données",
+    "Création de règles SQL de détection d’anomalies et tableau de bord Next.js pour suivi et documentation des contrôles"
+   ]
+  },
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Simulation d’une mission d’analyse fonctionnelle d’un SI Crédit, de l’expression du besoin à la recette, avec suivi de la conformité des données",
+    "Production de livrables documentés (cartographie, spécifications fonctionnelles, plan de tests) alignés aux exigences de validation"
+   ]
+  },
+  {
+   "id": "customer-experience",
+   "titre": "Customer Experience Intelligence : analyse et dataviz",
+   "stack": "Python, Power BI",
+   "lien": "github.com/heykelh/customer-experience-intelligence",
+   "tags": [
+    "client",
+    "clients",
+    "expérience client",
+    "marketing",
+    "kpi",
+    "dashboard",
+    "tableau de bord",
+    "power bi",
+    "reporting",
+    "analyse",
+    "satisfaction",
+    "parcours"
+   ],
+   "puces": [
+    "Analyse exploratoire des données clients pour identifier tendances, anomalies et impacts sur la performance, en conformité avec les principes ALCOA+",
+    "Conception de dashboards interactifs Power BI et indicateurs de pilotage, avec documentation de validation pour les décideurs"
+   ]
+  }
+ ],
+ "mots_cles_manquants": [],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "2c5497dc19f3",
+ "entreprise": "Akkodis",
+ "intitule_offre": "Data Integrity H/F Akkodis",
+ "url_offre": "https://www.hellowork.com/fr-fr/emplois/84649639.html",
+ "genere_le": "2026-10-30T19:00:14+00:00"
+}

@@ -1,0 +1,184 @@
+{
+ "titre": "Business Analyst Data : Storm Group",
+ "profil": "Data analyst avec 13 ans d’expérience au sein du groupe SNCF, spécialisé dans des environnements à forts enjeux de sécurité. Titulaire d’un Master Data Engineer / Data Product Manager (Bac+5, Mines Paris : PSL), j’ai conduit plus de 15 projets data couvrant analyse, modélisation et visualisation. Mes compétences incluent la rédaction de spécifications fonctionnelles, la conception de tableaux de bord Power BI et l’accompagnement des équipes métier dans la phase de recette.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "SQL",
+    "Excel",
+    "Power BI (DAX)",
+    "Python (pandas)",
+    "PostgreSQL",
+    "DuckDB",
+    "Looker Studio"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Simulation d’une mission de Business Analyst sur un SI Crédit, de la collecte des besoins à la rédaction des spécifications fonctionnelles détaillées.",
+    "Livrables publiés : cartographie des processus, spécifications fonctionnelles et plan de tests, facilitant la phase de recette."
+   ]
+  },
+  {
+   "id": "customer-experience",
+   "titre": "Customer Experience Intelligence : analyse et dataviz",
+   "stack": "Python, Power BI",
+   "lien": "github.com/heykelh/customer-experience-intelligence",
+   "tags": [
+    "client",
+    "clients",
+    "expérience client",
+    "marketing",
+    "kpi",
+    "dashboard",
+    "tableau de bord",
+    "power bi",
+    "reporting",
+    "analyse",
+    "satisfaction",
+    "parcours"
+   ],
+   "puces": [
+    "Analyse exploratoire des données clients pour identifier insights, tendances et anomalies impactant la performance métier.",
+    "Conception de tableaux de bord interactifs Power BI destinés aux décideurs pour le pilotage opérationnel."
+   ]
+  },
+  {
+   "id": "palier",
+   "titre": "PALIER : tarification et yield management TGV",
+   "stack": "Python, DuckDB, Power BI, Next.js, GitHub Actions",
+   "lien": "palier-sncf.vercel.app",
+   "tags": [
+    "pricing",
+    "prix",
+    "tarif",
+    "tarification",
+    "revenue",
+    "yield",
+    "élasticité",
+    "demande",
+    "transport",
+    "ferroviaire",
+    "voyageurs",
+    "sncf",
+    "commercial",
+    "offre"
+   ],
+   "puces": [
+    "Analyse de la tarification TGV à partir de données ouvertes, étude d’élasticité prix et positionnement concurrentiel.",
+    "Développement d’un module de yield management avec allocation tarifaire automatisée via GitHub Actions."
+   ]
+  },
+  {
+   "id": "escale",
+   "titre": "ESCALE : ponctualité des vols CDG et Orly",
+   "stack": "Python, PostgreSQL (médaillon), API AeroDataBox, Next.js",
+   "lien": "escale-ops.vercel.app",
+   "tags": [
+    "aérien",
+    "aerien",
+    "aviation",
+    "vol",
+    "vols",
+    "airline",
+    "opérations",
+    "operations",
+    "ponctualité",
+    "retard",
+    "rgpd",
+    "privacy",
+    "données personnelles",
+    "ai act",
+    "prédiction",
+    "client"
+   ],
+   "puces": [
+    "Collecte automatisée des données de ponctualité des vols CDG/Orly, classification en niveaux de risque.",
+    "Mise en place d’une console de suivi avec modèle prédictif et conformité RGPD/AI Act (privacy by design)."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "sas",
+  "azure",
+  "data warehouse",
+  "modélisation",
+  "agile",
+  "jira",
+  "informatica",
+  "oracle"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "94b13a3e9bc5",
+ "entreprise": "Storm Group",
+ "intitule_offre": "Business Analyst Data H/F Storm Group",
+ "url_offre": "https://www.hellowork.com/fr-fr/emplois/84789608.html",
+ "genere_le": "2026-10-30T19:00:25+00:00"
+}

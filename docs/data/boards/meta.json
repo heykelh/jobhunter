@@ -1,0 +1,32 @@
+{
+ "updated": "2026-10-30T19:05:15+00:00",
+ "keywords": [
+  "data",
+  "analyst"
+ ],
+ "contracts": [
+  "CDI",
+  "CDD"
+ ],
+ "zones": [
+  "Londres",
+  "Luxembourg",
+  "Malaisie",
+  "Oman",
+  "Suisse",
+  "Île-de-France"
+ ],
+ "max_experience_years": 2,
+ "companies": [
+  "APEC",
+  "HelloWork"
+ ],
+ "ai": {
+  "ok": 24,
+  "errors": 24,
+  "last_error": "HTTP 429 (openai/gpt-oss-120b) : {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kkqt4ecsfjybqscgqhm4275e` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6456, Req",
+  "model": "openai/gpt-oss-120b",
+  "waits": 24,
+  "at": "2026-10-30T19:05:15+00:00"
+ }
+}

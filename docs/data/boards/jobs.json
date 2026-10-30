@@ -1,0 +1,772 @@
+{
+ "updated": "2026-10-30T19:05:15+00:00",
+ "jobs": [
+  {
+   "id": "408015d34413",
+   "company": "Storm Group",
+   "title": "Business Analyst - Assurance H/F Storm Group",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84789652.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-10-26T09:44:50+00:00",
+   "seed": true,
+   "rv": 3,
+   "match": {
+    "score": 80,
+    "have": [
+     "pilotage",
+     "recette",
+     "business analyst",
+     "anglais"
+    ],
+    "missing": [
+     "jira"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-10-30T19:05:11+00:00",
+   "last_seen": "2026-10-30T19:05:11+00:00"
+  },
+  {
+   "id": "1681814ac371",
+   "company": "Storm Group",
+   "title": "Business Analyst Api H/F Storm Group",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84789660.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-10-26T09:44:52+00:00",
+   "seed": true,
+   "rv": 3,
+   "match": {
+    "score": 80,
+    "have": [
+     "pilotage",
+     "recette",
+     "business analyst",
+     "anglais"
+    ],
+    "missing": [
+     "agile"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-10-30T19:05:09+00:00",
+   "last_seen": "2026-10-30T19:05:09+00:00"
+  },
+  {
+   "id": "4836d00096e4",
+   "company": "Meritis",
+   "title": "Business Analyst Progiciel H/F Meritis",
+   "url": "https://www.hellowork.com/fr-fr/emplois/70757989.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-10-30T00:20:26+00:00",
+   "seed": true,
+   "rv": 3,
+   "match": {
+    "score": 80,
+    "have": [
+     "reporting",
+     "recette",
+     "spécifications",
+     "business analyst"
+    ],
+    "missing": [
+     "modélisation"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-10-30T19:05:03+00:00",
+   "last_seen": "2026-10-30T19:05:03+00:00"
+  },
+  {
+   "id": "731ef6e4866b",
+   "company": "Aktisea",
+   "title": "Data Analyst H/F Aktisea",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84882193.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDD",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-10-28T11:47:24+00:00",
+   "seed": true,
+   "rv": 3,
+   "match": {
+    "score": 92,
+    "have": [
+     "power bi",
+     "excel",
+     "intelligence artificielle",
+     "qualité des données",
+     "gouvernance",
+     "conformité",
+     "reporting",
+     "tableaux de bord",
+     "kpi",
+     "pilotage"
+    ],
+    "missing": [
+     "tableau"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-10-30T19:04:54+00:00",
+   "last_seen": "2026-10-30T19:04:54+00:00"
+  },
+  {
+   "id": "562c24864dfe",
+   "company": "Storm Group",
+   "title": "Data Analyst H/F Storm Group",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84789604.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-10-26T09:44:28+00:00",
+   "seed": true,
+   "rv": 3,
+   "match": {
+    "score": 64,
+    "have": [
+     "python",
+     "sql",
+     "power bi",
+     "tableaux de bord",
+     "pilotage",
+     "business analyst",
+     "anglais"
+    ],
+    "missing": [
+     "databricks",
+     "modélisation",
+     "statistiques",
+     "agile"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-10-30T19:04:40+00:00",
+   "last_seen": "2026-10-30T19:04:40+00:00"
+  },
+  {
+   "id": "42e5b862c50d",
+   "company": "hinq.",
+   "title": "Chargé d'Études Transport & Logistique - Tender Analyst H/F hinq.",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84277302.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-10-09T18:39:00+00:00",
+   "seed": true,
+   "rv": 3,
+   "match": {
+    "score": 75,
+    "have": [
+     "excel",
+     "pricing",
+     "anglais"
+    ],
+    "missing": [
+     "vba"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-10-30T19:04:28+00:00",
+   "last_seen": "2026-10-30T19:04:28+00:00"
+  },
+  {
+   "id": "bbf4bae9d59c",
+   "company": "Parts Holding Europe",
+   "title": "Pricing Analyst H/F Parts Holding Europe",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83734937.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-10-25T00:11:48+00:00",
+   "seed": true,
+   "rv": 3,
+   "match": {
+    "score": 82,
+    "have": [
+     "power bi",
+     "excel",
+     "aws",
+     "intelligence artificielle",
+     "qualité des données",
+     "reporting",
+     "tableaux de bord",
+     "pilotage",
+     "pricing"
+    ],
+    "missing": [
+     "statistiques",
+     "revenue management"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-10-30T19:04:27+00:00",
+   "last_seen": "2026-10-30T19:04:27+00:00"
+  },
+  {
+   "id": "34748263bec3",
+   "company": "Brink's",
+   "title": "Financial Analyst H/F Brink's",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84702529.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDD",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-10-22T16:39:10+00:00",
+   "seed": true,
+   "rv": 3,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-10-30T19:04:21+00:00",
+   "last_seen": "2026-10-30T19:04:21+00:00"
+  },
+  {
+   "id": "f096901aa5eb",
+   "company": "Safran",
+   "title": "Export Control Analyst H/F Safran",
+   "url": "https://www.hellowork.com/fr-fr/emplois/80868859.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-10-01T09:45:16+00:00",
+   "seed": true,
+   "rv": 3,
+   "match": {
+    "score": 80,
+    "have": [
+     "excel",
+     "reporting",
+     "kpi",
+     "pilotage"
+    ],
+    "missing": [
+     "sap"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-10-30T19:04:18+00:00",
+   "last_seen": "2026-10-30T19:04:18+00:00"
+  },
+  {
+   "id": "40d90c8a1f93",
+   "company": "WeFiit",
+   "title": "QA Analyst - Testeur Agile H/F WeFiit",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84142860.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "1 an min. · junior",
+   "junior": true,
+   "published": "2026-10-06T16:41:16+00:00",
+   "seed": true,
+   "rv": 3,
+   "match": {
+    "score": 50,
+    "have": [
+     "recette",
+     "anglais"
+    ],
+    "missing": [
+     "agile",
+     "jira"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-10-30T19:03:57+00:00",
+   "last_seen": "2026-10-30T19:03:57+00:00"
+  },
+  {
+   "id": "3eb44b86a9ce",
+   "company": "BPCE SA",
+   "title": "Business Analyst H/F BPCE SA",
+   "url": "https://www.hellowork.com/fr-fr/emplois/79332905.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-10-22T00:23:38+00:00",
+   "seed": true,
+   "rv": 3,
+   "match": {
+    "score": 71,
+    "have": [
+     "python",
+     "sql",
+     "power bi",
+     "conformité",
+     "business analyst"
+    ],
+    "missing": [
+     "agile",
+     "jira"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-10-30T19:03:46+00:00",
+   "last_seen": "2026-10-30T19:03:46+00:00"
+  },
+  {
+   "id": "a5e0c80db489",
+   "company": "SOMA",
+   "title": "Business Analyst H/F SOMA",
+   "url": "https://www.hellowork.com/fr-fr/emplois/55979192.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-10-29T00:13:22+00:00",
+   "seed": true,
+   "rv": 3,
+   "match": {
+    "score": 83,
+    "have": [
+     "python",
+     "power bi",
+     "reporting",
+     "spécifications",
+     "business analyst"
+    ],
+    "missing": [
+     "tableau"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-10-30T19:03:44+00:00",
+   "last_seen": "2026-10-30T19:03:44+00:00"
+  },
+  {
+   "id": "849da40b493c",
+   "company": "Safran",
+   "title": "Vie - Quality Assurance & Process Improvement Analyst H/F Safran",
+   "url": "https://www.hellowork.com/fr-fr/emplois/79179904.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDD",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-10-20T00:46:05+00:00",
+   "seed": true,
+   "rv": 3,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-10-30T19:03:27+00:00",
+   "last_seen": "2026-10-30T19:03:27+00:00"
+  },
+  {
+   "id": "edc51343e774",
+   "company": "CEVA LOGISTICS",
+   "title": "Customs And Tax Analyst Europe - CDD H/F CEVA LOGISTICS",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84654487.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDD",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-10-21T13:58:34+00:00",
+   "seed": true,
+   "rv": 3,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-10-30T19:03:07+00:00",
+   "last_seen": "2026-10-30T19:03:07+00:00"
+  },
+  {
+   "id": "29916257c286",
+   "company": "Safran",
+   "title": "Vie - Product Quality Performance Analyst H/F Safran",
+   "url": "https://www.hellowork.com/fr-fr/emplois/80204297.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDD",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-10-16T00:11:34+00:00",
+   "seed": true,
+   "rv": 3,
+   "match": {
+    "score": 100,
+    "have": [
+     "power bi",
+     "excel",
+     "dashboard"
+    ],
+    "missing": []
+   },
+   "salary": null,
+   "first_seen": "2026-10-30T19:02:49+00:00",
+   "last_seen": "2026-10-30T19:02:49+00:00"
+  },
+  {
+   "id": "2f4e3da91567",
+   "company": "Safran",
+   "title": "Vie Account Reconciliation Analyst - Cincinnati H/F Safran",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84340788.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDD",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-10-12T16:23:27+00:00",
+   "seed": true,
+   "rv": 3,
+   "match": {
+    "score": 75,
+    "have": [
+     "reporting",
+     "kpi",
+     "business analyst"
+    ],
+    "missing": [
+     "sap"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-10-30T19:02:42+00:00",
+   "last_seen": "2026-10-30T19:02:42+00:00"
+  },
+  {
+   "id": "21a5bbbf5ece",
+   "company": "MBDA",
+   "title": "Sales Ops Analyst Eurosam H/F MBDA",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84908494.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-10-28T17:56:22+00:00",
+   "seed": true,
+   "rv": 3,
+   "match": {
+    "score": 57,
+    "have": [
+     "power bi",
+     "tableaux de bord",
+     "pilotage",
+     "anglais"
+    ],
+    "missing": [
+     "prévision",
+     "agile",
+     "oracle"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-10-30T19:02:26+00:00",
+   "last_seen": "2026-10-30T19:02:26+00:00"
+  },
+  {
+   "id": "5b3881dadaac",
+   "company": "Safran",
+   "title": "Rpa Developer·euse Analyst H/F Safran",
+   "url": "https://www.hellowork.com/fr-fr/emplois/78992737.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-10-15T08:38:02+00:00",
+   "seed": true,
+   "rv": 3,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-10-30T19:02:19+00:00",
+   "last_seen": "2026-10-30T19:02:19+00:00"
+  },
+  {
+   "id": "73160bd26650",
+   "company": "SOCOTEC",
+   "title": "Fp&A Analyst EMEA H/F SOCOTEC",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83759339.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "2 ans min. · junior",
+   "junior": true,
+   "published": "2026-10-26T00:06:30+00:00",
+   "seed": true,
+   "rv": 3,
+   "match": {
+    "score": 100,
+    "have": [
+     "excel",
+     "gouvernance",
+     "conformité",
+     "reporting",
+     "kpi",
+     "anglais"
+    ],
+    "missing": []
+   },
+   "salary": null,
+   "first_seen": "2026-10-30T19:02:07+00:00",
+   "last_seen": "2026-10-30T19:02:07+00:00"
+  },
+  {
+   "id": "e41464344282",
+   "company": "Vygon",
+   "title": "Ingénieur Méthodes & Data Industrielles H/F Vygon",
+   "url": "https://www.hellowork.com/fr-fr/emplois/79301676.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-10-22T00:22:24+00:00",
+   "seed": true,
+   "rv": 3,
+   "match": {
+    "score": 75,
+    "have": [
+     "qualité des données",
+     "pilotage",
+     "anglais"
+    ],
+    "missing": [
+     "sap"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-10-30T19:01:50+00:00",
+   "last_seen": "2026-10-30T19:01:50+00:00"
+  },
+  {
+   "id": "7acadae4eec3",
+   "company": "MP Data",
+   "title": "Consultant Data Scientist H/F MP Data",
+   "url": "https://www.hellowork.com/fr-fr/emplois/80735054.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-10-30T00:17:23+00:00",
+   "seed": true,
+   "rv": 3,
+   "match": {
+    "score": 47,
+    "have": [
+     "python",
+     "sql",
+     "aws",
+     "docker",
+     "machine learning",
+     "pilotage",
+     "scikit-learn"
+    ],
+    "missing": [
+     "azure",
+     "gcp",
+     "kubernetes",
+     "modélisation",
+     "statistiques",
+     "tensorflow",
+     "pytorch",
+     "nlp"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-10-30T19:01:27+00:00",
+   "last_seen": "2026-10-30T19:01:27+00:00"
+  },
+  {
+   "id": "7adf5a795565",
+   "company": "GIO Recrutement",
+   "title": "Data Officer H/F GIO Recrutement",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84366564.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDD",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-10-13T00:35:39+00:00",
+   "seed": true,
+   "rv": 3,
+   "match": {
+    "score": 100,
+    "have": [
+     "excel",
+     "gouvernance",
+     "pilotage",
+     "business analyst",
+     "anglais"
+    ],
+    "missing": []
+   },
+   "salary": null,
+   "first_seen": "2026-10-30T19:01:17+00:00",
+   "last_seen": "2026-10-30T19:01:17+00:00"
+  },
+  {
+   "id": "8923e30827d8",
+   "company": "Ministère des armées - Civils de la Défense",
+   "title": "Data Officer H/F Ministère des armées - Civils de la Défense",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83275312.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDD",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-10-12T00:08:01+00:00",
+   "seed": true,
+   "rv": 3,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-10-30T19:01:03+00:00",
+   "last_seen": "2026-10-30T19:01:03+00:00"
+  },
+  {
+   "id": "39c382d9b83c",
+   "company": "Vinci Construction France - Direction Opérationnelle Ouvrages Fonctionnels Neufs",
+   "title": "Responsable Travaux Data Centers H/F Vinci Construction France - Direction Opérationnelle Ouvrages Fonctionnels Neufs",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83844830.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-10-29T00:11:49+00:00",
+   "seed": true,
+   "rv": 3,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-10-30T19:00:56+00:00",
+   "last_seen": "2026-10-30T19:00:56+00:00"
+  },
+  {
+   "id": "5ad3e638d32e",
+   "company": "Savane Consulting",
+   "title": "Data Analyst Data RH H/F Savane Consulting",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84435832.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "2 ans min. · junior",
+   "junior": true,
+   "published": "2026-10-14T18:18:59+00:00",
+   "seed": true,
+   "rv": 3,
+   "match": {
+    "score": 67,
+    "have": [
+     "gouvernance",
+     "business analyst"
+    ],
+    "missing": [
+     "catalogue"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-10-30T19:00:40+00:00",
+   "last_seen": "2026-10-30T19:00:40+00:00"
+  },
+  {
+   "id": "94b13a3e9bc5",
+   "company": "Storm Group",
+   "title": "Business Analyst Data H/F Storm Group",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84789608.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-10-26T09:44:30+00:00",
+   "seed": true,
+   "rv": 3,
+   "match": {
+    "score": 50,
+    "have": [
+     "sql",
+     "power bi",
+     "etl",
+     "pilotage",
+     "recette",
+     "spécifications",
+     "business analyst",
+     "anglais"
+    ],
+    "missing": [
+     "sas",
+     "azure",
+     "data warehouse",
+     "modélisation",
+     "agile",
+     "jira",
+     "informatica",
+     "oracle"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-10-30T19:00:22+00:00",
+   "last_seen": "2026-10-30T19:00:22+00:00"
+  },
+  {
+   "id": "2c5497dc19f3",
+   "company": "Akkodis",
+   "title": "Data Integrity H/F Akkodis",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84649639.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-10-21T11:54:51+00:00",
+   "seed": true,
+   "rv": 3,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-10-30T19:00:11+00:00",
+   "last_seen": "2026-10-30T19:00:11+00:00"
+  }
+ ]
+}

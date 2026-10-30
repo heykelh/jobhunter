@@ -1,0 +1,175 @@
+{
+ "titre": "Ingénieur Méthodes & Data Industrielles Vygon",
+ "profil": "Profil data alliant 13 ans d'expérience opérationnelle au sein du Groupe SNCF, en environnement à forts enjeux de sécurité, et un Master Data Engineer / Data Product Manager (Bac+5, Mines Paris - PSL). Plus de 15 projets data réalisés et déployés sur mon portfolio, avec une montée en compétences continue, notamment en data engineering et gouvernance et conformité.",
+ "competences": [
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio",
+    "Excel"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Simulation d'une mission d'inspection Data sur la chaîne de données du risque de crédit : cadrage, investigations, débriefing.",
+    "Moteur de contrôles qualité en règles SQL, scoring de risque, registre des constats et rapport de restitution."
+   ]
+  },
+  {
+   "id": "frontierbank",
+   "titre": "FrontierBank : gouvernance des données d'une banque fictive",
+   "stack": "BCBS 239, DAMA-DMBOK, AI Act, Power BI",
+   "lien": "frontierbank-data.vercel.app",
+   "tags": [
+    "gouvernance",
+    "governance",
+    "steward",
+    "qualité",
+    "quality",
+    "bcbs",
+    "dama",
+    "lignage",
+    "lineage",
+    "banque",
+    "bancaire",
+    "risque",
+    "réglementaire",
+    "conformité",
+    "raci",
+    "référentiel",
+    "métadonnées"
+   ],
+   "puces": [
+    "Mission de conseil complète en gouvernance des données : diagnostic BCBS 239, cadre DAMA-DMBOK, lignage et matrice RACI.",
+    "Tableaux de bord Power BI de suivi de la qualité des données et cartographie des usages soumis à l'AI Act."
+   ]
+  },
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Simulation d'une mission de Business Analyst sur un SI Crédit (recouvrement amiable et contentieux), de l'expression du besoin à la recette.",
+    "Livrables publiés en ligne : cartographie des processus, spécifications fonctionnelles et plan de tests."
+   ]
+  },
+  {
+   "id": "dockz",
+   "titre": "DOCKZ : plateforme data du marché de l'entrepôt",
+   "stack": "Python, données publiques, Next.js",
+   "lien": "dockz.vercel.app",
+   "tags": [
+    "immobilier",
+    "logistique",
+    "entrepôt",
+    "études",
+    "marché",
+    "géo",
+    "géographique",
+    "cartographie",
+    "dataviz"
+   ],
+   "puces": [
+    "Plateforme d'analyse du marché de l'entrepôt logistique en France à partir de données publiques.",
+    "Indicateurs de marché et visualisations cartographiques pour une société fictive de conseil immobilier."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "sap"
+ ],
+ "methode": "règles seules (IA en échec : HTTP 429 (openai/gpt-oss-120b) : {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization)",
+ "job_id": "e41464344282",
+ "entreprise": "Vygon",
+ "intitule_offre": "Ingénieur Méthodes & Data Industrielles H/F Vygon",
+ "url_offre": "https://www.hellowork.com/fr-fr/emplois/79301676.html",
+ "genere_le": "2026-10-30T19:01:53+00:00"
+}
