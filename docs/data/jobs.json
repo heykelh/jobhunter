@@ -1,6 +1,104 @@
 {
- "updated": "2026-10-30T17:07:16+00:00",
+ "updated": "2026-10-30T21:39:27+00:00",
  "jobs": [
+  {
+   "id": "675f0fff37f7",
+   "company": "Advanzia Bank",
+   "title": "Junior Data Analyst",
+   "url": "https://www.advanzia.com/en/job/junior-data-analyst",
+   "via": null,
+   "zone": "Luxembourg",
+   "country": "Luxembourg",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-08-07T07:10:39+00:00",
+   "seed": false,
+   "rv": 3,
+   "match": {
+    "score": 86,
+    "have": [
+     "python",
+     "sql",
+     "power bi",
+     "excel",
+     "data quality",
+     "reporting"
+    ],
+    "missing": [
+     "databricks"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-10-30T21:38:58+00:00",
+   "last_seen": "2026-10-30T21:38:58+00:00"
+  },
+  {
+   "id": "98602bf58326",
+   "company": "Advanzia Bank",
+   "title": "Financial Reporting Analyst",
+   "url": "https://www.advanzia.com/en/job/financial-reporting-analyst",
+   "via": null,
+   "zone": "Luxembourg",
+   "country": "Luxembourg",
+   "contract": "CDI",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-09-08T08:03:31+00:00",
+   "seed": false,
+   "rv": 3,
+   "match": {
+    "score": 100,
+    "have": [
+     "sql",
+     "power bi",
+     "excel",
+     "reporting"
+    ],
+    "missing": []
+   },
+   "salary": null,
+   "first_seen": "2026-10-30T21:38:55+00:00",
+   "last_seen": "2026-10-30T21:38:55+00:00"
+  },
+  {
+   "id": "cf0a5f07c299",
+   "company": "Advanzia Bank",
+   "title": "Corporate Finance Analyst",
+   "url": "https://www.advanzia.com/en/job/corporate-finance-analyst",
+   "via": null,
+   "zone": "Luxembourg",
+   "country": "Luxembourg",
+   "contract": "CDI",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-08-07T14:39:23+00:00",
+   "seed": false,
+   "rv": 3,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-10-30T21:38:50+00:00",
+   "last_seen": "2026-10-30T21:38:50+00:00"
+  },
+  {
+   "id": "4e3e7abc4338",
+   "company": "FORUM MONDIAL DE L'ECONOMIE",
+   "title": "Analyst, Strategic Intelligence and Foresight (Two year fixed-term contract)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/9b9f2a12-4352-4200-811f-2c5700ae84f0/",
+   "via": "jobup.ch",
+   "zone": "Suisse",
+   "country": "Suisse",
+   "contract": "CDD",
+   "experience": "2 ans min.",
+   "junior": false,
+   "published": "2026-10-30T08:42:53+01:00",
+   "seed": false,
+   "rv": 3,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-10-30T21:37:36+00:00",
+   "last_seen": "2026-10-30T21:37:36+00:00"
+  },
   {
    "id": "01190ef0842b",
    "company": "Ekkiden Technologies SA",
@@ -14,7 +112,7 @@
    "junior": false,
    "published": "2026-10-30T14:48:38+01:00",
    "seed": false,
-   "rv": 2,
+   "rv": 3,
    "match": {
     "score": 40,
     "have": [
@@ -29,7 +127,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T14:27:03+00:00",
-   "last_seen": "2026-10-30T17:05:33+00:00"
+   "last_seen": "2026-10-30T21:36:29+00:00"
   },
   {
    "id": "a8e8b79ddcb5",
@@ -94,7 +192,7 @@
    "junior": false,
    "published": "2026-09-01T02:33:45+02:00",
    "seed": false,
-   "rv": 2,
+   "rv": 3,
    "match": {
     "score": 40,
     "have": [
@@ -109,7 +207,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T22:05:06+00:00",
-   "last_seen": "2026-10-30T17:05:45+00:00"
+   "last_seen": "2026-10-30T21:37:12+00:00"
   },
   {
    "id": "7caa606d6350",
@@ -174,7 +272,7 @@
    "junior": false,
    "published": "2026-09-15T02:00:00+00:00",
    "seed": false,
-   "rv": 2,
+   "rv": 3,
    "match": {
     "score": 33,
     "have": [
@@ -188,7 +286,7 @@
    "salary": null,
    "sponsor": "skilled",
    "first_seen": "2026-10-29T17:31:50+00:00",
-   "last_seen": "2026-10-30T17:06:43+00:00"
+   "last_seen": "2026-10-30T21:38:37+00:00"
   },
   {
    "id": "327b49e49fed",
@@ -203,11 +301,11 @@
    "junior": false,
    "published": "2026-10-29",
    "seed": false,
-   "rv": 2,
+   "rv": 3,
    "match": null,
    "salary": null,
    "first_seen": "2026-10-29T17:29:57+00:00",
-   "last_seen": "2026-10-30T17:04:59+00:00"
+   "last_seen": "2026-10-30T21:35:05+00:00"
   },
   {
    "id": "2dc2e84b47d5",
@@ -282,7 +380,7 @@
    "junior": false,
    "published": "2026-10-29T14:34:44+01:00",
    "seed": false,
-   "rv": 2,
+   "rv": 3,
    "match": {
     "score": 86,
     "have": [
@@ -299,7 +397,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T14:20:44+00:00",
-   "last_seen": "2026-10-30T17:05:33+00:00"
+   "last_seen": "2026-10-30T21:36:16+00:00"
   },
   {
    "id": "3ca060478dbd",
@@ -314,7 +412,7 @@
    "junior": true,
    "published": "2026-10-29",
    "seed": false,
-   "rv": 2,
+   "rv": 3,
    "match": {
     "score": 100,
     "have": [
@@ -328,7 +426,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:28:53+00:00",
-   "last_seen": "2026-10-30T17:06:23+00:00"
+   "last_seen": "2026-10-30T21:38:13+00:00"
   },
   {
    "id": "b9a0be535054",
@@ -373,7 +471,7 @@
    "junior": false,
    "published": "2026-09-17T02:31:56+02:00",
    "seed": true,
-   "rv": 2,
+   "rv": 3,
    "match": {
     "score": 33,
     "have": [
@@ -386,7 +484,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:28:16+00:00",
-   "last_seen": "2026-10-30T17:05:47+00:00"
+   "last_seen": "2026-10-30T21:37:40+00:00"
   },
   {
    "id": "54e37897c3ae",
@@ -401,7 +499,7 @@
    "junior": false,
    "published": "2026-10-06T06:13:21+02:00",
    "seed": true,
-   "rv": 2,
+   "rv": 3,
    "match": {
     "score": 75,
     "have": [
@@ -419,7 +517,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:28:07+00:00",
-   "last_seen": "2026-10-30T17:05:47+00:00"
+   "last_seen": "2026-10-30T21:37:33+00:00"
   },
   {
    "id": "d6974f5955a6",
@@ -434,11 +532,11 @@
    "junior": true,
    "published": "2026-10-29T10:30:25+01:00",
    "seed": true,
-   "rv": 2,
+   "rv": 3,
    "match": null,
    "salary": null,
    "first_seen": "2026-10-29T10:28:05+00:00",
-   "last_seen": "2026-10-30T17:05:47+00:00"
+   "last_seen": "2026-10-30T21:37:31+00:00"
   },
   {
    "id": "4b9b91a1656f",
@@ -453,7 +551,7 @@
    "junior": true,
    "published": "2026-09-30T13:47:18+02:00",
    "seed": true,
-   "rv": 2,
+   "rv": 3,
    "match": {
     "score": 71,
     "have": [
@@ -470,7 +568,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:28:04+00:00",
-   "last_seen": "2026-10-30T17:05:47+00:00"
+   "last_seen": "2026-10-30T21:37:30+00:00"
   },
   {
    "id": "cf46f120bf80",
@@ -485,7 +583,7 @@
    "junior": true,
    "published": "2026-10-26T06:11:27+01:00",
    "seed": true,
-   "rv": 2,
+   "rv": 3,
    "match": {
     "score": 80,
     "have": [
@@ -500,7 +598,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:28:00+00:00",
-   "last_seen": "2026-10-30T17:05:47+00:00"
+   "last_seen": "2026-10-30T21:37:28+00:00"
   },
   {
    "id": "72a9a945f81b",
@@ -515,11 +613,11 @@
    "junior": false,
    "published": "2026-10-19T08:03:51+02:00",
    "seed": true,
-   "rv": 2,
+   "rv": 3,
    "match": null,
    "salary": null,
    "first_seen": "2026-10-29T10:27:55+00:00",
-   "last_seen": "2026-10-30T17:05:45+00:00"
+   "last_seen": "2026-10-30T21:37:26+00:00"
   },
   {
    "id": "dab274884e02",
@@ -534,7 +632,7 @@
    "junior": true,
    "published": "2026-10-21T14:27:43+02:00",
    "seed": true,
-   "rv": 2,
+   "rv": 3,
    "match": {
     "score": 67,
     "have": [
@@ -547,37 +645,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:27:54+00:00",
-   "last_seen": "2026-10-30T17:05:45+00:00"
-  },
-  {
-   "id": "bcaa9e9350f2",
-   "company": "Körber Supply Chain AG",
-   "title": "Data Scientist (m/w/d)",
-   "url": "https://www.jobup.ch/fr/emplois/detail/b9c89fd2-6cd5-4fbd-b253-ac8cb15ef466/",
-   "via": "jobup.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "?",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-28T04:58:45+01:00",
-   "seed": true,
-   "rv": 2,
-   "match": {
-    "score": 40,
-    "have": [
-     "intelligence artificielle",
-     "anglais"
-    ],
-    "missing": [
-     "statistiques",
-     "agile",
-     "allemand"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-10-29T10:27:45+00:00",
-   "last_seen": "2026-10-30T17:05:45+00:00"
+   "last_seen": "2026-10-30T21:37:25+00:00"
   },
   {
    "id": "d7e4516fff26",
@@ -592,11 +660,11 @@
    "junior": false,
    "published": "2026-10-22T18:51:36+02:00",
    "seed": true,
-   "rv": 2,
+   "rv": 3,
    "match": null,
    "salary": null,
    "first_seen": "2026-10-29T10:27:37+00:00",
-   "last_seen": "2026-10-30T17:05:45+00:00"
+   "last_seen": "2026-10-30T21:37:03+00:00"
   },
   {
    "id": "c58eef5c3d9a",
@@ -625,7 +693,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:27:23+00:00",
-   "last_seen": "2026-10-30T17:05:33+00:00"
+   "last_seen": "2026-10-30T21:36:45+00:00"
   },
   {
    "id": "903bbe48ffba",
@@ -674,7 +742,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-29T10:27:20+00:00",
-   "last_seen": "2026-10-30T17:05:33+00:00"
+   "last_seen": "2026-10-30T21:36:45+00:00"
   },
   {
    "id": "e58ee0da019a",
@@ -693,7 +761,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-29T10:27:19+00:00",
-   "last_seen": "2026-10-30T17:05:33+00:00"
+   "last_seen": "2026-10-30T21:36:45+00:00"
   },
   {
    "id": "65ad705f0995",
@@ -721,7 +789,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:27:14+00:00",
-   "last_seen": "2026-10-30T17:05:33+00:00"
+   "last_seen": "2026-10-30T21:36:45+00:00"
   },
   {
    "id": "f8340aca03c6",
@@ -752,7 +820,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:27:05+00:00",
-   "last_seen": "2026-10-30T17:05:33+00:00"
+   "last_seen": "2026-10-30T21:36:45+00:00"
   },
   {
    "id": "cd3a9c28f5a8",
@@ -767,7 +835,7 @@
    "junior": false,
    "published": "2026-10-01T17:05:36+02:00",
    "seed": true,
-   "rv": 2,
+   "rv": 3,
    "match": {
     "score": 80,
     "have": [
@@ -782,7 +850,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:27:03+00:00",
-   "last_seen": "2026-10-30T17:05:33+00:00"
+   "last_seen": "2026-10-30T21:36:43+00:00"
   },
   {
    "id": "33b675108649",
@@ -797,7 +865,7 @@
    "junior": false,
    "published": "2026-10-13T17:15:40+02:00",
    "seed": true,
-   "rv": 2,
+   "rv": 3,
    "match": {
     "score": 50,
     "have": [
@@ -811,7 +879,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:27:02+00:00",
-   "last_seen": "2026-10-30T17:05:33+00:00"
+   "last_seen": "2026-10-30T21:36:31+00:00"
   },
   {
    "id": "c32969a21d88",
@@ -854,7 +922,7 @@
    "junior": false,
    "published": "2026-09-29T16:02:26+02:00",
    "seed": true,
-   "rv": 2,
+   "rv": 3,
    "match": {
     "score": 59,
     "have": [
@@ -881,7 +949,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:26:52+00:00",
-   "last_seen": "2026-10-30T17:05:33+00:00"
+   "last_seen": "2026-10-30T21:36:19+00:00"
   },
   {
    "id": "2ceb968a9668",
@@ -896,11 +964,11 @@
    "junior": false,
    "published": "2026-10-29T02:00:13+01:00",
    "seed": true,
-   "rv": 2,
+   "rv": 3,
    "match": null,
    "salary": null,
    "first_seen": "2026-10-29T10:26:46+00:00",
-   "last_seen": "2026-10-30T17:05:33+00:00"
+   "last_seen": "2026-10-30T21:36:13+00:00"
   },
   {
    "id": "49e9b9f023ad",
@@ -915,7 +983,7 @@
    "junior": false,
    "published": "2026-10-28T17:02:23+01:00",
    "seed": true,
-   "rv": 2,
+   "rv": 3,
    "match": {
     "score": 71,
     "have": [
@@ -932,7 +1000,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:26:39+00:00",
-   "last_seen": "2026-10-30T17:05:31+00:00"
+   "last_seen": "2026-10-30T21:36:04+00:00"
   },
   {
    "id": "47ae7550f550",
@@ -947,7 +1015,7 @@
    "junior": true,
    "published": "2026-10-05T10:58:02+02:00",
    "seed": true,
-   "rv": 2,
+   "rv": 3,
    "match": {
     "score": 86,
     "have": [
@@ -964,7 +1032,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:26:36+00:00",
-   "last_seen": "2026-10-30T17:05:31+00:00"
+   "last_seen": "2026-10-30T21:35:59+00:00"
   },
   {
    "id": "8096a608d3ba",
@@ -979,7 +1047,7 @@
    "junior": true,
    "published": "2026-10-23T10:35:10+02:00",
    "seed": true,
-   "rv": 2,
+   "rv": 3,
    "match": {
     "score": 73,
     "have": [
@@ -1000,7 +1068,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:26:33+00:00",
-   "last_seen": "2026-10-30T17:05:31+00:00"
+   "last_seen": "2026-10-30T21:35:58+00:00"
   },
   {
    "id": "6219b5d66c6b",
@@ -1015,11 +1083,11 @@
    "junior": false,
    "published": "2026-10-12T15:32:32+02:00",
    "seed": true,
-   "rv": 2,
+   "rv": 3,
    "match": null,
    "salary": null,
    "first_seen": "2026-10-29T10:26:30+00:00",
-   "last_seen": "2026-10-30T17:05:31+00:00"
+   "last_seen": "2026-10-30T21:35:57+00:00"
   },
   {
    "id": "7ac708e3d27f",
@@ -1034,7 +1102,7 @@
    "junior": false,
    "published": "2026-10-13T17:12:43+02:00",
    "seed": true,
-   "rv": 2,
+   "rv": 3,
    "match": {
     "score": 54,
     "have": [
@@ -1057,7 +1125,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:26:27+00:00",
-   "last_seen": "2026-10-30T17:05:31+00:00"
+   "last_seen": "2026-10-30T21:35:55+00:00"
   },
   {
    "id": "417e43af90e5",
@@ -1072,7 +1140,7 @@
    "junior": false,
    "published": "2026-10-22T16:26:46+02:00",
    "seed": true,
-   "rv": 2,
+   "rv": 3,
    "match": {
     "score": 50,
     "have": [
@@ -1086,7 +1154,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:26:19+00:00",
-   "last_seen": "2026-10-30T17:05:31+00:00"
+   "last_seen": "2026-10-30T21:35:51+00:00"
   },
   {
    "id": "4bebdcca4697",
@@ -1101,12 +1169,12 @@
    "junior": false,
    "published": "2026-07-08T12:56:00+00:00",
    "seed": false,
-   "rv": 2,
+   "rv": 3,
    "match": null,
    "salary": null,
    "sponsor": "skilled",
    "first_seen": "2026-10-29T10:23:12+00:00",
-   "last_seen": "2026-10-30T17:03:02+00:00"
+   "last_seen": "2026-10-30T21:33:08+00:00"
   },
   {
    "id": "77d6a6774f0a",
@@ -1120,10 +1188,10 @@
    "junior": true,
    "published": "2026-10-28",
    "seed": false,
-   "rv": 2,
+   "rv": 3,
    "match": null,
    "first_seen": "2026-10-28T10:34:45+00:00",
-   "last_seen": "2026-10-30T17:02:39+00:00"
+   "last_seen": "2026-10-30T21:30:53+00:00"
   },
   {
    "id": "76bc150e9b01",
@@ -1137,7 +1205,7 @@
    "junior": true,
    "published": "2026-10-28",
    "seed": false,
-   "rv": 2,
+   "rv": 3,
    "match": {
     "score": 100,
     "have": [
@@ -1152,7 +1220,7 @@
     "missing": []
    },
    "first_seen": "2026-10-28T10:34:36+00:00",
-   "last_seen": "2026-10-30T17:02:39+00:00"
+   "last_seen": "2026-10-30T21:30:42+00:00"
   },
   {
    "id": "4e80bd2f5d16",
@@ -1193,11 +1261,11 @@
    "zone": "Île-de-France",
    "country": "France",
    "contract": "CDD",
-   "experience": "2 ans min.",
-   "junior": false,
+   "experience": "2 ans min. · junior",
+   "junior": true,
    "published": "2026-10-27",
    "seed": false,
-   "rv": 2,
+   "rv": 3,
    "match": {
     "score": 67,
     "have": [
@@ -1212,7 +1280,7 @@
     ]
    },
    "first_seen": "2026-10-27T20:42:04+00:00",
-   "last_seen": "2026-10-30T17:02:39+00:00"
+   "last_seen": "2026-10-30T21:31:03+00:00"
   },
   {
    "id": "deb616687b85",
@@ -1227,34 +1295,9 @@
    "published": "2026-10-27T06:16:00+00:00",
    "seed": false,
    "first_seen": "2026-10-27T09:22:13+00:00",
-   "last_seen": "2026-10-30T17:03:02+00:00",
-   "rv": 2,
+   "last_seen": "2026-10-30T21:33:06+00:00",
+   "rv": 3,
    "match": null
-  },
-  {
-   "id": "34608462df17",
-   "company": "BPCE",
-   "title": "BUSINESS ANALYST - F/H",
-   "url": "https://recrutement.bpce.fr/job/business-analyst-f-h-3",
-   "zone": "Île-de-France",
-   "country": "France",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-18",
-   "seed": false,
-   "first_seen": "2026-10-26T16:49:33+00:00",
-   "last_seen": "2026-10-30T17:02:39+00:00",
-   "rv": 2,
-   "match": {
-    "score": 100,
-    "have": [
-     "python",
-     "recette",
-     "business analyst"
-    ],
-    "missing": []
-   }
   },
   {
    "id": "9e6271b7f744",
@@ -1269,8 +1312,8 @@
    "published": "2026-10-26",
    "seed": false,
    "first_seen": "2026-10-26T16:49:15+00:00",
-   "last_seen": "2026-10-30T17:02:39+00:00",
-   "rv": 2,
+   "last_seen": "2026-10-30T21:31:12+00:00",
+   "rv": 3,
    "match": null
   },
   {
@@ -1346,8 +1389,8 @@
    "published": "2026-10-09T02:01:00+00:00",
    "seed": true,
    "first_seen": "2026-10-26T10:09:34+00:00",
-   "last_seen": "2026-10-30T17:06:43+00:00",
-   "rv": 2,
+   "last_seen": "2026-10-30T21:38:40+00:00",
+   "rv": 3,
    "match": {
     "score": 50,
     "have": [
@@ -1373,8 +1416,8 @@
    "published": "2026-10-13T00:00:00+00:00",
    "seed": true,
    "first_seen": "2026-10-26T10:09:31+00:00",
-   "last_seen": "2026-10-30T17:06:43+00:00",
-   "rv": 2,
+   "last_seen": "2026-10-30T21:38:39+00:00",
+   "rv": 3,
    "match": {
     "score": 57,
     "have": [
@@ -1468,15 +1511,15 @@
    "title": "Commercial Analyst",
    "url": "https://orange.jobs/fr/fr/job/ERC-569973-20136094/Commercial-Analyst",
    "zone": "Suisse",
-   "contract": "CDI",
+   "contract": "?",
    "experience": "non précisée",
    "junior": false,
    "published": "2026-10-23",
    "seed": false,
    "first_seen": "2026-10-24T00:43:13+00:00",
-   "last_seen": "2026-10-30T17:05:26+00:00",
+   "last_seen": "2026-10-30T21:35:45+00:00",
    "country": "Suisse",
-   "rv": 2,
+   "rv": 3,
    "match": {
     "score": 67,
     "have": [
@@ -1544,36 +1587,10 @@
    "published": "2026-10-23T10:37:00+00:00",
    "seed": false,
    "first_seen": "2026-10-23T14:27:55+00:00",
-   "last_seen": "2026-10-30T17:03:02+00:00",
+   "last_seen": "2026-10-30T21:33:07+00:00",
    "country": "Suisse",
-   "rv": 2,
+   "rv": 3,
    "match": null
-  },
-  {
-   "id": "8eb505bf08c1",
-   "company": "BPCE",
-   "title": "Business Analyst (F/H) - BANCARISATION ET TENUE DE COMPTE MYSYS (F/H)",
-   "url": "https://recrutement.bpce.fr/job/business-analyst-f-h-bancarisation-et-tenue-de-compte-mysys-f-h",
-   "zone": "Île-de-France",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-22",
-   "seed": false,
-   "first_seen": "2026-10-23T14:27:38+00:00",
-   "last_seen": "2026-10-30T17:02:39+00:00",
-   "country": "France",
-   "rv": 2,
-   "match": {
-    "score": 100,
-    "have": [
-     "pilotage",
-     "recette",
-     "spécifications",
-     "business analyst"
-    ],
-    "missing": []
-   }
   },
   {
    "id": "6a71deb689bb",
@@ -1635,15 +1652,15 @@
    "title": "HOP! Ingénieur Projets et Data Sécurité des Vols – Roissy Charles De Gaulle (95) F/H",
    "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25715&idOrigine=502&offerReference=2026-25715",
    "zone": "Île-de-France",
-   "contract": "CDI",
+   "contract": "?",
    "experience": "non précisée",
    "junior": false,
    "published": "2026-10-23T09:23:46+00:00",
    "seed": false,
    "first_seen": "2026-10-23T09:29:55+00:00",
-   "last_seen": "2026-10-30T17:00:03+00:00",
+   "last_seen": "2026-10-30T21:27:42+00:00",
    "country": "France",
-   "rv": 2,
+   "rv": 3,
    "match": null
   },
   {
@@ -1742,9 +1759,9 @@
    "published": "2026-10-14T10:27:00+00:00",
    "seed": false,
    "first_seen": "2026-10-22T08:15:53+00:00",
-   "last_seen": "2026-10-30T17:03:02+00:00",
+   "last_seen": "2026-10-30T21:33:07+00:00",
    "country": "Suisse",
-   "rv": 2,
+   "rv": 3,
    "match": null
   },
   {
@@ -1804,31 +1821,6 @@
    "last_seen": "2026-10-21T09:22:17+00:00"
   },
   {
-   "id": "2ba7c3892d94",
-   "company": "TotalEnergies",
-   "title": "Sustainability Analyst – Biomethane",
-   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Sustainability-Analyst-Biomethane/85334",
-   "zone": "Suisse",
-   "contract": "CDD",
-   "experience": "débutant accepté",
-   "junior": false,
-   "published": "2026-10-21",
-   "seed": false,
-   "first_seen": "2026-10-21T09:20:06+00:00",
-   "last_seen": "2026-10-30T17:04:59+00:00",
-   "country": "Suisse",
-   "rv": 2,
-   "match": {
-    "score": 100,
-    "have": [
-     "excel",
-     "data quality",
-     "spécifications"
-    ],
-    "missing": []
-   }
-  },
-  {
    "id": "e1b63d6f7953",
    "company": "BPCE",
    "title": "Business Analyst - F/H",
@@ -1840,7 +1832,7 @@
    "published": "2026-02-23",
    "seed": false,
    "first_seen": "2026-10-20T17:36:46+00:00",
-   "last_seen": "2026-10-30T17:02:39+00:00",
+   "last_seen": "2026-10-30T21:32:43+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 2,
@@ -1869,7 +1861,7 @@
    "published": "2026-03-15",
    "seed": false,
    "first_seen": "2026-10-20T17:36:36+00:00",
-   "last_seen": "2026-10-30T17:02:39+00:00",
+   "last_seen": "2026-10-30T21:32:43+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 2,
@@ -1898,7 +1890,7 @@
    "published": "2026-06-18",
    "seed": false,
    "first_seen": "2026-10-20T17:36:27+00:00",
-   "last_seen": "2026-10-30T17:02:39+00:00",
+   "last_seen": "2026-10-30T21:32:43+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 2,
@@ -1943,7 +1935,7 @@
    "published": "2026-05-17",
    "seed": false,
    "first_seen": "2026-10-20T17:36:08+00:00",
-   "last_seen": "2026-10-30T17:02:39+00:00",
+   "last_seen": "2026-10-30T21:32:43+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 2,
@@ -1969,7 +1961,7 @@
    "published": "2026-05-21",
    "seed": false,
    "first_seen": "2026-10-20T17:35:49+00:00",
-   "last_seen": "2026-10-30T17:02:39+00:00",
+   "last_seen": "2026-10-30T21:32:43+00:00",
    "date_tries": 1,
    "match": {
     "score": 71,
@@ -1995,15 +1987,15 @@
    "url": "https://recrutement.bpce.fr/job/data-scientist-python-f-h-cdd-6-mois",
    "zone": "Île-de-France",
    "contract": "CDD",
-   "experience": "non précisée",
-   "junior": false,
+   "experience": "junior / débutant",
+   "junior": true,
    "published": "2026-10-20",
    "seed": false,
    "first_seen": "2026-10-20T17:32:57+00:00",
-   "last_seen": "2026-10-30T17:02:39+00:00",
+   "last_seen": "2026-10-30T21:31:43+00:00",
    "date_tries": 1,
    "country": "France",
-   "rv": 2,
+   "rv": 3,
    "match": null
   },
   {
@@ -2060,7 +2052,7 @@
    "published": "2026-09-22",
    "seed": false,
    "first_seen": "2026-10-20T13:59:55+00:00",
-   "last_seen": "2026-10-30T17:02:39+00:00",
+   "last_seen": "2026-10-30T21:32:32+00:00",
    "date_tries": 1,
    "match": {
     "score": 75,
@@ -2078,7 +2070,7 @@
     ]
    },
    "country": "France",
-   "rv": 2
+   "rv": 3
   },
   {
    "id": "aa43f082a76c",
@@ -2137,10 +2129,10 @@
    "published": "2026-10-08",
    "seed": false,
    "first_seen": "2026-10-20T13:58:07+00:00",
-   "last_seen": "2026-10-30T17:02:39+00:00",
+   "last_seen": "2026-10-30T21:32:22+00:00",
    "date_tries": 1,
    "country": "France",
-   "rv": 2,
+   "rv": 3,
    "match": {
     "score": 40,
     "have": [
@@ -2151,34 +2143,6 @@
      "spark",
      "data lake",
      "data warehouse"
-    ]
-   }
-  },
-  {
-   "id": "88f35d9b8c11",
-   "company": "BPCE",
-   "title": "Analyste Financement de Projet - Modélisation F/H",
-   "url": "https://recrutement.bpce.fr/job/analyste-financement-de-projet-modelisation-f-h",
-   "zone": "Île-de-France",
-   "contract": "CDI",
-   "experience": "junior / débutant",
-   "junior": true,
-   "published": "2026-10-13",
-   "seed": false,
-   "first_seen": "2026-10-20T13:57:40+00:00",
-   "last_seen": "2026-10-30T17:02:39+00:00",
-   "date_tries": 1,
-   "country": "France",
-   "rv": 2,
-   "match": {
-    "score": 75,
-    "have": [
-     "excel",
-     "conformité",
-     "anglais"
-    ],
-    "missing": [
-     "modélisation"
     ]
    }
   },
@@ -2194,10 +2158,10 @@
    "published": "2026-10-14",
    "seed": false,
    "first_seen": "2026-10-20T13:57:31+00:00",
-   "last_seen": "2026-10-30T17:02:39+00:00",
+   "last_seen": "2026-10-30T21:32:03+00:00",
    "date_tries": 1,
    "country": "France",
-   "rv": 2,
+   "rv": 3,
    "match": {
     "score": 78,
     "have": [
@@ -2229,37 +2193,6 @@
    "first_seen": "2026-10-20T13:56:45+00:00",
    "last_seen": "2026-10-26T08:06:13+00:00",
    "date_tries": 1
-  },
-  {
-   "id": "e944b60874a1",
-   "company": "BPCE",
-   "title": "Data Analyst - Pilotage de la Rentabilité Commerciale",
-   "url": "https://recrutement.bpce.fr/job/data-analyst-pilotage-de-la-rentabilite-commerciale",
-   "zone": "Île-de-France",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-18",
-   "seed": false,
-   "first_seen": "2026-10-20T13:56:36+00:00",
-   "last_seen": "2026-10-30T17:02:39+00:00",
-   "date_tries": 1,
-   "country": "France",
-   "rv": 2,
-   "match": {
-    "score": 71,
-    "have": [
-     "python",
-     "sql",
-     "power bi",
-     "tableaux de bord",
-     "pilotage"
-    ],
-    "missing": [
-     "alteryx",
-     "oracle"
-    ]
-   }
   },
   {
    "id": "18a068234299",
@@ -2315,9 +2248,9 @@
    "published": "2026-10-15",
    "seed": true,
    "first_seen": "2026-10-20T13:24:49+00:00",
-   "last_seen": "2026-10-30T17:04:59+00:00",
+   "last_seen": "2026-10-30T21:35:13+00:00",
    "country": "France",
-   "rv": 2,
+   "rv": 3,
    "match": null
   },
   {
@@ -2335,23 +2268,6 @@
    "last_seen": "2026-10-23T14:25:53+00:00"
   },
   {
-   "id": "828e74cf97c5",
-   "company": "Air France",
-   "title": "Data Analyst Commercial - Digital Product F/H",
-   "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=23302&idOrigine=502&offerReference=2025-23302",
-   "zone": "Île-de-France",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "Tue, 13 Oct 2026 12:22:49 Z",
-   "seed": true,
-   "first_seen": "2026-10-20T13:24:10+00:00",
-   "last_seen": "2026-10-30T17:00:03+00:00",
-   "country": "France",
-   "rv": 2,
-   "match": null
-  },
-  {
    "id": "6f87aac13152",
    "company": "Air France",
    "title": "Analyste Stratégie Network F/H",
@@ -2364,23 +2280,6 @@
    "seed": true,
    "first_seen": "2026-10-20T13:24:09+00:00",
    "last_seen": "2026-10-26T10:01:45+00:00"
-  },
-  {
-   "id": "37f347acf9dc",
-   "company": "Air France",
-   "title": "Analyste de vols - Revenue Management F/H",
-   "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25588&idOrigine=502&offerReference=2026-25588",
-   "zone": "Île-de-France",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "Fri, 16 Oct 2026 13:25:34 Z",
-   "seed": true,
-   "first_seen": "2026-10-20T13:24:07+00:00",
-   "last_seen": "2026-10-30T17:00:03+00:00",
-   "country": "France",
-   "rv": 2,
-   "match": null
   }
  ]
 }

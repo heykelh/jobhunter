@@ -40,5 +40,6 @@
   }
  },
  "next_company": 0,
- "zones_sig": "Londres,Luxembourg,Malaisie,Oman,Suisse,Île-de-France"
+ "zones_sig": "Londres,Luxembourg,Malaisie,Oman,Suisse,Île-de-France",
+ "rules_version": 3
 }

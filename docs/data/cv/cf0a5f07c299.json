@@ -1,6 +1,6 @@
 {
  "titre": "Corporate Finance Analyst",
- "profil": "Profil data alliant 13 ans d'expérience opérationnelle au sein du Groupe SNCF, en environnement à forts enjeux de sécurité, et un Master Data Engineer / Data Product Manager (Bac+5, Mines Paris - PSL). Plus de 15 projets data réalisés et déployés sur mon portfolio, avec une montée en compétences continue, notamment en analyse de données et data engineering.",
+ "profil": "Fort de 13 ans d’expérience opérationnelle au sein du groupe SNCF, j’ai développé une expertise solide en analyse de données complexes et en gestion de projets critiques. Titulaire d’un Master Data Engineer / Data Product Manager (Mines Paris : PSL), j’ai conduit plus de quinze projets data, alliant modélisation, automatisation et visualisation pour soutenir la prise de décision. Ces compétences me permettent de produire des analyses financières fiables, de créer des rapports destinés aux parties prenantes et d’accompagner les initiatives de financement et de gestion de liquidité.",
  "competences": [
   {
    "groupe": "Analyse de données",
@@ -78,8 +78,8 @@
     "api"
    ],
    "puces": [
-    "Ingestion des données financières des sociétés du CAC 40, ETL pandas et détection d'anomalies (Isolation Forest).",
-    "API FastAPI (dont export PDF) et tableau de bord Next.js / Plotly, déployés avec intégration continue GitHub Actions."
+    "Collecte et transformation des données financières du CAC 40 via pandas, avec détection d’anomalies pour soutenir le suivi de la liquidité.",
+    "Création d’un tableau de bord interactif (Next.js/Plotly) et d’une API FastAPI pour fournir des rapports de financement aux parties prenantes."
    ]
   },
   {
@@ -104,8 +104,8 @@
     "investigation"
    ],
    "puces": [
-    "Simulation d'une mission d'inspection Data sur la chaîne de données du risque de crédit : cadrage, investigations, débriefing.",
-    "Moteur de contrôles qualité en règles SQL, scoring de risque, registre des constats et rapport de restitution."
+    "Simulation d’une mission d’inspection des données de risque de crédit, incluant le cadrage, les investigations et le reporting des constats.",
+    "Mise en place d’un moteur de contrôles qualité SQL pour le scoring de risque et la production de rapports destinés aux investisseurs."
    ]
   },
   {
@@ -130,8 +130,8 @@
     "projet"
    ],
    "puces": [
-    "Simulation d'une mission de Business Analyst sur un SI Crédit (recouvrement amiable et contentieux), de l'expression du besoin à la recette.",
-    "Livrables publiés en ligne : cartographie des processus, spécifications fonctionnelles et plan de tests."
+    "Analyse fonctionnelle d’un système d’information crédit, de la collecte des besoins à la validation, afin d’optimiser les processus de financement.",
+    "Livraison de spécifications fonctionnelles et d’un plan de tests, facilitant la conformité aux exigences réglementaires."
    ]
   },
   {
@@ -154,16 +154,16 @@
     "parcours"
    ],
    "puces": [
-    "Analyse exploratoire de données clients : insights, tendances et anomalies impactant la performance.",
-    "Dashboards interactifs Power BI et indicateurs de pilotage à destination des décideurs métier."
+    "Analyse exploratoire des données clients pour identifier tendances et anomalies impactant la performance financière.",
+    "Conception de tableaux de bord Power BI avec indicateurs de pilotage pour les décideurs et les comités de suivi."
    ]
   }
  ],
  "mots_cles_manquants": [],
- "methode": "règles seules (IA en échec : HTTPError)",
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
  "job_id": "cf0a5f07c299",
  "entreprise": "Advanzia Bank",
  "intitule_offre": "Corporate Finance Analyst",
  "url_offre": "https://www.advanzia.com/en/job/corporate-finance-analyst",
- "genere_le": "2026-10-26T10:09:48+00:00"
+ "genere_le": "2026-10-30T21:38:54+00:00"
 }

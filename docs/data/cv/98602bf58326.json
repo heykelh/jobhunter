@@ -1,6 +1,6 @@
 {
- "titre": "Financial Reporting Analyst",
- "profil": "Profil data alliant 13 ans d'expérience opérationnelle au sein du Groupe SNCF, en environnement à forts enjeux de sécurité, et un Master Data Engineer / Data Product Manager (Bac+5, Mines Paris - PSL). Plus de 15 projets data réalisés et déployés sur mon portfolio, avec une montée en compétences continue, notamment en analyse de données et data engineering.",
+ "titre": "Financial Reporting Analyst : Advanzia Bank",
+ "profil": "Professionnel avec 13 ans d’expérience opérationnelle au sein du Groupe SNCF, spécialisé en analyse de données et reporting. Titulaire d’un Master Data Engineer/Data Product Manager (Mines Paris : PSL) et auteur de plus de 15 projets data. Fort d’une expertise en visualisation, automatisation et gouvernance des données, je possède un solide esprit analytique et une aisance à transformer des jeux de données complexes en insights décisionnels.",
  "competences": [
   {
    "groupe": "Analyse de données",
@@ -80,8 +80,8 @@
     "parcours"
    ],
    "puces": [
-    "Analyse exploratoire de données clients : insights, tendances et anomalies impactant la performance.",
-    "Dashboards interactifs Power BI et indicateurs de pilotage à destination des décideurs métier."
+    "Analyse exploratoire des données clients pour extraire insights et tendances, facilitant la prise de décision financière",
+    "Création de tableaux de bord Power BI présentant des indicateurs de performance, permettant une lecture claire des résultats financiers"
    ]
   },
   {
@@ -106,8 +106,8 @@
     "investigation"
    ],
    "puces": [
-    "Simulation d'une mission d'inspection Data sur la chaîne de données du risque de crédit : cadrage, investigations, débriefing.",
-    "Moteur de contrôles qualité en règles SQL, scoring de risque, registre des constats et rapport de restitution."
+    "Conduite d’une inspection des flux de données de crédit, identification d’anomalies et production d’un rapport d’audit",
+    "Développement de contrôles qualité SQL pour valider la cohérence des données financières et générer des rapports de restitution"
    ]
   },
   {
@@ -135,8 +135,8 @@
     "métadonnées"
    ],
    "puces": [
-    "Mission de conseil complète en gouvernance des données : diagnostic BCBS 239, cadre DAMA-DMBOK, lignage et matrice RACI.",
-    "Tableaux de bord Power BI de suivi de la qualité des données et cartographie des usages soumis à l'AI Act."
+    "Audit de gouvernance des données bancaires selon les standards BCBS 239, mise en place de lignage et matrice RACI",
+    "Création de tableaux de bord Power BI pour suivre la qualité des données et assurer la conformité réglementaire"
    ]
   },
   {
@@ -161,16 +161,16 @@
     "projet"
    ],
    "puces": [
-    "Simulation d'une mission de Business Analyst sur un SI Crédit (recouvrement amiable et contentieux), de l'expression du besoin à la recette.",
-    "Livrables publiés en ligne : cartographie des processus, spécifications fonctionnelles et plan de tests."
+    "Analyse fonctionnelle d’un système d’information crédit, rédaction des besoins et validation des livrables",
+    "Production de livrables incluant cartographie des processus et spécifications fonctionnelles, facilitant le suivi des performances"
    ]
   }
  ],
  "mots_cles_manquants": [],
- "methode": "règles seules (IA en échec : HTTPError)",
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
  "job_id": "98602bf58326",
  "entreprise": "Advanzia Bank",
  "intitule_offre": "Financial Reporting Analyst",
  "url_offre": "https://www.advanzia.com/en/job/financial-reporting-analyst",
- "genere_le": "2026-10-26T10:09:50+00:00"
+ "genere_le": "2026-10-30T21:38:58+00:00"
 }

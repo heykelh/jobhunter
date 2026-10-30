@@ -1,6 +1,6 @@
 {
  "titre": "Junior Data Analyst",
- "profil": "Profil data alliant 13 ans d'expérience opérationnelle au sein du Groupe SNCF, en environnement à forts enjeux de sécurité, et un Master Data Engineer / Data Product Manager (Bac+5, Mines Paris - PSL). Plus de 15 projets data réalisés et déployés sur mon portfolio, avec une montée en compétences continue, notamment en analyse de données et data engineering.",
+ "profil": "Professionnel data avec 13 ans d’expérience au sein du groupe SNCF, spécialisé en analyse et ingénierie des données. Titulaire d’un Master Data Engineer / Data Product Manager (Mines Paris : PSL). Capable de transformer des jeux de données en indicateurs opérationnels et de garantir la qualité et la gouvernance des données.",
  "competences": [
   {
    "groupe": "Analyse de données",
@@ -80,8 +80,8 @@
     "parcours"
    ],
    "puces": [
-    "Analyse exploratoire de données clients : insights, tendances et anomalies impactant la performance.",
-    "Dashboards interactifs Power BI et indicateurs de pilotage à destination des décideurs métier."
+    "Analyse exploratoire des données clients pour identifier tendances, anomalies et opportunités, facilitant la prise de décision métier.",
+    "Création de tableaux de bord interactifs Power BI, fournissant des indicateurs de performance aux décideurs."
    ]
   },
   {
@@ -106,8 +106,8 @@
     "investigation"
    ],
    "puces": [
-    "Simulation d'une mission d'inspection Data sur la chaîne de données du risque de crédit : cadrage, investigations, débriefing.",
-    "Moteur de contrôles qualité en règles SQL, scoring de risque, registre des constats et rapport de restitution."
+    "Simulation d’une mission d’inspection data sur le processus de risque de crédit, incluant cadrage, investigations et restitution.",
+    "Développement de contrôles qualité en SQL et d’un registre de constats pour améliorer la fiabilité des données."
    ]
   },
   {
@@ -135,8 +135,8 @@
     "métadonnées"
    ],
    "puces": [
-    "Mission de conseil complète en gouvernance des données : diagnostic BCBS 239, cadre DAMA-DMBOK, lignage et matrice RACI.",
-    "Tableaux de bord Power BI de suivi de la qualité des données et cartographie des usages soumis à l'AI Act."
+    "Conseil en gouvernance des données bancaires, aligné sur les standards BCBS 239 et le cadre DAMA‑DMBOK, avec cartographie du lignage.",
+    "Mise en place de tableaux de bord Power BI pour suivre la qualité des données et la conformité aux exigences réglementaires."
    ]
   },
   {
@@ -161,8 +161,8 @@
     "projet"
    ],
    "puces": [
-    "Simulation d'une mission de Business Analyst sur un SI Crédit (recouvrement amiable et contentieux), de l'expression du besoin à la recette.",
-    "Livrables publiés en ligne : cartographie des processus, spécifications fonctionnelles et plan de tests."
+    "Simulation d’une mission de Business Analyst sur un système d’information crédit, de la collecte des besoins à la phase de recette.",
+    "Production de livrables détaillés (process mapping, spécifications fonctionnelles, plan de tests) pour assurer la traçabilité et la qualité."
    ]
   }
  ],
@@ -170,10 +170,10 @@
   "databricks",
   "data quality"
  ],
- "methode": "règles seules (IA en échec : HTTPError)",
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
  "job_id": "675f0fff37f7",
  "entreprise": "Advanzia Bank",
  "intitule_offre": "Junior Data Analyst",
  "url_offre": "https://www.advanzia.com/en/job/junior-data-analyst",
- "genere_le": "2026-10-26T10:09:49+00:00"
+ "genere_le": "2026-10-30T21:39:00+00:00"
 }

@@ -1,6 +1,158 @@
 {
- "updated": "2026-10-30T17:07:16+00:00",
+ "updated": "2026-10-30T21:39:27+00:00",
  "items": [
+  {
+   "id": "b7e1748bc97e",
+   "company": "ING",
+   "title": "Data Analyst – Central Data Office (Marketing Technology)",
+   "url": "https://careers.ing.com/en/job/amsterdam/data-analyst-central-data-office-marketing-technology/3121/45697255488",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-30T21:39:17+00:00"
+  },
+  {
+   "id": "a2e6ca42fcb2",
+   "company": "UBS",
+   "title": "Quantitative Analyst",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=351269",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-30T21:38:35+00:00"
+  },
+  {
+   "id": "bcaa9e9350f2",
+   "company": "jobup.ch",
+   "title": "Data Scientist (m/w/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/b9c89fd2-6cd5-4fbd-b253-ac8cb15ef466/",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « Expérience pertinente avec des projets DS et IA et des technologies de développement à la pointe » (retirée)",
+   "at": "2026-10-30T21:37:12+00:00"
+  },
+  {
+   "id": "2ba7c3892d94",
+   "company": "TotalEnergies",
+   "title": "Sustainability Analyst – Biomethane",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Sustainability-Analyst-Biomethane/85334",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « Significant experience in Back Office or Operations within energy trading. » (retirée)",
+   "at": "2026-10-30T21:35:13+00:00"
+  },
+  {
+   "id": "b1548d64f082",
+   "company": "TotalEnergies",
+   "title": "Ingénieur Data Solaire et IA débutant H/F",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Ing-nieur-Data-Solaire-et-IA-d-butant-H-F/85164",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-10-30T21:35:10+00:00"
+  },
+  {
+   "id": "89c7373dac18",
+   "company": "TotalEnergies",
+   "title": "Analyste de la performance débutant H/F",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Analyste-de-la-performance-d-butant-H-F/85747",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-10-30T21:35:05+00:00"
+  },
+  {
+   "id": "17eb0aa5e8be",
+   "company": "TotalEnergies",
+   "title": "Analyste débutant relations investisseurs H/F",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Analyste-d-butant-relations-investisseurs-H-F/85755",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-10-30T21:35:03+00:00"
+  },
+  {
+   "id": "a83953cd7f7e",
+   "company": "AXA",
+   "title": "Stage - HR Data Engineer",
+   "url": "https://careers.axa.com/jobs/29970",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-30T21:33:06+00:00"
+  },
+  {
+   "id": "88f35d9b8c11",
+   "company": "BPCE",
+   "title": "Analyste Financement de Projet - Modélisation F/H",
+   "url": "https://recrutement.bpce.fr/job/analyste-financement-de-projet-modelisation-f-h",
+   "reason": "stage / alternance « region region type de contrat type de contrat stage (6 mois) - chef de projet ia » (retirée)",
+   "at": "2026-10-30T21:32:22+00:00"
+  },
+  {
+   "id": "34608462df17",
+   "company": "BPCE",
+   "title": "BUSINESS ANALYST - F/H",
+   "url": "https://recrutement.bpce.fr/job/business-analyst-f-h-3",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « Vous avez déjà eu des expériences de business analyst et de recetteur. » (retirée)",
+   "at": "2026-10-30T21:32:03+00:00"
+  },
+  {
+   "id": "e944b60874a1",
+   "company": "BPCE",
+   "title": "Data Analyst - Pilotage de la Rentabilité Commerciale",
+   "url": "https://recrutement.bpce.fr/job/data-analyst-pilotage-de-la-rentabilite-commerciale",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « CDI \"Confirmé\" » (retirée)",
+   "at": "2026-10-30T21:31:43+00:00"
+  },
+  {
+   "id": "8eb505bf08c1",
+   "company": "BPCE",
+   "title": "Business Analyst (F/H) - BANCARISATION ET TENUE DE COMPTE MYSYS (F/H)",
+   "url": "https://recrutement.bpce.fr/job/business-analyst-f-h-bancarisation-et-tenue-de-compte-mysys-f-h",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « CDI \"Confirmé\" » (retirée)",
+   "at": "2026-10-30T21:31:33+00:00"
+  },
+  {
+   "id": "0e6de47c65cb",
+   "company": "Crédit Agricole",
+   "title": "Analyste Onboarding - Front office H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-onboarding---front-office-hf-reference--2026-117009--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-10-30T21:30:02+00:00"
+  },
+  {
+   "id": "716f1de8f61d",
+   "company": "Société Générale",
+   "title": "Analyste Benchmarking et Red Teaming des systèmes d’IA générative",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-benchmarking-et-red-teaming-des-systemes-dia-generative-26000MRD-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-10-30T21:29:45+00:00"
+  },
+  {
+   "id": "be54052bfe31",
+   "company": "Société Générale",
+   "title": "Analyste Red Teaming des systèmes multi-agents",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-red-teaming-des-systemes-multi-agents-26000KM8-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-10-30T21:29:43+00:00"
+  },
+  {
+   "id": "5e47aefab3e0",
+   "company": "Société Générale",
+   "title": "Analyste Red Teaming des modèles d'embeddings",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-red-teaming-des-modeles-dembeddings-26000KQQ-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-10-30T21:29:42+00:00"
+  },
+  {
+   "id": "3e78360fc751",
+   "company": "Société Générale",
+   "title": "Front Office – Analyste Développeur",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/front-office-analyste-developpeur-26000I6R-fr",
+   "reason": "lieu hors zones",
+   "at": "2026-10-30T21:29:41+00:00"
+  },
+  {
+   "id": "37f347acf9dc",
+   "company": "Air France",
+   "title": "Analyste de vols - Revenue Management F/H",
+   "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25588&idOrigine=502&offerReference=2026-25588",
+   "reason": "lieu inconnu ou hors zones (retirée)",
+   "at": "2026-10-30T21:27:45+00:00"
+  },
+  {
+   "id": "828e74cf97c5",
+   "company": "Air France",
+   "title": "Data Analyst Commercial - Digital Product F/H",
+   "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=23302&idOrigine=502&offerReference=2025-23302",
+   "reason": "lieu inconnu ou hors zones (retirée)",
+   "at": "2026-10-30T21:27:42+00:00"
+  },
   {
    "id": "86c1bb321c3b",
    "company": "jobup.ch",
@@ -34,14 +186,6 @@
    "at": "2026-10-30T17:04:59+00:00"
   },
   {
-   "id": "17eb0aa5e8be",
-   "company": "TotalEnergies",
-   "title": "Analyste débutant relations investisseurs H/F",
-   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Analyste-d-butant-relations-investisseurs-H-F/85755",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-30T17:04:57+00:00"
-  },
-  {
    "id": "2fdf3df39737",
    "company": "AXA",
    "title": "Stage - Health equity analyst and communication officer",
@@ -56,14 +200,6 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170464-128-analyste-comptable-hf-reference--2026-115625--/",
    "reason": "expérience demandée ≥ 3 ans « xperience en consolidation serait appreciee. niveau d'experience minimum 3 - 5 ans competences recherchees mot »",
    "at": "2026-10-30T17:02:00+00:00"
-  },
-  {
-   "id": "0e6de47c65cb",
-   "company": "Crédit Agricole",
-   "title": "Analyste Onboarding - Front office H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-onboarding---front-office-hf-reference--2026-117009--/",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-30T17:01:59+00:00"
   },
   {
    "id": "c33b9263ebc9",
@@ -122,14 +258,6 @@
    "at": "2026-10-30T14:23:21+00:00"
   },
   {
-   "id": "fe0434abdd6d",
-   "company": "Société Générale",
-   "title": "Data Scientist – Agentique",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/data-scientist-agentique-26000LJY-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-30T14:23:01+00:00"
-  },
-  {
    "id": "2d965cdd5cf2",
    "company": "Alstom",
    "title": "ServiceNow Analyst",
@@ -144,14 +272,6 @@
    "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Analyste-Supply-Chain-et-Transport-Maritime-H-F-Singapour/85744",
    "reason": "lieu hors zones",
    "at": "2026-10-30T10:54:53+00:00"
-  },
-  {
-   "id": "89c7373dac18",
-   "company": "TotalEnergies",
-   "title": "Analyste de la performance débutant H/F",
-   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Analyste-de-la-performance-d-butant-H-F/85747",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-30T10:54:52+00:00"
   },
   {
    "id": "4ea5d0f08e9c",
@@ -240,14 +360,6 @@
    "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25264&idOrigine=502&offerReference=2026-25264",
    "reason": "expérience demandée ≥ 3 ans « naires externes) bac+5, master avec au moins 3 ans d'experience sap - conna »",
    "at": "2026-10-30T09:17:18+00:00"
-  },
-  {
-   "id": "00f48b28cb24",
-   "company": "Crédit Agricole",
-   "title": "Analyste Coverage - Fonds d'infrastructure et de Private Equity H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170478-4-analyste-coverage---fonds-d-infrastructure-et-de-private-equity-hf-reference--2026-116035--/",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-30T01:57:24+00:00"
   },
   {
    "id": "abfb5688abcd",
@@ -488,30 +600,6 @@
    "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/STAGE-Short-Term-Power-Middle-Office-Analyst-H-F/85697",
    "reason": "titre exclu (stage)",
    "at": "2026-10-29T14:19:51+00:00"
-  },
-  {
-   "id": "3d7367dc34df",
-   "company": "Crédit Agricole",
-   "title": "Assistant Data scientist H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-assistant-data-scientist-hf-reference--2026-116968--/",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-29T14:16:57+00:00"
-  },
-  {
-   "id": "e670779e2d82",
-   "company": "Crédit Agricole",
-   "title": "Data & Reporting Analyst H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-data-et-reporting-analyst-hf-reference--2026-115082--/",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-29T14:16:55+00:00"
-  },
-  {
-   "id": "26fc07faa5f8",
-   "company": "Crédit Agricole",
-   "title": "Analyste Crédit Early Detection H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-credit-early-detection-hf-reference--2026-113297--/",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-29T14:16:54+00:00"
   },
   {
    "id": "b1e4183b0c46",
@@ -1882,22 +1970,6 @@
    "at": "2026-10-29T01:48:09+00:00"
   },
   {
-   "id": "c2f2e596c385",
-   "company": "Société Générale",
-   "title": "Assistant Analyste Risque de Crédit",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/assistant-analyste-risque-de-credit-26000MJP-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-28T21:40:28+00:00"
-  },
-  {
-   "id": "17546a3ca535",
-   "company": "Société Générale",
-   "title": "Analyste risques sur opérations de marché",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-risques-sur-operations-de-marche-26000MAG-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-28T21:40:26+00:00"
-  },
-  {
    "id": "affaf68d8270",
    "company": "TotalEnergies",
    "title": "STAGE - Analyste projet Transformation Finance & IA H/F",
@@ -1930,14 +2002,6 @@
    "at": "2026-10-28T16:50:49+00:00"
   },
   {
-   "id": "65f3baa14794",
-   "company": "Société Générale",
-   "title": "Analyste risque de crédit",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-risque-de-credit-26000LBB-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-28T16:50:32+00:00"
-  },
-  {
    "id": "2fb0fe4be166",
    "company": "SNCF",
    "title": "Architecte IA & DATA F/H",
@@ -1952,14 +2016,6 @@
    "url": "https://careers.ing.com/en/job/makati-city/data-governance-circle-lead-scalable-data-services/3121/46408993408",
    "reason": "titre exclu (lead)",
    "at": "2026-10-28T10:38:35+00:00"
-  },
-  {
-   "id": "beca86b1dbde",
-   "company": "Société Générale",
-   "title": "Analyste risques sur opérations de marché",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-risques-sur-operations-de-marche-26000MOT-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-28T10:33:21+00:00"
   },
   {
    "id": "9770997a211f",
@@ -2050,44 +2106,12 @@
    "at": "2026-10-27T20:41:15+00:00"
   },
   {
-   "id": "00dab19fc02a",
-   "company": "Société Générale",
-   "title": "Analyst Advisory & Financing Group",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/analyst-advisory-financing-group-26000MGW-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-27T20:40:56+00:00"
-  },
-  {
    "id": "7b4386688844",
    "company": "Alstom",
    "title": "Internship - 6 months - Business Analyst & Digital Transformation Intern (F/M)",
    "url": "https://jobsearch.alstom.com/job/Saint-Ouen-Internship-6-months-Business-Analyst-&-Digital-Transformation-Intern-%28FM%29/1447611933/",
    "reason": "titre exclu (internship)",
    "at": "2026-10-27T20:39:44+00:00"
-  },
-  {
-   "id": "675f0fff37f7",
-   "company": "Advanzia Bank",
-   "title": "Junior Data Analyst",
-   "url": "https://www.advanzia.com/en/job/junior-data-analyst",
-   "reason": "contrat hors CDI/CDD (stage, alternance…) (retirée)",
-   "at": "2026-10-27T16:01:47+00:00"
-  },
-  {
-   "id": "98602bf58326",
-   "company": "Advanzia Bank",
-   "title": "Financial Reporting Analyst",
-   "url": "https://www.advanzia.com/en/job/financial-reporting-analyst",
-   "reason": "contrat hors CDI/CDD (stage, alternance…) (retirée)",
-   "at": "2026-10-27T16:01:46+00:00"
-  },
-  {
-   "id": "cf0a5f07c299",
-   "company": "Advanzia Bank",
-   "title": "Corporate Finance Analyst",
-   "url": "https://www.advanzia.com/en/job/corporate-finance-analyst",
-   "reason": "contrat hors CDI/CDD (stage, alternance…) (retirée)",
-   "at": "2026-10-27T16:01:45+00:00"
   },
   {
    "id": "928937b6c673",
@@ -2602,28 +2626,12 @@
    "at": "2026-10-26T10:08:42+00:00"
   },
   {
-   "id": "b1548d64f082",
-   "company": "TotalEnergies",
-   "title": "Ingénieur Data Solaire et IA débutant H/F",
-   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Ing-nieur-Data-Solaire-et-IA-d-butant-H-F/85164",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-26T10:07:49+00:00"
-  },
-  {
    "id": "582f2e73ec3a",
    "company": "Crédit Agricole",
    "title": "Stage - Analyste Quantitatif H/F",
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-124-stage---analyste-quantitatif-hf-reference--2026-116630--/",
    "reason": "titre exclu (stage)",
    "at": "2026-10-26T10:04:41+00:00"
-  },
-  {
-   "id": "317fa480141c",
-   "company": "Crédit Agricole",
-   "title": "Analyste Sustainable Investment Banking H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-sustainable-investment-banking-hf-reference--2026-114887--/",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-25T00:19:46+00:00"
   },
   {
    "id": "ada66b228379",
@@ -2810,14 +2818,6 @@
    "at": "2026-10-23T23:31:03+00:00"
   },
   {
-   "id": "3dd14788a36a",
-   "company": "Crédit Agricole",
-   "title": "Analyste ECA & Multilateral Financing Solutions H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-eca-et-multilateral-financing-solutions-hf-reference--2026-116461--/",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-23T23:31:01+00:00"
-  },
-  {
    "id": "b8101362df2f",
    "company": "Crédit Agricole",
    "title": "Stagiaire analyste en financement collatéralisé H/F",
@@ -2832,46 +2832,6 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-122-stage---analyste-financier--mesure-du-risque-de-taux-hf-reference--2026-116448--/",
    "reason": "titre exclu (stage)",
    "at": "2026-10-23T23:31:01+00:00"
-  },
-  {
-   "id": "9224a4d0393f",
-   "company": "Crédit Agricole",
-   "title": "Data Analyst H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-data-analyst-hf-reference--2026-116482--/",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-23T23:31:00+00:00"
-  },
-  {
-   "id": "a4d764b929d8",
-   "company": "Société Générale",
-   "title": "Analyste Quantitatif Risque de crédit IRB Retail",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-quantitatif-risque-de-credit-irb-retail-26000LEQ-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-23T23:30:44+00:00"
-  },
-  {
-   "id": "14b0487c54c4",
-   "company": "Société Générale",
-   "title": "Analyste risque de crédit",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-risque-de-credit-26000MB3-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-23T23:30:43+00:00"
-  },
-  {
-   "id": "970703cde5e5",
-   "company": "Société Générale",
-   "title": "Sales Analyst",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/sales-analyst-26000MB9-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-23T23:30:41+00:00"
-  },
-  {
-   "id": "e3a01f742807",
-   "company": "Société Générale",
-   "title": "Analyste risque pays",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-risque-pays-26000MEW-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-23T23:30:40+00:00"
   },
   {
    "id": "f5603dce6343",
@@ -3146,14 +3106,6 @@
    "at": "2026-10-23T14:27:55+00:00"
   },
   {
-   "id": "40289c18285a",
-   "company": "Crédit Agricole",
-   "title": "Private Equity Funds Analyst H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-private-equity-funds-analyst-hf-reference--2026-115928--/",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-23T14:26:49+00:00"
-  },
-  {
    "id": "e56a4a614f10",
    "company": "TotalEnergies",
    "title": "Energy Data Portfolio Intern",
@@ -3162,36 +3114,12 @@
    "at": "2026-10-23T14:25:53+00:00"
   },
   {
-   "id": "72cc94b456c9",
-   "company": "Crédit Agricole",
-   "title": "Analyste Décarbonation H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170463-4-analyste-decarbonation-hf-reference--2026-116826--/",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-23T09:31:32+00:00"
-  },
-  {
-   "id": "2e6c51a27831",
-   "company": "Crédit Agricole",
-   "title": "Data Scientist - AI engineer H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-data-scientist---ai-engineer-hf-reference--2026-116835--/",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-23T09:31:27+00:00"
-  },
-  {
    "id": "7c440b3deaa3",
    "company": "Crédit Agricole",
    "title": "Senior Analyst / Associate Leveraged Finance (w/m/d)",
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170466-4-senior-analyst--associate-leveraged-finance-wmd-reference--2026-110854--/",
    "reason": "titre exclu (senior)",
    "at": "2026-10-22T22:46:17+00:00"
-  },
-  {
-   "id": "2cf3b24e07e6",
-   "company": "Crédit Agricole",
-   "title": "Analyst - Private Equity H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyst---private-equity-hf-reference--2026-116469--/",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-22T19:14:30+00:00"
   },
   {
    "id": "79aa5cea6a26",
@@ -3224,14 +3152,6 @@
    "url": "https://recrutement.bpce.fr/job/v-i-e-12-months-quantitative-analyst-commando-f-m-hong-kong",
    "reason": "titre exclu (VIE)",
    "at": "2026-10-22T14:45:50+00:00"
-  },
-  {
-   "id": "a7e909f927f9",
-   "company": "Crédit Agricole",
-   "title": "Analyste Financement de Projet (Energie et Infrastructure) – Portefeuille H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-financement-de-projet-energie-et-infrastructure--portefeuille-hf-reference--2026-115927--/",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-22T14:45:00+00:00"
   },
   {
    "id": "a0f3072dea9c",
@@ -3282,14 +3202,6 @@
    "at": "2026-10-22T09:25:35+00:00"
   },
   {
-   "id": "1062fe88b86b",
-   "company": "Crédit Agricole",
-   "title": "Analyste Quantitatif - Deal Flow H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-quantitatif---deal-flow-hf-reference--2026-116128--/",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-22T09:24:56+00:00"
-  },
-  {
    "id": "6e7700ec6c61",
    "company": "Crédit Agricole",
    "title": "Stage - Data Scientist H/F",
@@ -3335,14 +3247,6 @@
    "title": "Process Analyst F/H - STAGE 6 mois",
    "url": "https://careers.axa.com/jobs/19610",
    "reason": "titre exclu (stage)",
-   "at": "2026-10-22T08:15:53+00:00"
-  },
-  {
-   "id": "3ae61b5f91d0",
-   "company": "AXA",
-   "title": "Learning and development analyst - apprentice",
-   "url": "https://careers.axa.com/jobs/17638",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
    "at": "2026-10-22T08:15:53+00:00"
   },
   {
@@ -3434,28 +3338,12 @@
    "at": "2026-10-21T14:43:36+00:00"
   },
   {
-   "id": "34cfbf1b64ce",
-   "company": "Crédit Agricole",
-   "title": "Sectors & Advisory Analyst H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-sectors-et-advisory-analyst-hf-reference--2026-116735--/",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-21T14:42:53+00:00"
-  },
-  {
    "id": "bf5f5355965c",
    "company": "Crédit Agricole",
    "title": "Stage Analyste Investissement Diversification H/F",
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage-analyste-investissement-diversification-hf-reference--2026-116733--/",
    "reason": "titre exclu (stage)",
    "at": "2026-10-21T14:42:53+00:00"
-  },
-  {
-   "id": "0c147ee217ec",
-   "company": "Crédit Agricole",
-   "title": "Data Analyst H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-data-analyst-hf-reference--2026-116742--/",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-21T14:41:55+00:00"
   },
   {
    "id": "da0f1c02a9ac",
@@ -3482,14 +3370,6 @@
    "at": "2026-10-21T09:20:05+00:00"
   },
   {
-   "id": "ca17b28dbbb2",
-   "company": "Crédit Agricole",
-   "title": "Business Analyst H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-business-analyst-hf-reference--2026-116157--/",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-20T23:51:19+00:00"
-  },
-  {
    "id": "3b9ca1839089",
    "company": "Crédit Agricole",
    "title": "Analyste IPV Transverse - Fixed Income H/F",
@@ -3512,22 +3392,6 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170470-4-analyste-risques-de-marche-consolides-hf-reference--2026-114654--/",
    "reason": "expérience demandée ≥ 5 ans",
    "at": "2026-10-20T23:51:16+00:00"
-  },
-  {
-   "id": "83f9a6561356",
-   "company": "Crédit Agricole",
-   "title": "Analyste - Environmental Transition Group H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste---environmental-transition-group-hf-reference--2026-115681--/",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-20T23:51:15+00:00"
-  },
-  {
-   "id": "b141fe2f1016",
-   "company": "Crédit Agricole",
-   "title": "Analyste Data Risques Environnementaux et Sociaux H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-data-risques-environnementaux-et-sociaux-hf-reference--2026-116028--/",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-20T23:51:12+00:00"
   },
   {
    "id": "12a43a6c4367",
@@ -4328,14 +4192,6 @@
    "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/STAGE-Quantitative-Performance-Analyst-H-F/85315",
    "reason": "titre exclu (stage)",
    "at": "2026-10-20T13:24:41+00:00"
-  },
-  {
-   "id": "210667cff18c",
-   "company": "TotalEnergies",
-   "title": "Analyste financier de données débutant H/F",
-   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Analyste-financier-de-donn-es-d-butant-H-F/84738",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-20T13:24:38+00:00"
   },
   {
    "id": "49f60a304e04",

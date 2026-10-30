@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T17:07:16+00:00",
+ "updated": "2026-10-30T21:39:27+00:00",
  "keywords": [
   "data",
   "analyst"
@@ -45,10 +45,11 @@
   "GulfTalent (Oman)"
  ],
  "ai": {
-  "ok": 5,
-  "errors": 0,
-  "last_error": "",
+  "ok": 34,
+  "errors": 10,
+  "last_error": "HTTP 429 (openai/gpt-oss-120b) : {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kkqt4ecsfjybqscgqhm4275e` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6037, Req",
   "model": "openai/gpt-oss-120b",
-  "at": "2026-10-30T17:07:16+00:00"
+  "waits": 10,
+  "at": "2026-10-30T21:39:27+00:00"
  }
 }
