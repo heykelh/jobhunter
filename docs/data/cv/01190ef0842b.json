@@ -1,0 +1,183 @@
+{
+ "titre": "Business Analyst : Ekkiden Technologies",
+ "profil": "Analyste d’affaires avec 13 ans d’expérience au sein du groupe SNCF, spécialisé dans l’analyse de processus métier et la gestion des exigences. Titulaire d’un Master Data Engineer / Data Product Manager (Mines Paris : PSL) et habitué à la documentation d’exigences complexes. Expérience confirmée dans la conduite de projets data, la rédaction de spécifications fonctionnelles et le soutien aux phases de test.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "SQL",
+    "Python (pandas)",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio",
+    "Excel"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "GitHub Actions (CI/CD)",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Recueil et documentation des exigences métier pour un SI Crédit, incluant cartographie des processus et spécifications fonctionnelles",
+    "Soutien à la phase de recette via plan de tests et validation avec les parties prenantes"
+   ]
+  },
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Analyse des processus de données de risque de crédit, rédaction de critères d’acceptation et mise en place de contrôles qualité SQL",
+    "Production d’un rapport de restitution synthétique pour les parties prenantes"
+   ]
+  },
+  {
+   "id": "frontierbank",
+   "titre": "FrontierBank : gouvernance des données d'une banque fictive",
+   "stack": "BCBS 239, DAMA-DMBOK, AI Act, Power BI",
+   "lien": "frontierbank-data.vercel.app",
+   "tags": [
+    "gouvernance",
+    "governance",
+    "steward",
+    "qualité",
+    "quality",
+    "bcbs",
+    "dama",
+    "lignage",
+    "lineage",
+    "banque",
+    "bancaire",
+    "risque",
+    "réglementaire",
+    "conformité",
+    "raci",
+    "référentiel",
+    "métadonnées"
+   ],
+   "puces": [
+    "Évaluation de la gouvernance des données selon les standards BCBS 239 et DAMA‑DMBOK, rédaction de documents d’exigences",
+    "Création d’un tableau de suivi de la qualité des données pour faciliter la prise de décision"
+   ]
+  },
+  {
+   "id": "palier",
+   "titre": "PALIER : tarification et yield management TGV",
+   "stack": "Python, DuckDB, Power BI, Next.js, GitHub Actions",
+   "lien": "palier-sncf.vercel.app",
+   "tags": [
+    "pricing",
+    "prix",
+    "tarif",
+    "tarification",
+    "revenue",
+    "yield",
+    "élasticité",
+    "demande",
+    "transport",
+    "ferroviaire",
+    "voyageurs",
+    "sncf",
+    "commercial",
+    "offre"
+   ],
+   "puces": [
+    "Analyse des processus tarifaires TGV, élaboration de user stories pour un module de yield management",
+    "Coordination avec les équipes métier et IT pour la mise à jour automatisée des règles tarifaires"
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "agile",
+  "scrum",
+  "jira",
+  "allemand"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "01190ef0842b",
+ "entreprise": "Ekkiden Technologies SA",
+ "intitule_offre": "Business Analyst (m/w/d)",
+ "url_offre": "https://www.jobs.ch/fr/offres-emplois/detail/a0efd36c-eef6-4de0-a9bc-22fbfc2d0c7b/",
+ "genere_le": "2026-10-30T14:27:07+00:00"
+}
