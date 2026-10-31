@@ -1,6 +1,30 @@
 {
- "updated": "2026-10-31T20:27:08+00:00",
+ "updated": "2026-10-31T23:27:38+00:00",
  "items": [
+  {
+   "id": "c789b83cbd4c",
+   "company": "jobup.ch",
+   "title": "Data Scientist 100% (f/m/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/ec6952fd-77ca-40b4-9147-7e0e8bc129b7/",
+   "reason": "expérience demandée ≥ 5 ans « us bancaires. competences diplome en stem et 5 ans d'experience en conformi »",
+   "at": "2026-10-31T23:26:00+00:00"
+  },
+  {
+   "id": "32536c09a388",
+   "company": "jobs.ch",
+   "title": "Data Systems Engineer",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/e2082ad8-5133-468b-a37f-2fcf42f967f3/",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « Level Berufserfahrene Data Systems Engineer »",
+   "at": "2026-10-31T23:25:49+00:00"
+  },
+  {
+   "id": "fd3590d211cd",
+   "company": "Orange",
+   "title": "Data Platform Engineer",
+   "url": "https://orange.jobs/fr/fr/job/ICM-587734/Data-Platform-Engineer",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-31T23:25:40+00:00"
+  },
   {
    "id": "fded16e24114",
    "company": "Orange",
