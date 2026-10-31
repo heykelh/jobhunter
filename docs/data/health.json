@@ -1,38 +1,38 @@
 {
- "updated": "2026-10-31T01:10:30+00:00",
+ "updated": "2026-10-31T10:27:09+00:00",
  "companies": {
   "Air France": {
-   "checked_at": "2026-10-31T01:02:02+00:00",
+   "checked_at": "2026-10-31T10:19:57+00:00",
    "error": "",
    "warnings": [],
    "links_found": 22,
    "keyword_matches": 5,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-31T01:02:04+00:00",
+   "last_ok": "2026-10-31T10:19:58+00:00",
    "failures": 0
   },
   "TotalEnergies": {
-   "checked_at": "2026-10-31T01:07:24+00:00",
+   "checked_at": "2026-10-31T10:24:13+00:00",
    "error": "",
    "warnings": [],
    "links_found": 200,
    "keyword_matches": 28,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-31T01:07:50+00:00",
+   "last_ok": "2026-10-31T10:24:37+00:00",
    "failures": 0
   },
   "Société Générale": {
-   "checked_at": "2026-10-31T01:02:49+00:00",
+   "checked_at": "2026-10-31T10:20:47+00:00",
    "error": "",
    "warnings": [],
    "links_found": 49,
    "keyword_matches": 16,
-   "kept_this_run": 1,
+   "kept_this_run": 0,
    "status": "ok",
    "failures": 0,
-   "last_ok": "2026-10-31T01:03:48+00:00"
+   "last_ok": "2026-10-31T10:21:29+00:00"
   },
   "BNP Paribas": {
    "checked_at": "2026-10-20T13:25:43+00:00",
@@ -50,37 +50,37 @@
    "failures": 1
   },
   "Crédit Agricole": {
-   "checked_at": "2026-10-31T01:03:48+00:00",
+   "checked_at": "2026-10-31T10:21:29+00:00",
    "error": "",
    "warnings": [],
    "links_found": 33,
-   "keyword_matches": 6,
+   "keyword_matches": 5,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-31T01:04:05+00:00",
+   "last_ok": "2026-10-31T10:21:43+00:00",
    "failures": 0
   },
   "BPCE": {
-   "checked_at": "2026-10-31T01:04:05+00:00",
+   "checked_at": "2026-10-31T10:21:43+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 1581,
-   "keyword_matches": 101,
+   "links_found": 1551,
+   "keyword_matches": 99,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-31T01:05:32+00:00",
+   "last_ok": "2026-10-31T10:22:21+00:00",
    "failures": 0
   },
   "AXA": {
-   "checked_at": "2026-10-31T01:05:32+00:00",
+   "checked_at": "2026-10-31T10:22:21+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 63,
-   "keyword_matches": 30,
+   "links_found": 62,
+   "keyword_matches": 29,
    "kept_this_run": 0,
    "status": "ok",
    "failures": 0,
-   "last_ok": "2026-10-31T01:05:54+00:00"
+   "last_ok": "2026-10-31T10:22:43+00:00"
   },
   "EDF": {
    "checked_at": "2026-10-23T22:15:26+00:00",
@@ -93,14 +93,14 @@
    "failures": 18
   },
   "SNCF": {
-   "checked_at": "2026-10-31T01:02:04+00:00",
+   "checked_at": "2026-10-31T10:19:58+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 219,
+   "links_found": 217,
    "keyword_matches": 1,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-31T01:02:04+00:00",
+   "last_ok": "2026-10-31T10:19:59+00:00",
    "failures": 0
   },
   "ETF (VINCI)": {
@@ -114,51 +114,51 @@
    "failures": 18
   },
   "CFL": {
-   "checked_at": "2026-10-31T01:02:21+00:00",
+   "checked_at": "2026-10-31T10:20:19+00:00",
    "error": "",
    "warnings": [],
    "links_found": 25,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-31T01:02:34+00:00",
+   "last_ok": "2026-10-31T10:20:32+00:00",
    "failures": 0
   },
   "SBB CFF FFS": {
-   "checked_at": "2026-10-31T01:02:34+00:00",
+   "checked_at": "2026-10-31T10:20:32+00:00",
    "error": "",
    "warnings": [],
    "links_found": 142,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-31T01:02:49+00:00",
+   "last_ok": "2026-10-31T10:20:47+00:00",
    "failures": 0
   },
   "RATP Dev": {
-   "checked_at": "2026-10-31T01:02:04+00:00",
+   "checked_at": "2026-10-31T10:19:59+00:00",
    "error": "",
    "warnings": [],
    "links_found": 20,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-31T01:02:16+00:00",
+   "last_ok": "2026-10-31T10:20:10+00:00",
    "failures": 0
   },
   "Alstom": {
-   "checked_at": "2026-10-31T01:02:16+00:00",
+   "checked_at": "2026-10-31T10:20:10+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 97,
-   "keyword_matches": 37,
+   "links_found": 95,
+   "keyword_matches": 38,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-31T01:02:21+00:00",
+   "last_ok": "2026-10-31T10:20:19+00:00",
    "failures": 0
   },
   "EDF / Enedis": {
-   "checked_at": "2026-10-31T01:05:54+00:00",
+   "checked_at": "2026-10-31T10:22:43+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
@@ -166,27 +166,27 @@
    "kept_this_run": 0,
    "status": "vide",
    "last_ok": "2026-10-23T23:33:56+00:00",
-   "failures": 39
+   "failures": 40
   },
   "VINCI (dont ETF)": {
-   "checked_at": "2026-10-31T01:07:50+00:00",
+   "checked_at": "2026-10-31T10:24:37+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "vide",
-   "failures": 40
+   "failures": 41
   },
   "Eiffage": {
-   "checked_at": "2026-10-31T01:07:55+00:00",
+   "checked_at": "2026-10-31T10:24:42+00:00",
    "error": "",
    "warnings": [],
    "links_found": 79,
    "keyword_matches": 14,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-31T01:08:00+00:00",
+   "last_ok": "2026-10-31T10:24:47+00:00",
    "failures": 0
   },
   "Bouygues Telecom": {
@@ -201,14 +201,14 @@
    "last_ok": "2026-10-29T10:56:21+00:00"
   },
   "Orange": {
-   "checked_at": "2026-10-31T01:08:00+00:00",
+   "checked_at": "2026-10-31T10:24:47+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 56,
-   "keyword_matches": 11,
+   "links_found": 58,
+   "keyword_matches": 13,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-31T01:08:17+00:00",
+   "last_ok": "2026-10-31T10:25:04+00:00",
    "failures": 0
   },
   "Vodafone Oman": {
@@ -222,68 +222,68 @@
    "failures": 13
   },
   "L'Oréal": {
-   "checked_at": "2026-10-31T01:09:04+00:00",
+   "checked_at": "2026-10-31T10:25:47+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "vide",
-   "failures": 25
+   "failures": 26
   },
   "Julius Baer": {
-   "checked_at": "2026-10-31T01:09:30+00:00",
+   "checked_at": "2026-10-31T10:26:12+00:00",
    "error": "",
    "warnings": [],
    "links_found": 64,
    "keyword_matches": 17,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-31T01:09:36+00:00",
+   "last_ok": "2026-10-31T10:26:18+00:00",
    "failures": 0
   },
   "UBS": {
-   "checked_at": "2026-10-31T01:09:36+00:00",
+   "checked_at": "2026-10-31T10:26:18+00:00",
    "error": "",
    "warnings": [],
    "links_found": 17,
    "keyword_matches": 1,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-31T01:09:54+00:00",
+   "last_ok": "2026-10-31T10:26:35+00:00",
    "failures": 0
   },
   "SIX Group": {
-   "checked_at": "2026-10-31T01:09:54+00:00",
+   "checked_at": "2026-10-31T10:26:35+00:00",
    "error": "",
    "warnings": [],
    "links_found": 50,
    "keyword_matches": 20,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-31T01:09:56+00:00",
+   "last_ok": "2026-10-31T10:26:37+00:00",
    "failures": 0
   },
   "Advanzia Bank": {
-   "checked_at": "2026-10-31T01:09:56+00:00",
+   "checked_at": "2026-10-31T10:26:37+00:00",
    "error": "",
    "warnings": [],
    "links_found": 12,
    "keyword_matches": 3,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-31T01:10:03+00:00",
+   "last_ok": "2026-10-31T10:26:44+00:00",
    "failures": 0
   },
   "ING": {
-   "checked_at": "2026-10-31T01:10:03+00:00",
+   "checked_at": "2026-10-31T10:26:44+00:00",
    "error": "",
    "warnings": [],
    "links_found": 27,
    "keyword_matches": 27,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-31T01:10:19+00:00",
+   "last_ok": "2026-10-31T10:26:58+00:00",
    "failures": 0
   },
   "Swiss Life": {
@@ -351,43 +351,43 @@
    "failures": 3
   },
   "jobs.ch": {
-   "checked_at": "2026-10-31T01:08:17+00:00",
+   "checked_at": "2026-10-31T10:25:04+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 76,
-   "keyword_matches": 64,
-   "kept_this_run": 0,
+   "links_found": 78,
+   "keyword_matches": 66,
+   "kept_this_run": 1,
    "status": "ok",
-   "last_ok": "2026-10-31T01:08:37+00:00",
+   "last_ok": "2026-10-31T10:25:18+00:00",
    "failures": 0
   },
   "jobup.ch": {
-   "checked_at": "2026-10-31T01:08:37+00:00",
+   "checked_at": "2026-10-31T10:25:18+00:00",
    "error": "",
    "warnings": [],
    "links_found": 79,
-   "keyword_matches": 49,
+   "keyword_matches": 47,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-10-31T01:09:04+00:00",
+   "last_ok": "2026-10-31T10:25:47+00:00",
    "failures": 0
   },
   "Reed (Londres)": {
-   "checked_at": "2026-10-31T01:09:04+00:00",
+   "checked_at": "2026-10-31T10:25:47+00:00",
    "status": "désactivée",
    "error": "ajoute le secret GitHub REED_API_KEY pour l'activer",
    "failures": 0,
    "warnings": []
   },
   "GulfTalent (Oman)": {
-   "checked_at": "2026-10-31T01:10:19+00:00",
+   "checked_at": "2026-10-31T10:26:58+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "vide",
-   "failures": 12
+   "failures": 13
   }
  }
 }

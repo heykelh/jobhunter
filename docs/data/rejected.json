@@ -1,6 +1,62 @@
 {
- "updated": "2026-10-31T01:10:30+00:00",
+ "updated": "2026-10-31T10:27:09+00:00",
  "items": [
+  {
+   "id": "54e63b3b8488",
+   "company": "jobup.ch",
+   "title": "IT Analyst and Software Engineer",
+   "url": "https://www.jobup.ch/fr/emplois/detail/ba8ff437-bf47-4554-b8ca-0814b749f40d/",
+   "reason": "expérience demandée ≥ 3 ans « esolvez les problemes complexes. competences 3 a 8 ans d'experience en developp »",
+   "at": "2026-10-31T10:25:47+00:00"
+  },
+  {
+   "id": "1ad5d339f6f6",
+   "company": "jobs.ch",
+   "title": "Business Analyst Krankenversicherung KVG/VVG",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/de1edb8c-5232-4d98-ac04-7a2a9b1923ba/",
+   "reason": "expérience demandée ≥ 3 ans « avec une solide affinite pour l'informatique experience de plusieurs annees dans le domaine de l'ass »",
+   "at": "2026-10-31T10:25:12+00:00"
+  },
+  {
+   "id": "f77f16f34ed6",
+   "company": "Orange",
+   "title": "Développeur Data IA",
+   "url": "https://orange.jobs/fr/fr/job/ICM-588749/Développeur-Data-IA",
+   "reason": "lieu hors zones",
+   "at": "2026-10-31T10:25:04+00:00"
+  },
+  {
+   "id": "ff40ba1848ca",
+   "company": "Orange",
+   "title": "Expert Data F/H",
+   "url": "https://orange.jobs/fr/fr/job/IOS-2026-1760/Expert-Data-F-H",
+   "reason": "titre exclu (expert)",
+   "at": "2026-10-31T10:25:03+00:00"
+  },
+  {
+   "id": "eb0dc2d45c85",
+   "company": "Alstom",
+   "title": "Finance Project Analyst (F/H)",
+   "url": "https://jobsearch.alstom.com/job/Charleroi-Finance-Project-Analyst-%28FH%29-WHT/1433238133/",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-10-31T10:20:19+00:00"
+  },
+  {
+   "id": "9483a5bb96c8",
+   "company": "Alstom",
+   "title": "Analyst - Filer & Print Services",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Analyst-Filer-&-Print-Services-KA/1373644133/",
+   "reason": "lieu hors zones",
+   "at": "2026-10-31T10:20:18+00:00"
+  },
+  {
+   "id": "bacbbbcd7c7c",
+   "company": "Alstom",
+   "title": "Data Analyst",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Data-Analyst/1423440833/",
+   "reason": "lieu hors zones",
+   "at": "2026-10-31T10:20:16+00:00"
+  },
   {
    "id": "a65ddc036db3",
    "company": "jobup.ch",

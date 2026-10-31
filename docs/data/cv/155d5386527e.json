@@ -1,0 +1,172 @@
+{
+ "titre": "Analyste en cybersécurité professionnel",
+ "profil": "13 ans d’expérience opérationnelle au sein du groupe SNCF, dans un environnement à forts enjeux de sécurité et de continuité. Titulaire d’un Master Data Engineer / Data Product Manager (Mines Paris : PSL), j’ai conduit plus de quinze projets d’ingénierie des données orientés détection d’anomalies. Ces missions ont renforcé ma capacité à analyser des flux, identifier des incidents et proposer des mesures correctives de façon autonome.",
+ "competences": [
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio",
+    "Excel"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "pokewatch",
+   "titre": "PokéWatch : surveillance de marché et détection d'anomalies de prix",
+   "stack": "PostgreSQL, Supabase, SQL, GitHub Actions, Next.js",
+   "lien": "pokewatch-three.vercel.app",
+   "tags": [
+    "surveillance",
+    "monitoring",
+    "anomalie",
+    "anomalies",
+    "fraude",
+    "prix",
+    "marché",
+    "pipeline",
+    "automatisation",
+    "alerte",
+    "data engineer",
+    "ingestion",
+    "sql"
+   ],
+   "puces": [
+    "Mise en place d’un pipeline automatisé (GitHub Actions) collectant les flux de prix et générant des alertes en temps réel, illustrant la surveillance continue des données.",
+    "Définition de règles SQL de détection d’anomalies et tableau de bord Next.js pour visualiser les écarts, démontrant l’analyse de comportements suspects."
+   ]
+  },
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Simulation d’une mission d’inspection de données sur le risque de crédit, incluant le cadrage, les investigations et le débriefing, comparable à l’analyse d’incidents de sécurité.",
+    "Création d’un moteur de contrôles qualité en SQL et d’un registre des constats, facilitant la traçabilité et la remontée d’anomalies."
+   ]
+  },
+  {
+   "id": "finance-audit",
+   "titre": "Finance Digital Audit Dashboard",
+   "stack": "Python, pandas, scikit-learn, FastAPI, Next.js, Plotly",
+   "lien": "",
+   "tags": [
+    "finance",
+    "financier",
+    "audit",
+    "anomalie",
+    "anomalies",
+    "machine learning",
+    "contrôle de gestion",
+    "comptabilité",
+    "bourse",
+    "api"
+   ],
+   "puces": [
+    "Ingestion des données financières via pandas et détection d’anomalies avec Isolation Forest, montrant l’identification de comportements anormaux dans les flux.",
+    "Déploiement d’une API FastAPI et d’un tableau de bord Next.js/Plotly, assurant la diffusion des alertes et la mise en œuvre de mesures correctives."
+   ]
+  },
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Simulation d’une mission de Business Analyst sur un système d’information de crédit, de l’expression du besoin à la recette, illustrant la gestion de processus critiques.",
+    "Production de livrables (cartographie, spécifications, plan de tests) assurant la documentation et le suivi des incidents."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "agile"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "155d5386527e",
+ "entreprise": "Bundesverwaltung",
+ "intitule_offre": "Cyber Security Analyst/-in Professional",
+ "url_offre": "https://www.jobs.ch/fr/offres-emplois/detail/cbd2440f-233c-43d2-aad7-77ddf8b9ee0c/",
+ "genere_le": "2026-10-31T10:25:18+00:00"
+}
