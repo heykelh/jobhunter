@@ -1,6 +1,22 @@
 {
- "updated": "2026-10-31T20:02:44+00:00",
+ "updated": "2026-10-31T20:27:08+00:00",
  "items": [
+  {
+   "id": "fded16e24114",
+   "company": "Orange",
+   "title": "Senior Data Engineer",
+   "url": "https://orange.jobs/fr/fr/job/ICM-589412/Senior-Data-Engineer",
+   "reason": "titre exclu (senior)",
+   "at": "2026-10-31T20:25:21+00:00"
+  },
+  {
+   "id": "2561cf699549",
+   "company": "Orange",
+   "title": "PO Data IA",
+   "url": "https://orange.jobs/fr/fr/job/ICM-588748/PO-Data-IA",
+   "reason": "lieu hors zones",
+   "at": "2026-10-31T20:25:21+00:00"
+  },
   {
    "id": "73212503a3c0",
    "company": "Orange",
