@@ -1,6 +1,126 @@
 {
- "updated": "2026-10-30T21:39:27+00:00",
+ "updated": "2026-10-31T01:10:30+00:00",
  "items": [
+  {
+   "id": "a65ddc036db3",
+   "company": "jobup.ch",
+   "title": "Chef-fe de projet Data & Patrimoine numérique",
+   "url": "https://www.jobup.ch/fr/emplois/detail/5cb66c0b-08cf-4334-92ec-0603b2fe0e1f/",
+   "reason": "expérience demandée ≥ 3 ans « ne juge equivalent). votre parcours comprend 3 a 5 ans d'experience dans la ges »",
+   "at": "2026-10-31T01:08:44+00:00"
+  },
+  {
+   "id": "5d1f69cb2b4a",
+   "company": "jobs.ch",
+   "title": "Informatikmitarbeiter/in Applikationsbetreuung Data Warehouse",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/fcf0da9a-c424-4f8f-9fd2-37e367503f00/",
+   "reason": "expérience demandée ≥ 3 ans « dans l'environnement erp et bi votre profil experience averee dans le support et le de »",
+   "at": "2026-10-31T01:08:26+00:00"
+  },
+  {
+   "id": "8fb48de627ff",
+   "company": "TotalEnergies",
+   "title": "Energy Data Portfolio Analyst",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Energy-Data-Portfolio-Analyst/85787",
+   "reason": "lieu hors zones",
+   "at": "2026-10-31T01:07:50+00:00"
+  },
+  {
+   "id": "e1b63d6f7953",
+   "company": "BPCE",
+   "title": "Business Analyst - F/H",
+   "url": "https://recrutement.bpce.fr/job/business-analyst-f-h",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « Vous avez déjà eu des expériences de business analyst et de recetteur. » (retirée)",
+   "at": "2026-10-31T01:05:32+00:00"
+  },
+  {
+   "id": "88a2592ac7df",
+   "company": "BPCE",
+   "title": "Business Analyst - Crédit Consommation - F/H",
+   "url": "https://recrutement.bpce.fr/job/business-analyst-credit-consommation-f-h",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « CDI \"Confirmé\" » (retirée)",
+   "at": "2026-10-31T01:05:22+00:00"
+  },
+  {
+   "id": "1194ed50e0a6",
+   "company": "BPCE",
+   "title": "Business analyst cristal (F/H)",
+   "url": "https://recrutement.bpce.fr/job/business-analyst-cristal-f-h",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « Vous disposez d'une expérience bancaire confirmée dans le domaine des paiements Euro unitaire » (retirée)",
+   "at": "2026-10-31T01:05:03+00:00"
+  },
+  {
+   "id": "ae3fc1b0149b",
+   "company": "BPCE",
+   "title": "Business Analyst - F/H",
+   "url": "https://recrutement.bpce.fr/job/business-analyst-f-h-2",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « CDI \"Confirmé\" » (retirée)",
+   "at": "2026-10-31T01:04:54+00:00"
+  },
+  {
+   "id": "8aba66731fc9",
+   "company": "Crédit Agricole",
+   "title": "Business Analyst Reportings Réglementaires H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170479-4-business-analyst-reportings-reglementaires-hf-reference--2026-112652--/",
+   "reason": "expérience demandée ≥ 6 ans « sement et de financement serait appreciable. niveau d'experience minimum 6 - 10 ans competences recherchees co »",
+   "at": "2026-10-31T01:04:05+00:00"
+  },
+  {
+   "id": "41e2e5212e9f",
+   "company": "Crédit Agricole",
+   "title": "Analyste Data - Contrôle de la Qualité des Données Réglementaires H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170479-4-analyste-data---controle-de-la-qualite-des-donnees-reglementaires-hf-reference--2026-107315--/",
+   "reason": "expérience demandée ≥ 6 ans « ment et d'investissement serait appreciable. niveau d'experience minimum 6 - 10 ans competences recherchees co »",
+   "at": "2026-10-31T01:04:03+00:00"
+  },
+  {
+   "id": "f5ca3605404c",
+   "company": "Crédit Agricole",
+   "title": "STAGE - Web Analyst H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-137-stage---web-analyst-hf-reference--2026-109344--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-10-31T01:04:02+00:00"
+  },
+  {
+   "id": "44942ce3c30b",
+   "company": "Société Générale",
+   "title": "Analyste Coverage Institutions Financières",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-coverage-institutions-financieres-26000LR4-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…) (retirée)",
+   "at": "2026-10-31T01:03:48+00:00"
+  },
+  {
+   "id": "7caa606d6350",
+   "company": "Société Générale",
+   "title": "Data Visualization Analyst",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/data-visualization-analyst-26000MAS-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…) (retirée)",
+   "at": "2026-10-31T01:03:46+00:00"
+  },
+  {
+   "id": "47d6df4bffce",
+   "company": "Société Générale",
+   "title": "Analyste Risques Structurels - Reportings Prudentiels",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-risques-structurels-reportings-prudentiels-26000HJR-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-10-31T01:03:45+00:00"
+  },
+  {
+   "id": "14b0487c54c4",
+   "company": "Société Générale",
+   "title": "Analyste risque de crédit",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-risque-de-credit-26000MB3-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-10-31T01:03:38+00:00"
+  },
+  {
+   "id": "fe0434abdd6d",
+   "company": "Société Générale",
+   "title": "Data Scientist – Agentique",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/data-scientist-agentique-26000LJY-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-10-31T01:03:37+00:00"
+  },
   {
    "id": "b7e1748bc97e",
    "company": "ING",

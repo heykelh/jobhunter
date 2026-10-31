@@ -1,6 +1,36 @@
 {
- "updated": "2026-10-30T21:39:27+00:00",
+ "updated": "2026-10-31T01:10:30+00:00",
  "jobs": [
+  {
+   "id": "a9089a28c322",
+   "company": "Société Générale",
+   "title": "Analyste Compliance marchés Jr. - H/F",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-compliance-marches-jr-h-f-26000D91-fr",
+   "via": null,
+   "zone": "Luxembourg",
+   "country": "Luxembourg",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-10-30",
+   "seed": false,
+   "rv": 3,
+   "match": {
+    "score": 80,
+    "have": [
+     "excel",
+     "qualité des données",
+     "conformité",
+     "anglais"
+    ],
+    "missing": [
+     "vba"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-10-31T01:03:41+00:00",
+   "last_seen": "2026-10-31T01:03:41+00:00"
+  },
   {
    "id": "675f0fff37f7",
    "company": "Advanzia Bank",
@@ -31,7 +61,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T21:38:58+00:00",
-   "last_seen": "2026-10-30T21:38:58+00:00"
+   "last_seen": "2026-10-31T01:10:03+00:00"
   },
   {
    "id": "98602bf58326",
@@ -59,7 +89,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T21:38:55+00:00",
-   "last_seen": "2026-10-30T21:38:55+00:00"
+   "last_seen": "2026-10-31T01:10:03+00:00"
   },
   {
    "id": "cf0a5f07c299",
@@ -78,7 +108,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-30T21:38:50+00:00",
-   "last_seen": "2026-10-30T21:38:50+00:00"
+   "last_seen": "2026-10-31T01:10:03+00:00"
   },
   {
    "id": "4e3e7abc4338",
@@ -97,7 +127,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-30T21:37:36+00:00",
-   "last_seen": "2026-10-30T21:37:36+00:00"
+   "last_seen": "2026-10-31T01:09:04+00:00"
   },
   {
    "id": "01190ef0842b",
@@ -127,7 +157,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T14:27:03+00:00",
-   "last_seen": "2026-10-30T21:36:29+00:00"
+   "last_seen": "2026-10-31T01:08:26+00:00"
   },
   {
    "id": "a8e8b79ddcb5",
@@ -160,26 +190,6 @@
    "last_seen": "2026-10-30T10:55:28+00:00"
   },
   {
-   "id": "44942ce3c30b",
-   "company": "Société Générale",
-   "title": "Analyste Coverage Institutions Financières",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-coverage-institutions-financieres-26000LR4-fr",
-   "via": null,
-   "zone": "Île-de-France",
-   "country": "France",
-   "contract": "?",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-29",
-   "seed": false,
-   "rv": 2,
-   "match": null,
-   "salary": null,
-   "first_seen": "2026-10-30T01:57:02+00:00",
-   "last_seen": "2026-10-30T17:01:33+00:00",
-   "date_tries": 1
-  },
-  {
    "id": "8f7739ac7e0e",
    "company": "Cotra Autotransport AG",
    "title": "Integration Engineer – Business Applications & Data 80-100% (m, w, d)",
@@ -207,38 +217,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T22:05:06+00:00",
-   "last_seen": "2026-10-30T21:37:12+00:00"
-  },
-  {
-   "id": "7caa606d6350",
-   "company": "Société Générale",
-   "title": "Data Visualization Analyst",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/data-visualization-analyst-26000MAS-fr",
-   "via": null,
-   "zone": "Île-de-France",
-   "country": "France",
-   "contract": "CDD",
-   "experience": "débutant accepté",
-   "junior": true,
-   "published": "2026-10-29",
-   "seed": false,
-   "rv": 2,
-   "match": {
-    "score": 67,
-    "have": [
-     "power bi",
-     "excel",
-     "qualité des données",
-     "tableaux de bord"
-    ],
-    "missing": [
-     "vba",
-     "sap"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-10-29T22:01:12+00:00",
-   "last_seen": "2026-10-30T17:01:33+00:00"
+   "last_seen": "2026-10-31T01:08:58+00:00"
   },
   {
    "id": "d582e25d1f0c",
@@ -286,7 +265,7 @@
    "salary": null,
    "sponsor": "skilled",
    "first_seen": "2026-10-29T17:31:50+00:00",
-   "last_seen": "2026-10-30T21:38:37+00:00"
+   "last_seen": "2026-10-31T01:09:56+00:00"
   },
   {
    "id": "327b49e49fed",
@@ -305,7 +284,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-29T17:29:57+00:00",
-   "last_seen": "2026-10-30T21:35:05+00:00"
+   "last_seen": "2026-10-31T01:07:50+00:00"
   },
   {
    "id": "2dc2e84b47d5",
@@ -397,7 +376,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T14:20:44+00:00",
-   "last_seen": "2026-10-30T21:36:16+00:00"
+   "last_seen": "2026-10-31T01:08:25+00:00"
   },
   {
    "id": "3ca060478dbd",
@@ -426,7 +405,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:28:53+00:00",
-   "last_seen": "2026-10-30T21:38:13+00:00"
+   "last_seen": "2026-10-31T01:09:36+00:00"
   },
   {
    "id": "b9a0be535054",
@@ -484,7 +463,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:28:16+00:00",
-   "last_seen": "2026-10-30T21:37:40+00:00"
+   "last_seen": "2026-10-31T01:09:04+00:00"
   },
   {
    "id": "54e37897c3ae",
@@ -517,7 +496,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:28:07+00:00",
-   "last_seen": "2026-10-30T21:37:33+00:00"
+   "last_seen": "2026-10-31T01:09:04+00:00"
   },
   {
    "id": "d6974f5955a6",
@@ -536,7 +515,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-29T10:28:05+00:00",
-   "last_seen": "2026-10-30T21:37:31+00:00"
+   "last_seen": "2026-10-31T01:09:04+00:00"
   },
   {
    "id": "4b9b91a1656f",
@@ -568,7 +547,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:28:04+00:00",
-   "last_seen": "2026-10-30T21:37:30+00:00"
+   "last_seen": "2026-10-31T01:09:04+00:00"
   },
   {
    "id": "cf46f120bf80",
@@ -598,7 +577,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:28:00+00:00",
-   "last_seen": "2026-10-30T21:37:28+00:00"
+   "last_seen": "2026-10-31T01:09:04+00:00"
   },
   {
    "id": "72a9a945f81b",
@@ -617,7 +596,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-29T10:27:55+00:00",
-   "last_seen": "2026-10-30T21:37:26+00:00"
+   "last_seen": "2026-10-31T01:08:58+00:00"
   },
   {
    "id": "dab274884e02",
@@ -645,7 +624,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:27:54+00:00",
-   "last_seen": "2026-10-30T21:37:25+00:00"
+   "last_seen": "2026-10-31T01:08:58+00:00"
   },
   {
    "id": "d7e4516fff26",
@@ -664,7 +643,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-29T10:27:37+00:00",
-   "last_seen": "2026-10-30T21:37:03+00:00"
+   "last_seen": "2026-10-31T01:08:58+00:00"
   },
   {
    "id": "c58eef5c3d9a",
@@ -679,7 +658,7 @@
    "junior": false,
    "published": "2026-10-08T05:02:16+02:00",
    "seed": true,
-   "rv": 2,
+   "rv": 3,
    "match": {
     "score": 75,
     "have": [
@@ -693,7 +672,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:27:23+00:00",
-   "last_seen": "2026-10-30T21:36:45+00:00"
+   "last_seen": "2026-10-31T01:08:36+00:00"
   },
   {
    "id": "903bbe48ffba",
@@ -738,11 +717,11 @@
    "junior": true,
    "published": "2026-10-23T14:02:08+02:00",
    "seed": true,
-   "rv": 2,
+   "rv": 3,
    "match": null,
    "salary": null,
    "first_seen": "2026-10-29T10:27:20+00:00",
-   "last_seen": "2026-10-30T21:36:45+00:00"
+   "last_seen": "2026-10-31T01:08:32+00:00"
   },
   {
    "id": "e58ee0da019a",
@@ -757,11 +736,11 @@
    "junior": true,
    "published": "2026-10-09T16:02:25+02:00",
    "seed": true,
-   "rv": 2,
+   "rv": 3,
    "match": null,
    "salary": null,
    "first_seen": "2026-10-29T10:27:19+00:00",
-   "last_seen": "2026-10-30T21:36:45+00:00"
+   "last_seen": "2026-10-31T01:08:30+00:00"
   },
   {
    "id": "65ad705f0995",
@@ -776,7 +755,7 @@
    "junior": true,
    "published": "2026-10-09T11:57:11+02:00",
    "seed": true,
-   "rv": 2,
+   "rv": 3,
    "match": {
     "score": 67,
     "have": [
@@ -789,7 +768,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:27:14+00:00",
-   "last_seen": "2026-10-30T21:36:45+00:00"
+   "last_seen": "2026-10-31T01:08:28+00:00"
   },
   {
    "id": "f8340aca03c6",
@@ -804,7 +783,7 @@
    "junior": true,
    "published": "2026-10-26T13:28:55+01:00",
    "seed": true,
-   "rv": 2,
+   "rv": 3,
    "match": {
     "score": 50,
     "have": [
@@ -820,7 +799,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:27:05+00:00",
-   "last_seen": "2026-10-30T21:36:45+00:00"
+   "last_seen": "2026-10-31T01:08:26+00:00"
   },
   {
    "id": "cd3a9c28f5a8",
@@ -850,7 +829,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:27:03+00:00",
-   "last_seen": "2026-10-30T21:36:43+00:00"
+   "last_seen": "2026-10-31T01:08:26+00:00"
   },
   {
    "id": "33b675108649",
@@ -879,7 +858,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:27:02+00:00",
-   "last_seen": "2026-10-30T21:36:31+00:00"
+   "last_seen": "2026-10-31T01:08:26+00:00"
   },
   {
    "id": "c32969a21d88",
@@ -968,7 +947,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-29T10:26:46+00:00",
-   "last_seen": "2026-10-30T21:36:13+00:00"
+   "last_seen": "2026-10-31T01:08:25+00:00"
   },
   {
    "id": "49e9b9f023ad",
@@ -1000,7 +979,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:26:39+00:00",
-   "last_seen": "2026-10-30T21:36:04+00:00"
+   "last_seen": "2026-10-31T01:08:22+00:00"
   },
   {
    "id": "47ae7550f550",
@@ -1032,7 +1011,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:26:36+00:00",
-   "last_seen": "2026-10-30T21:35:59+00:00"
+   "last_seen": "2026-10-31T01:08:22+00:00"
   },
   {
    "id": "8096a608d3ba",
@@ -1068,7 +1047,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:26:33+00:00",
-   "last_seen": "2026-10-30T21:35:58+00:00"
+   "last_seen": "2026-10-31T01:08:22+00:00"
   },
   {
    "id": "6219b5d66c6b",
@@ -1087,7 +1066,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-29T10:26:30+00:00",
-   "last_seen": "2026-10-30T21:35:57+00:00"
+   "last_seen": "2026-10-31T01:08:22+00:00"
   },
   {
    "id": "7ac708e3d27f",
@@ -1125,7 +1104,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:26:27+00:00",
-   "last_seen": "2026-10-30T21:35:55+00:00"
+   "last_seen": "2026-10-31T01:08:22+00:00"
   },
   {
    "id": "417e43af90e5",
@@ -1154,7 +1133,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:26:19+00:00",
-   "last_seen": "2026-10-30T21:35:51+00:00"
+   "last_seen": "2026-10-31T01:08:22+00:00"
   },
   {
    "id": "4bebdcca4697",
@@ -1174,7 +1153,7 @@
    "salary": null,
    "sponsor": "skilled",
    "first_seen": "2026-10-29T10:23:12+00:00",
-   "last_seen": "2026-10-30T21:33:08+00:00"
+   "last_seen": "2026-10-31T01:05:54+00:00"
   },
   {
    "id": "77d6a6774f0a",
@@ -1191,7 +1170,7 @@
    "rv": 3,
    "match": null,
    "first_seen": "2026-10-28T10:34:45+00:00",
-   "last_seen": "2026-10-30T21:30:53+00:00"
+   "last_seen": "2026-10-31T01:04:44+00:00"
   },
   {
    "id": "76bc150e9b01",
@@ -1220,7 +1199,7 @@
     "missing": []
    },
    "first_seen": "2026-10-28T10:34:36+00:00",
-   "last_seen": "2026-10-30T21:30:42+00:00"
+   "last_seen": "2026-10-31T01:04:44+00:00"
   },
   {
    "id": "4e80bd2f5d16",
@@ -1280,7 +1259,7 @@
     ]
    },
    "first_seen": "2026-10-27T20:42:04+00:00",
-   "last_seen": "2026-10-30T21:31:03+00:00"
+   "last_seen": "2026-10-31T01:04:44+00:00"
   },
   {
    "id": "deb616687b85",
@@ -1295,7 +1274,7 @@
    "published": "2026-10-27T06:16:00+00:00",
    "seed": false,
    "first_seen": "2026-10-27T09:22:13+00:00",
-   "last_seen": "2026-10-30T21:33:06+00:00",
+   "last_seen": "2026-10-31T01:05:54+00:00",
    "rv": 3,
    "match": null
   },
@@ -1312,7 +1291,7 @@
    "published": "2026-10-26",
    "seed": false,
    "first_seen": "2026-10-26T16:49:15+00:00",
-   "last_seen": "2026-10-30T21:31:12+00:00",
+   "last_seen": "2026-10-31T01:04:44+00:00",
    "rv": 3,
    "match": null
   },
@@ -1389,7 +1368,7 @@
    "published": "2026-10-09T02:01:00+00:00",
    "seed": true,
    "first_seen": "2026-10-26T10:09:34+00:00",
-   "last_seen": "2026-10-30T21:38:40+00:00",
+   "last_seen": "2026-10-31T01:09:56+00:00",
    "rv": 3,
    "match": {
     "score": 50,
@@ -1416,7 +1395,7 @@
    "published": "2026-10-13T00:00:00+00:00",
    "seed": true,
    "first_seen": "2026-10-26T10:09:31+00:00",
-   "last_seen": "2026-10-30T21:38:39+00:00",
+   "last_seen": "2026-10-31T01:09:56+00:00",
    "rv": 3,
    "match": {
     "score": 57,
@@ -1517,7 +1496,7 @@
    "published": "2026-10-23",
    "seed": false,
    "first_seen": "2026-10-24T00:43:13+00:00",
-   "last_seen": "2026-10-30T21:35:45+00:00",
+   "last_seen": "2026-10-31T01:08:17+00:00",
    "country": "Suisse",
    "rv": 3,
    "match": {
@@ -1587,7 +1566,7 @@
    "published": "2026-10-23T10:37:00+00:00",
    "seed": false,
    "first_seen": "2026-10-23T14:27:55+00:00",
-   "last_seen": "2026-10-30T21:33:07+00:00",
+   "last_seen": "2026-10-31T01:05:54+00:00",
    "country": "Suisse",
    "rv": 3,
    "match": null
@@ -1658,7 +1637,7 @@
    "published": "2026-10-23T09:23:46+00:00",
    "seed": false,
    "first_seen": "2026-10-23T09:29:55+00:00",
-   "last_seen": "2026-10-30T21:27:42+00:00",
+   "last_seen": "2026-10-31T01:02:04+00:00",
    "country": "France",
    "rv": 3,
    "match": null
@@ -1759,7 +1738,7 @@
    "published": "2026-10-14T10:27:00+00:00",
    "seed": false,
    "first_seen": "2026-10-22T08:15:53+00:00",
-   "last_seen": "2026-10-30T21:33:07+00:00",
+   "last_seen": "2026-10-31T01:05:54+00:00",
    "country": "Suisse",
    "rv": 3,
    "match": null
@@ -1821,64 +1800,6 @@
    "last_seen": "2026-10-21T09:22:17+00:00"
   },
   {
-   "id": "e1b63d6f7953",
-   "company": "BPCE",
-   "title": "Business Analyst - F/H",
-   "url": "https://recrutement.bpce.fr/job/business-analyst-f-h",
-   "zone": "Île-de-France",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-02-23",
-   "seed": false,
-   "first_seen": "2026-10-20T17:36:46+00:00",
-   "last_seen": "2026-10-30T21:32:43+00:00",
-   "date_tries": 1,
-   "country": "France",
-   "rv": 2,
-   "match": {
-    "score": 60,
-    "have": [
-     "pilotage",
-     "recette",
-     "business analyst"
-    ],
-    "missing": [
-     "agile",
-     "jira"
-    ]
-   }
-  },
-  {
-   "id": "88a2592ac7df",
-   "company": "BPCE",
-   "title": "Business Analyst - Crédit Consommation - F/H",
-   "url": "https://recrutement.bpce.fr/job/business-analyst-credit-consommation-f-h",
-   "zone": "Île-de-France",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-03-15",
-   "seed": false,
-   "first_seen": "2026-10-20T17:36:36+00:00",
-   "last_seen": "2026-10-30T21:32:43+00:00",
-   "date_tries": 1,
-   "country": "France",
-   "rv": 2,
-   "match": {
-    "score": 60,
-    "have": [
-     "pilotage",
-     "recette",
-     "business analyst"
-    ],
-    "missing": [
-     "agile",
-     "scrum"
-    ]
-   }
-  },
-  {
    "id": "4fc6dc7dd901",
    "company": "BPCE",
    "title": "Business Analyste technique – Assurance non vie (F/H)",
@@ -1890,10 +1811,10 @@
    "published": "2026-06-18",
    "seed": false,
    "first_seen": "2026-10-20T17:36:27+00:00",
-   "last_seen": "2026-10-30T21:32:43+00:00",
+   "last_seen": "2026-10-31T01:05:03+00:00",
    "date_tries": 1,
    "country": "France",
-   "rv": 2,
+   "rv": 3,
    "match": {
     "score": 67,
     "have": [
@@ -1924,63 +1845,6 @@
    "date_tries": 1
   },
   {
-   "id": "1194ed50e0a6",
-   "company": "BPCE",
-   "title": "Business analyst cristal (F/H)",
-   "url": "https://recrutement.bpce.fr/job/business-analyst-cristal-f-h",
-   "zone": "Île-de-France",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-05-17",
-   "seed": false,
-   "first_seen": "2026-10-20T17:36:08+00:00",
-   "last_seen": "2026-10-30T21:32:43+00:00",
-   "date_tries": 1,
-   "country": "France",
-   "rv": 2,
-   "match": {
-    "score": 100,
-    "have": [
-     "pilotage",
-     "business analyst",
-     "anglais"
-    ],
-    "missing": []
-   }
-  },
-  {
-   "id": "ae3fc1b0149b",
-   "company": "BPCE",
-   "title": "Business Analyst - F/H",
-   "url": "https://recrutement.bpce.fr/job/business-analyst-f-h-2",
-   "zone": "Île-de-France",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-05-21",
-   "seed": false,
-   "first_seen": "2026-10-20T17:35:49+00:00",
-   "last_seen": "2026-10-30T21:32:43+00:00",
-   "date_tries": 1,
-   "match": {
-    "score": 71,
-    "have": [
-     "python",
-     "sql",
-     "power bi",
-     "conformité",
-     "business analyst"
-    ],
-    "missing": [
-     "agile",
-     "jira"
-    ]
-   },
-   "country": "France",
-   "rv": 2
-  },
-  {
    "id": "690e41651caa",
    "company": "BPCE",
    "title": "Data Scientist / Python (F/H) CDD 6 mois",
@@ -1992,7 +1856,7 @@
    "published": "2026-10-20",
    "seed": false,
    "first_seen": "2026-10-20T17:32:57+00:00",
-   "last_seen": "2026-10-30T21:31:43+00:00",
+   "last_seen": "2026-10-31T01:04:44+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 3,
@@ -2052,7 +1916,7 @@
    "published": "2026-09-22",
    "seed": false,
    "first_seen": "2026-10-20T13:59:55+00:00",
-   "last_seen": "2026-10-30T21:32:32+00:00",
+   "last_seen": "2026-10-31T01:04:44+00:00",
    "date_tries": 1,
    "match": {
     "score": 75,
@@ -2129,7 +1993,7 @@
    "published": "2026-10-08",
    "seed": false,
    "first_seen": "2026-10-20T13:58:07+00:00",
-   "last_seen": "2026-10-30T21:32:22+00:00",
+   "last_seen": "2026-10-31T01:04:44+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 3,
@@ -2158,7 +2022,7 @@
    "published": "2026-10-14",
    "seed": false,
    "first_seen": "2026-10-20T13:57:31+00:00",
-   "last_seen": "2026-10-30T21:32:03+00:00",
+   "last_seen": "2026-10-31T01:04:44+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 3,
@@ -2248,7 +2112,7 @@
    "published": "2026-10-15",
    "seed": true,
    "first_seen": "2026-10-20T13:24:49+00:00",
-   "last_seen": "2026-10-30T21:35:13+00:00",
+   "last_seen": "2026-10-31T01:07:50+00:00",
    "country": "France",
    "rv": 3,
    "match": null

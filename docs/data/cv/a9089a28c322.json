@@ -1,0 +1,177 @@
+{
+ "titre": "Analyste Compliance Marchés Junior : Société Générale Luxembourg",
+ "profil": "Professionnel avec 13 ans d’expérience opérationnelle au sein du groupe SNCF, spécialisé dans la gouvernance et la conformité des données. Titulaire d’un Master Data Engineer/Data Product Manager (Mines Paris : PSL) et ayant mené plus de quinze projets data, je maîtrise l’analyse, le reporting et le contrôle des processus. Compétences avérées en suivi KYC, rédaction de rapports de conformité et utilisation avancée du pack Office (Excel, VBA, Word, PowerPoint).",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Excel",
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "regard",
+   "titre": "REGARD : copilote de conformité bancaire",
+   "stack": "LangGraph.js, Groq, Supabase (pgvector), Langfuse",
+   "lien": "regard-wine.vercel.app",
+   "tags": [
+    "conformité",
+    "compliance",
+    "banque",
+    "bancaire",
+    "réglementaire",
+    "lcb-ft",
+    "kyc",
+    "ia",
+    "llm",
+    "rag",
+    "risque"
+   ],
+   "puces": [
+    "Co‑pilotage d’un outil d’analyse de conformité bancaire, avec codage des contrôles sous forme de règles et génération de synthèses.",
+    "Gestion de 28 cas de test de référence, suivi des rejets techniques et amélioration continue."
+   ]
+  },
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Simulation d’une inspection data sur la chaîne de risque de crédit, incluant cadrage, investigations et débriefing des résultats.",
+    "Développement d’un moteur de contrôles qualité en SQL, avec scoring de risque, registre des constats et production de rapports."
+   ]
+  },
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Simulation d’une mission de Business Analyst sur un système d’information crédit, couvrant expression du besoin, conception et phase de recette.",
+    "Production de livrables : cartographie des processus, spécifications fonctionnelles et plan de tests, publiés en ligne."
+   ]
+  },
+  {
+   "id": "frontierbank",
+   "titre": "FrontierBank : gouvernance des données d'une banque fictive",
+   "stack": "BCBS 239, DAMA-DMBOK, AI Act, Power BI",
+   "lien": "frontierbank-data.vercel.app",
+   "tags": [
+    "gouvernance",
+    "governance",
+    "steward",
+    "qualité",
+    "quality",
+    "bcbs",
+    "dama",
+    "lignage",
+    "lineage",
+    "banque",
+    "bancaire",
+    "risque",
+    "réglementaire",
+    "conformité",
+    "raci",
+    "référentiel",
+    "métadonnées"
+   ],
+   "puces": [
+    "Conseil en gouvernance des données bancaires : diagnostic BCBS 239, cadre DAMA‑DMBOK, traçabilité et matrice RACI.",
+    "Création de tableaux de bord Power BI pour le suivi de la qualité des données et la cartographie des usages."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "vba"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "a9089a28c322",
+ "entreprise": "Société Générale",
+ "intitule_offre": "Analyste Compliance marchés Jr. - H/F",
+ "url_offre": "https://careers.societegenerale.com/offres-d-emploi/analyste-compliance-marches-jr-h-f-26000D91-fr",
+ "genere_le": "2026-10-31T01:03:45+00:00"
+}
