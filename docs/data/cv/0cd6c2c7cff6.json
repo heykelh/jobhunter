@@ -1,0 +1,170 @@
+{
+ "titre": "Business Analyst Mainframe H/F",
+ "profil": "Professionnel avec 13 ans d'expérience au sein du Groupe SNCF, spécialisé dans la gestion de systèmes d'information critiques. Expertise en analyse fonctionnelle, rédaction de spécifications et pilotage de tests fonctionnels. Expérience avérée dans la coordination entre équipes métier et techniques.",
+ "competences": [
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio",
+    "Excel"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Recueil et analyse des besoins fonctionnels du SI Crédit, de la phase d’expression du besoin à la rédaction des spécifications.",
+    "Définition des critères d’acceptation, préparation des tests fonctionnels et suivi des anomalies jusqu’à la recette."
+   ]
+  },
+  {
+   "id": "finance-audit",
+   "titre": "Finance Digital Audit Dashboard",
+   "stack": "Python, pandas, scikit-learn, FastAPI, Next.js, Plotly",
+   "lien": "",
+   "tags": [
+    "finance",
+    "financier",
+    "audit",
+    "anomalie",
+    "anomalies",
+    "machine learning",
+    "contrôle de gestion",
+    "comptabilité",
+    "bourse",
+    "api"
+   ],
+   "puces": [
+    "Analyse des flux financiers du CAC 40, rédaction de spécifications fonctionnelles pour l’ETL et les contrôles d’anomalies.",
+    "Conception du plan de tests fonctionnels et suivi des écarts lors de la mise en production."
+   ]
+  },
+  {
+   "id": "pokewatch",
+   "titre": "PokéWatch : surveillance de marché et détection d'anomalies de prix",
+   "stack": "PostgreSQL, Supabase, SQL, GitHub Actions, Next.js",
+   "lien": "pokewatch-three.vercel.app",
+   "tags": [
+    "surveillance",
+    "monitoring",
+    "anomalie",
+    "anomalies",
+    "fraude",
+    "prix",
+    "marché",
+    "pipeline",
+    "automatisation",
+    "alerte",
+    "data engineer",
+    "ingestion",
+    "sql"
+   ],
+   "puces": [
+    "Collecte et modélisation des données de prix, rédaction des exigences fonctionnelles pour le pipeline de détection.",
+    "Mise en place des critères d’acceptation et suivi des alertes d’anomalies en environnement automatisé."
+   ]
+  },
+  {
+   "id": "customer-experience",
+   "titre": "Customer Experience Intelligence : analyse et dataviz",
+   "stack": "Python, Power BI",
+   "lien": "github.com/heykelh/customer-experience-intelligence",
+   "tags": [
+    "client",
+    "clients",
+    "expérience client",
+    "marketing",
+    "kpi",
+    "dashboard",
+    "tableau de bord",
+    "power bi",
+    "reporting",
+    "analyse",
+    "satisfaction",
+    "parcours"
+   ],
+   "puces": [
+    "Analyse des besoins métier pour la visualisation des indicateurs clients, rédaction de spécifications Power BI.",
+    "Coordination avec les équipes techniques pour la réalisation des dashboards et validation des livrables."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "sap"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "0cd6c2c7cff6",
+ "entreprise": "Aubay",
+ "intitule_offre": "Business Analyst Mainframe H/F Aubay",
+ "url_offre": "https://www.hellowork.com/fr-fr/emplois/83723882.html",
+ "genere_le": "2026-10-31T20:20:28+00:00"
+}
