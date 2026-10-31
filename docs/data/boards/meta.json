@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T23:02:34+00:00",
+ "updated": "2026-10-31T10:58:03+00:00",
  "keywords": [
   "data",
   "analyst"
@@ -22,11 +22,11 @@
   "HelloWork"
  ],
  "ai": {
-  "ok": 7,
-  "errors": 7,
-  "last_error": "HTTP 429 (openai/gpt-oss-120b) : {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kkqt4ecsfjybqscgqhm4275e` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 4815, Req",
+  "ok": 3,
+  "errors": 1,
+  "last_error": "HTTP 404 (llama-3.1-8b-instant) : {\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}} ",
   "model": "openai/gpt-oss-120b",
-  "waits": 7,
-  "at": "2026-10-30T23:02:34+00:00"
+  "waits": 1,
+  "at": "2026-10-31T10:58:03+00:00"
  }
 }

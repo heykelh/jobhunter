@@ -1,0 +1,178 @@
+{
+ "titre": "Assistant de Facturation Client et Data",
+ "profil": "Professionnel data avec 13 ans d’expérience au sein du groupe SNCF, spécialisé dans les environnements critiques. Titulaire d’un Master Data Engineer (Bac+5) de Mines Paris : PSL. Expérience avérée sur plus de 15 projets d’analyse, d’automatisation et de reporting, incluant Excel avancé, Power Query et Power BI.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "SQL",
+    "Power BI (DAX)",
+    "Excel",
+    "Python (pandas)",
+    "PostgreSQL",
+    "DuckDB",
+    "Looker Studio"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "customer-experience",
+   "titre": "Customer Experience Intelligence : analyse et dataviz",
+   "stack": "Python, Power BI",
+   "lien": "github.com/heykelh/customer-experience-intelligence",
+   "tags": [
+    "client",
+    "clients",
+    "expérience client",
+    "marketing",
+    "kpi",
+    "dashboard",
+    "tableau de bord",
+    "power bi",
+    "reporting",
+    "analyse",
+    "satisfaction",
+    "parcours"
+   ],
+   "puces": [
+    "Analyse exploratoire des données clients pour identifier tendances et anomalies, renforçant la fiabilité des indicateurs de performance.",
+    "Création de tableaux de bord Power BI interactifs destinés aux décideurs, facilitant le pilotage opérationnel."
+   ]
+  },
+  {
+   "id": "escale",
+   "titre": "ESCALE : ponctualité des vols CDG et Orly",
+   "stack": "Python, PostgreSQL (médaillon), API AeroDataBox, Next.js",
+   "lien": "escale-ops.vercel.app",
+   "tags": [
+    "aérien",
+    "aerien",
+    "aviation",
+    "vol",
+    "vols",
+    "airline",
+    "opérations",
+    "operations",
+    "ponctualité",
+    "retard",
+    "rgpd",
+    "privacy",
+    "données personnelles",
+    "ai act",
+    "prédiction",
+    "client"
+   ],
+   "puces": [
+    "Mise en place d’une collecte automatisée des données de vol, avec scoring de risque, assurant la continuité des flux d’information.",
+    "Développement d’une console de suivi avec visualisations, intégrant les exigences de conformité RGPD."
+   ]
+  },
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Conception d’un moteur de contrôles qualité basé sur des règles SQL, permettant la détection d’anomalies dans les flux de données.",
+    "Production de rapports de restitution détaillés, structurant les constats pour les parties prenantes."
+   ]
+  },
+  {
+   "id": "palier",
+   "titre": "PALIER : tarification et yield management TGV",
+   "stack": "Python, DuckDB, Power BI, Next.js, GitHub Actions",
+   "lien": "palier-sncf.vercel.app",
+   "tags": [
+    "pricing",
+    "prix",
+    "tarif",
+    "tarification",
+    "revenue",
+    "yield",
+    "élasticité",
+    "demande",
+    "transport",
+    "ferroviaire",
+    "voyageurs",
+    "sncf",
+    "commercial",
+    "offre"
+   ],
+   "puces": [
+    "Analyse de la tarification TGV à partir de jeux de données publiques, évaluant élasticité et position concurrentielle.",
+    "Automatisation de la mise à jour du module de yield management via GitHub Actions, assurant la cohérence des données tarifaires."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "vba",
+  "cahier des charges"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "9a5a47e2f8d5",
+ "entreprise": "Groupe Sterne",
+ "intitule_offre": "Assistant de Facturation Client et Data H/F Groupe Sterne",
+ "url_offre": "https://www.hellowork.com/fr-fr/emplois/83928149.html",
+ "genere_le": "2026-10-31T10:58:02+00:00"
+}
