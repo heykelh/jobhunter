@@ -1,0 +1,175 @@
+{
+ "titre": "Data Scientist / AI Engineer",
+ "profil": "Data Scientist avec 13 ans d’expérience au sein du Groupe SNCF, spécialisé dans la mise en place de pipelines de données et l’industrialisation de modèles. Titulaire d’un Master Data Engineer / Data Product Manager (Mines Paris : PSL) et auteur de plus de 15 projets data. Expertise reconnue en forecasting, séries temporelles et bonnes pratiques MLOps, avec une forte capacité à collaborer avec les équipes métier Finance et Supply Chain.",
+ "competences": [
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Docker",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Excel",
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Conception et suivi d’un pipeline d’analyse du SI Crédit, de la collecte des exigences à la validation en recette",
+    "Livrables publiés en ligne : cartographie des processus, spécifications fonctionnelles et plan de tests"
+   ]
+  },
+  {
+   "id": "customer-experience",
+   "titre": "Customer Experience Intelligence : analyse et dataviz",
+   "stack": "Python, Power BI",
+   "lien": "github.com/heykelh/customer-experience-intelligence",
+   "tags": [
+    "client",
+    "clients",
+    "expérience client",
+    "marketing",
+    "kpi",
+    "dashboard",
+    "tableau de bord",
+    "power bi",
+    "reporting",
+    "analyse",
+    "satisfaction",
+    "parcours"
+   ],
+   "puces": [
+    "Analyse exploratoire de données clients pour identifier insights, tendances et anomalies impactant la performance",
+    "Création de dashboards interactifs Power BI et d’indicateurs de pilotage destinés aux décideurs métier"
+   ]
+  },
+  {
+   "id": "finance-audit",
+   "titre": "Finance Digital Audit Dashboard",
+   "stack": "Python, pandas, scikit-learn, FastAPI, Next.js, Plotly",
+   "lien": "",
+   "tags": [
+    "finance",
+    "financier",
+    "audit",
+    "anomalie",
+    "anomalies",
+    "machine learning",
+    "contrôle de gestion",
+    "comptabilité",
+    "bourse",
+    "api"
+   ],
+   "puces": [
+    "Ingestion des données financières du CAC 40 via ETL pandas et détection d’anomalies avec Isolation Forest",
+    "Déploiement d’une API FastAPI et d’un tableau de bord Next.js/Plotly, intégrés par CI / CD GitHub Actions"
+   ]
+  },
+  {
+   "id": "escale",
+   "titre": "ESCALE : ponctualité des vols CDG et Orly",
+   "stack": "Python, PostgreSQL (médaillon), API AeroDataBox, Next.js",
+   "lien": "escale-ops.vercel.app",
+   "tags": [
+    "aérien",
+    "aerien",
+    "aviation",
+    "vol",
+    "vols",
+    "airline",
+    "opérations",
+    "operations",
+    "ponctualité",
+    "retard",
+    "rgpd",
+    "privacy",
+    "données personnelles",
+    "ai act",
+    "prédiction",
+    "client"
+   ],
+   "puces": [
+    "Collecte automatisée des vols deux fois par jour en couches Bronze, Silver, Gold avec score de risque de retard de 0 à 100",
+    "Console de suivi de ponctualité intégrant modèle de prédiction et conformité RGPD/AI Act (privacy by design)"
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "gcp",
+  "kubernetes",
+  "prévision"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "2a78a8afbbcb",
+ "entreprise": "Devoteam France",
+ "intitule_offre": "Data Scientist - ai Engineer H/F Devoteam France",
+ "url_offre": "https://www.hellowork.com/fr-fr/emplois/81534592.html",
+ "genere_le": "2026-11-01T21:47:27+00:00"
+}

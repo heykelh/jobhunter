@@ -1,0 +1,181 @@
+{
+ "titre": "Data Scientist : AI Ops",
+ "profil": "Professionnel du data avec 13 ans d’expérience au sein du groupe SNCF, spécialisé en ingénierie des données et gestion de produits data. Titulaire d’un master Data Engineer/Data Product Manager (Bac+5) de l’École des Mines Paris‑PSL. Réalisation de plus de 15 projets data, incluant la mise en production de pipelines et de solutions d’analyse.",
+ "competences": [
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Docker",
+    "AWS",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "SQL",
+    "Python (pandas)",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio",
+    "Excel"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "pokewatch",
+   "titre": "PokéWatch : surveillance de marché et détection d'anomalies de prix",
+   "stack": "PostgreSQL, Supabase, SQL, GitHub Actions, Next.js",
+   "lien": "pokewatch-three.vercel.app",
+   "tags": [
+    "surveillance",
+    "monitoring",
+    "anomalie",
+    "anomalies",
+    "fraude",
+    "prix",
+    "marché",
+    "pipeline",
+    "automatisation",
+    "alerte",
+    "data engineer",
+    "ingestion",
+    "sql"
+   ],
+   "puces": [
+    "Conception d’un pipeline automatisé de collecte de prix via API, orchestré par GitHub Actions, avec alertes temps réel",
+    "Détection d’anomalies de prix par règles SQL et visualisation via tableau de bord web"
+   ]
+  },
+  {
+   "id": "customer-experience",
+   "titre": "Customer Experience Intelligence : analyse et dataviz",
+   "stack": "Python, Power BI",
+   "lien": "github.com/heykelh/customer-experience-intelligence",
+   "tags": [
+    "client",
+    "clients",
+    "expérience client",
+    "marketing",
+    "kpi",
+    "dashboard",
+    "tableau de bord",
+    "power bi",
+    "reporting",
+    "analyse",
+    "satisfaction",
+    "parcours"
+   ],
+   "puces": [
+    "Analyse exploratoire des données clients pour identifier tendances et anomalies impactant la performance",
+    "Création de tableaux de bord interactifs Power BI destinés aux décideurs métier"
+   ]
+  },
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Simulation d’une mission d’inspection data sur la chaîne de risque de crédit, incluant cadrage et investigations",
+    "Mise en place de contrôles qualité SQL et génération de rapports de restitution"
+   ]
+  },
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Simulation d’une mission de Business Analyst sur un SI Crédit, de la collecte du besoin à la phase de recette",
+    "Production de livrables en ligne : cartographie des processus, spécifications fonctionnelles et plan de tests"
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "snowflake",
+  "dbt",
+  "airflow",
+  "azure",
+  "kubernetes",
+  "data lake",
+  "tensorflow",
+  "pytorch"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "e2063676fdc9",
+ "entreprise": "SOMA",
+ "intitule_offre": "Datascientist - Ai Ops H/F SOMA",
+ "url_offre": "https://www.hellowork.com/fr-fr/emplois/71296834.html",
+ "genere_le": "2026-11-01T21:47:46+00:00"
+}

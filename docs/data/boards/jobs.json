@@ -1,6 +1,328 @@
 {
- "updated": "2026-11-01T18:27:03+00:00",
+ "updated": "2026-11-01T21:49:25+00:00",
  "jobs": [
+  {
+   "id": "2e7b96a064e9",
+   "company": "DFM",
+   "title": "Consultant Commercial IA H/F DFM",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84998143.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-10-30T17:46:26+00:00",
+   "seed": false,
+   "rv": 3,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-01T21:49:06+00:00",
+   "last_seen": "2026-11-01T21:49:06+00:00"
+  },
+  {
+   "id": "a5a963f97fd8",
+   "company": "Devoteam France",
+   "title": "Consultant en Cybersécurité - Compliance Risk & ai Governance H/F Devoteam France",
+   "url": "https://www.hellowork.com/fr-fr/emplois/81534874.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "2 ans min. · junior",
+   "junior": true,
+   "published": "2026-10-22T00:17:07+00:00",
+   "seed": false,
+   "rv": 3,
+   "match": {
+    "score": 64,
+    "have": [
+     "aws",
+     "intelligence artificielle",
+     "gouvernance",
+     "rgpd",
+     "ai act",
+     "conformité",
+     "anglais"
+    ],
+    "missing": [
+     "databricks",
+     "snowflake",
+     "sap",
+     "salesforce"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-01T21:48:48+00:00",
+   "last_seen": "2026-11-01T21:48:48+00:00"
+  },
+  {
+   "id": "b2d5dc5bfeb1",
+   "company": "Approach People Recruitment",
+   "title": "Business Developer ai H/F Approach People Recruitment",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82108612.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "2 ans min. · junior",
+   "junior": true,
+   "published": "2026-10-07T00:07:56+00:00",
+   "seed": false,
+   "rv": 3,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-01T21:48:36+00:00",
+   "last_seen": "2026-11-01T21:48:36+00:00"
+  },
+  {
+   "id": "30db7fd81f59",
+   "company": "Devoteam France",
+   "title": "Consultant·e Ai - Machine Learning Aws H/F Devoteam France",
+   "url": "https://www.hellowork.com/fr-fr/emplois/81534619.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-10-22T00:19:00+00:00",
+   "seed": false,
+   "rv": 3,
+   "match": {
+    "score": 41,
+    "have": [
+     "python",
+     "aws",
+     "docker",
+     "machine learning",
+     "intelligence artificielle",
+     "business analyst",
+     "scikit-learn"
+    ],
+    "missing": [
+     "spark",
+     "airflow",
+     "kubernetes",
+     "terraform",
+     "git",
+     "prévision",
+     "agile",
+     "scrum",
+     "tensorflow",
+     "pytorch"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-01T21:48:22+00:00",
+   "last_seen": "2026-11-01T21:48:22+00:00"
+  },
+  {
+   "id": "34e6c3122830",
+   "company": "Bureau des Talents",
+   "title": "Engineer - Llm & ai Agents - Cybersécurité H/F Bureau des Talents",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84815584.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "2 ans min. · junior",
+   "junior": true,
+   "published": "2026-10-26T20:11:25+00:00",
+   "seed": false,
+   "rv": 3,
+   "match": {
+    "score": 88,
+    "have": [
+     "python",
+     "aws",
+     "machine learning",
+     "intelligence artificielle",
+     "llm",
+     "rag",
+     "anglais"
+    ],
+    "missing": [
+     "gcp"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-01T21:48:15+00:00",
+   "last_seen": "2026-11-01T21:48:15+00:00"
+  },
+  {
+   "id": "79f0258fceb1",
+   "company": "Canal Plus",
+   "title": "CDI - ai Builder H/F Canal Plus",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83289820.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "2 ans min. · junior",
+   "junior": true,
+   "published": "2026-10-12T00:07:58+00:00",
+   "seed": false,
+   "rv": 3,
+   "match": {
+    "score": 67,
+    "have": [
+     "intelligence artificielle",
+     "spécifications",
+     "business analyst",
+     "anglais"
+    ],
+    "missing": [
+     "agile",
+     "sap"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-01T21:48:03+00:00",
+   "last_seen": "2026-11-01T21:48:03+00:00"
+  },
+  {
+   "id": "e2063676fdc9",
+   "company": "SOMA",
+   "title": "Datascientist - Ai Ops H/F SOMA",
+   "url": "https://www.hellowork.com/fr-fr/emplois/71296834.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-10-15T08:36:15+00:00",
+   "seed": false,
+   "rv": 3,
+   "match": {
+    "score": 50,
+    "have": [
+     "python",
+     "sql",
+     "aws",
+     "docker",
+     "machine learning",
+     "llm",
+     "scikit-learn"
+    ],
+    "missing": [
+     "snowflake",
+     "dbt",
+     "airflow",
+     "azure",
+     "kubernetes",
+     "tensorflow",
+     "pytorch"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-01T21:47:44+00:00",
+   "last_seen": "2026-11-01T21:47:44+00:00"
+  },
+  {
+   "id": "2a78a8afbbcb",
+   "company": "Devoteam France",
+   "title": "Data Scientist - ai Engineer H/F Devoteam France",
+   "url": "https://www.hellowork.com/fr-fr/emplois/81534592.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-10-22T00:14:40+00:00",
+   "seed": false,
+   "rv": 3,
+   "match": {
+    "score": 57,
+    "have": [
+     "docker",
+     "machine learning",
+     "intelligence artificielle",
+     "business analyst"
+    ],
+    "missing": [
+     "gcp",
+     "kubernetes",
+     "prévision"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-01T21:47:23+00:00",
+   "last_seen": "2026-11-01T21:47:23+00:00"
+  },
+  {
+   "id": "c9ff7918479e",
+   "company": "KPMG",
+   "title": "Consultant Junior ai Trust H/F KPMG",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84978574.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "3 ans min. · junior",
+   "junior": true,
+   "published": "2026-10-30T12:45:05+00:00",
+   "seed": false,
+   "rv": 3,
+   "match": {
+    "score": 82,
+    "have": [
+     "aws",
+     "intelligence artificielle",
+     "qualité des données",
+     "gouvernance",
+     "ai act",
+     "conformité",
+     "kpi",
+     "business analyst",
+     "anglais"
+    ],
+    "missing": [
+     "azure",
+     "dataiku"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-01T21:46:59+00:00",
+   "last_seen": "2026-11-01T21:46:59+00:00"
+  },
+  {
+   "id": "256640b3e82d",
+   "company": "Onepoint",
+   "title": "Ai-Native Developer H/F Onepoint",
+   "url": "https://www.hellowork.com/fr-fr/emplois/80474956.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-10-24T00:10:15+00:00",
+   "seed": false,
+   "rv": 3,
+   "match": {
+    "score": 70,
+    "have": [
+     "python",
+     "docker",
+     "llm",
+     "gouvernance",
+     "spécifications",
+     "anglais",
+     "typescript"
+    ],
+    "missing": [
+     "kubernetes",
+     "catalogue",
+     "agile"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-01T21:46:50+00:00",
+   "last_seen": "2026-11-01T21:46:50+00:00"
+  },
   {
    "id": "0cd6c2c7cff6",
    "company": "Aubay",
@@ -65,7 +387,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-31T10:58:00+00:00",
-   "last_seen": "2026-11-01T18:27:03+00:00"
+   "last_seen": "2026-11-01T21:46:47+00:00"
   },
   {
    "id": "5fc6efc22fad",
@@ -99,7 +421,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-31T10:57:50+00:00",
-   "last_seen": "2026-11-01T18:27:03+00:00"
+   "last_seen": "2026-11-01T21:46:47+00:00"
   },
   {
    "id": "d9cf2064efdc",
@@ -128,7 +450,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T23:01:01+00:00",
-   "last_seen": "2026-11-01T11:52:47+00:00"
+   "last_seen": "2026-11-01T21:46:47+00:00"
   },
   {
    "id": "408015d34413",
@@ -158,7 +480,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:05:11+00:00",
-   "last_seen": "2026-11-01T18:27:03+00:00"
+   "last_seen": "2026-11-01T21:46:47+00:00"
   },
   {
    "id": "1681814ac371",
@@ -188,7 +510,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:05:09+00:00",
-   "last_seen": "2026-11-01T18:27:03+00:00"
+   "last_seen": "2026-11-01T21:46:47+00:00"
   },
   {
    "id": "4836d00096e4",
@@ -218,7 +540,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:05:03+00:00",
-   "last_seen": "2026-11-01T18:27:03+00:00"
+   "last_seen": "2026-11-01T21:46:47+00:00"
   },
   {
    "id": "731ef6e4866b",
@@ -254,7 +576,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:04:54+00:00",
-   "last_seen": "2026-11-01T18:27:03+00:00"
+   "last_seen": "2026-11-01T21:46:47+00:00"
   },
   {
    "id": "562c24864dfe",
@@ -290,7 +612,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:04:40+00:00",
-   "last_seen": "2026-11-01T18:27:03+00:00"
+   "last_seen": "2026-11-01T21:46:47+00:00"
   },
   {
    "id": "42e5b862c50d",
@@ -319,7 +641,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:04:28+00:00",
-   "last_seen": "2026-11-01T18:27:03+00:00"
+   "last_seen": "2026-11-01T21:46:47+00:00"
   },
   {
    "id": "bbf4bae9d59c",
@@ -355,7 +677,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:04:27+00:00",
-   "last_seen": "2026-11-01T18:27:03+00:00"
+   "last_seen": "2026-11-01T21:46:47+00:00"
   },
   {
    "id": "34748263bec3",
@@ -374,7 +696,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-30T19:04:21+00:00",
-   "last_seen": "2026-11-01T18:27:03+00:00"
+   "last_seen": "2026-11-01T21:46:47+00:00"
   },
   {
    "id": "f096901aa5eb",
@@ -404,7 +726,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:04:18+00:00",
-   "last_seen": "2026-11-01T18:27:03+00:00"
+   "last_seen": "2026-11-01T21:46:47+00:00"
   },
   {
    "id": "40d90c8a1f93",
@@ -465,7 +787,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:03:46+00:00",
-   "last_seen": "2026-11-01T18:27:03+00:00"
+   "last_seen": "2026-11-01T21:46:47+00:00"
   },
   {
    "id": "a5e0c80db489",
@@ -496,7 +818,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:03:44+00:00",
-   "last_seen": "2026-11-01T18:27:03+00:00"
+   "last_seen": "2026-11-01T21:46:47+00:00"
   },
   {
    "id": "849da40b493c",
@@ -515,7 +837,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-30T19:03:27+00:00",
-   "last_seen": "2026-11-01T18:27:03+00:00"
+   "last_seen": "2026-11-01T21:46:47+00:00"
   },
   {
    "id": "edc51343e774",
@@ -534,7 +856,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-30T19:03:07+00:00",
-   "last_seen": "2026-11-01T18:27:03+00:00"
+   "last_seen": "2026-11-01T21:46:47+00:00"
   },
   {
    "id": "29916257c286",
@@ -561,7 +883,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:02:49+00:00",
-   "last_seen": "2026-11-01T18:27:03+00:00"
+   "last_seen": "2026-11-01T21:46:47+00:00"
   },
   {
    "id": "2f4e3da91567",
@@ -590,7 +912,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:02:42+00:00",
-   "last_seen": "2026-11-01T18:27:03+00:00"
+   "last_seen": "2026-11-01T21:46:47+00:00"
   },
   {
    "id": "21a5bbbf5ece",
@@ -622,7 +944,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:02:26+00:00",
-   "last_seen": "2026-11-01T18:27:03+00:00"
+   "last_seen": "2026-11-01T21:46:47+00:00"
   },
   {
    "id": "5b3881dadaac",
@@ -641,7 +963,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-30T19:02:19+00:00",
-   "last_seen": "2026-11-01T18:27:03+00:00"
+   "last_seen": "2026-11-01T21:46:47+00:00"
   },
   {
    "id": "73160bd26650",
@@ -671,7 +993,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:02:07+00:00",
-   "last_seen": "2026-11-01T18:27:03+00:00"
+   "last_seen": "2026-11-01T21:46:47+00:00"
   },
   {
    "id": "e41464344282",
@@ -740,7 +1062,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:01:27+00:00",
-   "last_seen": "2026-11-01T18:27:03+00:00"
+   "last_seen": "2026-11-01T21:46:47+00:00"
   },
   {
    "id": "7adf5a795565",
@@ -769,7 +1091,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:01:17+00:00",
-   "last_seen": "2026-11-01T18:27:03+00:00"
+   "last_seen": "2026-11-01T21:46:47+00:00"
   },
   {
    "id": "8923e30827d8",
@@ -788,7 +1110,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-30T19:01:03+00:00",
-   "last_seen": "2026-11-01T18:27:03+00:00"
+   "last_seen": "2026-11-01T21:46:47+00:00"
   },
   {
    "id": "39c382d9b83c",
@@ -807,7 +1129,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-30T19:00:56+00:00",
-   "last_seen": "2026-11-01T18:27:03+00:00"
+   "last_seen": "2026-11-01T21:46:47+00:00"
   },
   {
    "id": "5ad3e638d32e",
@@ -835,7 +1157,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:00:40+00:00",
-   "last_seen": "2026-11-01T18:27:03+00:00"
+   "last_seen": "2026-11-01T21:46:47+00:00"
   },
   {
    "id": "94b13a3e9bc5",
@@ -876,7 +1198,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:00:22+00:00",
-   "last_seen": "2026-11-01T18:27:03+00:00"
+   "last_seen": "2026-11-01T21:46:47+00:00"
   },
   {
    "id": "2c5497dc19f3",
@@ -895,7 +1217,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-30T19:00:11+00:00",
-   "last_seen": "2026-11-01T18:27:03+00:00"
+   "last_seen": "2026-11-01T21:46:47+00:00"
   }
  ]
 }

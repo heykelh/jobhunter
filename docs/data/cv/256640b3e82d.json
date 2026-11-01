@@ -1,0 +1,172 @@
+{
+ "titre": "AI‑Native Developer H/F : Onepoint",
+ "profil": "Ingénieur diplômé (Bac+5, Mines Paris : PSL) avec 13 ans d’expérience au sein du groupe SNCF, spécialisé en ingénierie des données et en conception d’applications critiques. Expertise avérée en développement backend Python (FastAPI), intégration d’API et mise en place de pipelines de tests automatisés. Habitué à travailler en mode agile, à assurer la qualité du code et à collaborer avec des équipes multidisciplinaires.",
+ "competences": [
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Docker",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "TypeScript",
+    "Next.js",
+    "Plotly",
+    "Recharts"
+   ]
+  },
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio",
+    "Excel"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Conception de spécifications fonctionnelles et plan de tests pour un système de crédit, garantissant la traçabilité des exigences.",
+    "Livraison de livrables (cartographie des processus, spécifications) via un dépôt versionné, facilitant les revues de code."
+   ]
+  },
+  {
+   "id": "customer-experience",
+   "titre": "Customer Experience Intelligence : analyse et dataviz",
+   "stack": "Python, Power BI",
+   "lien": "github.com/heykelh/customer-experience-intelligence",
+   "tags": [
+    "client",
+    "clients",
+    "expérience client",
+    "marketing",
+    "kpi",
+    "dashboard",
+    "tableau de bord",
+    "power bi",
+    "reporting",
+    "analyse",
+    "satisfaction",
+    "parcours"
+   ],
+   "puces": [
+    "Analyse exploratoire des données clients et création de tableaux de bord interactifs Power BI pour le pilotage métier.",
+    "Définition d’indicateurs de performance et mise en place de visualisations facilitant la prise de décision."
+   ]
+  },
+  {
+   "id": "prisme",
+   "titre": "PRISME : copilote d'audit AI Act",
+   "stack": "Python, FastAPI, RAG, Supabase (pgvector), Groq",
+   "lien": "",
+   "tags": [
+    "ai act",
+    "audit",
+    "conformité",
+    "ia",
+    "intelligence artificielle",
+    "rag",
+    "llm",
+    "réglementaire",
+    "api"
+   ],
+   "puces": [
+    "Développement d’une API FastAPI d’aide à l’audit AI Act, incluant recherche RAG dans les textes réglementaires.",
+    "Déploiement sur Render avec stockage vectoriel pgvector, assurant la scalabilité et la sécurité des accès."
+   ]
+  },
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Simulation d’une mission d’inspection data sur le risque de crédit, incluant cadrage, investigations SQL et reporting.",
+    "Construction d’un moteur de contrôles qualité SQL et d’un registre de constats pour la restitution aux parties prenantes."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "kubernetes",
+  "catalogue",
+  "agile"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "256640b3e82d",
+ "entreprise": "Onepoint",
+ "intitule_offre": "Ai-Native Developer H/F Onepoint",
+ "url_offre": "https://www.hellowork.com/fr-fr/emplois/80474956.html",
+ "genere_le": "2026-11-01T21:46:53+00:00"
+}

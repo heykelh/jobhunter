@@ -1,0 +1,173 @@
+{
+ "titre": "Consultant Junior AI Trust : KPMG",
+ "profil": "Data engineer avec 13 ans d’expérience au sein du Groupe SNCF, spécialisé dans les environnements à forts enjeux de sécurité. Titulaire d’un Master Data Engineer / Data Product Manager (Mines Paris : PSL) et habitué à piloter la gouvernance et la conformité des données. Expérience avérée dans la conduite de projets d’audit, de diagnostic de maturité et de mise en conformité avec des référentiels réglementaires.",
+ "competences": [
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "AI Act",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "AWS",
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Excel",
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Participation à une mission d’inspection des flux de données de crédit, incluant cadrage, investigations et restitution sous forme de rapports d’évaluation.",
+    "Conception d’un moteur de contrôles qualité SQL et d’un registre de constats, permettant de cartographier les risques liés aux données."
+   ]
+  },
+  {
+   "id": "frontierbank",
+   "titre": "FrontierBank : gouvernance des données d'une banque fictive",
+   "stack": "BCBS 239, DAMA-DMBOK, AI Act, Power BI",
+   "lien": "frontierbank-data.vercel.app",
+   "tags": [
+    "gouvernance",
+    "governance",
+    "steward",
+    "qualité",
+    "quality",
+    "bcbs",
+    "dama",
+    "lignage",
+    "lineage",
+    "banque",
+    "bancaire",
+    "risque",
+    "réglementaire",
+    "conformité",
+    "raci",
+    "référentiel",
+    "métadonnées"
+   ],
+   "puces": [
+    "Conseil en gouvernance des données avec diagnostic BCBS 239 et cadre DAMA‑DMBOK, aboutissant à une matrice RACI et à un lignage complet.",
+    "Élaboration de tableaux de bord Power BI pour suivre la qualité des données et cartographier les usages soumis à l’AI Act."
+   ]
+  },
+  {
+   "id": "prisme",
+   "titre": "PRISME : copilote d'audit AI Act",
+   "stack": "Python, FastAPI, RAG, Supabase (pgvector), Groq",
+   "lien": "",
+   "tags": [
+    "ai act",
+    "audit",
+    "conformité",
+    "ia",
+    "intelligence artificielle",
+    "rag",
+    "llm",
+    "réglementaire",
+    "api"
+   ],
+   "puces": [
+    "Développement d’une API d’aide à l’audit AI Act, intégrant recherche RAG dans les textes réglementaires et grille de qualification des systèmes d’IA.",
+    "Mise en place d’un backend FastAPI déployé sur Render avec stockage vectoriel pgvector pour soutenir le monitoring des risques IA."
+   ]
+  },
+  {
+   "id": "regard",
+   "titre": "REGARD : copilote de conformité bancaire",
+   "stack": "LangGraph.js, Groq, Supabase (pgvector), Langfuse",
+   "lien": "regard-wine.vercel.app",
+   "tags": [
+    "conformité",
+    "compliance",
+    "banque",
+    "bancaire",
+    "réglementaire",
+    "lcb-ft",
+    "kyc",
+    "ia",
+    "llm",
+    "rag",
+    "risque"
+   ],
+   "puces": [
+    "Création d’un copilote d’analyse de conformité bancaire où les contrôles sont codés en règles et l’IA génère uniquement les synthèses.",
+    "Validation de 28 cas de test de référence et suivi des appels via Langfuse, assurant la traçabilité des contrôles IA."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "azure",
+  "dataiku"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "c9ff7918479e",
+ "entreprise": "KPMG",
+ "intitule_offre": "Consultant Junior ai Trust H/F KPMG",
+ "url_offre": "https://www.hellowork.com/fr-fr/emplois/84978574.html",
+ "genere_le": "2026-11-01T21:47:03+00:00"
+}

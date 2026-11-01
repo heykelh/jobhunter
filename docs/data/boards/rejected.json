@@ -1,6 +1,654 @@
 {
- "updated": "2026-11-01T18:27:03+00:00",
+ "updated": "2026-11-01T21:49:25+00:00",
  "items": [
+  {
+   "id": "83656aa6ce45",
+   "company": "HelloWork",
+   "title": "Chef de Projet IA Générative - Adoption IA H/F GRDF",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84567478.html",
+   "reason": "expérience demandée ≥ 5 ans « , vous justifiez d'une experience d'au moins 5 ans dans le developpement et »",
+   "at": "2026-11-01T21:49:25+00:00"
+  },
+  {
+   "id": "3acfeb059b5a",
+   "company": "HelloWork",
+   "title": "Principal IA Engineer H/F Team.is",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85015584.html",
+   "reason": "titre exclu (principal)",
+   "at": "2026-11-01T21:49:25+00:00"
+  },
+  {
+   "id": "1cfbede66ca0",
+   "company": "HelloWork",
+   "title": "Expert Cyber - IA H/F néosoft",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83864090.html",
+   "reason": "titre exclu (expert)",
+   "at": "2026-11-01T21:49:25+00:00"
+  },
+  {
+   "id": "1352576f932a",
+   "company": "HelloWork",
+   "title": "Architecte Logiciel IA H/F CEA",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84581645.html",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-01T21:49:25+00:00"
+  },
+  {
+   "id": "9434664aa1d7",
+   "company": "HelloWork",
+   "title": "Support Lead IA H/F Storm Group",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84789665.html",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-01T21:49:25+00:00"
+  },
+  {
+   "id": "f6a42b3aebe5",
+   "company": "HelloWork",
+   "title": "Architecte IA - Senior Datascientist - IA Générative H/F Onepoint",
+   "url": "https://www.hellowork.com/fr-fr/emplois/76925634.html",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-01T21:49:25+00:00"
+  },
+  {
+   "id": "7e251671f008",
+   "company": "HelloWork",
+   "title": "Tech Lead IA H/F Alveor",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84557263.html",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-01T21:49:25+00:00"
+  },
+  {
+   "id": "b59205c37f90",
+   "company": "HelloWork",
+   "title": "Architecte Solutions IA H/F Onepoint",
+   "url": "https://www.hellowork.com/fr-fr/emplois/76926244.html",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-01T21:49:25+00:00"
+  },
+  {
+   "id": "86277e5fd148",
+   "company": "HelloWork",
+   "title": "Coordinateur Industrialisation IA Produit H/F MBDA",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82801294.html",
+   "reason": "titre exclu (coordinateur)",
+   "at": "2026-11-01T21:49:25+00:00"
+  },
+  {
+   "id": "b6a597ddf372",
+   "company": "HelloWork",
+   "title": "Architecte Cloud & IA - Agentique H/F Devoteam France",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83860613.html",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-01T21:49:25+00:00"
+  },
+  {
+   "id": "c870db6d9891",
+   "company": "HelloWork",
+   "title": "Lead Tech IA et Automatisation H/F ABEILLE ASSURANCES",
+   "url": "https://www.hellowork.com/fr-fr/emplois/79623403.html",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-01T21:49:25+00:00"
+  },
+  {
+   "id": "0b7992314967",
+   "company": "HelloWork",
+   "title": "Product Manager - IA Agentique H/F Meilleurtaux",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83736819.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-01T21:49:25+00:00"
+  },
+  {
+   "id": "b94bcdbda95e",
+   "company": "HelloWork",
+   "title": "Architecte Sécurité Applicative & IA H/F Capgemini",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84805542.html",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-01T21:49:25+00:00"
+  },
+  {
+   "id": "5c0ff94474bd",
+   "company": "HelloWork",
+   "title": "Lead IA Engineer H/F Team.is",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84611356.html",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-01T21:49:25+00:00"
+  },
+  {
+   "id": "caf3ecc52c01",
+   "company": "HelloWork",
+   "title": "Business Analyst IA Générative & IA Agentique - Assurance H/F Storm Group",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84866582.html",
+   "reason": "expérience demandée ≥ 3 ans « ion, data ou equivalent, vous disposez d'une experience confirmee en business analysis, am »",
+   "at": "2026-11-01T21:49:23+00:00"
+  },
+  {
+   "id": "6c5b8a818084",
+   "company": "HelloWork",
+   "title": "Responsable Business Unit IA H/F Nyou",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83929082.html",
+   "reason": "expérience demandée ≥ 8 ans « cherchecompetences clesexperience confirmee (8-15 ans) en management d'equipe »",
+   "at": "2026-11-01T21:49:22+00:00"
+  },
+  {
+   "id": "ba630a829bb0",
+   "company": "HelloWork",
+   "title": "Chef de Projet IA H/F Storm Group",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84789677.html",
+   "reason": "expérience demandée ≥ 5 ans « : tu justifies d'une experience confirmee de 5 a 8 ans en gestion de projets it »",
+   "at": "2026-11-01T21:49:20+00:00"
+  },
+  {
+   "id": "4817f46f9c98",
+   "company": "HelloWork",
+   "title": "Data Scientist IA H/F Storm Group",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84789583.html",
+   "reason": "expérience demandée ≥ 3 ans « : tu justifies d'une experience confirmee de 3 a 5 ans en data science et machi »",
+   "at": "2026-11-01T21:49:18+00:00"
+  },
+  {
+   "id": "7771ac635a30",
+   "company": "HelloWork",
+   "title": "Data Engineer IA H/F Storm Group",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84789666.html",
+   "reason": "expérience demandée ≥ 3 ans « : tu justifies d'une experience confirmee de 3 a 5 ans en data engineering en e »",
+   "at": "2026-11-01T21:49:17+00:00"
+  },
+  {
+   "id": "4d04d5b4d5e4",
+   "company": "HelloWork",
+   "title": "Data Engineer IA H/F Storm Group",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84789694.html",
+   "reason": "expérience demandée ≥ 3 ans « : tu justifies d'une experience confirmee de 3 a 5 ans en data engineering en e »",
+   "at": "2026-11-01T21:49:16+00:00"
+  },
+  {
+   "id": "f323faa110df",
+   "company": "HelloWork",
+   "title": "Docteur IA H/F Akkodis",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84566497.html",
+   "reason": "expérience demandée ≥ 5 ans « 'un diplome d'ingenieur bac +5 avec au moins 5 ans d'experience dans le dom »",
+   "at": "2026-11-01T21:49:14+00:00"
+  },
+  {
+   "id": "6f01170ea368",
+   "company": "HelloWork",
+   "title": "Architecte Sécurité IA H/F Storm Group",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84789634.html",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-01T21:49:14+00:00"
+  },
+  {
+   "id": "c530165db65d",
+   "company": "HelloWork",
+   "title": "Responsable Data et IA H/F TK Elevator France",
+   "url": "https://www.hellowork.com/fr-fr/emplois/81792026.html",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « Exp. 3 à 6 ans »",
+   "at": "2026-11-01T21:49:13+00:00"
+  },
+  {
+   "id": "b103b8ec8351",
+   "company": "HelloWork",
+   "title": "Directeur de Projet IA H/F Open",
+   "url": "https://www.hellowork.com/fr-fr/emplois/65818431.html",
+   "reason": "titre exclu (directeur)",
+   "at": "2026-11-01T21:49:13+00:00"
+  },
+  {
+   "id": "3a3f65a59672",
+   "company": "HelloWork",
+   "title": "Knowledge Manager IA H/F Fortuneo",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84861650.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-01T21:49:12+00:00"
+  },
+  {
+   "id": "67432fa286bf",
+   "company": "HelloWork",
+   "title": "Architecte Infrastructure IA H/F Accenture France",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83981943.html",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-01T21:49:12+00:00"
+  },
+  {
+   "id": "3387fabb4cb6",
+   "company": "HelloWork",
+   "title": "Responsable Transformation IA H/F Hymaïa",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84997634.html",
+   "reason": "expérience demandée ≥ 5 ans « n actionnables le profil recherche experience5+ ans en conseil ou en role de »",
+   "at": "2026-11-01T21:49:04+00:00"
+  },
+  {
+   "id": "a50d61df3a22",
+   "company": "HelloWork",
+   "title": "Consultant IA H/F Cegos",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83605048.html",
+   "reason": "expérience demandée ≥ 8 ans « ; vous justifiez d'une experience d'au moins 8 ans dans la conception et le »",
+   "at": "2026-11-01T21:49:02+00:00"
+  },
+  {
+   "id": "75cc555a652b",
+   "company": "HelloWork",
+   "title": "Responsable IA H/F ABEILLE ASSURANCES",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84727772.html",
+   "reason": "expérience demandée ≥ 10 ans « erieure bac +5, vous justifiez idealement de 10 a 15 ans d'experience en transfor »",
+   "at": "2026-11-01T21:49:01+00:00"
+  },
+  {
+   "id": "296baf11a7bd",
+   "company": "HelloWork",
+   "title": "Product Manager IA H/F Le Groupe Septeo",
+   "url": "https://www.hellowork.com/fr-fr/emplois/80739991.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-01T21:49:01+00:00"
+  },
+  {
+   "id": "a022470a20c9",
+   "company": "HelloWork",
+   "title": "Formateur IA - Change Manager IA H/F Storm Group",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84789683.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-01T21:48:59+00:00"
+  },
+  {
+   "id": "4e35cec01fae",
+   "company": "HelloWork",
+   "title": "Coordinateur IA H/F Exail",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83952119.html",
+   "reason": "titre exclu (coordinateur)",
+   "at": "2026-11-01T21:48:59+00:00"
+  },
+  {
+   "id": "07e95d851e9e",
+   "company": "HelloWork",
+   "title": "Coach IA H/F Storm Group",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84789616.html",
+   "reason": "expérience demandée ≥ 3 ans « : tu justifies d'une experience confirmee de 3 a 5 ans en developpement logicie »",
+   "at": "2026-11-01T21:48:59+00:00"
+  },
+  {
+   "id": "0c98f20129e8",
+   "company": "HelloWork",
+   "title": "Digital Innovation Scout & ai Builder H/F Servier",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83494827.html",
+   "reason": "expérience demandée ≥ 4 ans « apis et nouveaux usages digitaux en sante. - plus de 3 ans d'experience dans l'indu »",
+   "at": "2026-11-01T21:48:45+00:00"
+  },
+  {
+   "id": "dd15f13bb239",
+   "company": "HelloWork",
+   "title": "Finance Data & ai Transformation H/F Safran",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84336482.html",
+   "reason": "expérience demandée ≥ 8 ans « t.vous justifiez d'une experience d'au moins 8 ans dans un ou plusieurs des »",
+   "at": "2026-11-01T21:48:44+00:00"
+  },
+  {
+   "id": "a27da694364a",
+   "company": "HelloWork",
+   "title": "Senior Ml - ai Engineer - Team Data H/F Winamax",
+   "url": "https://www.hellowork.com/fr-fr/emplois/80652919.html",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-01T21:48:44+00:00"
+  },
+  {
+   "id": "90e6561de427",
+   "company": "HelloWork",
+   "title": "Agentic ai Data Migration Lead H/F Accenture France",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83450418.html",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-01T21:48:44+00:00"
+  },
+  {
+   "id": "86ec8f929102",
+   "company": "HelloWork",
+   "title": "Analytics Engineer Data & ai Senior - CDI H/F Talan",
+   "url": "https://www.hellowork.com/fr-fr/emplois/81707513.html",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-01T21:48:44+00:00"
+  },
+  {
+   "id": "69a642de8f37",
+   "company": "HelloWork",
+   "title": "Senior ai Solution Architect & Builder F-M-D H/F Bureau Veritas",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83383674.html",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-01T21:48:42+00:00"
+  },
+  {
+   "id": "90a5e007cc10",
+   "company": "HelloWork",
+   "title": "Consultant Agentic ai - Framework Adk H/F Inetum",
+   "url": "https://www.hellowork.com/fr-fr/emplois/81431433.html",
+   "reason": "expérience demandée ≥ 5 ans « ce sur adk et l'ecosysteme google.confirme (+5ans d'experience) : tu as de »",
+   "at": "2026-11-01T21:48:42+00:00"
+  },
+  {
+   "id": "9b06d38126a5",
+   "company": "HelloWork",
+   "title": "Site Reliability Engineer & ai Sre H/F Devoteam France",
+   "url": "https://www.hellowork.com/fr-fr/emplois/81535049.html",
+   "reason": "expérience demandée ≥ 5 ans « c +5 en informatique (ou equivalent).minimum 5 ans d'experience globale sur »",
+   "at": "2026-11-01T21:48:33+00:00"
+  },
+  {
+   "id": "39e4de0b1604",
+   "company": "HelloWork",
+   "title": "Lead Adoption & Valorisation Data & ai H/F Paprec",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84578866.html",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-01T21:48:33+00:00"
+  },
+  {
+   "id": "993de8f506e4",
+   "company": "HelloWork",
+   "title": "Architecte Google Cloud Platform & Agentic ai H/F Devoteam France",
+   "url": "https://www.hellowork.com/fr-fr/emplois/81534790.html",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-01T21:48:33+00:00"
+  },
+  {
+   "id": "c3ea5f4f2e5b",
+   "company": "HelloWork",
+   "title": "Architecte - Expert Openshift ai & MLOps Infrastructure H/F FINEISEL RECRUTEMENT",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84953351.html",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-01T21:48:33+00:00"
+  },
+  {
+   "id": "7fc5ad75cb49",
+   "company": "HelloWork",
+   "title": "Infrastructure ai Specialist H/F Accenture France",
+   "url": "https://www.hellowork.com/fr-fr/emplois/81133147.html",
+   "reason": "expérience demandée ≥ 4 ans « profilcompetences requisesvous avez au moins 4 ans d'experience dans le dom »",
+   "at": "2026-11-01T21:48:20+00:00"
+  },
+  {
+   "id": "7924f5b21796",
+   "company": "HelloWork",
+   "title": "Tech Lead .Net & ai Augmented Delivery H/F Luminari Group",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84974954.html",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-01T21:48:20+00:00"
+  },
+  {
+   "id": "4c6a6bc1235a",
+   "company": "HelloWork",
+   "title": "Ingénieur ai H/F ALTEN",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84127691.html",
+   "reason": "expérience demandée ≥ 6 ans « tique, data, ia ou equivalent).experience de 6 ans en ia / plateformes ai ( »",
+   "at": "2026-11-01T21:48:19+00:00"
+  },
+  {
+   "id": "326e1c101f5f",
+   "company": "HelloWork",
+   "title": "CDI - ai Product Manager Finance H/F Canal Plus",
+   "url": "https://www.hellowork.com/fr-fr/emplois/81431627.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-01T21:48:19+00:00"
+  },
+  {
+   "id": "51800d223328",
+   "company": "HelloWork",
+   "title": "Consultant Technique Confirmé ai H/F Inetum",
+   "url": "https://www.hellowork.com/fr-fr/emplois/80073441.html",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-01T21:48:19+00:00"
+  },
+  {
+   "id": "574a0dd45a6a",
+   "company": "HelloWork",
+   "title": "Responsable Data & ai H/F Alveor",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84252430.html",
+   "reason": "expérience demandée ≥ 3 ans « es. le profil recherche vous justifiez d'une experience confirmee en data / bi, avec une s »",
+   "at": "2026-11-01T21:48:12+00:00"
+  },
+  {
+   "id": "f8a5698ba001",
+   "company": "HelloWork",
+   "title": "Red Teamer - ai Security Engineer H/F Storm Group",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84789695.html",
+   "reason": "expérience demandée ≥ 3 ans « : tu justifies d'une experience confirmee de 3 a 5 ans en securite offensive (p »",
+   "at": "2026-11-01T21:48:11+00:00"
+  },
+  {
+   "id": "65b62983ab22",
+   "company": "HelloWork",
+   "title": "Product Owner - Engie ai Studio H/F ENGIE",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84796299.html",
+   "reason": "expérience demandée ≥ 5 ans « ieurs, de commerce ou de management. - entre 5 et 7 ans d'experience en product »",
+   "at": "2026-11-01T21:48:09+00:00"
+  },
+  {
+   "id": "50bd9c70c9d7",
+   "company": "HelloWork",
+   "title": "Postdoctoral Researcher - Cheminformatics Dels & ai F - m H/F Servier",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84974459.html",
+   "reason": "expérience demandée ≥ 3 ans « rie pharmaceutique • biotechn. • chimie exp. 3 a 5 ans lire dans l'app detail d »",
+   "at": "2026-11-01T21:47:48+00:00"
+  },
+  {
+   "id": "cd604c851889",
+   "company": "HelloWork",
+   "title": "Senior ai Native Software Engineer H/F Accenture France",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83657772.html",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-01T21:47:48+00:00"
+  },
+  {
+   "id": "bd966ddf1b8f",
+   "company": "HelloWork",
+   "title": "CDI - Team Leader ai Platform H/F Canal Plus",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84677038.html",
+   "reason": "titre exclu (leader)",
+   "at": "2026-11-01T21:47:48+00:00"
+  },
+  {
+   "id": "897bf49a040c",
+   "company": "HelloWork",
+   "title": "Data & ai Lead - Principal Architect H/F Team.is",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84967585.html",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-01T21:47:48+00:00"
+  },
+  {
+   "id": "24bc52facf93",
+   "company": "HelloWork",
+   "title": "Applied Gen ai Engineer H/F Devoteam France",
+   "url": "https://www.hellowork.com/fr-fr/emplois/81534621.html",
+   "reason": "expérience demandée ≥ 3 ans « ience du terrain : vous justifiez de minimum 3 a 4 ans d'experience en developp »",
+   "at": "2026-11-01T21:47:47+00:00"
+  },
+  {
+   "id": "383c1a556219",
+   "company": "HelloWork",
+   "title": "Data & ai Product Designer & Architect H/F Onepoint",
+   "url": "https://www.hellowork.com/fr-fr/emplois/79396869.html",
+   "reason": "titre exclu (architect)",
+   "at": "2026-11-01T21:47:47+00:00"
+  },
+  {
+   "id": "12b0a27f8f2f",
+   "company": "HelloWork",
+   "title": "Key Account Manager ai Mod H/F Team.is",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84611373.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-01T21:47:47+00:00"
+  },
+  {
+   "id": "603d82e5c25d",
+   "company": "HelloWork",
+   "title": "Engineering Manager - ai Modernisation H/F Team.is",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84611364.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-01T21:47:47+00:00"
+  },
+  {
+   "id": "714008f4afb1",
+   "company": "HelloWork",
+   "title": "Practice Manager Ai-Powered Engineering H/F Seequalis",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83886512.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-01T21:47:47+00:00"
+  },
+  {
+   "id": "26abf1c12873",
+   "company": "HelloWork",
+   "title": "Architecte Data & ai Senior - CDI H/F Talan",
+   "url": "https://www.hellowork.com/fr-fr/emplois/81707515.html",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-01T21:47:46+00:00"
+  },
+  {
+   "id": "bf08c4392c14",
+   "company": "HelloWork",
+   "title": "Sales Director - Artificial Intelligence Ai H/F Approach People Recruitment",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83483015.html",
+   "reason": "titre exclu (director)",
+   "at": "2026-11-01T21:47:46+00:00"
+  },
+  {
+   "id": "f603fc0c63b8",
+   "company": "HelloWork",
+   "title": "Consultant Data & ai Transformation H/F Onepoint",
+   "url": "https://www.hellowork.com/fr-fr/emplois/76926977.html",
+   "reason": "expérience demandée ≥ 3 ans « uhaitez developper : - vous beneficiez d'une experience significative dans le conseil, sur des »",
+   "at": "2026-11-01T21:47:30+00:00"
+  },
+  {
+   "id": "dcb6fc1f2f73",
+   "company": "HelloWork",
+   "title": "Software Engineer - ai Security H/F Bureau des Talents",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84620677.html",
+   "reason": "expérience demandée ≥ 5 ans « le profil recherche * experience d'au moins 5 ans en developpement logicie »",
+   "at": "2026-11-01T21:47:28+00:00"
+  },
+  {
+   "id": "6845e24152ec",
+   "company": "HelloWork",
+   "title": "Consultant Manager ai Trust H/F KPMG",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84662037.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-01T21:47:28+00:00"
+  },
+  {
+   "id": "1e385815ee2e",
+   "company": "HelloWork",
+   "title": "Software Engineer Python - ai H/F Bureau des Talents",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84703687.html",
+   "reason": "expérience demandée ≥ 4 ans « formatique (bac +5 ou equivalent). * minimum 4 ans d'experience en developp »",
+   "at": "2026-11-01T21:47:27+00:00"
+  },
+  {
+   "id": "198b69e8e3e6",
+   "company": "HelloWork",
+   "title": "Associate ai Strategy H/F Alveor",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84557241.html",
+   "reason": "expérience demandée ≥ 4 ans « n equivalente.- vous justifiez au minimum de 4 ans d'experience en cabinet »",
+   "at": "2026-11-01T21:46:56+00:00"
+  },
+  {
+   "id": "deb6638aa304",
+   "company": "HelloWork",
+   "title": "Developpeur Back-End Ai - Llm H/F Le Groupe Septeo",
+   "url": "https://www.hellowork.com/fr-fr/emplois/79663504.html",
+   "reason": "expérience demandée ≥ 3 ans « ops) le profil recherche vous disposez d'une solide experience en developpement backend »",
+   "at": "2026-11-01T21:46:55+00:00"
+  },
+  {
+   "id": "99ee1ee8e615",
+   "company": "HelloWork",
+   "title": "Leader ai Strategy H/F Alveor",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84557277.html",
+   "reason": "titre exclu (leader)",
+   "at": "2026-11-01T21:46:55+00:00"
+  },
+  {
+   "id": "c71774623196",
+   "company": "HelloWork",
+   "title": "Architect ai Generative H/F Devoteam France",
+   "url": "https://www.hellowork.com/fr-fr/emplois/81534678.html",
+   "reason": "titre exclu (architect)",
+   "at": "2026-11-01T21:46:53+00:00"
+  },
+  {
+   "id": "1535300406b0",
+   "company": "HelloWork",
+   "title": "Architect - Agentic ai H/F Talan",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84659443.html",
+   "reason": "titre exclu (architect)",
+   "at": "2026-11-01T21:46:53+00:00"
+  },
+  {
+   "id": "05669f59926c",
+   "company": "HelloWork",
+   "title": "Senior ai Solution Architect H/F Akkodis",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84791605.html",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-01T21:46:53+00:00"
+  },
+  {
+   "id": "0a5871a2fdb3",
+   "company": "HelloWork",
+   "title": "Responsable de Projets Gen-Ai H/F MBDA",
+   "url": "https://www.hellowork.com/fr-fr/emplois/80626639.html",
+   "reason": "expérience demandée ≥ 6 ans « nologies, vous justifiez d'une experience de 6 ans minimum dans le pilotage »",
+   "at": "2026-11-01T21:46:53+00:00"
+  },
+  {
+   "id": "ecce7e4926c8",
+   "company": "HelloWork",
+   "title": "Partner Manager ai H/F Capgemini",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84575424.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-01T21:46:53+00:00"
+  },
+  {
+   "id": "5fd7ad26020c",
+   "company": "HelloWork",
+   "title": "Solution Architect ai H/F Team.is",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84867501.html",
+   "reason": "titre exclu (architect)",
+   "at": "2026-11-01T21:46:47+00:00"
+  },
+  {
+   "id": "18bf99918700",
+   "company": "HelloWork",
+   "title": "Architecte Data & ai H/F Atos",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84778602.html",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-01T21:46:47+00:00"
+  },
+  {
+   "id": "0a8c205d4553",
+   "company": "HelloWork",
+   "title": "Lead ai Engineer - ai Adoption & Sdd Coach H/F Talan",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82804104.html",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-01T21:46:47+00:00"
+  },
+  {
+   "id": "a957f2107d25",
+   "company": "HelloWork",
+   "title": "Lead ai Engineer H/F Direct Assurance",
+   "url": "https://www.hellowork.com/fr-fr/emplois/77316062.html",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-01T21:46:47+00:00"
+  },
+  {
+   "id": "4479b7113366",
+   "company": "HelloWork",
+   "title": "Senior ai Architect H/F Team.is",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84970315.html",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-01T21:46:47+00:00"
+  },
+  {
+   "id": "1465b18af6ac",
+   "company": "HelloWork",
+   "title": "Tech Lead ai H/F Onepoint",
+   "url": "https://www.hellowork.com/fr-fr/emplois/76925053.html",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-01T21:46:47+00:00"
+  },
   {
    "id": "8134d48fc3e9",
    "company": "HelloWork",
