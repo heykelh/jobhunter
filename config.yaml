@@ -14,6 +14,8 @@ site_url: "https://jobhunter-docs.vercel.app/"
 keywords:
   - data
   - analyst
+  - ai
+  - ia
 
 # Titres écartés d'office (seniorité, stages, alternances…)
 exclude_title:
