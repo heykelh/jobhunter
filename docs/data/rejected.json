@@ -1,6 +1,174 @@
 {
- "updated": "2026-10-31T23:27:38+00:00",
+ "updated": "2026-11-01T11:22:06+00:00",
  "items": [
+  {
+   "id": "18f4e4ab467b",
+   "company": "jobup.ch",
+   "title": "Sr Business System Analyst",
+   "url": "https://www.jobup.ch/fr/emplois/detail/5a4676ce-553b-4101-8a9d-4c70e60c864c/",
+   "reason": "titre exclu (sr)",
+   "at": "2026-11-01T11:20:27+00:00"
+  },
+  {
+   "id": "6f5b6e9b75d0",
+   "company": "jobup.ch",
+   "title": "Stagiaire Data Analyst - Supply Chain & Logistics",
+   "url": "https://www.jobup.ch/fr/emplois/detail/4a20fd4b-cfcd-46a0-92bb-dd201d02247d/",
+   "reason": "titre exclu (stagiaire)",
+   "at": "2026-11-01T11:20:19+00:00"
+  },
+  {
+   "id": "b7841cf9c073",
+   "company": "jobup.ch",
+   "title": "Senior Consultant - Consulting - Data Management & Governance",
+   "url": "https://www.jobup.ch/fr/emplois/detail/2a950003-8f6c-4b18-b933-614228140b99/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-01T11:20:19+00:00"
+  },
+  {
+   "id": "5bbabd311be7",
+   "company": "jobs.ch",
+   "title": "Global Logistics Analyst",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/3ffe5b78-e723-417c-8a96-5b50f09fdc5d/",
+   "reason": "expérience demandée ≥ 5 ans « plome en logistique ou domaine connexe, avec 5 ans d'experience. competence »",
+   "at": "2026-11-01T11:19:47+00:00"
+  },
+  {
+   "id": "146d59bd1742",
+   "company": "jobs.ch",
+   "title": "Senior Cyber Security Analyst",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/de5248f3-b869-45bf-9d90-f773eab41089/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-01T11:19:47+00:00"
+  },
+  {
+   "id": "cb2e2f265506",
+   "company": "jobs.ch",
+   "title": "Data Engineer (a), 80-100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/0791dd62-f664-4d73-9041-5547611a54a0/",
+   "reason": "expérience demandée ≥ 6 ans « ologies de l'information ou domaine connexe. plus de 5 ans d'experience pratique da »",
+   "at": "2026-11-01T11:19:37+00:00"
+  },
+  {
+   "id": "614cff435224",
+   "company": "jobs.ch",
+   "title": "Data Engineer (m/w/d) 100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/dbb37a89-e3c2-4d96-b2bc-6e4833ed4285/",
+   "reason": "expérience demandée ≥ 3 ans « e production avec plusieurs systemes sources solide experience en conception et modelis »",
+   "at": "2026-11-01T11:19:35+00:00"
+  },
+  {
+   "id": "47baafa6c36e",
+   "company": "jobs.ch",
+   "title": "Data & AI Principal Consultant (a)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/ed64991e-8eb3-4191-a35d-15b4d86a4127/",
+   "reason": "titre exclu (principal)",
+   "at": "2026-11-01T11:19:35+00:00"
+  },
+  {
+   "id": "bbaec9ca39ea",
+   "company": "jobs.ch",
+   "title": "Lead Data Engineer mit Architekturverantwortung",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/036d7cc6-2c44-4595-9dcd-c8d101cee0ec/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-01T11:19:35+00:00"
+  },
+  {
+   "id": "395ca9eba7e9",
+   "company": "jobs.ch",
+   "title": "SAP Data Manager 100 % (w/m/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/21a5c892-6c3c-4d87-a40f-9ecd7573369f/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-01T11:19:35+00:00"
+  },
+  {
+   "id": "b8fd63992318",
+   "company": "jobs.ch",
+   "title": "Lead Integration & Data Architect 80-100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/0aeb3b11-ed88-4972-a158-f4dce426526e/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-01T11:19:35+00:00"
+  },
+  {
+   "id": "951fcd7aa816",
+   "company": "jobs.ch",
+   "title": "PI Server Data Historian Engineer - Sisslerfeld Site Development (a) 100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/fd1b0037-4912-4f8c-b422-b8c5ec224bbf/",
+   "reason": "expérience demandée ≥ 3 ans « que, automatisation ou formation equivalente experience de plusieurs annees avec le systeme osisoft »",
+   "at": "2026-11-01T11:19:34+00:00"
+  },
+  {
+   "id": "08f18c720ced",
+   "company": "Crédit Agricole",
+   "title": "Analyste Support IT Pré-Trade H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-support-it-pre-trade-hf-reference--2026-116571--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-01T11:16:03+00:00"
+  },
+  {
+   "id": "20f451ce2bd5",
+   "company": "Crédit Agricole",
+   "title": "Analyste IT Fixed Income H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-it-fixed-income-hf-reference--2026-116578--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-01T11:16:01+00:00"
+  },
+  {
+   "id": "34cfbf1b64ce",
+   "company": "Crédit Agricole",
+   "title": "Sectors & Advisory Analyst H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-sectors-et-advisory-analyst-hf-reference--2026-116735--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-01T11:16:00+00:00"
+  },
+  {
+   "id": "4d944a4cd2e3",
+   "company": "Crédit Agricole",
+   "title": "Analyste Résultat, Risques de Marché et Liquidité périmètre Trésorerie H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170470-4-analyste-resultat-risques-de-marche-et-liquidite-perimetre-tresorerie-hf-reference--2026-112937--/",
+   "reason": "expérience demandée ≥ 3 ans « ns 2-3 ans d'experience en finance de marche niveau d'experience minimum 3 - 5 ans competences recherchees com » (retirée)",
+   "at": "2026-11-01T11:15:58+00:00"
+  },
+  {
+   "id": "acb285a51f89",
+   "company": "Crédit Agricole",
+   "title": "Analyste Risk Management ALM (liquidité, taux et change) H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170470-4-analyste-risk-management-alm-liquidite-taux-et-change-hf-reference--2026-112346--/",
+   "reason": "expérience demandée ≥ 5 ans « alisation en finance de marche ou equivalent experience souhaitee de minimum 5 ans dans des fonctions alm ou e » (retirée)",
+   "at": "2026-11-01T11:15:57+00:00"
+  },
+  {
+   "id": "0f606276aefd",
+   "company": "Crédit Agricole",
+   "title": "CDD - Data Officer (Static Data) H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/578-170479-136-cdd---data-officer-static-data-hf-reference--2026-109914--/",
+   "reason": "expérience demandée ≥ 3 ans « une connaissance des providers sont un plus. niveau d'experience minimum 3 - 5 ans competences recherchees - u » (retirée)",
+   "at": "2026-11-01T11:15:55+00:00"
+  },
+  {
+   "id": "05ab29474445",
+   "company": "Crédit Agricole",
+   "title": "Financements LBO & TMT - Analyste risque de crédit et de portefeuille H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170470-4-financements-lbo-et-tmt---analyste-risque-de-credit-et-de-portefeuille-hf-reference--2026-109973--/",
+   "reason": "expérience demandée ≥ 3 ans « es et / ou sectorielles tmt seraient un plus niveau d'experience minimum 3 - 5 ans competences recherchees com » (retirée)",
+   "at": "2026-11-01T11:15:54+00:00"
+  },
+  {
+   "id": "adef78330c82",
+   "company": "Alstom",
+   "title": "Analyst - End User Computing",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Analyst-End-User-Computing-KA/1392119533/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-01T11:14:04+00:00"
+  },
+  {
+   "id": "e6982ca09448",
+   "company": "Alstom",
+   "title": "Senior Analyst - FP&A IS&T",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Senior-Analyst-FP&A-IS&T-KA/1440365333/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-01T11:14:04+00:00"
+  },
   {
    "id": "c789b83cbd4c",
    "company": "jobup.ch",
