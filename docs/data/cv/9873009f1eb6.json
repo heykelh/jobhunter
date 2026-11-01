@@ -1,0 +1,170 @@
+{
+ "titre": "Professional Process Automation & AI Engineer (Financial Services)",
+ "profil": "13 ans d’expérience au sein du Groupe SNCF en environnement critique, titulaire d’un Master Data Engineer (Mines Paris : PSL). Plus de 15 projets data réalisés, incluant automatisation, programmation Python et SQL, ainsi que mise en place d’API. Intérêt confirmé pour l’IA, le machine learning et la simplification pragmatique de processus métier complexes.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "SQL",
+    "Python (pandas)",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio",
+    "Excel"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "TypeScript",
+    "Next.js",
+    "Plotly",
+    "Recharts"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "GitHub Actions (CI/CD)",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "customer-experience",
+   "titre": "Customer Experience Intelligence : analyse et dataviz",
+   "stack": "Python, Power BI",
+   "lien": "github.com/heykelh/customer-experience-intelligence",
+   "tags": [
+    "client",
+    "clients",
+    "expérience client",
+    "marketing",
+    "kpi",
+    "dashboard",
+    "tableau de bord",
+    "power bi",
+    "reporting",
+    "analyse",
+    "satisfaction",
+    "parcours"
+   ],
+   "puces": [
+    "Analyse exploratoire des données clients pour identifier insights, tendances et anomalies impactant la performance métier.",
+    "Dashboards interactifs Power BI et indicateurs de pilotage destinés aux décideurs métier."
+   ]
+  },
+  {
+   "id": "finance-audit",
+   "titre": "Finance Digital Audit Dashboard",
+   "stack": "Python, pandas, scikit-learn, FastAPI, Next.js, Plotly",
+   "lien": "",
+   "tags": [
+    "finance",
+    "financier",
+    "audit",
+    "anomalie",
+    "anomalies",
+    "machine learning",
+    "contrôle de gestion",
+    "comptabilité",
+    "bourse",
+    "api"
+   ],
+   "puces": [
+    "Ingestion des données financières du CAC 40 via ETL pandas, avec détection d’anomalies (Isolation Forest).",
+    "API FastAPI (export PDF) et tableau de bord Next.js / Plotly, déployés grâce à l’intégration continue GitHub Actions."
+   ]
+  },
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Simulation d’une mission d’inspection data sur la chaîne de données du risque de crédit : cadrage, investigations, débriefing.",
+    "Moteur de contrôles qualité en règles SQL, scoring de risque, registre des constats et rapport de restitution."
+   ]
+  },
+  {
+   "id": "pokewatch",
+   "titre": "PokéWatch : surveillance de marché et détection d'anomalies de prix",
+   "stack": "PostgreSQL, Supabase, SQL, GitHub Actions, Next.js",
+   "lien": "pokewatch-three.vercel.app",
+   "tags": [
+    "surveillance",
+    "monitoring",
+    "anomalie",
+    "anomalies",
+    "fraude",
+    "prix",
+    "marché",
+    "pipeline",
+    "automatisation",
+    "alerte",
+    "data engineer",
+    "ingestion",
+    "sql"
+   ],
+   "puces": [
+    "Pipeline de collecte des prix Cardmarket et eBay, automatisé par GitHub Actions, avec alertes ntfy en temps réel.",
+    "Règles SQL de détection d’anomalies de prix et tableau de bord Next.js de suivi du marché."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "allemand"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "9873009f1eb6",
+ "entreprise": "VZ VermögensZentrum",
+ "intitule_offre": "Professional Process Automation & AI Engineer (Financial Services)",
+ "url_offre": "https://www.jobs.ch/fr/offres-emplois/detail/f5a35f84-fd49-425e-885e-31ccbd94661c/",
+ "genere_le": "2026-11-01T21:32:49+00:00"
+}

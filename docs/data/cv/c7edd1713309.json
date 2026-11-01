@@ -1,0 +1,180 @@
+{
+ "titre": "Aide Maçon VRD / Maçon VRD / Manœuvre (H/F)",
+ "profil": "13 ans d’expérience au sein du groupe SNCF, où j’ai évolué dans un environnement à forts enjeux de sécurité et de qualité. J’ai conduit plus de quinze projets opérationnels, en assurant le respect des procédures et la coordination d’équipes pluridisciplinaires. Titulaire d’un Master Data Engineer (Bac+5) et habitué aux exigences de conformité, je suis volontaire et motivé par le travail de terrain en TP.",
+ "competences": [
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio",
+    "Excel"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Analyse des processus de recouvrement, identification des exigences fonctionnelles et rédaction de spécifications.",
+    "Préparation de la recette et validation des livrables en conformité avec les exigences de qualité."
+   ]
+  },
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Audit de la chaîne de données du risque de crédit, cadrage des investigations et restitution des constats.",
+    "Mise en place de contrôles qualité SQL et élaboration d’un rapport d’audit."
+   ]
+  },
+  {
+   "id": "frontierbank",
+   "titre": "FrontierBank : gouvernance des données d'une banque fictive",
+   "stack": "BCBS 239, DAMA-DMBOK, AI Act, Power BI",
+   "lien": "frontierbank-data.vercel.app",
+   "tags": [
+    "gouvernance",
+    "governance",
+    "steward",
+    "qualité",
+    "quality",
+    "bcbs",
+    "dama",
+    "lignage",
+    "lineage",
+    "banque",
+    "bancaire",
+    "risque",
+    "réglementaire",
+    "conformité",
+    "raci",
+    "référentiel",
+    "métadonnées"
+   ],
+   "puces": [
+    "Conseil en gouvernance des données, élaboration d’un cadre de conformité et définition d’un lignage des flux.",
+    "Création de tableaux de bord de suivi de la qualité et cartographie des usages."
+   ]
+  },
+  {
+   "id": "escale",
+   "titre": "ESCALE : ponctualité des vols CDG et Orly",
+   "stack": "Python, PostgreSQL (médaillon), API AeroDataBox, Next.js",
+   "lien": "escale-ops.vercel.app",
+   "tags": [
+    "aérien",
+    "aerien",
+    "aviation",
+    "vol",
+    "vols",
+    "airline",
+    "opérations",
+    "operations",
+    "ponctualité",
+    "retard",
+    "rgpd",
+    "privacy",
+    "données personnelles",
+    "ai act",
+    "prédiction",
+    "client"
+   ],
+   "puces": [
+    "Collecte automatisée des données de ponctualité, calcul de scores de retard et suivi quotidien.",
+    "Développement d’une console de suivi intégrant les exigences de protection des données."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "c7edd1713309",
+ "entreprise": "Eiffage",
+ "intitule_offre": "Aide Maçon VRD / Maçon VRD / Manoeuvre (H/F)",
+ "url_offre": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Estrees-Saint-Denis/Aide-Maon-VRD---Maon-VRD---Manoeuvre--H-F-_JR2026-906",
+ "genere_le": "2026-11-01T21:31:44+00:00"
+}

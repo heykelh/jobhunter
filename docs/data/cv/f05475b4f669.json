@@ -1,0 +1,171 @@
+{
+ "titre": "AOI Supporter (m/w/d) : Rheinmetall Air Defence AG",
+ "profil": "Ingénieur data avec 13 ans d’expérience au sein du groupe SNCF, spécialisé dans la conduite de projets à forts enjeux de sécurité. Maîtrise de la création, de l’optimisation et du suivi de programmes d’analyse, ainsi que de l’amélioration continue des processus (KVP). Expérience avérée dans la documentation précise et la transmission technique aux équipes.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio",
+    "Excel"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "GitHub Actions (CI/CD)",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Conception d’un flux de validation du système de recouvrement, du recueil du besoin à la recette, en suivant une méthode structurée et documentée.",
+    "Livrables incluant cartographie des processus, spécifications fonctionnelles et plan de tests, assurant traçabilité et conformité."
+   ]
+  },
+  {
+   "id": "pokewatch",
+   "titre": "PokéWatch : surveillance de marché et détection d'anomalies de prix",
+   "stack": "PostgreSQL, Supabase, SQL, GitHub Actions, Next.js",
+   "lien": "pokewatch-three.vercel.app",
+   "tags": [
+    "surveillance",
+    "monitoring",
+    "anomalie",
+    "anomalies",
+    "fraude",
+    "prix",
+    "marché",
+    "pipeline",
+    "automatisation",
+    "alerte",
+    "data engineer",
+    "ingestion",
+    "sql"
+   ],
+   "puces": [
+    "Mise en place d’un pipeline automatisé de collecte de prix, avec alertes en temps réel, illustrant la capacité à créer des programmes de surveillance fiables.",
+    "Développement de règles SQL de détection d’anomalies et tableau de bord, facilitant le suivi qualitatif et quantitatif des données."
+   ]
+  },
+  {
+   "id": "palier",
+   "titre": "PALIER : tarification et yield management TGV",
+   "stack": "Python, DuckDB, Power BI, Next.js, GitHub Actions",
+   "lien": "palier-sncf.vercel.app",
+   "tags": [
+    "pricing",
+    "prix",
+    "tarif",
+    "tarification",
+    "revenue",
+    "yield",
+    "élasticité",
+    "demande",
+    "transport",
+    "ferroviaire",
+    "voyageurs",
+    "sncf",
+    "commercial",
+    "offre"
+   ],
+   "puces": [
+    "Analyse de la tarification TGV et mise en œuvre d’un algorithme de yield management, démontrant l’expertise en études de faisabilité et optimisation de processus.",
+    "Automatisation de la mise à jour des résultats via GitHub Actions, garantissant une exécution continue et fiable."
+   ]
+  },
+  {
+   "id": "dockz",
+   "titre": "DOCKZ : plateforme data du marché de l'entrepôt",
+   "stack": "Python, données publiques, Next.js",
+   "lien": "dockz.vercel.app",
+   "tags": [
+    "immobilier",
+    "logistique",
+    "entrepôt",
+    "études",
+    "marché",
+    "géo",
+    "géographique",
+    "cartographie",
+    "dataviz"
+   ],
+   "puces": [
+    "Construction d’une plateforme d’analyse du marché logistique, avec indicateurs et visualisations cartographiques, répondant aux exigences de documentation transparente.",
+    "Production de rapports détaillés pour soutenir la prise de décision, illustrant la capacité à fournir des informations précises aux parties prenantes."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "allemand"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "f05475b4f669",
+ "entreprise": "Rheinmetall Air Defence AG",
+ "intitule_offre": "Rheinmetall Air Defence AG",
+ "url_offre": "https://www.jobs.ch/fr/offres-emplois/detail/1dcecdea-1da9-4db8-85f9-62b6ac7ef228/",
+ "genere_le": "2026-11-01T21:34:34+00:00"
+}

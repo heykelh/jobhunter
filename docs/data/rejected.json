@@ -1,6 +1,1406 @@
 {
- "updated": "2026-11-01T17:21:38+00:00",
+ "updated": "2026-11-01T21:39:29+00:00",
  "items": [
+  {
+   "id": "5aecb3fe8501",
+   "company": "ING",
+   "title": "GCP Cloud AI Platform Engineer",
+   "url": "https://careers.ing.com/en/job/warsaw/gcp-cloud-ai-platform-engineer/3121/40372391808",
+   "reason": "lieu hors zones",
+   "at": "2026-11-01T21:39:08+00:00"
+  },
+  {
+   "id": "d8d25c1fc5fb",
+   "company": "ING",
+   "title": "Cyber Risk / AI Risk Expert",
+   "url": "https://careers.ing.com/en/job/madrid/cyber-risk-ai-risk-expert/3121/45976365888",
+   "reason": "titre exclu (expert)",
+   "at": "2026-11-01T21:39:08+00:00"
+  },
+  {
+   "id": "cfa179646301",
+   "company": "ING",
+   "title": "Data & AI Chapter Lead Engineer",
+   "url": "https://careers.ing.com/en/job/istanbul/data-and-ai-chapter-lead-engineer/3121/39390346560",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-01T21:39:08+00:00"
+  },
+  {
+   "id": "eb49e13fe27d",
+   "company": "ING",
+   "title": "Engineering Manager Data&AI",
+   "url": "https://careers.ing.com/en/job/madrid/engineering-manager-data-and-ai/3121/44477027520",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-01T21:39:08+00:00"
+  },
+  {
+   "id": "f37c26733219",
+   "company": "ING",
+   "title": "Expert Lead Customers & Data Architecture",
+   "url": "https://careers.ing.com/en/job/madrid/expert-lead-customers-and-data-architecture/3121/45650389184",
+   "reason": "titre exclu (expert)",
+   "at": "2026-11-01T21:39:08+00:00"
+  },
+  {
+   "id": "44fd623b3115",
+   "company": "ING",
+   "title": "Agentic automation & AI Consultant",
+   "url": "https://careers.ing.com/en/job/amsterdam/agentic-automation-and-ai-consultant/3121/42373877568",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-01T21:39:07+00:00"
+  },
+  {
+   "id": "1b0b8cc13bff",
+   "company": "ING",
+   "title": "AI Developer (Copilot Studio)",
+   "url": "https://careers.ing.com/en/job/slovakia/ai-developer-copilot-studio/3121/44008552640",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-01T21:39:05+00:00"
+  },
+  {
+   "id": "b96bc2d0973e",
+   "company": "ING",
+   "title": "AI Adoption & Transformation Expert",
+   "url": "https://careers.ing.com/en/job/makati-city/ai-adoption-and-transformation-expert/3121/45093360896",
+   "reason": "titre exclu (expert)",
+   "at": "2026-11-01T21:39:05+00:00"
+  },
+  {
+   "id": "6913f50031c3",
+   "company": "ING",
+   "title": "Risk AI Data Scientist",
+   "url": "https://careers.ing.com/en/job/warsaw/risk-ai-data-scientist/3121/40954641024",
+   "reason": "lieu hors zones",
+   "at": "2026-11-01T21:39:04+00:00"
+  },
+  {
+   "id": "94d251bbe1e0",
+   "company": "ING",
+   "title": "AI / Copilot Studio Developer",
+   "url": "https://careers.ing.com/en/job/makati-city/ai-copilot-studio-developer/3121/45093361600",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-01T21:39:02+00:00"
+  },
+  {
+   "id": "6fe5242a265d",
+   "company": "ING",
+   "title": "Senior Agentic AI Engineer",
+   "url": "https://careers.ing.com/en/job/istanbul/senior-agentic-ai-engineer/3121/44428104320",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-01T21:39:02+00:00"
+  },
+  {
+   "id": "f1adcd1b9860",
+   "company": "ING",
+   "title": "AI / Copilot Studio Developers",
+   "url": "https://careers.ing.com/en/job/makati-city/ai-copilot-studio-developers/3121/42105052736",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-01T21:39:01+00:00"
+  },
+  {
+   "id": "2db5c47269ec",
+   "company": "ING",
+   "title": "AI / Copilot Studio Developer",
+   "url": "https://careers.ing.com/en/job/makati-city/ai-copilot-studio-developer/3121/45101609920",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-01T21:38:59+00:00"
+  },
+  {
+   "id": "e7f29488b13e",
+   "company": "ING",
+   "title": "IT Business Analyst with Payment System Experience",
+   "url": "https://careers.ing.com/en/job/istanbul/it-business-analyst-with-payment-system-experience/3121/33919715200",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-01T21:38:58+00:00"
+  },
+  {
+   "id": "5774a5715fb0",
+   "company": "ING",
+   "title": "AI Lead",
+   "url": "https://careers.ing.com/en/job/milan/ai-lead/3121/39197345472",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-01T21:38:58+00:00"
+  },
+  {
+   "id": "411e07a7c124",
+   "company": "ING",
+   "title": "Senior AI/LLM Data Scientist in Agentic AI",
+   "url": "https://careers.ing.com/en/job/istanbul/senior-ai-llm-data-scientist-in-agentic-ai/3121/45265142080",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-01T21:38:58+00:00"
+  },
+  {
+   "id": "65cd43c65832",
+   "company": "ING",
+   "title": "Chapter Lead AI/LLM Data Scientist in Agentic AI",
+   "url": "https://careers.ing.com/en/job/istanbul/chapter-lead-ai-llm-data-scientist-in-agentic-ai/3121/37010958912",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-01T21:38:58+00:00"
+  },
+  {
+   "id": "3486420fd6eb",
+   "company": "ING",
+   "title": "Data Operations Professional",
+   "url": "https://careers.ing.com/en/job/makati-city/data-operations-professional/3121/46155027328",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-01T21:38:57+00:00"
+  },
+  {
+   "id": "84adf30b3f56",
+   "company": "SIX Group",
+   "title": "API Platform Engineer, Kong API & AI Gateway",
+   "url": "https://jobs.six-group.com/job/Las-Rozas-de-Madrid-API-Platform-Engineer%2C-Kong-API-&-AI-Gateway/1423545233/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-01T21:38:22+00:00"
+  },
+  {
+   "id": "78b5cb4faa20",
+   "company": "SIX Group",
+   "title": "AI Software Architect",
+   "url": "https://jobs.six-group.com/job/Zurich-AI-Software-Architect/1435758133/",
+   "reason": "titre exclu (architect)",
+   "at": "2026-11-01T21:38:22+00:00"
+  },
+  {
+   "id": "cfb8ecda1ee2",
+   "company": "SIX Group",
+   "title": "AI Engineer - AI SDLC Tooling & Guardrails",
+   "url": "https://jobs.six-group.com/job/Las-Rozas-de-Madrid-AI-Engineer-AI-SDLC-Tooling-&-Guardrails/1431166433/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-01T21:38:21+00:00"
+  },
+  {
+   "id": "85676086d143",
+   "company": "SIX Group",
+   "title": "AI Engineer Internship",
+   "url": "https://jobs.six-group.com/job/Las-Rozas-de-Madrid-AI-Engineer-Internship/1450735033/",
+   "reason": "titre exclu (internship)",
+   "at": "2026-11-01T21:38:21+00:00"
+  },
+  {
+   "id": "43f536dcc15d",
+   "company": "SIX Group",
+   "title": "AI Solutions Lead - Development Tools (Claude Code)",
+   "url": "https://jobs.six-group.com/job/Warsaw-AI-Solutions-Lead-Development-Tools-%28Claude-Code%29/1275175801/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-01T21:38:21+00:00"
+  },
+  {
+   "id": "170c4e467c78",
+   "company": "Julius Baer",
+   "title": "Senior System Architect ML & AI 100% (f/m/d)",
+   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Zurich/Senior-System-Architect-ML---AI-100---f-m-d-_r-18971-2",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-01T21:37:41+00:00"
+  },
+  {
+   "id": "4783c4519561",
+   "company": "Julius Baer",
+   "title": "AI Test Automation Engineer 100% (f/m/d)",
+   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Madrid/Senior-Test-Automation-Engineer-100---f-m-d-_r-19696-1",
+   "reason": "lieu hors zones",
+   "at": "2026-11-01T21:37:38+00:00"
+  },
+  {
+   "id": "888f421e6a17",
+   "company": "jobup.ch",
+   "title": "Apprenti·e Agent·e en information documentaire (AID)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/da726981-5436-4a2c-b261-23061df14155/",
+   "reason": "titre exclu (apprenti)",
+   "at": "2026-11-01T21:36:33+00:00"
+  },
+  {
+   "id": "f0ef5a31dfb9",
+   "company": "jobup.ch",
+   "title": "Spécialiste en gestion des identités et des accès (IAM)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/7cb71801-759c-40c8-bc7f-8f05c92699fa/",
+   "reason": "expérience demandée ≥ 5 ans « aticien ou titre juge equivalent. au minimum 5 ans d'experience dans le dom »",
+   "at": "2026-11-01T21:36:31+00:00"
+  },
+  {
+   "id": "6c9cccf2f15f",
+   "company": "jobup.ch",
+   "title": "Ingénieur IAM (f/m/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/b9b0a480-1acc-446d-a2a6-2d343f27bb3c/",
+   "reason": "expérience demandée ≥ 3 ans « le. ton profil experience professionnelle de 3 a 5 ans dans le domaine iam, ave »",
+   "at": "2026-11-01T21:36:30+00:00"
+  },
+  {
+   "id": "bc0562dfc6bc",
+   "company": "jobup.ch",
+   "title": "Architecte IAM (f/m/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/1378f42b-f528-4b34-b3ed-1920cea8d393/",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-01T21:36:30+00:00"
+  },
+  {
+   "id": "4aec3de12a50",
+   "company": "jobup.ch",
+   "title": "Stagiaire Développement d’Agents IA (Business Development)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/f5bce737-469a-4f9a-bf04-5b8b8aed6a5e/",
+   "reason": "titre exclu (stagiaire)",
+   "at": "2026-11-01T21:36:29+00:00"
+  },
+  {
+   "id": "5e7701480f08",
+   "company": "jobup.ch",
+   "title": "Stage en conseil CTO Advisory – Coder avec l’IA, nouvelles frontières du développement pour les entreprises",
+   "url": "https://www.jobup.ch/fr/emplois/detail/341e6103-5a08-461b-aa88-c2953970c417/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-01T21:36:29+00:00"
+  },
+  {
+   "id": "5d1839b6f521",
+   "company": "jobup.ch",
+   "title": "Senior Consultant – Cloud, AI & IT Transformation (H/F) Genève, Suisse",
+   "url": "https://www.jobup.ch/fr/emplois/detail/c33727f8-a978-4ade-9e58-08b9d6502bd9/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-01T21:36:29+00:00"
+  },
+  {
+   "id": "1d37fb8a9ab0",
+   "company": "jobup.ch",
+   "title": "Ingénieur Développement IA",
+   "url": "https://www.jobup.ch/fr/emplois/detail/31d1fa37-c025-47e1-bf77-5279d5d72a60/",
+   "reason": "expérience demandée ≥ 3 ans « s des projets de digitalisation. competences 3 a 7 ans d'experience en it, form »",
+   "at": "2026-11-01T21:36:25+00:00"
+  },
+  {
+   "id": "7a44f72e7806",
+   "company": "jobup.ch",
+   "title": "AI Automation Engineer",
+   "url": "https://www.jobup.ch/fr/emplois/detail/b3d6e1de-9f0d-467c-9834-36b191252780/",
+   "reason": "expérience demandée ≥ 4 ans « insights generes par l'ia votre expertise : plus de 3 ans d'experience pratique en »",
+   "at": "2026-11-01T21:36:24+00:00"
+  },
+  {
+   "id": "b99566a25339",
+   "company": "jobup.ch",
+   "title": "PhD Position “AI use in Strategic Forecasting and Organizational Change” (m/f/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/6a91b602-3753-4670-84c9-0fce5520f783/",
+   "reason": "titre exclu (phd)",
+   "at": "2026-11-01T21:36:24+00:00"
+  },
+  {
+   "id": "8a750359a9e4",
+   "company": "jobup.ch",
+   "title": "Solution Unit Lead - AI & Data",
+   "url": "https://www.jobup.ch/fr/emplois/detail/5975947e-25f8-4e1d-b74a-4a74232bdbaa/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-01T21:36:24+00:00"
+  },
+  {
+   "id": "9e368ed26d3e",
+   "company": "jobup.ch",
+   "title": "Senior Manager - Technology Consulting - AI & Data",
+   "url": "https://www.jobup.ch/fr/emplois/detail/6a68e5bb-4dde-46bc-aa66-db0c0815a3af/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-01T21:36:24+00:00"
+  },
+  {
+   "id": "587d6a4e13fe",
+   "company": "jobup.ch",
+   "title": "Manager - Technology Consulting - AI & Data (80-100%)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/1dbea4d7-4650-4e75-aae6-186c7f57ddee/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-01T21:36:24+00:00"
+  },
+  {
+   "id": "0ee378c71686",
+   "company": "jobup.ch",
+   "title": "Manager - Technology Consulting - AI & Data (80-100%)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/80fc3d50-85a8-4ac8-8678-3c5a5c8ac2c5/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-01T21:36:24+00:00"
+  },
+  {
+   "id": "ee29d5147de0",
+   "company": "jobup.ch",
+   "title": "PhD Position in Quantitative Marketing and AI (m/f/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/48bc34fd-e6b1-4cde-9059-b6e2091dbaea/",
+   "reason": "titre exclu (phd)",
+   "at": "2026-11-01T21:36:24+00:00"
+  },
+  {
+   "id": "f96ee0ebfda8",
+   "company": "jobup.ch",
+   "title": "AI Software Architect",
+   "url": "https://www.jobup.ch/fr/emplois/detail/a3dc4122-a82f-441a-a85f-4917f42a294f/",
+   "reason": "titre exclu (architect)",
+   "at": "2026-11-01T21:36:22+00:00"
+  },
+  {
+   "id": "243228c0714d",
+   "company": "jobup.ch",
+   "title": "Wissenschaftliche:r Mitarbeiter:in / Doktorand:in im Bereich AI Strategie, Scaling und Wertschöpfung im Zeitalter von Agentic AI von Organisationen (m/w/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/3410122a-fa48-460a-870a-6b8962726a75/",
+   "reason": "expérience demandée ≥ 3 ans « anagement est un plus. les candidat·e·s avec plusieurs annees d'experience professionnelle sont exp »",
+   "at": "2026-11-01T21:36:16+00:00"
+  },
+  {
+   "id": "57fd89955dc8",
+   "company": "jobup.ch",
+   "title": "Lead Data & AI Architect",
+   "url": "https://www.jobup.ch/fr/emplois/detail/3bf7dc0d-3103-492a-a867-5086572a3843/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-01T21:36:16+00:00"
+  },
+  {
+   "id": "69e9da1b1b96",
+   "company": "jobup.ch",
+   "title": "AI and Data Science Manager - Group Audit 80-100%, temporary for 12 months",
+   "url": "https://www.jobup.ch/fr/emplois/detail/128bc998-6a1d-42de-9a9d-326ad475cb9b/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-01T21:36:16+00:00"
+  },
+  {
+   "id": "03b40505d951",
+   "company": "jobup.ch",
+   "title": "AI Researcher - Post-Training",
+   "url": "https://www.jobup.ch/fr/emplois/detail/6e8ad2e6-ce6f-4557-93f7-16f9dfe6bc46/",
+   "reason": "expérience demandée ≥ 5 ans « automatique ou domaine quantitatif connexe. plus de 4 ans d'experience en industri »",
+   "at": "2026-11-01T21:36:13+00:00"
+  },
+  {
+   "id": "3d5b4689d72a",
+   "company": "jobup.ch",
+   "title": "AI Systems Engineer",
+   "url": "https://www.jobup.ch/fr/emplois/detail/78716fe1-46fa-407b-bbf4-1c8f05d83772/",
+   "reason": "expérience demandée ≥ 5 ans « ed. atlassian platform expertise (required): 5+ years hands-on administration »",
+   "at": "2026-11-01T21:36:12+00:00"
+  },
+  {
+   "id": "deb1b8e83049",
+   "company": "jobup.ch",
+   "title": "Senior AI Engineer, 80-100% (w/m/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/45c488d1-7436-4541-ab0c-44e85e34b952/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-01T21:36:12+00:00"
+  },
+  {
+   "id": "295ab93836af",
+   "company": "jobup.ch",
+   "title": "AI Engineering Consultant (Zurich, Switzerland)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/e967e831-76fb-4960-bf7c-4f179fff9afc/",
+   "reason": "expérience demandée ≥ 4 ans « igatoire) ; l'allemand est fortement prefere plus de 3 ans d'experience averee en i »",
+   "at": "2026-11-01T21:36:10+00:00"
+  },
+  {
+   "id": "4c7fb2c139c0",
+   "company": "jobup.ch",
+   "title": "Machine Learning Engineer - Spatial AI",
+   "url": "https://www.jobup.ch/fr/emplois/detail/ce5fe422-6649-4f93-aee4-5181c8945434/",
+   "reason": "expérience demandée ≥ 11 ans « lyability est une entreprise suisse forte de plus de 10 ans d'experience qui valoris »",
+   "at": "2026-11-01T21:36:09+00:00"
+  },
+  {
+   "id": "ffd9c36cbacd",
+   "company": "jobup.ch",
+   "title": "AI Spezialist (m/w) 80-100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/469ab626-759f-435e-8056-0d9974e330be/",
+   "reason": "expérience demandée ≥ 3 ans « ur ameliorer les processus d'ai. competences experience solide en intelligence artifici »",
+   "at": "2026-11-01T21:35:55+00:00"
+  },
+  {
+   "id": "ef955bd97ce1",
+   "company": "jobup.ch",
+   "title": "Data Scientist-Actuarial AI Solutions (80-100%)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/85a89447-5e69-4051-8670-78cd96f25912/",
+   "reason": "expérience demandée ≥ 3 ans « yer des solutions en production. competences experience solide en science des donnees e »",
+   "at": "2026-11-01T21:35:53+00:00"
+  },
+  {
+   "id": "d4c760d824c3",
+   "company": "jobup.ch",
+   "title": "Embedded Software Engineer / Consumer Electronics & Applied AI",
+   "url": "https://www.jobup.ch/fr/emplois/detail/abd2d265-7cd9-43da-9210-3163897c7c8d/",
+   "reason": "expérience demandée ≥ 3 ans « , informatique ou domaine connexe minimum de 3 ans d'experience professionn »",
+   "at": "2026-11-01T21:35:11+00:00"
+  },
+  {
+   "id": "49ae6b3f3290",
+   "company": "jobup.ch",
+   "title": "AI Engineer Intern",
+   "url": "https://www.jobup.ch/fr/emplois/detail/e9c187ab-e137-4269-8189-655e75fbd77d/",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-01T21:35:10+00:00"
+  },
+  {
+   "id": "ac798564c968",
+   "company": "jobs.ch",
+   "title": "ICT-Security-Spezialist:in Senior IAM",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/73af56c8-0c4c-4e92-ba56-b0642fe42597/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-01T21:34:34+00:00"
+  },
+  {
+   "id": "d847731545ce",
+   "company": "jobs.ch",
+   "title": "Ingénieur IAM (f/m/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/05fc44d2-62b3-4537-b0d5-4480204fec20/",
+   "reason": "expérience demandée ≥ 3 ans « le. ton profil experience professionnelle de 3 a 5 ans dans le domaine iam, ave »",
+   "at": "2026-11-01T21:34:34+00:00"
+  },
+  {
+   "id": "f45c484677b7",
+   "company": "jobs.ch",
+   "title": "Stagiaire Développement d’Agents IA (Business Development)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/f5bce737-469a-4f9a-bf04-5b8b8aed6a5e/",
+   "reason": "titre exclu (stagiaire)",
+   "at": "2026-11-01T21:34:10+00:00"
+  },
+  {
+   "id": "2bb74a5ebd77",
+   "company": "jobs.ch",
+   "title": "Stage en conseil CTO Advisory – Coder avec l’IA, nouvelles frontières du développement pour les entreprises",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/341e6103-5a08-461b-aa88-c2953970c417/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-01T21:34:10+00:00"
+  },
+  {
+   "id": "12936c0a4e78",
+   "company": "jobs.ch",
+   "title": "Senior Specialist IAM (a) 80 bis 100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/09e6f476-50f1-4d34-9a5a-42f4c7de2f68/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-01T21:34:10+00:00"
+  },
+  {
+   "id": "e1881aed7a93",
+   "company": "jobs.ch",
+   "title": "Senior Consultant – Cloud, AI & IT Transformation (H/F) Genève, Suisse",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/c33727f8-a978-4ade-9e58-08b9d6502bd9/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-01T21:34:10+00:00"
+  },
+  {
+   "id": "8dab2714747c",
+   "company": "jobs.ch",
+   "title": "Fachspezialist:in Bahnsicherungsanlagen IA und AA 80–100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/096728ba-60be-4577-be31-e40f9c3dc06e/",
+   "reason": "expérience demandée ≥ 3 ans « cien, polymecanicien ou metier similaire) et plusieurs annees d'experience professionnelle dans le »",
+   "at": "2026-11-01T21:34:04+00:00"
+  },
+  {
+   "id": "1ce1851563fa",
+   "company": "jobs.ch",
+   "title": "Ingénieur Développement IA",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/31d1fa37-c025-47e1-bf77-5279d5d72a60/",
+   "reason": "expérience demandée ≥ 3 ans « s des projets de digitalisation. competences 3 a 7 ans d'experience en it, form »",
+   "at": "2026-11-01T21:34:03+00:00"
+  },
+  {
+   "id": "39ac2931c202",
+   "company": "jobs.ch",
+   "title": "CRM & AI Automation Manager (m/w/d) 100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/252dfbf0-5628-473f-8ae5-a8d3731dc7c6/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-01T21:33:34+00:00"
+  },
+  {
+   "id": "521ae2153749",
+   "company": "jobs.ch",
+   "title": "Product Designer - Digital Platforms (Real Estate, CRM & AI) (f/m/d) | 80–100% | Hybrid Working Model | Zürich, Switzerland",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/08419887-3f45-493e-917d-c38151360040/",
+   "reason": "expérience demandée ≥ 6 ans « et l'efficacite de l'equipe. qualifications plus de 5 ans d'experience en tant que »",
+   "at": "2026-11-01T21:33:34+00:00"
+  },
+  {
+   "id": "30c14f22125e",
+   "company": "jobs.ch",
+   "title": "Embedded Software Engineer / Consumer Electronics & Applied AI",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/abd2d265-7cd9-43da-9210-3163897c7c8d/",
+   "reason": "expérience demandée ≥ 3 ans « , informatique ou domaine connexe minimum de 3 ans d'experience professionn »",
+   "at": "2026-11-01T21:33:25+00:00"
+  },
+  {
+   "id": "5f156671ea92",
+   "company": "jobs.ch",
+   "title": "AI & Automation Business Partner - all genders (80-100%)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/78c50d9a-6a8a-414d-bdc5-1fa30e76e6f5/",
+   "reason": "expérience demandée ≥ 6 ans « stion de l'information ou discipline connexe plus de 5 ans d'experience en optimisa »",
+   "at": "2026-11-01T21:33:23+00:00"
+  },
+  {
+   "id": "eada73d5d7b9",
+   "company": "jobs.ch",
+   "title": "AI & Automation Platform Engineer - all genders (80-100%)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/329ac822-685e-4595-a3ea-546e7b4643de/",
+   "reason": "expérience demandée ≥ 6 ans « lorsque necessaire ce que nous recherchons : plus de 5 ans d'experience en architec »",
+   "at": "2026-11-01T21:32:59+00:00"
+  },
+  {
+   "id": "ac9a8abf593f",
+   "company": "jobs.ch",
+   "title": "Business Solution Architect – AI, Cloud & UX (Uni / FH)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/881b5f28-3096-49f6-8246-a2fcaddf2263/",
+   "reason": "titre exclu (architect)",
+   "at": "2026-11-01T21:32:59+00:00"
+  },
+  {
+   "id": "84b68e9e9ea1",
+   "company": "jobs.ch",
+   "title": "Head of Channel Sales (AI Software) - [A016040]",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/a62d5101-04ac-4215-a16a-f875ab34e3f3/",
+   "reason": "titre exclu (head)",
+   "at": "2026-11-01T21:32:59+00:00"
+  },
+  {
+   "id": "90b60bfd3f84",
+   "company": "jobs.ch",
+   "title": "Product Manager AI Empowerment 80 - 100 % (f/m/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/1eda0efb-b13e-4424-8d77-4db99821d735/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-01T21:32:57+00:00"
+  },
+  {
+   "id": "b4e626dc36ea",
+   "company": "jobs.ch",
+   "title": "AI Product «Pilot» / Product Owner Digital Health (m/w/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/ae5e20ea-56a1-47e5-bd77-ab5575d0e484/",
+   "reason": "expérience demandée ≥ 3 ans « nomique) ou formation technique equivalente. experience de plusieurs annees dans des projets logicie »",
+   "at": "2026-11-01T21:32:57+00:00"
+  },
+  {
+   "id": "db81783f29de",
+   "company": "jobs.ch",
+   "title": "Fullstack Developer - AI & Digital Health - DE",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/e5ce43b5-b97a-46cc-a783-93eff2bf064f/",
+   "reason": "expérience demandée ≥ 3 ans « web modernes. competences en developpement : experience approfondie avec des frameworks back »",
+   "at": "2026-11-01T21:32:43+00:00"
+  },
+  {
+   "id": "b6b1715a7ad1",
+   "company": "jobs.ch",
+   "title": "Technical Project Lead Software & AI",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/894ed376-853a-4e52-9968-a3199ed19d68/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-01T21:32:43+00:00"
+  },
+  {
+   "id": "b219ff58f173",
+   "company": "jobs.ch",
+   "title": "Senior AI Software Engineer / AI Solution Architect 80 - 100 % (w/m/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/d88d1a32-0b5e-45b8-9080-a12a6cf3852a/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-01T21:32:43+00:00"
+  },
+  {
+   "id": "6cf7fd38d1d7",
+   "company": "jobs.ch",
+   "title": "Software Engineer (Java/Spring Boot) auf dem Weg zum Data / AI Engineer",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/8c27a3a0-dc8a-4da0-973a-ba5ebcf843f6/",
+   "reason": "expérience demandée ≥ 3 ans « niversitaire (ou equivalent) en informatique experience de plusieurs annees en developpement avec ja »",
+   "at": "2026-11-01T21:32:42+00:00"
+  },
+  {
+   "id": "8f0652bd8160",
+   "company": "jobs.ch",
+   "title": "Agentic AI Engineer (all genders) 80 - 100 %",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/02bfb999-89d8-4853-897c-4f24e7ba6166/",
+   "reason": "expérience demandée ≥ 5 ans « ia ou dans un role similaire, tu as environ 5 ans d'experience professionn »",
+   "at": "2026-11-01T21:32:41+00:00"
+  },
+  {
+   "id": "446370343c11",
+   "company": "jobs.ch",
+   "title": "Senior AI Software Developer (80-100%)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/bec83357-3b90-4364-8b80-5384b6de19ce/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-01T21:32:41+00:00"
+  },
+  {
+   "id": "7505cb8d94f0",
+   "company": "jobs.ch",
+   "title": "AI Engineer Intern",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/e9c187ab-e137-4269-8189-655e75fbd77d/",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-01T21:32:41+00:00"
+  },
+  {
+   "id": "63b0a6994c78",
+   "company": "jobs.ch",
+   "title": "AI & Cloud Application Architect",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/c8c84032-0bfb-4905-ba6d-3bae3c5817d4/",
+   "reason": "titre exclu (architect)",
+   "at": "2026-11-01T21:32:41+00:00"
+  },
+  {
+   "id": "935bc1a975e2",
+   "company": "jobs.ch",
+   "title": "AI-Plattformengineer",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/86bd8fb8-8fee-4432-99f1-1183cc1e7063/",
+   "reason": "expérience demandée ≥ 5 ans « fachrichtung: computer science / informatik berufserfahrung: mindestens 5 jahre ai engineering / dev ops mehrj »",
+   "at": "2026-11-01T21:32:39+00:00"
+  },
+  {
+   "id": "419b51aa15ec",
+   "company": "jobs.ch",
+   "title": "Senior AI Engineer, 80-100% (w/m/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/e99324e6-3925-4af1-9c6d-8ac301553bbe/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-01T21:32:39+00:00"
+  },
+  {
+   "id": "4b115117ca28",
+   "company": "jobs.ch",
+   "title": "AI Engineer (f/m/d) 80-100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/9db78101-0c42-4032-a091-4cf0391ae0a1/",
+   "reason": "expérience demandée ≥ 3 ans « (par ex. google adk, langchain, llamaindex). experience averee avec rag (retrieval-augm »",
+   "at": "2026-11-01T21:32:38+00:00"
+  },
+  {
+   "id": "119e7290a055",
+   "company": "jobs.ch",
+   "title": "AI/ML Engineer (a)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/5a757e1c-54b5-4b9f-80c6-3efcb2ed0380/",
+   "reason": "expérience demandée ≥ 3 ans « te constitue votre base professionnelle. une experience de plusieurs annees en ingenierie ia/ml, app »",
+   "at": "2026-11-01T21:32:36+00:00"
+  },
+  {
+   "id": "4f4d128b3981",
+   "company": "Orange",
+   "title": "Business Analyst Data IA",
+   "url": "https://orange.jobs/fr/fr/job/ICM-588746/Business-Analyst-Data-IA",
+   "reason": "lieu hors zones",
+   "at": "2026-11-01T21:32:22+00:00"
+  },
+  {
+   "id": "2061013de8ff",
+   "company": "Orange",
+   "title": "Stage - Evaluation IA Responsable et Observabilité des agents IA F/H",
+   "url": "https://orange.jobs/fr/fr/job/CTS-2026-55085/Stage-Evaluation-IA-Responsable-et-Observabilité-des-agents-IA-F-H",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-01T21:32:22+00:00"
+  },
+  {
+   "id": "911e02e27036",
+   "company": "Orange",
+   "title": "Expert Data Gouvernance IA F/H",
+   "url": "https://orange.jobs/fr/fr/job/IOS-2026-1876/Expert-Data-Gouvernance-IA-F-H",
+   "reason": "titre exclu (expert)",
+   "at": "2026-11-01T21:32:22+00:00"
+  },
+  {
+   "id": "863a2d6dc7d9",
+   "company": "Orange",
+   "title": "Expert Data Gouvernance IA F/H",
+   "url": "https://orange.jobs/fr/fr/job/IOS-2026-1783/Expert-Data-Gouvernance-IA-F-H",
+   "reason": "titre exclu (expert)",
+   "at": "2026-11-01T21:32:22+00:00"
+  },
+  {
+   "id": "9f26256cf80b",
+   "company": "Orange",
+   "title": "DATA IA F/H",
+   "url": "https://orange.jobs/fr/fr/job/CTS-2026-55259/DATA-IA-F-H",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-01T21:32:21+00:00"
+  },
+  {
+   "id": "8b1b3c06b391",
+   "company": "Orange",
+   "title": "Expert IA - Architecture, IA GEN, Agentique F/H",
+   "url": "https://orange.jobs/fr/fr/job/IOS-2026-2665/Expert-IA-Architecture-IA-GEN-Agentique-F-H",
+   "reason": "titre exclu (expert)",
+   "at": "2026-11-01T21:32:21+00:00"
+  },
+  {
+   "id": "ffd751fa0ffa",
+   "company": "Orange",
+   "title": "Expert IA - Architecture, IA GEN, Agentique F/H",
+   "url": "https://orange.jobs/fr/fr/job/IOS-2026-2674/Expert-IA-Architecture-IA-GEN-Agentique-F-H",
+   "reason": "titre exclu (expert)",
+   "at": "2026-11-01T21:32:21+00:00"
+  },
+  {
+   "id": "cc3aeee9d535",
+   "company": "Orange",
+   "title": "DS - ARCHITECTE IA",
+   "url": "https://orange.jobs/fr/fr/job/ICM-589339/DS-ARCHITECTE-IA",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-01T21:32:21+00:00"
+  },
+  {
+   "id": "916a9c1e2ea0",
+   "company": "Orange",
+   "title": "AI Engineer Consultant",
+   "url": "https://orange.jobs/fr/fr/job/TOB-8619821/AI-Engineer-Consultant",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-01T21:32:19+00:00"
+  },
+  {
+   "id": "164715c2bc48",
+   "company": "Orange",
+   "title": "AI Engineer / Architect Consultant",
+   "url": "https://orange.jobs/fr/fr/job/TOB-7748084/AI-Engineer-Architect-Consultant",
+   "reason": "titre exclu (architect)",
+   "at": "2026-11-01T21:32:19+00:00"
+  },
+  {
+   "id": "5ef90b6e8c92",
+   "company": "Orange",
+   "title": "Head of AI First Program",
+   "url": "https://orange.jobs/fr/fr/job/ICM-589407/Head-of-AI-First-Program",
+   "reason": "titre exclu (head)",
+   "at": "2026-11-01T21:32:19+00:00"
+  },
+  {
+   "id": "6b9b668bef07",
+   "company": "Orange",
+   "title": "Senior Consultant Data & AI",
+   "url": "https://orange.jobs/fr/fr/job/ICM-589338/Senior-Consultant-Data-AI",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-01T21:32:19+00:00"
+  },
+  {
+   "id": "e2597199e922",
+   "company": "Orange",
+   "title": "Senior AI Engineer - Consultant",
+   "url": "https://orange.jobs/fr/fr/job/TOB-8591906/Senior-AI-Engineer-Consultant",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-01T21:32:19+00:00"
+  },
+  {
+   "id": "bd650ca5d5db",
+   "company": "Orange",
+   "title": "Data Catalog Consultant",
+   "url": "https://orange.jobs/fr/fr/job/TOB-8252379/Data-Catalog-Consultant",
+   "reason": "expérience demandée ≥ 3 ans « </p></li><li><p><strong>experience:</strong> 3 to 5 years in data management and 1 »",
+   "at": "2026-11-01T21:32:18+00:00"
+  },
+  {
+   "id": "cd8c11caa3f7",
+   "company": "Orange",
+   "title": "Enterprise AI Architect",
+   "url": "https://orange.jobs/fr/fr/job/ICM-588908/Enterprise-AI-Architect",
+   "reason": "titre exclu (architect)",
+   "at": "2026-11-01T21:32:18+00:00"
+  },
+  {
+   "id": "3bbcc0717bde",
+   "company": "Orange",
+   "title": "Data Solutions Lead",
+   "url": "https://orange.jobs/fr/fr/job/TOB-8378877/Data-Solutions-Lead",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-01T21:32:17+00:00"
+  },
+  {
+   "id": "aa42e040fc27",
+   "company": "Eiffage",
+   "title": "Stage PFE - Aide conducteur travaux/bureau d’étude F/H",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Castres/Stage-PFE---Aide-conducteur-travaux-bureau-d-tude-F-H_JR2023-4949",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-01T21:31:44+00:00"
+  },
+  {
+   "id": "384a39d571a3",
+   "company": "Eiffage",
+   "title": "Aide Maçon VRD F/H",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Saint-Eloi/Aide-Maon-VRD-F-H_JR2025-5950",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-01T21:31:39+00:00"
+  },
+  {
+   "id": "f04b004a780b",
+   "company": "Eiffage",
+   "title": "Stage PFE - Aide conducteur travaux F/H",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Castres/Stage-PFE---Aide-conducteur-travaux-bureau-d-tude-F-H_JR2023-4951",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-01T21:31:39+00:00"
+  },
+  {
+   "id": "19fc3147d1b5",
+   "company": "Eiffage",
+   "title": "Stage PFE - Aide Conducteur de travaux F/H",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Flourens/Stage-PFE---Aide-Conducteur-de-travaux-F-H_JR2023-4893",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-01T21:31:39+00:00"
+  },
+  {
+   "id": "12479613fa15",
+   "company": "Eiffage",
+   "title": "Stage PFE - Aide Conducteur de travaux F/H",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Maxou/Stage-PFE---Aide-Conducteur-de-travaux-F-H_JR2025-5101-1",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-01T21:31:39+00:00"
+  },
+  {
+   "id": "648321b8e1e9",
+   "company": "Eiffage",
+   "title": "Stage PFE - Aide Conducteur de travaux F/H",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Toulouse/Stage-PFE---Aide-Conducteur-de-travaux-F-H_JR2025-5104-1",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-01T21:31:39+00:00"
+  },
+  {
+   "id": "c7763d922fa3",
+   "company": "Eiffage",
+   "title": "Stage en IA et SIRH",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Vlizy-Villacoublay/Stage-en-IA-et-SIRH_JR2026-5585-1",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-01T21:31:38+00:00"
+  },
+  {
+   "id": "4def7b43635a",
+   "company": "Eiffage",
+   "title": "Stage Ingénieur·e IA - H/F",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Pessac/Stage-Ingnieure-IA---H-F_JR2026-5532-1",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-01T21:31:38+00:00"
+  },
+  {
+   "id": "ccdd0d6e69a9",
+   "company": "TotalEnergies",
+   "title": "Thèse CIFRE - Détection d'anomalies dans les centrales photovoltaïques à l'aide de l'IA générative H/F",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Th-se-CIFRE-D-tection-d-anomalies-dans-les-centrales-photovolta-ques-l-aide-de-l-IA-g-n-rative-H-F/85168",
+   "reason": "titre exclu (these)",
+   "at": "2026-11-01T21:31:15+00:00"
+  },
+  {
+   "id": "bfd1a5a97c4a",
+   "company": "AXA",
+   "title": "Head of Tech & AI - UK & Lloyd's and Enabling Functions",
+   "url": "https://careers.axa.com/jobs/24388",
+   "reason": "titre exclu (head)",
+   "at": "2026-11-01T21:29:24+00:00"
+  },
+  {
+   "id": "394e1e53f8dc",
+   "company": "AXA",
+   "title": "AI Engineer Lead",
+   "url": "https://careers.axa.com/jobs/24249",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-01T21:29:17+00:00"
+  },
+  {
+   "id": "d6e8ade2044e",
+   "company": "AXA",
+   "title": "Lead AI Engineer (F/H)",
+   "url": "https://careers.axa.com/jobs/18388",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-01T21:29:17+00:00"
+  },
+  {
+   "id": "79f9fdb80a16",
+   "company": "AXA",
+   "title": "Risques Opérationnels - Transformation par l'IA (F/H) - stage",
+   "url": "https://careers.axa.com/jobs/37101",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-01T21:29:17+00:00"
+  },
+  {
+   "id": "011202f6056a",
+   "company": "AXA",
+   "title": "Chargé d'animation et d'acculturation IA - F/H - CDD WASQUEHAL",
+   "url": "https://careers.axa.com/jobs/35907",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-01T21:29:17+00:00"
+  },
+  {
+   "id": "54f7a74a171c",
+   "company": "AXA",
+   "title": "Chargé d'animation et d'acculturation IA - F/H - CDD MARSEILLE",
+   "url": "https://careers.axa.com/jobs/35906",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-01T21:29:17+00:00"
+  },
+  {
+   "id": "dbb7c2334950",
+   "company": "AXA",
+   "title": "Stage – Janvier 27 - Juriste Protection des données & conformité IA (F/H)",
+   "url": "https://careers.axa.com/jobs/28600",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-01T21:29:17+00:00"
+  },
+  {
+   "id": "6abd4fff6e4e",
+   "company": "AXA",
+   "title": "AIS Change Technology Enablement Manager",
+   "url": "https://careers.axa.com/jobs/29107",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-01T21:29:17+00:00"
+  },
+  {
+   "id": "a17fd336093a",
+   "company": "AXA",
+   "title": "AI Engineer Lead",
+   "url": "https://careers.axa.com/jobs/28023",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-01T21:29:13+00:00"
+  },
+  {
+   "id": "2650de1725cc",
+   "company": "AXA",
+   "title": "Architecte solutions data & IA F/H – Nanterre / Wasquehal",
+   "url": "https://careers.axa.com/jobs/34189",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-01T21:29:13+00:00"
+  },
+  {
+   "id": "646091eb0710",
+   "company": "AXA",
+   "title": "Head of Technology & AI, APAC, Europe and ESS",
+   "url": "https://careers.axa.com/jobs/24153",
+   "reason": "titre exclu (head)",
+   "at": "2026-11-01T21:29:13+00:00"
+  },
+  {
+   "id": "57aa5edd00c8",
+   "company": "AXA",
+   "title": "Ingenieur IA expert",
+   "url": "https://careers.axa.com/jobs/24552",
+   "reason": "titre exclu (expert)",
+   "at": "2026-11-01T21:29:09+00:00"
+  },
+  {
+   "id": "0587c1c1537f",
+   "company": "BPCE",
+   "title": "AI Governance & Risk transformation specialist- ERM (H/F)",
+   "url": "https://recrutement.bpce.fr/job/ai-governance-risk-transformation-specialist-erm-h-f",
+   "reason": "expérience demandée ≥ 10 ans « it.e pour travailler avec nous : • vous avez 10 ans d'experience dans des fo »",
+   "at": "2026-11-01T21:28:22+00:00"
+  },
+  {
+   "id": "c0306f4e6189",
+   "company": "BPCE",
+   "title": "Aide Installateur - Logistique F/H",
+   "url": "https://recrutement.bpce.fr/job/aide-installateur-logistique-f-h",
+   "reason": "stage / alternance « region region type de contrat type de contrat stage - 6 mois - assistant relation »",
+   "at": "2026-11-01T21:28:14+00:00"
+  },
+  {
+   "id": "b8f1f909f948",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Développeur Full Stack & IA - Support Applicatif F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-developpeur-full-stack-ia-support-applicatif-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-01T21:28:14+00:00"
+  },
+  {
+   "id": "a25e6cef702e",
+   "company": "BPCE",
+   "title": "Tech Lead IA Paiement F/H",
+   "url": "https://recrutement.bpce.fr/job/tech-lead-ia-paiement-f-h",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-01T21:28:14+00:00"
+  },
+  {
+   "id": "578d21980458",
+   "company": "BPCE",
+   "title": "Chargé d'affaires professionnel spécialisé en Assurances IARD (H/F) - Secteur Chartres/Blois",
+   "url": "https://recrutement.bpce.fr/job/charge-daffaires-professionnel-specialise-en-assurances-iard-h-f-secteur-chartres-blois",
+   "reason": "lieu hors zones",
+   "at": "2026-11-01T21:28:06+00:00"
+  },
+  {
+   "id": "0a4495276310",
+   "company": "BPCE",
+   "title": "Chargé relation commerciale à distance spécialisé IARD/Conso",
+   "url": "https://recrutement.bpce.fr/job/charge-relation-commerciale-a-distance-specialise-iard-conso",
+   "reason": "lieu hors zones",
+   "at": "2026-11-01T21:27:58+00:00"
+  },
+  {
+   "id": "98237bca637b",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Développeur d'outils économétriques (Python/IA agentique) F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-developpeur-doutils-econometriques-python-ia-agentique-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-01T21:27:58+00:00"
+  },
+  {
+   "id": "6a6d7ebbc88d",
+   "company": "BPCE",
+   "title": "CDD CONSEILLER ACCUEIL BANCAIRE AGENCE AIGUILLON (47)",
+   "url": "https://recrutement.bpce.fr/job/cdd-conseiller-accueil-bancaire-agence-aiguillon-47",
+   "reason": "lieu hors zones",
+   "at": "2026-11-01T21:27:50+00:00"
+  },
+  {
+   "id": "3d7e7d0de87d",
+   "company": "BPCE",
+   "title": "Spécialiste en IARD Professionnel H/F - externe",
+   "url": "https://recrutement.bpce.fr/job/specialiste-en-iard-professionnel-h-f-externe",
+   "reason": "lieu hors zones",
+   "at": "2026-11-01T21:27:42+00:00"
+  },
+  {
+   "id": "e4caa505fa00",
+   "company": "BPCE",
+   "title": "Stage - 3 à 6 mois - Ingénieur Sécurité et IA Agentique F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-3-a-6-mois-ingenieur-securite-et-ia-agentique-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-01T21:27:42+00:00"
+  },
+  {
+   "id": "2e2ef2156efa",
+   "company": "BPCE",
+   "title": "Responsable Régional Assurances IARD - BP AURA F/H",
+   "url": "https://recrutement.bpce.fr/job/responsable-regional-assurances-iard-bp-aura-f-h",
+   "reason": "lieu hors zones",
+   "at": "2026-11-01T21:27:34+00:00"
+  },
+  {
+   "id": "c474199271d8",
+   "company": "BPCE",
+   "title": "Stage (6 mois) - Chef de projet IA – Transformation des usages - Paris - F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-chef-de-projet-ia-transformation-des-usages-paris-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-01T21:27:34+00:00"
+  },
+  {
+   "id": "e181314016f9",
+   "company": "BPCE",
+   "title": "Chargé de Clientèle Particuliers (F/H) - Aix-en-Provence",
+   "url": "https://recrutement.bpce.fr/job/charge-de-clientele-particuliers-f-h-aix-en-provence",
+   "reason": "lieu hors zones",
+   "at": "2026-11-01T21:27:26+00:00"
+  },
+  {
+   "id": "c2893412f09a",
+   "company": "BPCE",
+   "title": "Stage - Développeur Logiciel & Solutions IA (F/H) - PERPIGNAN",
+   "url": "https://recrutement.bpce.fr/job/stage-developpeur-logiciel-solutions-ia-f-h-perpignan",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-01T21:27:26+00:00"
+  },
+  {
+   "id": "2183acb9b8be",
+   "company": "Crédit Agricole",
+   "title": "Stagiaire transformation IA Conformité H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170469-122-stagiaire-transformation-ia-conformite-hf-reference--2026-116516--/",
+   "reason": "titre exclu (stagiaire)",
+   "at": "2026-11-01T21:26:02+00:00"
+  },
+  {
+   "id": "9c2014998ee6",
+   "company": "Société Générale",
+   "title": "AI & Agentic Software Engineering",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/ai-agentic-software-engineering-26000M98-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-01T21:25:34+00:00"
+  },
+  {
+   "id": "09c315287284",
+   "company": "Société Générale",
+   "title": "Responsable des contrôles du Front Office et de la transformation IA",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/responsable-des-controles-du-front-office-et-de-la-transformation-ia-26000ICI-fr",
+   "reason": "lieu hors zones",
+   "at": "2026-11-01T21:25:33+00:00"
+  },
+  {
+   "id": "81d9aca1a675",
+   "company": "Société Générale",
+   "title": "Chargé d'animation IA et RSE",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/charge-danimation-ia-et-rse-26000L7W-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-01T21:25:31+00:00"
+  },
+  {
+   "id": "ba88b03f118f",
+   "company": "Société Générale",
+   "title": "Développeur IA Python / JavaScript",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/developpeur-ia-python-javascript-26000LW7-fr",
+   "reason": "lieu hors zones",
+   "at": "2026-11-01T21:25:30+00:00"
+  },
+  {
+   "id": "5047c7ea3ebf",
+   "company": "Société Générale",
+   "title": "Architecte Expert IA",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/architecte-expert-ia-26000C0X-fr",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-01T21:25:28+00:00"
+  },
+  {
+   "id": "204c9ec20068",
+   "company": "Société Générale",
+   "title": "Chargé de Développement et Adoption IA",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/charge-de-developpement-et-adoption-ia-26000LV4-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-01T21:25:28+00:00"
+  },
+  {
+   "id": "464b0a3fac23",
+   "company": "SBB CFF FFS",
+   "title": "Gleisbauer:in, Rangierbegleiter:in Ai als Gleis-Baumaschinenbegleiter:in",
+   "url": "https://jobs.sbb.ch/v2/offene-stellen/gleisbauer-in-rangierbegleiter-in-ai-als-gleis-baumaschinenbegleiter-in/1699b34c-f807-45b0-bce4-e118d7be9f3d",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « Zusätzlich bringst du zwingend Praxiserfahrung im Gleisbau mit. »",
+   "at": "2026-11-01T21:24:26+00:00"
+  },
+  {
+   "id": "cb570dc572e1",
+   "company": "SBB CFF FFS",
+   "title": "AI Portfolio & Process Manager Marketing",
+   "url": "https://jobs.sbb.ch/v2/offene-stellen/ai-portfolio-process-manager-marketing/b2213421-b609-4ace-9eea-b85259de5fb1",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-01T21:24:26+00:00"
+  },
+  {
+   "id": "e2a26d9ec5bf",
+   "company": "SBB CFF FFS",
+   "title": "Formateur·trice pratique conducteur·trices véhicules moteurs cat.Ai40-B100",
+   "url": "https://jobs.sbb.ch/v2/offene-stellen/formateurtrice-pratique-conducteurtrices-vehicules-moteurs-cat-ai40-b100/248314ed-0aa5-4815-b6e5-74c804f015aa",
+   "reason": "expérience demandée ≥ 5 ans « ns le domaine de specialite a enseigner avec 5 ans d'experience professionn »",
+   "at": "2026-11-01T21:24:24+00:00"
+  },
+  {
+   "id": "30f164c71980",
+   "company": "Alstom",
+   "title": "AI Engineer",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-AI-Engineer-KA/1424297033/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-01T21:23:43+00:00"
+  },
+  {
+   "id": "b8c43ae4a70b",
+   "company": "Alstom",
+   "title": "Stage - 6 mois - documentaliste IA H/F- Projet construction métro",
+   "url": "https://jobsearch.alstom.com/job/Toulouse-Stage-6-mois-documentaliste-IA-HF-Projet-construction-m%C3%A9tro-31/1452098733/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-01T21:23:43+00:00"
+  },
+  {
+   "id": "1c911a498c26",
+   "company": "Alstom",
+   "title": "Stage documentaliste IA",
+   "url": "https://jobsearch.alstom.com/job/Toulouse-Stage-documentaliste-IA-31/1452098833/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-01T21:23:43+00:00"
+  },
+  {
+   "id": "b2493890cb5f",
+   "company": "Alstom",
+   "title": "STAGE - 6 mois - Ingénieur IA et machine learning H/F",
+   "url": "https://jobsearch.alstom.com/job/Saint-Ouen-STAGE-6-mois-Ing%C3%A9nieur-IA-et-machine-learning-HF/1449689133/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-01T21:23:43+00:00"
+  },
+  {
+   "id": "05c5df13c9fe",
+   "company": "Alstom",
+   "title": "Stage 6 mois - Ingénieur.e Data IA pour Supply Chain (F/H)",
+   "url": "https://jobsearch.alstom.com/job/Villeurbanne-Stage-6-mois-Ing%C3%A9nieur_e-Data-IA-pour-Supply-Chain-%28FH%29-69/1445290533/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-01T21:23:43+00:00"
+  },
+  {
+   "id": "3f9a20370f3c",
+   "company": "Alstom",
+   "title": "Stage 6 mois - Ingénieur.e Automatisation / Data / IA pour les outils de la Supply Chain (F/H)",
+   "url": "https://jobsearch.alstom.com/job/Villeurbanne-Stage-6-mois-Ing%C3%A9nieur_e-Automatisation-Data-IA-pour-les-outils-de-la-Supply-Chain-%28FH%29-69/1445291033/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-01T21:23:43+00:00"
+  },
+  {
+   "id": "4c937a246aa4",
+   "company": "Alstom",
+   "title": "Stage 6 mois - Ingénieur.e Recherche IA (F/H)",
+   "url": "https://jobsearch.alstom.com/job/Villeurbanne-Stage-6-mois-Ing%C3%A9nieur_e-Recherche-IA-%28FH%29/1445265433/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-01T21:23:43+00:00"
+  },
+  {
+   "id": "940f2975687a",
+   "company": "Alstom",
+   "title": "Stage - 6 mois - IA Evaluation & REQ Management Processes F/H",
+   "url": "https://jobsearch.alstom.com/job/Saint-Ouen-Stage-6-mois-IA-Evaluation-&-REQ-Management-Processes-FH/1444654933/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-01T21:23:43+00:00"
+  },
+  {
+   "id": "d01d2eb704fa",
+   "company": "Alstom",
+   "title": "Stage - IA Evaluation- REQ Management Processes",
+   "url": "https://jobsearch.alstom.com/job/Saint-Ouen-Stage-IA-Evaluation-REQ-Management-Processes/1444655033/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-01T21:23:43+00:00"
+  },
+  {
+   "id": "f31c7e994723",
+   "company": "Alstom",
+   "title": "Railway AI solution System Designer 1",
+   "url": "https://jobsearch.alstom.com/job/Saint-Ouen-Railway-AI-solution-System-Designer-1-J/1392932733/",
+   "reason": "expérience demandée ≥ 3 ans « programs in on prem and cloud environments • proven experience in data engineering and »",
+   "at": "2026-11-01T21:23:41+00:00"
+  },
+  {
+   "id": "9c49838c4171",
+   "company": "Alstom",
+   "title": "AI Governance - Specialist",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-AI-Governance-Specialist/1400336433/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-01T21:23:40+00:00"
+  },
+  {
+   "id": "bb57662b2969",
+   "company": "Alstom",
+   "title": "Railway AI solution Program Manager (W/M)",
+   "url": "https://jobsearch.alstom.com/job/Saint-Ouen-Railway-AI-solution-Program-Manager-%28WM%29-J/1389894233/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-01T21:23:40+00:00"
+  },
+  {
+   "id": "3b6eda8b7387",
+   "company": "Alstom",
+   "title": "Railway AI solution Program Manager (W/M)",
+   "url": "https://jobsearch.alstom.com/job/Saint-Ouen-Railway-AI-solution-Program-Manager-%28WM%29-J/1387734733/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-01T21:23:40+00:00"
+  },
+  {
+   "id": "6aaccd95fe01",
+   "company": "Alstom",
+   "title": "AI and Transformation Manager (H/F)",
+   "url": "https://jobsearch.alstom.com/job/Saint-Ouen-AI-and-Transformation-Manager-%28HF%29/1404348333/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-01T21:23:40+00:00"
+  },
+  {
+   "id": "66dfdf76ff29",
+   "company": "Alstom",
+   "title": "AI Project Specialist",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-AI-Project-Specialist/1448921933/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-01T21:23:38+00:00"
+  },
+  {
+   "id": "2b8e44493ff1",
+   "company": "Alstom",
+   "title": "AI Requirement Management for Product Internship",
+   "url": "https://jobsearch.alstom.com/job/Sesto-San-Giovanni-AI-Requirement-Management-for-Product-Internship/1442782633/",
+   "reason": "titre exclu (internship)",
+   "at": "2026-11-01T21:23:38+00:00"
+  },
+  {
+   "id": "50c4ec10211b",
+   "company": "Alstom",
+   "title": "Railway AI solution Program Manager (W/M) 1",
+   "url": "https://jobsearch.alstom.com/job/Saint-Ouen-Railway-AI-solution-Program-Manager-%28WM%29-1-J/1402176833/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-01T21:23:37+00:00"
+  },
+  {
+   "id": "c4a83c0d8f8b",
+   "company": "Alstom",
+   "title": "IAM Expert",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-IAM-Expert-KA/1422951533/",
+   "reason": "titre exclu (expert)",
+   "at": "2026-11-01T21:23:37+00:00"
+  },
+  {
+   "id": "d8b0d20542ef",
+   "company": "SNCF",
+   "title": "Aiguilleur du rail (F/H) - CDI - MULHOUSE",
+   "url": "https://emploi.sncf.com/nos-offres/871142",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-01T21:23:14+00:00"
+  },
+  {
+   "id": "7f64b00052e2",
+   "company": "SNCF",
+   "title": "Titre IV Aiguilleur du rail (F/H) - ALTERNANCE - Villefranche-de-Conflent",
+   "url": "https://emploi.sncf.com/nos-offres/885492",
+   "reason": "titre exclu (alternance)",
+   "at": "2026-11-01T21:23:14+00:00"
+  },
+  {
+   "id": "92333315221c",
+   "company": "SNCF",
+   "title": "Titre IV Aiguilleur du rail (F/H) - ALTERNANCE - Genolhac",
+   "url": "https://emploi.sncf.com/nos-offres/885493",
+   "reason": "titre exclu (alternance)",
+   "at": "2026-11-01T21:23:14+00:00"
+  },
+  {
+   "id": "c0110c1c547a",
+   "company": "SNCF",
+   "title": "Aiguilleur du rail (F/H) - CDI - LANGRES",
+   "url": "https://emploi.sncf.com/nos-offres/885587",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-01T21:23:13+00:00"
+  },
+  {
+   "id": "b9ba79ea44ab",
+   "company": "SNCF",
+   "title": "Valserhône, Ain (01)",
+   "url": "https://emploi.sncf.com/nos-offres/75660",
+   "reason": "expérience demandée ≥ 11 ans « rhone (69) cdi de 3 a 5 ans, de 6 a 10 ans, plus de 10 ans, moins de 3 ans, debutan »",
+   "at": "2026-11-01T21:23:12+00:00"
+  },
+  {
+   "id": "a3c26f430885",
+   "company": "SNCF",
+   "title": "Ambérieu-En-Bugey, Ain (01)",
+   "url": "https://emploi.sncf.com/nos-offres/68898",
+   "reason": "expérience demandée ≥ 11 ans « rhone (69) cdi de 3 a 5 ans, de 6 a 10 ans, plus de 10 ans, moins de 3 ans, debutan »",
+   "at": "2026-11-01T21:23:10+00:00"
+  },
+  {
+   "id": "9ec37c79e1cf",
+   "company": "SNCF",
+   "title": "Laon, Aisne (02)",
+   "url": "https://emploi.sncf.com/nos-offres/61495",
+   "reason": "expérience demandée ≥ 11 ans « rhone (69) cdi de 3 a 5 ans, de 6 a 10 ans, plus de 10 ans, moins de 3 ans, debutan »",
+   "at": "2026-11-01T21:23:09+00:00"
+  },
+  {
+   "id": "6a6f6ed9a942",
+   "company": "SNCF",
+   "title": "Montluel, Ain (01)",
+   "url": "https://emploi.sncf.com/nos-offres/60690",
+   "reason": "expérience demandée ≥ 11 ans « rhone (69) cdi de 3 a 5 ans, de 6 a 10 ans, plus de 10 ans, moins de 3 ans, debutan »",
+   "at": "2026-11-01T21:23:08+00:00"
+  },
+  {
+   "id": "f9adaa38ad35",
+   "company": "SNCF",
+   "title": "Tergnier, Aisne (02)",
+   "url": "https://emploi.sncf.com/nos-offres/58283",
+   "reason": "expérience demandée ≥ 11 ans « rhone (69) cdi de 3 a 5 ans, de 6 a 10 ans, plus de 10 ans, moins de 3 ans, debutan »",
+   "at": "2026-11-01T21:23:06+00:00"
+  },
+  {
+   "id": "3b2e80365471",
+   "company": "SNCF",
+   "title": "Bourg-En-Bresse, Ain (01)",
+   "url": "https://emploi.sncf.com/nos-offres/57583",
+   "reason": "expérience demandée ≥ 11 ans « rhone (69) cdi de 3 a 5 ans, de 6 a 10 ans, plus de 10 ans, moins de 3 ans, debutan »",
+   "at": "2026-11-01T21:23:04+00:00"
+  },
+  {
+   "id": "1d72c229e114",
+   "company": "SNCF",
+   "title": "Aiguilleur du rail (F/H) - CDI - NANTES",
+   "url": "https://emploi.sncf.com/nos-offres/853381",
+   "reason": "lieu hors zones",
+   "at": "2026-11-01T21:23:02+00:00"
+  },
+  {
+   "id": "52c4e3c32657",
+   "company": "SNCF",
+   "title": "Aiguilleur du rail (F/H) - CDI - MAGLAND",
+   "url": "https://emploi.sncf.com/nos-offres/826245",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-01T21:23:01+00:00"
+  },
+  {
+   "id": "ea4a8005bfe5",
+   "company": "Air France",
+   "title": "TECHNICIEN DOCUMENTAIRE FRET Air France KLM Cargo LYON F/H",
+   "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25713&idOrigine=502&offerReference=2026-25713",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-01T21:22:59+00:00"
+  },
+  {
+   "id": "067d9675b35a",
+   "company": "Air France",
+   "title": "Mécanicienne/Mécanicien maintenance équipements Air France F/H",
+   "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=23566&idOrigine=502&offerReference=2026-23566",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-01T21:22:57+00:00"
+  },
   {
    "id": "30c513ea6bd0",
    "company": "Orange",
