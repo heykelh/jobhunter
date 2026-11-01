@@ -1,6 +1,156 @@
 {
- "updated": "2026-11-01T21:49:25+00:00",
+ "updated": "2026-11-01T22:54:13+00:00",
  "jobs": [
+  {
+   "id": "d1c4900849de",
+   "company": "Seequalis",
+   "title": "Consultant Rédacteur Technique IA H/F Seequalis",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84866186.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-10-27T18:26:29+00:00",
+   "seed": false,
+   "rv": 3,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-01T22:54:04+00:00",
+   "last_seen": "2026-11-01T22:54:04+00:00"
+  },
+  {
+   "id": "d883d27871ab",
+   "company": "MP Data",
+   "title": "Data Scientist - IA Générative H/F MP Data",
+   "url": "https://www.hellowork.com/fr-fr/emplois/77282260.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "2 ans min. · junior",
+   "junior": true,
+   "published": "2026-10-28T00:14:51+00:00",
+   "seed": false,
+   "rv": 3,
+   "match": {
+    "score": 64,
+    "have": [
+     "python",
+     "aws",
+     "machine learning",
+     "llm",
+     "rag",
+     "pilotage",
+     "business analyst"
+    ],
+    "missing": [
+     "azure",
+     "gcp",
+     "tensorflow",
+     "pytorch"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-01T22:53:50+00:00",
+   "last_seen": "2026-11-01T22:53:50+00:00"
+  },
+  {
+   "id": "a610df386709",
+   "company": "Epsyl",
+   "title": "Développeur C++ - IA Embarquée H/F Epsyl",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82859252.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-01T00:08:11+00:00",
+   "seed": false,
+   "rv": 3,
+   "match": {
+    "score": 67,
+    "have": [
+     "python",
+     "intelligence artificielle"
+    ],
+    "missing": [
+     "git"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-01T22:53:21+00:00",
+   "last_seen": "2026-11-01T22:53:21+00:00"
+  },
+  {
+   "id": "2a4aeac53220",
+   "company": "CCL CONSULTING",
+   "title": "Ingénieur MLOps-IA H/F CCL CONSULTING",
+   "url": "https://www.hellowork.com/fr-fr/emplois/80527759.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "1 an min.",
+   "junior": true,
+   "published": "2026-10-25T00:07:07+00:00",
+   "seed": false,
+   "rv": 3,
+   "match": {
+    "score": 50,
+    "have": [
+     "python",
+     "aws",
+     "docker",
+     "machine learning",
+     "intelligence artificielle"
+    ],
+    "missing": [
+     "airflow",
+     "azure",
+     "gcp",
+     "kubernetes",
+     "terraform"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-01T22:53:06+00:00",
+   "last_seen": "2026-11-01T22:53:06+00:00"
+  },
+  {
+   "id": "2ec39f043816",
+   "company": "Team.is",
+   "title": "IA - Ml Engineer H/F Team.is",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84967172.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "2 ans min. · junior",
+   "junior": true,
+   "published": "2026-10-30T01:55:40+00:00",
+   "seed": false,
+   "rv": 3,
+   "match": {
+    "score": 71,
+    "have": [
+     "python",
+     "machine learning",
+     "intelligence artificielle",
+     "business analyst",
+     "anglais"
+    ],
+    "missing": [
+     "modélisation",
+     "statistiques"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-01T22:52:49+00:00",
+   "last_seen": "2026-11-01T22:52:49+00:00"
+  },
   {
    "id": "2e7b96a064e9",
    "company": "DFM",
@@ -18,7 +168,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-01T21:49:06+00:00",
-   "last_seen": "2026-11-01T21:49:06+00:00"
+   "last_seen": "2026-11-01T22:52:43+00:00"
   },
   {
    "id": "a5a963f97fd8",
@@ -54,7 +204,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-01T21:48:48+00:00",
-   "last_seen": "2026-11-01T21:48:48+00:00"
+   "last_seen": "2026-11-01T22:52:43+00:00"
   },
   {
    "id": "b2d5dc5bfeb1",
@@ -73,7 +223,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-01T21:48:36+00:00",
-   "last_seen": "2026-11-01T21:48:36+00:00"
+   "last_seen": "2026-11-01T22:52:43+00:00"
   },
   {
    "id": "30db7fd81f59",
@@ -115,7 +265,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-01T21:48:22+00:00",
-   "last_seen": "2026-11-01T21:48:22+00:00"
+   "last_seen": "2026-11-01T22:52:43+00:00"
   },
   {
    "id": "34e6c3122830",
@@ -148,7 +298,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-01T21:48:15+00:00",
-   "last_seen": "2026-11-01T21:48:15+00:00"
+   "last_seen": "2026-11-01T22:52:43+00:00"
   },
   {
    "id": "79f0258fceb1",
@@ -179,7 +329,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-01T21:48:03+00:00",
-   "last_seen": "2026-11-01T21:48:03+00:00"
+   "last_seen": "2026-11-01T22:52:43+00:00"
   },
   {
    "id": "e2063676fdc9",
@@ -218,7 +368,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-01T21:47:44+00:00",
-   "last_seen": "2026-11-01T21:47:44+00:00"
+   "last_seen": "2026-11-01T22:52:43+00:00"
   },
   {
    "id": "2a78a8afbbcb",
@@ -250,7 +400,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-01T21:47:23+00:00",
-   "last_seen": "2026-11-01T21:47:23+00:00"
+   "last_seen": "2026-11-01T22:52:43+00:00"
   },
   {
    "id": "c9ff7918479e",
@@ -286,7 +436,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-01T21:46:59+00:00",
-   "last_seen": "2026-11-01T21:46:59+00:00"
+   "last_seen": "2026-11-01T22:52:43+00:00"
   },
   {
    "id": "256640b3e82d",
@@ -321,7 +471,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-01T21:46:50+00:00",
-   "last_seen": "2026-11-01T21:46:50+00:00"
+   "last_seen": "2026-11-01T22:52:43+00:00"
   },
   {
    "id": "0cd6c2c7cff6",
@@ -387,7 +537,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-31T10:58:00+00:00",
-   "last_seen": "2026-11-01T21:46:47+00:00"
+   "last_seen": "2026-11-01T22:52:43+00:00"
   },
   {
    "id": "5fc6efc22fad",
@@ -421,7 +571,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-31T10:57:50+00:00",
-   "last_seen": "2026-11-01T21:46:47+00:00"
+   "last_seen": "2026-11-01T22:52:43+00:00"
   },
   {
    "id": "d9cf2064efdc",
@@ -450,7 +600,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T23:01:01+00:00",
-   "last_seen": "2026-11-01T21:46:47+00:00"
+   "last_seen": "2026-11-01T22:52:43+00:00"
   },
   {
    "id": "408015d34413",
@@ -480,7 +630,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:05:11+00:00",
-   "last_seen": "2026-11-01T21:46:47+00:00"
+   "last_seen": "2026-11-01T22:52:43+00:00"
   },
   {
    "id": "1681814ac371",
@@ -510,7 +660,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:05:09+00:00",
-   "last_seen": "2026-11-01T21:46:47+00:00"
+   "last_seen": "2026-11-01T22:52:43+00:00"
   },
   {
    "id": "4836d00096e4",
@@ -540,7 +690,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:05:03+00:00",
-   "last_seen": "2026-11-01T21:46:47+00:00"
+   "last_seen": "2026-11-01T22:52:43+00:00"
   },
   {
    "id": "731ef6e4866b",
@@ -576,7 +726,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:04:54+00:00",
-   "last_seen": "2026-11-01T21:46:47+00:00"
+   "last_seen": "2026-11-01T22:52:43+00:00"
   },
   {
    "id": "562c24864dfe",
@@ -612,7 +762,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:04:40+00:00",
-   "last_seen": "2026-11-01T21:46:47+00:00"
+   "last_seen": "2026-11-01T22:52:43+00:00"
   },
   {
    "id": "42e5b862c50d",
@@ -641,7 +791,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:04:28+00:00",
-   "last_seen": "2026-11-01T21:46:47+00:00"
+   "last_seen": "2026-11-01T22:52:43+00:00"
   },
   {
    "id": "bbf4bae9d59c",
@@ -677,7 +827,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:04:27+00:00",
-   "last_seen": "2026-11-01T21:46:47+00:00"
+   "last_seen": "2026-11-01T22:52:43+00:00"
   },
   {
    "id": "34748263bec3",
@@ -696,7 +846,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-30T19:04:21+00:00",
-   "last_seen": "2026-11-01T21:46:47+00:00"
+   "last_seen": "2026-11-01T22:52:43+00:00"
   },
   {
    "id": "f096901aa5eb",
@@ -726,7 +876,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:04:18+00:00",
-   "last_seen": "2026-11-01T21:46:47+00:00"
+   "last_seen": "2026-11-01T22:52:43+00:00"
   },
   {
    "id": "40d90c8a1f93",
@@ -787,7 +937,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:03:46+00:00",
-   "last_seen": "2026-11-01T21:46:47+00:00"
+   "last_seen": "2026-11-01T22:52:43+00:00"
   },
   {
    "id": "a5e0c80db489",
@@ -818,7 +968,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:03:44+00:00",
-   "last_seen": "2026-11-01T21:46:47+00:00"
+   "last_seen": "2026-11-01T22:52:43+00:00"
   },
   {
    "id": "849da40b493c",
@@ -837,7 +987,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-30T19:03:27+00:00",
-   "last_seen": "2026-11-01T21:46:47+00:00"
+   "last_seen": "2026-11-01T22:52:43+00:00"
   },
   {
    "id": "edc51343e774",
@@ -856,7 +1006,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-30T19:03:07+00:00",
-   "last_seen": "2026-11-01T21:46:47+00:00"
+   "last_seen": "2026-11-01T22:52:43+00:00"
   },
   {
    "id": "29916257c286",
@@ -883,7 +1033,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:02:49+00:00",
-   "last_seen": "2026-11-01T21:46:47+00:00"
+   "last_seen": "2026-11-01T22:52:43+00:00"
   },
   {
    "id": "2f4e3da91567",
@@ -912,7 +1062,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:02:42+00:00",
-   "last_seen": "2026-11-01T21:46:47+00:00"
+   "last_seen": "2026-11-01T22:52:43+00:00"
   },
   {
    "id": "21a5bbbf5ece",
@@ -944,7 +1094,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:02:26+00:00",
-   "last_seen": "2026-11-01T21:46:47+00:00"
+   "last_seen": "2026-11-01T22:52:43+00:00"
   },
   {
    "id": "5b3881dadaac",
@@ -963,7 +1113,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-30T19:02:19+00:00",
-   "last_seen": "2026-11-01T21:46:47+00:00"
+   "last_seen": "2026-11-01T22:52:43+00:00"
   },
   {
    "id": "73160bd26650",
@@ -993,7 +1143,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:02:07+00:00",
-   "last_seen": "2026-11-01T21:46:47+00:00"
+   "last_seen": "2026-11-01T22:52:43+00:00"
   },
   {
    "id": "e41464344282",
@@ -1062,7 +1212,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:01:27+00:00",
-   "last_seen": "2026-11-01T21:46:47+00:00"
+   "last_seen": "2026-11-01T22:52:43+00:00"
   },
   {
    "id": "7adf5a795565",
@@ -1091,7 +1241,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:01:17+00:00",
-   "last_seen": "2026-11-01T21:46:47+00:00"
+   "last_seen": "2026-11-01T22:52:43+00:00"
   },
   {
    "id": "8923e30827d8",
@@ -1110,7 +1260,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-30T19:01:03+00:00",
-   "last_seen": "2026-11-01T21:46:47+00:00"
+   "last_seen": "2026-11-01T22:52:43+00:00"
   },
   {
    "id": "39c382d9b83c",
@@ -1129,7 +1279,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-30T19:00:56+00:00",
-   "last_seen": "2026-11-01T21:46:47+00:00"
+   "last_seen": "2026-11-01T22:52:43+00:00"
   },
   {
    "id": "5ad3e638d32e",
@@ -1157,7 +1307,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:00:40+00:00",
-   "last_seen": "2026-11-01T21:46:47+00:00"
+   "last_seen": "2026-11-01T22:52:43+00:00"
   },
   {
    "id": "94b13a3e9bc5",
@@ -1198,7 +1348,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:00:22+00:00",
-   "last_seen": "2026-11-01T21:46:47+00:00"
+   "last_seen": "2026-11-01T22:52:43+00:00"
   },
   {
    "id": "2c5497dc19f3",
@@ -1217,7 +1367,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-30T19:00:11+00:00",
-   "last_seen": "2026-11-01T21:46:47+00:00"
+   "last_seen": "2026-11-01T22:52:43+00:00"
   }
  ]
 }

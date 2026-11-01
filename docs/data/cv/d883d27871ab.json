@@ -1,0 +1,170 @@
+{
+ "titre": "Data Scientist IA Générative",
+ "profil": "Data Scientist avec 13 ans d’expérience au sein du groupe SNCF, spécialisé dans les environnements industriels critiques. Titulaire d’un Master Data Engineer/Data Product Manager (Mines Paris‑PSL). Expérience confirmée sur plus de 15 projets data, incluant IA générative et mise en production.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Excel",
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "AWS",
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "RAG",
+    "LangChain / LangGraph",
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "prisme",
+   "titre": "PRISME : copilote d'audit AI Act",
+   "stack": "Python, FastAPI, RAG, Supabase (pgvector), Groq",
+   "lien": "",
+   "tags": [
+    "ai act",
+    "audit",
+    "conformité",
+    "ia",
+    "intelligence artificielle",
+    "rag",
+    "llm",
+    "réglementaire",
+    "api"
+   ],
+   "puces": [
+    "Mise en place d’un RAG pour rechercher dans les textes réglementaires AI Act via une base vectorielle pgvector.",
+    "Déploiement d’un backend FastAPI sur Render, assurant l’industrialisation du service."
+   ]
+  },
+  {
+   "id": "regard",
+   "titre": "REGARD : copilote de conformité bancaire",
+   "stack": "LangGraph.js, Groq, Supabase (pgvector), Langfuse",
+   "lien": "regard-wine.vercel.app",
+   "tags": [
+    "conformité",
+    "compliance",
+    "banque",
+    "bancaire",
+    "réglementaire",
+    "lcb-ft",
+    "kyc",
+    "ia",
+    "llm",
+    "rag",
+    "risque"
+   ],
+   "puces": [
+    "Copilote de conformité bancaire où l’IA génère les synthèses à partir de règles métier.",
+    "Gestion de 28 cas de test avec suivi des appels grâce à Langfuse."
+   ]
+  },
+  {
+   "id": "customer-experience",
+   "titre": "Customer Experience Intelligence : analyse et dataviz",
+   "stack": "Python, Power BI",
+   "lien": "github.com/heykelh/customer-experience-intelligence",
+   "tags": [
+    "client",
+    "clients",
+    "expérience client",
+    "marketing",
+    "kpi",
+    "dashboard",
+    "tableau de bord",
+    "power bi",
+    "reporting",
+    "analyse",
+    "satisfaction",
+    "parcours"
+   ],
+   "puces": [
+    "Analyse exploratoire des données clients pour identifier tendances et anomalies impactant la performance industrielle.",
+    "Création de tableaux de bord Power BI interactifs destinés aux décideurs métier."
+   ]
+  },
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Modélisation de processus de recouvrement et rédaction de spécifications fonctionnelles pour un SI Crédit.",
+    "Publication en ligne de la cartographie des processus et du plan de tests."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "azure",
+  "gcp",
+  "tensorflow",
+  "pytorch"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "d883d27871ab",
+ "entreprise": "MP Data",
+ "intitule_offre": "Data Scientist - IA Générative H/F MP Data",
+ "url_offre": "https://www.hellowork.com/fr-fr/emplois/77282260.html",
+ "genere_le": "2026-11-01T22:53:53+00:00"
+}

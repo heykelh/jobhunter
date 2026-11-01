@@ -1,6 +1,134 @@
 {
- "updated": "2026-11-01T21:49:25+00:00",
+ "updated": "2026-11-01T22:54:13+00:00",
  "items": [
+  {
+   "id": "a15e8f149925",
+   "company": "HelloWork",
+   "title": "Responsable Transformation IA Commerciale H/F CHATEAUFORM",
+   "url": "https://www.hellowork.com/fr-fr/emplois/80541504.html",
+   "reason": "expérience demandée ≥ 5 ans « ss/tech sera fortement valorisee. experience 5 a 10 ans d'experience, idealement »",
+   "at": "2026-11-01T22:54:12+00:00"
+  },
+  {
+   "id": "6fcb9122340c",
+   "company": "HelloWork",
+   "title": "Data Scientist Python - IA H/F Celad",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83785156.html",
+   "reason": "expérience demandée ≥ 3 ans « ncees en ia generative le profil recherche - experience confirmee en data science / machin »",
+   "at": "2026-11-01T22:54:10+00:00"
+  },
+  {
+   "id": "8a86c1dfc304",
+   "company": "HelloWork",
+   "title": "Data Scientist - Referent IA H/F CNP ASSURANCES",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84882422.html",
+   "reason": "expérience demandée ≥ 3 ans « pliquees, ingenierie ou actuariat ; au moins 3 ans d'experience en data sci »",
+   "at": "2026-11-01T22:53:54+00:00"
+  },
+  {
+   "id": "47babbd624e0",
+   "company": "HelloWork",
+   "title": "Consultant Transformation IT & IA H/F Audensiel Technologies",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83979515.html",
+   "reason": "expérience demandée ≥ 3 ans « environnement transverse le profil recherche experience minimale de 3 ans dans un environnement projet de tra »",
+   "at": "2026-11-01T22:53:31+00:00"
+  },
+  {
+   "id": "6506027a85e6",
+   "company": "HelloWork",
+   "title": "Business Analyst IA H/F eXalt Company",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82373554.html",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « Exp. 3 ans »",
+   "at": "2026-11-01T22:53:30+00:00"
+  },
+  {
+   "id": "3d7fdc5216fd",
+   "company": "HelloWork",
+   "title": "Développeur Java & IA H/F Consort Group",
+   "url": "https://www.hellowork.com/fr-fr/emplois/80279780.html",
+   "reason": "expérience demandée ≥ 3 ans « ment c'est votre parcours vous avez au moins 3 ans d'experience en developp »",
+   "at": "2026-11-01T22:53:03+00:00"
+  },
+  {
+   "id": "d8579e530525",
+   "company": "HelloWork",
+   "title": "Développeur IA Applicatif H/F Storm Group",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84789667.html",
+   "reason": "expérience demandée ≥ 3 ans « : tu justifies d'une experience confirmee de 3 a 5 ans en developpement applica »",
+   "at": "2026-11-01T22:53:02+00:00"
+  },
+  {
+   "id": "54960e73b743",
+   "company": "HelloWork",
+   "title": "Administrateur Cluster IA H/F AS+",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83715130.html",
+   "reason": "expérience demandée ≥ 3 ans « +5 (ecole d'ingenieur, master ou equivalent) experience confirmee en administration system »",
+   "at": "2026-11-01T22:53:00+00:00"
+  },
+  {
+   "id": "d46c56f796cc",
+   "company": "HelloWork",
+   "title": "Chef de Projet IA H/F Klanik",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84605573.html",
+   "reason": "expérience demandée ≥ 3 ans « 'une formation superieure, tu disposes d'une experience significative dans le pilotage de proj »",
+   "at": "2026-11-01T22:52:59+00:00"
+  },
+  {
+   "id": "b617b1b65164",
+   "company": "HelloWork",
+   "title": "Ingénieur Réseau Sécurité - IA H/F Storm Group",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84866579.html",
+   "reason": "expérience demandée ≥ 3 ans « : tu justifies d'une experience confirmee de 3 a 6 ans en ingenierie de securit »",
+   "at": "2026-11-01T22:52:57+00:00"
+  },
+  {
+   "id": "6e29bb00715d",
+   "company": "HelloWork",
+   "title": "Chargé de Projet IA H/F Orano",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84627901.html",
+   "reason": "expérience demandée ≥ 3 ans « ou data science, ou experience equivalente. experience confirmee en gestion de projet, id »",
+   "at": "2026-11-01T22:52:56+00:00"
+  },
+  {
+   "id": "b7d9f630bcc7",
+   "company": "HelloWork",
+   "title": "Architecte IA Générative H/F Consort Group",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84919262.html",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-01T22:52:56+00:00"
+  },
+  {
+   "id": "c4633d82c7da",
+   "company": "HelloWork",
+   "title": "IA - Ml Engineer H/F Ippon Technologies",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84907057.html",
+   "reason": "expérience demandée ≥ 3 ans « formation bac +5, vous justifiez d'au moins 3 ans d'experience en tant que »",
+   "at": "2026-11-01T22:52:54+00:00"
+  },
+  {
+   "id": "26f161446433",
+   "company": "HelloWork",
+   "title": "Coach IA - Conseil de Spécialité IA & Smartops - Idf H/F Sopra Steria",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83840329.html",
+   "reason": "expérience demandée ≥ 3 ans « e ou domaine equivalent. vous disposez d'une experience confirmee en conseil, transformati »",
+   "at": "2026-11-01T22:52:53+00:00"
+  },
+  {
+   "id": "b3640c21dd77",
+   "company": "HelloWork",
+   "title": "Ingénieur Builder IA H/F Groupe OGF",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83903196.html",
+   "reason": "expérience demandée ≥ 3 ans « 5 en informatique, ia ou data et disposez de 3 a 6 ans d'experience en intellig »",
+   "at": "2026-11-01T22:52:46+00:00"
+  },
+  {
+   "id": "670dba07c1c5",
+   "company": "HelloWork",
+   "title": "Ingénieur Développement Logiciel & IA H/F Eurofins Biologie Medicale",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82742445.html",
+   "reason": "expérience demandée ≥ 7 ans (lu par l'IA) « Exp. 7 ans min. »",
+   "at": "2026-11-01T22:52:45+00:00"
+  },
   {
    "id": "83656aa6ce45",
    "company": "HelloWork",
