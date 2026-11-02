@@ -1,6 +1,182 @@
 {
- "updated": "2026-11-02T12:28:20+00:00",
+ "updated": "2026-11-02T22:07:21+00:00",
  "items": [
+  {
+   "id": "d1a2383e48a3",
+   "company": "ING",
+   "title": "Senior AI Business Partner (w/m/d)",
+   "url": "https://careers.ing.com/en/job/frankfurt-am-main/senior-ai-business-partner-w-m-d/3121/44845991552",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-02T22:06:58+00:00"
+  },
+  {
+   "id": "6ffbd0d7b32d",
+   "company": "UBS",
+   "title": "AM Transformation Business Analyst",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=347533",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-02T22:06:20+00:00"
+  },
+  {
+   "id": "addffa8d1cbd",
+   "company": "jobup.ch",
+   "title": "(Senior) Forward Deployed Data & AI Engineer 80-100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/8ba2f63a-6c72-44b3-98a6-680cd46944ea/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-02T22:04:36+00:00"
+  },
+  {
+   "id": "00497b64b859",
+   "company": "jobup.ch",
+   "title": "Praktikum AI Engineering",
+   "url": "https://www.jobup.ch/fr/emplois/detail/1015513a-4d0e-477b-ab38-270221af4401/",
+   "reason": "titre exclu (praktikum)",
+   "at": "2026-11-02T22:04:36+00:00"
+  },
+  {
+   "id": "9a8f19587d08",
+   "company": "jobs.ch",
+   "title": "Data Scientist-Actuarial AI Solutions (80-100%)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/85a89447-5e69-4051-8670-78cd96f25912/",
+   "reason": "expérience demandée ≥ 3 ans « yer des solutions en production. competences experience solide en science des donnees e »",
+   "at": "2026-11-02T22:03:59+00:00"
+  },
+  {
+   "id": "b8b7c920f1d4",
+   "company": "jobs.ch",
+   "title": "Professional Software Engineer (.NET, Web, AI)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/cea139c6-f583-40cd-a538-e3c8b226c7d5/",
+   "reason": "expérience demandée ≥ 5 ans « ique superieure comparable ainsi qu'au moins 5 ans d'experience dans un rol »",
+   "at": "2026-11-02T22:03:53+00:00"
+  },
+  {
+   "id": "c12c7adbb9fc",
+   "company": "jobs.ch",
+   "title": "Data, AI & Automation Engineer (w/m) 80-100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/9a73037c-a876-4262-a6cc-2db84b13c52f/",
+   "reason": "expérience demandée ≥ 3 ans « e gestion ou pratique comparable premiere ou solide experience avec des outils ia et de »",
+   "at": "2026-11-02T22:03:52+00:00"
+  },
+  {
+   "id": "cc41123b1273",
+   "company": "jobs.ch",
+   "title": "Functional Application Manager AI (w/m/d) 100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/53fa45fe-39b6-4841-b6a1-0184297b3d6e/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-02T22:03:52+00:00"
+  },
+  {
+   "id": "08d4f1c8a092",
+   "company": "TotalEnergies",
+   "title": "Quant Modeling Analyst - Oil",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Quant-Modeling-Analyst-Oil/85173",
+   "reason": "expérience demandée ≥ 3 ans « gie, business & economie type de contrat cdi experience minimum 3 ans contexte et environnement desired start  »",
+   "at": "2026-11-02T22:02:37+00:00"
+  },
+  {
+   "id": "e37948099556",
+   "company": "TotalEnergies",
+   "title": "STAGE - Analyste Comptabilité Fournisseurs H/F",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/STAGE-Analyste-Comptabilit-Fournisseurs-H-F/85817",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-02T22:02:35+00:00"
+  },
+  {
+   "id": "d3d33cd7c5ed",
+   "company": "AXA",
+   "title": "Analyste/Chef de projet (F/H) - stage",
+   "url": "https://careers.axa.com/jobs/36712",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-02T22:00:37+00:00"
+  },
+  {
+   "id": "c04fff327861",
+   "company": "BPCE",
+   "title": "ECOFI Investissements - Analyste Ethique (F/H)",
+   "url": "https://recrutement.bpce.fr/job/ecofi-investissements-analyste-ethique-f-h",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « Vous avez déjà acquis une expérience sur un poste similaire. »",
+   "at": "2026-11-02T21:59:50+00:00"
+  },
+  {
+   "id": "59602d36aef6",
+   "company": "BPCE",
+   "title": "Auditeur Interne Groupe Senior Data & Analytics F/H",
+   "url": "https://recrutement.bpce.fr/job/auditeur-interne-groupe-senior-data-analytics-f-h",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-02T21:59:50+00:00"
+  },
+  {
+   "id": "998e82d26242",
+   "company": "BPCE",
+   "title": "STAGE - Développeur Solutions IA & Workflows (F/H)",
+   "url": "https://recrutement.bpce.fr/job/stage-developpeur-solutions-ia-workflows-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-02T21:59:50+00:00"
+  },
+  {
+   "id": "fbc3c2ca8a76",
+   "company": "Société Générale",
+   "title": "Analyste financement ESG, institution financière et secteur public",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-financement-esg-institution-financiere-et-secteur-public-26000MPV-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-02T21:57:56+00:00"
+  },
+  {
+   "id": "4cd54aa85068",
+   "company": "Société Générale",
+   "title": "Analyste quantitatif - Modélisation risque de crédit et risques non financiers",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-quantitatif-modelisation-risque-de-credit-et-risques-non-financiers-26000ACA-fr",
+   "reason": "expérience demandée ≥ 3 ans « entet si c'etait vous ?experience d'au moins 3 ans en modelisation des risq »",
+   "at": "2026-11-02T21:57:55+00:00"
+  },
+  {
+   "id": "34f7c6add614",
+   "company": "Société Générale",
+   "title": "Stage IA Générative",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/stage-ia-generative-26000LY6-fr",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-02T21:57:48+00:00"
+  },
+  {
+   "id": "a2b0744fcbc1",
+   "company": "Société Générale",
+   "title": "Chargé du Digital Data et IA en analyse du risque de crédit (provisions)",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/charge-du-digital-data-et-ia-en-analyse-du-risque-de-credit-provisions-26000N12-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-02T21:57:48+00:00"
+  },
+  {
+   "id": "0c08634e5b8f",
+   "company": "Alstom",
+   "title": "Intern Treasury x AI & Automation Projects",
+   "url": "https://jobsearch.alstom.com/job/Saint-Ouen-Intern-Treasury-x-AI-&-Automation-Projects/1453463333/",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-02T21:55:55+00:00"
+  },
+  {
+   "id": "f9644148e7b2",
+   "company": "Alstom",
+   "title": "VIE - Fleet Data Analyst CMAX (w/m/d) 1 1",
+   "url": "https://jobsearch.alstom.com/job/Hennigsdorf-VIE-Fleet-Data-Analyst-CMAX-%28wmd%29-1-1/1444455733/",
+   "reason": "titre exclu (VIE)",
+   "at": "2026-11-02T21:55:55+00:00"
+  },
+  {
+   "id": "22d5077d799a",
+   "company": "SNCF",
+   "title": "Ingénieur ou ingénieure Data Science - Maintenance prédictive ferroviaire",
+   "url": "https://emploi.sncf.com/nos-offres/886403",
+   "reason": "expérience demandée ≥ 3 ans « s saint-denis, seine saint-denis (93) cdi de 3 a 5 ans niveau 7 (master, ingeni »",
+   "at": "2026-11-02T21:55:31+00:00"
+  },
+  {
+   "id": "5639eb2303e3",
+   "company": "SNCF",
+   "title": "Stagiaire Digital Product Designer - Vibe Design & IA générative (F/H)",
+   "url": "https://emploi.sncf.com/nos-offres/886533",
+   "reason": "titre exclu (stagiaire)",
+   "at": "2026-11-02T21:55:30+00:00"
+  },
   {
    "id": "6ef5429a9cb8",
    "company": "UBS",

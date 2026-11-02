@@ -1,0 +1,167 @@
+{
+ "titre": "CDD 4 mois - Data Scientist IARD (F/H)",
+ "profil": "Data Engineer avec 13 ans d'expérience au sein du groupe SNCF, spécialisé dans les environnements critiques. Titulaire d'un Master Data Engineer / Data Product Manager (Mines Paris - PSL). Réalisations de plus de quinze projets data, incluant des solutions d'analyse de conformité et d'audit.",
+ "competences": [
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio",
+    "Excel"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "regard",
+   "titre": "REGARD : copilote de conformité bancaire",
+   "stack": "LangGraph.js, Groq, Supabase (pgvector), Langfuse",
+   "lien": "regard-wine.vercel.app",
+   "tags": [
+    "conformité",
+    "compliance",
+    "banque",
+    "bancaire",
+    "réglementaire",
+    "lcb-ft",
+    "kyc",
+    "ia",
+    "llm",
+    "rag",
+    "risque"
+   ],
+   "puces": [
+    "Copilote d'analyse de conformité IARD : les contrôles sont codés en règles, l'IA ne rédige que les synthèses.",
+    "28 cas de test de référence validés et suivi des appels avec Langfuse."
+   ]
+  },
+  {
+   "id": "prisme",
+   "titre": "PRISME : copilote d'audit AI Act",
+   "stack": "Python, FastAPI, RAG, Supabase (pgvector), Groq",
+   "lien": "",
+   "tags": [
+    "ai act",
+    "audit",
+    "conformité",
+    "ia",
+    "intelligence artificielle",
+    "rag",
+    "llm",
+    "réglementaire",
+    "api"
+   ],
+   "puces": [
+    "API d'aide à l'audit de conformité IARD : recherche dans les textes réglementaires (RAG) et grille de qualification des systèmes d'IA.",
+    "Backend FastAPI déployé sur Render, base vectorielle pgvector."
+   ]
+  },
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Simulation d'une mission de Business Analyst sur un SI Crédit (recouvrement amiable et contentieux), de l'expression du besoin à la recette.",
+    "Livrables publiés en ligne : cartographie des processus, spécifications fonctionnelles et plan de tests."
+   ]
+  },
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Simulation d'une mission d'inspection Data sur la chaîne de données du risque de crédit : cadrage, investigations, débriefing.",
+    "Moteur de contrôles qualité en règles SQL, scoring de risque, registre des constats et rapport de restitution."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [],
+ "methode": "règles + reformulation IA (4 blocs adaptés)",
+ "job_id": "f9398d460563",
+ "entreprise": "AXA",
+ "intitule_offre": "CDD 4 mois - Data Scientist IARD (F/H)",
+ "url_offre": "https://careers.axa.com/jobs/36580",
+ "genere_le": "2026-11-02T22:00:40+00:00"
+}
