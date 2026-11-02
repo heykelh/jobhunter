@@ -1,6 +1,78 @@
 {
- "updated": "2026-11-01T21:57:06+00:00",
+ "updated": "2026-11-02T01:11:35+00:00",
  "items": [
+  {
+   "id": "7d08e14999f8",
+   "company": "jobup.ch",
+   "title": "AI & Cloud Application Architect",
+   "url": "https://www.jobup.ch/fr/emplois/detail/c8c84032-0bfb-4905-ba6d-3bae3c5817d4/",
+   "reason": "titre exclu (architect)",
+   "at": "2026-11-02T01:08:54+00:00"
+  },
+  {
+   "id": "99c8d98b70f2",
+   "company": "jobup.ch",
+   "title": "Analyste respect CCT / Gestionnaire – H/F à 100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/a037d0f5-d054-4303-9298-8945de9763d0/",
+   "reason": "expérience demandée ≥ 5 ans « ormation superieure ou experience de minimum 5 ans dans un domaine similair »",
+   "at": "2026-11-02T01:08:41+00:00"
+  },
+  {
+   "id": "419bcc161400",
+   "company": "jobs.ch",
+   "title": "Head of Data Governance (w/m/d) Teilzeit/Vollzeit",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/5c7c18d2-346c-4fe3-88d5-6098014aa289/",
+   "reason": "titre exclu (head)",
+   "at": "2026-11-02T01:08:23+00:00"
+  },
+  {
+   "id": "dc9bd23cf5b1",
+   "company": "jobs.ch",
+   "title": "(Senior) Consultant - FS Consulting - Quantitative Risk & AI",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/cfa52296-0458-4d74-90b9-f9abe2b75d34/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-02T01:08:23+00:00"
+  },
+  {
+   "id": "34918880ec47",
+   "company": "jobs.ch",
+   "title": "Senior Manager – Director | Digitalization, AI and Controls Automation",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/097600d6-71eb-4aff-95d2-c7956514ffb1/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-02T01:08:23+00:00"
+  },
+  {
+   "id": "b87b07b2322b",
+   "company": "jobs.ch",
+   "title": "Senior Project Manager (Data Governance)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/cefbacf6-7bab-492f-a0e3-2dbc949af5af/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-02T01:08:20+00:00"
+  },
+  {
+   "id": "0b1255172212",
+   "company": "jobs.ch",
+   "title": "Senior Project Manager (Data Governance)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/2c3b7bc1-72e2-4183-8c36-d8cfe8e0f8dc/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-02T01:08:20+00:00"
+  },
+  {
+   "id": "51a108fe1e7c",
+   "company": "Orange",
+   "title": "AI Solutions Lead (Technical Presales)",
+   "url": "https://orange.jobs/fr/fr/job/TOB-8591867/AI-Solutions-Lead-Technical-Presales",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-02T01:08:09+00:00"
+  },
+  {
+   "id": "15e27112b8d7",
+   "company": "Crédit Agricole",
+   "title": "Credit Analyst - Nordic Countries M/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170466-4-credit-analyst---nordic-countries-mf-reference--2026-116921--/",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-02T01:03:23+00:00"
+  },
   {
    "id": "5aecb3fe8501",
    "company": "ING",
