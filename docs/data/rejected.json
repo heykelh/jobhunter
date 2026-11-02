@@ -1,6 +1,126 @@
 {
- "updated": "2026-11-02T01:11:35+00:00",
+ "updated": "2026-11-02T09:44:42+00:00",
  "items": [
+  {
+   "id": "94d53f2698d4",
+   "company": "UBS",
+   "title": "Senior Software Engineer Java Fullstack & AI Engineering",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=348842",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-02T09:43:42+00:00"
+  },
+  {
+   "id": "8f5bac57a16a",
+   "company": "jobup.ch",
+   "title": "Data manager clinique",
+   "url": "https://www.jobup.ch/fr/emplois/detail/ba9fed78-2934-49b0-8d64-65c8c95f8efc/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-02T09:41:40+00:00"
+  },
+  {
+   "id": "8ada90d7bf07",
+   "company": "jobup.ch",
+   "title": "Lead Data Engineer mit Architekturverantwortung",
+   "url": "https://www.jobup.ch/fr/emplois/detail/036d7cc6-2c44-4595-9dcd-c8d101cee0ec/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-02T09:41:40+00:00"
+  },
+  {
+   "id": "00830841b73c",
+   "company": "jobs.ch",
+   "title": "Architecte IAM (f/m/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/24b26e4d-9216-4d8f-bd0e-7bbebc6fbe3b/",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-02T09:41:23+00:00"
+  },
+  {
+   "id": "703f05280ff4",
+   "company": "jobs.ch",
+   "title": "Senior Business Analyst Digital Banking Security (a) (80-100%)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/ccc7d837-b83a-4846-86fe-92e771ee8eb5/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-02T09:41:22+00:00"
+  },
+  {
+   "id": "d7baa7f3946f",
+   "company": "jobs.ch",
+   "title": "Senior Technical Business Analyst Digital Identity & Open Banking (a) (80-100%)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/d40c4444-b05d-4dfc-9b89-ea9dd4d34efc/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-02T09:41:22+00:00"
+  },
+  {
+   "id": "05ad5d34a750",
+   "company": "jobs.ch",
+   "title": "Hochschulpraktikant/-in OSINT (Data Analysis & Intelligence - DAI)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/c90bb48c-5433-4da5-ac90-0240395887c9/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-02T09:41:18+00:00"
+  },
+  {
+   "id": "ee3d169d4ae3",
+   "company": "jobs.ch",
+   "title": "Senior Data Engineer",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/e30feebe-3eda-4f32-80e1-c1d5c7face5a/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-02T09:41:17+00:00"
+  },
+  {
+   "id": "8e35ae474e22",
+   "company": "TotalEnergies",
+   "title": "Procurement Analyst Intern",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Procurement-Analyst-Intern/85769",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-02T09:40:10+00:00"
+  },
+  {
+   "id": "1de4e05e3a70",
+   "company": "TotalEnergies",
+   "title": "Structured Power Middle Office Analyst Intern",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Structured-Power-Middle-Office-Analyst-Intern/85605",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-02T09:40:10+00:00"
+  },
+  {
+   "id": "25d0b1860510",
+   "company": "Crédit Agricole",
+   "title": "Stage - Business Coverage Support Analyst H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170478-136-stage---business-coverage-support-analyst-hf-reference--2026-117013--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-02T09:36:12+00:00"
+  },
+  {
+   "id": "636f4138c6c7",
+   "company": "Société Générale",
+   "title": "Architecte Senior Data Science, ML, AI & GenAI",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/architecte-senior-data-science-ml-ai-genai-260001Z4-fr",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-02T09:35:23+00:00"
+  },
+  {
+   "id": "c9a6d1f5aaf1",
+   "company": "Alstom",
+   "title": "Industrialization Data Engineer",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Industrialization-Data-Engineer/1453219433/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-02T09:33:37+00:00"
+  },
+  {
+   "id": "cac6de276ec8",
+   "company": "Alstom",
+   "title": "Support Analyst - Mercury",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Support-Analyst-Mercury-KA/1402744133/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-02T09:33:35+00:00"
+  },
+  {
+   "id": "4de269c709b4",
+   "company": "SNCF",
+   "title": "Aiguilleur du rail (F/H)-CDI-BRIANCON",
+   "url": "https://emploi.sncf.com/nos-offres/805887",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-02T09:33:11+00:00"
+  },
   {
    "id": "7d08e14999f8",
    "company": "jobup.ch",
