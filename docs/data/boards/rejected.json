@@ -1,6 +1,118 @@
 {
- "updated": "2026-11-02T13:35:03+00:00",
+ "updated": "2026-11-02T23:09:07+00:00",
  "items": [
+  {
+   "id": "d1de572edd45",
+   "company": "HelloWork",
+   "title": "Business Developer Data & IA H/F JEMS",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82964877.html",
+   "reason": "expérience demandée ≥ 5 ans « rofessionnelle commerciale reussie en esn de 5 ans minimum.la maitrise de l »",
+   "at": "2026-11-02T23:09:07+00:00"
+  },
+  {
+   "id": "68db4ff7a553",
+   "company": "HelloWork",
+   "title": "Data Scientist IA Generative H/F SQLI",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85060747.html",
+   "reason": "expérience demandée ≥ 3 ans « ?data scientist / ai engineer, avec minimum 3 ans d'experience sur les suj »",
+   "at": "2026-11-02T23:09:03+00:00"
+  },
+  {
+   "id": "e3e6723a2606",
+   "company": "HelloWork",
+   "title": "Business Analyst Cotisation H/F GFP_tech",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82934939.html",
+   "reason": "expérience demandée ≥ 3 ans « en systemes d'information ou assurance, avec 3 ans d'experience sur un post »",
+   "at": "2026-11-02T23:09:02+00:00"
+  },
+  {
+   "id": "60c9e93d5e39",
+   "company": "HelloWork",
+   "title": "Lead ai Engineer H/F Hymaïa",
+   "url": "https://www.hellowork.com/fr-fr/emplois/80951360.html",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-02T23:09:02+00:00"
+  },
+  {
+   "id": "e9231e634724",
+   "company": "HelloWork",
+   "title": "Architecte Agentic ai H/F Inetum",
+   "url": "https://www.hellowork.com/fr-fr/emplois/80957527.html",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-02T23:09:02+00:00"
+  },
+  {
+   "id": "ec0a82520515",
+   "company": "HelloWork",
+   "title": "Expert Data IA H/F Ministère des armées - Civils de la Défense",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82940067.html",
+   "reason": "titre exclu (expert)",
+   "at": "2026-11-02T23:09:02+00:00"
+  },
+  {
+   "id": "7282fed2320f",
+   "company": "HelloWork",
+   "title": "Architecte Logiciel IA H/F Capgemini",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85070706.html",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-02T23:09:02+00:00"
+  },
+  {
+   "id": "6a8fed9b1550",
+   "company": "HelloWork",
+   "title": "Tech Lead IA H/F Capgemini",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85070623.html",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-02T23:09:02+00:00"
+  },
+  {
+   "id": "5d5b86c9bd6e",
+   "company": "HelloWork",
+   "title": "Business Analyst Cotisation H/F GFP_tech",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82934953.html",
+   "reason": "expérience demandée ≥ 3 ans « en systemes d'information ou assurance, avec 3 ans d'experience sur un post »",
+   "at": "2026-11-02T23:09:01+00:00"
+  },
+  {
+   "id": "2e4db9a2f7be",
+   "company": "HelloWork",
+   "title": "Product Owner Data H/F SYD Digital Care",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85065622.html",
+   "reason": "expérience demandée ≥ 3 ans « que nous attendons de toi :tu disposes d'une experience confirmee sur des projets datatu m »",
+   "at": "2026-11-02T23:08:49+00:00"
+  },
+  {
+   "id": "0c118293c85f",
+   "company": "HelloWork",
+   "title": "Architecte Technique Data et IA H/F JEMS",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85050388.html",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-02T23:08:49+00:00"
+  },
+  {
+   "id": "a69fc8995eae",
+   "company": "HelloWork",
+   "title": "Consultant Senior - Data Management H/F Square Management",
+   "url": "https://www.hellowork.com/fr-fr/emplois/80875050.html",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-02T23:08:49+00:00"
+  },
+  {
+   "id": "8e271940d63e",
+   "company": "HelloWork",
+   "title": "Business Analyst Data H/F SQLI",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85051768.html",
+   "reason": "expérience demandée ≥ 3 ans « pportez ?competences requises :experience de 3 ans minimum en business anal »",
+   "at": "2026-11-02T23:08:42+00:00"
+  },
+  {
+   "id": "70c22b3ad3f2",
+   "company": "HelloWork",
+   "title": "Data Architecte H/F Ministère des armées - Civils de la Défense",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82941546.html",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-02T23:08:36+00:00"
+  },
   {
    "id": "a8cff74584a9",
    "company": "HelloWork",
