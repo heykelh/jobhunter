@@ -1,25 +1,25 @@
 {
- "updated": "2026-11-01T22:54:13+00:00",
+ "updated": "2026-11-02T09:35:00+00:00",
  "companies": {
   "APEC": {
-   "checked_at": "2026-11-01T22:52:02+00:00",
+   "checked_at": "2026-11-02T09:33:36+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "vide",
-   "failures": 11
+   "failures": 12
   },
   "HelloWork": {
-   "checked_at": "2026-11-01T22:52:32+00:00",
+   "checked_at": "2026-11-02T09:34:04+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 231,
-   "keyword_matches": 231,
-   "kept_this_run": 5,
+   "links_found": 233,
+   "keyword_matches": 233,
+   "kept_this_run": 4,
    "status": "ok",
-   "last_ok": "2026-11-01T22:54:12+00:00",
+   "last_ok": "2026-11-02T09:35:00+00:00",
    "failures": 0
   }
  }

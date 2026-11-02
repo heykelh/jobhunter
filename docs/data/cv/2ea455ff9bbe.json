@@ -1,0 +1,173 @@
+{
+ "titre": "Pool Analyst - Strategy Analyst H/F",
+ "profil": "Professionnel avec 13 ans d’expérience opérationnelle au sein du groupe SNCF, spécialisé en data engineering et gestion de produits data. Titulaire d’un Master Data Engineer/Data Product Manager (Mines Paris‑PSL) et auteur de plus de 15 projets data. Bilingue français‑anglais, doté d’un solide esprit d’analyse et de synthèse et d’une forte capacité d’adaptation.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Excel",
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "escale",
+   "titre": "ESCALE : ponctualité des vols CDG et Orly",
+   "stack": "Python, PostgreSQL (médaillon), API AeroDataBox, Next.js",
+   "lien": "escale-ops.vercel.app",
+   "tags": [
+    "aérien",
+    "aerien",
+    "aviation",
+    "vol",
+    "vols",
+    "airline",
+    "opérations",
+    "operations",
+    "ponctualité",
+    "retard",
+    "rgpd",
+    "privacy",
+    "données personnelles",
+    "ai act",
+    "prédiction",
+    "client"
+   ],
+   "puces": [
+    "Collecte automatisée bi‑quotidienne des vols CDG/Orly, classification par niveaux de ponctualité et score de risque de retard",
+    "Console de suivi intégrant un modèle prédictif et les exigences RGPD/AI Act, offrant un prototype opérationnel de pilotage"
+   ]
+  },
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Analyse fonctionnelle du SI Crédit, de la collecte du besoin à la recette, pour identifier des leviers d’efficacité",
+    "Livrables : cartographie des processus, spécifications fonctionnelles et plan de tests, facilitant la prise de décision"
+   ]
+  },
+  {
+   "id": "customer-experience",
+   "titre": "Customer Experience Intelligence : analyse et dataviz",
+   "stack": "Python, Power BI",
+   "lien": "github.com/heykelh/customer-experience-intelligence",
+   "tags": [
+    "client",
+    "clients",
+    "expérience client",
+    "marketing",
+    "kpi",
+    "dashboard",
+    "tableau de bord",
+    "power bi",
+    "reporting",
+    "analyse",
+    "satisfaction",
+    "parcours"
+   ],
+   "puces": [
+    "Analyse exploratoire des données clients, extraction d’insights et détection d’anomalies impactant la performance",
+    "Tableaux de bord interactifs Power BI, indicateurs de pilotage destinés aux dirigeants"
+   ]
+  },
+  {
+   "id": "finance-audit",
+   "titre": "Finance Digital Audit Dashboard",
+   "stack": "Python, pandas, scikit-learn, FastAPI, Next.js, Plotly",
+   "lien": "",
+   "tags": [
+    "finance",
+    "financier",
+    "audit",
+    "anomalie",
+    "anomalies",
+    "machine learning",
+    "contrôle de gestion",
+    "comptabilité",
+    "bourse",
+    "api"
+   ],
+   "puces": [
+    "Ingestion ETL des données financières CAC 40 avec pandas, détection d’anomalies via Isolation Forest",
+    "API FastAPI et tableau de bord Next.js/Plotly, déployés en CI GitHub Actions, fournissant un modèle opérationnel"
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "agile"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "2ea455ff9bbe",
+ "entreprise": "Accenture France",
+ "intitule_offre": "Pool Analyst - Strategy Analyst H/F Accenture France",
+ "url_offre": "https://www.hellowork.com/fr-fr/emplois/85033453.html",
+ "genere_le": "2026-11-02T09:34:21+00:00"
+}
