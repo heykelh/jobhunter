@@ -1,6 +1,94 @@
 {
- "updated": "2026-11-02T09:44:42+00:00",
+ "updated": "2026-11-02T11:30:08+00:00",
  "items": [
+  {
+   "id": "71bf912190c5",
+   "company": "jobs.ch",
+   "title": "Senior Oracle Fusion Financials Analyst",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/8f22e3bf-a0d9-4715-93ef-76983be0c250/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-02T11:26:39+00:00"
+  },
+  {
+   "id": "6ab888522877",
+   "company": "Orange",
+   "title": "Consultant Principal Data IA H/F",
+   "url": "https://orange.jobs/fr/fr/job/IOS-2026-2485/Consultant-Principal-Data-IA-H-F",
+   "reason": "titre exclu (principal)",
+   "at": "2026-11-02T11:26:25+00:00"
+  },
+  {
+   "id": "e3da54b4765f",
+   "company": "Orange",
+   "title": "Consultant Principal – Data IA F/H",
+   "url": "https://orange.jobs/fr/fr/job/IOS-2026-2646/Consultant-Principal-Data-IA-F-H",
+   "reason": "titre exclu (principal)",
+   "at": "2026-11-02T11:26:25+00:00"
+  },
+  {
+   "id": "1696a6e3f019",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Data Scientist - F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-data-scientist-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-02T11:22:39+00:00"
+  },
+  {
+   "id": "34bdf564c758",
+   "company": "BPCE",
+   "title": "Stage - Analyste Investissement F/H - OTOKTONE - Saint-Herblain (44)",
+   "url": "https://recrutement.bpce.fr/job/stage-analyste-investissement-f-h-otoktone-saint-herblain-44",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-02T11:22:39+00:00"
+  },
+  {
+   "id": "3f63d3cecb83",
+   "company": "Crédit Agricole",
+   "title": "Data analyst Cash Management H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-data-analyst-cash-management-hf-reference--2026-110866--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-02T11:21:20+00:00"
+  },
+  {
+   "id": "69ae02bbfa9f",
+   "company": "Crédit Agricole",
+   "title": "Analyste risque opérationnel en charge des externalisations H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170470-126-analyste-risque-operationnel-en-charge-des-externalisations-hf-reference--2026-113304--/",
+   "reason": "expérience demandée ≥ 3 ans « r. une experience similaire est appreciable. niveau d'experience minimum 3 - 5 ans competences recherchees com »",
+   "at": "2026-11-02T11:21:19+00:00"
+  },
+  {
+   "id": "3dadf61fddd8",
+   "company": "Crédit Agricole",
+   "title": "Analyste M&A Large Cap - Stage H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-meta-large-cap---stage-hf-reference--2026-117025--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-02T11:21:19+00:00"
+  },
+  {
+   "id": "330cd810d125",
+   "company": "Crédit Agricole",
+   "title": "Analyste M&A Midcap - Stage H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-meta-midcap---stage-hf-reference--2026-117024--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-02T11:21:19+00:00"
+  },
+  {
+   "id": "eb65dfcd2cac",
+   "company": "Société Générale",
+   "title": "Analyste financier (Comptabilité)",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-financier-comptabilite-26000K54-fr",
+   "reason": "lieu hors zones",
+   "at": "2026-11-02T11:20:46+00:00"
+  },
+  {
+   "id": "cd0da8485920",
+   "company": "SNCF",
+   "title": "Aiguilleur du rail (F/H) - CDI - PRINGY",
+   "url": "https://emploi.sncf.com/nos-offres/826243",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-02T11:18:18+00:00"
+  },
   {
    "id": "94d53f2698d4",
    "company": "UBS",
