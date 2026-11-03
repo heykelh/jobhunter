@@ -1,0 +1,178 @@
+{
+ "titre": "Model Risk Management : Analyst",
+ "profil": "Data Engineer avec 13 ans d’expérience au sein du groupe SNCF, spécialisé dans les environnements critiques et la sécurité des données. Titulaire d’un Master Data Engineer (Bac+5, Mines Paris‑PSL) et fort d’une expertise en modélisation statistique, programmation Python et R, ainsi qu’en contrôle qualité des indicateurs. Expérience avérée dans la conduite de projets data, l’analyse de risques de crédit et la mise en place de tableaux de bord de suivi.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio",
+    "Excel"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Simulation d’une mission d’inspection data sur la chaîne de données du risque de crédit, incluant cadrage, investigations et débriefing.",
+    "Mise en place d’un moteur de contrôles qualité SQL et d’un registre de constats pour suivre les indicateurs de performance."
+   ]
+  },
+  {
+   "id": "finance-audit",
+   "titre": "Finance Digital Audit Dashboard",
+   "stack": "Python, pandas, scikit-learn, FastAPI, Next.js, Plotly",
+   "lien": "",
+   "tags": [
+    "finance",
+    "financier",
+    "audit",
+    "anomalie",
+    "anomalies",
+    "machine learning",
+    "contrôle de gestion",
+    "comptabilité",
+    "bourse",
+    "api"
+   ],
+   "puces": [
+    "Ingestion des données financières du CAC 40 avec pandas, détection d’anomalies via Isolation Forest pour identifier des écarts de risque.",
+    "Développement d’une API FastAPI et d’un tableau de bord Plotly pour visualiser les indicateurs et faciliter le suivi."
+   ]
+  },
+  {
+   "id": "frontierbank",
+   "titre": "FrontierBank : gouvernance des données d'une banque fictive",
+   "stack": "BCBS 239, DAMA-DMBOK, AI Act, Power BI",
+   "lien": "frontierbank-data.vercel.app",
+   "tags": [
+    "gouvernance",
+    "governance",
+    "steward",
+    "qualité",
+    "quality",
+    "bcbs",
+    "dama",
+    "lignage",
+    "lineage",
+    "banque",
+    "bancaire",
+    "risque",
+    "réglementaire",
+    "conformité",
+    "raci",
+    "référentiel",
+    "métadonnées"
+   ],
+   "puces": [
+    "Conseil en gouvernance des données avec diagnostic BCBS 239 et cadre DAMA‑DMBOK, incluant lignage et matrice RACI pour renforcer la qualité des modèles.",
+    "Création de tableaux de bord Power BI pour monitorer la qualité des données et les usages réglementaires."
+   ]
+  },
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Simulation d’une mission de Business Analyst sur un SI Crédit, de l’expression du besoin à la recette, afin d’assurer la cohérence des indicateurs de risque.",
+    "Production de livrables (cartographie des processus, spécifications fonctionnelles, plan de tests) pour garantir la conformité des modèles."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "sas",
+  "modélisation",
+  "statistiques"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "dcb9d7df99c5",
+ "entreprise": "Société Générale",
+ "intitule_offre": "Model risk management - Analyst",
+ "url_offre": "https://careers.societegenerale.com/offres-d-emploi/model-risk-management-analyst-26000JMY-fr",
+ "genere_le": "2026-11-03T11:54:18+00:00"
+}

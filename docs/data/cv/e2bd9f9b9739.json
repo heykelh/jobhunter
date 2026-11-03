@@ -1,0 +1,174 @@
+{
+ "titre": "Ingénieur IA : Services académiques et soutien aux programmes",
+ "profil": "13 ans d’expérience au sein du Groupe SNCF en environnement critique, complétés par un Master Data Engineer/Data Product Manager (Mines Paris). Expertise en développement d’applications IA/ML avec Python, API et architectures RAG. Expérience avérée en traitement de documents, extraction de thèmes et analyse de réponses pour des processus décisionnels.",
+ "competences": [
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "RAG",
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio",
+    "Excel"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "prisme",
+   "titre": "PRISME : copilote d'audit AI Act",
+   "stack": "Python, FastAPI, RAG, Supabase (pgvector), Groq",
+   "lien": "",
+   "tags": [
+    "ai act",
+    "audit",
+    "conformité",
+    "ia",
+    "intelligence artificielle",
+    "rag",
+    "llm",
+    "réglementaire",
+    "api"
+   ],
+   "puces": [
+    "API d’audit AI Act avec recherche RAG dans les textes réglementaires",
+    "Backend FastAPI déployé, stockage vectoriel pgvector"
+   ]
+  },
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Simulation d’inspection data sur la chaîne risque de crédit : cadrage, investigations, débriefing",
+    "Moteur de contrôles qualité SQL, scoring de risque, registre des constats"
+   ]
+  },
+  {
+   "id": "palier",
+   "titre": "PALIER : tarification et yield management TGV",
+   "stack": "Python, DuckDB, Power BI, Next.js, GitHub Actions",
+   "lien": "palier-sncf.vercel.app",
+   "tags": [
+    "pricing",
+    "prix",
+    "tarif",
+    "tarification",
+    "revenue",
+    "yield",
+    "élasticité",
+    "demande",
+    "transport",
+    "ferroviaire",
+    "voyageurs",
+    "sncf",
+    "commercial",
+    "offre"
+   ],
+   "puces": [
+    "Analyse de la tarification TGV : élasticité prix, comparaison d’offres et positionnement concurrentiel",
+    "Module de yield management avec allocation tarifaire, mise à jour automatisée via GitHub Actions"
+   ]
+  },
+  {
+   "id": "escale",
+   "titre": "ESCALE : ponctualité des vols CDG et Orly",
+   "stack": "Python, PostgreSQL (médaillon), API AeroDataBox, Next.js",
+   "lien": "escale-ops.vercel.app",
+   "tags": [
+    "aérien",
+    "aerien",
+    "aviation",
+    "vol",
+    "vols",
+    "airline",
+    "opérations",
+    "operations",
+    "ponctualité",
+    "retard",
+    "rgpd",
+    "privacy",
+    "données personnelles",
+    "ai act",
+    "prédiction",
+    "client"
+   ],
+   "puces": [
+    "Collecte automatisée des vols CDG/Orly, scoring retard 0‑100, classification Bronze‑Silver‑Gold",
+    "Console de suivi de ponctualité avec modèle prédictif, conformité RGPD et AI Act"
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "sap"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "e2bd9f9b9739",
+ "entreprise": "EPFL",
+ "intitule_offre": "AI Engineer for Academic Services and Program Support",
+ "url_offre": "https://www.jobup.ch/fr/emplois/detail/10e22c13-c04b-4223-aa16-e20381cfd567/",
+ "genere_le": "2026-11-03T12:01:18+00:00"
+}
