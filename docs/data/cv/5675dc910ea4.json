@@ -1,0 +1,175 @@
+{
+ "titre": "Candidature : Aide‑Mécanicien Itinérant (RATP Dev)",
+ "profil": "Professionnel avec 13 ans d’expérience opérationnelle au sein du groupe SNCF, habitué aux environnements à forts enjeux de sécurité. Rigoureux, autonome et organisé, je maîtrise les outils numériques et la gestion de processus de contrôle. Ma condition physique et mon expérience en maintenance de systèmes complexes me permettent d’assurer la disponibilité du matériel sur le terrain.",
+ "competences": [
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio",
+    "Excel"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Conduite d’une mission d’inspection de la chaîne de données, incluant le cadrage et le suivi des constats, en suivant un plan défini.",
+    "Mise en place de contrôles qualité automatisés et rédaction d’un rapport de restitution, assurant la traçabilité des anomalies."
+   ]
+  },
+  {
+   "id": "escale",
+   "titre": "ESCALE : ponctualité des vols CDG et Orly",
+   "stack": "Python, PostgreSQL (médaillon), API AeroDataBox, Next.js",
+   "lien": "escale-ops.vercel.app",
+   "tags": [
+    "aérien",
+    "aerien",
+    "aviation",
+    "vol",
+    "vols",
+    "airline",
+    "opérations",
+    "operations",
+    "ponctualité",
+    "retard",
+    "rgpd",
+    "privacy",
+    "données personnelles",
+    "ai act",
+    "prédiction",
+    "client"
+   ],
+   "puces": [
+    "Collecte automatisée des données de ponctualité, classification en niveaux de risque et mise à jour régulière selon un planning.",
+    "Développement d’un tableau de suivi avec indicateurs de performance, respectant les exigences de sécurité et de confidentialité."
+   ]
+  },
+  {
+   "id": "dockz",
+   "titre": "DOCKZ : plateforme data du marché de l'entrepôt",
+   "stack": "Python, données publiques, Next.js",
+   "lien": "dockz.vercel.app",
+   "tags": [
+    "immobilier",
+    "logistique",
+    "entrepôt",
+    "études",
+    "marché",
+    "géo",
+    "géographique",
+    "cartographie",
+    "dataviz"
+   ],
+   "puces": [
+    "Création d’une plateforme d’analyse du marché logistique, intégrant des indicateurs de disponibilité et de performance.",
+    "Production de visualisations cartographiques pour soutenir la prise de décision terrain."
+   ]
+  },
+  {
+   "id": "frontierbank",
+   "titre": "FrontierBank : gouvernance des données d'une banque fictive",
+   "stack": "BCBS 239, DAMA-DMBOK, AI Act, Power BI",
+   "lien": "frontierbank-data.vercel.app",
+   "tags": [
+    "gouvernance",
+    "governance",
+    "steward",
+    "qualité",
+    "quality",
+    "bcbs",
+    "dama",
+    "lignage",
+    "lineage",
+    "banque",
+    "bancaire",
+    "risque",
+    "réglementaire",
+    "conformité",
+    "raci",
+    "référentiel",
+    "métadonnées"
+   ],
+   "puces": [
+    "Réalisation d’un audit de gouvernance des données, incluant diagnostic et définition de responsabilités, afin d’améliorer la qualité du service.",
+    "Conception de tableaux de bord de suivi de la qualité, facilitant la remontée d’anomalies."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "5675dc910ea4",
+ "entreprise": "RATP Dev",
+ "intitule_offre": "Aide-Mécanicien Itinérant",
+ "url_offre": "https://carrieres.ratpdev.com/fr/annonce/4676595-aide-mecanicien-itinerant-grentheville",
+ "genere_le": "2026-11-03T19:31:06+00:00"
+}
