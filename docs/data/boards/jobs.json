@@ -1,6 +1,86 @@
 {
- "updated": "2026-11-03T12:51:29+00:00",
+ "updated": "2026-11-03T20:09:39+00:00",
  "jobs": [
+  {
+   "id": "9f6030b3aa73",
+   "company": "Accenture France",
+   "title": "Engineer - Agentic ai Engineer H/F Accenture France",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83702586.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "2 ans min. · junior",
+   "junior": true,
+   "published": "2026-10-24T00:09:08+00:00",
+   "seed": false,
+   "rv": 3,
+   "match": {
+    "score": 65,
+    "have": [
+     "python",
+     "sql",
+     "aws",
+     "machine learning",
+     "intelligence artificielle",
+     "llm",
+     "rag",
+     "qualité des données",
+     "gouvernance",
+     "business analyst"
+    ],
+    "missing": [
+     "databricks",
+     "snowflake",
+     "azure",
+     "gcp",
+     "tensorflow",
+     "pytorch"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-03T20:09:36+00:00",
+   "last_seen": "2026-11-03T20:09:36+00:00"
+  },
+  {
+   "id": "cfde4d2885d3",
+   "company": "Seequalis",
+   "title": "Business Analyst H/F Seequalis",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85108036.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-03T16:13:06+00:00",
+   "seed": false,
+   "rv": 3,
+   "match": {
+    "score": 71,
+    "have": [
+     "power bi",
+     "intelligence artificielle",
+     "llm",
+     "gouvernance",
+     "pilotage",
+     "recette",
+     "spécifications",
+     "amoa",
+     "business analyst",
+     "anglais"
+    ],
+    "missing": [
+     "azure",
+     "modélisation",
+     "agile",
+     "jira"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-03T20:09:31+00:00",
+   "last_seen": "2026-11-03T20:09:31+00:00"
+  },
   {
    "id": "68217f6d137f",
    "company": "JCDecaux",
@@ -27,7 +107,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-02T23:08:51+00:00",
-   "last_seen": "2026-11-03T12:51:28+00:00"
+   "last_seen": "2026-11-03T20:09:34+00:00"
   },
   {
    "id": "2b002320378d",
@@ -56,7 +136,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-02T23:08:44+00:00",
-   "last_seen": "2026-11-03T12:51:28+00:00"
+   "last_seen": "2026-11-03T20:09:28+00:00"
   },
   {
    "id": "fdc2ca43c748",
@@ -83,7 +163,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-02T23:08:39+00:00",
-   "last_seen": "2026-11-03T12:51:28+00:00"
+   "last_seen": "2026-11-03T20:09:28+00:00"
   },
   {
    "id": "6ef140bf654c",
@@ -169,7 +249,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-02T09:34:25+00:00",
-   "last_seen": "2026-11-03T12:51:28+00:00"
+   "last_seen": "2026-11-03T20:09:34+00:00"
   },
   {
    "id": "2ea455ff9bbe",
@@ -271,7 +351,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-01T22:53:21+00:00",
-   "last_seen": "2026-11-03T12:51:28+00:00"
+   "last_seen": "2026-11-03T20:09:38+00:00"
   },
   {
    "id": "2a4aeac53220",
@@ -306,7 +386,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-01T22:53:06+00:00",
-   "last_seen": "2026-11-03T12:51:28+00:00"
+   "last_seen": "2026-11-03T20:09:38+00:00"
   },
   {
    "id": "2ec39f043816",
@@ -338,7 +418,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-01T22:52:49+00:00",
-   "last_seen": "2026-11-03T12:51:28+00:00"
+   "last_seen": "2026-11-03T20:09:38+00:00"
   },
   {
    "id": "2e7b96a064e9",
@@ -357,7 +437,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-01T21:49:06+00:00",
-   "last_seen": "2026-11-03T12:51:28+00:00"
+   "last_seen": "2026-11-03T20:09:38+00:00"
   },
   {
    "id": "a5a963f97fd8",
@@ -454,7 +534,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-01T21:48:22+00:00",
-   "last_seen": "2026-11-03T12:51:28+00:00"
+   "last_seen": "2026-11-03T20:09:38+00:00"
   },
   {
    "id": "34e6c3122830",
@@ -487,7 +567,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-01T21:48:15+00:00",
-   "last_seen": "2026-11-03T12:51:28+00:00"
+   "last_seen": "2026-11-03T20:09:38+00:00"
   },
   {
    "id": "79f0258fceb1",
@@ -518,7 +598,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-01T21:48:03+00:00",
-   "last_seen": "2026-11-03T12:51:28+00:00"
+   "last_seen": "2026-11-03T20:09:38+00:00"
   },
   {
    "id": "e2063676fdc9",
@@ -557,7 +637,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-01T21:47:44+00:00",
-   "last_seen": "2026-11-03T12:51:28+00:00"
+   "last_seen": "2026-11-03T20:09:38+00:00"
   },
   {
    "id": "2a78a8afbbcb",
@@ -589,7 +669,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-01T21:47:23+00:00",
-   "last_seen": "2026-11-03T12:51:28+00:00"
+   "last_seen": "2026-11-03T20:09:34+00:00"
   },
   {
    "id": "c9ff7918479e",
@@ -625,7 +705,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-01T21:46:59+00:00",
-   "last_seen": "2026-11-03T12:51:28+00:00"
+   "last_seen": "2026-11-03T20:09:34+00:00"
   },
   {
    "id": "256640b3e82d",
@@ -660,7 +740,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-01T21:46:50+00:00",
-   "last_seen": "2026-11-03T12:51:28+00:00"
+   "last_seen": "2026-11-03T20:09:34+00:00"
   },
   {
    "id": "0cd6c2c7cff6",
@@ -726,7 +806,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-31T10:58:00+00:00",
-   "last_seen": "2026-11-03T12:51:28+00:00"
+   "last_seen": "2026-11-03T20:09:28+00:00"
   },
   {
    "id": "5fc6efc22fad",
@@ -789,7 +869,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T23:01:01+00:00",
-   "last_seen": "2026-11-03T09:07:15+00:00"
+   "last_seen": "2026-11-03T20:09:34+00:00"
   },
   {
    "id": "408015d34413",
@@ -915,7 +995,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:04:54+00:00",
-   "last_seen": "2026-11-03T12:51:28+00:00"
+   "last_seen": "2026-11-03T20:09:34+00:00"
   },
   {
    "id": "562c24864dfe",
@@ -951,7 +1031,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:04:40+00:00",
-   "last_seen": "2026-11-03T12:51:28+00:00"
+   "last_seen": "2026-11-03T20:09:34+00:00"
   },
   {
    "id": "42e5b862c50d",
@@ -1016,7 +1096,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:04:27+00:00",
-   "last_seen": "2026-11-03T12:51:28+00:00"
+   "last_seen": "2026-11-03T20:09:34+00:00"
   },
   {
    "id": "34748263bec3",
@@ -1035,7 +1115,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-30T19:04:21+00:00",
-   "last_seen": "2026-11-03T12:51:28+00:00"
+   "last_seen": "2026-11-03T20:09:34+00:00"
   },
   {
    "id": "f096901aa5eb",
@@ -1065,7 +1145,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:04:18+00:00",
-   "last_seen": "2026-11-03T12:51:28+00:00"
+   "last_seen": "2026-11-03T20:09:28+00:00"
   },
   {
    "id": "40d90c8a1f93",
@@ -1126,7 +1206,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:03:46+00:00",
-   "last_seen": "2026-11-03T12:51:28+00:00"
+   "last_seen": "2026-11-03T20:09:34+00:00"
   },
   {
    "id": "a5e0c80db489",
@@ -1157,7 +1237,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:03:44+00:00",
-   "last_seen": "2026-11-03T12:51:28+00:00"
+   "last_seen": "2026-11-03T20:09:34+00:00"
   },
   {
    "id": "849da40b493c",
@@ -1176,7 +1256,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-30T19:03:27+00:00",
-   "last_seen": "2026-11-03T12:51:28+00:00"
+   "last_seen": "2026-11-03T20:09:34+00:00"
   },
   {
    "id": "edc51343e774",
@@ -1195,7 +1275,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-30T19:03:07+00:00",
-   "last_seen": "2026-11-03T12:51:28+00:00"
+   "last_seen": "2026-11-03T20:09:28+00:00"
   },
   {
    "id": "29916257c286",
@@ -1222,7 +1302,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:02:49+00:00",
-   "last_seen": "2026-11-03T12:51:28+00:00"
+   "last_seen": "2026-11-03T20:09:34+00:00"
   },
   {
    "id": "2f4e3da91567",
@@ -1251,7 +1331,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:02:42+00:00",
-   "last_seen": "2026-11-03T09:07:15+00:00"
+   "last_seen": "2026-11-03T20:09:34+00:00"
   },
   {
    "id": "21a5bbbf5ece",
@@ -1283,7 +1363,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:02:26+00:00",
-   "last_seen": "2026-11-03T12:51:28+00:00"
+   "last_seen": "2026-11-03T20:09:28+00:00"
   },
   {
    "id": "5b3881dadaac",
@@ -1302,7 +1382,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-30T19:02:19+00:00",
-   "last_seen": "2026-11-03T12:51:28+00:00"
+   "last_seen": "2026-11-03T20:09:28+00:00"
   },
   {
    "id": "73160bd26650",
@@ -1332,7 +1412,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:02:07+00:00",
-   "last_seen": "2026-11-03T12:51:28+00:00"
+   "last_seen": "2026-11-03T20:09:28+00:00"
   },
   {
    "id": "e41464344282",
@@ -1468,7 +1548,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-30T19:00:56+00:00",
-   "last_seen": "2026-11-03T12:51:28+00:00"
+   "last_seen": "2026-11-03T20:09:28+00:00"
   },
   {
    "id": "5ad3e638d32e",
@@ -1537,7 +1617,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:00:22+00:00",
-   "last_seen": "2026-11-03T12:51:28+00:00"
+   "last_seen": "2026-11-03T20:09:28+00:00"
   },
   {
    "id": "2c5497dc19f3",
@@ -1556,7 +1636,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-30T19:00:11+00:00",
-   "last_seen": "2026-11-03T12:51:28+00:00"
+   "last_seen": "2026-11-03T20:09:28+00:00"
   }
  ]
 }

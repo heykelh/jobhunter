@@ -1,6 +1,38 @@
 {
- "updated": "2026-11-03T12:51:29+00:00",
+ "updated": "2026-11-03T20:09:39+00:00",
  "items": [
+  {
+   "id": "5fc106829f37",
+   "company": "HelloWork",
+   "title": "Head Of Gdo ai Office H/F BNP Paribas",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85108018.html",
+   "reason": "titre exclu (head)",
+   "at": "2026-11-03T20:09:38+00:00"
+  },
+  {
+   "id": "45637bcfc1a3",
+   "company": "HelloWork",
+   "title": "Ingénieur IA - Référent Technique IA - Doctorat en IA Obligatoire H/F GutiLab",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85100807.html",
+   "reason": "titre exclu (doctorat)",
+   "at": "2026-11-03T20:09:38+00:00"
+  },
+  {
+   "id": "affec137355f",
+   "company": "HelloWork",
+   "title": "Lead IA Engineer H/F Team.is",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85108165.html",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-03T20:09:38+00:00"
+  },
+  {
+   "id": "899d4effe9a7",
+   "company": "HelloWork",
+   "title": "Engineering Manager - ai Modernisation H/F Team.is",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85108071.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-03T20:09:34+00:00"
+  },
   {
    "id": "8b94513190f9",
    "company": "HelloWork",

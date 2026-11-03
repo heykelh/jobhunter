@@ -1,0 +1,180 @@
+{
+ "titre": "Business Analyst IA : Expertise Data & Process",
+ "profil": "13 ans d’expérience opérationnelle au sein du Groupe SNCF, en environnement critique, avec un Master Data Engineer/Data Product Manager (Mines Paris‑PSL). Expertise reconnue dans la collecte, la clarification et la documentation des besoins métiers. Capacité à produire des spécifications fonctionnelles, des user stories et des critères d’acceptation pour des projets IA.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Power BI (DAX)",
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Looker Studio",
+    "Excel"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Recueillir et clarifier les besoins du SI Crédit, produire la cartographie des processus et les spécifications fonctionnelles associées.",
+    "Préparer les cas de test, le plan de recette et vérifier la conformité des livrables aux exigences documentées."
+   ]
+  },
+  {
+   "id": "customer-experience",
+   "titre": "Customer Experience Intelligence : analyse et dataviz",
+   "stack": "Python, Power BI",
+   "lien": "github.com/heykelh/customer-experience-intelligence",
+   "tags": [
+    "client",
+    "clients",
+    "expérience client",
+    "marketing",
+    "kpi",
+    "dashboard",
+    "tableau de bord",
+    "power bi",
+    "reporting",
+    "analyse",
+    "satisfaction",
+    "parcours"
+   ],
+   "puces": [
+    "Analyser les données clients, identifier les insights et formaliser les user stories d’amélioration de l’expérience métier.",
+    "Concevoir des dashboards Power BI comme livrables de spécifications fonctionnelles pour les décideurs."
+   ]
+  },
+  {
+   "id": "palier",
+   "titre": "PALIER : tarification et yield management TGV",
+   "stack": "Python, DuckDB, Power BI, Next.js, GitHub Actions",
+   "lien": "palier-sncf.vercel.app",
+   "tags": [
+    "pricing",
+    "prix",
+    "tarif",
+    "tarification",
+    "revenue",
+    "yield",
+    "élasticité",
+    "demande",
+    "transport",
+    "ferroviaire",
+    "voyageurs",
+    "sncf",
+    "commercial",
+    "offre"
+   ],
+   "puces": [
+    "Documenter les exigences fonctionnelles de la tarification TGV, cartographier les processus tarifaires et les règles de yield management.",
+    "Rédiger les spécifications du module de yield management et les scénarios de test automatisés."
+   ]
+  },
+  {
+   "id": "escale",
+   "titre": "ESCALE : ponctualité des vols CDG et Orly",
+   "stack": "Python, PostgreSQL (médaillon), API AeroDataBox, Next.js",
+   "lien": "escale-ops.vercel.app",
+   "tags": [
+    "aérien",
+    "aerien",
+    "aviation",
+    "vol",
+    "vols",
+    "airline",
+    "opérations",
+    "operations",
+    "ponctualité",
+    "retard",
+    "rgpd",
+    "privacy",
+    "données personnelles",
+    "ai act",
+    "prédiction",
+    "client"
+   ],
+   "puces": [
+    "Recueillir les flux de ponctualité, formaliser les règles métier et les critères d’acceptation pour le suivi des vols.",
+    "Livrer une console de suivi avec modèle de prédiction, préparer les tests de conformité RGPD et AI Act."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "azure",
+  "modélisation",
+  "agile",
+  "jira"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "cfde4d2885d3",
+ "entreprise": "Seequalis",
+ "intitule_offre": "Business Analyst H/F Seequalis",
+ "url_offre": "https://www.hellowork.com/fr-fr/emplois/85108036.html",
+ "genere_le": "2026-11-03T20:09:34+00:00"
+}
