@@ -1,6 +1,118 @@
 {
- "updated": "2026-11-03T03:38:38+00:00",
+ "updated": "2026-11-03T09:18:19+00:00",
  "items": [
+  {
+   "id": "67b255e01b6e",
+   "company": "ING",
+   "title": "AI Product Owner",
+   "url": "https://careers.ing.com/en/job/makati-city/ai-product-owner/3121/42093081024",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-03T09:17:58+00:00"
+  },
+  {
+   "id": "8e24c5fe8b74",
+   "company": "ING",
+   "title": "Senior Analyst",
+   "url": "https://careers.ing.com/en/job/city-of-taguig/senior-analyst/3121/45842420800",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-03T09:17:57+00:00"
+  },
+  {
+   "id": "8fddb35a4911",
+   "company": "UBS",
+   "title": "ASR EMIT Tech Support Analyst - Taiwan Bank",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=345200",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-03T09:17:23+00:00"
+  },
+  {
+   "id": "076938ac414e",
+   "company": "jobup.ch",
+   "title": "Consultant Lead - Software & Quality Engineering (AI-Powered) - AI-SDLC",
+   "url": "https://www.jobup.ch/fr/emplois/detail/08e5a352-12aa-4b46-a17c-c052d31fb3f2/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-03T09:15:46+00:00"
+  },
+  {
+   "id": "be5332efffd4",
+   "company": "jobup.ch",
+   "title": "Business Process Consultant Data Science (w/m/d) – AI & SAP Retail Intelligence",
+   "url": "https://www.jobup.ch/fr/emplois/detail/ca2dabde-0e27-4990-b138-0e2e64583031/",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « You bring a solid analytical and data science background, ideally based on a degree in mathematics, computer s »",
+   "at": "2026-11-03T09:15:35+00:00"
+  },
+  {
+   "id": "a8ea569218b7",
+   "company": "jobup.ch",
+   "title": "Scientific AI Platform Lead, Data Science, Disease Area X",
+   "url": "https://www.jobup.ch/fr/emplois/detail/e749ddae-a2d0-4cf1-ac04-d5f9cf9beffd/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-03T09:15:33+00:00"
+  },
+  {
+   "id": "ae1ae57e7cf6",
+   "company": "jobup.ch",
+   "title": "Data Engineer (Databricks) - F/M/X",
+   "url": "https://www.jobup.ch/fr/emplois/detail/a15c5c51-1cc2-4b52-a9e8-cf6d3ff16841/",
+   "reason": "expérience demandée ≥ 5 ans « es. a propos de vous : experience d'au moins 5 ans en data engineering, ave »",
+   "at": "2026-11-03T09:15:21+00:00"
+  },
+  {
+   "id": "836990a3b5f9",
+   "company": "jobup.ch",
+   "title": "Business Analyst – Enterprise Data Management (EDM)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/fd4607aa-2285-4c58-a94f-6ef98cc52dbc/",
+   "reason": "expérience demandée ≥ 3 ans « s. qualifications competences fonctionnelles 3 a 5 ans minimum d'experience en »",
+   "at": "2026-11-03T09:15:20+00:00"
+  },
+  {
+   "id": "a026e2996cf8",
+   "company": "jobs.ch",
+   "title": "Consultant Lead - Software & Quality Engineering (AI-Powered) - AI-SDLC",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/08e5a352-12aa-4b46-a17c-c052d31fb3f2/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-03T09:14:53+00:00"
+  },
+  {
+   "id": "6e6872799794",
+   "company": "jobs.ch",
+   "title": "Business Analyst Trainee (m/w/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/ba49a803-186d-4924-bd4b-adb3ac5e7531/",
+   "reason": "titre exclu (trainee)",
+   "at": "2026-11-03T09:14:47+00:00"
+  },
+  {
+   "id": "cfa4cbb2c93f",
+   "company": "jobs.ch",
+   "title": "System Engineer – Tactical Datalinks / Link 16",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/68121d03-7943-4efc-a077-367419788e57/",
+   "reason": "expérience demandée ≥ 6 ans « dans l'un des domaines ci-dessus, combinee a plus de 5 ans d'experience professionn »",
+   "at": "2026-11-03T09:14:44+00:00"
+  },
+  {
+   "id": "201039eb1961",
+   "company": "Crédit Agricole",
+   "title": "Stage Data & Insight Dashboard Assistant H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-124-stage-data-et-insight-dashboard-assistant-hf-reference--2026-117044--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-03T09:09:36+00:00"
+  },
+  {
+   "id": "d11e94bee492",
+   "company": "Alstom",
+   "title": "Network Security Analyst",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Network-Security-Analyst-KA/1453630433/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-03T09:06:07+00:00"
+  },
+  {
+   "id": "61f2b7be2b70",
+   "company": "Alstom",
+   "title": "Record to Report Senior Analyst",
+   "url": "https://jobsearch.alstom.com/job/Cluj-Napoca-Record-to-Report-Senior-Analyst-CJ/1453690633/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-03T09:06:07+00:00"
+  },
   {
    "id": "2ab2b456c60b",
    "company": "UBS",

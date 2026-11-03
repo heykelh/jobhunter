@@ -1,0 +1,177 @@
+{
+ "titre": "IT Application Analyst PLM-CAx : Geberit AG",
+ "profil": "Titulaire d’une formation d’ingénieur en informatique, je possède une solide expertise en ingénierie des données et en gestion de systèmes d’information critiques. J’ai mené plus de quinze projets de conception, d’optimisation et de mise en production, incluant l’analyse des besoins, la rédaction de spécifications techniques et la conduite de tests fonctionnels. Mes compétences en communication et mon approche globale me permettent de collaborer efficacement avec les différentes entités pour garantir la qualité et la continuité des services IT.",
+ "competences": [
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio",
+    "Excel"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Analyse fonctionnelle du système de recouvrement, rédaction de spécifications et plan de tests",
+    "Livrables : cartographie des processus et documentation technique"
+   ]
+  },
+  {
+   "id": "palier",
+   "titre": "PALIER : tarification et yield management TGV",
+   "stack": "Python, DuckDB, Power BI, Next.js, GitHub Actions",
+   "lien": "palier-sncf.vercel.app",
+   "tags": [
+    "pricing",
+    "prix",
+    "tarif",
+    "tarification",
+    "revenue",
+    "yield",
+    "élasticité",
+    "demande",
+    "transport",
+    "ferroviaire",
+    "voyageurs",
+    "sncf",
+    "commercial",
+    "offre"
+   ],
+   "puces": [
+    "Étude de la tarification TGV, modélisation d’algorithmes d’allocation et mise à jour automatisée",
+    "Gestion du code source via GitHub Actions, garantissant la traçabilité des changements"
+   ]
+  },
+  {
+   "id": "pokewatch",
+   "titre": "PokéWatch : surveillance de marché et détection d'anomalies de prix",
+   "stack": "PostgreSQL, Supabase, SQL, GitHub Actions, Next.js",
+   "lien": "pokewatch-three.vercel.app",
+   "tags": [
+    "surveillance",
+    "monitoring",
+    "anomalie",
+    "anomalies",
+    "fraude",
+    "prix",
+    "marché",
+    "pipeline",
+    "automatisation",
+    "alerte",
+    "data engineer",
+    "ingestion",
+    "sql"
+   ],
+   "puces": [
+    "Conception d’un pipeline de collecte de données prix, automatisation et alertes en temps réel",
+    "Développement de règles SQL de détection d’anomalies et tableau de bord de suivi"
+   ]
+  },
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Mission d’inspection des flux de données de risque crédit, cadrage et investigations",
+    "Mise en place de contrôles qualité SQL, scoring et rapport de restitution"
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "allemand",
+  "sap"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "e841b98e216e",
+ "entreprise": "Geberit AG",
+ "intitule_offre": "IT Application Analyst PLM-CAx (a) 80-100%",
+ "url_offre": "https://www.jobs.ch/fr/offres-emplois/detail/379896e9-d8a4-488e-8c7f-870f449d638f/",
+ "genere_le": "2026-11-03T09:14:52+00:00"
+}
