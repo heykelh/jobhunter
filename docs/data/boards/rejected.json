@@ -1,6 +1,118 @@
 {
- "updated": "2026-11-02T23:09:07+00:00",
+ "updated": "2026-11-03T09:07:25+00:00",
  "items": [
+  {
+   "id": "1f72384b12b4",
+   "company": "HelloWork",
+   "title": "Forward Deployed Engineer - Agentic ai H/F Onepoint",
+   "url": "https://www.hellowork.com/fr-fr/emplois/80934026.html",
+   "reason": "expérience demandée ≥ 5 ans « n informatique, et vous justifiez d'au moins 5 ans d'experience professionn »",
+   "at": "2026-11-03T09:07:22+00:00"
+  },
+  {
+   "id": "e5316664cfeb",
+   "company": "HelloWork",
+   "title": "Agile Business Analyst H/F JEMS",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85044875.html",
+   "reason": "expérience demandée ≥ 3 ans « nieur ou d'une universite, vous justifiez de 3 annees d'experience professionn »",
+   "at": "2026-11-03T09:07:21+00:00"
+  },
+  {
+   "id": "c064d9427f22",
+   "company": "HelloWork",
+   "title": "Leader Conseil Product & Transformation ai H/F Onepoint",
+   "url": "https://www.hellowork.com/fr-fr/emplois/77541381.html",
+   "reason": "titre exclu (leader)",
+   "at": "2026-11-03T09:07:21+00:00"
+  },
+  {
+   "id": "943a9bcaeaee",
+   "company": "HelloWork",
+   "title": "Business Analyst SIRH H/F Klanik",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85086111.html",
+   "reason": "expérience demandée ≥ 4 ans « perieure, vous justifiez d'une experience de 4 a 7 ans minimum en tant que busi »",
+   "at": "2026-11-03T09:07:19+00:00"
+  },
+  {
+   "id": "56d929d32f66",
+   "company": "HelloWork",
+   "title": "Business Analyst Adhésion H/F GFP_tech",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82934974.html",
+   "reason": "expérience demandée ≥ 3 ans « en systemes d'information ou assurance, avec 3 ans d'experience sur un post »",
+   "at": "2026-11-03T09:07:18+00:00"
+  },
+  {
+   "id": "00ae4361abbb",
+   "company": "HelloWork",
+   "title": "Business Analyst Adhésion H/F GFP_tech",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82934965.html",
+   "reason": "expérience demandée ≥ 3 ans « en systemes d'information ou assurance, avec 3 ans d'experience sur un post »",
+   "at": "2026-11-03T09:07:16+00:00"
+  },
+  {
+   "id": "4f792c24f186",
+   "company": "HelloWork",
+   "title": "Sales Specialist Data & IA H/F Inetum",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82960230.html",
+   "reason": "expérience demandée ≥ 5 ans « t font la difference.vous possedez :au moins 5 ans d'experience dans la ven »",
+   "at": "2026-11-03T09:07:15+00:00"
+  },
+  {
+   "id": "97bfd54571c9",
+   "company": "HelloWork",
+   "title": "Business Analyst Data Confirmé H/F Skaelia",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85083925.html",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-03T09:07:15+00:00"
+  },
+  {
+   "id": "6ba50de4d28f",
+   "company": "HelloWork",
+   "title": "Business Manager - IA - Data H/F Meritis",
+   "url": "https://www.hellowork.com/fr-fr/emplois/80928723.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-03T09:07:15+00:00"
+  },
+  {
+   "id": "3dd9be53ceb5",
+   "company": "HelloWork",
+   "title": "Data Scientist Confirmé H/F MP Data",
+   "url": "https://www.hellowork.com/fr-fr/emplois/76338177.html",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-03T09:07:15+00:00"
+  },
+  {
+   "id": "c850ab62c4e3",
+   "company": "HelloWork",
+   "title": "Data Engineer Snowflake - Data Architecture & Pipelining H/F Sopra Steria",
+   "url": "https://www.hellowork.com/fr-fr/emplois/79698672.html",
+   "reason": "expérience demandée ≥ 7 ans « recherchebac +5 en informatique ou equivalent7 ans d'experience minimum en »",
+   "at": "2026-11-03T09:07:13+00:00"
+  },
+  {
+   "id": "0ef41373af3b",
+   "company": "HelloWork",
+   "title": "DevOps Data Platform - Kubernetes & Big Data H/F CGI",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83985274.html",
+   "reason": "expérience demandée ≥ 3 ans « ualites requises pour reussir dans ce role - experience confirmee devops / sre, cloud-nati »",
+   "at": "2026-11-03T09:07:12+00:00"
+  },
+  {
+   "id": "583a685b2261",
+   "company": "HelloWork",
+   "title": "Data Solution Manager H/F JCDecaux",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82957836.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-03T09:07:12+00:00"
+  },
+  {
+   "id": "8b78173b4165",
+   "company": "HelloWork",
+   "title": "Lead Data & ai H/F Hymaïa",
+   "url": "https://www.hellowork.com/fr-fr/emplois/80951472.html",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-03T09:07:12+00:00"
+  },
   {
    "id": "d1de572edd45",
    "company": "HelloWork",
