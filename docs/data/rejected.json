@@ -1,6 +1,46 @@
 {
- "updated": "2026-11-03T19:43:29+00:00",
+ "updated": "2026-11-04T00:23:48+00:00",
  "items": [
+  {
+   "id": "8d98191ad806",
+   "company": "jobs.ch",
+   "title": "AI First Data Engineer",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/0c1aa825-1834-4014-ad3a-07699ab3f043/",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « Une expérience pratique en ingénierie des données avec Databricks ou Microsoft Fabric »",
+   "at": "2026-11-04T00:20:36+00:00"
+  },
+  {
+   "id": "95fa98969419",
+   "company": "jobs.ch",
+   "title": "AI Solution Engineer",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/c388c259-5516-46fa-b036-1ec07dd36380/",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « Solides compétences en développement logiciel, y compris une expérience avec les frameworks IA/ML, les API et  »",
+   "at": "2026-11-04T00:20:33+00:00"
+  },
+  {
+   "id": "317fa480141c",
+   "company": "Crédit Agricole",
+   "title": "Analyste Sustainable Investment Banking H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-sustainable-investment-banking-hf-reference--2026-114887--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-04T00:15:26+00:00"
+  },
+  {
+   "id": "0a72c3bf8a14",
+   "company": "Crédit Agricole",
+   "title": "Analyste - Intelligence Artificielle H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste---intelligence-artificielle-hf-reference--2026-111833--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-04T00:15:25+00:00"
+  },
+  {
+   "id": "26fc07faa5f8",
+   "company": "Crédit Agricole",
+   "title": "Analyste Crédit Early Detection H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-credit-early-detection-hf-reference--2026-113297--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-04T00:15:23+00:00"
+  },
   {
    "id": "10da82145c07",
    "company": "ING",
