@@ -1,0 +1,171 @@
+{
+ "titre": "Data Scientist CDD : BPCE",
+ "profil": "Data scientist avec 13 ans d'expérience opérationnelle dans un environnement bancaire critique, titulaire d'un Master Data Engineer/Data Product Manager (Mines Paris). Expertise avérée en Python, SQL et en conception de pipelines de données. Compétences en machine learning et traitement du langage naturel appliquées à des projets variés.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "SQL",
+    "Python (pandas)",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio",
+    "Excel"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "RAG",
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Conduite d'une simulation d'analyse fonctionnelle d'un système de crédit, de la collecte du besoin à la phase de recette.",
+    "Production de livrables : cartographie des processus, spécifications fonctionnelles, plan de tests, publiés en ligne."
+   ]
+  },
+  {
+   "id": "prisme",
+   "titre": "PRISME : copilote d'audit AI Act",
+   "stack": "Python, FastAPI, RAG, Supabase (pgvector), Groq",
+   "lien": "",
+   "tags": [
+    "ai act",
+    "audit",
+    "conformité",
+    "ia",
+    "intelligence artificielle",
+    "rag",
+    "llm",
+    "réglementaire",
+    "api"
+   ],
+   "puces": [
+    "Développement d'une API d'audit de conformité AI Act, intégrant recherche RAG dans les textes réglementaires et grille de qualification IA.",
+    "Backend FastAPI déployé sur Render avec base vectorielle pgvector."
+   ]
+  },
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Simulation d'une inspection des flux de données de risque crédit, incluant cadrage, investigations et restitution.",
+    "Moteur de contrôles qualité basé sur des règles SQL, scoring de risque, registre des constats et rapport final."
+   ]
+  },
+  {
+   "id": "pokewatch",
+   "titre": "PokéWatch : surveillance de marché et détection d'anomalies de prix",
+   "stack": "PostgreSQL, Supabase, SQL, GitHub Actions, Next.js",
+   "lien": "pokewatch-three.vercel.app",
+   "tags": [
+    "surveillance",
+    "monitoring",
+    "anomalie",
+    "anomalies",
+    "fraude",
+    "prix",
+    "marché",
+    "pipeline",
+    "automatisation",
+    "alerte",
+    "data engineer",
+    "ingestion",
+    "sql"
+   ],
+   "puces": [
+    "Mise en place d'un pipeline automatisé de collecte de prix sur Cardmarket et eBay, déclenché par GitHub Actions, alertes en temps réel.",
+    "Détection d'anomalies de prix via règles SQL et tableau de bord Next.js pour suivi du marché."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "sas"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "a3ccd8a29ce7",
+ "entreprise": "BPCE",
+ "intitule_offre": "Data scientist CDD (F/H)",
+ "url_offre": "https://recrutement.bpce.fr/job/data-scientist-cdd-f-h",
+ "genere_le": "2026-11-04T19:46:52+00:00"
+}

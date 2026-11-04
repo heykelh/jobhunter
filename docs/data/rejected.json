@@ -1,6 +1,190 @@
 {
- "updated": "2026-11-04T12:16:01+00:00",
+ "updated": "2026-11-04T19:54:54+00:00",
  "items": [
+  {
+   "id": "ddcae9ddb3b1",
+   "company": "ING",
+   "title": "Data Scientist Specialist-1",
+   "url": "https://careers.ing.com/en/job/silesia/data-scientist-specialist-1/3121/46131517440",
+   "reason": "lieu hors zones",
+   "at": "2026-11-04T19:54:34+00:00"
+  },
+  {
+   "id": "a4e01f6b1112",
+   "company": "UBS",
+   "title": "Australia Metals & Mining Analyst / Associate",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=353284",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-04T19:53:55+00:00"
+  },
+  {
+   "id": "21a3cd08153f",
+   "company": "UBS",
+   "title": "Research Analyst - Mining Sector",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=350453",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-04T19:53:54+00:00"
+  },
+  {
+   "id": "49d2b5f7b91e",
+   "company": "jobs.ch",
+   "title": "Leitung IAM Institut für Angewandte Medienwissenschaft 50-100 % (Professur)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/1de317a3-e2ad-46c7-b105-601cb1b62b58/",
+   "reason": "expérience demandée ≥ 5 ans « e est prevue. cela inclut notamment au moins 5 ans d'experience professionn »",
+   "at": "2026-11-04T19:51:21+00:00"
+  },
+  {
+   "id": "bb89bf2c5caf",
+   "company": "jobs.ch",
+   "title": "Senior BI/Data & Campaign Analytics Specialist (Banking)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/e7af7088-d47e-469d-940c-4219d03d4ea9/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-04T19:51:14+00:00"
+  },
+  {
+   "id": "b8371922d4bd",
+   "company": "TotalEnergies",
+   "title": "ALTERNANCE – Business Intelligence & Data (Integrated Power Southern Europe) - H/F",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/ALTERNANCE-Business-Intelligence-Data-Integrated-Power-Southern-Europe-H-F/85889",
+   "reason": "titre exclu (alternance)",
+   "at": "2026-11-04T19:49:46+00:00"
+  },
+  {
+   "id": "5d9dab61588d",
+   "company": "AXA",
+   "title": "Threat Intelligence Analyst",
+   "url": "https://careers.axa.com/jobs/30025",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-04T19:47:39+00:00"
+  },
+  {
+   "id": "7114910f61f2",
+   "company": "BPCE",
+   "title": "Stage - Analyste Risques opérationnels et fraude externe H/F",
+   "url": "https://recrutement.bpce.fr/job/stage-analyste-risques-operationnels-et-fraude-externe-h-f",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-04T19:46:52+00:00"
+  },
+  {
+   "id": "ad8fc96490ff",
+   "company": "Crédit Agricole",
+   "title": "Business Analyst IT moyens de paiement H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170477-126-business-analyst-it-moyens-de-paiement-hf-reference--2026-109893--/",
+   "reason": "expérience demandée ≥ 3 ans « ans dans des fonctions de business analyst. niveau d'experience minimum 3 - 5 ans competences recherchees exce » (retirée)",
+   "at": "2026-11-04T19:45:23+00:00"
+  },
+  {
+   "id": "07acac043efa",
+   "company": "Crédit Agricole",
+   "title": "Architecte fonctionnel Data H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170477-3-architecte-fonctionnel-data-hf-reference--2026-111518--/",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-04T19:45:23+00:00"
+  },
+  {
+   "id": "27f968d8735d",
+   "company": "Crédit Agricole",
+   "title": "Stage - IAM Officer H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-191859-136-stage---iam-officer-hf-reference--2026-117148--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-04T19:45:23+00:00"
+  },
+  {
+   "id": "5a5c714193ab",
+   "company": "Crédit Agricole",
+   "title": "VIE ALM & Structured Funding Analyst (Securitisation & Derivatives) H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170464-138-vie-alm-et-structured-funding-analyst-securitisation-et-derivatives-hf-reference--2026-117181--/",
+   "reason": "titre exclu (VIE)",
+   "at": "2026-11-04T19:45:21+00:00"
+  },
+  {
+   "id": "6726518fd5b0",
+   "company": "Crédit Agricole",
+   "title": "VIE Data Analyst H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170477-138-vie-data-analyst-hf-reference--2026-117182--/",
+   "reason": "titre exclu (VIE)",
+   "at": "2026-11-04T19:45:21+00:00"
+  },
+  {
+   "id": "374837fa75e7",
+   "company": "Société Générale",
+   "title": "Data Scientist & AI Engineer - Business Intelligence",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/data-scientist-ai-engineer-business-intelligence-26000KU9-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-04T19:44:52+00:00"
+  },
+  {
+   "id": "3d78a96d802c",
+   "company": "Société Générale",
+   "title": "Data Scientist",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/data-scientist-26000N5Q-fr",
+   "reason": "expérience demandée ≥ 4 ans « eurs et disposez d'une experience d'au moins 4 ans dans une fonction simila »",
+   "at": "2026-11-04T19:44:50+00:00"
+  },
+  {
+   "id": "c2f2e596c385",
+   "company": "Société Générale",
+   "title": "Assistant Analyste Risque de Crédit",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/assistant-analyste-risque-de-credit-26000MJP-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-04T19:44:49+00:00"
+  },
+  {
+   "id": "f8c742aaec89",
+   "company": "Société Générale",
+   "title": "Analyste Coverage Financial Sponsors",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-coverage-financial-sponsors-26000LMI-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-04T19:44:47+00:00"
+  },
+  {
+   "id": "9399f6f6d8e8",
+   "company": "Société Générale",
+   "title": "Analyste de crédit",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-de-credit-26000LJV-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-04T19:44:46+00:00"
+  },
+  {
+   "id": "14f12af684e4",
+   "company": "SBB CFF FFS",
+   "title": "Business Analyst Fahrplanplanung und Betriebssteuerung (m/w/d)",
+   "url": "https://jobs.sbb.ch/v2/offene-stellen/business-analyst-fahrplanplanung-und-betriebssteuerung-m-w-d/4f86d674-59c5-499f-bc5e-f63dc8b65aeb",
+   "reason": "expérience demandée ≥ 5 ans « t unterschiedlichen stakeholdern. mindestens 5 jahre erfahrung als business a »",
+   "at": "2026-11-04T19:43:25+00:00"
+  },
+  {
+   "id": "dd1f47d0a634",
+   "company": "SNCF",
+   "title": "Aiguilleur du rail (F/H) - CDI - PARIS AUSTERLITZ (75)",
+   "url": "https://emploi.sncf.com/nos-offres/887640",
+   "reason": "expérience demandée ≥ 6 ans « ondissement, paris (75) cdi de 3 a 5 ans, de 6 a 10 ans, moins de 3 ans, debutan »",
+   "at": "2026-11-04T19:42:16+00:00"
+  },
+  {
+   "id": "563acfb73862",
+   "company": "SNCF",
+   "title": "Aiguilleur du rail (F/H) - CDI - TRAPPES",
+   "url": "https://emploi.sncf.com/nos-offres/887639",
+   "reason": "expérience demandée ≥ 6 ans « trappes, yvelines (78) cdi de 3 a 5 ans, de 6 a 10 ans, moins de 3 ans, debutan »",
+   "at": "2026-11-04T19:42:14+00:00"
+  },
+  {
+   "id": "1a57b913374f",
+   "company": "SNCF",
+   "title": "Aiguilleur du rail (F/H) - CDI - LE BOURGET",
+   "url": "https://emploi.sncf.com/nos-offres/887674",
+   "reason": "expérience demandée ≥ 6 ans « seine saint-denis (93) cdi de 3 a 5 ans, de 6 a 10 ans, moins de 3 ans, debutan »",
+   "at": "2026-11-04T19:42:13+00:00"
+  },
+  {
+   "id": "bbedccfda62b",
+   "company": "Air France",
+   "title": "Analyste expérimenté fraudes moyens de paiement F/H",
+   "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25784&idOrigine=502&offerReference=2026-25784",
+   "reason": "titre exclu (experimente)",
+   "at": "2026-11-04T19:42:11+00:00"
+  },
   {
    "id": "d7470b706b40",
    "company": "ING",

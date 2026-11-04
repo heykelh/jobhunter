@@ -1,0 +1,170 @@
+{
+ "titre": "Educational ICT Systemspezialist:in & (Co-)Projektleiter:in AI Agents und Automation Service digitale Prüfungen",
+ "profil": "Professionnel avec 13 ans d’expérience dans un environnement critique au sein du groupe SNCF, spécialisé en ingénierie des données et gestion de produits data. Titulaire d’un Master Data Engineer/Data Product Manager (Mines Paris : PSL), je maîtrise le développement logiciel, l’intégration d’API et la mise en place de solutions d’automatisation. J’ai conduit plus de 15 projets data, alliant analyse, conception d’interfaces et pilotage de livrables complexes.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Excel",
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "prisme",
+   "titre": "PRISME : copilote d'audit AI Act",
+   "stack": "Python, FastAPI, RAG, Supabase (pgvector), Groq",
+   "lien": "",
+   "tags": [
+    "ai act",
+    "audit",
+    "conformité",
+    "ia",
+    "intelligence artificielle",
+    "rag",
+    "llm",
+    "réglementaire",
+    "api"
+   ],
+   "puces": [
+    "Conception d’une API d’aide à l’audit de conformité, intégrant recherche RAG dans les textes réglementaires, adaptée aux exigences d’automatisation des examens",
+    "Déploiement d’un backend FastAPI sur une infrastructure cloud avec stockage vectoriel, illustrant la mise en place d’interfaces évolutives"
+   ]
+  },
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Simulation d’une mission d’inspection de données, incluant cadrage, investigations et restitution, démontrant la capacité à analyser et automatiser des processus complexes",
+    "Réalisation d’un moteur de contrôles qualité SQL et d’un registre de constats, illustrant la création d’API internes pour le suivi des flux de données"
+   ]
+  },
+  {
+   "id": "palier",
+   "titre": "PALIER : tarification et yield management TGV",
+   "stack": "Python, DuckDB, Power BI, Next.js, GitHub Actions",
+   "lien": "palier-sncf.vercel.app",
+   "tags": [
+    "pricing",
+    "prix",
+    "tarif",
+    "tarification",
+    "revenue",
+    "yield",
+    "élasticité",
+    "demande",
+    "transport",
+    "ferroviaire",
+    "voyageurs",
+    "sncf",
+    "commercial",
+    "offre"
+   ],
+   "puces": [
+    "Analyse de la tarification TGV à partir de données ouvertes, incluant élasticité prix et positionnement, montrant la modélisation de workflows décisionnels",
+    "Implémentation d’un module de yield management automatisé via GitHub Actions, exemplifiant l’orchestration de pipelines d’automatisation"
+   ]
+  },
+  {
+   "id": "regard",
+   "titre": "REGARD : copilote de conformité bancaire",
+   "stack": "LangGraph.js, Groq, Supabase (pgvector), Langfuse",
+   "lien": "regard-wine.vercel.app",
+   "tags": [
+    "conformité",
+    "compliance",
+    "banque",
+    "bancaire",
+    "réglementaire",
+    "lcb-ft",
+    "kyc",
+    "ia",
+    "llm",
+    "rag",
+    "risque"
+   ],
+   "puces": [
+    "Développement d’un copilote de conformité bancaire où les règles sont codées et l’IA génère les synthèses, soulignant l’intégration d’agents IA dans des processus de validation",
+    "Validation de 28 cas de test avec suivi des appels, illustrant la mise en place de tests automatisés pour garantir la fiabilité des services"
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "agile",
+  "allemand"
+ ],
+ "methode": "règles + reformulation IA (5 blocs adaptés)",
+ "job_id": "6d453af5607e",
+ "entreprise": "ETH Zürich",
+ "intitule_offre": "Educational ICT Systemspezialist:in & (Co-)Projektleiter:in AI Agents und Automation Service digitale Prüfungen (m/w/d)",
+ "url_offre": "https://www.jobs.ch/fr/offres-emplois/detail/f8bf125c-1e94-40c1-9a50-5702e277151e/",
+ "genere_le": "2026-11-04T19:51:19+00:00"
+}
