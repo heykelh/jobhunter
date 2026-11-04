@@ -1,6 +1,70 @@
 {
- "updated": "2026-11-03T20:09:39+00:00",
+ "updated": "2026-11-04T01:27:49+00:00",
  "items": [
+  {
+   "id": "9e2220db99e9",
+   "company": "HelloWork",
+   "title": "Architecte Infrastructure IA - Cybersécurité H/F Accenture France",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85119781.html",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-04T01:27:49+00:00"
+  },
+  {
+   "id": "f2d637732d44",
+   "company": "HelloWork",
+   "title": "Strategist Generative ai Innovation Center H/F Amazon",
+   "url": "https://www.hellowork.com/fr-fr/emplois/79808123.html",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « Several years of technical specialist, design and architecture experience »",
+   "at": "2026-11-04T01:27:39+00:00"
+  },
+  {
+   "id": "5acd2de8cef9",
+   "company": "HelloWork",
+   "title": "Sales - ai Apps H/F Devoteam France",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83007033.html",
+   "reason": "expérience demandée ≥ 3 ans « ustifiez d'une experience reussie d'au moins 3 annees dans la vente de service »",
+   "at": "2026-11-04T01:27:37+00:00"
+  },
+  {
+   "id": "93db5f63c237",
+   "company": "HelloWork",
+   "title": "Senior Manager ai Engineering - Agentic ai Engineering H/F Accenture France",
+   "url": "https://www.hellowork.com/fr-fr/emplois/79804504.html",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-04T01:27:36+00:00"
+  },
+  {
+   "id": "d781853e3367",
+   "company": "HelloWork",
+   "title": "Data Analyst H/F GRADIANT",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82986866.html",
+   "reason": "expérience demandée ≥ 5 ans « us etes : data analyst experimente / senior (5 ans d'experience et plus). v »",
+   "at": "2026-11-04T01:27:20+00:00"
+  },
+  {
+   "id": "eee840c8dfc1",
+   "company": "HelloWork",
+   "title": "Product Manager Data Senior - Lead H/F Parts Holding Europe",
+   "url": "https://www.hellowork.com/fr-fr/emplois/79810857.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-04T01:27:03+00:00"
+  },
+  {
+   "id": "11a6eb661624",
+   "company": "HelloWork",
+   "title": "Project Manager Data H/F GRADIANT",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82986858.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-04T01:26:54+00:00"
+  },
+  {
+   "id": "2ee6305dc5e5",
+   "company": "HelloWork",
+   "title": "Architect Big Data H/F GRADIANT",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82986856.html",
+   "reason": "titre exclu (architect)",
+   "at": "2026-11-04T01:26:54+00:00"
+  },
   {
    "id": "5fc106829f37",
    "company": "HelloWork",
