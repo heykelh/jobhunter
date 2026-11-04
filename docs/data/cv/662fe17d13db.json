@@ -1,0 +1,171 @@
+{
+ "titre": "Data Analyst : Gouvernance de la donnée : CNP Assurances",
+ "profil": "13 ans d’expérience en data engineering et gestion de données au sein du groupe SNCF, avec un Master Data Engineer / Data Product Manager (Mines Paris : PSL). Expertise avérée dans la collecte, le nettoyage, la structuration et l’automatisation de flux de données financières, ainsi que dans la garantie de leur qualité et cohérence. Maîtrise de SQL, Python, VBA et d’outils de BI (Tableau, Power BI, BO) ; capacité à concevoir des tableaux de bord décisionnels et à travailler en transversal avec les métiers.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "SQL",
+    "Python (pandas)",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio",
+    "Excel"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Simulation d’une inspection de la chaîne de données de risque de crédit : cadrage, investigations et restitution des constats.",
+    "Développement d’un moteur de contrôles qualité en SQL, incluant scoring de risque et génération de rapports d’anomalies."
+   ]
+  },
+  {
+   "id": "customer-experience",
+   "titre": "Customer Experience Intelligence : analyse et dataviz",
+   "stack": "Python, Power BI",
+   "lien": "github.com/heykelh/customer-experience-intelligence",
+   "tags": [
+    "client",
+    "clients",
+    "expérience client",
+    "marketing",
+    "kpi",
+    "dashboard",
+    "tableau de bord",
+    "power bi",
+    "reporting",
+    "analyse",
+    "satisfaction",
+    "parcours"
+   ],
+   "puces": [
+    "Analyse exploratoire des données clients pour identifier insights, tendances et anomalies influençant la performance.",
+    "Création de tableaux de bord interactifs sous Power BI, fournissant des indicateurs de pilotage aux décideurs."
+   ]
+  },
+  {
+   "id": "finance-audit",
+   "titre": "Finance Digital Audit Dashboard",
+   "stack": "Python, pandas, scikit-learn, FastAPI, Next.js, Plotly",
+   "lien": "",
+   "tags": [
+    "finance",
+    "financier",
+    "audit",
+    "anomalie",
+    "anomalies",
+    "machine learning",
+    "contrôle de gestion",
+    "comptabilité",
+    "bourse",
+    "api"
+   ],
+   "puces": [
+    "Ingestion et ETL des données financières du CAC 40 avec pandas, suivi d’une détection d’anomalies automatisée.",
+    "Mise en place d’une API et d’un tableau de bord interactif, déployés via CI GitHub Actions, pour le suivi des anomalies."
+   ]
+  },
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Simulation d’une mission de Business Analyst sur un SI Crédit, couvrant expression du besoin, conception et phase de recette.",
+    "Production de livrables détaillés : cartographie des processus, spécifications fonctionnelles et plan de tests."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "vba"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "662fe17d13db",
+ "entreprise": "CNP ASSURANCES",
+ "intitule_offre": "Data Analyst H/F CNP ASSURANCES",
+ "url_offre": "https://www.hellowork.com/fr-fr/emplois/85136602.html",
+ "genere_le": "2026-11-04T13:03:05+00:00"
+}
