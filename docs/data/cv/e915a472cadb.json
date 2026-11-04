@@ -1,0 +1,181 @@
+{
+ "titre": "Analyste investissement : Crédit / Alternatives",
+ "profil": "Professionnel avec 13 ans d’expérience au sein du groupe SNCF, spécialisé en ingénierie des données et gestion de produits data. Titulaire d’un Master Data Engineer (Mines Paris : PSL) et ayant conduit plus de 15 projets data. Expertise reconnue en analyse quantitative, modélisation financière et reporting de risques crédit.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Excel",
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Simulation d’une inspection data sur la chaîne de risque de crédit : cadrage, investigations, débriefing.",
+    "Mise en place d’un moteur de contrôles qualité SQL et d’un registre de constats pour le reporting de risque."
+   ]
+  },
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Conduite d’une mission Business Analyst sur un SI Crédit : expression du besoin, spécifications, recette.",
+    "Production de cartographies de processus et de plans de tests pour assurer la conformité des flux de recouvrement."
+   ]
+  },
+  {
+   "id": "frontierbank",
+   "titre": "FrontierBank : gouvernance des données d'une banque fictive",
+   "stack": "BCBS 239, DAMA-DMBOK, AI Act, Power BI",
+   "lien": "frontierbank-data.vercel.app",
+   "tags": [
+    "gouvernance",
+    "governance",
+    "steward",
+    "qualité",
+    "quality",
+    "bcbs",
+    "dama",
+    "lignage",
+    "lineage",
+    "banque",
+    "bancaire",
+    "risque",
+    "réglementaire",
+    "conformité",
+    "raci",
+    "référentiel",
+    "métadonnées"
+   ],
+   "puces": [
+    "Conseil en gouvernance des données : diagnostic BCBS 239, cadre DAMA‑DMBOK, lignage et matrice RACI.",
+    "Création de tableaux de bord Power BI pour le suivi de la qualité des données et la conformité aux exigences réglementaires."
+   ]
+  },
+  {
+   "id": "palier",
+   "titre": "PALIER : tarification et yield management TGV",
+   "stack": "Python, DuckDB, Power BI, Next.js, GitHub Actions",
+   "lien": "palier-sncf.vercel.app",
+   "tags": [
+    "pricing",
+    "prix",
+    "tarif",
+    "tarification",
+    "revenue",
+    "yield",
+    "élasticité",
+    "demande",
+    "transport",
+    "ferroviaire",
+    "voyageurs",
+    "sncf",
+    "commercial",
+    "offre"
+   ],
+   "puces": [
+    "Analyse de la tarification TGV à partir de données ouvertes : élasticité prix et positionnement concurrentiel.",
+    "Développement d’un module de yield management avec algorithme EMSR‑b et automatisation via GitHub Actions."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "modélisation",
+  "allemand"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "e915a472cadb",
+ "entreprise": "Alpinum Investment Management AG",
+ "intitule_offre": "INVESTMENT ANALYST, CREDIT / ALTERNATIVES, 100%",
+ "url_offre": "https://www.jobs.ch/fr/offres-emplois/detail/3d965fb1-4964-44d4-9b15-5e6b66f56269/",
+ "genere_le": "2026-11-04T12:12:17+00:00"
+}

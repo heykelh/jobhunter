@@ -1,6 +1,126 @@
 {
- "updated": "2026-11-04T00:23:48+00:00",
+ "updated": "2026-11-04T12:16:01+00:00",
  "items": [
+  {
+   "id": "d7470b706b40",
+   "company": "ING",
+   "title": "IT Business Analyst",
+   "url": "https://careers.ing.com/en/job/makati-city/it-business-analyst/3121/46605579712",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-04T12:15:39+00:00"
+  },
+  {
+   "id": "f24b291f7579",
+   "company": "UBS",
+   "title": "Quant/AI Developer, Global Markets",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=353400",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-04T12:15:03+00:00"
+  },
+  {
+   "id": "f2a42c1b9365",
+   "company": "UBS",
+   "title": "SAP Analytics Cloud with Databricks",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=349756",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-04T12:15:02+00:00"
+  },
+  {
+   "id": "b2b736c0f73e",
+   "company": "jobup.ch",
+   "title": "(Senior) Consultant - Technology Consulting - AI & Data",
+   "url": "https://www.jobup.ch/fr/emplois/detail/6a943e94-d5ce-4c36-85c6-14e81c5e5753/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-04T12:13:07+00:00"
+  },
+  {
+   "id": "a31313c97ce3",
+   "company": "jobs.ch",
+   "title": "Business Analyst Tarifmanagement",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/3c1610a7-0d23-491d-9107-eb0218212128/",
+   "reason": "expérience demandée ≥ 3 ans « l'informatique connaissances approfondies et plusieurs annees d'experience dans le domaine des pres »",
+   "at": "2026-11-04T12:12:18+00:00"
+  },
+  {
+   "id": "08da14d267c3",
+   "company": "jobs.ch",
+   "title": "Junior Project Manager – AI & Innovation (a)*",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/ed81c457-01e1-4d65-ac18-7e53d08f9463/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-04T12:12:18+00:00"
+  },
+  {
+   "id": "09fafcc751ba",
+   "company": "jobs.ch",
+   "title": "Business Data Controlling Expert (m/w/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/047267b8-5ebf-469d-a18b-ace4f9190e7d/",
+   "reason": "titre exclu (expert)",
+   "at": "2026-11-04T12:12:10+00:00"
+  },
+  {
+   "id": "224422b0a9d8",
+   "company": "TotalEnergies",
+   "title": "STAGE - Benchmark et évaluation des modèles d'IA générative pour les Géosciences H/F",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/STAGE-Benchmark-et-valuation-des-mod-les-d-IA-g-n-rative-pour-les-G-osciences-H-F/85891",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-04T12:11:00+00:00"
+  },
+  {
+   "id": "ba506775659a",
+   "company": "TotalEnergies",
+   "title": "STAGE - Ingénieur Data & IA - R&D Biocarburants durables H/F",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/STAGE-Ing-nieur-Data-IA-R-D-Biocarburants-durables-H-F/85871",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-04T12:11:00+00:00"
+  },
+  {
+   "id": "448d01214ff3",
+   "company": "AXA",
+   "title": "AI Engineer (F/H) - stage",
+   "url": "https://careers.axa.com/jobs/37070",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-04T12:08:50+00:00"
+  },
+  {
+   "id": "157f664912bb",
+   "company": "AXA",
+   "title": "Business Intelligence & Data Analytics Manager - F/H",
+   "url": "https://careers.axa.com/jobs/27629",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-04T12:08:50+00:00"
+  },
+  {
+   "id": "009cf68e274d",
+   "company": "Crédit Agricole",
+   "title": "Data Analyst H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/578-170468-3-data-analyst-hf-reference--2026-117103--/",
+   "reason": "expérience demandée ≥ 3 ans « e experience dans un environnement similaire niveau d'experience minimum 3 - 5 ans competences recherchees com »",
+   "at": "2026-11-04T12:06:48+00:00"
+  },
+  {
+   "id": "b352a4d2bb2d",
+   "company": "Crédit Agricole",
+   "title": "Data Engineer H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-5-data-engineer-hf-reference--2026-117117--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-04T12:06:35+00:00"
+  },
+  {
+   "id": "c69ad2142a7d",
+   "company": "Crédit Agricole",
+   "title": "Stage Analyste financement de fonds de Private Equity H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170463-136-stage-analyste-financement-de-fonds-de-private-equity-hf-reference--2026-117125--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-04T12:06:16+00:00"
+  },
+  {
+   "id": "33e24873c443",
+   "company": "Société Générale",
+   "title": "Architecte Expert Plateformes Data & IA",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/architecte-expert-plateformes-data-ia-260001Z4-fr",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-04T12:04:22+00:00"
+  },
   {
    "id": "8d98191ad806",
    "company": "jobs.ch",

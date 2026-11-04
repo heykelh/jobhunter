@@ -1,0 +1,172 @@
+{
+ "titre": "Analyste Modélisation de Catastrophes",
+ "profil": "Professionnel data avec 13 ans d’expérience au sein du Groupe SNCF, spécialisé dans les environnements critiques et la gestion de données. Titulaire d’un Master Data Engineer/Data Product Manager (Mines Paris‑PSL). Expérience avérée en analyse, communication avec les parties prenantes et développement d’outils décisionnels.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Excel",
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "GitHub Actions (CI/CD)",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Conduit une mission d'analyse fonctionnelle du SI Crédit, de la collecte des besoins à la validation, facilitant la communication entre équipes",
+    "Produit des livrables détaillés (cartographie des processus, spécifications fonctionnelles, plan de tests) accessibles aux parties prenantes"
+   ]
+  },
+  {
+   "id": "customer-experience",
+   "titre": "Customer Experience Intelligence : analyse et dataviz",
+   "stack": "Python, Power BI",
+   "lien": "github.com/heykelh/customer-experience-intelligence",
+   "tags": [
+    "client",
+    "clients",
+    "expérience client",
+    "marketing",
+    "kpi",
+    "dashboard",
+    "tableau de bord",
+    "power bi",
+    "reporting",
+    "analyse",
+    "satisfaction",
+    "parcours"
+   ],
+   "puces": [
+    "Réalise des analyses exploratoires de données clients pour identifier insights, tendances et anomalies influençant la souscription",
+    "Conçoit des tableaux de bord interactifs Power BI, fournissant des indicateurs clairs aux décideurs"
+   ]
+  },
+  {
+   "id": "palier",
+   "titre": "PALIER : tarification et yield management TGV",
+   "stack": "Python, DuckDB, Power BI, Next.js, GitHub Actions",
+   "lien": "palier-sncf.vercel.app",
+   "tags": [
+    "pricing",
+    "prix",
+    "tarif",
+    "tarification",
+    "revenue",
+    "yield",
+    "élasticité",
+    "demande",
+    "transport",
+    "ferroviaire",
+    "voyageurs",
+    "sncf",
+    "commercial",
+    "offre"
+   ],
+   "puces": [
+    "Analyse la tarification TGV à partir de données ouvertes, évaluant élasticité prix et positionnement concurrentiel pour orienter la gestion du risque",
+    "Développe un module de gestion de capacité (yield management) automatisé via GitHub Actions, améliorant la réactivité des outils d'analyse"
+   ]
+  },
+  {
+   "id": "regard",
+   "titre": "REGARD : copilote de conformité bancaire",
+   "stack": "LangGraph.js, Groq, Supabase (pgvector), Langfuse",
+   "lien": "regard-wine.vercel.app",
+   "tags": [
+    "conformité",
+    "compliance",
+    "banque",
+    "bancaire",
+    "réglementaire",
+    "lcb-ft",
+    "kyc",
+    "ia",
+    "llm",
+    "rag",
+    "risque"
+   ],
+   "puces": [
+    "Pilote un copilote de conformité bancaire où les règles sont codées et l'IA génère les synthèses, illustrant l’usage de l’IA pour accélérer les insights",
+    "Valide 28 cas de test de référence et assure le suivi des appels grâce à Langfuse, garantissant la fiabilité des outils"
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "modélisation"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "e093d1edd44d",
+ "entreprise": "Zürich Versicherungs-Gesellschaft AG",
+ "intitule_offre": "Catastrophe Modeling Analyst 80-100%",
+ "url_offre": "https://www.jobup.ch/fr/emplois/detail/6a28e01e-ca98-487f-bfa0-2bfba1b8d4de/",
+ "genere_le": "2026-11-04T12:13:07+00:00"
+}
