@@ -1,0 +1,177 @@
+{
+ "titre": "GPS Associate : Quantitative Analyst",
+ "profil": "Data Engineer avec 13 ans d’expérience opérationnelle au sein du Groupe SNCF, spécialisé dans les environnements à forte contrainte de sécurité. Titulaire d’un Master Data Engineer / Data Product Manager (Mines Paris : PSL) et de plus de 15 projets data livrés. Expertise reconnue en analyse de données, gouvernance et amélioration de la performance des systèmes d’information.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "SQL",
+    "Excel",
+    "Python (pandas)",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "GitHub Actions (CI/CD)",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Conduite d’une inspection de la chaîne de données de risque de crédit, incluant cadrage, investigations et restitution aux parties prenantes.",
+    "Développement d’un moteur de contrôles qualité en SQL pour le scoring de risque et la génération de rapports de performance."
+   ]
+  },
+  {
+   "id": "frontierbank",
+   "titre": "FrontierBank : gouvernance des données d'une banque fictive",
+   "stack": "BCBS 239, DAMA-DMBOK, AI Act, Power BI",
+   "lien": "frontierbank-data.vercel.app",
+   "tags": [
+    "gouvernance",
+    "governance",
+    "steward",
+    "qualité",
+    "quality",
+    "bcbs",
+    "dama",
+    "lignage",
+    "lineage",
+    "banque",
+    "bancaire",
+    "risque",
+    "réglementaire",
+    "conformité",
+    "raci",
+    "référentiel",
+    "métadonnées"
+   ],
+   "puces": [
+    "Audit de gouvernance des données selon les exigences BCBS 239 et le cadre DAMA‑DMBOK, avec définition du lignage et de la matrice RACI.",
+    "Création de tableaux de bord Power BI pour suivre la qualité des données et la conformité aux usages réglementaires."
+   ]
+  },
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Simulation d’une mission d’analyse fonctionnelle d’un système d’information crédit, de la collecte des besoins à la phase de recette.",
+    "Production de livrables incluant cartographie des processus, spécifications fonctionnelles et plan de tests, facilitant la validation des contrôles."
+   ]
+  },
+  {
+   "id": "regard",
+   "titre": "REGARD : copilote de conformité bancaire",
+   "stack": "LangGraph.js, Groq, Supabase (pgvector), Langfuse",
+   "lien": "regard-wine.vercel.app",
+   "tags": [
+    "conformité",
+    "compliance",
+    "banque",
+    "bancaire",
+    "réglementaire",
+    "lcb-ft",
+    "kyc",
+    "ia",
+    "llm",
+    "rag",
+    "risque"
+   ],
+   "puces": [
+    "Co‑pilotage d’une analyse de conformité bancaire avec codage des contrôles sous forme de règles et synthèses automatisées.",
+    "Gestion de 28 cas de test de référence, assurant la traçabilité et la validation des contrôles de conformité."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "vba"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "8bd026a93d14",
+ "entreprise": "Bank Julius Bär & Co. AG",
+ "intitule_offre": "GPS Associate: Quantitative Analyst, 100% (f/m/d)",
+ "url_offre": "https://www.jobup.ch/fr/emplois/detail/1b585007-48e0-4929-9401-ddf7812fd270/",
+ "genere_le": "2026-11-05T12:23:34+00:00"
+}

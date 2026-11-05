@@ -1,6 +1,142 @@
 {
- "updated": "2026-11-05T01:03:08+00:00",
+ "updated": "2026-11-05T12:26:40+00:00",
  "items": [
+  {
+   "id": "d2cee9164072",
+   "company": "SIX Group",
+   "title": "Senior Data Compliance Officer",
+   "url": "https://jobs.six-group.com/job/Warsaw-Senior-Data-Compliance-Officer/1454711333/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-05T12:25:46+00:00"
+  },
+  {
+   "id": "5dc01de9a9b9",
+   "company": "Julius Baer",
+   "title": "AI Software Engineer 100% (f/m/d)",
+   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Madrid/Backend-Engineer--AI-Integration--100---f-m-d-_r-19210",
+   "reason": "lieu hors zones",
+   "at": "2026-11-05T12:25:07+00:00"
+  },
+  {
+   "id": "d91d116e61da",
+   "company": "jobup.ch",
+   "title": "Group Senior Analyst Quality Applications",
+   "url": "https://www.jobup.ch/fr/emplois/detail/2fc14c1b-4e76-4c1c-8bbc-37d7fae64209/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-05T12:23:34+00:00"
+  },
+  {
+   "id": "45168810900e",
+   "company": "jobup.ch",
+   "title": "Data Analytics Engineer – Microsoft Fabric & Power BI (H/F)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/7004a73c-2019-45e9-8e4c-080812b43000/",
+   "reason": "expérience demandée ≥ 3 ans « site de la transformation data. votre profil experience confirmee a un niveau expert sur p »",
+   "at": "2026-11-05T12:23:12+00:00"
+  },
+  {
+   "id": "be8a35548550",
+   "company": "jobs.ch",
+   "title": "Solution Architect IoT & Data 80-100% (w/m)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/398293c2-a0f3-466d-922e-a58eeee7f6ae/",
+   "reason": "titre exclu (architect)",
+   "at": "2026-11-05T12:22:46+00:00"
+  },
+  {
+   "id": "1291d175f87c",
+   "company": "jobs.ch",
+   "title": "Betriebstechniker:in Datacenter - Monitoring & Operations (a)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/bef0a694-da3c-4e62-81de-b0796bb028ec/",
+   "reason": "titre exclu (datacenter)",
+   "at": "2026-11-05T12:21:52+00:00"
+  },
+  {
+   "id": "7c34c139685b",
+   "company": "TotalEnergies",
+   "title": "Pricing & Modelling Business Analyst Senior, Power Trading Systems",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Pricing-Modelling-Business-Analyst-Senior-Power-Trading-Systems/85913",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-05T12:20:43+00:00"
+  },
+  {
+   "id": "294462a026a7",
+   "company": "AXA",
+   "title": "Data Scientist (F/H) - stage",
+   "url": "https://careers.axa.com/jobs/37105",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-05T12:18:37+00:00"
+  },
+  {
+   "id": "4e94d81fdfb6",
+   "company": "AXA",
+   "title": "Market Pricing Analyst",
+   "url": "https://careers.axa.com/jobs/17620",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-05T12:18:37+00:00"
+  },
+  {
+   "id": "869193e3a918",
+   "company": "AXA",
+   "title": "Senior Market Pricing Analyst",
+   "url": "https://careers.axa.com/jobs/17618",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-05T12:18:37+00:00"
+  },
+  {
+   "id": "5c1fd4d10af9",
+   "company": "AXA",
+   "title": "Senior Technical Pricing Analyst",
+   "url": "https://careers.axa.com/jobs/24188",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-05T12:18:37+00:00"
+  },
+  {
+   "id": "93da9a2d424b",
+   "company": "AXA",
+   "title": "Senior Underwriting Governance Analyst",
+   "url": "https://careers.axa.com/jobs/28644",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-05T12:18:37+00:00"
+  },
+  {
+   "id": "46e32801a04a",
+   "company": "BPCE",
+   "title": "Stage - Analyste crédit junior (F/H)",
+   "url": "https://recrutement.bpce.fr/job/stage-analyste-credit-junior-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-05T12:17:50+00:00"
+  },
+  {
+   "id": "91eadce0c47b",
+   "company": "Alstom",
+   "title": "Internship 6 Months - System Engineer - Data Processing for Rail Defect Detection (F/M)",
+   "url": "https://jobsearch.alstom.com/job/Villeurbanne-Internship-6-Months-System-Engineer-Data-Processing-for-Rail-Defect-Detection-%28FM%29/1445247133/",
+   "reason": "titre exclu (internship)",
+   "at": "2026-11-05T12:14:23+00:00"
+  },
+  {
+   "id": "7c50e6933304",
+   "company": "Alstom",
+   "title": "Stage 6 mois - Ingénieur.e Data (F/H)",
+   "url": "https://jobsearch.alstom.com/job/Villeurbanne-Stage-6-mois-Ing%C3%A9nieur_e-Data-%28FH%29/1445254133/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-05T12:14:23+00:00"
+  },
+  {
+   "id": "11205b9afc41",
+   "company": "Air France",
+   "title": "Analyste transport F/H",
+   "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25786&idOrigine=502&offerReference=2026-25786",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-05T12:13:57+00:00"
+  },
+  {
+   "id": "d283f2bcbf9d",
+   "company": "Air France",
+   "title": "Manager Telecom Contract Management – Air France F/H",
+   "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25788&idOrigine=502&offerReference=2026-25788",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-05T12:13:56+00:00"
+  },
   {
    "id": "10eb13315c08",
    "company": "jobup.ch",

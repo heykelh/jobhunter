@@ -1,0 +1,175 @@
+{
+ "titre": "Service Data Scientist : Sales Analytics",
+ "profil": "Fort de 13 ans d’expérience au sein du Groupe SNCF en environnement critique, je possède un Master Data Engineer/Data Product Manager (Mines Paris : PSL) et plus de 15 projets data réalisés. J’ai développé une expertise en analyse statistique, machine learning et en utilisation de Python, R et SQL pour modéliser et fournir des insights commerciaux. Je conçois des tableaux de bord BI et assure la documentation ainsi que la coordination transversale pour garantir la fiabilité des indicateurs de vente.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "SQL",
+    "Excel",
+    "Python (pandas)",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "customer-experience",
+   "titre": "Customer Experience Intelligence : analyse et dataviz",
+   "stack": "Python, Power BI",
+   "lien": "github.com/heykelh/customer-experience-intelligence",
+   "tags": [
+    "client",
+    "clients",
+    "expérience client",
+    "marketing",
+    "kpi",
+    "dashboard",
+    "tableau de bord",
+    "power bi",
+    "reporting",
+    "analyse",
+    "satisfaction",
+    "parcours"
+   ],
+   "puces": [
+    "Analyse exploratoire des données clients pour identifier des insights et tendances impactant la performance commerciale",
+    "Création de tableaux de bord interactifs Power BI servant d’indicateurs de pilotage aux décideurs"
+   ]
+  },
+  {
+   "id": "palier",
+   "titre": "PALIER : tarification et yield management TGV",
+   "stack": "Python, DuckDB, Power BI, Next.js, GitHub Actions",
+   "lien": "palier-sncf.vercel.app",
+   "tags": [
+    "pricing",
+    "prix",
+    "tarif",
+    "tarification",
+    "revenue",
+    "yield",
+    "élasticité",
+    "demande",
+    "transport",
+    "ferroviaire",
+    "voyageurs",
+    "sncf",
+    "commercial",
+    "offre"
+   ],
+   "puces": [
+    "Analyse de la tarification TGV afin d’évaluer l’élasticité prix et le potentiel de vente non exploité",
+    "Développement d’un module de yield management automatisé, intégrant des règles d’allocation et mise à jour continue"
+   ]
+  },
+  {
+   "id": "pokewatch",
+   "titre": "PokéWatch : surveillance de marché et détection d'anomalies de prix",
+   "stack": "PostgreSQL, Supabase, SQL, GitHub Actions, Next.js",
+   "lien": "pokewatch-three.vercel.app",
+   "tags": [
+    "surveillance",
+    "monitoring",
+    "anomalie",
+    "anomalies",
+    "fraude",
+    "prix",
+    "marché",
+    "pipeline",
+    "automatisation",
+    "alerte",
+    "data engineer",
+    "ingestion",
+    "sql"
+   ],
+   "puces": [
+    "Mise en place d’un pipeline automatisé de collecte de prix et d’alertes en temps réel pour détecter des anomalies commerciales",
+    "Construction de règles SQL de détection d’anomalies et d’un tableau de bord de suivi du marché"
+   ]
+  },
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Simulation d’une mission d’inspection data pour évaluer la qualité des données de risque de crédit",
+    "Développement d’un moteur de contrôles qualité SQL et d’un registre de constats pour soutenir la prise de décision"
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "modélisation",
+  "allemand"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "3aa8207fec91",
+ "entreprise": "Liebherr Maschinen Bulle AG",
+ "intitule_offre": "Service Data Scientist (m/w/d)",
+ "url_offre": "https://www.jobs.ch/fr/offres-emplois/detail/11dd2ec8-ad88-4089-a24d-499278a295c5/",
+ "genere_le": "2026-11-05T12:21:58+00:00"
+}
