@@ -1,6 +1,230 @@
 {
- "updated": "2026-11-05T12:26:40+00:00",
+ "updated": "2026-11-05T20:26:36+00:00",
  "items": [
+  {
+   "id": "f85505fdd61f",
+   "company": "ING",
+   "title": "IT Area Lead Data & AI",
+   "url": "https://careers.ing.com/en/job/madrid/it-area-lead-data-and-ai/3121/46651024768",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-05T20:26:14+00:00"
+  },
+  {
+   "id": "7600a3930480",
+   "company": "SIX Group",
+   "title": "Head of AI Portfolio and Governance (100%)",
+   "url": "https://jobs.six-group.com/job/Zurich-Head-of-AI-Portfolio-and-Governance-%28100%29/1454786533/",
+   "reason": "titre exclu (head)",
+   "at": "2026-11-05T20:25:45+00:00"
+  },
+  {
+   "id": "6a9b4bd87027",
+   "company": "SIX Group",
+   "title": "Head of AI Adoption and Capability (100%)",
+   "url": "https://jobs.six-group.com/job/Zurich-Head-of-AI-Adoption-and-Capability-%28100%29/1454787833/",
+   "reason": "titre exclu (head)",
+   "at": "2026-11-05T20:25:45+00:00"
+  },
+  {
+   "id": "86d1ba911f67",
+   "company": "jobup.ch",
+   "title": "Senior AI Engineer - Mission à 100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/d655c0d7-6eba-460a-b5b4-69cef62fedfa/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-05T20:23:52+00:00"
+  },
+  {
+   "id": "f14d7f42d78c",
+   "company": "jobup.ch",
+   "title": "AI & Data Solution Expert",
+   "url": "https://www.jobup.ch/fr/emplois/detail/e24ad4b7-ebe4-4ffc-b5cb-c9ae9e9d9887/",
+   "reason": "titre exclu (expert)",
+   "at": "2026-11-05T20:23:42+00:00"
+  },
+  {
+   "id": "200c0df65682",
+   "company": "jobs.ch",
+   "title": "DevOps und Cloud Engineer (AWS / AI Automation) 100% (a)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/77d50a0d-cf1d-427e-896e-f40001993e80/",
+   "reason": "expérience demandée ≥ 3 ans « iel ou domaine technique comparable au moins 3 ans d'experience professionn »",
+   "at": "2026-11-05T20:23:23+00:00"
+  },
+  {
+   "id": "9df18d4499a5",
+   "company": "jobs.ch",
+   "title": "AI & Data Solution Expert",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/e24ad4b7-ebe4-4ffc-b5cb-c9ae9e9d9887/",
+   "reason": "titre exclu (expert)",
+   "at": "2026-11-05T20:23:21+00:00"
+  },
+  {
+   "id": "aa2d893fe03d",
+   "company": "jobs.ch",
+   "title": "Data Analytics Engineer – Microsoft Fabric & Power BI (H/F)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/fad694ce-8241-4894-899f-f93220473a2d/",
+   "reason": "expérience demandée ≥ 3 ans « site de la transformation data. votre profil experience confirmee a un niveau expert sur p »",
+   "at": "2026-11-05T20:23:21+00:00"
+  },
+  {
+   "id": "cd0d8e077252",
+   "company": "jobs.ch",
+   "title": "Senior AI Engineer - Mission à 100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/d655c0d7-6eba-460a-b5b4-69cef62fedfa/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-05T20:23:21+00:00"
+  },
+  {
+   "id": "4ed6ecbf128e",
+   "company": "TotalEnergies",
+   "title": "Analyste Trésorerie Débutant - Contrats Engagements et Conformité H/F",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Analyste-Tr-sorerie-D-butant-Contrats-Engagements-et-Conformit-H-F/85965",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-05T20:22:10+00:00"
+  },
+  {
+   "id": "15651810d787",
+   "company": "TotalEnergies",
+   "title": "Financial Analyst I",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Financial-Analyst-I/85977",
+   "reason": "lieu hors zones",
+   "at": "2026-11-05T20:22:08+00:00"
+  },
+  {
+   "id": "c2b08e8bd1ba",
+   "company": "AXA",
+   "title": "Stage - Flood Nat Cat Analyst - Mars 2027",
+   "url": "https://careers.axa.com/jobs/30274",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-05T20:20:07+00:00"
+  },
+  {
+   "id": "1bdb849f731a",
+   "company": "AXA",
+   "title": "Stage - Data & Actuary CAT NAT",
+   "url": "https://careers.axa.com/jobs/30272",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-05T20:20:07+00:00"
+  },
+  {
+   "id": "56cf454583b4",
+   "company": "BPCE",
+   "title": "Analyste conformité – RSSI et responsable du PCA (H/F)",
+   "url": "https://recrutement.bpce.fr/job/analyste-conformite-rssi-et-responsable-du-pca-h-f",
+   "reason": "lieu hors zones",
+   "at": "2026-11-05T20:19:11+00:00"
+  },
+  {
+   "id": "8d662e4d2b08",
+   "company": "BPCE",
+   "title": "STAGE - Assistant Contrôleur de gestion - (F/H) - AIX EN PROVENCE",
+   "url": "https://recrutement.bpce.fr/job/stage-assistant-controleur-de-gestion-f-h-aix-en-provence",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-05T20:19:03+00:00"
+  },
+  {
+   "id": "b18d166364af",
+   "company": "Crédit Agricole",
+   "title": "Assistant analyste stratégie crédit H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-assistant-analyste-strategie-credit-hf-reference--2026-117210--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-05T20:17:48+00:00"
+  },
+  {
+   "id": "a805e5f25a4a",
+   "company": "Crédit Agricole",
+   "title": "Risk Analyst Factoring m/w/d",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170470-270-risk-analyst-factoring-mwd-reference--2026-117211--/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-05T20:17:47+00:00"
+  },
+  {
+   "id": "9224a4d0393f",
+   "company": "Crédit Agricole",
+   "title": "Data Analyst H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-data-analyst-hf-reference--2026-116482--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-05T20:17:46+00:00"
+  },
+  {
+   "id": "148874437507",
+   "company": "Société Générale",
+   "title": "Quantitative Analyste– Modèles à corrélation locale",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/quantitative-analyste-modeles-a-correlation-locale-26000MWN-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-05T20:17:17+00:00"
+  },
+  {
+   "id": "7054f3a9a4f9",
+   "company": "Société Générale",
+   "title": "AI & Agentic ADLC Engineering",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/ai-agentic-adlc-engineering-26000MAK-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-05T20:17:16+00:00"
+  },
+  {
+   "id": "90a19c979c49",
+   "company": "Société Générale",
+   "title": "Chargé Data Science & IA Générative",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/charge-data-science-ia-generative-26000L8K-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-05T20:17:15+00:00"
+  },
+  {
+   "id": "c3378937add9",
+   "company": "Alstom",
+   "title": "Stage - 6 mois - documentaliste IA - Projet construction métro H/F",
+   "url": "https://jobsearch.alstom.com/job/Toulouse-Stage-6-mois-documentaliste-IA-Projet-construction-m%C3%A9tro-HF-31/1452098733/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-05T20:15:30+00:00"
+  },
+  {
+   "id": "b2b6ebab3845",
+   "company": "SNCF",
+   "title": "Aiguilleur du rail (F/H) - CDI - BRESSUIRE",
+   "url": "https://emploi.sncf.com/nos-offres/888284",
+   "reason": "expérience demandée ≥ 11 ans « sevres (79) cdi de 3 a 5 ans, de 6 a 10 ans, plus de 10 ans, moins de 3 ans, debutan »",
+   "at": "2026-11-05T20:15:08+00:00"
+  },
+  {
+   "id": "2cdbe0076417",
+   "company": "SNCF",
+   "title": "Titre IV Aiguilleur du rail (F/H) - ALTERNANCE - PORNIC",
+   "url": "https://emploi.sncf.com/nos-offres/888285",
+   "reason": "titre exclu (alternance)",
+   "at": "2026-11-05T20:15:08+00:00"
+  },
+  {
+   "id": "bdbb2d912072",
+   "company": "SNCF",
+   "title": "Titre IV Aiguilleur du rail (F/H) - ALTERNANCE - DONGES (Le Priory)",
+   "url": "https://emploi.sncf.com/nos-offres/888286",
+   "reason": "titre exclu (alternance)",
+   "at": "2026-11-05T20:15:08+00:00"
+  },
+  {
+   "id": "09dccf15d8ba",
+   "company": "SNCF",
+   "title": "Titre IV Aiguilleur du rail (F/H) - ALTERNANCE - NANTES",
+   "url": "https://emploi.sncf.com/nos-offres/888287",
+   "reason": "titre exclu (alternance)",
+   "at": "2026-11-05T20:15:08+00:00"
+  },
+  {
+   "id": "bcc3d1c7e5a9",
+   "company": "SNCF",
+   "title": "Aiguilleur du rail (F/H) - CDI - ST CLOUD-PSL",
+   "url": "https://emploi.sncf.com/nos-offres/888283",
+   "reason": "expérience demandée ≥ 6 ans « ud, hauts-de-seine (92) cdi de 3 a 5 ans, de 6 a 10 ans, moins de 3 ans, debutan »",
+   "at": "2026-11-05T20:15:07+00:00"
+  },
+  {
+   "id": "fc869975b9db",
+   "company": "SNCF",
+   "title": "Aiguilleur du rail (F/H) - CDI - PARIS PANTIN NOISY",
+   "url": "https://emploi.sncf.com/nos-offres/888313",
+   "reason": "expérience demandée ≥ 6 ans « seine saint-denis (93) cdi de 3 a 5 ans, de 6 a 10 ans, moins de 3 ans, debutan »",
+   "at": "2026-11-05T20:15:05+00:00"
+  },
   {
    "id": "d2cee9164072",
    "company": "SIX Group",
