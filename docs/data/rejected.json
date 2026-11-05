@@ -1,6 +1,78 @@
 {
- "updated": "2026-11-04T19:54:54+00:00",
+ "updated": "2026-11-05T01:03:08+00:00",
  "items": [
+  {
+   "id": "10eb13315c08",
+   "company": "jobup.ch",
+   "title": "Analyste développeur(-euse)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/0ce86359-a99a-4d89-a1d7-33cf332e95f3/",
+   "reason": "expérience demandée ≥ 5 ans « onnaissance de l'environnement .net c#, avec 5 annees d'experience professionn »",
+   "at": "2026-11-05T01:00:10+00:00"
+  },
+  {
+   "id": "3655dd71ed05",
+   "company": "jobup.ch",
+   "title": "Try & Hire - Technicien·ne Data Center – Spécialisation électrique - Banque Privée",
+   "url": "https://www.jobup.ch/fr/emplois/detail/fe5e1478-c2ac-460e-9591-0fb230543ad0/",
+   "reason": "titre exclu (data center)",
+   "at": "2026-11-05T01:00:09+00:00"
+  },
+  {
+   "id": "4888ce784ca8",
+   "company": "jobs.ch",
+   "title": "Technical Business Analyst",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/8bb9f8d6-22ab-495e-89c2-fac108209966/",
+   "reason": "expérience demandée ≥ 5 ans « ptabilite ou le negoce de matieres premieres 5 a 8 ans d'experience - idealemen »",
+   "at": "2026-11-05T00:59:50+00:00"
+  },
+  {
+   "id": "08d43d2129a9",
+   "company": "Crédit Agricole",
+   "title": "Data Officer (DM Entities) H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/578-170479-136-data-officer-dm-entities-hf-reference--2026-115522--/",
+   "reason": "expérience demandée ≥ 3 ans « ience de 4 a 5 ans en gestion des operations niveau d'experience minimum 3 - 5 ans competences recherchees - b »",
+   "at": "2026-11-05T00:54:44+00:00"
+  },
+  {
+   "id": "c4bb794d527b",
+   "company": "Crédit Agricole",
+   "title": "Stage - Analyste data développeur power BI Travel & Véhicules H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170460-122-stage---analyste-data-developpeur-power-bi-travel-et-vehicules-hf-reference--2026-116009--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-05T00:54:43+00:00"
+  },
+  {
+   "id": "533f637b6454",
+   "company": "Crédit Agricole",
+   "title": "Stage - Analyste data notation corporate H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170470-122-stage---analyste-data-notation-corporate-hf-reference--2026-116006--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-05T00:54:43+00:00"
+  },
+  {
+   "id": "a481e1155712",
+   "company": "Crédit Agricole",
+   "title": "Stage - Analyste crédit H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-122-stage----analyste-credit-hf-reference--2026-115817--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-05T00:54:43+00:00"
+  },
+  {
+   "id": "2b0276510946",
+   "company": "Société Générale",
+   "title": "Analyste du Support Applicatif",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-du-support-applicatif-26000GZV-fr",
+   "reason": "lieu hors zones",
+   "at": "2026-11-05T00:54:17+00:00"
+  },
+  {
+   "id": "71b9a1fb54e4",
+   "company": "SNCF",
+   "title": "Aiguilleur du rail (F/H) - CDI - CREIL ET OU BEAUVAIS",
+   "url": "https://emploi.sncf.com/nos-offres/791679",
+   "reason": "expérience demandée ≥ 6 ans « uction creil, oise (60) cdi de 3 a 5 ans, de 6 a 10 ans, moins de 3 ans, debutan »",
+   "at": "2026-11-05T00:52:09+00:00"
+  },
   {
    "id": "ddcae9ddb3b1",
    "company": "ING",

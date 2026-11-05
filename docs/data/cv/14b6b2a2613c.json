@@ -1,0 +1,177 @@
+{
+ "titre": "Quantitative Analyst : GPS Associate Programme (Julius Baer)",
+ "profil": "Professionnel avec 13 ans d’expérience en data engineering et analyse au sein du groupe SNCF, spécialisé dans la modélisation de risques et la mesure de performance. Titulaire d’un Master Data Engineer / Data Product Manager (Mines Paris : PSL), maîtrise les langages Python et SQL ainsi que les méthodologies d’analyse quantitative. Expérience avérée dans la conception de tableaux de bord, la gestion de projets data et la collaboration avec des parties prenantes internes et externes.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "SQL",
+    "Excel",
+    "Python (pandas)",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "customer-experience",
+   "titre": "Customer Experience Intelligence : analyse et dataviz",
+   "stack": "Python, Power BI",
+   "lien": "github.com/heykelh/customer-experience-intelligence",
+   "tags": [
+    "client",
+    "clients",
+    "expérience client",
+    "marketing",
+    "kpi",
+    "dashboard",
+    "tableau de bord",
+    "power bi",
+    "reporting",
+    "analyse",
+    "satisfaction",
+    "parcours"
+   ],
+   "puces": [
+    "Analyse exploratoire des données clients pour identifier insights et anomalies influençant la performance des portefeuilles.",
+    "Création de tableaux de bord interactifs pour le pilotage décisionnel, facilitant la communication des indicateurs de performance."
+   ]
+  },
+  {
+   "id": "escale",
+   "titre": "ESCALE : ponctualité des vols CDG et Orly",
+   "stack": "Python, PostgreSQL (médaillon), API AeroDataBox, Next.js",
+   "lien": "escale-ops.vercel.app",
+   "tags": [
+    "aérien",
+    "aerien",
+    "aviation",
+    "vol",
+    "vols",
+    "airline",
+    "opérations",
+    "operations",
+    "ponctualité",
+    "retard",
+    "rgpd",
+    "privacy",
+    "données personnelles",
+    "ai act",
+    "prédiction",
+    "client"
+   ],
+   "puces": [
+    "Mise en place d’une collecte automatisée des données de ponctualité, avec calcul d’un score de risque de retard.",
+    "Développement d’une console de suivi intégrant un modèle prédictif de retard et assurant la conformité aux exigences RGPD."
+   ]
+  },
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Simulation d’une inspection de la chaîne de données de risque de crédit, incluant cadrage, investigations et restitution.",
+    "Conception d’un moteur de contrôles qualité basé sur des règles SQL, avec scoring de risque et génération de rapports."
+   ]
+  },
+  {
+   "id": "palier",
+   "titre": "PALIER : tarification et yield management TGV",
+   "stack": "Python, DuckDB, Power BI, Next.js, GitHub Actions",
+   "lien": "palier-sncf.vercel.app",
+   "tags": [
+    "pricing",
+    "prix",
+    "tarif",
+    "tarification",
+    "revenue",
+    "yield",
+    "élasticité",
+    "demande",
+    "transport",
+    "ferroviaire",
+    "voyageurs",
+    "sncf",
+    "commercial",
+    "offre"
+   ],
+   "puces": [
+    "Analyse de la tarification TGV, évaluant l’élasticité prix et le positionnement concurrentiel.",
+    "Développement d’un module de yield management automatisé pour l’allocation tarifaire."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "vba"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "14b6b2a2613c",
+ "entreprise": "Julius Baer",
+ "intitule_offre": "GPS Associate: Quantitative Analyst, 100% (f/m/d)",
+ "url_offre": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Zurich/GPS-Associate--Quantitative-Analyst--100---f-m-d-_r-19945-2",
+ "genere_le": "2026-11-05T01:01:33+00:00"
+}
