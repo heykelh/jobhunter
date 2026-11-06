@@ -1,6 +1,30 @@
 {
- "updated": "2026-11-06T13:00:10+00:00",
+ "updated": "2026-11-06T20:08:18+00:00",
  "items": [
+  {
+   "id": "3efd6511e6da",
+   "company": "HelloWork",
+   "title": "Senior Consultant - Data & ai Engineer H/F Talents Handicap",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85249600.html",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-06T20:08:18+00:00"
+  },
+  {
+   "id": "87bdd920179b",
+   "company": "HelloWork",
+   "title": "Service Now Support Analyst H/F Brink's",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85249463.html",
+   "reason": "expérience demandée ≥ 4 ans (lu par l'IA) « Exp. 4 ans »",
+   "at": "2026-11-06T20:08:06+00:00"
+  },
+  {
+   "id": "654907a99234",
+   "company": "HelloWork",
+   "title": "Compliance Analyst - Anglais Bilingue H/F GR Intérim & Recrutement",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85260896.html",
+   "reason": "titre exclu (interim)",
+   "at": "2026-11-06T20:08:06+00:00"
+  },
   {
    "id": "35e3ba7dd9aa",
    "company": "HelloWork",
