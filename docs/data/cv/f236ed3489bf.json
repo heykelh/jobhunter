@@ -1,0 +1,180 @@
+{
+ "titre": "Développeur Data (H/F) : RATP Dev",
+ "profil": "Professionnel data avec 13 ans d’expérience au sein du groupe SNCF, spécialisé dans les environnements critiques. Titulaire d’un Master Data Engineer/Data Product Manager (Bac+5) de Mines Paris‑PSL. Réalisateur de plus de 15 projets d’ingénierie des données, incluant ETL, automatisation et contrôle qualité.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "SQL",
+    "PostgreSQL",
+    "Python (pandas)",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio",
+    "Excel"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "API REST",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "pokewatch",
+   "titre": "PokéWatch : surveillance de marché et détection d'anomalies de prix",
+   "stack": "PostgreSQL, Supabase, SQL, GitHub Actions, Next.js",
+   "lien": "pokewatch-three.vercel.app",
+   "tags": [
+    "surveillance",
+    "monitoring",
+    "anomalie",
+    "anomalies",
+    "fraude",
+    "prix",
+    "marché",
+    "pipeline",
+    "automatisation",
+    "alerte",
+    "data engineer",
+    "ingestion",
+    "sql"
+   ],
+   "puces": [
+    "Conception d’un pipeline d’extraction et de transformation des prix via API, automatisé et monitoré en continu.",
+    "Développement de règles SQL d’anomalie et tableau de bord pour le suivi du marché."
+   ]
+  },
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Simulation d’une mission d’inspection de la chaîne de données de risque de crédit, incluant analyse et reporting.",
+    "Mise en place de contrôles qualité SQL et de scoring pour identifier les anomalies."
+   ]
+  },
+  {
+   "id": "palier",
+   "titre": "PALIER : tarification et yield management TGV",
+   "stack": "Python, DuckDB, Power BI, Next.js, GitHub Actions",
+   "lien": "palier-sncf.vercel.app",
+   "tags": [
+    "pricing",
+    "prix",
+    "tarif",
+    "tarification",
+    "revenue",
+    "yield",
+    "élasticité",
+    "demande",
+    "transport",
+    "ferroviaire",
+    "voyageurs",
+    "sncf",
+    "commercial",
+    "offre"
+   ],
+   "puces": [
+    "Analyse de la tarification TGV et élasticité prix à partir de données ouvertes, avec visualisation des résultats.",
+    "Automatisation du calcul de yield management par algorithme EMSR-b, déploiement via actions automatisées."
+   ]
+  },
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Gestion complète d’une mission Business Analyst SI Crédit, de la collecte du besoin à la recette finale.",
+    "Production de livrables fonctionnels : cartographie, spécifications et plan de tests."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "snowflake",
+  "data lake",
+  "qlik",
+  "talend",
+  "oracle"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "f236ed3489bf",
+ "entreprise": "RATP Dev",
+ "intitule_offre": "Développeur Data (H/F) – CDI",
+ "url_offre": "https://carrieres.ratpdev.com/fr/annonce/4679123-developpeur-data-hf-cdi-14123-fleury-sur-orne",
+ "genere_le": "2026-11-06T12:00:57+00:00"
+}

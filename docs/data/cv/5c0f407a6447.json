@@ -1,0 +1,179 @@
+{
+ "titre": "Specialist Product Data & Packaging (w/m/d) : Calida AG",
+ "profil": "Professionnel de la donnée avec 13 ans d’expérience au sein du groupe SNCF, spécialisé en gouvernance et qualité des données. Titulaire d’un Master Data Engineer / Data Product Manager (Bac+5, Mines Paris : PSL), je maîtrise les processus structurés et l’autonomie dans la gestion de référentiels. Mes compétences en analyse, Excel et coordination d’interfaces internes répondent aux exigences de gestion de données produit et d’emballages.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Excel",
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "GitHub Actions (CI/CD)",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Analyse fonctionnelle d’un système de recouvrement, de la collecte du besoin à la validation, en assurant la traçabilité des exigences.",
+    "Production de livrables structurés : cartographie des processus, spécifications fonctionnelles et plan de tests, facilitant la coordination des parties prenantes."
+   ]
+  },
+  {
+   "id": "palier",
+   "titre": "PALIER : tarification et yield management TGV",
+   "stack": "Python, DuckDB, Power BI, Next.js, GitHub Actions",
+   "lien": "palier-sncf.vercel.app",
+   "tags": [
+    "pricing",
+    "prix",
+    "tarif",
+    "tarification",
+    "revenue",
+    "yield",
+    "élasticité",
+    "demande",
+    "transport",
+    "ferroviaire",
+    "voyageurs",
+    "sncf",
+    "commercial",
+    "offre"
+   ],
+   "puces": [
+    "Étude de la tarification TGV à partir de données ouvertes, identification d’élasticités et positionnement concurrentiel, illustrant la capacité d’analyse de données produit.",
+    "Développement d’un module d’allocation tarifaire automatisé, intégrant des mises à jour continues via des pipelines, démontrant l’optimisation de processus."
+   ]
+  },
+  {
+   "id": "customer-experience",
+   "titre": "Customer Experience Intelligence : analyse et dataviz",
+   "stack": "Python, Power BI",
+   "lien": "github.com/heykelh/customer-experience-intelligence",
+   "tags": [
+    "client",
+    "clients",
+    "expérience client",
+    "marketing",
+    "kpi",
+    "dashboard",
+    "tableau de bord",
+    "power bi",
+    "reporting",
+    "analyse",
+    "satisfaction",
+    "parcours"
+   ],
+   "puces": [
+    "Exploration de données clients pour extraire insights, tendances et anomalies, renforçant la qualité des informations décisionnelles.",
+    "Conception de tableaux de bord interactifs Power BI, offrant des indicateurs de pilotage clairs aux métiers."
+   ]
+  },
+  {
+   "id": "frontierbank",
+   "titre": "FrontierBank : gouvernance des données d'une banque fictive",
+   "stack": "BCBS 239, DAMA-DMBOK, AI Act, Power BI",
+   "lien": "frontierbank-data.vercel.app",
+   "tags": [
+    "gouvernance",
+    "governance",
+    "steward",
+    "qualité",
+    "quality",
+    "bcbs",
+    "dama",
+    "lignage",
+    "lineage",
+    "banque",
+    "bancaire",
+    "risque",
+    "réglementaire",
+    "conformité",
+    "raci",
+    "référentiel",
+    "métadonnées"
+   ],
+   "puces": [
+    "Mission de conseil en gouvernance des données, incluant diagnostic BCBS 239, cadre DAMA‑DMBOK, cartographie des flux et matrice RACI.",
+    "Mise en place de tableaux de bord Power BI pour suivre la qualité des données et la conformité aux exigences réglementaires."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "allemand",
+  "sap"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "5c0f407a6447",
+ "entreprise": "Calida AG",
+ "intitule_offre": "Specialist Product Data & Packaging (w/m/d)",
+ "url_offre": "https://www.jobs.ch/fr/offres-emplois/detail/1a234feb-bf08-4438-b367-fa353c25d00c/",
+ "genere_le": "2026-11-06T12:08:48+00:00"
+}

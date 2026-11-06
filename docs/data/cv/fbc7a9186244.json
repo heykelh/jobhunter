@@ -1,0 +1,178 @@
+{
+ "titre": "Business Analyst - Coordination des ventes",
+ "profil": "Fort de 13 ans d’expérience au sein du groupe SNCF, j’ai mené plus de quinze projets d’analyse et de mise en œuvre de solutions data. Titulaire d’un master en ingénierie des données (Mines Paris : PSL), je maîtrise la collecte, la modélisation et la documentation des exigences fonctionnelles. Je communique couramment en allemand et je suis habitué à coordonner les équipes techniques et métier pour garantir la qualité des livrables.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Excel",
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "GitHub Actions (CI/CD)",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Analyse des besoins fonctionnels d’un système de crédit, du recouvrement à la phase de recette, et coordination de leur mise en œuvre.",
+    "Documentation des processus, spécifications fonctionnelles et plan de tests, assurant la qualité de la mise en œuvre."
+   ]
+  },
+  {
+   "id": "customer-experience",
+   "titre": "Customer Experience Intelligence : analyse et dataviz",
+   "stack": "Python, Power BI",
+   "lien": "github.com/heykelh/customer-experience-intelligence",
+   "tags": [
+    "client",
+    "clients",
+    "expérience client",
+    "marketing",
+    "kpi",
+    "dashboard",
+    "tableau de bord",
+    "power bi",
+    "reporting",
+    "analyse",
+    "satisfaction",
+    "parcours"
+   ],
+   "puces": [
+    "Analyse des exigences métier à partir de données clients, identification d’insights et de tendances pour améliorer les processus.",
+    "Conception de tableaux de bord pour le suivi des indicateurs métier, facilitant la prise de décision."
+   ]
+  },
+  {
+   "id": "escale",
+   "titre": "ESCALE : ponctualité des vols CDG et Orly",
+   "stack": "Python, PostgreSQL (médaillon), API AeroDataBox, Next.js",
+   "lien": "escale-ops.vercel.app",
+   "tags": [
+    "aérien",
+    "aerien",
+    "aviation",
+    "vol",
+    "vols",
+    "airline",
+    "opérations",
+    "operations",
+    "ponctualité",
+    "retard",
+    "rgpd",
+    "privacy",
+    "données personnelles",
+    "ai act",
+    "prédiction",
+    "client"
+   ],
+   "puces": [
+    "Collecte et agrégation des données de ponctualité des vols, calcul d’un score de risque, pour alimenter les processus opérationnels.",
+    "Mise en place d’un tableau de bord de suivi avec modèle prédictif, garantissant la conformité aux exigences de confidentialité."
+   ]
+  },
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Analyse de la chaîne de données du risque de crédit, cadrage des exigences et coordination des investigations.",
+    "Développement de contrôles qualité et reporting, assurant la conformité des livrables."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "allemand",
+  "sap"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "fbc7a9186244",
+ "entreprise": "Visana Services AG",
+ "intitule_offre": "Business Analyst mit Fokus Vertriebskoordination",
+ "url_offre": "https://www.jobup.ch/fr/emplois/detail/3ed004fa-6825-4d15-ab53-23d2fc219853/",
+ "genere_le": "2026-11-06T12:10:19+00:00"
+}

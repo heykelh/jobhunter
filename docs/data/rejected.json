@@ -1,6 +1,134 @@
 {
- "updated": "2026-11-06T01:26:10+00:00",
+ "updated": "2026-11-06T12:16:11+00:00",
  "items": [
+  {
+   "id": "b2a92580e803",
+   "company": "UBS",
+   "title": "AI Quant Developer, FX Options E-Trading",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=352688",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-06T12:15:10+00:00"
+  },
+  {
+   "id": "e60278fe6a51",
+   "company": "Julius Baer",
+   "title": "12 months Contract - Senior Data Engineer (Through an External Agency Payroll Provider)",
+   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Singapore/XMLNAME-12-months-Contract---Senior-Data-Engineer--Through-an-External-Agency-Payroll-Provider-_r-20394-1",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-06T12:11:42+00:00"
+  },
+  {
+   "id": "708bf28a624b",
+   "company": "jobup.ch",
+   "title": "Business Analyst Private Banking FR-EN",
+   "url": "https://www.jobup.ch/fr/emplois/detail/35cff26a-6ec4-4641-bb2d-1c7fa073f4c4/",
+   "reason": "expérience demandée ≥ 11 ans « ieur en sciences economiques ou informatique plus de 10 ans d'experience professionn »",
+   "at": "2026-11-06T12:09:51+00:00"
+  },
+  {
+   "id": "9b386fc3b7db",
+   "company": "jobup.ch",
+   "title": "Data Engineer (Databricks) - F/M/X",
+   "url": "https://www.jobup.ch/fr/emplois/detail/b6fff8b9-c89b-44c4-81c0-772345fce4e4/",
+   "reason": "expérience demandée ≥ 5 ans « erer la gouvernance des donnees. competences 5 ans d'experience en data eng »",
+   "at": "2026-11-06T12:09:50+00:00"
+  },
+  {
+   "id": "cb2b983b1a57",
+   "company": "jobup.ch",
+   "title": "Data Analyst Données Industrielles (F/H/X)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/ca15bc9f-eac8-4cd0-8833-893fc8896a06/",
+   "reason": "expérience demandée ≥ 6 ans « fs et performants. competences experience de 6 ans en data analyse dans des »",
+   "at": "2026-11-06T12:09:48+00:00"
+  },
+  {
+   "id": "2c256e9c9380",
+   "company": "jobup.ch",
+   "title": "Senior Data Engineer",
+   "url": "https://www.jobup.ch/fr/emplois/detail/7f4ca50a-7233-474f-8d7e-f01ee043072b/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-06T12:09:48+00:00"
+  },
+  {
+   "id": "7478468d2b5d",
+   "company": "jobs.ch",
+   "title": "Business Analyst/in Fachgebiet Steuern",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/8f276cbc-c47d-4e9f-b206-0b0a7df5dde0/",
+   "reason": "expérience demandée ≥ 3 ans « pecialises. votre profil vous disposez d'une experience averee en tant qu'analyste d'af »",
+   "at": "2026-11-06T12:08:57+00:00"
+  },
+  {
+   "id": "403d1aacc318",
+   "company": "jobs.ch",
+   "title": "Financial Analyst & AI Engineer",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/18943dd6-c820-41e9-9e37-0da70fd57866/",
+   "reason": "expérience demandée ≥ 3 ans « ion et recuperation de donnees financieres : experience averee en extraction web financ »",
+   "at": "2026-11-06T12:08:56+00:00"
+  },
+  {
+   "id": "e14dcd54e18a",
+   "company": "jobs.ch",
+   "title": "Data Engineer – banksteuerndes und aufsichtsrechtliches Reporting (a)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/cee392ba-2867-46e2-a6d3-5118f34b770d/",
+   "reason": "expérience demandée ≥ 3 ans « fiable en donnees. ce que tu apportes tu as plusieurs annees d'experience en gestion des donnees a »",
+   "at": "2026-11-06T12:08:40+00:00"
+  },
+  {
+   "id": "95335598b767",
+   "company": "BPCE",
+   "title": "Data Scientist F/H",
+   "url": "https://recrutement.bpce.fr/job/data-scientist-f-h",
+   "reason": "lieu hors zones",
+   "at": "2026-11-06T12:04:42+00:00"
+  },
+  {
+   "id": "ba8a6c2a6fed",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Data Analyst - F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-data-analyst-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-06T12:04:33+00:00"
+  },
+  {
+   "id": "31298415fab5",
+   "company": "Crédit Agricole",
+   "title": "STAGE - Assistant Network Management Analyst H/F H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170478-136-stage---assistant-network-management-analyst-hf-hf-reference--2026-117256--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-06T12:03:18+00:00"
+  },
+  {
+   "id": "d2933e3f333a",
+   "company": "Crédit Agricole",
+   "title": "Stage - Data Management & IA appliquée aux référentiels de fonds H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-136-stage---data-management-et-ia-appliquee-aux-referentiels-de-fonds-hf-reference--2026-117251--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-06T12:03:18+00:00"
+  },
+  {
+   "id": "99c219839a03",
+   "company": "Alstom",
+   "title": "Data Integration Architect",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Data-Integration-Architect-KA/523716701/",
+   "reason": "titre exclu (architect)",
+   "at": "2026-11-06T12:01:08+00:00"
+  },
+  {
+   "id": "9db507d25f26",
+   "company": "SNCF",
+   "title": "Aiguilleur du rail (F/H) - CDI - AURILLAC",
+   "url": "https://emploi.sncf.com/nos-offres/884397",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-06T12:00:39+00:00"
+  },
+  {
+   "id": "44266b88255a",
+   "company": "SNCF",
+   "title": "Aiguilleur du rail (F/H) - CDI - LIMOGES",
+   "url": "https://emploi.sncf.com/nos-offres/799201",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-06T12:00:38+00:00"
+  },
   {
    "id": "78c997631ef1",
    "company": "jobup.ch",
