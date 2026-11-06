@@ -1,6 +1,134 @@
 {
- "updated": "2026-11-06T12:16:11+00:00",
+ "updated": "2026-11-06T19:29:55+00:00",
  "items": [
+  {
+   "id": "5d9f01dd9020",
+   "company": "ING",
+   "title": "Product Owner - IT Business Analyst",
+   "url": "https://careers.ing.com/en/job/katowice/product-owner-it-business-analyst/3121/46673339328",
+   "reason": "lieu hors zones",
+   "at": "2026-11-06T19:29:33+00:00"
+  },
+  {
+   "id": "2f3b8f749e96",
+   "company": "jobs.ch",
+   "title": "Data Analytics Engineer",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/252caf3f-6f4d-4d0b-8dcd-6e12794d6d6d/",
+   "reason": "expérience demandée ≥ 5 ans « data ou ingenierie analytique - generalement 5 ans ou plus solide experienc »",
+   "at": "2026-11-06T19:26:36+00:00"
+  },
+  {
+   "id": "08f79991ef7a",
+   "company": "TotalEnergies",
+   "title": "STAGE - Chargé de Transformation Digitale & Projet IA H/F",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/STAGE-Charg-de-Transformation-Digitale-Projet-IA-H-F/85962",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-06T19:25:20+00:00"
+  },
+  {
+   "id": "b1d3fcbc39e2",
+   "company": "AXA",
+   "title": "Stage Mars 2027 - Data Analyst (F/H)",
+   "url": "https://careers.axa.com/jobs/28607",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-06T19:23:22+00:00"
+  },
+  {
+   "id": "90df00c85216",
+   "company": "BPCE",
+   "title": "Analyste Crédit Professionnels de l'Immobilier H/F - Paris 13",
+   "url": "https://recrutement.bpce.fr/job/analyste-credit-professionnels-de-limmobilier-h-f-paris-13",
+   "reason": "expérience demandée ≥ 4 ans « ulaire d'un bac+5, vous justifiez d'au moins 4 ans d'experience minimum en »",
+   "at": "2026-11-06T19:22:35+00:00"
+  },
+  {
+   "id": "e3e858abf292",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Analyste Investissement F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-analyste-investissement-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-06T19:22:35+00:00"
+  },
+  {
+   "id": "3c61c92a768a",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Investor Relations, Data & AI - Private Assets F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-investor-relations-data-ai-private-assets-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-06T19:22:35+00:00"
+  },
+  {
+   "id": "6c1a44ee1236",
+   "company": "Crédit Agricole",
+   "title": "Analyste Data & Pilotage de la Performance H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170477-3-analyste-data-et-pilotage-de-la-performance-hf-reference--2026-114772--/",
+   "reason": "expérience demandée ≥ 3 ans « projets data/bi en environnement transverse. niveau d'experience minimum 3 - 5 ans competences recherchees qua »",
+   "at": "2026-11-06T19:21:12+00:00"
+  },
+  {
+   "id": "2d00896fcb74",
+   "company": "Crédit Agricole",
+   "title": "STAGE - Analyste Crédit Entreprises H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170463-3-stage---analyste-credit-entreprises-hf-reference--2026-116834--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-06T19:21:11+00:00"
+  },
+  {
+   "id": "c9729fa18470",
+   "company": "Société Générale",
+   "title": "Analyste risques de marché - contrepartie",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-risques-de-marche-contrepartie-26000N3M-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-06T19:20:42+00:00"
+  },
+  {
+   "id": "d7c7cd67e302",
+   "company": "Société Générale",
+   "title": "Analyste Cybersecurité",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-cybersecurite-26000N2Q-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-06T19:20:41+00:00"
+  },
+  {
+   "id": "0e2cca13d02f",
+   "company": "Société Générale",
+   "title": "Data Analyst & Business Intelligence",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/data-analyst-business-intelligence-26000N2O-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-06T19:20:40+00:00"
+  },
+  {
+   "id": "c352e1fd4458",
+   "company": "Société Générale",
+   "title": "Analyste Coverage Grands Comptes",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-coverage-grands-comptes-26000L6U-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-06T19:20:38+00:00"
+  },
+  {
+   "id": "c90b26413692",
+   "company": "Société Générale",
+   "title": "Analyste Coverage & Investment Banking France",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-coverage-investment-banking-france-26000M4A-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-06T19:20:36+00:00"
+  },
+  {
+   "id": "33a4ac303926",
+   "company": "Société Générale",
+   "title": "Recherche appliquée en évaluation des modèles d'IA",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/recherche-appliquee-en-evaluation-des-modeles-dia-26000LRR-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-06T19:20:35+00:00"
+  },
+  {
+   "id": "dc45d4605986",
+   "company": "Air France",
+   "title": "Business Architect Data F/H",
+   "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25699&idOrigine=502&offerReference=2026-25699",
+   "reason": "titre exclu (architect)",
+   "at": "2026-11-06T19:18:20+00:00"
+  },
   {
    "id": "b2a92580e803",
    "company": "UBS",

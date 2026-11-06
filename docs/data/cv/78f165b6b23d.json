@@ -1,0 +1,176 @@
+{
+ "titre": "Business Analyst : Energy Data Management : Gas & Power Trading IT",
+ "profil": "Data Engineer senior avec 13 ans d’expérience opérationnelle au sein du groupe SNCF, spécialisé dans des environnements critiques à forte exigence de sécurité. Titulaire d’un Master Data Engineer (Mines Paris : PSL), j’ai conduit plus de quinze projets data, de la définition des besoins à la mise en production, incluant la rédaction de spécifications fonctionnelles et de plans de test. Je maîtrise les API, le scripting Python, GitHub et les pratiques DevOps, et je suis à l’aise en anglais avec un bon niveau de français.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Excel",
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Simulation d’une mission de Business Analyst sur un système de crédit, de la collecte des besoins à la recette, incluant la cartographie des processus",
+    "Livrables publiés en ligne : cartographie des processus, spécifications fonctionnelles et plan de tests"
+   ]
+  },
+  {
+   "id": "finance-audit",
+   "titre": "Finance Digital Audit Dashboard",
+   "stack": "Python, pandas, scikit-learn, FastAPI, Next.js, Plotly",
+   "lien": "",
+   "tags": [
+    "finance",
+    "financier",
+    "audit",
+    "anomalie",
+    "anomalies",
+    "machine learning",
+    "contrôle de gestion",
+    "comptabilité",
+    "bourse",
+    "api"
+   ],
+   "puces": [
+    "Ingestion des données financières du CAC 40 via un ETL pandas, avec détection d’anomalies par Isolation Forest",
+    "Développement d’une API FastAPI et d’un tableau de bord Next.js/Plotly, déployés en CI/CD avec GitHub Actions"
+   ]
+  },
+  {
+   "id": "frontierbank",
+   "titre": "FrontierBank : gouvernance des données d'une banque fictive",
+   "stack": "BCBS 239, DAMA-DMBOK, AI Act, Power BI",
+   "lien": "frontierbank-data.vercel.app",
+   "tags": [
+    "gouvernance",
+    "governance",
+    "steward",
+    "qualité",
+    "quality",
+    "bcbs",
+    "dama",
+    "lignage",
+    "lineage",
+    "banque",
+    "bancaire",
+    "risque",
+    "réglementaire",
+    "conformité",
+    "raci",
+    "référentiel",
+    "métadonnées"
+   ],
+   "puces": [
+    "Conseil complet en gouvernance des données : diagnostic BCBS 239, cadre DAMA‑DMBOK, lignage et matrice RACI",
+    "Création de tableaux de bord Power BI pour le suivi de la qualité des données et la cartographie des usages soumis à l’AI Act"
+   ]
+  },
+  {
+   "id": "palier",
+   "titre": "PALIER : tarification et yield management TGV",
+   "stack": "Python, DuckDB, Power BI, Next.js, GitHub Actions",
+   "lien": "palier-sncf.vercel.app",
+   "tags": [
+    "pricing",
+    "prix",
+    "tarif",
+    "tarification",
+    "revenue",
+    "yield",
+    "élasticité",
+    "demande",
+    "transport",
+    "ferroviaire",
+    "voyageurs",
+    "sncf",
+    "commercial",
+    "offre"
+   ],
+   "puces": [
+    "Analyse de la tarification TGV sur données ouvertes : élasticité prix, comparaison d’offres et positionnement concurrentiel",
+    "Module de yield management avec allocation par palier tarifaire (algorithme EMSR‑b) et mise à jour automatisée via GitHub Actions"
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "agile"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "78f165b6b23d",
+ "entreprise": "TotalEnergies",
+ "intitule_offre": "Business Analyst, Energy Data Management, Gas & Power Trading IT",
+ "url_offre": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Business-Analyst-Energy-Data-Management-Gas-Power-Trading-IT/85905",
+ "genere_le": "2026-11-06T19:25:28+00:00"
+}
