@@ -1,6 +1,62 @@
 {
- "updated": "2026-11-06T01:43:55+00:00",
+ "updated": "2026-11-06T13:00:10+00:00",
  "items": [
+  {
+   "id": "35e3ba7dd9aa",
+   "company": "HelloWork",
+   "title": "Chef de Projet Transformation IA H/F Heleis",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85231516.html",
+   "reason": "expérience demandée ≥ 5 ans « bac +5, vous justifiez idealement d'environ 5 annees d'experience dans la con »",
+   "at": "2026-11-06T13:00:10+00:00"
+  },
+  {
+   "id": "4db010d35ed0",
+   "company": "HelloWork",
+   "title": "Architecte IA Générative - Mistral H/F Klanik",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85139507.html",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-06T13:00:10+00:00"
+  },
+  {
+   "id": "e4ecc03364cb",
+   "company": "HelloWork",
+   "title": "CDI - ai Product Owner H/F Canal Plus",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85235858.html",
+   "reason": "expérience demandée ≥ 3 ans « /equipes metiers et si on parlait de vous? - experience confirmee en ai product management »",
+   "at": "2026-11-06T13:00:08+00:00"
+  },
+  {
+   "id": "f1e6d5e24e13",
+   "company": "HelloWork",
+   "title": "Evangelist - ai Adoption Lead H/F Econocom",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85228111.html",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-06T13:00:08+00:00"
+  },
+  {
+   "id": "3fb9fbc1b9d9",
+   "company": "HelloWork",
+   "title": "Key Account Manager ai Mod H/F Team.is",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85222209.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-06T13:00:08+00:00"
+  },
+  {
+   "id": "3ffb9d7e7410",
+   "company": "HelloWork",
+   "title": "Scrum Master Data H/F ALTEN",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85229582.html",
+   "reason": "expérience demandée ≥ 7 ans (lu par l'IA) « {\"@type\": \"OccupationalExperienceRequirements\", \"monthsOfExperience\": 84} »",
+   "at": "2026-11-06T13:00:07+00:00"
+  },
+  {
+   "id": "1a706c27614e",
+   "company": "HelloWork",
+   "title": "Solution Specialist Data Protection - N H/F OVHCloud",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85185680.html",
+   "reason": "expérience demandée ≥ 3 ans « ue propositions, and commercial proposals. - proven track record in consultative sales of »",
+   "at": "2026-11-06T13:00:07+00:00"
+  },
   {
    "id": "80735104a0e4",
    "company": "HelloWork",
