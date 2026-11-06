@@ -1,6 +1,78 @@
 {
- "updated": "2026-11-05T20:26:36+00:00",
+ "updated": "2026-11-06T01:26:10+00:00",
  "items": [
+  {
+   "id": "78c997631ef1",
+   "company": "jobup.ch",
+   "title": "Developer & Business Analyst – PnL & Risk Systems",
+   "url": "https://www.jobup.ch/fr/emplois/detail/a5485727-5b78-4245-a1d1-8fd141d37b5b/",
+   "reason": "expérience demandée ≥ 3 ans « plome en informatique ou domaine equivalent, 3 ans d'experience. competence »",
+   "at": "2026-11-06T01:23:30+00:00"
+  },
+  {
+   "id": "ecdadddaa9e2",
+   "company": "jobup.ch",
+   "title": "Business Analyste / Chef de projet Odoo (H/F) 100 %",
+   "url": "https://www.jobup.ch/fr/emplois/detail/74f4afbd-706e-4f62-b02b-4609535248f2/",
+   "reason": "expérience demandée ≥ 3 ans « de processus qui en decoulent. votre profil plusieurs annees d'experience comme business analyste, »",
+   "at": "2026-11-06T01:23:29+00:00"
+  },
+  {
+   "id": "1d5803b6b908",
+   "company": "jobup.ch",
+   "title": "Stagiaire Business Analyst - Digital IT Retail",
+   "url": "https://www.jobup.ch/fr/emplois/detail/b1972042-93b8-462b-a491-a409d10c794d/",
+   "reason": "titre exclu (stagiaire)",
+   "at": "2026-11-06T01:23:16+00:00"
+  },
+  {
+   "id": "8676ba81f1e7",
+   "company": "jobup.ch",
+   "title": "Stagiaire Business Analyst - Digital IT Brand",
+   "url": "https://www.jobup.ch/fr/emplois/detail/336c0720-57e5-4b7e-b906-e418cdc4e731/",
+   "reason": "titre exclu (stagiaire)",
+   "at": "2026-11-06T01:23:16+00:00"
+  },
+  {
+   "id": "88c9ed527ec6",
+   "company": "Orange",
+   "title": "Business Analyst F/H",
+   "url": "https://orange.jobs/fr/fr/job/IOS-2026-2720/Business-Analyst-F-H",
+   "reason": "lieu hors zones",
+   "at": "2026-11-06T01:22:27+00:00"
+  },
+  {
+   "id": "5e9178c818bd",
+   "company": "AXA",
+   "title": "Stagiaire en Data/Actuariat (F/H)",
+   "url": "https://careers.axa.com/jobs/37577",
+   "reason": "titre exclu (stagiaire)",
+   "at": "2026-11-06T01:19:38+00:00"
+  },
+  {
+   "id": "91e51149ea34",
+   "company": "Crédit Agricole",
+   "title": "Credit Analyst - Nordic Countries M/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170466-4-credit-analyst---nordic-countries-mf-reference--2026-115859--/",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-06T01:17:34+00:00"
+  },
+  {
+   "id": "d0905844b7e5",
+   "company": "Crédit Agricole",
+   "title": "M&A Analyst F/M",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170466-4-meta-analyst-fm-reference--2026-116059--/",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-06T01:17:33+00:00"
+  },
+  {
+   "id": "bb35a5173084",
+   "company": "Crédit Agricole",
+   "title": "Manager Equipe Assurances Sinistres IARD H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170462-137-manager-equipe-assurances-sinistres-iard-hf-reference--2026-115983--/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-06T01:17:33+00:00"
+  },
   {
    "id": "f85505fdd61f",
    "company": "ING",
