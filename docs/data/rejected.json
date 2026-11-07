@@ -1,6 +1,86 @@
 {
- "updated": "2026-11-07T02:08:23+00:00",
+ "updated": "2026-11-07T11:11:01+00:00",
  "items": [
+  {
+   "id": "ef4c2ed79a11",
+   "company": "jobup.ch",
+   "title": "IT Analyst and Software Engineer",
+   "url": "https://www.jobup.ch/fr/emplois/detail/8d2315ea-1314-4edc-8617-3c4dc8b82f99/",
+   "reason": "expérience demandée ≥ 3 ans « et collaborer avec les traders. competences 3 a 8 ans d'experience en developp »",
+   "at": "2026-11-07T11:08:34+00:00"
+  },
+  {
+   "id": "1e1648a8fa0c",
+   "company": "jobup.ch",
+   "title": "AI Senior Lead Engineer",
+   "url": "https://www.jobup.ch/fr/emplois/detail/ac429c23-c7a4-4518-b846-52bb4e34913c/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-07T11:08:34+00:00"
+  },
+  {
+   "id": "467680b3a7e9",
+   "company": "jobup.ch",
+   "title": "Praktikum AI Engineering",
+   "url": "https://www.jobup.ch/fr/emplois/detail/505f5122-32a7-45d3-a338-9e4efba5ea85/",
+   "reason": "titre exclu (praktikum)",
+   "at": "2026-11-07T11:08:34+00:00"
+  },
+  {
+   "id": "420f8162abd3",
+   "company": "jobup.ch",
+   "title": "Functional Application Manager AI (w/m/d) 100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/53fa45fe-39b6-4841-b6a1-0184297b3d6e/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-07T11:08:34+00:00"
+  },
+  {
+   "id": "0c7c15c5a0da",
+   "company": "jobup.ch",
+   "title": "Technical Analyst – Power Trading Systems",
+   "url": "https://www.jobup.ch/fr/emplois/detail/eb7c5d5c-0b50-44e1-aa9f-117a41895d5f/",
+   "reason": "expérience demandée ≥ 10 ans « r assurer un support de qualite. competences 10 ans d'experience en developp »",
+   "at": "2026-11-07T11:08:32+00:00"
+  },
+  {
+   "id": "d2b45d5b2471",
+   "company": "jobup.ch",
+   "title": "Business Analyst/in 80 - 100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/fdf04acc-3b7c-4efa-aecb-7f3bda91cbf1/",
+   "reason": "expérience demandée ≥ 3 ans « e transformation. profil vous disposez d'une experience averee en tant qu'analyste d'af »",
+   "at": "2026-11-07T11:08:31+00:00"
+  },
+  {
+   "id": "8f4154ed2de0",
+   "company": "jobup.ch",
+   "title": "Senior Business Analyst – Pricing & Modelling",
+   "url": "https://www.jobup.ch/fr/emplois/detail/f50ea194-d31e-4e39-b1d6-7b56df3cdf74/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-07T11:08:31+00:00"
+  },
+  {
+   "id": "3d49e790622b",
+   "company": "jobs.ch",
+   "title": "AI Senior Lead Engineer",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/ac429c23-c7a4-4518-b846-52bb4e34913c/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-07T11:07:48+00:00"
+  },
+  {
+   "id": "34dd4e88fcfb",
+   "company": "Orange",
+   "title": "Developer DATA IA (F/H) F/H",
+   "url": "https://orange.jobs/fr/fr/job/CTS-2026-55223/Developer-DATA-IA-F-H-F-H",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-07T11:07:26+00:00"
+  },
+  {
+   "id": "dcdd4b6efa74",
+   "company": "BPCE",
+   "title": "Front Office Equity Application IT Support Analyst",
+   "url": "https://recrutement.bpce.fr/job/front-office-equity-application-it-support-analyst",
+   "reason": "lieu hors zones",
+   "at": "2026-11-07T11:03:53+00:00"
+  },
   {
    "id": "c08bb2a109d2",
    "company": "jobs.ch",

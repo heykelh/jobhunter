@@ -1,0 +1,170 @@
+{
+ "titre": "Identity & Access Management Engineer (IAM)",
+ "profil": "13 ans d’expérience opérationnelle au sein du Groupe SNCF, où la sécurité des systèmes critiques était primordiale. Titulaire d’un Master Data Engineer / Data Product Manager (Mines Paris : PSL). Réalisation de plus de quinze projets data, incluant la conception de processus automatisés et la mise en production de solutions fiables.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio",
+    "Excel"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "GitHub Actions (CI/CD)",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "regard",
+   "titre": "REGARD : copilote de conformité bancaire",
+   "stack": "LangGraph.js, Groq, Supabase (pgvector), Langfuse",
+   "lien": "regard-wine.vercel.app",
+   "tags": [
+    "conformité",
+    "compliance",
+    "banque",
+    "bancaire",
+    "réglementaire",
+    "lcb-ft",
+    "kyc",
+    "ia",
+    "llm",
+    "rag",
+    "risque"
+   ],
+   "puces": [
+    "Configuration de règles d’accès pour la conformité bancaire, avec IA générant uniquement les synthèses des contrôles.",
+    "Validation de 28 cas de test de référence et suivi des appels via l’outil de monitoring."
+   ]
+  },
+  {
+   "id": "prisme",
+   "titre": "PRISME : copilote d'audit AI Act",
+   "stack": "Python, FastAPI, RAG, Supabase (pgvector), Groq",
+   "lien": "",
+   "tags": [
+    "ai act",
+    "audit",
+    "conformité",
+    "ia",
+    "intelligence artificielle",
+    "rag",
+    "llm",
+    "réglementaire",
+    "api"
+   ],
+   "puces": [
+    "Développement d’une API d’audit de conformité, intégrant la recherche automatisée dans les textes réglementaires.",
+    "Mise en place d’un backend déployé en continu, assurant la disponibilité du service."
+   ]
+  },
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Analyse des besoins d’accès et rédaction de spécifications fonctionnelles pour un système de crédit.",
+    "Production de livrables incluant cartographie des processus, spécifications et plan de tests."
+   ]
+  },
+  {
+   "id": "palier",
+   "titre": "PALIER : tarification et yield management TGV",
+   "stack": "Python, DuckDB, Power BI, Next.js, GitHub Actions",
+   "lien": "palier-sncf.vercel.app",
+   "tags": [
+    "pricing",
+    "prix",
+    "tarif",
+    "tarification",
+    "revenue",
+    "yield",
+    "élasticité",
+    "demande",
+    "transport",
+    "ferroviaire",
+    "voyageurs",
+    "sncf",
+    "commercial",
+    "offre"
+   ],
+   "puces": [
+    "Analyse de données ouvertes SNCF pour modéliser des politiques d’accès tarifaires.",
+    "Automatisation de la mise à jour des règles d’allocation via des actions de CI/CD."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "allemand",
+  "sap"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "4c0c983f9c5e",
+ "entreprise": "Universität Zürich",
+ "intitule_offre": "Identity & Access Management Engineer (IAM)",
+ "url_offre": "https://www.jobs.ch/fr/offres-emplois/detail/6a8bd932-5a45-49c8-9674-38d1804d92aa/",
+ "genere_le": "2026-11-07T11:07:48+00:00"
+}
