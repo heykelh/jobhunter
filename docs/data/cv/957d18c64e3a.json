@@ -1,0 +1,178 @@
+{
+ "titre": "AI Native Support Engineer",
+ "profil": "13 ans d'expérience opérationnelle au sein du groupe SNCF, dans un environnement à forts enjeux de sécurité. Titulaire d'un Master en Data Engineering (Mines Paris : PSL) avec une expertise en automatisation de processus et gestion de données. Expérience avérée dans la conduite de projets data complexes, incluant la mise en place de pipelines automatisés et de solutions de suivi.",
+ "competences": [
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio",
+    "Excel"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Analyse des besoins et rédaction des spécifications fonctionnelles pour un système de gestion de crédit, aboutissant à une recette validée.",
+    "Production de livrables détaillés (cartographie des processus, spécifications, plan de tests) facilitant la réutilisation et l'automatisation."
+   ]
+  },
+  {
+   "id": "palier",
+   "titre": "PALIER : tarification et yield management TGV",
+   "stack": "Python, DuckDB, Power BI, Next.js, GitHub Actions",
+   "lien": "palier-sncf.vercel.app",
+   "tags": [
+    "pricing",
+    "prix",
+    "tarif",
+    "tarification",
+    "revenue",
+    "yield",
+    "élasticité",
+    "demande",
+    "transport",
+    "ferroviaire",
+    "voyageurs",
+    "sncf",
+    "commercial",
+    "offre"
+   ],
+   "puces": [
+    "Étude de l'élasticité tarifaire TGV à partir de données ouvertes, avec comparaison concurrentielle.",
+    "Développement d'un module de yield management automatisé via GitHub Actions, intégrant un algorithme d'allocation EMSR‑b."
+   ]
+  },
+  {
+   "id": "pokewatch",
+   "titre": "PokéWatch : surveillance de marché et détection d'anomalies de prix",
+   "stack": "PostgreSQL, Supabase, SQL, GitHub Actions, Next.js",
+   "lien": "pokewatch-three.vercel.app",
+   "tags": [
+    "surveillance",
+    "monitoring",
+    "anomalie",
+    "anomalies",
+    "fraude",
+    "prix",
+    "marché",
+    "pipeline",
+    "automatisation",
+    "alerte",
+    "data engineer",
+    "ingestion",
+    "sql"
+   ],
+   "puces": [
+    "Mise en place d'un pipeline automatisé (GitHub Actions) pour collecter les prix sur Cardmarket et eBay, avec alertes en temps réel.",
+    "Création de règles SQL de détection d'anomalies et d'un tableau de bord Next.js pour le suivi du marché."
+   ]
+  },
+  {
+   "id": "escale",
+   "titre": "ESCALE : ponctualité des vols CDG et Orly",
+   "stack": "Python, PostgreSQL (médaillon), API AeroDataBox, Next.js",
+   "lien": "escale-ops.vercel.app",
+   "tags": [
+    "aérien",
+    "aerien",
+    "aviation",
+    "vol",
+    "vols",
+    "airline",
+    "opérations",
+    "operations",
+    "ponctualité",
+    "retard",
+    "rgpd",
+    "privacy",
+    "données personnelles",
+    "ai act",
+    "prédiction",
+    "client"
+   ],
+   "puces": [
+    "Automatisation de la collecte bi‑quotidienne des données de ponctualité des vols CDG/Orly, avec calcul d'un score de risque de retard.",
+    "Développement d'une console de suivi intégrant un modèle prédictif et des exigences de conformité RGPD et AI Act."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "allemand"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "957d18c64e3a",
+ "entreprise": "BBC Group AG",
+ "intitule_offre": "AI Native Support Engineer (m/w/d) 80 - 100%",
+ "url_offre": "https://www.jobs.ch/fr/offres-emplois/detail/d878acb4-bc36-4010-8d43-33b4707befa1/",
+ "genere_le": "2026-11-08T00:39:10+00:00"
+}
