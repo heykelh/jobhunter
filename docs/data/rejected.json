@@ -1,6 +1,38 @@
 {
- "updated": "2026-11-08T00:42:15+00:00",
+ "updated": "2026-11-08T11:24:40+00:00",
  "items": [
+  {
+   "id": "859ff1150ffd",
+   "company": "jobup.ch",
+   "title": "Consultant Lead - Software & Quality Engineering (AI-Powered) - AI-SDLC",
+   "url": "https://www.jobup.ch/fr/emplois/detail/0b761063-8716-42e5-896f-f2dc24aa98d5/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-08T11:22:12+00:00"
+  },
+  {
+   "id": "996618800828",
+   "company": "jobup.ch",
+   "title": "Scientific AI Platform Expert, Disease Area X",
+   "url": "https://www.jobup.ch/fr/emplois/detail/37b5ff5e-ec11-453f-ba6c-b1fe6a4bb816/",
+   "reason": "titre exclu (expert)",
+   "at": "2026-11-08T11:22:05+00:00"
+  },
+  {
+   "id": "656b1f819905",
+   "company": "jobup.ch",
+   "title": "Solution Unit Lead - AI & Data",
+   "url": "https://www.jobup.ch/fr/emplois/detail/54cdc9d9-ae08-48aa-aa66-a65ad3fa2085/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-08T11:22:05+00:00"
+  },
+  {
+   "id": "aac06f5ee0ae",
+   "company": "jobs.ch",
+   "title": "Consultant Lead - Software & Quality Engineering (AI-Powered) - AI-SDLC",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/0b761063-8716-42e5-896f-f2dc24aa98d5/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-08T11:21:49+00:00"
+  },
   {
    "id": "2f9b0c45429a",
    "company": "Crédit Agricole",
