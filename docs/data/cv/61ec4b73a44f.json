@@ -1,0 +1,179 @@
+{
+ "titre": "Business Analyst Salesforce H/F : Orange Business",
+ "profil": "Data Engineer senior avec 13 ans d’expérience au sein du groupe SNCF, spécialisé dans les environnements critiques. Titulaire d’un Master Data Engineer (Bac+5) et de plus de 15 projets data, je maîtrise l’analyse fonctionnelle, la rédaction de spécifications et l’animation d’ateliers utilisateurs. Mon parcours démontre une capacité à conduire des recettes fonctionnelles et à assurer le suivi de la mise en production.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Excel",
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Analyse du besoin fonctionnel du SI Crédit, rédaction de spécifications et suivi de la recette.",
+    "Livrables publiés : cartographie des processus, spécifications fonctionnelles détaillées, plan de tests."
+   ]
+  },
+  {
+   "id": "escale",
+   "titre": "ESCALE : ponctualité des vols CDG et Orly",
+   "stack": "Python, PostgreSQL (médaillon), API AeroDataBox, Next.js",
+   "lien": "escale-ops.vercel.app",
+   "tags": [
+    "aérien",
+    "aerien",
+    "aviation",
+    "vol",
+    "vols",
+    "airline",
+    "opérations",
+    "operations",
+    "ponctualité",
+    "retard",
+    "rgpd",
+    "privacy",
+    "données personnelles",
+    "ai act",
+    "prédiction",
+    "client"
+   ],
+   "puces": [
+    "Collecte automatisée des vols, modélisation du risque de retard et définition des indicateurs de suivi.",
+    "Mise en place d’une console de suivi avec tableau de bord et conformité RGPD intégrée."
+   ]
+  },
+  {
+   "id": "customer-experience",
+   "titre": "Customer Experience Intelligence : analyse et dataviz",
+   "stack": "Python, Power BI",
+   "lien": "github.com/heykelh/customer-experience-intelligence",
+   "tags": [
+    "client",
+    "clients",
+    "expérience client",
+    "marketing",
+    "kpi",
+    "dashboard",
+    "tableau de bord",
+    "power bi",
+    "reporting",
+    "analyse",
+    "satisfaction",
+    "parcours"
+   ],
+   "puces": [
+    "Analyse exploratoire des données clients, identification d’insights et rédaction de guides métier.",
+    "Création de tableaux de bord interactifs Power BI pour le pilotage décisionnel."
+   ]
+  },
+  {
+   "id": "palier",
+   "titre": "PALIER : tarification et yield management TGV",
+   "stack": "Python, DuckDB, Power BI, Next.js, GitHub Actions",
+   "lien": "palier-sncf.vercel.app",
+   "tags": [
+    "pricing",
+    "prix",
+    "tarif",
+    "tarification",
+    "revenue",
+    "yield",
+    "élasticité",
+    "demande",
+    "transport",
+    "ferroviaire",
+    "voyageurs",
+    "sncf",
+    "commercial",
+    "offre"
+   ],
+   "puces": [
+    "Analyse de la tarification TGV, élaboration de spécifications pour le module de yield management.",
+    "Développement d’un algorithme d’allocation, documentation et automatisation via GitHub Actions."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "modélisation",
+  "cahier des charges",
+  "salesforce"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "61ec4b73a44f",
+ "entreprise": "Orange Business",
+ "intitule_offre": "Business Analyst Salesforce H/F Orange Business",
+ "url_offre": "https://www.hellowork.com/fr-fr/emplois/75353690.html",
+ "genere_le": "2026-11-08T11:59:16+00:00"
+}
