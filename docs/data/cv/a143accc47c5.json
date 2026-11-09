@@ -1,0 +1,172 @@
+{
+ "titre": "Chargé de Reporting et Data H/F",
+ "profil": "Professionnel avec 13 ans d’expérience au sein du Groupe SNCF, spécialisé en consolidation de données et production de tableaux de bord. Maîtrise la modélisation de bases de données et la mise en place de KPI pour le suivi commercial. Habitué à travailler dans des organisations décentralisées et à assurer la fiabilité des reportings mensuels.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Excel",
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "customer-experience",
+   "titre": "Customer Experience Intelligence : analyse et dataviz",
+   "stack": "Python, Power BI",
+   "lien": "github.com/heykelh/customer-experience-intelligence",
+   "tags": [
+    "client",
+    "clients",
+    "expérience client",
+    "marketing",
+    "kpi",
+    "dashboard",
+    "tableau de bord",
+    "power bi",
+    "reporting",
+    "analyse",
+    "satisfaction",
+    "parcours"
+   ],
+   "puces": [
+    "Analyse exploratoire des données clients : identification des tendances et anomalies impactant la performance commerciale",
+    "Création de tableaux de bord interactifs : indicateurs de pilotage à destination des décideurs métier"
+   ]
+  },
+  {
+   "id": "finance-audit",
+   "titre": "Finance Digital Audit Dashboard",
+   "stack": "Python, pandas, scikit-learn, FastAPI, Next.js, Plotly",
+   "lien": "",
+   "tags": [
+    "finance",
+    "financier",
+    "audit",
+    "anomalie",
+    "anomalies",
+    "machine learning",
+    "contrôle de gestion",
+    "comptabilité",
+    "bourse",
+    "api"
+   ],
+   "puces": [
+    "Ingestion et consolidation des données financières via des pipelines ETL : suivi des écarts et détection d’anomalies",
+    "Déploiement d’un tableau de bord de reporting avec visualisations et export PDF pour la direction"
+   ]
+  },
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Simulation d'une mission d'inspection Data sur la chaîne de données du risque de crédit : cadrage, investigations, débriefing.",
+    "Moteur de contrôles qualité en règles SQL, scoring de risque, registre des constats et rapport de restitution."
+   ]
+  },
+  {
+   "id": "palier",
+   "titre": "PALIER : tarification et yield management TGV",
+   "stack": "Python, DuckDB, Power BI, Next.js, GitHub Actions",
+   "lien": "palier-sncf.vercel.app",
+   "tags": [
+    "pricing",
+    "prix",
+    "tarif",
+    "tarification",
+    "revenue",
+    "yield",
+    "élasticité",
+    "demande",
+    "transport",
+    "ferroviaire",
+    "voyageurs",
+    "sncf",
+    "commercial",
+    "offre"
+   ],
+   "puces": [
+    "Analyse de la tarification TGV et élasticité prix : définition de KPI de performance tarifaire",
+    "Mise en place d’un modèle de yield management automatisé, actualisé par des processus d’intégration continue"
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "vba",
+  "statistiques"
+ ],
+ "methode": "règles + reformulation IA (5 blocs adaptés)",
+ "job_id": "a143accc47c5",
+ "entreprise": "Parts Holding Europe",
+ "intitule_offre": "Charge de Reporting et Data H/F Parts Holding Europe",
+ "url_offre": "https://www.hellowork.com/fr-fr/emplois/85345312.html",
+ "genere_le": "2026-11-09T23:48:20+00:00"
+}
