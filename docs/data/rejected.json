@@ -1,6 +1,118 @@
 {
- "updated": "2026-11-09T01:23:12+00:00",
+ "updated": "2026-11-09T12:57:21+00:00",
  "items": [
+  {
+   "id": "2373f322ce0f",
+   "company": "jobup.ch",
+   "title": "Senior Consolidation Analyst",
+   "url": "https://www.jobup.ch/fr/emplois/detail/0cad7132-cd16-465c-8237-3037228606f3/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-09T12:54:35+00:00"
+  },
+  {
+   "id": "c823fbf01769",
+   "company": "jobup.ch",
+   "title": "MES & Manufacturing Data Specialist (m/w/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/b552f4d9-d298-4b14-8db6-d1b097d3f4ed/",
+   "reason": "expérience demandée ≥ 3 ans « formation equivalente reussie. vous possedez plusieurs annees d'experience professionnelle dans l'i »",
+   "at": "2026-11-09T12:54:31+00:00"
+  },
+  {
+   "id": "966b4f35fd05",
+   "company": "jobup.ch",
+   "title": "Data Analyst - Commercial Operations",
+   "url": "https://www.jobup.ch/fr/emplois/detail/340f137d-d0b4-40bc-a03b-edac41bf7210/",
+   "reason": "expérience demandée ≥ 3 ans « onnees. profil requis ce que vous apporterez 3 a 5 ans d'experience en analyse »",
+   "at": "2026-11-09T12:54:28+00:00"
+  },
+  {
+   "id": "a35d207a1493",
+   "company": "jobs.ch",
+   "title": "Senior Backend Engineer - Data Platform Asset Management (w/m/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/6c656066-92b5-4db5-8e97-7185862fd171/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-09T12:54:13+00:00"
+  },
+  {
+   "id": "d0b7787d7dc2",
+   "company": "jobs.ch",
+   "title": "Business Analyst/in (60-100%)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/01013aae-9c7a-4c4c-9bab-bd8d5972ac6c/",
+   "reason": "expérience demandée ≥ 3 ans « specialiste it ou qualification equivalente experience averee en tant qu'analyste d'af »",
+   "at": "2026-11-09T12:54:13+00:00"
+  },
+  {
+   "id": "b4a53347ceff",
+   "company": "jobs.ch",
+   "title": "Senior Business Analyst Digital Banking Security (a) (80-100%)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/1347d4ac-a40e-44c3-9b77-69d823895fcb/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-09T12:54:13+00:00"
+  },
+  {
+   "id": "e7198139f350",
+   "company": "jobs.ch",
+   "title": "Senior Technical Business Analyst Digital Identity & Open Banking (a) (80-100%)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/f0e97f57-a365-46db-ac4c-81900ade9330/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-09T12:54:13+00:00"
+  },
+  {
+   "id": "cd14f0b68404",
+   "company": "jobs.ch",
+   "title": "Head of Channel Sales (AI Software) - [A016040]",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/ce82b8b6-3db9-4e19-b1bf-dea7caaebd46/",
+   "reason": "titre exclu (head)",
+   "at": "2026-11-09T12:54:13+00:00"
+  },
+  {
+   "id": "b96451481efb",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Assistant Analyste Covered Bonds F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-assistant-analyste-covered-bonds-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-09T12:50:07+00:00"
+  },
+  {
+   "id": "72b9a5a428f5",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Relations Investisseurs, Data et AI - Private Assets F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-relations-investisseurs-data-et-ai-private-assets-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-09T12:50:07+00:00"
+  },
+  {
+   "id": "1c8875b77768",
+   "company": "BPCE",
+   "title": "STAGE - Chef de projet communication (F/H) - Aix-en-Provence (Les Milles)",
+   "url": "https://recrutement.bpce.fr/job/stage-chef-de-projet-communication-f-h-aix-en-provence-les-milles",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-09T12:50:07+00:00"
+  },
+  {
+   "id": "51fcdaf9eb44",
+   "company": "Crédit Agricole",
+   "title": "Analyste Portefeuille Crédit Export H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-portefeuille-credit-export-hf-reference--2026-117302--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-09T12:48:52+00:00"
+  },
+  {
+   "id": "1111d5131c01",
+   "company": "Crédit Agricole",
+   "title": "Lead Security IA H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170477-401-lead-security-ia-hf-reference--2026-114696--/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-09T12:48:52+00:00"
+  },
+  {
+   "id": "a742134ee4f2",
+   "company": "Crédit Agricole",
+   "title": "Stage –Marketing content - IA & automatisation H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage-marketing-content---ia-et-automatisation-hf-reference--2026-116950--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-09T12:48:52+00:00"
+  },
   {
    "id": "a47c8204d2fd",
    "company": "jobs.ch",
