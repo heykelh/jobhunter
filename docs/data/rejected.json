@@ -1,6 +1,190 @@
 {
- "updated": "2026-11-09T12:57:21+00:00",
+ "updated": "2026-11-09T21:43:42+00:00",
  "items": [
+  {
+   "id": "679cfa5ed396",
+   "company": "UBS",
+   "title": "HOLT Production & Model Research Analyst",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=353029",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-09T21:42:45+00:00"
+  },
+  {
+   "id": "b74856fc3ba1",
+   "company": "jobup.ch",
+   "title": "Geneva · Hybride CDI - Consultant·e infrastructure IBM Power / AIX – Automatisation Ansible (60–80 %)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/9fe275cf-828a-4202-80fa-4fc238fc028f/",
+   "reason": "expérience demandée ≥ 3 ans « es pour preparer la releve. profil recherche experience confirmee dans l'administration d' »",
+   "at": "2026-11-09T21:41:07+00:00"
+  },
+  {
+   "id": "40ed86363bd1",
+   "company": "jobs.ch",
+   "title": "Head of the Regional Governance Unit for Information Security and Data Protection - Bosch Switzerland 100% (f/m/div.) REF290730T",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/a7da1c2f-4c51-4018-b02f-4d8d91cc482c/",
+   "reason": "titre exclu (head)",
+   "at": "2026-11-09T21:40:39+00:00"
+  },
+  {
+   "id": "4cd443067389",
+   "company": "TotalEnergies",
+   "title": "Middle Office Analyst, Power",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Middle-Office-Analyst-Power/86046",
+   "reason": "lieu hors zones",
+   "at": "2026-11-09T21:39:29+00:00"
+  },
+  {
+   "id": "c48acbbcc9cc",
+   "company": "TotalEnergies",
+   "title": "LEAD DATA ENGINEER SENIOR",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/LEAD-DATA-ENGINEER-SENIOR/86041",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-09T21:39:29+00:00"
+  },
+  {
+   "id": "f5cb996d2dc8",
+   "company": "TotalEnergies",
+   "title": "Market Analyst - US Power",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Market-Analyst-US-Power/86053",
+   "reason": "lieu hors zones",
+   "at": "2026-11-09T21:39:27+00:00"
+  },
+  {
+   "id": "82c3a897aee0",
+   "company": "TotalEnergies",
+   "title": "Stage - IA et automatisation appliquées à l'ingénierie H/F",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Stage-IA-et-automatisation-appliqu-es-l-ing-nierie-H-F/86050",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-09T21:39:27+00:00"
+  },
+  {
+   "id": "96cca34e3f9d",
+   "company": "AXA",
+   "title": "Stage Ingénieur Automatisation et IA",
+   "url": "https://careers.axa.com/jobs/37082",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-09T21:37:24+00:00"
+  },
+  {
+   "id": "3f687bfe62a4",
+   "company": "AXA",
+   "title": "Data analyst - Lutte contre la fraude (F/H) - stage",
+   "url": "https://careers.axa.com/jobs/37115",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-09T21:37:24+00:00"
+  },
+  {
+   "id": "d1c4213ec60a",
+   "company": "AXA",
+   "title": "Data scientist Actuaire (F/H) - stage",
+   "url": "https://careers.axa.com/jobs/37124",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-09T21:37:24+00:00"
+  },
+  {
+   "id": "833fdbacaa82",
+   "company": "BPCE",
+   "title": "Business Analyst - F/H",
+   "url": "https://recrutement.bpce.fr/job/business-analyst-f-h-5",
+   "reason": "expérience demandée ≥ 3 ans « tion bac+5 equivalente. vous justifiez d'une experience confirmee en pilotage de projets i »",
+   "at": "2026-11-09T21:36:12+00:00"
+  },
+  {
+   "id": "8d9a53576853",
+   "company": "Crédit Agricole",
+   "title": "Coverage Analyst",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170466-4-coverage-analyst-reference--2026-117317--/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-09T21:34:46+00:00"
+  },
+  {
+   "id": "ccf02885c2c3",
+   "company": "Crédit Agricole",
+   "title": "Stagiaire - Data Science & IA H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170473-124-stagiaire---data-science-et-ia-hf-reference--2026-113923--/",
+   "reason": "titre exclu (stagiaire)",
+   "at": "2026-11-09T21:34:46+00:00"
+  },
+  {
+   "id": "35e89f44a933",
+   "company": "Crédit Agricole",
+   "title": "STAGE - Analyste Energie & Finance H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-3-stage----analyste-energie-et-finance-hf-reference--2026-116257--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-09T21:34:46+00:00"
+  },
+  {
+   "id": "39e859265ff9",
+   "company": "Crédit Agricole",
+   "title": "Coverage Analyst M/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170466-4-coverage-analyst-mf-reference--2026-117321--/",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-09T21:34:45+00:00"
+  },
+  {
+   "id": "ea4f1d940c85",
+   "company": "Crédit Agricole",
+   "title": "Stage- Investment Risk Data Analyst H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170470-124-stage--investment-risk-data-analyst-hf-reference--2026-114058--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-09T21:34:43+00:00"
+  },
+  {
+   "id": "f30744ef63b6",
+   "company": "Crédit Agricole",
+   "title": "STAGIAIRE AI Compliance H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170469-124-stagiaire-ai-compliance-hf-reference--2026-117322--/",
+   "reason": "titre exclu (stagiaire)",
+   "at": "2026-11-09T21:34:43+00:00"
+  },
+  {
+   "id": "af7eb16fd5a0",
+   "company": "Société Générale",
+   "title": "Analyste environnemental et social",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-environnemental-et-social-26000N59-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-09T21:34:17+00:00"
+  },
+  {
+   "id": "d8fc879e7524",
+   "company": "Société Générale",
+   "title": "Analyste Support Applicatif (IA intégrée | Profil hybride Analyse Métier & Développement)",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-support-applicatif-ia-integree-profil-hybride-analyse-metier-developpement-26000FDD-fr",
+   "reason": "lieu hors zones",
+   "at": "2026-11-09T21:34:16+00:00"
+  },
+  {
+   "id": "5cfe52dfc244",
+   "company": "Société Générale",
+   "title": "Stage Data Scientist IA Générative : Finetuning de modèles de Speech-to-Text et de Small Language Model",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/stage-data-scientist-ia-generative-finetuning-de-modeles-de-speech-to-text-et-de-small-language-26000NJL-fr",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-09T21:34:15+00:00"
+  },
+  {
+   "id": "91a7c65d1cc8",
+   "company": "Alstom",
+   "title": "Stage - 6 mois - IA & Automatisation appliquées à la Trésorerie H/F",
+   "url": "https://jobsearch.alstom.com/job/Saint-Ouen-Stage-6-mois-IA-&-Automatisation-appliqu%C3%A9es-%C3%A0-la-Tr%C3%A9sorerie-HF/1455685933/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-09T21:32:24+00:00"
+  },
+  {
+   "id": "615db6290a8a",
+   "company": "Alstom",
+   "title": "Internship - 6 months - Intern Treasury x AI & Automation Projects H/F",
+   "url": "https://jobsearch.alstom.com/job/Saint-Ouen-Internship-6-months-Intern-Treasury-x-AI-&-Automation-Projects-HF/1453463333/",
+   "reason": "titre exclu (internship)",
+   "at": "2026-11-09T21:32:24+00:00"
+  },
+  {
+   "id": "a8710b9c0525",
+   "company": "SNCF",
+   "title": "Aiguilleur du rail (F/H) - CDI - Toulouse",
+   "url": "https://emploi.sncf.com/nos-offres/750782",
+   "reason": "lieu hors zones",
+   "at": "2026-11-09T21:32:02+00:00"
+  },
   {
    "id": "2373f322ce0f",
    "company": "jobup.ch",

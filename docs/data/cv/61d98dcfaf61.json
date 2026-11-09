@@ -1,0 +1,178 @@
+{
+ "titre": "Chargé(e) Coordination Commerciale : Data Analyst",
+ "profil": "Fort de 13 ans d’expérience opérationnelle au sein du Groupe SNCF, j’ai développé une expertise en analyse de données, maîtrise de SQL, Python et Excel, ainsi qu’en contrôle et fiabilisation des données. J’ai conçu et automatisé des tableaux de bord et des reportings pour soutenir la prise de décision. Mon parcours montre une capacité à traduire les besoins métiers en indicateurs opérationnels et à piloter des projets transverses.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "SQL",
+    "Excel",
+    "Python (pandas)",
+    "Power BI (DAX)",
+    "PostgreSQL",
+    "DuckDB",
+    "Looker Studio"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Mission d’inspection Data sur une chaîne de données de crédit : cadrage, investigations, débriefing, identification d’anomalies.",
+    "Mise en place d’un moteur de contrôles qualité SQL, scoring de risque, registre des constats et restitution des résultats."
+   ]
+  },
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Simulation de Business Analyst SI Crédit : recueil du besoin, conception fonctionnelle, tests et recette.",
+    "Livrables : cartographie des processus, spécifications fonctionnelles, plan de tests, support à la mise en production."
+   ]
+  },
+  {
+   "id": "palier",
+   "titre": "PALIER : tarification et yield management TGV",
+   "stack": "Python, DuckDB, Power BI, Next.js, GitHub Actions",
+   "lien": "palier-sncf.vercel.app",
+   "tags": [
+    "pricing",
+    "prix",
+    "tarif",
+    "tarification",
+    "revenue",
+    "yield",
+    "élasticité",
+    "demande",
+    "transport",
+    "ferroviaire",
+    "voyageurs",
+    "sncf",
+    "commercial",
+    "offre"
+   ],
+   "puces": [
+    "Analyse de la tarification TGV à partir de données ouvertes : élasticité prix, comparaison d’offres, positionnement concurrentiel.",
+    "Développement d’un module de yield management avec allocation tarifaire automatisée via GitHub Actions."
+   ]
+  },
+  {
+   "id": "pokewatch",
+   "titre": "PokéWatch : surveillance de marché et détection d'anomalies de prix",
+   "stack": "PostgreSQL, Supabase, SQL, GitHub Actions, Next.js",
+   "lien": "pokewatch-three.vercel.app",
+   "tags": [
+    "surveillance",
+    "monitoring",
+    "anomalie",
+    "anomalies",
+    "fraude",
+    "prix",
+    "marché",
+    "pipeline",
+    "automatisation",
+    "alerte",
+    "data engineer",
+    "ingestion",
+    "sql"
+   ],
+   "puces": [
+    "Pipeline automatisé de collecte des prix sur Cardmarket et eBay, déclenchement d’alertes en temps réel.",
+    "Détection d’anomalies de prix par règles SQL et visualisation des indicateurs dans un tableau de bord web."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "vba",
+  "statistiques",
+  "dataiku"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "61d98dcfaf61",
+ "entreprise": "BPCE",
+ "intitule_offre": "Chargé(e) Coordination Commerciale – Data Analyst (F/H)",
+ "url_offre": "https://recrutement.bpce.fr/job/chargee-coordination-commerciale-data-analyst-f-h",
+ "genere_le": "2026-11-09T21:36:38+00:00"
+}
