@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T21:43:42+00:00",
+ "updated": "2026-11-09T23:08:41+00:00",
  "keywords": [
   "data",
   "analyst",
@@ -47,11 +47,11 @@
   "GulfTalent (Oman)"
  ],
  "ai": {
-  "ok": 9,
-  "errors": 1,
-  "last_error": "HTTP 404 (llama-3.1-8b-instant) : {\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}} ",
-  "model": "openai/gpt-oss-120b",
+  "ok": 0,
+  "errors": 6,
+  "last_error": "",
+  "model": "",
   "waits": 1,
-  "at": "2026-11-09T21:43:42+00:00"
+  "at": "2026-11-09T23:08:41+00:00"
  }
 }
