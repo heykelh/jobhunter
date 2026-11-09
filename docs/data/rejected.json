@@ -1,6 +1,62 @@
 {
- "updated": "2026-11-08T21:32:23+00:00",
+ "updated": "2026-11-09T01:23:12+00:00",
  "items": [
+  {
+   "id": "a47c8204d2fd",
+   "company": "jobs.ch",
+   "title": "Senior Business Analyst (Project Manager)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/576e685a-70cb-4bab-afcf-9a42894b429f/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-09T01:20:07+00:00"
+  },
+  {
+   "id": "e670779e2d82",
+   "company": "Crédit Agricole",
+   "title": "Data & Reporting Analyst H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-data-et-reporting-analyst-hf-reference--2026-115082--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-09T01:14:57+00:00"
+  },
+  {
+   "id": "00f48b28cb24",
+   "company": "Crédit Agricole",
+   "title": "Analyste Coverage - Fonds d'infrastructure et de Private Equity H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170478-4-analyste-coverage---fonds-d-infrastructure-et-de-private-equity-hf-reference--2026-116035--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-09T01:14:56+00:00"
+  },
+  {
+   "id": "f8077ebc2aa3",
+   "company": "Crédit Agricole",
+   "title": "VIE - Artificial Intelligence Analyst H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170477-137-vie---artificial-intelligence-analyst-hf-reference--2026-115739--/",
+   "reason": "titre exclu (VIE)",
+   "at": "2026-11-09T01:14:56+00:00"
+  },
+  {
+   "id": "5142d172df24",
+   "company": "Crédit Agricole",
+   "title": "VIE - Account executive and management control analyst H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170464-137-vie---account-executive-and-management-control-analyst-hf-reference--2026-115362--/",
+   "reason": "titre exclu (VIE)",
+   "at": "2026-11-09T01:14:56+00:00"
+  },
+  {
+   "id": "ba379af1aa5b",
+   "company": "Crédit Agricole",
+   "title": "Stage - Assistant(e) Chef de projet IA H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-122-stage---assistante-chef-de-projet-ia-hf-reference--2026-116087--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-09T01:14:54+00:00"
+  },
+  {
+   "id": "699c2f5e7ac9",
+   "company": "Crédit Agricole",
+   "title": "Stage - Assistant(e) Chef de projet IA H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-122-stage---assistante-chef-de-projet-ia-hf-reference--2026-116068--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-09T01:14:54+00:00"
+  },
   {
    "id": "eca5bceeb42f",
    "company": "Orange",

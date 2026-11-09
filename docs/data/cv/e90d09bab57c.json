@@ -1,0 +1,176 @@
+{
+ "titre": "Ingénieur Système Microsoft Data & Cloud",
+ "profil": "Ingénieur Data avec 13 ans d’expérience opérationnelle au sein du groupe SNCF, spécialisé dans les environnements critiques et la sécurité. Titulaire d’un Master Data Engineer / Data Product Manager (Mines Paris : PSL) et ayant conduit plus de 15 projets data. Compétences avérées en gouvernance des données, exploitation d’infrastructures, migration vers le cloud hybride et sécurisation des services.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio",
+    "Excel"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "GitHub Actions (CI/CD)",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "frontierbank",
+   "titre": "FrontierBank : gouvernance des données d'une banque fictive",
+   "stack": "BCBS 239, DAMA-DMBOK, AI Act, Power BI",
+   "lien": "frontierbank-data.vercel.app",
+   "tags": [
+    "gouvernance",
+    "governance",
+    "steward",
+    "qualité",
+    "quality",
+    "bcbs",
+    "dama",
+    "lignage",
+    "lineage",
+    "banque",
+    "bancaire",
+    "risque",
+    "réglementaire",
+    "conformité",
+    "raci",
+    "référentiel",
+    "métadonnées"
+   ],
+   "puces": [
+    "Conseil en gouvernance des données : diagnostic BCBS 239, cadre DAMA‑DMBOK, lignage et matrice RACI.",
+    "Création de tableaux de bord Power BI pour suivre la qualité des données et la conformité à l’AI Act."
+   ]
+  },
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Analyse fonctionnelle du système de crédit, de la collecte des besoins à la recette, avec cartographie des processus.",
+    "Production de spécifications fonctionnelles et plan de tests publiés en ligne."
+   ]
+  },
+  {
+   "id": "pokewatch",
+   "titre": "PokéWatch : surveillance de marché et détection d'anomalies de prix",
+   "stack": "PostgreSQL, Supabase, SQL, GitHub Actions, Next.js",
+   "lien": "pokewatch-three.vercel.app",
+   "tags": [
+    "surveillance",
+    "monitoring",
+    "anomalie",
+    "anomalies",
+    "fraude",
+    "prix",
+    "marché",
+    "pipeline",
+    "automatisation",
+    "alerte",
+    "data engineer",
+    "ingestion",
+    "sql"
+   ],
+   "puces": [
+    "Mise en place d’un pipeline automatisé (GitHub Actions) pour collecter les prix Cardmarket et eBay, alertes en temps réel via ntfy.",
+    "Développement de règles SQL de détection d’anomalies et tableau de bord Next.js pour le suivi du marché."
+   ]
+  },
+  {
+   "id": "regard",
+   "titre": "REGARD : copilote de conformité bancaire",
+   "stack": "LangGraph.js, Groq, Supabase (pgvector), Langfuse",
+   "lien": "regard-wine.vercel.app",
+   "tags": [
+    "conformité",
+    "compliance",
+    "banque",
+    "bancaire",
+    "réglementaire",
+    "lcb-ft",
+    "kyc",
+    "ia",
+    "llm",
+    "rag",
+    "risque"
+   ],
+   "puces": [
+    "Développement d’un copilote de conformité bancaire : codage des contrôles sous forme de règles, synthèses automatisées.",
+    "Validation de 28 cas de test de référence et suivi des appels avec Langfuse."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "allemand"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "e90d09bab57c",
+ "entreprise": "Rocken®",
+ "intitule_offre": "Microsoft System Engineer Data & Cloud (m/w/d)",
+ "url_offre": "https://www.jobs.ch/fr/offres-emplois/detail/42dfb496-2613-4db7-b767-2ce851c4224c/",
+ "genere_le": "2026-11-09T01:20:05+00:00"
+}
