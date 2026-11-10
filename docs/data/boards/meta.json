@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T13:32:48+00:00",
+ "updated": "2026-11-10T21:20:38+00:00",
  "keywords": [
   "data",
   "analyst",
@@ -24,11 +24,10 @@
   "HelloWork"
  ],
  "ai": {
-  "ok": 5,
-  "errors": 3,
-  "last_error": "HTTP 429 (openai/gpt-oss-120b) : {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kkqt4ecsfjybqscgqhm4275e` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5887, Req",
+  "ok": 1,
+  "errors": 0,
+  "last_error": "",
   "model": "openai/gpt-oss-120b",
-  "waits": 3,
-  "at": "2026-11-10T13:32:48+00:00"
+  "at": "2026-11-10T21:20:38+00:00"
  }
 }

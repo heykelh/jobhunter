@@ -1,6 +1,38 @@
 {
- "updated": "2026-11-10T13:32:48+00:00",
+ "updated": "2026-11-10T21:20:38+00:00",
  "items": [
+  {
+   "id": "4ed71c9bd789",
+   "company": "HelloWork",
+   "title": "IA Engineer H/F Veolia",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85388154.html",
+   "reason": "expérience demandée ≥ 7 ans (lu par l'IA) « {\"@type\": \"OccupationalExperienceRequirements\", \"monthsOfExperience\": 84} »",
+   "at": "2026-11-10T21:20:38+00:00"
+  },
+  {
+   "id": "190c0983122e",
+   "company": "HelloWork",
+   "title": "Business Analyst H/F Paprec",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85382417.html",
+   "reason": "expérience demandée ≥ 3 ans « formatique ou equivalent.vous disposez d'une experience significative en cabinet de conseil vo »",
+   "at": "2026-11-10T21:20:35+00:00"
+  },
+  {
+   "id": "a336ad88ca26",
+   "company": "HelloWork",
+   "title": "Business Analyst Confirmé H/F Atos",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85388951.html",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-10T21:20:35+00:00"
+  },
+  {
+   "id": "39e49a50a110",
+   "company": "HelloWork",
+   "title": "Google Data Specialist H/F Accenture France",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85382649.html",
+   "reason": "expérience demandée ≥ 3 ans « profil recherche votre profil :vous avez une experience confirmee en data engineering et e »",
+   "at": "2026-11-10T21:20:34+00:00"
+  },
   {
    "id": "2ad9eca87840",
    "company": "HelloWork",
