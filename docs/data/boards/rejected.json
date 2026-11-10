@@ -1,6 +1,86 @@
 {
- "updated": "2026-11-09T23:48:27+00:00",
+ "updated": "2026-11-10T13:32:48+00:00",
  "items": [
+  {
+   "id": "2ad9eca87840",
+   "company": "HelloWork",
+   "title": "Développeur .Net IA Confirmé H/F Andema",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85365773.html",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-10T13:32:47+00:00"
+  },
+  {
+   "id": "6a87cf1c6800",
+   "company": "HelloWork",
+   "title": "Chef de Projet Data - IA H/F Ministère des armées - Civils de la Défense",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84310113.html",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « Disposez d'une expérience en conduite de projets data »",
+   "at": "2026-11-10T13:32:28+00:00"
+  },
+  {
+   "id": "c3f5d4ba6ffc",
+   "company": "HelloWork",
+   "title": "Consultant Agentique IA H/F Inetum",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82904204.html",
+   "reason": "expérience demandée ≥ 3 ans « +5 (ingenieur, data science ou equivalent), 3 a 5 ans d'experience en developp »",
+   "at": "2026-11-10T13:32:26+00:00"
+  },
+  {
+   "id": "39394c081c3b",
+   "company": "HelloWork",
+   "title": "Business Analyst Salesforce H/F YUMAINCAP",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85365156.html",
+   "reason": "expérience demandée ≥ 3 ans « practice salesforce. vous disposez : - d'une experience significative en tant que business ana »",
+   "at": "2026-11-10T13:32:11+00:00"
+  },
+  {
+   "id": "39b94d322c62",
+   "company": "HelloWork",
+   "title": "Infrastructure ai Specialist Senior H/F Accenture France",
+   "url": "https://www.hellowork.com/fr-fr/emplois/81176478.html",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-10T13:32:11+00:00"
+  },
+  {
+   "id": "33859e3de93a",
+   "company": "HelloWork",
+   "title": "Leader IA H/F CGI",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85357585.html",
+   "reason": "titre exclu (leader)",
+   "at": "2026-11-10T13:32:11+00:00"
+  },
+  {
+   "id": "cee0a7fc6d17",
+   "company": "HelloWork",
+   "title": "Sales Business Analyst H/F Hager",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85357672.html",
+   "reason": "expérience demandée ≥ 5 ans « ing degree or a master's degree. - you bring 5-10 years of experience in busines »",
+   "at": "2026-11-10T13:32:10+00:00"
+  },
+  {
+   "id": "512270f24c04",
+   "company": "HelloWork",
+   "title": "Responsable Maîtrise d'Oeuvre Data H/F GRDF",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85364941.html",
+   "reason": "expérience demandée ≥ 7 ans (lu par l'IA) « \"monthsOfExperience\": 84 »",
+   "at": "2026-11-10T13:32:03+00:00"
+  },
+  {
+   "id": "d12b1e454421",
+   "company": "HelloWork",
+   "title": "Data Product Owner H/F Solocal Group",
+   "url": "https://www.hellowork.com/fr-fr/emplois/81045999.html",
+   "reason": "expérience demandée ≥ 5 ans « ematiques ou discipline equivalente. minimum 5 ans d'experience dans des fo »",
+   "at": "2026-11-10T13:32:03+00:00"
+  },
+  {
+   "id": "1056603ac5cf",
+   "company": "HelloWork",
+   "title": "Manager Data - IA H/F W Hunt",
+   "url": "https://www.hellowork.com/fr-fr/emplois/76586929.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-10T13:32:03+00:00"
+  },
   {
    "id": "b498cc403112",
    "company": "HelloWork",
