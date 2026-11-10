@@ -1,0 +1,177 @@
+{
+ "titre": "Data Analyst (H/F)",
+ "profil": "Data Analyst avec 13 ans d’expérience au sein du Groupe SNCF, spécialisé dans la gouvernance et la conformité des données. Maîtrise du cycle complet d’analyse, de la collecte des besoins à la mise en production de tableaux de bord et d’indicateurs de pilotage. Expérience avérée dans l’automatisation des flux et la garantie de la qualité des données.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Excel",
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "GitHub Actions (CI/CD)",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Analyse des besoins fonctionnels et rédaction de spécifications pour un système de recouvrement, incluant la cartographie des processus et les plans de test.",
+    "Livrables structurés assurant la traçabilité et la conformité des exigences métier."
+   ]
+  },
+  {
+   "id": "customer-experience",
+   "titre": "Customer Experience Intelligence : analyse et dataviz",
+   "stack": "Python, Power BI",
+   "lien": "github.com/heykelh/customer-experience-intelligence",
+   "tags": [
+    "client",
+    "clients",
+    "expérience client",
+    "marketing",
+    "kpi",
+    "dashboard",
+    "tableau de bord",
+    "power bi",
+    "reporting",
+    "analyse",
+    "satisfaction",
+    "parcours"
+   ],
+   "puces": [
+    "Analyse exploratoire de données clients et création de dashboards interactifs pour le suivi de la performance.",
+    "Production d’indicateurs de pilotage destinés aux décideurs métier."
+   ]
+  },
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Audit de la chaîne de données de risque de crédit, identification d’anomalies et rédaction d’un rapport de restitution.",
+    "Mise en place de contrôles qualité SQL et d’un registre de constats."
+   ]
+  },
+  {
+   "id": "palier",
+   "titre": "PALIER : tarification et yield management TGV",
+   "stack": "Python, DuckDB, Power BI, Next.js, GitHub Actions",
+   "lien": "palier-sncf.vercel.app",
+   "tags": [
+    "pricing",
+    "prix",
+    "tarif",
+    "tarification",
+    "revenue",
+    "yield",
+    "élasticité",
+    "demande",
+    "transport",
+    "ferroviaire",
+    "voyageurs",
+    "sncf",
+    "commercial",
+    "offre"
+   ],
+   "puces": [
+    "Étude de l’élasticité tarifaire TGV à partir de données ouvertes et modélisation du positionnement concurrentiel.",
+    "Développement d’un module d’allocation automatisée des places, intégré via GitHub Actions."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "agile",
+  "scrum",
+  "jira"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "1a4761260b85",
+ "entreprise": "Accès Personnel SA",
+ "intitule_offre": "Data Analyst (H/F)",
+ "url_offre": "https://www.jobs.ch/fr/offres-emplois/detail/235cdc27-4b96-41ba-86e4-aea29398a0e0/",
+ "genere_le": "2026-11-10T12:40:11+00:00"
+}

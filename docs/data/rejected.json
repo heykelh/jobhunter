@@ -1,6 +1,86 @@
 {
- "updated": "2026-11-10T09:38:41+00:00",
+ "updated": "2026-11-10T12:43:19+00:00",
  "items": [
+  {
+   "id": "c48a4f6ac58b",
+   "company": "ING",
+   "title": "Digital Sales Analyst",
+   "url": "https://careers.ing.com/en/job/sydney/digital-sales-analyst/3121/38609325760",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-10T12:43:00+00:00"
+  },
+  {
+   "id": "71ecf8bc747e",
+   "company": "SIX Group",
+   "title": "SOC Detection & Response Analyst",
+   "url": "https://jobs.six-group.com/job/Las-Rozas-de-Madrid-SOC-Detection-&-Response-Analyst/1416240433/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-10T12:42:28+00:00"
+  },
+  {
+   "id": "c144d76f2905",
+   "company": "jobup.ch",
+   "title": "Datenbankspezialist:in Data Warehouse (m/w/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/1e3f6bc2-6473-4574-accc-a71546090125/",
+   "reason": "expérience demandée ≥ 3 ans « domaine similaire a l'universite. vous avez plusieurs annees d'experience en administration de bas »",
+   "at": "2026-11-10T12:40:35+00:00"
+  },
+  {
+   "id": "3fc32bd2c388",
+   "company": "jobs.ch",
+   "title": "Business Analyst Trainee (m/w/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/24abe156-d7de-4ce5-9a74-915582e2df27/",
+   "reason": "titre exclu (trainee)",
+   "at": "2026-11-10T12:40:12+00:00"
+  },
+  {
+   "id": "567bce4c5b04",
+   "company": "Orange",
+   "title": "AI Developer",
+   "url": "https://orange.jobs/fr/fr/job/ERC-599913-20136094/AI-Developer",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « experiență în dezvoltare software, inginerie AI sau dezvoltarea de aplicații care utilizează tehnologii AI »",
+   "at": "2026-11-10T12:39:55+00:00"
+  },
+  {
+   "id": "f91c15536f0a",
+   "company": "Orange",
+   "title": "AI Analyst",
+   "url": "https://orange.jobs/fr/fr/job/ERC-600023-20136094/AI-Analyst",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-10T12:39:52+00:00"
+  },
+  {
+   "id": "87bffd8800e3",
+   "company": "BPCE",
+   "title": "Data Analyst (F/H)",
+   "url": "https://recrutement.bpce.fr/job/data-analyst-f-h",
+   "reason": "expérience demandée ≥ 5 ans « ngenieur, commerce ou universite), vous avez 5 ans minimum d'experience dan »",
+   "at": "2026-11-10T12:36:12+00:00"
+  },
+  {
+   "id": "6412a140af06",
+   "company": "Crédit Agricole",
+   "title": "Business Analyst",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170477-4-business-analyst-reference--2026-117343--/",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-10T12:34:47+00:00"
+  },
+  {
+   "id": "d3a2ac0096b3",
+   "company": "Crédit Agricole",
+   "title": "Analyste Risques Marché Equité H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-risques-marche-equite-hf-reference--2026-117350--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-10T12:34:45+00:00"
+  },
+  {
+   "id": "3e629481bd6a",
+   "company": "SNCF",
+   "title": "Aiguilleur du rail (F/H)-CDI-Andelot-en-Montagne",
+   "url": "https://emploi.sncf.com/nos-offres/889627",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-10T12:32:16+00:00"
+  },
   {
    "id": "74c1b87122bb",
    "company": "jobup.ch",
