@@ -1,6 +1,126 @@
 {
- "updated": "2026-11-10T12:43:19+00:00",
+ "updated": "2026-11-10T20:10:30+00:00",
  "items": [
+  {
+   "id": "6cead9ee1567",
+   "company": "ING",
+   "title": "Data Engineer",
+   "url": "https://careers.ing.com/en/job/makati-city/data-engineer/3121/46605579392",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-10T20:10:09+00:00"
+  },
+  {
+   "id": "5e19a940a01a",
+   "company": "jobs.ch",
+   "title": "Business Analyst Geschäftsprozesse & SAP (m/w/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/864501ac-8aec-4901-b27d-5aa8f652751a/",
+   "reason": "expérience demandée ≥ 3 ans « er schweiz sowie im europaischen ausland mit langjahrigen partnern zusammen. im r »",
+   "at": "2026-11-10T20:07:37+00:00"
+  },
+  {
+   "id": "76ae26214ad6",
+   "company": "Eiffage",
+   "title": "Stage - Data, IA et automatisation des process RH F/H",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Caen/Stage---Data--IA-et-automatisation-des-process-RH-F-H_JR2026-5824",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-10T20:06:48+00:00"
+  },
+  {
+   "id": "dc76129aedd3",
+   "company": "TotalEnergies",
+   "title": "Senior Reporting and Financial Planning Analyst - Fixed-Term",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Senior-Reporting-and-Financial-Planning-Analyst-Fixed-Term/85908",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-10T20:06:26+00:00"
+  },
+  {
+   "id": "b39f9ad17fd7",
+   "company": "AXA",
+   "title": "STAGE - Business Data Analyst H/F",
+   "url": "https://careers.axa.com/jobs/27798",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-10T20:04:25+00:00"
+  },
+  {
+   "id": "8a632df58a27",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Analyste Quantitatif - Stress Tests F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-analyste-quantitatif-stress-tests-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-10T20:03:38+00:00"
+  },
+  {
+   "id": "09248e25cee3",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Analyste Risque de Crédit - Infra - Aviation F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-analyste-risque-de-credit-infra-aviation-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-10T20:03:38+00:00"
+  },
+  {
+   "id": "69a5f981bc94",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Product Owner LCNC Data F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-product-owner-lcnc-data-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-10T20:03:38+00:00"
+  },
+  {
+   "id": "3ad5fe1dab9a",
+   "company": "BPCE",
+   "title": "Stage - Data Analyste H/F",
+   "url": "https://recrutement.bpce.fr/job/stage-data-analyste-h-f",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-10T20:03:38+00:00"
+  },
+  {
+   "id": "d08a454340ae",
+   "company": "Crédit Agricole",
+   "title": "Analyste Trading Équité Structurée H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-trading-quite-structuree-hf-reference--2026-117360--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-10T20:02:24+00:00"
+  },
+  {
+   "id": "d7dc89ce0963",
+   "company": "Société Générale",
+   "title": "Analyste Conformité",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-conformite-26000NM5-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-10T20:01:54+00:00"
+  },
+  {
+   "id": "037079a60bfc",
+   "company": "Société Générale",
+   "title": "Analyste Debt Capital Markets - Obligations Durables",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-debt-capital-markets-obligations-durables-26000K4A-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-10T20:01:53+00:00"
+  },
+  {
+   "id": "d54f5127b2b7",
+   "company": "Société Générale",
+   "title": "Analyste Coverage & Investment Banking France",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-coverage-investment-banking-france-26000N2Y-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-10T20:01:51+00:00"
+  },
+  {
+   "id": "ee84062a3cf8",
+   "company": "Société Générale",
+   "title": "Analyste recherche Equity",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-recherche-equity-26000NB7-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-10T20:01:50+00:00"
+  },
+  {
+   "id": "3a82f0c24646",
+   "company": "Société Générale",
+   "title": "Analyste IA Agentique – Automatisation de stratégies de trading",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-ia-agentique-automatisation-de-strategies-de-trading-26000N87-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-10T20:01:49+00:00"
+  },
   {
    "id": "c48a4f6ac58b",
    "company": "ING",
