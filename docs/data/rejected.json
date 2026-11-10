@@ -1,6 +1,118 @@
 {
- "updated": "2026-11-09T23:08:41+00:00",
+ "updated": "2026-11-10T09:38:41+00:00",
  "items": [
+  {
+   "id": "74c1b87122bb",
+   "company": "jobup.ch",
+   "title": "SOC Analyst (m/w/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/0db94f8c-1647-432f-b14d-2cf69a0b08b0/",
+   "reason": "expérience demandée ≥ 3 ans « onstitue votre base technique. vous avez une longue experience dans un security operati »",
+   "at": "2026-11-10T09:35:54+00:00"
+  },
+  {
+   "id": "c56ce7062b9e",
+   "company": "jobup.ch",
+   "title": "Scientific AI Platform Lead, Data Science, Disease Area X",
+   "url": "https://www.jobup.ch/fr/emplois/detail/6d4ac19e-34db-4863-9363-5f10becb3735/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-10T09:35:54+00:00"
+  },
+  {
+   "id": "1c18d892fcf1",
+   "company": "jobup.ch",
+   "title": "Data Engineer (Senior) (m/w/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/0943fc30-b8e7-4184-bf19-5a61782b600f/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-10T09:35:44+00:00"
+  },
+  {
+   "id": "bdda12c4c7aa",
+   "company": "jobs.ch",
+   "title": "Agile Business Analyst / Requirements Engineer",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/68554dd2-4e99-4c8e-bb13-bfc589048428/",
+   "reason": "expérience demandée ≥ 3 ans « developpement ce que vous apportez plusieurs annees d'experience (3+ ans) en tant qu'analyste d'affaires, inge »",
+   "at": "2026-11-10T09:35:29+00:00"
+  },
+  {
+   "id": "b069d9c9e631",
+   "company": "jobs.ch",
+   "title": "Senior Data Engineer (hfd)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/aba06541-a2a9-45a6-ab0b-0ac5e4b69420/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-10T09:35:16+00:00"
+  },
+  {
+   "id": "c0dde6973c87",
+   "company": "jobs.ch",
+   "title": "(Senior) Consultant Data & Analytics",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/182a000f-66b1-4d58-8cf4-80dc9e92bfd5/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-10T09:35:11+00:00"
+  },
+  {
+   "id": "5785784dc9fd",
+   "company": "Orange",
+   "title": "AI Solutions Engineer",
+   "url": "https://orange.jobs/fr/fr/job/ERC-599913-20136094/AI-Solutions-Engineer",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « experiență în dezvoltare software, inginerie AI sau dezvoltarea de aplicații care utilizează tehnologii AI »",
+   "at": "2026-11-10T09:35:00+00:00"
+  },
+  {
+   "id": "2c14e97cb051",
+   "company": "Orange",
+   "title": "Salesforce/CRM Business Analyst",
+   "url": "https://orange.jobs/fr/fr/job/ICM-588600/Salesforce-CRM-Business-Analyst",
+   "reason": "lieu hors zones",
+   "at": "2026-11-10T09:34:57+00:00"
+  },
+  {
+   "id": "6b2f0e9a0421",
+   "company": "Orange",
+   "title": "Network Pricing Analyst",
+   "url": "https://orange.jobs/fr/fr/job/ICM-589403/Network-Pricing-Analyst",
+   "reason": "expérience demandée ≥ 5 ans « pt;\"><span style=\"font-size: 12pt;\">at least 5 years of experience in a simil »",
+   "at": "2026-11-10T09:34:57+00:00"
+  },
+  {
+   "id": "8e2b1bcb1f95",
+   "company": "TotalEnergies",
+   "title": "CDI - INGENIEUR(E) COMMERCIAL DATA CENTER",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/CDI-INGENIEUR-E-COMMERCIAL-DATA-CENTER/86063",
+   "reason": "titre exclu (data center)",
+   "at": "2026-11-10T09:34:00+00:00"
+  },
+  {
+   "id": "d0e909677541",
+   "company": "AXA",
+   "title": "Senior (Gen)AI & Data Engineer (all genders)",
+   "url": "https://careers.axa.com/jobs/26290",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-10T09:31:56+00:00"
+  },
+  {
+   "id": "afd99eb9304d",
+   "company": "AXA",
+   "title": "AI Lead - 6 month FTC",
+   "url": "https://careers.axa.com/jobs/30017",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-10T09:31:56+00:00"
+  },
+  {
+   "id": "80d4d5bc4480",
+   "company": "Crédit Agricole",
+   "title": "Stage - Accompagnement de la Transformation IA H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-191859-122-stage---accompagnement-de-la-transformation-ia-hf-reference--2026-116064--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-10T09:29:48+00:00"
+  },
+  {
+   "id": "72af9410f99d",
+   "company": "Alstom",
+   "title": "Stage de Fin d'Études (6 mois) - Data Analysis & Fiabilité RAMS",
+   "url": "https://jobsearch.alstom.com/job/Tarbes-Stage-de-Fin-d&apos;%C3%89tudes-%286-mois%29-Data-Analysis-&-Fiabilit%C3%A9-RAMS-65/1446339833/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-10T09:27:28+00:00"
+  },
   {
    "id": "679cfa5ed396",
    "company": "UBS",
