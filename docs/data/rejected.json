@@ -1,6 +1,110 @@
 {
- "updated": "2026-11-11T00:48:33+00:00",
+ "updated": "2026-11-11T12:00:35+00:00",
  "items": [
+  {
+   "id": "815b72d80d57",
+   "company": "UBS",
+   "title": "Agentic AI Specialist",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=351196",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-11T11:59:37+00:00"
+  },
+  {
+   "id": "656bcef476bd",
+   "company": "UBS",
+   "title": "Senior Data Scientist",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=346169",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-11T11:59:37+00:00"
+  },
+  {
+   "id": "d40dae2cbfa1",
+   "company": "jobup.ch",
+   "title": "Senior Data Analyst - Business & Data Quality (alle)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/089046e8-ac00-45c4-900d-e2140d304486/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-11T11:57:53+00:00"
+  },
+  {
+   "id": "800e5673a87e",
+   "company": "jobup.ch",
+   "title": "Compliance Data & Automation Engineer",
+   "url": "https://www.jobup.ch/fr/emplois/detail/2b7e14d1-c399-4cea-84ba-07d4921ff754/",
+   "reason": "expérience demandée ≥ 4 ans « enierie, informatique ou science des donnees plus de 3 ans d'experience pratique en »",
+   "at": "2026-11-11T11:57:50+00:00"
+  },
+  {
+   "id": "cd6ad74b48c9",
+   "company": "jobup.ch",
+   "title": "Data Analyst junior - confirmé - Genève",
+   "url": "https://www.jobup.ch/fr/emplois/detail/bc90b75b-6aee-457b-9eff-c8df21233490/",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-11T11:57:47+00:00"
+  },
+  {
+   "id": "5c34a60133a6",
+   "company": "jobup.ch",
+   "title": "Data engineer confirmé (h/f/x) - 100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/b8ec90a6-a08d-4e2f-8938-9e531ed150cc/",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-11T11:57:47+00:00"
+  },
+  {
+   "id": "163f7a6fd04c",
+   "company": "jobs.ch",
+   "title": "Quality Analyst (w/m/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/ee72d6dd-18f0-46b0-97b7-ac070bdd9253/",
+   "reason": "expérience demandée ≥ 3 ans « t evolutif vos competences vous possedez une experience solide en analyse de donnees, g »",
+   "at": "2026-11-11T11:57:34+00:00"
+  },
+  {
+   "id": "386fc58f5886",
+   "company": "jobs.ch",
+   "title": "Business Systems Analyst",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/cc6655fe-2161-447b-8283-a996d7d012b4/",
+   "reason": "expérience demandée ≥ 5 ans « t de l'informatique ou des affaires au moins 5 ans d'experience dans l'indu »",
+   "at": "2026-11-11T11:57:33+00:00"
+  },
+  {
+   "id": "f75bc970ad15",
+   "company": "jobs.ch",
+   "title": "Senior Data Platform Engineer (Azure & Databricks) 80-100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/6b32a24f-4c1b-4be2-a18b-aa0186197955/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-11T11:57:32+00:00"
+  },
+  {
+   "id": "b3dbfa66a9c1",
+   "company": "jobs.ch",
+   "title": "Senior Data Analyst - Business & Data Quality (alle)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/089046e8-ac00-45c4-900d-e2140d304486/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-11T11:57:29+00:00"
+  },
+  {
+   "id": "14a7738aa341",
+   "company": "AXA",
+   "title": "Chief Data Officer F/H",
+   "url": "https://careers.axa.com/jobs/26590",
+   "reason": "titre exclu (chief)",
+   "at": "2026-11-11T11:54:22+00:00"
+  },
+  {
+   "id": "186bcad772c0",
+   "company": "Alstom",
+   "title": "FP&A Analyst",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-FP&A-Analyst-KA/1456292433/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-11T11:50:18+00:00"
+  },
+  {
+   "id": "3ff91b6f12aa",
+   "company": "Alstom",
+   "title": "Ingénieur Data (F/M/X)",
+   "url": "https://jobsearch.alstom.com/job/Villeurbanne-Ing%C3%A9nieur-Data-%28FMX%29/1436783733/",
+   "reason": "expérience demandée ≥ 4 ans « communication et en collaboration. au moins 4 ans d'experience en ingenier »",
+   "at": "2026-11-11T11:50:16+00:00"
+  },
   {
    "id": "681922f64d6d",
    "company": "jobs.ch",
