@@ -1,6 +1,158 @@
 {
- "updated": "2026-11-11T12:00:35+00:00",
+ "updated": "2026-11-11T19:43:31+00:00",
  "items": [
+  {
+   "id": "897055a7d3ed",
+   "company": "ING",
+   "title": "Senior Credit Risk Portfolio Analyst",
+   "url": "https://careers.ing.com/en/job/madrid/senior-credit-risk-portfolio-analyst/3121/44845992064",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-11T19:43:11+00:00"
+  },
+  {
+   "id": "a25baa2c25fd",
+   "company": "ING",
+   "title": "Data & AI adoption Intern",
+   "url": "https://careers.ing.com/en/job/amsterdam/data-and-ai-adoption-intern/3121/46824250816",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-11T19:43:11+00:00"
+  },
+  {
+   "id": "8f5c06ec3667",
+   "company": "UBS",
+   "title": "Forward-Deployed AI Engineer",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=353201",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-11T19:42:31+00:00"
+  },
+  {
+   "id": "4959d2a942c6",
+   "company": "jobup.ch",
+   "title": "Market Risk Analyst - Commodity Trading House",
+   "url": "https://www.jobup.ch/fr/emplois/detail/14c827e3-41f6-40f9-8d7b-21d3b5208266/",
+   "reason": "expérience demandée ≥ 3 ans « atique de python et sql , de preference avec plus de 2 ans d'experience pratique en »",
+   "at": "2026-11-11T19:40:43+00:00"
+  },
+  {
+   "id": "45c359fe0600",
+   "company": "jobup.ch",
+   "title": "Managing Director Assistant & Business Analyst (80%) H/F",
+   "url": "https://www.jobup.ch/fr/emplois/detail/30d677e8-bbd0-49ba-9a65-0b6332f72db2/",
+   "reason": "titre exclu (director)",
+   "at": "2026-11-11T19:40:43+00:00"
+  },
+  {
+   "id": "f13e881947c7",
+   "company": "jobs.ch",
+   "title": "Equity Analyst/in Schweizer Aktien (100%)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/60c67166-41c0-4d7a-88e2-c00a9335fa99/",
+   "reason": "expérience demandée ≥ 3 ans « rante de l'allemand et de l'anglais au moins 3 a 8 ans d'experience professionn »",
+   "at": "2026-11-11T19:40:22+00:00"
+  },
+  {
+   "id": "0b8e33d6e1a6",
+   "company": "jobs.ch",
+   "title": "Erfahrene:r Business Analyst 80-100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/0d0dd1f3-1f7f-4f72-81b5-3a2316c1471f/",
+   "reason": "expérience demandée ≥ 3 ans « eprise, informatique de gestion ou similaire experience solide en tant qu'analyste d'af »",
+   "at": "2026-11-11T19:40:21+00:00"
+  },
+  {
+   "id": "17aad204e16d",
+   "company": "jobs.ch",
+   "title": "Business Systems Analyst",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/08ffb153-ec1b-4276-b0f2-5fece1e37d91/",
+   "reason": "expérience demandée ≥ 5 ans « n diplome de licence et disposant d'au moins 5 ans d'experience dans des en »",
+   "at": "2026-11-11T19:40:19+00:00"
+  },
+  {
+   "id": "b967926750ec",
+   "company": "jobs.ch",
+   "title": "Compliance Data & Automation Engineer",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/2b7e14d1-c399-4cea-84ba-07d4921ff754/",
+   "reason": "expérience demandée ≥ 4 ans « enierie, informatique ou science des donnees plus de 3 ans d'experience pratique en »",
+   "at": "2026-11-11T19:40:18+00:00"
+  },
+  {
+   "id": "c0444751ca69",
+   "company": "jobs.ch",
+   "title": "Data Engineer (w/m/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/20abaf0e-ccab-40db-a7fe-3bdbd4c7f744/",
+   "reason": "expérience demandée ≥ 3 ans « science ou une qualification equivalente une experience approfondie avec les services gcp te »",
+   "at": "2026-11-11T19:40:13+00:00"
+  },
+  {
+   "id": "0e7fc99be2e6",
+   "company": "jobs.ch",
+   "title": "Data Analyst junior - confirmé - Genève",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/19acd612-2db6-44f6-a1da-7f1dd6509407/",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-11T19:40:13+00:00"
+  },
+  {
+   "id": "c335eb8d9654",
+   "company": "jobs.ch",
+   "title": "Group Senior Manager Data & AI",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/613bbc1f-7e16-4bc1-a49e-1b3b9ab41a4d/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-11T19:40:13+00:00"
+  },
+  {
+   "id": "69a2a6325500",
+   "company": "Orange",
+   "title": "Cyber Security Analyst",
+   "url": "https://orange.jobs/fr/fr/job/ICM-589203/Cyber-Security-Analyst",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-11T19:40:01+00:00"
+  },
+  {
+   "id": "e098348a73d5",
+   "company": "TotalEnergies",
+   "title": "Operational Risk Analyst (Contract)",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Operational-Risk-Analyst-Contract/86142",
+   "reason": "lieu hors zones",
+   "at": "2026-11-11T19:39:05+00:00"
+  },
+  {
+   "id": "5a9abf336588",
+   "company": "TotalEnergies",
+   "title": "Reporting Analyst: Power & Cost Efficiency – Intern",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Reporting-Analyst-Power-Cost-Efficiency-Intern/86012",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-11T19:39:05+00:00"
+  },
+  {
+   "id": "4f61c0a60fd9",
+   "company": "AXA",
+   "title": "Credit Control Analyst",
+   "url": "https://careers.axa.com/jobs/30538",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-11T19:36:59+00:00"
+  },
+  {
+   "id": "c47cbd974fcb",
+   "company": "SNCF",
+   "title": "Aiguilleur du rail (F/H) - CDI - MEAUX",
+   "url": "https://emploi.sncf.com/nos-offres/888188",
+   "reason": "expérience demandée ≥ 6 ans « ux, seine et marne (77) cdi de 3 a 5 ans, de 6 a 10 ans, moins de 3 ans, debutan »",
+   "at": "2026-11-11T19:32:30+00:00"
+  },
+  {
+   "id": "660f9617e958",
+   "company": "SNCF",
+   "title": "Aiguilleur du rail (F/H) - CDI - VIGNEUX",
+   "url": "https://emploi.sncf.com/nos-offres/887512",
+   "reason": "expérience demandée ≥ 6 ans « sur-seine, essonne (91) cdi de 3 a 5 ans, de 6 a 10 ans, moins de 3 ans, debutan »",
+   "at": "2026-11-11T19:32:28+00:00"
+  },
+  {
+   "id": "96b1e60da9aa",
+   "company": "SNCF",
+   "title": "Aiguilleur du rail (F/H) - CDI - MELUN",
+   "url": "https://emploi.sncf.com/nos-offres/887511",
+   "reason": "expérience demandée ≥ 6 ans « un, seine et marne (77) cdi de 3 a 5 ans, de 6 a 10 ans, moins de 3 ans, debutan »",
+   "at": "2026-11-11T19:32:27+00:00"
+  },
   {
    "id": "815b72d80d57",
    "company": "UBS",
