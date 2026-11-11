@@ -1,6 +1,62 @@
 {
- "updated": "2026-11-10T20:10:30+00:00",
+ "updated": "2026-11-11T00:48:33+00:00",
  "items": [
+  {
+   "id": "681922f64d6d",
+   "company": "jobs.ch",
+   "title": "Senior System Engineer/Architect (Fokus OneIdentity und IAM-Gesamtarchitektur) 80-100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/74b73859-f501-4f35-9ed5-2ca432554f61/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-11T00:45:34+00:00"
+  },
+  {
+   "id": "57ddcb4148cb",
+   "company": "jobs.ch",
+   "title": "IAM System Engineer - One Identity Manager 80-100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/90bfadd3-a010-46cc-b131-db925f238456/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-11T00:45:34+00:00"
+  },
+  {
+   "id": "43f5116c9be4",
+   "company": "jobs.ch",
+   "title": "IT Bereichsleiter EDI & DataIntegration (m/w/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/b68239b1-9fbd-4eff-aa80-1014e7434012/",
+   "reason": "expérience demandée ≥ 3 ans « tue votre base professionnelle vous apportez plusieurs annees d'experience professionnelle en gesti »",
+   "at": "2026-11-11T00:45:31+00:00"
+  },
+  {
+   "id": "bdd157e12a6b",
+   "company": "Orange",
+   "title": "Data Analyst Consultant",
+   "url": "https://orange.jobs/fr/fr/job/TOB-8447986/Data-Analyst-Consultant",
+   "reason": "lieu hors zones",
+   "at": "2026-11-11T00:45:18+00:00"
+  },
+  {
+   "id": "25857022263f",
+   "company": "BPCE",
+   "title": "Stage - Analyste Fusions-Acquisitions F/H - OTOKTONE - Nantes (44)",
+   "url": "https://recrutement.bpce.fr/job/stage-analyste-fusions-acquisitions-f-h-otoktone-nantes-44",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-11T00:41:42+00:00"
+  },
+  {
+   "id": "242f4bad6735",
+   "company": "Crédit Agricole",
+   "title": "Contrôleur de gestion - Data Analyst H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170464-3-controleur-de-gestion---data-analyst-hf-reference--2026-114572--/",
+   "reason": "expérience demandée ≥ 6 ans « s avez des competences en gestion de projet. niveau d'experience minimum 6 - 10 ans competences recherchees vo »",
+   "at": "2026-11-11T00:40:26+00:00"
+  },
+  {
+   "id": "17693de862f6",
+   "company": "Société Générale",
+   "title": "Senior Credit Analyst - Corporates",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/senior-credit-analyst-corporates-2600028G-fr",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-11T00:39:58+00:00"
+  },
   {
    "id": "6cead9ee1567",
    "company": "ING",

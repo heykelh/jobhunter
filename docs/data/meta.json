@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T20:10:30+00:00",
+ "updated": "2026-11-11T00:48:33+00:00",
  "keywords": [
   "data",
   "analyst",
@@ -47,10 +47,11 @@
   "GulfTalent (Oman)"
  ],
  "ai": {
-  "ok": 6,
-  "errors": 0,
+  "ok": 2,
+  "errors": 6,
   "last_error": "",
   "model": "openai/gpt-oss-120b",
-  "at": "2026-11-10T20:10:30+00:00"
+  "waits": 1,
+  "at": "2026-11-11T00:48:33+00:00"
  }
 }
