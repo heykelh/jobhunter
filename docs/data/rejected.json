@@ -1,6 +1,134 @@
 {
- "updated": "2026-11-12T01:51:58+00:00",
+ "updated": "2026-11-12T10:28:36+00:00",
  "items": [
+  {
+   "id": "e52b5339e9a4",
+   "company": "UBS",
+   "title": "AI Algo Quant Developer",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=352341",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-12T10:27:41+00:00"
+  },
+  {
+   "id": "5d3681ed8834",
+   "company": "jobup.ch",
+   "title": "AI Software Engineer (w/m/d) 80-100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/37e4fb53-6c12-4d42-ae0e-eb961171c577/",
+   "reason": "expérience demandée ≥ 5 ans « uire les problemes en solutions. competences 5 ans d'experience en ingenier »",
+   "at": "2026-11-12T10:25:57+00:00"
+  },
+  {
+   "id": "7e0b9f2f7431",
+   "company": "jobup.ch",
+   "title": "Data & AI (Senior) Manager - Financial Services (all genders)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/be4f66c5-652a-4e0f-994a-93a79a3656f6/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-12T10:25:57+00:00"
+  },
+  {
+   "id": "db231350d042",
+   "company": "jobup.ch",
+   "title": "Platform Engineer AI (w/m/d) 80-100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/8f3d1741-fcf0-4248-a1bb-c2de2cf05b71/",
+   "reason": "expérience demandée ≥ 3 ans « n solutions productives vos points forts une experience de plusieurs annees dans le digital workplac »",
+   "at": "2026-11-12T10:25:56+00:00"
+  },
+  {
+   "id": "95e0604b1b72",
+   "company": "jobup.ch",
+   "title": "IT Business Analyst (m/w/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/54874e72-7fd8-4e56-932b-90202c70cb77/",
+   "reason": "expérience demandée ≥ 3 ans « ique (economique) (eth/uni/fh) ou equivalent plusieurs annees d'experience en tant qu' analyste d'a »",
+   "at": "2026-11-12T10:25:54+00:00"
+  },
+  {
+   "id": "338648b7a79a",
+   "company": "jobup.ch",
+   "title": "Business Systems Analyst (m/f/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/ef3ffb98-f59f-4994-b706-26923ea63802/",
+   "reason": "expérience demandée ≥ 5 ans « t de l'informatique ou des affaires au moins 5 ans d'experience dans l'indu »",
+   "at": "2026-11-12T10:25:53+00:00"
+  },
+  {
+   "id": "c3ccd162a61e",
+   "company": "jobup.ch",
+   "title": "Group Senior Manager Data & AI",
+   "url": "https://www.jobup.ch/fr/emplois/detail/c573ca7c-5814-4866-b7e1-bb6f6060bd53/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-12T10:25:40+00:00"
+  },
+  {
+   "id": "31e1cd649b71",
+   "company": "jobup.ch",
+   "title": "Senior Database Administrator (f/m/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/2cdf9368-eed0-49aa-97f5-e31f68f6806f/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-12T10:25:37+00:00"
+  },
+  {
+   "id": "202815880012",
+   "company": "jobs.ch",
+   "title": "AI Software Engineer (w/m/d) 80-100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/574c91da-f100-4e74-a5f2-5b118be91507/",
+   "reason": "expérience demandée ≥ 5 ans « es vivez votre potentiel vos forces au moins 5 ans d'experience professionn »",
+   "at": "2026-11-12T10:25:17+00:00"
+  },
+  {
+   "id": "524ced8f4237",
+   "company": "jobs.ch",
+   "title": "Platform Engineer AI (w/m/d) 80-100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/546a49e2-b406-4c1f-8616-432ae4b47bf1/",
+   "reason": "expérience demandée ≥ 3 ans « es vivre les potentiels tes points forts une experience de plusieurs annees dans le digital workplac »",
+   "at": "2026-11-12T10:25:15+00:00"
+  },
+  {
+   "id": "94a333b59aa3",
+   "company": "jobs.ch",
+   "title": "Fachspezialist als Business Analyst",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/f376233e-7b40-4c14-bceb-1ee96ada7436/",
+   "reason": "expérience demandée ≥ 3 ans « informatik und/oder betriebswirtschaft sowie mehrjahriger berufserfahrungen im di »",
+   "at": "2026-11-12T10:25:09+00:00"
+  },
+  {
+   "id": "40cc3aac28aa",
+   "company": "jobs.ch",
+   "title": "Database Engineer (w/m)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/41efd53c-d9c3-4a3c-9bd3-43dcf59706c4/",
+   "reason": "expérience demandée ≥ 3 ans « elor (haute ecole specialisee ou universite) experience approfondie en gestion de bases de d »",
+   "at": "2026-11-12T10:25:06+00:00"
+  },
+  {
+   "id": "a68c88c1d572",
+   "company": "TotalEnergies",
+   "title": "Business Development Analyst",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Business-Development-Analyst/86092",
+   "reason": "lieu hors zones",
+   "at": "2026-11-12T10:23:58+00:00"
+  },
+  {
+   "id": "eb1dccc66861",
+   "company": "AXA",
+   "title": "Head of AI Security",
+   "url": "https://careers.axa.com/jobs/30530",
+   "reason": "titre exclu (head)",
+   "at": "2026-11-12T10:21:32+00:00"
+  },
+  {
+   "id": "edcdc6cbc766",
+   "company": "Alstom",
+   "title": "Senior FP&A Analyst",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Senior-FP&A-Analyst-KA/1456668033/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-12T10:17:30+00:00"
+  },
+  {
+   "id": "a1d3b9f126b5",
+   "company": "Alstom",
+   "title": "Senior Business Data Analyst",
+   "url": "https://jobsearch.alstom.com/job/Cluj-Napoca-Senior-Business-Data-Analyst-CJ/1456721433/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-12T10:17:30+00:00"
+  },
   {
    "id": "7c7b941fbe3b",
    "company": "TotalEnergies",

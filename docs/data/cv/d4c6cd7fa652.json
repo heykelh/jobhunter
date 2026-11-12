@@ -1,0 +1,178 @@
+{
+ "titre": "Sales Analyst Produits Structurés : Candidature",
+ "profil": "Professionnel avec 13 ans d’expérience opérationnelle dans un environnement à forts enjeux de sécurité, titulaire d’un Master Data Engineer/Data Product Manager (Bac+5) de Mines Paris. Expérience confirmée en analyse de données, automatisation d’outils de suivi et production de rapports, avec une forte capacité à travailler en équipe pluridisciplinaire. Rigoureux, dynamique et à l’aise en anglais, je maîtrise les outils bureautiques requis.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Excel",
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Assistance à la commercialisation en simulant une inspection de la chaîne de données du risque de crédit, incluant cadrage et débriefing.",
+    "Développement de contrôles qualité en SQL, scoring de risque et production de rapports, comparable au pricing et à la rédaction de term‑sheets."
+   ]
+  },
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Analyse fonctionnelle du système de crédit, de la collecte des besoins à la recette, en soutien aux équipes de vente.",
+    "Livraison de cartographies de processus et spécifications, facilitant le suivi des produits et la coordination avec le middle office."
+   ]
+  },
+  {
+   "id": "palier",
+   "titre": "PALIER : tarification et yield management TGV",
+   "stack": "Python, DuckDB, Power BI, Next.js, GitHub Actions",
+   "lien": "palier-sncf.vercel.app",
+   "tags": [
+    "pricing",
+    "prix",
+    "tarif",
+    "tarification",
+    "revenue",
+    "yield",
+    "élasticité",
+    "demande",
+    "transport",
+    "ferroviaire",
+    "voyageurs",
+    "sncf",
+    "commercial",
+    "offre"
+   ],
+   "puces": [
+    "Étude de l’élasticité tarifaire TGV, appliquant des méthodes de pricing analogues aux produits structurés.",
+    "Mise en place d’un module d’allocation automatisé, démontrant la capacité à automatiser les outils de suivi d’activité."
+   ]
+  },
+  {
+   "id": "frontierbank",
+   "titre": "FrontierBank : gouvernance des données d'une banque fictive",
+   "stack": "BCBS 239, DAMA-DMBOK, AI Act, Power BI",
+   "lien": "frontierbank-data.vercel.app",
+   "tags": [
+    "gouvernance",
+    "governance",
+    "steward",
+    "qualité",
+    "quality",
+    "bcbs",
+    "dama",
+    "lignage",
+    "lineage",
+    "banque",
+    "bancaire",
+    "risque",
+    "réglementaire",
+    "conformité",
+    "raci",
+    "référentiel",
+    "métadonnées"
+   ],
+   "puces": [
+    "Conseil en gouvernance des données pour une banque fictive, incluant diagnostic BCBS 239 et matrice RACI, en lien avec les exigences de conformité.",
+    "Création de tableaux de bord Power BI pour le suivi de la qualité des données, illustrant la production de reporting pour les équipes de trading et de back‑office."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "d4c6cd7fa652",
+ "entreprise": "Société Générale",
+ "intitule_offre": "Sales Analyst Produits Structurés",
+ "url_offre": "https://careers.societegenerale.com/offres-d-emploi/sales-analyst-produits-structures-26000GEG-fr",
+ "genere_le": "2026-11-12T10:19:05+00:00"
+}

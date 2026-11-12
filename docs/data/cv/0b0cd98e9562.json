@@ -1,0 +1,179 @@
+{
+ "titre": "AI & ML Engineer",
+ "profil": "Ingénieur data avec 13 ans d’expérience au sein du groupe SNCF, spécialisé dans les environnements critiques et la sécurité des données. Titulaire d’un Master Data Engineer / Data Product Manager (Mines Paris : PSL). A mené plus de 15 projets data incluant conception, déploiement et gouvernance, avec une montée continue en analyse et machine learning.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "SQL",
+    "Excel",
+    "Python (pandas)",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "RAG",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Conception d’une mission d’inspection data sur la chaîne de risque de crédit, incluant cadrage, investigations et restitution.",
+    "Développement d’un moteur de contrôles qualité SQL pour scoring de risque et génération de rapports."
+   ]
+  },
+  {
+   "id": "frontierbank",
+   "titre": "FrontierBank : gouvernance des données d'une banque fictive",
+   "stack": "BCBS 239, DAMA-DMBOK, AI Act, Power BI",
+   "lien": "frontierbank-data.vercel.app",
+   "tags": [
+    "gouvernance",
+    "governance",
+    "steward",
+    "qualité",
+    "quality",
+    "bcbs",
+    "dama",
+    "lignage",
+    "lineage",
+    "banque",
+    "bancaire",
+    "risque",
+    "réglementaire",
+    "conformité",
+    "raci",
+    "référentiel",
+    "métadonnées"
+   ],
+   "puces": [
+    "Conduite d’une mission de gouvernance des données bancaires, avec diagnostic BCBS 239, cadre DAMA‑DMBOK, lignage et matrice RACI.",
+    "Création de tableaux de bord Power BI pour suivre la qualité des données et cartographier les usages au regard de l’AI Act."
+   ]
+  },
+  {
+   "id": "prisme",
+   "titre": "PRISME : copilote d'audit AI Act",
+   "stack": "Python, FastAPI, RAG, Supabase (pgvector), Groq",
+   "lien": "",
+   "tags": [
+    "ai act",
+    "audit",
+    "conformité",
+    "ia",
+    "intelligence artificielle",
+    "rag",
+    "llm",
+    "réglementaire",
+    "api"
+   ],
+   "puces": [
+    "Développement d’une API d’audit AI Act intégrant recherche RAG et grille de qualification des systèmes d’IA.",
+    "Mise en place d’un backend FastAPI avec base vectorielle pgvector, déployé sur Render."
+   ]
+  },
+  {
+   "id": "pokewatch",
+   "titre": "PokéWatch : surveillance de marché et détection d'anomalies de prix",
+   "stack": "PostgreSQL, Supabase, SQL, GitHub Actions, Next.js",
+   "lien": "pokewatch-three.vercel.app",
+   "tags": [
+    "surveillance",
+    "monitoring",
+    "anomalie",
+    "anomalies",
+    "fraude",
+    "prix",
+    "marché",
+    "pipeline",
+    "automatisation",
+    "alerte",
+    "data engineer",
+    "ingestion",
+    "sql"
+   ],
+   "puces": [
+    "Construction d’un pipeline de collecte de prix (Cardmarket, eBay) automatisé via GitHub Actions avec alertes en temps réel.",
+    "Implémentation de règles SQL de détection d’anomalies et tableau de bord Next.js pour le suivi du marché."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "databricks",
+  "azure",
+  "modélisation",
+  "allemand",
+  "tensorflow",
+  "pytorch"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "0b0cd98e9562",
+ "entreprise": "Luzerner Kantonalbank",
+ "intitule_offre": "AI & ML Engineer (w/m/d)",
+ "url_offre": "https://www.jobs.ch/fr/offres-emplois/detail/6473f0a1-7d88-4bc6-97c7-5c7f2001669b/",
+ "genere_le": "2026-11-12T10:25:15+00:00"
+}
