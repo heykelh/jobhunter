@@ -1,6 +1,30 @@
 {
- "updated": "2026-11-11T19:43:31+00:00",
+ "updated": "2026-11-12T01:51:58+00:00",
  "items": [
+  {
+   "id": "7c7b941fbe3b",
+   "company": "TotalEnergies",
+   "title": "Operational Risk Analyst",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Operational-Risk-Analyst/86145",
+   "reason": "lieu hors zones",
+   "at": "2026-11-12T01:47:14+00:00"
+  },
+  {
+   "id": "43f0004c3951",
+   "company": "AXA",
+   "title": "Test Lead Expert IA (H/F)",
+   "url": "https://careers.axa.com/jobs/34654",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-12T01:45:09+00:00"
+  },
+  {
+   "id": "faf702af68f7",
+   "company": "Crédit Agricole",
+   "title": "Senior Market Risk Analyst H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170470-127-senior-market-risk-analyst-hf-reference--2026-114962--/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-12T01:43:04+00:00"
+  },
   {
    "id": "897055a7d3ed",
    "company": "ING",
