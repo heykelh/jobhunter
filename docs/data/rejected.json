@@ -1,6 +1,238 @@
 {
- "updated": "2026-11-12T12:46:28+00:00",
+ "updated": "2026-11-12T20:38:36+00:00",
  "items": [
+  {
+   "id": "81b729c84144",
+   "company": "ING",
+   "title": "Senior Data Platform Engineer",
+   "url": "https://careers.ing.com/en/job/warsaw/senior-data-platform-engineer/3121/46286546560",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-12T20:38:15+00:00"
+  },
+  {
+   "id": "138ebdb74403",
+   "company": "ING",
+   "title": "Senior AI Engineer",
+   "url": "https://careers.ing.com/en/job/madrid/senior-ai-engineer/3121/46847880320",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-12T20:38:15+00:00"
+  },
+  {
+   "id": "ddaac9efbd2a",
+   "company": "ING",
+   "title": "Junior AI Engineer",
+   "url": "https://careers.ing.com/en/job/madrid/junior-ai-engineer/3121/46847880448",
+   "reason": "lieu hors zones",
+   "at": "2026-11-12T20:38:15+00:00"
+  },
+  {
+   "id": "d3c98e656c30",
+   "company": "jobup.ch",
+   "title": "Senior Business Analyst - Value Stream Anlegen",
+   "url": "https://www.jobup.ch/fr/emplois/detail/d99cd5b1-4483-4c16-9363-ba8452e0f6b3/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-12T20:35:46+00:00"
+  },
+  {
+   "id": "2ff2802821aa",
+   "company": "jobup.ch",
+   "title": "Business Analyst Intern",
+   "url": "https://www.jobup.ch/fr/emplois/detail/67ba6c0d-6f13-47cd-9e51-d5037f725846/",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-12T20:35:33+00:00"
+  },
+  {
+   "id": "90a916dcac11",
+   "company": "jobs.ch",
+   "title": "Business System Analyst (100%)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/5bd0d59d-e685-48a0-88df-875b5adb71dc/",
+   "reason": "expérience demandée ≥ 5 ans « de bachelor pertinent et justifie d'au moins 5 ans d'experience dans l'indu »",
+   "at": "2026-11-12T20:35:00+00:00"
+  },
+  {
+   "id": "d91935892137",
+   "company": "jobs.ch",
+   "title": "Business Analyst Intern",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/67ba6c0d-6f13-47cd-9e51-d5037f725846/",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-12T20:35:00+00:00"
+  },
+  {
+   "id": "601727017273",
+   "company": "jobs.ch",
+   "title": "Client Data Services Officer 100% ( w/m/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/1b11a584-0d2e-463b-aa00-5bb3b93cd0da/",
+   "reason": "expérience demandée ≥ 3 ans « chtenstein, nous vous convainquons par notre longue experience dans la gestion de grand »",
+   "at": "2026-11-12T20:34:56+00:00"
+  },
+  {
+   "id": "2f9ba7f20caa",
+   "company": "TotalEnergies",
+   "title": "Geoscientist - Safer wells through better data",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Geoscientist-Safer-wells-through-better-data/86201",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-12T20:33:43+00:00"
+  },
+  {
+   "id": "ac53652f663d",
+   "company": "TotalEnergies",
+   "title": "Quantitative Market Analyst - EU Power",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Quantitative-Market-Analyst-EU-Power/86206",
+   "reason": "expérience demandée ≥ 3 ans « gie, business & economie type de contrat cdi experience minimum 3 ans contexte et environnement totalenergies  »",
+   "at": "2026-11-12T20:33:41+00:00"
+  },
+  {
+   "id": "d197da4004e4",
+   "company": "AXA",
+   "title": "INTERNSHIP - Network Engineer Analyst",
+   "url": "https://careers.axa.com/jobs/30442",
+   "reason": "titre exclu (internship)",
+   "at": "2026-11-12T20:31:36+00:00"
+  },
+  {
+   "id": "505dbe3ea187",
+   "company": "AXA",
+   "title": "Data Scientist (F/H) - stage",
+   "url": "https://careers.axa.com/jobs/37388",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-12T20:31:36+00:00"
+  },
+  {
+   "id": "264cf23c80f9",
+   "company": "AXA",
+   "title": "Test Analyst – Motor & Home",
+   "url": "https://careers.axa.com/jobs/28613",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-12T20:31:36+00:00"
+  },
+  {
+   "id": "9b9c543936b3",
+   "company": "BPCE",
+   "title": "Responsable Middle Office Référentiel & Market Data Instruments Listés (F/H)",
+   "url": "https://recrutement.bpce.fr/job/responsable-middle-office-referentiel-market-data-instruments-listes-f-h",
+   "reason": "expérience demandée ≥ 10 ans « ur travailler avec nous ! vous avez au moins 10 ans d'experience en middle o »",
+   "at": "2026-11-12T20:30:49+00:00"
+  },
+  {
+   "id": "f9a6bb1744d1",
+   "company": "Crédit Agricole",
+   "title": "Business Analyst Monétique Commerçants H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170477-3-business-analyst-monetique-commercants--hf-reference--2026-109270--/",
+   "reason": "expérience demandée ≥ 11 ans « sur la monetique et la gestion des releases. niveau d'experience minimum 11 ans et plus competences recherchee »",
+   "at": "2026-11-12T20:29:25+00:00"
+  },
+  {
+   "id": "ec7ad2372875",
+   "company": "Crédit Agricole",
+   "title": "Data Scientist IA – Développeur Machine Learning H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170477-3-data-scientist-ia--developpeur-machine-learning-hf-reference--2025-101436--/",
+   "reason": "expérience demandée ≥ 6 ans « s le domaine de l'intelligence artificielle. niveau d'experience minimum 6 - 10 ans competences recherchees co »",
+   "at": "2026-11-12T20:29:24+00:00"
+  },
+  {
+   "id": "8f30856decf2",
+   "company": "Crédit Agricole",
+   "title": "AI Engineer H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170477-3-ai-engineer--hf-reference--2026-110520--/",
+   "reason": "expérience demandée ≥ 6 ans « 3 a 5 ans de mise en production de modele ia niveau d'experience minimum 6 - 10 ans competences recherchees se »",
+   "at": "2026-11-12T20:29:22+00:00"
+  },
+  {
+   "id": "7b9fc4b9d6a3",
+   "company": "Crédit Agricole",
+   "title": "STAGE - Data Analyst H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170473-3-stage---data-analyst-hf-reference--2026-117420--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-12T20:29:21+00:00"
+  },
+  {
+   "id": "ff542a66e455",
+   "company": "Crédit Agricole",
+   "title": "Stage - Financial Controller and analyst Trading H/F H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170463-124-stage---financial-controller-and-analyst-trading-hf-hf-reference--2026-117409--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-12T20:29:21+00:00"
+  },
+  {
+   "id": "df68e65922b6",
+   "company": "Crédit Agricole",
+   "title": "Stage - Analyste stagiaire – Capital Naturel H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-124-stage---analyste-stagiaire--capital-naturel-hf-reference--2026-117405--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-12T20:29:21+00:00"
+  },
+  {
+   "id": "a689cead7dc2",
+   "company": "Crédit Agricole",
+   "title": "Lead AI Engineer H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170477-3-lead-ai-engineer-hf-reference--2026-110978--/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-12T20:29:21+00:00"
+  },
+  {
+   "id": "f29c19923a7e",
+   "company": "Société Générale",
+   "title": "AI Engineer",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/ai-engineer-26000L1P-fr",
+   "reason": "expérience demandée ≥ 3 ans « ur, parcours data sciencevous disposez d'une experience significative en developpement logicie »",
+   "at": "2026-11-12T20:28:52+00:00"
+  },
+  {
+   "id": "7d7653cf64e9",
+   "company": "Société Générale",
+   "title": "Analyste quantitatif risques de marché - périmètre fixed income",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-quantitatif-risques-de-marche-perimetre-fixed-income-26000NHR-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-12T20:28:51+00:00"
+  },
+  {
+   "id": "c4e5819bd6bb",
+   "company": "Alstom",
+   "title": "HR Data Analyst (H/F) - CDD",
+   "url": "https://jobsearch.alstom.com/job/Saint-Ouen-HR-Data-Analyst-%28HF%29-CDD-J/1456989033/",
+   "reason": "stage / alternance « ion, and organisational needs this internship offers international exposure »",
+   "at": "2026-11-12T20:27:14+00:00"
+  },
+  {
+   "id": "eaec1cd865d8",
+   "company": "Alstom",
+   "title": "Stage - HR Data Analyst (H/F)",
+   "url": "https://jobsearch.alstom.com/job/Saint-Ouen-Stage-HR-Data-Analyst-%28HF%29-J/1456989133/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-12T20:27:12+00:00"
+  },
+  {
+   "id": "f19c1a4dff46",
+   "company": "RATP Dev",
+   "title": "Transit Driver (CDL must have Passenger Endorsement & Airbrakes)",
+   "url": "https://careers.ratpdevusa.com/fr/annonce/4690657-transit-driver-cdl-must-have-passenger-endorsement-airbrakes-34601-brooksville",
+   "reason": "lieu hors zones",
+   "at": "2026-11-12T20:27:02+00:00"
+  },
+  {
+   "id": "db58ff7e6b32",
+   "company": "SNCF",
+   "title": "Aiguilleur du rail (F/H) - CDI - METZ",
+   "url": "https://emploi.sncf.com/nos-offres/882767",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-12T20:26:47+00:00"
+  },
+  {
+   "id": "3d4d0b29e430",
+   "company": "SNCF",
+   "title": "Aiguilleur du rail (F/H) - CDI - Bourg en Bresse",
+   "url": "https://emploi.sncf.com/nos-offres/863636",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-12T20:26:46+00:00"
+  },
+  {
+   "id": "c06b72cd052d",
+   "company": "Air France",
+   "title": "Data Analyst Commercial - Digital Product F/H",
+   "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25773&idOrigine=502&offerReference=2026-25773",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-12T20:26:44+00:00"
+  },
   {
    "id": "3b82d0b8a270",
    "company": "SIX Group",
