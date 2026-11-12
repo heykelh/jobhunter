@@ -1,0 +1,178 @@
+{
+ "titre": "Business Analyst Assurance : Capgemini",
+ "profil": "Business Analyst avec 13 ans d’expérience au sein du Groupe SNCF, spécialisé dans des environnements critiques. Expertise reconnue en cadrage, expression des besoins et conduite d’ateliers fonctionnels. Expérience avérée dans la rédaction de spécifications, le pilotage de tests et l’accompagnement au changement.",
+ "competences": [
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio",
+    "Excel"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Cadrage du besoin et rédaction des spécifications fonctionnelles pour un système de crédit, incluant recouvrement amiable et contentieux.",
+    "Conduite de la recette et production de livrables : cartographie des processus, plan de tests et documentation en ligne."
+   ]
+  },
+  {
+   "id": "customer-experience",
+   "titre": "Customer Experience Intelligence : analyse et dataviz",
+   "stack": "Python, Power BI",
+   "lien": "github.com/heykelh/customer-experience-intelligence",
+   "tags": [
+    "client",
+    "clients",
+    "expérience client",
+    "marketing",
+    "kpi",
+    "dashboard",
+    "tableau de bord",
+    "power bi",
+    "reporting",
+    "analyse",
+    "satisfaction",
+    "parcours"
+   ],
+   "puces": [
+    "Analyse exploratoire des données clients pour identifier insights, tendances et anomalies impactant la performance métier.",
+    "Création de tableaux de bord interactifs Power BI et indicateurs de pilotage à destination des décideurs."
+   ]
+  },
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Cadrage et investigations sur la chaîne de données du risque de crédit, incluant simulation d’une mission d’inspection.",
+    "Développement de contrôles qualité SQL, scoring de risque et restitution d’un rapport d’inspection."
+   ]
+  },
+  {
+   "id": "frontierbank",
+   "titre": "FrontierBank : gouvernance des données d'une banque fictive",
+   "stack": "BCBS 239, DAMA-DMBOK, AI Act, Power BI",
+   "lien": "frontierbank-data.vercel.app",
+   "tags": [
+    "gouvernance",
+    "governance",
+    "steward",
+    "qualité",
+    "quality",
+    "bcbs",
+    "dama",
+    "lignage",
+    "lineage",
+    "banque",
+    "bancaire",
+    "risque",
+    "réglementaire",
+    "conformité",
+    "raci",
+    "référentiel",
+    "métadonnées"
+   ],
+   "puces": [
+    "Diagnostic de gouvernance des données selon BCBS 239 et cadre DAMA‑DMBOK, avec définition de lignage et matrice RACI.",
+    "Mise en place de tableaux de bord Power BI pour le suivi de la qualité des données et la conformité à l’AI Act."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "agile"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "57ab1b19abf8",
+ "entreprise": "Capgemini",
+ "intitule_offre": "Business Analyst Assurance H/F Capgemini",
+ "url_offre": "https://www.hellowork.com/fr-fr/emplois/85424132.html",
+ "genere_le": "2026-11-12T10:17:48+00:00"
+}
