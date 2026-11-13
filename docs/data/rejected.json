@@ -1,6 +1,118 @@
 {
- "updated": "2026-11-13T01:38:26+00:00",
+ "updated": "2026-11-13T12:17:30+00:00",
  "items": [
+  {
+   "id": "57be6fc28fcc",
+   "company": "jobup.ch",
+   "title": "Consultant Lead - Software & Quality Engineering (AI-Powered) - AI-SDLC",
+   "url": "https://www.jobup.ch/fr/emplois/detail/48757263-d239-4c93-80f9-ce91e064d55c/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-13T12:14:59+00:00"
+  },
+  {
+   "id": "cdeca92ec50a",
+   "company": "jobup.ch",
+   "title": "Scientist in AI-Driven Power Electronics (f/m/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/94e2da38-11dc-46d3-9b35-06572e34a93f/",
+   "reason": "expérience demandée ≥ 3 ans « ar ia nous recherchons un chercheur avec une solide experience en methodes computationn »",
+   "at": "2026-11-13T12:14:57+00:00"
+  },
+  {
+   "id": "c04be5a6a002",
+   "company": "jobup.ch",
+   "title": "Data Ingénieur (Databricks) - F/M/X",
+   "url": "https://www.jobup.ch/fr/emplois/detail/9dac58b8-33f8-46ed-a1c4-d492ed3e0aec/",
+   "reason": "expérience demandée ≥ 6 ans « databricks et snowflake. competences minimum 6 ans d'experience en data eng »",
+   "at": "2026-11-13T12:14:49+00:00"
+  },
+  {
+   "id": "cb0752621cbd",
+   "company": "jobs.ch",
+   "title": "Consultant Lead - Software & Quality Engineering (AI-Powered) - AI-SDLC",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/48757263-d239-4c93-80f9-ce91e064d55c/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-13T12:14:36+00:00"
+  },
+  {
+   "id": "f3eea610ed27",
+   "company": "jobs.ch",
+   "title": "Business Analyst/in (80 – 100 %) mit Durchblick",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/81d64caf-59cd-4fc0-8d34-1d1358593966/",
+   "reason": "expérience demandée ≥ 3 ans « avail par semaine. vous nous offrez au moins 3 ans d'experience en analyse »",
+   "at": "2026-11-13T12:14:21+00:00"
+  },
+  {
+   "id": "5f8b4de252d9",
+   "company": "TotalEnergies",
+   "title": "Quantitative Modeling Analyst - EU Power",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Quantitative-Modeling-Analyst-EU-Power/86206",
+   "reason": "expérience demandée ≥ 3 ans « gie, business & economie type de contrat cdi experience minimum 3 ans contexte et environnement totalenergies  »",
+   "at": "2026-11-13T12:13:06+00:00"
+  },
+  {
+   "id": "86220e51f486",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Analyste Financier LLD (F/H) - Charenton",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-analyste-financier-lld-f-h-charenton",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-13T12:10:10+00:00"
+  },
+  {
+   "id": "3ff189042a16",
+   "company": "BPCE",
+   "title": "Stage - Analyste Fusions-Acquisitions (F/H) - OTOKTONE",
+   "url": "https://recrutement.bpce.fr/job/stage-analyste-fusions-acquisitions-f-h-otoktone",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-13T12:10:10+00:00"
+  },
+  {
+   "id": "447e4c6fc2d8",
+   "company": "BPCE",
+   "title": "Stage - Analyste Investissement (F/H) - OTOKTONE 3i",
+   "url": "https://recrutement.bpce.fr/job/stage-analyste-investissement-f-h-otoktone-3i",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-13T12:10:10+00:00"
+  },
+  {
+   "id": "a6c2a518b025",
+   "company": "Crédit Agricole",
+   "title": "Assistant Data IPV Equity H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-assistant-data-ipv-equity-hf-reference--2026-117434--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-13T12:08:57+00:00"
+  },
+  {
+   "id": "1062fe88b86b",
+   "company": "Crédit Agricole",
+   "title": "Analyste Quantitatif - Deal Flow H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-quantitatif---deal-flow-hf-reference--2026-116128--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-13T12:08:56+00:00"
+  },
+  {
+   "id": "a6e953223fd5",
+   "company": "Crédit Agricole",
+   "title": "Senior Analyste Risques Entreprises – Etudes et Projets H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170470-3-senior-analyste-risques-entreprises--etudes-et-projets-hf-reference--2026-115964--/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-13T12:08:56+00:00"
+  },
+  {
+   "id": "34a48871cd10",
+   "company": "Société Générale",
+   "title": "Chief IA Architect",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/chief-ia-architect-26000C10-fr",
+   "reason": "titre exclu (chief)",
+   "at": "2026-11-13T12:08:28+00:00"
+  },
+  {
+   "id": "ddcae6bc176d",
+   "company": "Alstom",
+   "title": "Industrial Data Engineer",
+   "url": "https://jobsearch.alstom.com/job/Bangkok-Industrial-Data-Engineer-10/1457067233/",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-13T12:06:57+00:00"
+  },
   {
    "id": "e190e0eda636",
    "company": "jobs.ch",
