@@ -1,6 +1,54 @@
 {
- "updated": "2026-11-13T13:11:38+00:00",
+ "updated": "2026-11-13T20:30:57+00:00",
  "items": [
+  {
+   "id": "e7994be55c63",
+   "company": "HelloWork",
+   "title": "Responsable IA & Données - Finance H/F Accenture France",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85491373.html",
+   "reason": "expérience demandée ≥ 7 ans (lu par l'IA) « {\"@type\": \"OccupationalExperienceRequirements\", \"monthsOfExperience\": 84} »",
+   "at": "2026-11-13T20:30:57+00:00"
+  },
+  {
+   "id": "5ef00b1888a8",
+   "company": "HelloWork",
+   "title": "Leader IA - Solutions & Delivery H/F CGI",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85492945.html",
+   "reason": "titre exclu (leader)",
+   "at": "2026-11-13T20:30:57+00:00"
+  },
+  {
+   "id": "a721b171bda4",
+   "company": "HelloWork",
+   "title": "Product Owner IA - CDI H/F ALTEN",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85495070.html",
+   "reason": "expérience demandée ≥ 3 ans « ustifiez d'une experience reussie d'au moins 3 ans en tant que product owne »",
+   "at": "2026-11-13T20:30:55+00:00"
+  },
+  {
+   "id": "71395343847a",
+   "company": "HelloWork",
+   "title": "& Data Integration Manager H/F Econocom",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85500199.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-13T20:30:54+00:00"
+  },
+  {
+   "id": "a86ac587d4b5",
+   "company": "HelloWork",
+   "title": "Directeur Conseil - Data & IA H/F CGI",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85492924.html",
+   "reason": "titre exclu (directeur)",
+   "at": "2026-11-13T20:30:54+00:00"
+  },
+  {
+   "id": "3d35d3a8ab99",
+   "company": "HelloWork",
+   "title": "Product Builder - Lead ai Agent Developer H/F Groupe Créative",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85492438.html",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-13T20:30:54+00:00"
+  },
   {
    "id": "6dfaa9211f69",
    "company": "HelloWork",
