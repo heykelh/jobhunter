@@ -1,0 +1,174 @@
+{
+ "titre": "Data Analyst / Data Scientist",
+ "profil": "Data analyst avec 13 ans d’expérience opérationnelle au sein du Groupe SNCF, spécialisé dans les environnements à forts enjeux de sécurité. Titulaire d’un Master Data Engineer / Data Product Manager (Bac+5, Mines Paris : PSL) et habitué à concevoir des indicateurs et des rapports décisionnels. Expertise reconnue en SQL, analyse de données et automatisation de contrôles.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "SQL",
+    "Excel",
+    "Python (pandas)",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "GitHub Actions (CI/CD)",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "customer-experience",
+   "titre": "Customer Experience Intelligence : analyse et dataviz",
+   "stack": "Python, Power BI",
+   "lien": "github.com/heykelh/customer-experience-intelligence",
+   "tags": [
+    "client",
+    "clients",
+    "expérience client",
+    "marketing",
+    "kpi",
+    "dashboard",
+    "tableau de bord",
+    "power bi",
+    "reporting",
+    "analyse",
+    "satisfaction",
+    "parcours"
+   ],
+   "puces": [
+    "Analyse exploratoire des données clients pour identifier tendances et anomalies influençant la performance",
+    "Création de tableaux de bord Power BI avec indicateurs de pilotage destinés aux décideurs"
+   ]
+  },
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Simulation d’une mission d’inspection data sur la chaîne de risque de crédit, incluant cadrage et investigations",
+    "Développement d’un moteur de contrôles qualité en SQL, avec scoring de risque et reporting des constats"
+   ]
+  },
+  {
+   "id": "pokewatch",
+   "titre": "PokéWatch : surveillance de marché et détection d'anomalies de prix",
+   "stack": "PostgreSQL, Supabase, SQL, GitHub Actions, Next.js",
+   "lien": "pokewatch-three.vercel.app",
+   "tags": [
+    "surveillance",
+    "monitoring",
+    "anomalie",
+    "anomalies",
+    "fraude",
+    "prix",
+    "marché",
+    "pipeline",
+    "automatisation",
+    "alerte",
+    "data engineer",
+    "ingestion",
+    "sql"
+   ],
+   "puces": [
+    "Mise en place d’un pipeline automatisé de collecte des prix (Cardmarket, eBay) via GitHub Actions, alertes en temps réel",
+    "Définition de règles SQL pour détecter les anomalies de prix et visualisation via tableau de bord Next.js"
+   ]
+  },
+  {
+   "id": "palier",
+   "titre": "PALIER : tarification et yield management TGV",
+   "stack": "Python, DuckDB, Power BI, Next.js, GitHub Actions",
+   "lien": "palier-sncf.vercel.app",
+   "tags": [
+    "pricing",
+    "prix",
+    "tarif",
+    "tarification",
+    "revenue",
+    "yield",
+    "élasticité",
+    "demande",
+    "transport",
+    "ferroviaire",
+    "voyageurs",
+    "sncf",
+    "commercial",
+    "offre"
+   ],
+   "puces": [
+    "Analyse de la tarification TGV à partir de données ouvertes SNCF, incluant élasticité prix et comparaison concurrentielle",
+    "Développement d’un module de yield management avec allocation tarifaire automatisée via GitHub Actions"
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "allemand"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "2d58e4cd1d64",
+ "entreprise": "Visana Services AG",
+ "intitule_offre": "Data Analyst / Data Scientist",
+ "url_offre": "https://www.jobs.ch/fr/offres-emplois/detail/21c7314d-e566-4483-9c03-37417422a2ef/",
+ "genere_le": "2026-11-13T01:35:01+00:00"
+}

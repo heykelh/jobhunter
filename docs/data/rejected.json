@@ -1,6 +1,38 @@
 {
- "updated": "2026-11-12T20:38:36+00:00",
+ "updated": "2026-11-13T01:38:26+00:00",
  "items": [
+  {
+   "id": "e190e0eda636",
+   "company": "jobs.ch",
+   "title": "Senior Business Analyst - Value Stream Anlegen",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/d99cd5b1-4483-4c16-9363-ba8452e0f6b3/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-13T01:35:05+00:00"
+  },
+  {
+   "id": "4604e8e9f8de",
+   "company": "Orange",
+   "title": "Data Scientist F/H",
+   "url": "https://orange.jobs/fr/fr/job/CTS-2026-55244/Data-Scientist-F-H",
+   "reason": "stage / alternance « ia d'ici 2030 et 2040 ? votre stage de fin d'etudes contribue a definir les prior »",
+   "at": "2026-11-13T01:34:45+00:00"
+  },
+  {
+   "id": "b24dd59c42b4",
+   "company": "Crédit Agricole",
+   "title": "Analyste Risque de crédit Entreprises – Etudes et Projets H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170470-3-analyste-risque-de-credit-entreprises--etudes-et-projets-hf-reference--2026-115964--/",
+   "reason": "expérience demandée ≥ 3 ans « teurs, produits, typologie de financements). niveau d'experience minimum 3 - 5 ans competences recherchees esp »",
+   "at": "2026-11-13T01:29:55+00:00"
+  },
+  {
+   "id": "59d8e3029461",
+   "company": "Crédit Agricole",
+   "title": "VIE - Data Engineer H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170477-137-vie---data-engineer-hf-reference--2025-105633--/",
+   "reason": "titre exclu (VIE)",
+   "at": "2026-11-13T01:29:53+00:00"
+  },
   {
    "id": "81b729c84144",
    "company": "ING",
