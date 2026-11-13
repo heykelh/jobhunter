@@ -1,0 +1,172 @@
+{
+ "titre": "Chef de produits IARD",
+ "profil": "Professionnel avec 13 ans d’expérience au sein du groupe SNCF, spécialisé en ingénierie et gestion de données. Titulaire d’un Master Data Engineer / Data Product Manager (Bac+5, Mines Paris‑PSL). Expérience confirmée dans la conduite de projets d’analyse, de conception et de déploiement de solutions orientées client.",
+ "competences": [
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio",
+    "Excel"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Analyse des besoins fonctionnels d’un système de crédit, rédaction de spécifications et pilotage des tests de recette.",
+    "Coordination des parties prenantes pour assurer la mise en conformité du processus de recouvrement."
+   ]
+  },
+  {
+   "id": "regard",
+   "titre": "REGARD : copilote de conformité bancaire",
+   "stack": "LangGraph.js, Groq, Supabase (pgvector), Langfuse",
+   "lien": "regard-wine.vercel.app",
+   "tags": [
+    "conformité",
+    "compliance",
+    "banque",
+    "bancaire",
+    "réglementaire",
+    "lcb-ft",
+    "kyc",
+    "ia",
+    "llm",
+    "rag",
+    "risque"
+   ],
+   "puces": [
+    "Conception d’un copilote de conformité bancaire, transformation des règles de contrôle en synthèses exploitables.",
+    "Gestion du suivi des cas de test et coordination des équipes de validation."
+   ]
+  },
+  {
+   "id": "customer-experience",
+   "titre": "Customer Experience Intelligence : analyse et dataviz",
+   "stack": "Python, Power BI",
+   "lien": "github.com/heykelh/customer-experience-intelligence",
+   "tags": [
+    "client",
+    "clients",
+    "expérience client",
+    "marketing",
+    "kpi",
+    "dashboard",
+    "tableau de bord",
+    "power bi",
+    "reporting",
+    "analyse",
+    "satisfaction",
+    "parcours"
+   ],
+   "puces": [
+    "Analyse exploratoire des données clients pour identifier tendances et anomalies impactant la performance.",
+    "Création de tableaux de bord interactifs et d’indicateurs de pilotage à destination des décideurs métier."
+   ]
+  },
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Simulation d’une mission d’inspection data sur la chaîne de risque de crédit, cadrage et investigations détaillées.",
+    "Développement d’un moteur de contrôles qualité en SQL, élaboration du registre des constats et du rapport de restitution."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "sas"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "759f43b511d7",
+ "entreprise": "BPCE",
+ "intitule_offre": "Chef de produits IARD F/H - Paris",
+ "url_offre": "https://recrutement.bpce.fr/job/chef-de-produits-iard-f-h-paris",
+ "genere_le": "2026-11-13T19:43:07+00:00"
+}

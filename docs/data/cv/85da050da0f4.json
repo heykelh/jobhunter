@@ -1,0 +1,179 @@
+{
+ "titre": "Consultant IA, Data & Automation",
+ "profil": "Ingénieur data avec 13 ans d’expérience au sein du groupe SNCF, spécialisé dans les environnements critiques et la sécurité des systèmes d’information. Compétences avérées en conception de solutions data, gouvernance, visualisation Power BI et automatisation de processus, avec plus de 15 projets livrés. Capacité à piloter la collecte des exigences, animer des ateliers clients et assurer le suivi technique en autonomie.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Power BI (DAX)",
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Looker Studio",
+    "Excel"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "customer-experience",
+   "titre": "Customer Experience Intelligence : analyse et dataviz",
+   "stack": "Python, Power BI",
+   "lien": "github.com/heykelh/customer-experience-intelligence",
+   "tags": [
+    "client",
+    "clients",
+    "expérience client",
+    "marketing",
+    "kpi",
+    "dashboard",
+    "tableau de bord",
+    "power bi",
+    "reporting",
+    "analyse",
+    "satisfaction",
+    "parcours"
+   ],
+   "puces": [
+    "Analyse exploratoire des données clients pour identifier insights, tendances et anomalies impactant la performance métier.",
+    "Conception de tableaux de bord interactifs Power BI destinés aux décideurs, facilitant le pilotage opérationnel."
+   ]
+  },
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Simulation d’une mission d’inspection data sur la chaîne de risque de crédit, incluant cadrage, investigations et restitution.",
+    "Mise en place d’un moteur de contrôles qualité SQL, scoring de risque et registre des constats."
+   ]
+  },
+  {
+   "id": "frontierbank",
+   "titre": "FrontierBank : gouvernance des données d'une banque fictive",
+   "stack": "BCBS 239, DAMA-DMBOK, AI Act, Power BI",
+   "lien": "frontierbank-data.vercel.app",
+   "tags": [
+    "gouvernance",
+    "governance",
+    "steward",
+    "qualité",
+    "quality",
+    "bcbs",
+    "dama",
+    "lignage",
+    "lineage",
+    "banque",
+    "bancaire",
+    "risque",
+    "réglementaire",
+    "conformité",
+    "raci",
+    "référentiel",
+    "métadonnées"
+   ],
+   "puces": [
+    "Conseil complet en gouvernance des données : diagnostic BCBS 239, cadre DAMA‑DMBOK, lignage et matrice RACI.",
+    "Création de tableaux de bord Power BI pour le suivi de la qualité des données et la cartographie des usages soumis à l’AI Act."
+   ]
+  },
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Simulation d’une mission de Business Analyst sur un SI Crédit, de l’expression du besoin à la recette.",
+    "Production de livrables en ligne : cartographie des processus, spécifications fonctionnelles et plan de tests."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "azure",
+  "allemand"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "85da050da0f4",
+ "entreprise": "SPIE Schweiz AG",
+ "intitule_offre": "Consultant AI, Data & Automation 80-100%",
+ "url_offre": "https://www.jobs.ch/fr/offres-emplois/detail/7e853ff6-a7f1-4fb5-a153-736292e9dcc3/",
+ "genere_le": "2026-11-13T19:47:16+00:00"
+}

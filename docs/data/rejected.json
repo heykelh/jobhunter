@@ -1,6 +1,134 @@
 {
- "updated": "2026-11-13T12:17:30+00:00",
+ "updated": "2026-11-13T19:50:51+00:00",
  "items": [
+  {
+   "id": "b106861e1321",
+   "company": "ING",
+   "title": "Data Scientist Specialist",
+   "url": "https://careers.ing.com/en/job/silesia/data-scientist-specialist/3121/46131517440",
+   "reason": "lieu hors zones",
+   "at": "2026-11-13T19:50:30+00:00"
+  },
+  {
+   "id": "4b8e14ad7a3e",
+   "company": "ING",
+   "title": "Data Analyst (Credit Risk)",
+   "url": "https://careers.ing.com/en/job/makati-city/data-analyst-credit-risk/3121/46876483584",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-13T19:50:29+00:00"
+  },
+  {
+   "id": "894f0176fb1d",
+   "company": "ING",
+   "title": "Data Management Expert | Data Readiness @ING Hubs Romania",
+   "url": "https://careers.ing.com/en/job/bucharest/data-management-expert-data-readiness-ing-hubs-romania/3121/46882257536",
+   "reason": "titre exclu (expert)",
+   "at": "2026-11-13T19:50:29+00:00"
+  },
+  {
+   "id": "ae8346de014a",
+   "company": "jobup.ch",
+   "title": "Client Data Services Officer 100% ( w/m/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/672ed9c1-e848-46a7-af5e-8d9507bc74d7/",
+   "reason": "expérience demandée ≥ 3 ans « chtenstein, nous vous convainquons par notre longue experience dans la gestion de grand »",
+   "at": "2026-11-13T19:48:01+00:00"
+  },
+  {
+   "id": "6566e37e8403",
+   "company": "jobup.ch",
+   "title": "Senior Data Engineer (hfd)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/aba06541-a2a9-45a6-ab0b-0ac5e4b69420/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-13T19:48:01+00:00"
+  },
+  {
+   "id": "261712d3c3ee",
+   "company": "jobs.ch",
+   "title": "Head of Channel Sales (AI Software) - [A016040]",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/b39ff4d6-bb70-402f-8f51-79c2a4cc98dd/",
+   "reason": "titre exclu (head)",
+   "at": "2026-11-13T19:47:37+00:00"
+  },
+  {
+   "id": "511b6929bcd7",
+   "company": "TotalEnergies",
+   "title": "Assistant data & reporting finance débutant H/F",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Assistant-data-reporting-finance-d-butant-H-F/86231",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-13T19:46:00+00:00"
+  },
+  {
+   "id": "31d9de454c5b",
+   "company": "BPCE",
+   "title": "Stage Data Analyst F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-data-analyst-f-h-2",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-13T19:43:07+00:00"
+  },
+  {
+   "id": "395c43a25473",
+   "company": "BPCE",
+   "title": "Analyste conformité (F/H)",
+   "url": "https://recrutement.bpce.fr/job/analyste-conformite-f-h-2",
+   "reason": "lieu hors zones",
+   "at": "2026-11-13T19:42:56+00:00"
+  },
+  {
+   "id": "5c972cc8a6b5",
+   "company": "Crédit Agricole",
+   "title": "STAGE - Depositary Control Analyst – Investment Restrictions H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170469-136-stage---depositary-control-analyst--investment-restrictions-hf--reference--2026-117449--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-13T19:41:33+00:00"
+  },
+  {
+   "id": "67ccef9895aa",
+   "company": "Crédit Agricole",
+   "title": "Stage PPI – Juriste Data H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-192729-5-stage-ppi--juriste-data-hf-reference--2026-117448--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-13T19:41:33+00:00"
+  },
+  {
+   "id": "2373146b605e",
+   "company": "Société Générale",
+   "title": "[STAGE] - Data analyst & modélisation",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/stage-data-analyst-modelisation-26000NML-fr",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-13T19:41:06+00:00"
+  },
+  {
+   "id": "0b69d10b4edd",
+   "company": "Société Générale",
+   "title": "FinOps – Data ingestion, Data analysis & Dashboarding",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/finops-data-ingestion-data-analysis-dashboarding-26000N9V-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-13T19:41:06+00:00"
+  },
+  {
+   "id": "b3f7e90fef8e",
+   "company": "Alstom",
+   "title": "Stagiaire Analyste Données Planning (H/F)",
+   "url": "https://jobsearch.alstom.com/job/La-Pocatiere-Stagiaire-Analyste-Donn%C3%A9es-Planning-%28HF%29-QC/1457268833/",
+   "reason": "titre exclu (stagiaire)",
+   "at": "2026-11-13T19:39:33+00:00"
+  },
+  {
+   "id": "0da124c12b91",
+   "company": "Alstom",
+   "title": "VIE - Cost Out Performance & Digitalization Analyst",
+   "url": "https://jobsearch.alstom.com/job/Madrid-VIE-Cost-Out-Performance-&-Digitalization-Analyst/1457318733/",
+   "reason": "titre exclu (VIE)",
+   "at": "2026-11-13T19:39:33+00:00"
+  },
+  {
+   "id": "e37fc25f72e8",
+   "company": "SNCF",
+   "title": "Titre IV Aiguilleur du rail (F/H) - ALTERNANCE - ROYAN",
+   "url": "https://emploi.sncf.com/nos-offres/891710",
+   "reason": "titre exclu (alternance)",
+   "at": "2026-11-13T19:39:11+00:00"
+  },
   {
    "id": "57be6fc28fcc",
    "company": "jobup.ch",

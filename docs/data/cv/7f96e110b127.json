@@ -1,0 +1,178 @@
+{
+ "titre": "Responsable Actuariat, Rentabilité & Data : Équipe Technique",
+ "profil": "Ingénieur data avec 13 ans d’expérience opérationnelle au sein du groupe SNCF, spécialisé dans des environnements à forts enjeux de sécurité. Titulaire d’un Master Data Engineer / Data Product Manager (Mines Paris : PSL), il a conduit plus de 15 projets couvrant tarification, gestion du rendement et gouvernance des données. Expert en analyse actuarielle et en optimisation de la rentabilité, il maîtrise les méthodes de yield management et les cadres de qualité des données (BCBS 239, DAMA‑DMBOK).",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio",
+    "Excel"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "GitHub Actions (CI/CD)",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "palier",
+   "titre": "PALIER : tarification et yield management TGV",
+   "stack": "Python, DuckDB, Power BI, Next.js, GitHub Actions",
+   "lien": "palier-sncf.vercel.app",
+   "tags": [
+    "pricing",
+    "prix",
+    "tarif",
+    "tarification",
+    "revenue",
+    "yield",
+    "élasticité",
+    "demande",
+    "transport",
+    "ferroviaire",
+    "voyageurs",
+    "sncf",
+    "commercial",
+    "offre"
+   ],
+   "puces": [
+    "Analyse actuarielle de la tarification TGV à partir de données ouvertes, estimation de l’élasticité prix et positionnement concurrentiel.",
+    "Mise en œuvre d’un module de yield management (algorithme EMSR‑b) pour optimiser l’allocation des places par palier tarifaire, automatisé via GitHub Actions."
+   ]
+  },
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Simulation d’une mission d’inspection data sur le flux de risque de crédit, incluant cadrage, investigations et restitution des constats.",
+    "Développement d’un moteur de contrôles qualité en SQL et d’un scoring de risque pour piloter la rentabilité du portefeuille crédit."
+   ]
+  },
+  {
+   "id": "frontierbank",
+   "titre": "FrontierBank : gouvernance des données d'une banque fictive",
+   "stack": "BCBS 239, DAMA-DMBOK, AI Act, Power BI",
+   "lien": "frontierbank-data.vercel.app",
+   "tags": [
+    "gouvernance",
+    "governance",
+    "steward",
+    "qualité",
+    "quality",
+    "bcbs",
+    "dama",
+    "lignage",
+    "lineage",
+    "banque",
+    "bancaire",
+    "risque",
+    "réglementaire",
+    "conformité",
+    "raci",
+    "référentiel",
+    "métadonnées"
+   ],
+   "puces": [
+    "Conseil en gouvernance des données bancaires selon les standards BCBS 239 et le référentiel DAMA‑DMBOK, avec mise en place d’un lignage et d’une matrice RACI.",
+    "Création de tableaux de bord Power BI pour suivre la qualité des données et la conformité aux exigences de l’AI Act, facilitant la prise de décision rentable."
+   ]
+  },
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Simulation d’une mission de Business Analyst sur un système d’information crédit, de la collecte des besoins à la recette fonctionnelle.",
+    "Production de livrables incluant cartographie des processus, spécifications fonctionnelles et plan de tests, visant à améliorer l’efficacité opérationnelle."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "7f96e110b127",
+ "entreprise": "AXA",
+ "intitule_offre": "Responsable Actuariat, Rentabilité & DATA F/H – Equipe Technique",
+ "url_offre": "https://careers.axa.com/jobs/30479",
+ "genere_le": "2026-11-13T19:43:58+00:00"
+}
