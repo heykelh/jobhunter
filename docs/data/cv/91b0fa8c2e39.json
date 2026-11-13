@@ -1,0 +1,175 @@
+{
+ "titre": "Business Analyst & Development",
+ "profil": "Expérience de 13 ans au sein du Groupe SNCF, avec des missions d’analyse, de conception de processus et de suivi de projets, ainsi que la réalisation de livrables de qualité. Titulaire d’un Master Data Engineer / Data Product Manager (Mines Paris - PSL), j’ai conduit plus de quinze projets data, incluant la mise en place de tableaux de bord et la rédaction de spécifications fonctionnelles. Ces compétences me permettent d’assurer la préparation de pitchs, la mise à jour de bases CRM et la production de rapports synthétiques, en garantissant rigueur et réactivité.",
+ "competences": [
+  {
+   "groupe": "Analyse de données",
+   "items": [
+    "Excel",
+    "Python (pandas)",
+    "SQL",
+    "PostgreSQL",
+    "DuckDB",
+    "Power BI (DAX)",
+    "Looker Studio"
+   ]
+  },
+  {
+   "groupe": "Data engineering",
+   "items": [
+    "GitHub Actions (CI/CD)",
+    "Pipelines ETL / ELT",
+    "Architecture médaillon",
+    "Docker",
+    "AWS",
+    "Supabase",
+    "API REST",
+    "FastAPI"
+   ]
+  },
+  {
+   "groupe": "Gouvernance et conformité",
+   "items": [
+    "Qualité des données",
+    "Lignage",
+    "DAMA-DMBOK",
+    "BCBS 239",
+    "RGPD",
+    "AI Act",
+    "RACI"
+   ]
+  },
+  {
+   "groupe": "Machine learning",
+   "items": [
+    "scikit-learn",
+    "Détection d'anomalies",
+    "Modèles de prédiction",
+    "RAG",
+    "LangChain / LangGraph"
+   ]
+  },
+  {
+   "groupe": "Web et dataviz",
+   "items": [
+    "Next.js",
+    "TypeScript",
+    "Plotly",
+    "Recharts"
+   ]
+  }
+ ],
+ "projets": [
+  {
+   "id": "mission-ba-credit",
+   "titre": "Mission Business Analyst SI Crédit",
+   "stack": "Cadrage, spécifications, recette, Next.js",
+   "lien": "mission-ba-credit.vercel.app",
+   "tags": [
+    "business analyst",
+    "analyste",
+    "moa",
+    "amoa",
+    "si",
+    "crédit",
+    "credit",
+    "recouvrement",
+    "spécifications",
+    "recette",
+    "besoin",
+    "banque",
+    "fonctionnel",
+    "projet"
+   ],
+   "puces": [
+    "Simulation d’une mission de Business Analyst sur un système de recouvrement, de la collecte du besoin à la recette, garantissant la conformité des livrables.",
+    "Production de cartographies de processus, spécifications fonctionnelles et plans de tests, facilitant le reporting et la documentation."
+   ]
+  },
+  {
+   "id": "customer-experience",
+   "titre": "Customer Experience Intelligence : analyse et dataviz",
+   "stack": "Python, Power BI",
+   "lien": "github.com/heykelh/customer-experience-intelligence",
+   "tags": [
+    "client",
+    "clients",
+    "expérience client",
+    "marketing",
+    "kpi",
+    "dashboard",
+    "tableau de bord",
+    "power bi",
+    "reporting",
+    "analyse",
+    "satisfaction",
+    "parcours"
+   ],
+   "puces": [
+    "Analyse exploratoire des données clients pour identifier insights, tendances et anomalies impactant la performance commerciale.",
+    "Création de tableaux de bord interactifs Power BI et d’indicateurs de pilotage destinés aux décideurs, assurant un reporting synthétique."
+   ]
+  },
+  {
+   "id": "palier",
+   "titre": "PALIER : tarification et yield management TGV",
+   "stack": "Python, DuckDB, Power BI, Next.js, GitHub Actions",
+   "lien": "palier-sncf.vercel.app",
+   "tags": [
+    "pricing",
+    "prix",
+    "tarif",
+    "tarification",
+    "revenue",
+    "yield",
+    "élasticité",
+    "demande",
+    "transport",
+    "ferroviaire",
+    "voyageurs",
+    "sncf",
+    "commercial",
+    "offre"
+   ],
+   "puces": [
+    "Analyse de l’élasticité tarifaire TGV à partir de données ouvertes, avec comparaison des offres et positionnement concurrentiel.",
+    "Développement d’un module de yield management automatisé, intégrant mise à jour des données via actions GitHub, soutenant la prise de décision."
+   ]
+  },
+  {
+   "id": "inspection-data",
+   "titre": "INSPECTION DATA : mission d'inspection sur une banque de détail fictive",
+   "stack": "Python, DuckDB, Supabase, SQL",
+   "lien": "inspection-data.vercel.app",
+   "tags": [
+    "inspection",
+    "audit",
+    "auditeur",
+    "contrôle",
+    "controle",
+    "risque",
+    "risques",
+    "crédit",
+    "credit",
+    "banque",
+    "bancaire",
+    "qualité",
+    "conformité",
+    "investigation"
+   ],
+   "puces": [
+    "Simulation d’une mission d’inspection data sur la chaîne de risque de crédit, incluant cadrage, investigations et débriefing.",
+    "Mise en place d’un moteur de contrôles qualité SQL, scoring de risque et production d’un registre de constats avec rapport de restitution."
+   ]
+  }
+ ],
+ "mots_cles_manquants": [
+  "salesforce"
+ ],
+ "methode": "règles + reformulation IA (6 blocs adaptés)",
+ "job_id": "91b0fa8c2e39",
+ "entreprise": "Actual group",
+ "intitule_offre": "Business Analyst et Development H/F Actual group",
+ "url_offre": "https://www.hellowork.com/fr-fr/emplois/83215559.html",
+ "genere_le": "2026-11-13T13:11:28+00:00"
+}

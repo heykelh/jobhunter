@@ -1,6 +1,142 @@
 {
- "updated": "2026-11-12T21:52:00+00:00",
+ "updated": "2026-11-13T13:11:38+00:00",
  "items": [
+  {
+   "id": "6dfaa9211f69",
+   "company": "HelloWork",
+   "title": "Consultant AMOA - IA Confirmé H/F Morgan Philips Specialist",
+   "url": "https://www.hellowork.com/fr-fr/emplois/81990073.html",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-13T13:11:37+00:00"
+  },
+  {
+   "id": "38d4eb634515",
+   "company": "HelloWork",
+   "title": "Consultant Sustainable ai - Business Development H/F Sopra Steria",
+   "url": "https://www.hellowork.com/fr-fr/emplois/80101386.html",
+   "reason": "expérience demandée ≥ 4 ans « sens du resultat. vous justifiez d'au moins 4 ans d'experience sur un post »",
+   "at": "2026-11-13T13:11:30+00:00"
+  },
+  {
+   "id": "9f1092c9f7a9",
+   "company": "HelloWork",
+   "title": "Data & ai Lead - Principal Architect H/F Team.is",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85462643.html",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-13T13:11:30+00:00"
+  },
+  {
+   "id": "c19024dd4e60",
+   "company": "HelloWork",
+   "title": "Manager Data Engineer - Data & ai Products & Solutions H/F CGI",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83201420.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-13T13:11:30+00:00"
+  },
+  {
+   "id": "7f646ef2051b",
+   "company": "HelloWork",
+   "title": "Senior ai Architect H/F Team.is",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85464777.html",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-13T13:11:28+00:00"
+  },
+  {
+   "id": "51ea3dacc431",
+   "company": "HelloWork",
+   "title": "Responsable Data & ai Management & Analytics H/F Direct Assurance",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84386832.html",
+   "reason": "expérience demandée ≥ 5 ans « alement diplome(e) d'une ecole d'ingenieurs. 5 a 6 ans d'experience minimum en »",
+   "at": "2026-11-13T13:11:28+00:00"
+  },
+  {
+   "id": "c5539df36962",
+   "company": "HelloWork",
+   "title": "Consultant Senior Data & ai - CDI H/F Talan",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82253732.html",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-13T13:11:28+00:00"
+  },
+  {
+   "id": "27b7b789affe",
+   "company": "HelloWork",
+   "title": "Business Analyst Ged H/F Audensiel Technologies",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84384682.html",
+   "reason": "expérience demandée ≥ 3 ans « (ecole de commerce, ingenieur ou universite).experience significative en tant que business ana »",
+   "at": "2026-11-13T13:11:22+00:00"
+  },
+  {
+   "id": "1b65c76a233a",
+   "company": "HelloWork",
+   "title": "Business Analyst H/F VPSitex",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84392097.html",
+   "reason": "expérience demandée ≥ 3 ans « agile et waterfall. profil recherche : plus 3 ans d'experience en tant qu' »",
+   "at": "2026-11-13T13:11:20+00:00"
+  },
+  {
+   "id": "61be6b7b8ddf",
+   "company": "HelloWork",
+   "title": "Business Developer International - Spécialisé Data H/F Euroleads",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84392811.html",
+   "reason": "expérience demandée ≥ 5 ans « pement commercial international est riche de 5 a 10 ans, idealement en partenari »",
+   "at": "2026-11-13T13:11:19+00:00"
+  },
+  {
+   "id": "a027c669f466",
+   "company": "HelloWork",
+   "title": "Engineer Data Gcp - Azure H/F Inetum",
+   "url": "https://www.hellowork.com/fr-fr/emplois/80074714.html",
+   "reason": "expérience demandée ≥ 7 ans « le profil recherche profil rechercheminimum 7 ans d'experience en architec »",
+   "at": "2026-11-13T13:11:17+00:00"
+  },
+  {
+   "id": "2b65ed1471d2",
+   "company": "HelloWork",
+   "title": "Leader Technique Data - Informatica Idmc - Conseil de Spécialité Data - Idf H/F Sopra Steria",
+   "url": "https://www.hellowork.com/fr-fr/emplois/78997362.html",
+   "reason": "titre exclu (leader)",
+   "at": "2026-11-13T13:11:17+00:00"
+  },
+  {
+   "id": "6fd821c4e111",
+   "company": "HelloWork",
+   "title": "Head Of Data H/F Team.is",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85463505.html",
+   "reason": "titre exclu (head)",
+   "at": "2026-11-13T13:11:16+00:00"
+  },
+  {
+   "id": "5e43e417af45",
+   "company": "HelloWork",
+   "title": "Directeur de Travaux TCE Data H/F Eiffage Énergie Systèmes",
+   "url": "https://www.hellowork.com/fr-fr/emplois/76690446.html",
+   "reason": "titre exclu (directeur)",
+   "at": "2026-11-13T13:11:16+00:00"
+  },
+  {
+   "id": "fb628a8edd1e",
+   "company": "HelloWork",
+   "title": "Senior Data Engineer - Data Architecture & Pipelining H/F Sopra Steria",
+   "url": "https://www.hellowork.com/fr-fr/emplois/80007728.html",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-13T13:11:16+00:00"
+  },
+  {
+   "id": "a1398ab5fb13",
+   "company": "HelloWork",
+   "title": "Business Manager - Data & IA H/F UPTOO",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85468545.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-13T13:11:16+00:00"
+  },
+  {
+   "id": "01a4916d6f19",
+   "company": "HelloWork",
+   "title": "Business Manager Product - Data H/F Red Hot Talents",
+   "url": "https://www.hellowork.com/fr-fr/emplois/80102977.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-13T13:11:16+00:00"
+  },
   {
    "id": "d7cdde088dc1",
    "company": "HelloWork",
