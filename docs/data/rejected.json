@@ -1,6 +1,1502 @@
 {
- "updated": "2026-11-14T11:37:01+00:00",
+ "updated": "2026-11-14T14:50:11+00:00",
  "items": [
+  {
+   "id": "2db5c47269ec",
+   "company": "ING",
+   "title": "AI / Copilot Studio Developer",
+   "url": "https://careers.ing.com/en/job/makati-city/ai-copilot-studio-developer/3121/45101609920",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-14T14:50:10+00:00"
+  },
+  {
+   "id": "ddaac9efbd2a",
+   "company": "ING",
+   "title": "Junior AI Engineer",
+   "url": "https://careers.ing.com/en/job/madrid/junior-ai-engineer/3121/46847880448",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:50:09+00:00"
+  },
+  {
+   "id": "67b255e01b6e",
+   "company": "ING",
+   "title": "AI Product Owner",
+   "url": "https://careers.ing.com/en/job/makati-city/ai-product-owner/3121/42093081024",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-14T14:50:07+00:00"
+  },
+  {
+   "id": "76cbc883b8a0",
+   "company": "ING",
+   "title": "Datacenter Networks Squad (Palo Alto)",
+   "url": "https://careers.ing.com/en/job/madrid/datacenter-networks-squad-palo-alto/3121/38311076352",
+   "reason": "titre exclu (datacenter)",
+   "at": "2026-11-14T14:50:07+00:00"
+  },
+  {
+   "id": "5d9f01dd9020",
+   "company": "ING",
+   "title": "Product Owner - IT Business Analyst",
+   "url": "https://careers.ing.com/en/job/katowice/product-owner-it-business-analyst/3121/46673339328",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:50:06+00:00"
+  },
+  {
+   "id": "40612f987706",
+   "company": "ING",
+   "title": "Digital Data Expert (with Product Owner role)",
+   "url": "https://careers.ing.com/en/job/madrid/digital-data-expert-with-product-owner-role/3121/45883909760",
+   "reason": "titre exclu (expert)",
+   "at": "2026-11-14T14:50:06+00:00"
+  },
+  {
+   "id": "4c7c5df62100",
+   "company": "ING",
+   "title": "Senior Data Scientist – Cyber Risk Analytics",
+   "url": "https://careers.ing.com/en/job/madrid/senior-data-scientist-cyber-risk-analytics/3121/46484570752",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:50:06+00:00"
+  },
+  {
+   "id": "807fdcceec7c",
+   "company": "ING",
+   "title": "Chapter Lead Data Analysis I Growth Tribe @ING Bank",
+   "url": "https://careers.ing.com/en/job/bucharest/chapter-lead-data-analysis-i-growth-tribe-ing-bank/3121/42742544896",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-14T14:50:06+00:00"
+  },
+  {
+   "id": "c48a4f6ac58b",
+   "company": "ING",
+   "title": "Digital Sales Analyst",
+   "url": "https://careers.ing.com/en/job/sydney/digital-sales-analyst/3121/38609325760",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-14T14:50:04+00:00"
+  },
+  {
+   "id": "96e987ccc812",
+   "company": "ING",
+   "title": "Business Analyst - Regulatory Reporting",
+   "url": "https://careers.ing.com/en/job/makati-city/business-analyst-regulatory-reporting/3121/44659395904",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-14T14:50:03+00:00"
+  },
+  {
+   "id": "763f9d6037bd",
+   "company": "ING",
+   "title": "Digital Campaign Analyst",
+   "url": "https://careers.ing.com/en/job/silesia/digital-campaign-analyst/3121/45574995200",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:50:01+00:00"
+  },
+  {
+   "id": "4e92513ce278",
+   "company": "ING",
+   "title": "BE Customer Care Analyst",
+   "url": "https://careers.ing.com/en/job/makati-city/be-customer-care-analyst/3121/46442737664",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-14T14:50:00+00:00"
+  },
+  {
+   "id": "aa0d5a6bd00e",
+   "company": "ING",
+   "title": "Business Analyst (Tribe Services)",
+   "url": "https://careers.ing.com/en/job/makati-city/business-analyst-tribe-services/3121/20976434304",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-14T14:49:58+00:00"
+  },
+  {
+   "id": "4bbee68e5c5c",
+   "company": "ING",
+   "title": "Transaction Monitoring Analyst",
+   "url": "https://careers.ing.com/en/job/makati-city/transaction-monitoring-analyst/3121/45682205952",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-14T14:49:57+00:00"
+  },
+  {
+   "id": "8430a2c8cd9d",
+   "company": "ING",
+   "title": "IT Business Analyst",
+   "url": "https://careers.ing.com/en/job/makati-city/it-business-analyst/3121/45306843840",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-14T14:49:56+00:00"
+  },
+  {
+   "id": "12e2825d1c8c",
+   "company": "ING",
+   "title": "Digital Analyst",
+   "url": "https://careers.ing.com/en/job/milan/digital-analyst/3121/41695666368",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:49:54+00:00"
+  },
+  {
+   "id": "d7470b706b40",
+   "company": "ING",
+   "title": "IT Business Analyst",
+   "url": "https://careers.ing.com/en/job/makati-city/it-business-analyst/3121/46605579712",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-14T14:49:52+00:00"
+  },
+  {
+   "id": "85a0ce06e4b7",
+   "company": "ING",
+   "title": "Business Analyst",
+   "url": "https://careers.ing.com/en/job/istanbul/business-analyst/3121/45961168064",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-14T14:49:51+00:00"
+  },
+  {
+   "id": "46acd6453c1a",
+   "company": "ING",
+   "title": "Business Analyst",
+   "url": "https://careers.ing.com/en/job/istanbul/business-analyst/3121/35307051968",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-14T14:49:49+00:00"
+  },
+  {
+   "id": "6cead9ee1567",
+   "company": "ING",
+   "title": "Data Engineer",
+   "url": "https://careers.ing.com/en/job/makati-city/data-engineer/3121/46605579392",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-14T14:49:48+00:00"
+  },
+  {
+   "id": "3486420fd6eb",
+   "company": "ING",
+   "title": "Data Operations Professional",
+   "url": "https://careers.ing.com/en/job/makati-city/data-operations-professional/3121/46155027328",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-14T14:49:46+00:00"
+  },
+  {
+   "id": "d9f49bcadba2",
+   "company": "ING",
+   "title": "Global HR Data Consumption Specialist",
+   "url": "https://careers.ing.com/en/job/makati-city/global-hr-data-consumption-specialist/3121/41176897600",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-14T14:49:45+00:00"
+  },
+  {
+   "id": "0b5f3567c910",
+   "company": "ING",
+   "title": "Compliance Data Methodology",
+   "url": "https://careers.ing.com/en/job/warsaw/compliance-data-methodology/3121/45101610880",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:49:43+00:00"
+  },
+  {
+   "id": "b106861e1321",
+   "company": "ING",
+   "title": "Data Scientist Specialist",
+   "url": "https://careers.ing.com/en/job/silesia/data-scientist-specialist/3121/46131517440",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:49:42+00:00"
+  },
+  {
+   "id": "24523f912177",
+   "company": "ING",
+   "title": "Data Strategy Oversight Analyst",
+   "url": "https://careers.ing.com/en/job/warsaw/data-strategy-oversight-analyst/3121/46391158400",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:49:40+00:00"
+  },
+  {
+   "id": "234d2e91c873",
+   "company": "ING",
+   "title": "Data Analyst / Data Modeler | GKYC @ING Hubs Romania",
+   "url": "https://careers.ing.com/en/job/bucharest/data-analyst-data-modeler-gkyc-ing-hubs-romania/3121/46193006464",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-14T14:49:39+00:00"
+  },
+  {
+   "id": "4b8e14ad7a3e",
+   "company": "ING",
+   "title": "Data Analyst (Credit Risk)",
+   "url": "https://careers.ing.com/en/job/makati-city/data-analyst-credit-risk/3121/46876483584",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-14T14:49:37+00:00"
+  },
+  {
+   "id": "d7493c9d0f11",
+   "company": "ING",
+   "title": "Data Protection Professional",
+   "url": "https://careers.ing.com/en/job/makati-city/data-protection-professional/3121/45386467904",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-14T14:49:36+00:00"
+  },
+  {
+   "id": "56ce8da8b11d",
+   "company": "ING",
+   "title": "Data Analyst (Data Modelling)",
+   "url": "https://careers.ing.com/en/job/makati-city/data-analyst-data-modelling/3121/46281037632",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-14T14:49:34+00:00"
+  },
+  {
+   "id": "84adf30b3f56",
+   "company": "SIX Group",
+   "title": "API Platform Engineer, Kong API & AI Gateway",
+   "url": "https://jobs.six-group.com/job/Las-Rozas-de-Madrid-API-Platform-Engineer%2C-Kong-API-&-AI-Gateway/1423545233/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:48:48+00:00"
+  },
+  {
+   "id": "37c96c4ec135",
+   "company": "SIX Group",
+   "title": "Quantitative Risk Analyst",
+   "url": "https://jobs.six-group.com/job/Las-Rozas-de-Madrid-Quantitative-Risk-Analyst/1414748633/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:48:47+00:00"
+  },
+  {
+   "id": "71ecf8bc747e",
+   "company": "SIX Group",
+   "title": "SOC Detection & Response Analyst",
+   "url": "https://jobs.six-group.com/job/Las-Rozas-de-Madrid-SOC-Detection-&-Response-Analyst/1416240433/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:48:45+00:00"
+  },
+  {
+   "id": "99eb1d5db54f",
+   "company": "SIX Group",
+   "title": "Data Analyst",
+   "url": "https://jobs.six-group.com/job/Singapore-Data-Analyst/1448871033/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:48:44+00:00"
+  },
+  {
+   "id": "39a167e86d53",
+   "company": "SIX Group",
+   "title": "Data Quality Analyst",
+   "url": "https://jobs.six-group.com/job/Warsaw-Data-Quality-Analyst/1449916133/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:48:42+00:00"
+  },
+  {
+   "id": "cfb8ecda1ee2",
+   "company": "SIX Group",
+   "title": "AI Engineer - AI SDLC Tooling & Guardrails",
+   "url": "https://jobs.six-group.com/job/Las-Rozas-de-Madrid-AI-Engineer-AI-SDLC-Tooling-&-Guardrails/1431166433/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:48:41+00:00"
+  },
+  {
+   "id": "dc61bbf1c140",
+   "company": "SIX Group",
+   "title": "Data Acquisition Specialist",
+   "url": "https://jobs.six-group.com/job/Las-Rozas-de-Madrid-Data-Acquisition-Specialist/1445274533/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:48:39+00:00"
+  },
+  {
+   "id": "34d3383b4341",
+   "company": "SIX Group",
+   "title": "Real-time Data Service Specialist",
+   "url": "https://jobs.six-group.com/job/Warsaw-Real-time-Data-Service-Specialist/1416225533/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:48:38+00:00"
+  },
+  {
+   "id": "3b82d0b8a270",
+   "company": "SIX Group",
+   "title": "Treasury Analyst",
+   "url": "https://jobs.six-group.com/job/Las-Rozas-de-Madrid-Treasury-Analyst/1456785333/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:48:35+00:00"
+  },
+  {
+   "id": "8834aba7e277",
+   "company": "SIX Group",
+   "title": "Marketing Data Scientist",
+   "url": "https://jobs.six-group.com/job/Warsaw-Marketing-Data-Scientist/1447426133/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:48:33+00:00"
+  },
+  {
+   "id": "d17c4b302fa1",
+   "company": "SIX Group",
+   "title": "Business Analyst",
+   "url": "https://jobs.six-group.com/job/Warsaw-Business-Analyst/1448087833/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:48:32+00:00"
+  },
+  {
+   "id": "8fddb35a4911",
+   "company": "UBS",
+   "title": "ASR EMIT Tech Support Analyst - Taiwan Bank",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=345200",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-14T14:48:22+00:00"
+  },
+  {
+   "id": "5dc01de9a9b9",
+   "company": "Julius Baer",
+   "title": "AI Software Engineer 100% (f/m/d)",
+   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Madrid/Backend-Engineer--AI-Integration--100---f-m-d-_r-19210",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:47:31+00:00"
+  },
+  {
+   "id": "077ca8f780fe",
+   "company": "Julius Baer",
+   "title": "12 months Contract - Business Analyst, Private Bank Credit Risk Applications (Through an External Agency Payroll Provider)",
+   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Singapore/XMLNAME-12-months-Contract---Business-Analyst--Private-Bank-Credit-Risk-Applications--Through-an-External-Agency-Payroll-Provider-_r-19987-2",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:47:29+00:00"
+  },
+  {
+   "id": "0595a2c87ec9",
+   "company": "Julius Baer",
+   "title": "12 months Contract - GPS Platform Transformation: Business Analyst – FX/PM (Through an External Agency)",
+   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Singapore/XMLNAME-12-months-Contract---Business-Analyst---Structured-Product--Through-an-External-Agency-_r-16676",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:47:28+00:00"
+  },
+  {
+   "id": "4783c4519561",
+   "company": "Julius Baer",
+   "title": "AI Test Automation Engineer 100% (f/m/d)",
+   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Madrid/Senior-Test-Automation-Engineer-100---f-m-d-_r-19696-1",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:47:21+00:00"
+  },
+  {
+   "id": "955d3dd4b42d",
+   "company": "Julius Baer",
+   "title": "Exposure Management Data Analyst 100% (f/m/d)",
+   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Madrid/Exposure-Management-Data-Analyst-100---f-m-d-_r-20114-1",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:47:18+00:00"
+  },
+  {
+   "id": "4f4d128b3981",
+   "company": "Orange",
+   "title": "Business Analyst Data IA",
+   "url": "https://orange.jobs/fr/fr/job/ICM-588746/Business-Analyst-Data-IA",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:46:25+00:00"
+  },
+  {
+   "id": "f77f16f34ed6",
+   "company": "Orange",
+   "title": "Développeur Data IA",
+   "url": "https://orange.jobs/fr/fr/job/ICM-588749/Développeur-Data-IA",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:46:24+00:00"
+  },
+  {
+   "id": "2561cf699549",
+   "company": "Orange",
+   "title": "PO Data IA",
+   "url": "https://orange.jobs/fr/fr/job/ICM-588748/PO-Data-IA",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:46:22+00:00"
+  },
+  {
+   "id": "916a9c1e2ea0",
+   "company": "Orange",
+   "title": "AI Engineer Consultant",
+   "url": "https://orange.jobs/fr/fr/job/TOB-8619821/AI-Engineer-Consultant",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-14T14:46:21+00:00"
+  },
+  {
+   "id": "83ead1500438",
+   "company": "Orange",
+   "title": "Analyste en vulnérabilités (H/F)",
+   "url": "https://orange.jobs/fr/fr/job/TMT-8683623/Analyste-en-vulnérabilités-H-F",
+   "reason": "expérience demandée ≥ 3 ans « ine de la cybersecurite</p></li><li><p><span>3 ans d'experience </span>dans »",
+   "at": "2026-11-14T14:46:18+00:00"
+  },
+  {
+   "id": "a7ffd7c13528",
+   "company": "Orange",
+   "title": "Analyste Bug Bounty F/H",
+   "url": "https://orange.jobs/fr/fr/job/CTS-2026-55659/Analyste-Bug-Bounty-F-H",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:46:16+00:00"
+  },
+  {
+   "id": "ffbf29aada10",
+   "company": "Orange",
+   "title": "Analyste Support EDR",
+   "url": "https://orange.jobs/fr/fr/job/ICM-589350/Analyste-Support-EDR",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:46:15+00:00"
+  },
+  {
+   "id": "1d6c8bada7fa",
+   "company": "Orange",
+   "title": "Stagiaire Analyste SOC F/H",
+   "url": "https://orange.jobs/fr/fr/job/IOS-2026-2793/Stagiaire-Analyste-SOC-F-H",
+   "reason": "titre exclu (stagiaire)",
+   "at": "2026-11-14T14:46:15+00:00"
+  },
+  {
+   "id": "d719ee33651b",
+   "company": "Orange",
+   "title": "Analyste SOC (H/F)",
+   "url": "https://orange.jobs/fr/fr/job/TMT-8653608/Analyste-SOC-H-F",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:46:13+00:00"
+  },
+  {
+   "id": "cb25e69bf823",
+   "company": "Orange",
+   "title": "Analyste SOC F/H",
+   "url": "https://orange.jobs/fr/fr/job/IOS-2026-2698/Analyste-SOC-F-H",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:46:10+00:00"
+  },
+  {
+   "id": "7f146670775a",
+   "company": "Orange",
+   "title": "Analyste XtendedSOC",
+   "url": "https://orange.jobs/fr/fr/job/IOS-2026-2521/Analyste-XtendedSOC",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:46:08+00:00"
+  },
+  {
+   "id": "55d3b189992c",
+   "company": "Orange",
+   "title": "Analyste SOC",
+   "url": "https://orange.jobs/fr/fr/job/IOS-2026-2733/Analyste-SOC",
+   "reason": "expérience demandée ≥ 3 ans « de la cybersecurite.</p><p></p><p>vous avez plus de 2 ans d'experience dans les me »",
+   "at": "2026-11-14T14:46:07+00:00"
+  },
+  {
+   "id": "78ce325e92fb",
+   "company": "Orange",
+   "title": "Business Analyst F/H",
+   "url": "https://orange.jobs/fr/fr/job/IOS-2026-2785/Business-Analyst-F-H",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:46:05+00:00"
+  },
+  {
+   "id": "1db6cd091cd7",
+   "company": "Orange",
+   "title": "Business Analyst F/H",
+   "url": "https://orange.jobs/fr/fr/job/IOS-2026-2702/Business-Analyst-F-H",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:46:04+00:00"
+  },
+  {
+   "id": "7ed8f7718203",
+   "company": "Orange",
+   "title": "Business Analyst",
+   "url": "https://orange.jobs/fr/fr/job/ICM-588315/Business-Analyst",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:46:02+00:00"
+  },
+  {
+   "id": "740bdb27a3d0",
+   "company": "Orange",
+   "title": "Reporting Analyst",
+   "url": "https://orange.jobs/fr/fr/job/ERC-596982-20136094/Reporting-Analyst",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-14T14:46:01+00:00"
+  },
+  {
+   "id": "4818b839c6fe",
+   "company": "Orange",
+   "title": "Data Scientist",
+   "url": "https://orange.jobs/fr/fr/job/ICM-588283/Data-Scientist",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:45:58+00:00"
+  },
+  {
+   "id": "b1dffbe98bbd",
+   "company": "Orange",
+   "title": "Data Analyst",
+   "url": "https://orange.jobs/fr/fr/job/ICM-588944/Data-Analyst",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-14T14:45:56+00:00"
+  },
+  {
+   "id": "04e957c48fd7",
+   "company": "VINCI (dont ETF)",
+   "title": "PFE - Ingénieur.e Travaux - Améliorer le pilotage et la performance de nos chantiers grâce à l'IA",
+   "url": "https://jobs.vinci.com/fr/emploi/bruzelles/pfe-ingenieur-e-travaux-ameliorer-le-pilotage-et-la-performance-de-nos-chantiers-grace-a-l-ia/1440/45586466112",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-14T14:44:02+00:00"
+  },
+  {
+   "id": "3974fc5351a8",
+   "company": "VINCI (dont ETF)",
+   "title": "PFE 2027 - Optimiser notre performance grâce à l'IA F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/orleans/pfe-2027-optimiser-notre-performance-grace-a-l-ia-f-h/1440/45563245888",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:44:01+00:00"
+  },
+  {
+   "id": "f0437907dec3",
+   "company": "VINCI (dont ETF)",
+   "title": "PFE Ingénieur études de prix F/H - Optimisation des réponses aux appels d'offres grâce à l'IA",
+   "url": "https://jobs.vinci.com/fr/emploi/volvic/pfe-ingenieur-etudes-de-prix-f-h-optimisation-des-reponses-aux-appels-d-offres-grace-a-l-ia/1440/43614169792",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:44:00+00:00"
+  },
+  {
+   "id": "5ed38fce388e",
+   "company": "VINCI (dont ETF)",
+   "title": "Stage PFE IA - Digitalisation de Procédures F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/saint-etienne/stage-pfe-ia-digitalisation-de-procedures-f-h/1440/46421743744",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-14T14:44:00+00:00"
+  },
+  {
+   "id": "fbcb54060c03",
+   "company": "VINCI (dont ETF)",
+   "title": "Stagiaire - PFE Réinventer le mémoire technique grâce à l'IA F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/velaine-en-haye/stagiaire-pfe-reinventer-le-memoire-technique-grace-a-l-ia-f-h/1440/43924137408",
+   "reason": "titre exclu (stagiaire)",
+   "at": "2026-11-14T14:44:00+00:00"
+  },
+  {
+   "id": "37931106dfe6",
+   "company": "VINCI (dont ETF)",
+   "title": "PFE - Développement d'un assistant IA pour le pilotage anticipatif des plans de contrôle Travaux F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/emerainville/pfe-developpement-d-un-assistant-ia-pour-le-pilotage-anticipatif-des-plans-de-controle-travaux-f-h/1440/45705581440",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-14T14:43:58+00:00"
+  },
+  {
+   "id": "4736bc263ae7",
+   "company": "VINCI (dont ETF)",
+   "title": "PFE : conduite de travaux GC (IA Factory) F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/besse-sur-braye/pfe-conduite-de-travaux-gc-ia-factory-f-h/1440/46484957632",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:43:57+00:00"
+  },
+  {
+   "id": "f5d07519cabc",
+   "company": "VINCI (dont ETF)",
+   "title": "Ingénieur transformation digitale et IA F/H F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/toulouse/ingenieur-transformation-digitale-et-ia-f-h-f-h/1440/45433915968",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:43:55+00:00"
+  },
+  {
+   "id": "3050346ad1cf",
+   "company": "VINCI (dont ETF)",
+   "title": "VCSP HABITAT - Stage PFE -IA & DIGITALISATION DES MÉTHODES D'EXÉCUTION (H/F) F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/nanterre/vcsp-habitat-stage-pfe-ia-and-digitalisation-des-methodes-d-execution-h-f-f-h/1440/46252366592",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-14T14:43:55+00:00"
+  },
+  {
+   "id": "e576bd61dea5",
+   "company": "VINCI (dont ETF)",
+   "title": "Analyste Fonctionnel SAP Controlling - 2 stages de fin d'études en pré-embauche F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/la-defense/analyste-fonctionnel-sap-controlling-2-stages-de-fin-d-etudes-en-pre-embauche-f-h/1440/43838109504",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-14T14:43:54+00:00"
+  },
+  {
+   "id": "20cf383c1f32",
+   "company": "VINCI (dont ETF)",
+   "title": "Analyste Business Solutions Aggregates & Industry - 1 stage de fin d'études en pré-embauche F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/nanterre/analyste-business-solutions-aggregates-and-industry-1-stage-de-fin-d-etudes-en-pre-embauche-f-h/1440/43867371584",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-14T14:43:54+00:00"
+  },
+  {
+   "id": "f6cef199100c",
+   "company": "VINCI (dont ETF)",
+   "title": "Analyste Fonctionnel SI Works - Operations - 1 stage de fin d'études en pré-embauche F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/nanterre/analyste-fonctionnel-si-works-operations-1-stage-de-fin-d-etudes-en-pre-embauche-f-h/1440/43867371136",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-14T14:43:54+00:00"
+  },
+  {
+   "id": "82a69af727ab",
+   "company": "VINCI (dont ETF)",
+   "title": "Analyste SI RUN Autorisations & UX - 1 stage de fin d'études en pré-embauche F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/nanterre/analyste-si-run-autorisations-and-ux-1-stage-de-fin-d-etudes-en-pre-embauche-f-h/1440/43867370240",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-14T14:43:54+00:00"
+  },
+  {
+   "id": "33a5984e87d2",
+   "company": "VINCI (dont ETF)",
+   "title": "Analyste Fonctionnel SI Finance - Dématérialisation - 1 stage de fin d'études en pré-embauche F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/la-defense/analyste-fonctionnel-si-finance-dematerialisation-1-stage-de-fin-d-etudes-en-pre-embauche-f-h/1440/43828300928",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-14T14:43:54+00:00"
+  },
+  {
+   "id": "3b85bc26a8a6",
+   "company": "VINCI (dont ETF)",
+   "title": "AI Engineer - 1 stage de fin d'étude en pré-embauche F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/nanterre/ai-engineer-1-stage-de-fin-d-etude-en-pre-embauche-f-h/1440/43867372736",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-14T14:43:54+00:00"
+  },
+  {
+   "id": "e5831f21797e",
+   "company": "VINCI (dont ETF)",
+   "title": "Analyste PMO - 2 stages de fin d'études en pré-embauche F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/nanterre/analyste-pmo-2-stages-de-fin-d-etudes-en-pre-embauche-f-h/1440/43867371840",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-14T14:43:52+00:00"
+  },
+  {
+   "id": "18943f4751bd",
+   "company": "VINCI (dont ETF)",
+   "title": "Analyste Fonctionnel SIRH - 1 stage de fin d'études en pré-embauche F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/la-defense/analyste-fonctionnel-sirh-1-stage-de-fin-d-etudes-en-pre-embauche-f-h/1440/43838107840",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-14T14:43:52+00:00"
+  },
+  {
+   "id": "65bafa37b272",
+   "company": "VINCI (dont ETF)",
+   "title": "Analyste Fonctionnel SAP Achats - 1 stage de fin d'études en pré-embauche F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/la-defense/analyste-fonctionnel-sap-achats-1-stage-de-fin-d-etudes-en-pre-embauche-f-h/1440/43941592192",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-14T14:43:52+00:00"
+  },
+  {
+   "id": "5e0e1026619c",
+   "company": "VINCI (dont ETF)",
+   "title": "Analyste Fonctionnel - Référentiel - 1 stage de fin d'études en pré-embauche F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/nanterre/analyste-fonctionnel-referentiel-1-stage-de-fin-d-etudes-en-pre-embauche-f-h/1440/43867363520",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-14T14:43:52+00:00"
+  },
+  {
+   "id": "b861017aeec3",
+   "company": "VINCI (dont ETF)",
+   "title": "Analyste Dématérialisation des factures – Digital Finance F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/nanterre/analyste-dematerialisation-des-factures-digital-finance-f-h/1440/46427395840",
+   "reason": "expérience demandée ≥ 3 ans « pe de contrat : contrat a duree indeterminee niveau d'experience : superieur a 3 ans pour faciliter la lecture »",
+   "at": "2026-11-14T14:43:51+00:00"
+  },
+  {
+   "id": "744941745492",
+   "company": "VINCI (dont ETF)",
+   "title": "Stagiaire Analyste M&A - Business Development F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/nanterre/stagiaire-analyste-m-and-a-business-development-f-h/1440/44908701888",
+   "reason": "titre exclu (stagiaire)",
+   "at": "2026-11-14T14:43:51+00:00"
+  },
+  {
+   "id": "accd25c7a6da",
+   "company": "VINCI (dont ETF)",
+   "title": "Stage - Analyste fonctionnel SAP FI/CO F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/saint-denis/stage-analyste-fonctionnel-sap-fi-co-f-h/1440/44242198720",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-14T14:43:51+00:00"
+  },
+  {
+   "id": "e22dcc48acf7",
+   "company": "VINCI (dont ETF)",
+   "title": "Analyste PMO - 1 stage de fin d'études en pré-embauche F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/nanterre/analyste-pmo-1-stage-de-fin-d-etudes-en-pre-embauche-f-h/1440/43867371968",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-14T14:43:51+00:00"
+  },
+  {
+   "id": "29be9898d82c",
+   "company": "VINCI (dont ETF)",
+   "title": "CDI - Analyste développeur .Net/Angular F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/le-mans/cdi-analyste-developpeur-net-angular-f-h/1440/40115361600",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:43:49+00:00"
+  },
+  {
+   "id": "6a4fa5d16bcf",
+   "company": "VINCI (dont ETF)",
+   "title": "Analyste fonctionnel SAP HR Confirmé F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/saint-denis/analyste-fonctionnel-sap-hr-confirme-f-h/1440/45142234048",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-14T14:43:49+00:00"
+  },
+  {
+   "id": "a00845d9a3de",
+   "company": "VINCI (dont ETF)",
+   "title": "Stage - Analyste Fonctionnel SAP Logistique Deploiment F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/saint-denis/stage-analyste-fonctionnel-sap-logistique-deploiment-f-h/1440/44242198592",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-14T14:43:49+00:00"
+  },
+  {
+   "id": "59d652b355c9",
+   "company": "VINCI (dont ETF)",
+   "title": "Stage - Analyste SI intégration & Réorganisation F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/saint-denis/stage-analyste-si-integration-and-reorganisation-f-h/1440/44242197376",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-14T14:43:49+00:00"
+  },
+  {
+   "id": "777456bdf60c",
+   "company": "VINCI (dont ETF)",
+   "title": "Stage - Analyste Fonctionnel SAP Logistique Modular Solution F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/saint-denis/stage-analyste-fonctionnel-sap-logistique-modular-solution-f-h/1440/44242198400",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-14T14:43:49+00:00"
+  },
+  {
+   "id": "07f00a25f8b0",
+   "company": "VINCI (dont ETF)",
+   "title": "Analyste fonctionnel SAP HR Authorization Confirmé F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/saint-denis/analyste-fonctionnel-sap-hr-authorization-confirme-f-h/1440/44837176448",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-14T14:43:49+00:00"
+  },
+  {
+   "id": "7fd4b76a7504",
+   "company": "VINCI (dont ETF)",
+   "title": "Stage - Analyste fonctionnel SAP HR F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/saint-denis/stage-analyste-fonctionnel-sap-hr-f-h/1440/44478827392",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-14T14:43:49+00:00"
+  },
+  {
+   "id": "67a82f2a664a",
+   "company": "VINCI (dont ETF)",
+   "title": "Stage – Analyste fonctionnel UX Strategy F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/saint-denis/stage-analyste-fonctionnel-ux-strategy-f-h/1440/44242198464",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-14T14:43:49+00:00"
+  },
+  {
+   "id": "084c28ded85a",
+   "company": "VINCI (dont ETF)",
+   "title": "Analyste fonctionnel digitalisation F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/saint-denis/analyste-fonctionnel-digitalisation-f-h/1440/46391829248",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-14T14:43:47+00:00"
+  },
+  {
+   "id": "e5b7bbac4c21",
+   "company": "VINCI (dont ETF)",
+   "title": "CDI - Analyste Développeur Angular / .Net F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/le-mans/cdi-analyste-developpeur-angular-net-f-h/1440/40058011712",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:43:46+00:00"
+  },
+  {
+   "id": "df1d0e2d83ff",
+   "company": "VINCI (dont ETF)",
+   "title": "CDI - Analyste Développeur Frontend Angular F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/le-mans/cdi-analyste-developpeur-frontend-angular-f-h/1440/39652073984",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:43:45+00:00"
+  },
+  {
+   "id": "b2a92bef2e73",
+   "company": "VINCI (dont ETF)",
+   "title": "Stage - Analyste développeur .Net/Angular F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/le-mans/stage-analyste-developpeur-net-angular-f-h/1440/44214680000",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-14T14:43:44+00:00"
+  },
+  {
+   "id": "787491a690a0",
+   "company": "VINCI (dont ETF)",
+   "title": "PFE- Déploiement de solutions IA pour l'optimisation des outils logistiques et administratifs - NORD F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/aix-noulette/pfe-deploiement-de-solutions-ia-pour-l-optimisation-des-outils-logistiques-et-administratifs-nord-f/1440/43269170560",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:43:37+00:00"
+  },
+  {
+   "id": "f3faf33265f5",
+   "company": "VINCI (dont ETF)",
+   "title": "Stage Ingénieur Cybersecurité et IA F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/hauts-de-france/stage-ingenieur-cybersecurite-et-ia-f-h/1440/46625728128",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-14T14:43:37+00:00"
+  },
+  {
+   "id": "1fd7c557c104",
+   "company": "VINCI (dont ETF)",
+   "title": "Stagiaire analyste Développement Aéronautique F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/nanterre/stagiaire-analyste-developpement-aeronautique-f-h/1440/40288344384",
+   "reason": "titre exclu (stagiaire)",
+   "at": "2026-11-14T14:43:37+00:00"
+  },
+  {
+   "id": "35d5aea64a1e",
+   "company": "VINCI (dont ETF)",
+   "title": "Responsable d'affaires en IA F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/france/responsable-d-affaires-en-ia-f-h/1440/44000066752",
+   "reason": "expérience demandée ≥ 3 ans « pe de contrat : contrat a duree indeterminee niveau d'experience : superieur a 3 ans pour faciliter la lecture »",
+   "at": "2026-11-14T14:43:36+00:00"
+  },
+  {
+   "id": "9d2e3ed4ca1e",
+   "company": "VINCI (dont ETF)",
+   "title": "Responsable Transformation Digitale, IA, Cybersécurité & Solutions Logicielles F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/sorigny/responsable-transformation-digitale-ia-cybersecurite-and-solutions-logicielles-f-h/1440/46132313408",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:43:34+00:00"
+  },
+  {
+   "id": "2721bfa68c4b",
+   "company": "VINCI (dont ETF)",
+   "title": "Analyste Fonctionnel BI - 1 stage de fin d'études en pré-embauche F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/nanterre/analyste-fonctionnel-bi-1-stage-de-fin-d-etudes-en-pre-embauche-f-h/1440/43867370944",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-14T14:43:34+00:00"
+  },
+  {
+   "id": "a4e020aeeefa",
+   "company": "VINCI (dont ETF)",
+   "title": "Chef de projet IA/Data - 3 stages de fin d'études en pré-embauche F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/nanterre/chef-de-projet-ia-data-3-stages-de-fin-d-etudes-en-pre-embauche-f-h/1440/43867372416",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-14T14:43:33+00:00"
+  },
+  {
+   "id": "94c1d9b1d74e",
+   "company": "VINCI (dont ETF)",
+   "title": "Data Scientist - 1 stage de fin d'études en pré-embauche F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/nanterre/data-scientist-1-stage-de-fin-d-etudes-en-pre-embauche-f-h/1440/43867372160",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-14T14:43:33+00:00"
+  },
+  {
+   "id": "59b74cdcda2b",
+   "company": "VINCI (dont ETF)",
+   "title": "Chef de projet BI & Data - 1 stage de fin d'études en pré-embauche F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/nanterre/chef-de-projet-bi-and-data-1-stage-de-fin-d-etudes-en-pre-embauche-f-h/1440/43867371072",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-14T14:43:33+00:00"
+  },
+  {
+   "id": "f93af9e1cfd3",
+   "company": "VINCI (dont ETF)",
+   "title": "Alternance chargé(e) de Projet IA RH F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/nanterre/alternance-charge-e-de-projet-ia-rh-f-h/1440/45394604800",
+   "reason": "titre exclu (alternance)",
+   "at": "2026-11-14T14:43:33+00:00"
+  },
+  {
+   "id": "34d26ea7cf12",
+   "company": "VINCI (dont ETF)",
+   "title": "PFE 2027 Data / Power BI - Cartographie foncière (33) F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/merignac/pfe-2027-data-power-bi-cartographie-fonciere-33-f-h/1440/39652754304",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:43:32+00:00"
+  },
+  {
+   "id": "e341135ba3ae",
+   "company": "VINCI (dont ETF)",
+   "title": "Stage PFE - Data Scientist et Gestion de Projet F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/toulouse/stage-pfe-data-scientist-et-gestion-de-projet-f-h/1440/46882703872",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-14T14:43:32+00:00"
+  },
+  {
+   "id": "dd9183b4dbd6",
+   "company": "VINCI (dont ETF)",
+   "title": "Stagiaire Data Analyst – Commercial Data Performance F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/nanterre/stagiaire-data-analyst-commercial-data-performance-f-h/1440/45586465984",
+   "reason": "titre exclu (stagiaire)",
+   "at": "2026-11-14T14:43:29+00:00"
+  },
+  {
+   "id": "4920ff17daa3",
+   "company": "VINCI (dont ETF)",
+   "title": "Stagiaire data Analyste Visualisation F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/nanterre/stagiaire-data-analyste-visualisation-f-h/1440/44396821824",
+   "reason": "titre exclu (stagiaire)",
+   "at": "2026-11-14T14:43:29+00:00"
+  },
+  {
+   "id": "5cdadc357104",
+   "company": "VINCI (dont ETF)",
+   "title": "Responsable d'affaires Data Center CFO/CFA F/H F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/nanterre/responsable-d-affaires-data-center-cfo-cfa-f-h-f-h/1440/43492765184",
+   "reason": "titre exclu (data center)",
+   "at": "2026-11-14T14:43:29+00:00"
+  },
+  {
+   "id": "4ce1413392fd",
+   "company": "VINCI (dont ETF)",
+   "title": "Conducteur Travaux Principal Data centers F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/velizy-villacoublay/conducteur-travaux-principal-data-centers-f-h/1440/45736866432",
+   "reason": "titre exclu (principal)",
+   "at": "2026-11-14T14:43:29+00:00"
+  },
+  {
+   "id": "10154b97e152",
+   "company": "VINCI (dont ETF)",
+   "title": "Responsable d'études électricité DATA CENTER (CFO/CFA) F/H F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/nanterre/responsable-d-etudes-electricite-data-center-cfo-cfa-f-h-f-h/1440/44786944576",
+   "reason": "titre exclu (data center)",
+   "at": "2026-11-14T14:43:29+00:00"
+  },
+  {
+   "id": "bcc39d8ea40c",
+   "company": "VINCI (dont ETF)",
+   "title": "Responsable d'affaires Data Center F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/ile-de-france/responsable-d-affaires-data-center-f-h/1440/40559686976",
+   "reason": "titre exclu (data center)",
+   "at": "2026-11-14T14:43:29+00:00"
+  },
+  {
+   "id": "7dd8a8021188",
+   "company": "VINCI (dont ETF)",
+   "title": "Chef de Projet – Poste HTB – Data Center F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/rueil-malmaison/chef-de-projet-poste-htb-data-center-f-h/1440/42493613440",
+   "reason": "titre exclu (data center)",
+   "at": "2026-11-14T14:43:29+00:00"
+  },
+  {
+   "id": "1f637296646e",
+   "company": "VINCI (dont ETF)",
+   "title": "PFE – DATA CENTER : Etude de marché et retour d'expérience F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/aubervilliers/pfe-data-center-etude-de-marche-et-retour-d-experience-f-h/1440/42336727488",
+   "reason": "titre exclu (data center)",
+   "at": "2026-11-14T14:43:29+00:00"
+  },
+  {
+   "id": "7a96129f1db1",
+   "company": "VINCI (dont ETF)",
+   "title": "Stage - Ingénieur Méthodes Maintenance Industrielle & Data F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/velizy-villacoublay/stage-ingenieur-methodes-maintenance-industrielle-and-data-f-h/1440/45705580736",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-14T14:43:29+00:00"
+  },
+  {
+   "id": "b12967d5adb1",
+   "company": "VINCI (dont ETF)",
+   "title": "Stagiaire Analyste Etudes Trafic & Revenus – Mobilité & Data",
+   "url": "https://jobs.vinci.com/fr/emploi/nanterre/stagiaire-analyste-etudes-trafic-and-revenus-mobilite-and-data/1440/38931127168",
+   "reason": "titre exclu (stagiaire)",
+   "at": "2026-11-14T14:43:29+00:00"
+  },
+  {
+   "id": "553c3059600c",
+   "company": "VINCI (dont ETF)",
+   "title": "Responsable d'affaires génie électrique junior - Data Center - PFE F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/angers/responsable-d-affaires-genie-electrique-junior-data-center-pfe-f-h/1440/46617057664",
+   "reason": "titre exclu (data center)",
+   "at": "2026-11-14T14:43:29+00:00"
+  },
+  {
+   "id": "a6ad0f223535",
+   "company": "VINCI (dont ETF)",
+   "title": "Technicien de maintenance électrotechnique - Data Center - Aubagne F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/saint-aignan-sur-roe/technicien-de-maintenance-electrotechnique-data-center-aubagne-f-h/1440/39266356864",
+   "reason": "titre exclu (data center)",
+   "at": "2026-11-14T14:43:29+00:00"
+  },
+  {
+   "id": "8fb48de627ff",
+   "company": "TotalEnergies",
+   "title": "Energy Data Portfolio Analyst",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Energy-Data-Portfolio-Analyst/85787",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:43:12+00:00"
+  },
+  {
+   "id": "15651810d787",
+   "company": "TotalEnergies",
+   "title": "Financial Analyst I",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Financial-Analyst-I/85977",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:43:11+00:00"
+  },
+  {
+   "id": "4cd443067389",
+   "company": "TotalEnergies",
+   "title": "Middle Office Analyst, Power",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Middle-Office-Analyst-Power/86046",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:43:06+00:00"
+  },
+  {
+   "id": "f5cb996d2dc8",
+   "company": "TotalEnergies",
+   "title": "Market Analyst - US Power",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Market-Analyst-US-Power/86053",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:43:04+00:00"
+  },
+  {
+   "id": "7c7b941fbe3b",
+   "company": "TotalEnergies",
+   "title": "Operational Risk Analyst",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Operational-Risk-Analyst/86145",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:43:02+00:00"
+  },
+  {
+   "id": "b1548d64f082",
+   "company": "TotalEnergies",
+   "title": "Ingénieur Data Solaire et IA débutant H/F",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Ing-nieur-Data-Solaire-et-IA-d-butant-H-F/85164",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-14T14:43:00+00:00"
+  },
+  {
+   "id": "a68c88c1d572",
+   "company": "TotalEnergies",
+   "title": "Business Development Analyst",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Business-Development-Analyst/86092",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:42:58+00:00"
+  },
+  {
+   "id": "2f9ba7f20caa",
+   "company": "TotalEnergies",
+   "title": "Geoscientist - Safer wells through better data",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Geoscientist-Safer-wells-through-better-data/86201",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-14T14:42:57+00:00"
+  },
+  {
+   "id": "511b6929bcd7",
+   "company": "TotalEnergies",
+   "title": "Assistant data & reporting finance débutant H/F",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Assistant-data-reporting-finance-d-butant-H-F/86231",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-14T14:42:55+00:00"
+  },
+  {
+   "id": "011202f6056a",
+   "company": "AXA",
+   "title": "Chargé d'animation et d'acculturation IA - F/H - CDD WASQUEHAL",
+   "url": "https://careers.axa.com/jobs/35907",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-14T14:39:14+00:00"
+  },
+  {
+   "id": "b7c1eed77808",
+   "company": "BPCE",
+   "title": "Data Engineer F/H",
+   "url": "https://recrutement.bpce.fr/job/data-engineer-f-h",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:38:20+00:00"
+  },
+  {
+   "id": "4f795f0b347d",
+   "company": "BPCE",
+   "title": "Analyste Risques , Sud Service Accompagnement",
+   "url": "https://recrutement.bpce.fr/job/analyste-risques-sud-service-accompagnement",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:38:12+00:00"
+  },
+  {
+   "id": "9ba20f167267",
+   "company": "BPCE",
+   "title": "Data Analyst H/F - Orléans",
+   "url": "https://recrutement.bpce.fr/job/data-analyst-h-f-orleans",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:37:34+00:00"
+  },
+  {
+   "id": "2c7728331e8d",
+   "company": "BPCE",
+   "title": "Information Technology Risk 1LoD Analyst",
+   "url": "https://recrutement.bpce.fr/job/information-technology-risk-1lod-analyst",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:37:26+00:00"
+  },
+  {
+   "id": "1e375cba25ae",
+   "company": "BPCE",
+   "title": "Market Data & Access Support Engineer",
+   "url": "https://recrutement.bpce.fr/job/market-data-access-support-engineer",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:37:18+00:00"
+  },
+  {
+   "id": "9acdc7e7abee",
+   "company": "BPCE",
+   "title": "Analyste Risques de Crédits CDD (F/H) - Rennes (35)",
+   "url": "https://recrutement.bpce.fr/job/analyste-risques-de-credits-cdd-f-h-rennes-35",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:36:41+00:00"
+  },
+  {
+   "id": "b7d968e9dd84",
+   "company": "BPCE",
+   "title": "Analyste équipement informatique et téléphonie F/H",
+   "url": "https://recrutement.bpce.fr/job/analyste-equipement-informatique-et-telephonie-f-h",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:36:33+00:00"
+  },
+  {
+   "id": "192c515a5809",
+   "company": "BPCE",
+   "title": "Analyste crédit f/h",
+   "url": "https://recrutement.bpce.fr/job/analyste-credit-f-h",
+   "reason": "stage / alternance « region region type de contrat type de contrat v.i.e. 12 months - credit analyst f » (retirée)",
+   "at": "2026-11-14T14:36:25+00:00"
+  },
+  {
+   "id": "56cf454583b4",
+   "company": "BPCE",
+   "title": "Analyste conformité – RSSI et responsable du PCA (H/F)",
+   "url": "https://recrutement.bpce.fr/job/analyste-conformite-rssi-et-responsable-du-pca-h-f",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:35:59+00:00"
+  },
+  {
+   "id": "690e41651caa",
+   "company": "BPCE",
+   "title": "Data Scientist / Python (F/H) CDD 6 mois",
+   "url": "https://recrutement.bpce.fr/job/data-scientist-python-f-h-cdd-6-mois",
+   "reason": "expérience demandée ≥ 5 ans « ec nous ! de formation superieure, vous avez 5 annees d'experience dans des fo » (retirée)",
+   "at": "2026-11-14T14:35:51+00:00"
+  },
+  {
+   "id": "95335598b767",
+   "company": "BPCE",
+   "title": "Data Scientist F/H",
+   "url": "https://recrutement.bpce.fr/job/data-scientist-f-h",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:35:43+00:00"
+  },
+  {
+   "id": "dcdd4b6efa74",
+   "company": "BPCE",
+   "title": "Front Office Equity Application IT Support Analyst",
+   "url": "https://recrutement.bpce.fr/job/front-office-equity-application-it-support-analyst",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:35:34+00:00"
+  },
+  {
+   "id": "6fb7ec961e31",
+   "company": "BPCE",
+   "title": "Analyste Résultats (F/H)",
+   "url": "https://recrutement.bpce.fr/job/analyste-resultats-f-h",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « CDI \"Confirmé\" » (retirée)",
+   "at": "2026-11-14T14:35:17+00:00"
+  },
+  {
+   "id": "395c43a25473",
+   "company": "BPCE",
+   "title": "Analyste conformité (F/H)",
+   "url": "https://recrutement.bpce.fr/job/analyste-conformite-f-h-2",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:35:07+00:00"
+  },
+  {
+   "id": "e73f8701cff4",
+   "company": "Crédit Agricole",
+   "title": "Information Security Analyst M/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170477-4-information-security-analyst-mf-reference--2026-115637--/",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-14T14:33:12+00:00"
+  },
+  {
+   "id": "0b69d10b4edd",
+   "company": "Société Générale",
+   "title": "FinOps – Data ingestion, Data analysis & Dashboarding",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/finops-data-ingestion-data-analysis-dashboarding-26000N9V-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-14T14:32:26+00:00"
+  },
+  {
+   "id": "09c315287284",
+   "company": "Société Générale",
+   "title": "Responsable des contrôles du Front Office et de la transformation IA",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/responsable-des-controles-du-front-office-et-de-la-transformation-ia-26000ICI-fr",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:32:25+00:00"
+  },
+  {
+   "id": "d8fc879e7524",
+   "company": "Société Générale",
+   "title": "Analyste Support Applicatif (IA intégrée | Profil hybride Analyse Métier & Développement)",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-support-applicatif-ia-integree-profil-hybride-analyse-metier-developpement-26000FDD-fr",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:32:23+00:00"
+  },
+  {
+   "id": "33a4ac303926",
+   "company": "Société Générale",
+   "title": "Recherche appliquée en évaluation des modèles d'IA",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/recherche-appliquee-en-evaluation-des-modeles-dia-26000LRR-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-14T14:32:22+00:00"
+  },
+  {
+   "id": "204c9ec20068",
+   "company": "Société Générale",
+   "title": "Chargé de Développement et Adoption IA",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/charge-de-developpement-et-adoption-ia-26000LV4-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-14T14:32:20+00:00"
+  },
+  {
+   "id": "ba88b03f118f",
+   "company": "Société Générale",
+   "title": "Développeur IA Python / JavaScript",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/developpeur-ia-python-javascript-26000LW7-fr",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:32:20+00:00"
+  },
+  {
+   "id": "3a82f0c24646",
+   "company": "Société Générale",
+   "title": "Analyste IA Agentique – Automatisation de stratégies de trading",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-ia-agentique-automatisation-de-strategies-de-trading-26000N87-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-14T14:32:16+00:00"
+  },
+  {
+   "id": "7d7653cf64e9",
+   "company": "Société Générale",
+   "title": "Analyste quantitatif risques de marché - périmètre fixed income",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-quantitatif-risques-de-marche-perimetre-fixed-income-26000NHR-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-14T14:32:14+00:00"
+  },
+  {
+   "id": "d54f5127b2b7",
+   "company": "Société Générale",
+   "title": "Analyste Coverage & Investment Banking France",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-coverage-investment-banking-france-26000N2Y-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-14T14:32:13+00:00"
+  },
+  {
+   "id": "ee84062a3cf8",
+   "company": "Société Générale",
+   "title": "Analyste recherche Equity",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-recherche-equity-26000NB7-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-14T14:32:11+00:00"
+  },
+  {
+   "id": "44942ce3c30b",
+   "company": "Société Générale",
+   "title": "Analyste Coverage Institutions Financières",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-coverage-institutions-financieres-26000LR4-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-14T14:32:11+00:00"
+  },
+  {
+   "id": "d7dc89ce0963",
+   "company": "Société Générale",
+   "title": "Analyste Conformité",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-conformite-26000NM5-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-14T14:32:06+00:00"
+  },
+  {
+   "id": "af7eb16fd5a0",
+   "company": "Société Générale",
+   "title": "Analyste environnemental et social",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-environnemental-et-social-26000N59-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-14T14:32:04+00:00"
+  },
+  {
+   "id": "62338c7e2d90",
+   "company": "Société Générale",
+   "title": "Assistant ou analyste stratégiste",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/assistant-ou-analyste-strategiste-26000IW1-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-14T14:32:03+00:00"
+  },
+  {
+   "id": "66dfdf76ff29",
+   "company": "Alstom",
+   "title": "AI Project Specialist",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-AI-Project-Specialist/1448921933/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:29:59+00:00"
+  },
+  {
+   "id": "9c49838c4171",
+   "company": "Alstom",
+   "title": "AI Governance - Specialist",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-AI-Governance-Specialist/1400336433/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:29:57+00:00"
+  },
+  {
+   "id": "30f164c71980",
+   "company": "Alstom",
+   "title": "AI Engineer",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-AI-Engineer-KA/1424297033/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:29:56+00:00"
+  },
+  {
+   "id": "d7a0476b8c56",
+   "company": "Alstom",
+   "title": "Analyst - Intune",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Analyst-Intune-KA/1451215433/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:29:54+00:00"
+  },
+  {
+   "id": "7bf0f9b7c713",
+   "company": "Alstom",
+   "title": "Analyste Financier FP&A",
+   "url": "https://jobsearch.alstom.com/job/Saint-Bruno-Analyste-Financier-FP&A-QC/1452260533/",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-14T14:29:53+00:00"
+  },
+  {
+   "id": "7c7ca9f266fa",
+   "company": "Alstom",
+   "title": "FP&A Financial Analyst",
+   "url": "https://jobsearch.alstom.com/job/Saint-Bruno-FP&A-Financial-Analyst-QC/1452260433/",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-14T14:29:51+00:00"
+  },
+  {
+   "id": "312fdfc8d217",
+   "company": "Alstom",
+   "title": "Inter-company Analyst",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Inter-company-Analyst-KA/1452452233/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:29:50+00:00"
+  },
+  {
+   "id": "2d965cdd5cf2",
+   "company": "Alstom",
+   "title": "ServiceNow Analyst",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-ServiceNow-Analyst-KA/1452919533/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:29:48+00:00"
+  },
+  {
+   "id": "9483a5bb96c8",
+   "company": "Alstom",
+   "title": "Analyst - Filer & Print Services",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Analyst-Filer-&-Print-Services-KA/1373644133/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:29:38+00:00"
+  },
+  {
+   "id": "adef78330c82",
+   "company": "Alstom",
+   "title": "Analyst - End User Computing",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Analyst-End-User-Computing-KA/1392119533/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:29:37+00:00"
+  },
+  {
+   "id": "cac6de276ec8",
+   "company": "Alstom",
+   "title": "Support Analyst - Mercury",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Support-Analyst-Mercury-KA/1402744133/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:29:35+00:00"
+  },
+  {
+   "id": "d11e94bee492",
+   "company": "Alstom",
+   "title": "Network Security Analyst",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Network-Security-Analyst-KA/1453630433/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:29:34+00:00"
+  },
+  {
+   "id": "eda219f77239",
+   "company": "Alstom",
+   "title": "Technicien Analyste Testing",
+   "url": "https://jobsearch.alstom.com/job/Fez-Technicien-Analyste-Testing/1413348733/",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-14T14:29:32+00:00"
+  },
+  {
+   "id": "0db0da042162",
+   "company": "Alstom",
+   "title": "Methods Analyst 1",
+   "url": "https://jobsearch.alstom.com/job/Thunder-Bay-Methods-Analyst-1-ON/1444328233/",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-14T14:29:31+00:00"
+  },
+  {
+   "id": "c7048cf0ad41",
+   "company": "Alstom",
+   "title": "Data Catalog Analyst",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Data-Catalog-Analyst/1382503733/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:29:30+00:00"
+  },
+  {
+   "id": "e4ffd9296740",
+   "company": "Alstom",
+   "title": "Project Warranty Data Analyst [RS eLOCO]",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Project-Warranty-Data-Analyst-RS-eLOCO-KA/1445165933/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:29:29+00:00"
+  },
+  {
+   "id": "186bcad772c0",
+   "company": "Alstom",
+   "title": "FP&A Analyst",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-FP&A-Analyst-KA/1456292433/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:28:58+00:00"
+  },
+  {
+   "id": "7228a2511daf",
+   "company": "Alstom",
+   "title": "Data Solution Specialist",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Data-Solution-Specialist/1446478933/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:28:56+00:00"
+  },
+  {
+   "id": "435da67160e8",
+   "company": "Alstom",
+   "title": "Data Design and Delivery Specialist",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Data-Design-and-Delivery-Specialist/1446479733/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T14:28:55+00:00"
+  },
+  {
+   "id": "ddcae6bc176d",
+   "company": "Alstom",
+   "title": "Industrial Data Engineer",
+   "url": "https://jobsearch.alstom.com/job/Bangkok-Industrial-Data-Engineer-10/1457067233/",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-14T14:28:54+00:00"
+  },
+  {
+   "id": "37f347acf9dc",
+   "company": "Air France",
+   "title": "Analyste de vols - Revenue Management F/H",
+   "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25588&idOrigine=502&offerReference=2026-25588",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-14T14:27:55+00:00"
+  },
+  {
+   "id": "c06b72cd052d",
+   "company": "Air France",
+   "title": "Data Analyst Commercial - Digital Product F/H",
+   "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25773&idOrigine=502&offerReference=2026-25773",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-14T14:27:54+00:00"
+  },
+  {
+   "id": "759f43b511d7",
+   "company": "BPCE",
+   "title": "Chef de produits IARD F/H - Paris",
+   "url": "https://recrutement.bpce.fr/job/chef-de-produits-iard-f-h-paris",
+   "reason": "hors mots-clés (retirée)",
+   "at": "2026-11-14T14:27:50+00:00"
+  },
+  {
+   "id": "5675dc910ea4",
+   "company": "RATP Dev",
+   "title": "Aide-Mécanicien Itinérant",
+   "url": "https://carrieres.ratpdev.com/fr/annonce/4676595-aide-mecanicien-itinerant-grentheville",
+   "reason": "hors mots-clés (retirée)",
+   "at": "2026-11-14T14:27:50+00:00"
+  },
+  {
+   "id": "c7edd1713309",
+   "company": "Eiffage",
+   "title": "Aide Maçon VRD / Maçon VRD / Manoeuvre (H/F)",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Estrees-Saint-Denis/Aide-Maon-VRD---Maon-VRD---Manoeuvre--H-F-_JR2026-906",
+   "reason": "hors mots-clés (retirée)",
+   "at": "2026-11-14T14:27:50+00:00"
+  },
   {
    "id": "051c89d47939",
    "company": "UBS",
@@ -34,44 +1530,12 @@
    "at": "2026-11-14T11:26:51+00:00"
   },
   {
-   "id": "55e9e30f31b8",
-   "company": "Crédit Agricole",
-   "title": "Responsable d'équipe Sinistres IARD H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170478-137-responsable-d-equipe-sinistres-iard-hf-reference--2026-115634--/",
-   "reason": "lieu hors zones",
-   "at": "2026-11-14T00:55:02+00:00"
-  },
-  {
-   "id": "12794b5f03a5",
-   "company": "Crédit Agricole",
-   "title": "Responsable d'équipe Sinistres IARD H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170479-137--responsable-d-equipe-sinistres-iard-hf-reference--2026-115763--/",
-   "reason": "lieu hors zones",
-   "at": "2026-11-14T00:55:01+00:00"
-  },
-  {
    "id": "0b6484ce49df",
    "company": "Crédit Agricole",
    "title": "Chef de projet Gouvernance Data H/F",
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170477-122-chef-de-projet-gouvernance-data-hf-reference--2025-101544--/",
    "reason": "expérience demandée ≥ 3 ans « m2 et plus formation / specialisation master niveau d'experience minimum 3 - 5 ans competences recherchees - s »",
    "at": "2026-11-14T00:54:59+00:00"
-  },
-  {
-   "id": "b106861e1321",
-   "company": "ING",
-   "title": "Data Scientist Specialist",
-   "url": "https://careers.ing.com/en/job/silesia/data-scientist-specialist/3121/46131517440",
-   "reason": "lieu hors zones",
-   "at": "2026-11-13T19:50:30+00:00"
-  },
-  {
-   "id": "4b8e14ad7a3e",
-   "company": "ING",
-   "title": "Data Analyst (Credit Risk)",
-   "url": "https://careers.ing.com/en/job/makati-city/data-analyst-credit-risk/3121/46876483584",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-13T19:50:29+00:00"
   },
   {
    "id": "894f0176fb1d",
@@ -106,28 +1570,12 @@
    "at": "2026-11-13T19:47:37+00:00"
   },
   {
-   "id": "511b6929bcd7",
-   "company": "TotalEnergies",
-   "title": "Assistant data & reporting finance débutant H/F",
-   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Assistant-data-reporting-finance-d-butant-H-F/86231",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-13T19:46:00+00:00"
-  },
-  {
    "id": "31d9de454c5b",
    "company": "BPCE",
    "title": "Stage Data Analyst F/H",
    "url": "https://recrutement.bpce.fr/job/stage-data-analyst-f-h-2",
    "reason": "titre exclu (stage)",
    "at": "2026-11-13T19:43:07+00:00"
-  },
-  {
-   "id": "395c43a25473",
-   "company": "BPCE",
-   "title": "Analyste conformité (F/H)",
-   "url": "https://recrutement.bpce.fr/job/analyste-conformite-f-h-2",
-   "reason": "lieu hors zones",
-   "at": "2026-11-13T19:42:56+00:00"
   },
   {
    "id": "5c972cc8a6b5",
@@ -151,14 +1599,6 @@
    "title": "[STAGE] - Data analyst & modélisation",
    "url": "https://careers.societegenerale.com/offres-d-emploi/stage-data-analyst-modelisation-26000NML-fr",
    "reason": "titre exclu (stage)",
-   "at": "2026-11-13T19:41:06+00:00"
-  },
-  {
-   "id": "0b69d10b4edd",
-   "company": "Société Générale",
-   "title": "FinOps – Data ingestion, Data analysis & Dashboarding",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/finops-data-ingestion-data-analysis-dashboarding-26000N9V-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
    "at": "2026-11-13T19:41:06+00:00"
   },
   {
@@ -258,22 +1698,6 @@
    "at": "2026-11-13T12:10:10+00:00"
   },
   {
-   "id": "a6c2a518b025",
-   "company": "Crédit Agricole",
-   "title": "Assistant Data IPV Equity H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-assistant-data-ipv-equity-hf-reference--2026-117434--/",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-13T12:08:57+00:00"
-  },
-  {
-   "id": "1062fe88b86b",
-   "company": "Crédit Agricole",
-   "title": "Analyste Quantitatif - Deal Flow H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-quantitatif---deal-flow-hf-reference--2026-116128--/",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-13T12:08:56+00:00"
-  },
-  {
    "id": "a6e953223fd5",
    "company": "Crédit Agricole",
    "title": "Senior Analyste Risques Entreprises – Etudes et Projets H/F",
@@ -288,14 +1712,6 @@
    "url": "https://careers.societegenerale.com/offres-d-emploi/chief-ia-architect-26000C10-fr",
    "reason": "titre exclu (chief)",
    "at": "2026-11-13T12:08:28+00:00"
-  },
-  {
-   "id": "ddcae6bc176d",
-   "company": "Alstom",
-   "title": "Industrial Data Engineer",
-   "url": "https://jobsearch.alstom.com/job/Bangkok-Industrial-Data-Engineer-10/1457067233/",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-13T12:06:57+00:00"
   },
   {
    "id": "e190e0eda636",
@@ -346,14 +1762,6 @@
    "at": "2026-11-12T20:38:15+00:00"
   },
   {
-   "id": "ddaac9efbd2a",
-   "company": "ING",
-   "title": "Junior AI Engineer",
-   "url": "https://careers.ing.com/en/job/madrid/junior-ai-engineer/3121/46847880448",
-   "reason": "lieu hors zones",
-   "at": "2026-11-12T20:38:15+00:00"
-  },
-  {
    "id": "d3c98e656c30",
    "company": "jobup.ch",
    "title": "Senior Business Analyst - Value Stream Anlegen",
@@ -394,14 +1802,6 @@
    "at": "2026-11-12T20:34:56+00:00"
   },
   {
-   "id": "2f9ba7f20caa",
-   "company": "TotalEnergies",
-   "title": "Geoscientist - Safer wells through better data",
-   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Geoscientist-Safer-wells-through-better-data/86201",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-12T20:33:43+00:00"
-  },
-  {
    "id": "ac53652f663d",
    "company": "TotalEnergies",
    "title": "Quantitative Market Analyst - EU Power",
@@ -423,14 +1823,6 @@
    "title": "Data Scientist (F/H) - stage",
    "url": "https://careers.axa.com/jobs/37388",
    "reason": "titre exclu (stage)",
-   "at": "2026-11-12T20:31:36+00:00"
-  },
-  {
-   "id": "264cf23c80f9",
-   "company": "AXA",
-   "title": "Test Analyst – Motor & Home",
-   "url": "https://careers.axa.com/jobs/28613",
-   "reason": "lieu inconnu ou hors zones",
    "at": "2026-11-12T20:31:36+00:00"
   },
   {
@@ -506,14 +1898,6 @@
    "at": "2026-11-12T20:28:52+00:00"
   },
   {
-   "id": "7d7653cf64e9",
-   "company": "Société Générale",
-   "title": "Analyste quantitatif risques de marché - périmètre fixed income",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-quantitatif-risques-de-marche-perimetre-fixed-income-26000NHR-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-12T20:28:51+00:00"
-  },
-  {
    "id": "c4e5819bd6bb",
    "company": "Alstom",
    "title": "HR Data Analyst (H/F) - CDD",
@@ -528,46 +1912,6 @@
    "url": "https://jobsearch.alstom.com/job/Saint-Ouen-Stage-HR-Data-Analyst-%28HF%29-J/1456989133/",
    "reason": "titre exclu (stage)",
    "at": "2026-11-12T20:27:12+00:00"
-  },
-  {
-   "id": "f19c1a4dff46",
-   "company": "RATP Dev",
-   "title": "Transit Driver (CDL must have Passenger Endorsement & Airbrakes)",
-   "url": "https://careers.ratpdevusa.com/fr/annonce/4690657-transit-driver-cdl-must-have-passenger-endorsement-airbrakes-34601-brooksville",
-   "reason": "lieu hors zones",
-   "at": "2026-11-12T20:27:02+00:00"
-  },
-  {
-   "id": "db58ff7e6b32",
-   "company": "SNCF",
-   "title": "Aiguilleur du rail (F/H) - CDI - METZ",
-   "url": "https://emploi.sncf.com/nos-offres/882767",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-12T20:26:47+00:00"
-  },
-  {
-   "id": "3d4d0b29e430",
-   "company": "SNCF",
-   "title": "Aiguilleur du rail (F/H) - CDI - Bourg en Bresse",
-   "url": "https://emploi.sncf.com/nos-offres/863636",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-12T20:26:46+00:00"
-  },
-  {
-   "id": "c06b72cd052d",
-   "company": "Air France",
-   "title": "Data Analyst Commercial - Digital Product F/H",
-   "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25773&idOrigine=502&offerReference=2026-25773",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-12T20:26:44+00:00"
-  },
-  {
-   "id": "3b82d0b8a270",
-   "company": "SIX Group",
-   "title": "Treasury Analyst",
-   "url": "https://jobs.six-group.com/job/Las-Rozas-de-Madrid-Treasury-Analyst/1456785333/",
-   "reason": "lieu hors zones",
-   "at": "2026-11-12T12:45:36+00:00"
   },
   {
    "id": "5ae0c7dee86b",
@@ -632,14 +1976,6 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170477-3-architecte-technique-ia-hf-reference--2026-114898--/",
    "reason": "titre exclu (architecte)",
    "at": "2026-11-12T12:37:57+00:00"
-  },
-  {
-   "id": "e52b5339e9a4",
-   "company": "UBS",
-   "title": "AI Algo Quant Developer",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=352341",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-12T10:27:41+00:00"
   },
   {
    "id": "5d3681ed8834",
@@ -730,14 +2066,6 @@
    "at": "2026-11-12T10:25:06+00:00"
   },
   {
-   "id": "a68c88c1d572",
-   "company": "TotalEnergies",
-   "title": "Business Development Analyst",
-   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Business-Development-Analyst/86092",
-   "reason": "lieu hors zones",
-   "at": "2026-11-12T10:23:58+00:00"
-  },
-  {
    "id": "eb1dccc66861",
    "company": "AXA",
    "title": "Head of AI Security",
@@ -760,14 +2088,6 @@
    "url": "https://jobsearch.alstom.com/job/Cluj-Napoca-Senior-Business-Data-Analyst-CJ/1456721433/",
    "reason": "titre exclu (senior)",
    "at": "2026-11-12T10:17:30+00:00"
-  },
-  {
-   "id": "7c7b941fbe3b",
-   "company": "TotalEnergies",
-   "title": "Operational Risk Analyst",
-   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Operational-Risk-Analyst/86145",
-   "reason": "lieu hors zones",
-   "at": "2026-11-12T01:47:14+00:00"
   },
   {
    "id": "43f0004c3951",
@@ -800,14 +2120,6 @@
    "url": "https://careers.ing.com/en/job/amsterdam/data-and-ai-adoption-intern/3121/46824250816",
    "reason": "titre exclu (intern)",
    "at": "2026-11-11T19:43:11+00:00"
-  },
-  {
-   "id": "8f5c06ec3667",
-   "company": "UBS",
-   "title": "Forward-Deployed AI Engineer",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=353201",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-11T19:42:31+00:00"
   },
   {
    "id": "4959d2a942c6",
@@ -882,36 +2194,12 @@
    "at": "2026-11-11T19:40:13+00:00"
   },
   {
-   "id": "69a2a6325500",
-   "company": "Orange",
-   "title": "Cyber Security Analyst",
-   "url": "https://orange.jobs/fr/fr/job/ICM-589203/Cyber-Security-Analyst",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-11T19:40:01+00:00"
-  },
-  {
-   "id": "e098348a73d5",
-   "company": "TotalEnergies",
-   "title": "Operational Risk Analyst (Contract)",
-   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Operational-Risk-Analyst-Contract/86142",
-   "reason": "lieu hors zones",
-   "at": "2026-11-11T19:39:05+00:00"
-  },
-  {
    "id": "5a9abf336588",
    "company": "TotalEnergies",
    "title": "Reporting Analyst: Power & Cost Efficiency – Intern",
    "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Reporting-Analyst-Power-Cost-Efficiency-Intern/86012",
    "reason": "titre exclu (intern)",
    "at": "2026-11-11T19:39:05+00:00"
-  },
-  {
-   "id": "4f61c0a60fd9",
-   "company": "AXA",
-   "title": "Credit Control Analyst",
-   "url": "https://careers.axa.com/jobs/30538",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-11T19:36:59+00:00"
   },
   {
    "id": "c47cbd974fcb",
@@ -936,14 +2224,6 @@
    "url": "https://emploi.sncf.com/nos-offres/887511",
    "reason": "expérience demandée ≥ 6 ans « un, seine et marne (77) cdi de 3 a 5 ans, de 6 a 10 ans, moins de 3 ans, debutan »",
    "at": "2026-11-11T19:32:27+00:00"
-  },
-  {
-   "id": "815b72d80d57",
-   "company": "UBS",
-   "title": "Agentic AI Specialist",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=351196",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-11T11:59:37+00:00"
   },
   {
    "id": "656bcef476bd",
@@ -1026,14 +2306,6 @@
    "at": "2026-11-11T11:54:22+00:00"
   },
   {
-   "id": "186bcad772c0",
-   "company": "Alstom",
-   "title": "FP&A Analyst",
-   "url": "https://jobsearch.alstom.com/job/Bangalore-FP&A-Analyst-KA/1456292433/",
-   "reason": "lieu hors zones",
-   "at": "2026-11-11T11:50:18+00:00"
-  },
-  {
    "id": "3ff91b6f12aa",
    "company": "Alstom",
    "title": "Ingénieur Data (F/M/X)",
@@ -1066,14 +2338,6 @@
    "at": "2026-11-11T00:45:31+00:00"
   },
   {
-   "id": "bdd157e12a6b",
-   "company": "Orange",
-   "title": "Data Analyst Consultant",
-   "url": "https://orange.jobs/fr/fr/job/TOB-8447986/Data-Analyst-Consultant",
-   "reason": "lieu hors zones",
-   "at": "2026-11-11T00:45:18+00:00"
-  },
-  {
    "id": "25857022263f",
    "company": "BPCE",
    "title": "Stage - Analyste Fusions-Acquisitions F/H - OTOKTONE - Nantes (44)",
@@ -1096,14 +2360,6 @@
    "url": "https://careers.societegenerale.com/offres-d-emploi/senior-credit-analyst-corporates-2600028G-fr",
    "reason": "titre exclu (senior)",
    "at": "2026-11-11T00:39:58+00:00"
-  },
-  {
-   "id": "6cead9ee1567",
-   "company": "ING",
-   "title": "Data Engineer",
-   "url": "https://careers.ing.com/en/job/makati-city/data-engineer/3121/46605579392",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-10T20:10:09+00:00"
   },
   {
    "id": "5e19a940a01a",
@@ -1170,70 +2426,6 @@
    "at": "2026-11-10T20:03:38+00:00"
   },
   {
-   "id": "d08a454340ae",
-   "company": "Crédit Agricole",
-   "title": "Analyste Trading Équité Structurée H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-trading-quite-structuree-hf-reference--2026-117360--/",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-10T20:02:24+00:00"
-  },
-  {
-   "id": "d7dc89ce0963",
-   "company": "Société Générale",
-   "title": "Analyste Conformité",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-conformite-26000NM5-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-10T20:01:54+00:00"
-  },
-  {
-   "id": "037079a60bfc",
-   "company": "Société Générale",
-   "title": "Analyste Debt Capital Markets - Obligations Durables",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-debt-capital-markets-obligations-durables-26000K4A-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-10T20:01:53+00:00"
-  },
-  {
-   "id": "d54f5127b2b7",
-   "company": "Société Générale",
-   "title": "Analyste Coverage & Investment Banking France",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-coverage-investment-banking-france-26000N2Y-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-10T20:01:51+00:00"
-  },
-  {
-   "id": "ee84062a3cf8",
-   "company": "Société Générale",
-   "title": "Analyste recherche Equity",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-recherche-equity-26000NB7-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-10T20:01:50+00:00"
-  },
-  {
-   "id": "3a82f0c24646",
-   "company": "Société Générale",
-   "title": "Analyste IA Agentique – Automatisation de stratégies de trading",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-ia-agentique-automatisation-de-strategies-de-trading-26000N87-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-10T20:01:49+00:00"
-  },
-  {
-   "id": "c48a4f6ac58b",
-   "company": "ING",
-   "title": "Digital Sales Analyst",
-   "url": "https://careers.ing.com/en/job/sydney/digital-sales-analyst/3121/38609325760",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-10T12:43:00+00:00"
-  },
-  {
-   "id": "71ecf8bc747e",
-   "company": "SIX Group",
-   "title": "SOC Detection & Response Analyst",
-   "url": "https://jobs.six-group.com/job/Las-Rozas-de-Madrid-SOC-Detection-&-Response-Analyst/1416240433/",
-   "reason": "lieu hors zones",
-   "at": "2026-11-10T12:42:28+00:00"
-  },
-  {
    "id": "c144d76f2905",
    "company": "jobup.ch",
    "title": "Datenbankspezialist:in Data Warehouse (m/w/d)",
@@ -1258,44 +2450,12 @@
    "at": "2026-11-10T12:39:55+00:00"
   },
   {
-   "id": "f91c15536f0a",
-   "company": "Orange",
-   "title": "AI Analyst",
-   "url": "https://orange.jobs/fr/fr/job/ERC-600023-20136094/AI-Analyst",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-10T12:39:52+00:00"
-  },
-  {
    "id": "87bffd8800e3",
    "company": "BPCE",
    "title": "Data Analyst (F/H)",
    "url": "https://recrutement.bpce.fr/job/data-analyst-f-h",
    "reason": "expérience demandée ≥ 5 ans « ngenieur, commerce ou universite), vous avez 5 ans minimum d'experience dan »",
    "at": "2026-11-10T12:36:12+00:00"
-  },
-  {
-   "id": "6412a140af06",
-   "company": "Crédit Agricole",
-   "title": "Business Analyst",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170477-4-business-analyst-reference--2026-117343--/",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-10T12:34:47+00:00"
-  },
-  {
-   "id": "d3a2ac0096b3",
-   "company": "Crédit Agricole",
-   "title": "Analyste Risques Marché Equité H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-risques-marche-equite-hf-reference--2026-117350--/",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-10T12:34:45+00:00"
-  },
-  {
-   "id": "3e629481bd6a",
-   "company": "SNCF",
-   "title": "Aiguilleur du rail (F/H)-CDI-Andelot-en-Montagne",
-   "url": "https://emploi.sncf.com/nos-offres/889627",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-10T12:32:16+00:00"
   },
   {
    "id": "74c1b87122bb",
@@ -1354,14 +2514,6 @@
    "at": "2026-11-10T09:35:00+00:00"
   },
   {
-   "id": "2c14e97cb051",
-   "company": "Orange",
-   "title": "Salesforce/CRM Business Analyst",
-   "url": "https://orange.jobs/fr/fr/job/ICM-588600/Salesforce-CRM-Business-Analyst",
-   "reason": "lieu hors zones",
-   "at": "2026-11-10T09:34:57+00:00"
-  },
-  {
    "id": "6b2f0e9a0421",
    "company": "Orange",
    "title": "Network Pricing Analyst",
@@ -1410,14 +2562,6 @@
    "at": "2026-11-10T09:27:28+00:00"
   },
   {
-   "id": "679cfa5ed396",
-   "company": "UBS",
-   "title": "HOLT Production & Model Research Analyst",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=353029",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-09T21:42:45+00:00"
-  },
-  {
    "id": "b74856fc3ba1",
    "company": "jobup.ch",
    "title": "Geneva · Hybride CDI - Consultant·e infrastructure IBM Power / AIX – Automatisation Ansible (60–80 %)",
@@ -1434,28 +2578,12 @@
    "at": "2026-11-09T21:40:39+00:00"
   },
   {
-   "id": "4cd443067389",
-   "company": "TotalEnergies",
-   "title": "Middle Office Analyst, Power",
-   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Middle-Office-Analyst-Power/86046",
-   "reason": "lieu hors zones",
-   "at": "2026-11-09T21:39:29+00:00"
-  },
-  {
    "id": "c48acbbcc9cc",
    "company": "TotalEnergies",
    "title": "LEAD DATA ENGINEER SENIOR",
    "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/LEAD-DATA-ENGINEER-SENIOR/86041",
    "reason": "titre exclu (lead)",
    "at": "2026-11-09T21:39:29+00:00"
-  },
-  {
-   "id": "f5cb996d2dc8",
-   "company": "TotalEnergies",
-   "title": "Market Analyst - US Power",
-   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Market-Analyst-US-Power/86053",
-   "reason": "lieu hors zones",
-   "at": "2026-11-09T21:39:27+00:00"
   },
   {
    "id": "82c3a897aee0",
@@ -1498,14 +2626,6 @@
    "at": "2026-11-09T21:36:12+00:00"
   },
   {
-   "id": "8d9a53576853",
-   "company": "Crédit Agricole",
-   "title": "Coverage Analyst",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170466-4-coverage-analyst-reference--2026-117317--/",
-   "reason": "lieu hors zones",
-   "at": "2026-11-09T21:34:46+00:00"
-  },
-  {
    "id": "ccf02885c2c3",
    "company": "Crédit Agricole",
    "title": "Stagiaire - Data Science & IA H/F",
@@ -1522,14 +2642,6 @@
    "at": "2026-11-09T21:34:46+00:00"
   },
   {
-   "id": "39e859265ff9",
-   "company": "Crédit Agricole",
-   "title": "Coverage Analyst M/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170466-4-coverage-analyst-mf-reference--2026-117321--/",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-09T21:34:45+00:00"
-  },
-  {
    "id": "ea4f1d940c85",
    "company": "Crédit Agricole",
    "title": "Stage- Investment Risk Data Analyst H/F",
@@ -1544,22 +2656,6 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170469-124-stagiaire-ai-compliance-hf-reference--2026-117322--/",
    "reason": "titre exclu (stagiaire)",
    "at": "2026-11-09T21:34:43+00:00"
-  },
-  {
-   "id": "af7eb16fd5a0",
-   "company": "Société Générale",
-   "title": "Analyste environnemental et social",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-environnemental-et-social-26000N59-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-09T21:34:17+00:00"
-  },
-  {
-   "id": "d8fc879e7524",
-   "company": "Société Générale",
-   "title": "Analyste Support Applicatif (IA intégrée | Profil hybride Analyse Métier & Développement)",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-support-applicatif-ia-integree-profil-hybride-analyse-metier-developpement-26000FDD-fr",
-   "reason": "lieu hors zones",
-   "at": "2026-11-09T21:34:16+00:00"
   },
   {
    "id": "5cfe52dfc244",
@@ -1584,14 +2680,6 @@
    "url": "https://jobsearch.alstom.com/job/Saint-Ouen-Internship-6-months-Intern-Treasury-x-AI-&-Automation-Projects-HF/1453463333/",
    "reason": "titre exclu (internship)",
    "at": "2026-11-09T21:32:24+00:00"
-  },
-  {
-   "id": "a8710b9c0525",
-   "company": "SNCF",
-   "title": "Aiguilleur du rail (F/H) - CDI - Toulouse",
-   "url": "https://emploi.sncf.com/nos-offres/750782",
-   "reason": "lieu hors zones",
-   "at": "2026-11-09T21:32:02+00:00"
   },
   {
    "id": "2373f322ce0f",
@@ -1682,14 +2770,6 @@
    "at": "2026-11-09T12:50:07+00:00"
   },
   {
-   "id": "51fcdaf9eb44",
-   "company": "Crédit Agricole",
-   "title": "Analyste Portefeuille Crédit Export H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-portefeuille-credit-export-hf-reference--2026-117302--/",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-09T12:48:52+00:00"
-  },
-  {
    "id": "1111d5131c01",
    "company": "Crédit Agricole",
    "title": "Lead Security IA H/F",
@@ -1712,22 +2792,6 @@
    "url": "https://www.jobs.ch/fr/offres-emplois/detail/576e685a-70cb-4bab-afcf-9a42894b429f/",
    "reason": "titre exclu (senior)",
    "at": "2026-11-09T01:20:07+00:00"
-  },
-  {
-   "id": "e670779e2d82",
-   "company": "Crédit Agricole",
-   "title": "Data & Reporting Analyst H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-data-et-reporting-analyst-hf-reference--2026-115082--/",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-09T01:14:57+00:00"
-  },
-  {
-   "id": "00f48b28cb24",
-   "company": "Crédit Agricole",
-   "title": "Analyste Coverage - Fonds d'infrastructure et de Private Equity H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170478-4-analyste-coverage---fonds-d-infrastructure-et-de-private-equity-hf-reference--2026-116035--/",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-09T01:14:56+00:00"
   },
   {
    "id": "f8077ebc2aa3",
@@ -1760,14 +2824,6 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-122-stage---assistante-chef-de-projet-ia-hf-reference--2026-116068--/",
    "reason": "titre exclu (stage)",
    "at": "2026-11-09T01:14:54+00:00"
-  },
-  {
-   "id": "eca5bceeb42f",
-   "company": "Orange",
-   "title": "Cyber Security Analyst",
-   "url": "https://orange.jobs/fr/fr/job/TMT-8430499/Cyber-Security-Analyst",
-   "reason": "lieu hors zones",
-   "at": "2026-11-08T21:29:07+00:00"
   },
   {
    "id": "a29e5f89438b",
@@ -1808,30 +2864,6 @@
    "url": "https://www.jobs.ch/fr/offres-emplois/detail/0b761063-8716-42e5-896f-f2dc24aa98d5/",
    "reason": "titre exclu (lead)",
    "at": "2026-11-08T11:21:49+00:00"
-  },
-  {
-   "id": "2f9b0c45429a",
-   "company": "Crédit Agricole",
-   "title": "Responsable d'équipe Sinistres IARD H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170479-137-responsable-d-equipe-sinistres-iard-hf-reference--2026-114725--/",
-   "reason": "lieu hors zones",
-   "at": "2026-11-08T00:33:54+00:00"
-  },
-  {
-   "id": "9e1f5876e2cb",
-   "company": "Crédit Agricole",
-   "title": "Assistant Projets IA & Machine Learning H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-assistant-projets-ia-et-machine-learning-hf-reference--2026-111255--/",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-08T00:33:50+00:00"
-  },
-  {
-   "id": "bbecd6c15e88",
-   "company": "Crédit Agricole",
-   "title": "Analyste Coverage H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-coverage-hf-reference--2026-116954--/",
-   "reason": "lieu hors zones",
-   "at": "2026-11-08T00:33:49+00:00"
   },
   {
    "id": "6ef4938505b3",
@@ -1922,22 +2954,6 @@
    "at": "2026-11-07T11:07:48+00:00"
   },
   {
-   "id": "34dd4e88fcfb",
-   "company": "Orange",
-   "title": "Developer DATA IA (F/H) F/H",
-   "url": "https://orange.jobs/fr/fr/job/CTS-2026-55223/Developer-DATA-IA-F-H-F-H",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-07T11:07:26+00:00"
-  },
-  {
-   "id": "dcdd4b6efa74",
-   "company": "BPCE",
-   "title": "Front Office Equity Application IT Support Analyst",
-   "url": "https://recrutement.bpce.fr/job/front-office-equity-application-it-support-analyst",
-   "reason": "lieu hors zones",
-   "at": "2026-11-07T11:03:53+00:00"
-  },
-  {
    "id": "c08bb2a109d2",
    "company": "jobs.ch",
    "title": "Data Governance Specialist Siemens SI Buildings 80-100%",
@@ -1960,30 +2976,6 @@
    "url": "https://www.jobup.ch/fr/emplois/detail/fa3f1e58-2a65-40dd-86c3-dc99ffdda2c2/",
    "reason": "expérience demandée ≥ 3 ans « nance, economie, gestion), vous justifiez de 3 a 5 ans d'experience en controle »",
    "at": "2026-11-06T23:56:23+00:00"
-  },
-  {
-   "id": "5b4b8c822bf4",
-   "company": "Crédit Agricole",
-   "title": "Sustainable Banking Analyst H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170466-4-sustainable-banking-analyst-hf-reference--2026-116893--/",
-   "reason": "lieu hors zones",
-   "at": "2026-11-06T23:51:08+00:00"
-  },
-  {
-   "id": "d88b678e3e05",
-   "company": "Crédit Agricole",
-   "title": "Analyst - COO Office M/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170466-4-analyst---coo-office-mf-reference--2026-116904--/",
-   "reason": "lieu hors zones",
-   "at": "2026-11-06T23:51:07+00:00"
-  },
-  {
-   "id": "5d9f01dd9020",
-   "company": "ING",
-   "title": "Product Owner - IT Business Analyst",
-   "url": "https://careers.ing.com/en/job/katowice/product-owner-it-business-analyst/3121/46673339328",
-   "reason": "lieu hors zones",
-   "at": "2026-11-06T19:29:33+00:00"
   },
   {
    "id": "2f3b8f749e96",
@@ -2050,68 +3042,12 @@
    "at": "2026-11-06T19:21:11+00:00"
   },
   {
-   "id": "c9729fa18470",
-   "company": "Société Générale",
-   "title": "Analyste risques de marché - contrepartie",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-risques-de-marche-contrepartie-26000N3M-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-06T19:20:42+00:00"
-  },
-  {
-   "id": "d7c7cd67e302",
-   "company": "Société Générale",
-   "title": "Analyste Cybersecurité",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-cybersecurite-26000N2Q-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-06T19:20:41+00:00"
-  },
-  {
-   "id": "0e2cca13d02f",
-   "company": "Société Générale",
-   "title": "Data Analyst & Business Intelligence",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/data-analyst-business-intelligence-26000N2O-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-06T19:20:40+00:00"
-  },
-  {
-   "id": "c352e1fd4458",
-   "company": "Société Générale",
-   "title": "Analyste Coverage Grands Comptes",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-coverage-grands-comptes-26000L6U-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-06T19:20:38+00:00"
-  },
-  {
-   "id": "c90b26413692",
-   "company": "Société Générale",
-   "title": "Analyste Coverage & Investment Banking France",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-coverage-investment-banking-france-26000M4A-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-06T19:20:36+00:00"
-  },
-  {
-   "id": "33a4ac303926",
-   "company": "Société Générale",
-   "title": "Recherche appliquée en évaluation des modèles d'IA",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/recherche-appliquee-en-evaluation-des-modeles-dia-26000LRR-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-06T19:20:35+00:00"
-  },
-  {
    "id": "dc45d4605986",
    "company": "Air France",
    "title": "Business Architect Data F/H",
    "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25699&idOrigine=502&offerReference=2026-25699",
    "reason": "titre exclu (architect)",
    "at": "2026-11-06T19:18:20+00:00"
-  },
-  {
-   "id": "b2a92580e803",
-   "company": "UBS",
-   "title": "AI Quant Developer, FX Options E-Trading",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=352688",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-06T12:15:10+00:00"
   },
   {
    "id": "e60278fe6a51",
@@ -2178,14 +3114,6 @@
    "at": "2026-11-06T12:08:40+00:00"
   },
   {
-   "id": "95335598b767",
-   "company": "BPCE",
-   "title": "Data Scientist F/H",
-   "url": "https://recrutement.bpce.fr/job/data-scientist-f-h",
-   "reason": "lieu hors zones",
-   "at": "2026-11-06T12:04:42+00:00"
-  },
-  {
    "id": "ba8a6c2a6fed",
    "company": "BPCE",
    "title": "Stage - 6 mois - Data Analyst - F/H",
@@ -2216,22 +3144,6 @@
    "url": "https://jobsearch.alstom.com/job/Bangalore-Data-Integration-Architect-KA/523716701/",
    "reason": "titre exclu (architect)",
    "at": "2026-11-06T12:01:08+00:00"
-  },
-  {
-   "id": "9db507d25f26",
-   "company": "SNCF",
-   "title": "Aiguilleur du rail (F/H) - CDI - AURILLAC",
-   "url": "https://emploi.sncf.com/nos-offres/884397",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-06T12:00:39+00:00"
-  },
-  {
-   "id": "44266b88255a",
-   "company": "SNCF",
-   "title": "Aiguilleur du rail (F/H) - CDI - LIMOGES",
-   "url": "https://emploi.sncf.com/nos-offres/799201",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-06T12:00:38+00:00"
   },
   {
    "id": "78c997631ef1",
@@ -2266,36 +3178,12 @@
    "at": "2026-11-06T01:23:16+00:00"
   },
   {
-   "id": "88c9ed527ec6",
-   "company": "Orange",
-   "title": "Business Analyst F/H",
-   "url": "https://orange.jobs/fr/fr/job/IOS-2026-2720/Business-Analyst-F-H",
-   "reason": "lieu hors zones",
-   "at": "2026-11-06T01:22:27+00:00"
-  },
-  {
    "id": "5e9178c818bd",
    "company": "AXA",
    "title": "Stagiaire en Data/Actuariat (F/H)",
    "url": "https://careers.axa.com/jobs/37577",
    "reason": "titre exclu (stagiaire)",
    "at": "2026-11-06T01:19:38+00:00"
-  },
-  {
-   "id": "91e51149ea34",
-   "company": "Crédit Agricole",
-   "title": "Credit Analyst - Nordic Countries M/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170466-4-credit-analyst---nordic-countries-mf-reference--2026-115859--/",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-06T01:17:34+00:00"
-  },
-  {
-   "id": "d0905844b7e5",
-   "company": "Crédit Agricole",
-   "title": "M&A Analyst F/M",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170466-4-meta-analyst-fm-reference--2026-116059--/",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-06T01:17:33+00:00"
   },
   {
    "id": "bb35a5173084",
@@ -2378,22 +3266,6 @@
    "at": "2026-11-05T20:23:21+00:00"
   },
   {
-   "id": "4ed6ecbf128e",
-   "company": "TotalEnergies",
-   "title": "Analyste Trésorerie Débutant - Contrats Engagements et Conformité H/F",
-   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Analyste-Tr-sorerie-D-butant-Contrats-Engagements-et-Conformit-H-F/85965",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-05T20:22:10+00:00"
-  },
-  {
-   "id": "15651810d787",
-   "company": "TotalEnergies",
-   "title": "Financial Analyst I",
-   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Financial-Analyst-I/85977",
-   "reason": "lieu hors zones",
-   "at": "2026-11-05T20:22:08+00:00"
-  },
-  {
    "id": "c2b08e8bd1ba",
    "company": "AXA",
    "title": "Stage - Flood Nat Cat Analyst - Mars 2027",
@@ -2410,68 +3282,12 @@
    "at": "2026-11-05T20:20:07+00:00"
   },
   {
-   "id": "56cf454583b4",
-   "company": "BPCE",
-   "title": "Analyste conformité – RSSI et responsable du PCA (H/F)",
-   "url": "https://recrutement.bpce.fr/job/analyste-conformite-rssi-et-responsable-du-pca-h-f",
-   "reason": "lieu hors zones",
-   "at": "2026-11-05T20:19:11+00:00"
-  },
-  {
    "id": "8d662e4d2b08",
    "company": "BPCE",
    "title": "STAGE - Assistant Contrôleur de gestion - (F/H) - AIX EN PROVENCE",
    "url": "https://recrutement.bpce.fr/job/stage-assistant-controleur-de-gestion-f-h-aix-en-provence",
    "reason": "titre exclu (stage)",
    "at": "2026-11-05T20:19:03+00:00"
-  },
-  {
-   "id": "b18d166364af",
-   "company": "Crédit Agricole",
-   "title": "Assistant analyste stratégie crédit H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-assistant-analyste-strategie-credit-hf-reference--2026-117210--/",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-05T20:17:48+00:00"
-  },
-  {
-   "id": "a805e5f25a4a",
-   "company": "Crédit Agricole",
-   "title": "Risk Analyst Factoring m/w/d",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170470-270-risk-analyst-factoring-mwd-reference--2026-117211--/",
-   "reason": "lieu hors zones",
-   "at": "2026-11-05T20:17:47+00:00"
-  },
-  {
-   "id": "9224a4d0393f",
-   "company": "Crédit Agricole",
-   "title": "Data Analyst H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-data-analyst-hf-reference--2026-116482--/",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-05T20:17:46+00:00"
-  },
-  {
-   "id": "148874437507",
-   "company": "Société Générale",
-   "title": "Quantitative Analyste– Modèles à corrélation locale",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/quantitative-analyste-modeles-a-correlation-locale-26000MWN-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-05T20:17:17+00:00"
-  },
-  {
-   "id": "7054f3a9a4f9",
-   "company": "Société Générale",
-   "title": "AI & Agentic ADLC Engineering",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/ai-agentic-adlc-engineering-26000MAK-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-05T20:17:16+00:00"
-  },
-  {
-   "id": "90a19c979c49",
-   "company": "Société Générale",
-   "title": "Chargé Data Science & IA Générative",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/charge-data-science-ia-generative-26000L8K-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-05T20:17:15+00:00"
   },
   {
    "id": "c3378937add9",
@@ -2538,14 +3354,6 @@
    "at": "2026-11-05T12:25:46+00:00"
   },
   {
-   "id": "5dc01de9a9b9",
-   "company": "Julius Baer",
-   "title": "AI Software Engineer 100% (f/m/d)",
-   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Madrid/Backend-Engineer--AI-Integration--100---f-m-d-_r-19210",
-   "reason": "lieu hors zones",
-   "at": "2026-11-05T12:25:07+00:00"
-  },
-  {
    "id": "d91d116e61da",
    "company": "jobup.ch",
    "title": "Group Senior Analyst Quality Applications",
@@ -2591,14 +3399,6 @@
    "title": "Data Scientist (F/H) - stage",
    "url": "https://careers.axa.com/jobs/37105",
    "reason": "titre exclu (stage)",
-   "at": "2026-11-05T12:18:37+00:00"
-  },
-  {
-   "id": "4e94d81fdfb6",
-   "company": "AXA",
-   "title": "Market Pricing Analyst",
-   "url": "https://careers.axa.com/jobs/17620",
-   "reason": "lieu inconnu ou hors zones",
    "at": "2026-11-05T12:18:37+00:00"
   },
   {
@@ -2648,14 +3448,6 @@
    "url": "https://jobsearch.alstom.com/job/Villeurbanne-Stage-6-mois-Ing%C3%A9nieur_e-Data-%28FH%29/1445254133/",
    "reason": "titre exclu (stage)",
    "at": "2026-11-05T12:14:23+00:00"
-  },
-  {
-   "id": "11205b9afc41",
-   "company": "Air France",
-   "title": "Analyste transport F/H",
-   "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25786&idOrigine=502&offerReference=2026-25786",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-05T12:13:57+00:00"
   },
   {
    "id": "d283f2bcbf9d",
@@ -2722,44 +3514,12 @@
    "at": "2026-11-05T00:54:43+00:00"
   },
   {
-   "id": "2b0276510946",
-   "company": "Société Générale",
-   "title": "Analyste du Support Applicatif",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-du-support-applicatif-26000GZV-fr",
-   "reason": "lieu hors zones",
-   "at": "2026-11-05T00:54:17+00:00"
-  },
-  {
    "id": "71b9a1fb54e4",
    "company": "SNCF",
    "title": "Aiguilleur du rail (F/H) - CDI - CREIL ET OU BEAUVAIS",
    "url": "https://emploi.sncf.com/nos-offres/791679",
    "reason": "expérience demandée ≥ 6 ans « uction creil, oise (60) cdi de 3 a 5 ans, de 6 a 10 ans, moins de 3 ans, debutan »",
    "at": "2026-11-05T00:52:09+00:00"
-  },
-  {
-   "id": "ddcae9ddb3b1",
-   "company": "ING",
-   "title": "Data Scientist Specialist-1",
-   "url": "https://careers.ing.com/en/job/silesia/data-scientist-specialist-1/3121/46131517440",
-   "reason": "lieu hors zones",
-   "at": "2026-11-04T19:54:34+00:00"
-  },
-  {
-   "id": "a4e01f6b1112",
-   "company": "UBS",
-   "title": "Australia Metals & Mining Analyst / Associate",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=353284",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-04T19:53:55+00:00"
-  },
-  {
-   "id": "21a3cd08153f",
-   "company": "UBS",
-   "title": "Research Analyst - Mining Sector",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=350453",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-04T19:53:54+00:00"
   },
   {
    "id": "49d2b5f7b91e",
@@ -2784,14 +3544,6 @@
    "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/ALTERNANCE-Business-Intelligence-Data-Integrated-Power-Southern-Europe-H-F/85889",
    "reason": "titre exclu (alternance)",
    "at": "2026-11-04T19:49:46+00:00"
-  },
-  {
-   "id": "5d9dab61588d",
-   "company": "AXA",
-   "title": "Threat Intelligence Analyst",
-   "url": "https://careers.axa.com/jobs/30025",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-04T19:47:39+00:00"
   },
   {
    "id": "7114910f61f2",
@@ -2842,44 +3594,12 @@
    "at": "2026-11-04T19:45:21+00:00"
   },
   {
-   "id": "374837fa75e7",
-   "company": "Société Générale",
-   "title": "Data Scientist & AI Engineer - Business Intelligence",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/data-scientist-ai-engineer-business-intelligence-26000KU9-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-04T19:44:52+00:00"
-  },
-  {
    "id": "3d78a96d802c",
    "company": "Société Générale",
    "title": "Data Scientist",
    "url": "https://careers.societegenerale.com/offres-d-emploi/data-scientist-26000N5Q-fr",
    "reason": "expérience demandée ≥ 4 ans « eurs et disposez d'une experience d'au moins 4 ans dans une fonction simila »",
    "at": "2026-11-04T19:44:50+00:00"
-  },
-  {
-   "id": "c2f2e596c385",
-   "company": "Société Générale",
-   "title": "Assistant Analyste Risque de Crédit",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/assistant-analyste-risque-de-credit-26000MJP-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-04T19:44:49+00:00"
-  },
-  {
-   "id": "f8c742aaec89",
-   "company": "Société Générale",
-   "title": "Analyste Coverage Financial Sponsors",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-coverage-financial-sponsors-26000LMI-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-04T19:44:47+00:00"
-  },
-  {
-   "id": "9399f6f6d8e8",
-   "company": "Société Générale",
-   "title": "Analyste de crédit",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-de-credit-26000LJV-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-04T19:44:46+00:00"
   },
   {
    "id": "14f12af684e4",
@@ -2920,30 +3640,6 @@
    "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25784&idOrigine=502&offerReference=2026-25784",
    "reason": "titre exclu (experimente)",
    "at": "2026-11-04T19:42:11+00:00"
-  },
-  {
-   "id": "d7470b706b40",
-   "company": "ING",
-   "title": "IT Business Analyst",
-   "url": "https://careers.ing.com/en/job/makati-city/it-business-analyst/3121/46605579712",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-04T12:15:39+00:00"
-  },
-  {
-   "id": "f24b291f7579",
-   "company": "UBS",
-   "title": "Quant/AI Developer, Global Markets",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=353400",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-04T12:15:03+00:00"
-  },
-  {
-   "id": "f2a42c1b9365",
-   "company": "UBS",
-   "title": "SAP Analytics Cloud with Databricks",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=349756",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-04T12:15:02+00:00"
   },
   {
    "id": "b2b736c0f73e",
@@ -3018,14 +3714,6 @@
    "at": "2026-11-04T12:06:48+00:00"
   },
   {
-   "id": "b352a4d2bb2d",
-   "company": "Crédit Agricole",
-   "title": "Data Engineer H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-5-data-engineer-hf-reference--2026-117117--/",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-04T12:06:35+00:00"
-  },
-  {
    "id": "c69ad2142a7d",
    "company": "Crédit Agricole",
    "title": "Stage Analyste financement de fonds de Private Equity H/F",
@@ -3056,54 +3744,6 @@
    "url": "https://www.jobs.ch/fr/offres-emplois/detail/c388c259-5516-46fa-b036-1ec07dd36380/",
    "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « Solides compétences en développement logiciel, y compris une expérience avec les frameworks IA/ML, les API et  »",
    "at": "2026-11-04T00:20:33+00:00"
-  },
-  {
-   "id": "317fa480141c",
-   "company": "Crédit Agricole",
-   "title": "Analyste Sustainable Investment Banking H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-sustainable-investment-banking-hf-reference--2026-114887--/",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-04T00:15:26+00:00"
-  },
-  {
-   "id": "0a72c3bf8a14",
-   "company": "Crédit Agricole",
-   "title": "Analyste - Intelligence Artificielle H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste---intelligence-artificielle-hf-reference--2026-111833--/",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-04T00:15:25+00:00"
-  },
-  {
-   "id": "26fc07faa5f8",
-   "company": "Crédit Agricole",
-   "title": "Analyste Crédit Early Detection H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-credit-early-detection-hf-reference--2026-113297--/",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-04T00:15:23+00:00"
-  },
-  {
-   "id": "10da82145c07",
-   "company": "ING",
-   "title": "Data and Insights Analyst - Operations",
-   "url": "https://careers.ing.com/en/job/sydney/data-and-insights-analyst-operations/3121/46405539264",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-03T19:43:07+00:00"
-  },
-  {
-   "id": "2679533d849f",
-   "company": "UBS",
-   "title": "Process and Quality Analyst (Global Wealth Management)",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=343051",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-03T19:42:29+00:00"
-  },
-  {
-   "id": "a063a31aa3ab",
-   "company": "UBS",
-   "title": "Quantitative Analyst - Rates",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=351914",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-03T19:42:28+00:00"
   },
   {
    "id": "75e893e9850e",
@@ -3160,14 +3800,6 @@
    "url": "https://www.jobs.ch/fr/offres-emplois/detail/a144b015-eac3-4c2a-bf1b-282b01fe673f/",
    "reason": "expérience demandée ≥ 3 ans « r vergleichbaren fachrichtung (efz, hf, fh). mehrjahrige praktische erfahrung im »",
    "at": "2026-11-03T19:39:41+00:00"
-  },
-  {
-   "id": "78ce325e92fb",
-   "company": "Orange",
-   "title": "Business Analyst F/H",
-   "url": "https://orange.jobs/fr/fr/job/IOS-2026-2785/Business-Analyst-F-H",
-   "reason": "lieu hors zones",
-   "at": "2026-11-03T19:39:27+00:00"
   },
   {
    "id": "455f8108d3a6",
@@ -3242,60 +3874,12 @@
    "at": "2026-11-03T19:34:18+00:00"
   },
   {
-   "id": "7b9b7ae608bb",
-   "company": "Société Générale",
-   "title": "Data Analyst Pilotage des Notations",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/data-analyst-pilotage-des-notations-26000MWT-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-03T19:33:23+00:00"
-  },
-  {
    "id": "1d5242cedc7a",
    "company": "Société Générale",
    "title": "Senior Credit Analyst - Corporates",
    "url": "https://careers.societegenerale.com/offres-d-emploi/senior-credit-analyst-corporates-26000KMM-fr",
    "reason": "titre exclu (senior)",
    "at": "2026-11-03T19:33:22+00:00"
-  },
-  {
-   "id": "b772cc2e91c3",
-   "company": "Société Générale",
-   "title": "Debt Capital Markets Analyst",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/debt-capital-markets-analyst-26000MOB-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-03T19:33:16+00:00"
-  },
-  {
-   "id": "62338c7e2d90",
-   "company": "Société Générale",
-   "title": "Assistant ou analyste stratégiste",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/assistant-ou-analyste-strategiste-26000IW1-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-03T19:33:14+00:00"
-  },
-  {
-   "id": "f6af8d9f4cb3",
-   "company": "SNCF",
-   "title": "Aiguilleur du rail (F/H) - CDI - HAGONDANGE",
-   "url": "https://emploi.sncf.com/nos-offres/886895",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-03T19:30:49+00:00"
-  },
-  {
-   "id": "dfacde5134f3",
-   "company": "SNCF",
-   "title": "Aiguilleur du rail (F/H)-CDI-Avallon",
-   "url": "https://emploi.sncf.com/nos-offres/886893",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-03T19:30:47+00:00"
-  },
-  {
-   "id": "28c21486d054",
-   "company": "SNCF",
-   "title": "Aiguilleur du rail (F/H) - CDI - REVIGNY",
-   "url": "https://emploi.sncf.com/nos-offres/885567",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-03T19:30:46+00:00"
   },
   {
    "id": "ffdeb647a9bc",
@@ -3354,22 +3938,6 @@
    "at": "2026-11-03T12:00:28+00:00"
   },
   {
-   "id": "1db6cd091cd7",
-   "company": "Orange",
-   "title": "Business Analyst F/H",
-   "url": "https://orange.jobs/fr/fr/job/IOS-2026-2702/Business-Analyst-F-H",
-   "reason": "lieu hors zones",
-   "at": "2026-11-03T12:00:14+00:00"
-  },
-  {
-   "id": "640d999b6eac",
-   "company": "TotalEnergies",
-   "title": "Analyste Données Energies - Débutant H/F",
-   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Analyste-Donn-es-Energies-D-butant-H-F/85837",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-03T11:59:15+00:00"
-  },
-  {
    "id": "40db67c2f52d",
    "company": "BPCE",
    "title": "Stage - Analyste Sécurité Financière H/F",
@@ -3384,14 +3952,6 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-124-stage--finance-data-management-officer-reference--2026-117058--/",
    "reason": "titre exclu (stage)",
    "at": "2026-11-03T11:54:55+00:00"
-  },
-  {
-   "id": "fb7754aa247b",
-   "company": "Société Générale",
-   "title": "Analyste sur l'incertitude des IA Agentiques",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-sur-lincertitude-des-ia-agentiques-26000JYE-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-03T11:54:02+00:00"
   },
   {
    "id": "25ad058a45f1",
@@ -3410,28 +3970,12 @@
    "at": "2026-11-03T11:51:47+00:00"
   },
   {
-   "id": "67b255e01b6e",
-   "company": "ING",
-   "title": "AI Product Owner",
-   "url": "https://careers.ing.com/en/job/makati-city/ai-product-owner/3121/42093081024",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-03T09:17:58+00:00"
-  },
-  {
    "id": "8e24c5fe8b74",
    "company": "ING",
    "title": "Senior Analyst",
    "url": "https://careers.ing.com/en/job/city-of-taguig/senior-analyst/3121/45842420800",
    "reason": "titre exclu (senior)",
    "at": "2026-11-03T09:17:57+00:00"
-  },
-  {
-   "id": "8fddb35a4911",
-   "company": "UBS",
-   "title": "ASR EMIT Tech Support Analyst - Taiwan Bank",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=345200",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-03T09:17:23+00:00"
   },
   {
    "id": "076938ac414e",
@@ -3506,28 +4050,12 @@
    "at": "2026-11-03T09:09:36+00:00"
   },
   {
-   "id": "d11e94bee492",
-   "company": "Alstom",
-   "title": "Network Security Analyst",
-   "url": "https://jobsearch.alstom.com/job/Bangalore-Network-Security-Analyst-KA/1453630433/",
-   "reason": "lieu hors zones",
-   "at": "2026-11-03T09:06:07+00:00"
-  },
-  {
    "id": "61f2b7be2b70",
    "company": "Alstom",
    "title": "Record to Report Senior Analyst",
    "url": "https://jobsearch.alstom.com/job/Cluj-Napoca-Record-to-Report-Senior-Analyst-CJ/1453690633/",
    "reason": "titre exclu (senior)",
    "at": "2026-11-03T09:06:07+00:00"
-  },
-  {
-   "id": "2ab2b456c60b",
-   "company": "UBS",
-   "title": "Client Asset Oversight Analyst",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=352387",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-03T03:37:37+00:00"
   },
   {
    "id": "e9c502b9cd6f",
@@ -3546,14 +4074,6 @@
    "at": "2026-11-03T03:35:08+00:00"
   },
   {
-   "id": "e73f8701cff4",
-   "company": "Crédit Agricole",
-   "title": "Information Security Analyst M/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170477-4-information-security-analyst-mf-reference--2026-115637--/",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-03T03:30:14+00:00"
-  },
-  {
    "id": "dcc7e9b06c81",
    "company": "Crédit Agricole",
    "title": "Responsable IT Monitoring, Reporting et Data H/F",
@@ -3562,60 +4082,12 @@
    "at": "2026-11-03T03:30:12+00:00"
   },
   {
-   "id": "224bbb0571cc",
-   "company": "Crédit Agricole",
-   "title": "International Business Development Analyst",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170466-4-international-business-development-analyst-reference--2026-109846--/",
-   "reason": "lieu hors zones",
-   "at": "2026-11-03T03:30:11+00:00"
-  },
-  {
-   "id": "0db0da042162",
-   "company": "Alstom",
-   "title": "Methods Analyst 1",
-   "url": "https://jobsearch.alstom.com/job/Thunder-Bay-Methods-Analyst-1-ON/1444328233/",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-03T03:27:47+00:00"
-  },
-  {
-   "id": "7d2bba6513f5",
-   "company": "Alstom",
-   "title": "Methods Analyst 1",
-   "url": "https://jobsearch.alstom.com/job/Thunder-Bay-Methods-Analyst-1-ON/1444329133/",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-03T03:27:46+00:00"
-  },
-  {
-   "id": "eda219f77239",
-   "company": "Alstom",
-   "title": "Technicien Analyste Testing",
-   "url": "https://jobsearch.alstom.com/job/Fez-Technicien-Analyste-Testing/1413348733/",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-03T03:27:44+00:00"
-  },
-  {
-   "id": "c7048cf0ad41",
-   "company": "Alstom",
-   "title": "Data Catalog Analyst",
-   "url": "https://jobsearch.alstom.com/job/Bangalore-Data-Catalog-Analyst/1382503733/",
-   "reason": "lieu hors zones",
-   "at": "2026-11-03T03:27:43+00:00"
-  },
-  {
    "id": "d1a2383e48a3",
    "company": "ING",
    "title": "Senior AI Business Partner (w/m/d)",
    "url": "https://careers.ing.com/en/job/frankfurt-am-main/senior-ai-business-partner-w-m-d/3121/44845991552",
    "reason": "titre exclu (senior)",
    "at": "2026-11-02T22:06:58+00:00"
-  },
-  {
-   "id": "6ffbd0d7b32d",
-   "company": "UBS",
-   "title": "AM Transformation Business Analyst",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=347533",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-02T22:06:20+00:00"
   },
   {
    "id": "addffa8d1cbd",
@@ -3714,14 +4186,6 @@
    "at": "2026-11-02T21:59:50+00:00"
   },
   {
-   "id": "fbc3c2ca8a76",
-   "company": "Société Générale",
-   "title": "Analyste financement ESG, institution financière et secteur public",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-financement-esg-institution-financiere-et-secteur-public-26000MPV-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-02T21:57:56+00:00"
-  },
-  {
    "id": "4cd54aa85068",
    "company": "Société Générale",
    "title": "Analyste quantitatif - Modélisation risque de crédit et risques non financiers",
@@ -3735,14 +4199,6 @@
    "title": "Stage IA Générative",
    "url": "https://careers.societegenerale.com/offres-d-emploi/stage-ia-generative-26000LY6-fr",
    "reason": "titre exclu (stage)",
-   "at": "2026-11-02T21:57:48+00:00"
-  },
-  {
-   "id": "a2b0744fcbc1",
-   "company": "Société Générale",
-   "title": "Chargé du Digital Data et IA en analyse du risque de crédit (provisions)",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/charge-du-digital-data-et-ia-en-analyse-du-risque-de-credit-provisions-26000N12-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
    "at": "2026-11-02T21:57:48+00:00"
   },
   {
@@ -3778,28 +4234,12 @@
    "at": "2026-11-02T21:55:30+00:00"
   },
   {
-   "id": "6ef5429a9cb8",
-   "company": "UBS",
-   "title": "Legal Entity Analyst",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=352281",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-02T12:27:23+00:00"
-  },
-  {
    "id": "7995df2396ae",
    "company": "UBS",
    "title": "Insurance & Capital markets lead analyst",
    "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=353052",
    "reason": "titre exclu (lead)",
    "at": "2026-11-02T12:27:23+00:00"
-  },
-  {
-   "id": "9ea68d45af95",
-   "company": "UBS",
-   "title": "Data Analyst (US Shift)",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=352127",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-02T12:27:22+00:00"
   },
   {
    "id": "71bf912190c5",
@@ -3842,14 +4282,6 @@
    "at": "2026-11-02T11:22:39+00:00"
   },
   {
-   "id": "3f63d3cecb83",
-   "company": "Crédit Agricole",
-   "title": "Data analyst Cash Management H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-data-analyst-cash-management-hf-reference--2026-110866--/",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-02T11:21:20+00:00"
-  },
-  {
    "id": "69ae02bbfa9f",
    "company": "Crédit Agricole",
    "title": "Analyste risque opérationnel en charge des externalisations H/F",
@@ -3872,22 +4304,6 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-meta-midcap---stage-hf-reference--2026-117024--/",
    "reason": "titre exclu (stage)",
    "at": "2026-11-02T11:21:19+00:00"
-  },
-  {
-   "id": "eb65dfcd2cac",
-   "company": "Société Générale",
-   "title": "Analyste financier (Comptabilité)",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-financier-comptabilite-26000K54-fr",
-   "reason": "lieu hors zones",
-   "at": "2026-11-02T11:20:46+00:00"
-  },
-  {
-   "id": "cd0da8485920",
-   "company": "SNCF",
-   "title": "Aiguilleur du rail (F/H) - CDI - PRINGY",
-   "url": "https://emploi.sncf.com/nos-offres/826243",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-02T11:18:18+00:00"
   },
   {
    "id": "94d53f2698d4",
@@ -3938,14 +4354,6 @@
    "at": "2026-11-02T09:41:22+00:00"
   },
   {
-   "id": "05ad5d34a750",
-   "company": "jobs.ch",
-   "title": "Hochschulpraktikant/-in OSINT (Data Analysis & Intelligence - DAI)",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/c90bb48c-5433-4da5-ac90-0240395887c9/",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-02T09:41:18+00:00"
-  },
-  {
    "id": "ee3d169d4ae3",
    "company": "jobs.ch",
    "title": "Senior Data Engineer",
@@ -3984,30 +4392,6 @@
    "url": "https://careers.societegenerale.com/offres-d-emploi/architecte-senior-data-science-ml-ai-genai-260001Z4-fr",
    "reason": "titre exclu (architecte)",
    "at": "2026-11-02T09:35:23+00:00"
-  },
-  {
-   "id": "c9a6d1f5aaf1",
-   "company": "Alstom",
-   "title": "Industrialization Data Engineer",
-   "url": "https://jobsearch.alstom.com/job/Bangalore-Industrialization-Data-Engineer/1453219433/",
-   "reason": "lieu hors zones",
-   "at": "2026-11-02T09:33:37+00:00"
-  },
-  {
-   "id": "cac6de276ec8",
-   "company": "Alstom",
-   "title": "Support Analyst - Mercury",
-   "url": "https://jobsearch.alstom.com/job/Bangalore-Support-Analyst-Mercury-KA/1402744133/",
-   "reason": "lieu hors zones",
-   "at": "2026-11-02T09:33:35+00:00"
-  },
-  {
-   "id": "4de269c709b4",
-   "company": "SNCF",
-   "title": "Aiguilleur du rail (F/H)-CDI-BRIANCON",
-   "url": "https://emploi.sncf.com/nos-offres/805887",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-02T09:33:11+00:00"
   },
   {
    "id": "7d08e14999f8",
@@ -4074,22 +4458,6 @@
    "at": "2026-11-02T01:08:09+00:00"
   },
   {
-   "id": "15e27112b8d7",
-   "company": "Crédit Agricole",
-   "title": "Credit Analyst - Nordic Countries M/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170466-4-credit-analyst---nordic-countries-mf-reference--2026-116921--/",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-02T01:03:23+00:00"
-  },
-  {
-   "id": "5aecb3fe8501",
-   "company": "ING",
-   "title": "GCP Cloud AI Platform Engineer",
-   "url": "https://careers.ing.com/en/job/warsaw/gcp-cloud-ai-platform-engineer/3121/40372391808",
-   "reason": "lieu hors zones",
-   "at": "2026-11-01T21:39:08+00:00"
-  },
-  {
    "id": "d8d25c1fc5fb",
    "company": "ING",
    "title": "Cyber Risk / AI Risk Expert",
@@ -4122,22 +4490,6 @@
    "at": "2026-11-01T21:39:08+00:00"
   },
   {
-   "id": "44fd623b3115",
-   "company": "ING",
-   "title": "Agentic automation & AI Consultant",
-   "url": "https://careers.ing.com/en/job/amsterdam/agentic-automation-and-ai-consultant/3121/42373877568",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-01T21:39:07+00:00"
-  },
-  {
-   "id": "1b0b8cc13bff",
-   "company": "ING",
-   "title": "AI Developer (Copilot Studio)",
-   "url": "https://careers.ing.com/en/job/slovakia/ai-developer-copilot-studio/3121/44008552640",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-01T21:39:05+00:00"
-  },
-  {
    "id": "b96bc2d0973e",
    "company": "ING",
    "title": "AI Adoption & Transformation Expert",
@@ -4146,52 +4498,12 @@
    "at": "2026-11-01T21:39:05+00:00"
   },
   {
-   "id": "6913f50031c3",
-   "company": "ING",
-   "title": "Risk AI Data Scientist",
-   "url": "https://careers.ing.com/en/job/warsaw/risk-ai-data-scientist/3121/40954641024",
-   "reason": "lieu hors zones",
-   "at": "2026-11-01T21:39:04+00:00"
-  },
-  {
-   "id": "94d251bbe1e0",
-   "company": "ING",
-   "title": "AI / Copilot Studio Developer",
-   "url": "https://careers.ing.com/en/job/makati-city/ai-copilot-studio-developer/3121/45093361600",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-01T21:39:02+00:00"
-  },
-  {
    "id": "6fe5242a265d",
    "company": "ING",
    "title": "Senior Agentic AI Engineer",
    "url": "https://careers.ing.com/en/job/istanbul/senior-agentic-ai-engineer/3121/44428104320",
    "reason": "titre exclu (senior)",
    "at": "2026-11-01T21:39:02+00:00"
-  },
-  {
-   "id": "f1adcd1b9860",
-   "company": "ING",
-   "title": "AI / Copilot Studio Developers",
-   "url": "https://careers.ing.com/en/job/makati-city/ai-copilot-studio-developers/3121/42105052736",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-01T21:39:01+00:00"
-  },
-  {
-   "id": "2db5c47269ec",
-   "company": "ING",
-   "title": "AI / Copilot Studio Developer",
-   "url": "https://careers.ing.com/en/job/makati-city/ai-copilot-studio-developer/3121/45101609920",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-01T21:38:59+00:00"
-  },
-  {
-   "id": "e7f29488b13e",
-   "company": "ING",
-   "title": "IT Business Analyst with Payment System Experience",
-   "url": "https://careers.ing.com/en/job/istanbul/it-business-analyst-with-payment-system-experience/3121/33919715200",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-01T21:38:58+00:00"
   },
   {
    "id": "5774a5715fb0",
@@ -4218,36 +4530,12 @@
    "at": "2026-11-01T21:38:58+00:00"
   },
   {
-   "id": "3486420fd6eb",
-   "company": "ING",
-   "title": "Data Operations Professional",
-   "url": "https://careers.ing.com/en/job/makati-city/data-operations-professional/3121/46155027328",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-01T21:38:57+00:00"
-  },
-  {
-   "id": "84adf30b3f56",
-   "company": "SIX Group",
-   "title": "API Platform Engineer, Kong API & AI Gateway",
-   "url": "https://jobs.six-group.com/job/Las-Rozas-de-Madrid-API-Platform-Engineer%2C-Kong-API-&-AI-Gateway/1423545233/",
-   "reason": "lieu hors zones",
-   "at": "2026-11-01T21:38:22+00:00"
-  },
-  {
    "id": "78b5cb4faa20",
    "company": "SIX Group",
    "title": "AI Software Architect",
    "url": "https://jobs.six-group.com/job/Zurich-AI-Software-Architect/1435758133/",
    "reason": "titre exclu (architect)",
    "at": "2026-11-01T21:38:22+00:00"
-  },
-  {
-   "id": "cfb8ecda1ee2",
-   "company": "SIX Group",
-   "title": "AI Engineer - AI SDLC Tooling & Guardrails",
-   "url": "https://jobs.six-group.com/job/Las-Rozas-de-Madrid-AI-Engineer-AI-SDLC-Tooling-&-Guardrails/1431166433/",
-   "reason": "lieu hors zones",
-   "at": "2026-11-01T21:38:21+00:00"
   },
   {
    "id": "85676086d143",
@@ -4272,14 +4560,6 @@
    "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Zurich/Senior-System-Architect-ML---AI-100---f-m-d-_r-18971-2",
    "reason": "titre exclu (senior)",
    "at": "2026-11-01T21:37:41+00:00"
-  },
-  {
-   "id": "4783c4519561",
-   "company": "Julius Baer",
-   "title": "AI Test Automation Engineer 100% (f/m/d)",
-   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Madrid/Senior-Test-Automation-Engineer-100---f-m-d-_r-19696-1",
-   "reason": "lieu hors zones",
-   "at": "2026-11-01T21:37:38+00:00"
   },
   {
    "id": "888f421e6a17",
@@ -4738,14 +5018,6 @@
    "at": "2026-11-01T21:32:36+00:00"
   },
   {
-   "id": "4f4d128b3981",
-   "company": "Orange",
-   "title": "Business Analyst Data IA",
-   "url": "https://orange.jobs/fr/fr/job/ICM-588746/Business-Analyst-Data-IA",
-   "reason": "lieu hors zones",
-   "at": "2026-11-01T21:32:22+00:00"
-  },
-  {
    "id": "2061013de8ff",
    "company": "Orange",
    "title": "Stage - Evaluation IA Responsable et Observabilité des agents IA F/H",
@@ -4770,14 +5042,6 @@
    "at": "2026-11-01T21:32:22+00:00"
   },
   {
-   "id": "9f26256cf80b",
-   "company": "Orange",
-   "title": "DATA IA F/H",
-   "url": "https://orange.jobs/fr/fr/job/CTS-2026-55259/DATA-IA-F-H",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-01T21:32:21+00:00"
-  },
-  {
    "id": "8b1b3c06b391",
    "company": "Orange",
    "title": "Expert IA - Architecture, IA GEN, Agentique F/H",
@@ -4800,14 +5064,6 @@
    "url": "https://orange.jobs/fr/fr/job/ICM-589339/DS-ARCHITECTE-IA",
    "reason": "titre exclu (architecte)",
    "at": "2026-11-01T21:32:21+00:00"
-  },
-  {
-   "id": "916a9c1e2ea0",
-   "company": "Orange",
-   "title": "AI Engineer Consultant",
-   "url": "https://orange.jobs/fr/fr/job/TOB-8619821/AI-Engineer-Consultant",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-01T21:32:19+00:00"
   },
   {
    "id": "164715c2bc48",
@@ -4872,14 +5128,6 @@
    "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Castres/Stage-PFE---Aide-conducteur-travaux-bureau-d-tude-F-H_JR2023-4949",
    "reason": "titre exclu (stage)",
    "at": "2026-11-01T21:31:44+00:00"
-  },
-  {
-   "id": "384a39d571a3",
-   "company": "Eiffage",
-   "title": "Aide Maçon VRD F/H",
-   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Saint-Eloi/Aide-Maon-VRD-F-H_JR2025-5950",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-01T21:31:39+00:00"
   },
   {
    "id": "f04b004a780b",
@@ -4970,22 +5218,6 @@
    "at": "2026-11-01T21:29:17+00:00"
   },
   {
-   "id": "011202f6056a",
-   "company": "AXA",
-   "title": "Chargé d'animation et d'acculturation IA - F/H - CDD WASQUEHAL",
-   "url": "https://careers.axa.com/jobs/35907",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-01T21:29:17+00:00"
-  },
-  {
-   "id": "54f7a74a171c",
-   "company": "AXA",
-   "title": "Chargé d'animation et d'acculturation IA - F/H - CDD MARSEILLE",
-   "url": "https://careers.axa.com/jobs/35906",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-01T21:29:17+00:00"
-  },
-  {
    "id": "dbb7c2334950",
    "company": "AXA",
    "title": "Stage – Janvier 27 - Juriste Protection des données & conformité IA (F/H)",
@@ -5066,44 +5298,12 @@
    "at": "2026-11-01T21:28:14+00:00"
   },
   {
-   "id": "578d21980458",
-   "company": "BPCE",
-   "title": "Chargé d'affaires professionnel spécialisé en Assurances IARD (H/F) - Secteur Chartres/Blois",
-   "url": "https://recrutement.bpce.fr/job/charge-daffaires-professionnel-specialise-en-assurances-iard-h-f-secteur-chartres-blois",
-   "reason": "lieu hors zones",
-   "at": "2026-11-01T21:28:06+00:00"
-  },
-  {
-   "id": "0a4495276310",
-   "company": "BPCE",
-   "title": "Chargé relation commerciale à distance spécialisé IARD/Conso",
-   "url": "https://recrutement.bpce.fr/job/charge-relation-commerciale-a-distance-specialise-iard-conso",
-   "reason": "lieu hors zones",
-   "at": "2026-11-01T21:27:58+00:00"
-  },
-  {
    "id": "98237bca637b",
    "company": "BPCE",
    "title": "Stage - 6 mois - Développeur d'outils économétriques (Python/IA agentique) F/H",
    "url": "https://recrutement.bpce.fr/job/stage-6-mois-developpeur-doutils-econometriques-python-ia-agentique-f-h",
    "reason": "titre exclu (stage)",
    "at": "2026-11-01T21:27:58+00:00"
-  },
-  {
-   "id": "6a6d7ebbc88d",
-   "company": "BPCE",
-   "title": "CDD CONSEILLER ACCUEIL BANCAIRE AGENCE AIGUILLON (47)",
-   "url": "https://recrutement.bpce.fr/job/cdd-conseiller-accueil-bancaire-agence-aiguillon-47",
-   "reason": "lieu hors zones",
-   "at": "2026-11-01T21:27:50+00:00"
-  },
-  {
-   "id": "3d7e7d0de87d",
-   "company": "BPCE",
-   "title": "Spécialiste en IARD Professionnel H/F - externe",
-   "url": "https://recrutement.bpce.fr/job/specialiste-en-iard-professionnel-h-f-externe",
-   "reason": "lieu hors zones",
-   "at": "2026-11-01T21:27:42+00:00"
   },
   {
    "id": "e4caa505fa00",
@@ -5114,28 +5314,12 @@
    "at": "2026-11-01T21:27:42+00:00"
   },
   {
-   "id": "2e2ef2156efa",
-   "company": "BPCE",
-   "title": "Responsable Régional Assurances IARD - BP AURA F/H",
-   "url": "https://recrutement.bpce.fr/job/responsable-regional-assurances-iard-bp-aura-f-h",
-   "reason": "lieu hors zones",
-   "at": "2026-11-01T21:27:34+00:00"
-  },
-  {
    "id": "c474199271d8",
    "company": "BPCE",
    "title": "Stage (6 mois) - Chef de projet IA – Transformation des usages - Paris - F/H",
    "url": "https://recrutement.bpce.fr/job/stage-6-mois-chef-de-projet-ia-transformation-des-usages-paris-f-h",
    "reason": "titre exclu (stage)",
    "at": "2026-11-01T21:27:34+00:00"
-  },
-  {
-   "id": "e181314016f9",
-   "company": "BPCE",
-   "title": "Chargé de Clientèle Particuliers (F/H) - Aix-en-Provence",
-   "url": "https://recrutement.bpce.fr/job/charge-de-clientele-particuliers-f-h-aix-en-provence",
-   "reason": "lieu hors zones",
-   "at": "2026-11-01T21:27:26+00:00"
   },
   {
    "id": "c2893412f09a",
@@ -5154,51 +5338,11 @@
    "at": "2026-11-01T21:26:02+00:00"
   },
   {
-   "id": "9c2014998ee6",
-   "company": "Société Générale",
-   "title": "AI & Agentic Software Engineering",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/ai-agentic-software-engineering-26000M98-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-01T21:25:34+00:00"
-  },
-  {
-   "id": "09c315287284",
-   "company": "Société Générale",
-   "title": "Responsable des contrôles du Front Office et de la transformation IA",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/responsable-des-controles-du-front-office-et-de-la-transformation-ia-26000ICI-fr",
-   "reason": "lieu hors zones",
-   "at": "2026-11-01T21:25:33+00:00"
-  },
-  {
-   "id": "81d9aca1a675",
-   "company": "Société Générale",
-   "title": "Chargé d'animation IA et RSE",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/charge-danimation-ia-et-rse-26000L7W-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-01T21:25:31+00:00"
-  },
-  {
-   "id": "ba88b03f118f",
-   "company": "Société Générale",
-   "title": "Développeur IA Python / JavaScript",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/developpeur-ia-python-javascript-26000LW7-fr",
-   "reason": "lieu hors zones",
-   "at": "2026-11-01T21:25:30+00:00"
-  },
-  {
    "id": "5047c7ea3ebf",
    "company": "Société Générale",
    "title": "Architecte Expert IA",
    "url": "https://careers.societegenerale.com/offres-d-emploi/architecte-expert-ia-26000C0X-fr",
    "reason": "titre exclu (architecte)",
-   "at": "2026-11-01T21:25:28+00:00"
-  },
-  {
-   "id": "204c9ec20068",
-   "company": "Société Générale",
-   "title": "Chargé de Développement et Adoption IA",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/charge-de-developpement-et-adoption-ia-26000LV4-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
    "at": "2026-11-01T21:25:28+00:00"
   },
   {
@@ -5224,14 +5368,6 @@
    "url": "https://jobs.sbb.ch/v2/offene-stellen/formateurtrice-pratique-conducteurtrices-vehicules-moteurs-cat-ai40-b100/248314ed-0aa5-4815-b6e5-74c804f015aa",
    "reason": "expérience demandée ≥ 5 ans « ns le domaine de specialite a enseigner avec 5 ans d'experience professionn »",
    "at": "2026-11-01T21:24:24+00:00"
-  },
-  {
-   "id": "30f164c71980",
-   "company": "Alstom",
-   "title": "AI Engineer",
-   "url": "https://jobsearch.alstom.com/job/Bangalore-AI-Engineer-KA/1424297033/",
-   "reason": "lieu hors zones",
-   "at": "2026-11-01T21:23:43+00:00"
   },
   {
    "id": "b8c43ae4a70b",
@@ -5306,14 +5442,6 @@
    "at": "2026-11-01T21:23:41+00:00"
   },
   {
-   "id": "9c49838c4171",
-   "company": "Alstom",
-   "title": "AI Governance - Specialist",
-   "url": "https://jobsearch.alstom.com/job/Bangalore-AI-Governance-Specialist/1400336433/",
-   "reason": "lieu hors zones",
-   "at": "2026-11-01T21:23:40+00:00"
-  },
-  {
    "id": "bb57662b2969",
    "company": "Alstom",
    "title": "Railway AI solution Program Manager (W/M)",
@@ -5336,14 +5464,6 @@
    "url": "https://jobsearch.alstom.com/job/Saint-Ouen-AI-and-Transformation-Manager-%28HF%29/1404348333/",
    "reason": "titre exclu (manager)",
    "at": "2026-11-01T21:23:40+00:00"
-  },
-  {
-   "id": "66dfdf76ff29",
-   "company": "Alstom",
-   "title": "AI Project Specialist",
-   "url": "https://jobsearch.alstom.com/job/Bangalore-AI-Project-Specialist/1448921933/",
-   "reason": "lieu hors zones",
-   "at": "2026-11-01T21:23:38+00:00"
   },
   {
    "id": "2b8e44493ff1",
@@ -5370,14 +5490,6 @@
    "at": "2026-11-01T21:23:37+00:00"
   },
   {
-   "id": "d8b0d20542ef",
-   "company": "SNCF",
-   "title": "Aiguilleur du rail (F/H) - CDI - MULHOUSE",
-   "url": "https://emploi.sncf.com/nos-offres/871142",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-01T21:23:14+00:00"
-  },
-  {
    "id": "7f64b00052e2",
    "company": "SNCF",
    "title": "Titre IV Aiguilleur du rail (F/H) - ALTERNANCE - Villefranche-de-Conflent",
@@ -5392,14 +5504,6 @@
    "url": "https://emploi.sncf.com/nos-offres/885493",
    "reason": "titre exclu (alternance)",
    "at": "2026-11-01T21:23:14+00:00"
-  },
-  {
-   "id": "c0110c1c547a",
-   "company": "SNCF",
-   "title": "Aiguilleur du rail (F/H) - CDI - LANGRES",
-   "url": "https://emploi.sncf.com/nos-offres/885587",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-01T21:23:13+00:00"
   },
   {
    "id": "b9ba79ea44ab",
@@ -5448,46 +5552,6 @@
    "url": "https://emploi.sncf.com/nos-offres/57583",
    "reason": "expérience demandée ≥ 11 ans « rhone (69) cdi de 3 a 5 ans, de 6 a 10 ans, plus de 10 ans, moins de 3 ans, debutan »",
    "at": "2026-11-01T21:23:04+00:00"
-  },
-  {
-   "id": "1d72c229e114",
-   "company": "SNCF",
-   "title": "Aiguilleur du rail (F/H) - CDI - NANTES",
-   "url": "https://emploi.sncf.com/nos-offres/853381",
-   "reason": "lieu hors zones",
-   "at": "2026-11-01T21:23:02+00:00"
-  },
-  {
-   "id": "52c4e3c32657",
-   "company": "SNCF",
-   "title": "Aiguilleur du rail (F/H) - CDI - MAGLAND",
-   "url": "https://emploi.sncf.com/nos-offres/826245",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-01T21:23:01+00:00"
-  },
-  {
-   "id": "ea4a8005bfe5",
-   "company": "Air France",
-   "title": "TECHNICIEN DOCUMENTAIRE FRET Air France KLM Cargo LYON F/H",
-   "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25713&idOrigine=502&offerReference=2026-25713",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-01T21:22:59+00:00"
-  },
-  {
-   "id": "067d9675b35a",
-   "company": "Air France",
-   "title": "Mécanicienne/Mécanicien maintenance équipements Air France F/H",
-   "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=23566&idOrigine=502&offerReference=2026-23566",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-01T21:22:57+00:00"
-  },
-  {
-   "id": "30c513ea6bd0",
-   "company": "Orange",
-   "title": "Data Engineer Consultant",
-   "url": "https://orange.jobs/fr/fr/job/TOB-3396197/Data-Engineer-Consultant",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-11-01T17:19:38+00:00"
   },
   {
    "id": "18f4e4ab467b",
@@ -5586,30 +5650,6 @@
    "at": "2026-11-01T11:19:34+00:00"
   },
   {
-   "id": "08f18c720ced",
-   "company": "Crédit Agricole",
-   "title": "Analyste Support IT Pré-Trade H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-support-it-pre-trade-hf-reference--2026-116571--/",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-01T11:16:03+00:00"
-  },
-  {
-   "id": "20f451ce2bd5",
-   "company": "Crédit Agricole",
-   "title": "Analyste IT Fixed Income H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-it-fixed-income-hf-reference--2026-116578--/",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-01T11:16:01+00:00"
-  },
-  {
-   "id": "34cfbf1b64ce",
-   "company": "Crédit Agricole",
-   "title": "Sectors & Advisory Analyst H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-sectors-et-advisory-analyst-hf-reference--2026-116735--/",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-11-01T11:16:00+00:00"
-  },
-  {
    "id": "4d944a4cd2e3",
    "company": "Crédit Agricole",
    "title": "Analyste Résultat, Risques de Marché et Liquidité périmètre Trésorerie H/F",
@@ -5642,14 +5682,6 @@
    "at": "2026-11-01T11:15:54+00:00"
   },
   {
-   "id": "adef78330c82",
-   "company": "Alstom",
-   "title": "Analyst - End User Computing",
-   "url": "https://jobsearch.alstom.com/job/Bangalore-Analyst-End-User-Computing-KA/1392119533/",
-   "reason": "lieu hors zones",
-   "at": "2026-11-01T11:14:04+00:00"
-  },
-  {
    "id": "e6982ca09448",
    "company": "Alstom",
    "title": "Senior Analyst - FP&A IS&T",
@@ -5674,36 +5706,12 @@
    "at": "2026-10-31T23:25:49+00:00"
   },
   {
-   "id": "fd3590d211cd",
-   "company": "Orange",
-   "title": "Data Platform Engineer",
-   "url": "https://orange.jobs/fr/fr/job/ICM-587734/Data-Platform-Engineer",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-31T23:25:40+00:00"
-  },
-  {
    "id": "fded16e24114",
    "company": "Orange",
    "title": "Senior Data Engineer",
    "url": "https://orange.jobs/fr/fr/job/ICM-589412/Senior-Data-Engineer",
    "reason": "titre exclu (senior)",
    "at": "2026-10-31T20:25:21+00:00"
-  },
-  {
-   "id": "2561cf699549",
-   "company": "Orange",
-   "title": "PO Data IA",
-   "url": "https://orange.jobs/fr/fr/job/ICM-588748/PO-Data-IA",
-   "reason": "lieu hors zones",
-   "at": "2026-10-31T20:25:21+00:00"
-  },
-  {
-   "id": "73212503a3c0",
-   "company": "Orange",
-   "title": "Data Analyst Consultant",
-   "url": "https://orange.jobs/fr/fr/job/TOB-6422884/Data-Analyst-Consultant",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-31T20:00:54+00:00"
   },
   {
    "id": "4ed7e1d187fb",
@@ -5746,44 +5754,12 @@
    "at": "2026-10-31T10:25:12+00:00"
   },
   {
-   "id": "f77f16f34ed6",
-   "company": "Orange",
-   "title": "Développeur Data IA",
-   "url": "https://orange.jobs/fr/fr/job/ICM-588749/Développeur-Data-IA",
-   "reason": "lieu hors zones",
-   "at": "2026-10-31T10:25:04+00:00"
-  },
-  {
    "id": "ff40ba1848ca",
    "company": "Orange",
    "title": "Expert Data F/H",
    "url": "https://orange.jobs/fr/fr/job/IOS-2026-1760/Expert-Data-F-H",
    "reason": "titre exclu (expert)",
    "at": "2026-10-31T10:25:03+00:00"
-  },
-  {
-   "id": "eb0dc2d45c85",
-   "company": "Alstom",
-   "title": "Finance Project Analyst (F/H)",
-   "url": "https://jobsearch.alstom.com/job/Charleroi-Finance-Project-Analyst-%28FH%29-WHT/1433238133/",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-31T10:20:19+00:00"
-  },
-  {
-   "id": "9483a5bb96c8",
-   "company": "Alstom",
-   "title": "Analyst - Filer & Print Services",
-   "url": "https://jobsearch.alstom.com/job/Bangalore-Analyst-Filer-&-Print-Services-KA/1373644133/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-31T10:20:18+00:00"
-  },
-  {
-   "id": "bacbbbcd7c7c",
-   "company": "Alstom",
-   "title": "Data Analyst",
-   "url": "https://jobsearch.alstom.com/job/Bangalore-Data-Analyst/1423440833/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-31T10:20:16+00:00"
   },
   {
    "id": "a65ddc036db3",
@@ -5800,14 +5776,6 @@
    "url": "https://www.jobs.ch/fr/offres-emplois/detail/fcf0da9a-c424-4f8f-9fd2-37e367503f00/",
    "reason": "expérience demandée ≥ 3 ans « dans l'environnement erp et bi votre profil experience averee dans le support et le de »",
    "at": "2026-10-31T01:08:26+00:00"
-  },
-  {
-   "id": "8fb48de627ff",
-   "company": "TotalEnergies",
-   "title": "Energy Data Portfolio Analyst",
-   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Energy-Data-Portfolio-Analyst/85787",
-   "reason": "lieu hors zones",
-   "at": "2026-10-31T01:07:50+00:00"
   },
   {
    "id": "e1b63d6f7953",
@@ -5866,62 +5834,6 @@
    "at": "2026-10-31T01:04:02+00:00"
   },
   {
-   "id": "44942ce3c30b",
-   "company": "Société Générale",
-   "title": "Analyste Coverage Institutions Financières",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-coverage-institutions-financieres-26000LR4-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…) (retirée)",
-   "at": "2026-10-31T01:03:48+00:00"
-  },
-  {
-   "id": "7caa606d6350",
-   "company": "Société Générale",
-   "title": "Data Visualization Analyst",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/data-visualization-analyst-26000MAS-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…) (retirée)",
-   "at": "2026-10-31T01:03:46+00:00"
-  },
-  {
-   "id": "47d6df4bffce",
-   "company": "Société Générale",
-   "title": "Analyste Risques Structurels - Reportings Prudentiels",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-risques-structurels-reportings-prudentiels-26000HJR-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-31T01:03:45+00:00"
-  },
-  {
-   "id": "14b0487c54c4",
-   "company": "Société Générale",
-   "title": "Analyste risque de crédit",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-risque-de-credit-26000MB3-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-31T01:03:38+00:00"
-  },
-  {
-   "id": "fe0434abdd6d",
-   "company": "Société Générale",
-   "title": "Data Scientist – Agentique",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/data-scientist-agentique-26000LJY-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-31T01:03:37+00:00"
-  },
-  {
-   "id": "b7e1748bc97e",
-   "company": "ING",
-   "title": "Data Analyst – Central Data Office (Marketing Technology)",
-   "url": "https://careers.ing.com/en/job/amsterdam/data-analyst-central-data-office-marketing-technology/3121/45697255488",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-30T21:39:17+00:00"
-  },
-  {
-   "id": "a2e6ca42fcb2",
-   "company": "UBS",
-   "title": "Quantitative Analyst",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=351269",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-30T21:38:35+00:00"
-  },
-  {
    "id": "bcaa9e9350f2",
    "company": "jobup.ch",
    "title": "Data Scientist (m/w/d)",
@@ -5936,30 +5848,6 @@
    "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Sustainability-Analyst-Biomethane/85334",
    "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « Significant experience in Back Office or Operations within energy trading. » (retirée)",
    "at": "2026-10-30T21:35:13+00:00"
-  },
-  {
-   "id": "b1548d64f082",
-   "company": "TotalEnergies",
-   "title": "Ingénieur Data Solaire et IA débutant H/F",
-   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Ing-nieur-Data-Solaire-et-IA-d-butant-H-F/85164",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-30T21:35:10+00:00"
-  },
-  {
-   "id": "89c7373dac18",
-   "company": "TotalEnergies",
-   "title": "Analyste de la performance débutant H/F",
-   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Analyste-de-la-performance-d-butant-H-F/85747",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-30T21:35:05+00:00"
-  },
-  {
-   "id": "17eb0aa5e8be",
-   "company": "TotalEnergies",
-   "title": "Analyste débutant relations investisseurs H/F",
-   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Analyste-d-butant-relations-investisseurs-H-F/85755",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-30T21:35:03+00:00"
   },
   {
    "id": "a83953cd7f7e",
@@ -6002,62 +5890,6 @@
    "at": "2026-10-30T21:31:33+00:00"
   },
   {
-   "id": "0e6de47c65cb",
-   "company": "Crédit Agricole",
-   "title": "Analyste Onboarding - Front office H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-onboarding---front-office-hf-reference--2026-117009--/",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-30T21:30:02+00:00"
-  },
-  {
-   "id": "716f1de8f61d",
-   "company": "Société Générale",
-   "title": "Analyste Benchmarking et Red Teaming des systèmes d’IA générative",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-benchmarking-et-red-teaming-des-systemes-dia-generative-26000MRD-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-30T21:29:45+00:00"
-  },
-  {
-   "id": "be54052bfe31",
-   "company": "Société Générale",
-   "title": "Analyste Red Teaming des systèmes multi-agents",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-red-teaming-des-systemes-multi-agents-26000KM8-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-30T21:29:43+00:00"
-  },
-  {
-   "id": "5e47aefab3e0",
-   "company": "Société Générale",
-   "title": "Analyste Red Teaming des modèles d'embeddings",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-red-teaming-des-modeles-dembeddings-26000KQQ-fr",
-   "reason": "contrat hors CDI/CDD (stage, alternance…)",
-   "at": "2026-10-30T21:29:42+00:00"
-  },
-  {
-   "id": "3e78360fc751",
-   "company": "Société Générale",
-   "title": "Front Office – Analyste Développeur",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/front-office-analyste-developpeur-26000I6R-fr",
-   "reason": "lieu hors zones",
-   "at": "2026-10-30T21:29:41+00:00"
-  },
-  {
-   "id": "37f347acf9dc",
-   "company": "Air France",
-   "title": "Analyste de vols - Revenue Management F/H",
-   "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25588&idOrigine=502&offerReference=2026-25588",
-   "reason": "lieu inconnu ou hors zones (retirée)",
-   "at": "2026-10-30T21:27:45+00:00"
-  },
-  {
-   "id": "828e74cf97c5",
-   "company": "Air France",
-   "title": "Data Analyst Commercial - Digital Product F/H",
-   "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=23302&idOrigine=502&offerReference=2025-23302",
-   "reason": "lieu inconnu ou hors zones (retirée)",
-   "at": "2026-10-30T21:27:42+00:00"
-  },
-  {
    "id": "86c1bb321c3b",
    "company": "jobup.ch",
    "title": "SAP Data Manager 100 % (w/m/d)",
@@ -6080,14 +5912,6 @@
    "url": "https://www.jobs.ch/fr/offres-emplois/detail/0eb0d73b-9eed-4c76-9125-70f3bf7492f6/",
    "reason": "titre exclu (senior)",
    "at": "2026-10-30T17:05:33+00:00"
-  },
-  {
-   "id": "a919e0ac3693",
-   "company": "TotalEnergies",
-   "title": "Solutions Analyst",
-   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Solutions-Analyst/85679",
-   "reason": "lieu hors zones",
-   "at": "2026-10-30T17:04:59+00:00"
   },
   {
    "id": "2fdf3df39737",
@@ -6130,14 +5954,6 @@
    "at": "2026-10-30T17:00:03+00:00"
   },
   {
-   "id": "d9f49bcadba2",
-   "company": "ING",
-   "title": "Global HR Data Consumption Specialist",
-   "url": "https://careers.ing.com/en/job/makati-city/global-hr-data-consumption-specialist/3121/41176897600",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-30T14:28:44+00:00"
-  },
-  {
    "id": "af46c13c1c54",
    "company": "jobs.ch",
    "title": "Product Owner/Business Analyst - Enterprise Data & Solutions",
@@ -6146,36 +5962,12 @@
    "at": "2026-10-30T14:27:08+00:00"
   },
   {
-   "id": "b7d968e9dd84",
-   "company": "BPCE",
-   "title": "Analyste équipement informatique et téléphonie F/H",
-   "url": "https://recrutement.bpce.fr/job/analyste-equipement-informatique-et-telephonie-f-h",
-   "reason": "lieu hors zones",
-   "at": "2026-10-30T14:24:09+00:00"
-  },
-  {
    "id": "6649c3a797a5",
    "company": "Crédit Agricole",
    "title": "Stage - Business Coverage Support Analyst H/F",
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170478-136-stage---business-coverage-support-analyst-hf-reference--2026-117004--/",
    "reason": "titre exclu (stage)",
    "at": "2026-10-30T14:23:21+00:00"
-  },
-  {
-   "id": "2d965cdd5cf2",
-   "company": "Alstom",
-   "title": "ServiceNow Analyst",
-   "url": "https://jobsearch.alstom.com/job/Bangalore-ServiceNow-Analyst-KA/1452919533/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-30T14:21:48+00:00"
-  },
-  {
-   "id": "333ffdd69f39",
-   "company": "TotalEnergies",
-   "title": "Analyste Supply Chain et Transport Maritime (H/F) – Singapour",
-   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Analyste-Supply-Chain-et-Transport-Maritime-H-F-Singapour/85744",
-   "reason": "lieu hors zones",
-   "at": "2026-10-30T10:54:53+00:00"
   },
   {
    "id": "4ea5d0f08e9c",
@@ -6242,14 +6034,6 @@
    "at": "2026-10-30T09:23:03+00:00"
   },
   {
-   "id": "740bdb27a3d0",
-   "company": "Orange",
-   "title": "Reporting Analyst",
-   "url": "https://orange.jobs/fr/fr/job/ERC-596982-20136094/Reporting-Analyst",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-30T09:22:58+00:00"
-  },
-  {
    "id": "f25bfb771aec",
    "company": "Alstom",
    "title": "Mobility Data Architect",
@@ -6264,54 +6048,6 @@
    "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25264&idOrigine=502&offerReference=2026-25264",
    "reason": "expérience demandée ≥ 3 ans « naires externes) bac+5, master avec au moins 3 ans d'experience sap - conna »",
    "at": "2026-10-30T09:17:18+00:00"
-  },
-  {
-   "id": "abfb5688abcd",
-   "company": "Société Générale",
-   "title": "Analyste financier(ère) (Comptabilité)",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-financierere-comptabilite-26000K54-fr",
-   "reason": "lieu hors zones",
-   "at": "2026-10-30T01:57:08+00:00"
-  },
-  {
-   "id": "858fd0ad1ab7",
-   "company": "Société Générale",
-   "title": "Analyste Programmeur",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-programmeur-26000FT6-fr",
-   "reason": "lieu hors zones",
-   "at": "2026-10-30T01:57:07+00:00"
-  },
-  {
-   "id": "1f496cf87475",
-   "company": "Société Générale",
-   "title": "Analyste Support aux Opérations de Trading",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-support-aux-operations-de-trading-26000IZU-fr",
-   "reason": "lieu hors zones",
-   "at": "2026-10-30T01:57:05+00:00"
-  },
-  {
-   "id": "09b1298b6c5d",
-   "company": "Société Générale",
-   "title": "Analyste programmeur - Java et PL/SQL",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-programmeur-java-et-pl-sql-260003FR-fr",
-   "reason": "lieu hors zones",
-   "at": "2026-10-30T01:56:55+00:00"
-  },
-  {
-   "id": "6d0b3a451451",
-   "company": "UBS",
-   "title": "QIS Platform Analyst",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=353262",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-29T22:06:20+00:00"
-  },
-  {
-   "id": "c4b6beaa1523",
-   "company": "UBS",
-   "title": "Market Conduct Surveillance Analyst",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=347482",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-29T22:06:19+00:00"
   },
   {
    "id": "6bff6b62d95c",
@@ -6352,14 +6088,6 @@
    "url": "https://www.jobs.ch/fr/offres-emplois/detail/d41c7732-1373-44b4-9b05-91ef09ef5757/",
    "reason": "titre exclu (senior)",
    "at": "2026-10-29T17:30:38+00:00"
-  },
-  {
-   "id": "fceae94c41ac",
-   "company": "TotalEnergies",
-   "title": "Business Analyst",
-   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Business-Analyst/85734",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T17:30:02+00:00"
   },
   {
    "id": "844932d6fd6e",
@@ -6424,30 +6152,6 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170479-136-private-equity-real-estate-analyste-hf-reference--2025-106861--/",
    "reason": "expérience demandée ≥ 6 ans « duction, en banque ou en societe de gestion. niveau d'experience minimum 6 - 10 ans competences recherchees co » (retirée)",
    "at": "2026-10-29T17:26:27+00:00"
-  },
-  {
-   "id": "96e987ccc812",
-   "company": "ING",
-   "title": "Business Analyst - Regulatory Reporting",
-   "url": "https://careers.ing.com/en/job/makati-city/business-analyst-regulatory-reporting/3121/44659395904",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-29T14:22:50+00:00"
-  },
-  {
-   "id": "cbccd0c2ffb1",
-   "company": "UBS",
-   "title": "GM Distribution - Quantitative Analyst/Engineer",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=352647",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-29T14:22:25+00:00"
-  },
-  {
-   "id": "e778702f42d3",
-   "company": "UBS",
-   "title": "Data Steward - Static and Sustainability",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=352185",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-29T14:22:25+00:00"
   },
   {
    "id": "a545436fe7b1",
@@ -6520,278 +6224,6 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-124-stage---analyste-multigestion-private-equity-hf-reference--2026-116979--/",
    "reason": "titre exclu (stage)",
    "at": "2026-10-29T14:16:50+00:00"
-  },
-  {
-   "id": "55386513b70e",
-   "company": "Alstom",
-   "title": "Analytics Technical Analyst",
-   "url": "https://jobsearch.alstom.com/job/Bangalore-Analytics-Technical-Analyst/1441849233/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T14:15:06+00:00"
-  },
-  {
-   "id": "763f9d6037bd",
-   "company": "ING",
-   "title": "Digital Campaign Analyst",
-   "url": "https://careers.ing.com/en/job/silesia/digital-campaign-analyst/3121/45574995200",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:30:24+00:00"
-  },
-  {
-   "id": "44f1d09d6e25",
-   "company": "ING",
-   "title": "NL Cards Disputes Analyst",
-   "url": "https://careers.ing.com/en/job/makati-city/nl-cards-disputes-analyst/3121/45961167744",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-29T10:30:22+00:00"
-  },
-  {
-   "id": "4e92513ce278",
-   "company": "ING",
-   "title": "BE Customer Care Analyst",
-   "url": "https://careers.ing.com/en/job/makati-city/be-customer-care-analyst/3121/46442737664",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-29T10:30:21+00:00"
-  },
-  {
-   "id": "aa0d5a6bd00e",
-   "company": "ING",
-   "title": "Business Analyst (Tribe Services)",
-   "url": "https://careers.ing.com/en/job/makati-city/business-analyst-tribe-services/3121/20976434304",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-29T10:30:19+00:00"
-  },
-  {
-   "id": "4bbee68e5c5c",
-   "company": "ING",
-   "title": "Transaction Monitoring Analyst",
-   "url": "https://careers.ing.com/en/job/makati-city/transaction-monitoring-analyst/3121/45682205952",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-29T10:30:18+00:00"
-  },
-  {
-   "id": "8430a2c8cd9d",
-   "company": "ING",
-   "title": "IT Business Analyst",
-   "url": "https://careers.ing.com/en/job/makati-city/it-business-analyst/3121/45306843840",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-29T10:30:16+00:00"
-  },
-  {
-   "id": "12e2825d1c8c",
-   "company": "ING",
-   "title": "Digital Analyst",
-   "url": "https://careers.ing.com/en/job/milan/digital-analyst/3121/41695666368",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:30:15+00:00"
-  },
-  {
-   "id": "276c560c2fdc",
-   "company": "ING",
-   "title": "IT Business Analyst",
-   "url": "https://careers.ing.com/en/job/makati-city/it-business-analyst/3121/46391157824",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-29T10:30:14+00:00"
-  },
-  {
-   "id": "4b0a72b8b3e8",
-   "company": "ING",
-   "title": "Real Time Analyst",
-   "url": "https://careers.ing.com/en/job/makati-city/real-time-analyst/3121/42373877824",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-29T10:30:13+00:00"
-  },
-  {
-   "id": "85a0ce06e4b7",
-   "company": "ING",
-   "title": "Business Analyst",
-   "url": "https://careers.ing.com/en/job/istanbul/business-analyst/3121/45961168064",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-29T10:30:11+00:00"
-  },
-  {
-   "id": "46acd6453c1a",
-   "company": "ING",
-   "title": "Business Analyst",
-   "url": "https://careers.ing.com/en/job/istanbul/business-analyst/3121/35307051968",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-29T10:30:09+00:00"
-  },
-  {
-   "id": "0b5f3567c910",
-   "company": "ING",
-   "title": "Compliance Data Methodology",
-   "url": "https://careers.ing.com/en/job/warsaw/compliance-data-methodology/3121/45101610880",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:30:07+00:00"
-  },
-  {
-   "id": "21f2932e0fe5",
-   "company": "ING",
-   "title": "Data Analyst in Risk Reporting",
-   "url": "https://careers.ing.com/en/job/warsaw/data-analyst-in-risk-reporting/3121/46362822912",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:30:06+00:00"
-  },
-  {
-   "id": "234d2e91c873",
-   "company": "ING",
-   "title": "Data Analyst / Data Modeler | GKYC @ING Hubs Romania",
-   "url": "https://careers.ing.com/en/job/bucharest/data-analyst-data-modeler-gkyc-ing-hubs-romania/3121/46193006464",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-29T10:30:04+00:00"
-  },
-  {
-   "id": "24523f912177",
-   "company": "ING",
-   "title": "Data Strategy Oversight Analyst",
-   "url": "https://careers.ing.com/en/job/warsaw/data-strategy-oversight-analyst/3121/46391158400",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:30:04+00:00"
-  },
-  {
-   "id": "22bb5602ca93",
-   "company": "ING",
-   "title": "Data Analyst (Credit Risk)",
-   "url": "https://careers.ing.com/en/job/city-of-taguig/data-analyst-credit-risk/3121/45167336448",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-29T10:30:01+00:00"
-  },
-  {
-   "id": "d7493c9d0f11",
-   "company": "ING",
-   "title": "Data Protection Professional",
-   "url": "https://careers.ing.com/en/job/makati-city/data-protection-professional/3121/45386467904",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-29T10:30:00+00:00"
-  },
-  {
-   "id": "bb3c48855852",
-   "company": "ING",
-   "title": "Data Modeling Analyst",
-   "url": "https://careers.ing.com/en/job/makati-city/data-modeling-analyst/3121/43998316160",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-29T10:29:59+00:00"
-  },
-  {
-   "id": "56ce8da8b11d",
-   "company": "ING",
-   "title": "Data Analyst (Data Modelling)",
-   "url": "https://careers.ing.com/en/job/makati-city/data-analyst-data-modelling/3121/46281037632",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-29T10:29:57+00:00"
-  },
-  {
-   "id": "657ae67231bb",
-   "company": "ING",
-   "title": "Data Analist",
-   "url": "https://careers.ing.com/en/job/amsterdam/data-analist/3121/46369312128",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-29T10:29:55+00:00"
-  },
-  {
-   "id": "37c96c4ec135",
-   "company": "SIX Group",
-   "title": "Quantitative Risk Analyst",
-   "url": "https://jobs.six-group.com/job/Las-Rozas-de-Madrid-Quantitative-Risk-Analyst/1414748633/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:29:33+00:00"
-  },
-  {
-   "id": "60e7cd8552c0",
-   "company": "SIX Group",
-   "title": "SOC Analyst",
-   "url": "https://jobs.six-group.com/job/Las-Rozas-de-Madrid-SOC-Analyst/1416240433/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:29:31+00:00"
-  },
-  {
-   "id": "dc61bbf1c140",
-   "company": "SIX Group",
-   "title": "Data Acquisition Specialist",
-   "url": "https://jobs.six-group.com/job/Las-Rozas-de-Madrid-Data-Acquisition-Specialist/1445274533/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:29:30+00:00"
-  },
-  {
-   "id": "34d3383b4341",
-   "company": "SIX Group",
-   "title": "Real-time Data Service Specialist",
-   "url": "https://jobs.six-group.com/job/Warsaw-Real-time-Data-Service-Specialist/1416225533/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:29:28+00:00"
-  },
-  {
-   "id": "8834aba7e277",
-   "company": "SIX Group",
-   "title": "Marketing Data Scientist",
-   "url": "https://jobs.six-group.com/job/Warsaw-Marketing-Data-Scientist/1447426133/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:29:27+00:00"
-  },
-  {
-   "id": "d17c4b302fa1",
-   "company": "SIX Group",
-   "title": "Business Analyst",
-   "url": "https://jobs.six-group.com/job/Warsaw-Business-Analyst/1448087833/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:29:25+00:00"
-  },
-  {
-   "id": "99eb1d5db54f",
-   "company": "SIX Group",
-   "title": "Data Analyst",
-   "url": "https://jobs.six-group.com/job/Singapore-Data-Analyst/1448871033/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:29:24+00:00"
-  },
-  {
-   "id": "b52adefa9926",
-   "company": "SIX Group",
-   "title": "Data Analyst",
-   "url": "https://jobs.six-group.com/job/Las-Rozas-de-Madrid-Data-Analyst/1439649333/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:29:22+00:00"
-  },
-  {
-   "id": "39a167e86d53",
-   "company": "SIX Group",
-   "title": "Data Quality Analyst",
-   "url": "https://jobs.six-group.com/job/Warsaw-Data-Quality-Analyst/1449916133/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:29:21+00:00"
-  },
-  {
-   "id": "35b2988592d7",
-   "company": "UBS",
-   "title": "Trade Support Analyst – Australia & New Zealand Equities",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=352917",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-29T10:29:17+00:00"
-  },
-  {
-   "id": "077ca8f780fe",
-   "company": "Julius Baer",
-   "title": "12 months Contract - Business Analyst, Private Bank Credit Risk Applications (Through an External Agency Payroll Provider)",
-   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Singapore/XMLNAME-12-months-Contract---Business-Analyst--Private-Bank-Credit-Risk-Applications--Through-an-External-Agency-Payroll-Provider-_r-19987-2",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:28:56+00:00"
-  },
-  {
-   "id": "0595a2c87ec9",
-   "company": "Julius Baer",
-   "title": "12 months Contract - GPS Platform Transformation: Business Analyst – FX/PM (Through an External Agency)",
-   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Singapore/XMLNAME-12-months-Contract---Business-Analyst---Structured-Product--Through-an-External-Agency-_r-16676",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:28:55+00:00"
-  },
-  {
-   "id": "955d3dd4b42d",
-   "company": "Julius Baer",
-   "title": "Exposure Management Data Analyst 100% (f/m/d)",
-   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Madrid/Exposure-Management-Data-Analyst-100---f-m-d-_r-20114-1",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:28:52+00:00"
   },
   {
    "id": "23cfcd390920",
@@ -7458,84 +6890,12 @@
    "at": "2026-10-29T10:26:14+00:00"
   },
   {
-   "id": "3845f49acfce",
-   "company": "Orange",
-   "title": "Reporting Analyst",
-   "url": "https://orange.jobs/fr/fr/job/ERC-587483-20136094/Reporting-Analyst",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-29T10:26:07+00:00"
-  },
-  {
    "id": "3f81b8cad3ff",
    "company": "Orange",
    "title": "SOC Analyst",
    "url": "https://orange.jobs/fr/fr/job/ICM-588151/SOC-Analyst",
    "reason": "expérience demandée ≥ 3 ans « e in computer science or programming</li><li>3+ years of experience in securit »",
    "at": "2026-10-29T10:26:06+00:00"
-  },
-  {
-   "id": "74b4f619ed04",
-   "company": "Orange",
-   "title": "Fraud Analyst",
-   "url": "https://orange.jobs/fr/fr/job/ICM-589226/Fraud-Analyst",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:26:05+00:00"
-  },
-  {
-   "id": "7ed8f7718203",
-   "company": "Orange",
-   "title": "Business Analyst",
-   "url": "https://orange.jobs/fr/fr/job/ICM-588315/Business-Analyst",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:26:03+00:00"
-  },
-  {
-   "id": "3acd26186d82",
-   "company": "Orange",
-   "title": "Data Engineer",
-   "url": "https://orange.jobs/fr/fr/job/ICM-589002/Data-Engineer",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:26:02+00:00"
-  },
-  {
-   "id": "4818b839c6fe",
-   "company": "Orange",
-   "title": "Data Scientist",
-   "url": "https://orange.jobs/fr/fr/job/ICM-588283/Data-Scientist",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:26:00+00:00"
-  },
-  {
-   "id": "b1dffbe98bbd",
-   "company": "Orange",
-   "title": "Data Analyst",
-   "url": "https://orange.jobs/fr/fr/job/ICM-588944/Data-Analyst",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-29T10:25:59+00:00"
-  },
-  {
-   "id": "e6380881a101",
-   "company": "TotalEnergies",
-   "title": "BI/DATA Developer",
-   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/BI-DATA-Developer/85536",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:25:19+00:00"
-  },
-  {
-   "id": "8e38d6254362",
-   "company": "TotalEnergies",
-   "title": "ACCOUNTING & CREDIT ANALYST",
-   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/ACCOUNTING-CREDIT-ANALYST/81353",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-29T10:25:17+00:00"
-  },
-  {
-   "id": "e8af2263cc11",
-   "company": "TotalEnergies",
-   "title": "CDI - Analyste de Laboratoire (H/F)",
-   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/CDI-Analyste-de-Laboratoire-H-F/85596",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-29T10:25:15+00:00"
   },
   {
    "id": "7e9f5092460c",
@@ -7546,51 +6906,11 @@
    "at": "2026-10-29T10:23:16+00:00"
   },
   {
-   "id": "71e0a034c0f6",
-   "company": "AXA",
-   "title": "Data Operations Support Analyst",
-   "url": "https://careers.axa.com/jobs/28646",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:23:07+00:00"
-  },
-  {
-   "id": "ae5942ee8674",
-   "company": "AXA",
-   "title": "Data & Analytics Product Owner",
-   "url": "https://careers.axa.com/jobs/25337",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:23:07+00:00"
-  },
-  {
-   "id": "82b06476de88",
-   "company": "AXA",
-   "title": "Consumer Analyst",
-   "url": "https://careers.axa.com/jobs/29192",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:23:07+00:00"
-  },
-  {
    "id": "614bc4a14706",
    "company": "AXA",
    "title": "Senior Pricing Governance Analyst",
    "url": "https://careers.axa.com/jobs/28651",
    "reason": "titre exclu (senior)",
-   "at": "2026-10-29T10:23:07+00:00"
-  },
-  {
-   "id": "f83cf44d7dc1",
-   "company": "AXA",
-   "title": "Data Scientist",
-   "url": "https://careers.axa.com/jobs/28649",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:23:07+00:00"
-  },
-  {
-   "id": "91535e155529",
-   "company": "AXA",
-   "title": "Business Analyst - 14 Month FTC",
-   "url": "https://careers.axa.com/jobs/27929",
-   "reason": "lieu hors zones",
    "at": "2026-10-29T10:23:07+00:00"
   },
   {
@@ -7602,100 +6922,12 @@
    "at": "2026-10-29T10:23:07+00:00"
   },
   {
-   "id": "6369e3b811b2",
-   "company": "AXA",
-   "title": "Business Analyst (FTC 6 months)",
-   "url": "https://careers.axa.com/jobs/22861",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:23:07+00:00"
-  },
-  {
-   "id": "b7c1eed77808",
-   "company": "BPCE",
-   "title": "Data Engineer F/H",
-   "url": "https://recrutement.bpce.fr/job/data-engineer-f-h",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:22:44+00:00"
-  },
-  {
-   "id": "f90fb40c27df",
-   "company": "BPCE",
-   "title": "Business Analyst IT Parcours Conseillers (F/H)",
-   "url": "https://recrutement.bpce.fr/job/business-analyst-it-parcours-conseillers-f-h",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:22:35+00:00"
-  },
-  {
-   "id": "4f795f0b347d",
-   "company": "BPCE",
-   "title": "Analyste Risques , Sud Service Accompagnement",
-   "url": "https://recrutement.bpce.fr/job/analyste-risques-sud-service-accompagnement",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:22:26+00:00"
-  },
-  {
-   "id": "fde882c04973",
-   "company": "BPCE",
-   "title": "Analyste financier (F/H)",
-   "url": "https://recrutement.bpce.fr/job/analyste-financier-f-h",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:22:17+00:00"
-  },
-  {
-   "id": "9ba20f167267",
-   "company": "BPCE",
-   "title": "Data Analyst H/F - Orléans",
-   "url": "https://recrutement.bpce.fr/job/data-analyst-h-f-orleans",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:22:08+00:00"
-  },
-  {
-   "id": "25b1356da9bd",
-   "company": "BPCE",
-   "title": "Analyste Financier (F/H)",
-   "url": "https://recrutement.bpce.fr/job/analyste-financier-f-h-2",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:21:59+00:00"
-  },
-  {
-   "id": "2c7728331e8d",
-   "company": "BPCE",
-   "title": "Information Technology Risk 1LoD Analyst",
-   "url": "https://recrutement.bpce.fr/job/information-technology-risk-1lod-analyst",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:21:50+00:00"
-  },
-  {
-   "id": "1e375cba25ae",
-   "company": "BPCE",
-   "title": "Market Data & Access Support Engineer",
-   "url": "https://recrutement.bpce.fr/job/market-data-access-support-engineer",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:21:41+00:00"
-  },
-  {
-   "id": "9acdc7e7abee",
-   "company": "BPCE",
-   "title": "Analyste Risques de Crédits CDD (F/H) - Rennes (35)",
-   "url": "https://recrutement.bpce.fr/job/analyste-risques-de-credits-cdd-f-h-rennes-35",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:21:33+00:00"
-  },
-  {
    "id": "ee09d636c6ee",
    "company": "BPCE",
    "title": "Analyste Risque de Crédit dossiers sensibles (F/H)",
    "url": "https://recrutement.bpce.fr/job/analyste-risque-de-credit-dossiers-sensibles-f-h-2",
    "reason": "expérience demandée ≥ 5 ans « e en question experience bancaire d'au moins 5-10 ans dans des fonctions explo »",
    "at": "2026-10-29T10:21:24+00:00"
-  },
-  {
-   "id": "be435ee0c180",
-   "company": "Crédit Agricole",
-   "title": "Global Investment Banking Analyst M/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170466-4-global-investment-banking-analyst-mf--reference--2026-115374--/",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-29T10:20:31+00:00"
   },
   {
    "id": "7b88fae200a7",
@@ -7706,100 +6938,12 @@
    "at": "2026-10-29T10:19:56+00:00"
   },
   {
-   "id": "e4ffd9296740",
-   "company": "Alstom",
-   "title": "Project Warranty Data Analyst [RS eLOCO]",
-   "url": "https://jobsearch.alstom.com/job/Bangalore-Project-Warranty-Data-Analyst-RS-eLOCO-KA/1445165933/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:18:40+00:00"
-  },
-  {
-   "id": "435da67160e8",
-   "company": "Alstom",
-   "title": "Data Design and Delivery Specialist",
-   "url": "https://jobsearch.alstom.com/job/Bangalore-Data-Design-and-Delivery-Specialist/1446479733/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:18:39+00:00"
-  },
-  {
-   "id": "7228a2511daf",
-   "company": "Alstom",
-   "title": "Data Solution Specialist",
-   "url": "https://jobsearch.alstom.com/job/Bangalore-Data-Solution-Specialist/1446478933/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:18:37+00:00"
-  },
-  {
-   "id": "b32bfe9d02ce",
-   "company": "Alstom",
-   "title": "TEMP LABOUR - Business Process & Reporting Analyst H/F",
-   "url": "https://jobsearch.alstom.com/job/Charleroi-TEMP-LABOUR-Business-Process-&-Reporting-Analyst-HF/1427905333/",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-29T10:18:36+00:00"
-  },
-  {
-   "id": "cbd7ddb14e49",
-   "company": "Alstom",
-   "title": "HR Admin Analyst with German",
-   "url": "https://jobsearch.alstom.com/job/Cluj-Napoca-HR-Admin-Analyst-with-German-CJ/1428263833/",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-29T10:18:34+00:00"
-  },
-  {
-   "id": "36de981bab9c",
-   "company": "Alstom",
-   "title": "Salesforce Services Technical Analyst",
-   "url": "https://jobsearch.alstom.com/job/Bangalore-Salesforce-Services-Technical-Analyst-KA/1398765633/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:18:33+00:00"
-  },
-  {
-   "id": "d7a0476b8c56",
-   "company": "Alstom",
-   "title": "Analyst - Intune",
-   "url": "https://jobsearch.alstom.com/job/Bangalore-Analyst-Intune-KA/1451215433/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:18:31+00:00"
-  },
-  {
-   "id": "7bf0f9b7c713",
-   "company": "Alstom",
-   "title": "Analyste Financier FP&A",
-   "url": "https://jobsearch.alstom.com/job/Saint-Bruno-Analyste-Financier-FP&A-QC/1452260533/",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-29T10:18:30+00:00"
-  },
-  {
-   "id": "312fdfc8d217",
-   "company": "Alstom",
-   "title": "Inter-company Analyst",
-   "url": "https://jobsearch.alstom.com/job/Bangalore-Inter-company-Analyst-KA/1452452233/",
-   "reason": "lieu hors zones",
-   "at": "2026-10-29T10:18:28+00:00"
-  },
-  {
    "id": "cc70cba7ad98",
    "company": "Alstom",
    "title": "Record to Report, Senior Analyst",
    "url": "https://jobsearch.alstom.com/job/Bangalore-Record-to-Report%2C-Senior-Analyst-KA/1452364033/",
    "reason": "titre exclu (senior)",
    "at": "2026-10-29T10:18:28+00:00"
-  },
-  {
-   "id": "7c7ca9f266fa",
-   "company": "Alstom",
-   "title": "FP&A Financial Analyst",
-   "url": "https://jobsearch.alstom.com/job/Saint-Bruno-FP&A-Financial-Analyst-QC/1452260433/",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-29T10:18:27+00:00"
-  },
-  {
-   "id": "a28a63858746",
-   "company": "Alstom",
-   "title": "Ingénieur(e) Process / Data - H/F",
-   "url": "https://jobsearch.alstom.com/job/Ornans-Ing%C3%A9nieur%28e%29-Process-Data-HF-I/1431947533/",
-   "reason": "lieu inconnu ou hors zones",
-   "at": "2026-10-29T10:18:25+00:00"
   },
   {
    "id": "fec4864cc359",

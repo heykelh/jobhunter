@@ -1,131 +1,126 @@
 {
- "updated": "2026-11-14T11:37:01+00:00",
+ "updated": "2026-11-14T14:50:11+00:00",
  "jobs": [
   {
-   "id": "d1013f450539",
-   "company": "finnova AG Bankware",
-   "title": "AI Enablement & Solution Engineer (all) 60-100%",
-   "url": "https://www.jobup.ch/fr/emplois/detail/b9aed56d-52c5-4622-9222-b8fc646024d7/",
-   "via": "jobup.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-11-14T02:34:18+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 70,
-    "have": [
-     "python",
-     "aws",
-     "llm",
-     "rag",
-     "qualité des données",
-     "gouvernance",
-     "conformité"
-    ],
-    "missing": [
-     "azure",
-     "catalogue",
-     "allemand"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-14T11:34:26+00:00",
-   "last_seen": "2026-11-14T11:34:26+00:00"
-  },
-  {
-   "id": "b93a1f8a07cf",
-   "company": "Rocken®",
-   "title": "Data Platform Engineer (m/w/d)",
-   "url": "https://www.jobup.ch/fr/emplois/detail/980dff8d-5fdf-4146-a3cb-898857d230e5/",
-   "via": "jobup.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-11-14T06:47:25+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 80,
-    "have": [
-     "sql",
-     "etl",
-     "anglais",
-     "postgresql"
-    ],
-    "missing": [
-     "allemand"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-14T11:33:43+00:00",
-   "last_seen": "2026-11-14T11:33:43+00:00"
-  },
-  {
-   "id": "5355c189c2c8",
-   "company": "Elan Personal AG",
-   "title": "Manufacturing Process Analyst / Engineer",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/69fea50f-6ad1-44c9-9eb6-d22d4f2c12f6/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
+   "id": "cb889ea36ae3",
+   "company": "Orange",
+   "title": "Analyste des Travaux Programmés des Services Audiovisuels F/H",
+   "url": "https://orange.jobs/fr/fr/job/CTS-2026-55652/Analyste-des-Travaux-Programmés-des-Services-Audiovisuels-F-H",
+   "via": null,
+   "zone": "Île-de-France",
+   "country": "France",
    "contract": "?",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-14",
+   "seed": false,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T14:46:20+00:00",
+   "last_seen": "2026-11-14T14:46:20+00:00"
+  },
+  {
+   "id": "4b9dd02411d1",
+   "company": "Orange",
+   "title": "Analyste SOC F/H",
+   "url": "https://orange.jobs/fr/fr/job/CTS-2026-55658/Analyste-SOC-F-H",
+   "via": null,
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "?",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-14",
+   "seed": false,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T14:46:13+00:00",
+   "last_seen": "2026-11-14T14:46:13+00:00"
+  },
+  {
+   "id": "17318fdb0078",
+   "company": "VINCI (dont ETF)",
+   "title": "Analyste support applicatif – Trésorerie F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/nanterre/analyste-support-applicatif-tresorerie-f-h/1440/41692262656",
+   "via": null,
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
    "experience": "non précisée",
    "junior": false,
-   "published": "2026-11-13T18:14:47+01:00",
+   "published": "2026-10-28",
    "seed": false,
-   "rv": 3,
+   "rv": 4,
    "match": {
-    "score": 57,
+    "score": 100,
     "have": [
-     "python",
      "sql",
-     "conformité",
+     "recette",
      "anglais"
     ],
-    "missing": [
-     "snowflake",
-     "agile",
-     "allemand"
-    ]
+    "missing": []
    },
    "salary": null,
-   "first_seen": "2026-11-13T19:47:17+00:00",
-   "last_seen": "2026-11-14T11:33:23+00:00"
+   "first_seen": "2026-11-14T14:43:44+00:00",
+   "last_seen": "2026-11-14T14:43:44+00:00"
   },
   {
-   "id": "85da050da0f4",
-   "company": "SPIE Schweiz AG",
-   "title": "Consultant AI, Data & Automation 80-100%",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/7e853ff6-a7f1-4fb5-a153-736292e9dcc3/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
+   "id": "92eaf34ac1d2",
+   "company": "VINCI (dont ETF)",
+   "title": "Junior Market Development Analyst F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/la-defense/junior-market-development-analyst-f-h/1440/46674181888",
+   "via": null,
+   "zone": "Île-de-France",
+   "country": "France",
    "contract": "CDI",
-   "experience": "2 ans min.",
-   "junior": false,
-   "published": "2026-11-13T19:02:49+01:00",
+   "experience": "3 ans min. · junior",
+   "junior": true,
+   "published": "2026-11-06",
    "seed": false,
-   "rv": 3,
+   "rv": 4,
+   "match": {
+    "score": 100,
+    "have": [
+     "intelligence artificielle",
+     "pricing",
+     "anglais"
+    ],
+    "missing": []
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T14:43:41+00:00",
+   "last_seen": "2026-11-14T14:43:41+00:00"
+  },
+  {
+   "id": "eb0dc2d45c85",
+   "company": "Alstom",
+   "title": "Finance Project Analyst (F/H)",
+   "url": "https://jobsearch.alstom.com/job/Charleroi-Finance-Project-Analyst-%28FH%29-WHT/1433238133/",
+   "via": null,
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "CDI",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-10-31T02:00:00+00:00",
+   "seed": false,
+   "rv": 4,
    "match": {
     "score": 50,
     "have": [
-     "power bi",
-     "anglais"
+     "excel",
+     "reporting"
     ],
     "missing": [
-     "azure",
-     "allemand"
+     "agile",
+     "sap"
     ]
    },
    "salary": null,
-   "first_seen": "2026-11-13T19:47:13+00:00",
-   "last_seen": "2026-11-14T11:33:23+00:00"
+   "first_seen": "2026-11-14T14:29:48+00:00",
+   "last_seen": "2026-11-14T14:29:48+00:00"
   },
   {
    "id": "522f1ea0d981",
@@ -140,11 +135,11 @@
    "junior": false,
    "published": "2026-11-13T12:35:00+00:00",
    "seed": false,
-   "rv": 3,
+   "rv": 4,
    "match": null,
    "salary": null,
    "first_seen": "2026-11-13T19:43:59+00:00",
-   "last_seen": "2026-11-14T11:30:20+00:00"
+   "last_seen": "2026-11-14T14:39:14+00:00"
   },
   {
    "id": "7f96e110b127",
@@ -159,253 +154,11 @@
    "junior": false,
    "published": "2026-11-13T13:18:00+00:00",
    "seed": false,
-   "rv": 3,
+   "rv": 4,
    "match": null,
    "salary": null,
    "first_seen": "2026-11-13T19:43:55+00:00",
-   "last_seen": "2026-11-14T11:30:20+00:00"
-  },
-  {
-   "id": "759f43b511d7",
-   "company": "BPCE",
-   "title": "Chef de produits IARD F/H - Paris",
-   "url": "https://recrutement.bpce.fr/job/chef-de-produits-iard-f-h-paris",
-   "via": null,
-   "zone": "Île-de-France",
-   "country": "France",
-   "contract": "CDI",
-   "experience": "junior / débutant",
-   "junior": true,
-   "published": "2026-11-12",
-   "seed": false,
-   "rv": 3,
-   "match": null,
-   "salary": null,
-   "first_seen": "2026-11-13T19:43:05+00:00",
-   "last_seen": "2026-11-14T11:29:33+00:00"
-  },
-  {
-   "id": "a3e7c8d86423",
-   "company": "Eidgenössische Finanzmarktaufsicht FINMA",
-   "title": "Data Analyst Finanzmarktaufsicht (m/w/d)",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/c40b3766-217e-4dd3-9d58-e4ccaf21ac78/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "junior / débutant",
-   "junior": true,
-   "published": "2026-11-13T04:02:05+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 71,
-    "have": [
-     "python",
-     "qualité des données",
-     "reporting",
-     "tableaux de bord",
-     "anglais"
-    ],
-    "missing": [
-     "data steward",
-     "allemand"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-13T12:14:17+00:00",
-   "last_seen": "2026-11-14T11:33:21+00:00"
-  },
-  {
-   "id": "2d58e4cd1d64",
-   "company": "Visana Services AG",
-   "title": "Data Analyst / Data Scientist",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/21c7314d-e566-4483-9c03-37417422a2ef/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-11-04T10:02:29+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 67,
-    "have": [
-     "sql",
-     "reporting"
-    ],
-    "missing": [
-     "allemand"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-13T01:34:58+00:00",
-   "last_seen": "2026-11-13T01:34:58+00:00"
-  },
-  {
-   "id": "0f39d4513ed0",
-   "company": "Michael Page",
-   "title": "Inventory & Planning Analyst - 9 month contract",
-   "url": "https://www.jobup.ch/fr/emplois/detail/def8f191-a54c-4e06-a055-410241b2eb58/",
-   "via": "jobup.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "?",
-   "experience": "1 an min.",
-   "junior": false,
-   "published": "2026-11-12T19:10:38+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 80,
-    "have": [
-     "excel",
-     "reporting",
-     "pricing",
-     "anglais"
-    ],
-    "missing": [
-     "sap"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-12T20:35:31+00:00",
-   "last_seen": "2026-11-14T11:33:56+00:00"
-  },
-  {
-   "id": "c23660f6f7c8",
-   "company": "Inera SA",
-   "title": "Energy Data Scientist - Portfolio Management",
-   "url": "https://www.jobup.ch/fr/emplois/detail/2d681df1-0f93-4fd0-b196-1cf8905ee1d9/",
-   "via": "jobup.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-11-12T18:14:39+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 50,
-    "have": [
-     "python",
-     "anglais"
-    ],
-    "missing": [
-     "prévision",
-     "allemand"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-12T20:35:18+00:00",
-   "last_seen": "2026-11-14T11:33:38+00:00"
-  },
-  {
-   "id": "ac3fa5a9187d",
-   "company": "Academic Work Switzerland",
-   "title": "Data Engineer Junior (F/H) 100%",
-   "url": "https://www.jobup.ch/fr/emplois/detail/962acd07-cb00-4fbb-b87d-ee9ec2241361/",
-   "via": "jobup.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "?",
-   "experience": "junior / débutant",
-   "junior": true,
-   "published": "2026-11-12T12:16:18+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 83,
-    "have": [
-     "python",
-     "sql",
-     "aws",
-     "docker",
-     "anglais"
-    ],
-    "missing": [
-     "airflow"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-12T12:43:28+00:00",
-   "last_seen": "2026-11-14T11:33:38+00:00"
-  },
-  {
-   "id": "f70e9aa6063b",
-   "company": "Emmi Schweiz AG",
-   "title": "Data Engineer 100%",
-   "url": "https://www.jobup.ch/fr/emplois/detail/6d675b40-b98b-4260-870c-b8d84921d082/",
-   "via": "jobup.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "?",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-11-12T02:04:24+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 38,
-    "have": [
-     "etl",
-     "qualité des données",
-     "anglais"
-    ],
-    "missing": [
-     "dbt",
-     "azure",
-     "data warehouse",
-     "modélisation",
-     "allemand"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-12T10:25:38+00:00",
-   "last_seen": "2026-11-14T11:33:38+00:00"
-  },
-  {
-   "id": "0b0cd98e9562",
-   "company": "Luzerner Kantonalbank",
-   "title": "AI & ML Engineer (w/m/d)",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/6473f0a1-7d88-4bc6-97c7-5c7f2001669b/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-11-12T04:02:06+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 53,
-    "have": [
-     "python",
-     "sql",
-     "etl",
-     "elt",
-     "intelligence artificielle",
-     "rag",
-     "gouvernance",
-     "scikit-learn"
-    ],
-    "missing": [
-     "databricks",
-     "azure",
-     "git",
-     "modélisation",
-     "allemand",
-     "tensorflow",
-     "pytorch"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-12T10:25:11+00:00",
-   "last_seen": "2026-11-14T11:33:23+00:00"
+   "last_seen": "2026-11-14T14:39:13+00:00"
   },
   {
    "id": "d4c6cd7fa652",
@@ -420,189 +173,11 @@
    "junior": false,
    "published": "2026-11-12",
    "seed": false,
-   "rv": 3,
+   "rv": 4,
    "match": null,
    "salary": null,
    "first_seen": "2026-11-12T10:19:01+00:00",
-   "last_seen": "2026-11-14T11:27:51+00:00"
-  },
-  {
-   "id": "c3a9269473cf",
-   "company": "CERN European Organization for Nuclear Research",
-   "title": "ARIA - Literature Review AI Automation (IT-PW-WDA-2026-165-GRAP)",
-   "url": "https://www.jobup.ch/fr/emplois/detail/3688ee79-96ca-4b4e-936e-0baa7a42c521/",
-   "via": "jobup.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "?",
-   "experience": "2 ans min.",
-   "junior": false,
-   "published": "2026-10-21T04:10:54+02:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 40,
-    "have": [
-     "python",
-     "anglais"
-    ],
-    "missing": [
-     "kubernetes",
-     "javascript",
-     "nlp"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-12T01:49:13+00:00",
-   "last_seen": "2026-11-12T01:49:13+00:00"
-  },
-  {
-   "id": "9fa0a8d637c7",
-   "company": "BR Bauhandel AG",
-   "title": "Product Data Specialist Sanitär (w/m/d) 80-100%",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/c80d8188-7b04-4952-b6ae-7e93831f0be0/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-11-10T11:57:46+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 80,
-    "have": [
-     "excel",
-     "etl",
-     "qualité des données",
-     "anglais"
-    ],
-    "missing": [
-     "allemand"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-12T01:48:26+00:00",
-   "last_seen": "2026-11-14T11:33:23+00:00"
-  },
-  {
-   "id": "b4f816dcbd9f",
-   "company": "la Mobilière",
-   "title": "Business Analyst Compliance, processus & transformation digitale (f/h/d)",
-   "url": "https://www.jobup.ch/fr/emplois/detail/704455ea-9f37-49ec-af34-79dd3b6749dc/",
-   "via": "jobup.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-11-09T13:32:22+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 50,
-    "have": [
-     "métadonnées",
-     "conformité",
-     "business analyst",
-     "anglais"
-    ],
-    "missing": [
-     "modélisation",
-     "agile",
-     "allemand",
-     "sap"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-11T00:45:54+00:00",
-   "last_seen": "2026-11-11T00:45:54+00:00"
-  },
-  {
-   "id": "1a4761260b85",
-   "company": "Accès Personnel SA",
-   "title": "Data Analyst (H/F)",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/235cdc27-4b96-41ba-86e4-aea29398a0e0/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "?",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-11-10T12:32:39+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 64,
-    "have": [
-     "python",
-     "excel",
-     "qualité des données",
-     "reporting",
-     "tableaux de bord",
-     "pilotage",
-     "spécifications"
-    ],
-    "missing": [
-     "tableau",
-     "agile",
-     "scrum",
-     "jira"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-10T12:40:08+00:00",
-   "last_seen": "2026-11-14T11:33:18+00:00"
-  },
-  {
-   "id": "c1bd6538b3f1",
-   "company": "Planzer",
-   "title": "IT Requirement Engineer / Business Analyst Logistiksystem (m/w/d)",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/0c26d310-1349-4647-891a-3e85f22634a2/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "junior / débutant",
-   "junior": true,
-   "published": "2026-10-22T07:32:14+02:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 40,
-    "have": [
-     "business analyst",
-     "anglais"
-    ],
-    "missing": [
-     "azure",
-     "jira",
-     "allemand"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-10T09:35:22+00:00",
-   "last_seen": "2026-11-10T09:35:22+00:00"
-  },
-  {
-   "id": "c28d35364612",
-   "company": "Bundesverwaltung",
-   "title": "Data Scientist / Analyst/-in Professional",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/e411ccf0-74fa-43c8-a598-bce5b12b0dc3/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-11-10T05:03:00+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": null,
-   "salary": null,
-   "first_seen": "2026-11-10T09:35:13+00:00",
-   "last_seen": "2026-11-14T11:33:21+00:00"
+   "last_seen": "2026-11-14T14:32:26+00:00"
   },
   {
    "id": "61d98dcfaf61",
@@ -617,7 +192,7 @@
    "junior": true,
    "published": "2026-11-08",
    "seed": false,
-   "rv": 3,
+   "rv": 4,
    "match": {
     "score": 73,
     "have": [
@@ -638,201 +213,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-09T21:36:35+00:00",
-   "last_seen": "2026-11-14T11:29:33+00:00"
-  },
-  {
-   "id": "6fb7ec961e31",
-   "company": "BPCE",
-   "title": "Analyste Résultats (F/H)",
-   "url": "https://recrutement.bpce.fr/job/analyste-resultats-f-h",
-   "via": null,
-   "zone": "Île-de-France",
-   "country": "France",
-   "contract": "CDI",
-   "experience": "junior / débutant",
-   "junior": true,
-   "published": "2026-11-08",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 100,
-    "have": [
-     "excel",
-     "reporting",
-     "pilotage",
-     "anglais"
-    ],
-    "missing": []
-   },
-   "salary": null,
-   "first_seen": "2026-11-09T21:36:22+00:00",
-   "last_seen": "2026-11-14T11:29:33+00:00"
-  },
-  {
-   "id": "383b3bb565fe",
-   "company": "Rocken®",
-   "title": "AI-Integration Engineer (m/w/d)",
-   "url": "https://www.jobup.ch/fr/emplois/detail/804fe096-0d1c-43bc-814d-f90b3aebb1fa/",
-   "via": "jobup.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-11-09T11:17:36+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 57,
-    "have": [
-     "intelligence artificielle",
-     "spécifications",
-     "anglais",
-     "scikit-learn"
-    ],
-    "missing": [
-     "allemand",
-     "tensorflow",
-     "pytorch"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-09T12:54:36+00:00",
-   "last_seen": "2026-11-09T23:06:08+00:00"
-  },
-  {
-   "id": "e90d09bab57c",
-   "company": "Rocken®",
-   "title": "Microsoft System Engineer Data & Cloud (m/w/d)",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/42dfb496-2613-4db7-b767-2ce851c4224c/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "1 an min.",
-   "junior": false,
-   "published": "2026-11-06T06:17:41+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 75,
-    "have": [
-     "gouvernance",
-     "conformité",
-     "anglais"
-    ],
-    "missing": [
-     "allemand"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-09T01:20:02+00:00",
-   "last_seen": "2026-11-09T01:20:02+00:00"
-  },
-  {
-   "id": "957d18c64e3a",
-   "company": "BBC Group AG",
-   "title": "AI Native Support Engineer (m/w/d) 80 - 100%",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/d878acb4-bc36-4010-8d43-33b4707befa1/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-11-04T19:02:50+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": null,
-   "salary": null,
-   "first_seen": "2026-11-08T00:39:06+00:00",
-   "last_seen": "2026-11-13T19:47:37+00:00"
-  },
-  {
-   "id": "4c0c983f9c5e",
-   "company": "Universität Zürich",
-   "title": "Identity & Access Management Engineer (IAM)",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/6a8bd932-5a45-49c8-9674-38d1804d92aa/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-11-07T05:02:00+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 33,
-    "have": [
-     "anglais"
-    ],
-    "missing": [
-     "allemand",
-     "sap"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-07T11:07:43+00:00",
-   "last_seen": "2026-11-14T11:33:25+00:00"
-  },
-  {
-   "id": "8f489b31966c",
-   "company": "maxon motor ag",
-   "title": "ERP Master Data Specialist 80 - 100%",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/4e4ae1df-cf94-4573-a536-00b53d0c7b01/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-11-06T13:32:29+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 50,
-    "have": [
-     "qualité des données",
-     "anglais"
-    ],
-    "missing": [
-     "allemand",
-     "sap"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-07T02:04:58+00:00",
-   "last_seen": "2026-11-11T00:45:29+00:00"
-  },
-  {
-   "id": "b985b69ce9b4",
-   "company": "SpeciTec SA",
-   "title": "Business Analyst IA - Claude - Try&Hire à 100%",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/1cd699c2-802b-4ea3-9547-8b0728e8687e/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "junior / débutant",
-   "junior": true,
-   "published": "2026-11-06T15:30:44+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 50,
-    "have": [
-     "business analyst",
-     "anglais"
-    ],
-    "missing": [
-     "git",
-     "agile"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-06T19:26:40+00:00",
-   "last_seen": "2026-11-14T11:33:23+00:00"
+   "last_seen": "2026-11-14T14:35:17+00:00"
   },
   {
    "id": "78f165b6b23d",
@@ -847,7 +228,7 @@
    "junior": false,
    "published": "2026-11-06",
    "seed": false,
-   "rv": 3,
+   "rv": 4,
    "match": {
     "score": 67,
     "have": [
@@ -860,136 +241,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-06T19:25:23+00:00",
-   "last_seen": "2026-11-14T11:32:15+00:00"
-  },
-  {
-   "id": "d6d5b3fc0875",
-   "company": "SAP IT Business Systeme",
-   "title": "Business Process Consultant Data Science (w/m/d) – AI & SAP Retail Intelligence",
-   "url": "https://www.jobup.ch/fr/emplois/detail/e1800aa7-d079-4bb7-9bc7-555af8f77d2c/",
-   "via": "jobup.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-26T02:13:05+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 50,
-    "have": [
-     "sql",
-     "qualité des données",
-     "gouvernance",
-     "kpi",
-     "anglais"
-    ],
-    "missing": [
-     "modélisation",
-     "statistiques",
-     "prévision",
-     "allemand",
-     "sap"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-06T12:10:36+00:00",
-   "last_seen": "2026-11-14T11:34:10+00:00"
-  },
-  {
-   "id": "fbc7a9186244",
-   "company": "Visana Services AG",
-   "title": "Business Analyst mit Fokus Vertriebskoordination",
-   "url": "https://www.jobup.ch/fr/emplois/detail/3ed004fa-6825-4d15-ab53-23d2fc219853/",
-   "via": "jobup.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-11-06T08:17:54+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 50,
-    "have": [
-     "business analyst",
-     "anglais"
-    ],
-    "missing": [
-     "allemand",
-     "sap"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-06T12:10:13+00:00",
-   "last_seen": "2026-11-09T01:20:35+00:00"
-  },
-  {
-   "id": "89a423531da8",
-   "company": "Abbott AG",
-   "title": "Finance Systems Analyst",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/1eab2ea1-38f6-4aac-b1c3-e81d5cc54649/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "2 ans min.",
-   "junior": false,
-   "published": "2026-11-06T11:17:14+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 89,
-    "have": [
-     "excel",
-     "data quality",
-     "qualité des données",
-     "gouvernance",
-     "conformité",
-     "reporting",
-     "tableaux de bord",
-     "anglais"
-    ],
-    "missing": [
-     "sap"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-06T12:08:52+00:00",
-   "last_seen": "2026-11-14T11:33:23+00:00"
-  },
-  {
-   "id": "5c0f407a6447",
-   "company": "Calida AG",
-   "title": "Specialist Product Data & Packaging (w/m/d)",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/1a234feb-bf08-4438-b367-fa353c25d00c/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-11-06T10:03:02+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 67,
-    "have": [
-     "excel",
-     "qualité des données",
-     "spécifications",
-     "anglais"
-    ],
-    "missing": [
-     "allemand",
-     "sap"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-06T12:08:44+00:00",
-   "last_seen": "2026-11-14T11:33:23+00:00"
+   "last_seen": "2026-11-14T14:43:06+00:00"
   },
   {
    "id": "81b119b1cbd3",
@@ -1061,199 +313,11 @@
    "junior": false,
    "published": "2026-11-05T12:32:00+00:00",
    "seed": false,
-   "rv": 3,
+   "rv": 4,
    "match": null,
    "salary": null,
    "first_seen": "2026-11-05T20:20:08+00:00",
-   "last_seen": "2026-11-09T12:50:54+00:00"
-  },
-  {
-   "id": "a9be1db2459d",
-   "company": "Vaudoise Assurances",
-   "title": "Ingénieur / Ingénieure IAM/IGA (h/f/x) - 80-100 %",
-   "url": "https://www.jobup.ch/fr/emplois/detail/07504b3d-0ed7-4a0a-a135-16628c610296/",
-   "via": "jobup.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-11-05T12:13:54+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 75,
-    "have": [
-     "gouvernance",
-     "conformité",
-     "anglais"
-    ],
-    "missing": [
-     "azure"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-05T12:23:48+00:00",
-   "last_seen": "2026-11-14T11:34:29+00:00"
-  },
-  {
-   "id": "8bd026a93d14",
-   "company": "Bank Julius Bär & Co. AG",
-   "title": "GPS Associate: Quantitative Analyst, 100% (f/m/d)",
-   "url": "https://www.jobup.ch/fr/emplois/detail/1b585007-48e0-4929-9401-ddf7812fd270/",
-   "via": "jobup.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "2 ans min.",
-   "junior": false,
-   "published": "2026-11-05T04:17:20+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 67,
-    "have": [
-     "python",
-     "sql",
-     "conformité",
-     "anglais"
-    ],
-    "missing": [
-     "tableau",
-     "vba"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-05T12:23:30+00:00",
-   "last_seen": "2026-11-12T01:49:00+00:00"
-  },
-  {
-   "id": "1509ba3273ad",
-   "company": "Pilatus Flugzeugwerke AG",
-   "title": "Structure Analyst - Manno",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/d5298744-3096-4107-9d97-1fad36368f83/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "2 ans min. · junior",
-   "junior": true,
-   "published": "2026-11-05T04:02:08+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": null,
-   "salary": null,
-   "first_seen": "2026-11-05T12:22:36+00:00",
-   "last_seen": "2026-11-12T01:48:30+00:00"
-  },
-  {
-   "id": "57b5de62a9ee",
-   "company": "ÖKK Holding AG",
-   "title": "Junior Business Analyst Support Leistungen (operativ)",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/d9cf63b1-59d3-498b-8700-fcd034178fd5/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "junior / débutant",
-   "junior": true,
-   "published": "2026-10-27T05:21:10+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": null,
-   "salary": null,
-   "first_seen": "2026-11-05T12:22:32+00:00",
-   "last_seen": "2026-11-05T20:23:21+00:00"
-  },
-  {
-   "id": "1e2ece85d036",
-   "company": "ISS Schweiz AG",
-   "title": "Project & Data Coordination Specialist",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/bd89436d-d601-45f3-b662-a8c7c765a1fe/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-26T14:04:15+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": null,
-   "salary": null,
-   "first_seen": "2026-11-05T12:22:09+00:00",
-   "last_seen": "2026-11-14T01:00:11+00:00"
-  },
-  {
-   "id": "d6d31c79afda",
-   "company": "Liebherr Maschinen Bulle AG",
-   "title": "Service Data Scientist (m/f/x)",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/fa1c0805-f95b-4d1f-aaf7-7de4244ee13e/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "2 ans min.",
-   "junior": false,
-   "published": "2026-11-04T11:07:13+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 77,
-    "have": [
-     "python",
-     "sql",
-     "machine learning",
-     "data quality",
-     "qualité des données",
-     "reporting",
-     "tableaux de bord",
-     "kpi",
-     "pricing",
-     "anglais"
-    ],
-    "missing": [
-     "modélisation",
-     "statistiques",
-     "allemand"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-05T12:22:00+00:00",
-   "last_seen": "2026-11-06T01:22:38+00:00"
-  },
-  {
-   "id": "3aa8207fec91",
-   "company": "Liebherr Maschinen Bulle AG",
-   "title": "Service Data Scientist (m/w/d)",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/11dd2ec8-ad88-4089-a24d-499278a295c5/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "2 ans min.",
-   "junior": false,
-   "published": "2026-11-04T11:07:10+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 75,
-    "have": [
-     "python",
-     "sql",
-     "machine learning",
-     "qualité des données",
-     "tableaux de bord",
-     "anglais"
-    ],
-    "missing": [
-     "modélisation",
-     "allemand"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-05T12:21:55+00:00",
-   "last_seen": "2026-11-06T01:22:38+00:00"
+   "last_seen": "2026-11-14T14:39:15+00:00"
   },
   {
    "id": "14b6b2a2613c",
@@ -1268,7 +332,7 @@
    "junior": true,
    "published": "2026-11-05",
    "seed": false,
-   "rv": 3,
+   "rv": 4,
    "match": {
     "score": 60,
     "have": [
@@ -1283,73 +347,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-05T01:01:30+00:00",
-   "last_seen": "2026-11-14T11:35:28+00:00"
-  },
-  {
-   "id": "d50f65c2916b",
-   "company": "Ethinc Sàrl",
-   "title": "AI Engineer – Production Applications and Systems",
-   "url": "https://www.jobup.ch/fr/emplois/detail/74298fa4-91ee-4323-9147-477aae2b69df/",
-   "via": "jobup.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "junior / débutant",
-   "junior": true,
-   "published": "2026-11-04T16:23:28+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 90,
-    "have": [
-     "python",
-     "sql",
-     "docker",
-     "machine learning",
-     "llm",
-     "rag",
-     "data quality",
-     "qualité des données",
-     "anglais"
-    ],
-    "missing": [
-     "git"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-04T19:52:06+00:00",
-   "last_seen": "2026-11-14T11:34:08+00:00"
-  },
-  {
-   "id": "6d453af5607e",
-   "company": "ETH Zürich",
-   "title": "Educational ICT Systemspezialist:in & (Co-)Projektleiter:in AI Agents und Automation Service digitale Prüfungen (m/w/d)",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/f8bf125c-1e94-40c1-9a50-5702e277151e/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDD",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-11-03T11:47:08+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 67,
-    "have": [
-     "python",
-     "intelligence artificielle",
-     "llm",
-     "anglais"
-    ],
-    "missing": [
-     "agile",
-     "allemand"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-04T19:51:15+00:00",
-   "last_seen": "2026-11-11T00:45:33+00:00"
+   "last_seen": "2026-11-14T14:47:18+00:00"
   },
   {
    "id": "a3ccd8a29ce7",
@@ -1364,7 +362,7 @@
    "junior": true,
    "published": "2026-11-03",
    "seed": false,
-   "rv": 3,
+   "rv": 4,
    "match": {
     "score": 83,
     "have": [
@@ -1380,58 +378,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-04T19:46:49+00:00",
-   "last_seen": "2026-11-14T11:29:33+00:00"
-  },
-  {
-   "id": "e093d1edd44d",
-   "company": "Zürich Versicherungs-Gesellschaft AG",
-   "title": "Catastrophe Modeling Analyst 80-100%",
-   "url": "https://www.jobup.ch/fr/emplois/detail/6a28e01e-ca98-487f-bfa0-2bfba1b8d4de/",
-   "via": "jobup.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "?",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-31T05:10:36+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": null,
-   "salary": null,
-   "first_seen": "2026-11-04T12:13:03+00:00",
-   "last_seen": "2026-11-07T02:05:37+00:00"
-  },
-  {
-   "id": "e915a472cadb",
-   "company": "Alpinum Investment Management AG",
-   "title": "INVESTMENT ANALYST, CREDIT / ALTERNATIVES, 100%",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/3d965fb1-4964-44d4-9b15-5e6b66f56269/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "1 an min. · junior",
-   "junior": true,
-   "published": "2026-10-26T09:32:19+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 71,
-    "have": [
-     "python",
-     "excel",
-     "reporting",
-     "yield",
-     "anglais"
-    ],
-    "missing": [
-     "modélisation",
-     "allemand"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-04T12:12:14+00:00",
-   "last_seen": "2026-11-14T11:33:23+00:00"
+   "last_seen": "2026-11-14T14:36:08+00:00"
   },
   {
    "id": "8c019daddd1b",
@@ -1446,30 +393,11 @@
    "junior": true,
    "published": "2026-11-04",
    "seed": false,
-   "rv": 3,
+   "rv": 4,
    "match": null,
    "salary": null,
    "first_seen": "2026-11-04T00:22:14+00:00",
-   "last_seen": "2026-11-14T11:35:28+00:00"
-  },
-  {
-   "id": "3149c21e15a2",
-   "company": "Luzerner Kantonsspital",
-   "title": "Epic Analystin / Analyst Beacon 100%",
-   "url": "https://www.jobup.ch/fr/emplois/detail/41506bb0-b513-4f2e-a23b-ce8c099da06d/",
-   "via": "jobup.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-09-10T16:17:25+02:00",
-   "seed": false,
-   "rv": 3,
-   "match": null,
-   "salary": null,
-   "first_seen": "2026-11-03T19:40:29+00:00",
-   "last_seen": "2026-11-13T12:14:57+00:00"
+   "last_seen": "2026-11-14T14:47:25+00:00"
   },
   {
    "id": "7d79a482b0d9",
@@ -1544,75 +472,6 @@
    "last_seen": "2026-11-05T12:16:08+00:00"
   },
   {
-   "id": "5675dc910ea4",
-   "company": "RATP Dev",
-   "title": "Aide-Mécanicien Itinérant",
-   "url": "https://carrieres.ratpdev.com/fr/annonce/4676595-aide-mecanicien-itinerant-grentheville",
-   "via": null,
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "junior / débutant",
-   "junior": true,
-   "published": "2026-11-03",
-   "seed": false,
-   "rv": 3,
-   "match": null,
-   "salary": null,
-   "first_seen": "2026-11-03T19:31:03+00:00",
-   "last_seen": "2026-11-06T01:15:03+00:00"
-  },
-  {
-   "id": "e2bd9f9b9739",
-   "company": "EPFL",
-   "title": "AI Engineer for Academic Services and Program Support",
-   "url": "https://www.jobup.ch/fr/emplois/detail/10e22c13-c04b-4223-aa16-e20381cfd567/",
-   "via": "jobup.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDD",
-   "experience": "2 ans min.",
-   "junior": false,
-   "published": "2026-11-03T10:10:46+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 83,
-    "have": [
-     "python",
-     "machine learning",
-     "llm",
-     "rag",
-     "anglais"
-    ],
-    "missing": [
-     "sap"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-03T12:01:16+00:00",
-   "last_seen": "2026-11-14T11:34:08+00:00"
-  },
-  {
-   "id": "192c515a5809",
-   "company": "BPCE",
-   "title": "Analyste crédit f/h",
-   "url": "https://recrutement.bpce.fr/job/analyste-credit-f-h",
-   "via": null,
-   "zone": "Île-de-France",
-   "country": "France",
-   "contract": "CDI",
-   "experience": "junior / débutant",
-   "junior": true,
-   "published": "2026-11-02",
-   "seed": false,
-   "rv": 3,
-   "match": null,
-   "salary": null,
-   "first_seen": "2026-11-03T11:56:22+00:00",
-   "last_seen": "2026-11-14T11:29:33+00:00"
-  },
-  {
    "id": "dcb9d7df99c5",
    "company": "Société Générale",
    "title": "Model risk management - Analyst",
@@ -1675,35 +534,6 @@
    "last_seen": "2026-11-06T01:17:03+00:00"
   },
   {
-   "id": "e841b98e216e",
-   "company": "Geberit AG",
-   "title": "IT Application Analyst PLM-CAx (a) 80-100%",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/379896e9-d8a4-488e-8c7f-870f449d638f/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-16T01:18:05+02:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 50,
-    "have": [
-     "spécifications",
-     "anglais"
-    ],
-    "missing": [
-     "allemand",
-     "sap"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-03T09:14:48+00:00",
-   "last_seen": "2026-11-11T00:45:33+00:00"
-  },
-  {
    "id": "f9398d460563",
    "company": "AXA",
    "title": "CDD 4 mois - Data Scientist IARD (F/H)",
@@ -1754,70 +584,6 @@
    "last_seen": "2026-11-04T12:04:22+00:00"
   },
   {
-   "id": "b1417ad45ad9",
-   "company": "la Mobilière",
-   "title": "Business Analyst Data & Reporting Prévoyance (f/h/d)",
-   "url": "https://www.jobup.ch/fr/emplois/detail/714789ae-3250-4714-9f15-a7a22d686dac/",
-   "via": "jobup.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-11-02T13:17:18+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 78,
-    "have": [
-     "sql",
-     "power bi",
-     "reporting",
-     "tableaux de bord",
-     "pilotage",
-     "business analyst",
-     "anglais"
-    ],
-    "missing": [
-     "allemand",
-     "sap"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-02T12:25:16+00:00",
-   "last_seen": "2026-11-03T03:35:35+00:00"
-  },
-  {
-   "id": "3d1b6f5b3a30",
-   "company": "ETH Zürich",
-   "title": "AI for Science Engineer",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/f2452c8f-e6ba-4328-8d5e-5685924a14e9/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "?",
-   "experience": "1 an min. · junior",
-   "junior": true,
-   "published": "2026-09-02T12:47:29+02:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 80,
-    "have": [
-     "intelligence artificielle",
-     "llm",
-     "rag",
-     "anglais"
-    ],
-    "missing": [
-     "pytorch"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-02T11:26:42+00:00",
-   "last_seen": "2026-11-11T00:45:33+00:00"
-  },
-  {
    "id": "61455f8486fd",
    "company": "AXA",
    "title": "Business Analyst Claims Smart Automation (all genders)",
@@ -1849,434 +615,11 @@
    "junior": true,
    "published": "2026-10-15",
    "seed": false,
-   "rv": 3,
+   "rv": 4,
    "match": null,
    "salary": null,
    "first_seen": "2026-11-01T21:37:41+00:00",
-   "last_seen": "2026-11-14T11:35:28+00:00"
-  },
-  {
-   "id": "12693ce11ff2",
-   "company": "HOTELA, Caisse de compensation (AVS)",
-   "title": "Gestionnaire des prestations AVS-AI (80-100%) à Montreux ou à Berne/ Sachbearbeiter/in für AHV/IV Leistungen (80-100%) in Montreux oder in Bern",
-   "url": "https://www.jobup.ch/fr/emplois/detail/3bbd339d-9ed5-4ab1-8346-6008661822d2/",
-   "via": "jobup.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-05T18:47:48+02:00",
-   "seed": false,
-   "rv": 3,
-   "match": null,
-   "salary": null,
-   "first_seen": "2026-11-01T21:36:33+00:00",
-   "last_seen": "2026-11-14T11:34:29+00:00"
-  },
-  {
-   "id": "40a99595ca6a",
-   "company": "Universität St. Gallen",
-   "title": "Postdoctoral Researcher in Conversational AI and LLMs (m/w/d)",
-   "url": "https://www.jobup.ch/fr/emplois/detail/a9bf74fd-090d-488c-bc2b-5c72308b0451/",
-   "via": "jobup.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "?",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-17T06:12:21+02:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 75,
-    "have": [
-     "python",
-     "llm",
-     "anglais"
-    ],
-    "missing": [
-     "allemand"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-01T21:36:23+00:00",
-   "last_seen": "2026-11-14T11:34:08+00:00"
-  },
-  {
-   "id": "8b0a79de607a",
-   "company": "Hitachi Energy AG",
-   "title": "Scientist in AI-Driven Power Electronics (f/m/d)",
-   "url": "https://www.jobup.ch/fr/emplois/detail/f49dfeb5-e554-4963-bfa2-915255d60da3/",
-   "via": "jobup.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "?",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-09-15T03:12:09+02:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 67,
-    "have": [
-     "python",
-     "anglais"
-    ],
-    "missing": [
-     "modélisation"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-01T21:36:22+00:00",
-   "last_seen": "2026-11-14T01:00:33+00:00"
-  },
-  {
-   "id": "07416c7f9136",
-   "company": "Universität St. Gallen",
-   "title": "Postdoctoral Researcher in NLP and Human-Centered AI (m/w/d)",
-   "url": "https://www.jobup.ch/fr/emplois/detail/d6fb6b71-2ab3-412d-aac0-bb5d74004975/",
-   "via": "jobup.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "?",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-17T05:57:08+02:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 50,
-    "have": [
-     "python",
-     "llm",
-     "anglais"
-    ],
-    "missing": [
-     "modélisation",
-     "allemand",
-     "nlp"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-01T21:36:15+00:00",
-   "last_seen": "2026-11-14T11:34:08+00:00"
-  },
-  {
-   "id": "c39127de91b8",
-   "company": "yellowshark AG",
-   "title": "AI-Business Analyst",
-   "url": "https://www.jobup.ch/fr/emplois/detail/808bb3cf-2262-40c9-806e-c06d9c7f8c53/",
-   "via": "jobup.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "2 ans min.",
-   "junior": false,
-   "published": "2026-10-14T07:17:48+02:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 75,
-    "have": [
-     "intelligence artificielle",
-     "business analyst",
-     "anglais"
-    ],
-    "missing": [
-     "allemand"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-01T21:35:57+00:00",
-   "last_seen": "2026-11-12T01:49:00+00:00"
-  },
-  {
-   "id": "894ce1aa2847",
-   "company": "isolutions AG",
-   "title": "AI First Data Engineer",
-   "url": "https://www.jobup.ch/fr/emplois/detail/0c1aa825-1834-4014-ad3a-07699ab3f043/",
-   "via": "jobup.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-09-19T03:07:10+02:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 50,
-    "have": [
-     "python",
-     "sql",
-     "power bi",
-     "dax"
-    ],
-    "missing": [
-     "databricks",
-     "azure",
-     "modélisation",
-     "allemand"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-01T21:35:39+00:00",
-   "last_seen": "2026-11-14T11:34:08+00:00"
-  },
-  {
-   "id": "da996b407d53",
-   "company": "AECOM",
-   "title": "AI Solution Engineer",
-   "url": "https://www.jobup.ch/fr/emplois/detail/c388c259-5516-46fa-b036-1ec07dd36380/",
-   "via": "jobup.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "?",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-29T02:07:40+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": null,
-   "salary": null,
-   "first_seen": "2026-11-01T21:35:24+00:00",
-   "last_seen": "2026-11-14T11:34:08+00:00"
-  },
-  {
-   "id": "f05475b4f669",
-   "company": "Rheinmetall Air Defence AG",
-   "title": "Rheinmetall Air Defence AG",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/1dcecdea-1da9-4db8-85f9-62b6ac7ef228/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-13T10:03:22+02:00",
-   "seed": false,
-   "rv": 3,
-   "match": null,
-   "salary": null,
-   "first_seen": "2026-11-01T21:34:30+00:00",
-   "last_seen": "2026-11-13T01:35:15+00:00"
-  },
-  {
-   "id": "57c740546630",
-   "company": "Banque Lombard Odier & Cie SA",
-   "title": "Spécialiste Digital, IA & Excellence Opérationnelle (80-100%)",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/b2c8590c-b60a-4d0f-a3a1-7c34196b01d3/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "?",
-   "experience": "junior / débutant",
-   "junior": true,
-   "published": "2026-10-27T05:29:31+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": null,
-   "salary": null,
-   "first_seen": "2026-11-01T21:34:06+00:00",
-   "last_seen": "2026-11-14T11:33:24+00:00"
-  },
-  {
-   "id": "ad28e9da6e3d",
-   "company": "MLL Legal AG, Zweigniederlassung Zürich",
-   "title": "Junior Digital Marketing Specialist (Fokus CMS, AI & Automation) 80 – 100%, Zürich, befristet für 1 Jahr",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/3ff6df36-5ee5-484b-b7ea-ca0560a1e309/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDD",
-   "experience": "junior / débutant",
-   "junior": true,
-   "published": "2026-10-26T15:48:17+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 67,
-    "have": [
-     "qualité des données",
-     "anglais"
-    ],
-    "missing": [
-     "allemand"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-01T21:33:56+00:00",
-   "last_seen": "2026-11-02T12:24:43+00:00"
-  },
-  {
-   "id": "e0d872c5f633",
-   "company": "Rhomberg Sersa Rail AG",
-   "title": "TFF Begleiter Ai40 oder Ai (m/w/d)",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/a8a61ae0-06b9-4ac2-a0ef-46721b3fcf09/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-22T14:02:07+02:00",
-   "seed": false,
-   "rv": 3,
-   "match": null,
-   "salary": null,
-   "first_seen": "2026-11-01T21:33:37+00:00",
-   "last_seen": "2026-11-14T11:33:23+00:00"
-  },
-  {
-   "id": "3258af0e69c8",
-   "company": "Brack.Alltron",
-   "title": "Projektmanager:in Category Marketing – AI & Automation",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/4ac8a79b-d5ce-4d52-9df6-343bc0dd9ec6/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "2 ans min.",
-   "junior": false,
-   "published": "2026-10-29T04:02:13+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 67,
-    "have": [
-     "sql",
-     "excel",
-     "reporting",
-     "anglais"
-    ],
-    "missing": [
-     "jira",
-     "allemand"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-01T21:33:28+00:00",
-   "last_seen": "2026-11-14T11:33:23+00:00"
-  },
-  {
-   "id": "524103d4379c",
-   "company": "Welocalize",
-   "title": "Swiss German AI Voice Trainer",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/95056f0c-7bd0-4f7b-ac9f-126596011255/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "?",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-26T17:12:35+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": null,
-   "salary": null,
-   "first_seen": "2026-11-01T21:33:03+00:00",
-   "last_seen": "2026-11-14T11:33:23+00:00"
-  },
-  {
-   "id": "47d5a51f8fad",
-   "company": "Purpur Ventures AG",
-   "title": "Health AI Product Owner (all genders)",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/ccbbab56-39ac-44b8-9bfb-6dea5b76c79b/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-30T11:30:16+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 67,
-    "have": [
-     "rgpd",
-     "conformité",
-     "spécifications",
-     "anglais"
-    ],
-    "missing": [
-     "agile",
-     "allemand"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-01T21:32:51+00:00",
-   "last_seen": "2026-11-14T11:33:23+00:00"
-  },
-  {
-   "id": "9873009f1eb6",
-   "company": "VZ VermögensZentrum",
-   "title": "Professional Process Automation & AI Engineer (Financial Services)",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/f5a35f84-fd49-425e-885e-31ccbd94661c/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-30T03:00:00+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 80,
-    "have": [
-     "python",
-     "sql",
-     "machine learning",
-     "typescript"
-    ],
-    "missing": [
-     "allemand"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-01T21:32:46+00:00",
-   "last_seen": "2026-11-12T12:43:09+00:00"
-  },
-  {
-   "id": "c7edd1713309",
-   "company": "Eiffage",
-   "title": "Aide Maçon VRD / Maçon VRD / Manoeuvre (H/F)",
-   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Estrees-Saint-Denis/Aide-Maon-VRD---Maon-VRD---Manoeuvre--H-F-_JR2026-906",
-   "via": null,
-   "zone": "Île-de-France",
-   "country": "France",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-27",
-   "seed": false,
-   "rv": 3,
-   "match": null,
-   "salary": null,
-   "first_seen": "2026-11-01T21:31:41+00:00",
-   "last_seen": "2026-11-14T00:59:25+00:00"
-  },
-  {
-   "id": "f03a60b724dd",
-   "company": "AXA",
-   "title": "AI Marketing Prompt Engineer",
-   "url": "https://careers.axa.com/jobs/29890",
-   "via": null,
-   "zone": "Londres",
-   "country": "Royaume-Uni",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-30T08:46:00+00:00",
-   "seed": false,
-   "rv": 3,
-   "match": null,
-   "salary": null,
-   "sponsor": "skilled",
-   "first_seen": "2026-11-01T21:29:20+00:00",
-   "last_seen": "2026-11-02T12:21:36+00:00"
+   "last_seen": "2026-11-14T14:47:21+00:00"
   },
   {
    "id": "62dedf965010",
@@ -2291,11 +634,11 @@
    "junior": false,
    "published": "2026-07-23T13:36:00+00:00",
    "seed": false,
-   "rv": 3,
+   "rv": 4,
    "match": null,
    "salary": null,
    "first_seen": "2026-11-01T21:29:14+00:00",
-   "last_seen": "2026-11-14T11:30:20+00:00"
+   "last_seen": "2026-11-14T14:39:14+00:00"
   },
   {
    "id": "ecc0ea8e6314",
@@ -2310,114 +653,11 @@
    "junior": false,
    "published": "2026-10-13T09:04:00+00:00",
    "seed": false,
-   "rv": 3,
+   "rv": 4,
    "match": null,
    "salary": null,
    "first_seen": "2026-11-01T21:29:10+00:00",
-   "last_seen": "2026-11-14T11:30:20+00:00"
-  },
-  {
-   "id": "f1dab33a0a35",
-   "company": "hostettler ag sursee",
-   "title": "Sachbearbeiter/in Data Management 100%",
-   "url": "https://www.jobup.ch/fr/emplois/detail/26438165-8282-43c4-82b5-89b14aee47a3/",
-   "via": "jobup.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "junior / débutant",
-   "junior": true,
-   "published": "2026-09-11T10:17:10+02:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 75,
-    "have": [
-     "qualité des données",
-     "spécifications",
-     "anglais"
-    ],
-    "missing": [
-     "allemand"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-01T11:20:20+00:00",
-   "last_seen": "2026-11-13T12:14:49+00:00"
-  },
-  {
-   "id": "52d6a5b5259d",
-   "company": "Liebherr Maschinen Bulle AG",
-   "title": "Service Data Scientist (h/f/x)",
-   "url": "https://www.jobup.ch/fr/emplois/detail/0f62ac85-6d17-4d08-98bc-15d082b6669f/",
-   "via": "jobup.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "2 ans min.",
-   "junior": false,
-   "published": "2026-10-29T14:07:03+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 64,
-    "have": [
-     "python",
-     "sql",
-     "machine learning",
-     "qualité des données",
-     "tableaux de bord",
-     "kpi",
-     "anglais"
-    ],
-    "missing": [
-     "modélisation",
-     "statistiques",
-     "allemand",
-     "oracle"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-01T11:20:02+00:00",
-   "last_seen": "2026-11-06T01:22:55+00:00"
-  },
-  {
-   "id": "9f5434af2cf3",
-   "company": "Luzerner Kantonsspital",
-   "title": "Epic Analystin / Analyst Beacon 80-100%",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/41506bb0-b513-4f2e-a23b-ce8c099da06d/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-11T07:17:03+02:00",
-   "seed": false,
-   "rv": 3,
-   "match": null,
-   "salary": null,
-   "first_seen": "2026-11-01T11:19:42+00:00",
-   "last_seen": "2026-11-14T11:33:23+00:00"
-  },
-  {
-   "id": "155d5386527e",
-   "company": "Bundesverwaltung",
-   "title": "Cyber Security Analyst/-in Professional",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/cbd2440f-233c-43d2-aad7-77ddf8b9ee0c/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-31T05:02:03+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": null,
-   "salary": null,
-   "first_seen": "2026-10-31T10:25:14+00:00",
-   "last_seen": "2026-11-14T11:33:23+00:00"
+   "last_seen": "2026-11-14T14:39:13+00:00"
   },
   {
    "id": "a9089a28c322",
@@ -2432,7 +672,7 @@
    "junior": true,
    "published": "2026-10-30",
    "seed": false,
-   "rv": 3,
+   "rv": 4,
    "match": {
     "score": 80,
     "have": [
@@ -2447,7 +687,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-31T01:03:41+00:00",
-   "last_seen": "2026-11-03T11:54:18+00:00"
+   "last_seen": "2026-11-14T14:32:16+00:00"
   },
   {
    "id": "675f0fff37f7",
@@ -2494,7 +734,7 @@
    "junior": false,
    "published": "2026-09-08T08:03:31+00:00",
    "seed": false,
-   "rv": 3,
+   "rv": 4,
    "match": {
     "score": 100,
     "have": [
@@ -2507,7 +747,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T21:38:55+00:00",
-   "last_seen": "2026-11-14T11:36:17+00:00"
+   "last_seen": "2026-11-14T14:48:57+00:00"
   },
   {
    "id": "cf0a5f07c299",
@@ -2522,120 +762,11 @@
    "junior": false,
    "published": "2026-08-07T14:39:23+00:00",
    "seed": false,
-   "rv": 3,
+   "rv": 4,
    "match": null,
    "salary": null,
    "first_seen": "2026-10-30T21:38:50+00:00",
-   "last_seen": "2026-11-14T11:36:17+00:00"
-  },
-  {
-   "id": "4e3e7abc4338",
-   "company": "FORUM MONDIAL DE L'ECONOMIE",
-   "title": "Analyst, Strategic Intelligence and Foresight (Two year fixed-term contract)",
-   "url": "https://www.jobup.ch/fr/emplois/detail/9b9f2a12-4352-4200-811f-2c5700ae84f0/",
-   "via": "jobup.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDD",
-   "experience": "2 ans min.",
-   "junior": false,
-   "published": "2026-10-30T08:42:53+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": null,
-   "salary": null,
-   "first_seen": "2026-10-30T21:37:36+00:00",
-   "last_seen": "2026-11-05T01:00:24+00:00"
-  },
-  {
-   "id": "01190ef0842b",
-   "company": "Ekkiden Technologies SA",
-   "title": "Business Analyst (m/w/d)",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/a0efd36c-eef6-4de0-a9bc-22fbfc2d0c7b/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-30T14:48:38+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 40,
-    "have": [
-     "sql",
-     "business analyst"
-    ],
-    "missing": [
-     "scrum",
-     "jira",
-     "allemand"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-10-30T14:27:03+00:00",
-   "last_seen": "2026-11-12T01:48:30+00:00"
-  },
-  {
-   "id": "a8e8b79ddcb5",
-   "company": "Gétaz-Miauton SA",
-   "title": "Product Data Specialist Sanitär (w/m/d) 80-100%",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/4a833076-132c-4478-a59c-e846f601de10/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-02T02:17:50+02:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 80,
-    "have": [
-     "excel",
-     "etl",
-     "qualité des données",
-     "anglais"
-    ],
-    "missing": [
-     "allemand"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-10-30T09:23:08+00:00",
-   "last_seen": "2026-11-06T23:56:05+00:00"
-  },
-  {
-   "id": "8f7739ac7e0e",
-   "company": "Cotra Autotransport AG",
-   "title": "Integration Engineer – Business Applications & Data 80-100% (m, w, d)",
-   "url": "https://www.jobup.ch/fr/emplois/detail/914efef8-ea31-40e8-ada4-5a28d4836989/",
-   "via": "jobup.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-09-01T02:33:45+02:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 40,
-    "have": [
-     "sql",
-     "anglais"
-    ],
-    "missing": [
-     "snowflake",
-     "allemand",
-     "salesforce"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-10-29T22:05:06+00:00",
-   "last_seen": "2026-10-31T20:25:39+00:00"
+   "last_seen": "2026-11-14T14:48:55+00:00"
   },
   {
    "id": "d582e25d1f0c",
@@ -2655,35 +786,6 @@
    "salary": null,
    "first_seen": "2026-10-29T22:01:08+00:00",
    "last_seen": "2026-10-30T09:18:54+00:00"
-  },
-  {
-   "id": "8f498534e207",
-   "company": "SIX Group",
-   "title": "Data Licensing Specialist (Finance & Process Automation)",
-   "url": "https://jobs.six-group.com/job/London-Data-Licensing-Specialist-%28Finance-&-Process-Automation%29/1427122333/",
-   "via": null,
-   "zone": "Londres",
-   "country": "Royaume-Uni",
-   "contract": "?",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-09-15T02:00:00+00:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 33,
-    "have": [
-     "data quality"
-    ],
-    "missing": [
-     "agile",
-     "scrum"
-    ]
-   },
-   "salary": null,
-   "sponsor": "skilled",
-   "first_seen": "2026-10-29T17:31:50+00:00",
-   "last_seen": "2026-11-09T12:56:30+00:00"
   },
   {
    "id": "327b49e49fed",
@@ -2732,71 +834,6 @@
    "last_seen": "2026-10-29T22:01:29+00:00"
   },
   {
-   "id": "4b8bd036748a",
-   "company": "Stadler Rail Schweiz AG",
-   "title": "Stadler: Data Analyst",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/cdefb3fb-486c-4036-a000-204f2a8f7616/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "?",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-06T06:13:21+02:00",
-   "seed": false,
-   "rv": 2,
-   "match": {
-    "score": 75,
-    "have": [
-     "python",
-     "sql",
-     "power bi",
-     "excel",
-     "tableaux de bord",
-     "anglais"
-    ],
-    "missing": [
-     "vba",
-     "allemand"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-10-29T14:20:52+00:00",
-   "last_seen": "2026-10-30T10:55:28+00:00"
-  },
-  {
-   "id": "df8dfe28604b",
-   "company": "GAUTSCHI SPEZIALITÄTEN AG",
-   "title": "MitarbeiterIn Data Quality & Stammdatenmanagement 60 - 80 %",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/346be9c4-fdf3-47ef-b141-919aea38ab34/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-29T14:34:44+01:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 86,
-    "have": [
-     "excel",
-     "data quality",
-     "qualité des données",
-     "conformité",
-     "spécifications",
-     "anglais"
-    ],
-    "missing": [
-     "allemand"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-10-29T14:20:44+00:00",
-   "last_seen": "2026-11-14T11:33:23+00:00"
-  },
-  {
    "id": "3ca060478dbd",
    "company": "Julius Baer",
    "title": "Junior Business Analyst – Banking Operations Transformation 100% (f/m/d) - (Contract through our external payroll partner with immediate start until 31.12.2027 with possible extension)",
@@ -2809,7 +846,7 @@
    "junior": true,
    "published": "2026-10-29",
    "seed": false,
-   "rv": 3,
+   "rv": 4,
    "match": {
     "score": 100,
     "have": [
@@ -2823,755 +860,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-29T10:28:53+00:00",
-   "last_seen": "2026-11-14T11:35:28+00:00"
-  },
-  {
-   "id": "b9a0be535054",
-   "company": "MGI Consultants SA",
-   "title": "Business Analyst IAM",
-   "url": "https://www.jobup.ch/fr/emplois/detail/eccf9fbd-18ce-45c1-9327-a9268d72d3db/",
-   "via": "jobup.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-19T17:02:32+02:00",
-   "seed": true,
-   "rv": 3,
-   "match": {
-    "score": 60,
-    "have": [
-     "conformité",
-     "spécifications",
-     "business analyst"
-    ],
-    "missing": [
-     "modélisation",
-     "sap"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-10-29T10:28:18+00:00",
-   "last_seen": "2026-11-13T01:35:29+00:00"
-  },
-  {
-   "id": "b714c1d91e32",
-   "company": "BaXian AG",
-   "title": "Security Data Analyst",
-   "url": "https://www.jobup.ch/fr/emplois/detail/d017634f-fd15-4257-a662-21d5874d15eb/",
-   "via": "jobup.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "2 ans min.",
-   "junior": false,
-   "published": "2026-09-17T02:31:56+02:00",
-   "seed": true,
-   "rv": 3,
-   "match": {
-    "score": 33,
-    "have": [
-     "conformité"
-    ],
-    "missing": [
-     "agile",
-     "allemand"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-10-29T10:28:16+00:00",
-   "last_seen": "2026-11-10T20:07:57+00:00"
-  },
-  {
-   "id": "54e37897c3ae",
-   "company": "Stadler Rail Group",
-   "title": "Stadler: Data Analyst",
-   "url": "https://www.jobup.ch/fr/emplois/detail/cdefb3fb-486c-4036-a000-204f2a8f7616/",
-   "via": "jobup.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "?",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-06T06:13:21+02:00",
-   "seed": true,
-   "rv": 3,
-   "match": {
-    "score": 75,
-    "have": [
-     "python",
-     "sql",
-     "power bi",
-     "excel",
-     "tableaux de bord",
-     "anglais"
-    ],
-    "missing": [
-     "vba",
-     "allemand"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-10-29T10:28:07+00:00",
-   "last_seen": "2026-11-08T00:39:41+00:00"
-  },
-  {
-   "id": "d6974f5955a6",
-   "company": "Albedis",
-   "title": "Security Analyst (80-100%)",
-   "url": "https://www.jobup.ch/fr/emplois/detail/576f4302-face-4f15-a0b6-2edefa6c14c6/",
-   "via": "jobup.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "junior / débutant",
-   "junior": true,
-   "published": "2026-10-29T10:30:25+01:00",
-   "seed": true,
-   "rv": 3,
-   "match": null,
-   "salary": null,
-   "first_seen": "2026-10-29T10:28:05+00:00",
-   "last_seen": "2026-11-03T12:01:01+00:00"
-  },
-  {
-   "id": "4b9b91a1656f",
-   "company": "Banque Cantonale Vaudoise",
-   "title": "IT Business Analyst - domaine Opérations de Marché",
-   "url": "https://www.jobup.ch/fr/emplois/detail/04d3e5ad-a1fa-4654-9042-d5cb9448baaf/",
-   "via": "jobup.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "junior / débutant",
-   "junior": true,
-   "published": "2026-09-30T13:47:18+02:00",
-   "seed": true,
-   "rv": 3,
-   "match": {
-    "score": 71,
-    "have": [
-     "sql",
-     "gouvernance",
-     "spécifications",
-     "business analyst",
-     "anglais"
-    ],
-    "missing": [
-     "data warehouse",
-     "allemand"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-10-29T10:28:04+00:00",
-   "last_seen": "2026-10-31T15:57:14+00:00"
-  },
-  {
-   "id": "cf46f120bf80",
-   "company": "Academic Work Switzerland",
-   "title": "Business Analyst en Finance pour une société internationale !",
-   "url": "https://www.jobup.ch/fr/emplois/detail/572250d1-f2c0-4f0e-99a0-5ce986cec049/",
-   "via": "jobup.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "?",
-   "experience": "junior / débutant",
-   "junior": true,
-   "published": "2026-10-26T06:11:27+01:00",
-   "seed": true,
-   "rv": 3,
-   "match": {
-    "score": 80,
-    "have": [
-     "intelligence artificielle",
-     "tableaux de bord",
-     "business analyst",
-     "anglais"
-    ],
-    "missing": [
-     "sap"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-10-29T10:28:00+00:00",
-   "last_seen": "2026-11-14T11:33:57+00:00"
-  },
-  {
-   "id": "72a9a945f81b",
-   "company": "Mikron Switzerland AG",
-   "title": "PRODUCTION PLANNING ANALYST (M/F/D)",
-   "url": "https://www.jobup.ch/fr/emplois/detail/0c149667-d764-4516-b54a-f0cb93137818/",
-   "via": "jobup.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-19T08:03:51+02:00",
-   "seed": true,
-   "rv": 3,
-   "match": null,
-   "salary": null,
-   "first_seen": "2026-10-29T10:27:55+00:00",
-   "last_seen": "2026-11-14T11:33:57+00:00"
-  },
-  {
-   "id": "dab274884e02",
-   "company": "Academic Work Switzerland",
-   "title": "Business Analyst - Secteur Luxe",
-   "url": "https://www.jobup.ch/fr/emplois/detail/deb2574e-410a-44fe-b76a-c1b6a613dde6/",
-   "via": "jobup.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "?",
-   "experience": "junior / débutant",
-   "junior": true,
-   "published": "2026-10-21T14:27:43+02:00",
-   "seed": true,
-   "rv": 3,
-   "match": {
-    "score": 67,
-    "have": [
-     "business analyst",
-     "anglais"
-    ],
-    "missing": [
-     "oracle"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-10-29T10:27:54+00:00",
-   "last_seen": "2026-11-14T11:33:56+00:00"
-  },
-  {
-   "id": "d7e4516fff26",
-   "company": "Academic Work Switzerland",
-   "title": "Mission étudiante à 40% (H/F) - Data Cleaning, 2 mois",
-   "url": "https://www.jobup.ch/fr/emplois/detail/54a81ee7-2668-47dd-9a88-4e8f72eec1c5/",
-   "via": "jobup.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "?",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-22T18:51:36+02:00",
-   "seed": true,
-   "rv": 3,
-   "match": null,
-   "salary": null,
-   "first_seen": "2026-10-29T10:27:37+00:00",
-   "last_seen": "2026-11-14T11:33:38+00:00"
-  },
-  {
-   "id": "c58eef5c3d9a",
-   "company": "Universität Zürich",
-   "title": "IT-Security Analyst – Cyber Defense Center (CDC)",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/5fbd00c0-7a24-4e14-856f-24e6c4116cee/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-08T05:02:16+02:00",
-   "seed": true,
-   "rv": 3,
-   "match": {
-    "score": 75,
-    "have": [
-     "python",
-     "reporting",
-     "anglais"
-    ],
-    "missing": [
-     "allemand"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-10-29T10:27:23+00:00",
-   "last_seen": "2026-11-05T20:23:21+00:00"
-  },
-  {
-   "id": "903bbe48ffba",
-   "company": "ITech Consult AG",
-   "title": "Report Analyst - Dashboard Design / PL/SQL / XML",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/d8014240-2535-4852-9c24-2152ae875919/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "?",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-23T16:32:00+02:00",
-   "seed": true,
-   "rv": 2,
-   "match": {
-    "score": 60,
-    "have": [
-     "sql",
-     "tableaux de bord",
-     "dashboard"
-    ],
-    "missing": [
-     "git",
-     "allemand"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-10-29T10:27:22+00:00",
-   "last_seen": "2026-10-29T14:20:48+00:00"
-  },
-  {
-   "id": "3d45871efb4e",
-   "company": "ISPIN AG",
-   "title": "Professional Security Analyst (m/w/d) 80-100%",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/37c8ec55-bfa5-4e0a-9764-ba558fda2ac3/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "junior / débutant",
-   "junior": true,
-   "published": "2026-10-23T14:02:08+02:00",
-   "seed": true,
-   "rv": 3,
-   "match": null,
-   "salary": null,
-   "first_seen": "2026-10-29T10:27:20+00:00",
-   "last_seen": "2026-11-13T19:47:37+00:00"
-  },
-  {
-   "id": "e58ee0da019a",
-   "company": "VZ VermögensZentrum",
-   "title": "Junior Portfolio Analyst/-in (zweisprachig)",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/b830e186-e2cd-43e1-904c-c3faa89084e3/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "junior / débutant",
-   "junior": true,
-   "published": "2026-10-09T16:02:25+02:00",
-   "seed": true,
-   "rv": 3,
-   "match": null,
-   "salary": null,
-   "first_seen": "2026-10-29T10:27:19+00:00",
-   "last_seen": "2026-11-14T11:33:23+00:00"
-  },
-  {
-   "id": "65ad705f0995",
-   "company": "SpeciTec SA",
-   "title": "Business Analyst IA - Try&Hire à 100%",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/5fc5c6ad-b8df-4132-8558-f9b50333c480/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "junior / débutant",
-   "junior": true,
-   "published": "2026-10-09T11:57:11+02:00",
-   "seed": true,
-   "rv": 3,
-   "match": {
-    "score": 67,
-    "have": [
-     "business analyst",
-     "anglais"
-    ],
-    "missing": [
-     "git"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-10-29T10:27:14+00:00",
-   "last_seen": "2026-11-06T12:08:57+00:00"
-  },
-  {
-   "id": "f8340aca03c6",
-   "company": "VIACAR AG",
-   "title": "Business Analyst mit Perspektive Product Owner (w/m)",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/3ed5f5aa-4f03-44a8-9737-24ff26df9764/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "2 ans min. · junior",
-   "junior": true,
-   "published": "2026-10-26T13:28:55+01:00",
-   "seed": true,
-   "rv": 3,
-   "match": {
-    "score": 50,
-    "have": [
-     "spécifications",
-     "business analyst",
-     "anglais"
-    ],
-    "missing": [
-     "agile",
-     "jira",
-     "allemand"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-10-29T10:27:05+00:00",
-   "last_seen": "2026-11-10T09:35:17+00:00"
-  },
-  {
-   "id": "cd3a9c28f5a8",
-   "company": "Expersoft Systems AG",
-   "title": "Product Analyst 80% - 100% (w/m/d)",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/58418992-7e5f-43bb-b4f8-60124b8704ef/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-01T17:05:36+02:00",
-   "seed": true,
-   "rv": 3,
-   "match": {
-    "score": 80,
-    "have": [
-     "intelligence artificielle",
-     "reporting",
-     "spécifications",
-     "anglais"
-    ],
-    "missing": [
-     "allemand"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-10-29T10:27:03+00:00",
-   "last_seen": "2026-11-02T22:03:52+00:00"
-  },
-  {
-   "id": "33b675108649",
-   "company": "HRS Real Estate AG",
-   "title": "Business Analyst Bauprozesse, Daten & KI",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/6a964e4b-acdc-48cc-b541-1f86754b3564/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-13T17:15:40+02:00",
-   "seed": true,
-   "rv": 3,
-   "match": {
-    "score": 50,
-    "have": [
-     "business analyst",
-     "anglais"
-    ],
-    "missing": [
-     "jira",
-     "allemand"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-10-29T10:27:02+00:00",
-   "last_seen": "2026-11-14T11:33:23+00:00"
-  },
-  {
-   "id": "c32969a21d88",
-   "company": "BSI Business Systems Integration AG",
-   "title": "Cyber Security Engineer/ Analyst (all genders)",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/dcda8f38-9cd2-4a6d-9e20-2f0fd4777f50/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "junior / débutant",
-   "junior": true,
-   "published": "2026-10-15T08:25:35+02:00",
-   "seed": true,
-   "rv": 3,
-   "match": {
-    "score": 67,
-    "have": [
-     "machine learning",
-     "anglais"
-    ],
-    "missing": [
-     "allemand"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-10-29T10:26:55+00:00",
-   "last_seen": "2026-11-06T12:08:57+00:00"
-  },
-  {
-   "id": "13d3626e86f9",
-   "company": "Talent Solutions",
-   "title": "Data Science & AI Specialist (m/f/d) (80-100%)",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/c5e91c44-f57f-47d9-9879-32d29bd8b529/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-09-29T16:02:26+02:00",
-   "seed": true,
-   "rv": 3,
-   "match": {
-    "score": 59,
-    "have": [
-     "python",
-     "sql",
-     "machine learning",
-     "llm",
-     "data quality",
-     "qualité des données",
-     "gouvernance",
-     "rgpd",
-     "ai act",
-     "anglais"
-    ],
-    "missing": [
-     "azure",
-     "modélisation",
-     "statistiques",
-     "prévision",
-     "catalogue",
-     "allemand",
-     "sap"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-10-29T10:26:52+00:00",
-   "last_seen": "2026-10-30T21:36:19+00:00"
-  },
-  {
-   "id": "2ceb968a9668",
-   "company": "Ecole Internationale de Genève",
-   "title": "NAT SEC - Technical Coordinator / Data Specialist - 400 031 (M/F)",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/920db462-e312-49cb-9d72-14b9308cd788/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDD",
-   "experience": "2 ans min.",
-   "junior": false,
-   "published": "2026-10-29T02:00:13+01:00",
-   "seed": true,
-   "rv": 3,
-   "match": null,
-   "salary": null,
-   "first_seen": "2026-10-29T10:26:46+00:00",
-   "last_seen": "2026-11-08T00:39:04+00:00"
-  },
-  {
-   "id": "49e9b9f023ad",
-   "company": "Salt Mobile SA",
-   "title": "Marketing Data Scientist",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/cab88047-8e7b-4a61-a485-a5c342ffe7cc/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "2 ans min.",
-   "junior": false,
-   "published": "2026-10-28T17:02:23+01:00",
-   "seed": true,
-   "rv": 3,
-   "match": {
-    "score": 71,
-    "have": [
-     "sql",
-     "excel",
-     "pilotage",
-     "pricing",
-     "anglais"
-    ],
-    "missing": [
-     "modélisation",
-     "sap"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-10-29T10:26:39+00:00",
-   "last_seen": "2026-11-04T12:12:13+00:00"
-  },
-  {
-   "id": "47ae7550f550",
-   "company": "p4b ag",
-   "title": "(Junior) Data & BI Specialist - Fokus Automatisierung 80–100 % (m/w/d)",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/35f71f71-fd09-4adb-9ca5-4138ede32de8/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "junior / débutant",
-   "junior": true,
-   "published": "2026-10-05T10:58:02+02:00",
-   "seed": true,
-   "rv": 3,
-   "match": {
-    "score": 86,
-    "have": [
-     "sql",
-     "power bi",
-     "qualité des données",
-     "reporting",
-     "tableaux de bord",
-     "kpi"
-    ],
-    "missing": [
-     "allemand"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-10-29T10:26:36+00:00",
-   "last_seen": "2026-11-06T19:26:36+00:00"
-  },
-  {
-   "id": "8096a608d3ba",
-   "company": "WEMF AG für Werbemedienforschung",
-   "title": "(Junior) Data Engineer & Data Scientist (80–100 %)",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/b15c3f80-ab27-465f-9587-ff466af2289d/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "junior / débutant",
-   "junior": true,
-   "published": "2026-10-23T10:35:10+02:00",
-   "seed": true,
-   "rv": 3,
-   "match": {
-    "score": 73,
-    "have": [
-     "python",
-     "sql",
-     "etl",
-     "elt",
-     "machine learning",
-     "rag",
-     "qualité des données",
-     "anglais"
-    ],
-    "missing": [
-     "statistiques",
-     "agile",
-     "allemand"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-10-29T10:26:33+00:00",
-   "last_seen": "2026-11-10T12:40:11+00:00"
-  },
-  {
-   "id": "6219b5d66c6b",
-   "company": "Telus Digital",
-   "title": "Online Data Analyst - German speakers in Switzerland",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/868d268f-a672-4704-a190-ccebd7041ca3/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "?",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-12T15:32:32+02:00",
-   "seed": true,
-   "rv": 3,
-   "match": null,
-   "salary": null,
-   "first_seen": "2026-10-29T10:26:30+00:00",
-   "last_seen": "2026-11-09T01:20:05+00:00"
-  },
-  {
-   "id": "7ac708e3d27f",
-   "company": "HRS Real Estate AG",
-   "title": "Data Engineer & BI-Spezialist (m/w)",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/f8e56ce3-6955-45c9-8e99-41876f71b74d/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-13T17:12:43+02:00",
-   "seed": true,
-   "rv": 3,
-   "match": {
-    "score": 54,
-    "have": [
-     "python",
-     "sql",
-     "etl",
-     "elt",
-     "qualité des données",
-     "tableaux de bord",
-     "anglais"
-    ],
-    "missing": [
-     "databricks",
-     "snowflake",
-     "dbt",
-     "git",
-     "agile",
-     "allemand"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-10-29T10:26:27+00:00",
-   "last_seen": "2026-11-14T11:33:21+00:00"
-  },
-  {
-   "id": "417e43af90e5",
-   "company": "Sealed Air GmbH",
-   "title": "Master Data Administrator (w/m/d) 100%",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/5d2c1cc4-588e-49ca-b21f-a1ce7554d45f/",
-   "via": "jobs.ch",
-   "zone": "Suisse",
-   "country": "Suisse",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-10-22T16:26:46+02:00",
-   "seed": true,
-   "rv": 3,
-   "match": {
-    "score": 50,
-    "have": [
-     "qualité des données",
-     "anglais"
-    ],
-    "missing": [
-     "allemand",
-     "sap"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-10-29T10:26:19+00:00",
-   "last_seen": "2026-11-14T11:33:21+00:00"
-  },
-  {
-   "id": "4bebdcca4697",
-   "company": "AXA",
-   "title": "Claims Analyst",
-   "url": "https://careers.axa.com/jobs/20567",
-   "via": null,
-   "zone": "Londres",
-   "country": "Royaume-Uni",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-07-08T12:56:00+00:00",
-   "seed": false,
-   "rv": 3,
-   "match": null,
-   "salary": null,
-   "sponsor": "skilled",
-   "first_seen": "2026-10-29T10:23:12+00:00",
-   "last_seen": "2026-10-31T01:05:54+00:00"
+   "last_seen": "2026-11-14T14:47:23+00:00"
   },
   {
    "id": "77d6a6774f0a",
@@ -3585,10 +874,10 @@
    "junior": true,
    "published": "2026-10-28",
    "seed": false,
-   "rv": 3,
+   "rv": 4,
    "match": null,
    "first_seen": "2026-10-28T10:34:45+00:00",
-   "last_seen": "2026-11-14T11:29:33+00:00"
+   "last_seen": "2026-11-14T14:36:50+00:00"
   },
   {
    "id": "76bc150e9b01",
@@ -3602,7 +891,7 @@
    "junior": true,
    "published": "2026-10-28",
    "seed": false,
-   "rv": 3,
+   "rv": 4,
    "match": {
     "score": 100,
     "have": [
@@ -3617,7 +906,7 @@
     "missing": []
    },
    "first_seen": "2026-10-28T10:34:36+00:00",
-   "last_seen": "2026-11-14T11:29:33+00:00"
+   "last_seen": "2026-11-14T14:36:41+00:00"
   },
   {
    "id": "4e80bd2f5d16",
@@ -3662,7 +951,7 @@
    "junior": true,
    "published": "2026-10-27",
    "seed": false,
-   "rv": 3,
+   "rv": 4,
    "match": {
     "score": 67,
     "have": [
@@ -3677,7 +966,7 @@
     ]
    },
    "first_seen": "2026-10-27T20:42:04+00:00",
-   "last_seen": "2026-11-14T11:29:33+00:00"
+   "last_seen": "2026-11-14T14:37:01+00:00"
   },
   {
    "id": "deb616687b85",
@@ -3783,8 +1072,8 @@
    "published": "2026-10-13T00:00:00+00:00",
    "seed": true,
    "first_seen": "2026-10-26T10:09:31+00:00",
-   "last_seen": "2026-11-14T11:36:09+00:00",
-   "rv": 3,
+   "last_seen": "2026-11-14T14:48:35+00:00",
+   "rv": 4,
    "match": {
     "score": 57,
     "have": [
@@ -3842,9 +1131,9 @@
    "published": "2026-10-23",
    "seed": false,
    "first_seen": "2026-10-24T00:43:13+00:00",
-   "last_seen": "2026-11-14T11:33:07+00:00",
+   "last_seen": "2026-11-14T14:45:58+00:00",
    "country": "Suisse",
-   "rv": 3,
+   "rv": 4,
    "match": {
     "score": 67,
     "have": [
@@ -4066,16 +1355,16 @@
    "company": "AXA",
    "title": "Data Scientist P&C Products, Processes, and Offering (all genders) befristet ab sofort oder nach Vereinbarung bis Dezember 2027",
    "url": "https://careers.axa.com/jobs/28539",
-   "zone": "Île-de-France",
+   "zone": "Suisse",
    "contract": "?",
    "experience": "non précisée",
    "junior": false,
    "published": "2026-10-19T08:31:00+00:00",
    "seed": false,
    "first_seen": "2026-10-22T08:15:53+00:00",
-   "last_seen": "2026-11-14T11:30:20+00:00",
-   "country": "France",
-   "rv": 3,
+   "last_seen": "2026-11-14T14:39:15+00:00",
+   "country": "Suisse",
+   "rv": 4,
    "match": null
   },
   {
@@ -4197,24 +1486,6 @@
    "date_tries": 1
   },
   {
-   "id": "690e41651caa",
-   "company": "BPCE",
-   "title": "Data Scientist / Python (F/H) CDD 6 mois",
-   "url": "https://recrutement.bpce.fr/job/data-scientist-python-f-h-cdd-6-mois",
-   "zone": "Île-de-France",
-   "contract": "CDD",
-   "experience": "junior / débutant",
-   "junior": true,
-   "published": "2026-10-20",
-   "seed": false,
-   "first_seen": "2026-10-20T17:32:57+00:00",
-   "last_seen": "2026-11-14T11:29:33+00:00",
-   "date_tries": 1,
-   "country": "France",
-   "rv": 3,
-   "match": null
-  },
-  {
    "id": "7c1058e5e710",
    "company": "SBB CFF FFS",
    "title": "Data Engineer (m/w/d)",
@@ -4268,7 +1539,7 @@
    "published": "2026-09-22",
    "seed": false,
    "first_seen": "2026-10-20T13:59:55+00:00",
-   "last_seen": "2026-11-14T11:29:33+00:00",
+   "last_seen": "2026-11-14T14:37:54+00:00",
    "date_tries": 1,
    "match": {
     "score": 75,
@@ -4286,7 +1557,7 @@
     ]
    },
    "country": "France",
-   "rv": 3
+   "rv": 4
   },
   {
    "id": "aa43f082a76c",
@@ -4345,10 +1616,10 @@
    "published": "2026-10-08",
    "seed": false,
    "first_seen": "2026-10-20T13:58:07+00:00",
-   "last_seen": "2026-11-14T11:29:33+00:00",
+   "last_seen": "2026-11-14T14:37:44+00:00",
    "date_tries": 1,
    "country": "France",
-   "rv": 3,
+   "rv": 4,
    "match": {
     "score": 40,
     "have": [
@@ -4374,10 +1645,10 @@
    "published": "2026-10-14",
    "seed": false,
    "first_seen": "2026-10-20T13:57:31+00:00",
-   "last_seen": "2026-11-14T11:29:33+00:00",
+   "last_seen": "2026-11-14T14:37:34+00:00",
    "date_tries": 1,
    "country": "France",
-   "rv": 3,
+   "rv": 4,
    "match": {
     "score": 78,
     "have": [
@@ -4407,10 +1678,10 @@
    "published": "2026-10-18",
    "seed": false,
    "first_seen": "2026-10-20T13:56:45+00:00",
-   "last_seen": "2026-11-14T11:29:33+00:00",
+   "last_seen": "2026-11-14T14:35:59+00:00",
    "date_tries": 1,
    "country": "France",
-   "rv": 3,
+   "rv": 4,
    "match": {
     "score": 75,
     "have": [
