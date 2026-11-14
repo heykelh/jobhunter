@@ -1,6 +1,1452 @@
 {
- "updated": "2026-11-14T12:15:18+00:00",
+ "updated": "2026-11-14T14:38:43+00:00",
  "jobs": [
+  {
+   "id": "a6af09d06fd7",
+   "company": "MINISTERIE VAN LANDSVERDEDIGING",
+   "title": "Analyste enquêteur - Officier de réserve (Evere) H/F/X",
+   "url": "https://www.stepstone.be/offres-d-emploi--Analyste-enqueteur-Officier-de-reserve-Evere-H-F-X-Evere-MINISTERIE-VAN-LANDSVERDEDIGING--2252411-inline.html",
+   "via": "StepStone Belgique",
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "?",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-11-13T18:01:04+00:00",
+   "seed": true,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T14:38:37+00:00",
+   "last_seen": "2026-11-14T14:38:37+00:00"
+  },
+  {
+   "id": "71a4cfb37812",
+   "company": "Talan Belgium",
+   "title": "Business Analyst l Belgium",
+   "url": "https://www.stepstone.be/offres-d-emploi--Business-Analyst-l-Belgium-Brussels-Talan-Belgium--2212276-inline.html",
+   "via": "StepStone Belgique",
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "?",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-14T01:01:52+00:00",
+   "seed": true,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T14:38:33+00:00",
+   "last_seen": "2026-11-14T14:38:33+00:00"
+  },
+  {
+   "id": "f1f31787f2e1",
+   "company": "Eurofins Belgium NV",
+   "title": "Compensation & Benefits Analyst (Reward Analytics, Power BI)",
+   "url": "https://www.stepstone.be/offres-d-emploi--Compensation-Benefits-Analyst-Reward-Analytics-Power-BI-Brussels-Eurofins-Belgium-NV--2254374-inline.html",
+   "via": "StepStone Belgique",
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-14T08:01:04+00:00",
+   "seed": true,
+   "rv": 4,
+   "match": {
+    "score": 100,
+    "have": [
+     "python",
+     "sql",
+     "power bi",
+     "excel",
+     "reporting",
+     "business analyst"
+    ],
+    "missing": []
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T14:38:32+00:00",
+   "last_seen": "2026-11-14T14:38:32+00:00"
+  },
+  {
+   "id": "253a77c783cb",
+   "company": "Easi SA",
+   "title": "Medior SOC Analyst",
+   "url": "https://www.stepstone.be/offres-d-emploi--Medior-SOC-Analyst-Leuven-Easi-SA--2232804-inline.html",
+   "via": "StepStone Belgique",
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "?",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-13T00:01:25+00:00",
+   "seed": true,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T14:38:29+00:00",
+   "last_seen": "2026-11-14T14:38:29+00:00"
+  },
+  {
+   "id": "4982f0d1bbfb",
+   "company": "Easi SA",
+   "title": "Junior SOC Analyst",
+   "url": "https://www.stepstone.be/offres-d-emploi--Junior-SOC-Analyst-Leuven-Easi-SA--2126116-inline.html",
+   "via": "StepStone Belgique",
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-13T00:01:26+00:00",
+   "seed": true,
+   "rv": 4,
+   "match": {
+    "score": 67,
+    "have": [
+     "python",
+     "data quality"
+    ],
+    "missing": [
+     "informatica"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T14:38:28+00:00",
+   "last_seen": "2026-11-14T14:38:28+00:00"
+  },
+  {
+   "id": "606367aacf81",
+   "company": "BNP Paribas Fortis",
+   "title": "Data Quality Analyst - HQ Brussels",
+   "url": "https://www.stepstone.be/offres-d-emploi--Data-Quality-Analyst-HQ-Brussels-BRUSSEL-BNP-Paribas-Fortis--2248320-inline.html",
+   "via": "StepStone Belgique",
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "?",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-13T02:01:29+00:00",
+   "seed": true,
+   "rv": 4,
+   "match": {
+    "score": 71,
+    "have": [
+     "python",
+     "sql",
+     "excel",
+     "data quality",
+     "business analyst"
+    ],
+    "missing": [
+     "tableau",
+     "azure"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T14:38:26+00:00",
+   "last_seen": "2026-11-14T14:38:26+00:00"
+  },
+  {
+   "id": "f5e108f9d33d",
+   "company": "Flink BVBA",
+   "title": "Business Operations Analyst (m/f/d)",
+   "url": "https://www.stepstone.be/offres-d-emploi--Business-Operations-Analyst-m-f-d-Berlin-Flink-BVBA--2250651-inline.html",
+   "via": "StepStone Belgique",
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "?",
+   "experience": "2 ans min. · junior",
+   "junior": true,
+   "published": "2026-11-14T01:01:38+00:00",
+   "seed": true,
+   "rv": 4,
+   "match": {
+    "score": 100,
+    "have": [
+     "sql",
+     "looker",
+     "business analyst"
+    ],
+    "missing": []
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T14:38:23+00:00",
+   "last_seen": "2026-11-14T14:38:23+00:00"
+  },
+  {
+   "id": "00ef5deeed23",
+   "company": "Telenet Bvba",
+   "title": "Business Analyst",
+   "url": "https://www.stepstone.be/offres-d-emploi--Business-Analyst-GENT-Telenet-Bvba--2252556-inline.html",
+   "via": "StepStone Belgique",
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "?",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-12T19:01:03+00:00",
+   "seed": true,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T14:38:21+00:00",
+   "last_seen": "2026-11-14T14:38:21+00:00"
+  },
+  {
+   "id": "d4a8f2871cc3",
+   "company": "Purna Pharmaceuticals",
+   "title": "QC Analyst - Puurs, BE",
+   "url": "https://www.stepstone.be/offres-d-emploi--QC-Analyst-Puurs-BE-PUURS-SINT-AMANDS-Purna-Pharmaceuticals--2253186-inline.html",
+   "via": "StepStone Belgique",
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "?",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-11-13T20:01:05+00:00",
+   "seed": true,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T14:38:20+00:00",
+   "last_seen": "2026-11-14T14:38:20+00:00"
+  },
+  {
+   "id": "1fe7a42646cb",
+   "company": "Fintensy",
+   "title": "Credit Analyst (NL/FR)",
+   "url": "https://www.stepstone.be/offres-d-emploi--Credit-Analyst-NL-FR-WAVRE-Fintensy--2242986-inline.html",
+   "via": "StepStone Belgique",
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "?",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-11-14T00:01:37+00:00",
+   "seed": true,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T14:38:18+00:00",
+   "last_seen": "2026-11-14T14:38:18+00:00"
+  },
+  {
+   "id": "70cbf543f545",
+   "company": "SGS Group Belgium",
+   "title": "Analyste - Chemistry Mono",
+   "url": "https://www.stepstone.be/offres-d-emploi--Analyste-Chemistry-Mono-Wavre-SGS-Group-Belgium--1824442-inline.html",
+   "via": "StepStone Belgique",
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "CDI",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-11-06T00:01:06+00:00",
+   "seed": true,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T14:38:17+00:00",
+   "last_seen": "2026-11-14T14:38:17+00:00"
+  },
+  {
+   "id": "39103325126f",
+   "company": "Kanal",
+   "title": "COLLABORATEUR.ICE ANALYSTE FINANCIER (F/H/X)",
+   "url": "https://www.stepstone.be/offres-d-emploi--COLLABORATEUR-ICE-ANALYSTE-FINANCIER-F-H-X-Bruxelles-Kanal--2252163-inline.html",
+   "via": "StepStone Belgique",
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "CDI",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-11-13T10:01:03+00:00",
+   "seed": true,
+   "rv": 4,
+   "match": {
+    "score": 73,
+    "have": [
+     "power bi",
+     "excel",
+     "dax",
+     "gouvernance",
+     "conformité",
+     "reporting",
+     "tableaux de bord",
+     "pilotage"
+    ],
+    "missing": [
+     "modélisation",
+     "prévision",
+     "salesforce"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T14:38:16+00:00",
+   "last_seen": "2026-11-14T14:38:16+00:00"
+  },
+  {
+   "id": "996c49bf4fae",
+   "company": "Sander Antwerpen",
+   "title": "Accounting & Finance Analyst | Chemicals",
+   "url": "https://www.stepstone.be/offres-d-emploi--Accounting-Finance-Analyst-Chemicals-Mechelen-Sander-Antwerpen--2254026-inline.html",
+   "via": "StepStone Belgique",
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "CDI",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-11-09T17:04:18+00:00",
+   "seed": true,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T14:38:13+00:00",
+   "last_seen": "2026-11-14T14:38:13+00:00"
+  },
+  {
+   "id": "2360c9a80faa",
+   "company": "Dixon Supply Chain",
+   "title": "Transport Analyst",
+   "url": "https://www.stepstone.be/offres-d-emploi--Transport-Analyst-Kortrijk-Dixon-Supply-Chain--2254751-inline.html",
+   "via": "StepStone Belgique",
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-10T13:29:23+00:00",
+   "seed": true,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T14:38:11+00:00",
+   "last_seen": "2026-11-14T14:38:11+00:00"
+  },
+  {
+   "id": "6b8fa9324a90",
+   "company": "Robert Walters",
+   "title": "Property Support Analyst",
+   "url": "https://www.stepstone.be/offres-d-emploi--Property-Support-Analyst-Berchem-Robert-Walters--2253980-inline.html",
+   "via": "StepStone Belgique",
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-11T10:01:03+00:00",
+   "seed": true,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T14:38:10+00:00",
+   "last_seen": "2026-11-14T14:38:10+00:00"
+  },
+  {
+   "id": "b1c72ec9d54f",
+   "company": "Sander Ghent",
+   "title": "Corporate Finance Analyst",
+   "url": "https://www.stepstone.be/offres-d-emploi--Corporate-Finance-Analyst-Brugge-Sander-Ghent--2254569-inline.html",
+   "via": "StepStone Belgique",
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "CDD",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-11-13T17:01:02+00:00",
+   "seed": true,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T14:38:08+00:00",
+   "last_seen": "2026-11-14T14:38:08+00:00"
+  },
+  {
+   "id": "76dbb917ccf1",
+   "company": "Smals",
+   "title": "Test Analyst",
+   "url": "https://www.stepstone.be/offres-d-emploi--Test-Analyst-Brussel-Smals--2252168-inline.html",
+   "via": "StepStone Belgique",
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "CDI",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-11-06T10:01:02+00:00",
+   "seed": true,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T14:38:05+00:00",
+   "last_seen": "2026-11-14T14:38:05+00:00"
+  },
+  {
+   "id": "ce1c10267c44",
+   "company": "VANBREDA RISK & BENEFITS",
+   "title": "IT Business Analyst",
+   "url": "https://www.stepstone.be/offres-d-emploi--IT-Business-Analyst-Antwerpen-VANBREDA-RISK-BENEFITS--2200234-inline.html",
+   "via": "StepStone Belgique",
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "CDI",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-11-12T14:01:06+00:00",
+   "seed": true,
+   "rv": 4,
+   "match": {
+    "score": 50,
+    "have": [
+     "data quality",
+     "business analyst"
+    ],
+    "missing": [
+     "azure",
+     "agile"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T14:38:04+00:00",
+   "last_seen": "2026-11-14T14:38:04+00:00"
+  },
+  {
+   "id": "8c18c215b632",
+   "company": "Smals",
+   "title": "Functional Analyst",
+   "url": "https://www.stepstone.be/offres-d-emploi--Functional-Analyst-Brussel-Smals--2254915-inline.html",
+   "via": "StepStone Belgique",
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "CDI",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-11-13T10:38:51+00:00",
+   "seed": true,
+   "rv": 4,
+   "match": {
+    "score": 50,
+    "have": [
+     "sql",
+     "data quality",
+     "business analyst"
+    ],
+    "missing": [
+     "azure",
+     "agile",
+     "scrum"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T14:38:02+00:00",
+   "last_seen": "2026-11-14T14:38:02+00:00"
+  },
+  {
+   "id": "f8466005659a",
+   "company": "Lemon Companies",
+   "title": "Data Engineer",
+   "url": "https://www.stepstone.be/offres-d-emploi--Data-Engineer-KONTICH-Lemon-Companies--2253579-inline.html",
+   "via": "StepStone Belgique",
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "?",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-11-12T16:01:14+00:00",
+   "seed": true,
+   "rv": 4,
+   "match": {
+    "score": 42,
+    "have": [
+     "python",
+     "sql",
+     "aws",
+     "data quality",
+     "business analyst"
+    ],
+    "missing": [
+     "spark",
+     "databricks",
+     "snowflake",
+     "airflow",
+     "azure",
+     "terraform",
+     "sap"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T14:38:00+00:00",
+   "last_seen": "2026-11-14T14:38:00+00:00"
+  },
+  {
+   "id": "75e3f92fdef6",
+   "company": "Adecco",
+   "title": "Jobstudent Administratie | Administratief Medewerker | Student Data Input - Staden",
+   "url": "https://www.stepstone.be/offres-d-emploi--Jobstudent-Administratie-Administratief-Medewerker-Student-Data-Input-Staden-STADEN-Adecco--2253568-inline.html",
+   "via": "StepStone Belgique",
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "?",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-11-12T16:01:15+00:00",
+   "seed": true,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T14:37:59+00:00",
+   "last_seen": "2026-11-14T14:37:59+00:00"
+  },
+  {
+   "id": "4ee4c8bd91c4",
+   "company": "Meat and more NV",
+   "title": "Data analytics engineer",
+   "url": "https://www.stepstone.be/offres-d-emploi--Data-analytics-engineer-AALTER-Meat-and-more-NV--2248965-inline.html",
+   "via": "StepStone Belgique",
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "?",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-13T01:01:54+00:00",
+   "seed": true,
+   "rv": 4,
+   "match": {
+    "score": 75,
+    "have": [
+     "python",
+     "sql",
+     "etl",
+     "machine learning",
+     "data quality",
+     "business analyst"
+    ],
+    "missing": [
+     "databricks",
+     "azure"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T14:37:57+00:00",
+   "last_seen": "2026-11-14T14:37:57+00:00"
+  },
+  {
+   "id": "5b3bcf6620f4",
+   "company": "A & C Systems",
+   "title": "Data quality operator",
+   "url": "https://www.stepstone.be/offres-d-emploi--Data-quality-operator-HOEGAARDEN-A-C-Systems--2250592-inline.html",
+   "via": "StepStone Belgique",
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "?",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-11-13T00:01:14+00:00",
+   "seed": true,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T14:37:56+00:00",
+   "last_seen": "2026-11-14T14:37:56+00:00"
+  },
+  {
+   "id": "864370a5e7db",
+   "company": "Tillit BVBA",
+   "title": "Data Engineer Fabric",
+   "url": "https://www.stepstone.be/offres-d-emploi--Data-Engineer-Fabric-DESTELDONK-Tillit-BVBA--2248604-inline.html",
+   "via": "StepStone Belgique",
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "?",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-13T00:01:15+00:00",
+   "seed": true,
+   "rv": 4,
+   "match": {
+    "score": 86,
+    "have": [
+     "python",
+     "sql",
+     "power bi",
+     "etl",
+     "elt",
+     "data quality"
+    ],
+    "missing": [
+     "azure"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T14:37:55+00:00",
+   "last_seen": "2026-11-14T14:37:55+00:00"
+  },
+  {
+   "id": "202b60f316ac",
+   "company": "Vandenbussche N.V.",
+   "title": "Data & AI Specialist",
+   "url": "https://www.stepstone.be/offres-d-emploi--Data-AI-Specialist-AALTER-Vandenbussche-N-V--2249717-inline.html",
+   "via": "StepStone Belgique",
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "?",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-13T02:01:40+00:00",
+   "seed": true,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T14:37:53+00:00",
+   "last_seen": "2026-11-14T14:37:53+00:00"
+  },
+  {
+   "id": "c6b149294035",
+   "company": "TWG Service NV",
+   "title": "Systems & Data Officer",
+   "url": "https://www.stepstone.be/offres-d-emploi--Systems-Data-Officer-BRUGGE-TWG-Service-NV--2242682-inline.html",
+   "via": "StepStone Belgique",
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "?",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-11-13T00:02:27+00:00",
+   "seed": true,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T14:37:51+00:00",
+   "last_seen": "2026-11-14T14:37:51+00:00"
+  },
+  {
+   "id": "0177d4f44f09",
+   "company": "Galloo Holding NV",
+   "title": "Data Engineer",
+   "url": "https://www.stepstone.be/offres-d-emploi--Data-Engineer-MENEN-Galloo-Holding-NV--2241076-inline.html",
+   "via": "StepStone Belgique",
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "?",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-11-13T00:01:32+00:00",
+   "seed": true,
+   "rv": 4,
+   "match": {
+    "score": 62,
+    "have": [
+     "python",
+     "sql",
+     "power bi",
+     "etl",
+     "data quality"
+    ],
+    "missing": [
+     "tableau",
+     "azure",
+     "informatica"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T14:37:50+00:00",
+   "last_seen": "2026-11-14T14:37:50+00:00"
+  },
+  {
+   "id": "92f5321ae5a8",
+   "company": "MINISTERIE VAN LANDSVERDEDIGING",
+   "title": "Data-analist - Reservist onderofficier M/V/X",
+   "url": "https://www.stepstone.be/offres-d-emploi--Data-analist-Reservist-onderofficier-M-V-X-Brussel-MINISTERIE-VAN-LANDSVERDEDIGING--2252400-inline.html",
+   "via": "StepStone Belgique",
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "?",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-13T16:01:07+00:00",
+   "seed": true,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T14:37:49+00:00",
+   "last_seen": "2026-11-14T14:37:49+00:00"
+  },
+  {
+   "id": "96df88e8a14e",
+   "company": "Vlaams Instituut Voor de ZEE",
+   "title": "Data engineer & developer Digital Twin Ocean",
+   "url": "https://www.stepstone.be/offres-d-emploi--Data-engineer-developer-Digital-Twin-Ocean-OOSTENDE-Vlaams-Instituut-Voor-de-ZEE--2252273-inline.html",
+   "via": "StepStone Belgique",
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "?",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-11-13T16:01:06+00:00",
+   "seed": true,
+   "rv": 4,
+   "match": {
+    "score": 43,
+    "have": [
+     "python",
+     "docker",
+     "etl"
+    ],
+    "missing": [
+     "azure",
+     "kubernetes",
+     "git",
+     "informatica"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T14:37:47+00:00",
+   "last_seen": "2026-11-14T14:37:47+00:00"
+  },
+  {
+   "id": "ab21e0041c1a",
+   "company": "DuraConnect Bvba",
+   "title": "Data Technieker (m/v)",
+   "url": "https://www.stepstone.be/offres-d-emploi--Data-Technieker-m-v-Westmeerbeek-DuraConnect-Bvba--2185393-inline.html",
+   "via": "StepStone Belgique",
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "?",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-11-14T01:01:30+00:00",
+   "seed": true,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T14:37:46+00:00",
+   "last_seen": "2026-11-14T14:37:46+00:00"
+  },
+  {
+   "id": "b98f6046a52d",
+   "company": "Homini nv",
+   "title": "Data engineer - Python",
+   "url": "https://www.stepstone.be/offres-d-emploi--Data-engineer-Python-Antwerpen-Homini-nv--2179903-inline.html",
+   "via": "StepStone Belgique",
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "CDI",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-11-14T01:01:50+00:00",
+   "seed": true,
+   "rv": 4,
+   "match": {
+    "score": 71,
+    "have": [
+     "python",
+     "docker",
+     "machine learning",
+     "data quality",
+     "business analyst"
+    ],
+    "missing": [
+     "azure",
+     "kubernetes"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T14:37:44+00:00",
+   "last_seen": "2026-11-14T14:37:44+00:00"
+  },
+  {
+   "id": "336766a4c4c4",
+   "company": "Debra-Meat NV",
+   "title": "Medewerker data-input/data-controle",
+   "url": "https://www.stepstone.be/offres-d-emploi--Medewerker-data-input-data-controle-Tielt-Debra-Meat-NV--2250655-inline.html",
+   "via": "StepStone Belgique",
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "?",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-14T00:01:33+00:00",
+   "seed": true,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T14:37:43+00:00",
+   "last_seen": "2026-11-14T14:37:43+00:00"
+  },
+  {
+   "id": "8bb73797aab1",
+   "company": "Robert Walters",
+   "title": "Investment Management Data Analyst",
+   "url": "https://www.stepstone.be/offres-d-emploi--Investment-Management-Data-Analyst-Leuven-Robert-Walters--2252232-inline.html",
+   "via": "StepStone Belgique",
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "CDI",
+   "experience": "2 ans min.",
+   "junior": false,
+   "published": "2026-11-13T15:01:04+00:00",
+   "seed": true,
+   "rv": 4,
+   "match": {
+    "score": 100,
+    "have": [
+     "python",
+     "data quality",
+     "reporting",
+     "business analyst"
+    ],
+    "missing": []
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T14:37:40+00:00",
+   "last_seen": "2026-11-14T14:37:40+00:00"
+  },
+  {
+   "id": "ed1c80bd1c75",
+   "company": "PEROPTYX LIMITED",
+   "title": "Data Analyst WFH - No Experience Required",
+   "url": "https://www.stepstone.be/offres-d-emploi--Data-Analyst-WFH-No-Experience-Required-Home-Office-PEROPTYX-LIMITED--2253788-inline.html",
+   "via": "StepStone Belgique",
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "?",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-13T11:01:04+00:00",
+   "seed": true,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T14:37:38+00:00",
+   "last_seen": "2026-11-14T14:37:38+00:00"
+  },
+  {
+   "id": "db6b982f5920",
+   "company": "Nationale Bank van België NV / Banque Nationale de Belgique SA",
+   "title": "Junior Data Collection Officer (V/M/X)",
+   "url": "https://www.stepstone.be/offres-d-emploi--Junior-Data-Collection-Officer-V-M-X-Brussel-Nationale-Bank-van-Belgie-NV-Banque-Nationale-de-Belgique-SA--2253324-inline.html",
+   "via": "StepStone Belgique",
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-09T13:01:03+00:00",
+   "seed": true,
+   "rv": 4,
+   "match": {
+    "score": 75,
+    "have": [
+     "power bi",
+     "excel",
+     "data quality"
+    ],
+    "missing": [
+     "databricks"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T14:37:37+00:00",
+   "last_seen": "2026-11-14T14:37:37+00:00"
+  },
+  {
+   "id": "0aa403c5bdb4",
+   "company": "Sander Antwerpen",
+   "title": "Growth Marketing Specialist | Van data naar resultaat",
+   "url": "https://www.stepstone.be/offres-d-emploi--Growth-Marketing-Specialist-Van-data-naar-resultaat-Gent-Sander-Antwerpen--2254320-inline.html",
+   "via": "StepStone Belgique",
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-10T12:01:03+00:00",
+   "seed": true,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T14:37:35+00:00",
+   "last_seen": "2026-11-14T14:37:35+00:00"
+  },
+  {
+   "id": "510c7130f899",
+   "company": "Nationale Loterij",
+   "title": "Data Engineer - Microsoft Fabric / Azure",
+   "url": "https://www.stepstone.be/offres-d-emploi--Data-Engineer-Microsoft-Fabric-Azure-Brussel-Nationale-Loterij--2253986-inline.html",
+   "via": "StepStone Belgique",
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-13T12:01:04+00:00",
+   "seed": true,
+   "rv": 4,
+   "match": {
+    "score": 50,
+    "have": [
+     "sql",
+     "power bi",
+     "data quality"
+    ],
+    "missing": [
+     "spark",
+     "dbt",
+     "azure"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T14:37:33+00:00",
+   "last_seen": "2026-11-14T14:37:33+00:00"
+  },
+  {
+   "id": "cfcf2ae69863",
+   "company": "Colruyt NV (Colruyt Group)",
+   "title": "Data Protection Officer",
+   "url": "https://www.stepstone.be/offres-d-emploi--Data-Protection-Officer-EDINGENSESTEENWEG-1500-HALLE-Colruyt-NV-Colruyt-Group--2169079-inline.html",
+   "via": "StepStone Belgique",
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-14T00:01:32+00:00",
+   "seed": true,
+   "rv": 4,
+   "match": {
+    "score": 67,
+    "have": [
+     "data quality",
+     "ai act"
+    ],
+    "missing": [
+     "scrum"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T14:37:32+00:00",
+   "last_seen": "2026-11-14T14:37:32+00:00"
+  },
+  {
+   "id": "749ff71f2ada",
+   "company": "Academic Work Switzerland",
+   "title": "Analyste KYC & Compliance Junior en banque - 2 mois",
+   "url": "https://www.jobup.ch/fr/emplois/detail/5a27be12-9e78-4c0f-a2ab-971017b94a42/",
+   "via": "jobup.ch",
+   "zone": "Suisse",
+   "country": "Suisse",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-10-16T19:30:39+02:00",
+   "seed": true,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T14:35:06+00:00",
+   "last_seen": "2026-11-14T14:35:06+00:00"
+  },
+  {
+   "id": "a4613bf6ac53",
+   "company": "Accenture France",
+   "title": "Analyste Ecosystem Resale Enablement H/F Accenture France",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83500068.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-10-19T00:08:12+00:00",
+   "seed": false,
+   "rv": 4,
+   "match": {
+    "score": 67,
+    "have": [
+     "conformité",
+     "anglais"
+    ],
+    "missing": [
+     "modélisation"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T14:31:38+00:00",
+   "last_seen": "2026-11-14T14:31:38+00:00"
+  },
+  {
+   "id": "41cbcdba1165",
+   "company": "SEWS-E",
+   "title": "Analyste de Chiffrage H/F SEWS-E",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85182318.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-05T11:40:13+00:00",
+   "seed": false,
+   "rv": 4,
+   "match": {
+    "score": 100,
+    "have": [
+     "power bi",
+     "excel",
+     "reporting",
+     "pilotage",
+     "business analyst",
+     "anglais"
+    ],
+    "missing": []
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T14:31:29+00:00",
+   "last_seen": "2026-11-14T14:31:29+00:00"
+  },
+  {
+   "id": "ab560fc8effe",
+   "company": "Rhapsodie Gestion",
+   "title": "Analyste Kyc H/F Rhapsodie Gestion",
+   "url": "https://www.hellowork.com/fr-fr/emplois/79785775.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-11-04T00:14:34+00:00",
+   "seed": false,
+   "rv": 4,
+   "match": {
+    "score": 100,
+    "have": [
+     "intelligence artificielle",
+     "qualité des données",
+     "conformité"
+    ],
+    "missing": []
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T14:31:27+00:00",
+   "last_seen": "2026-11-14T14:31:27+00:00"
+  },
+  {
+   "id": "4f92855f2a7a",
+   "company": "CASDEN Banque Populaire",
+   "title": "Analyste Crédit H/F CASDEN Banque Populaire",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85100001.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-03T14:13:15+00:00",
+   "seed": false,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T14:31:18+00:00",
+   "last_seen": "2026-11-14T14:31:18+00:00"
+  },
+  {
+   "id": "f0a9dfd3fc4c",
+   "company": "Winamax",
+   "title": "Analyste Fraude H/F Winamax",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84167816.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDD",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-07T00:13:13+00:00",
+   "seed": false,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T14:31:13+00:00",
+   "last_seen": "2026-11-14T14:31:13+00:00"
+  },
+  {
+   "id": "681d4db27c4d",
+   "company": "HelloWork",
+   "title": "Analyste de Crédit H/F Cette entreprise souhaite rester anonyme",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85403646.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDD",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-11",
+   "seed": false,
+   "rv": 4,
+   "match": {
+    "score": 75,
+    "have": [
+     "excel",
+     "conformité",
+     "pilotage"
+    ],
+    "missing": [
+     "salesforce"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T14:31:03+00:00",
+   "last_seen": "2026-11-14T14:31:03+00:00"
+  },
+  {
+   "id": "a05c4a5a4b25",
+   "company": "Orange",
+   "title": "Analyste Soc H/F Orange",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85390036.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-10T17:31:02+00:00",
+   "seed": false,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T14:30:57+00:00",
+   "last_seen": "2026-11-14T14:30:57+00:00"
+  },
+  {
+   "id": "0edaf70a8f60",
+   "company": "ALTEN",
+   "title": "Fiabiliste et Analyste de Pièces Performances Automobiles H/F ALTEN",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84975267.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-10-30T11:54:36+00:00",
+   "seed": false,
+   "rv": 4,
+   "match": {
+    "score": 50,
+    "have": [
+     "excel",
+     "anglais"
+    ],
+    "missing": [
+     "jira",
+     "sap"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T14:30:50+00:00",
+   "last_seen": "2026-11-14T14:30:50+00:00"
+  },
+  {
+   "id": "c47571452055",
+   "company": "Eiffage",
+   "title": "Analyste Gouvernance Sécurité - CDI H/F Eiffage",
+   "url": "https://www.hellowork.com/fr-fr/emplois/81892225.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "2 ans min. · junior",
+   "junior": true,
+   "published": "2026-10-30T00:14:29+00:00",
+   "seed": false,
+   "rv": 4,
+   "match": {
+    "score": 75,
+    "have": [
+     "gouvernance",
+     "rgpd",
+     "conformité",
+     "reporting",
+     "tableaux de bord",
+     "anglais"
+    ],
+    "missing": [
+     "jira",
+     "sap"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T14:30:44+00:00",
+   "last_seen": "2026-11-14T14:30:44+00:00"
+  },
+  {
+   "id": "4726a6ad219d",
+   "company": "Crédit Coopératif",
+   "title": "Ecofi Investissements - Analyste Ethique H/F Crédit Coopératif",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85089334.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDD",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-03T10:02:38+00:00",
+   "seed": false,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T14:30:32+00:00",
+   "last_seen": "2026-11-14T14:30:32+00:00"
+  },
+  {
+   "id": "5f95b3735f81",
+   "company": "Fish Eye Technologies",
+   "title": "Analyste Exploitation Ibmi H/F Fish Eye Technologies",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84805587.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-10-26T16:18:13+00:00",
+   "seed": false,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T14:30:31+00:00",
+   "last_seen": "2026-11-14T14:30:31+00:00"
+  },
+  {
+   "id": "d427c42a954d",
+   "company": "Viaud & Co recrutement",
+   "title": "Analyste Patrimonial H/F Viaud & Co recrutement",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84700406.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-10-22T15:53:25+00:00",
+   "seed": false,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T14:30:20+00:00",
+   "last_seen": "2026-11-14T14:30:20+00:00"
+  },
+  {
+   "id": "5a9f3e46dc20",
+   "company": "Elis",
+   "title": "Analyste Middle Office H/F Elis",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84871898.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-10-27T21:14:19+00:00",
+   "seed": false,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T14:30:19+00:00",
+   "last_seen": "2026-11-14T14:30:19+00:00"
+  },
+  {
+   "id": "98fa816131ea",
+   "company": "Ministère des armées - Civils de la Défense",
+   "title": "DGA - Dice - Analyste des Recevabilités H/F Ministère des armées - Civils de la Défense",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84310154.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDD",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-11-10T00:53:46+00:00",
+   "seed": false,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T14:30:07+00:00",
+   "last_seen": "2026-11-14T14:30:07+00:00"
+  },
+  {
+   "id": "84376151ee45",
+   "company": "Approach People Recruitment",
+   "title": "Analyste Esg - Anglais Courant H/F Approach People Recruitment",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82108578.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "2 ans min. · junior",
+   "junior": true,
+   "published": "2026-11-07T00:10:40+00:00",
+   "seed": false,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T14:30:03+00:00",
+   "last_seen": "2026-11-14T14:30:03+00:00"
+  },
+  {
+   "id": "9498fc14c83d",
+   "company": "Ministère des armées - Civils de la Défense",
+   "title": "Analyste Menace Quantique H/F Ministère des armées - Civils de la Défense",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82940653.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDD",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-11-03T00:05:47+00:00",
+   "seed": false,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T14:29:54+00:00",
+   "last_seen": "2026-11-14T14:29:54+00:00"
+  },
+  {
+   "id": "94e5098c8141",
+   "company": "Baker Tilly",
+   "title": "Analyste Évaluation et Modélisation Financière H/F Baker Tilly",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85354159.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-10T01:21:20+00:00",
+   "seed": false,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T14:29:53+00:00",
+   "last_seen": "2026-11-14T14:29:53+00:00"
+  },
+  {
+   "id": "480bfa182bfd",
+   "company": "MD SKILLS",
+   "title": "Analyste Patrimonial Junior H/F MD SKILLS",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85341998.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-09T17:59:15+00:00",
+   "seed": false,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T14:29:51+00:00",
+   "last_seen": "2026-11-14T14:29:51+00:00"
+  },
+  {
+   "id": "a1dc91bf2d49",
+   "company": "Direct Assurance",
+   "title": "Analyste Pilotage & Résultats H/F Direct Assurance",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83184849.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "2 ans min. · junior",
+   "junior": true,
+   "published": "2026-11-10T00:54:23+00:00",
+   "seed": false,
+   "rv": 4,
+   "match": {
+    "score": 67,
+    "have": [
+     "power bi",
+     "pilotage"
+    ],
+    "missing": [
+     "modélisation"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T14:29:38+00:00",
+   "last_seen": "2026-11-14T14:29:38+00:00"
+  },
+  {
+   "id": "ca18f43a6208",
+   "company": "Serpinet Conseil",
+   "title": "Souscripteur Analyste H/F Serpinet Conseil",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85071231.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-02T19:11:38+00:00",
+   "seed": false,
+   "rv": 4,
+   "match": {
+    "score": 80,
+    "have": [
+     "python",
+     "sql",
+     "intelligence artificielle",
+     "anglais"
+    ],
+    "missing": [
+     "statistiques"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T14:29:37+00:00",
+   "last_seen": "2026-11-14T14:29:37+00:00"
+  },
+  {
+   "id": "5896d4044ebe",
+   "company": "AquisIT",
+   "title": "Analyste Patrimonial H/F AquisIT",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85344552.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "2 ans min. · junior",
+   "junior": true,
+   "published": "2026-11-09T18:53:16+00:00",
+   "seed": false,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T14:29:23+00:00",
+   "last_seen": "2026-11-14T14:29:23+00:00"
+  },
+  {
+   "id": "4a232fa2eb55",
+   "company": "FACTOFRANCE SAS",
+   "title": "Analyste Octroi H/F FACTOFRANCE SAS",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85334594.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-09T16:35:16+00:00",
+   "seed": false,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T14:29:21+00:00",
+   "last_seen": "2026-11-14T14:29:21+00:00"
+  },
   {
    "id": "7dc884bec8ce",
    "company": "Groupe OGF",
@@ -27,7 +1473,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-13T13:11:32+00:00",
-   "last_seen": "2026-11-14T12:15:17+00:00"
+   "last_seen": "2026-11-14T14:31:38+00:00"
   },
   {
    "id": "91b0fa8c2e39",
@@ -118,7 +1564,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-12T10:17:45+00:00",
-   "last_seen": "2026-11-14T12:15:16+00:00"
+   "last_seen": "2026-11-14T14:29:19+00:00"
   },
   {
    "id": "81fc9d8a9ce3",
@@ -148,7 +1594,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-10T13:32:41+00:00",
-   "last_seen": "2026-11-14T12:15:17+00:00"
+   "last_seen": "2026-11-14T14:31:38+00:00"
   },
   {
    "id": "e4042f046d84",
@@ -178,7 +1624,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-10T13:32:13+00:00",
-   "last_seen": "2026-11-14T12:15:17+00:00"
+   "last_seen": "2026-11-14T14:31:38+00:00"
   },
   {
    "id": "9dada9cae255",
@@ -193,7 +1639,7 @@
    "junior": true,
    "published": "2026-11-10T12:35:27+00:00",
    "seed": false,
-   "rv": 3,
+   "rv": 4,
    "match": {
     "score": 100,
     "have": [
@@ -205,41 +1651,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-10T13:32:06+00:00",
-   "last_seen": "2026-11-14T12:15:16+00:00"
-  },
-  {
-   "id": "bfdea68be84c",
-   "company": "StarClay",
-   "title": "Consultant Gouvernance Data H/F StarClay",
-   "url": "https://www.hellowork.com/fr-fr/emplois/85336047.html",
-   "via": "HelloWork",
-   "zone": "Île-de-France",
-   "country": "France",
-   "contract": "CDI",
-   "experience": "non précisée",
-   "junior": false,
-   "published": "2026-11-09T17:04:21+00:00",
-   "seed": false,
-   "rv": 3,
-   "match": {
-    "score": 78,
-    "have": [
-     "power bi",
-     "qualité des données",
-     "gouvernance",
-     "reporting",
-     "kpi",
-     "pilotage",
-     "business analyst"
-    ],
-    "missing": [
-     "modélisation",
-     "data steward"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-09T23:48:27+00:00",
-   "last_seen": "2026-11-14T01:28:53+00:00"
+   "last_seen": "2026-11-14T14:29:05+00:00"
   },
   {
    "id": "a143accc47c5",
@@ -254,7 +1666,7 @@
    "junior": true,
    "published": "2026-11-09T19:54:46+00:00",
    "seed": false,
-   "rv": 3,
+   "rv": 4,
    "match": {
     "score": 67,
     "have": [
@@ -270,7 +1682,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-09T23:48:17+00:00",
-   "last_seen": "2026-11-14T12:15:16+00:00"
+   "last_seen": "2026-11-14T14:28:22+00:00"
   },
   {
    "id": "f9f51000fa82",
@@ -298,7 +1710,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-09T13:58:40+00:00",
-   "last_seen": "2026-11-14T12:15:17+00:00"
+   "last_seen": "2026-11-14T14:31:38+00:00"
   },
   {
    "id": "c4ca969db542",
@@ -328,7 +1740,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-09T13:58:33+00:00",
-   "last_seen": "2026-11-14T12:15:16+00:00"
+   "last_seen": "2026-11-14T14:29:19+00:00"
   },
   {
    "id": "5f42fa66683e",
@@ -358,7 +1770,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-09T13:58:17+00:00",
-   "last_seen": "2026-11-14T12:15:16+00:00"
+   "last_seen": "2026-11-14T14:29:19+00:00"
   },
   {
    "id": "46344461dce7",
@@ -377,7 +1789,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-09T13:58:11+00:00",
-   "last_seen": "2026-11-14T12:15:16+00:00"
+   "last_seen": "2026-11-14T14:29:19+00:00"
   },
   {
    "id": "f7f429cc2490",
@@ -392,7 +1804,7 @@
    "junior": true,
    "published": "2026-11-09T00:09:06+00:00",
    "seed": false,
-   "rv": 3,
+   "rv": 4,
    "match": {
     "score": 40,
     "have": [
@@ -407,7 +1819,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-09T13:58:05+00:00",
-   "last_seen": "2026-11-14T12:15:16+00:00"
+   "last_seen": "2026-11-14T14:28:37+00:00"
   },
   {
    "id": "d079c76c7b34",
@@ -426,7 +1838,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-08T11:59:21+00:00",
-   "last_seen": "2026-11-14T12:15:17+00:00"
+   "last_seen": "2026-11-14T14:31:38+00:00"
   },
   {
    "id": "61ec4b73a44f",
@@ -457,7 +1869,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-08T11:59:14+00:00",
-   "last_seen": "2026-11-14T12:15:16+00:00"
+   "last_seen": "2026-11-14T14:29:19+00:00"
   },
   {
    "id": "639d2da3906d",
@@ -472,7 +1884,7 @@
    "junior": true,
    "published": "2026-11-07T18:04:08+00:00",
    "seed": false,
-   "rv": 3,
+   "rv": 4,
    "match": {
     "score": 67,
     "have": [
@@ -488,7 +1900,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-07T18:04:52+00:00",
-   "last_seen": "2026-11-14T12:15:16+00:00"
+   "last_seen": "2026-11-14T14:28:15+00:00"
   },
   {
    "id": "48046863c049",
@@ -532,11 +1944,11 @@
    "junior": true,
    "published": "2026-11-06T15:20:33+00:00",
    "seed": false,
-   "rv": 3,
+   "rv": 4,
    "match": null,
    "salary": null,
    "first_seen": "2026-11-06T20:08:02+00:00",
-   "last_seen": "2026-11-14T12:15:16+00:00"
+   "last_seen": "2026-11-14T14:28:21+00:00"
   },
   {
    "id": "a1d12399bc82",
@@ -587,11 +1999,11 @@
    "junior": true,
    "published": "2026-11-04T19:10:03+00:00",
    "seed": false,
-   "rv": 3,
+   "rv": 4,
    "match": null,
    "salary": null,
    "first_seen": "2026-11-04T20:27:58+00:00",
-   "last_seen": "2026-11-14T12:15:16+00:00"
+   "last_seen": "2026-11-14T14:28:52+00:00"
   },
   {
    "id": "662fe17d13db",
@@ -626,7 +2038,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-04T13:03:01+00:00",
-   "last_seen": "2026-11-14T12:15:16+00:00"
+   "last_seen": "2026-11-14T14:29:19+00:00"
   },
   {
    "id": "3e8b11566957",
@@ -654,7 +2066,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-04T01:27:47+00:00",
-   "last_seen": "2026-11-14T12:15:17+00:00"
+   "last_seen": "2026-11-14T14:31:38+00:00"
   },
   {
    "id": "5e632dcdb087",
@@ -706,7 +2118,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-04T01:27:05+00:00",
-   "last_seen": "2026-11-14T12:15:16+00:00"
+   "last_seen": "2026-11-14T14:29:19+00:00"
   },
   {
    "id": "c00574f07f37",
@@ -733,7 +2145,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-04T01:27:01+00:00",
-   "last_seen": "2026-11-14T12:15:17+00:00"
+   "last_seen": "2026-11-14T14:31:38+00:00"
   },
   {
    "id": "4d46820a66f9",
@@ -802,7 +2214,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-03T20:09:36+00:00",
-   "last_seen": "2026-11-14T12:15:16+00:00"
+   "last_seen": "2026-11-14T14:31:38+00:00"
   },
   {
    "id": "cfde4d2885d3",
@@ -913,7 +2325,7 @@
    "junior": true,
    "published": "2026-11-03T00:05:34+00:00",
    "seed": false,
-   "rv": 3,
+   "rv": 4,
    "match": {
     "score": 100,
     "have": [
@@ -925,7 +2337,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-02T23:08:39+00:00",
-   "last_seen": "2026-11-14T12:15:16+00:00"
+   "last_seen": "2026-11-14T14:28:35+00:00"
   },
   {
    "id": "6ef140bf654c",
@@ -1011,7 +2423,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-02T09:34:25+00:00",
-   "last_seen": "2026-11-14T12:15:16+00:00"
+   "last_seen": "2026-11-14T14:29:19+00:00"
   },
   {
    "id": "2ea455ff9bbe",
@@ -1199,7 +2611,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-01T21:49:06+00:00",
-   "last_seen": "2026-11-14T12:15:17+00:00"
+   "last_seen": "2026-11-14T14:31:38+00:00"
   },
   {
    "id": "a5a963f97fd8",
@@ -1254,7 +2666,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-01T21:48:36+00:00",
-   "last_seen": "2026-11-14T12:15:16+00:00"
+   "last_seen": "2026-11-14T14:31:38+00:00"
   },
   {
    "id": "30db7fd81f59",
@@ -1360,7 +2772,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-01T21:48:03+00:00",
-   "last_seen": "2026-11-14T12:15:16+00:00"
+   "last_seen": "2026-11-14T14:31:38+00:00"
   },
   {
    "id": "e2063676fdc9",
@@ -1431,7 +2843,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-01T21:47:23+00:00",
-   "last_seen": "2026-11-14T12:15:16+00:00"
+   "last_seen": "2026-11-14T14:31:38+00:00"
   },
   {
    "id": "c9ff7918479e",
@@ -1502,7 +2914,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-01T21:46:50+00:00",
-   "last_seen": "2026-11-14T12:15:16+00:00"
+   "last_seen": "2026-11-14T14:31:38+00:00"
   },
   {
    "id": "0cd6c2c7cff6",
@@ -1822,7 +3234,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:04:28+00:00",
-   "last_seen": "2026-11-14T12:15:16+00:00"
+   "last_seen": "2026-11-14T14:29:19+00:00"
   },
   {
    "id": "bbf4bae9d59c",
@@ -1878,36 +3290,6 @@
    "salary": null,
    "first_seen": "2026-10-30T19:04:21+00:00",
    "last_seen": "2026-11-06T20:08:18+00:00"
-  },
-  {
-   "id": "f096901aa5eb",
-   "company": "Safran",
-   "title": "Export Control Analyst H/F Safran",
-   "url": "https://www.hellowork.com/fr-fr/emplois/80868859.html",
-   "via": "HelloWork",
-   "zone": "Île-de-France",
-   "country": "France",
-   "contract": "CDI",
-   "experience": "junior / débutant",
-   "junior": true,
-   "published": "2026-10-01T09:45:16+00:00",
-   "seed": true,
-   "rv": 3,
-   "match": {
-    "score": 80,
-    "have": [
-     "excel",
-     "reporting",
-     "kpi",
-     "pilotage"
-    ],
-    "missing": [
-     "sap"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-10-30T19:04:18+00:00",
-   "last_seen": "2026-11-14T12:15:16+00:00"
   },
   {
    "id": "40d90c8a1f93",
@@ -2079,7 +3461,7 @@
    "junior": false,
    "published": "2026-10-12T16:23:27+00:00",
    "seed": true,
-   "rv": 3,
+   "rv": 4,
    "match": {
     "score": 75,
     "have": [
@@ -2093,7 +3475,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:02:42+00:00",
-   "last_seen": "2026-11-14T12:15:16+00:00"
+   "last_seen": "2026-11-14T14:29:08+00:00"
   },
   {
    "id": "21a5bbbf5ece",
@@ -2125,7 +3507,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:02:26+00:00",
-   "last_seen": "2026-11-14T12:15:16+00:00"
+   "last_seen": "2026-11-14T14:29:19+00:00"
   },
   {
    "id": "5b3881dadaac",
@@ -2144,7 +3526,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-30T19:02:19+00:00",
-   "last_seen": "2026-11-14T12:15:16+00:00"
+   "last_seen": "2026-11-14T14:29:19+00:00"
   },
   {
    "id": "73160bd26650",
@@ -2287,11 +3669,11 @@
    "junior": true,
    "published": "2026-10-12T00:08:01+00:00",
    "seed": true,
-   "rv": 3,
+   "rv": 4,
    "match": null,
    "salary": null,
    "first_seen": "2026-10-30T19:01:03+00:00",
-   "last_seen": "2026-11-14T12:15:16+00:00"
+   "last_seen": "2026-11-14T14:28:18+00:00"
   },
   {
    "id": "39c382d9b83c",
@@ -2325,7 +3707,7 @@
    "junior": true,
    "published": "2026-10-14T18:18:59+00:00",
    "seed": true,
-   "rv": 3,
+   "rv": 4,
    "match": {
     "score": 67,
     "have": [
@@ -2338,7 +3720,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:00:40+00:00",
-   "last_seen": "2026-11-14T12:15:16+00:00"
+   "last_seen": "2026-11-14T14:28:20+00:00"
   },
   {
    "id": "94b13a3e9bc5",

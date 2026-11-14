@@ -1,6 +1,1854 @@
 {
- "updated": "2026-11-14T12:15:18+00:00",
+ "updated": "2026-11-14T14:38:43+00:00",
  "items": [
+  {
+   "id": "3ffbce2a04c6",
+   "company": "StepStone Belgique",
+   "title": "Data Engineer (m/f/d)",
+   "url": "https://www.stepstone.be/offres-d-emploi--Data-Engineer-m-f-d-Berlin-Flink-BVBA--2253970-inline.html",
+   "reason": "expérience demandée ≥ 3 ans « the data platform self-serve qualifications 3+ years of experience in a data »",
+   "at": "2026-11-14T14:38:43+00:00"
+  },
+  {
+   "id": "2cbe223407d8",
+   "company": "StepStone Belgique",
+   "title": "Senior Data Scientist - ML Engineer",
+   "url": "https://www.stepstone.be/offres-d-emploi--Senior-Data-Scientist-ML-Engineer-Machelen-Devoteam--2135179-inline.html",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:38:43+00:00"
+  },
+  {
+   "id": "7037f4722ef2",
+   "company": "StepStone Belgique",
+   "title": "Data Scientist Engineer",
+   "url": "https://www.stepstone.be/offres-d-emploi--Data-Scientist-Engineer-Machelen-Devoteam--2136203-inline.html",
+   "reason": "expérience demandée ≥ 3 ans « master's in machine learning or ai. minimum 3 years experience in a similar »",
+   "at": "2026-11-14T14:38:41+00:00"
+  },
+  {
+   "id": "940ef9d42630",
+   "company": "StepStone Belgique",
+   "title": "Google Senior Data Engineer",
+   "url": "https://www.stepstone.be/offres-d-emploi--Google-Senior-Data-Engineer-Machelen-Devoteam--2190922-inline.html",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:38:41+00:00"
+  },
+  {
+   "id": "f5938d367d7a",
+   "company": "StepStone Belgique",
+   "title": "Data, AI and Cloud Strategist",
+   "url": "https://www.stepstone.be/offres-d-emploi--Data-AI-and-Cloud-Strategist-Machelen-Devoteam--2250274-inline.html",
+   "reason": "expérience demandée ≥ 8 ans « is a plus. professional background: minimum 8 years of experience in managem »",
+   "at": "2026-11-14T14:38:39+00:00"
+  },
+  {
+   "id": "c4454694f1c5",
+   "company": "StepStone Belgique",
+   "title": "AWS AI Engineer",
+   "url": "https://www.stepstone.be/offres-d-emploi--AWS-AI-Engineer-Machelen-Devoteam--2227102-inline.html",
+   "reason": "expérience demandée ≥ 4 ans « d field, or equivalent practical experience. 4+ years of experience working wi »",
+   "at": "2026-11-14T14:38:38+00:00"
+  },
+  {
+   "id": "49b56ddbbe42",
+   "company": "StepStone Belgique",
+   "title": "Copilot & AI Solution Engineer Intern",
+   "url": "https://www.stepstone.be/offres-d-emploi--Copilot-AI-Solution-Engineer-Intern-Belgium-Brussels-Region-Brussels-Microsoft--2243509-inline.html",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-14T14:38:37+00:00"
+  },
+  {
+   "id": "923edf92c7f5",
+   "company": "StepStone Belgique",
+   "title": "Internship - Digitalization & AI for Wiper Blade Testing",
+   "url": "https://www.stepstone.be/offres-d-emploi--Internship-Digitalization-AI-for-Wiper-Blade-Testing-Tienen-Robert-Bosch-NV-SA--2254835-inline.html",
+   "reason": "titre exclu (internship)",
+   "at": "2026-11-14T14:38:37+00:00"
+  },
+  {
+   "id": "8049981df86c",
+   "company": "StepStone Belgique",
+   "title": "Business Analyst",
+   "url": "https://www.stepstone.be/offres-d-emploi--Business-Analyst-Zaventem-SQLI--2253403-inline.html",
+   "reason": "expérience demandée ≥ 5 ans « ted for an experienced business analyst with 5-7 years of experience who wants »",
+   "at": "2026-11-14T14:38:35+00:00"
+  },
+  {
+   "id": "ca3c477a76a8",
+   "company": "StepStone Belgique",
+   "title": "SAP S4HANA Functional Analyst & Developer l Belgium",
+   "url": "https://www.stepstone.be/offres-d-emploi--SAP-S4HANA-Functional-Analyst-Developer-l-Belgium-Brussels-Talan-Belgium--2213761-inline.html",
+   "reason": "expérience demandée ≥ 4 ans « ms, computer science, or a related field. 3+ years of experience in sap s/4hana functional analysis and develo »",
+   "at": "2026-11-14T14:38:31+00:00"
+  },
+  {
+   "id": "5383fb334fd7",
+   "company": "StepStone Belgique",
+   "title": "Senior SOC Analyst",
+   "url": "https://www.stepstone.be/offres-d-emploi--Senior-SOC-Analyst-Ghent-Easi-SA--2252501-inline.html",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:38:31+00:00"
+  },
+  {
+   "id": "f0a28b63beff",
+   "company": "StepStone Belgique",
+   "title": "Senior SOC Analyst",
+   "url": "https://www.stepstone.be/offres-d-emploi--Senior-SOC-Analyst-Leuven-Easi-SA--2252494-inline.html",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:38:31+00:00"
+  },
+  {
+   "id": "f575682acc4c",
+   "company": "StepStone Belgique",
+   "title": "D365 CRM & Sales Business Analyst",
+   "url": "https://www.stepstone.be/offres-d-emploi--D365-CRM-Sales-Business-Analyst-Liege-Schreder-NV--2238739-inline.html",
+   "reason": "expérience demandée ≥ 8 ans « iness processes in industrial environment (> 8 years of experience) certifica »",
+   "at": "2026-11-14T14:38:24+00:00"
+  },
+  {
+   "id": "4dde33d167e8",
+   "company": "StepStone Belgique",
+   "title": "Senior Process Analyst - BPM",
+   "url": "https://www.stepstone.be/offres-d-emploi--Senior-Process-Analyst-BPM-MECHELEN-Telenet-Bvba--2252508-inline.html",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:38:21+00:00"
+  },
+  {
+   "id": "9312a8b39e86",
+   "company": "StepStone Belgique",
+   "title": "Performance Analyst - V.I.E Programme",
+   "url": "https://www.stepstone.be/offres-d-emploi--Performance-Analyst-V-I-E-Programme-Brussels-Eurofins-Belgium-NV--2233991-inline.html",
+   "reason": "titre exclu (VIE)",
+   "at": "2026-11-14T14:38:21+00:00"
+  },
+  {
+   "id": "3c96ae690a82",
+   "company": "StepStone Belgique",
+   "title": "Senior ERP Application Analyst",
+   "url": "https://www.stepstone.be/offres-d-emploi--Senior-ERP-Application-Analyst-Ieper-Picanol-Group--2254786-inline.html",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:38:20+00:00"
+  },
+  {
+   "id": "dc0c0578e3c2",
+   "company": "StepStone Belgique",
+   "title": "Regional Distribution Centres (RDC) Coordinator & Logistics Analyst",
+   "url": "https://www.stepstone.be/offres-d-emploi--Regional-Distribution-Centres-RDC-Coordinator-Logistics-Analyst-Willebroek-Mazda-Motor-Logistics-Europe--2253396-inline.html",
+   "reason": "expérience demandée ≥ 3 ans « levant experience, or bachelor's degree with 3-7 years of relevant experience. »",
+   "at": "2026-11-14T14:38:14+00:00"
+  },
+  {
+   "id": "a2c953578526",
+   "company": "StepStone Belgique",
+   "title": "Senior Treasury Analyst",
+   "url": "https://www.stepstone.be/offres-d-emploi--Senior-Treasury-Analyst-Brussels-Robert-Walters--2238675-inline.html",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:38:14+00:00"
+  },
+  {
+   "id": "624a39b0b101",
+   "company": "StepStone Belgique",
+   "title": "Functional Analyst - Pensions & Avantages sociaux",
+   "url": "https://www.stepstone.be/offres-d-emploi--Functional-Analyst-Pensions-Avantages-sociaux-Brussels-Sander-Brussels--2253769-inline.html",
+   "reason": "expérience demandée ≥ 5 ans « ives, ingenieur civil ou equivalent. environ 5 annees d'experience en analyse »",
+   "at": "2026-11-14T14:38:07+00:00"
+  },
+  {
+   "id": "4cb482cb5944",
+   "company": "StepStone Belgique",
+   "title": "Senior Cybersecurity Analyst",
+   "url": "https://www.stepstone.be/offres-d-emploi--Senior-Cybersecurity-Analyst-Brussel-Smals--2252220-inline.html",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:38:07+00:00"
+  },
+  {
+   "id": "be14d0e51b16",
+   "company": "StepStone Belgique",
+   "title": "Senior Functional Analyst",
+   "url": "https://www.stepstone.be/offres-d-emploi--Senior-Functional-Analyst-Brussel-Smals--2251930-inline.html",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:38:07+00:00"
+  },
+  {
+   "id": "738aab26affb",
+   "company": "StepStone Belgique",
+   "title": "Strategic Business Developer Datacenter Solutions",
+   "url": "https://www.stepstone.be/offres-d-emploi--Strategic-Business-Developer-Datacenter-Solutions-Asse-Rexel-Belgium--2243608-inline.html",
+   "reason": "titre exclu (datacenter)",
+   "at": "2026-11-14T14:37:57+00:00"
+  },
+  {
+   "id": "8df833623b88",
+   "company": "StepStone Belgique",
+   "title": "Data & AI governance expert",
+   "url": "https://www.stepstone.be/offres-d-emploi--Data-AI-governance-expert-MECHELEN-Telenet-Bvba--2252667-inline.html",
+   "reason": "titre exclu (expert)",
+   "at": "2026-11-14T14:37:57+00:00"
+  },
+  {
+   "id": "7958e8e52f9d",
+   "company": "StepStone Belgique",
+   "title": "Data Product Manager",
+   "url": "https://www.stepstone.be/offres-d-emploi--Data-Product-Manager-MECHELEN-Telenet-Bvba--2252522-inline.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-14T14:37:57+00:00"
+  },
+  {
+   "id": "e9d0672c8fb7",
+   "company": "StepStone Belgique",
+   "title": "Datacenter Infrastructuur Engineer",
+   "url": "https://www.stepstone.be/offres-d-emploi--Datacenter-Infrastructuur-Engineer-MECHELEN-Telenet-Bvba--2252992-inline.html",
+   "reason": "titre exclu (datacenter)",
+   "at": "2026-11-14T14:37:47+00:00"
+  },
+  {
+   "id": "a74210f559c0",
+   "company": "StepStone Belgique",
+   "title": "Assistant Category Manager & Master Data",
+   "url": "https://www.stepstone.be/offres-d-emploi--Assistant-Category-Manager-Master-Data-ANTWERPEN-BMB-Bouwmaterialen--2237901-inline.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-14T14:37:46+00:00"
+  },
+  {
+   "id": "7621d640dbf4",
+   "company": "StepStone Belgique",
+   "title": "Strategic Business Developer Datacenter Solutions",
+   "url": "https://www.stepstone.be/offres-d-emploi--Strategic-Business-Developer-Datacenter-Solutions-ORCQ-Rexel-Belgium--2244248-inline.html",
+   "reason": "titre exclu (datacenter)",
+   "at": "2026-11-14T14:37:46+00:00"
+  },
+  {
+   "id": "6ffd2e968f16",
+   "company": "StepStone Belgique",
+   "title": "Business Analyst - Modèles quantitatifs & moteurs de calcul",
+   "url": "https://www.stepstone.be/offres-d-emploi--Business-Analyst-Modeles-quantitatifs-moteurs-de-calcul-Brussels-Sander-Brussels--2253521-inline.html",
+   "reason": "expérience demandée ≥ 5 ans « agage ne pourront pas etre retenues. environ 5 annees d'experience en analyse »",
+   "at": "2026-11-14T14:37:41+00:00"
+  },
+  {
+   "id": "d6541fbd1993",
+   "company": "StepStone Belgique",
+   "title": "Team Leader Databases",
+   "url": "https://www.stepstone.be/offres-d-emploi--Team-Leader-Databases-Bruxelles-Smals--2253338-inline.html",
+   "reason": "titre exclu (leader)",
+   "at": "2026-11-14T14:37:41+00:00"
+  },
+  {
+   "id": "fe350a0e71d6",
+   "company": "StepStone Belgique",
+   "title": "Partner Solution Architect - Data - Belgium Market",
+   "url": "https://www.stepstone.be/offres-d-emploi--Partner-Solution-Architect-Data-Belgium-Market-Belgium-Multiple-Locations-Multiple-Locations-Microsoft--2254371-inline.html",
+   "reason": "titre exclu (architect)",
+   "at": "2026-11-14T14:37:38+00:00"
+  },
+  {
+   "id": "c973f1ce2de3",
+   "company": "StepStone Belgique",
+   "title": "Datacenter Operator 24/7",
+   "url": "https://www.stepstone.be/offres-d-emploi--Datacenter-Operator-24-7-Evere-Monitor-HR-Consulting--2254114-inline.html",
+   "reason": "titre exclu (datacenter)",
+   "at": "2026-11-14T14:37:37+00:00"
+  },
+  {
+   "id": "536bd3c2995d",
+   "company": "StepStone Belgique",
+   "title": "Datacenter Operator",
+   "url": "https://www.stepstone.be/offres-d-emploi--Datacenter-Operator-Antwerpen-Monitor-HR-Consulting--2253546-inline.html",
+   "reason": "titre exclu (datacenter)",
+   "at": "2026-11-14T14:37:37+00:00"
+  },
+  {
+   "id": "978f0f73a3a3",
+   "company": "StepStone Belgique",
+   "title": "Datacenter Operator",
+   "url": "https://www.stepstone.be/offres-d-emploi--Datacenter-Operator-Oostkamp-Monitor-HR-Consulting--2253548-inline.html",
+   "reason": "titre exclu (datacenter)",
+   "at": "2026-11-14T14:37:37+00:00"
+  },
+  {
+   "id": "4767be2707fe",
+   "company": "StepStone Belgique",
+   "title": "Team Lead Datawarehouse & BI",
+   "url": "https://www.stepstone.be/offres-d-emploi--Team-Lead-Datawarehouse-BI-Brussel-Smals--2254921-inline.html",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-14T14:37:33+00:00"
+  },
+  {
+   "id": "b001815c3948",
+   "company": "StepStone Belgique",
+   "title": "Program Manager Data",
+   "url": "https://www.stepstone.be/offres-d-emploi--Program-Manager-Data-Brussel-Smals--2253336-inline.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-14T14:37:32+00:00"
+  },
+  {
+   "id": "1c71a87c1102",
+   "company": "StepStone Belgique",
+   "title": "Data Quality Expert",
+   "url": "https://www.stepstone.be/offres-d-emploi--Data-Quality-Expert-Brussel-Smals--2253811-inline.html",
+   "reason": "titre exclu (expert)",
+   "at": "2026-11-14T14:37:32+00:00"
+  },
+  {
+   "id": "7780181a6bbb",
+   "company": "StepStone Belgique",
+   "title": "Data & Integration Architect",
+   "url": "https://www.stepstone.be/offres-d-emploi--Data-Integration-Architect-Brussel-Smals--2252216-inline.html",
+   "reason": "titre exclu (architect)",
+   "at": "2026-11-14T14:37:32+00:00"
+  },
+  {
+   "id": "8e22f6cbfb82",
+   "company": "StepStone Belgique",
+   "title": "Data Architect",
+   "url": "https://www.stepstone.be/offres-d-emploi--Data-Architect-Bruxelles-Smals--2252172-inline.html",
+   "reason": "titre exclu (architect)",
+   "at": "2026-11-14T14:37:32+00:00"
+  },
+  {
+   "id": "8954fadc6671",
+   "company": "StepStone Belgique",
+   "title": "Data & Martech Platform Product Manager & Team Lead",
+   "url": "https://www.stepstone.be/offres-d-emploi--Data-Martech-Platform-Product-Manager-Team-Lead-Brussel-Nationale-Loterij--2254827-inline.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-14T14:37:32+00:00"
+  },
+  {
+   "id": "12693ce11ff2",
+   "company": "jobup.ch",
+   "title": "Gestionnaire des prestations AVS-AI (80-100%) à Montreux ou à Berne/ Sachbearbeiter/in für AHV/IV Leistungen (80-100%) in Montreux oder in Bern",
+   "url": "https://www.jobup.ch/fr/emplois/detail/3bbd339d-9ed5-4ab1-8346-6008661822d2/",
+   "reason": "annonce en allemand (titre)",
+   "at": "2026-11-14T14:35:37+00:00"
+  },
+  {
+   "id": "4aec3de12a50",
+   "company": "jobup.ch",
+   "title": "Stagiaire Développement d’Agents IA (Business Development)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/f5bce737-469a-4f9a-bf04-5b8b8aed6a5e/",
+   "reason": "titre exclu (stagiaire)",
+   "at": "2026-11-14T14:35:36+00:00"
+  },
+  {
+   "id": "5e7701480f08",
+   "company": "jobup.ch",
+   "title": "Stage en conseil CTO Advisory – Coder avec l’IA, nouvelles frontières du développement pour les entreprises",
+   "url": "https://www.jobup.ch/fr/emplois/detail/341e6103-5a08-461b-aa88-c2953970c417/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-14T14:35:36+00:00"
+  },
+  {
+   "id": "5d1839b6f521",
+   "company": "jobup.ch",
+   "title": "Senior Consultant – Cloud, AI & IT Transformation (H/F) Genève, Suisse",
+   "url": "https://www.jobup.ch/fr/emplois/detail/c33727f8-a978-4ade-9e58-08b9d6502bd9/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:35:36+00:00"
+  },
+  {
+   "id": "57be6fc28fcc",
+   "company": "jobup.ch",
+   "title": "Consultant Lead - Software & Quality Engineering (AI-Powered) - AI-SDLC",
+   "url": "https://www.jobup.ch/fr/emplois/detail/48757263-d239-4c93-80f9-ce91e064d55c/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-14T14:35:36+00:00"
+  },
+  {
+   "id": "5d3681ed8834",
+   "company": "jobup.ch",
+   "title": "AI Software Engineer (w/m/d) 80-100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/37e4fb53-6c12-4d42-ae0e-eb961171c577/",
+   "reason": "expérience demandée ≥ 5 ans « uire les problemes en solutions. competences 5 ans d'experience en ingenier »",
+   "at": "2026-11-14T14:35:32+00:00"
+  },
+  {
+   "id": "d6d5b3fc0875",
+   "company": "jobup.ch",
+   "title": "Business Process Consultant Data Science (w/m/d) – AI & SAP Retail Intelligence",
+   "url": "https://www.jobup.ch/fr/emplois/detail/e1800aa7-d079-4bb7-9bc7-555af8f77d2c/",
+   "reason": "annonce en allemand (titre)",
+   "at": "2026-11-14T14:35:31+00:00"
+  },
+  {
+   "id": "6bbc04257261",
+   "company": "jobup.ch",
+   "title": "Consultant AI, Data & Automation 80-100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/bbb63e06-e7dc-4733-b774-30abdbdf09c7/",
+   "reason": "allemand exigé « a, ai et automatisation. maitrise de l'allemand et bonnes connaissa »",
+   "at": "2026-11-14T14:35:29+00:00"
+  },
+  {
+   "id": "db231350d042",
+   "company": "jobup.ch",
+   "title": "Platform Engineer AI (w/m/d) 80-100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/8f3d1741-fcf0-4248-a1bb-c2de2cf05b71/",
+   "reason": "expérience demandée ≥ 3 ans « n solutions productives vos points forts une experience de plusieurs annees dans le digital workplac »",
+   "at": "2026-11-14T14:35:28+00:00"
+  },
+  {
+   "id": "cdeca92ec50a",
+   "company": "jobup.ch",
+   "title": "Scientist in AI-Driven Power Electronics (f/m/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/94e2da38-11dc-46d3-9b35-06572e34a93f/",
+   "reason": "expérience demandée ≥ 3 ans « ar ia nous recherchons un chercheur avec une solide experience en methodes computationn »",
+   "at": "2026-11-14T14:35:27+00:00"
+  },
+  {
+   "id": "b99566a25339",
+   "company": "jobup.ch",
+   "title": "PhD Position “AI use in Strategic Forecasting and Organizational Change” (m/f/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/6a91b602-3753-4670-84c9-0fce5520f783/",
+   "reason": "titre exclu (phd)",
+   "at": "2026-11-14T14:35:27+00:00"
+  },
+  {
+   "id": "587d6a4e13fe",
+   "company": "jobup.ch",
+   "title": "Manager - Technology Consulting - AI & Data (80-100%)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/1dbea4d7-4650-4e75-aae6-186c7f57ddee/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-14T14:35:27+00:00"
+  },
+  {
+   "id": "b2b736c0f73e",
+   "company": "jobup.ch",
+   "title": "(Senior) Consultant - Technology Consulting - AI & Data",
+   "url": "https://www.jobup.ch/fr/emplois/detail/6a943e94-d5ce-4c36-85c6-14e81c5e5753/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:35:27+00:00"
+  },
+  {
+   "id": "ee29d5147de0",
+   "company": "jobup.ch",
+   "title": "PhD Position in Quantitative Marketing and AI (m/f/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/48bc34fd-e6b1-4cde-9059-b6e2091dbaea/",
+   "reason": "titre exclu (phd)",
+   "at": "2026-11-14T14:35:27+00:00"
+  },
+  {
+   "id": "40a99595ca6a",
+   "company": "jobup.ch",
+   "title": "Postdoctoral Researcher in Conversational AI and LLMs (m/w/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/a9bf74fd-090d-488c-bc2b-5c72308b0451/",
+   "reason": "annonce en allemand (titre)",
+   "at": "2026-11-14T14:35:25+00:00"
+  },
+  {
+   "id": "07416c7f9136",
+   "company": "jobup.ch",
+   "title": "Postdoctoral Researcher in NLP and Human-Centered AI (m/w/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/d6fb6b71-2ab3-412d-aac0-bb5d74004975/",
+   "reason": "annonce en allemand (titre)",
+   "at": "2026-11-14T14:35:24+00:00"
+  },
+  {
+   "id": "c56ce7062b9e",
+   "company": "jobup.ch",
+   "title": "Scientific AI Platform Lead, Data Science, Disease Area X",
+   "url": "https://www.jobup.ch/fr/emplois/detail/6d4ac19e-34db-4863-9363-5f10becb3735/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-14T14:35:24+00:00"
+  },
+  {
+   "id": "57fd89955dc8",
+   "company": "jobup.ch",
+   "title": "Lead Data & AI Architect",
+   "url": "https://www.jobup.ch/fr/emplois/detail/3bf7dc0d-3103-492a-a867-5086572a3843/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-14T14:35:24+00:00"
+  },
+  {
+   "id": "03b40505d951",
+   "company": "jobup.ch",
+   "title": "AI Researcher - Post-Training",
+   "url": "https://www.jobup.ch/fr/emplois/detail/6e8ad2e6-ce6f-4557-93f7-16f9dfe6bc46/",
+   "reason": "expérience demandée ≥ 5 ans « automatique ou domaine quantitatif connexe. plus de 4 ans d'experience en industri »",
+   "at": "2026-11-14T14:35:22+00:00"
+  },
+  {
+   "id": "3d5b4689d72a",
+   "company": "jobup.ch",
+   "title": "AI Systems Engineer",
+   "url": "https://www.jobup.ch/fr/emplois/detail/78716fe1-46fa-407b-bbf4-1c8f05d83772/",
+   "reason": "expérience demandée ≥ 5 ans « ed. atlassian platform expertise (required): 5+ years hands-on administration »",
+   "at": "2026-11-14T14:35:20+00:00"
+  },
+  {
+   "id": "295ab93836af",
+   "company": "jobup.ch",
+   "title": "AI Engineering Consultant (Zurich, Switzerland)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/e967e831-76fb-4960-bf7c-4f179fff9afc/",
+   "reason": "expérience demandée ≥ 4 ans « igatoire) ; l'allemand est fortement prefere plus de 3 ans d'experience averee en i »",
+   "at": "2026-11-14T14:35:19+00:00"
+  },
+  {
+   "id": "1e1648a8fa0c",
+   "company": "jobup.ch",
+   "title": "AI Senior Lead Engineer",
+   "url": "https://www.jobup.ch/fr/emplois/detail/ac429c23-c7a4-4518-b846-52bb4e34913c/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:35:18+00:00"
+  },
+  {
+   "id": "5ae0c7dee86b",
+   "company": "jobup.ch",
+   "title": "Communications Officer at EPFL AI Center (80%)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/5092bd84-1b35-49b4-adca-8b89f7069132/",
+   "reason": "expérience demandée ≥ 5 ans « et les evenements associes profil • au moins 5 ans d'experience professionn »",
+   "at": "2026-11-14T14:35:14+00:00"
+  },
+  {
+   "id": "49ae6b3f3290",
+   "company": "jobup.ch",
+   "title": "AI Engineer Intern",
+   "url": "https://www.jobup.ch/fr/emplois/detail/e9c187ab-e137-4269-8189-655e75fbd77d/",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-14T14:35:13+00:00"
+  },
+  {
+   "id": "fef64422fcaa",
+   "company": "jobup.ch",
+   "title": "Partnership Development Manager - EPFL AI Center (80% - 100%)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/42f51edb-6dbf-4d6d-8c31-5de401a37166/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-14T14:35:13+00:00"
+  },
+  {
+   "id": "0d0fb572e30d",
+   "company": "jobup.ch",
+   "title": "Product Designer - Digital Platforms (Real Estate, CRM & AI) (f/m/d) | 80–100% | Hybrid Working Model | Zürich, Switzerland",
+   "url": "https://www.jobup.ch/fr/emplois/detail/f7b7c469-9665-49e4-b331-e8d21fcff9ff/",
+   "reason": "expérience demandée ≥ 6 ans « et l'efficacite de l'equipe. qualifications plus de 5 ans d'experience en tant que »",
+   "at": "2026-11-14T14:35:11+00:00"
+  },
+  {
+   "id": "3861000ba08b",
+   "company": "jobup.ch",
+   "title": "Un-e Laborantin-e et analyste de polluants et matériaux (CDD remplacement congé maternité)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/455a44de-3795-43b2-885e-bba5df8afb91/",
+   "reason": "expérience demandée ≥ 3 ans « aboratoire ; ou cfc de laborantin-e avec une experience confirmee dans le domaine des anal »",
+   "at": "2026-11-14T14:35:08+00:00"
+  },
+  {
+   "id": "99c8d98b70f2",
+   "company": "jobup.ch",
+   "title": "Analyste respect CCT / Gestionnaire – H/F à 100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/a037d0f5-d054-4303-9298-8945de9763d0/",
+   "reason": "expérience demandée ≥ 5 ans « ormation superieure ou experience de minimum 5 ans dans un domaine similair »",
+   "at": "2026-11-14T14:35:07+00:00"
+  },
+  {
+   "id": "bfc449a7ece7",
+   "company": "jobup.ch",
+   "title": "Comptable Analyste",
+   "url": "https://www.jobup.ch/fr/emplois/detail/9bba3110-4ce8-4185-8e13-f2ca0e4e10ff/",
+   "reason": "expérience demandée ≥ 8 ans « es et financiers ; nous cherchons: - environ 8/10 ans d'experience en comptabi »",
+   "at": "2026-11-14T14:35:04+00:00"
+  },
+  {
+   "id": "15a600fdb07f",
+   "company": "jobup.ch",
+   "title": "Analyste Controlling",
+   "url": "https://www.jobup.ch/fr/emplois/detail/fa3f1e58-2a65-40dd-86c3-dc99ffdda2c2/",
+   "reason": "expérience demandée ≥ 3 ans « nance, economie, gestion), vous justifiez de 3 a 5 ans d'experience en controle »",
+   "at": "2026-11-14T14:35:03+00:00"
+  },
+  {
+   "id": "93a1330d2187",
+   "company": "jobup.ch",
+   "title": "Pricing analyst [maternity cover]",
+   "url": "https://www.jobup.ch/fr/emplois/detail/5a04762b-50c0-414f-aae0-bcdab3f5ac06/",
+   "reason": "expérience demandée ≥ 3 ans « olides avec les clients. competences minimum 3 ans d'experience en finance »",
+   "at": "2026-11-14T14:35:01+00:00"
+  },
+  {
+   "id": "8f4154ed2de0",
+   "company": "jobup.ch",
+   "title": "Senior Business Analyst – Pricing & Modelling",
+   "url": "https://www.jobup.ch/fr/emplois/detail/f50ea194-d31e-4e39-b1d6-7b56df3cdf74/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:35:01+00:00"
+  },
+  {
+   "id": "edc5d66d2100",
+   "company": "jobup.ch",
+   "title": "Business Analyst Prozesse Privatkundschaft",
+   "url": "https://www.jobup.ch/fr/emplois/detail/744f8601-2769-40a7-9509-f1b2e45d992a/",
+   "reason": "expérience demandée ≥ 3 ans « uart, soit a winterthur ce que vous apportez plusieurs annees d'experience professionnelle dans le »",
+   "at": "2026-11-14T14:34:59+00:00"
+  },
+  {
+   "id": "d3c98e656c30",
+   "company": "jobup.ch",
+   "title": "Senior Business Analyst - Value Stream Anlegen",
+   "url": "https://www.jobup.ch/fr/emplois/detail/d99cd5b1-4483-4c16-9363-ba8452e0f6b3/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:34:59+00:00"
+  },
+  {
+   "id": "95e0604b1b72",
+   "company": "jobup.ch",
+   "title": "IT Business Analyst (m/w/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/54874e72-7fd8-4e56-932b-90202c70cb77/",
+   "reason": "expérience demandée ≥ 3 ans « ique (economique) (eth/uni/fh) ou equivalent plusieurs annees d'experience en tant qu' analyste d'a »",
+   "at": "2026-11-14T14:34:58+00:00"
+  },
+  {
+   "id": "d2b45d5b2471",
+   "company": "jobup.ch",
+   "title": "Business Analyst/in 80 - 100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/fdf04acc-3b7c-4efa-aecb-7f3bda91cbf1/",
+   "reason": "expérience demandée ≥ 3 ans « e transformation. profil vous disposez d'une experience averee en tant qu'analyste d'af »",
+   "at": "2026-11-14T14:34:57+00:00"
+  },
+  {
+   "id": "338648b7a79a",
+   "company": "jobup.ch",
+   "title": "Business Systems Analyst (m/f/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/ef3ffb98-f59f-4994-b706-26923ea63802/",
+   "reason": "expérience demandée ≥ 5 ans « mpetences diplome en it ou en affaires, avec 5 ans d'experience. solides co »",
+   "at": "2026-11-14T14:34:55+00:00"
+  },
+  {
+   "id": "4959d2a942c6",
+   "company": "jobup.ch",
+   "title": "Market Risk Analyst - Commodity Trading House",
+   "url": "https://www.jobup.ch/fr/emplois/detail/14c827e3-41f6-40f9-8d7b-21d3b5208266/",
+   "reason": "expérience demandée ≥ 3 ans « atique de python et sql , de preference avec plus de 2 ans d'experience pratique en »",
+   "at": "2026-11-14T14:34:53+00:00"
+  },
+  {
+   "id": "a545436fe7b1",
+   "company": "jobup.ch",
+   "title": "Security Analyst / Architect (f/m/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/678ec0ee-ec68-44e4-bf70-3e52ad5a354f/",
+   "reason": "titre exclu (architect)",
+   "at": "2026-11-14T14:34:53+00:00"
+  },
+  {
+   "id": "45c359fe0600",
+   "company": "jobup.ch",
+   "title": "Managing Director Assistant & Business Analyst (80%) H/F",
+   "url": "https://www.jobup.ch/fr/emplois/detail/30d677e8-bbd0-49ba-9a65-0b6332f72db2/",
+   "reason": "titre exclu (director)",
+   "at": "2026-11-14T14:34:53+00:00"
+  },
+  {
+   "id": "dd2da0e4a3fe",
+   "company": "jobup.ch",
+   "title": "Business Analyst MES (H/F) - Genève - CDI",
+   "url": "https://www.jobup.ch/fr/emplois/detail/46071736-c3be-4ed1-8109-54e777154598/",
+   "reason": "expérience demandée ≥ 3 ans « atique de gestion, ou experience equivalente experience confirmee en tant que business ana »",
+   "at": "2026-11-14T14:34:49+00:00"
+  },
+  {
+   "id": "708bf28a624b",
+   "company": "jobup.ch",
+   "title": "Business Analyst Private Banking FR-EN",
+   "url": "https://www.jobup.ch/fr/emplois/detail/35cff26a-6ec4-4641-bb2d-1c7fa073f4c4/",
+   "reason": "expérience demandée ≥ 11 ans « ieur en sciences economiques ou informatique plus de 10 ans d'experience professionn »",
+   "at": "2026-11-14T14:34:44+00:00"
+  },
+  {
+   "id": "69d7b9c6f623",
+   "company": "jobup.ch",
+   "title": "Business Analyst Senior (h/f/x) - 80-100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/384bcecf-aaba-48c6-95a0-cb563480c13d/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:34:43+00:00"
+  },
+  {
+   "id": "2ff2802821aa",
+   "company": "jobup.ch",
+   "title": "Business Analyst Intern",
+   "url": "https://www.jobup.ch/fr/emplois/detail/67ba6c0d-6f13-47cd-9e51-d5037f725846/",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-14T14:34:43+00:00"
+  },
+  {
+   "id": "738f6f4c57b4",
+   "company": "jobup.ch",
+   "title": "Business Analyst (h/f/x) 80-100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/15d1fd26-fc7b-42fc-b959-1d2316cccf64/",
+   "reason": "expérience demandée ≥ 6 ans « . votre profil : une experience d'au minimum 6 a 8 ans en tant que business ana »",
+   "at": "2026-11-14T14:34:40+00:00"
+  },
+  {
+   "id": "18f4e4ab467b",
+   "company": "jobup.ch",
+   "title": "Sr Business System Analyst",
+   "url": "https://www.jobup.ch/fr/emplois/detail/5a4676ce-553b-4101-8a9d-4c70e60c864c/",
+   "reason": "titre exclu (sr)",
+   "at": "2026-11-14T14:34:40+00:00"
+  },
+  {
+   "id": "6fdc6b83ad74",
+   "company": "jobup.ch",
+   "title": "Financial Analyst & AI Engineer",
+   "url": "https://www.jobup.ch/fr/emplois/detail/18943dd6-c820-41e9-9e37-0da70fd57866/",
+   "reason": "expérience demandée ≥ 3 ans « ion et recuperation de donnees financieres : experience averee en extraction web financ »",
+   "at": "2026-11-14T14:34:38+00:00"
+  },
+  {
+   "id": "b93a1f8a07cf",
+   "company": "jobup.ch",
+   "title": "Data Platform Engineer (m/w/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/980dff8d-5fdf-4146-a3cb-898857d230e5/",
+   "reason": "annonce en allemand (titre)",
+   "at": "2026-11-14T14:34:37+00:00"
+  },
+  {
+   "id": "7dee2c44efe3",
+   "company": "jobup.ch",
+   "title": "Data Analytics & Member Success Specialist",
+   "url": "https://www.jobup.ch/fr/emplois/detail/1fac4914-06b8-48fe-abd2-35f5f321d4e5/",
+   "reason": "expérience demandée ≥ 5 ans « en analyse de donnees ou domaine similaire, 5-7 ans d'experience. competence »",
+   "at": "2026-11-14T14:34:35+00:00"
+  },
+  {
+   "id": "ae8346de014a",
+   "company": "jobup.ch",
+   "title": "Client Data Services Officer 100% ( w/m/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/672ed9c1-e848-46a7-af5e-8d9507bc74d7/",
+   "reason": "expérience demandée ≥ 3 ans « chtenstein, nous vous convainquons par notre longue experience dans la gestion de grand »",
+   "at": "2026-11-14T14:34:34+00:00"
+  },
+  {
+   "id": "6566e37e8403",
+   "company": "jobup.ch",
+   "title": "Senior Data Engineer (hfd)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/aba06541-a2a9-45a6-ab0b-0ac5e4b69420/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:34:34+00:00"
+  },
+  {
+   "id": "3a6e83ff4738",
+   "company": "jobup.ch",
+   "title": "IT Data Analytics Engineer (w/m/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/821c5f2c-8deb-4549-b61b-72ada51280a1/",
+   "reason": "expérience demandée ≥ 3 ans « raitement de structures de donnees complexes experience de plusieurs annees en ingenierie des donnee »",
+   "at": "2026-11-14T14:34:32+00:00"
+  },
+  {
+   "id": "c04be5a6a002",
+   "company": "jobup.ch",
+   "title": "Data Ingénieur (Databricks) - F/M/X",
+   "url": "https://www.jobup.ch/fr/emplois/detail/9dac58b8-33f8-46ed-a1c4-d492ed3e0aec/",
+   "reason": "expérience demandée ≥ 6 ans « databricks et snowflake. competences minimum 6 ans d'experience en data eng »",
+   "at": "2026-11-14T14:34:31+00:00"
+  },
+  {
+   "id": "6de7e9e5355a",
+   "company": "jobup.ch",
+   "title": "Data Governance & Lifecycle Enablement Lead 80-100% (f/m/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/bfa319a4-57bd-41d6-89af-175e0606f02e/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-14T14:34:31+00:00"
+  },
+  {
+   "id": "d40dae2cbfa1",
+   "company": "jobup.ch",
+   "title": "Senior Data Analyst - Business & Data Quality (alle)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/089046e8-ac00-45c4-900d-e2140d304486/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:34:31+00:00"
+  },
+  {
+   "id": "8f875f2f9381",
+   "company": "jobup.ch",
+   "title": "Data Engineer (w/m/d) 80 - 100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/4ade4add-936c-4ed8-b4df-5b2221b4fe7b/",
+   "reason": "expérience demandée ≥ 3 ans « donnees ou une qualification equivalente une experience approfondie avec les services gcp te »",
+   "at": "2026-11-14T14:34:29+00:00"
+  },
+  {
+   "id": "c3ccd162a61e",
+   "company": "jobup.ch",
+   "title": "Group Senior Manager Data & AI",
+   "url": "https://www.jobup.ch/fr/emplois/detail/c573ca7c-5814-4866-b7e1-bb6f6060bd53/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:34:28+00:00"
+  },
+  {
+   "id": "bcaa9e9350f2",
+   "company": "jobup.ch",
+   "title": "Data Scientist (m/w/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/b9c89fd2-6cd5-4fbd-b253-ac8cb15ef466/",
+   "reason": "annonce en allemand (titre)",
+   "at": "2026-11-14T14:34:28+00:00"
+  },
+  {
+   "id": "cb2b983b1a57",
+   "company": "jobup.ch",
+   "title": "Data Analyst Données Industrielles (F/H/X)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/ca15bc9f-eac8-4cd0-8833-893fc8896a06/",
+   "reason": "expérience demandée ≥ 6 ans « fs et performants. competences experience de 6 ans en data analyse dans des »",
+   "at": "2026-11-14T14:34:23+00:00"
+  },
+  {
+   "id": "31e1cd649b71",
+   "company": "jobup.ch",
+   "title": "Senior Database Administrator (f/m/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/2cdf9368-eed0-49aa-97f5-e31f68f6806f/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:34:21+00:00"
+  },
+  {
+   "id": "1dad88f1834c",
+   "company": "jobup.ch",
+   "title": "Data Integration Engineer",
+   "url": "https://www.jobup.ch/fr/emplois/detail/43ae0392-5ab4-46cd-9cdd-a4d34b9b7078/",
+   "reason": "expérience demandée ≥ 3 ans « s et le developpement logiciel nos exigences experience de plusieurs annees dans la mise en place et »",
+   "at": "2026-11-14T14:34:21+00:00"
+  },
+  {
+   "id": "c23660f6f7c8",
+   "company": "jobup.ch",
+   "title": "Energy Data Scientist - Portfolio Management",
+   "url": "https://www.jobup.ch/fr/emplois/detail/2d681df1-0f93-4fd0-b196-1cf8905ee1d9/",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « Expérience sur des techniques liées au domaine d'activité : Energy Data Management EDM, distribution d'électri »",
+   "at": "2026-11-14T14:34:11+00:00"
+  },
+  {
+   "id": "800e5673a87e",
+   "company": "jobup.ch",
+   "title": "Compliance Data & Automation Engineer",
+   "url": "https://www.jobup.ch/fr/emplois/detail/2b7e14d1-c399-4cea-84ba-07d4921ff754/",
+   "reason": "expérience demandée ≥ 4 ans « enierie, informatique ou science des donnees plus de 3 ans d'experience pratique en »",
+   "at": "2026-11-14T14:34:08+00:00"
+  },
+  {
+   "id": "45168810900e",
+   "company": "jobup.ch",
+   "title": "Data Analytics Engineer – Microsoft Fabric & Power BI (H/F)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/7004a73c-2019-45e9-8e4c-080812b43000/",
+   "reason": "expérience demandée ≥ 3 ans « site de la transformation data. votre profil experience confirmee a un niveau expert sur p »",
+   "at": "2026-11-14T14:34:07+00:00"
+  },
+  {
+   "id": "9dbe598684fe",
+   "company": "jobup.ch",
+   "title": "Data Quality Manager (AI)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/3c0f77d5-7f80-47a4-816b-da37540a4f80/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-14T14:34:06+00:00"
+  },
+  {
+   "id": "f14d7f42d78c",
+   "company": "jobup.ch",
+   "title": "AI & Data Solution Expert",
+   "url": "https://www.jobup.ch/fr/emplois/detail/e24ad4b7-ebe4-4ffc-b5cb-c9ae9e9d9887/",
+   "reason": "titre exclu (expert)",
+   "at": "2026-11-14T14:34:05+00:00"
+  },
+  {
+   "id": "966b4f35fd05",
+   "company": "jobup.ch",
+   "title": "Data Analyst - Commercial Operations",
+   "url": "https://www.jobup.ch/fr/emplois/detail/340f137d-d0b4-40bc-a03b-edac41bf7210/",
+   "reason": "expérience demandée ≥ 3 ans « onnees. profil requis ce que vous apporterez 3 a 5 ans d'experience en analyse »",
+   "at": "2026-11-14T14:34:03+00:00"
+  },
+  {
+   "id": "ea2558834c2b",
+   "company": "jobup.ch",
+   "title": "Digital Consumer Data Analyst Geneva | Temporary assignment, 6 to 12 months",
+   "url": "https://www.jobup.ch/fr/emplois/detail/8ecc72d8-7703-413d-b2e7-b833c3bd26f0/",
+   "reason": "expérience demandée ≥ 5 ans « ennent la prise de decision profil recherche 5 a 7 ans d'experience en analyse »",
+   "at": "2026-11-14T14:34:02+00:00"
+  },
+  {
+   "id": "5c34a60133a6",
+   "company": "jobup.ch",
+   "title": "Data engineer confirmé (h/f/x) - 100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/b8ec90a6-a08d-4e2f-8938-9e531ed150cc/",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-14T14:34:02+00:00"
+  },
+  {
+   "id": "ef98b00a38d3",
+   "company": "jobup.ch",
+   "title": "QC LIMS & Master Data Specialist",
+   "url": "https://www.jobup.ch/fr/emplois/detail/6b03c030-6972-496e-ba84-a2358fee56a8/",
+   "reason": "expérience demandée ≥ 3 ans « aleur de la nouvelle plateforme lims. profil experience averee dans un environnement de »",
+   "at": "2026-11-14T14:33:59+00:00"
+  },
+  {
+   "id": "cd6ad74b48c9",
+   "company": "jobup.ch",
+   "title": "Data Analyst junior - confirmé - Genève",
+   "url": "https://www.jobup.ch/fr/emplois/detail/bc90b75b-6aee-457b-9eff-c8df21233490/",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-14T14:33:58+00:00"
+  },
+  {
+   "id": "f45c484677b7",
+   "company": "jobs.ch",
+   "title": "Stagiaire Développement d’Agents IA (Business Development)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/f5bce737-469a-4f9a-bf04-5b8b8aed6a5e/",
+   "reason": "titre exclu (stagiaire)",
+   "at": "2026-11-14T14:33:41+00:00"
+  },
+  {
+   "id": "2bb74a5ebd77",
+   "company": "jobs.ch",
+   "title": "Stage en conseil CTO Advisory – Coder avec l’IA, nouvelles frontières du développement pour les entreprises",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/341e6103-5a08-461b-aa88-c2953970c417/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-14T14:33:41+00:00"
+  },
+  {
+   "id": "e1881aed7a93",
+   "company": "jobs.ch",
+   "title": "Senior Consultant – Cloud, AI & IT Transformation (H/F) Genève, Suisse",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/c33727f8-a978-4ade-9e58-08b9d6502bd9/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:33:41+00:00"
+  },
+  {
+   "id": "3d49e790622b",
+   "company": "jobs.ch",
+   "title": "AI Senior Lead Engineer",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/ac429c23-c7a4-4518-b846-52bb4e34913c/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:33:41+00:00"
+  },
+  {
+   "id": "cb0752621cbd",
+   "company": "jobs.ch",
+   "title": "Consultant Lead - Software & Quality Engineering (AI-Powered) - AI-SDLC",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/48757263-d239-4c93-80f9-ce91e064d55c/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-14T14:33:41+00:00"
+  },
+  {
+   "id": "8dab2714747c",
+   "company": "jobs.ch",
+   "title": "Fachspezialist:in Bahnsicherungsanlagen IA und AA 80–100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/096728ba-60be-4577-be31-e40f9c3dc06e/",
+   "reason": "expérience demandée ≥ 3 ans « cien, polymecanicien ou metier similaire) et plusieurs annees d'experience professionnelle dans le »",
+   "at": "2026-11-14T14:33:36+00:00"
+  },
+  {
+   "id": "cb718186b202",
+   "company": "jobs.ch",
+   "title": "TFF Begleiter Ai40 oder Ai (m/w/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/dc43a6d0-ba31-4ea0-b755-8a9510bbdfb0/",
+   "reason": "annonce en allemand (titre)",
+   "at": "2026-11-14T14:33:35+00:00"
+  },
+  {
+   "id": "e0d872c5f633",
+   "company": "jobs.ch",
+   "title": "TFF Begleiter Ai40 oder Ai (m/w/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/a8a61ae0-06b9-4ac2-a0ef-46721b3fcf09/",
+   "reason": "annonce en allemand (titre)",
+   "at": "2026-11-14T14:33:33+00:00"
+  },
+  {
+   "id": "200c0df65682",
+   "company": "jobs.ch",
+   "title": "DevOps und Cloud Engineer (AWS / AI Automation) 100% (a)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/77d50a0d-cf1d-427e-896e-f40001993e80/",
+   "reason": "expérience demandée ≥ 3 ans « iel ou domaine technique comparable au moins 3 ans d'experience professionn »",
+   "at": "2026-11-14T14:33:32+00:00"
+  },
+  {
+   "id": "39ac2931c202",
+   "company": "jobs.ch",
+   "title": "CRM & AI Automation Manager (m/w/d) 100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/252dfbf0-5628-473f-8ae5-a8d3731dc7c6/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-14T14:33:32+00:00"
+  },
+  {
+   "id": "524103d4379c",
+   "company": "jobs.ch",
+   "title": "Swiss German AI Voice Trainer",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/95056f0c-7bd0-4f7b-ac9f-126596011255/",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « Required Experience as a voice actor, actor, or theater performer, or a comparable performance background. »",
+   "at": "2026-11-14T14:33:30+00:00"
+  },
+  {
+   "id": "3258af0e69c8",
+   "company": "jobs.ch",
+   "title": "Projektmanager:in Category Marketing – AI & Automation",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/4ac8a79b-d5ce-4d52-9df6-343bc0dd9ec6/",
+   "reason": "annonce en allemand (titre)",
+   "at": "2026-11-14T14:33:30+00:00"
+  },
+  {
+   "id": "b8b7c920f1d4",
+   "company": "jobs.ch",
+   "title": "Professional Software Engineer (.NET, Web, AI)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/cea139c6-f583-40cd-a538-e3c8b226c7d5/",
+   "reason": "expérience demandée ≥ 5 ans « ique superieure comparable ainsi qu'au moins 5 ans d'experience dans un rol »",
+   "at": "2026-11-14T14:33:27+00:00"
+  },
+  {
+   "id": "261712d3c3ee",
+   "company": "jobs.ch",
+   "title": "Head of Channel Sales (AI Software) - [A016040]",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/b39ff4d6-bb70-402f-8f51-79c2a4cc98dd/",
+   "reason": "titre exclu (head)",
+   "at": "2026-11-14T14:33:27+00:00"
+  },
+  {
+   "id": "b219ff58f173",
+   "company": "jobs.ch",
+   "title": "Senior AI Software Engineer / AI Solution Architect 80 - 100 % (w/m/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/d88d1a32-0b5e-45b8-9080-a12a6cf3852a/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:33:25+00:00"
+  },
+  {
+   "id": "b4e626dc36ea",
+   "company": "jobs.ch",
+   "title": "AI Product «Pilot» / Product Owner Digital Health (m/w/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/ae5e20ea-56a1-47e5-bd77-ab5575d0e484/",
+   "reason": "expérience demandée ≥ 3 ans « nomique) ou formation technique equivalente. experience de plusieurs annees dans des projets logicie »",
+   "at": "2026-11-14T14:33:25+00:00"
+  },
+  {
+   "id": "db81783f29de",
+   "company": "jobs.ch",
+   "title": "Fullstack Developer - AI & Digital Health - DE",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/e5ce43b5-b97a-46cc-a783-93eff2bf064f/",
+   "reason": "expérience demandée ≥ 3 ans « web modernes. competences en developpement : experience approfondie avec des frameworks back »",
+   "at": "2026-11-14T14:33:21+00:00"
+  },
+  {
+   "id": "6cf7fd38d1d7",
+   "company": "jobs.ch",
+   "title": "Software Engineer (Java/Spring Boot) auf dem Weg zum Data / AI Engineer",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/8c27a3a0-dc8a-4da0-973a-ba5ebcf843f6/",
+   "reason": "expérience demandée ≥ 3 ans « niversitaire (ou equivalent) en informatique experience de plusieurs annees en developpement avec ja »",
+   "at": "2026-11-14T14:33:20+00:00"
+  },
+  {
+   "id": "202815880012",
+   "company": "jobs.ch",
+   "title": "AI Software Engineer (w/m/d) 80-100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/574c91da-f100-4e74-a5f2-5b118be91507/",
+   "reason": "expérience demandée ≥ 5 ans « es vivez votre potentiel vos forces au moins 5 ans d'experience professionn »",
+   "at": "2026-11-14T14:33:19+00:00"
+  },
+  {
+   "id": "446370343c11",
+   "company": "jobs.ch",
+   "title": "Senior AI Software Developer (80-100%)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/bec83357-3b90-4364-8b80-5384b6de19ce/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:33:17+00:00"
+  },
+  {
+   "id": "524ced8f4237",
+   "company": "jobs.ch",
+   "title": "Platform Engineer AI (w/m/d) 80-100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/546a49e2-b406-4c1f-8616-432ae4b47bf1/",
+   "reason": "expérience demandée ≥ 3 ans « es vivre les potentiels tes points forts une experience de plusieurs annees dans le digital workplac »",
+   "at": "2026-11-14T14:33:17+00:00"
+  },
+  {
+   "id": "7505cb8d94f0",
+   "company": "jobs.ch",
+   "title": "AI Engineer Intern",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/e9c187ab-e137-4269-8189-655e75fbd77d/",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-14T14:33:17+00:00"
+  },
+  {
+   "id": "b88cfb63f0d4",
+   "company": "jobs.ch",
+   "title": "SAP Berater in Data Intelligence, Analytics und AI (w/m/d), 80-100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/29210ded-64c1-40b8-8891-79b5ddbdc294/",
+   "reason": "expérience demandée ≥ 3 ans « rmation equivalente est un avantage au moins 3 ans d'experience professionn »",
+   "at": "2026-11-14T14:33:14+00:00"
+  },
+  {
+   "id": "419b51aa15ec",
+   "company": "jobs.ch",
+   "title": "Senior AI Engineer, 80-100% (w/m/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/e99324e6-3925-4af1-9c6d-8ac301553bbe/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:33:14+00:00"
+  },
+  {
+   "id": "935bc1a975e2",
+   "company": "jobs.ch",
+   "title": "AI-Plattformengineer",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/86bd8fb8-8fee-4432-99f1-1183cc1e7063/",
+   "reason": "expérience demandée ≥ 5 ans « fachrichtung: computer science / informatik berufserfahrung: mindestens 5 jahre ai engineering / dev ops mehrj »",
+   "at": "2026-11-14T14:33:13+00:00"
+  },
+  {
+   "id": "4b115117ca28",
+   "company": "jobs.ch",
+   "title": "AI Engineer (f/m/d) 80-100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/9db78101-0c42-4032-a091-4cf0391ae0a1/",
+   "reason": "expérience demandée ≥ 3 ans « (par ex. google adk, langchain, llamaindex). experience averee avec rag (retrieval-augm »",
+   "at": "2026-11-14T14:33:11+00:00"
+  },
+  {
+   "id": "0b0cd98e9562",
+   "company": "jobs.ch",
+   "title": "AI & ML Engineer (w/m/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/6473f0a1-7d88-4bc6-97c7-5c7f2001669b/",
+   "reason": "annonce en allemand (titre)",
+   "at": "2026-11-14T14:33:10+00:00"
+  },
+  {
+   "id": "5463f1d75cb4",
+   "company": "jobs.ch",
+   "title": "Business Analyst Prozesse Privatkundschaft",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/26a1a3b2-82e1-4524-a226-31a9e50d1d5e/",
+   "reason": "expérience demandée ≥ 3 ans « t, soit a winterthour ce que vous apportez : plusieurs annees d'experience professionnelle dans le »",
+   "at": "2026-11-14T14:33:08+00:00"
+  },
+  {
+   "id": "1ba591679623",
+   "company": "jobs.ch",
+   "title": "Business Analyst Prozessmanagement Unternehmen",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/7b165efe-fe81-4a20-b0da-77d77cfecf43/",
+   "reason": "expérience demandée ≥ 3 ans « pportez : formation commerciale de base avec plusieurs annees d'experience professionnelle dans l'a »",
+   "at": "2026-11-14T14:33:06+00:00"
+  },
+  {
+   "id": "a31313c97ce3",
+   "company": "jobs.ch",
+   "title": "Business Analyst Tarifmanagement",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/3c1610a7-0d23-491d-9107-eb0218212128/",
+   "reason": "expérience demandée ≥ 3 ans « l'informatique connaissances approfondies et plusieurs annees d'experience dans le domaine des pres »",
+   "at": "2026-11-14T14:33:05+00:00"
+  },
+  {
+   "id": "ab213ec3d684",
+   "company": "jobs.ch",
+   "title": "Business Analyst 80%-100% (m,w,d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/bb5ca05d-462f-45fe-b737-28f69e345c7c/",
+   "reason": "expérience demandée ≥ 3 ans « fh/uni) ou qualification comparable au moins 3 ans d'experience professionn »",
+   "at": "2026-11-14T14:33:04+00:00"
+  },
+  {
+   "id": "2d58e4cd1d64",
+   "company": "jobs.ch",
+   "title": "Data Analyst / Data Scientist",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/21c7314d-e566-4483-9c03-37417422a2ef/",
+   "reason": "allemand exigé « rung und ausgezeichneten deutschkenntnissen. hier erfahrst du »",
+   "at": "2026-11-14T14:33:02+00:00"
+  },
+  {
+   "id": "79e411dcc820",
+   "company": "jobs.ch",
+   "title": "Analyste respect CCT / Gestionnaire – H/F à 100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/a037d0f5-d054-4303-9298-8945de9763d0/",
+   "reason": "expérience demandée ≥ 5 ans « ormation superieure ou experience de minimum 5 ans dans un domaine similair »",
+   "at": "2026-11-14T14:33:01+00:00"
+  },
+  {
+   "id": "3584c8273224",
+   "company": "jobs.ch",
+   "title": "Comptable Analyste",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/ffb74714-f70a-4e53-8f53-520d9962bb30/",
+   "reason": "expérience demandée ≥ 8 ans « es et financiers ; nous cherchons: - environ 8/10 ans d'experience en comptabi »",
+   "at": "2026-11-14T14:32:59+00:00"
+  },
+  {
+   "id": "acf21bea9eff",
+   "company": "jobs.ch",
+   "title": "Analyste Controlling",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/fa3f1e58-2a65-40dd-86c3-dc99ffdda2c2/",
+   "reason": "expérience demandée ≥ 3 ans « nance, economie, gestion), vous justifiez de 3 a 5 ans d'experience en controle »",
+   "at": "2026-11-14T14:32:58+00:00"
+  },
+  {
+   "id": "3d45871efb4e",
+   "company": "jobs.ch",
+   "title": "Professional Security Analyst (m/w/d) 80-100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/37c8ec55-bfa5-4e0a-9764-ba558fda2ac3/",
+   "reason": "annonce en allemand (titre)",
+   "at": "2026-11-14T14:32:56+00:00"
+  },
+  {
+   "id": "e58ee0da019a",
+   "company": "jobs.ch",
+   "title": "Junior Portfolio Analyst/-in",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/b830e186-e2cd-43e1-904c-c3faa89084e3/",
+   "reason": "annonce en allemand (titre)",
+   "at": "2026-11-14T14:32:55+00:00"
+  },
+  {
+   "id": "191eb95ffaef",
+   "company": "jobs.ch",
+   "title": "SAP PP & WM Business Analyst 100% (w/m/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/47a37f15-bafd-4d6c-8e9c-a21419a0a675/",
+   "reason": "expérience demandée ≥ 10 ans « de gestion ou gestion d'entreprise au moins 10 ans d'experience dans l'envi »",
+   "at": "2026-11-14T14:32:53+00:00"
+  },
+  {
+   "id": "155d5386527e",
+   "company": "jobs.ch",
+   "title": "Cyber Security Analyst/-in Professional",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/cbd2440f-233c-43d2-aad7-77ddf8b9ee0c/",
+   "reason": "annonce en allemand (titre)",
+   "at": "2026-11-14T14:32:52+00:00"
+  },
+  {
+   "id": "bdda12c4c7aa",
+   "company": "jobs.ch",
+   "title": "Agile Business Analyst / Requirements Engineer",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/68554dd2-4e99-4c8e-bb13-bfc589048428/",
+   "reason": "expérience demandée ≥ 3 ans « developpement ce que vous apportez plusieurs annees d'experience (3+ ans) en tant qu'analyste d'affaires, inge »",
+   "at": "2026-11-14T14:32:50+00:00"
+  },
+  {
+   "id": "994ed81098a2",
+   "company": "jobs.ch",
+   "title": "Business Analyst - Banking (Fokus Karten & Zahlungsverkehr) 100% (a), Zürich",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/d6333f06-b4e4-44d7-b771-82b200d170b9/",
+   "reason": "expérience demandée ≥ 5 ans « qualifikation mit starkem it-/banken-bezug). berufserfahrung: mindestens 5 jahre erfahrung als business analys »",
+   "at": "2026-11-14T14:32:48+00:00"
+  },
+  {
+   "id": "f21c9ac838d6",
+   "company": "jobs.ch",
+   "title": "Group Senior Analyst Quality Applications",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/6e3e7afc-90da-4c0c-ac25-c851fd24f3ce/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:32:45+00:00"
+  },
+  {
+   "id": "b8901b98b964",
+   "company": "jobs.ch",
+   "title": "Senior Business Analyst - Digital Banking",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/892e6925-6909-40ab-aafe-280049e54ee0/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:32:45+00:00"
+  },
+  {
+   "id": "5e19a940a01a",
+   "company": "jobs.ch",
+   "title": "Business Analyst Geschäftsprozesse & SAP (m/w/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/864501ac-8aec-4901-b27d-5aa8f652751a/",
+   "reason": "expérience demandée ≥ 3 ans « er schweiz sowie im europaischen ausland mit langjahrigen partnern zusammen. im r »",
+   "at": "2026-11-14T14:32:45+00:00"
+  },
+  {
+   "id": "f13e881947c7",
+   "company": "jobs.ch",
+   "title": "Equity Analyst/in Schweizer Aktien (100%)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/60c67166-41c0-4d7a-88e2-c00a9335fa99/",
+   "reason": "expérience demandée ≥ 3 ans « rante de l'allemand et de l'anglais au moins 3 a 8 ans d'experience professionn »",
+   "at": "2026-11-14T14:32:42+00:00"
+  },
+  {
+   "id": "d91935892137",
+   "company": "jobs.ch",
+   "title": "Business Analyst Intern",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/67ba6c0d-6f13-47cd-9e51-d5037f725846/",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-14T14:32:42+00:00"
+  },
+  {
+   "id": "3fc32bd2c388",
+   "company": "jobs.ch",
+   "title": "Business Analyst Trainee (m/w/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/24abe156-d7de-4ce5-9a74-915582e2df27/",
+   "reason": "titre exclu (trainee)",
+   "at": "2026-11-14T14:32:42+00:00"
+  },
+  {
+   "id": "889fab6da75a",
+   "company": "jobs.ch",
+   "title": "Sales & Market Analyst (w/m/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/5f426ad7-04d9-4a2f-8430-c5d5f5d9ae64/",
+   "reason": "expérience demandée ≥ 3 ans « stique ou gestion d'entreprise est un atout. plusieurs annees d'experience professionnelle dans l'a »",
+   "at": "2026-11-14T14:32:40+00:00"
+  },
+  {
+   "id": "7478468d2b5d",
+   "company": "jobs.ch",
+   "title": "Business Analyst/in Fachgebiet Steuern",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/8f276cbc-c47d-4e9f-b206-0b0a7df5dde0/",
+   "reason": "expérience demandée ≥ 3 ans « pecialises. votre profil vous disposez d'une experience averee en tant qu'analyste d'af »",
+   "at": "2026-11-14T14:32:39+00:00"
+  },
+  {
+   "id": "71bf912190c5",
+   "company": "jobs.ch",
+   "title": "Senior Oracle Fusion Financials Analyst",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/8f22e3bf-a0d9-4715-93ef-76983be0c250/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:32:39+00:00"
+  },
+  {
+   "id": "3903a8ecf4c5",
+   "company": "jobs.ch",
+   "title": "Business Analyst (w/m/d), 80–100 % – Finanzindustrie & öffentliche Verwaltung",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/ad5ef674-518c-4819-84f7-2778ea8630a5/",
+   "reason": "expérience demandée ≥ 3 ans « de gestion ou dans un domaine comparable une experience de plusieurs annees en analyse d'affaires, i »",
+   "at": "2026-11-14T14:32:37+00:00"
+  },
+  {
+   "id": "ac7b5f7b6d3b",
+   "company": "jobs.ch",
+   "title": "Business Analyst und Product Consultant Pensionskassen-Software",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/6c1bc0d5-c15b-4188-aab7-1c0593b35f1d/",
+   "reason": "expérience demandée ≥ 3 ans « ications suivantes sont requises : vous avez plusieurs annees d'experience professionnelle dans le »",
+   "at": "2026-11-14T14:32:35+00:00"
+  },
+  {
+   "id": "fdc7f635cd06",
+   "company": "jobs.ch",
+   "title": "Senior FMI Business Analyst",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/dcae3f55-c1ab-4d51-b78a-3f754b43a865/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:32:35+00:00"
+  },
+  {
+   "id": "33b675108649",
+   "company": "jobs.ch",
+   "title": "Business Analyst Bauprozesse, Daten & KI",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/6a964e4b-acdc-48cc-b541-1f86754b3564/",
+   "reason": "annonce en allemand (titre)",
+   "at": "2026-11-14T14:32:33+00:00"
+  },
+  {
+   "id": "90a916dcac11",
+   "company": "jobs.ch",
+   "title": "Business System Analyst (100%)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/5bd0d59d-e685-48a0-88df-875b5adb71dc/",
+   "reason": "expérience demandée ≥ 5 ans « de bachelor pertinent et justifie d'au moins 5 ans d'experience dans l'indu »",
+   "at": "2026-11-14T14:32:31+00:00"
+  },
+  {
+   "id": "f3eea610ed27",
+   "company": "jobs.ch",
+   "title": "Business Analyst/in (80 – 100 %) mit Durchblick",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/81d64caf-59cd-4fc0-8d34-1d1358593966/",
+   "reason": "expérience demandée ≥ 3 ans « avail par semaine. vous nous offrez au moins 3 ans d'experience en analyse »",
+   "at": "2026-11-14T14:32:30+00:00"
+  },
+  {
+   "id": "403d1aacc318",
+   "company": "jobs.ch",
+   "title": "Financial Analyst & AI Engineer",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/18943dd6-c820-41e9-9e37-0da70fd57866/",
+   "reason": "expérience demandée ≥ 3 ans « ion et recuperation de donnees financieres : experience averee en extraction web financ »",
+   "at": "2026-11-14T14:32:28+00:00"
+  },
+  {
+   "id": "0b8e33d6e1a6",
+   "company": "jobs.ch",
+   "title": "Erfahrene:r Business Analyst 80-100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/0d0dd1f3-1f7f-4f72-81b5-3a2316c1471f/",
+   "reason": "expérience demandée ≥ 3 ans « eprise, informatique de gestion ou similaire experience solide en tant qu'analyste d'af »",
+   "at": "2026-11-14T14:32:27+00:00"
+  },
+  {
+   "id": "e190e0eda636",
+   "company": "jobs.ch",
+   "title": "Senior Business Analyst - Value Stream Anlegen",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/d99cd5b1-4483-4c16-9363-ba8452e0f6b3/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:32:27+00:00"
+  },
+  {
+   "id": "d0b7787d7dc2",
+   "company": "jobs.ch",
+   "title": "Business Analyst/in (60-100%)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/01013aae-9c7a-4c4c-9bab-bd8d5972ac6c/",
+   "reason": "expérience demandée ≥ 3 ans « specialiste it ou qualification equivalente experience averee en tant qu'analyste d'af »",
+   "at": "2026-11-14T14:32:25+00:00"
+  },
+  {
+   "id": "17aad204e16d",
+   "company": "jobs.ch",
+   "title": "Business Systems Analyst",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/08ffb153-ec1b-4276-b0f2-5fece1e37d91/",
+   "reason": "expérience demandée ≥ 5 ans « n diplome de licence et disposant d'au moins 5 ans d'experience dans des en »",
+   "at": "2026-11-14T14:32:24+00:00"
+  },
+  {
+   "id": "386fc58f5886",
+   "company": "jobs.ch",
+   "title": "Business Systems Analyst",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/cc6655fe-2161-447b-8283-a996d7d012b4/",
+   "reason": "expérience demandée ≥ 5 ans « t de l'informatique ou des affaires au moins 5 ans d'experience dans l'indu »",
+   "at": "2026-11-14T14:32:22+00:00"
+  },
+  {
+   "id": "9fa0a8d637c7",
+   "company": "jobs.ch",
+   "title": "Product Data Specialist Sanitär (w/m/d) 80-100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/c80d8188-7b04-4952-b6ae-7e93831f0be0/",
+   "reason": "annonce en allemand (titre)",
+   "at": "2026-11-14T14:32:19+00:00"
+  },
+  {
+   "id": "aa2d893fe03d",
+   "company": "jobs.ch",
+   "title": "Data Analytics Engineer – Microsoft Fabric & Power BI (H/F)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/fad694ce-8241-4894-899f-f93220473a2d/",
+   "reason": "expérience demandée ≥ 3 ans « site de la transformation data. votre profil experience confirmee a un niveau expert sur p »",
+   "at": "2026-11-14T14:32:18+00:00"
+  },
+  {
+   "id": "27e407d55d96",
+   "company": "jobs.ch",
+   "title": "Data Quality Manager (AI)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/e16b6921-c924-4421-9979-568e6bc49a70/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-14T14:32:18+00:00"
+  },
+  {
+   "id": "df8dfe28604b",
+   "company": "jobs.ch",
+   "title": "MitarbeiterIn Data Quality & Stammdatenmanagement 60 - 80 %",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/346be9c4-fdf3-47ef-b141-919aea38ab34/",
+   "reason": "annonce en allemand (titre)",
+   "at": "2026-11-14T14:32:16+00:00"
+  },
+  {
+   "id": "32536c09a388",
+   "company": "jobs.ch",
+   "title": "Data Systems Engineer",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/e2082ad8-5133-468b-a37f-2fcf42f967f3/",
+   "reason": "allemand exigé « ie power bi oder tableau gute deutsch- und englischkenntn »",
+   "at": "2026-11-14T14:32:15+00:00"
+  },
+  {
+   "id": "5c0f407a6447",
+   "company": "jobs.ch",
+   "title": "Specialist Product Data & Packaging (w/m/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/1a234feb-bf08-4438-b367-fa353c25d00c/",
+   "reason": "annonce en allemand (titre)",
+   "at": "2026-11-14T14:32:14+00:00"
+  },
+  {
+   "id": "f7021c6cd41d",
+   "company": "jobs.ch",
+   "title": "Senior Data Migration Engineer | Investment Finance | 80-100% (m/w/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/4987a77b-a171-4aad-9a9e-7514ad5049e3/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:32:14+00:00"
+  },
+  {
+   "id": "9df18d4499a5",
+   "company": "jobs.ch",
+   "title": "AI & Data Solution Expert",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/e24ad4b7-ebe4-4ffc-b5cb-c9ae9e9d9887/",
+   "reason": "titre exclu (expert)",
+   "at": "2026-11-14T14:32:13+00:00"
+  },
+  {
+   "id": "10b35c44f30e",
+   "company": "jobs.ch",
+   "title": "Consultant SAP Data & Analytics 60–100% (m/w/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/70e61529-82b5-4f26-b15a-328b9d737a89/",
+   "reason": "expérience demandée ≥ 3 ans « vous agissez en ce sens ce que vous apportez 3 a 5 ans d'experience en tant que »",
+   "at": "2026-11-14T14:32:10+00:00"
+  },
+  {
+   "id": "601727017273",
+   "company": "jobs.ch",
+   "title": "Client Data Services Officer 100% ( w/m/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/1b11a584-0d2e-463b-aa00-5bb3b93cd0da/",
+   "reason": "expérience demandée ≥ 3 ans « chtenstein, nous vous convainquons par notre longue experience dans la gestion de grand »",
+   "at": "2026-11-14T14:32:09+00:00"
+  },
+  {
+   "id": "a3e7c8d86423",
+   "company": "jobs.ch",
+   "title": "Data Analyst Finanzmarktaufsicht (m/w/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/c40b3766-217e-4dd3-9d58-e4ccaf21ac78/",
+   "reason": "annonce en allemand (titre)",
+   "at": "2026-11-14T14:32:07+00:00"
+  },
+  {
+   "id": "46b5079cc712",
+   "company": "jobs.ch",
+   "title": "Principal Data and AI Consultant",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/425e7e14-05eb-4068-bcfb-89726525f38f/",
+   "reason": "titre exclu (principal)",
+   "at": "2026-11-14T14:32:07+00:00"
+  },
+  {
+   "id": "c28d35364612",
+   "company": "jobs.ch",
+   "title": "Data Scientist / Analyst/-in Professional",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/e411ccf0-74fa-43c8-a598-bce5b12b0dc3/",
+   "reason": "annonce en allemand (titre)",
+   "at": "2026-11-14T14:32:06+00:00"
+  },
+  {
+   "id": "b069d9c9e631",
+   "company": "jobs.ch",
+   "title": "Senior Data Engineer (hfd)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/aba06541-a2a9-45a6-ab0b-0ac5e4b69420/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:32:06+00:00"
+  },
+  {
+   "id": "1bcec71127ec",
+   "company": "jobs.ch",
+   "title": "Senior Data Migration Engineer (w/m/d), 80-100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/789a6803-8783-4a82-b6a0-3c5eb2874ecd/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:32:06+00:00"
+  },
+  {
+   "id": "e14dcd54e18a",
+   "company": "jobs.ch",
+   "title": "Data Engineer – banksteuerndes und aufsichtsrechtliches Reporting (a)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/cee392ba-2867-46e2-a6d3-5118f34b770d/",
+   "reason": "expérience demandée ≥ 3 ans « fiable en donnees. ce que tu apportes tu as plusieurs annees d'experience en gestion des donnees a »",
+   "at": "2026-11-14T14:32:04+00:00"
+  },
+  {
+   "id": "07b2bad6ebd5",
+   "company": "jobs.ch",
+   "title": "Data Quality Specialist 80-100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/122cf9bd-f99a-4f61-9ca1-d5bbd5468a6f/",
+   "reason": "expérience demandée ≥ 3 ans « e discipline quantitative comparable, ou une experience solide dans le domaine de la qu »",
+   "at": "2026-11-14T14:32:03+00:00"
+  },
+  {
+   "id": "a84276519941",
+   "company": "jobs.ch",
+   "title": "Senior Data Engineer (MSSQL) mit Data Lakehouse Perspektive",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/a5dca662-cf6d-46ca-a3f6-b585ef59ff38/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:32:03+00:00"
+  },
+  {
+   "id": "f85e1a185ac3",
+   "company": "jobs.ch",
+   "title": "Sales Manager Data Center & AI Infrastructure (w/m/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/218e6fef-28eb-4ad4-be2e-799c717100a7/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-14T14:32:03+00:00"
+  },
+  {
+   "id": "7ac708e3d27f",
+   "company": "jobs.ch",
+   "title": "Data Engineer & BI-Spezialist (m/w)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/f8e56ce3-6955-45c9-8e99-41876f71b74d/",
+   "reason": "allemand exigé « l'immobilier tres bonnes connaissances en allemand, bonnes connaissanc »",
+   "at": "2026-11-14T14:32:01+00:00"
+  },
+  {
+   "id": "c335eb8d9654",
+   "company": "jobs.ch",
+   "title": "Group Senior Manager Data & AI",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/613bbc1f-7e16-4bc1-a49e-1b3b9ab41a4d/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:32:01+00:00"
+  },
+  {
+   "id": "b3dbfa66a9c1",
+   "company": "jobs.ch",
+   "title": "Senior Data Analyst - Business & Data Quality (alle)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/089046e8-ac00-45c4-900d-e2140d304486/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:32:01+00:00"
+  },
+  {
+   "id": "417e43af90e5",
+   "company": "jobs.ch",
+   "title": "Master Data Administrator (w/m/d) 100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/5d2c1cc4-588e-49ca-b21f-a1ce7554d45f/",
+   "reason": "annonce en allemand (titre)",
+   "at": "2026-11-14T14:32:00+00:00"
+  },
+  {
+   "id": "9ae315c9e0cd",
+   "company": "jobs.ch",
+   "title": "Principal Data Architect",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/79ad8494-a4c2-424f-8f3d-30e2c81c5ecb/",
+   "reason": "titre exclu (principal)",
+   "at": "2026-11-14T14:32:00+00:00"
+  },
+  {
+   "id": "0e7fc99be2e6",
+   "company": "jobs.ch",
+   "title": "Data Analyst junior - confirmé - Genève",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/19acd612-2db6-44f6-a1da-7f1dd6509407/",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-14T14:32:00+00:00"
+  },
+  {
+   "id": "77fb89f96142",
+   "company": "jobs.ch",
+   "title": "Sachbearbeiter/in Data Management 100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/26438165-8282-43c4-82b5-89b14aee47a3/",
+   "reason": "annonce en allemand (titre)",
+   "at": "2026-11-14T14:31:59+00:00"
+  },
+  {
+   "id": "c0dde6973c87",
+   "company": "jobs.ch",
+   "title": "(Senior) Consultant Data & Analytics",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/182a000f-66b1-4d58-8cf4-80dc9e92bfd5/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:31:57+00:00"
+  },
+  {
+   "id": "690d87ff37f1",
+   "company": "jobs.ch",
+   "title": "Data Architect 80-100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/5ba18304-8e80-4b25-a309-994d1263bd6f/",
+   "reason": "titre exclu (architect)",
+   "at": "2026-11-14T14:31:57+00:00"
+  },
+  {
+   "id": "ee3d169d4ae3",
+   "company": "jobs.ch",
+   "title": "Senior Data Engineer",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/e30feebe-3eda-4f32-80e1-c1d5c7face5a/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:31:57+00:00"
+  },
+  {
+   "id": "934469898003",
+   "company": "HelloWork",
+   "title": "Business Analyste H/F eXalt Company",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84077541.html",
+   "reason": "expérience demandée ≥ 3 ans « a communiquer.vous justifiez d'une premiere experience significative en finance de marche. bi »",
+   "at": "2026-11-14T14:31:38+00:00"
+  },
+  {
+   "id": "ddc079d9ea0f",
+   "company": "HelloWork",
+   "title": "Product Builder - ai Product Manager H/F Thiga",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84913138.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-14T14:31:38+00:00"
+  },
+  {
+   "id": "e2ee02839f97",
+   "company": "HelloWork",
+   "title": "Senior Ops & Product Builder H/F Alan",
+   "url": "https://www.hellowork.com/fr-fr/emplois/79332661.html",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:31:38+00:00"
+  },
+  {
+   "id": "804065cc4546",
+   "company": "HelloWork",
+   "title": "Analyste Normes Comptables H/F RTE",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82310199.html",
+   "reason": "expérience demandée ≥ 6 ans « master cca ou ecole de commerce)- minimum de 6 annees d'experience en consolid »",
+   "at": "2026-11-14T14:31:19+00:00"
+  },
+  {
+   "id": "a424db92ba72",
+   "company": "HelloWork",
+   "title": "Analyste Financier H/F Approach People Recruitment",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82108682.html",
+   "reason": "expérience demandée ≥ 5 ans « estion, audit ou equivalent. - experience de 5 a 7 ans en analyse financiere, c »",
+   "at": "2026-11-14T14:31:16+00:00"
+  },
+  {
+   "id": "d99e32e7ac7a",
+   "company": "HelloWork",
+   "title": "Analyste Comptable H/F Crédit Agricole Assurances",
+   "url": "https://www.hellowork.com/fr-fr/emplois/81006026.html",
+   "reason": "expérience demandée ≥ 3 ans « ou dans une fonction finance en entreprise) niveau d'experience minimum : 3 - 5 ans soft skills : - aisance re »",
+   "at": "2026-11-14T14:31:14+00:00"
+  },
+  {
+   "id": "b39345b022df",
+   "company": "HelloWork",
+   "title": "Analyste Crédit H/F CreditJob",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85273293.html",
+   "reason": "expérience demandée ≥ 5 ans « rofil recherche profil :vous avez au minimum 5 annees d'experience professionn »",
+   "at": "2026-11-14T14:31:13+00:00"
+  },
+  {
+   "id": "480e6812e8cc",
+   "company": "HelloWork",
+   "title": "Analyste Investissements H/F Bourrelier Group",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84331851.html",
+   "reason": "expérience demandée ≥ 4 ans « bac +5 ecole de commerce ou equivalent, avec 4 ans d'experience minimum en »",
+   "at": "2026-11-14T14:31:00+00:00"
+  },
+  {
+   "id": "f3ff3d5661a4",
+   "company": "HelloWork",
+   "title": "Analyste Third Party Risk Management Tprm H/F CYNÉGÉ CONSEIL",
+   "url": "https://www.hellowork.com/fr-fr/emplois/77444098.html",
+   "reason": "expérience demandée ≥ 11 ans « es, cynege s'appuie sur des equipes cumulant plus de 10 ans d'experience pour vous a »",
+   "at": "2026-11-14T14:30:59+00:00"
+  },
+  {
+   "id": "7a30e705fcc3",
+   "company": "HelloWork",
+   "title": "Prévisionniste - Analyste Mro Moteurs Civils H/F Safran",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82743473.html",
+   "reason": "expérience demandée ≥ 3 ans « gestion industrielle. vous avez une premiere experience significative en prevision, demand pla »",
+   "at": "2026-11-14T14:30:57+00:00"
+  },
+  {
+   "id": "d12096ba4df2",
+   "company": "HelloWork",
+   "title": "Analyste Cert H/F Almond",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84530132.html",
+   "reason": "expérience demandée ≥ 5 ans « u modele osi notamment sur la pile tcp/ip. - 5 ans d'experience minimum. - »",
+   "at": "2026-11-14T14:30:47+00:00"
+  },
+  {
+   "id": "383ffbce31f4",
+   "company": "HelloWork",
+   "title": "Analyste Confirmé Soc H/F Bouygues Telecom",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84587480.html",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-14T14:30:47+00:00"
+  },
+  {
+   "id": "9c0448663acf",
+   "company": "HelloWork",
+   "title": "Analyste Engagements - BTP Banque H/F Crédit Coopératif",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84850699.html",
+   "reason": "expérience demandée ≥ 4 ans « vement d'une experience confirmee de minimum 4/5 ans en tant que charge·e de »",
+   "at": "2026-11-14T14:30:46+00:00"
+  },
+  {
+   "id": "6809e5b336f6",
+   "company": "HelloWork",
+   "title": "Analyste Cti Expérimenté - Cybersécurité- Ile-De-France H/F Sopra Steria",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83203675.html",
+   "reason": "titre exclu (experimente)",
+   "at": "2026-11-14T14:30:46+00:00"
+  },
+  {
+   "id": "2f9d1af0ff5a",
+   "company": "HelloWork",
+   "title": "Analyste Expérimenté Transaction Services Secteur Industries et Services H/F PwC France et Maghreb",
+   "url": "https://www.hellowork.com/fr-fr/emplois/76608602.html",
+   "reason": "titre exclu (experimente)",
+   "at": "2026-11-14T14:30:46+00:00"
+  },
+  {
+   "id": "3d0f77fdb320",
+   "company": "HelloWork",
+   "title": "CDD - Acheteur - Analyste Intérim H/F GEODIS",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84796722.html",
+   "reason": "titre exclu (interim)",
+   "at": "2026-11-14T14:30:46+00:00"
+  },
+  {
+   "id": "be8877b1cf5a",
+   "company": "HelloWork",
+   "title": "Analyste Réponse à Incident Cybersécurité - Csirt - CDI H/F ALTEN",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85495064.html",
+   "reason": "expérience demandée ≥ 3 ans « bersecurite, reseaux ou informatique.minimum 3 ans d'experience en reponse »",
+   "at": "2026-11-14T14:30:44+00:00"
+  },
+  {
+   "id": "392929a8a49a",
+   "company": "HelloWork",
+   "title": "Analyste IT Pos - CDI H/F Lagardère Travel Retail",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82880901.html",
+   "reason": "expérience demandée ≥ 3 ans « n bac +2 ou superieure - vous disposez d'une solide experience en environnement retail, »",
+   "at": "2026-11-14T14:30:33+00:00"
+  },
+  {
+   "id": "0191bbbc33a2",
+   "company": "HelloWork",
+   "title": "Analyste Cert Confirmé H/F Vinci SA",
+   "url": "https://www.hellowork.com/fr-fr/emplois/80517598.html",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-14T14:30:33+00:00"
+  },
+  {
+   "id": "a5b171ac3c82",
+   "company": "HelloWork",
+   "title": "Analyste Senior Ratios de Liquidité H/F LENDYS",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83982004.html",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:30:33+00:00"
+  },
+  {
+   "id": "062e0311f077",
+   "company": "HelloWork",
+   "title": "Analyste Middle Office Grains H/F Tereos",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85107264.html",
+   "reason": "expérience demandée ≥ 3 ans « cialisation finance / agro / trading)minimum 3 ans d'experience en controle »",
+   "at": "2026-11-14T14:30:20+00:00"
+  },
+  {
+   "id": "fe0140c3147f",
+   "company": "HelloWork",
+   "title": "Analyste Voc H/F Bouygues Telecom",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84707925.html",
+   "reason": "expérience demandée ≥ 5 ans « ur specialise en cybersecurite avec au moins 5 ans d'experience en securite »",
+   "at": "2026-11-14T14:30:05+00:00"
+  },
+  {
+   "id": "048c592e322c",
+   "company": "HelloWork",
+   "title": "Analyste Opérationnel H/F PROUDREED",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84698066.html",
+   "reason": "expérience demandée ≥ 3 ans « juridique. le profil recherche experience : 3/5 ans d'experience, sur un pos »",
+   "at": "2026-11-14T14:30:04+00:00"
+  },
+  {
+   "id": "0a5abe62da4e",
+   "company": "HelloWork",
+   "title": "Chargé de Missions Analyste Approvisionneur H/F Aldi",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85449731.html",
+   "reason": "expérience demandée ≥ 3 ans « fications appropriees. vous avez deja acquis plusieurs annees d'experience professionnelle en gesti »",
+   "at": "2026-11-14T14:29:56+00:00"
+  },
+  {
+   "id": "88da64d9e6da",
+   "company": "HelloWork",
+   "title": "Analyste Stratégie & Développement H/F Avril",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83950270.html",
+   "reason": "expérience demandée ≥ 3 ans « onomie ou gestion, vous justifiez d'au moins 3 ans d'experience en entrepri »",
+   "at": "2026-11-14T14:29:55+00:00"
+  },
+  {
+   "id": "627d2bd8f2a2",
+   "company": "HelloWork",
+   "title": "Analyste Senior Commercial Finance H/F Mondelez International",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84442097.html",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T14:29:54+00:00"
+  },
+  {
+   "id": "53d58fdc636f",
+   "company": "HelloWork",
+   "title": "Analyste Expert Lcbft H/F AXA Banque",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84152688.html",
+   "reason": "titre exclu (expert)",
+   "at": "2026-11-14T14:29:38+00:00"
+  },
+  {
+   "id": "9a1eef6d6e9f",
+   "company": "HelloWork",
+   "title": "Analyste Forensic H/F Squad",
+   "url": "https://www.hellowork.com/fr-fr/emplois/80940639.html",
+   "reason": "expérience demandée ≥ 3 ans « cole d'ingenieur.experience significative de 3 ans ou plus dans un soc (sec »",
+   "at": "2026-11-14T14:29:23+00:00"
+  },
+  {
+   "id": "f096901aa5eb",
+   "company": "HelloWork",
+   "title": "Export Control Analyst H/F Safran",
+   "url": "https://www.hellowork.com/fr-fr/emplois/80868859.html",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « Exp. 3 ans min. » (retirée)",
+   "at": "2026-11-14T14:29:08+00:00"
+  },
+  {
+   "id": "bfdea68be84c",
+   "company": "HelloWork",
+   "title": "Consultant Gouvernance Data H/F StarClay",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85336047.html",
+   "reason": "expérience demandée ≥ 6 ans (lu par l'IA) « Exp. 6 ans min. » (retirée)",
+   "at": "2026-11-14T14:28:52+00:00"
+  },
   {
    "id": "42d4ead485a3",
    "company": "HelloWork",

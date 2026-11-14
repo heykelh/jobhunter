@@ -1,8 +1,10 @@
 {
- "updated": "2026-11-14T12:15:18+00:00",
+ "updated": "2026-11-14T14:38:43+00:00",
  "keywords": [
   "data",
   "analyst",
+  "analyste",
+  "product builder",
   "ai",
   "ia"
  ],
@@ -11,23 +13,25 @@
   "CDD"
  ],
  "zones": [
-  "Londres",
+  "Belgique",
   "Luxembourg",
-  "Malaisie",
-  "Oman",
   "Suisse",
   "Île-de-France"
  ],
  "max_experience_years": 2,
  "companies": [
-  "APEC",
-  "HelloWork"
+  "HelloWork",
+  "jobs.ch",
+  "jobup.ch",
+  "Moovijob (Luxembourg)",
+  "StepStone Belgique"
  ],
  "ai": {
-  "ok": 1,
-  "errors": 0,
-  "last_error": "",
+  "ok": 30,
+  "errors": 20,
+  "last_error": "HTTP 429 (openai/gpt-oss-120b) : {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kkqt4ecsfjybqscgqhm4275e` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7233, Req",
   "model": "openai/gpt-oss-120b",
-  "at": "2026-11-13T20:30:57+00:00"
+  "waits": 20,
+  "at": "2026-11-14T14:38:43+00:00"
  }
 }
