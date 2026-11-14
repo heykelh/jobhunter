@@ -1,6 +1,54 @@
 {
- "updated": "2026-11-14T14:50:11+00:00",
+ "updated": "2026-11-14T17:32:40+00:00",
  "items": [
+  {
+   "id": "44fd623b3115",
+   "company": "ING",
+   "title": "Agentic automation & AI Consultant",
+   "url": "https://careers.ing.com/en/job/amsterdam/agentic-automation-and-ai-consultant/3121/42373877568",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-14T17:32:40+00:00"
+  },
+  {
+   "id": "1b0b8cc13bff",
+   "company": "ING",
+   "title": "AI Developer (Copilot Studio)",
+   "url": "https://careers.ing.com/en/job/slovakia/ai-developer-copilot-studio/3121/44008552640",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-14T17:32:39+00:00"
+  },
+  {
+   "id": "6913f50031c3",
+   "company": "ING",
+   "title": "Risk AI Data Scientist",
+   "url": "https://careers.ing.com/en/job/warsaw/risk-ai-data-scientist/3121/40954641024",
+   "reason": "lieu hors zones",
+   "at": "2026-11-14T17:32:37+00:00"
+  },
+  {
+   "id": "94d251bbe1e0",
+   "company": "ING",
+   "title": "AI / Copilot Studio Developer",
+   "url": "https://careers.ing.com/en/job/makati-city/ai-copilot-studio-developer/3121/45093361600",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-14T17:32:36+00:00"
+  },
+  {
+   "id": "f1adcd1b9860",
+   "company": "ING",
+   "title": "AI / Copilot Studio Developers",
+   "url": "https://careers.ing.com/en/job/makati-city/ai-copilot-studio-developers/3121/42105052736",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-14T17:32:34+00:00"
+  },
+  {
+   "id": "0ba0fd472c48",
+   "company": "Orange",
+   "title": "Data Platform Engineer",
+   "url": "https://orange.jobs/fr/fr/job/ICM-588522/Data-Platform-Engineer",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-14T17:29:57+00:00"
+  },
   {
    "id": "2db5c47269ec",
    "company": "ING",
