@@ -1,6 +1,38 @@
 {
- "updated": "2026-11-14T01:03:27+00:00",
+ "updated": "2026-11-14T11:37:01+00:00",
  "items": [
+  {
+   "id": "051c89d47939",
+   "company": "UBS",
+   "title": "Associate Director, Tech Support Analyst",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=354048",
+   "reason": "titre exclu (director)",
+   "at": "2026-11-14T11:36:04+00:00"
+  },
+  {
+   "id": "7dee2c44efe3",
+   "company": "jobup.ch",
+   "title": "Data Analytics & Member Success Specialist",
+   "url": "https://www.jobup.ch/fr/emplois/detail/1fac4914-06b8-48fe-abd2-35f5f321d4e5/",
+   "reason": "expérience demandée ≥ 5 ans « en analyse de donnees ou domaine similaire, 5-7 ans d'experience. competence »",
+   "at": "2026-11-14T11:33:40+00:00"
+  },
+  {
+   "id": "3a6e83ff4738",
+   "company": "jobup.ch",
+   "title": "IT Data Analytics Engineer (w/m/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/821c5f2c-8deb-4549-b61b-72ada51280a1/",
+   "reason": "expérience demandée ≥ 3 ans « raitement de structures de donnees complexes experience de plusieurs annees en ingenierie des donnee »",
+   "at": "2026-11-14T11:33:39+00:00"
+  },
+  {
+   "id": "288d87804e5b",
+   "company": "SBB CFF FFS",
+   "title": "Business Analyst:in Facility Management",
+   "url": "https://jobs.sbb.ch/v2/offene-stellen/business-analyst-in-facility-management/b6a7b944-6887-4ee3-aa92-d5d0b75e1be2",
+   "reason": "expérience demandée ≥ 3 ans « rtiges) gibt dir eine gute basis. du bringst mehrjahrige erfahrung in der busines »",
+   "at": "2026-11-14T11:26:51+00:00"
+  },
   {
    "id": "55e9e30f31b8",
    "company": "Crédit Agricole",
