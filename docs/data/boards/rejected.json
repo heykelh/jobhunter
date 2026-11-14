@@ -1,6 +1,142 @@
 {
- "updated": "2026-11-14T14:38:43+00:00",
+ "updated": "2026-11-14T18:54:33+00:00",
  "items": [
+  {
+   "id": "85f1d0cee399",
+   "company": "StepStone Belgique",
+   "title": "Data Science Editor",
+   "url": "https://www.stepstone.be/offres-d-emploi--Data-Science-Editor-Belgium-London-Portugal-DataCamp-Belgium-BV--2177503-inline.html",
+   "reason": "expérience demandée ≥ 3 ans « or creator within the data and ai space with proven experience in creating, editing, an »",
+   "at": "2026-11-14T18:54:33+00:00"
+  },
+  {
+   "id": "a2ee2622b190",
+   "company": "StepStone Belgique",
+   "title": "Data Scientist - HQ Brussels",
+   "url": "https://www.stepstone.be/offres-d-emploi--Data-Scientist-HQ-Brussels-BRUSSEL-BNP-Paribas-Fortis--2248373-inline.html",
+   "reason": "expérience demandée ≥ 3 ans « e seeking a data scientist with a minimum of 3 years of experience in develop »",
+   "at": "2026-11-14T18:53:55+00:00"
+  },
+  {
+   "id": "bfb741d91783",
+   "company": "StepStone Belgique",
+   "title": "Consultant Data & Analytics SAP - Datasphere / BDC l Belgium",
+   "url": "https://www.stepstone.be/offres-d-emploi--Consultant-Data-Analytics-SAP-Datasphere-BDC-l-Belgium-Brussels-Talan-Belgium--2212274-inline.html",
+   "reason": "expérience demandée ≥ 3 ans « s operate across multiple industries, with a proven track record of delivering high-value »",
+   "at": "2026-11-14T18:53:18+00:00"
+  },
+  {
+   "id": "50a552ca242a",
+   "company": "jobup.ch",
+   "title": "Senior Consolidation and Reporting Analyst",
+   "url": "https://www.jobup.ch/fr/emplois/detail/914effc6-e670-4e9b-9ca1-25942844b736/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T18:49:36+00:00"
+  },
+  {
+   "id": "da622f061032",
+   "company": "jobup.ch",
+   "title": "Business Analyst Prozessmanagement Unternehmen",
+   "url": "https://www.jobup.ch/fr/emplois/detail/ae33e9aa-f3df-40e8-8ce1-02300a86390d/",
+   "reason": "expérience demandée ≥ 3 ans « apportez formation commerciale de base avec plusieurs annees d'experience professionnelle dans l'a »",
+   "at": "2026-11-14T18:49:36+00:00"
+  },
+  {
+   "id": "72a9a945f81b",
+   "company": "jobup.ch",
+   "title": "PRODUCTION PLANNING ANALYST (M/F/D)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/0c149667-d764-4516-b54a-f0cb93137818/",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « Expérience dans les domaines de l’ordonnancement et de la planification »",
+   "at": "2026-11-14T18:49:23+00:00"
+  },
+  {
+   "id": "3401d5c62172",
+   "company": "HelloWork",
+   "title": "Expert Data Cloud & IA H/F CGI",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85492951.html",
+   "reason": "titre exclu (expert)",
+   "at": "2026-11-14T18:47:19+00:00"
+  },
+  {
+   "id": "028278adada6",
+   "company": "HelloWork",
+   "title": "Product Builder IA H/F Niji",
+   "url": "https://www.hellowork.com/fr-fr/emplois/81815715.html",
+   "reason": "expérience demandée ≥ 4 ans « ingenieur ou universite · vous avez au moins 4 ans d'experience sur des rol »",
+   "at": "2026-11-14T18:47:06+00:00"
+  },
+  {
+   "id": "c2d6f04850e4",
+   "company": "HelloWork",
+   "title": "Product Owner - Product Builder - Logiciels de Santé Mandatory H/F Hunteo",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84805522.html",
+   "reason": "expérience demandée ≥ 3 ans « 6e). le profil recherche vous disposez d'une experience confirmee en qualite de product ow »",
+   "at": "2026-11-14T18:47:05+00:00"
+  },
+  {
+   "id": "ac6bed134c4f",
+   "company": "HelloWork",
+   "title": "Product Builder H/F Barrière",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83973778.html",
+   "reason": "expérience demandée ≥ 4 ans « erce, ingenierie ou equivalent, avec minimum 4 ans d'experience en product »",
+   "at": "2026-11-14T18:47:03+00:00"
+  },
+  {
+   "id": "8295af26c98d",
+   "company": "HelloWork",
+   "title": "Business Analyste Monétique H/F ALTEN",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85495069.html",
+   "reason": "expérience demandée ≥ 6 ans « du poste business analyste monetique (h/f) - 6 ans d'experience alten, la m »",
+   "at": "2026-11-14T18:47:00+00:00"
+  },
+  {
+   "id": "ba68fff8ff3c",
+   "company": "HelloWork",
+   "title": "Analyste Soc - Run H/F Groupe Trèfle",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85223229.html",
+   "reason": "expérience demandée ≥ 3 ans « suivantes :experience et expertise :minimum 3 ans d'experience professionn »",
+   "at": "2026-11-14T18:46:48+00:00"
+  },
+  {
+   "id": "164c46bfb175",
+   "company": "HelloWork",
+   "title": "Analyste Reporting Risque H/F BPCE SA",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82274483.html",
+   "reason": "expérience demandée ≥ 10 ans « r bi - bac +5 avec une experience d'au moins 10 ans dans le domaine bancaire »",
+   "at": "2026-11-14T18:46:46+00:00"
+  },
+  {
+   "id": "2b26beea7d64",
+   "company": "HelloWork",
+   "title": "Analyste Développeur COBOL H/F HN Services",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85442190.html",
+   "reason": "expérience demandée ≥ 3 ans « ction. le profil recherche profil recherche :experience confirmee sur les technologies mvs »",
+   "at": "2026-11-14T18:46:43+00:00"
+  },
+  {
+   "id": "33c8c9802694",
+   "company": "HelloWork",
+   "title": "Analyste M&A H/F Spie Operations",
+   "url": "https://www.hellowork.com/fr-fr/emplois/81848277.html",
+   "reason": "expérience demandée ≥ 3 ans « ance, finance or m&a professional experience~3 years of professional experien »",
+   "at": "2026-11-14T18:46:32+00:00"
+  },
+  {
+   "id": "e0d679983770",
+   "company": "HelloWork",
+   "title": "Analyste Financement Automobile H/F CGI Finance",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85439861.html",
+   "reason": "expérience demandée ≥ 3 ans « che vous disposez, idealement, au minimum de 3 ans d'experience dans le sec »",
+   "at": "2026-11-14T18:46:30+00:00"
+  },
+  {
+   "id": "2d74fc135b79",
+   "company": "HelloWork",
+   "title": "Analyste Financement Automobile H/F CGI Finance",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85439841.html",
+   "reason": "expérience demandée ≥ 3 ans « che vous disposez, idealement, au minimum de 3 ans d'experience dans le sec »",
+   "at": "2026-11-14T18:46:29+00:00"
+  },
   {
    "id": "3ffbce2a04c6",
    "company": "StepStone Belgique",

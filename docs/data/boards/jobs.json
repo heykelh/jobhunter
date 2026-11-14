@@ -1,6 +1,820 @@
 {
- "updated": "2026-11-14T14:38:43+00:00",
+ "updated": "2026-11-14T18:54:33+00:00",
  "jobs": [
+  {
+   "id": "195e75dbe607",
+   "company": "Easi SA",
+   "title": "Data Integration Consultant",
+   "url": "https://www.stepstone.be/offres-d-emploi--Data-Integration-Consultant-ZWIJNAARDE-Easi-SA--2248261-inline.html",
+   "via": "StepStone Belgique",
+   "zone": "Belgique",
+   "country": "Belgique",
+   "contract": "?",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-13T00:01:25+00:00",
+   "seed": false,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T18:52:40+00:00",
+   "last_seen": "2026-11-14T18:52:40+00:00"
+  },
+  {
+   "id": "d1013f450539",
+   "company": "finnova AG Bankware",
+   "title": "AI Enablement & Solution Engineer (all) 60-100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/b9aed56d-52c5-4622-9222-b8fc646024d7/",
+   "via": "jobup.ch",
+   "zone": "Suisse",
+   "country": "Suisse",
+   "contract": "CDI",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-11-14T02:34:18+01:00",
+   "seed": false,
+   "rv": 4,
+   "match": {
+    "score": 70,
+    "have": [
+     "python",
+     "aws",
+     "llm",
+     "rag",
+     "qualité des données",
+     "gouvernance",
+     "conformité"
+    ],
+    "missing": [
+     "azure",
+     "catalogue",
+     "allemand"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T18:50:02+00:00",
+   "last_seen": "2026-11-14T18:50:02+00:00"
+  },
+  {
+   "id": "894ce1aa2847",
+   "company": "isolutions AG",
+   "title": "AI First Data Engineer",
+   "url": "https://www.jobup.ch/fr/emplois/detail/0c1aa825-1834-4014-ad3a-07699ab3f043/",
+   "via": "jobup.ch",
+   "zone": "Suisse",
+   "country": "Suisse",
+   "contract": "CDI",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-09-19T03:07:10+02:00",
+   "seed": false,
+   "rv": 4,
+   "match": {
+    "score": 50,
+    "have": [
+     "python",
+     "sql",
+     "power bi",
+     "dax"
+    ],
+    "missing": [
+     "databricks",
+     "azure",
+     "modélisation",
+     "allemand"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T18:49:56+00:00",
+   "last_seen": "2026-11-14T18:49:56+00:00"
+  },
+  {
+   "id": "da996b407d53",
+   "company": "AECOM",
+   "title": "AI Solution Engineer",
+   "url": "https://www.jobup.ch/fr/emplois/detail/c388c259-5516-46fa-b036-1ec07dd36380/",
+   "via": "jobup.ch",
+   "zone": "Suisse",
+   "country": "Suisse",
+   "contract": "?",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-10-29T02:07:40+01:00",
+   "seed": false,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T18:49:45+00:00",
+   "last_seen": "2026-11-14T18:49:45+00:00"
+  },
+  {
+   "id": "e2bd9f9b9739",
+   "company": "EPFL",
+   "title": "AI Engineer for Academic Services and Program Support",
+   "url": "https://www.jobup.ch/fr/emplois/detail/10e22c13-c04b-4223-aa16-e20381cfd567/",
+   "via": "jobup.ch",
+   "zone": "Suisse",
+   "country": "Suisse",
+   "contract": "CDD",
+   "experience": "2 ans min.",
+   "junior": false,
+   "published": "2026-11-03T10:10:46+01:00",
+   "seed": false,
+   "rv": 4,
+   "match": {
+    "score": 83,
+    "have": [
+     "python",
+     "machine learning",
+     "llm",
+     "rag",
+     "anglais"
+    ],
+    "missing": [
+     "sap"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T18:49:43+00:00",
+   "last_seen": "2026-11-14T18:49:43+00:00"
+  },
+  {
+   "id": "d50f65c2916b",
+   "company": "Ethinc Sàrl",
+   "title": "AI Engineer – Production Applications and Systems",
+   "url": "https://www.jobup.ch/fr/emplois/detail/74298fa4-91ee-4323-9147-477aae2b69df/",
+   "via": "jobup.ch",
+   "zone": "Suisse",
+   "country": "Suisse",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-04T16:23:28+01:00",
+   "seed": false,
+   "rv": 4,
+   "match": {
+    "score": 90,
+    "have": [
+     "python",
+     "sql",
+     "docker",
+     "machine learning",
+     "llm",
+     "rag",
+     "data quality",
+     "qualité des données",
+     "anglais"
+    ],
+    "missing": [
+     "git"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T18:49:39+00:00",
+   "last_seen": "2026-11-14T18:49:39+00:00"
+  },
+  {
+   "id": "c38a3128fb54",
+   "company": "Albedis",
+   "title": "Security Analyst (80-100%)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/6aebafa0-fb67-4e2f-96a7-bface1aaa4a3/",
+   "via": "jobup.ch",
+   "zone": "Suisse",
+   "country": "Suisse",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-03T15:27:53+01:00",
+   "seed": false,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T18:49:36+00:00",
+   "last_seen": "2026-11-14T18:49:36+00:00"
+  },
+  {
+   "id": "cf46f120bf80",
+   "company": "Academic Work Switzerland",
+   "title": "Business Analyst en Finance pour une société internationale !",
+   "url": "https://www.jobup.ch/fr/emplois/detail/572250d1-f2c0-4f0e-99a0-5ce986cec049/",
+   "via": "jobup.ch",
+   "zone": "Suisse",
+   "country": "Suisse",
+   "contract": "?",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-10-26T06:11:27+01:00",
+   "seed": false,
+   "rv": 4,
+   "match": {
+    "score": 80,
+    "have": [
+     "intelligence artificielle",
+     "tableaux de bord",
+     "business analyst",
+     "anglais"
+    ],
+    "missing": [
+     "sap"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T18:49:30+00:00",
+   "last_seen": "2026-11-14T18:49:30+00:00"
+  },
+  {
+   "id": "0f39d4513ed0",
+   "company": "Michael Page",
+   "title": "Inventory & Planning Analyst - 9 month contract",
+   "url": "https://www.jobup.ch/fr/emplois/detail/def8f191-a54c-4e06-a055-410241b2eb58/",
+   "via": "jobup.ch",
+   "zone": "Suisse",
+   "country": "Suisse",
+   "contract": "?",
+   "experience": "1 an min.",
+   "junior": false,
+   "published": "2026-11-12T19:10:38+01:00",
+   "seed": false,
+   "rv": 4,
+   "match": {
+    "score": 80,
+    "have": [
+     "excel",
+     "reporting",
+     "pricing",
+     "anglais"
+    ],
+    "missing": [
+     "sap"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T18:49:15+00:00",
+   "last_seen": "2026-11-14T18:49:15+00:00"
+  },
+  {
+   "id": "dab274884e02",
+   "company": "Academic Work Switzerland",
+   "title": "Business Analyst - Secteur Luxe",
+   "url": "https://www.jobup.ch/fr/emplois/detail/deb2574e-410a-44fe-b76a-c1b6a613dde6/",
+   "via": "jobup.ch",
+   "zone": "Suisse",
+   "country": "Suisse",
+   "contract": "?",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-10-21T14:27:43+02:00",
+   "seed": false,
+   "rv": 4,
+   "match": {
+    "score": 67,
+    "have": [
+     "business analyst",
+     "anglais"
+    ],
+    "missing": [
+     "oracle"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T18:49:05+00:00",
+   "last_seen": "2026-11-14T18:49:05+00:00"
+  },
+  {
+   "id": "f70e9aa6063b",
+   "company": "Emmi Schweiz AG",
+   "title": "Data Engineer 100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/6d675b40-b98b-4260-870c-b8d84921d082/",
+   "via": "jobup.ch",
+   "zone": "Suisse",
+   "country": "Suisse",
+   "contract": "?",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-11-12T02:04:24+01:00",
+   "seed": false,
+   "rv": 4,
+   "match": {
+    "score": 38,
+    "have": [
+     "etl",
+     "qualité des données",
+     "anglais"
+    ],
+    "missing": [
+     "dbt",
+     "azure",
+     "data warehouse",
+     "modélisation",
+     "allemand"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T18:49:04+00:00",
+   "last_seen": "2026-11-14T18:49:04+00:00"
+  },
+  {
+   "id": "d7e4516fff26",
+   "company": "Academic Work Switzerland",
+   "title": "Mission étudiante à 40% (H/F) - Data Cleaning, 2 mois",
+   "url": "https://www.jobup.ch/fr/emplois/detail/54a81ee7-2668-47dd-9a88-4e8f72eec1c5/",
+   "via": "jobup.ch",
+   "zone": "Suisse",
+   "country": "Suisse",
+   "contract": "?",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-10-22T18:51:36+02:00",
+   "seed": false,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T18:49:01+00:00",
+   "last_seen": "2026-11-14T18:49:01+00:00"
+  },
+  {
+   "id": "ac3fa5a9187d",
+   "company": "Academic Work Switzerland",
+   "title": "Data Engineer Junior (F/H) 100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/962acd07-cb00-4fbb-b87d-ee9ec2241361/",
+   "via": "jobup.ch",
+   "zone": "Suisse",
+   "country": "Suisse",
+   "contract": "?",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-12T12:16:18+01:00",
+   "seed": false,
+   "rv": 4,
+   "match": {
+    "score": 83,
+    "have": [
+     "python",
+     "sql",
+     "aws",
+     "docker",
+     "anglais"
+    ],
+    "missing": [
+     "airflow"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T18:48:58+00:00",
+   "last_seen": "2026-11-14T18:48:58+00:00"
+  },
+  {
+   "id": "57c740546630",
+   "company": "Banque Lombard Odier & Cie SA",
+   "title": "Spécialiste Digital, IA & Excellence Opérationnelle (80-100%)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/b2c8590c-b60a-4d0f-a3a1-7c34196b01d3/",
+   "via": "jobs.ch",
+   "zone": "Suisse",
+   "country": "Suisse",
+   "contract": "?",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-10-27T05:29:31+01:00",
+   "seed": false,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T18:48:35+00:00",
+   "last_seen": "2026-11-14T18:48:35+00:00"
+  },
+  {
+   "id": "47d5a51f8fad",
+   "company": "Purpur Ventures AG",
+   "title": "Health AI Product Owner (all genders)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/ccbbab56-39ac-44b8-9bfb-6dea5b76c79b/",
+   "via": "jobs.ch",
+   "zone": "Suisse",
+   "country": "Suisse",
+   "contract": "CDI",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-10-30T11:30:16+01:00",
+   "seed": false,
+   "rv": 4,
+   "match": {
+    "score": 67,
+    "have": [
+     "rgpd",
+     "conformité",
+     "spécifications",
+     "anglais"
+    ],
+    "missing": [
+     "agile",
+     "allemand"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T18:48:25+00:00",
+   "last_seen": "2026-11-14T18:48:25+00:00"
+  },
+  {
+   "id": "85da050da0f4",
+   "company": "SPIE Schweiz AG",
+   "title": "Consultant AI, Data & Automation 80-100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/7e853ff6-a7f1-4fb5-a153-736292e9dcc3/",
+   "via": "jobs.ch",
+   "zone": "Suisse",
+   "country": "Suisse",
+   "contract": "CDI",
+   "experience": "2 ans min.",
+   "junior": false,
+   "published": "2026-11-13T19:02:49+01:00",
+   "seed": false,
+   "rv": 4,
+   "match": {
+    "score": 50,
+    "have": [
+     "power bi",
+     "anglais"
+    ],
+    "missing": [
+     "azure",
+     "allemand"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T18:48:23+00:00",
+   "last_seen": "2026-11-14T18:48:23+00:00"
+  },
+  {
+   "id": "e915a472cadb",
+   "company": "Alpinum Investment Management AG",
+   "title": "INVESTMENT ANALYST, CREDIT / ALTERNATIVES, 100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/3d965fb1-4964-44d4-9b15-5e6b66f56269/",
+   "via": "jobs.ch",
+   "zone": "Suisse",
+   "country": "Suisse",
+   "contract": "CDI",
+   "experience": "1 an min. · junior",
+   "junior": true,
+   "published": "2026-10-26T09:32:19+01:00",
+   "seed": false,
+   "rv": 4,
+   "match": {
+    "score": 71,
+    "have": [
+     "python",
+     "excel",
+     "reporting",
+     "yield",
+     "anglais"
+    ],
+    "missing": [
+     "modélisation",
+     "allemand"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T18:48:10+00:00",
+   "last_seen": "2026-11-14T18:48:10+00:00"
+  },
+  {
+   "id": "b985b69ce9b4",
+   "company": "SpeciTec SA",
+   "title": "Business Analyst IA - Claude - Try&Hire à 100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/1cd699c2-802b-4ea3-9547-8b0728e8687e/",
+   "via": "jobs.ch",
+   "zone": "Suisse",
+   "country": "Suisse",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-06T15:30:44+01:00",
+   "seed": false,
+   "rv": 4,
+   "match": {
+    "score": 50,
+    "have": [
+     "business analyst",
+     "anglais"
+    ],
+    "missing": [
+     "git",
+     "agile"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T18:48:09+00:00",
+   "last_seen": "2026-11-14T18:48:09+00:00"
+  },
+  {
+   "id": "5355c189c2c8",
+   "company": "Elan Personal AG",
+   "title": "Manufacturing Process Analyst / Engineer",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/69fea50f-6ad1-44c9-9eb6-d22d4f2c12f6/",
+   "via": "jobs.ch",
+   "zone": "Suisse",
+   "country": "Suisse",
+   "contract": "?",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-11-13T18:14:47+01:00",
+   "seed": false,
+   "rv": 4,
+   "match": {
+    "score": 57,
+    "have": [
+     "python",
+     "sql",
+     "conformité",
+     "anglais"
+    ],
+    "missing": [
+     "snowflake",
+     "agile",
+     "allemand"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T18:47:53+00:00",
+   "last_seen": "2026-11-14T18:47:53+00:00"
+  },
+  {
+   "id": "89a423531da8",
+   "company": "Abbott AG",
+   "title": "Finance Systems Analyst",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/1eab2ea1-38f6-4aac-b1c3-e81d5cc54649/",
+   "via": "jobs.ch",
+   "zone": "Suisse",
+   "country": "Suisse",
+   "contract": "CDI",
+   "experience": "2 ans min.",
+   "junior": false,
+   "published": "2026-11-06T11:17:14+01:00",
+   "seed": false,
+   "rv": 4,
+   "match": {
+    "score": 89,
+    "have": [
+     "excel",
+     "data quality",
+     "qualité des données",
+     "gouvernance",
+     "conformité",
+     "reporting",
+     "tableaux de bord",
+     "anglais"
+    ],
+    "missing": [
+     "sap"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T18:47:51+00:00",
+   "last_seen": "2026-11-14T18:47:51+00:00"
+  },
+  {
+   "id": "3a9f80e442c6",
+   "company": "Salt Mobile SA",
+   "title": "Marketing Data Scientist",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/124a9989-f5d1-4f3d-93ea-15c850dc209f/",
+   "via": "jobs.ch",
+   "zone": "Suisse",
+   "country": "Suisse",
+   "contract": "CDI",
+   "experience": "2 ans min.",
+   "junior": false,
+   "published": "2026-11-12T02:00:19+01:00",
+   "seed": false,
+   "rv": 4,
+   "match": {
+    "score": 71,
+    "have": [
+     "sql",
+     "excel",
+     "pilotage",
+     "pricing",
+     "anglais"
+    ],
+    "missing": [
+     "modélisation",
+     "sap"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T18:47:41+00:00",
+   "last_seen": "2026-11-14T18:47:41+00:00"
+  },
+  {
+   "id": "1a4761260b85",
+   "company": "Accès Personnel SA",
+   "title": "Data Analyst (H/F)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/235cdc27-4b96-41ba-86e4-aea29398a0e0/",
+   "via": "jobs.ch",
+   "zone": "Suisse",
+   "country": "Suisse",
+   "contract": "?",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-11-10T12:32:39+01:00",
+   "seed": false,
+   "rv": 4,
+   "match": {
+    "score": 64,
+    "have": [
+     "python",
+     "excel",
+     "qualité des données",
+     "reporting",
+     "tableaux de bord",
+     "pilotage",
+     "spécifications"
+    ],
+    "missing": [
+     "tableau",
+     "agile",
+     "scrum",
+     "jira"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T18:47:38+00:00",
+   "last_seen": "2026-11-14T18:47:38+00:00"
+  },
+  {
+   "id": "4c170c345116",
+   "company": "WedR",
+   "title": "Product Builder - Chef de Projet IA - Paris CDI H/F WedR",
+   "url": "https://www.hellowork.com/fr-fr/emplois/74791164.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-10-30T00:16:24+00:00",
+   "seed": false,
+   "rv": 4,
+   "match": {
+    "score": 75,
+    "have": [
+     "intelligence artificielle",
+     "business analyst",
+     "anglais"
+    ],
+    "missing": [
+     "agile"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T18:47:18+00:00",
+   "last_seen": "2026-11-14T18:47:18+00:00"
+  },
+  {
+   "id": "121f71fc8d63",
+   "company": "Niji",
+   "title": "Product Builder Tech - IA Agentique H/F Niji",
+   "url": "https://www.hellowork.com/fr-fr/emplois/81663321.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "non précisée",
+   "junior": false,
+   "published": "2026-10-25T00:08:12+00:00",
+   "seed": false,
+   "rv": 4,
+   "match": {
+    "score": 43,
+    "have": [
+     "intelligence artificielle",
+     "spécifications",
+     "business analyst"
+    ],
+    "missing": [
+     "agile",
+     "scrum",
+     "jira",
+     "javascript"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T18:47:11+00:00",
+   "last_seen": "2026-11-14T18:47:11+00:00"
+  },
+  {
+   "id": "13d63f3b52dc",
+   "company": "Alliance Healthcare Recrutement",
+   "title": "Analyste Développeur Bi H/F Alliance Healthcare Recrutement",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82122710.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-08T00:06:12+00:00",
+   "seed": false,
+   "rv": 4,
+   "match": {
+    "score": 57,
+    "have": [
+     "python",
+     "sql",
+     "power bi",
+     "etl",
+     "reporting",
+     "tableaux de bord",
+     "spécifications",
+     "anglais"
+    ],
+    "missing": [
+     "spark",
+     "databricks",
+     "data warehouse",
+     "qlik",
+     "talend",
+     "oracle"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T18:47:03+00:00",
+   "last_seen": "2026-11-14T18:47:03+00:00"
+  },
+  {
+   "id": "8edca47fda17",
+   "company": "Moulins Soufflet",
+   "title": "Analyste Transport & Logistique H/F Moulins Soufflet",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83245790.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-10T00:55:53+00:00",
+   "seed": false,
+   "rv": 4,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-14T18:47:00+00:00",
+   "last_seen": "2026-11-14T18:47:00+00:00"
+  },
+  {
+   "id": "61a8caa018a5",
+   "company": "Chronopost",
+   "title": "Analyste Crédit - CDD H/F Chronopost",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85268550.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDD",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-07T00:27:15+00:00",
+   "seed": false,
+   "rv": 4,
+   "match": {
+    "score": 75,
+    "have": [
+     "excel",
+     "conformité",
+     "pilotage"
+    ],
+    "missing": [
+     "salesforce"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T18:46:46+00:00",
+   "last_seen": "2026-11-14T18:46:46+00:00"
+  },
+  {
+   "id": "5a1778d7f563",
+   "company": "RÉSEAU TALENTS",
+   "title": "ADV Data Analyste H/F RÉSEAU TALENTS",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85209936.html",
+   "via": "HelloWork",
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-05T19:13:10+00:00",
+   "seed": false,
+   "rv": 4,
+   "match": {
+    "score": 80,
+    "have": [
+     "power bi",
+     "excel",
+     "business analyst",
+     "anglais"
+    ],
+    "missing": [
+     "allemand"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-14T18:46:43+00:00",
+   "last_seen": "2026-11-14T18:46:43+00:00"
+  },
   {
    "id": "a6af09d06fd7",
    "company": "MINISTERIE VAN LANDSVERDEDIGING",
@@ -37,7 +851,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-14T14:38:33+00:00",
-   "last_seen": "2026-11-14T14:38:33+00:00"
+   "last_seen": "2026-11-14T18:52:40+00:00"
   },
   {
    "id": "f1f31787f2e1",
@@ -67,7 +881,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-14T14:38:32+00:00",
-   "last_seen": "2026-11-14T14:38:32+00:00"
+   "last_seen": "2026-11-14T18:52:40+00:00"
   },
   {
    "id": "253a77c783cb",
@@ -86,7 +900,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-14T14:38:29+00:00",
-   "last_seen": "2026-11-14T14:38:29+00:00"
+   "last_seen": "2026-11-14T18:52:40+00:00"
   },
   {
    "id": "4982f0d1bbfb",
@@ -114,7 +928,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-14T14:38:28+00:00",
-   "last_seen": "2026-11-14T14:38:28+00:00"
+   "last_seen": "2026-11-14T18:52:40+00:00"
   },
   {
    "id": "606367aacf81",
@@ -146,7 +960,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-14T14:38:26+00:00",
-   "last_seen": "2026-11-14T14:38:26+00:00"
+   "last_seen": "2026-11-14T18:52:40+00:00"
   },
   {
    "id": "f5e108f9d33d",
@@ -173,7 +987,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-14T14:38:23+00:00",
-   "last_seen": "2026-11-14T14:38:23+00:00"
+   "last_seen": "2026-11-14T18:52:40+00:00"
   },
   {
    "id": "00ef5deeed23",
@@ -230,7 +1044,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-14T14:38:18+00:00",
-   "last_seen": "2026-11-14T14:38:18+00:00"
+   "last_seen": "2026-11-14T18:52:40+00:00"
   },
   {
    "id": "70cbf543f545",
@@ -249,7 +1063,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-14T14:38:17+00:00",
-   "last_seen": "2026-11-14T14:38:17+00:00"
+   "last_seen": "2026-11-14T18:52:40+00:00"
   },
   {
    "id": "39103325126f",
@@ -285,7 +1099,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-14T14:38:16+00:00",
-   "last_seen": "2026-11-14T14:38:16+00:00"
+   "last_seen": "2026-11-14T18:52:40+00:00"
   },
   {
    "id": "996c49bf4fae",
@@ -304,7 +1118,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-14T14:38:13+00:00",
-   "last_seen": "2026-11-14T14:38:13+00:00"
+   "last_seen": "2026-11-14T18:52:40+00:00"
   },
   {
    "id": "2360c9a80faa",
@@ -323,7 +1137,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-14T14:38:11+00:00",
-   "last_seen": "2026-11-14T14:38:11+00:00"
+   "last_seen": "2026-11-14T18:52:40+00:00"
   },
   {
    "id": "6b8fa9324a90",
@@ -342,7 +1156,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-14T14:38:10+00:00",
-   "last_seen": "2026-11-14T14:38:10+00:00"
+   "last_seen": "2026-11-14T18:52:40+00:00"
   },
   {
    "id": "b1c72ec9d54f",
@@ -361,7 +1175,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-14T14:38:08+00:00",
-   "last_seen": "2026-11-14T14:38:08+00:00"
+   "last_seen": "2026-11-14T18:52:40+00:00"
   },
   {
    "id": "76dbb917ccf1",
@@ -380,7 +1194,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-14T14:38:05+00:00",
-   "last_seen": "2026-11-14T14:38:05+00:00"
+   "last_seen": "2026-11-14T18:52:40+00:00"
   },
   {
    "id": "ce1c10267c44",
@@ -409,7 +1223,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-14T14:38:04+00:00",
-   "last_seen": "2026-11-14T14:38:04+00:00"
+   "last_seen": "2026-11-14T18:52:40+00:00"
   },
   {
    "id": "8c18c215b632",
@@ -440,7 +1254,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-14T14:38:02+00:00",
-   "last_seen": "2026-11-14T14:38:02+00:00"
+   "last_seen": "2026-11-14T18:52:40+00:00"
   },
   {
    "id": "f8466005659a",
@@ -496,7 +1310,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-14T14:37:59+00:00",
-   "last_seen": "2026-11-14T14:37:59+00:00"
+   "last_seen": "2026-11-14T18:52:01+00:00"
   },
   {
    "id": "4ee4c8bd91c4",
@@ -529,7 +1343,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-14T14:37:57+00:00",
-   "last_seen": "2026-11-14T14:37:57+00:00"
+   "last_seen": "2026-11-14T18:52:01+00:00"
   },
   {
    "id": "5b3bcf6620f4",
@@ -580,7 +1394,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-14T14:37:55+00:00",
-   "last_seen": "2026-11-14T14:37:55+00:00"
+   "last_seen": "2026-11-14T18:52:01+00:00"
   },
   {
    "id": "202b60f316ac",
@@ -618,7 +1432,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-14T14:37:51+00:00",
-   "last_seen": "2026-11-14T14:37:51+00:00"
+   "last_seen": "2026-11-14T18:52:01+00:00"
   },
   {
    "id": "0177d4f44f09",
@@ -651,7 +1465,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-14T14:37:50+00:00",
-   "last_seen": "2026-11-14T14:37:50+00:00"
+   "last_seen": "2026-11-14T18:52:01+00:00"
   },
   {
    "id": "92f5321ae5a8",
@@ -721,7 +1535,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-14T14:37:46+00:00",
-   "last_seen": "2026-11-14T14:37:46+00:00"
+   "last_seen": "2026-11-14T18:52:01+00:00"
   },
   {
    "id": "b98f6046a52d",
@@ -753,7 +1567,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-14T14:37:44+00:00",
-   "last_seen": "2026-11-14T14:37:44+00:00"
+   "last_seen": "2026-11-14T18:52:01+00:00"
   },
   {
    "id": "336766a4c4c4",
@@ -772,7 +1586,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-14T14:37:43+00:00",
-   "last_seen": "2026-11-14T14:37:43+00:00"
+   "last_seen": "2026-11-14T18:52:01+00:00"
   },
   {
    "id": "8bb73797aab1",
@@ -800,7 +1614,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-14T14:37:40+00:00",
-   "last_seen": "2026-11-14T14:37:40+00:00"
+   "last_seen": "2026-11-14T18:52:01+00:00"
   },
   {
    "id": "ed1c80bd1c75",
@@ -819,7 +1633,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-14T14:37:38+00:00",
-   "last_seen": "2026-11-14T14:37:38+00:00"
+   "last_seen": "2026-11-14T18:52:01+00:00"
   },
   {
    "id": "db6b982f5920",
@@ -848,7 +1662,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-14T14:37:37+00:00",
-   "last_seen": "2026-11-14T14:37:37+00:00"
+   "last_seen": "2026-11-14T18:52:01+00:00"
   },
   {
    "id": "0aa403c5bdb4",
@@ -867,7 +1681,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-14T14:37:35+00:00",
-   "last_seen": "2026-11-14T14:37:35+00:00"
+   "last_seen": "2026-11-14T18:52:01+00:00"
   },
   {
    "id": "510c7130f899",
@@ -898,7 +1712,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-14T14:37:33+00:00",
-   "last_seen": "2026-11-14T14:37:33+00:00"
+   "last_seen": "2026-11-14T18:52:01+00:00"
   },
   {
    "id": "cfcf2ae69863",
@@ -926,7 +1740,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-14T14:37:32+00:00",
-   "last_seen": "2026-11-14T14:37:32+00:00"
+   "last_seen": "2026-11-14T18:52:01+00:00"
   },
   {
    "id": "749ff71f2ada",
@@ -945,7 +1759,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-14T14:35:06+00:00",
-   "last_seen": "2026-11-14T14:35:06+00:00"
+   "last_seen": "2026-11-14T18:49:36+00:00"
   },
   {
    "id": "a4613bf6ac53",
@@ -973,7 +1787,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-14T14:31:38+00:00",
-   "last_seen": "2026-11-14T14:31:38+00:00"
+   "last_seen": "2026-11-14T18:46:28+00:00"
   },
   {
    "id": "41cbcdba1165",
@@ -1003,7 +1817,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-14T14:31:29+00:00",
-   "last_seen": "2026-11-14T14:31:29+00:00"
+   "last_seen": "2026-11-14T18:46:28+00:00"
   },
   {
    "id": "ab560fc8effe",
@@ -1030,7 +1844,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-14T14:31:27+00:00",
-   "last_seen": "2026-11-14T14:31:27+00:00"
+   "last_seen": "2026-11-14T18:46:28+00:00"
   },
   {
    "id": "4f92855f2a7a",
@@ -1049,7 +1863,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-14T14:31:18+00:00",
-   "last_seen": "2026-11-14T14:31:18+00:00"
+   "last_seen": "2026-11-14T18:46:28+00:00"
   },
   {
    "id": "f0a9dfd3fc4c",
@@ -1068,7 +1882,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-14T14:31:13+00:00",
-   "last_seen": "2026-11-14T14:31:13+00:00"
+   "last_seen": "2026-11-14T18:46:28+00:00"
   },
   {
    "id": "681d4db27c4d",
@@ -1097,7 +1911,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-14T14:31:03+00:00",
-   "last_seen": "2026-11-14T14:31:03+00:00"
+   "last_seen": "2026-11-14T18:46:28+00:00"
   },
   {
    "id": "a05c4a5a4b25",
@@ -1116,7 +1930,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-14T14:30:57+00:00",
-   "last_seen": "2026-11-14T14:30:57+00:00"
+   "last_seen": "2026-11-14T18:46:28+00:00"
   },
   {
    "id": "0edaf70a8f60",
@@ -1145,7 +1959,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-14T14:30:50+00:00",
-   "last_seen": "2026-11-14T14:30:50+00:00"
+   "last_seen": "2026-11-14T18:46:28+00:00"
   },
   {
    "id": "c47571452055",
@@ -1178,7 +1992,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-14T14:30:44+00:00",
-   "last_seen": "2026-11-14T14:30:44+00:00"
+   "last_seen": "2026-11-14T18:46:28+00:00"
   },
   {
    "id": "4726a6ad219d",
@@ -1197,7 +2011,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-14T14:30:32+00:00",
-   "last_seen": "2026-11-14T14:30:32+00:00"
+   "last_seen": "2026-11-14T18:46:28+00:00"
   },
   {
    "id": "5f95b3735f81",
@@ -1216,7 +2030,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-14T14:30:31+00:00",
-   "last_seen": "2026-11-14T14:30:31+00:00"
+   "last_seen": "2026-11-14T18:46:28+00:00"
   },
   {
    "id": "d427c42a954d",
@@ -1235,7 +2049,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-14T14:30:20+00:00",
-   "last_seen": "2026-11-14T14:30:20+00:00"
+   "last_seen": "2026-11-14T18:46:28+00:00"
   },
   {
    "id": "5a9f3e46dc20",
@@ -1254,7 +2068,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-14T14:30:19+00:00",
-   "last_seen": "2026-11-14T14:30:19+00:00"
+   "last_seen": "2026-11-14T18:46:28+00:00"
   },
   {
    "id": "98fa816131ea",
@@ -1273,7 +2087,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-14T14:30:07+00:00",
-   "last_seen": "2026-11-14T14:30:07+00:00"
+   "last_seen": "2026-11-14T18:46:28+00:00"
   },
   {
    "id": "84376151ee45",
@@ -1292,7 +2106,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-14T14:30:03+00:00",
-   "last_seen": "2026-11-14T14:30:03+00:00"
+   "last_seen": "2026-11-14T18:46:28+00:00"
   },
   {
    "id": "9498fc14c83d",
@@ -1311,7 +2125,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-14T14:29:54+00:00",
-   "last_seen": "2026-11-14T14:29:54+00:00"
+   "last_seen": "2026-11-14T18:46:28+00:00"
   },
   {
    "id": "94e5098c8141",
@@ -1330,7 +2144,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-14T14:29:53+00:00",
-   "last_seen": "2026-11-14T14:29:53+00:00"
+   "last_seen": "2026-11-14T18:46:28+00:00"
   },
   {
    "id": "480bfa182bfd",
@@ -1349,7 +2163,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-14T14:29:51+00:00",
-   "last_seen": "2026-11-14T14:29:51+00:00"
+   "last_seen": "2026-11-14T18:46:28+00:00"
   },
   {
    "id": "a1dc91bf2d49",
@@ -1377,7 +2191,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-14T14:29:38+00:00",
-   "last_seen": "2026-11-14T14:29:38+00:00"
+   "last_seen": "2026-11-14T18:46:28+00:00"
   },
   {
    "id": "ca18f43a6208",
@@ -1407,7 +2221,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-14T14:29:37+00:00",
-   "last_seen": "2026-11-14T14:29:37+00:00"
+   "last_seen": "2026-11-14T18:46:28+00:00"
   },
   {
    "id": "5896d4044ebe",
@@ -1426,7 +2240,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-14T14:29:23+00:00",
-   "last_seen": "2026-11-14T14:29:23+00:00"
+   "last_seen": "2026-11-14T18:46:28+00:00"
   },
   {
    "id": "4a232fa2eb55",
@@ -1445,7 +2259,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-14T14:29:21+00:00",
-   "last_seen": "2026-11-14T14:29:21+00:00"
+   "last_seen": "2026-11-14T18:46:28+00:00"
   },
   {
    "id": "7dc884bec8ce",
@@ -1473,7 +2287,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-13T13:11:32+00:00",
-   "last_seen": "2026-11-14T14:31:38+00:00"
+   "last_seen": "2026-11-14T18:47:19+00:00"
   },
   {
    "id": "91b0fa8c2e39",
@@ -1549,7 +2363,7 @@
    "junior": true,
    "published": "2026-11-12T10:46:55+00:00",
    "seed": false,
-   "rv": 3,
+   "rv": 4,
    "match": {
     "score": 80,
     "have": [
@@ -1564,7 +2378,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-12T10:17:45+00:00",
-   "last_seen": "2026-11-14T14:29:19+00:00"
+   "last_seen": "2026-11-14T18:45:59+00:00"
   },
   {
    "id": "81fc9d8a9ce3",
@@ -1594,7 +2408,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-10T13:32:41+00:00",
-   "last_seen": "2026-11-14T14:31:38+00:00"
+   "last_seen": "2026-11-14T18:47:19+00:00"
   },
   {
    "id": "e4042f046d84",
@@ -1624,7 +2438,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-10T13:32:13+00:00",
-   "last_seen": "2026-11-14T14:31:38+00:00"
+   "last_seen": "2026-11-14T18:47:19+00:00"
   },
   {
    "id": "9dada9cae255",
@@ -1651,7 +2465,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-10T13:32:06+00:00",
-   "last_seen": "2026-11-14T14:29:05+00:00"
+   "last_seen": "2026-11-14T18:45:41+00:00"
   },
   {
    "id": "a143accc47c5",
@@ -1682,7 +2496,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-09T23:48:17+00:00",
-   "last_seen": "2026-11-14T14:28:22+00:00"
+   "last_seen": "2026-11-14T18:45:41+00:00"
   },
   {
    "id": "f9f51000fa82",
@@ -1710,7 +2524,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-09T13:58:40+00:00",
-   "last_seen": "2026-11-14T14:31:38+00:00"
+   "last_seen": "2026-11-14T18:47:19+00:00"
   },
   {
    "id": "c4ca969db542",
@@ -1725,7 +2539,7 @@
    "junior": true,
    "published": "2026-11-09T00:06:41+00:00",
    "seed": false,
-   "rv": 3,
+   "rv": 4,
    "match": {
     "score": 60,
     "have": [
@@ -1740,7 +2554,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-09T13:58:33+00:00",
-   "last_seen": "2026-11-14T14:29:19+00:00"
+   "last_seen": "2026-11-14T18:46:27+00:00"
   },
   {
    "id": "5f42fa66683e",
@@ -1755,7 +2569,7 @@
    "junior": false,
    "published": "2026-11-09",
    "seed": false,
-   "rv": 3,
+   "rv": 4,
    "match": {
     "score": 40,
     "have": [
@@ -1770,7 +2584,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-09T13:58:17+00:00",
-   "last_seen": "2026-11-14T14:29:19+00:00"
+   "last_seen": "2026-11-14T18:45:49+00:00"
   },
   {
    "id": "46344461dce7",
@@ -1785,11 +2599,11 @@
    "junior": true,
    "published": "2026-11-09T00:08:47+00:00",
    "seed": false,
-   "rv": 3,
+   "rv": 4,
    "match": null,
    "salary": null,
    "first_seen": "2026-11-09T13:58:11+00:00",
-   "last_seen": "2026-11-14T14:29:19+00:00"
+   "last_seen": "2026-11-14T18:45:47+00:00"
   },
   {
    "id": "f7f429cc2490",
@@ -1819,7 +2633,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-09T13:58:05+00:00",
-   "last_seen": "2026-11-14T14:28:37+00:00"
+   "last_seen": "2026-11-14T18:45:41+00:00"
   },
   {
    "id": "d079c76c7b34",
@@ -1838,7 +2652,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-08T11:59:21+00:00",
-   "last_seen": "2026-11-14T14:31:38+00:00"
+   "last_seen": "2026-11-14T18:47:19+00:00"
   },
   {
    "id": "61ec4b73a44f",
@@ -1853,7 +2667,7 @@
    "junior": true,
    "published": "2026-11-08T00:07:36+00:00",
    "seed": false,
-   "rv": 3,
+   "rv": 4,
    "match": {
     "score": 50,
     "have": [
@@ -1869,7 +2683,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-08T11:59:14+00:00",
-   "last_seen": "2026-11-14T14:29:19+00:00"
+   "last_seen": "2026-11-14T18:46:14+00:00"
   },
   {
    "id": "639d2da3906d",
@@ -1900,7 +2714,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-07T18:04:52+00:00",
-   "last_seen": "2026-11-14T14:28:15+00:00"
+   "last_seen": "2026-11-14T18:45:41+00:00"
   },
   {
    "id": "48046863c049",
@@ -1948,7 +2762,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-06T20:08:02+00:00",
-   "last_seen": "2026-11-14T14:28:21+00:00"
+   "last_seen": "2026-11-14T18:45:41+00:00"
   },
   {
    "id": "a1d12399bc82",
@@ -2003,7 +2817,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-04T20:27:58+00:00",
-   "last_seen": "2026-11-14T14:28:52+00:00"
+   "last_seen": "2026-11-14T18:45:41+00:00"
   },
   {
    "id": "662fe17d13db",
@@ -2018,7 +2832,7 @@
    "junior": true,
    "published": "2026-11-04T11:44:49+00:00",
    "seed": false,
-   "rv": 3,
+   "rv": 4,
    "match": {
     "score": 80,
     "have": [
@@ -2038,7 +2852,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-04T13:03:01+00:00",
-   "last_seen": "2026-11-14T14:29:19+00:00"
+   "last_seen": "2026-11-14T18:45:58+00:00"
   },
   {
    "id": "3e8b11566957",
@@ -2066,7 +2880,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-04T01:27:47+00:00",
-   "last_seen": "2026-11-14T14:31:38+00:00"
+   "last_seen": "2026-11-14T18:47:19+00:00"
   },
   {
    "id": "5e632dcdb087",
@@ -2114,11 +2928,11 @@
    "junior": true,
    "published": "2026-11-04T00:13:44+00:00",
    "seed": false,
-   "rv": 3,
+   "rv": 4,
    "match": null,
    "salary": null,
    "first_seen": "2026-11-04T01:27:05+00:00",
-   "last_seen": "2026-11-14T14:29:19+00:00"
+   "last_seen": "2026-11-14T18:45:45+00:00"
   },
   {
    "id": "c00574f07f37",
@@ -2145,7 +2959,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-04T01:27:01+00:00",
-   "last_seen": "2026-11-14T14:31:38+00:00"
+   "last_seen": "2026-11-14T18:47:19+00:00"
   },
   {
    "id": "4d46820a66f9",
@@ -2214,7 +3028,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-03T20:09:36+00:00",
-   "last_seen": "2026-11-14T14:31:38+00:00"
+   "last_seen": "2026-11-14T18:47:19+00:00"
   },
   {
    "id": "cfde4d2885d3",
@@ -2337,7 +3151,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-02T23:08:39+00:00",
-   "last_seen": "2026-11-14T14:28:35+00:00"
+   "last_seen": "2026-11-14T18:45:41+00:00"
   },
   {
    "id": "6ef140bf654c",
@@ -2407,7 +3221,7 @@
    "junior": true,
    "published": "2026-11-02T00:07:37+00:00",
    "seed": false,
-   "rv": 3,
+   "rv": 4,
    "match": {
     "score": 100,
     "have": [
@@ -2423,7 +3237,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-02T09:34:25+00:00",
-   "last_seen": "2026-11-14T14:29:19+00:00"
+   "last_seen": "2026-11-14T18:46:13+00:00"
   },
   {
    "id": "2ea455ff9bbe",
@@ -2611,7 +3425,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-01T21:49:06+00:00",
-   "last_seen": "2026-11-14T14:31:38+00:00"
+   "last_seen": "2026-11-14T18:47:19+00:00"
   },
   {
    "id": "a5a963f97fd8",
@@ -2662,11 +3476,11 @@
    "junior": true,
    "published": "2026-10-07T00:07:56+00:00",
    "seed": false,
-   "rv": 3,
+   "rv": 4,
    "match": null,
    "salary": null,
    "first_seen": "2026-11-01T21:48:36+00:00",
-   "last_seen": "2026-11-14T14:31:38+00:00"
+   "last_seen": "2026-11-14T18:47:18+00:00"
   },
   {
    "id": "30db7fd81f59",
@@ -2772,7 +3586,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-01T21:48:03+00:00",
-   "last_seen": "2026-11-14T14:31:38+00:00"
+   "last_seen": "2026-11-14T18:47:19+00:00"
   },
   {
    "id": "e2063676fdc9",
@@ -2843,7 +3657,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-01T21:47:23+00:00",
-   "last_seen": "2026-11-14T14:31:38+00:00"
+   "last_seen": "2026-11-14T18:47:19+00:00"
   },
   {
    "id": "c9ff7918479e",
@@ -2914,7 +3728,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-01T21:46:50+00:00",
-   "last_seen": "2026-11-14T14:31:38+00:00"
+   "last_seen": "2026-11-14T18:47:19+00:00"
   },
   {
    "id": "0cd6c2c7cff6",
@@ -3220,7 +4034,7 @@
    "junior": true,
    "published": "2026-10-09T18:39:00+00:00",
    "seed": true,
-   "rv": 3,
+   "rv": 4,
    "match": {
     "score": 75,
     "have": [
@@ -3234,7 +4048,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:04:28+00:00",
-   "last_seen": "2026-11-14T14:29:19+00:00"
+   "last_seen": "2026-11-14T18:45:41+00:00"
   },
   {
    "id": "bbf4bae9d59c",
@@ -3475,7 +4289,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:02:42+00:00",
-   "last_seen": "2026-11-14T14:29:08+00:00"
+   "last_seen": "2026-11-14T18:45:41+00:00"
   },
   {
    "id": "21a5bbbf5ece",
@@ -3490,7 +4304,7 @@
    "junior": true,
    "published": "2026-10-28T17:56:22+00:00",
    "seed": true,
-   "rv": 3,
+   "rv": 4,
    "match": {
     "score": 57,
     "have": [
@@ -3507,7 +4321,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:02:26+00:00",
-   "last_seen": "2026-11-14T14:29:19+00:00"
+   "last_seen": "2026-11-14T18:45:44+00:00"
   },
   {
    "id": "5b3881dadaac",
@@ -3522,11 +4336,11 @@
    "junior": true,
    "published": "2026-10-15T08:38:02+00:00",
    "seed": true,
-   "rv": 3,
+   "rv": 4,
    "match": null,
    "salary": null,
    "first_seen": "2026-10-30T19:02:19+00:00",
-   "last_seen": "2026-11-14T14:29:19+00:00"
+   "last_seen": "2026-11-14T18:45:55+00:00"
   },
   {
    "id": "73160bd26650",
@@ -3673,7 +4487,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-10-30T19:01:03+00:00",
-   "last_seen": "2026-11-14T14:28:18+00:00"
+   "last_seen": "2026-11-14T18:45:41+00:00"
   },
   {
    "id": "39c382d9b83c",
@@ -3720,7 +4534,7 @@
    },
    "salary": null,
    "first_seen": "2026-10-30T19:00:40+00:00",
-   "last_seen": "2026-11-14T14:28:20+00:00"
+   "last_seen": "2026-11-14T18:45:41+00:00"
   },
   {
    "id": "94b13a3e9bc5",

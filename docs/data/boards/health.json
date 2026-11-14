@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T14:38:43+00:00",
+ "updated": "2026-11-14T18:54:33+00:00",
  "companies": {
   "APEC": {
    "checked_at": "2026-11-14T12:14:36+00:00",
@@ -12,57 +12,57 @@
    "failures": 48
   },
   "HelloWork": {
-   "checked_at": "2026-11-14T14:27:59+00:00",
+   "checked_at": "2026-11-14T18:45:24+00:00",
    "error": "",
    "warnings": [],
    "links_found": 304,
    "keyword_matches": 297,
-   "kept_this_run": 22,
+   "kept_this_run": 6,
    "status": "ok",
-   "last_ok": "2026-11-14T14:31:38+00:00",
+   "last_ok": "2026-11-14T18:47:19+00:00",
    "failures": 0
   },
   "jobs.ch": {
-   "checked_at": "2026-11-14T14:31:38+00:00",
+   "checked_at": "2026-11-14T18:47:19+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 193,
-   "keyword_matches": 100,
-   "kept_this_run": 0,
+   "links_found": 185,
+   "keyword_matches": 98,
+   "kept_this_run": 9,
    "status": "ok",
-   "last_ok": "2026-11-14T14:33:41+00:00",
+   "last_ok": "2026-11-14T18:48:35+00:00",
    "failures": 0
   },
   "jobup.ch": {
-   "checked_at": "2026-11-14T14:33:41+00:00",
+   "checked_at": "2026-11-14T18:48:35+00:00",
    "error": "",
    "warnings": [],
    "links_found": 176,
-   "keyword_matches": 88,
-   "kept_this_run": 1,
+   "keyword_matches": 89,
+   "kept_this_run": 12,
    "status": "ok",
-   "last_ok": "2026-11-14T14:35:37+00:00",
+   "last_ok": "2026-11-14T18:50:04+00:00",
    "failures": 0
   },
   "Moovijob (Luxembourg)": {
-   "checked_at": "2026-11-14T14:35:37+00:00",
+   "checked_at": "2026-11-14T18:50:04+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "vide",
-   "failures": 1
+   "failures": 2
   },
   "StepStone Belgique": {
-   "checked_at": "2026-11-14T14:35:59+00:00",
+   "checked_at": "2026-11-14T18:50:24+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 199,
-   "keyword_matches": 77,
-   "kept_this_run": 38,
+   "links_found": 191,
+   "keyword_matches": 68,
+   "kept_this_run": 1,
    "status": "ok",
-   "last_ok": "2026-11-14T14:38:43+00:00",
+   "last_ok": "2026-11-14T18:54:33+00:00",
    "failures": 0
   }
  }
