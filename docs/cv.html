@@ -71,6 +71,16 @@
   .fit { margin-top: 8px; font-size: 13px; }
   .fit.ok { color: var(--accent); } .fit.over { color: var(--bad); font-weight: 600; }
   .empty { padding: 40px; text-align: center; color: var(--muted); }
+  .gen { text-align: center; padding: 34px 22px; }
+  .gen h2 { text-transform: none; letter-spacing: 0; font-size: 19px; color: var(--ink); margin-bottom: 6px; }
+  .gen p { color: var(--muted); max-width: 460px; margin: 0 auto 16px; }
+  .gen .btn.primary { font-size: 15px; padding: 11px 20px; }
+  .gen .alt { display: inline-block; margin-top: 12px; font-size: 13px; color: var(--muted); background: none; border: 0; text-decoration: underline; cursor: pointer; }
+  .gen .status { margin-top: 14px; font-size: 13.5px; color: var(--accent); min-height: 20px; }
+  .gen .status.bad { color: var(--bad); }
+  .spin { display: inline-block; width: 14px; height: 14px; border: 2px solid var(--accent-soft); border-top-color: var(--accent);
+          border-radius: 50%; animation: sp 0.9s linear infinite; vertical-align: -2px; margin-right: 6px; }
+  @keyframes sp { to { transform: rotate(360deg); } }
 </style>
 </head>
 <body>
@@ -354,10 +364,65 @@ window.addEventListener("resize", fitScale);
   if (!BASE) { $("#form").innerHTML = `<div class="empty">CV de base introuvable. Lance un passage du robot (mode run) pour publier cv/base_cv.json.</div>`; return; }
   $("#h").textContent = "CV · " + (JOB ? `${JOB.company} · ${JOB.title}` : (GEN?.intitule_offre || "CV de base"));
   const url = JOB?.url || GEN?.url_offre; if (url) $("#offer").href = url; else $("#offer").style.display = "none";
-  cv = ls.get(KEY, null) || compose();
+  const saved = ls.get(KEY, null);
+  if (!GEN && !saved && id) return askGenerate();
+  start(saved);
+})();
+
+// Tant qu'il n'y a pas de CV : ni aperçu vide ni boutons de téléchargement
+function waiting(on) {
+  $("#scaler").parentElement.style.display = on ? "none" : "";
+  for (const b of ["#reset", "#pdf", "#dl"]) $(b).style.display = on ? "none" : "";
+}
+
+function start(saved) {
+  waiting(false);
+  cv = saved || compose();
   cv.contact = { ...(cv.contact || {}), ...ls.get("jh-contact", {}) };
   render(); preview();
-})();
+}
+
+// Pas encore de CV pour cette offre : il n'est fait qu'à la demande (1 appel IA par offre)
+function askGenerate() {
+  const list = new URLSearchParams(location.search).get("p") === "boards" ? "boards" : "main";
+  $("#form").innerHTML = `<div class="panel gen">
+      <h2>Pas encore de CV pour cette offre</h2>
+      <p>Le robot relit la fiche et adapte ton CV de base à ${JOB ? "<strong>" + esc(JOB.title) + "</strong>" : "cette offre"} (titre, résumé, compétences, projets mis en avant). Compte environ 2 minutes.</p>
+      <button class="btn primary" id="gen">Générer mon CV</button><br>
+      <button class="alt" id="usebase">Partir de mon CV de base sans attendre</button>
+      <div class="status" id="gst"></div>
+    </div>`;
+  waiting(true);
+  const st = (html, bad) => { const e = $("#gst"); e.innerHTML = html; e.classList.toggle("bad", !!bad); };
+  $("#usebase").onclick = () => start(null);
+  $("#gen").onclick = async () => {
+    $("#gen").disabled = true;
+    st(`<span class="spin"></span>Lancement…`);
+    try {
+      const r = await fetch(`api/cv?id=${encodeURIComponent(id)}&list=${list}`, { method: "POST" });
+      const j = await r.json().catch(() => ({}));
+      if (!r.ok) throw new Error(j.error || `erreur ${r.status}`);
+      poll(Date.now(), st);
+    } catch (e) { st("Impossible de lancer : " + esc(e.message), true); $("#gen").disabled = false; }
+  };
+}
+
+async function poll(t0, st) {
+  const sec = Math.round((Date.now() - t0) / 1000);
+  try {
+    const r = await fetch(`api/cv?id=${encodeURIComponent(id)}&t=${Date.now()}`);
+    const j = await r.json().catch(() => ({}));
+    if (j.cv) { GEN = j.cv; ls.del(KEY); st("CV prêt ✓"); return start(null); }
+    const run = j.run;
+    if (run && run.status === "completed" && run.conclusion !== "success" && new Date(run.created_at).getTime() > t0 - 10000) {
+      st(`Le robot a échoué (<a href="${esc(run.url)}" target="_blank" rel="noopener">voir le détail</a>). Réessaie ou pars du CV de base.`, true);
+      $("#gen").disabled = false; return;
+    }
+    st(`<span class="spin"></span>${run && run.status === "in_progress" ? "Le robot lit l'offre et adapte ton CV" : "En file d'attente chez GitHub"}… ${sec} s`);
+  } catch { st(`<span class="spin"></span>En cours… ${sec} s`); }
+  if (sec > 600) { st("Toujours rien après 10 minutes : regarde l'onglet Actions sur GitHub.", true); $("#gen").disabled = false; return; }
+  setTimeout(() => poll(t0, st), 6000);
+}
 </script>
 </body>
 </html>

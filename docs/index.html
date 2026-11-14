@@ -307,7 +307,7 @@
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 1 1-2.64-6.36"/><path d="M21 3v6h-6"/></svg>
         <span id="go-label">Lancer une recherche maintenant</span>
       </button>
-      <p class="what" id="run-what" data-boards="Le robot va lire <strong>les offres de l'APEC et de HelloWork</strong> qui contiennent tes mots-clés en Île-de-France. Il ouvre chaque fiche, garde celles qui collent à tes critères, prépare un CV pour chacune et t'envoie une notif par nouvelle offre. Une offre déjà vue sur un site carrière n'est pas ajoutée deux fois. Compte <strong>10 à 20 minutes</strong>. Tu peux fermer la page, il continue sans toi.">Le robot va visiter <strong>tous les sites carrière que tu suis</strong>, un par un. Il garde les offres qui collent à tes critères, prépare un CV pour chacune et t'envoie une notif par nouvelle offre. Compte <strong>10 à 25 minutes</strong>. Tu peux fermer la page, il continue sans toi.</p>
+      <p class="what" id="run-what" data-boards="Le robot va lire <strong>les grands sites d'emploi</strong> (HelloWork, jobs.ch, jobup.ch, Moovijob, StepStone Belgique) avec tes mots-clés. Il ouvre chaque fiche, garde celles qui collent à tes critères et t'envoie une notif par nouvelle offre. Une offre déjà vue sur un site carrière n'est pas ajoutée deux fois. Compte <strong>10 à 25 minutes</strong>. Tu peux fermer la page, il continue sans toi.">Le robot va visiter <strong>tous les sites carrière que tu suis</strong>, un par un. Il garde les offres qui collent à tes critères et t'envoie une notif par nouvelle offre. Le CV adapté se fait ensuite à la demande, depuis chaque offre. Compte <strong>10 à 25 minutes</strong>. Tu peux fermer la page, il continue sans toi.</p>
       <p class="last" id="run-last"></p>
       <div class="run-live" id="run-live" hidden></div>
     </section>
@@ -376,7 +376,7 @@
 
 <script>
 const $ = s => document.querySelector(s);
-// Deux listes sur la même page : sites carrière (data/) et sites d'emploi APEC + HelloWork (data/boards/)
+// Deux listes sur la même page : sites carrière (data/) et sites d'emploi (data/boards/)
 const LIST = new URLSearchParams(location.search).get("p") === "boards" ? "boards" : "main";
 const DATA_DIR = LIST === "boards" ? "data/boards" : "data";
 const API_RUN = LIST === "boards" ? "api/run?w=boards" : "api/run";
@@ -452,11 +452,9 @@ const scoreOf = j => (j.match && typeof j.match.score === "number") ? j.match.sc
 const FLAG_SVG = {"France": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJmbGFnLWljb25zLWZyIiB2aWV3Qm94PSIwIDAgNjQwIDQ4MCI+PHBhdGggZmlsbD0iIzAwMDA5MSIgZD0iTTAgMGgyMTMuM3Y0ODBIMHoiLz48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMjEzLjMgMGgyMTMuNHY0ODBIMjEzLjN6Ii8+PHBhdGggZmlsbD0iI2UxMDAwZiIgZD0iTTQyNi43IDBINjQwdjQ4MEg0MjYuN3oiLz48L3N2Zz4=",
   "Suisse": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJmbGFnLWljb25zLWNoIiB2aWV3Qm94PSIwIDAgNjQwIDQ4MCI+PGcgZmlsbC1ydWxlPSJldmVub2RkIiBzdHJva2Utd2lkdGg9IjFwdCI+PHBhdGggZmlsbD0icmVkIiBkPSJNMCAwaDY0MHY0ODBIMHoiLz48ZyBmaWxsPSIjZmZmIj48cGF0aCBkPSJNMTcwIDE5NWgzMDB2OTBIMTcweiIvPjxwYXRoIGQ9Ik0yNzUgOTBoOTB2MzAwaC05MHoiLz48L2c+PC9nPjwvc3ZnPg==",
   "Luxembourg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJmbGFnLWljb25zLWx1IiB2aWV3Qm94PSIwIDAgNjQwIDQ4MCI+PHBhdGggZmlsbD0iI2VkMjkzOSIgZD0iTTAgMGg2NDB2MTYwSDB6Ii8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMTYwaDY0MHYxNjBIMHoiLz48cGF0aCBmaWxsPSIjMDBhMWRlIiBkPSJNMCAzMjBoNjQwdjE2MEgweiIvPjwvc3ZnPg==",
-  "Royaume-Uni": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJmbGFnLWljb25zLWdiIiB2aWV3Qm94PSIwIDAgNjQwIDQ4MCI+PHBhdGggZmlsbD0iIzAxMjE2OSIgZD0iTTAgMGg2NDB2NDgwSDB6Ii8+PHBhdGggZmlsbD0iI0ZGRiIgZD0ibTc1IDAgMjQ0IDE4MUw1NjIgMGg3OHY2Mkw0MDAgMjQxbDI0MCAxNzh2NjFoLTgwTDMyMCAzMDEgODEgNDgwSDB2LTYwbDIzOS0xNzhMMCA2NFYweiIvPjxwYXRoIGZpbGw9IiNDODEwMkUiIGQ9Im00MjQgMjgxIDIxNiAxNTl2NDBMMzY5IDI4MXptLTE4NCAyMCA2IDM1TDU0IDQ4MEgwek02NDAgMHYzTDM5MSAxOTFsMi00NEw1OTAgMHpNMCAwbDIzOSAxNzZoLTYwTDAgNDJ6Ii8+PHBhdGggZmlsbD0iI0ZGRiIgZD0iTTI0MSAwdjQ4MGgxNjBWMHpNMCAxNjB2MTYwaDY0MFYxNjB6Ii8+PHBhdGggZmlsbD0iI0M4MTAyRSIgZD0iTTAgMTkzdjk2aDY0MHYtOTZ6TTI3MyAwdjQ4MGg5NlYweiIvPjwvc3ZnPg==",
-  "Malaisie": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJmbGFnLWljb25zLW15IiB2aWV3Qm94PSIwIDAgNjQwIDQ4MCI+PGcgY2xpcC1wYXRoPSJ1cmwoI215LWEpIj48cGF0aCBmaWxsPSIjQzAwIiBkPSJNMCAwaDY0MHY0ODBIMHoiLz48cGF0aCBmaWxsPSIjQzAwIiBkPSJNMCAwaDY0MHYzNC4zSDB6Ii8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMzQuM2g2NDB2MzQuM0gweiIvPjxwYXRoIGZpbGw9IiNDMDAiIGQ9Ik0wIDY4LjZoNjQwdjM0LjNIMHoiLz48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMCAxMDIuOWg2NDBWMTM3SDB6Ii8+PHBhdGggZmlsbD0iI0MwMCIgZD0iTTAgMTM3LjFoNjQwdjM0LjNIMHoiLz48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMCAxNzEuNGg2NDB2MzQuM0gweiIvPjxwYXRoIGZpbGw9IiNDMDAiIGQ9Ik0wIDIwNS43aDY0MFYyNDBIMHoiLz48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMCAyNDBoNjQwdjM0LjNIMHoiLz48cGF0aCBmaWxsPSIjQzAwIiBkPSJNMCAyNzQuM2g2NDB2MzQuM0gweiIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0wIDMwOC42aDY0MHYzNC4zSDB6Ii8+PHBhdGggZmlsbD0iI0MwMCIgZD0iTTAgMzQyLjloNjQwVjM3N0gweiIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0wIDM3Ny4xaDY0MHYzNC4zSDB6Ii8+PHBhdGggZmlsbD0iI0MwMCIgZD0iTTAgNDExLjRoNjQwdjM0LjNIMHoiLz48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMCA0NDUuN2g2NDBWNDgwSDB6Ii8+PHBhdGggZmlsbD0iIzAwNiIgZD0iTTAgLjVoMzIwdjI3NC4zSDB6Ii8+PHBhdGggZmlsbD0iI0ZDMCIgZD0ibTIwNy41IDczLjggNiA0MC43IDIzLTM0LTEyLjQgMzkuMiAzNS41LTIwLjgtMjguMSAzMCA0MS0zLjItMzguMyAxNC44IDM4LjMgMTQuOC00MS0zLjIgMjguMSAzMC0zNS41LTIwLjggMTIuMyAzOS4zLTIzLTM0LjEtNiA0MC43LTUuOS00MC43LTIzIDM0IDEyLjQtMzkuMi0zNS41IDIwLjggMjgtMzAtNDEgMy4yIDM4LjQtMTQuOC0zOC4zLTE0LjggNDEgMy4yLTI4LjEtMzAgMzUuNSAyMC44LTEyLjQtMzkuMyAyMyAzNC4xem0tMzMuMyAxLjdhNzEgNzEgMCAwIDAtMTAwIDY1IDcxIDcxIDAgMCAwIDEwMCA2NSA4MCA4MCAwIDAgMS04My4yIDYuMiA4MCA4MCAwIDAgMS00My40LTcxLjIgODAgODAgMCAwIDEgMTI2LjYtNjUiLz48L2c+PGRlZnM+PGNsaXBQYXRoIGlkPSJteS1hIj48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMCAwaDY0MHY0ODBIMHoiLz48L2NsaXBQYXRoPjwvZGVmcz48L3N2Zz4=",
-  "Oman": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNDgwIj48cGF0aCBmaWxsPSIjZGIxNjFiIiBkPSJNMCAwaDY0MHY0ODBIMHoiLz48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMjEwIDBoNDMwdjE2MEgyMTB6Ii8+PHBhdGggZmlsbD0iIzAwODAwMCIgZD0iTTIxMCAzMjBoNDMwdjE2MEgyMTB6Ii8+PC9zdmc+"};
-const ZONE_COUNTRY = { "Île-de-France": "France", "Luxembourg": "Luxembourg", "Suisse": "Suisse", "Londres": "Royaume-Uni", "Malaisie": "Malaisie", "Oman": "Oman" };
-const COUNTRY_ORDER = ["France", "Suisse", "Luxembourg", "Malaisie", "Oman"];
+  "Belgique": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJmbGFnLWljb25zLWJlIiB2aWV3Qm94PSIwIDAgNjQwIDQ4MCI+CiAgPGcgZmlsbC1ydWxlPSJldmVub2RkIiBzdHJva2Utd2lkdGg9IjFwdCI+CiAgICA8cGF0aCBmaWxsPSIjMDAwMDAxIiBkPSJNMCAwaDIxMy4zdjQ4MEgweiIvPgogICAgPHBhdGggZmlsbD0iI2ZmZDkwYyIgZD0iTTIxMy4zIDBoMjEzLjR2NDgwSDIxMy4zeiIvPgogICAgPHBhdGggZmlsbD0iI2YzMTgzMCIgZD0iTTQyNi43IDBINjQwdjQ4MEg0MjYuN3oiLz4KICA8L2c+Cjwvc3ZnPgo="};
+const ZONE_COUNTRY = { "Île-de-France": "France", "Luxembourg": "Luxembourg", "Suisse": "Suisse", "Belgique": "Belgique" };
+const COUNTRY_ORDER = ["France", "Suisse", "Luxembourg", "Belgique"];
 const countryOf = j => j.country || ZONE_COUNTRY[j.zone] || j.zone || "?";
 const I = d => `<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
 const ICON = {
@@ -610,7 +608,7 @@ function renderJobs() {
         ${skills(j)}
         <div class="actions">
           <a class="btn go" href="${esc(j.url)}" target="_blank" rel="noopener">Voir et postuler ${ICON.ext}</a>
-          <a class="btn" href="cv.html?id=${encodeURIComponent(j.id)}${LIST === "boards" ? "&p=boards" : ""}">${ICON.doc}Mon CV pour cette offre</a>
+          <a class="btn" href="cv.html?id=${encodeURIComponent(j.id)}${LIST === "boards" ? "&p=boards" : ""}">${ICON.doc}CV pour cette offre</a>
           ${statusSelect(j.id)}
           <button class="btn quiet" data-hide="${esc(j.id)}">Masquer</button>
         </div>

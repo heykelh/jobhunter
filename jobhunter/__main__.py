@@ -30,7 +30,7 @@ log = logging.getLogger("jobwatch")
 
 # À augmenter quand les règles de tri changent : les offres déjà affichées sont alors
 # revérifiées (fiche rouverte) et retirées si elles ne passent plus.
-RULES_VERSION = 3
+RULES_VERSION = 4   # v4 : règle « allemand exigé » appliquée à tous les pays (14/11/2026)
 
 
 def judge(crit: Criteria, ai: ExperienceAI, comp: dict, title: str, context: str, d) -> tuple[bool, str, object]:
@@ -46,7 +46,7 @@ def judge(crit: Criteria, ai: ExperienceAI, comp: dict, title: str, context: str
     if ev:
         return False, f"stage / alternance « {ev[:110]} »", v
     rules = crit.country_rules.get(v.country, {}) or {}
-    if rules.get("reject_german"):
+    if rules.get("reject_german", crit.reject_german):
         why = german_required(title, structured + " " + text)
         if why:
             return False, why[:160], v
@@ -124,6 +124,17 @@ def run(argv=None) -> int:
             if job.get("company") in disabled and not job.get("via"):
                 store.remove(jid)
                 log.info("  retirée (source désactivée) : %s", job.get("title"))
+    # Offres d'un site d'annonces qui n'est plus dans cette liste (ex. jobs.ch passé dans
+    # « Sites d'emploi ») : retirées ici pour que l'autre liste puisse les reprendre
+    active = {c["name"] for c in cfg.get("companies", []) if c.get("enabled", True)}
+    if not args.diagnose:
+        for jid, job in list(store.jobs.items()):
+            if job.get("via") and job["via"] not in active:
+                store.remove(jid)
+                log.info("  retirée (site %s plus suivi dans cette liste) : %s", job["via"], job.get("title"))
+        # État de santé des sources supprimées de la config (ex. Oman) : on l'oublie
+        known = {c["name"] for c in cfg.get("companies", [])}
+        store.health = {k: v for k, v in store.health.items() if k in known}
     # Règles changées : les offres écartées pour leur contrat sont réexaminées une fois
     # (la v3 ne lit plus le texte de toute une page de liste, qui faisait passer des CDI pour des stages)
     if not args.diagnose and store.state.get("rules_version", 1) < RULES_VERSION:
@@ -147,7 +158,7 @@ def run(argv=None) -> int:
                 store.reject(jid, job["company"], job["title"], job["url"], reason + " (retirée)")
                 log.info("  retirée : %s — %s", job["title"], reason)
 
-    cv_budget = int(cfg.get("cv_per_run", 15))   # CV générés par passage (nouvelles offres d'abord)
+    # Les CV ne sont plus générés ici : bouton « Générer mon CV » sur le site (workflow cv.yml)
     fresh: list[dict] = []
     seeded_summary: list[str] = []
     diagnose: dict = {}
@@ -258,14 +269,6 @@ def run(argv=None) -> int:
                                 job["match"] = match.compute(l.title, ((dd.text if dd else "") or l.context))
                             except Exception:
                                 job["match"] = None
-                        if cv_budget > 0 and not cvgen.has_cv(jid) and cfg.get("cv_enabled", True):
-                            cv_budget -= 1
-                            try:
-                                dd = detail_once()
-                                cvgen.generate(job, (dd.text if dd else "") or l.context)
-                                log.info("  📄 CV généré : %s", l.title)
-                            except Exception as e:
-                                log.warning("  CV non généré (%s) : %s", type(e).__name__, l.title)
                         # Date de publication manquante sur une offre déjà connue : on la complète
                         if not job.get("published"):
                             if l.published:
@@ -324,13 +327,6 @@ def run(argv=None) -> int:
                             continue
                     store.add(job)
                     kept += 1
-                    if cv_budget > 0 and cfg.get("cv_enabled", True):
-                        cv_budget -= 1
-                        try:
-                            c = cvgen.generate(job, text or l.context)
-                            log.info("  📄 CV généré (%s)", c["methode"])
-                        except Exception as e:
-                            log.warning("  CV non généré (%s)", type(e).__name__)
                     log.info("  ✓ %s (%s, %s, %s, publiée %s)", title, v.zone, v.contract, v.experience,
                              job["published"] or "?")
                     if not first_time or cfg.get("notify", {}).get("first_run", False):

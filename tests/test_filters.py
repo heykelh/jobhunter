@@ -187,7 +187,8 @@ def test_workday_and_sequence_sources():
         def json(self): return self._js
 
     f = Fetcher(0)
-    f.s.post = lambda url, json=None, timeout=0: Resp(js={"jobPostings": [
+    f.s.get = lambda url, timeout=0: Resp(text="")
+    f.s.post = lambda url, json=None, headers=None, timeout=0: Resp(js={"jobPostings": [
         {"title": "Data Analyst F/H", "externalPath": "/job/Paris/Data-Analyst_R123", "locationsText": "Paris",
          "postedOn": "Posted Yesterday", "bulletFields": ["R123"]}]})
     comp = {"name": "Eiffage", "source": "workday", "api": "https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs",
@@ -211,14 +212,22 @@ def test_workday_and_sequence_sources():
 
 def test_country_categories():
     from jobhunter.filters import Criteria, detect_zone
-    c = Criteria.from_config({"keywords": ["data"], "zones": ["ile-de-france", "suisse", "luxembourg", "malaisie", "oman"],
+    c = Criteria.from_config({"keywords": ["data"], "zones": ["ile-de-france", "suisse", "luxembourg", "belgique"],
                               "country_rules": {"Suisse": {"max_experience_years": 3}}})
     assert c.evaluate("Data Analyst", "Paris", "CDI").country == "France"
-    assert c.evaluate("Data Analyst", "Cyberjaya", "CDI").country == "Malaisie"
-    assert c.evaluate("Data Analyst", "Muscat", "CDI").country == "Oman"
+    assert c.evaluate("Data Analyst", "Bruxelles", "CDI").country == "Belgique"
+    assert not c.evaluate("Data Analyst", "Kuala Lumpur, Malaysia", "CDI").ok      # zone supprimée
     assert c.evaluate("Data Analyst", "Zürich", "CDI 3 ans d'expérience").ok      # règle propre à la Suisse
     assert not c.evaluate("Data Analyst", "Paris", "CDI 3 ans d'expérience").ok
-    assert detect_zone("Women in data, romandie") != "Oman"
+    assert detect_zone("Agent de maintenance") is None and detect_zone("Montrouge") == "Île-de-France"
+
+
+def test_short_keywords_whole_word():
+    from jobhunter.filters import Criteria
+    c = Criteria.from_config({"keywords": ["data", "analyste", "ai", "ia", "product builder"]})
+    assert c.keyword_hit("AI Engineer") and c.keyword_hit("Responsable IA générative")
+    assert c.keyword_hit("Product Builder H/F") and c.keyword_hit("Analyste financier")
+    assert not c.keyword_hit("Air France - Agent") and not c.keyword_hit("Aide comptable")
 
 
 def test_experience_strict():
@@ -234,7 +243,7 @@ def test_experience_strict():
     assert d("Expérience : 0 - 2 ans") == (0, True)
 
 
-def test_sponsor_register_and_london():
+def test_sponsor_register():
     from jobhunter.sponsors import parse_register, lookup
     from jobhunter.filters import detect_zone
     reg = parse_register('"Organisation Name","Town/City","County","Type & Rating","Route"\n'
@@ -244,7 +253,6 @@ def test_sponsor_register_and_london():
     assert lookup(reg, "BARCLAYS BANK UK") == "skilled"
     assert lookup(reg, "Acme Events Limited") == "other"
     assert lookup(reg, "Unknown Startup Ltd") is False
-    assert detect_zone("Canary Wharf, London") == "Londres"
     assert detect_zone("Experience with AWS EC2") is None
 
 
@@ -296,3 +304,24 @@ def test_llm_rate_limit_switches_model(monkeypatch):
     monkeypatch.setattr(llm.requests, "post", post)
     assert llm.chat_json("s", "u") == {"ok": 1}
     assert len(calls) == 2 and calls[0] != calls[1]
+
+
+def test_internship_and_german():
+    from jobhunter.filters import internship_evidence as i, german_required as g
+    assert i("Type de contrat : Stage. Durée : 6 mois")
+    assert i("Stage de 6 mois à partir de janvier")
+    assert not i("CDD de 6 mois au sein de l'équipe")
+    assert not i("Le projet est à un stade avancé")
+    assert g("Data Analyst (m/w/d)", "")
+    assert g("Data Analyst", "Vous parlez français et allemand couramment.")
+    assert g("Data Analyst", "Fluent German and English are required.")
+    assert not g("Data Analyst", "L'allemand est un atout.")
+    assert not g("Data Scientist (f/m/d)", "English is required.")
+
+
+def test_german_titles():
+    from jobhunter.filters import german_required as g
+    assert g("MitarbeiterIn Data Quality & Stammdatenmanagement 60 - 80 %", "")
+    assert g("Business Analyst Krankenversicherung KVG/VVG", "")
+    assert not g("Data Analyst (H/F)", "")
+    assert not g("Junior Business Analyst - Banking Operations Transformation 100% (f/m/d)", "")

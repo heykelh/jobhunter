@@ -24,11 +24,14 @@ def words_re(words, prefix: bool = False) -> re.Pattern | None:
         w = norm(str(w))
         if not w:
             continue
-        parts.append(re.escape(w).replace(r"\ ", r"[\s\-]+"))
+        part = re.escape(w).replace(r"\ ", r"[\s\-]+")
+        # mot court ("ai", "ia", "bi") : mot entier seulement, sinon "ai" trouverait "Air France" ou "aide"
+        if not prefix or len(w) <= 3:
+            part += r"(?![a-z0-9])"
+        parts.append(part)
     if not parts:
         return None
-    tail = "" if prefix else r"(?![a-z0-9])"
-    return re.compile(r"(?<![a-z0-9])(?:" + "|".join(parts) + ")" + tail)
+    return re.compile(r"(?<![a-z0-9])(?:" + "|".join(parts) + ")")
 
 
 # --------------------------------------------------------------------------- zones
@@ -55,33 +58,27 @@ ZONES: dict[str, re.Pattern] = {
         r"|winterthur|olten|(?<![a-z])biel|bienne|st\.? ?gallen|(?<![a-z])zug(?![a-z])|renens|yverdon|(?<![a-z])chur(?![a-z])"
         r"|opfikon|wallisellen|altstetten|oerlikon|schlieren|dubendorf"
     ),
-    "Malaisie": re.compile(
-        r"malaysia|malaisie|kuala[\s\-]lumpur|(?<![a-z])kl(?![a-z]) sentral|petaling[\s\-]jaya|cyberjaya|putrajaya"
-        r"|selangor|penang|pulau pinang|johor|shah alam|subang|bangsar|mont kiara"
-    ),
-    "Londres": re.compile(
-        r"(?<![a-z])london(?![a-z])|(?<![a-z])londres(?![a-z])|canary wharf|city of london|greater london"
-        r"|shoreditch|southwark|westminster|holborn|king's cross|paddington|hammersmith|stratford, london"
-    ),
-    "Oman": re.compile(
-        r"(?<![a-z])oman(?![a-z])|sultanate of oman|muscat|mascate|(?<![a-z])sohar(?![a-z])|salalah|(?<![a-z])duqm(?![a-z])"
-        r"|(?<![a-z])nizwa(?![a-z])|(?<![a-z])sur(?![a-z]), oman|al[\s\-]khuwair|(?<![a-z])ruwi(?![a-z])"
+    "Belgique": re.compile(
+        r"belgique|belgium|belgie|belgien|bruxelles|brussel|(?<![a-z])liege|(?<![a-z])luik(?![a-z])|namur|charleroi|(?<![a-z])mons(?![a-z])"
+        r"|louvain|leuven|wavre|nivelles|anvers|antwerp|(?<![a-z])gand(?![a-z])|(?<![a-z])gent(?![a-z])|ghent|malines|mechelen"
+        r"|hasselt|bruges|brugge|zaventem|diegem|machelen|vilvoorde|ottignies|(?<![a-z])waterloo(?![a-z])|braine-l|courtrai|kortrijk"
+        r"|ostende|oostende|(?<![a-z])arlon(?![a-z])|tournai|mouscron|la louviere|seraing|verviers|ixelles|etterbeek|(?<![a-z])uccle"
+        r"|schaerbeek|anderlecht|woluwe|(?<![a-z])evere(?![a-z])|auderghem"
     ),
 }
 ZONE_KEYS = {"ile-de-france": "Île-de-France", "idf": "Île-de-France",
              "luxembourg": "Luxembourg", "suisse": "Suisse", "switzerland": "Suisse",
-             "malaisie": "Malaisie", "malaysia": "Malaisie", "oman": "Oman",
-             "londres": "Londres", "london": "Londres"}
+             "belgique": "Belgique", "belgium": "Belgique"}
 # Catégorie (pays) affichée sur le site pour chaque zone
 COUNTRY = {"Île-de-France": "France", "Luxembourg": "Luxembourg", "Suisse": "Suisse",
-           "Malaisie": "Malaisie", "Oman": "Oman", "Londres": "Royaume-Uni"}
+           "Belgique": "Belgique"}
 
 # Lieux clairement hors zones : sert à écarter une offre dont la fiche
 # dit "Lisbonne" même si le pied de page mentionne "Paris".
 ELSEWHERE = re.compile(
     r"(?<![a-z])(?:portugal|lisbo|porto(?![a-z])|london|londres|united kingdom|royaume[\s\-]uni|(?<![a-z])uk(?![a-z])|india|inde(?![a-z])"
     r"|bangalore|mumbai|chennai|singapore|singapour|hong kong|new york|usa|united states|etats[\s\-]unis"
-    r"|belgique|belgium|bruxelles|brussels|spain|espagne|madrid|italy|italie|milan|germany|allemagne"
+    r"|spain|espagne|madrid|italy|italie|milan|germany|allemagne"
     r"|frankfurt|munich|poland|pologne|warsaw|maroc|morocco|casablanca|tunisie|canada|montreal|dubai|uae"
     r"|lyon|marseille|toulouse|bordeaux|lille|nantes|rennes|strasbourg|nice(?![a-z])|montpellier|grenoble"
     r"|auvergne|occitanie|nouvelle[\s\-]aquitaine|hauts[\s\-]de[\s\-]france|grand est|bretagne|normandie"
@@ -146,6 +143,11 @@ def german_required(title: str, text: str) -> str | None:
     tt = norm(title)
     # (m/w/d), (w/m/d) : "weiblich" = annonce allemande ; "Spezialist:in", "Analyst*in", "Mitarbeiter/-in"
     if re.search(r"\b(?:m\s*/\s*w|w\s*/\s*m)\s*/\s*[dx]\b|[a-z](?::|\*|_|/-?)in(?:nen)?\b", tt):
+        return "annonce en allemand (titre)"
+    # "MitarbeiterIn" (I majuscule) ou vocabulaire allemand dans l'intitulé
+    if re.search(r"[a-zäöü]In(?:nen)?\b", title or "") or re.search(
+            r"mitarbeiter|sachbearbeiter|stammdaten|fachperson|fachspezialist|leiter(?:in)?\b|kaufm|datenanalyst|daten(?![a-z]*\s*(?:et|and))"
+            r"|verantwortlich|projektleit|entwickler|berater|(?<![a-z])und(?![a-z])|wirtschaft|versicherung|krankenversicherung", tt):
         return "annonce en allemand (titre)"
     t = norm(text)[:20000]
     for m in GERMAN_REQ_RE.finditer(t):
@@ -299,6 +301,7 @@ class Criteria:
     unknown_experience: str = "keep"
     unknown_location: str = "drop"
     country_rules: dict = field(default_factory=dict)   # réglages propres à un pays (contrats, expérience)
+    reject_german: bool = False          # écarter les offres qui exigent l'allemand (tous pays)
 
     def __post_init__(self):
         self.kw_re = words_re(self.keywords, prefix=True)
@@ -309,7 +312,7 @@ class Criteria:
     @classmethod
     def from_config(cls, cfg: dict) -> "Criteria":
         keys = ("keywords", "exclude_title", "contracts", "max_experience_years", "zones",
-                "unknown_contract", "unknown_experience", "unknown_location", "country_rules")
+                "unknown_contract", "unknown_experience", "unknown_location", "country_rules", "reject_german")
         return cls(**{k: cfg[k] for k in keys if k in cfg})
 
     # 1) Filtre rapide sur le titre (avant d'ouvrir la fiche)

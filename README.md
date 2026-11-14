@@ -1,7 +1,7 @@
 # JobHunter
 
-Veille automatique des offres d'emploi **directement sur les sites carrière** d'une trentaine d'entreprises (France, Suisse, Luxembourg, Malaisie, Oman).
-Les offres qui correspondent aux critères arrivent sur un site privé et en notification **ntfy** sur le téléphone, avec un **CV adapté à chaque offre** (modifiable, téléchargeable en Word et en PDF).
+Veille automatique des offres d'emploi **directement sur les sites carrière** d'une vingtaine d'entreprises, plus les grands sites d'emploi (France, Suisse, Luxembourg, Belgique).
+Les offres qui correspondent aux critères arrivent sur un site privé et en notification **ntfy** sur le téléphone, avec un **CV adapté à l'offre en un clic** (modifiable, téléchargeable en Word et en PDF).
 
 - Robot : **GitHub Actions**, plusieurs passages par jour de 6 h à minuit (heure de Paris)
 - Site : **Vercel**, protégé par mot de passe
@@ -35,9 +35,10 @@ GitHub Actions (toutes les 30 min, en pratique 5 à 7 passages par jour)
    ├─ 2. garde les titres avec un mot-clé (data, analyst…) et sans mot exclu (senior, stage…)
    ├─ 3. ouvre chaque nouvelle fiche : lieu → pays, contrat, expérience demandée
    ├─ 4. fait relire l'expérience par l'IA, qui doit citer la phrase exacte de la fiche
-   ├─ 5. génère un CV adapté à l'offre
-   ├─ 6. envoie une notif ntfy (drapeau du pays + lien)
-   └─ 7. enregistre tout dans docs/data/ (commit "Offres …")
+   ├─ 5. envoie une notif ntfy (drapeau du pays + lien)
+   └─ 6. enregistre tout dans docs/data/ (commit "Offres …")
+
+Bouton « Générer mon CV » sur une offre → workflow « JobHunter CV » → docs/data/cv/<id>.json
                     │
                     ▼
       Vercel publie docs/ → site JobHunter (mot de passe)
@@ -54,7 +55,7 @@ Un passage s'arrête de lui-même après 38 minutes (`time_budget_minutes`). Le 
 | Liste | Sources | Réglages | Robot (GitHub Actions) | Données |
 |---|---|---|---|---|
 | Sites carrière (page d'accueil) | ~25 entreprises + jobs.ch, jobup.ch, Moovijob… | `config.yaml` | **JobHunter**, toutes les 30 min | `docs/data/` |
-| Sites d'emploi (`?p=boards`) | APEC, HelloWork | `config_boards.yaml` (reprend les critères de `config.yaml`) | **JobHunter sites d'emploi**, toutes les 2 h | `docs/data/boards/` |
+| Sites d'emploi (`?p=boards`) | HelloWork, jobs.ch, jobup.ch, Moovijob, StepStone Belgique (APEC désactivé : anti-robot) | `config_boards.yaml` (reprend les critères de `config.yaml`) | **JobHunter sites d'emploi**, toutes les 2 h | `docs/data/boards/` |
 
 On passe de l'une à l'autre avec le sélecteur en haut du site. Chaque page a son bouton « Lancer une recherche ». Une offre déjà présente dans une liste n'est pas ajoutée à l'autre. Le suivi des candidatures et les CV sont communs aux deux.
 
@@ -66,10 +67,9 @@ Une offre est retenue seulement si elle passe **toutes** les étapes. Sinon, ell
 |---|---|---|
 | Titre | contient un mot-clé (`keywords`) | « Mécanicien avion » |
 | Titre | ne contient aucun mot exclu (`exclude_title`) | « Senior Data Analyst », « Stage… », « Team Leader… », « …Datacenter » |
-| Lieu | Île-de-France, Suisse, Luxembourg, Malaisie ou Oman | « Data Analyst, Lyon » |
+| Lieu | Île-de-France, Suisse, Luxembourg ou Belgique | « Data Analyst, Lyon » |
 | Stage déguisé | « Type de contrat : Stage », « stage de 6 mois », « gratification »… même si « CDD » figure aussi | « Data Visualization Analyst, stage 6 mois » |
-| Allemand (Suisse) | l'offre exige l'allemand, est rédigée en allemand ou porte (m/w/d) ; « l'allemand est un atout » reste accepté | « Data Analyst (m/w/d) » |
-| Salaire (Londres) | salaire maximum affiché ≥ 41 700 £, le minimum du visa Skilled Worker | « Data Analyst, £30 000 - £35 000 » |
+| Allemand (tous pays) | l'offre exige l'allemand, est rédigée en allemand ou porte (m/w/d) ; « l'allemand est un atout » reste accepté | « Data Analyst (m/w/d) » |
 | Contrat | CDI ou CDD | « Alternance », « VIE » |
 | Expérience | 2 ans maximum (`max_experience_years`) | « Niveau d'expérience : 3 - 5 ans » |
 | IA | relit l'expérience sur la fiche | « vous justifiez d'une expérience réussie de plusieurs années… » |
@@ -90,14 +90,8 @@ Quand les règles changent (constante `RULES_VERSION` dans `jobhunter/__main__.p
 
 ### Catégories par pays
 
-Chaque offre est rangée dans un pays : 🇫🇷 France, 🇨🇭 Suisse, 🇱🇺 Luxembourg, 🇬🇧 Royaume-Uni (Londres), 🇲🇾 Malaisie, 🇴🇲 Oman. Le pays apparaît en boutons sur le site et en drapeau dans les notifs.
+Chaque offre est rangée dans un pays : 🇫🇷 France, 🇨🇭 Suisse, 🇱🇺 Luxembourg, 🇧🇪 Belgique. Le pays apparaît en boutons sur le site et en drapeau dans les notifs.
 
-### Londres et le visa
-
-Pour chaque offre à Londres, le robot cherche l'employeur dans le [registre officiel des sponsors de visa](https://www.gov.uk/government/publications/register-of-licensed-sponsors-workers), téléchargé à chaque passage. La carte et la notif affichent :
-- ✅ sponsor visa : l'employeur peut sponsoriser un visa Skilled Worker ;
-- ⚠ sponsor (autre visa) : il a une licence, mais pas pour le Skilled Worker ;
-- ⛔ pas sponsor de visa : il est absent du registre.
 
 Avec `require_sponsor: true` dans `country_rules`, les employeurs non sponsors sont écartés.
 Pour assouplir les règles dans un seul pays, utilise `country_rules` dans `config.yaml` :
@@ -120,7 +114,7 @@ Adresse : https://jobhunter-docs.vercel.app/. Le navigateur demande l'identifian
   - le **score de correspondance** 🎯 : la part des compétences demandées dans la fiche que l'on retrouve dans ton CV de base (vert ≥ 70 %, orange 40-69 %, rouge < 40 %). En dépliant « Compétences demandées », tu vois celles que tu as (✓) et celles qui manquent (✗) ;
   - la date de publication sur le site d'origine et la date de récupération ;
   - le lieu, le contrat et l'expérience ;
-  - les boutons **Voir et postuler**, **Mon CV pour cette offre**, le menu **Suivi** et **Masquer**.
+  - les boutons **Voir et postuler**, **CV pour cette offre**, le menu **Suivi** et **Masquer**.
 - **Mes candidatures** : les étapes À postuler → Postulé → Entretien → Refus / Offre, avec la date d'envoi (J+n), une note libre et le bouton **J'ai relancé**. Une candidature passe **⏰ À relancer** 7 jours après l'envoi ou après la dernière relance. Ce suivi est enregistré **sur l'appareil** (il n'est pas partagé entre ton PC et ton téléphone).
 - **Écartées** : les offres rejetées et la raison. Utile pour vérifier que le tri ne jette rien de bon.
 - **Sources** : l'état de chaque entreprise (ok / vide / erreur), le nombre de liens trouvés et le dernier succès.
@@ -133,6 +127,8 @@ Adresse : https://jobhunter-docs.vercel.app/. Le navigateur demande l'identifian
 L'icône JobHunter apparaît sur l'écran d'accueil et le site s'ouvre en plein écran.
 
 ### Le CV par offre
+
+Le CV n'est **plus généré pour chaque offre** (trop d'appels à l'IA) : sur une offre, **CV pour cette offre** puis **Générer mon CV**. Le workflow « JobHunter CV » rouvre la fiche, adapte le CV (1 appel IA) et l'enregistre ; la page l'affiche dès qu'il est prêt (1 à 3 min), sans attendre la mise à jour du site. « Partir de mon CV de base » évite l'attente.
 
 `cv.html?id=…` ouvre un éditeur avec un aperçu A4. Tout est modifiable et les changements restent enregistrés sur ton appareil. Deux boutons : **Télécharger en Word** et **Télécharger en PDF**.
 Le CV de base est dans `cv/base_cv.json`. Le téléphone et l'email ne sont **pas** dans le dépôt : saisis-les une fois dans l'éditeur, ils sont gardés sur ton appareil.
@@ -154,7 +150,6 @@ Tout se règle dans **`config.yaml`**. Tu peux le modifier directement sur GitHu
 | `unknown_contract` / `unknown_experience` / `unknown_location` | `keep` ou `drop` quand l'info manque |
 | `experience_ai`, `experience_ai_per_run` | contrôle IA de l'expérience |
 | `notify.max_per_run` | au-delà, une seule notif récapitulative |
-| `cv_enabled`, `cv_per_run` | génération des CV |
 | `time_budget_minutes` | durée maximum d'un passage |
 | `match_backfill_per_company` | offres déjà affichées dont le score est calculé par passage (8) |
 
@@ -167,7 +162,6 @@ Tout se règle dans **`config.yaml`**. Tu peux le modifier directement sur GitHu
 | `source` | Pour quel site | Exemple déjà en place |
 |---|---|---|
 | `rss` | flux RSS (le plus fiable) | Air France, Bouygues Telecom |
-| `reed` | API officielle de Reed.co.uk (clé `REED_API_KEY`) | Reed (Londres) |
 | `workday` | sites `*.myworkdayjobs.com` | Eiffage, Julius Baer |
 | `json` | API JSON publique | AXA |
 | `sequence` | fiches à numéro croissant | EDF / Enedis |
@@ -178,7 +172,7 @@ Options utiles pour `html` :
 - `link_pattern` est le morceau d'URL propre aux fiches (ex. `/job/`) ;
 - `default_location` sert de lieu si la fiche n'en donne pas ;
 - `enabled: false` désactive une entreprise sans supprimer son bloc ;
-- `aggregator: true` pour un site d'annonces (jobs.ch, jobup.ch, Reed) : la carte affiche le vrai employeur (« via jobs.ch »), et une annonce déjà vue ailleurs n'est pas ajoutée deux fois.
+- `aggregator: true` pour un site d'annonces (jobs.ch, HelloWork, StepStone…) : la carte affiche le vrai employeur (« via jobs.ch »), et une annonce déjà vue ailleurs n'est pas ajoutée deux fois.
 
 2. Lance le workflow en mode **diagnose** (voir § 6), avec le nom de l'entreprise dans *only*. Le log montre les liens et les titres trouvés.
 3. Si rien ne remonte, envoie le log à Claude pour ajuster l'URL ou le `link_pattern`.
@@ -221,7 +215,6 @@ git push
    Dans *Settings → Secrets and variables → Actions*, ajoute :
    - `NTFY_TOPIC` : le nom du topic (obligatoire) ;
    - `GROQ_API_KEY` : clé gratuite sur console.groq.com, pour les CV reformulés et le contrôle IA de l'expérience (recommandé) ;
-   - `REED_API_KEY` : clé gratuite du portail développeur de Reed.co.uk, pour les offres à Londres (facultatif) ;
    - `NTFY_TOKEN` : facultatif, seulement pour un serveur ntfy protégé.
 3. **Actions** : onglet Actions, activer les workflows, puis *Run workflow* une première fois.
 4. **Vercel** : *Add New Project* et importer le dépôt, avec :
@@ -234,7 +227,7 @@ git push
 
    Puis *Deployments → … → Redeploy*.
 6. **Bouton « Lancer une recherche maintenant »** (facultatif) :
-   - sur GitHub, *Settings* (de ton compte) → *Developer settings* → *Personal access tokens* → *Fine-grained tokens* → *Generate new token* : accès au seul dépôt `jobhunter`, permission **Actions : Read and write** ;
+   - sur GitHub, *Settings* (de ton compte) → *Developer settings* → *Personal access tokens* → *Fine-grained tokens* → *Generate new token* : accès au seul dépôt `jobhunter`, permissions **Actions : Read and write** et **Contents : Read-only** (pour lire le CV dès qu'il est prêt) ;
    - dans Vercel, *Settings → Environment Variables* : `GH_TOKEN` = ce jeton, et `NTFY_TOPIC` = le même nom de topic que dans les secrets GitHub (il sert à lire l'avancement) ;
    - *Redeploy*. Le bouton lance alors le robot et affiche, source par source, ce qu'il est en train de lire. L'avancement passe par un canal ntfy séparé (`<topic>-live`) auquel ton téléphone n'est pas abonné.
 7. **Test local** (facultatif) :
@@ -250,19 +243,21 @@ git push
 ```
 jobhunter/                     ← racine du dépôt
 ├─ config.yaml                 critères + liste des entreprises
-├─ config_boards.yaml          sources APEC et HelloWork (mêmes critères)
+├─ config_boards.yaml          sites d'emploi FR/CH/LU/BE (mêmes critères)
 ├─ requirements.txt
 ├─ .github/workflows/jobhunter.yml   robot des sites carrière
 ├─ .github/workflows/boards.yml      robot des sites d'emploi
+├─ .github/workflows/cv.yml          CV d'une offre, à la demande
 ├─ jobhunter/                  le robot (Python)
-│  ├─ __main__.py              déroulé d'un passage (tri, revérification, CV, notifs)
+│  ├─ __main__.py              déroulé d'un passage (tri, revérification, notifs)
+│  ├─ cv_ondemand.py           CV d'une seule offre (bouton du site)
 │  ├─ sources.py               lecture des sites : RSS, HTML, JSON, Workday, navigateur, fiches
 │  ├─ filters.py               mots-clés, contrat, expérience, lieu → pays
 │  ├─ ai_check.py              contrôle IA de l'expérience (avec citation vérifiée)
 │  ├─ match.py                 score de correspondance offre / CV
 │  ├─ sponsors.py              registre britannique des sponsors de visa
 │  ├─ llm.py                   appel à l'IA Groq (erreur exacte affichée, modèle de secours)
-│  ├─ cv.py                    CV adapté à chaque offre
+│  ├─ cv.py                    adaptation du CV à une offre
 │  ├─ notify.py                notifications ntfy
 │  └─ store.py                 fichiers JSON (offres, écartées, état des sources)
 ├─ cv/base_cv.json             CV de référence (sans téléphone ni email)

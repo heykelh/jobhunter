@@ -597,16 +597,29 @@ def fetch_rss(fetcher: Fetcher, url: str) -> list[Listing]:
 
 
 # ---------------------------------------------------------------- Workday (API JSON)
-def collect_workday(comp: dict, fetcher: Fetcher, keywords: list[str]) -> tuple[list[Listing], list[str]]:
+def collect_workday(comp: dict, fetcher: Fetcher, keywords: list[str], keyword_hit=None) -> tuple[list[Listing], list[str]]:
     """Sites Workday (ex. Eiffage) : API publique POST …/wday/cxs/<tenant>/<site>/jobs."""
     api, public = comp["api"].rstrip("/"), comp["public_url"].rstrip("/")
     out, errors = {}, []
+    # Certains sites Workday exigent désormais la session (cookies + jeton CSRF) de la page publique
+    headers = {"Accept": "application/json", "Content-Type": "application/json", "Origin": re.sub(r"(https://[^/]+).*", r"\1", public),
+               "Referer": public, "Accept-Language": "fr-FR,fr;q=0.9,en;q=0.8"}
+    try:
+        fetcher.s.get(public, timeout=30)
+        tok = fetcher.s.cookies.get("CALYPSO_CSRF_TOKEN")
+        if tok:
+            headers["X-CALYPSO-CSRF-TOKEN"] = tok
+    except Exception:
+        pass
+    denied = 0
     for q in comp.get("search_terms") or keywords:
         for offset in comp.get("offsets", [0, 20]):
             try:
                 fetcher._polite(api)
                 r = fetcher.s.post(api, json={"appliedFacets": comp.get("facets", {}), "limit": 20,
-                                              "offset": offset, "searchText": q}, timeout=30)
+                                              "offset": offset, "searchText": q}, headers=headers, timeout=30)
+                if r.status_code in (401, 403):
+                    denied += 1
                 r.raise_for_status()
                 for jp in r.json().get("jobPostings", []):
                     path = jp.get("externalPath") or ""
@@ -619,6 +632,13 @@ def collect_workday(comp: dict, fetcher: Fetcher, keywords: list[str]) -> tuple[
             except Exception as e:
                 errors.append(f"{api} [{q}/{offset}] → {type(e).__name__}: {str(e)[:120]}")
     fetcher.diag.append(f"[workday] {len(out)} offres via l'API")
+    if not out and denied:
+        # API refusée : on ouvre la page publique dans le navigateur et on lit les liens des offres
+        fetcher.diag.append("[workday] API refusée (401/403) : lecture de la page publique avec le navigateur")
+        alt = {**comp, "source": "html", "render": True, "wait_ms": comp.get("wait_ms", 6000),
+               "urls": [public + "?q={q}"], "link_pattern": comp.get("link_pattern", r"/job/")}
+        listings, errs = collect(alt, fetcher, keywords, keyword_hit or (lambda t: True))
+        return listings, (errs if not listings else [])
     return list(out.values()), errors
 
 
@@ -712,47 +732,79 @@ def detail_for(comp: dict, fetcher: Fetcher, url: str) -> Detail:
 # ------------------------------------------- numéros d'offres consécutifs (ex. EDF)
 def collect_sequence(comp: dict, fetcher: Fetcher, state: dict) -> tuple[list[Listing], list[str]]:
     """Pour les sites dont la liste est inaccessible mais dont les fiches ont un numéro croissant
-    (EDF : /offre/detail/2026-182699). On lit les numéros suivant le dernier connu."""
+    (EDF : /offre/detail/2026-182699). On lit les numéros suivant le dernier connu.
+
+    La numérotation a des trous (numéros pris par d'autres sites du groupe) : si rien n'est trouvé
+    après max_miss numéros, on saute en avant par bonds (+50, +100, +200…) pour retrouver le front
+    des nouvelles offres, puis on reprend la lecture numéro par numéro."""
     key = comp["name"]
     st = state.setdefault("sequence", {}).setdefault(key, {})
-    last = int(st.get("last", comp.get("start", 0)))
+    last = max(int(st.get("last", 0)), int(comp.get("start", 0)))
     max_probe, max_miss = int(comp.get("max_probe", 60)), int(comp.get("max_miss", 30))
-    out, errors, misses, n, best = [], [], 0, last, last
+    bad = [w.lower() for w in comp.get("skip_titles", ["maintenance", "introuvable", "erreur", "error", "404"])]
+    out, errors = [], []
     tried = 0
-    while tried < max_probe and misses < max_miss:
-        n += 1
+
+    def probe(n: int):
+        nonlocal tried
         tried += 1
         url = comp["url_template"].format(n=n)
         try:
             fetcher._polite(url)
             r = fetcher.s.get(url, timeout=30)
             if r.status_code >= 400:
-                misses += 1
-                continue
+                return None
             soup = BeautifulSoup(r.text, "lxml")
             h = soup.find("h1") or soup.find("h2")
             title = clean_title(re.sub(r"\s*\(\d{4}-\d+\)\s*$", "", squash(h.get_text(" ")) if h else ""))
-            bad = [w.lower() for w in comp.get("skip_titles", ["maintenance", "introuvable", "erreur", "error", "404"])]
             if not title or any(w in title.lower() for w in bad) or \
                     (comp.get("not_found_text") and comp["not_found_text"].lower() in r.text.lower()):
-                misses += 1
-                continue
-            misses, best = 0, n
+                return None
             detail = Detail(text=_page_text(BeautifulSoup(r.text, "lxml")))
             detail.published = date_in_text(detail.text)
-            company = None
-            for c in comp.get("companies", []):
-                if c.lower() in detail.text[:3000].lower():
-                    company = c
-                    break
-            out.append(Listing(url=clean_url(url), title=title, context=detail.text[:1500],
-                               published=detail.published, company=company, detail=detail))
+            company = next((c for c in comp.get("companies", []) if c.lower() in detail.text[:3000].lower()), None)
+            return Listing(url=clean_url(url), title=title, context=detail.text[:1500],
+                           published=detail.published, company=company, detail=detail)
         except Exception as e:
             errors.append(f"{url} → {type(e).__name__}: {str(e)[:120]}")
-            misses += 1
-    if best > last:
+            return None
+
+    def scan(start: int):
+        """Lit start+1, start+2… jusqu'à max_miss numéros vides d'affilée. Renvoie le dernier numéro trouvé."""
+        n, misses, best = start, 0, None
+        while tried < max_probe and misses < max_miss:
+            n += 1
+            l = probe(n)
+            if l:
+                out.append(l)
+                misses, best = 0, n
+            else:
+                misses += 1
+        return best
+
+    best = scan(last)
+    jumped = None
+    if best is None and tried < max_probe:
+        # bonds en avant tous les 250 numéros (4 numéros testés à chaque fois) ; on garde le plus loin qui répond
+        front, empty_after = None, 0
+        for i in range(1, 25):
+            if tried > max_probe - 4:
+                break
+            base = last + 250 * i
+            hit = next((n for n in range(base, base + 4) if (l := probe(n)) and not out.append(l)), None)
+            if hit:
+                front, empty_after = hit, 0
+            elif front is not None:
+                empty_after += 1
+                if empty_after >= 2:
+                    break
+        if front is not None:
+            jumped = front
+            best = scan(front) or front
+    if best and best > last:
         st["last"] = best
-    fetcher.diag.append(f"[séquence] numéros {last + 1} à {n} lus, {len(out)} offres, dernier trouvé {best}")
+    fetcher.diag.append(f"[séquence] départ {last}, {tried} numéros lus, {len(out)} offres, dernier trouvé {best}"
+                        + (f" (saut jusqu'à {jumped})" if jumped else ""))
     return out, errors
 
 
@@ -763,7 +815,7 @@ def collect(comp: dict, fetcher: Fetcher, keywords: list[str], keyword_hit,
     if src in ("workday", "sequence", "reed"):
         fetcher.diag = []
         if src == "workday":
-            return collect_workday(comp, fetcher, keywords)
+            return collect_workday(comp, fetcher, keywords, keyword_hit)
         if src == "reed":
             return collect_reed(comp, fetcher, keywords)
         return collect_sequence(comp, fetcher, state if state is not None else {})

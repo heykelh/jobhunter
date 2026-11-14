@@ -1,0 +1,65 @@
+name: JobHunter CV
+# CV adapté à une offre, lancé par le bouton « Générer mon CV » du site
+run-name: CV ${{ inputs.id }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      id:
+        description: "Identifiant de l'offre (visible dans l'adresse cv.html?id=…)"
+        required: true
+      list:
+        description: "main = sites carrière · boards = sites d'emploi"
+        required: false
+        default: main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: jobhunter-cv-${{ inputs.id }}
+  cancel-in-progress: false
+
+jobs:
+  cv:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installer les dépendances
+        run: pip install -r requirements.txt
+
+      - name: Cache du navigateur
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: pw-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
+
+      - name: Installer Chromium
+        run: python -m playwright install --with-deps chromium
+
+      - name: Générer le CV
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          JOB_ID: ${{ inputs.id }}
+          JOB_LIST: ${{ inputs.list }}
+        run: python -m jobhunter.cv_ondemand --id "$JOB_ID" --data "${JOB_LIST:-main}"
+
+      - name: Enregistrer le CV
+        run: |
+          git config user.name "jobhunter-bot"
+          git config user.email "jobhunter-bot@users.noreply.github.com"
+          git add docs/data/cv
+          if git diff --cached --quiet; then echo "Rien de neuf"; exit 0; fi
+          git commit -m "CV $(date -u +'%Y-%m-%d %H:%M') UTC"
+          for i in 1 2 3 4; do
+            git pull --rebase --autostash && git push && exit 0
+            sleep $((i * 7))
+          done
+          exit 1
