@@ -1,6 +1,110 @@
 {
- "updated": "2026-11-14T18:54:33+00:00",
+ "updated": "2026-11-14T23:05:07+00:00",
  "items": [
+  {
+   "id": "01ba0634c7ad",
+   "company": "StepStone Belgique",
+   "title": "Lead Data Engineer",
+   "url": "https://www.stepstone.be/offres-d-emploi--Lead-Data-Engineer-Machelen-Devoteam--2135673-inline.html",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-14T23:05:07+00:00"
+  },
+  {
+   "id": "6149f4bc3b4d",
+   "company": "StepStone Belgique",
+   "title": "Data Centre – Design Manager (m/f/d) MEP / Architectural Background",
+   "url": "https://www.stepstone.be/offres-d-emploi--Data-Centre-Design-Manager-m-f-d-MEP-Architectural-Background-Berlin-AECOM-Belgium-BVBA--2247309-inline.html",
+   "reason": "titre exclu (data centre)",
+   "at": "2026-11-14T23:05:07+00:00"
+  },
+  {
+   "id": "09a77eb73e57",
+   "company": "StepStone Belgique",
+   "title": "Head of Customer Success and Data Quality Management",
+   "url": "https://www.stepstone.be/offres-d-emploi--Head-of-Customer-Success-and-Data-Quality-Management-Ixelles-Inoopa--2114965-inline.html",
+   "reason": "titre exclu (head)",
+   "at": "2026-11-14T23:05:07+00:00"
+  },
+  {
+   "id": "0c7c15c5a0da",
+   "company": "jobup.ch",
+   "title": "Technical Analyst – Power Trading Systems",
+   "url": "https://www.jobup.ch/fr/emplois/detail/eb7c5d5c-0b50-44e1-aa9f-117a41895d5f/",
+   "reason": "expérience demandée ≥ 10 ans « r assurer un support de qualite. competences 10 ans d'experience en developp »",
+   "at": "2026-11-14T23:03:06+00:00"
+  },
+  {
+   "id": "addffa8d1cbd",
+   "company": "jobup.ch",
+   "title": "(Senior) Forward Deployed Data & AI Engineer 80-100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/8ba2f63a-6c72-44b3-98a6-680cd46944ea/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T23:03:06+00:00"
+  },
+  {
+   "id": "00497b64b859",
+   "company": "jobup.ch",
+   "title": "Praktikum AI Engineering",
+   "url": "https://www.jobup.ch/fr/emplois/detail/1015513a-4d0e-477b-ab38-270221af4401/",
+   "reason": "titre exclu (praktikum)",
+   "at": "2026-11-14T23:03:06+00:00"
+  },
+  {
+   "id": "97c3b98a8caa",
+   "company": "jobs.ch",
+   "title": "Teamleitung SAP Services / Business Analyst Order-to-Cash (OTC) 80-100% (m/w/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/c0a47671-36e6-49f9-892e-c1697b853bab/",
+   "reason": "expérience demandée ≥ 3 ans « stion d'entreprise ou formation equivalente. experience significative dans la gestion ou la su »",
+   "at": "2026-11-14T23:02:44+00:00"
+  },
+  {
+   "id": "655f59510ac4",
+   "company": "jobs.ch",
+   "title": "Security Analyst / Architect (f/m/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/9d6db0ed-4c8e-4fb1-b9ff-7edd1da916fa/",
+   "reason": "titre exclu (architect)",
+   "at": "2026-11-14T23:02:44+00:00"
+  },
+  {
+   "id": "98898872db60",
+   "company": "jobs.ch",
+   "title": "Professor/in für Data Engineering",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/748acfd8-844f-4d46-a31e-bf150eace2dd/",
+   "reason": "annonce en allemand (titre)",
+   "at": "2026-11-14T23:02:38+00:00"
+  },
+  {
+   "id": "b4a53347ceff",
+   "company": "jobs.ch",
+   "title": "Senior Business Analyst Digital Banking Security (a) (80-100%)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/1347d4ac-a40e-44c3-9b77-69d823895fcb/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T23:02:38+00:00"
+  },
+  {
+   "id": "c66105031209",
+   "company": "jobs.ch",
+   "title": "Senior Software Engineer - Data Acquisition and Instrument Integration",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/fc0fe3b5-8e48-4a06-94bc-b2c53ba57836/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-14T23:02:37+00:00"
+  },
+  {
+   "id": "3e8b11566957",
+   "company": "HelloWork",
+   "title": "Responsable d'Affaires en IA H/F VINCI Energies France Tertiaire Nord Est",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82990034.html",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « Exp. 3 ans min. » (retirée)",
+   "at": "2026-11-14T23:01:13+00:00"
+  },
+  {
+   "id": "9d3db9d4412b",
+   "company": "HelloWork",
+   "title": "Analyste Développeur COBOL H/F Groupe Créative",
+   "url": "https://www.hellowork.com/fr-fr/emplois/67620036.html",
+   "reason": "expérience demandée ≥ 3 ans « la mise en exploitation le profil recherche 3 ans d'experience minimumexpe »",
+   "at": "2026-11-14T23:00:51+00:00"
+  },
   {
    "id": "85f1d0cee399",
    "company": "StepStone Belgique",
