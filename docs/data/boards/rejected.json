@@ -1,6 +1,206 @@
 {
- "updated": "2026-11-14T23:05:07+00:00",
+ "updated": "2026-11-15T12:50:46+00:00",
  "items": [
+  {
+   "id": "367c8b2c4d04",
+   "company": "StepStone Belgique",
+   "title": "Google Cloud Lead Data Architect",
+   "url": "https://www.stepstone.be/offres-d-emploi--Google-Cloud-Lead-Data-Architect-Machelen-Devoteam--2195940-inline.html",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-15T12:50:46+00:00"
+  },
+  {
+   "id": "ad47c0624e47",
+   "company": "jobup.ch",
+   "title": "Analyste métier à la Direction des systèmes d'information",
+   "url": "https://www.jobup.ch/fr/emplois/detail/e2a5392a-1511-40b7-8585-5a335fd8aa20/",
+   "reason": "expérience demandée ≥ 3 ans « competences diplome epf ou universitaire et 3 ans d'experience requise. ma »",
+   "at": "2026-11-15T12:48:42+00:00"
+  },
+  {
+   "id": "467680b3a7e9",
+   "company": "jobup.ch",
+   "title": "Praktikum AI Engineering",
+   "url": "https://www.jobup.ch/fr/emplois/detail/505f5122-32a7-45d3-a338-9e4efba5ea85/",
+   "reason": "titre exclu (praktikum)",
+   "at": "2026-11-15T12:48:42+00:00"
+  },
+  {
+   "id": "46b430e7158d",
+   "company": "jobup.ch",
+   "title": "Data manager clinique",
+   "url": "https://www.jobup.ch/fr/emplois/detail/cd3e41ba-973e-4f41-9c6f-055117c2dcfe/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-15T12:48:40+00:00"
+  },
+  {
+   "id": "a29e5f89438b",
+   "company": "jobup.ch",
+   "title": "Lead / Principal Data Architect",
+   "url": "https://www.jobup.ch/fr/emplois/detail/b397e21e-4e09-40b4-8ce0-bee7c6f7e83f/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-15T12:48:40+00:00"
+  },
+  {
+   "id": "668d934bc671",
+   "company": "jobup.ch",
+   "title": "Senior Data Engineer (MSSQL) mit Data Lakehouse Perspektive",
+   "url": "https://www.jobup.ch/fr/emplois/detail/d82aa6e9-f385-4885-83e1-024277246e89/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-15T12:48:40+00:00"
+  },
+  {
+   "id": "8b1b67083fc8",
+   "company": "jobs.ch",
+   "title": "Analyste métier à la Direction des systèmes d'information",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/e2a5392a-1511-40b7-8585-5a335fd8aa20/",
+   "reason": "expérience demandée ≥ 3 ans « competences diplome epf ou universitaire et 3 ans d'experience requise. ma »",
+   "at": "2026-11-15T12:48:20+00:00"
+  },
+  {
+   "id": "9f5434af2cf3",
+   "company": "jobs.ch",
+   "title": "Epic Analystin / Analyst Beacon 100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/41506bb0-b513-4f2e-a23b-ce8c099da06d/",
+   "reason": "allemand exigé « ique ainsi que de bonnes connaissances en allemand et en anglais au ni »",
+   "at": "2026-11-15T12:48:19+00:00"
+  },
+  {
+   "id": "c08bb2a109d2",
+   "company": "jobs.ch",
+   "title": "Data Governance Specialist Siemens SI Buildings 80-100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/6a153495-d1ca-4544-a3e2-1738cad70613/",
+   "reason": "expérience demandée ≥ 3 ans « es, gestion & technologie ou domaine connexe 3 ans d'experience pratique da »",
+   "at": "2026-11-15T12:48:18+00:00"
+  },
+  {
+   "id": "ffee33a52260",
+   "company": "HelloWork",
+   "title": "Chef de Projet Technique et Prompteur IA H/F MyUnisoft",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84142607.html",
+   "reason": "expérience demandée ≥ 3 ans « tion. votre profil vous justifiez d'au moins 3 ans d'experience en gestion »",
+   "at": "2026-11-15T12:47:59+00:00"
+  },
+  {
+   "id": "dee7af2b4407",
+   "company": "HelloWork",
+   "title": "Sales Specialist ai Business Solutions Microsoft H/F Inetum",
+   "url": "https://www.hellowork.com/fr-fr/emplois/60215747.html",
+   "reason": "expérience demandée ≥ 10 ans « s erp / crm le profil recherche experience : 10+ ans d'experience envente de »",
+   "at": "2026-11-15T12:47:58+00:00"
+  },
+  {
+   "id": "029e24bbf59e",
+   "company": "HelloWork",
+   "title": "Architecte Souveraineté Data & IA H/F Onepoint",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84462400.html",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-15T12:47:58+00:00"
+  },
+  {
+   "id": "e2063676fdc9",
+   "company": "HelloWork",
+   "title": "Datascientist - Ai Ops H/F SOMA",
+   "url": "https://www.hellowork.com/fr-fr/emplois/71296834.html",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « Exp. 3 à 7 ans » (retirée)",
+   "at": "2026-11-15T12:47:57+00:00"
+  },
+  {
+   "id": "8d0ce0217bdb",
+   "company": "HelloWork",
+   "title": "Senior Consultant Data & ai Transformation H/F Talan",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85521837.html",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-15T12:47:57+00:00"
+  },
+  {
+   "id": "4b09598de5c7",
+   "company": "HelloWork",
+   "title": "Analyste Financement Automobile H/F CGI Finance",
+   "url": "https://www.hellowork.com/fr-fr/emplois/81468231.html",
+   "reason": "expérience demandée ≥ 3 ans « che vous disposez, idealement, au minimum de 3 ans d'experience dans le sec »",
+   "at": "2026-11-15T12:47:55+00:00"
+  },
+  {
+   "id": "aadc4c4f4e38",
+   "company": "HelloWork",
+   "title": "Analyste Comptable Confirmé H/F RYDGE Conseil",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83354841.html",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-15T12:47:55+00:00"
+  },
+  {
+   "id": "671cd51b2503",
+   "company": "HelloWork",
+   "title": "Analyste Financier H/F CPA Partner",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84467635.html",
+   "reason": "expérience demandée ≥ 3 ans « on d'actifs ; - vous justifiez idealement de 3 a 5 ans d'experience en analyse »",
+   "at": "2026-11-15T12:47:53+00:00"
+  },
+  {
+   "id": "23eeff583bcd",
+   "company": "HelloWork",
+   "title": "Analyste Engagements Affaires Spéciales - CDD- BTP Banque H/F Crédit Coopératif",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84458540.html",
+   "reason": "expérience demandée ≥ 4 ans « vous justifiez d'une experience confirmee de 4/5 ans en tant que charge·e d'a »",
+   "at": "2026-11-15T12:47:52+00:00"
+  },
+  {
+   "id": "2fe5b50cbd93",
+   "company": "HelloWork",
+   "title": "Analyste Middle Office Marchés Financiers H/F LENDYS",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84476447.html",
+   "reason": "expérience demandée ≥ 5 ans (lu par l'IA) « Exp. 5 ans min. »",
+   "at": "2026-11-15T12:47:51+00:00"
+  },
+  {
+   "id": "25a55cbf202f",
+   "company": "HelloWork",
+   "title": "Business Analyst Indemnisation H/F CYNÉGÉ CONSEIL",
+   "url": "https://www.hellowork.com/fr-fr/emplois/76799797.html",
+   "reason": "expérience demandée ≥ 11 ans « es, cynege s'appuie sur des equipes cumulant plus de 10 ans d'experience pour vous a »",
+   "at": "2026-11-15T12:47:49+00:00"
+  },
+  {
+   "id": "0b65de3df43d",
+   "company": "HelloWork",
+   "title": "Analyste Senior Revenue Management H/F JCDecaux",
+   "url": "https://www.hellowork.com/fr-fr/emplois/73545681.html",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-15T12:47:49+00:00"
+  },
+  {
+   "id": "9b64c3f6101b",
+   "company": "HelloWork",
+   "title": "Business Analyst Technique H/F HN Services",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84457527.html",
+   "reason": "expérience demandée ≥ 5 ans (lu par l'IA) « Exp. 5 ans min. »",
+   "at": "2026-11-15T12:47:47+00:00"
+  },
+  {
+   "id": "f96b9d3998e8",
+   "company": "HelloWork",
+   "title": "Business Analyst Bancaire H/F Consort Group",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84473979.html",
+   "reason": "expérience demandée ≥ 7 ans « vantes : - experience significative (minimum 7 ans) en tant que business an »",
+   "at": "2026-11-15T12:47:47+00:00"
+  },
+  {
+   "id": "e0cb38a2b6e2",
+   "company": "HelloWork",
+   "title": "Responsable SIRH et Data RH H/F CHATEAUFORM",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84458482.html",
+   "reason": "expérience demandée ≥ 5 ans « ormaliser - tu justifies d'une experience de 5 ans - langues : anglais appr »",
+   "at": "2026-11-15T12:47:44+00:00"
+  },
+  {
+   "id": "14e3b70af4df",
+   "company": "HelloWork",
+   "title": "Tech Lead Data - Spark - Scala - Plateforme Data à Grande Échelle H/F Externatic",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85518662.html",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-15T12:47:44+00:00"
+  },
   {
    "id": "01ba0634c7ad",
    "company": "StepStone Belgique",
