@@ -18,7 +18,7 @@ from pathlib import Path
 import yaml
 
 from . import cv as cvgen
-from . import match
+from . import ghost, match
 from .sponsors import SponsorRegister
 from .ai_check import ExperienceAI
 from .filters import Criteria, german_required, internship_evidence, norm
@@ -30,7 +30,8 @@ log = logging.getLogger("jobwatch")
 
 # À augmenter quand les règles de tri changent : les offres déjà affichées sont alors
 # revérifiées (fiche rouverte) et retirées si elles ne passent plus.
-RULES_VERSION = 4   # v4 : règle « allemand exigé » appliquée à tous les pays (14/11/2026)
+RULES_VERSION = 5   # v5 : expérience/contrat non précisés écartés, allemand partout (14/11/2026)
+LATER = "__later__"  # pas de verdict possible ce passage (budget IA épuisé) : on réessaiera
 
 
 def judge(crit: Criteria, ai: ExperienceAI, comp: dict, title: str, context: str, d) -> tuple[bool, str, object]:
@@ -65,6 +66,11 @@ def judge(crit: Criteria, ai: ExperienceAI, comp: dict, title: str, context: str
         if v.experience == "non précisée" and years is not None:
             v.experience = "débutant accepté" if years == 0 else f"{years} an{'s' if years > 1 else ''} min."
             v.junior = v.junior or years <= 1
+    # Expérience introuvable, même par l'IA : écartée si unknown_experience = drop
+    if v.experience == "non précisée" and crit.unknown_experience == "drop":
+        if ai.enabled and ai.calls >= ai.budget:
+            return False, LATER, v
+        return False, "expérience non précisée (ni sur la fiche, ni par l'IA)", v
     return True, "", v
 
 
@@ -93,6 +99,9 @@ def run(argv=None) -> int:
     fetcher = Fetcher(delay=float(cfg.get("delay_seconds", 1.5)))
     store = Store(args.data)
     store.see_also(SITE_DATA if args.data != "main" else SITE_DATA / "boards")
+    run_start = now()
+    other_dir = SITE_DATA if args.data != "main" else SITE_DATA / "boards"
+    history = ghost.History(store.dir / "history.json", [other_dir / "history.json"])
     notifier = Notifier(cfg)
     progress = Progress(notifier)
     alert_after = int(cfg.get("alert_after_failures", 6))
@@ -135,6 +144,14 @@ def run(argv=None) -> int:
         # État de santé des sources supprimées de la config (ex. Oman) : on l'oublie
         known = {c["name"] for c in cfg.get("companies", [])}
         store.health = {k: v for k, v in store.health.items() if k in known}
+    # Offres déjà affichées dont le contrat ou l'expérience n'ont pas été trouvés : écartées si "drop"
+    if not args.diagnose:
+        for jid, job in list(store.jobs.items()):
+            why = ("contrat non précisé" if crit.unknown_contract == "drop" and job.get("contract", "?") == "?" else
+                   "expérience non précisée" if crit.unknown_experience == "drop" and job.get("experience") == "non précisée" else "")
+            if why:
+                store.remove(jid)
+                store.reject(jid, job["company"], job["title"], job["url"], why + " (retirée)")
     # Règles changées : les offres écartées pour leur contrat sont réexaminées une fois
     # (la v3 ne lit plus le texte de toute une page de liste, qui faisait passer des CDI pour des stages)
     if not args.diagnose and store.state.get("rules_version", 1) < RULES_VERSION:
@@ -252,6 +269,8 @@ def run(argv=None) -> int:
                             except Exception as e:
                                 log.warning("  revérification impossible (%s) : %s", type(e).__name__, l.title)
                                 ok, reason, v = True, "", None
+                            if not ok and reason == LATER:
+                                ok, v = True, None
                             if not ok:
                                 store.remove(jid)
                                 store.reject(jid, name, l.title, l.url, reason + " (retirée)")
@@ -305,6 +324,8 @@ def run(argv=None) -> int:
                     title = l.title
                     text = d.text if d else ""
                     ok, reason, v = judge(crit, ai, comp, title, l.context, d)
+                    if not ok and reason == LATER:
+                        continue          # relue au prochain passage, quand l'IA aura du budget
                     if not ok:
                         store.reject(jid, name, title, l.url, reason)
                         log.info("  ✗ %s — %s", title, reason)
@@ -325,6 +346,9 @@ def run(argv=None) -> int:
                             store.reject(jid, name, title, l.url, f"{employer or name} n'est pas sponsor de visa (registre UK)")
                             log.info("  ✗ %s — employeur non sponsor", title)
                             continue
+                    sig = ghost.text_signals(text)
+                    if sig:
+                        job["ghost_text"] = sig
                     store.add(job)
                     kept += 1
                     log.info("  ✓ %s (%s, %s, %s, publiée %s)", title, v.zone, v.contract, v.experience,
@@ -363,6 +387,10 @@ def run(argv=None) -> int:
         log.info("\nDiagnostic écrit dans docs/data/diagnose.json")
         return 0
 
+    n_ghost = ghost.refresh(store, history, cfg, run_start)
+    if n_ghost:
+        log.info("👻 %d annonce(s) fantôme(s) rangée(s) à part", n_ghost)
+    fresh = [j for j in fresh if j["id"] in store.jobs and not j.get("ghost")]
     notifier.new_jobs(fresh)
     if seeded_summary:
         notifier.send("JobHunter est en route ✅",

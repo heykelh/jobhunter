@@ -1,5 +1,5 @@
 # ═══════════════════════════════════════════════════════════════════
-#  JobHunter — sites d'emploi (France, Suisse, Luxembourg, Belgique)
+#  JobHunter — sites d'emploi (France, Suisse, Luxembourg)
 #  Mêmes critères que config.yaml (mots-clés, contrats, expérience, zones, allemand…) :
 #  ce fichier ne précise que les sources. Une offre déjà présente dans la liste
 #  « Sites carrière » n'est pas ajoutée une deuxième fois.
@@ -73,17 +73,4 @@ companies:
       - https://www.moovijob.com/offres-emploi/jobs-luxembourg/metier-data-engineer
     link_pattern: moovijob\.com/offres-emploi/(?!jobs-luxembourg)[a-z0-9-]+/[a-z0-9-]+/?$
     default_location: luxembourg
-    max_details: 30
-
-  # ─── Belgique ────────────────────────────────────────────────────
-  - name: StepStone Belgique
-    source: html                # n°1 des cadres en Belgique (fiches /offres-d-emploi--…--1234567-inline.html)
-    aggregator: true
-    render: true
-    urls:
-      - https://www.stepstone.be/emplois/{q}?page={page}
-    search_terms: [data, analyst, analyste, product-builder, intelligence-artificielle]
-    pages: [1, 2]
-    link_pattern: -\d{6,}-inline\.html
-    default_location: belgique
     max_details: 30

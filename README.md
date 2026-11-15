@@ -1,6 +1,6 @@
 # JobHunter
 
-Veille automatique des offres d'emploi **directement sur les sites carrière** d'une vingtaine d'entreprises, plus les grands sites d'emploi (France, Suisse, Luxembourg, Belgique).
+Veille automatique des offres d'emploi **directement sur les sites carrière** d'une vingtaine d'entreprises, plus les grands sites d'emploi (France, Suisse, Luxembourg).
 Les offres qui correspondent aux critères arrivent sur un site privé et en notification **ntfy** sur le téléphone, avec un **CV adapté à l'offre en un clic** (modifiable, téléchargeable en Word et en PDF).
 
 - Robot : **GitHub Actions**, plusieurs passages par jour de 6 h à minuit (heure de Paris)
@@ -55,7 +55,7 @@ Un passage s'arrête de lui-même après 38 minutes (`time_budget_minutes`). Le 
 | Liste | Sources | Réglages | Robot (GitHub Actions) | Données |
 |---|---|---|---|---|
 | Sites carrière (page d'accueil) | ~25 entreprises + jobs.ch, jobup.ch, Moovijob… | `config.yaml` | **JobHunter**, toutes les 30 min | `docs/data/` |
-| Sites d'emploi (`?p=boards`) | HelloWork, jobs.ch, jobup.ch, Moovijob, StepStone Belgique (APEC désactivé : anti-robot) | `config_boards.yaml` (reprend les critères de `config.yaml`) | **JobHunter sites d'emploi**, toutes les 2 h | `docs/data/boards/` |
+| Sites d'emploi (`?p=boards`) | HelloWork, jobs.ch, jobup.ch, Moovijob (APEC désactivé : anti-robot) | `config_boards.yaml` (reprend les critères de `config.yaml`) | **JobHunter sites d'emploi**, toutes les 2 h | `docs/data/boards/` |
 
 On passe de l'une à l'autre avec le sélecteur en haut du site. Chaque page a son bouton « Lancer une recherche ». Une offre déjà présente dans une liste n'est pas ajoutée à l'autre. Le suivi des candidatures et les CV sont communs aux deux.
 
@@ -67,11 +67,11 @@ Une offre est retenue seulement si elle passe **toutes** les étapes. Sinon, ell
 |---|---|---|
 | Titre | contient un mot-clé (`keywords`) | « Mécanicien avion » |
 | Titre | ne contient aucun mot exclu (`exclude_title`) | « Senior Data Analyst », « Stage… », « Team Leader… », « …Datacenter » |
-| Lieu | Île-de-France, Suisse, Luxembourg ou Belgique | « Data Analyst, Lyon » |
+| Lieu | Île-de-France, Suisse ou Luxembourg | « Data Analyst, Lyon » |
 | Stage déguisé | « Type de contrat : Stage », « stage de 6 mois », « gratification »… même si « CDD » figure aussi | « Data Visualization Analyst, stage 6 mois » |
 | Allemand (tous pays) | l'offre exige l'allemand, est rédigée en allemand ou porte (m/w/d) ; « l'allemand est un atout » reste accepté | « Data Analyst (m/w/d) » |
-| Contrat | CDI ou CDD | « Alternance », « VIE » |
-| Expérience | 2 ans maximum (`max_experience_years`) | « Niveau d'expérience : 3 - 5 ans » |
+| Contrat | CDI ou CDD, écrit sur la fiche (contrat non précisé = écartée) | « Alternance », « VIE » |
+| Expérience | 2 ans maximum (`max_experience_years`), trouvée sur la fiche ou par l'IA (non précisée = écartée) | « Niveau d'expérience : 3 - 5 ans » |
 | IA | relit l'expérience sur la fiche | « vous justifiez d'une expérience réussie de plusieurs années… » |
 
 ### La lecture de l'expérience est volontairement stricte
@@ -88,9 +88,26 @@ Ensuite, **l'IA relit chaque fiche retenue** (40 au maximum par passage). Elle d
 
 Quand les règles changent (constante `RULES_VERSION` dans `jobhunter/__main__.py`), les offres **déjà affichées sont revérifiées** : le robot rouvre leur fiche, 12 par entreprise et par passage, et retire celles qui ne passent plus.
 
+### Annonces fantômes
+
+Onglet **Fantômes** du site : les offres qui ressemblent à de fausses annonces sont sorties des listes et ne déclenchent plus de notif. Chaque liste garde l'historique des publications (`docs/data/history.json`, `docs/data/boards/history.json`) et compte des points :
+
+| Signal | Points |
+|---|---|
+| republiée 2 fois ou plus sous une nouvelle adresse, après avoir disparu | 2 |
+| republiée 1 fois | 1 |
+| en ligne depuis plus de 90 jours (60 jours : 1 point) | 2 |
+| date de publication rafraîchie sur la même annonce | 1 |
+| texte de vivier (« vivier », « candidature spontanée », « talent pool », « future opportunities »…) | 2 |
+| cabinet qui cache son client (« pour l'un de nos clients ») | 1 |
+| même intitulé publié 3 fois ou plus en même temps | 1 |
+| employeur de ta liste `ghost.employers` dans `config.yaml` | 2 |
+
+À partir de 2 points (`ghost.min_score`), l'annonce passe en fantôme, avec ses raisons. Sur le site, **Signaler fantôme** range une offre à la main, **Ce n'est pas une fantôme** la remet dans la liste (choix gardés sur ton appareil).
+
 ### Catégories par pays
 
-Chaque offre est rangée dans un pays : 🇫🇷 France, 🇨🇭 Suisse, 🇱🇺 Luxembourg, 🇧🇪 Belgique. Le pays apparaît en boutons sur le site et en drapeau dans les notifs.
+Chaque offre est rangée dans un pays : 🇫🇷 France, 🇨🇭 Suisse, 🇱🇺 Luxembourg. Le pays apparaît en boutons sur le site et en drapeau dans les notifs.
 
 
 Avec `require_sponsor: true` dans `country_rules`, les employeurs non sponsors sont écartés.
@@ -251,6 +268,7 @@ jobhunter/                     ← racine du dépôt
 ├─ jobhunter/                  le robot (Python)
 │  ├─ __main__.py              déroulé d'un passage (tri, revérification, notifs)
 │  ├─ cv_ondemand.py           CV d'une seule offre (bouton du site)
+│  ├─ ghost.py                 détection des annonces fantômes
 │  ├─ sources.py               lecture des sites : RSS, HTML, JSON, Workday, navigateur, fiches
 │  ├─ filters.py               mots-clés, contrat, expérience, lieu → pays
 │  ├─ ai_check.py              contrôle IA de l'expérience (avec citation vérifiée)

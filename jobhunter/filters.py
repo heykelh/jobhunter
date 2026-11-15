@@ -134,7 +134,7 @@ GERMAN_REQ_RE = re.compile(
     r"|(?:allemand|german) (?:et|and|ou|or) (?:anglais|english|francais|french)\s*(?:courant|fluent|indispensable|required|obligatoire)"
 )
 GERMAN_OPTIONAL_RE = re.compile(r"atout|plus|souhait|appreci|advantage|asset|nice to have|bonus|vorteil|wunschenswert|ideally|ideal")
-GERMAN_WORDS = re.compile(r"(?<![a-z])(?:und|der|die|das|mit|fur|wir|sie|ihre|unsere|eine|einen|sowie|bei|auf|ist|zur|zum|deine|du|dich)(?![a-z])")
+GERMAN_WORDS = re.compile(r"(?<![a-z])(?:und|der|die|das|mit|fur|wir|sie|ihre|unsere|eine|einen|sowie|bei|auf|ist|zur|zum|deine|dich|dein|ihr|ihnen|oder|nicht|werden|wird|sind|haben|auch|kenntnisse|erfahrung|aufgaben|anforderungen|bewerbung)(?![a-z])")
 FR_EN_WORDS = re.compile(r"(?<![a-z])(?:et|le|la|les|des|vous|nous|une|pour|avec|the|and|you|our|with|for|are|will|your|des|du)(?![a-z])")
 
 
@@ -156,9 +156,10 @@ def german_required(title: str, text: str) -> str | None:
         if GERMAN_OPTIONAL_RE.search(after) or GERMAN_OPTIONAL_RE.search(before):
             continue
         return "allemand exigé « " + t[max(0, m.start() - 25): m.end() + 20].strip() + " »"
+    # Annonce rédigée en allemand (même si elle ne dit pas "allemand requis") : on compte les petits mots
     head = t[:6000]
     de, other = len(GERMAN_WORDS.findall(head)), len(FR_EN_WORDS.findall(head))
-    if de >= 25 and de > 1.3 * other:
+    if de >= 12 and de > other:
         return "annonce rédigée en allemand"
     return None
 
@@ -386,8 +387,7 @@ class Criteria:
             v.experience = "débutant accepté" if years == 0 else f"{years} an{'s' if years > 1 else ''} min."
         elif v.junior:
             v.experience = "junior / débutant"
-        elif self.unknown_experience == "drop":
-            return Verdict(False, "expérience non précisée")
+        # expérience introuvable : décision prise après la relecture par l'IA (__main__.judge)
         if v.junior and years:
             v.experience += " · junior"
         return v

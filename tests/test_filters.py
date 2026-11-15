@@ -325,3 +325,40 @@ def test_german_titles():
     assert g("Business Analyst Krankenversicherung KVG/VVG", "")
     assert not g("Data Analyst (H/F)", "")
     assert not g("Junior Business Analyst - Banking Operations Transformation 100% (f/m/d)", "")
+
+
+def test_german_text_and_unknowns():
+    from jobhunter.filters import german_required as g
+    de = ("Ihre Aufgaben: Sie analysieren Daten und erstellen Berichte für das Management. Wir bieten ein dynamisches Umfeld "
+          "mit flexiblen Arbeitszeiten. Ihr Profil: abgeschlossenes Studium, gute Kenntnisse in SQL und Python, "
+          "Erfahrung mit Power BI ist von Vorteil. Haben wir Ihr Interesse geweckt? Dann freuen wir uns auf Ihre Bewerbung.")
+    assert g("Data Analyst", de) == "annonce rédigée en allemand"
+    fr = ("Vous rejoignez l'équipe data de notre site de Genève. Vous analysez les données et préparez les tableaux de bord "
+          "pour la direction. Profil : diplôme en statistiques, SQL, Python. L'allemand est un atout. Nous offrons un cadre "
+          "de travail stimulant et des avantages pour nos collaborateurs.")
+    assert g("Data Analyst", fr) is None
+
+
+def test_ghost_detection(tmp_path):
+    from jobhunter import ghost
+    from jobhunter.ghost import History, assess, reposts, text_signals, title_key
+    assert title_key("Advanzia Bank", "Junior Data Analyst (H/F)") == title_key("advanzia bank", "Junior Data Analyst - F/H")
+    h = History(tmp_path / "h.json")
+    k = title_key("Chord Group", "Data Analyst")
+    h.items[k] = [{"id": "a", "first": "2026-08-01T00:00:00+00:00", "last": "2026-08-20T00:00:00+00:00"},
+                  {"id": "b", "first": "2026-09-10T00:00:00+00:00", "last": "2026-09-30T00:00:00+00:00"},
+                  {"id": "c", "first": "2026-11-01T00:00:00+00:00", "last": "2026-11-14T00:00:00+00:00"},
+                  {"id": "d", "first": "2026-11-02T00:00:00+00:00", "last": "2026-11-03T00:00:00+00:00"}]   # en même temps : pas un retour
+    assert reposts(h.periods(k))[0] == 2
+    job = {"id": "c", "company": "Chord Group", "title": "Data Analyst", "first_seen": "2026-11-01T00:00:00+00:00"}
+    g = assess(job, h, {})
+    assert g and g["reposts"] == 2
+    fresh = {"id": "z", "company": "Air France", "title": "Data Analyst", "first_seen": ghost.now()}
+    assert assess(fresh, h, {}) is None
+    assert assess(fresh, h, {"ghost": {"employers": ["air france"]}})
+    old = {"id": "y", "company": "Advanzia Bank", "title": "Junior Data Analyst", "published": "2026-08-07T07:10:39+00:00",
+           "first_seen": "2026-10-26T00:00:00+00:00"}
+    assert "en ligne depuis" in assess(old, h, {})["reasons"][0]
+    sig = text_signals("Afin de constituer un vivier de talents pour nos futurs besoins, nous recrutons un Data Analyst.")
+    assert sig and sig[0].startswith("pool:")
+    assert assess({**fresh, "company": "X", "ghost_text": sig}, h, {})

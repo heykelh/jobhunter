@@ -241,6 +241,10 @@
   .rej .top { display: flex; justify-content: space-between; gap: 10px; font-size: 13.5px; color: var(--muted); }
   .rej a { display: block; font-weight: 500; text-decoration: none; margin: 2px 0; }
   .rej .why { font-size: 13.5px; color: var(--signal); font-weight: 300; }
+  .ghost-card ul { margin: 6px 0 8px; padding-left: 18px; font-size: 13.5px; font-weight: 300; color: var(--muted); }
+  .ghost-card li { margin: 2px 0; }
+  .ghost-card .src-tag { font-size: 12px; padding: 1px 8px; border-radius: 99px; border: 1px solid var(--rule); margin-left: 6px; }
+  .ghost-card .actions { display: flex; gap: 8px; flex-wrap: wrap; }
   .ai-box { background: var(--surface); border: 1px solid var(--rule); border-left: 4px solid var(--brand); border-radius: 10px; padding: 12px 16px; margin-bottom: 14px; font-size: 14px; }
   .ai-box.bad { border-left-color: var(--signal); }
   .ai-box .err { color: var(--signal); font-size: 13px; margin-top: 4px; word-break: break-word; }
@@ -307,7 +311,7 @@
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 1 1-2.64-6.36"/><path d="M21 3v6h-6"/></svg>
         <span id="go-label">Lancer une recherche maintenant</span>
       </button>
-      <p class="what" id="run-what" data-boards="Le robot va lire <strong>les grands sites d'emploi</strong> (HelloWork, jobs.ch, jobup.ch, Moovijob, StepStone Belgique) avec tes mots-clés. Il ouvre chaque fiche, garde celles qui collent à tes critères et t'envoie une notif par nouvelle offre. Une offre déjà vue sur un site carrière n'est pas ajoutée deux fois. Compte <strong>10 à 25 minutes</strong>. Tu peux fermer la page, il continue sans toi.">Le robot va visiter <strong>tous les sites carrière que tu suis</strong>, un par un. Il garde les offres qui collent à tes critères et t'envoie une notif par nouvelle offre. Le CV adapté se fait ensuite à la demande, depuis chaque offre. Compte <strong>10 à 25 minutes</strong>. Tu peux fermer la page, il continue sans toi.</p>
+      <p class="what" id="run-what" data-boards="Le robot va lire <strong>les grands sites d'emploi</strong> (HelloWork, jobs.ch, jobup.ch, Moovijob) avec tes mots-clés. Il ouvre chaque fiche, garde celles qui collent à tes critères et t'envoie une notif par nouvelle offre. Une offre déjà vue sur un site carrière n'est pas ajoutée deux fois. Compte <strong>10 à 25 minutes</strong>. Tu peux fermer la page, il continue sans toi.">Le robot va visiter <strong>tous les sites carrière que tu suis</strong>, un par un. Il garde les offres qui collent à tes critères et t'envoie une notif par nouvelle offre. Le CV adapté se fait ensuite à la demande, depuis chaque offre. Compte <strong>10 à 25 minutes</strong>. Tu peux fermer la page, il continue sans toi.</p>
       <p class="last" id="run-last"></p>
       <div class="run-live" id="run-live" hidden></div>
     </section>
@@ -333,6 +337,7 @@
     <nav class="tabs" role="tablist">
       <button role="tab" data-tab="jobs" aria-selected="true">Offres</button>
       <button role="tab" data-tab="apps" aria-selected="false">Mes candidatures<span class="count" id="apps-count"></span></button>
+      <button role="tab" data-tab="ghosts" aria-selected="false" title="Annonces republiées en boucle ou en ligne depuis des mois">Fantômes<span class="count" id="ghosts-count"></span></button>
       <button role="tab" data-tab="rejected" aria-selected="false">Écartées</button>
       <button role="tab" data-tab="health" aria-selected="false">Sources</button>
     </nav>
@@ -362,6 +367,11 @@
     <div id="apps"></div>
   </section>
 
+  <section id="tab-ghosts" hidden>
+    <p class="lead">Annonces fantômes : republiées en boucle, en ligne depuis des mois, viviers de CV déguisés, ou que tu as signalées. Elles sont retirées des listes et ne déclenchent plus de notif. Cette section regroupe les sites carrière et les sites d'emploi. Les raisons sont sous chaque annonce.</p>
+    <div id="ghosts"></div>
+  </section>
+
   <section id="tab-rejected" hidden>
     <p class="lead">Offres qui avaient tes mots-clés mais qu'un filtre a écartées, avec la raison. Si une bonne offre est ici, ajuste <code>config.yaml</code>.</p>
     <div class="filters"><input type="search" id="rq" placeholder="Rechercher" aria-label="Rechercher dans les offres écartées"></div>
@@ -386,6 +396,13 @@ const store = {
 };
 const DAY = 864e5;
 let hidden = new Set(store.get("jw-hidden", []));
+// Annonces fantômes : détectées par le robot (j.ghost) ou signalées à la main (enregistré sur cet appareil)
+let myGhosts = store.get("jh-ghosts", {});          // clé employeur|intitulé → date du signalement
+let notGhosts = new Set(store.get("jh-not-ghosts", []));
+const gkey = j => (j.company + "|" + j.title).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+  .replace(/\((?:h|f|m|w|d|x|all)[^)]{0,12}\)|\b[hf]\s*\/\s*[fh]\b/g, " ").replace(/[^a-z0-9|]+/g, " ").trim();
+const isGhost = j => !!myGhosts[gkey(j)] || (!!j.ghost && !notGhosts.has(gkey(j)));
+let OTHER_JOBS = [];
 let DATA = { jobs: [], rejected: [], health: {}, meta: {} };
 
 // ---------------------------------------------------------------- suivi des candidatures
@@ -451,10 +468,9 @@ const scoreOf = j => (j.match && typeof j.match.score === "number") ? j.match.sc
 // ---------------------------------------------------------------- drapeaux (images intégrées : les emojis drapeaux ne s'affichent pas sous Windows)
 const FLAG_SVG = {"France": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJmbGFnLWljb25zLWZyIiB2aWV3Qm94PSIwIDAgNjQwIDQ4MCI+PHBhdGggZmlsbD0iIzAwMDA5MSIgZD0iTTAgMGgyMTMuM3Y0ODBIMHoiLz48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMjEzLjMgMGgyMTMuNHY0ODBIMjEzLjN6Ii8+PHBhdGggZmlsbD0iI2UxMDAwZiIgZD0iTTQyNi43IDBINjQwdjQ4MEg0MjYuN3oiLz48L3N2Zz4=",
   "Suisse": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJmbGFnLWljb25zLWNoIiB2aWV3Qm94PSIwIDAgNjQwIDQ4MCI+PGcgZmlsbC1ydWxlPSJldmVub2RkIiBzdHJva2Utd2lkdGg9IjFwdCI+PHBhdGggZmlsbD0icmVkIiBkPSJNMCAwaDY0MHY0ODBIMHoiLz48ZyBmaWxsPSIjZmZmIj48cGF0aCBkPSJNMTcwIDE5NWgzMDB2OTBIMTcweiIvPjxwYXRoIGQ9Ik0yNzUgOTBoOTB2MzAwaC05MHoiLz48L2c+PC9nPjwvc3ZnPg==",
-  "Luxembourg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJmbGFnLWljb25zLWx1IiB2aWV3Qm94PSIwIDAgNjQwIDQ4MCI+PHBhdGggZmlsbD0iI2VkMjkzOSIgZD0iTTAgMGg2NDB2MTYwSDB6Ii8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMTYwaDY0MHYxNjBIMHoiLz48cGF0aCBmaWxsPSIjMDBhMWRlIiBkPSJNMCAzMjBoNjQwdjE2MEgweiIvPjwvc3ZnPg==",
-  "Belgique": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJmbGFnLWljb25zLWJlIiB2aWV3Qm94PSIwIDAgNjQwIDQ4MCI+CiAgPGcgZmlsbC1ydWxlPSJldmVub2RkIiBzdHJva2Utd2lkdGg9IjFwdCI+CiAgICA8cGF0aCBmaWxsPSIjMDAwMDAxIiBkPSJNMCAwaDIxMy4zdjQ4MEgweiIvPgogICAgPHBhdGggZmlsbD0iI2ZmZDkwYyIgZD0iTTIxMy4zIDBoMjEzLjR2NDgwSDIxMy4zeiIvPgogICAgPHBhdGggZmlsbD0iI2YzMTgzMCIgZD0iTTQyNi43IDBINjQwdjQ4MEg0MjYuN3oiLz4KICA8L2c+Cjwvc3ZnPgo="};
-const ZONE_COUNTRY = { "Île-de-France": "France", "Luxembourg": "Luxembourg", "Suisse": "Suisse", "Belgique": "Belgique" };
-const COUNTRY_ORDER = ["France", "Suisse", "Luxembourg", "Belgique"];
+  "Luxembourg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJmbGFnLWljb25zLWx1IiB2aWV3Qm94PSIwIDAgNjQwIDQ4MCI+PHBhdGggZmlsbD0iI2VkMjkzOSIgZD0iTTAgMGg2NDB2MTYwSDB6Ii8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMTYwaDY0MHYxNjBIMHoiLz48cGF0aCBmaWxsPSIjMDBhMWRlIiBkPSJNMCAzMjBoNjQwdjE2MEgweiIvPjwvc3ZnPg=="};
+const ZONE_COUNTRY = { "Île-de-France": "France", "Luxembourg": "Luxembourg", "Suisse": "Suisse" };
+const COUNTRY_ORDER = ["France", "Suisse", "Luxembourg"];
 const countryOf = j => j.country || ZONE_COUNTRY[j.zone] || j.zone || "?";
 const I = d => `<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
 const ICON = {
@@ -483,9 +499,11 @@ async function load(name, fallback) {
 }
 
 async function init() {
-  const [jobs, rej, health, meta] = await Promise.all([
-    load("jobs", { jobs: [] }), load("rejected", { items: [] }), load("health", { companies: {} }), load("meta", {})
+  const [jobs, rej, health, meta, other] = await Promise.all([
+    load("jobs", { jobs: [] }), load("rejected", { items: [] }), load("health", { companies: {} }), load("meta", {}),
+    fetch(`${LIST === "boards" ? "data" : "data/boards"}/jobs.json?t=${Date.now()}`).then(r => r.ok ? r.json() : { jobs: [] }).catch(() => ({ jobs: [] }))
   ]);
+  OTHER_JOBS = (other.jobs || []).map(j => ({ ...j, title: decode(j.title), company: decode(j.company), list: LIST === "boards" ? "main" : "boards" }));
   DATA = { jobs: jobs.jobs || [], rejected: rej.items || [], health: health.companies || {}, meta };
   for (const j of [...DATA.jobs, ...DATA.rejected]) { j.title = decode(j.title); j.company = decode(j.company); }
   $("#updated").textContent = jobs.updated ? `Mis à jour ${ago(jobs.updated)}` : "Pas encore de données";
@@ -500,11 +518,11 @@ async function init() {
   renderAll();
 }
 
-function renderAll() { renderBoard(); renderJobs(); renderApps(); renderRejected(); renderHealth(); }
+function renderAll() { renderBoard(); renderJobs(); renderGhosts(); renderApps(); renderRejected(); renderHealth(); }
 
 // ---------------------------------------------------------------- tableau des départs
 function renderBoard() {
-  const active = DATA.jobs.filter(j => !isGone(j) && !hidden.has(j.id));
+  const active = DATA.jobs.filter(j => !isGone(j) && !hidden.has(j.id) && !isGhost(j));
   const latest = [...active].sort((a, b) => b.first_seen.localeCompare(a.first_seen)).slice(0, 6);
   const now = new Date().toISOString();
   $("#dep").innerHTML = latest.length ? latest.map((j, i) => {
@@ -582,7 +600,7 @@ function stub(j) {
 function renderJobs() {
   const q = $("#q").value.trim().toLowerCase();
   const co = $("#company").value;
-  const base = DATA.jobs.filter(j => !hidden.has(j.id) && (!q || j.title.toLowerCase().includes(q)) && (!co || j.company === co) &&
+  const base = DATA.jobs.filter(j => !hidden.has(j.id) && !isGhost(j) && (!q || j.title.toLowerCase().includes(q)) && (!co || j.company === co) &&
     (!$("#only-new").checked || isNew(j)) && (!$("#hide-applied").checked || !apps[j.id]) && ($("#show-gone").checked || !isGone(j)));
   renderCountries(base);
   const bySort = $("#sort").value === "score" ? (a, b) => scoreOf(b) - scoreOf(a) || sortKey(b) - sortKey(a) : (a, b) => sortKey(b) - sortKey(a);
@@ -611,6 +629,7 @@ function renderJobs() {
           <a class="btn" href="cv.html?id=${encodeURIComponent(j.id)}${LIST === "boards" ? "&p=boards" : ""}">${ICON.doc}CV pour cette offre</a>
           ${statusSelect(j.id)}
           <button class="btn quiet" data-hide="${esc(j.id)}">Masquer</button>
+          <button class="btn quiet" data-ghost="${esc(gkey(j))}" title="Annonce vue et revue, sans doute fausse : la ranger dans « Fantômes »">Signaler fantôme</button>
         </div>
       </div></article>`;
   }).join("") : `<div class="empty">${DATA.jobs.length ? "Aucune offre avec ces filtres. Essaie « Tous » ou retire un filtre." : "Aucune offre pour l'instant : elles s'afficheront ici dès le premier passage du robot."}</div>`;
@@ -646,6 +665,25 @@ function renderApps() {
         </div></article>`; }).join("")}`).join("");
 }
 
+// ---------------------------------------------------------------- annonces fantômes
+function renderGhosts() {
+  const all = [...DATA.jobs.map(j => ({ ...j, list: LIST })), ...OTHER_JOBS].filter(isGhost);
+  const seen = new Set();
+  const list = all.filter(j => { const k = gkey(j); if (seen.has(k)) return false; seen.add(k); return true; })
+    .sort((a, b) => ((b.ghost && b.ghost.score) || 3) - ((a.ghost && a.ghost.score) || 3) || a.company.localeCompare(b.company, "fr"));
+  $("#ghosts-count").textContent = list.length ? list.length : "";
+  $("#ghosts").innerHTML = list.length ? list.map(j => {
+    const mine = !!myGhosts[gkey(j)];
+    const reasons = [...(mine ? [`signalée par toi le ${fmtDay(myGhosts[gkey(j)])}`] : []), ...((j.ghost && j.ghost.reasons) || [])];
+    return `<div class="rej ghost-card">
+      <div class="top"><span>${flag(countryOf(j))} ${esc(j.company)}${j.via ? ` · via ${esc(j.via)}` : ""}<span class="src-tag">${j.list === "boards" ? "Sites d'emploi" : "Sites carrière"}</span></span>
+        <span>${j.ghost && j.ghost.since ? "depuis le " + esc(fmtDay(j.ghost.since)) : ""}</span></div>
+      <a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
+      <ul>${reasons.map(r => `<li>${esc(r.charAt(0).toUpperCase() + r.slice(1))}</li>`).join("")}</ul>
+      <div class="actions"><button class="btn quiet" data-unghost="${esc(gkey(j))}">Ce n'est pas une fantôme</button></div></div>`;
+  }).join("") : `<div class="empty">Aucune annonce fantôme pour l'instant.</div>`;
+}
+
 // ---------------------------------------------------------------- écartées et sources
 function renderRejected() {
   const q = $("#rq").value.trim().toLowerCase();
@@ -670,9 +708,13 @@ function renderHealth() {
 }
 
 // ---------------------------------------------------------------- événements
+function saveGhosts() {
+  store.set("jh-ghosts", myGhosts); store.set("jh-not-ghosts", [...notGhosts]);
+  renderBoard(); renderJobs(); renderGhosts();
+}
 function showTab(name) {
   document.querySelectorAll("nav.tabs [data-tab]").forEach(b => b.setAttribute("aria-selected", b.dataset.tab === name));
-  ["jobs", "apps", "rejected", "health"].forEach(t => $("#tab-" + t).hidden = t !== name);
+  ["jobs", "apps", "ghosts", "rejected", "health"].forEach(t => $("#tab-" + t).hidden = t !== name);
 }
 document.addEventListener("click", e => {
   const tab = e.target.closest("[data-tab]");
@@ -683,6 +725,10 @@ document.addEventListener("click", e => {
   if (ct) { country = ct.dataset.country; store.set("jh-country", country); renderJobs(); }
   const hd = e.target.closest("[data-hide]");
   if (hd) { hidden.add(hd.dataset.hide); store.set("jw-hidden", [...hidden]); renderJobs(); renderBoard(); }
+  const gh = e.target.closest("[data-ghost]");
+  if (gh) { myGhosts[gh.dataset.ghost] = new Date().toISOString(); notGhosts.delete(gh.dataset.ghost); saveGhosts(); }
+  const ug = e.target.closest("[data-unghost]");
+  if (ug) { delete myGhosts[ug.dataset.unghost]; notGhosts.add(ug.dataset.unghost); saveGhosts(); }
   const rl = e.target.closest("[data-relance]");
   if (rl) { const a = apps[rl.dataset.relance]; a.relance_at = a.updated = new Date().toISOString(); saveApps(); renderAll(); }
   const fg = e.target.closest("[data-forget]");

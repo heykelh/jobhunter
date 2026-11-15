@@ -84,8 +84,8 @@ max_experience_years: 2          # écarte les offres qui demandent 3 ans ou plu
 # Ensuite l'IA (secret GROQ_API_KEY) relit chaque fiche retenue et doit citer la phrase exacte.
 experience_ai: true
 experience_ai_per_run: 40        # fiches relues par l'IA au maximum par passage
-zones: [ile-de-france, luxembourg, suisse, belgique]
-# Chaque offre est rangée dans une catégorie pays (France, Luxembourg, Suisse, Belgique),
+zones: [ile-de-france, luxembourg, suisse]
+# Chaque offre est rangée dans une catégorie pays (France, Luxembourg, Suisse),
 # visible en boutons sur le site et en drapeau dans les notifs.
 
 # Écarte, dans tous les pays, les offres qui exigent l'allemand ou sont rédigées en allemand
@@ -99,9 +99,23 @@ country_rules: {}
 #    max_experience_years: 3
 
 # Si l'info n'est pas trouvée dans l'offre : keep = on garde (avec "?"), drop = on écarte
-unknown_contract: keep
-unknown_experience: keep
+# (l'expérience est d'abord cherchée par l'IA ; si elle ne trouve rien non plus, l'offre est écartée)
+unknown_contract: drop
+unknown_experience: drop
 unknown_location: drop
+
+# ─── ANNONCES FANTÔMES ──────────────────────────────────────────────
+# Offres republiées en boucle, en ligne depuis des mois, viviers déguisés : elles quittent la liste
+# pour la section « Annonces fantômes » du site et ne déclenchent plus de notif.
+# Points : republiée 2 fois et + = 2 · republiée 1 fois = 1 · en ligne > long_days = 2 · > old_days = 1
+#          date de publication rafraîchie = 1 · texte de vivier = 2 · cabinet qui cache son client = 1
+#          même intitulé 3 fois en même temps = 1 · employeur de la liste ci-dessous = 2
+ghost:
+  min_score: 2                   # points à partir desquels l'annonce est rangée à part
+  old_days: 60
+  long_days: 90
+  employers:                     # employeurs dont tu ne veux plus voir les annonces (ajoute une ligne par nom)
+    - Chord Group
 
 # ─── NOTIFICATIONS ntfy ─────────────────────────────────────────────
 # Le nom du topic se met dans les "Secrets" GitHub (NTFY_TOPIC), pas ici.
