@@ -1,6 +1,38 @@
 {
- "updated": "2026-11-14T21:53:26+00:00",
+ "updated": "2026-11-15T02:05:23+00:00",
  "items": [
+  {
+   "id": "bdd157e12a6b",
+   "company": "Orange",
+   "title": "Data Analyst Consultant",
+   "url": "https://orange.jobs/fr/fr/job/TOB-8447986/Data-Analyst-Consultant",
+   "reason": "lieu hors zones",
+   "at": "2026-11-15T02:02:52+00:00"
+  },
+  {
+   "id": "1e2e5e4f932b",
+   "company": "Orange",
+   "title": "Data Engineer Consultant",
+   "url": "https://orange.jobs/fr/fr/job/TOB-8570486/Data-Engineer-Consultant",
+   "reason": "expérience demandée ≥ 3 ans « l candidate you have:</strong></p><ul><li><p>3+ years of experience in data en »",
+   "at": "2026-11-15T02:02:51+00:00"
+  },
+  {
+   "id": "be435ee0c180",
+   "company": "Crédit Agricole",
+   "title": "Global Investment Banking Analyst M/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170466-4-global-investment-banking-analyst-mf--reference--2026-115374--/",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-15T01:54:00+00:00"
+  },
+  {
+   "id": "52f7d29d610a",
+   "company": "Crédit Agricole",
+   "title": "STAGE - Data Scientist H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-137-stage---data-scientist-hf-reference--2026-114908--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-15T01:54:00+00:00"
+  },
   {
    "id": "73212503a3c0",
    "company": "Orange",
