@@ -7,7 +7,7 @@
   "Moovijob (Luxembourg)",
   "StepStone Belgique"
  ],
- "zones_sig": "Belgique,Luxembourg,Suisse,Île-de-France",
- "rules_version": 4,
+ "zones_sig": "Luxembourg,Suisse,Île-de-France",
+ "rules_version": 5,
  "next_company": 0
 }

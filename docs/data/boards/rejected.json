@@ -1,6 +1,238 @@
 {
- "updated": "2026-11-15T12:50:46+00:00",
+ "updated": "2026-11-15T13:47:37+00:00",
  "items": [
+  {
+   "id": "48830bf9a627",
+   "company": "jobup.ch",
+   "title": "Spécialiste Digital, IA & Excellence Opérationnelle (80-100%)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/b2c8590c-b60a-4d0f-a3a1-7c34196b01d3/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-15T13:47:15+00:00"
+  },
+  {
+   "id": "da996b407d53",
+   "company": "jobup.ch",
+   "title": "AI Solution Engineer",
+   "url": "https://www.jobup.ch/fr/emplois/detail/c388c259-5516-46fa-b036-1ec07dd36380/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-15T13:47:13+00:00"
+  },
+  {
+   "id": "cf46f120bf80",
+   "company": "jobup.ch",
+   "title": "Business Analyst en Finance pour une société internationale !",
+   "url": "https://www.jobup.ch/fr/emplois/detail/572250d1-f2c0-4f0e-99a0-5ce986cec049/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-15T13:46:48+00:00"
+  },
+  {
+   "id": "0f39d4513ed0",
+   "company": "jobup.ch",
+   "title": "Inventory & Planning Analyst - 9 month contract",
+   "url": "https://www.jobup.ch/fr/emplois/detail/def8f191-a54c-4e06-a055-410241b2eb58/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-15T13:46:44+00:00"
+  },
+  {
+   "id": "dab274884e02",
+   "company": "jobup.ch",
+   "title": "Business Analyst - Secteur Luxe",
+   "url": "https://www.jobup.ch/fr/emplois/detail/deb2574e-410a-44fe-b76a-c1b6a613dde6/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-15T13:46:43+00:00"
+  },
+  {
+   "id": "f70e9aa6063b",
+   "company": "jobup.ch",
+   "title": "Data Engineer 100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/6d675b40-b98b-4260-870c-b8d84921d082/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-15T13:46:41+00:00"
+  },
+  {
+   "id": "d7e4516fff26",
+   "company": "jobup.ch",
+   "title": "Mission étudiante à 40% (H/F) - Data Cleaning, 2 mois",
+   "url": "https://www.jobup.ch/fr/emplois/detail/54a81ee7-2668-47dd-9a88-4e8f72eec1c5/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-15T13:46:40+00:00"
+  },
+  {
+   "id": "ac3fa5a9187d",
+   "company": "jobup.ch",
+   "title": "Data Engineer Junior (F/H) 100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/962acd07-cb00-4fbb-b87d-ee9ec2241361/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-15T13:46:38+00:00"
+  },
+  {
+   "id": "57c740546630",
+   "company": "jobs.ch",
+   "title": "Spécialiste Digital, IA & Excellence Opérationnelle (80-100%)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/b2c8590c-b60a-4d0f-a3a1-7c34196b01d3/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-15T13:46:18+00:00"
+  },
+  {
+   "id": "5355c189c2c8",
+   "company": "jobs.ch",
+   "title": "Manufacturing Process Analyst / Engineer",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/69fea50f-6ad1-44c9-9eb6-d22d4f2c12f6/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-15T13:45:58+00:00"
+  },
+  {
+   "id": "1a4761260b85",
+   "company": "jobs.ch",
+   "title": "Data Analyst (H/F)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/235cdc27-4b96-41ba-86e4-aea29398a0e0/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-15T13:45:53+00:00"
+  },
+  {
+   "id": "d1013f450539",
+   "company": "finnova AG Bankware",
+   "title": "AI Enablement & Solution Engineer (all) 60-100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/b9aed56d-52c5-4622-9222-b8fc646024d7/",
+   "reason": "expérience non précisée (retirée)",
+   "at": "2026-11-15T13:44:13+00:00"
+  },
+  {
+   "id": "894ce1aa2847",
+   "company": "isolutions AG",
+   "title": "AI First Data Engineer",
+   "url": "https://www.jobup.ch/fr/emplois/detail/0c1aa825-1834-4014-ad3a-07699ab3f043/",
+   "reason": "expérience non précisée (retirée)",
+   "at": "2026-11-15T13:44:13+00:00"
+  },
+  {
+   "id": "47d5a51f8fad",
+   "company": "Purpur Ventures AG",
+   "title": "Health AI Product Owner (all genders)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/ccbbab56-39ac-44b8-9bfb-6dea5b76c79b/",
+   "reason": "expérience non précisée (retirée)",
+   "at": "2026-11-15T13:44:13+00:00"
+  },
+  {
+   "id": "121f71fc8d63",
+   "company": "Niji",
+   "title": "Product Builder Tech - IA Agentique H/F Niji",
+   "url": "https://www.hellowork.com/fr-fr/emplois/81663321.html",
+   "reason": "expérience non précisée (retirée)",
+   "at": "2026-11-15T13:44:13+00:00"
+  },
+  {
+   "id": "ab560fc8effe",
+   "company": "Rhapsodie Gestion",
+   "title": "Analyste Kyc H/F Rhapsodie Gestion",
+   "url": "https://www.hellowork.com/fr-fr/emplois/79785775.html",
+   "reason": "expérience non précisée (retirée)",
+   "at": "2026-11-15T13:44:13+00:00"
+  },
+  {
+   "id": "98fa816131ea",
+   "company": "Ministère des armées - Civils de la Défense",
+   "title": "DGA - Dice - Analyste des Recevabilités H/F Ministère des armées - Civils de la Défense",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84310154.html",
+   "reason": "expérience non précisée (retirée)",
+   "at": "2026-11-15T13:44:13+00:00"
+  },
+  {
+   "id": "9498fc14c83d",
+   "company": "Ministère des armées - Civils de la Défense",
+   "title": "Analyste Menace Quantique H/F Ministère des armées - Civils de la Défense",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82940653.html",
+   "reason": "expérience non précisée (retirée)",
+   "at": "2026-11-15T13:44:13+00:00"
+  },
+  {
+   "id": "e4042f046d84",
+   "company": "Onepoint",
+   "title": "Chef de Projets IA H/F Onepoint",
+   "url": "https://www.hellowork.com/fr-fr/emplois/81218147.html",
+   "reason": "expérience non précisée (retirée)",
+   "at": "2026-11-15T13:44:13+00:00"
+  },
+  {
+   "id": "5f42fa66683e",
+   "company": "HelloWork",
+   "title": "Business Analyst H/F Cette entreprise souhaite rester anonyme",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83157042.html",
+   "reason": "expérience non précisée (retirée)",
+   "at": "2026-11-15T13:44:13+00:00"
+  },
+  {
+   "id": "5e632dcdb087",
+   "company": "Inetum",
+   "title": "Business Analyst Monétique H/F Inetum",
+   "url": "https://www.hellowork.com/fr-fr/emplois/75104611.html",
+   "reason": "expérience non précisée (retirée)",
+   "at": "2026-11-15T13:44:13+00:00"
+  },
+  {
+   "id": "2b002320378d",
+   "company": "Meritis",
+   "title": "Business Analyst Data H/F Meritis",
+   "url": "https://www.hellowork.com/fr-fr/emplois/75208761.html",
+   "reason": "expérience non précisée (retirée)",
+   "at": "2026-11-15T13:44:13+00:00"
+  },
+  {
+   "id": "d1c4900849de",
+   "company": "Seequalis",
+   "title": "Consultant Rédacteur Technique IA H/F Seequalis",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84866186.html",
+   "reason": "expérience non précisée (retirée)",
+   "at": "2026-11-15T13:44:13+00:00"
+  },
+  {
+   "id": "9a5a47e2f8d5",
+   "company": "Groupe Sterne",
+   "title": "Assistant de Facturation Client et Data H/F Groupe Sterne",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83928149.html",
+   "reason": "expérience non précisée (retirée)",
+   "at": "2026-11-15T13:44:13+00:00"
+  },
+  {
+   "id": "4836d00096e4",
+   "company": "Meritis",
+   "title": "Business Analyst Progiciel H/F Meritis",
+   "url": "https://www.hellowork.com/fr-fr/emplois/70757989.html",
+   "reason": "expérience non précisée (retirée)",
+   "at": "2026-11-15T13:44:13+00:00"
+  },
+  {
+   "id": "bbf4bae9d59c",
+   "company": "Parts Holding Europe",
+   "title": "Pricing Analyst H/F Parts Holding Europe",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83734937.html",
+   "reason": "expérience non précisée (retirée)",
+   "at": "2026-11-15T13:44:13+00:00"
+  },
+  {
+   "id": "3eb44b86a9ce",
+   "company": "BPCE SA",
+   "title": "Business Analyst H/F BPCE SA",
+   "url": "https://www.hellowork.com/fr-fr/emplois/79332905.html",
+   "reason": "expérience non précisée (retirée)",
+   "at": "2026-11-15T13:44:13+00:00"
+  },
+  {
+   "id": "2f4e3da91567",
+   "company": "Safran",
+   "title": "Vie Account Reconciliation Analyst - Cincinnati H/F Safran",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84340788.html",
+   "reason": "expérience non précisée (retirée)",
+   "at": "2026-11-15T13:44:13+00:00"
+  },
+  {
+   "id": "39c382d9b83c",
+   "company": "Vinci Construction France - Direction Opérationnelle Ouvrages Fonctionnels Neufs",
+   "title": "Responsable Travaux Data Centers H/F Vinci Construction France - Direction Opérationnelle Ouvrages Fonctionnels Neufs",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83844830.html",
+   "reason": "expérience non précisée (retirée)",
+   "at": "2026-11-15T13:44:13+00:00"
+  },
   {
    "id": "367c8b2c4d04",
    "company": "StepStone Belgique",
