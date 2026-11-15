@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T13:47:37+00:00",
+ "updated": "2026-11-15T19:26:02+00:00",
  "companies": {
   "APEC": {
    "checked_at": "2026-11-14T12:14:36+00:00",
@@ -12,47 +12,47 @@
    "failures": 48
   },
   "HelloWork": {
-   "checked_at": "2026-11-15T13:44:13+00:00",
+   "checked_at": "2026-11-15T19:23:46+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 302,
-   "keyword_matches": 296,
+   "links_found": 304,
+   "keyword_matches": 298,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-15T13:45:35+00:00",
+   "last_ok": "2026-11-15T19:25:04+00:00",
    "failures": 0
   },
   "jobs.ch": {
-   "checked_at": "2026-11-15T13:45:35+00:00",
+   "checked_at": "2026-11-15T19:25:04+00:00",
    "error": "",
    "warnings": [],
    "links_found": 195,
    "keyword_matches": 100,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-15T13:46:18+00:00",
+   "last_ok": "2026-11-15T19:25:21+00:00",
    "failures": 0
   },
   "jobup.ch": {
-   "checked_at": "2026-11-15T13:46:18+00:00",
+   "checked_at": "2026-11-15T19:25:21+00:00",
    "error": "",
    "warnings": [],
    "links_found": 177,
    "keyword_matches": 90,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-15T13:47:15+00:00",
+   "last_ok": "2026-11-15T19:25:42+00:00",
    "failures": 0
   },
   "Moovijob (Luxembourg)": {
-   "checked_at": "2026-11-15T13:47:15+00:00",
+   "checked_at": "2026-11-15T19:25:42+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "vide",
-   "failures": 5
+   "failures": 6
   }
  }
 }
