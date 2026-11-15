@@ -1,6 +1,62 @@
 {
- "updated": "2026-11-15T14:04:19+00:00",
+ "updated": "2026-11-15T19:00:31+00:00",
  "items": [
+  {
+   "id": "44fd623b3115",
+   "company": "ING",
+   "title": "Agentic automation & AI Consultant",
+   "url": "https://careers.ing.com/en/job/amsterdam/agentic-automation-and-ai-consultant/3121/42373877568",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-15T19:00:31+00:00"
+  },
+  {
+   "id": "1b0b8cc13bff",
+   "company": "ING",
+   "title": "AI Developer (Copilot Studio)",
+   "url": "https://careers.ing.com/en/job/slovakia/ai-developer-copilot-studio/3121/44008552640",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-15T19:00:30+00:00"
+  },
+  {
+   "id": "6913f50031c3",
+   "company": "ING",
+   "title": "Risk AI Data Scientist",
+   "url": "https://careers.ing.com/en/job/warsaw/risk-ai-data-scientist/3121/40954641024",
+   "reason": "lieu hors zones",
+   "at": "2026-11-15T19:00:28+00:00"
+  },
+  {
+   "id": "94d251bbe1e0",
+   "company": "ING",
+   "title": "AI / Copilot Studio Developer",
+   "url": "https://careers.ing.com/en/job/makati-city/ai-copilot-studio-developer/3121/45093361600",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-15T19:00:26+00:00"
+  },
+  {
+   "id": "f1adcd1b9860",
+   "company": "ING",
+   "title": "AI / Copilot Studio Developers",
+   "url": "https://careers.ing.com/en/job/makati-city/ai-copilot-studio-developers/3121/42105052736",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-15T19:00:25+00:00"
+  },
+  {
+   "id": "88c9ed527ec6",
+   "company": "Orange",
+   "title": "Business Analyst F/H",
+   "url": "https://orange.jobs/fr/fr/job/IOS-2026-2720/Business-Analyst-F-H",
+   "reason": "lieu hors zones",
+   "at": "2026-11-15T18:57:47+00:00"
+  },
+  {
+   "id": "eca5bceeb42f",
+   "company": "Orange",
+   "title": "Cyber Security Analyst",
+   "url": "https://orange.jobs/fr/fr/job/TMT-8430499/Cyber-Security-Analyst",
+   "reason": "lieu hors zones (Belgique)",
+   "at": "2026-11-15T18:57:46+00:00"
+  },
   {
    "id": "2db5c47269ec",
    "company": "ING",
