@@ -1,6 +1,54 @@
 {
- "updated": "2026-11-15T19:00:31+00:00",
+ "updated": "2026-11-15T23:36:14+00:00",
  "items": [
+  {
+   "id": "1db6cd091cd7",
+   "company": "Orange",
+   "title": "Business Analyst F/H",
+   "url": "https://orange.jobs/fr/fr/job/IOS-2026-2702/Business-Analyst-F-H",
+   "reason": "lieu hors zones",
+   "at": "2026-11-15T23:33:47+00:00"
+  },
+  {
+   "id": "78ce325e92fb",
+   "company": "Orange",
+   "title": "Business Analyst F/H",
+   "url": "https://orange.jobs/fr/fr/job/IOS-2026-2785/Business-Analyst-F-H",
+   "reason": "lieu hors zones",
+   "at": "2026-11-15T23:33:46+00:00"
+  },
+  {
+   "id": "9224a4d0393f",
+   "company": "Crédit Agricole",
+   "title": "Data Analyst H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-data-analyst-hf-reference--2026-116482--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-15T23:25:55+00:00"
+  },
+  {
+   "id": "08f18c720ced",
+   "company": "Crédit Agricole",
+   "title": "Analyste Support IT Pré-Trade H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-support-it-pre-trade-hf-reference--2026-116571--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-15T23:25:53+00:00"
+  },
+  {
+   "id": "0e6de47c65cb",
+   "company": "Crédit Agricole",
+   "title": "Analyste Onboarding - Front office H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-onboarding---front-office-hf-reference--2026-117009--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-15T23:25:52+00:00"
+  },
+  {
+   "id": "b352a4d2bb2d",
+   "company": "Crédit Agricole",
+   "title": "Data Engineer H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-5-data-engineer-hf-reference--2026-117117--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-15T23:25:51+00:00"
+  },
   {
    "id": "44fd623b3115",
    "company": "ING",
