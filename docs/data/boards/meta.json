@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T09:34:39+00:00",
+ "updated": "2026-11-16T13:44:22+00:00",
  "keywords": [
   "data",
   "analyst",
@@ -25,11 +25,10 @@
   "Moovijob (Luxembourg)"
  ],
  "ai": {
-  "ok": 9,
-  "errors": 6,
-  "last_error": "HTTP 429 (openai/gpt-oss-120b) : {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kkqt4ecsfjybqscgqhm4275e` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5896, Req",
+  "ok": 4,
+  "errors": 0,
+  "last_error": "",
   "model": "openai/gpt-oss-120b",
-  "waits": 6,
-  "at": "2026-11-16T09:34:39+00:00"
+  "at": "2026-11-16T13:44:22+00:00"
  }
 }
