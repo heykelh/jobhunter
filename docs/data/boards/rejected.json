@@ -1,6 +1,150 @@
 {
- "updated": "2026-11-16T13:44:22+00:00",
+ "updated": "2026-11-16T23:46:56+00:00",
  "items": [
+  {
+   "id": "1d37fb8a9ab0",
+   "company": "jobup.ch",
+   "title": "Ingénieur Développement IA",
+   "url": "https://www.jobup.ch/fr/emplois/detail/31d1fa37-c025-47e1-bf77-5279d5d72a60/",
+   "reason": "expérience demandée ≥ 3 ans « s des projets de digitalisation. competences 3 a 7 ans d'experience en it, form »",
+   "at": "2026-11-16T23:46:36+00:00"
+  },
+  {
+   "id": "c1bc96c13aac",
+   "company": "jobup.ch",
+   "title": "Responsable de la formation et du perfectionnement en IA",
+   "url": "https://www.jobup.ch/fr/emplois/detail/3e3949c6-cabc-41a4-912c-46a553b151a8/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-16T23:46:34+00:00"
+  },
+  {
+   "id": "d4c760d824c3",
+   "company": "jobup.ch",
+   "title": "Embedded Software Engineer / Consumer Electronics & Applied AI",
+   "url": "https://www.jobup.ch/fr/emplois/detail/abd2d265-7cd9-43da-9210-3163897c7c8d/",
+   "reason": "expérience demandée ≥ 3 ans « , informatique ou domaine connexe minimum de 3 ans d'experience professionn »",
+   "at": "2026-11-16T23:46:33+00:00"
+  },
+  {
+   "id": "55e365e5c219",
+   "company": "jobup.ch",
+   "title": "ESG Responsible Sourcing Analyst - min 9 months",
+   "url": "https://www.jobup.ch/fr/emplois/detail/67eb2573-51a3-4d86-948e-f4e6c190801a/",
+   "reason": "expérience demandée ≥ 3 ans « ques operationnels ou conseil, avec au moins 3 ans d'experience au sein d'u »",
+   "at": "2026-11-16T23:46:31+00:00"
+  },
+  {
+   "id": "64b978de7862",
+   "company": "jobup.ch",
+   "title": "Data Analyst (H/F)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/f7547e91-2bf0-483d-8f7f-4eb541f4d762/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-16T23:46:27+00:00"
+  },
+  {
+   "id": "1ce1851563fa",
+   "company": "jobs.ch",
+   "title": "Ingénieur Développement IA",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/31d1fa37-c025-47e1-bf77-5279d5d72a60/",
+   "reason": "expérience demandée ≥ 3 ans « s des projets de digitalisation. competences 3 a 7 ans d'experience en it, form »",
+   "at": "2026-11-16T23:46:09+00:00"
+  },
+  {
+   "id": "30c14f22125e",
+   "company": "jobs.ch",
+   "title": "Embedded Software Engineer / Consumer Electronics & Applied AI",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/abd2d265-7cd9-43da-9210-3163897c7c8d/",
+   "reason": "expérience demandée ≥ 3 ans « , informatique ou domaine connexe minimum de 3 ans d'experience professionn »",
+   "at": "2026-11-16T23:46:07+00:00"
+  },
+  {
+   "id": "119e7290a055",
+   "company": "jobs.ch",
+   "title": "AI/ML Engineer (a)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/5a757e1c-54b5-4b9f-80c6-3efcb2ed0380/",
+   "reason": "expérience demandée ≥ 3 ans « te constitue votre base professionnelle. une experience de plusieurs annees en ingenierie ia/ml, app »",
+   "at": "2026-11-16T23:46:05+00:00"
+  },
+  {
+   "id": "b6b1715a7ad1",
+   "company": "jobs.ch",
+   "title": "Technical Project Lead Software & AI",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/894ed376-853a-4e52-9968-a3199ed19d68/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-16T23:46:05+00:00"
+  },
+  {
+   "id": "ac9a8abf593f",
+   "company": "jobs.ch",
+   "title": "Business Solution Architect – AI, Cloud & UX (Uni / FH)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/881b5f28-3096-49f6-8246-a2fcaddf2263/",
+   "reason": "titre exclu (architect)",
+   "at": "2026-11-16T23:46:05+00:00"
+  },
+  {
+   "id": "baa705066240",
+   "company": "jobs.ch",
+   "title": "Business Analyst (a)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/c18c332e-4e79-478d-b0e9-f31094603239/",
+   "reason": "expérience demandée ≥ 5 ans « ecole specialisee, haute ecole) et au moins 5 ans d'experience en analyse »",
+   "at": "2026-11-16T23:46:04+00:00"
+  },
+  {
+   "id": "47baafa6c36e",
+   "company": "jobs.ch",
+   "title": "Data & AI Principal Consultant (a)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/ed64991e-8eb3-4191-a35d-15b4d86a4127/",
+   "reason": "titre exclu (principal)",
+   "at": "2026-11-16T23:46:02+00:00"
+  },
+  {
+   "id": "7bf9f9538a5f",
+   "company": "HelloWork",
+   "title": "Senior Product Manager Orienté·e Data & ai H/F AlumnForce",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83469970.html",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-16T23:45:45+00:00"
+  },
+  {
+   "id": "fa4c9d4c716f",
+   "company": "HelloWork",
+   "title": "Senior Delivery Consultant - ai & Data Professional Services H/F Amazon",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84518404.html",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-16T23:45:45+00:00"
+  },
+  {
+   "id": "177fdce1992a",
+   "company": "HelloWork",
+   "title": "Change Manager IA H/F eXalt Company",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85560080.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-16T23:45:45+00:00"
+  },
+  {
+   "id": "7c62ed1b8402",
+   "company": "HelloWork",
+   "title": "Analyste Soc H/F AGATE IT",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83483056.html",
+   "reason": "expérience demandée ≥ 5 ans « pting et automatisation. le profil recherche 5 a 10 ans d'experience en soc / cy »",
+   "at": "2026-11-16T23:45:43+00:00"
+  },
+  {
+   "id": "6abe58507959",
+   "company": "HelloWork",
+   "title": "Business Analyst Senior H/F Metaline",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85563825.html",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-16T23:45:42+00:00"
+  },
+  {
+   "id": "8a59cd41bce1",
+   "company": "HelloWork",
+   "title": "Commercial Data Analytics Intern H/F Picnic Technologies",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82309964.html",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-16T23:45:40+00:00"
+  },
   {
    "id": "1198a12ba539",
    "company": "jobup.ch",
