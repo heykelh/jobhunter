@@ -1,6 +1,110 @@
 {
- "updated": "2026-11-15T19:26:02+00:00",
+ "updated": "2026-11-16T01:07:25+00:00",
  "items": [
+  {
+   "id": "70981c839a11",
+   "company": "jobup.ch",
+   "title": "Quality Control Analyst",
+   "url": "https://www.jobup.ch/fr/emplois/detail/eee9a1bc-829a-47ad-a369-36b9dedee21a/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-16T01:07:04+00:00"
+  },
+  {
+   "id": "a7b5288e722d",
+   "company": "jobs.ch",
+   "title": "Business Analyst & Consultant 80-100 %",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/2c087768-bd2a-4dc7-a1d0-24226c3e6951/",
+   "reason": "expérience non précisée (ni sur la fiche, ni par l'IA)",
+   "at": "2026-11-16T01:06:43+00:00"
+  },
+  {
+   "id": "1e2ece85d036",
+   "company": "jobs.ch",
+   "title": "Project & Data Coordination Specialist",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/bd89436d-d601-45f3-b662-a8c7c765a1fe/",
+   "reason": "expérience non précisée (ni sur la fiche, ni par l'IA)",
+   "at": "2026-11-16T01:06:42+00:00"
+  },
+  {
+   "id": "419bcc161400",
+   "company": "jobs.ch",
+   "title": "Head of Data Governance (w/m/d) Teilzeit/Vollzeit",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/5c7c18d2-346c-4fe3-88d5-6098014aa289/",
+   "reason": "titre exclu (head)",
+   "at": "2026-11-16T01:06:42+00:00"
+  },
+  {
+   "id": "87163d853f1f",
+   "company": "jobs.ch",
+   "title": "Data & BI Specialist Qlik Cloud 80%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/601c3554-6ead-4458-aec1-1bd5af57db30/",
+   "reason": "expérience non précisée (ni sur la fiche, ni par l'IA)",
+   "at": "2026-11-16T01:06:35+00:00"
+  },
+  {
+   "id": "c2ac678cce25",
+   "company": "HelloWork",
+   "title": "Collaborateur Comptable & Consultant IA H/F Génération Y",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85522439.html",
+   "reason": "expérience demandée ≥ 5 ans « c (en cours ou obtenu)💼 experience : minimum 5 ans en cdi comme collaborate »",
+   "at": "2026-11-16T01:06:16+00:00"
+  },
+  {
+   "id": "3332bfc87efe",
+   "company": "HelloWork",
+   "title": "Lead Data Scientist IA H/F StarClay",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83380617.html",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-16T01:06:16+00:00"
+  },
+  {
+   "id": "2dd80cbc7ae0",
+   "company": "HelloWork",
+   "title": "Analyste Technico-Fonctionnel H/F Adoma",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84515610.html",
+   "reason": "expérience demandée ≥ 5 ans « ormatique- une experience reussie d'au moins 5 ans en maintien en condition »",
+   "at": "2026-11-16T01:06:15+00:00"
+  },
+  {
+   "id": "ea25fc5f1a70",
+   "company": "HelloWork",
+   "title": "Analyste Programmeur H/F Ministère des armées - Civils de la Défense",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84492225.html",
+   "reason": "expérience demandée ≥ 5 ans « et/ou souhaitee : une experience d'au moins 5 ans dans le domaine du devel »",
+   "at": "2026-11-16T01:06:11+00:00"
+  },
+  {
+   "id": "0fc7a4982caf",
+   "company": "HelloWork",
+   "title": "Analyste Tests Wms Infolog V5.65 - Projet Migration Wms H/F INNOKKA",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83398662.html",
+   "reason": "expérience demandée ≥ 5 ans (lu par l'IA) « Exp. 5 à 10 ans »",
+   "at": "2026-11-16T01:05:42+00:00"
+  },
+  {
+   "id": "278da5d6de68",
+   "company": "HelloWork",
+   "title": "Analyste RSE-Esg - Esg - Esg H/F CAISSE FEDERALE DE CREDIT MUTUEL",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84523226.html",
+   "reason": "expérience demandée ≥ 5 ans « , sciences po, universite), vous disposez de 5 ans d'experience hors en fin »",
+   "at": "2026-11-16T01:05:27+00:00"
+  },
+  {
+   "id": "a575450aa09b",
+   "company": "HelloWork",
+   "title": "Business Analyst Confirmé·e H/F Safran",
+   "url": "https://www.hellowork.com/fr-fr/emplois/80998140.html",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-16T01:05:07+00:00"
+  },
+  {
+   "id": "d5fb9f47cf5a",
+   "company": "HelloWork",
+   "title": "Leader Data - IA H/F ASI",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84520238.html",
+   "reason": "titre exclu (leader)",
+   "at": "2026-11-16T01:05:05+00:00"
+  },
   {
    "id": "84376151ee45",
    "company": "HelloWork",
