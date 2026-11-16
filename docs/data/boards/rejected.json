@@ -1,6 +1,150 @@
 {
- "updated": "2026-11-16T01:07:25+00:00",
+ "updated": "2026-11-16T09:34:39+00:00",
  "items": [
+  {
+   "id": "deae88f8d09b",
+   "company": "jobup.ch",
+   "title": "Data Ingénieur (Databricks) - F/M/X",
+   "url": "https://www.jobup.ch/fr/emplois/detail/a70559cb-c914-4f28-9a0d-7a3b9c0cc4f0/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-16T09:34:14+00:00"
+  },
+  {
+   "id": "0272912eb80d",
+   "company": "jobup.ch",
+   "title": "Data Engineer (Senior) (m/w/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/3b3f5e25-7343-4fc3-ae36-545d2f354f29/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-16T09:34:13+00:00"
+  },
+  {
+   "id": "6d453af5607e",
+   "company": "jobs.ch",
+   "title": "Educational ICT Systemspezialist:in & (Co-)Projektleiter:in AI Agents und Automation Service digitale Prüfungen (m/w/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/f8bf125c-1e94-40c1-9a50-5702e277151e/",
+   "reason": "annonce en allemand (titre)",
+   "at": "2026-11-16T09:33:54+00:00"
+  },
+  {
+   "id": "3d1b6f5b3a30",
+   "company": "jobs.ch",
+   "title": "AI for Science Engineer",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/f2452c8f-e6ba-4328-8d5e-5685924a14e9/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-16T09:33:52+00:00"
+  },
+  {
+   "id": "9ec4472bf216",
+   "company": "jobs.ch",
+   "title": "Cyber Security Operations Analyst (m/w/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/19775e21-cfc0-4ac4-8dd1-5570cb8836a8/",
+   "reason": "expérience demandée ≥ 3 ans « equivalente constitue votre base. vous avez plusieurs annees d'experience en soc, une experience e »",
+   "at": "2026-11-16T09:33:51+00:00"
+  },
+  {
+   "id": "e4d85dbbab6e",
+   "company": "jobs.ch",
+   "title": "IT Business Analyst (m/w/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/54874e72-7fd8-4e56-932b-90202c70cb77/",
+   "reason": "expérience demandée ≥ 3 ans « ique (economique) (eth/uni/fh) ou equivalent plusieurs annees d'experience en tant qu' analyste d'a »",
+   "at": "2026-11-16T09:33:49+00:00"
+  },
+  {
+   "id": "516b547a280a",
+   "company": "jobs.ch",
+   "title": "Data Warehouse Engineer (m/w/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/ef6f54d8-1dc8-436f-9729-690a496e3979/",
+   "reason": "expérience demandée ≥ 3 ans « des affaires constitue votre base. vous avez plusieurs annees d'experience en administration de bas »",
+   "at": "2026-11-16T09:33:48+00:00"
+  },
+  {
+   "id": "26e030baec24",
+   "company": "jobs.ch",
+   "title": "Senior Data Warehouse Engineer (m/w/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/6cf8191c-ca77-4b15-9832-a70ce92a7338/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-16T09:33:48+00:00"
+  },
+  {
+   "id": "fda6168fc0b9",
+   "company": "jobs.ch",
+   "title": "Senior Data Warehouse Engineer (m/w/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/ae5700f4-7871-4c25-8906-0d713e65116d/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-16T09:33:48+00:00"
+  },
+  {
+   "id": "86f47a8ca3ac",
+   "company": "jobs.ch",
+   "title": "Data Platform Engineer (m/w/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/980dff8d-5fdf-4146-a3cb-898857d230e5/",
+   "reason": "annonce en allemand (titre)",
+   "at": "2026-11-16T09:33:47+00:00"
+  },
+  {
+   "id": "5e497b69f5f0",
+   "company": "jobs.ch",
+   "title": "Data Engineer (Senior) (m/w/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/3b3f5e25-7343-4fc3-ae36-545d2f354f29/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-16T09:33:45+00:00"
+  },
+  {
+   "id": "5e18f8d92147",
+   "company": "jobs.ch",
+   "title": "Engineering Lead Data & Analytics 80-100% (w/m/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/61eae44c-bfe4-4452-83c6-35f6e59fbfe7/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-16T09:33:45+00:00"
+  },
+  {
+   "id": "c00574f07f37",
+   "company": "HelloWork",
+   "title": "Consultant en Stratégie Data & IA H/F Accenture France",
+   "url": "https://www.hellowork.com/fr-fr/emplois/81618362.html",
+   "reason": "expérience non précisée (ni sur la fiche, ni par l'IA) (retirée)",
+   "at": "2026-11-16T09:33:22+00:00"
+  },
+  {
+   "id": "064117b56d09",
+   "company": "HelloWork",
+   "title": "Lead ai - Llm Engineer H/F OKATIM",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85525921.html",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-16T09:32:50+00:00"
+  },
+  {
+   "id": "15259d863c35",
+   "company": "HelloWork",
+   "title": "Analyste Expérimenté Fraudes Moyens de Paiement H/F AIR FRANCE",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85527244.html",
+   "reason": "titre exclu (experimente)",
+   "at": "2026-11-16T09:32:27+00:00"
+  },
+  {
+   "id": "7271b2ef6d66",
+   "company": "HelloWork",
+   "title": "Analyste Expérimenté en Transaction Services Financial Services H/F PwC France et Maghreb",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85527641.html",
+   "reason": "titre exclu (experimente)",
+   "at": "2026-11-16T09:32:27+00:00"
+  },
+  {
+   "id": "8c8840b6e3d9",
+   "company": "HelloWork",
+   "title": "Analyste Engagement Affaires Spéciales H/F Crédit Coopératif",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85526972.html",
+   "reason": "expérience demandée ≥ 3 ans « nces requises et vous ? vous justifiez d'une experience confirmee en tant que charge(e) d' »",
+   "at": "2026-11-16T09:32:24+00:00"
+  },
+  {
+   "id": "c7674a0efc45",
+   "company": "HelloWork",
+   "title": "Business Architect Data H/F AIR FRANCE",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85527231.html",
+   "reason": "titre exclu (architect)",
+   "at": "2026-11-16T09:32:21+00:00"
+  },
   {
    "id": "70981c839a11",
    "company": "jobup.ch",
