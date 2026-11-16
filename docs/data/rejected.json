@@ -1,6 +1,62 @@
 {
- "updated": "2026-11-16T12:53:43+00:00",
+ "updated": "2026-11-16T23:04:58+00:00",
  "items": [
+  {
+   "id": "fc5b56275d17",
+   "company": "VINCI (dont ETF)",
+   "title": "Ingénieur Performance Energétique Data Center F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/gennevilliers/ingenieur-performance-energetique-data-center-f-h/1440/46967795264",
+   "reason": "titre exclu (data center)",
+   "at": "2026-11-16T23:01:04+00:00"
+  },
+  {
+   "id": "ec915327b60e",
+   "company": "EDF / Enedis",
+   "title": "STAGE - Optimisation IA du métier de planification des projets du Nouveau Nucléaire F/H",
+   "url": "https://www.edf.fr/edf-recrute/offre/detail/2026-187218",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-16T23:00:18+00:00"
+  },
+  {
+   "id": "560dfb396468",
+   "company": "BPCE",
+   "title": "Stage - Data Scientist F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-data-scientist-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-16T22:56:52+00:00"
+  },
+  {
+   "id": "909a30811ed4",
+   "company": "BPCE",
+   "title": "STAGE - Analyste Coverage DES - F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-analyste-coverage-des-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-16T22:56:52+00:00"
+  },
+  {
+   "id": "1062fe88b86b",
+   "company": "Crédit Agricole",
+   "title": "Analyste Quantitatif - Deal Flow H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-quantitatif---deal-flow-hf-reference--2026-116128--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-16T22:54:56+00:00"
+  },
+  {
+   "id": "52896377ecb7",
+   "company": "Crédit Agricole",
+   "title": "Stage - ANALYSTE PROPOSITION CLIENT H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage---analyste-proposition-client-hf-reference--2026-116250--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-16T22:54:56+00:00"
+  },
+  {
+   "id": "41a9e5f2ca28",
+   "company": "Crédit Agricole",
+   "title": "Développeur Java Python, Liquidity Data Platform H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170477-4-developpeur-java-python-liquidity-data-platform-hf-reference--2026-114114--/",
+   "reason": "expérience demandée ≥ 6 ans « site specialisation : systemes d'information niveau d'experience minimum 6 - 10 ans competences recherchees co »",
+   "at": "2026-11-16T22:54:55+00:00"
+  },
   {
    "id": "6784cae37e80",
    "company": "UBS",
