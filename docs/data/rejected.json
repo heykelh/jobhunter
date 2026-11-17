@@ -1,6 +1,182 @@
 {
- "updated": "2026-11-16T23:04:58+00:00",
+ "updated": "2026-11-17T13:29:56+00:00",
  "items": [
+  {
+   "id": "6ffbd0d7b32d",
+   "company": "UBS",
+   "title": "AM Transformation Business Analyst",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=347533",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-17T13:28:10+00:00"
+  },
+  {
+   "id": "902e80473e2e",
+   "company": "Orange",
+   "title": "Lead Data Architect",
+   "url": "https://orange.jobs/fr/fr/job/TOB-6575684/Lead-Data-Architect",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-17T13:26:23+00:00"
+  },
+  {
+   "id": "7365cbeaa95b",
+   "company": "VINCI (dont ETF)",
+   "title": "PFE - Ingénieur.e Travaux - Améliorer le pilotage et la performance de nos chantiers grâce à l'IA",
+   "url": "https://jobs.vinci.com/fr/emploi/bruz/pfe-ingenieur-e-travaux-ameliorer-le-pilotage-et-la-performance-de-nos-chantiers-grace-a-l-ia/1440/45586466112",
+   "reason": "lieu hors zones",
+   "at": "2026-11-17T13:25:16+00:00"
+  },
+  {
+   "id": "26c8fb9e0d6e",
+   "company": "VINCI (dont ETF)",
+   "title": "Analyste support applicatif – Trésorerie F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/ile-de-france/analyste-support-applicatif-tresorerie-f-h/1440/41692262656",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « ayant une expérience passée dans le support applicatif niveau 1 ou 2 au sein d’un grand groupe. »",
+   "at": "2026-11-17T13:25:14+00:00"
+  },
+  {
+   "id": "e53ab2513c06",
+   "company": "VINCI (dont ETF)",
+   "title": "Stage - Analyste fonctionnel Communication Bancaire F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/saint-denis/stage-analyste-fonctionnel-communication-bancaire-f-h/1440/46429937920",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-17T13:25:14+00:00"
+  },
+  {
+   "id": "514329853a69",
+   "company": "VINCI (dont ETF)",
+   "title": "Analyste Fonctionnel SAP Achats - 1 stage de fin d'études en pré-embauche F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/nanterre/analyste-fonctionnel-sap-achats-1-stage-de-fin-d-etudes-en-pre-embauche-f-h/1440/43941592192",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-17T13:25:14+00:00"
+  },
+  {
+   "id": "7b5d74d1c684",
+   "company": "VINCI (dont ETF)",
+   "title": "Analyste Fonctionnel SAP Controlling - 2 stages de fin d'études en pré-embauche F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/nanterre/analyste-fonctionnel-sap-controlling-2-stages-de-fin-d-etudes-en-pre-embauche-f-h/1440/43838109504",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-17T13:25:14+00:00"
+  },
+  {
+   "id": "00c54b4e307b",
+   "company": "VINCI (dont ETF)",
+   "title": "Analyste Fonctionnel SI Finance - Dématérialisation - 1 stage de fin d'études en pré-embauche F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/nanterre/analyste-fonctionnel-si-finance-dematerialisation-1-stage-de-fin-d-etudes-en-pre-embauche-f-h/1440/43828300928",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-17T13:25:14+00:00"
+  },
+  {
+   "id": "2f2cbebb3086",
+   "company": "VINCI (dont ETF)",
+   "title": "Stage PFE IA - Digitalisation de Procédures F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/saint-aignan-sur-roe/stage-pfe-ia-digitalisation-de-procedures-f-h/1440/46421743744",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-17T13:25:14+00:00"
+  },
+  {
+   "id": "978dc9811811",
+   "company": "VINCI (dont ETF)",
+   "title": "Responsable d'affaires Data Center F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/saint-ouen/responsable-d-affaires-data-center-f-h/1440/40559686976",
+   "reason": "titre exclu (data center)",
+   "at": "2026-11-17T13:25:11+00:00"
+  },
+  {
+   "id": "6a2f409e2d92",
+   "company": "VINCI (dont ETF)",
+   "title": "Stage Ingénieur Cybersecurité et IA F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/arras/stage-ingenieur-cybersecurite-et-ia-f-h/1440/46625728128",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-17T13:25:11+00:00"
+  },
+  {
+   "id": "ca741787979b",
+   "company": "AXA",
+   "title": "Chargé de développement outils digitaux et IA F/H - CDD 6 mois",
+   "url": "https://careers.axa.com/jobs/37659",
+   "reason": "expérience non précisée (ni sur la fiche, ni par l'IA)",
+   "at": "2026-11-17T13:20:56+00:00"
+  },
+  {
+   "id": "5dd8391a377a",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Data Scientist F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-data-scientist-f-h-2",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-17T13:20:02+00:00"
+  },
+  {
+   "id": "ac81f047dacb",
+   "company": "BPCE",
+   "title": "STAGE - Data Modeler Junior F/H - LILLE",
+   "url": "https://recrutement.bpce.fr/job/stage-data-modeler-junior-f-h-lille",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-17T13:20:02+00:00"
+  },
+  {
+   "id": "e6bc3fa6aa9f",
+   "company": "Crédit Agricole",
+   "title": "Chef de projet Gouvernance Data H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170477-122-chef-de-projet-gouvernance-data-hf-reference--2025-106862--/",
+   "reason": "expérience demandée ≥ 3 ans « m2 et plus formation / specialisation master niveau d'experience minimum 3 - 5 ans competences recherchees - s »",
+   "at": "2026-11-17T13:18:08+00:00"
+  },
+  {
+   "id": "f10dcc383ad1",
+   "company": "Crédit Agricole",
+   "title": "Analyste IT Commando Fixed Income",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-it-commando-fixed-income--reference--2026-117508--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-17T13:18:07+00:00"
+  },
+  {
+   "id": "edfcfbe4648d",
+   "company": "Crédit Agricole",
+   "title": "Stage - Investment AI & Automation Intern H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-124-stage---investment-ai-et-automation-intern-hf-reference--2026-117507--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-17T13:18:07+00:00"
+  },
+  {
+   "id": "3cfbf8df6fee",
+   "company": "Crédit Agricole",
+   "title": "Stage - Business Analyst H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170478-136-stage---business-analyst-hf-reference--2026-116075--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-17T13:18:07+00:00"
+  },
+  {
+   "id": "f2d57e1eac95",
+   "company": "Crédit Agricole",
+   "title": "Stagiaire IT Middle Office – Agents IA pour le support et les tests de non-régression Alto H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stagiaire-it-middle-office--agents-ia-pour-le-support-et-les-tests-de-non-regression-alto-hf-reference--2026-117472--/",
+   "reason": "titre exclu (stagiaire)",
+   "at": "2026-11-17T13:18:07+00:00"
+  },
+  {
+   "id": "2ecbad63dca9",
+   "company": "Alstom",
+   "title": "Procure to Pay Analyst",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Procure-to-Pay-Analyst-KA/1457861533/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-17T13:15:17+00:00"
+  },
+  {
+   "id": "53507999bd7b",
+   "company": "Alstom",
+   "title": "Internship - Cloud Architecture, TechOps Innovation & AI",
+   "url": "https://jobsearch.alstom.com/job/Saint-Ouen-Internship-Cloud-Architecture%2C-TechOps-Innovation-&-AI/1457945733/",
+   "reason": "titre exclu (internship)",
+   "at": "2026-11-17T13:15:17+00:00"
+  },
+  {
+   "id": "c405b8ad0b3e",
+   "company": "Alstom",
+   "title": "Stage - 6 mois - Architecture Cloud, Innovation TechOps & IA (F/H/Nb)",
+   "url": "https://jobsearch.alstom.com/job/Saint-Ouen-Stage-6-mois-Architecture-Cloud%2C-Innovation-TechOps-&-IA-%28FHNb%29/1457945633/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-17T13:15:17+00:00"
+  },
   {
    "id": "fc5b56275d17",
    "company": "VINCI (dont ETF)",
