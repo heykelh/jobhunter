@@ -1,6 +1,94 @@
 {
- "updated": "2026-11-17T14:31:31+00:00",
+ "updated": "2026-11-17T22:56:45+00:00",
  "items": [
+  {
+   "id": "1a61a006ce2e",
+   "company": "jobup.ch",
+   "title": "Chargé de projets IA junior - Finance & Claude - Try & Hire à 100 %",
+   "url": "https://www.jobup.ch/fr/emplois/detail/031bab46-17a8-4112-9c91-fd1bcbe9bcf9/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-17T22:56:23+00:00"
+  },
+  {
+   "id": "b020038637ad",
+   "company": "jobs.ch",
+   "title": "Chargé de projets IA junior - Finance & Claude - Try & Hire à 100 %",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/031bab46-17a8-4112-9c91-fd1bcbe9bcf9/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-17T22:56:04+00:00"
+  },
+  {
+   "id": "cd245f74c6e8",
+   "company": "jobs.ch",
+   "title": "Business Analyst (m,f,d) Reporting & Daten/PL/SQL",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/97fd0c99-da48-4dfa-bae9-d24ff17fede0/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-17T22:56:02+00:00"
+  },
+  {
+   "id": "b176adfa2818",
+   "company": "jobs.ch",
+   "title": "Senior Consultant - Consulting - Data Management & Governance",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/2a950003-8f6c-4b18-b933-614228140b99/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-17T22:56:01+00:00"
+  },
+  {
+   "id": "76cc48f56f0a",
+   "company": "jobs.ch",
+   "title": "Manager - Technology Consulting - AI & Data (80-100%)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/80fc3d50-85a8-4ac8-8678-3c5a5c8ac2c5/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-17T22:56:01+00:00"
+  },
+  {
+   "id": "978bd5209247",
+   "company": "HelloWork",
+   "title": "Développeur Angular - Projet IA H/F Ducas Consulting",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85608321.html",
+   "reason": "expérience demandée ≥ 10 ans « elle. le profil recherche profil recherche : plus de 9 ans d'experience professionn »",
+   "at": "2026-11-17T22:55:44+00:00"
+  },
+  {
+   "id": "407bd708e11a",
+   "company": "HelloWork",
+   "title": "Tech Lead .Net & IA H/F Luminari Group",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85602465.html",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-17T22:55:44+00:00"
+  },
+  {
+   "id": "ba285363d3c4",
+   "company": "HelloWork",
+   "title": "Consultant Senior - Data Scientist Gen ai H/F Square Management",
+   "url": "https://www.hellowork.com/fr-fr/emplois/80876277.html",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-17T22:55:42+00:00"
+  },
+  {
+   "id": "e5d5d12e9334",
+   "company": "HelloWork",
+   "title": "Architecte Solutions IA H/F SOLUXAN",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85601950.html",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-17T22:55:42+00:00"
+  },
+  {
+   "id": "7a7b51af6799",
+   "company": "HelloWork",
+   "title": "Ingénieur Lab IA H/F Domusvi",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85602936.html",
+   "reason": "expérience demandée ≥ 4 ans « erieure (ecole d'ingenieur ou de commerce).- 4 a 6 ans d'experience, incluant u »",
+   "at": "2026-11-17T22:55:42+00:00"
+  },
+  {
+   "id": "591eab9cc33b",
+   "company": "HelloWork",
+   "title": "Data Analyst H/F Elis",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85608457.html",
+   "reason": "expérience demandée ≥ 7 ans « uees ou un equivalent universitaire- minimum 7 ans en projets data/bi, cadr »",
+   "at": "2026-11-17T22:55:39+00:00"
+  },
   {
    "id": "e61134c23049",
    "company": "jobup.ch",
