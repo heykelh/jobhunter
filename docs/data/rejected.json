@@ -1,6 +1,150 @@
 {
- "updated": "2026-11-17T13:29:56+00:00",
+ "updated": "2026-11-17T22:09:01+00:00",
  "items": [
+  {
+   "id": "21f2932e0fe5",
+   "company": "ING",
+   "title": "Data Analyst in Risk Reporting",
+   "url": "https://careers.ing.com/en/job/warsaw/data-analyst-in-risk-reporting/3121/46362822912",
+   "reason": "lieu hors zones",
+   "at": "2026-11-17T22:09:01+00:00"
+  },
+  {
+   "id": "6927b24cb965",
+   "company": "ING",
+   "title": "Data Analyst",
+   "url": "https://careers.ing.com/en/job/slovakia/data-analyst/3121/46995907136",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-17T22:08:59+00:00"
+  },
+  {
+   "id": "2c14e97cb051",
+   "company": "Orange",
+   "title": "Salesforce/CRM Business Analyst",
+   "url": "https://orange.jobs/fr/fr/job/ICM-588600/Salesforce-CRM-Business-Analyst",
+   "reason": "lieu hors zones",
+   "at": "2026-11-17T22:05:56+00:00"
+  },
+  {
+   "id": "0ba0fd472c48",
+   "company": "Orange",
+   "title": "Data Platform Engineer",
+   "url": "https://orange.jobs/fr/fr/job/ICM-588522/Data-Platform-Engineer",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-17T22:05:55+00:00"
+  },
+  {
+   "id": "42c71518e3e6",
+   "company": "TotalEnergies",
+   "title": "Ingénieur IA agentique - Débutant H/F",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Ing-nieur-IA-agentique-D-butant-H-F/86325",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-17T22:04:30+00:00"
+  },
+  {
+   "id": "f9166aed9cd5",
+   "company": "TotalEnergies",
+   "title": "Thèse CIFRE Développement émulateurs IA de modèle climatique H/F/X",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Th-se-CIFRE-D-veloppement-mulateurs-IA-de-mod-le-climatique-H-F-X/86315",
+   "reason": "titre exclu (these)",
+   "at": "2026-11-17T22:04:30+00:00"
+  },
+  {
+   "id": "6a7b03061c5e",
+   "company": "AXA",
+   "title": "Auditeur data",
+   "url": "https://careers.axa.com/jobs/37574",
+   "reason": "contrat non précisé",
+   "at": "2026-11-17T22:00:40+00:00"
+  },
+  {
+   "id": "ee9d6b81ab3f",
+   "company": "BPCE",
+   "title": "Analyste risques financiers et suivi des portefeuilles d'investissement (F/H)",
+   "url": "https://recrutement.bpce.fr/job/analyste-risques-financiers-et-suivi-des-portefeuilles-dinvestissement-f-h-2",
+   "reason": "expérience demandée ≥ 7 ans « e: nous recherchons un profil ayant a minima 7 ans d'experience avec les co »",
+   "at": "2026-11-17T21:59:47+00:00"
+  },
+  {
+   "id": "69a3e5f21928",
+   "company": "BPCE",
+   "title": "Analyste Consolidation Sénior F/H - Paris",
+   "url": "https://recrutement.bpce.fr/job/analyste-consolidation-senior-f-h-paris",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-17T21:59:47+00:00"
+  },
+  {
+   "id": "76df26d35014",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Analyste Risques F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-analyste-risques-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-17T21:59:47+00:00"
+  },
+  {
+   "id": "83f9a6561356",
+   "company": "Crédit Agricole",
+   "title": "Analyste - Environmental Transition Group H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste---environmental-transition-group-hf-reference--2026-115681--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-17T21:57:44+00:00"
+  },
+  {
+   "id": "0bae15d9808f",
+   "company": "Crédit Agricole",
+   "title": "Stage – Data Analyst / Pilotage de la Performance H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-270-stage--data-analyst--pilotage-de-la-performance-hf-reference--2026-117516--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-17T21:57:44+00:00"
+  },
+  {
+   "id": "e56e285a1f5e",
+   "company": "Crédit Agricole",
+   "title": "Senior Credit Analyst m/w/d",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170466-4-senior-credit-analyst-mwd-reference--2026-117539--/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-17T21:57:42+00:00"
+  },
+  {
+   "id": "3f8ee4844576",
+   "company": "Crédit Agricole",
+   "title": "Stage STRATEGIE – Analyste en charge de projets stratégiques H/F H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170463-122-stage-strategie--analyste-en-charge-de-projets-strategiques-hf-hf-reference--2026-117534--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-17T21:57:42+00:00"
+  },
+  {
+   "id": "00f395bcefd2",
+   "company": "Crédit Agricole",
+   "title": "INTERNSHIP - Real Assets Analyst (6 months) H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-internship---real-assets-analyst-6-months-hf-reference--2026-117525--/",
+   "reason": "titre exclu (internship)",
+   "at": "2026-11-17T21:57:42+00:00"
+  },
+  {
+   "id": "4305d2616ce7",
+   "company": "Société Générale",
+   "title": "AI Engineer",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/ai-engineer-26000N35-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-17T21:56:59+00:00"
+  },
+  {
+   "id": "2447eb28855f",
+   "company": "Alstom",
+   "title": "Data Scientist pour pièces de rechange (F/H)",
+   "url": "https://jobsearch.alstom.com/job/Saint-Ouen-Data-Scientist-pour-pi%C3%A8ces-de-rechange-%28FH%29/1444679333/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-17T21:54:52+00:00"
+  },
+  {
+   "id": "9c25e19b775d",
+   "company": "Alstom",
+   "title": "Project Installation Analyst - Cancún",
+   "url": "https://jobsearch.alstom.com/job/Merida-Project-Installation-Analyst-Canc%C3%BAn/1458175133/",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-17T21:54:50+00:00"
+  },
   {
    "id": "6ffbd0d7b32d",
    "company": "UBS",
