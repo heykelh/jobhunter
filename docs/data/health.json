@@ -1,38 +1,38 @@
 {
- "updated": "2026-11-17T22:09:01+00:00",
+ "updated": "2026-11-18T03:54:59+00:00",
  "companies": {
   "Air France": {
-   "checked_at": "2026-11-17T21:53:49+00:00",
+   "checked_at": "2026-11-18T03:40:47+00:00",
    "error": "",
    "warnings": [],
    "links_found": 22,
    "keyword_matches": 4,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-17T21:53:50+00:00",
+   "last_ok": "2026-11-18T03:40:48+00:00",
    "failures": 0
   },
   "TotalEnergies": {
-   "checked_at": "2026-11-17T22:04:04+00:00",
+   "checked_at": "2026-11-18T03:50:20+00:00",
    "error": "",
    "warnings": [],
    "links_found": 200,
    "keyword_matches": 20,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-17T22:04:30+00:00",
+   "last_ok": "2026-11-18T03:50:43+00:00",
    "failures": 0
   },
   "Société Générale": {
-   "checked_at": "2026-11-17T21:55:30+00:00",
+   "checked_at": "2026-11-18T03:41:53+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 47,
-   "keyword_matches": 21,
+   "links_found": 45,
+   "keyword_matches": 24,
    "kept_this_run": 0,
    "status": "ok",
    "failures": 0,
-   "last_ok": "2026-11-17T21:56:59+00:00"
+   "last_ok": "2026-11-18T03:43:28+00:00"
   },
   "BNP Paribas": {
    "checked_at": "2026-10-20T13:25:43+00:00",
@@ -50,29 +50,29 @@
    "failures": 1
   },
   "Crédit Agricole": {
-   "checked_at": "2026-11-17T21:56:59+00:00",
+   "checked_at": "2026-11-18T03:43:28+00:00",
    "error": "",
    "warnings": [],
    "links_found": 33,
-   "keyword_matches": 7,
+   "keyword_matches": 4,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-17T21:57:44+00:00",
+   "last_ok": "2026-11-18T03:44:12+00:00",
    "failures": 0
   },
   "BPCE": {
-   "checked_at": "2026-11-17T21:57:44+00:00",
+   "checked_at": "2026-11-18T03:44:12+00:00",
    "error": "",
    "warnings": [],
    "links_found": 1556,
    "keyword_matches": 118,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-17T21:59:47+00:00",
+   "last_ok": "2026-11-18T03:46:05+00:00",
    "failures": 0
   },
   "AXA": {
-   "checked_at": "2026-11-17T21:59:47+00:00",
+   "checked_at": "2026-11-18T03:46:05+00:00",
    "error": "",
    "warnings": [],
    "links_found": 80,
@@ -80,32 +80,32 @@
    "kept_this_run": 0,
    "status": "ok",
    "failures": 0,
-   "last_ok": "2026-11-17T22:00:40+00:00"
+   "last_ok": "2026-11-18T03:46:58+00:00"
   },
   "SNCF": {
-   "checked_at": "2026-11-17T21:53:50+00:00",
+   "checked_at": "2026-11-18T03:40:48+00:00",
    "error": "",
    "warnings": [],
    "links_found": 198,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-17T21:53:51+00:00",
+   "last_ok": "2026-11-18T03:40:49+00:00",
    "failures": 0
   },
   "CFL": {
-   "checked_at": "2026-11-17T21:54:52+00:00",
+   "checked_at": "2026-11-18T03:41:17+00:00",
    "error": "",
    "warnings": [],
    "links_found": 25,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-17T21:55:04+00:00",
+   "last_ok": "2026-11-18T03:41:28+00:00",
    "failures": 0
   },
   "SBB CFF FFS": {
-   "checked_at": "2026-11-17T21:55:04+00:00",
+   "checked_at": "2026-11-18T03:41:28+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
@@ -113,34 +113,32 @@
    "kept_this_run": 0,
    "status": "vide",
    "last_ok": "2026-11-14T11:26:51+00:00",
-   "failures": 13
+   "failures": 14
   },
   "RATP Dev": {
-   "checked_at": "2026-11-17T21:53:51+00:00",
+   "checked_at": "2026-11-18T03:40:49+00:00",
    "error": "",
    "warnings": [],
    "links_found": 20,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-17T21:54:03+00:00",
+   "last_ok": "2026-11-18T03:41:00+00:00",
    "failures": 0
   },
   "Alstom": {
-   "checked_at": "2026-11-17T21:54:03+00:00",
+   "checked_at": "2026-11-18T03:41:00+00:00",
    "error": "",
-   "warnings": [
-    "https://jobsearch.alstom.com/search/?q=analyst&sortColumn=referencedate&sortDirection=desc&startrow=0 → ReadTimeout: HTTPSConnectionPool(host='jobsearch.alstom.com', port=443): Read timed out. (read timeout=30)"
-   ],
-   "links_found": 183,
+   "warnings": [],
+   "links_found": 181,
    "keyword_matches": 61,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-17T21:54:52+00:00",
+   "last_ok": "2026-11-18T03:41:17+00:00",
    "failures": 0
   },
   "EDF / Enedis": {
-   "checked_at": "2026-11-17T22:00:40+00:00",
+   "checked_at": "2026-11-18T03:46:58+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
@@ -148,29 +146,35 @@
    "kept_this_run": 0,
    "status": "vide",
    "last_ok": "2026-11-16T23:00:18+00:00",
-   "failures": 2
+   "failures": 3
   },
   "VINCI (dont ETF)": {
-   "checked_at": "2026-11-17T22:04:30+00:00",
+   "checked_at": "2026-11-18T03:50:43+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 226,
+   "links_found": 229,
    "keyword_matches": 61,
    "kept_this_run": 0,
    "status": "ok",
    "failures": 0,
-   "last_ok": "2026-11-17T22:04:47+00:00"
+   "last_ok": "2026-11-18T03:51:02+00:00"
   },
   "Eiffage": {
-   "checked_at": "2026-11-17T22:04:47+00:00",
-   "error": "",
-   "warnings": [],
-   "links_found": 162,
-   "keyword_matches": 18,
+   "checked_at": "2026-11-18T03:51:02+00:00",
+   "error": "RuntimeError: https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs [data/0] → HTTPError: 429 Client Error: Too Many Requests for url: https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs",
+   "warnings": [
+    "https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs [data/0] → HTTPError: 429 Client Error: Too Many Requests for url: https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs",
+    "https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs [data/20] → HTTPError: 429 Client Error: Too Many Requests for url: https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs",
+    "https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs [analyst/0] → HTTPError: 429 Client Error: Too Many Requests for url: https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs",
+    "https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs [analyst/20] → HTTPError: 429 Client Error: Too Many Requests for url: https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs",
+    "https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs [analyste/0] → HTTPError: 429 Client Error: Too Many Requests for url: https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs"
+   ],
+   "links_found": 0,
+   "keyword_matches": 0,
    "kept_this_run": 0,
-   "status": "ok",
+   "status": "erreur",
    "last_ok": "2026-11-17T22:05:05+00:00",
-   "failures": 0
+   "failures": 1
   },
   "Bouygues Telecom": {
    "checked_at": "2026-10-29T10:56:14+00:00",
@@ -184,81 +188,85 @@
    "last_ok": "2026-10-29T10:56:21+00:00"
   },
   "Orange": {
-   "checked_at": "2026-11-17T22:05:05+00:00",
+   "checked_at": "2026-11-18T03:51:23+00:00",
    "error": "",
    "warnings": [],
    "links_found": 85,
    "keyword_matches": 40,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-17T22:05:56+00:00",
+   "last_ok": "2026-11-18T03:52:12+00:00",
    "failures": 0
   },
   "L'Oréal": {
-   "checked_at": "2026-11-17T22:05:56+00:00",
+   "checked_at": "2026-11-18T03:52:12+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "vide",
-   "failures": 94
+   "failures": 95
   },
   "Julius Baer": {
-   "checked_at": "2026-11-17T22:06:30+00:00",
-   "error": "",
-   "warnings": [],
-   "links_found": 115,
-   "keyword_matches": 19,
+   "checked_at": "2026-11-18T03:52:57+00:00",
+   "error": "RuntimeError: https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs [data/0] → HTTPError: 429 Client Error: Too Many Requests for url: https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs",
+   "warnings": [
+    "https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs [data/0] → HTTPError: 429 Client Error: Too Many Requests for url: https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs",
+    "https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs [data/20] → HTTPError: 429 Client Error: Too Many Requests for url: https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs",
+    "https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs [analyst/0] → HTTPError: 429 Client Error: Too Many Requests for url: https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs",
+    "https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs [analyst/20] → HTTPError: 429 Client Error: Too Many Requests for url: https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs",
+    "https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs [analyste/0] → HTTPError: 429 Client Error: Too Many Requests for url: https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs"
+   ],
+   "links_found": 0,
+   "keyword_matches": 0,
    "kept_this_run": 0,
-   "status": "ok",
+   "status": "erreur",
    "last_ok": "2026-11-17T22:06:48+00:00",
-   "failures": 0
+   "failures": 1
   },
   "UBS": {
-   "checked_at": "2026-11-17T22:06:48+00:00",
+   "checked_at": "2026-11-18T03:53:14+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 16,
-   "keyword_matches": 1,
+   "links_found": 10,
+   "keyword_matches": 2,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-17T22:07:39+00:00",
+   "last_ok": "2026-11-18T03:54:05+00:00",
    "failures": 0
   },
   "SIX Group": {
-   "checked_at": "2026-11-17T22:07:39+00:00",
+   "checked_at": "2026-11-18T03:54:05+00:00",
    "error": "",
-   "warnings": [
-    "https://jobs.six-group.com/search/?q=ai&sortColumn=referencedate&sortDirection=desc → ReadTimeout: HTTPSConnectionPool(host='jobs.six-group.com', port=443): Read timed out. (read timeout=30)"
-   ],
-   "links_found": 69,
+   "warnings": [],
+   "links_found": 72,
    "keyword_matches": 22,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-17T22:08:16+00:00",
+   "last_ok": "2026-11-18T03:54:12+00:00",
    "failures": 0
   },
   "Advanzia Bank": {
-   "checked_at": "2026-11-17T22:08:16+00:00",
+   "checked_at": "2026-11-18T03:54:12+00:00",
    "error": "",
    "warnings": [],
    "links_found": 12,
    "keyword_matches": 2,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-17T22:08:23+00:00",
+   "last_ok": "2026-11-18T03:54:19+00:00",
    "failures": 0
   },
   "ING": {
-   "checked_at": "2026-11-17T22:08:23+00:00",
+   "checked_at": "2026-11-18T03:54:19+00:00",
    "error": "",
    "warnings": [],
    "links_found": 58,
    "keyword_matches": 48,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-17T22:09:01+00:00",
+   "last_ok": "2026-11-18T03:54:59+00:00",
    "failures": 0
   },
   "Swiss Life": {
