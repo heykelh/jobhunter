@@ -1,38 +1,38 @@
 {
- "updated": "2026-11-18T03:54:59+00:00",
+ "updated": "2026-11-18T13:12:31+00:00",
  "companies": {
   "Air France": {
-   "checked_at": "2026-11-18T03:40:47+00:00",
+   "checked_at": "2026-11-18T12:57:55+00:00",
    "error": "",
    "warnings": [],
    "links_found": 22,
    "keyword_matches": 4,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-18T03:40:48+00:00",
+   "last_ok": "2026-11-18T12:57:58+00:00",
    "failures": 0
   },
   "TotalEnergies": {
-   "checked_at": "2026-11-18T03:50:20+00:00",
+   "checked_at": "2026-11-18T13:07:51+00:00",
    "error": "",
    "warnings": [],
    "links_found": 200,
-   "keyword_matches": 20,
+   "keyword_matches": 17,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-18T03:50:43+00:00",
+   "last_ok": "2026-11-18T13:08:21+00:00",
    "failures": 0
   },
   "Société Générale": {
-   "checked_at": "2026-11-18T03:41:53+00:00",
+   "checked_at": "2026-11-18T12:59:09+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 45,
+   "links_found": 49,
    "keyword_matches": 24,
    "kept_this_run": 0,
    "status": "ok",
    "failures": 0,
-   "last_ok": "2026-11-18T03:43:28+00:00"
+   "last_ok": "2026-11-18T13:00:34+00:00"
   },
   "BNP Paribas": {
    "checked_at": "2026-10-20T13:25:43+00:00",
@@ -50,62 +50,62 @@
    "failures": 1
   },
   "Crédit Agricole": {
-   "checked_at": "2026-11-18T03:43:28+00:00",
+   "checked_at": "2026-11-18T13:00:34+00:00",
    "error": "",
    "warnings": [],
    "links_found": 33,
    "keyword_matches": 4,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-18T03:44:12+00:00",
+   "last_ok": "2026-11-18T13:01:24+00:00",
    "failures": 0
   },
   "BPCE": {
-   "checked_at": "2026-11-18T03:44:12+00:00",
+   "checked_at": "2026-11-18T13:01:24+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 1556,
+   "links_found": 1554,
    "keyword_matches": 118,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-18T03:46:05+00:00",
+   "last_ok": "2026-11-18T13:03:32+00:00",
    "failures": 0
   },
   "AXA": {
-   "checked_at": "2026-11-18T03:46:05+00:00",
+   "checked_at": "2026-11-18T13:03:32+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 80,
-   "keyword_matches": 28,
+   "links_found": 83,
+   "keyword_matches": 27,
    "kept_this_run": 0,
    "status": "ok",
    "failures": 0,
-   "last_ok": "2026-11-18T03:46:58+00:00"
+   "last_ok": "2026-11-18T13:04:25+00:00"
   },
   "SNCF": {
-   "checked_at": "2026-11-18T03:40:48+00:00",
+   "checked_at": "2026-11-18T12:57:58+00:00",
    "error": "",
    "warnings": [],
    "links_found": 198,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-18T03:40:49+00:00",
+   "last_ok": "2026-11-18T12:57:58+00:00",
    "failures": 0
   },
   "CFL": {
-   "checked_at": "2026-11-18T03:41:17+00:00",
+   "checked_at": "2026-11-18T12:58:28+00:00",
    "error": "",
    "warnings": [],
    "links_found": 25,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-18T03:41:28+00:00",
+   "last_ok": "2026-11-18T12:58:43+00:00",
    "failures": 0
   },
   "SBB CFF FFS": {
-   "checked_at": "2026-11-18T03:41:28+00:00",
+   "checked_at": "2026-11-18T12:58:43+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
@@ -113,32 +113,32 @@
    "kept_this_run": 0,
    "status": "vide",
    "last_ok": "2026-11-14T11:26:51+00:00",
-   "failures": 14
+   "failures": 15
   },
   "RATP Dev": {
-   "checked_at": "2026-11-18T03:40:49+00:00",
+   "checked_at": "2026-11-18T12:57:58+00:00",
    "error": "",
    "warnings": [],
    "links_found": 20,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-18T03:41:00+00:00",
+   "last_ok": "2026-11-18T12:58:11+00:00",
    "failures": 0
   },
   "Alstom": {
-   "checked_at": "2026-11-18T03:41:00+00:00",
+   "checked_at": "2026-11-18T12:58:11+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 181,
-   "keyword_matches": 61,
+   "links_found": 179,
+   "keyword_matches": 63,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-18T03:41:17+00:00",
+   "last_ok": "2026-11-18T12:58:28+00:00",
    "failures": 0
   },
   "EDF / Enedis": {
-   "checked_at": "2026-11-18T03:46:58+00:00",
+   "checked_at": "2026-11-18T13:04:25+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
@@ -146,10 +146,10 @@
    "kept_this_run": 0,
    "status": "vide",
    "last_ok": "2026-11-16T23:00:18+00:00",
-   "failures": 3
+   "failures": 4
   },
   "VINCI (dont ETF)": {
-   "checked_at": "2026-11-18T03:50:43+00:00",
+   "checked_at": "2026-11-18T13:08:21+00:00",
    "error": "",
    "warnings": [],
    "links_found": 229,
@@ -157,10 +157,10 @@
    "kept_this_run": 0,
    "status": "ok",
    "failures": 0,
-   "last_ok": "2026-11-18T03:51:02+00:00"
+   "last_ok": "2026-11-18T13:08:38+00:00"
   },
   "Eiffage": {
-   "checked_at": "2026-11-18T03:51:02+00:00",
+   "checked_at": "2026-11-18T13:08:38+00:00",
    "error": "RuntimeError: https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs [data/0] → HTTPError: 429 Client Error: Too Many Requests for url: https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs",
    "warnings": [
     "https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs [data/0] → HTTPError: 429 Client Error: Too Many Requests for url: https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs",
@@ -174,7 +174,7 @@
    "kept_this_run": 0,
    "status": "erreur",
    "last_ok": "2026-11-17T22:05:05+00:00",
-   "failures": 1
+   "failures": 2
   },
   "Bouygues Telecom": {
    "checked_at": "2026-10-29T10:56:14+00:00",
@@ -188,29 +188,29 @@
    "last_ok": "2026-10-29T10:56:21+00:00"
   },
   "Orange": {
-   "checked_at": "2026-11-18T03:51:23+00:00",
+   "checked_at": "2026-11-18T13:08:56+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 85,
-   "keyword_matches": 40,
+   "links_found": 86,
+   "keyword_matches": 41,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-18T03:52:12+00:00",
+   "last_ok": "2026-11-18T13:09:50+00:00",
    "failures": 0
   },
   "L'Oréal": {
-   "checked_at": "2026-11-18T03:52:12+00:00",
+   "checked_at": "2026-11-18T13:09:50+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "vide",
-   "failures": 95
+   "failures": 96
   },
   "Julius Baer": {
-   "checked_at": "2026-11-18T03:52:57+00:00",
-   "error": "RuntimeError: https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs [data/0] → HTTPError: 429 Client Error: Too Many Requests for url: https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs",
+   "checked_at": "2026-11-18T13:10:25+00:00",
+   "error": "",
    "warnings": [
     "https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs [data/0] → HTTPError: 429 Client Error: Too Many Requests for url: https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs",
     "https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs [data/20] → HTTPError: 429 Client Error: Too Many Requests for url: https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs",
@@ -218,55 +218,55 @@
     "https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs [analyst/20] → HTTPError: 429 Client Error: Too Many Requests for url: https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs",
     "https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs [analyste/0] → HTTPError: 429 Client Error: Too Many Requests for url: https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs"
    ],
-   "links_found": 0,
-   "keyword_matches": 0,
-   "kept_this_run": 0,
-   "status": "erreur",
-   "last_ok": "2026-11-17T22:06:48+00:00",
-   "failures": 1
-  },
-  "UBS": {
-   "checked_at": "2026-11-18T03:53:14+00:00",
-   "error": "",
-   "warnings": [],
-   "links_found": 10,
-   "keyword_matches": 2,
+   "links_found": 20,
+   "keyword_matches": 1,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-18T03:54:05+00:00",
+   "last_ok": "2026-11-18T13:10:43+00:00",
+   "failures": 0
+  },
+  "UBS": {
+   "checked_at": "2026-11-18T13:10:43+00:00",
+   "error": "",
+   "warnings": [],
+   "links_found": 16,
+   "keyword_matches": 3,
+   "kept_this_run": 0,
+   "status": "ok",
+   "last_ok": "2026-11-18T13:11:40+00:00",
    "failures": 0
   },
   "SIX Group": {
-   "checked_at": "2026-11-18T03:54:05+00:00",
+   "checked_at": "2026-11-18T13:11:40+00:00",
    "error": "",
    "warnings": [],
    "links_found": 72,
    "keyword_matches": 22,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-18T03:54:12+00:00",
+   "last_ok": "2026-11-18T13:11:48+00:00",
    "failures": 0
   },
   "Advanzia Bank": {
-   "checked_at": "2026-11-18T03:54:12+00:00",
+   "checked_at": "2026-11-18T13:11:48+00:00",
    "error": "",
    "warnings": [],
    "links_found": 12,
    "keyword_matches": 2,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-18T03:54:19+00:00",
+   "last_ok": "2026-11-18T13:11:56+00:00",
    "failures": 0
   },
   "ING": {
-   "checked_at": "2026-11-18T03:54:19+00:00",
+   "checked_at": "2026-11-18T13:11:56+00:00",
    "error": "",
    "warnings": [],
    "links_found": 58,
    "keyword_matches": 48,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-18T03:54:59+00:00",
+   "last_ok": "2026-11-18T13:12:31+00:00",
    "failures": 0
   },
   "Swiss Life": {
