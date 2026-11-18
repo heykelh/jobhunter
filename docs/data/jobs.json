@@ -1,6 +1,34 @@
 {
- "updated": "2026-11-18T13:12:31+00:00",
+ "updated": "2026-11-18T21:36:12+00:00",
  "jobs": [
+  {
+   "id": "4ba618558c99",
+   "company": "Société Générale",
+   "title": "Analyste - Chargé Financements structurés Export Finance",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-charge-financements-structures-export-finance-26000L1C-fr",
+   "via": null,
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-18",
+   "seed": false,
+   "rv": 5,
+   "match": {
+    "score": 100,
+    "have": [
+     "excel",
+     "conformité",
+     "reporting",
+     "anglais"
+    ],
+    "missing": []
+   },
+   "salary": null,
+   "first_seen": "2026-11-18T21:24:52+00:00",
+   "last_seen": "2026-11-18T21:24:52+00:00"
+  },
   {
    "id": "b3d0210bc02d",
    "company": "TotalEnergies",
@@ -57,7 +85,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-16T22:54:12+00:00",
-   "last_seen": "2026-11-18T13:00:32+00:00"
+   "last_seen": "2026-11-18T21:24:48+00:00"
   },
   {
    "id": "92eaf34ac1d2",
@@ -84,7 +112,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-14T14:43:41+00:00",
-   "last_seen": "2026-11-18T13:08:38+00:00"
+   "last_seen": "2026-11-18T21:32:42+00:00"
   },
   {
    "id": "61d98dcfaf61",
@@ -120,7 +148,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-09T21:36:35+00:00",
-   "last_seen": "2026-11-18T13:03:32+00:00"
+   "last_seen": "2026-11-18T21:27:35+00:00"
   },
   {
    "id": "78f165b6b23d",
@@ -148,7 +176,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-06T19:25:23+00:00",
-   "last_seen": "2026-11-18T13:08:21+00:00"
+   "last_seen": "2026-11-18T21:32:26+00:00"
   },
   {
    "id": "f236ed3489bf",
@@ -247,7 +275,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-04T19:46:49+00:00",
-   "last_seen": "2026-11-18T13:03:32+00:00"
+   "last_seen": "2026-11-18T21:27:35+00:00"
   },
   {
    "id": "664b3cc7e12f",
@@ -530,7 +558,7 @@
    "rv": 5,
    "match": null,
    "first_seen": "2026-10-28T10:34:45+00:00",
-   "last_seen": "2026-11-18T13:03:32+00:00"
+   "last_seen": "2026-11-18T21:27:35+00:00"
   },
   {
    "id": "76bc150e9b01",
@@ -559,7 +587,7 @@
     "missing": []
    },
    "first_seen": "2026-10-28T10:34:36+00:00",
-   "last_seen": "2026-11-18T13:03:32+00:00"
+   "last_seen": "2026-11-18T21:27:35+00:00"
   },
   {
    "id": "4e80bd2f5d16",
@@ -619,7 +647,7 @@
     ]
    },
    "first_seen": "2026-10-27T20:42:04+00:00",
-   "last_seen": "2026-11-18T13:03:32+00:00"
+   "last_seen": "2026-11-18T21:27:35+00:00"
   },
   {
    "id": "9e6271b7f744",
@@ -817,7 +845,7 @@
    "published": "2026-09-22",
    "seed": false,
    "first_seen": "2026-10-20T13:59:55+00:00",
-   "last_seen": "2026-11-18T13:03:32+00:00",
+   "last_seen": "2026-11-18T21:27:35+00:00",
    "date_tries": 1,
    "match": {
     "score": 75,
@@ -876,7 +904,7 @@
    "published": "2026-10-08",
    "seed": false,
    "first_seen": "2026-10-20T13:58:07+00:00",
-   "last_seen": "2026-11-18T13:03:32+00:00",
+   "last_seen": "2026-11-18T21:27:35+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 5,
@@ -905,7 +933,7 @@
    "published": "2026-10-14",
    "seed": false,
    "first_seen": "2026-10-20T13:57:31+00:00",
-   "last_seen": "2026-11-18T13:03:32+00:00",
+   "last_seen": "2026-11-18T21:27:35+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 5,
@@ -938,7 +966,7 @@
    "published": "2026-10-18",
    "seed": false,
    "first_seen": "2026-10-20T13:56:45+00:00",
-   "last_seen": "2026-11-18T13:03:32+00:00",
+   "last_seen": "2026-11-18T21:27:35+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 5,

@@ -1,6 +1,86 @@
 {
- "updated": "2026-11-18T13:12:31+00:00",
+ "updated": "2026-11-18T21:36:12+00:00",
  "items": [
+  {
+   "id": "e217f75d95e5",
+   "company": "SIX Group",
+   "title": "AI SDLC Engineer - Developer Experience",
+   "url": "https://jobs.six-group.com/job/Las-Rozas-de-Madrid-AI-SDLC-Engineer-Developer-Experience/1431166433/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-18T21:35:31+00:00"
+  },
+  {
+   "id": "30c513ea6bd0",
+   "company": "Orange",
+   "title": "Data Engineer Consultant",
+   "url": "https://orange.jobs/fr/fr/job/TOB-3396197/Data-Engineer-Consultant",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-18T21:33:46+00:00"
+  },
+  {
+   "id": "8b72d20cc30b",
+   "company": "VINCI (dont ETF)",
+   "title": "Stage – Analyste développeur API F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/le-mans/stage-analyste-developpeur-api-f-h/1440/47026193024",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-18T21:32:42+00:00"
+  },
+  {
+   "id": "b826144633b0",
+   "company": "TotalEnergies",
+   "title": "Analyste ESG - Débutant H/F",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Analyste-ESG-D-butant-H-F/86370",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-18T21:32:26+00:00"
+  },
+  {
+   "id": "fa56ba9dd6e7",
+   "company": "AXA",
+   "title": "Finance Data Quality & Analytics Lead H/F",
+   "url": "https://careers.axa.com/jobs/30378",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-18T21:28:27+00:00"
+  },
+  {
+   "id": "1ac763293477",
+   "company": "BPCE",
+   "title": "Analyste Engagement Surveillance (F/H)",
+   "url": "https://recrutement.bpce.fr/job/analyste-engagement-surveillance-f-h",
+   "reason": "expérience demandée ≥ 5 ans « vites variees experience bancaire d'au moins 5-10 ans dans des fonctions de ch »",
+   "at": "2026-11-18T21:27:35+00:00"
+  },
+  {
+   "id": "11bf97e5ae48",
+   "company": "Crédit Agricole",
+   "title": "Assistant Analyste CCR – Opérations de Marché H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-assistant-analyste-ccr--operations-de-marche-hf-reference--2026-117568--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-18T21:25:34+00:00"
+  },
+  {
+   "id": "81d9aca1a675",
+   "company": "Société Générale",
+   "title": "Chargé d'animation IA et RSE",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/charge-danimation-ia-et-rse-26000L7W-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-18T21:24:49+00:00"
+  },
+  {
+   "id": "8bf1ad8b33eb",
+   "company": "Société Générale",
+   "title": "Analyste Private Equity",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-private-equity-26000N0X-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-18T21:24:48+00:00"
+  },
+  {
+   "id": "40346458843d",
+   "company": "Société Générale",
+   "title": "Analyste risque de crédit",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-risque-de-credit-26000N1S-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-18T21:24:46+00:00"
+  },
   {
    "id": "e7f29488b13e",
    "company": "ING",
