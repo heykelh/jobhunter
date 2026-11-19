@@ -1,6 +1,662 @@
 {
- "updated": "2026-11-19T14:31:03+00:00",
+ "updated": "2026-11-19T18:55:15+00:00",
  "items": [
+  {
+   "id": "55ea30fa42ac",
+   "company": "jobup.ch",
+   "title": "Quantitative Analyst, Risk and Product Control Interface 100% (f/m/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/27f6871b-c95c-48e0-af6f-a3668cec2d13/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-19T18:54:52+00:00"
+  },
+  {
+   "id": "9739818307d0",
+   "company": "jobup.ch",
+   "title": "Pricing-Specialist / Speditionsfachmann 80 - 100% (m/w/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/308528f2-8422-4883-a64c-68f1a9904718/",
+   "reason": "expérience demandée ≥ 3 ans « ise de transit etablie et dynamique avec une longue experience sur le marche. l'entrepr »",
+   "at": "2026-11-19T18:54:51+00:00"
+  },
+  {
+   "id": "7df5926b30e2",
+   "company": "jobup.ch",
+   "title": "Operational Pricing Manager 80 - 100% (f/m/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/15f0351a-4564-4efc-aa2c-14ad1c47cbb6/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-19T18:54:51+00:00"
+  },
+  {
+   "id": "f747906ad95d",
+   "company": "jobup.ch",
+   "title": "Senior Group Insurance Pricing & Underwriting Specialist 80-100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/b4608e9b-66e3-45b1-a9ce-6cb0c6e8ec11/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-19T18:54:51+00:00"
+  },
+  {
+   "id": "6c9e5f261df8",
+   "company": "jobup.ch",
+   "title": "Strategic Pricing - Product Management Intern 100% (f/m/d) - [Fixed-Term Contract of 6-12 months]",
+   "url": "https://www.jobup.ch/fr/emplois/detail/d59dc74e-4456-4fe9-87f8-d83cce1217b5/",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-19T18:54:51+00:00"
+  },
+  {
+   "id": "7620d4aeba21",
+   "company": "jobup.ch",
+   "title": "Intern Transfer Pricing - Tax & Legal",
+   "url": "https://www.jobup.ch/fr/emplois/detail/c00ad687-78eb-41ed-8120-f16e9b598d07/",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-19T18:54:51+00:00"
+  },
+  {
+   "id": "c247f52b1228",
+   "company": "jobup.ch",
+   "title": "Intern Transfer Pricing - Tax & Legal",
+   "url": "https://www.jobup.ch/fr/emplois/detail/2baf802b-f5d1-4212-bdef-9687c754fd11/",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-19T18:54:51+00:00"
+  },
+  {
+   "id": "334b5cea17e7",
+   "company": "jobup.ch",
+   "title": "Pricing-Specialist / Speditionsfachfrau 80 - 100% (m/w/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/8f78d79a-a039-48d1-9b5c-a8bf20e30025/",
+   "reason": "expérience demandée ≥ 3 ans « onskaufmann oder vergleichbare qualifikation mehrjahrige berufserfahrung auf mind »",
+   "at": "2026-11-19T18:54:49+00:00"
+  },
+  {
+   "id": "3d428f5c42d7",
+   "company": "jobup.ch",
+   "title": "Analyste développeur Java full stack et front-end senior - IT Distribution Marketing",
+   "url": "https://www.jobup.ch/fr/emplois/detail/736d50fa-ce28-4edb-968e-69950c3c0ab7/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-19T18:54:47+00:00"
+  },
+  {
+   "id": "eea91fb889d9",
+   "company": "jobup.ch",
+   "title": "Senior Data Manager Client Lifecycle Management (m/w/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/1b30a066-3f21-4878-84cf-13421dcad2aa/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-19T18:54:47+00:00"
+  },
+  {
+   "id": "f574d13eacab",
+   "company": "jobup.ch",
+   "title": "Business Developer (m/w/d) / Product Management Business Analyst (m/w/d) – International Leadership Program MOVE",
+   "url": "https://www.jobup.ch/fr/emplois/detail/b8db7c22-d8fa-45ec-9ea9-503801716d97/",
+   "reason": "expérience demandée ≥ 3 ans « responsabilite d'equipes ou de projets apres 3 ans. competences diplome per »",
+   "at": "2026-11-19T18:54:47+00:00"
+  },
+  {
+   "id": "32dbe40601c4",
+   "company": "jobup.ch",
+   "title": "Contract & Pricing Manager Europe 6 months Interim",
+   "url": "https://www.jobup.ch/fr/emplois/detail/066c4f89-cf9a-4edb-800f-cd67d5f56d71/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-19T18:54:47+00:00"
+  },
+  {
+   "id": "9a133ae2ead0",
+   "company": "jobup.ch",
+   "title": "Pricing Manager:in 80-100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/e63c4021-1d08-4e98-8aeb-e6eaf043fb42/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-19T18:54:47+00:00"
+  },
+  {
+   "id": "1c7af8fb9d21",
+   "company": "jobs.ch",
+   "title": "Pricing analyst [maternity cover]",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/5a04762b-50c0-414f-aae0-bcdab3f5ac06/",
+   "reason": "expérience demandée ≥ 3 ans « olides avec les clients. competences minimum 3 ans d'experience en finance »",
+   "at": "2026-11-19T18:54:21+00:00"
+  },
+  {
+   "id": "26c049e97c69",
+   "company": "jobs.ch",
+   "title": "Operational Pricing Manager 80 - 100% (f/m/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/15f0351a-4564-4efc-aa2c-14ad1c47cbb6/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-19T18:54:21+00:00"
+  },
+  {
+   "id": "32d05568212d",
+   "company": "jobs.ch",
+   "title": "Senior Group Insurance Pricing & Underwriting Specialist 80-100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/b4608e9b-66e3-45b1-a9ce-6cb0c6e8ec11/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-19T18:54:21+00:00"
+  },
+  {
+   "id": "25a2f54c5908",
+   "company": "jobs.ch",
+   "title": "Strategic Pricing - Product Management Intern 100% (f/m/d) - [Fixed-Term Contract of 6-12 months]",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/d59dc74e-4456-4fe9-87f8-d83cce1217b5/",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-19T18:54:21+00:00"
+  },
+  {
+   "id": "9a8100f6ef7a",
+   "company": "jobs.ch",
+   "title": "Senior Business Analyst – Pricing & Modelling",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/f50ea194-d31e-4e39-b1d6-7b56df3cdf74/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-19T18:54:21+00:00"
+  },
+  {
+   "id": "4e98047dcdff",
+   "company": "jobs.ch",
+   "title": "Senior Actuarial Analyst/Pricing Actuary",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/0ea7b4d5-862f-410a-b0e7-4d7a655d95ec/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-19T18:54:21+00:00"
+  },
+  {
+   "id": "0059e1b8dc46",
+   "company": "jobs.ch",
+   "title": "Intern Transfer Pricing - Tax & Legal",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/2baf802b-f5d1-4212-bdef-9687c754fd11/",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-19T18:54:21+00:00"
+  },
+  {
+   "id": "377d2b32bd8c",
+   "company": "jobs.ch",
+   "title": "Werkstudent AI Engineering (m/w/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/beeb52f8-03cc-4dd4-b001-5cf7f547c55f/",
+   "reason": "titre exclu (werkstudent)",
+   "at": "2026-11-19T18:54:21+00:00"
+  },
+  {
+   "id": "7e4e4972632f",
+   "company": "jobs.ch",
+   "title": "Pricing Analyst / Specialist (m/f/x)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/3a7e2435-b998-4971-a223-2a82d059f2c3/",
+   "reason": "allemand exigé « nglais et avez une bonne connaissance de l'allemand et du francais notr »",
+   "at": "2026-11-19T18:54:19+00:00"
+  },
+  {
+   "id": "e95094d76d40",
+   "company": "jobs.ch",
+   "title": "Product Data Manager (m/w/d), 50-60%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/ff79aa76-180c-43f7-839a-2f4f4c6c2e30/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-19T18:54:17+00:00"
+  },
+  {
+   "id": "edee9fda99f0",
+   "company": "jobs.ch",
+   "title": "Analyste développeur Java full stack et front-end senior - IT Distribution Marketing",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/736d50fa-ce28-4edb-968e-69950c3c0ab7/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-19T18:54:17+00:00"
+  },
+  {
+   "id": "e15d2f9ca567",
+   "company": "jobs.ch",
+   "title": "Product Lead Pricing",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/d24d784f-9225-4324-9053-98a732328a43/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-19T18:54:17+00:00"
+  },
+  {
+   "id": "307b8ebe72fb",
+   "company": "jobs.ch",
+   "title": "PRICING MANAGER:IN 80-100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/a72f39fb-5dc4-4dbe-ba35-b1a61c695605/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-19T18:54:17+00:00"
+  },
+  {
+   "id": "ed2e117bce21",
+   "company": "jobs.ch",
+   "title": "Transfer Pricing Manager (m/w/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/90776ae8-584c-4ab5-a409-8f797e7db39d/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-19T18:54:17+00:00"
+  },
+  {
+   "id": "5fa1eb85a341",
+   "company": "jobs.ch",
+   "title": "Operational Pricing Manager 80 - 100% (f/m/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/91668da9-8bf9-4a69-b173-4e347a806d2e/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-19T18:54:17+00:00"
+  },
+  {
+   "id": "58cf69856f61",
+   "company": "jobs.ch",
+   "title": "Kalkulator / Pricing Manager Technik (TGM)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/af8e0495-5939-4e1a-acaa-84b068a98081/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-19T18:54:17+00:00"
+  },
+  {
+   "id": "314f03a295b3",
+   "company": "jobs.ch",
+   "title": "Kalkulator / Pricing Manager Reinigung (IGM)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/8535f5f9-b826-497c-8a2c-bdf69e1b1f53/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-19T18:54:17+00:00"
+  },
+  {
+   "id": "694e68d31ee5",
+   "company": "jobs.ch",
+   "title": "Junior Tax & Transfer Pricing Manager (m/w/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/3b31a3b5-d0f1-41e1-aa68-c63645bd079e/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-19T18:54:17+00:00"
+  },
+  {
+   "id": "344a3613e362",
+   "company": "jobs.ch",
+   "title": "Intern Transfer Pricing - Tax & Legal",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/c00ad687-78eb-41ed-8120-f16e9b598d07/",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-19T18:54:17+00:00"
+  },
+  {
+   "id": "8c1128a832f5",
+   "company": "jobs.ch",
+   "title": "Pricing Manager:in 80-100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/e63c4021-1d08-4e98-8aeb-e6eaf043fb42/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-19T18:54:17+00:00"
+  },
+  {
+   "id": "9fb49bb48f07",
+   "company": "jobs.ch",
+   "title": "Pricing & Calculation Manager:in",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/b1a17c0a-21ee-4366-a1a5-fe0977f6c993/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-19T18:54:17+00:00"
+  },
+  {
+   "id": "ad439549136e",
+   "company": "HelloWork (Transavia, RATP, ADP)",
+   "title": "Responsable de Transformation Data - IA I2p-Data H/F RATP",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84379232.html",
+   "reason": "expérience demandée ≥ 8 ans « erique, data ou ia.vous justifiez d'au moins 8 ans d'experience sur un post »",
+   "at": "2026-11-19T18:53:43+00:00"
+  },
+  {
+   "id": "c74903a35805",
+   "company": "HelloWork (Transavia, RATP, ADP)",
+   "title": "Lead Tech IA Dsi - Fab H/F RATP",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83204268.html",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-19T18:53:43+00:00"
+  },
+  {
+   "id": "e36c2f5779db",
+   "company": "HelloWork (Transavia, RATP, ADP)",
+   "title": "Lead Data Scientist I2p - Ce Data H/F RATP",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84379229.html",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-19T18:53:41+00:00"
+  },
+  {
+   "id": "8a6420d96ebc",
+   "company": "HelloWork",
+   "title": "Ingénieur Système Hpc - IA Linux H/F Onera",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85676480.html",
+   "reason": "expérience demandée ≥ 4 ans « etences et une experience professionnelle de 4 ans minimums sur des environ »",
+   "at": "2026-11-19T18:53:32+00:00"
+  },
+  {
+   "id": "d2ca991afe36",
+   "company": "HelloWork",
+   "title": "Chef de Projet - Pricing - Taux de Change H/F Nexton",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84762474.html",
+   "reason": "expérience demandée ≥ 5 ans « rties prenantes. le profil recherche minimum 5 ans d'experience en gestion »",
+   "at": "2026-11-19T18:53:31+00:00"
+  },
+  {
+   "id": "5263d9ad7bbe",
+   "company": "HelloWork",
+   "title": "Senior Data Scientist ai H/F Inetum",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85706455.html",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-19T18:53:31+00:00"
+  },
+  {
+   "id": "4da9adbcd3f8",
+   "company": "HelloWork",
+   "title": "Développeur C# - IT Quant Pricing Pre Trade + Api Sophis H/F Nexton",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83161473.html",
+   "reason": "expérience demandée ≥ 5 ans « nieur, tu justifies d'une solide experience (5 a 6 ans) sur le role d'it quant »",
+   "at": "2026-11-19T18:53:29+00:00"
+  },
+  {
+   "id": "0c267b7e2fc5",
+   "company": "HelloWork",
+   "title": "Paris Analyste Pricing CDI H/F MARIONNAUD LAFAYETTE",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85124727.html",
+   "reason": "expérience demandée ≥ 3 ans « ntrole de gestion). vous disposez minimum de 3 ans d'experience a un poste »",
+   "at": "2026-11-19T18:53:28+00:00"
+  },
+  {
+   "id": "caa60cf089f1",
+   "company": "HelloWork",
+   "title": "Business Analyst Front Office - Finance de Marché Orchestrade H/F Team.is",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85043833.html",
+   "reason": "expérience demandée ≥ 8 ans « nce / ingenierie financierevous justifiez de 8 ans d'experience minimum en »",
+   "at": "2026-11-19T18:53:23+00:00"
+  },
+  {
+   "id": "c535840f3fe7",
+   "company": "HelloWork",
+   "title": "Architecte Data - IA - Services Financiers H/F Scalian",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84643222.html",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-19T18:53:23+00:00"
+  },
+  {
+   "id": "e5a5cd38e27d",
+   "company": "HelloWork",
+   "title": "Analyst Pricing Aérien Import - Export H/F Epitech",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84440723.html",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « Bac +2 Services aux Entreprises Exp. 3 ans min. »",
+   "at": "2026-11-19T18:53:22+00:00"
+  },
+  {
+   "id": "e808006342e4",
+   "company": "HelloWork",
+   "title": "Responsable Pricing H/F GROUPE SAINT-GOBAIN",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84816060.html",
+   "reason": "expérience demandée ≥ 3 ans « poste est-il fait pour vous ? fort(e) d'une experience confirmee sur des fonctions pricin »",
+   "at": "2026-11-19T18:53:20+00:00"
+  },
+  {
+   "id": "70ce690a71fb",
+   "company": "HelloWork",
+   "title": "Pricing Aérien Import - Export H/F Epitech",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84649500.html",
+   "reason": "expérience demandée ≥ 3 ans « ommerce internationale. vous justifiez d'une experience confirmee sur un poste d'agent de »",
+   "at": "2026-11-19T18:53:18+00:00"
+  },
+  {
+   "id": "b26fd6246d4d",
+   "company": "HelloWork",
+   "title": "Chargé de Mission Pricing H/F Manpower France",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85393687.html",
+   "reason": "expérience demandée ≥ 5 ans « alent. - experience significative d'au moins 5 ans dans le domaine du prici »",
+   "at": "2026-11-19T18:53:17+00:00"
+  },
+  {
+   "id": "06dc02ed4976",
+   "company": "HelloWork",
+   "title": "Manager Pricing Boissons H/F Carrefour",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84737831.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-19T18:53:00+00:00"
+  },
+  {
+   "id": "9a301ab9619a",
+   "company": "HelloWork",
+   "title": "Strategy & Pricing Manager H/F Safran",
+   "url": "https://www.hellowork.com/fr-fr/emplois/79161211.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-19T18:53:00+00:00"
+  },
+  {
+   "id": "80d5603fb860",
+   "company": "HelloWork",
+   "title": "Architectural Trades Pricing Specialist M - F H/F Bouygues Construction",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84627654.html",
+   "reason": "expérience demandée ≥ 8 ans « t university qualification and have at least 8 years of experience in cost es »",
+   "at": "2026-11-19T18:53:00+00:00"
+  },
+  {
+   "id": "78fb3bd70c4a",
+   "company": "HelloWork",
+   "title": "Responsable Pricing et Fidélité H/F LOGISTA RETAIL",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83862498.html",
+   "reason": "expérience demandée ≥ 5 ans (lu par l'IA) « Exp. 5 à 10 ans »",
+   "at": "2026-11-19T18:52:48+00:00"
+  },
+  {
+   "id": "e414bacde34a",
+   "company": "HelloWork",
+   "title": "Pricing - Tender Specialist - Transport Maritime & Aérien - Roissy en France 95 - CDI H/F XR Groupe",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85344107.html",
+   "reason": "expérience demandée ≥ 3 ans « e ou supply chain. - experience confirmee de 3 a 5 ans minimum en pricing, tend »",
+   "at": "2026-11-19T18:52:46+00:00"
+  },
+  {
+   "id": "b39dfa279f2f",
+   "company": "HelloWork",
+   "title": "Support Pricing Groupe & Négotiation H/F Radiall",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84692978.html",
+   "reason": "expérience demandée ≥ 3 ans « r vos atoutsde formation superieure avec une solide experience en pricing et negociatio »",
+   "at": "2026-11-19T18:52:44+00:00"
+  },
+  {
+   "id": "8dce126cd8ab",
+   "company": "HelloWork",
+   "title": "Senior Pricing Actuary Data Modelling H/F AXA Partners",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84665185.html",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-19T18:52:44+00:00"
+  },
+  {
+   "id": "708caeb22388",
+   "company": "HelloWork",
+   "title": "CDD - Analyste Pricing H/F Groupement Mousquetaires",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85551852.html",
+   "reason": "expérience demandée ≥ 3 ans « ce reussie sur un poste similaire d'au moins 3 ans.vous maitrisez parfaitem »",
+   "at": "2026-11-19T18:52:43+00:00"
+  },
+  {
+   "id": "47fbf98ac94e",
+   "company": "HelloWork",
+   "title": "Pricing Manager Job H/F Arkema",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84254042.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-19T18:52:43+00:00"
+  },
+  {
+   "id": "2e78b89c34db",
+   "company": "HelloWork",
+   "title": "V.I.E Spécialiste Pricing et Stratégie - Brésil H/F Carrefour",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84871840.html",
+   "reason": "titre exclu (VIE)",
+   "at": "2026-11-19T18:52:42+00:00"
+  },
+  {
+   "id": "077ba47a74b6",
+   "company": "HelloWork",
+   "title": "Responsable Pricing H/F Arkema",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84254172.html",
+   "reason": "expérience demandée ≥ 5 ans « ) justifie d'une experience significative de 5 a 8 ans minimum dans les domaine »",
+   "at": "2026-11-19T18:52:32+00:00"
+  },
+  {
+   "id": "4f73f0a2477b",
+   "company": "HelloWork",
+   "title": "Pricing Manager H/F Alliance Healthcare Recrutement",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82122702.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-19T18:52:32+00:00"
+  },
+  {
+   "id": "76d07da585b3",
+   "company": "HelloWork",
+   "title": "Responsable Pricing - Analyste Pricing - Expert Salesforce H/F GROUPE INTUIS",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83235058.html",
+   "reason": "titre exclu (expert)",
+   "at": "2026-11-19T18:52:32+00:00"
+  },
+  {
+   "id": "164c31759f8e",
+   "company": "HelloWork",
+   "title": "Spécialiste Pricing Epicerie H/F Carrefour",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84737681.html",
+   "reason": "expérience non précisée (ni sur la fiche, ni par l'IA)",
+   "at": "2026-11-19T18:52:31+00:00"
+  },
+  {
+   "id": "a23c0431529d",
+   "company": "HelloWork",
+   "title": "Spécialiste Pricing Pls H/F Carrefour",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84737522.html",
+   "reason": "expérience non précisée (ni sur la fiche, ni par l'IA)",
+   "at": "2026-11-19T18:52:30+00:00"
+  },
+  {
+   "id": "d45d1a8bb02c",
+   "company": "HelloWork",
+   "title": "Chef de Projet IT Pricing H/F Brico Dépôt",
+   "url": "https://www.hellowork.com/fr-fr/emplois/77713665.html",
+   "reason": "expérience demandée ≥ 6 ans « t (agile et cycle en v) - vous avez au moins 6 ans d'experience en gestion »",
+   "at": "2026-11-19T18:52:17+00:00"
+  },
+  {
+   "id": "dba95be27077",
+   "company": "HelloWork",
+   "title": "Chargé ADV - Pricing Maritime - CDI H/F XR Groupe",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83252169.html",
+   "reason": "expérience demandée ≥ 5 ans « che vous justifiez imperativement d'au moins 5 annees d'experience sur une fon »",
+   "at": "2026-11-19T18:52:16+00:00"
+  },
+  {
+   "id": "5b03db800046",
+   "company": "HelloWork",
+   "title": "Analytics Engineer Pricing H/F Segula Technologies",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85629042.html",
+   "reason": "expérience demandée ≥ 5 ans (lu par l'IA) « Exp. 5 ans min. »",
+   "at": "2026-11-19T18:52:15+00:00"
+  },
+  {
+   "id": "35c558bc8d6c",
+   "company": "HelloWork",
+   "title": "Manager Deal Structuring And Pricing H/F Accenture France",
+   "url": "https://www.hellowork.com/fr-fr/emplois/70303252.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-19T18:52:15+00:00"
+  },
+  {
+   "id": "6db875267bca",
+   "company": "HelloWork",
+   "title": "Pricing Analyst H/F Electra",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84024640.html",
+   "reason": "expérience demandée ≥ 3 ans « and set up the controls that prevent them - 3/5 years of experience in pricing »",
+   "at": "2026-11-19T18:52:09+00:00"
+  },
+  {
+   "id": "2e2de514dce7",
+   "company": "HelloWork",
+   "title": "Salesforce Manager - Sales Data Analyst H/F EasyVista",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84240391.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-19T18:52:09+00:00"
+  },
+  {
+   "id": "29fff814869c",
+   "company": "HelloWork",
+   "title": "Data Scientist - CDI H/F Disneyland Paris",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85675008.html",
+   "reason": "expérience demandée ≥ 3 ans « ustifiez d'une experience professionnelle de 3 ans minimum en data sciences »",
+   "at": "2026-11-19T18:52:08+00:00"
+  },
+  {
+   "id": "000feb8b8060",
+   "company": "HelloWork",
+   "title": "Analyste Pricing & Revenue Résidences Gérées H/F Alenta",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85264570.html",
+   "reason": "expérience demandée ≥ 5 ans « s locales. profil : profil bac +2/3 minimum. 5 a 7 ans d'experience en revenue »",
+   "at": "2026-11-19T18:52:07+00:00"
+  },
+  {
+   "id": "098d418e3398",
+   "company": "HelloWork",
+   "title": "Business Analyst Technico-Fonctionnel Senior - Distribution Hôtelière - Api H/F Citech",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85672843.html",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-19T18:52:07+00:00"
+  },
+  {
+   "id": "4495c9dd65c1",
+   "company": "HelloWork",
+   "title": "Lead Data Scientist H/F UpClear",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84959706.html",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-19T18:52:07+00:00"
+  },
+  {
+   "id": "4ac4fb89f127",
+   "company": "HelloWork",
+   "title": "Analyste Revenue Management Centres Commerciaux H/F Alenta",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85264564.html",
+   "reason": "expérience demandée ≥ 5 ans « mum (commerce, gestion, statistiques, data). 5 a 7 ans d'experience en revenue »",
+   "at": "2026-11-19T18:52:05+00:00"
+  },
+  {
+   "id": "ff87afe76f1a",
+   "company": "HelloWork",
+   "title": "Analyst Pricing Confirmé - CDI H/F METRO France",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82031076.html",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-19T18:52:05+00:00"
+  },
+  {
+   "id": "af58eac3fbe7",
+   "company": "HelloWork",
+   "title": "Pricing Manager - Revenue Growth Manager H/F AIR FRANCE",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85527191.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-19T18:52:05+00:00"
+  },
+  {
+   "id": "88e18ba24321",
+   "company": "HelloWork",
+   "title": "Coordinateur d'Équipes de Pratique Data Recherche Opérationnelle & IA H/F AIR FRANCE",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85527235.html",
+   "reason": "titre exclu (coordinateur)",
+   "at": "2026-11-19T18:52:05+00:00"
+  },
+  {
+   "id": "1d4f2732bb2a",
+   "company": "HelloWork",
+   "title": "Responsable Revenue Management & Commercial H/F Aquantis",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83159857.html",
+   "reason": "expérience demandée ≥ 3 ans « nts. le profil recherche vous disposez d'une experience solide en revenue management et »",
+   "at": "2026-11-19T18:52:04+00:00"
+  },
+  {
+   "id": "1cac9f7d5c45",
+   "company": "HelloWork",
+   "title": "CDI Chargé·e de Revenue Management H/F BWH HOTEL GROUP",
+   "url": "https://www.hellowork.com/fr-fr/emplois/79533860.html",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « Expérience en RM idéalement »",
+   "at": "2026-11-19T18:51:51+00:00"
+  },
+  {
+   "id": "7d281d3c2f0a",
+   "company": "HelloWork",
+   "title": "Responsable Revenue Management H/F WOVEN PARTNERS",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83578148.html",
+   "reason": "expérience demandée ≥ 3 ans « tellerie, commerce, gestion ou equivalent. - experience significative en revenue management av »",
+   "at": "2026-11-19T18:51:51+00:00"
+  },
+  {
+   "id": "506fc4d6fc1b",
+   "company": "HelloWork",
+   "title": "Analyste Revenue Management Local Confirmé H/F JCDecaux",
+   "url": "https://www.hellowork.com/fr-fr/emplois/80296017.html",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-19T18:51:51+00:00"
+  },
+  {
+   "id": "52c83a233f58",
+   "company": "HelloWork",
+   "title": "Directeur Revenue Management & Pricing Opérationnel H/F Clariane",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84535151.html",
+   "reason": "titre exclu (directeur)",
+   "at": "2026-11-19T18:51:49+00:00"
+  },
   {
    "id": "b274f162a431",
    "company": "jobup.ch",
