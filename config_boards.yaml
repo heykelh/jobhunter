@@ -38,6 +38,16 @@ companies:
     pages: [1, 2]
     link_pattern: /fr-fr/emplois/\d+\.html
 
+  - name: HelloWork (Transavia, RATP, ADP)
+    source: html                # toutes les annonces de ces employeurs sur HelloWork (Transavia France n'a pas de site
+    aggregator: true            #  carrière public : ses offres passent par les sites d'emploi) ; mots-clés vérifiés sur l'intitulé
+    urls:
+      - https://www.hellowork.com/fr-fr/emploi/recherche.html?k=Transavia&c=CDI&c=CDD&p={page}
+      - https://www.hellowork.com/fr-fr/emploi/recherche.html?k=RATP&l=%C3%8Ele-de-France&c=CDI&c=CDD&p={page}
+      - https://www.hellowork.com/fr-fr/emploi/recherche.html?k=Groupe+ADP&c=CDI&c=CDD&p={page}
+    pages: [1, 2]
+    link_pattern: /fr-fr/emplois/\d+\.html
+
   # ─── Suisse ──────────────────────────────────────────────────────
   - name: jobs.ch
     source: html                # n°1 en Suisse

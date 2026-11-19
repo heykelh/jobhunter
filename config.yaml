@@ -18,6 +18,8 @@ keywords:
   - analyst
   - analyste
   - product builder
+  - revenue management
+  - pricing
   - ai
   - ia
 
@@ -177,6 +179,30 @@ companies:
       - https://careers.ratpdev.com/fr/annonces
     link_pattern: /annonce/\d+
 
+  - name: RATP
+    source: html                # site recrutement ratp.fr (chargé en JavaScript) : offres dont l'intitulé contient un mot-clé
+    render: true                # ajouté le 19/11/2026, à confirmer par un passage en mode diagnose
+    scroll: 4
+    wait_ms: 6000
+    urls:
+      - https://www.ratp.fr/recrutement/offres
+
+  - name: Groupe ADP
+    source: html                # site Talentsoft groupeadp-recrute.talent-soft.com : toutes les offres, 15 par page
+    urls:
+      - https://groupeadp-recrute.talent-soft.com/offre-de-emploi/liste-toutes-offres.aspx?page={page}&LCID=1036
+    pages: [1, 2, 3, 4, 5, 6]
+    link_pattern: /offre-de-emploi/emploi-.+_\d+\.aspx
+    default_location: ile-de-france
+
+  - name: Disneyland Paris
+    source: json                # moteur de recherche disneycareers.com (même plateforme que VINCI), limité à la France
+    urls:
+      - https://www.disneycareers.com/fr/search-jobs/results?ActiveFacetID=0&CurrentPage={page}&RecordsPerPage=50&Distance=50&RadiusUnitType=0&Keywords={q}&Location=France&LocationPath=3017382&LocationType=2&ShowRadius=False&IsPagination=False&SearchResultsModuleName=Search+Results&SearchFiltersModuleName=Search+Filters&SortCriteria=0&SortDirection=0&SearchType=5
+    pages: [1]
+    link_pattern: /(?:job|emploi)/[^/]+/[^/]+/391/\d+   # 391 = Disneyland Paris (les autres filiales Disney sont ignorées)
+    default_location: ile-de-france
+
   - name: Alstom
     source: html                # site SuccessFactors, offres les plus récentes d'abord
     urls:
@@ -201,6 +227,16 @@ companies:
       - https://jobs.sbb.ch/v2/offene-stellen?term={q}
     link_pattern: /offene-stellen/[^/?]+/[0-9a-f-]{36}
     default_location: suisse
+
+  # ─── Tourisme / hôtellerie ───────────────────────────────────────
+  - name: Accor
+    source: html                # site careers.accor.com (siège à Issy-les-Moulineaux + hôtels du monde entier ;
+    render: true                #  le filtre de lieu ne garde que l'Île-de-France, la Suisse et le Luxembourg)
+    wait_ms: 6000
+    urls:
+      - https://careers.accor.com/global/en/search-results?keywords={q}&from={offset}&s=1
+    offsets: [0, 10, 20]
+    link_pattern: /job/.+-jid-\d+
 
   # ─── Banque et assurance ─────────────────────────────────────────
   - name: Société Générale
