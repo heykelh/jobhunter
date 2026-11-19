@@ -1,6 +1,278 @@
 {
- "updated": "2026-11-19T13:09:24+00:00",
+ "updated": "2026-11-19T19:12:55+00:00",
  "items": [
+  {
+   "id": "5419f5bad7bd",
+   "company": "ING",
+   "title": "Data Engineer",
+   "url": "https://careers.ing.com/en/job/warsaw/data-engineer/3121/46588332992",
+   "reason": "lieu hors zones",
+   "at": "2026-11-19T19:12:55+00:00"
+  },
+  {
+   "id": "a14eeffb63c4",
+   "company": "ING",
+   "title": "CJE Global Pricing Engine in Tribe CI (w/m/d)",
+   "url": "https://careers.ing.com/en/job/frankfurt-am-main/cje-global-pricing-engine-in-tribe-ci-w-m-d/3121/45859095808",
+   "reason": "lieu hors zones",
+   "at": "2026-11-19T19:12:53+00:00"
+  },
+  {
+   "id": "02a004e4b6a8",
+   "company": "ING",
+   "title": "Solution Architect | IPA Pricing Engines & Post-processing @ING Hubs Romania",
+   "url": "https://careers.ing.com/en/job/bucharest/solution-architect-ipa-pricing-engines-and-post-processing-ing-hubs-romania/3121/42837111168",
+   "reason": "titre exclu (architect)",
+   "at": "2026-11-19T19:12:53+00:00"
+  },
+  {
+   "id": "c807fa9ec145",
+   "company": "ING",
+   "title": "Domain Architect | Financial Markets & Group Treasury – Pricing Area@ING Hubs Romania",
+   "url": "https://careers.ing.com/en/job/bucharest/domain-architect-financial-markets-and-group-treasury-pricing-area-ing-hubs-romania/3121/43278541696",
+   "reason": "titre exclu (architect)",
+   "at": "2026-11-19T19:12:53+00:00"
+  },
+  {
+   "id": "0af8f3c3dd9c",
+   "company": "ING",
+   "title": "Pricing Data Scientist | Analytics @ ING Bank",
+   "url": "https://careers.ing.com/en/job/bucharest/pricing-data-scientist-analytics-ing-bank/3121/35779014912",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-19T19:12:52+00:00"
+  },
+  {
+   "id": "b2dc06138049",
+   "company": "ING",
+   "title": "Customer Journey Expert / Business Analyst – PSS Cash and Intraday Liquidity Management",
+   "url": "https://careers.ing.com/en/job/amsterdam/customer-journey-expert-business-analyst-pss-cash-and-intraday-liquidity-management/3121/46757977664",
+   "reason": "titre exclu (expert)",
+   "at": "2026-11-19T19:12:52+00:00"
+  },
+  {
+   "id": "f3fa4c8af028",
+   "company": "ING",
+   "title": "Senior Pricing Marketeer for Savings",
+   "url": "https://careers.ing.com/en/job/amsterdam/senior-pricing-marketeer-for-savings/3121/46757977984",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-19T19:12:52+00:00"
+  },
+  {
+   "id": "836af0ec8553",
+   "company": "ING",
+   "title": "Data Quality Expert",
+   "url": "https://careers.ing.com/en/job/makati-city/data-quality-expert/3121/47050049472",
+   "reason": "titre exclu (expert)",
+   "at": "2026-11-19T19:12:50+00:00"
+  },
+  {
+   "id": "c7ac5c449200",
+   "company": "UBS",
+   "title": "Credit Principal Algo Data Lead",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=346471",
+   "reason": "titre exclu (principal)",
+   "at": "2026-11-19T19:11:49+00:00"
+  },
+  {
+   "id": "ebbcd8288b98",
+   "company": "Orange",
+   "title": "Analyst - Operations",
+   "url": "https://orange.jobs/fr/fr/job/ICM-589345/Analyst-Operations",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-19T19:09:45+00:00"
+  },
+  {
+   "id": "c90713fab0bd",
+   "company": "Orange",
+   "title": "Directeur(trice) du Portfolio Digital, Data et IA (DDIA) H/F",
+   "url": "https://orange.jobs/fr/fr/job/IOS-2026-2807/Directeur-trice-du-Portfolio-Digital-Data-et-IA-DDIA-H-F",
+   "reason": "titre exclu (directeur)",
+   "at": "2026-11-19T19:09:45+00:00"
+  },
+  {
+   "id": "94c0feab27d5",
+   "company": "Orange",
+   "title": "Analyst - Operations",
+   "url": "https://orange.jobs/fr/fr/job/ICM-589348/Analyst-Operations",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-19T19:09:44+00:00"
+  },
+  {
+   "id": "69a2a6325500",
+   "company": "Orange",
+   "title": "Cyber Security Analyst",
+   "url": "https://orange.jobs/fr/fr/job/ICM-589203/Cyber-Security-Analyst",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-19T19:09:42+00:00"
+  },
+  {
+   "id": "61885fa3ac8f",
+   "company": "AXA",
+   "title": "Lead Data Engineer - Nouvelles variables (F/H)",
+   "url": "https://careers.axa.com/jobs/28944",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-19T19:04:01+00:00"
+  },
+  {
+   "id": "3074e18aabd9",
+   "company": "AXA",
+   "title": "Manager Data Science (F/H)",
+   "url": "https://careers.axa.com/jobs/28541",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-19T19:04:01+00:00"
+  },
+  {
+   "id": "d678cd5983f5",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - IT Quant Equity Pricing F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-it-quant-equity-pricing-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-19T19:02:50+00:00"
+  },
+  {
+   "id": "0c6f0359af6c",
+   "company": "BPCE",
+   "title": "IA Engineer (H/F)",
+   "url": "https://recrutement.bpce.fr/job/ia-engineer-h-f",
+   "reason": "lieu hors zones",
+   "at": "2026-11-19T19:02:40+00:00"
+  },
+  {
+   "id": "8cb97414b334",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Data Analyst - Valuation Risk Equity Correlation F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-data-analyst-valuation-risk-equity-correlation-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-19T19:02:40+00:00"
+  },
+  {
+   "id": "cc9850454c77",
+   "company": "BPCE",
+   "title": "Analyste Conseil Crédit Immobilier (F/H)",
+   "url": "https://recrutement.bpce.fr/job/analyste-conseil-credit-immobilier-f-h",
+   "reason": "expérience demandée ≥ 3 ans « et competences requises vous justifiez d'une experience significative sur la gestion des clien »",
+   "at": "2026-11-19T19:02:32+00:00"
+  },
+  {
+   "id": "37d79249d276",
+   "company": "Crédit Agricole",
+   "title": "BUSINESS ANALYST – ANALYSTE MOA H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170477-4-business-analyst--analyste-moa-hf-reference--2026-107376--/",
+   "reason": "expérience demandée ≥ 6 ans « nban et d'un framework d'agilite a l'echelle niveau d'experience minimum 6 - 10 ans competences recherchees co »",
+   "at": "2026-11-19T18:59:53+00:00"
+  },
+  {
+   "id": "cfbdb0b74983",
+   "company": "Crédit Agricole",
+   "title": "Analyste Risques PME senior - Fondation Grameen Crédit Agricole H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170470-122-analyste-risques-pme-senior---fondation-grameen-credit-agricole-hf-reference--2026-117614--/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-19T18:59:53+00:00"
+  },
+  {
+   "id": "049f17eb35ac",
+   "company": "Crédit Agricole",
+   "title": "STAGE - Data Management Office H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-137-stage---data-management-office-hf-reference--2026-117604--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-19T18:59:53+00:00"
+  },
+  {
+   "id": "aa90dbb36a84",
+   "company": "Crédit Agricole",
+   "title": "Business Analyst H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170477-4-business-analyst-hf-reference--2026-111787--/",
+   "reason": "expérience demandée ≥ 11 ans « et risque de contrepartie sont obligatoires niveau d'experience minimum 11 ans et plus competences recherchees »",
+   "at": "2026-11-19T18:59:51+00:00"
+  },
+  {
+   "id": "2cba4a9665aa",
+   "company": "Crédit Agricole",
+   "title": "Business Analyst- Filière Counterparty Risk H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170477-4-business-analyst--filiere-counterparty-risk-hf-reference--2026-116197--/",
+   "reason": "expérience demandée ≥ 6 ans « expertise sur les taches ba est necessaire. niveau d'experience minimum 6 - 10 ans competences recherchees com »",
+   "at": "2026-11-19T18:59:50+00:00"
+  },
+  {
+   "id": "525ec0c3799a",
+   "company": "Société Générale",
+   "title": "Développeur C# / .NET – Pricing X‑ONE",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/developpeur-c-net-pricing-x-one-26000DZM-fr",
+   "reason": "lieu hors zones",
+   "at": "2026-11-19T18:58:54+00:00"
+  },
+  {
+   "id": "275b0d01cb28",
+   "company": "Société Générale",
+   "title": "Développeur C# / .NET – Pricing X‑ONE",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/developpeur-c-net-pricing-x-one-26000DZK-fr",
+   "reason": "lieu hors zones",
+   "at": "2026-11-19T18:58:53+00:00"
+  },
+  {
+   "id": "c2f2e596c385",
+   "company": "Société Générale",
+   "title": "Assistant Analyste Risque de Crédit",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/assistant-analyste-risque-de-credit-26000MJP-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-19T18:58:52+00:00"
+  },
+  {
+   "id": "c62d0d1399a5",
+   "company": "Alstom",
+   "title": "Transfer Pricing Corporate Manager",
+   "url": "https://jobsearch.alstom.com/job/Saint-Ouen-Transfer-Pricing-Corporate-Manager-J/1446395333/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-19T18:52:36+00:00"
+  },
+  {
+   "id": "a30a9500828c",
+   "company": "Disneyland Paris",
+   "title": "Data Governance Engineer - CDD - F/H/NB",
+   "url": "https://www.disneycareers.com/fr/emploi/montevrain/data-governance-engineer-cdd-f-h-nb/391/103426470800",
+   "reason": "expérience non précisée (ni sur la fiche, ni par l'IA)",
+   "at": "2026-11-19T18:52:13+00:00"
+  },
+  {
+   "id": "5259c96d7c0a",
+   "company": "Disneyland Paris",
+   "title": "Stage – Assistant(e) Analyste Douane (F/H/NB)",
+   "url": "https://www.disneycareers.com/fr/emploi/marne-la-vallee/stage-assistant-e-analyste-douane-f-h-nb/391/102197162912",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-19T18:52:13+00:00"
+  },
+  {
+   "id": "23c47d0dd9a9",
+   "company": "Disneyland Paris",
+   "title": "Data Scientist F/H/NB - CDI",
+   "url": "https://www.disneycareers.com/fr/emploi/montevrain/data-scientist-f-h-nb-cdi/391/103469670224",
+   "reason": "expérience non précisée (ni sur la fiche, ni par l'IA)",
+   "at": "2026-11-19T18:52:03+00:00"
+  },
+  {
+   "id": "eb53eb5cfd41",
+   "company": "Groupe ADP",
+   "title": "Stage – Analyste Participations France - F/H",
+   "url": "https://groupeadp-recrute.talent-soft.com/offre-de-emploi/emploi-stage-analyste-participations-france-f-h_4978.aspx",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-19T18:51:49+00:00"
+  },
+  {
+   "id": "79b887b1f729",
+   "company": "Groupe ADP",
+   "title": "Stage – Prévisions de trafic Data/IA - F/H",
+   "url": "https://groupeadp-recrute.talent-soft.com/offre-de-emploi/emploi-stage-previsions-de-trafic-data-ia-f-h_4946.aspx",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-19T18:51:49+00:00"
+  },
+  {
+   "id": "20a53d8c5922",
+   "company": "Air France",
+   "title": "Analyste de la performance opérationnelle F/H",
+   "url": "https://recrutement.airfrance.com/Pages/Offre/detailoffre.aspx?idOffre=25864&idOrigine=502&offerReference=2026-25864",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-19T18:51:17+00:00"
+  },
   {
    "id": "7494daa4b157",
    "company": "Julius Baer",

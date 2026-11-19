@@ -1,6 +1,41 @@
 {
- "updated": "2026-11-19T13:09:24+00:00",
+ "updated": "2026-11-19T19:12:55+00:00",
  "jobs": [
+  {
+   "id": "48d982185dc9",
+   "company": "BPCE",
+   "title": "Business Analyst Technique - DSI LEASE - F/H",
+   "url": "https://recrutement.bpce.fr/job/business-analyst-technique-dsi-lease-f-h",
+   "via": null,
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "2 ans min. · junior",
+   "junior": true,
+   "published": "2026-11-18",
+   "seed": false,
+   "rv": 5,
+   "match": {
+    "score": 70,
+    "have": [
+     "python",
+     "sql",
+     "power bi",
+     "conformité",
+     "recette",
+     "spécifications",
+     "business analyst"
+    ],
+    "missing": [
+     "agile",
+     "jira",
+     "oracle"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-19T19:02:50+00:00",
+   "last_seen": "2026-11-19T19:02:50+00:00"
+  },
   {
    "id": "4ba618558c99",
    "company": "Société Générale",
@@ -112,7 +147,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-14T14:43:41+00:00",
-   "last_seen": "2026-11-19T13:05:34+00:00"
+   "last_seen": "2026-11-19T19:08:12+00:00"
   },
   {
    "id": "61d98dcfaf61",
@@ -148,7 +183,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-09T21:36:35+00:00",
-   "last_seen": "2026-11-19T13:00:35+00:00"
+   "last_seen": "2026-11-19T19:02:50+00:00"
   },
   {
    "id": "78f165b6b23d",
@@ -176,7 +211,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-06T19:25:23+00:00",
-   "last_seen": "2026-11-19T13:05:17+00:00"
+   "last_seen": "2026-11-19T19:07:49+00:00"
   },
   {
    "id": "f236ed3489bf",
@@ -275,7 +310,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-04T19:46:49+00:00",
-   "last_seen": "2026-11-19T13:00:35+00:00"
+   "last_seen": "2026-11-19T19:02:50+00:00"
   },
   {
    "id": "664b3cc7e12f",
@@ -558,7 +593,7 @@
    "rv": 5,
    "match": null,
    "first_seen": "2026-10-28T10:34:45+00:00",
-   "last_seen": "2026-11-19T13:00:35+00:00"
+   "last_seen": "2026-11-19T19:02:50+00:00"
   },
   {
    "id": "76bc150e9b01",
@@ -587,7 +622,7 @@
     "missing": []
    },
    "first_seen": "2026-10-28T10:34:36+00:00",
-   "last_seen": "2026-11-19T13:00:35+00:00"
+   "last_seen": "2026-11-19T19:02:50+00:00"
   },
   {
    "id": "4e80bd2f5d16",
@@ -647,7 +682,7 @@
     ]
    },
    "first_seen": "2026-10-27T20:42:04+00:00",
-   "last_seen": "2026-11-19T13:00:35+00:00"
+   "last_seen": "2026-11-19T19:02:50+00:00"
   },
   {
    "id": "9e6271b7f744",
@@ -845,7 +880,7 @@
    "published": "2026-09-22",
    "seed": false,
    "first_seen": "2026-10-20T13:59:55+00:00",
-   "last_seen": "2026-11-19T13:00:35+00:00",
+   "last_seen": "2026-11-19T19:02:50+00:00",
    "date_tries": 1,
    "match": {
     "score": 75,
@@ -904,7 +939,7 @@
    "published": "2026-10-08",
    "seed": false,
    "first_seen": "2026-10-20T13:58:07+00:00",
-   "last_seen": "2026-11-19T13:00:35+00:00",
+   "last_seen": "2026-11-19T19:02:50+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 5,
@@ -933,7 +968,7 @@
    "published": "2026-10-14",
    "seed": false,
    "first_seen": "2026-10-20T13:57:31+00:00",
-   "last_seen": "2026-11-19T13:00:35+00:00",
+   "last_seen": "2026-11-19T19:02:50+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 5,
@@ -966,7 +1001,7 @@
    "published": "2026-10-18",
    "seed": false,
    "first_seen": "2026-10-20T13:56:45+00:00",
-   "last_seen": "2026-11-19T13:00:35+00:00",
+   "last_seen": "2026-11-19T19:02:50+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 5,
