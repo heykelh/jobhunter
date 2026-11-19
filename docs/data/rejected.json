@@ -1,6 +1,38 @@
 {
- "updated": "2026-11-19T12:31:36+00:00",
+ "updated": "2026-11-19T13:09:24+00:00",
  "items": [
+  {
+   "id": "7494daa4b157",
+   "company": "Julius Baer",
+   "title": "Junior Data Scientist - Banking Operations 80% - 100% (f/m/d)",
+   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Zurich/Data-Scientist---Banking-Operations-80----100---f-m-d-_r-20373-1",
+   "reason": "contrat non précisé",
+   "at": "2026-11-19T13:07:42+00:00"
+  },
+  {
+   "id": "4160def79881",
+   "company": "Julius Baer",
+   "title": "Senior Data Analyst - Trading and Markets 100% (f/m/d) - (Contract through our external payroll partner, immediate start for 12 months, possible extension)",
+   "url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External/job/Zurich/Senior-Data-Analyst---Trading-and-Markets-100---f-m-d-----Contract-through-our-external-payroll-partner--immediate-start-for-12-months--possible-extension-_r-20517-1",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-19T13:07:42+00:00"
+  },
+  {
+   "id": "b6c3648af84c",
+   "company": "Orange",
+   "title": "Business Operations Analyst",
+   "url": "https://orange.jobs/fr/fr/job/ICM-589442/Business-Operations-Analyst",
+   "reason": "lieu hors zones",
+   "at": "2026-11-19T13:06:46+00:00"
+  },
+  {
+   "id": "bea0dfcfb153",
+   "company": "Orange",
+   "title": "Commercial Data Analyst",
+   "url": "https://orange.jobs/fr/fr/job/ERC-569820-20136094/Commercial-Data-Analyst",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-19T13:06:44+00:00"
+  },
   {
    "id": "f33d114289dc",
    "company": "ING",
