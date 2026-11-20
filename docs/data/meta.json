@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T02:55:14+00:00",
+ "updated": "2026-11-20T13:20:40+00:00",
  "keywords": [
   "data",
   "analyst",
@@ -48,11 +48,10 @@
   "ING"
  ],
  "ai": {
-  "ok": 2,
-  "errors": 1,
-  "last_error": "HTTP 404 (llama-3.1-8b-instant) : {\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}} ",
+  "ok": 17,
+  "errors": 0,
+  "last_error": "",
   "model": "openai/gpt-oss-120b",
-  "waits": 1,
-  "at": "2026-11-19T19:12:55+00:00"
+  "at": "2026-11-20T13:20:40+00:00"
  }
 }

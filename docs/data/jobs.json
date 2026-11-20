@@ -1,6 +1,39 @@
 {
- "updated": "2026-11-20T02:55:14+00:00",
+ "updated": "2026-11-20T13:20:40+00:00",
  "jobs": [
+  {
+   "id": "74e549b5f579",
+   "company": "TotalEnergies",
+   "title": "CDD - Post-doctorant World Models JEPA & Forecast IA (H/F/X)",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/CDD-Post-doctorant-World-Models-JEPA-Forecast-IA-H-F-X/86446",
+   "via": null,
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDD",
+   "experience": "débutant accepté",
+   "junior": false,
+   "published": "2026-11-20",
+   "seed": false,
+   "rv": 6,
+   "match": {
+    "score": 50,
+    "have": [
+     "python",
+     "machine learning",
+     "intelligence artificielle",
+     "anglais"
+    ],
+    "missing": [
+     "modélisation",
+     "prévision",
+     "tensorflow",
+     "pytorch"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-20T13:03:59+00:00",
+   "last_seen": "2026-11-20T13:03:59+00:00"
+  },
   {
    "id": "48d982185dc9",
    "company": "BPCE",
@@ -14,7 +47,7 @@
    "junior": true,
    "published": "2026-11-18",
    "seed": false,
-   "rv": 5,
+   "rv": 6,
    "match": {
     "score": 70,
     "have": [
@@ -34,7 +67,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-19T19:02:50+00:00",
-   "last_seen": "2026-11-20T02:45:24+00:00"
+   "last_seen": "2026-11-20T12:57:19+00:00"
   },
   {
    "id": "4ba618558c99",
@@ -135,7 +168,7 @@
    "junior": true,
    "published": "2026-11-06",
    "seed": false,
-   "rv": 5,
+   "rv": 6,
    "match": {
     "score": 100,
     "have": [
@@ -147,7 +180,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-14T14:43:41+00:00",
-   "last_seen": "2026-11-20T02:50:44+00:00"
+   "last_seen": "2026-11-20T13:04:27+00:00"
   },
   {
    "id": "61d98dcfaf61",
@@ -162,7 +195,7 @@
    "junior": true,
    "published": "2026-11-08",
    "seed": false,
-   "rv": 5,
+   "rv": 6,
    "match": {
     "score": 73,
     "have": [
@@ -183,7 +216,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-09T21:36:35+00:00",
-   "last_seen": "2026-11-20T02:45:24+00:00"
+   "last_seen": "2026-11-20T12:57:29+00:00"
   },
   {
    "id": "78f165b6b23d",
@@ -198,7 +231,7 @@
    "junior": false,
    "published": "2026-11-06",
    "seed": false,
-   "rv": 5,
+   "rv": 6,
    "match": {
     "score": 67,
     "have": [
@@ -211,7 +244,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-06T19:25:23+00:00",
-   "last_seen": "2026-11-20T02:50:21+00:00"
+   "last_seen": "2026-11-20T13:03:59+00:00"
   },
   {
    "id": "f236ed3489bf",
@@ -294,7 +327,7 @@
    "junior": true,
    "published": "2026-11-03",
    "seed": false,
-   "rv": 5,
+   "rv": 6,
    "match": {
     "score": 83,
     "have": [
@@ -310,7 +343,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-04T19:46:49+00:00",
-   "last_seen": "2026-11-20T02:45:24+00:00"
+   "last_seen": "2026-11-20T12:57:47+00:00"
   },
   {
    "id": "664b3cc7e12f",
@@ -507,7 +540,7 @@
    "ghost": {
     "score": 2,
     "reasons": [
-     "en ligne depuis 104 jours (depuis le 07/08/2026)"
+     "en ligne depuis 105 jours (depuis le 07/08/2026)"
     ],
     "reposts": 0,
     "since": "2026-08-07"
@@ -590,10 +623,10 @@
    "junior": true,
    "published": "2026-10-28",
    "seed": false,
-   "rv": 5,
+   "rv": 6,
    "match": null,
    "first_seen": "2026-10-28T10:34:45+00:00",
-   "last_seen": "2026-11-20T02:45:24+00:00"
+   "last_seen": "2026-11-20T12:58:04+00:00"
   },
   {
    "id": "76bc150e9b01",
@@ -607,7 +640,7 @@
    "junior": true,
    "published": "2026-10-28",
    "seed": false,
-   "rv": 5,
+   "rv": 6,
    "match": {
     "score": 100,
     "have": [
@@ -622,7 +655,7 @@
     "missing": []
    },
    "first_seen": "2026-10-28T10:34:36+00:00",
-   "last_seen": "2026-11-20T02:45:24+00:00"
+   "last_seen": "2026-11-20T12:57:56+00:00"
   },
   {
    "id": "4e80bd2f5d16",
@@ -667,7 +700,7 @@
    "junior": true,
    "published": "2026-10-27",
    "seed": false,
-   "rv": 5,
+   "rv": 6,
    "match": {
     "score": 67,
     "have": [
@@ -682,7 +715,7 @@
     ]
    },
    "first_seen": "2026-10-27T20:42:04+00:00",
-   "last_seen": "2026-11-20T02:45:24+00:00"
+   "last_seen": "2026-11-20T12:58:14+00:00"
   },
   {
    "id": "9e6271b7f744",
@@ -713,9 +746,9 @@
    "published": "2026-07-30",
    "seed": true,
    "first_seen": "2026-10-23T23:34:56+00:00",
-   "last_seen": "2026-11-20T02:51:07+00:00",
+   "last_seen": "2026-11-20T13:16:10+00:00",
    "country": "France",
-   "rv": 5,
+   "rv": 6,
    "match": {
     "score": 86,
     "have": [
@@ -880,7 +913,7 @@
    "published": "2026-09-22",
    "seed": false,
    "first_seen": "2026-10-20T13:59:55+00:00",
-   "last_seen": "2026-11-20T02:45:24+00:00",
+   "last_seen": "2026-11-20T12:58:40+00:00",
    "date_tries": 1,
    "match": {
     "score": 75,
@@ -898,7 +931,7 @@
     ]
    },
    "country": "France",
-   "rv": 5
+   "rv": 6
   },
   {
    "id": "ff9740f1b7eb",
@@ -939,10 +972,10 @@
    "published": "2026-10-08",
    "seed": false,
    "first_seen": "2026-10-20T13:58:07+00:00",
-   "last_seen": "2026-11-20T02:45:24+00:00",
+   "last_seen": "2026-11-20T12:58:32+00:00",
    "date_tries": 1,
    "country": "France",
-   "rv": 5,
+   "rv": 6,
    "match": {
     "score": 40,
     "have": [
@@ -968,10 +1001,10 @@
    "published": "2026-10-14",
    "seed": false,
    "first_seen": "2026-10-20T13:57:31+00:00",
-   "last_seen": "2026-11-20T02:45:24+00:00",
+   "last_seen": "2026-11-20T12:58:22+00:00",
    "date_tries": 1,
    "country": "France",
-   "rv": 5,
+   "rv": 6,
    "match": {
     "score": 78,
     "have": [
@@ -1001,10 +1034,10 @@
    "published": "2026-10-18",
    "seed": false,
    "first_seen": "2026-10-20T13:56:45+00:00",
-   "last_seen": "2026-11-20T02:45:24+00:00",
+   "last_seen": "2026-11-20T12:57:38+00:00",
    "date_tries": 1,
    "country": "France",
-   "rv": 5,
+   "rv": 6,
    "match": {
     "score": 75,
     "have": [
