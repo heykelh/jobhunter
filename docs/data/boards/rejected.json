@@ -1,6 +1,374 @@
 {
- "updated": "2026-11-19T22:42:55+00:00",
+ "updated": "2026-11-20T14:08:45+00:00",
  "items": [
+  {
+   "id": "1a61a006ce2e",
+   "company": "jobup.ch",
+   "title": "Chargé de projets IA junior - Finance & Claude - Try & Hire à 100 %",
+   "url": "https://www.jobup.ch/fr/emplois/detail/031bab46-17a8-4112-9c91-fd1bcbe9bcf9/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-20T14:08:24+00:00"
+  },
+  {
+   "id": "48830bf9a627",
+   "company": "jobup.ch",
+   "title": "Spécialiste Digital, IA & Excellence Opérationnelle (80-100%)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/b2c8590c-b60a-4d0f-a3a1-7c34196b01d3/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-20T14:08:23+00:00"
+  },
+  {
+   "id": "c1bc96c13aac",
+   "company": "jobup.ch",
+   "title": "Responsable de la formation et du perfectionnement en IA",
+   "url": "https://www.jobup.ch/fr/emplois/detail/3e3949c6-cabc-41a4-912c-46a553b151a8/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-20T14:08:22+00:00"
+  },
+  {
+   "id": "b274f162a431",
+   "company": "jobup.ch",
+   "title": "Sales Specialist - AI, Data & Analytics",
+   "url": "https://www.jobup.ch/fr/emplois/detail/4a822a5c-0e88-4f30-a825-c88824f40999/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-20T14:08:20+00:00"
+  },
+  {
+   "id": "da996b407d53",
+   "company": "jobup.ch",
+   "title": "AI Solution Engineer",
+   "url": "https://www.jobup.ch/fr/emplois/detail/c388c259-5516-46fa-b036-1ec07dd36380/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-20T14:08:18+00:00"
+  },
+  {
+   "id": "d50f65c2916b",
+   "company": "jobup.ch",
+   "title": "AI Engineer – Production Applications and Systems",
+   "url": "https://www.jobup.ch/fr/emplois/detail/74298fa4-91ee-4323-9147-477aae2b69df/",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « Une expérience pratique dans plusieurs des domaines suivants : Développement ou maintenance de services backen » (retirée)",
+   "at": "2026-11-20T14:08:17+00:00"
+  },
+  {
+   "id": "23cfcd390920",
+   "company": "jobup.ch",
+   "title": "Business Analyst Rechnungswegsen, Buchungssystem & Kontoabschluss (all) 100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/58f918b0-ec6a-46a4-a76c-cc7cac280dbf/",
+   "reason": "expérience demandée ≥ 3 ans « banque ou une qualification comparable avec plusieurs annees d'experience professionnelle et un sa »",
+   "at": "2026-11-20T14:08:07+00:00"
+  },
+  {
+   "id": "8b3683d2a1e9",
+   "company": "jobup.ch",
+   "title": "Business Analyst w/m/d 80 - 100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/8a502868-6291-4ec2-b58e-83135523239f/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-20T14:08:05+00:00"
+  },
+  {
+   "id": "12538bf7f27f",
+   "company": "jobup.ch",
+   "title": "Service Support Analyst - Fixnet",
+   "url": "https://www.jobup.ch/fr/emplois/detail/3c0b4c37-8551-4dcb-87dd-524203599b9d/",
+   "reason": "expérience non précisée (ni sur la fiche, ni par l'IA)",
+   "at": "2026-11-20T14:08:04+00:00"
+  },
+  {
+   "id": "dab274884e02",
+   "company": "jobup.ch",
+   "title": "Business Analyst - Secteur Luxe",
+   "url": "https://www.jobup.ch/fr/emplois/detail/deb2574e-410a-44fe-b76a-c1b6a613dde6/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-20T14:08:00+00:00"
+  },
+  {
+   "id": "07fc25e5dfb8",
+   "company": "jobup.ch",
+   "title": "SQL Server & Data Engineer (m/w/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/a6960cdb-1349-45b5-894d-208a8ef49264/",
+   "reason": "annonce en allemand (titre)",
+   "at": "2026-11-20T14:07:59+00:00"
+  },
+  {
+   "id": "9bad597205b0",
+   "company": "jobup.ch",
+   "title": "Data Licensing Specialist (100%)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/8dc1ca4f-bc21-43d0-94db-ac0e51a05b81/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-20T14:07:57+00:00"
+  },
+  {
+   "id": "b020038637ad",
+   "company": "jobs.ch",
+   "title": "Chargé de projets IA junior - Finance & Claude - Try & Hire à 100 %",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/031bab46-17a8-4112-9c91-fd1bcbe9bcf9/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-20T14:07:31+00:00"
+  },
+  {
+   "id": "57c740546630",
+   "company": "jobs.ch",
+   "title": "Spécialiste Digital, IA & Excellence Opérationnelle (80-100%)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/b2c8590c-b60a-4d0f-a3a1-7c34196b01d3/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-20T14:07:30+00:00"
+  },
+  {
+   "id": "abd3993d7e81",
+   "company": "jobs.ch",
+   "title": "AI Governance Manager 80%-100% (w/m/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/91027e08-3ad0-497f-84d5-f8d489f1a4eb/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-20T14:07:29+00:00"
+  },
+  {
+   "id": "63a36e40700b",
+   "company": "jobs.ch",
+   "title": "AI-Plattformengineer",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/a0704f13-84a3-473d-a509-7647570f9ab1/",
+   "reason": "expérience demandée ≥ 5 ans « fachrichtung: computer science / informatik berufserfahrung: mindestens 5 jahre ai engineering / dev ops mehrj »",
+   "at": "2026-11-20T14:07:23+00:00"
+  },
+  {
+   "id": "3f6a5220116c",
+   "company": "jobs.ch",
+   "title": "Data Quality Manager (AI)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/8fa14fc9-baab-43d1-adc3-96567fa26c74/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-20T14:07:23+00:00"
+  },
+  {
+   "id": "7d5c61936f3b",
+   "company": "jobs.ch",
+   "title": "Senior Non-Motor Pricing Actuary (m/f/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/607e3e42-7b80-4074-b640-73b71dab7787/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-20T14:07:21+00:00"
+  },
+  {
+   "id": "dce4e2465c1d",
+   "company": "jobs.ch",
+   "title": "Produktmanager Pricing (w/m/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/3724d3a1-7a34-4f44-a4ab-25dc2169d9c5/",
+   "reason": "expérience demandée ≥ 3 ans « pportunitaten ihr arbeitsort bern ihr profil mehrjahrige berufserfahrung im preis »",
+   "at": "2026-11-20T14:07:21+00:00"
+  },
+  {
+   "id": "2443215c837b",
+   "company": "jobs.ch",
+   "title": "Service Support Analyst - Fixnet",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/b61f0f82-a767-4e4d-b3a8-02285f118dd0/",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « Expérience préalable dans un rôle de support technique, opérations de service ou dépannage similaire. »",
+   "at": "2026-11-20T14:07:19+00:00"
+  },
+  {
+   "id": "14dc3c815442",
+   "company": "jobs.ch",
+   "title": "Service Support Analyst - Fixnet",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/dce51db8-094c-44a3-ab04-6a3401d63341/",
+   "reason": "expérience non précisée (ni sur la fiche, ni par l'IA)",
+   "at": "2026-11-20T14:07:14+00:00"
+  },
+  {
+   "id": "8b74b0a497e5",
+   "company": "jobs.ch",
+   "title": "Business Analyst & Lead Key User RMP (m/w/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/f09b3ab6-4a95-4dc7-b8b2-98852a3dc952/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-20T14:07:14+00:00"
+  },
+  {
+   "id": "a5aaf4ca85ce",
+   "company": "jobs.ch",
+   "title": "ERP Application Specialist / Business Analyst 80–100 %",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/9baf71ae-8d45-4a1d-94b3-85811df05e92/",
+   "reason": "allemand exigé « utilisateurs tres bonnes connaissances en allemand et anglais techniqu »",
+   "at": "2026-11-20T14:07:12+00:00"
+  },
+  {
+   "id": "46236f477edb",
+   "company": "jobs.ch",
+   "title": "Manufacturing Process Analyst (m/f/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/525b3054-5772-4e75-bfce-f02c47806089/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-20T14:07:10+00:00"
+  },
+  {
+   "id": "617d1a05755e",
+   "company": "jobs.ch",
+   "title": "Product Change & Master Data Manager 80 - 100 % (w/m/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/79cdf28c-9cf2-49a6-b829-9735d233a6c4/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-20T14:07:08+00:00"
+  },
+  {
+   "id": "1a4761260b85",
+   "company": "jobs.ch",
+   "title": "Data Analyst (H/F)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/235cdc27-4b96-41ba-86e4-aea29398a0e0/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-20T14:07:07+00:00"
+  },
+  {
+   "id": "29207cff33c3",
+   "company": "HelloWork",
+   "title": "Analyste Risques Opérationnels - Risques Cryptoactifs H/F Boursorama",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85007533.html",
+   "reason": "expérience demandée ≥ 3 ans « perieure bac +4/5, vous justifiez d'au moins 3 ans d'experience dans le dom »",
+   "at": "2026-11-20T14:06:31+00:00"
+  },
+  {
+   "id": "d71ae1b2b6e9",
+   "company": "HelloWork",
+   "title": "Key Account Manager ai Mod H/F Team.is",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85715505.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-20T14:06:31+00:00"
+  },
+  {
+   "id": "64602dcb281c",
+   "company": "HelloWork",
+   "title": "Engineering Manager - ai Modernisation H/F Team.is",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85715263.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-20T14:06:31+00:00"
+  },
+  {
+   "id": "ca34f4f269db",
+   "company": "HelloWork",
+   "title": "Lead IA Engineer H/F Team.is",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85715241.html",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-20T14:06:31+00:00"
+  },
+  {
+   "id": "04c7ad95966d",
+   "company": "HelloWork",
+   "title": "Tech Lead IA Coding H/F Team.is",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85715383.html",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-20T14:06:31+00:00"
+  },
+  {
+   "id": "698d0a391c08",
+   "company": "HelloWork",
+   "title": "Manager IA Genérative & Transformation - Practice IA & Smartops - Idf H/F Sopra Steria",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82518287.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-20T14:06:31+00:00"
+  },
+  {
+   "id": "164c31759f8e",
+   "company": "HelloWork",
+   "title": "Spécialiste Pricing Epicerie H/F Carrefour",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84737681.html",
+   "reason": "expérience non précisée (ni sur la fiche, ni par l'IA)",
+   "at": "2026-11-20T14:06:29+00:00"
+  },
+  {
+   "id": "23c94b3791e4",
+   "company": "HelloWork",
+   "title": "Business Analyst Front Office - Finance de Marché Orchestrade H/F Team.is",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85715484.html",
+   "reason": "expérience demandée ≥ 8 ans « nce / ingenierie financierevous justifiez de 8 ans d'experience minimum en »",
+   "at": "2026-11-20T14:06:29+00:00"
+  },
+  {
+   "id": "b29b1a7b36e5",
+   "company": "HelloWork",
+   "title": "Quant Analyst Intern H/F Euronext",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85607482.html",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-20T14:06:15+00:00"
+  },
+  {
+   "id": "c5bdabb95870",
+   "company": "HelloWork",
+   "title": "Senior Product Manager - Agentic ai & Platform Monetization H/F Arrow ECS",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83700756.html",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-20T14:06:15+00:00"
+  },
+  {
+   "id": "a23c0431529d",
+   "company": "HelloWork",
+   "title": "Spécialiste Pricing Pls H/F Carrefour",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84737522.html",
+   "reason": "expérience non précisée (ni sur la fiche, ni par l'IA)",
+   "at": "2026-11-20T14:06:15+00:00"
+  },
+  {
+   "id": "abbce3364e9a",
+   "company": "HelloWork",
+   "title": "Analyste Soc H/F Equans France",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83548973.html",
+   "reason": "expérience demandée ≥ 6 ans « ation bac +5, et vous avez une experience de plus de 5 ans dans le domaine de la cy »",
+   "at": "2026-11-20T14:06:02+00:00"
+  },
+  {
+   "id": "07a25cd4e69a",
+   "company": "HelloWork",
+   "title": "Analyste Offres Commerciales - Moteurs & Services H/F Safran",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82478642.html",
+   "reason": "expérience non précisée (ni sur la fiche, ni par l'IA)",
+   "at": "2026-11-20T14:05:51+00:00"
+  },
+  {
+   "id": "b25b112af140",
+   "company": "HelloWork",
+   "title": "Business Analyst Senior H/F SCC",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85712847.html",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-20T14:05:49+00:00"
+  },
+  {
+   "id": "d4dd65e7f640",
+   "company": "HelloWork",
+   "title": "Business Analyst Assurance H/F Talan",
+   "url": "https://www.hellowork.com/fr-fr/emplois/53104690.html",
+   "reason": "expérience demandée ≥ 5 ans « rience moa et de gestion de projet (au moins 5 ans),bonnes connaissances en »",
+   "at": "2026-11-20T14:05:49+00:00"
+  },
+  {
+   "id": "646a121549c2",
+   "company": "HelloWork",
+   "title": "Architecte Data - Pôle de Spécialité Data - Ile-De-France H/F Sopra Steria",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84503005.html",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-20T14:05:22+00:00"
+  },
+  {
+   "id": "2ae6a426e01b",
+   "company": "HelloWork",
+   "title": "Key Account Manager - Data - IA H/F Team.is",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85715328.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-20T14:05:07+00:00"
+  },
+  {
+   "id": "4541934550b7",
+   "company": "HelloWork",
+   "title": "Data Plateform Manager H/F ATHEIA",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85727971.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-20T14:04:53+00:00"
+  },
+  {
+   "id": "8923e30827d8",
+   "company": "HelloWork",
+   "title": "Data Officer H/F Ministère des armées - Civils de la Défense",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83275312.html",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « Expérience sur des postes avec niveau de responsabilité similaire. » (retirée)",
+   "at": "2026-11-20T14:04:47+00:00"
+  },
+  {
+   "id": "639d2da3906d",
+   "company": "HelloWork",
+   "title": "Data Engineer - Plateformes Data & Data Integration H/F Bureau des Talents",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85286341.html",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « * Expérience en Data Engineering et développement de pipelines de données. » (retirée)",
+   "at": "2026-11-20T14:04:46+00:00"
+  },
   {
    "id": "733887bce52f",
    "company": "jobs.ch",
@@ -24,14 +392,6 @@
    "url": "https://www.hellowork.com/fr-fr/emplois/85706710.html",
    "reason": "expérience demandée ≥ 3 ans « r ou equivalent universitaire, vous avez une experience significative acquise dans le domaine »",
    "at": "2026-11-19T22:41:32+00:00"
-  },
-  {
-   "id": "55ea30fa42ac",
-   "company": "jobup.ch",
-   "title": "Quantitative Analyst, Risk and Product Control Interface 100% (f/m/d)",
-   "url": "https://www.jobup.ch/fr/emplois/detail/27f6871b-c95c-48e0-af6f-a3668cec2d13/",
-   "reason": "contrat non précisé",
-   "at": "2026-11-19T18:54:52+00:00"
   },
   {
    "id": "9739818307d0",
@@ -514,22 +874,6 @@
    "at": "2026-11-19T18:52:32+00:00"
   },
   {
-   "id": "164c31759f8e",
-   "company": "HelloWork",
-   "title": "Spécialiste Pricing Epicerie H/F Carrefour",
-   "url": "https://www.hellowork.com/fr-fr/emplois/84737681.html",
-   "reason": "expérience non précisée (ni sur la fiche, ni par l'IA)",
-   "at": "2026-11-19T18:52:31+00:00"
-  },
-  {
-   "id": "a23c0431529d",
-   "company": "HelloWork",
-   "title": "Spécialiste Pricing Pls H/F Carrefour",
-   "url": "https://www.hellowork.com/fr-fr/emplois/84737522.html",
-   "reason": "expérience non précisée (ni sur la fiche, ni par l'IA)",
-   "at": "2026-11-19T18:52:30+00:00"
-  },
-  {
    "id": "d45d1a8bb02c",
    "company": "HelloWork",
    "title": "Chef de Projet IT Pricing H/F Brico Dépôt",
@@ -680,14 +1024,6 @@
    "url": "https://www.hellowork.com/fr-fr/emplois/84535151.html",
    "reason": "titre exclu (directeur)",
    "at": "2026-11-19T18:51:49+00:00"
-  },
-  {
-   "id": "b274f162a431",
-   "company": "jobup.ch",
-   "title": "Sales Specialist - AI, Data & Analytics",
-   "url": "https://www.jobup.ch/fr/emplois/detail/4a822a5c-0e88-4f30-a825-c88824f40999/",
-   "reason": "contrat non précisé",
-   "at": "2026-11-19T14:30:42+00:00"
   },
   {
    "id": "99381ba4ee76",
@@ -922,28 +1258,12 @@
    "at": "2026-11-19T14:29:33+00:00"
   },
   {
-   "id": "8b3683d2a1e9",
-   "company": "jobup.ch",
-   "title": "Business Analyst w/m/d 80 - 100%",
-   "url": "https://www.jobup.ch/fr/emplois/detail/8a502868-6291-4ec2-b58e-83135523239f/",
-   "reason": "contrat non précisé",
-   "at": "2026-11-18T22:45:11+00:00"
-  },
-  {
    "id": "957d18c64e3a",
    "company": "jobs.ch",
    "title": "AI Native Support Engineer (m/w/d) 80 - 100%",
    "url": "https://www.jobs.ch/fr/offres-emplois/detail/d878acb4-bc36-4010-8d43-33b4707befa1/",
    "reason": "annonce en allemand (titre)",
    "at": "2026-11-18T22:44:51+00:00"
-  },
-  {
-   "id": "82943d750515",
-   "company": "jobs.ch",
-   "title": "Technical Business Analyst",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/dd21cdf7-dc28-4c62-9426-1a8a5d035fed/",
-   "reason": "expérience non précisée (ni sur la fiche, ni par l'IA)",
-   "at": "2026-11-18T22:44:49+00:00"
   },
   {
    "id": "94b1494c9775",
@@ -1074,14 +1394,6 @@
    "at": "2026-11-18T14:07:16+00:00"
   },
   {
-   "id": "46236f477edb",
-   "company": "jobs.ch",
-   "title": "Manufacturing Process Analyst (m/f/d)",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/525b3054-5772-4e75-bfce-f02c47806089/",
-   "reason": "contrat non précisé",
-   "at": "2026-11-18T14:07:14+00:00"
-  },
-  {
    "id": "2b5253e0925c",
    "company": "jobs.ch",
    "title": "Data Platform Owner Databricks (a), 80-100%",
@@ -1122,14 +1434,6 @@
    "at": "2026-11-18T14:06:52+00:00"
   },
   {
-   "id": "ae0aed104277",
-   "company": "HelloWork",
-   "title": "Business Analyst Editique H/F Coexya",
-   "url": "https://www.hellowork.com/fr-fr/emplois/82355933.html",
-   "reason": "expérience non précisée (ni sur la fiche, ni par l'IA)",
-   "at": "2026-11-18T14:06:38+00:00"
-  },
-  {
    "id": "db9bb9496246",
    "company": "HelloWork",
    "title": "Business Analyst Editique H/F Talan",
@@ -1160,30 +1464,6 @@
    "url": "https://www.hellowork.com/fr-fr/emplois/85629402.html",
    "reason": "titre exclu (architecte)",
    "at": "2026-11-18T14:06:19+00:00"
-  },
-  {
-   "id": "1a61a006ce2e",
-   "company": "jobup.ch",
-   "title": "Chargé de projets IA junior - Finance & Claude - Try & Hire à 100 %",
-   "url": "https://www.jobup.ch/fr/emplois/detail/031bab46-17a8-4112-9c91-fd1bcbe9bcf9/",
-   "reason": "contrat non précisé",
-   "at": "2026-11-17T22:56:23+00:00"
-  },
-  {
-   "id": "b020038637ad",
-   "company": "jobs.ch",
-   "title": "Chargé de projets IA junior - Finance & Claude - Try & Hire à 100 %",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/031bab46-17a8-4112-9c91-fd1bcbe9bcf9/",
-   "reason": "contrat non précisé",
-   "at": "2026-11-17T22:56:04+00:00"
-  },
-  {
-   "id": "cd245f74c6e8",
-   "company": "jobs.ch",
-   "title": "Business Analyst (m,f,d) Reporting & Daten/PL/SQL",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/97fd0c99-da48-4dfa-bae9-d24ff17fede0/",
-   "reason": "contrat non précisé",
-   "at": "2026-11-17T22:56:02+00:00"
   },
   {
    "id": "b176adfa2818",
@@ -1250,14 +1530,6 @@
    "at": "2026-11-17T22:55:39+00:00"
   },
   {
-   "id": "e61134c23049",
-   "company": "jobup.ch",
-   "title": "Ingénieur Développement IA",
-   "url": "https://www.jobup.ch/fr/emplois/detail/b1ccfbff-011f-4d23-80a9-ba135d26448e/",
-   "reason": "contrat non précisé",
-   "at": "2026-11-17T14:31:09+00:00"
-  },
-  {
    "id": "9ad9ff248628",
    "company": "jobup.ch",
    "title": "Product Designer - Digital Platforms (Real Estate, CRM & AI) (f/m/d) | 80–100% | Hybrid Working Model | Zürich, Switzerland",
@@ -1290,22 +1562,6 @@
    "at": "2026-11-17T14:31:07+00:00"
   },
   {
-   "id": "9bad597205b0",
-   "company": "jobup.ch",
-   "title": "Data Licensing Specialist (100%)",
-   "url": "https://www.jobup.ch/fr/emplois/detail/8dc1ca4f-bc21-43d0-94db-ac0e51a05b81/",
-   "reason": "contrat non précisé",
-   "at": "2026-11-17T14:31:04+00:00"
-  },
-  {
-   "id": "58144b08b38a",
-   "company": "jobs.ch",
-   "title": "Ingénieur Développement IA",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/b1ccfbff-011f-4d23-80a9-ba135d26448e/",
-   "reason": "contrat non précisé",
-   "at": "2026-11-17T14:30:44+00:00"
-  },
-  {
    "id": "53bbb2c2d165",
    "company": "jobs.ch",
    "title": "AI Research Engineer, Reinforcement Learning & Large-Scale Model Training",
@@ -1336,14 +1592,6 @@
    "url": "https://www.jobs.ch/fr/offres-emplois/detail/bdc5781c-a6d9-40b7-ab88-55881227fb9a/",
    "reason": "expérience demandée ≥ 3 ans « vez apporter a ce poste vous avez idealement 3 a 6 ans d'experience en conseil »",
    "at": "2026-11-17T14:30:39+00:00"
-  },
-  {
-   "id": "86b59282eb20",
-   "company": "jobs.ch",
-   "title": "Manufacturing Process Analyst / Engineer",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/6697af98-62ea-42da-aec9-3901f9bc4261/",
-   "reason": "contrat non précisé",
-   "at": "2026-11-17T14:30:37+00:00"
   },
   {
    "id": "b940e52ebf01",
@@ -1394,14 +1642,6 @@
    "at": "2026-11-16T23:46:36+00:00"
   },
   {
-   "id": "c1bc96c13aac",
-   "company": "jobup.ch",
-   "title": "Responsable de la formation et du perfectionnement en IA",
-   "url": "https://www.jobup.ch/fr/emplois/detail/3e3949c6-cabc-41a4-912c-46a553b151a8/",
-   "reason": "contrat non précisé",
-   "at": "2026-11-16T23:46:34+00:00"
-  },
-  {
    "id": "d4c760d824c3",
    "company": "jobup.ch",
    "title": "Embedded Software Engineer / Consumer Electronics & Applied AI",
@@ -1416,14 +1656,6 @@
    "url": "https://www.jobup.ch/fr/emplois/detail/67eb2573-51a3-4d86-948e-f4e6c190801a/",
    "reason": "expérience demandée ≥ 3 ans « ques operationnels ou conseil, avec au moins 3 ans d'experience au sein d'u »",
    "at": "2026-11-16T23:46:31+00:00"
-  },
-  {
-   "id": "64b978de7862",
-   "company": "jobup.ch",
-   "title": "Data Analyst (H/F)",
-   "url": "https://www.jobup.ch/fr/emplois/detail/f7547e91-2bf0-483d-8f7f-4eb541f4d762/",
-   "reason": "contrat non précisé",
-   "at": "2026-11-16T23:46:27+00:00"
   },
   {
    "id": "1ce1851563fa",
@@ -1634,14 +1866,6 @@
    "at": "2026-11-16T13:43:12+00:00"
   },
   {
-   "id": "deae88f8d09b",
-   "company": "jobup.ch",
-   "title": "Data Ingénieur (Databricks) - F/M/X",
-   "url": "https://www.jobup.ch/fr/emplois/detail/a70559cb-c914-4f28-9a0d-7a3b9c0cc4f0/",
-   "reason": "contrat non précisé",
-   "at": "2026-11-16T09:34:14+00:00"
-  },
-  {
    "id": "0272912eb80d",
    "company": "jobup.ch",
    "title": "Data Engineer (Senior) (m/w/d)",
@@ -1656,14 +1880,6 @@
    "url": "https://www.jobs.ch/fr/offres-emplois/detail/f8bf125c-1e94-40c1-9a50-5702e277151e/",
    "reason": "annonce en allemand (titre)",
    "at": "2026-11-16T09:33:54+00:00"
-  },
-  {
-   "id": "3d1b6f5b3a30",
-   "company": "jobs.ch",
-   "title": "AI for Science Engineer",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/f2452c8f-e6ba-4328-8d5e-5685924a14e9/",
-   "reason": "contrat non précisé",
-   "at": "2026-11-16T09:33:52+00:00"
   },
   {
    "id": "9ec4472bf216",
@@ -1730,14 +1946,6 @@
    "at": "2026-11-16T09:33:45+00:00"
   },
   {
-   "id": "c00574f07f37",
-   "company": "HelloWork",
-   "title": "Consultant en Stratégie Data & IA H/F Accenture France",
-   "url": "https://www.hellowork.com/fr-fr/emplois/81618362.html",
-   "reason": "expérience non précisée (ni sur la fiche, ni par l'IA) (retirée)",
-   "at": "2026-11-16T09:33:22+00:00"
-  },
-  {
    "id": "064117b56d09",
    "company": "HelloWork",
    "title": "Lead ai - Llm Engineer H/F OKATIM",
@@ -1778,44 +1986,12 @@
    "at": "2026-11-16T09:32:21+00:00"
   },
   {
-   "id": "70981c839a11",
-   "company": "jobup.ch",
-   "title": "Quality Control Analyst",
-   "url": "https://www.jobup.ch/fr/emplois/detail/eee9a1bc-829a-47ad-a369-36b9dedee21a/",
-   "reason": "contrat non précisé",
-   "at": "2026-11-16T01:07:04+00:00"
-  },
-  {
-   "id": "a7b5288e722d",
-   "company": "jobs.ch",
-   "title": "Business Analyst & Consultant 80-100 %",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/2c087768-bd2a-4dc7-a1d0-24226c3e6951/",
-   "reason": "expérience non précisée (ni sur la fiche, ni par l'IA)",
-   "at": "2026-11-16T01:06:43+00:00"
-  },
-  {
-   "id": "1e2ece85d036",
-   "company": "jobs.ch",
-   "title": "Project & Data Coordination Specialist",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/bd89436d-d601-45f3-b662-a8c7c765a1fe/",
-   "reason": "expérience non précisée (ni sur la fiche, ni par l'IA)",
-   "at": "2026-11-16T01:06:42+00:00"
-  },
-  {
    "id": "419bcc161400",
    "company": "jobs.ch",
    "title": "Head of Data Governance (w/m/d) Teilzeit/Vollzeit",
    "url": "https://www.jobs.ch/fr/offres-emplois/detail/5c7c18d2-346c-4fe3-88d5-6098014aa289/",
    "reason": "titre exclu (head)",
    "at": "2026-11-16T01:06:42+00:00"
-  },
-  {
-   "id": "87163d853f1f",
-   "company": "jobs.ch",
-   "title": "Data & BI Specialist Qlik Cloud 80%",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/601c3554-6ead-4458-aec1-1bd5af57db30/",
-   "reason": "expérience non précisée (ni sur la fiche, ni par l'IA)",
-   "at": "2026-11-16T01:06:35+00:00"
   },
   {
    "id": "c2ac678cce25",
@@ -1888,102 +2064,6 @@
    "url": "https://www.hellowork.com/fr-fr/emplois/82108578.html",
    "reason": "expérience demandée ≥ 6 ans (lu par l'IA) « Bac +5 Services aux Entreprises Exp. 6 ans min. » (retirée)",
    "at": "2026-11-15T19:25:04+00:00"
-  },
-  {
-   "id": "a598dd04ac6b",
-   "company": "HelloWork",
-   "title": "Business Analyst IT H/F agap2 IT",
-   "url": "https://www.hellowork.com/fr-fr/emplois/76801826.html",
-   "reason": "expérience non précisée (ni sur la fiche, ni par l'IA)",
-   "at": "2026-11-15T19:24:19+00:00"
-  },
-  {
-   "id": "48830bf9a627",
-   "company": "jobup.ch",
-   "title": "Spécialiste Digital, IA & Excellence Opérationnelle (80-100%)",
-   "url": "https://www.jobup.ch/fr/emplois/detail/b2c8590c-b60a-4d0f-a3a1-7c34196b01d3/",
-   "reason": "contrat non précisé",
-   "at": "2026-11-15T13:47:15+00:00"
-  },
-  {
-   "id": "da996b407d53",
-   "company": "jobup.ch",
-   "title": "AI Solution Engineer",
-   "url": "https://www.jobup.ch/fr/emplois/detail/c388c259-5516-46fa-b036-1ec07dd36380/",
-   "reason": "contrat non précisé",
-   "at": "2026-11-15T13:47:13+00:00"
-  },
-  {
-   "id": "cf46f120bf80",
-   "company": "jobup.ch",
-   "title": "Business Analyst en Finance pour une société internationale !",
-   "url": "https://www.jobup.ch/fr/emplois/detail/572250d1-f2c0-4f0e-99a0-5ce986cec049/",
-   "reason": "contrat non précisé",
-   "at": "2026-11-15T13:46:48+00:00"
-  },
-  {
-   "id": "0f39d4513ed0",
-   "company": "jobup.ch",
-   "title": "Inventory & Planning Analyst - 9 month contract",
-   "url": "https://www.jobup.ch/fr/emplois/detail/def8f191-a54c-4e06-a055-410241b2eb58/",
-   "reason": "contrat non précisé",
-   "at": "2026-11-15T13:46:44+00:00"
-  },
-  {
-   "id": "dab274884e02",
-   "company": "jobup.ch",
-   "title": "Business Analyst - Secteur Luxe",
-   "url": "https://www.jobup.ch/fr/emplois/detail/deb2574e-410a-44fe-b76a-c1b6a613dde6/",
-   "reason": "contrat non précisé",
-   "at": "2026-11-15T13:46:43+00:00"
-  },
-  {
-   "id": "f70e9aa6063b",
-   "company": "jobup.ch",
-   "title": "Data Engineer 100%",
-   "url": "https://www.jobup.ch/fr/emplois/detail/6d675b40-b98b-4260-870c-b8d84921d082/",
-   "reason": "contrat non précisé",
-   "at": "2026-11-15T13:46:41+00:00"
-  },
-  {
-   "id": "d7e4516fff26",
-   "company": "jobup.ch",
-   "title": "Mission étudiante à 40% (H/F) - Data Cleaning, 2 mois",
-   "url": "https://www.jobup.ch/fr/emplois/detail/54a81ee7-2668-47dd-9a88-4e8f72eec1c5/",
-   "reason": "contrat non précisé",
-   "at": "2026-11-15T13:46:40+00:00"
-  },
-  {
-   "id": "ac3fa5a9187d",
-   "company": "jobup.ch",
-   "title": "Data Engineer Junior (F/H) 100%",
-   "url": "https://www.jobup.ch/fr/emplois/detail/962acd07-cb00-4fbb-b87d-ee9ec2241361/",
-   "reason": "contrat non précisé",
-   "at": "2026-11-15T13:46:38+00:00"
-  },
-  {
-   "id": "57c740546630",
-   "company": "jobs.ch",
-   "title": "Spécialiste Digital, IA & Excellence Opérationnelle (80-100%)",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/b2c8590c-b60a-4d0f-a3a1-7c34196b01d3/",
-   "reason": "contrat non précisé",
-   "at": "2026-11-15T13:46:18+00:00"
-  },
-  {
-   "id": "5355c189c2c8",
-   "company": "jobs.ch",
-   "title": "Manufacturing Process Analyst / Engineer",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/69fea50f-6ad1-44c9-9eb6-d22d4f2c12f6/",
-   "reason": "contrat non précisé",
-   "at": "2026-11-15T13:45:58+00:00"
-  },
-  {
-   "id": "1a4761260b85",
-   "company": "jobs.ch",
-   "title": "Data Analyst (H/F)",
-   "url": "https://www.jobs.ch/fr/offres-emplois/detail/235cdc27-4b96-41ba-86e4-aea29398a0e0/",
-   "reason": "contrat non précisé",
-   "at": "2026-11-15T13:45:53+00:00"
   },
   {
    "id": "d1013f450539",
