@@ -1,6 +1,158 @@
 {
- "updated": "2026-11-20T14:08:45+00:00",
+ "updated": "2026-11-20T22:19:25+00:00",
  "items": [
+  {
+   "id": "8ae45cd5af02",
+   "company": "jobup.ch",
+   "title": "Assistant·e polyvalent·e – administration, gestion des ventes, logistique & IA (f/h) – [80–100 %]",
+   "url": "https://www.jobup.ch/fr/emplois/detail/1c3e0201-b0f6-489f-8f0c-be5044f4c69f/",
+   "reason": "expérience demandée ≥ 3 ans « e·e de commerce ou une formation equivalente[3 a 5 ans] d'experience dans un po »",
+   "at": "2026-11-20T22:19:03+00:00"
+  },
+  {
+   "id": "e167bea7e02a",
+   "company": "jobup.ch",
+   "title": "Data Platform Owner Databricks (a), 80-100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/e24a1e71-71a9-47b6-98b0-e0d3a8e48b36/",
+   "reason": "expérience demandée ≥ 6 ans « et externes de la plateforme votre profil : plus de 5 ans d'experience en ingenier »",
+   "at": "2026-11-20T22:19:01+00:00"
+  },
+  {
+   "id": "7a9581a16cdf",
+   "company": "jobup.ch",
+   "title": "Senior IT Business Analyst (Software Engineering)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/d44b4760-6130-4381-a919-b1a6b358943e/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-20T22:19:01+00:00"
+  },
+  {
+   "id": "9e5aae45136c",
+   "company": "jobup.ch",
+   "title": "Data Operations Specialist - Investment Data 80-100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/2cbba796-ae31-4288-b0cb-f4bebd5112ce/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-20T22:18:59+00:00"
+  },
+  {
+   "id": "873ca8acb880",
+   "company": "jobs.ch",
+   "title": "Business Analyst DWH - PL/SQL / Bank",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/d4b757ce-f981-4d34-86db-4f41063de6ae/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-20T22:18:34+00:00"
+  },
+  {
+   "id": "333f676156c8",
+   "company": "jobs.ch",
+   "title": "Team Lead Data & AI Foundation (m/w/d), 80–100 %",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/d5472aed-e556-4d69-8f45-08c40cc5cf73/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-20T22:18:34+00:00"
+  },
+  {
+   "id": "ea1f5beb0de1",
+   "company": "jobs.ch",
+   "title": "IT Platform Engineer for Data and Collaboration",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/416e8df1-7a3b-4ab8-861d-114bd4c9d10a/",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « Vous avez de l'expérience dans l'exploitation et le développement de plateformes IT, pensez de manière orienté »",
+   "at": "2026-11-20T22:18:32+00:00"
+  },
+  {
+   "id": "05f45f350680",
+   "company": "jobs.ch",
+   "title": "Business Analyst - Hermes / BPMN",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/92a94b6a-db42-427d-8f10-d95226ae1352/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-20T22:18:32+00:00"
+  },
+  {
+   "id": "d487eea080b1",
+   "company": "HelloWork",
+   "title": "Ingénieur·e Intégrateur·trice de Composants IA H/F Safran",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85733585.html",
+   "reason": "expérience demandée ≥ 3 ans « ne logique de deploiement en micro-services- experience averee dans la mise en oeuvre d »",
+   "at": "2026-11-20T22:17:57+00:00"
+  },
+  {
+   "id": "e6d9469d7a6a",
+   "company": "HelloWork",
+   "title": "Solutions Specialist IA H/F OVHCloud",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85736523.html",
+   "reason": "expérience demandée ≥ 3 ans « u reseau et des services de data platform. - experience confirmee en vente consultative (c »",
+   "at": "2026-11-20T22:17:56+00:00"
+  },
+  {
+   "id": "ad306e030f57",
+   "company": "HelloWork",
+   "title": "Responsable Revenue Management Stratégie Commerciale CDI H/F Pepsico",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85741780.html",
+   "reason": "expérience demandée ≥ 10 ans « r's degree in finance or economics. at least 10 years of experience in rgm, co »",
+   "at": "2026-11-20T22:17:54+00:00"
+  },
+  {
+   "id": "148742e90559",
+   "company": "HelloWork",
+   "title": "Lead ai - Llm Engineer H/F ITINOV (Information, Technology & Innovation)",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85731758.html",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-20T22:17:54+00:00"
+  },
+  {
+   "id": "acaf1929489f",
+   "company": "HelloWork",
+   "title": "Analyste Financement H/F InVivo Group",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85740580.html",
+   "reason": "expérience demandée ≥ 5 ans « otre champ des possibles. vous avez au moins 5 ans d'experience en financem »",
+   "at": "2026-11-20T22:17:41+00:00"
+  },
+  {
+   "id": "77713470e7a1",
+   "company": "HelloWork",
+   "title": "Analyste DBA PL - SQL H/F TOHTEM",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85735149.html",
+   "reason": "expérience demandée ≥ 1 ans (lu par l'IA) « {\"@type\": \"OccupationalExperienceRequirements\", \"monthsOfExperience\": 12} »",
+   "at": "2026-11-20T22:17:40+00:00"
+  },
+  {
+   "id": "ae0aed104277",
+   "company": "HelloWork",
+   "title": "Business Analyst Editique H/F Coexya",
+   "url": "https://www.hellowork.com/fr-fr/emplois/82355933.html",
+   "reason": "expérience demandée ≥ 7 ans (lu par l'IA) « Exp. 7 ans min. »",
+   "at": "2026-11-20T22:17:12+00:00"
+  },
+  {
+   "id": "0ec3310301a2",
+   "company": "HelloWork",
+   "title": "Business Analyst IT H/F eXalt Company",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85737896.html",
+   "reason": "expérience demandée ≥ 3 ans « e premiere experience significative (minimum 3 ans) en gestion de projet, a »",
+   "at": "2026-11-20T22:17:03+00:00"
+  },
+  {
+   "id": "ee1dd915d0de",
+   "company": "HelloWork",
+   "title": "Responsable Gouvernance Data et IA H/F Triangle Intérim",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85739611.html",
+   "reason": "titre exclu (interim)",
+   "at": "2026-11-20T22:16:26+00:00"
+  },
+  {
+   "id": "7d722470e336",
+   "company": "HelloWork",
+   "title": "Leader SAP Data & Analytics H/F Onepoint",
+   "url": "https://www.hellowork.com/fr-fr/emplois/76954111.html",
+   "reason": "titre exclu (leader)",
+   "at": "2026-11-20T22:16:26+00:00"
+  },
+  {
+   "id": "e93213f312ed",
+   "company": "HelloWork",
+   "title": "Data Intelligence Manager H/F Seenovate",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85747288.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-20T22:16:24+00:00"
+  },
   {
    "id": "1a61a006ce2e",
    "company": "jobup.ch",
