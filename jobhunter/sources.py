@@ -180,6 +180,7 @@ class Fetcher:
         self.json_calls: list[str] = []   # appels JSON vus pendant le dernier rendu (pour --diagnose)
         self.json_payloads: list = []     # (url, données) des réponses JSON du dernier rendu
         self.diag: list[str] = []         # remarques pour --diagnose
+        self.dump_dir = None              # --diagnose : dossier où garder le HTML des pages sans offre
         self.page_info: str = ""          # titre de page + nb de liens du dernier rendu
 
     def _polite(self, url: str):
@@ -613,15 +614,26 @@ def collect_workday(comp: dict, fetcher: Fetcher, keywords: list[str], keyword_h
         pass
     denied = 0
     for q in comp.get("search_terms") or keywords:
+        page_full = True
         for offset in comp.get("offsets", [0, 20]):
+            if not page_full:
+                break                                    # page précédente incomplète : rien plus loin
             try:
-                fetcher._polite(api)
-                r = fetcher.s.post(api, json={"appliedFacets": comp.get("facets", {}), "limit": 20,
-                                              "offset": offset, "searchText": q}, headers=headers, timeout=30)
-                if r.status_code in (401, 403):
+                payload = {"appliedFacets": comp.get("facets", {}), "limit": 20, "offset": offset, "searchText": q}
+                for attempt in range(3):
+                    fetcher._polite(api)
+                    time.sleep(1.5)                      # Workday limite le nombre de requêtes par minute
+                    r = fetcher.s.post(api, json=payload, headers=headers, timeout=30)
+                    if r.status_code != 429:
+                        break
+                    wait = r.headers.get("Retry-After", "")
+                    time.sleep(min(60, int(wait)) if wait.isdigit() else 15 * (attempt + 1))
+                if r.status_code in (401, 403, 429):
                     denied += 1
                 r.raise_for_status()
-                for jp in r.json().get("jobPostings", []):
+                posts = r.json().get("jobPostings", [])
+                page_full = len(posts) >= 20
+                for jp in posts:
                     path = jp.get("externalPath") or ""
                     if not path or not jp.get("title"):
                         continue
@@ -634,7 +646,7 @@ def collect_workday(comp: dict, fetcher: Fetcher, keywords: list[str], keyword_h
     fetcher.diag.append(f"[workday] {len(out)} offres via l'API")
     if not out and denied:
         # API refusée : on ouvre la page publique dans le navigateur et on lit les liens des offres
-        fetcher.diag.append("[workday] API refusée (401/403) : lecture de la page publique avec le navigateur")
+        fetcher.diag.append("[workday] API refusée (401/403/429) : lecture de la page publique avec le navigateur")
         alt = {**comp, "source": "html", "render": True, "wait_ms": comp.get("wait_ms", 6000),
                "urls": [public + "?q={q}"], "link_pattern": comp.get("link_pattern", r"/job/")}
         listings, errs = collect(alt, fetcher, keywords, keyword_hit or (lambda t: True))
@@ -808,6 +820,19 @@ def collect_sequence(comp: dict, fetcher: Fetcher, state: dict) -> tuple[list[Li
     return out, errors
 
 
+def _dump(fetcher, name: str, url: str, html: str):
+    """--diagnose : garde la page reçue (sans offre trouvée) dans docs/data/diag/ pour l'analyser."""
+    try:
+        from pathlib import Path
+        d = Path(fetcher.dump_dir)
+        d.mkdir(parents=True, exist_ok=True)
+        slug = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+        calls = "\n".join(fetcher.json_calls[:60])
+        (d / f"{slug}.html").write_text(f"<!-- {url}\n{calls}\n-->\n" + (html or "")[:600_000], encoding="utf-8")
+    except Exception:
+        pass
+
+
 def collect(comp: dict, fetcher: Fetcher, keywords: list[str], keyword_hit,
             state: dict | None = None) -> tuple[list[Listing], list[str]]:
     """Renvoie (offres trouvées, erreurs par URL)."""
@@ -840,6 +865,8 @@ def collect(comp: dict, fetcher: Fetcher, keywords: list[str], keyword_hit,
                     html = fetcher.get(url, render=render,
                                        wait_ms=comp.get("wait_ms", 3000), scroll=comp.get("scroll", 0))
                     items = harvest_links(html, url, link_rx, keyword_hit)
+                    if not items and fetcher.dump_dir:
+                        _dump(fetcher, comp["name"], url, html)
                     payloads = list(fetcher.json_payloads) if render else []
                     payloads += [("(page)", d) for d in inline_json(html)]
                 # Offres trouvées dans les réponses JSON ou le JSON embarqué

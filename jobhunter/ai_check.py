@@ -38,20 +38,25 @@ class ExperienceAI:
     def __init__(self, enabled: bool = True, budget: int = 40):
         self.key = os.getenv("GROQ_API_KEY")
         self.enabled = bool(enabled and self.key)
+        self.broken = False      # l'IA est tombée en panne pendant ce passage
         self.budget = budget
         self.calls = 0
+        self.failed = False      # dernier appel en échec (quota, modèle retiré…) : pas d'avis, ce n'est pas un « rien trouvé »
 
     def check(self, title: str, company: str, text: str) -> dict | None:
         """Renvoie {"years": int|None, "level": str, "quote": str} ou None (pas d'avis fiable)."""
         if not self.enabled or self.calls >= self.budget or len(text or "") < 300:
             return None
         self.calls += 1
+        self.failed = False
         from .llm import LLMError, chat_json
         try:
             out = chat_json(SYSTEM, f"Intitulé : {title}\nEntreprise : {company}\n\n{text[:6000]}", temperature=0, timeout=45)
         except LLMError as e:
-            if "401" in str(e) or "clé" in str(e):
-                self.enabled = False          # clé refusée ou quota atteint : inutile de continuer ce passage
+            self.failed = True
+            if "401" in str(e) or "clé" in str(e) or "aucun modèle" in str(e):
+                self.enabled = False          # clé refusée ou plus aucun modèle : inutile de continuer ce passage
+                self.broken = True
             return None
         quote = str(out.get("citation") or "").strip()
         level = str(out.get("niveau") or "inconnu").lower()

@@ -269,12 +269,12 @@ def test_llm_fallback_and_errors(monkeypatch):
 
     def post(url, headers=None, json=None, timeout=0):
         calls.append(json["model"])
-        if json["model"] == "llama-3.3-70b-versatile":
+        if json["model"] == "openai/gpt-oss-120b":
             return R(400, '{"error":{"message":"The model has been decommissioned"}}')
         return R(200, js={"choices": [{"message": {"content": '{"ok": true}'}}]})
     monkeypatch.setattr(llm.requests, "post", post)
     assert llm.chat_json("s", "u") == {"ok": True}
-    assert calls[:2] == ["llama-3.3-70b-versatile", "openai/gpt-oss-120b"]
+    assert calls[:2] == ["openai/gpt-oss-120b", "openai/gpt-oss-20b"]
 
     monkeypatch.setattr(llm.requests, "post", lambda *a, **k: R(401, '{"error":{"message":"Invalid API Key"}}'))
     try:
@@ -362,3 +362,19 @@ def test_ghost_detection(tmp_path):
     sig = text_signals("Afin de constituer un vivier de talents pour nos futurs besoins, nous recrutons un Data Analyst.")
     assert sig and sig[0].startswith("pool:")
     assert assess({**fresh, "company": "X", "ghost_text": sig}, h, {})
+
+
+def test_ai_failure_is_retried_later(monkeypatch):
+    """IA en panne (quota, modèle retiré) : l'offre sans expérience écrite n'est pas écartée, elle est relue plus tard."""
+    import jobhunter.ai_check as ac
+    import jobhunter.llm as llm
+    from jobhunter.__main__ import LATER, judge
+    from jobhunter.filters import Criteria
+    monkeypatch.setenv("GROQ_API_KEY", "x")
+    def boom(*a, **k): raise llm.LLMError("HTTP 429")
+    monkeypatch.setattr(llm, "chat_json", boom)
+    crit = Criteria.from_config({"keywords": ["data"], "unknown_experience": "drop"})
+    ai = ac.ExperienceAI(budget=5)
+    text = "Nous recherchons un Data Analyst pour notre équipe. " * 20
+    ok, reason, _ = judge(crit, ai, {"name": "X"}, "Data Analyst", "Paris CDI", type("D", (), {"text": text, "structured": "Paris CDI", "extra": {}})())
+    assert not ok and reason == LATER

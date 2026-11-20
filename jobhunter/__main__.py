@@ -30,8 +30,8 @@ log = logging.getLogger("jobwatch")
 
 # À augmenter quand les règles de tri changent : les offres déjà affichées sont alors
 # revérifiées (fiche rouverte) et retirées si elles ne passent plus.
-RULES_VERSION = 5   # v5 : expérience/contrat non précisés écartés, allemand partout (14/11/2026)
-LATER = "__later__"  # pas de verdict possible ce passage (budget IA épuisé) : on réessaiera
+RULES_VERSION = 6   # v6 : offres écartées « expérience non précisée » pendant la panne de l'IA (modèle retiré) réexaminées
+LATER = "__later__"  # pas de verdict possible ce passage (budget IA épuisé ou IA en panne) : on réessaiera
 
 
 def judge(crit: Criteria, ai: ExperienceAI, comp: dict, title: str, context: str, d) -> tuple[bool, str, object]:
@@ -68,7 +68,7 @@ def judge(crit: Criteria, ai: ExperienceAI, comp: dict, title: str, context: str
             v.junior = v.junior or years <= 1
     # Expérience introuvable, même par l'IA : écartée si unknown_experience = drop
     if v.experience == "non précisée" and crit.unknown_experience == "drop":
-        if ai.enabled and ai.calls >= ai.budget:
+        if (ai.enabled and ai.calls >= ai.budget) or ai.failed or ai.broken:
             return False, LATER, v
         return False, "expérience non précisée (ni sur la fiche, ni par l'IA)", v
     return True, "", v
@@ -97,6 +97,8 @@ def run(argv=None) -> int:
     cfg = load_config(Path(args.config))
     crit = Criteria.from_config(cfg)
     fetcher = Fetcher(delay=float(cfg.get("delay_seconds", 1.5)))
+    if args.diagnose:
+        fetcher.dump_dir = store.dir / "diag"     # pages vides gardées pour comprendre pourquoi (commit avec les données)
     store = Store(args.data)
     store.see_also(SITE_DATA if args.data != "main" else SITE_DATA / "boards")
     run_start = now()
@@ -107,7 +109,8 @@ def run(argv=None) -> int:
     alert_after = int(cfg.get("alert_after_failures", 6))
     companies = [c for c in cfg.get("companies", []) if c.get("enabled", True)]
     if args.only:
-        companies = [c for c in companies if c["name"].lower() == args.only.lower()]
+        wanted = {n.strip().lower() for n in args.only.split(",") if n.strip()}   # plusieurs noms : "RATP, Accor"
+        companies = [c for c in companies if c["name"].lower() in wanted]
     all_names = [c["name"] for c in companies]
     # Tour de rôle : on commence là où le passage précédent s'est arrêté (si coupé faute de temps)
     start = store.state.get("next_company", 0) % max(1, len(companies)) if not args.only else 0
@@ -156,9 +159,10 @@ def run(argv=None) -> int:
     # (la v3 ne lit plus le texte de toute une page de liste, qui faisait passer des CDI pour des stages)
     if not args.diagnose and store.state.get("rules_version", 1) < RULES_VERSION:
         before = len(store.rejected)
-        store.rejected = {k: r for k, r in store.rejected.items() if not r.get("reason", "").startswith("contrat")}
+        store.rejected = {k: r for k, r in store.rejected.items()
+                          if not r.get("reason", "").startswith(("contrat", "expérience non précisée (ni sur la fiche"))}
         store.state["rules_version"] = RULES_VERSION
-        log.info("Règles v%d : %d offre(s) écartée(s) pour leur contrat seront réexaminées", RULES_VERSION, before - len(store.rejected))
+        log.info("Règles v%d : %d offre(s) écartée(s) seront réexaminées", RULES_VERSION, before - len(store.rejected))
     # Offres d'une zone retirée de config.yaml (ex. Londres) : on les retire du site
     if not args.diagnose:
         for jid, job in list(store.jobs.items()):

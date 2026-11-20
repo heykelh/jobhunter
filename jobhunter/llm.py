@@ -16,7 +16,8 @@ import requests
 
 log = logging.getLogger("jobwatch")
 URL = "https://api.groq.com/openai/v1/chat/completions"
-FALLBACK_MODELS = ["llama-3.3-70b-versatile", "openai/gpt-oss-120b", "qwen/qwen3-32b", "llama-3.1-8b-instant"]
+# Modèles Groq au 19/11/2026 (llama-3.x et qwen3-32b ont été retirés en juillet-août 2026)
+FALLBACK_MODELS = ["openai/gpt-oss-120b", "openai/gpt-oss-20b", "qwen/qwen3.8-27b"]
 STATUS = {"ok": 0, "errors": 0, "last_error": "", "model": ""}
 _dead: set[str] = set()
 
@@ -38,11 +39,13 @@ def chat_json(system: str, user: str, temperature: float = 0.3, timeout: int = 6
     last = ""
     for model in _models():
         try:
-            r = requests.post(URL, headers={"Authorization": f"Bearer {key}"}, timeout=timeout,
-                              json={"model": model, "temperature": temperature,
-                                    "response_format": {"type": "json_object"},
-                                    "messages": [{"role": "system", "content": system},
-                                                 {"role": "user", "content": user}]})
+            body = {"model": model, "temperature": temperature,
+                    "response_format": {"type": "json_object"},
+                    "messages": [{"role": "system", "content": system},
+                                 {"role": "user", "content": user}]}
+            if model.startswith("openai/gpt-oss"):
+                body["reasoning_effort"] = "low"     # réflexion courte : moins de jetons, moins de quota consommé
+            r = requests.post(URL, headers={"Authorization": f"Bearer {key}"}, timeout=timeout, json=body)
         except requests.RequestException as e:
             last = f"réseau : {type(e).__name__}"
             break
@@ -71,6 +74,8 @@ def chat_json(system: str, user: str, temperature: float = 0.3, timeout: int = 6
             STATUS["waits"] = STATUS.get("waits", 0) + 1
             continue
         break                                     # 401 clé refusée… : inutile d'insister
+    if not last:
+        last = "aucun modèle Groq disponible (tous retirés ou quota du jour atteint)"
     STATUS["errors"] += 1
     STATUS["last_error"] = last
     log.warning("  IA Groq en échec : %s", last)
