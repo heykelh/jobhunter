@@ -40,10 +40,10 @@
  ],
  "sequence": {
   "EDF / Enedis": {
-   "last": 187218
+   "last": 187219
   }
  },
- "next_company": 0,
+ "next_company": 20,
  "zones_sig": "Luxembourg,Suisse,Île-de-France",
  "rules_version": 6
 }

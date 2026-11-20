@@ -1,6 +1,134 @@
 {
- "updated": "2026-11-20T13:20:40+00:00",
+ "updated": "2026-11-20T21:40:05+00:00",
  "items": [
+  {
+   "id": "cefad1bd311a",
+   "company": "Orange",
+   "title": "Développeur IA F/H",
+   "url": "https://orange.jobs/fr/fr/job/IOS-2026-2901/Développeur-IA-F-H",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-20T21:39:29+00:00"
+  },
+  {
+   "id": "7de8e2b29efb",
+   "company": "VINCI (dont ETF)",
+   "title": "Ingénieur Automatisme & IA (F/H)",
+   "url": "https://jobs.vinci.com/fr/emploi/quimper/ingenieur-automatisme-and-ia-f-h/1440/47085664896",
+   "reason": "lieu hors zones",
+   "at": "2026-11-20T21:15:57+00:00"
+  },
+  {
+   "id": "799221aec039",
+   "company": "VINCI (dont ETF)",
+   "title": "Stagiaire Chef(fe) de Projet – & Innovation IA F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/carros/stagiaire-chef-fe-de-projet-and-innovation-ia-f-h/1440/47085665856",
+   "reason": "titre exclu (stagiaire)",
+   "at": "2026-11-20T21:15:56+00:00"
+  },
+  {
+   "id": "333ffdd69f39",
+   "company": "TotalEnergies",
+   "title": "Analyste Supply Chain et Transport Maritime (H/F) – Singapour",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Analyste-Supply-Chain-et-Transport-Maritime-H-F-Singapour/85744",
+   "reason": "lieu hors zones",
+   "at": "2026-11-20T21:15:33+00:00"
+  },
+  {
+   "id": "e690a81c59e1",
+   "company": "TotalEnergies",
+   "title": "Stage - Ingénieur Data Analyse des Performances des Centrales Renouvelables F/H - Lattes",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Stage-Ing-nieur-Data-Analyse-des-Performances-des-Centrales-Renouvelables-F-H-Lattes/85457",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-20T21:15:33+00:00"
+  },
+  {
+   "id": "410e6cc13703",
+   "company": "TotalEnergies",
+   "title": "Stage – Business Analyst Commerce H/F - AS 24",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Stage-Business-Analyst-Commerce-H-F-AS-24/84412",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-20T21:15:33+00:00"
+  },
+  {
+   "id": "eeaaf5aec4ba",
+   "company": "TotalEnergies",
+   "title": "Business Analyst Front Office Tools Trading IT",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Business-Analyst-Front-Office-Tools-Trading-IT/86471",
+   "reason": "expérience demandée ≥ 6 ans « maine it, digital & data type de contrat cdi experience minimum 6 ans contexte et environnement totalenergies  »",
+   "at": "2026-11-20T21:15:31+00:00"
+  },
+  {
+   "id": "fe6ce3f743ca",
+   "company": "EDF / Enedis",
+   "title": "Stage Data Analyst / Transformation Digitale F/H",
+   "url": "https://www.edf.fr/edf-recrute/offre/detail/2026-187219",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-20T21:15:03+00:00"
+  },
+  {
+   "id": "1177e95c58f6",
+   "company": "AXA",
+   "title": "Data Scientist/ML Engineer - Equipe Prime Commerciale F/H",
+   "url": "https://careers.axa.com/jobs/31036",
+   "reason": "contrat non précisé",
+   "at": "2026-11-20T21:14:03+00:00"
+  },
+  {
+   "id": "36b931b3c3c2",
+   "company": "AXA",
+   "title": "Stage MLOps Engineer / Data Scientist – Industrialisation des workflows Machine Learning sur Databricks (F/H)",
+   "url": "https://careers.axa.com/jobs/31026",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-20T21:14:03+00:00"
+  },
+  {
+   "id": "aba24c8e6d5d",
+   "company": "BPCE",
+   "title": "Stage - Data Engineer (F/H) - Lille",
+   "url": "https://recrutement.bpce.fr/job/stage-data-engineer-f-h-lille",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-20T21:12:52+00:00"
+  },
+  {
+   "id": "716f1de8f61d",
+   "company": "Société Générale",
+   "title": "Analyste Benchmarking et Red Teaming des systèmes d’IA générative",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-benchmarking-et-red-teaming-des-systemes-dia-generative-26000MRD-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-20T21:09:30+00:00"
+  },
+  {
+   "id": "08a9486cdfb8",
+   "company": "Société Générale",
+   "title": "Analyste coverage grands comptes Amériques & Asie",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-coverage-grands-comptes-ameriques-asie-26000JSY-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-20T21:09:28+00:00"
+  },
+  {
+   "id": "1fa7f1545608",
+   "company": "Société Générale",
+   "title": "Stage Analyste crédit pour les financements des professionnels de l’immobiliers",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/stage-analyste-credit-pour-les-financements-des-professionnels-de-limmobiliers-241-fr",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-20T21:09:26+00:00"
+  },
+  {
+   "id": "2447eb28855f",
+   "company": "Alstom",
+   "title": "Data Scientist pour pièces de rechange (F/H)",
+   "url": "https://jobsearch.alstom.com/job/Saint-Ouen-Data-Scientist-pour-pi%C3%A8ces-de-rechange-%28FH%29/1444679333/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-20T21:03:05+00:00"
+  },
+  {
+   "id": "3d3829db2a48",
+   "company": "Alstom",
+   "title": "Industrial Data Management Specialist",
+   "url": "https://jobsearch.alstom.com/job/Toronto-Industrial-Data-Management-Specialist-ON/1459431133/",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-20T21:03:04+00:00"
+  },
   {
    "id": "48dab654ba81",
    "company": "ING",

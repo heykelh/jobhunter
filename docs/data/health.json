@@ -1,38 +1,38 @@
 {
- "updated": "2026-11-20T13:20:40+00:00",
+ "updated": "2026-11-20T21:40:05+00:00",
  "companies": {
   "Air France": {
-   "checked_at": "2026-11-20T12:46:43+00:00",
+   "checked_at": "2026-11-20T21:01:54+00:00",
    "error": "",
    "warnings": [],
    "links_found": 22,
    "keyword_matches": 4,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-20T12:46:45+00:00",
+   "last_ok": "2026-11-20T21:01:56+00:00",
    "failures": 0
   },
   "TotalEnergies": {
-   "checked_at": "2026-11-20T13:03:29+00:00",
+   "checked_at": "2026-11-20T21:15:03+00:00",
    "error": "",
    "warnings": [],
    "links_found": 200,
-   "keyword_matches": 17,
-   "kept_this_run": 1,
+   "keyword_matches": 20,
+   "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-20T13:04:01+00:00",
+   "last_ok": "2026-11-20T21:15:33+00:00",
    "failures": 0
   },
   "Société Générale": {
-   "checked_at": "2026-11-20T12:52:05+00:00",
+   "checked_at": "2026-11-20T21:07:34+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 59,
+   "links_found": 69,
    "keyword_matches": 22,
-   "kept_this_run": 0,
+   "kept_this_run": 1,
    "status": "ok",
    "failures": 0,
-   "last_ok": "2026-11-20T12:53:57+00:00"
+   "last_ok": "2026-11-20T21:09:30+00:00"
   },
   "BNP Paribas": {
    "checked_at": "2026-10-20T13:25:43+00:00",
@@ -50,62 +50,62 @@
    "failures": 1
   },
   "Crédit Agricole": {
-   "checked_at": "2026-11-20T12:53:57+00:00",
+   "checked_at": "2026-11-20T21:09:30+00:00",
    "error": "",
    "warnings": [],
    "links_found": 33,
-   "keyword_matches": 7,
-   "kept_this_run": 0,
-   "status": "ok",
-   "last_ok": "2026-11-20T12:54:48+00:00",
-   "failures": 0
-  },
-  "BPCE": {
-   "checked_at": "2026-11-20T12:54:48+00:00",
-   "error": "",
-   "warnings": [],
-   "links_found": 1562,
-   "keyword_matches": 120,
-   "kept_this_run": 0,
-   "status": "ok",
-   "last_ok": "2026-11-20T12:58:49+00:00",
-   "failures": 0
-  },
-  "AXA": {
-   "checked_at": "2026-11-20T12:58:49+00:00",
-   "error": "",
-   "warnings": [],
-   "links_found": 88,
-   "keyword_matches": 31,
-   "kept_this_run": 0,
-   "status": "ok",
-   "failures": 0,
-   "last_ok": "2026-11-20T13:00:05+00:00"
-  },
-  "SNCF": {
-   "checked_at": "2026-11-20T12:46:45+00:00",
-   "error": "",
-   "warnings": [],
-   "links_found": 220,
    "keyword_matches": 1,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-20T12:46:45+00:00",
+   "last_ok": "2026-11-20T21:10:22+00:00",
+   "failures": 0
+  },
+  "BPCE": {
+   "checked_at": "2026-11-20T21:10:22+00:00",
+   "error": "",
+   "warnings": [],
+   "links_found": 1573,
+   "keyword_matches": 120,
+   "kept_this_run": 0,
+   "status": "ok",
+   "last_ok": "2026-11-20T21:12:52+00:00",
+   "failures": 0
+  },
+  "AXA": {
+   "checked_at": "2026-11-20T21:12:52+00:00",
+   "error": "",
+   "warnings": [],
+   "links_found": 93,
+   "keyword_matches": 33,
+   "kept_this_run": 0,
+   "status": "ok",
+   "failures": 0,
+   "last_ok": "2026-11-20T21:14:03+00:00"
+  },
+  "SNCF": {
+   "checked_at": "2026-11-20T21:01:56+00:00",
+   "error": "",
+   "warnings": [],
+   "links_found": 220,
+   "keyword_matches": 0,
+   "kept_this_run": 0,
+   "status": "ok",
+   "last_ok": "2026-11-20T21:01:56+00:00",
    "failures": 0
   },
   "CFL": {
-   "checked_at": "2026-11-20T12:47:55+00:00",
+   "checked_at": "2026-11-20T21:03:05+00:00",
    "error": "",
    "warnings": [],
    "links_found": 25,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-20T12:48:07+00:00",
+   "last_ok": "2026-11-20T21:03:18+00:00",
    "failures": 0
   },
   "SBB CFF FFS": {
-   "checked_at": "2026-11-20T12:48:07+00:00",
+   "checked_at": "2026-11-20T21:03:18+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
@@ -113,67 +113,67 @@
    "kept_this_run": 0,
    "status": "vide",
    "last_ok": "2026-11-14T11:26:51+00:00",
-   "failures": 23
+   "failures": 24
   },
   "RATP Dev": {
-   "checked_at": "2026-11-20T12:46:45+00:00",
+   "checked_at": "2026-11-20T21:01:56+00:00",
    "error": "",
    "warnings": [],
    "links_found": 20,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-20T12:46:57+00:00",
+   "last_ok": "2026-11-20T21:02:08+00:00",
    "failures": 0
   },
   "Alstom": {
-   "checked_at": "2026-11-20T12:47:32+00:00",
+   "checked_at": "2026-11-20T21:02:39+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 19,
-   "keyword_matches": 2,
+   "links_found": 226,
+   "keyword_matches": 68,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-20T12:47:55+00:00",
+   "last_ok": "2026-11-20T21:03:05+00:00",
    "failures": 0
   },
   "EDF / Enedis": {
-   "checked_at": "2026-11-20T13:00:05+00:00",
+   "checked_at": "2026-11-20T21:14:03+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 0,
-   "keyword_matches": 0,
+   "links_found": 1,
+   "keyword_matches": 1,
    "kept_this_run": 0,
-   "status": "vide",
-   "last_ok": "2026-11-16T23:00:18+00:00",
-   "failures": 12
+   "status": "ok",
+   "last_ok": "2026-11-20T21:15:03+00:00",
+   "failures": 0
   },
   "VINCI (dont ETF)": {
-   "checked_at": "2026-11-20T13:04:01+00:00",
+   "checked_at": "2026-11-20T21:15:33+00:00",
    "error": "",
    "warnings": [],
    "links_found": 398,
-   "keyword_matches": 62,
+   "keyword_matches": 63,
    "kept_this_run": 0,
    "status": "ok",
    "failures": 0,
-   "last_ok": "2026-11-20T13:04:37+00:00"
+   "last_ok": "2026-11-20T21:15:57+00:00"
   },
   "Eiffage": {
-   "checked_at": "2026-11-20T13:04:37+00:00",
+   "checked_at": "2026-11-20T21:15:57+00:00",
    "error": "",
    "warnings": [
+    "https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs [data/0] → HTTPError: 429 Client Error: Too Many Requests for url: https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs",
     "https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs [data/20] → HTTPError: 429 Client Error: Too Many Requests for url: https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs",
-    "https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs [analyst/0] → HTTPError: 429 Client Error: Too Many Requests for url: https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs",
-    "https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs [analyst/20] → HTTPError: 429 Client Error: Too Many Requests for url: https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs",
     "https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs [analyste/0] → HTTPError: 429 Client Error: Too Many Requests for url: https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs",
+    "https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs [analyste/20] → HTTPError: 429 Client Error: Too Many Requests for url: https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs",
     "https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs [product builder/0] → HTTPError: 429 Client Error: Too Many Requests for url: https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs"
    ],
-   "links_found": 151,
-   "keyword_matches": 18,
+   "links_found": 40,
+   "keyword_matches": 1,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-20T13:16:12+00:00",
+   "last_ok": "2026-11-20T21:38:25+00:00",
    "failures": 0
   },
   "Bouygues Telecom": {
@@ -188,25 +188,25 @@
    "last_ok": "2026-10-29T10:56:21+00:00"
   },
   "Orange": {
-   "checked_at": "2026-11-20T13:16:12+00:00",
+   "checked_at": "2026-11-20T21:38:25+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 89,
-   "keyword_matches": 44,
+   "links_found": 90,
+   "keyword_matches": 45,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-20T13:17:14+00:00",
+   "last_ok": "2026-11-20T21:39:29+00:00",
    "failures": 0
   },
   "L'Oréal": {
-   "checked_at": "2026-11-20T13:17:14+00:00",
+   "checked_at": "2026-11-20T21:39:29+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "vide",
-   "failures": 104
+   "failures": 105
   },
   "Julius Baer": {
    "checked_at": "2026-11-20T13:17:46+00:00",
@@ -285,46 +285,46 @@
    "failures": 0
   },
   "RATP": {
-   "checked_at": "2026-11-20T12:46:57+00:00",
+   "checked_at": "2026-11-20T21:02:08+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "vide",
-   "failures": 4
+   "failures": 5
   },
   "Groupe ADP": {
-   "checked_at": "2026-11-20T12:47:10+00:00",
+   "checked_at": "2026-11-20T21:02:21+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 75,
+   "links_found": 77,
    "keyword_matches": 2,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-20T12:47:17+00:00",
+   "last_ok": "2026-11-20T21:02:28+00:00",
    "failures": 0
   },
   "Disneyland Paris": {
-   "checked_at": "2026-11-20T12:47:17+00:00",
+   "checked_at": "2026-11-20T21:02:28+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 22,
+   "links_found": 24,
    "keyword_matches": 2,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-20T12:47:32+00:00",
+   "last_ok": "2026-11-20T21:02:39+00:00",
    "failures": 0
   },
   "Accor": {
-   "checked_at": "2026-11-20T12:48:41+00:00",
+   "checked_at": "2026-11-20T21:03:51+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "vide",
-   "failures": 4
+   "failures": 5
   }
  }
 }
