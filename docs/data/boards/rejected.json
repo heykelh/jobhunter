@@ -1,6 +1,166 @@
 {
- "updated": "2026-11-20T22:19:25+00:00",
+ "updated": "2026-11-21T13:33:39+00:00",
  "items": [
+  {
+   "id": "3394a4c5a99d",
+   "company": "jobup.ch",
+   "title": "AI Solutions Engineer (m/w/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/137cda4b-449b-40c2-8c94-ee3b23c82d02/",
+   "reason": "expérience demandée ≥ 3 ans « ept pour clients et partenaires. competences 3 ans d'experience en machine »",
+   "at": "2026-11-21T13:33:18+00:00"
+  },
+  {
+   "id": "eeb7289890fe",
+   "company": "jobup.ch",
+   "title": "Applications Engineer AI Software (m/w/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/11d34641-72a3-4b9e-be59-57d39fc69630/",
+   "reason": "expérience demandée ≥ 3 ans « connexe, ou experience equivalente au moins 3 ans d'experience pratique en »",
+   "at": "2026-11-21T13:33:18+00:00"
+  },
+  {
+   "id": "b1367afce4ec",
+   "company": "jobup.ch",
+   "title": "Data Engineer - Cloud dataplatform (m/w/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/4efc84ff-4416-4b6f-bc6e-913b54448296/",
+   "reason": "expérience demandée ≥ 3 ans « , hf, fh) ou experience equivalente au moins 3 ans d'experience en ingenier »",
+   "at": "2026-11-21T13:33:15+00:00"
+  },
+  {
+   "id": "fc37cf42681b",
+   "company": "jobup.ch",
+   "title": "Global Pricing Lead, Global Pricing & Innovative Contracting",
+   "url": "https://www.jobup.ch/fr/emplois/detail/b081fc24-0212-4240-9871-3e72e9f51893/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-21T13:33:15+00:00"
+  },
+  {
+   "id": "44672ce86427",
+   "company": "jobup.ch",
+   "title": "Global Pricing Lead, Global Pricing & Innovative Contracting",
+   "url": "https://www.jobup.ch/fr/emplois/detail/13cc9f40-8246-4465-8ac4-df85c8b30e77/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-21T13:33:15+00:00"
+  },
+  {
+   "id": "2e9e0ff8f855",
+   "company": "jobup.ch",
+   "title": "Internship in Offer Pricing Switzerland (limited to 8-9 months, 70-80%, all genders)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/8f7db1b9-5480-4b59-b31e-f3e4037ae0c8/",
+   "reason": "titre exclu (internship)",
+   "at": "2026-11-21T13:33:15+00:00"
+  },
+  {
+   "id": "a7b5288e722d",
+   "company": "jobs.ch",
+   "title": "Business Analyst & Consultant im ERP-Umfeld (80–100 %)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/2c087768-bd2a-4dc7-a1d0-24226c3e6951/",
+   "reason": "expérience non précisée (ni sur la fiche, ni par l'IA)",
+   "at": "2026-11-21T13:32:49+00:00"
+  },
+  {
+   "id": "6a1afada7e63",
+   "company": "jobs.ch",
+   "title": "Global Pricing Lead, Global Pricing & Innovative Contracting",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/b081fc24-0212-4240-9871-3e72e9f51893/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-21T13:32:49+00:00"
+  },
+  {
+   "id": "628e4f777675",
+   "company": "jobs.ch",
+   "title": "Global Pricing Lead, Global Pricing & Innovative Contracting",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/13cc9f40-8246-4465-8ac4-df85c8b30e77/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-21T13:32:49+00:00"
+  },
+  {
+   "id": "41a08dde0d3e",
+   "company": "jobs.ch",
+   "title": "Internship in Offer Pricing Switzerland (limited to 8-9 months, 70-80%, all genders)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/8f7db1b9-5480-4b59-b31e-f3e4037ae0c8/",
+   "reason": "titre exclu (internship)",
+   "at": "2026-11-21T13:32:49+00:00"
+  },
+  {
+   "id": "071175adb122",
+   "company": "jobs.ch",
+   "title": "Wirtschaftsinformatiker:in / Application Analyst EPIC Cupid and Radiant (a)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/58e169b0-4ade-4ee7-87b0-e3f7e5f51121/",
+   "reason": "annonce en allemand (titre)",
+   "at": "2026-11-21T13:32:47+00:00"
+  },
+  {
+   "id": "951fcd7aa816",
+   "company": "jobs.ch",
+   "title": "PI Server Data Historian Engineer - Sisslerfeld Site Development (a) 100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/fd1b0037-4912-4f8c-b422-b8c5ec224bbf/",
+   "reason": "expérience demandée ≥ 3 ans « que, automatisation ou formation equivalente experience de plusieurs annees avec le systeme osisoft »",
+   "at": "2026-11-21T13:32:46+00:00"
+  },
+  {
+   "id": "ba1340ccc4b8",
+   "company": "HelloWork",
+   "title": "Consultant·e Senior Ai - Machine Learning Aws H/F Devoteam France",
+   "url": "https://www.hellowork.com/fr-fr/emplois/81534774.html",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-21T13:32:11+00:00"
+  },
+  {
+   "id": "d22f6389cf3f",
+   "company": "HelloWork",
+   "title": "Architecte Data - IA - Industries H/F Scalian",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84643223.html",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-21T13:32:11+00:00"
+  },
+  {
+   "id": "bee4a04b3560",
+   "company": "HelloWork",
+   "title": "Head Of ai & System H/F Spendesk",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85091528.html",
+   "reason": "titre exclu (head)",
+   "at": "2026-11-21T13:32:04+00:00"
+  },
+  {
+   "id": "4726a6ad219d",
+   "company": "HelloWork",
+   "title": "Ecofi Investissements - Analyste Ethique H/F Crédit Coopératif",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85089334.html",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « Vous avez déjà acquis une expérience sur un poste similaire. » (retirée)",
+   "at": "2026-11-21T13:31:25+00:00"
+  },
+  {
+   "id": "5dd17a37a0c3",
+   "company": "HelloWork",
+   "title": "Business Analyst - Transport H/F CGI",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84620493.html",
+   "reason": "expérience demandée ≥ 5 ans « valent), vous avez une experience d'au moins 5 ans sur un poste similaire d »",
+   "at": "2026-11-21T13:30:55+00:00"
+  },
+  {
+   "id": "2aaf6927c57a",
+   "company": "HelloWork",
+   "title": "Credit Desk Analyst Sell Side - Credit Industriel et Commercial H/F CREDIT INDUSTRIEL ET COMMERCIAL",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84657576.html",
+   "reason": "expérience demandée ≥ 5 ans « e commerce et/ou master 2 d'universite) avec 5-10 ans min d'experience en tant »",
+   "at": "2026-11-21T13:30:52+00:00"
+  },
+  {
+   "id": "3d593c524c64",
+   "company": "HelloWork",
+   "title": "Compliance Analyst - Anglais Bilingue H/F GR Intérim & Recrutement",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85756521.html",
+   "reason": "titre exclu (interim)",
+   "at": "2026-11-21T13:30:50+00:00"
+  },
+  {
+   "id": "c035e78df034",
+   "company": "HelloWork",
+   "title": "Business Analyst H/F GROUPE ZEPHYR",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85755438.html",
+   "reason": "expérience demandée ≥ 3 ans « rmation, qualite, organisation ou equivalent.experience significative en amoa, gestion de proj »",
+   "at": "2026-11-21T13:30:50+00:00"
+  },
   {
    "id": "8ae45cd5af02",
    "company": "jobup.ch",
