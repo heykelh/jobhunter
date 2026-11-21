@@ -14,7 +14,7 @@ import sys
 from pathlib import Path
 
 from . import cv as cvgen
-from .__main__ import load_config
+from .__main__ import CONFIGS, LISTS, load_config
 from .sources import Fetcher, detail_for
 from .store import ROOT, SITE_DATA, _load
 
@@ -23,7 +23,7 @@ log = logging.getLogger("jobwatch")
 
 def find_job(job_id: str, data: str) -> tuple[dict | None, str]:
     """Cherche l'offre dans la liste demandée, puis dans l'autre (au cas où)."""
-    order = [data, "boards" if data == "main" else "main"]
+    order = [data] + [n for n in LISTS if n != data]
     for name in order:
         d = SITE_DATA if name == "main" else SITE_DATA / name
         for j in _load(d / "jobs.json", {}).get("jobs", []):
@@ -52,7 +52,7 @@ def run(argv=None) -> int:
     if not job:
         log.error("Offre %s introuvable (déjà retirée du site ?)", args.id)
         return 1
-    cfg = load_config(ROOT / ("config.yaml" if data == "main" else "config_boards.yaml"))
+    cfg = load_config(ROOT / CONFIGS.get(data, "config.yaml"))
     comp = source_for(job, cfg)
     text = ""
     if comp.get("details", True):

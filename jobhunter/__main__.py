@@ -31,6 +31,8 @@ log = logging.getLogger("jobwatch")
 # À augmenter quand les règles de tri changent : les offres déjà affichées sont alors
 # revérifiées (fiche rouverte) et retirées si elles ne passent plus.
 RULES_VERSION = 6   # v6 : offres écartées « expérience non précisée » pendant la panne de l'IA (modèle retiré) réexaminées
+LISTS = ["main", "boards", "ats"]   # sites carrière · sites d'emploi · plateformes Workday / SmartRecruiters
+CONFIGS = {"main": "config.yaml", "boards": "config_boards.yaml", "ats": "config_ats.yaml"}
 LATER = "__later__"  # pas de verdict possible ce passage (budget IA épuisé ou IA en panne) : on réessaiera
 
 
@@ -90,7 +92,7 @@ def run(argv=None) -> int:
     ap.add_argument("--diagnose", action="store_true")
     ap.add_argument("--only", default="")
     ap.add_argument("--config", default=str(ROOT / "config.yaml"))
-    ap.add_argument("--data", default="main", help="main = sites carrière, boards = sites d'emploi (APEC, HelloWork)")
+    ap.add_argument("--data", default="main", help="main = sites carrière, boards = sites d'emploi, ats = Workday et SmartRecruiters")
     args = ap.parse_args(argv)
     logging.basicConfig(level=logging.INFO, format="%(message)s", stream=sys.stdout)
 
@@ -100,10 +102,11 @@ def run(argv=None) -> int:
     if args.diagnose:
         fetcher.dump_dir = store.dir / "diag"     # pages vides gardées pour comprendre pourquoi (commit avec les données)
     store = Store(args.data)
-    store.see_also(SITE_DATA if args.data != "main" else SITE_DATA / "boards")
+    other_dirs = [SITE_DATA if n == "main" else SITE_DATA / n for n in LISTS if n != args.data]
+    for d in other_dirs:
+        store.see_also(d)                      # une offre déjà dans une autre liste n'est pas ajoutée deux fois
     run_start = now()
-    other_dir = SITE_DATA if args.data != "main" else SITE_DATA / "boards"
-    history = ghost.History(store.dir / "history.json", [other_dir / "history.json"])
+    history = ghost.History(store.dir / "history.json", [d / "history.json" for d in other_dirs])
     notifier = Notifier(cfg)
     progress = Progress(notifier)
     alert_after = int(cfg.get("alert_after_failures", 6))

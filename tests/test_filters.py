@@ -378,3 +378,73 @@ def test_ai_failure_is_retried_later(monkeypatch):
     text = "Nous recherchons un Data Analyst pour notre équipe. " * 20
     ok, reason, _ = judge(crit, ai, {"name": "X"}, "Data Analyst", "Paris CDI", type("D", (), {"text": text, "structured": "Paris CDI", "extra": {}})())
     assert not ok and reason == LATER
+
+
+class _R:
+    def __init__(self, js=None, code=200, text=""):
+        self._js, self.status_code, self.text, self.headers = js, code, text, {}
+    def json(self): return self._js
+    def raise_for_status(self):
+        if self.status_code >= 400: raise RuntimeError(self.status_code)
+
+
+def _fetcher(get=None, post=None):
+    from jobhunter.sources import Fetcher
+    f = Fetcher.__new__(Fetcher)
+    f.diag, f.json_calls, f.json_payloads, f.dump_dir = [], [], [], None
+    f._polite = lambda url: None
+    f.s = type("S", (), {})()
+    f.s.get, f.s.post = get, post
+    f.s.cookies = {}
+    return f
+
+
+def test_smartrecruiters_collect_and_detail():
+    from jobhunter.sources import collect, detail_for
+    calls = []
+    def get(url, headers=None, timeout=0, params=None):
+        calls.append(url)
+        if "/postings/111" in url:
+            return _R({"name": "Data Analyst H/F", "releasedDate": "2026-11-18T10:00:00Z",
+                       "location": {"fullLocation": "Paris, France"}, "typeOfEmployment": {"label": "CDI"},
+                       "jobAd": {"sections": {"jobDescription": {"text": "<p>Analyse des données</p>"},
+                                              "qualifications": {"text": "<p>Débutant accepté</p>"}}}})
+        return _R({"totalFound": 2, "content": [
+            {"id": "111", "name": "Data Analyst H/F", "releasedDate": "2026-11-18T10:00:00Z",
+             "location": {"city": "Paris", "country": "fr"}, "typeOfEmployment": {"label": "CDI"}, "company": {"name": "Talan"}},
+            {"id": "222", "name": "Comptable", "location": {"city": "Paris"}}]})
+    f = _fetcher(get=get)
+    comp = {"name": "Talan", "source": "smartrecruiters", "company_id": "Talan", "countries": ["fr"]}
+    ls, errs = collect(comp, f, ["data"], lambda t: "data" in t.lower())
+    assert not errs and [l.title for l in ls] == ["Data Analyst H/F"]
+    assert ls[0].url == "https://jobs.smartrecruiters.com/Talan/111" and "CDI" in ls[0].context
+    d = detail_for(comp, f, ls[0].url)
+    assert "Analyse des données" in d.text and "Paris" in d.structured and "CDI" in d.structured
+
+
+def test_workday_detail_api():
+    from jobhunter.sources import detail_for
+    def get(url, headers=None, timeout=0):
+        assert url == "https://x.wd3.myworkdayjobs.com/wday/cxs/x/Site/job/Paris/Data-Analyst_R1"
+        return _R({"jobPostingInfo": {"title": "Data Analyst", "jobDescription": "<p>CDI à Paris, SQL</p>",
+                                      "location": "Paris", "timeType": "Full time", "startDate": "2026-11-17"}})
+    comp = {"source": "workday", "api": "https://x.wd3.myworkdayjobs.com/wday/cxs/x/Site/jobs",
+            "public_url": "https://x.wd3.myworkdayjobs.com/Site"}
+    d = detail_for(comp, _fetcher(get=get), "https://x.wd3.myworkdayjobs.com/Site/job/Paris/Data-Analyst_R1")
+    assert "CDI à Paris" in d.text and "Paris" in d.structured
+
+
+def test_francetravail(monkeypatch):
+    import jobhunter.sources as src
+    monkeypatch.setenv("FT_CLIENT_ID", "a"); monkeypatch.setenv("FT_CLIENT_SECRET", "b")
+    src._ft_token.clear()
+    post = lambda url, timeout=0, data=None: _R({"access_token": "t", "expires_in": 1400})
+    def get(url, params=None, timeout=0, headers=None):
+        assert params["motsCles"] == "data" and params["region"] == "11" and headers["Authorization"] == "Bearer t"
+        return _R({"resultats": [{"id": "1AB", "intitule": "Data analyst (H/F)", "description": "Missions… Débutant accepté",
+                                  "lieuTravail": {"libelle": "75 - Paris 8e"}, "typeContrat": "CDI",
+                                  "typeContratLibelle": "Contrat à durée indéterminée", "experienceLibelle": "Débutant accepté",
+                                  "entreprise": {"nom": "ACME"}, "dateCreation": "2026-11-20T08:00:00.000Z",
+                                  "origineOffre": {"urlOrigine": "https://candidat.francetravail.fr/offres/recherche/detail/1AB"}}]})
+    ls, errs = src.collect({"name": "France Travail", "source": "francetravail"}, _fetcher(get=get, post=post), ["data"], None)
+    assert not errs and ls[0].employer == "ACME" and ls[0].detail and "Paris" in ls[0].detail.structured

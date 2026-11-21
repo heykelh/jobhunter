@@ -60,6 +60,8 @@
   .lists a:hover { color: var(--board-ink); }
   .lists a[aria-current="page"] { background: var(--board-ink); color: var(--board); font-weight: 500; }
   @media (max-width: 680px) { .lists { order: 3; margin: 12px 0 0; width: 100%; } .lists a { flex: 1; text-align: center; } }
+  .sr-short { display: none; }
+  @media (max-width: 520px) { .sr-long { display: none; } .sr-short { display: inline; } .lists a { padding: 6px 6px; font-size: 13px; } }
   .topbar .right { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; color: var(--board-muted); font-size: 13.5px; font-weight: 300; }
   .live { display: inline-flex; align-items: center; gap: 7px; }
   .live::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--brand); box-shadow: 0 0 0 3px rgba(23,184,144,.22); }
@@ -299,6 +301,7 @@
       <nav class="lists" aria-label="Listes d'offres">
         <a href="./" data-list="main">Sites carrière</a>
         <a href="./?p=boards" data-list="boards">Sites d'emploi</a>
+        <a href="./?p=ats" data-list="ats" title="Offres lues directement sur les plateformes Workday et SmartRecruiters">Workday · <span class="sr-long">SmartRecruiters</span><span class="sr-short">SR</span></a>
       </nav>
       <div class="right">
         <button class="btn-board" id="install" hidden>Installer l'appli</button>
@@ -311,7 +314,7 @@
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 1 1-2.64-6.36"/><path d="M21 3v6h-6"/></svg>
         <span id="go-label">Lancer une recherche maintenant</span>
       </button>
-      <p class="what" id="run-what" data-boards="Le robot va lire <strong>les grands sites d'emploi</strong> (HelloWork, jobs.ch, jobup.ch, Moovijob) avec tes mots-clés. Il ouvre chaque fiche, garde celles qui collent à tes critères et t'envoie une notif par nouvelle offre. Une offre déjà vue sur un site carrière n'est pas ajoutée deux fois. Compte <strong>10 à 25 minutes</strong>. Tu peux fermer la page, il continue sans toi.">Le robot va visiter <strong>tous les sites carrière que tu suis</strong>, un par un. Il garde les offres qui collent à tes critères et t'envoie une notif par nouvelle offre. Le CV adapté se fait ensuite à la demande, depuis chaque offre. Compte <strong>10 à 25 minutes</strong>. Tu peux fermer la page, il continue sans toi.</p>
+      <p class="what" id="run-what" data-ats="Le robot va interroger <strong>Workday et SmartRecruiters</strong>, les plateformes de recrutement d'une quarantaine d'employeurs (Banque de France, Sanofi, Chanel, Renault, Publicis, Free, Talan…), avec tes mots-clés. Il garde les offres qui collent à tes critères et t'envoie une notif par nouvelle offre. Une offre déjà vue dans une autre liste n'est pas ajoutée deux fois. Compte <strong>10 à 20 minutes</strong>. Tu peux fermer la page, il continue sans toi." data-boards="Le robot va lire <strong>les grands sites d'emploi</strong> (HelloWork, jobs.ch, jobup.ch, Moovijob) avec tes mots-clés. Il ouvre chaque fiche, garde celles qui collent à tes critères et t'envoie une notif par nouvelle offre. Une offre déjà vue sur un site carrière n'est pas ajoutée deux fois. Compte <strong>10 à 25 minutes</strong>. Tu peux fermer la page, il continue sans toi.">Le robot va visiter <strong>tous les sites carrière que tu suis</strong>, un par un. Il garde les offres qui collent à tes critères et t'envoie une notif par nouvelle offre. Le CV adapté se fait ensuite à la demande, depuis chaque offre. Compte <strong>10 à 25 minutes</strong>. Tu peux fermer la page, il continue sans toi.</p>
       <p class="last" id="run-last"></p>
       <div class="run-live" id="run-live" hidden></div>
     </section>
@@ -368,7 +371,7 @@
   </section>
 
   <section id="tab-ghosts" hidden>
-    <p class="lead">Annonces fantômes : republiées en boucle, en ligne depuis des mois, viviers de CV déguisés, ou que tu as signalées. Elles sont retirées des listes et ne déclenchent plus de notif. Cette section regroupe les sites carrière et les sites d'emploi. Les raisons sont sous chaque annonce.</p>
+    <p class="lead">Annonces fantômes : republiées en boucle, en ligne depuis des mois, viviers de CV déguisés, ou que tu as signalées. Elles sont retirées des listes et ne déclenchent plus de notif. Cette section regroupe les trois listes. Les raisons sont sous chaque annonce.</p>
     <div id="ghosts"></div>
   </section>
 
@@ -387,9 +390,11 @@
 <script>
 const $ = s => document.querySelector(s);
 // Deux listes sur la même page : sites carrière (data/) et sites d'emploi (data/boards/)
-const LIST = new URLSearchParams(location.search).get("p") === "boards" ? "boards" : "main";
-const DATA_DIR = LIST === "boards" ? "data/boards" : "data";
-const API_RUN = LIST === "boards" ? "api/run?w=boards" : "api/run";
+// Trois listes sur la même page : sites carrière (data/), sites d'emploi (data/boards/), Workday · SmartRecruiters (data/ats/)
+const LISTS = { main: "Sites carrière", boards: "Sites d'emploi", ats: "Workday · SmartRecruiters" };
+const LIST = (p => LISTS[p] && p !== "main" ? p : "main")(new URLSearchParams(location.search).get("p"));
+const DATA_DIR = LIST === "main" ? "data" : "data/" + LIST;
+const API_RUN = LIST === "main" ? "api/run" : "api/run?w=" + LIST;
 const store = {
   get(k, d) { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch { return d; } },
   set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
@@ -501,15 +506,17 @@ async function load(name, fallback) {
 async function init() {
   const [jobs, rej, health, meta, other] = await Promise.all([
     load("jobs", { jobs: [] }), load("rejected", { items: [] }), load("health", { companies: {} }), load("meta", {}),
-    fetch(`${LIST === "boards" ? "data" : "data/boards"}/jobs.json?t=${Date.now()}`).then(r => r.ok ? r.json() : { jobs: [] }).catch(() => ({ jobs: [] }))
+    Promise.all(Object.keys(LISTS).filter(l => l !== LIST).map(l =>
+      fetch(`${l === "main" ? "data" : "data/" + l}/jobs.json?t=${Date.now()}`).then(r => r.ok ? r.json() : { jobs: [] }).catch(() => ({ jobs: [] }))
+        .then(d => (d.jobs || []).map(j => ({ ...j, list: l })))))
   ]);
-  OTHER_JOBS = (other.jobs || []).map(j => ({ ...j, title: decode(j.title), company: decode(j.company), list: LIST === "boards" ? "main" : "boards" }));
+  OTHER_JOBS = other.flat().map(j => ({ ...j, title: decode(j.title), company: decode(j.company) }));
   DATA = { jobs: jobs.jobs || [], rejected: rej.items || [], health: health.companies || {}, meta };
   for (const j of [...DATA.jobs, ...DATA.rejected]) { j.title = decode(j.title); j.company = decode(j.company); }
   $("#updated").textContent = jobs.updated ? `Mis à jour ${ago(jobs.updated)}` : "Pas encore de données";
   if (meta.keywords) {
     const zones = (meta.zones || []).join(", ");
-    $("#criteria").innerHTML = `Tu suis <strong>${esc(meta.keywords.join(", "))}</strong> en ${esc(meta.contracts.join(" ou "))}, jusqu'à ${meta.max_experience_years} ans d'expérience, sur ${esc(zones)}, ${LIST === "boards" ? `sur ${esc(meta.companies.join(" et "))}` : `dans ${meta.companies.length} entreprises et sites d'annonces`}.`;
+    $("#criteria").innerHTML = `Tu suis <strong>${esc(meta.keywords.join(", "))}</strong> en ${esc(meta.contracts.join(" ou "))}, jusqu'à ${meta.max_experience_years} ans d'expérience, sur ${esc(zones)}, ${LIST === "boards" ? `sur ${esc(meta.companies.join(" et "))}` : LIST === "ats" ? `chez ${meta.companies.length} employeurs sur Workday et SmartRecruiters` : `dans ${meta.companies.length} entreprises et sites d'annonces`}.`;
   }
   const companies = [...new Set(DATA.jobs.map(j => j.company))].sort((a, b) => a.localeCompare(b, "fr"));
   $("#company").innerHTML += companies.map(c => `<option>${esc(c)}</option>`).join("");
@@ -626,7 +633,7 @@ function renderJobs() {
         ${skills(j)}
         <div class="actions">
           <a class="btn go" href="${esc(j.url)}" target="_blank" rel="noopener">Voir et postuler ${ICON.ext}</a>
-          <a class="btn" href="cv.html?id=${encodeURIComponent(j.id)}${LIST === "boards" ? "&p=boards" : ""}">${ICON.doc}CV pour cette offre</a>
+          <a class="btn" href="cv.html?id=${encodeURIComponent(j.id)}${LIST !== "main" ? "&p=" + LIST : ""}">${ICON.doc}CV pour cette offre</a>
           ${statusSelect(j.id)}
           <button class="btn quiet" data-hide="${esc(j.id)}">Masquer</button>
           <button class="btn quiet" data-ghost="${esc(gkey(j))}" title="Annonce vue et revue, sans doute fausse : la ranger dans « Fantômes »">Signaler fantôme</button>
@@ -660,7 +667,7 @@ function renderApps() {
         <div class="actions">
           ${statusSelect(id)}
           ${a.status === "postule" ? `<button class="btn" data-relance="${esc(id)}">J'ai relancé</button>` : ""}
-          ${onSite ? `<a class="btn" href="cv.html?id=${encodeURIComponent(id)}${LIST === "boards" ? "&p=boards" : ""}">${ICON.doc}CV</a>` : ""}
+          ${onSite ? `<a class="btn" href="cv.html?id=${encodeURIComponent(id)}${LIST !== "main" ? "&p=" + LIST : ""}">${ICON.doc}CV</a>` : ""}
           <button class="btn quiet" data-forget="${esc(id)}">Retirer du suivi</button>
         </div></article>`; }).join("")}`).join("");
 }
@@ -676,7 +683,7 @@ function renderGhosts() {
     const mine = !!myGhosts[gkey(j)];
     const reasons = [...(mine ? [`signalée par toi le ${fmtDay(myGhosts[gkey(j)])}`] : []), ...((j.ghost && j.ghost.reasons) || [])];
     return `<div class="rej ghost-card">
-      <div class="top"><span>${flag(countryOf(j))} ${esc(j.company)}${j.via ? ` · via ${esc(j.via)}` : ""}<span class="src-tag">${j.list === "boards" ? "Sites d'emploi" : "Sites carrière"}</span></span>
+      <div class="top"><span>${flag(countryOf(j))} ${esc(j.company)}${j.via ? ` · via ${esc(j.via)}` : ""}<span class="src-tag">${esc(LISTS[j.list] || LISTS.main)}</span></span>
         <span>${j.ghost && j.ghost.since ? "depuis le " + esc(fmtDay(j.ghost.since)) : ""}</span></div>
       <a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
       <ul>${reasons.map(r => `<li>${esc(r.charAt(0).toUpperCase() + r.slice(1))}</li>`).join("")}</ul>
@@ -858,9 +865,9 @@ pollRun();
 
 // Mode de la page
 document.querySelectorAll(".lists a").forEach(a => { if (a.dataset.list === LIST) a.setAttribute("aria-current", "page"); });
-if (LIST === "boards") {
-  document.title = "JobHunter · Sites d'emploi";
-  $("#run-what").innerHTML = $("#run-what").dataset.boards;
+if (LIST !== "main") {
+  document.title = "JobHunter · " + LISTS[LIST];
+  $("#run-what").innerHTML = $("#run-what").dataset[LIST];
 }
 
 // Tableau du haut repliable (choix mémorisé sur l'appareil)

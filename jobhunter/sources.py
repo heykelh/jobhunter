@@ -654,6 +654,155 @@ def collect_workday(comp: dict, fetcher: Fetcher, keywords: list[str], keyword_h
     return list(out.values()), errors
 
 
+def _html_to_text(h: str) -> str:
+    return squash(BeautifulSoup(h or "", "lxml").get_text(" "))
+
+
+def fetch_workday_detail(comp: dict, fetcher: Fetcher, url: str) -> Detail:
+    """Fiche Workday lue par l'API (…/wday/cxs/<tenant>/<site>/job/…) : texte complet sans navigateur."""
+    api, public = comp["api"].rstrip("/"), comp["public_url"].rstrip("/")
+    path = url[len(public):] if url.startswith(public) else "/job/" + url.split("/job/", 1)[-1]
+    api_url = api[: -len("/jobs")] + path if api.endswith("/jobs") else api + path
+    fetcher._polite(api_url)
+    r = fetcher.s.get(api_url, headers={"Accept": "application/json"}, timeout=30)
+    if r.status_code >= 400:
+        return fetch_detail(fetcher, url)                   # repli : la page publique
+    info = (r.json() or {}).get("jobPostingInfo") or {}
+    d = Detail(text=_html_to_text(info.get("jobDescription")), title=clean_title(info.get("title") or "") or None)
+    locs = [info.get("location") or ""] + list(info.get("additionalLocations") or [])
+    d.structured = squash(" · ".join(filter(None, locs + [info.get("country", {}).get("descriptor") if isinstance(info.get("country"), dict) else "",
+                                                         info.get("timeType") or "", info.get("remoteType") or ""])))
+    d.published = parse_date(info.get("startDate")) or relative_date(info.get("postedOn") or "")
+    org = (r.json() or {}).get("hiringOrganization") or {}
+    d.employer = org.get("name") if isinstance(org, dict) else None
+    return d
+
+
+# ------------------------------------------------------------- France Travail (API officielle)
+FT_TOKEN_URL = "https://entreprise.francetravail.fr/connexion/oauth2/access_token?realm=%2Fpartenaire"
+FT_SEARCH = "https://api.francetravail.io/partenaire/offresdemploi/v2/offres/search"
+_ft_token: dict = {}
+
+
+def _francetravail_token(fetcher: Fetcher) -> str:
+    import os
+    cid, secret = os.getenv("FT_CLIENT_ID", "").strip(), os.getenv("FT_CLIENT_SECRET", "").strip()
+    if not cid or not secret:
+        raise RuntimeError("clés France Travail absentes : ajoute les secrets GitHub FT_CLIENT_ID et FT_CLIENT_SECRET")
+    if _ft_token.get("exp", 0) > time.time() + 30:
+        return _ft_token["tok"]
+    r = fetcher.s.post(FT_TOKEN_URL, timeout=30, data={"grant_type": "client_credentials", "client_id": cid,
+                                                       "client_secret": secret, "scope": "api_offresdemploiv2 o2dsoffre"})
+    r.raise_for_status()
+    js = r.json()
+    _ft_token.update(tok=js["access_token"], exp=time.time() + int(js.get("expires_in", 1400)))
+    return _ft_token["tok"]
+
+
+def collect_francetravail(comp: dict, fetcher: Fetcher, keywords: list[str]) -> tuple[list[Listing], list[str]]:
+    """API « Offres d'emploi v2 » de France Travail : ses offres et celles de ses sites partenaires
+    (description complète fournie : aucune fiche à rouvrir)."""
+    out, errors = {}, []
+    try:
+        tok = _francetravail_token(fetcher)
+    except Exception as e:
+        return [], [f"France Travail → {type(e).__name__}: {str(e)[:160]}"]
+    params_base = {"typeContrat": ",".join(comp.get("contracts", ["CDI", "CDD"])), "sort": 1,
+                   "publieeDepuis": comp.get("published_within_days", 14), "range": "0-149"}
+    params_base.update(comp.get("params", {"region": "11"}))          # 11 = Île-de-France
+    for q in comp.get("search_terms") or keywords:
+        try:
+            fetcher._polite(FT_SEARCH)
+            r = fetcher.s.get(FT_SEARCH, params={**params_base, "motsCles": q}, timeout=30,
+                              headers={"Authorization": f"Bearer {tok}", "Accept": "application/json"})
+            if r.status_code == 204:                                   # aucune offre
+                continue
+            r.raise_for_status()
+            for o in r.json().get("resultats", []):
+                url = ((o.get("origineOffre") or {}).get("urlOrigine")
+                       or f"https://candidat.francetravail.fr/offres/recherche/detail/{o['id']}")
+                lieu = (o.get("lieuTravail") or {}).get("libelle") or ""
+                contrat = o.get("typeContratLibelle") or o.get("typeContrat") or ""
+                xp = o.get("experienceLibelle") or ""
+                partners = ", ".join(p.get("nom", "") for p in (o.get("origineOffre") or {}).get("partenaires") or [])
+                d = Detail(text=squash(o.get("description") or ""),
+                           structured=squash(" · ".join(filter(None, [lieu, contrat, o.get("typeContrat"), xp]))),
+                           title=clean_title(o.get("intitule") or ""), published=parse_date(o.get("dateCreation")),
+                           employer=(o.get("entreprise") or {}).get("nom"))
+                if partners:
+                    d.extra["partenaires"] = partners
+                out.setdefault(url, Listing(url=url, title=d.title, context=d.structured, published=d.published,
+                                            employer=d.employer, detail=d))
+        except Exception as e:
+            errors.append(f"France Travail [{q}] → {type(e).__name__}: {str(e)[:140]}")
+    fetcher.diag.append(f"[france-travail] {len(out)} offres via l'API")
+    return list(out.values()), (errors if not out else [])
+
+
+# ------------------------------------------------------------- SmartRecruiters
+SR_API = "https://api.smartrecruiters.com/v1/companies"
+
+
+def collect_smartrecruiters(comp: dict, fetcher: Fetcher, keyword_hit=None) -> tuple[list[Listing], list[str]]:
+    """API publique SmartRecruiters : toutes les offres d'une entreprise dans les pays suivis,
+    triées ensuite par mots-clés sur l'intitulé (moins de requêtes qu'une recherche par mot-clé)."""
+    cid = comp["company_id"]
+    out, errors = {}, []
+    for country in comp.get("countries", ["fr", "ch", "lu"]):
+        offset, total = 0, 1
+        while offset < min(total, int(comp.get("max_postings", 400))):
+            url = f"{SR_API}/{cid}/postings?country={country}&limit=100&offset={offset}"
+            try:
+                fetcher._polite(url)
+                r = fetcher.s.get(url, headers={"Accept": "application/json"}, timeout=30)
+                r.raise_for_status()
+                data = r.json()
+            except Exception as e:
+                errors.append(f"{url} → {type(e).__name__}: {str(e)[:120]}")
+                break
+            total = int(data.get("totalFound") or 0)
+            items = data.get("content") or []
+            for p in items:
+                title = clean_title(p.get("name") or "")
+                if not title or (keyword_hit and not keyword_hit(title)):
+                    continue
+                loc = p.get("location") or {}
+                where = loc.get("fullLocation") or ", ".join(filter(None, [loc.get("city"), loc.get("region"), loc.get("country")]))
+                ctx = squash(" · ".join(filter(None, [where, (p.get("typeOfEmployment") or {}).get("label"),
+                                                      (p.get("experienceLevel") or {}).get("label")])))
+                link = f"https://jobs.smartrecruiters.com/{cid}/{p['id']}"
+                out.setdefault(link, Listing(url=link, title=title, context=ctx, published=parse_date(p.get("releasedDate")),
+                                             employer=(p.get("company") or {}).get("name")))
+            if not items:
+                break
+            offset += 100
+    fetcher.diag.append(f"[smartrecruiters] {len(out)} offres avec mots-clés via l'API ({cid})")
+    return list(out.values()), (errors if not out else [])
+
+
+def fetch_smartrecruiters_detail(fetcher: Fetcher, url: str) -> Detail:
+    m = re.search(r"smartrecruiters\.com/([^/]+)/(\d+)", url)
+    if not m:
+        return fetch_detail(fetcher, url)
+    api = f"{SR_API}/{m.group(1)}/postings/{m.group(2)}"
+    fetcher._polite(api)
+    r = fetcher.s.get(api, headers={"Accept": "application/json"}, timeout=30)
+    if r.status_code >= 400:
+        return fetch_detail(fetcher, url)
+    p = r.json() or {}
+    sec = ((p.get("jobAd") or {}).get("sections") or {})
+    text = " ".join(_html_to_text((sec.get(k) or {}).get("text")) for k in
+                    ("jobDescription", "qualifications", "additionalInformation", "companyDescription"))
+    loc = p.get("location") or {}
+    d = Detail(text=squash(text), title=clean_title(p.get("name") or "") or None)
+    d.structured = squash(" · ".join(filter(None, [loc.get("fullLocation") or ", ".join(filter(None, [loc.get("city"), loc.get("country")])),
+                                                   (p.get("typeOfEmployment") or {}).get("label"),
+                                                   (p.get("experienceLevel") or {}).get("label")])))
+    d.published = parse_date(p.get("releasedDate"))
+    d.employer = (p.get("company") or {}).get("name")
+    return d
+
+
 # ------------------------------------------------------------- Reed.co.uk (Londres)
 REED_API = "https://www.reed.co.uk/api/1.0"
 
@@ -738,6 +887,13 @@ def detail_for(comp: dict, fetcher: Fetcher, url: str) -> Detail:
     """Fiche complète, selon la source."""
     if comp.get("source") == "reed":
         return fetch_reed_detail(fetcher, url)
+    if comp.get("source") == "workday" and not comp.get("render_detail"):
+        try:
+            return fetch_workday_detail(comp, fetcher, url)
+        except Exception:
+            pass
+    if comp.get("source") == "smartrecruiters":
+        return fetch_smartrecruiters_detail(fetcher, url)
     return fetch_detail(fetcher, url, render=comp.get("render_detail", comp.get("render", False)))
 
 
@@ -837,8 +993,12 @@ def collect(comp: dict, fetcher: Fetcher, keywords: list[str], keyword_hit,
             state: dict | None = None) -> tuple[list[Listing], list[str]]:
     """Renvoie (offres trouvées, erreurs par URL)."""
     src = comp.get("source", "html")
-    if src in ("workday", "sequence", "reed"):
+    if src in ("workday", "sequence", "reed", "smartrecruiters", "francetravail"):
         fetcher.diag = []
+        if src == "smartrecruiters":
+            return collect_smartrecruiters(comp, fetcher, keyword_hit)
+        if src == "francetravail":
+            return collect_francetravail(comp, fetcher, keywords)
         if src == "workday":
             return collect_workday(comp, fetcher, keywords, keyword_hit)
         if src == "reed":

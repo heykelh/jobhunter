@@ -5,8 +5,8 @@
 //   NTFY_TOPIC  le même nom de topic ntfy que dans les secrets GitHub (pour lire l'avancement)
 //   GH_REPO     facultatif, "heykelh/jobhunter" par défaut
 const REPO = process.env.GH_REPO || "heykelh/jobhunter";
-// ?w=boards → robot des sites d'emploi ; sinon robot des sites carrière (CV à la demande : api/cv.js)
-const WORKFLOWS = { main: "jobhunter.yml", boards: "boards.yml" };
+// ?w=boards → robot des sites d'emploi · ?w=ats → robot Workday / SmartRecruiters · sinon robot des sites carrière (CV à la demande : api/cv.js)
+const WORKFLOWS = { main: "jobhunter.yml", boards: "boards.yml", ats: "ats.yml" };
 
 async function gh(path, init = {}) {
   const r = await fetch(`https://api.github.com/repos/${REPO}${path}`, {

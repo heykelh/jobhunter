@@ -1,0 +1,296 @@
+# ═══════════════════════════════════════════════════════════════════
+#  JobHunter — plateformes Workday et SmartRecruiters
+#  Mêmes critères que config.yaml (mots-clés, contrats, expérience, zones, allemand…).
+#  Ni Workday ni SmartRecruiters n'ont de recherche commune à toutes les entreprises :
+#  le robot interroge l'API publique de chaque entreprise de la liste ci-dessous.
+#  Une offre déjà présente dans une autre liste n'est pas ajoutée une deuxième fois.
+#  Page du site : onglet « Workday · SmartRecruiters » · workflow GitHub : JobHunter Workday SmartRecruiters
+#
+#  Ajouter une entreprise :
+#   - Workday : l'adresse d'une offre ressemble à https://<hôte>.myworkdayjobs.com/<langue>/<site>/job/…
+#       api: https://<hôte>.myworkdayjobs.com/wday/cxs/<tenant>/<site>/jobs   (tenant = début de l'hôte)
+#       public_url: https://<hôte>.myworkdayjobs.com/<site>
+#   - SmartRecruiters : l'adresse d'une offre ressemble à https://jobs.smartrecruiters.com/<identifiant>/<numéro>
+#       company_id: <identifiant>   countries: [fr, ch, lu]
+# ═══════════════════════════════════════════════════════════════════
+extends: config.yaml
+
+max_details_per_company: 15     # fiches ouvertes par entreprise et par passage
+experience_ai_per_run: 50
+
+# Recherches envoyées à Workday (les mots courts "ai" / "ia" ramènent trop d'offres sans rapport)
+ats_search_terms: &terms [data, analyst, analyste, pricing, revenue management, product builder]
+
+companies:
+
+  # ─── Workday ─────────────────────────────────────────────────────
+  - name: Banque de France
+    source: workday                # Paris : économistes, statisticiens, data scientists, analystes
+    api: https://bdf.wd103.myworkdayjobs.com/wday/cxs/bdf/recrutement-banque-de-france/jobs
+    public_url: https://bdf.wd103.myworkdayjobs.com/recrutement-banque-de-france
+    search_terms: *terms
+    offsets: [0, 20]
+
+  - name: Sanofi
+    source: workday
+    api: https://sanofi.wd3.myworkdayjobs.com/wday/cxs/sanofi/SanofiCareers/jobs
+    public_url: https://sanofi.wd3.myworkdayjobs.com/SanofiCareers
+    search_terms: *terms
+    offsets: [0, 20]
+
+  - name: Pernod Ricard
+    source: workday
+    api: https://pernodricard.wd3.myworkdayjobs.com/wday/cxs/pernodricard/pernod-ricard/jobs
+    public_url: https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard
+    search_terms: *terms
+    offsets: [0, 20]
+
+  - name: Chanel
+    source: workday
+    api: https://cc.wd3.myworkdayjobs.com/wday/cxs/cc/ChanelCareers/jobs
+    public_url: https://cc.wd3.myworkdayjobs.com/ChanelCareers
+    search_terms: *terms
+    offsets: [0, 20]
+
+  - name: Renault Group
+    source: workday
+    api: https://alliancewd.wd3.myworkdayjobs.com/wday/cxs/alliancewd/renault-group-careers/jobs
+    public_url: https://alliancewd.wd3.myworkdayjobs.com/renault-group-careers
+    search_terms: *terms
+    offsets: [0, 20]
+
+  - name: FDJ United
+    source: workday                # Française des Jeux
+    api: https://groupefdj.wd103.myworkdayjobs.com/wday/cxs/groupefdj/FDJ-UNITED/jobs
+    public_url: https://groupefdj.wd103.myworkdayjobs.com/FDJ-UNITED
+    search_terms: *terms
+    offsets: [0, 20]
+
+  - name: AG2R La Mondiale
+    source: workday
+    api: https://ag2rlamondiale.wd3.myworkdayjobs.com/wday/cxs/ag2rlamondiale/Candidats/jobs
+    public_url: https://ag2rlamondiale.wd3.myworkdayjobs.com/Candidats
+    search_terms: *terms
+    offsets: [0, 20]
+
+  - name: Deloitte France
+    source: workday
+    api: https://fina.wd103.myworkdayjobs.com/wday/cxs/fina/DeloitteRecrute/jobs
+    public_url: https://fina.wd103.myworkdayjobs.com/DeloitteRecrute
+    search_terms: *terms
+    offsets: [0, 20]
+
+  - name: PwC (jeunes diplômés)
+    source: workday                # offres juniors de PwC (France, Luxembourg, Suisse…)
+    api: https://pwc.wd3.myworkdayjobs.com/wday/cxs/pwc/Global_Campus_Careers/jobs
+    public_url: https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers
+    search_terms: *terms
+    offsets: [0, 20]
+
+  - name: Pierre Fabre
+    source: workday
+    api: https://pierrefabre.wd3.myworkdayjobs.com/wday/cxs/pierrefabre/External_Career_Site/jobs
+    public_url: https://pierrefabre.wd3.myworkdayjobs.com/External_Career_Site
+    search_terms: *terms
+    offsets: [0, 20]
+
+  - name: Rothschild & Co
+    source: workday
+    api: https://rothschildandco.wd3.myworkdayjobs.com/wday/cxs/rothschildandco/Rothschildandco_Lateral/jobs
+    public_url: https://rothschildandco.wd3.myworkdayjobs.com/Rothschildandco_Lateral
+    search_terms: *terms
+    offsets: [0, 20]
+
+  - name: Ipsen
+    source: workday
+    api: https://ipsen.wd103.myworkdayjobs.com/wday/cxs/ipsen/Ipsen_Careers/jobs
+    public_url: https://ipsen.wd103.myworkdayjobs.com/Ipsen_Careers
+    search_terms: *terms
+    offsets: [0, 20]
+
+  - name: Ardian
+    source: workday
+    api: https://ardian.wd103.myworkdayjobs.com/wday/cxs/ardian/ArdianCareers/jobs
+    public_url: https://ardian.wd103.myworkdayjobs.com/ArdianCareers
+    search_terms: *terms
+    offsets: [0, 20]
+
+  - name: onepoint
+    source: workday
+    api: https://onepoint.wd3.myworkdayjobs.com/wday/cxs/onepoint/WepointEN/jobs
+    public_url: https://onepoint.wd3.myworkdayjobs.com/WepointEN
+    search_terms: *terms
+    offsets: [0, 20]
+
+  - name: Paris Saint-Germain
+    source: workday
+    api: https://parissaintgermain.wd3.myworkdayjobs.com/wday/cxs/parissaintgermain/rejoigneznous/jobs
+    public_url: https://parissaintgermain.wd3.myworkdayjobs.com/rejoigneznous
+    search_terms: *terms
+    offsets: [0, 20]
+
+  - name: Open
+    source: workday                # ESN française
+    api: https://open.wd103.myworkdayjobs.com/wday/cxs/open/OPEN/jobs
+    public_url: https://open.wd103.myworkdayjobs.com/OPEN
+    search_terms: *terms
+    offsets: [0, 20]
+
+  - name: Avanade
+    source: workday
+    api: https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/AvanadeCareers/jobs
+    public_url: https://accenture.wd103.myworkdayjobs.com/AvanadeCareers
+    search_terms: *terms
+    offsets: [0, 20]
+
+  - name: Deutsche Bank
+    source: workday                # Paris et Luxembourg
+    api: https://db.wd3.myworkdayjobs.com/wday/cxs/db/DBWebsite/jobs
+    public_url: https://db.wd3.myworkdayjobs.com/DBWebsite
+    search_terms: *terms
+    offsets: [0, 20]
+
+  - name: Visa
+    source: workday                # bureau de Paris
+    api: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/jobs
+    public_url: https://visa.wd5.myworkdayjobs.com/Visa
+    search_terms: *terms
+    offsets: [0, 20]
+
+  - name: Barclays
+    source: workday
+    api: https://barclays.wd3.myworkdayjobs.com/wday/cxs/barclays/External_Career_Site_Barclays/jobs
+    public_url: https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays
+    search_terms: *terms
+    offsets: [0, 20]
+
+  - name: Lombard Odier
+    source: workday                # Genève et Luxembourg
+    api: https://lombardodier.wd3.myworkdayjobs.com/wday/cxs/lombardodier/Lombard_Odier_Careers/jobs
+    public_url: https://lombardodier.wd3.myworkdayjobs.com/Lombard_Odier_Careers
+    search_terms: *terms
+    offsets: [0, 20]
+
+  - name: Apex Group
+    source: workday                # Luxembourg
+    api: https://theapexgroup.wd3.myworkdayjobs.com/wday/cxs/theapexgroup/apexgroupcareers/jobs
+    public_url: https://theapexgroup.wd3.myworkdayjobs.com/apexgroupcareers
+    search_terms: *terms
+    offsets: [0, 20]
+
+  - name: Northern Trust
+    source: workday                # Luxembourg
+    api: https://ntrs.wd1.myworkdayjobs.com/wday/cxs/ntrs/northerntrust/jobs
+    public_url: https://ntrs.wd1.myworkdayjobs.com/northerntrust
+    search_terms: *terms
+    offsets: [0, 20]
+
+  - name: Fidelity International
+    source: workday                # Luxembourg
+    api: https://fil.wd3.myworkdayjobs.com/wday/cxs/fil/001/jobs
+    public_url: https://fil.wd3.myworkdayjobs.com/001
+    search_terms: *terms
+    offsets: [0, 20]
+
+  - name: Saxo Bank
+    source: workday                # Zurich
+    api: https://saxobank.wd3.myworkdayjobs.com/wday/cxs/saxobank/CareeratSaxoBank/jobs
+    public_url: https://saxobank.wd3.myworkdayjobs.com/CareeratSaxoBank
+    search_terms: *terms
+    offsets: [0, 20]
+
+  # ─── SmartRecruiters (toutes les offres des pays suivis, triées par mots-clés) ──
+  - name: Publicis Groupe
+    source: smartrecruiters
+    company_id: PublicisGroupe
+    countries: [fr]
+
+  - name: Iliad - Free
+    source: smartrecruiters
+    company_id: Iliad-Free
+    countries: [fr]
+
+  - name: Les Mousquetaires
+    source: smartrecruiters
+    company_id: GroupementLesMousquetaires3
+    countries: [fr]
+
+  - name: Free2move
+    source: smartrecruiters
+    company_id: Free2move
+    countries: [fr]
+
+  - name: Meetic
+    source: smartrecruiters
+    company_id: MeeticGroup
+    countries: [fr]
+
+  - name: Tradelab
+    source: smartrecruiters
+    company_id: Tradelab
+    countries: [fr]
+
+  - name: Transaction Connect
+    source: smartrecruiters
+    company_id: TRANSACTIONCONNECT
+    countries: [fr]
+
+  - name: Talan
+    source: smartrecruiters
+    company_id: Talan
+    countries: [fr, lu, ch]
+
+  - name: Wavestone
+    source: smartrecruiters
+    company_id: Wavestone1
+    countries: [fr, lu, ch]
+
+  - name: Sia Partners
+    source: smartrecruiters
+    company_id: Sia
+    countries: [fr, lu, ch]
+
+  - name: Magellan Partners
+    source: smartrecruiters
+    company_id: Magellan
+    countries: [fr]
+
+  - name: ALTEN
+    source: smartrecruiters
+    company_id: ALTEN
+    countries: [fr]
+
+  - name: Meritis
+    source: smartrecruiters
+    company_id: Meritis
+    countries: [fr]
+
+  - name: NEXTON
+    source: smartrecruiters
+    company_id: NEXTON
+    countries: [fr, ch]
+
+  - name: Everience
+    source: smartrecruiters
+    company_id: EVERIENCE
+    countries: [fr]
+
+  - name: Bertelsmann
+    source: smartrecruiters
+    company_id: Bertelsmann-Jobs
+    countries: [lu]
+
+  - name: Swiss Medical Network
+    source: smartrecruiters
+    company_id: SwissMedicalNetwork1
+    countries: [ch]
+
+  - name: Nexthink
+    source: smartrecruiters
+    company_id: Nexthink
+    countries: [ch]
+
+  - name: Evooq
+    source: smartrecruiters
+    company_id: Evooq
+    countries: [ch]

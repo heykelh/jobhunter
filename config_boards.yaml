@@ -30,6 +30,15 @@ companies:
     render_detail: true
     default_location: ile-de-france
 
+  - name: France Travail
+    enabled: false              # à activer (true) une fois les secrets FT_CLIENT_ID et FT_CLIENT_SECRET ajoutés sur GitHub
+    source: francetravail       # API officielle et gratuite : offres France Travail + sites partenaires, description complète
+    aggregator: true
+    contracts: [CDI, CDD]
+    published_within_days: 14
+    params:
+      region: "11"              # Île-de-France
+
   - name: HelloWork
     source: html                # chaque fiche contient ses données structurées (employeur, lieu, contrat, date)
     aggregator: true

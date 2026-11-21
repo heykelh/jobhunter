@@ -57,6 +57,8 @@ jobs:
           NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           REED_API_KEY: ${{ secrets.REED_API_KEY }}
+          FT_CLIENT_ID: ${{ secrets.FT_CLIENT_ID }}
+          FT_CLIENT_SECRET: ${{ secrets.FT_CLIENT_SECRET }}
           NTFY_SERVER: ${{ vars.NTFY_SERVER }}
           MODE: ${{ github.event.inputs.mode }}
           ONLY: ${{ github.event.inputs.only }}

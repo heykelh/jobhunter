@@ -146,6 +146,7 @@ alert_after_failures: 6          # notif "source en panne" après 6 passages rat
 #  source: rss   → url d'un flux RSS (le plus fiable)
 #  source: json      → url d'une API JSON (offres lues directement)
 #  source: workday   → sites Workday : api + public_url (ex. Eiffage)
+#  source: smartrecruiters → API publique SmartRecruiters : company_id + countries (ex. Accor)
 #  source: sequence  → fiches à numéro croissant lues une à une (ex. EDF / Enedis)
 #  source: html  → urls de pages de résultats ; {q} = remplacé par chaque mot-clé
 #                  render: true    = ouvrir avec un vrai navigateur (sites en JavaScript)
@@ -180,13 +181,14 @@ companies:
     link_pattern: /annonce/\d+
 
   - name: RATP
-    source: html                # site recrutement ratp.fr (chargé en JavaScript) : offres dont l'intitulé contient un mot-clé
-    render: true                # ajouté le 19/11/2026, à confirmer par un passage en mode diagnose
-    scroll: 4
+    source: html                # site ratp.fr/carrieres (Drupal, chargé en JavaScript) : offres dont l'intitulé contient un mot-clé
+    render: true                # l'ancienne adresse /recrutement/offres ne listait plus rien (19/11/2026)
+    scroll: 3
     wait_ms: 6000
     urls:
-      - https://www.ratp.fr/recrutement/offres
-
+      - https://www.ratp.fr/carrieres?created=Date&field_diplomes_target_id=All&field_domaine_metier_target_id=All&field_offre_lieu_value=&field_type_d_offre_target_id=All&page={page}
+    pages: [0, 1, 2, 3, 4]
+    default_location: ile-de-france
   - name: Groupe ADP
     source: html                # site Talentsoft groupeadp-recrute.talent-soft.com : toutes les offres, 15 par page
     urls:
@@ -221,6 +223,8 @@ companies:
     default_location: luxembourg
 
   - name: SBB CFF FFS
+    enabled: false              # le site jobs.sbb.ch ne liste plus rien pour le robot depuis le 14/11/2026 ;
+                                #  les offres SBB sont lues sur jobs.ch et jobup.ch (page « Sites d'emploi »)
     source: html
     render: true
     urls:
@@ -230,14 +234,9 @@ companies:
 
   # ─── Tourisme / hôtellerie ───────────────────────────────────────
   - name: Accor
-    source: html                # site careers.accor.com (siège à Issy-les-Moulineaux + hôtels du monde entier ;
-    render: true                #  le filtre de lieu ne garde que l'Île-de-France, la Suisse et le Luxembourg)
-    wait_ms: 6000
-    urls:
-      - https://careers.accor.com/global/en/search-results?keywords={q}&from={offset}&s=1
-    offsets: [0, 10, 20]
-    link_pattern: /job/.+-jid-\d+
-
+    source: smartrecruiters     # le siège (Issy-les-Moulineaux) publie ses offres sur SmartRecruiters (identifiant accorcorpo) ;
+    company_id: accorcorpo      #  la page careers.accor.com, chargée en JavaScript, restait vide pour le robot
+    countries: [fr, ch, lu]
   # ─── Banque et assurance ─────────────────────────────────────────
   - name: Société Générale
     source: html                # offres lues dans le JSON de leur moteur de recherche
@@ -330,14 +329,11 @@ companies:
 
   # ─── Luxe / grande conso ─────────────────────────────────────────
   - name: L'Oréal
-    source: html                # site Avature (comme TotalEnergies) : liste complète, les plus récentes d'abord
-    render: true                # (la recherche par mot-clé renvoyait une page vide au robot)
-    wait_ms: 5000
+    source: json                # nouveau site careers.loreal.com (même plateforme que VINCI et Disney), limité à la France
     urls:
-      - https://careers.loreal.com/fr_FR/jobs/SearchJobs/?jobRecordsPerPage=50&jobOffset={offset}
-    offsets: [0, 50, 100, 150]
-    link_pattern: /jobs/JobDetail/
-
+      - https://careers.loreal.com/fr/search-jobs/results?ActiveFacetID=0&CurrentPage={page}&RecordsPerPage=50&Distance=50&RadiusUnitType=0&Keywords={q}&Location=France&LocationPath=3017382&LocationType=2&ShowRadius=False&IsPagination=False&SearchResultsModuleName=Search+Results&SearchFiltersModuleName=Search+Filters&SortCriteria=0&SortDirection=0&SearchType=5
+    pages: [1]
+    link_pattern: /(?:job|emploi)/[^/]+/[^/]+/3456/\d+   # 3456 = L'Oréal sur cette plateforme
   # ─── Banque et assurance : Luxembourg / Suisse ───────────────────
   - name: Julius Baer
     source: workday             # API publique Workday (Zurich, Luxembourg, Genève…)

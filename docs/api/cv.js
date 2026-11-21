@@ -33,7 +33,7 @@ export default async function handler(req, res) {
   res.setHeader("Cache-Control", "no-store");
   const q = new URL(req.url, "http://x").searchParams;
   const id = (q.get("id") || "").trim();
-  const list = q.get("list") === "boards" ? "boards" : "main";
+  const list = ["boards", "ats"].includes(q.get("list")) ? q.get("list") : "main";
   if (!/^[0-9a-f]{6,40}$/.test(id)) return res.status(400).json({ error: "Identifiant d'offre invalide" });
   if (!process.env.GH_TOKEN) {
     return res.status(503).json({ error: "Bouton pas encore configuré : ajoute la variable GH_TOKEN dans Vercel, puis redéploie." });
