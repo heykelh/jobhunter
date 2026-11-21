@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T13:33:39+00:00",
+ "updated": "2026-11-21T18:28:47+00:00",
  "companies": {
   "APEC": {
    "checked_at": "2026-11-14T12:14:36+00:00",
@@ -12,57 +12,57 @@
    "failures": 48
   },
   "HelloWork": {
-   "checked_at": "2026-11-21T13:30:25+00:00",
+   "checked_at": "2026-11-21T18:25:30+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 410,
-   "keyword_matches": 350,
-   "kept_this_run": 2,
+   "links_found": 407,
+   "keyword_matches": 345,
+   "kept_this_run": 1,
    "status": "ok",
-   "last_ok": "2026-11-21T13:32:13+00:00",
+   "last_ok": "2026-11-21T18:27:27+00:00",
    "failures": 0
   },
   "jobs.ch": {
-   "checked_at": "2026-11-21T13:32:21+00:00",
+   "checked_at": "2026-11-21T18:27:37+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 276,
-   "keyword_matches": 131,
+   "links_found": 263,
+   "keyword_matches": 124,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-21T13:32:49+00:00",
+   "last_ok": "2026-11-21T18:28:00+00:00",
    "failures": 0
   },
   "jobup.ch": {
-   "checked_at": "2026-11-21T13:32:49+00:00",
+   "checked_at": "2026-11-21T18:28:00+00:00",
    "error": "",
    "warnings": [],
    "links_found": 253,
-   "keyword_matches": 97,
+   "keyword_matches": 98,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-21T13:33:18+00:00",
+   "last_ok": "2026-11-21T18:28:25+00:00",
    "failures": 0
   },
   "Moovijob (Luxembourg)": {
-   "checked_at": "2026-11-21T13:33:18+00:00",
+   "checked_at": "2026-11-21T18:28:26+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "vide",
-   "failures": 20
+   "failures": 21
   },
   "HelloWork (Transavia, RATP, ADP)": {
-   "checked_at": "2026-11-21T13:32:13+00:00",
+   "checked_at": "2026-11-21T18:27:28+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 127,
+   "links_found": 128,
    "keyword_matches": 2,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-21T13:32:21+00:00",
+   "last_ok": "2026-11-21T18:27:36+00:00",
    "failures": 0
   }
  }
