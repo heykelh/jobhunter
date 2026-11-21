@@ -30,7 +30,7 @@ concurrency:
 jobs:
   watch:
     runs-on: ubuntu-latest
-    timeout-minutes: 55   # le script s'arrête de lui-même à 38 min (time_budget_minutes)
+    timeout-minutes: 60   # le script s'arrête de lui-même à 45 min (time_budget_minutes de config_ats.yaml)
     steps:
       - uses: actions/checkout@v4
 

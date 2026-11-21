@@ -38,6 +38,9 @@ def words_re(words, prefix: bool = False) -> re.Pattern | None:
 ZONES: dict[str, re.Pattern] = {
     "Île-de-France": re.compile(
         r"ile[\s\-]de[\s\-]france|(?<![a-z])idf(?![a-z])|(?<![a-z])paris(?![a-z])|la defense"
+        r"|vitry[\s\-]sur[\s\-]seine|gentilly|chilly[\s\-]mazarin|plessis[\s\-]robinson|bagneux|arcueil|malakoff|asnieres"
+        r"|(?<![a-z])bezons|rungis|(?<![a-z])lognes|les ulis|(?<![a-z])poissy|(?<![a-z])plaisir(?![a-z])|saint[\s\-]mande"
+        r"|kremlin[\s\-]bicetre|villejuif|le bourget|villepinte|wissous|(?<![a-z])fresnes|(?<![a-z])sceaux"
         r"|(?<!\d)(?:75|77|78|91|92|93|94|95)\d{3}(?!\d)|\((?:75|77|78|91|92|93|94|95)\)"
         r"|hauts[\s\-]de[\s\-]seine|seine[\s\-]saint[\s\-]denis|val[\s\-]de[\s\-]marne|val[\s\-]d'?oise"
         r"|yvelines|essonne|seine[\s\-]et[\s\-]marne"
@@ -363,8 +366,8 @@ class Criteria:
         max_exp = int(rules.get("max_experience_years", self.max_experience_years))
         unknown_contract = rules.get("unknown_contract", self.unknown_contract)
 
-        # 2) Contrat : d'abord les infos structurées (liste, JSON-LD, flux RSS), puis le texte
-        found = detect_contracts(structured)
+        # 2) Contrat : l'intitulé ("CDI - Data Analyst"), les infos structurées (liste, JSON-LD, flux RSS), puis le texte
+        found = detect_contracts(title) or detect_contracts(structured)
         if not found and OTHER_CONTRACT.search(norm(structured)):
             return Verdict(False, "contrat hors CDI/CDD (stage, alternance…)")
         if not found:

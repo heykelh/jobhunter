@@ -448,3 +448,28 @@ def test_francetravail(monkeypatch):
                                   "origineOffre": {"urlOrigine": "https://candidat.francetravail.fr/offres/recherche/detail/1AB"}}]})
     ls, errs = src.collect({"name": "France Travail", "source": "francetravail"}, _fetcher(get=get, post=post), ["data"], None)
     assert not errs and ls[0].employer == "ACME" and ls[0].detail and "Paris" in ls[0].detail.structured
+
+
+def test_workday_country_filter_and_contract_in_title(monkeypatch):
+    import jobhunter.sources as src
+    from jobhunter.filters import Criteria
+    monkeypatch.setattr(src.time, "sleep", lambda s: None)
+    sent = []
+    facets = [{"facetParameter": "locationMainGroup", "values": [
+        {"facetParameter": "locationCountry", "descriptor": "Locations", "values": [
+            {"descriptor": "France", "id": "fr1", "count": 3}, {"descriptor": "India", "id": "in1", "count": 9}]}]}]
+    def post(url, json=None, headers=None, timeout=0):
+        sent.append(dict(json["appliedFacets"]))
+        return _R({"total": 1, "facets": facets, "jobPostings": [
+            {"title": "CDI - Data Analyst H/F", "externalPath": "/job/Paris/Data-Analyst_R1", "locationsText": "Paris"}]})
+    f = _fetcher(get=lambda url, timeout=0, headers=None: _R(text=""), post=post)
+    comp = {"name": "X", "source": "workday", "api": "https://x.wd3.myworkdayjobs.com/wday/cxs/x/S/jobs",
+            "public_url": "https://x.wd3.myworkdayjobs.com/S", "search_terms": ["data"]}
+    ls, errs = src.collect(comp, f, ["data"], None)
+    assert not errs and len(ls) == 1
+    assert sent[0] == {} and sent[1] == {"locationCountry": ["fr1"]}     # 2e requête filtrée sur la France, pas de page 2
+    assert len(sent) == 2
+    c = Criteria.from_config({"keywords": ["data"], "unknown_contract": "drop"})
+    assert c.evaluate("CDI – Ingénieur Analyste data", "Paris", "").contract == "CDI"
+    from jobhunter.filters import detect_zone
+    assert detect_zone("Vitry-sur-Seine") == "Île-de-France"

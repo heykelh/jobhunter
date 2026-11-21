@@ -15,13 +15,114 @@
 # ═══════════════════════════════════════════════════════════════════
 extends: config.yaml
 
-max_details_per_company: 15     # fiches ouvertes par entreprise et par passage
+max_details_per_company: 15     # fiches ouvertes par entreprise et par passage (les offres hors France/Suisse/Luxembourg
+                                #  sont déjà filtrées par Workday et SmartRecruiters)
 experience_ai_per_run: 50
 
 # Recherches envoyées à Workday (les mots courts "ai" / "ia" ramènent trop d'offres sans rapport)
-ats_search_terms: &terms [data, analyst, analyste, pricing, revenue management, product builder]
+ats_search_terms: &terms [data, analyst, analyste, pricing, revenue management]
+
+# Workday limite fort le nombre de requêtes : un passage complet peut demander deux lancements,
+# le suivant reprend là où le précédent s'est arrêté.
+time_budget_minutes: 45
 
 companies:
+
+  # ─── SmartRecruiters (rapide : toutes les offres des pays suivis, triées par mots-clés) ──
+  - name: Publicis Groupe
+    source: smartrecruiters
+    company_id: PublicisGroupe
+    countries: [fr]
+
+  - name: Iliad - Free
+    source: smartrecruiters
+    company_id: Iliad-Free
+    countries: [fr]
+
+  - name: Les Mousquetaires
+    source: smartrecruiters
+    company_id: GroupementLesMousquetaires3
+    countries: [fr]
+
+  - name: Free2move
+    source: smartrecruiters
+    company_id: Free2move
+    countries: [fr]
+
+  - name: Meetic
+    source: smartrecruiters
+    company_id: MeeticGroup
+    countries: [fr]
+
+  - name: Tradelab
+    source: smartrecruiters
+    company_id: Tradelab
+    countries: [fr]
+
+  - name: Transaction Connect
+    source: smartrecruiters
+    company_id: TRANSACTIONCONNECT
+    countries: [fr]
+
+  - name: Talan
+    source: smartrecruiters
+    company_id: Talan
+    countries: [fr, lu, ch]
+
+  - name: Wavestone
+    source: smartrecruiters
+    company_id: Wavestone1
+    countries: [fr, lu, ch]
+
+  - name: Sia Partners
+    source: smartrecruiters
+    company_id: Sia
+    countries: [fr, lu, ch]
+
+  - name: Magellan Partners
+    source: smartrecruiters
+    company_id: Magellan
+    countries: [fr]
+
+  - name: ALTEN
+    source: smartrecruiters
+    company_id: ALTEN
+    countries: [fr]
+
+  - name: Meritis
+    source: smartrecruiters
+    company_id: Meritis
+    countries: [fr]
+
+  - name: NEXTON
+    source: smartrecruiters
+    company_id: NEXTON
+    countries: [fr, ch]
+
+  - name: Everience
+    source: smartrecruiters
+    company_id: EVERIENCE
+    countries: [fr]
+
+  - name: Bertelsmann
+    source: smartrecruiters
+    company_id: Bertelsmann-Jobs
+    countries: [lu]
+
+  - name: Swiss Medical Network
+    source: smartrecruiters
+    company_id: SwissMedicalNetwork1
+    countries: [ch]
+
+  - name: Nexthink
+    source: smartrecruiters
+    company_id: Nexthink
+    countries: [ch]
+
+  - name: Evooq
+    source: smartrecruiters
+    company_id: Evooq
+    countries: [ch]
 
   # ─── Workday ─────────────────────────────────────────────────────
   - name: Banque de France
@@ -198,99 +299,3 @@ companies:
     public_url: https://saxobank.wd3.myworkdayjobs.com/CareeratSaxoBank
     search_terms: *terms
     offsets: [0, 20]
-
-  # ─── SmartRecruiters (toutes les offres des pays suivis, triées par mots-clés) ──
-  - name: Publicis Groupe
-    source: smartrecruiters
-    company_id: PublicisGroupe
-    countries: [fr]
-
-  - name: Iliad - Free
-    source: smartrecruiters
-    company_id: Iliad-Free
-    countries: [fr]
-
-  - name: Les Mousquetaires
-    source: smartrecruiters
-    company_id: GroupementLesMousquetaires3
-    countries: [fr]
-
-  - name: Free2move
-    source: smartrecruiters
-    company_id: Free2move
-    countries: [fr]
-
-  - name: Meetic
-    source: smartrecruiters
-    company_id: MeeticGroup
-    countries: [fr]
-
-  - name: Tradelab
-    source: smartrecruiters
-    company_id: Tradelab
-    countries: [fr]
-
-  - name: Transaction Connect
-    source: smartrecruiters
-    company_id: TRANSACTIONCONNECT
-    countries: [fr]
-
-  - name: Talan
-    source: smartrecruiters
-    company_id: Talan
-    countries: [fr, lu, ch]
-
-  - name: Wavestone
-    source: smartrecruiters
-    company_id: Wavestone1
-    countries: [fr, lu, ch]
-
-  - name: Sia Partners
-    source: smartrecruiters
-    company_id: Sia
-    countries: [fr, lu, ch]
-
-  - name: Magellan Partners
-    source: smartrecruiters
-    company_id: Magellan
-    countries: [fr]
-
-  - name: ALTEN
-    source: smartrecruiters
-    company_id: ALTEN
-    countries: [fr]
-
-  - name: Meritis
-    source: smartrecruiters
-    company_id: Meritis
-    countries: [fr]
-
-  - name: NEXTON
-    source: smartrecruiters
-    company_id: NEXTON
-    countries: [fr, ch]
-
-  - name: Everience
-    source: smartrecruiters
-    company_id: EVERIENCE
-    countries: [fr]
-
-  - name: Bertelsmann
-    source: smartrecruiters
-    company_id: Bertelsmann-Jobs
-    countries: [lu]
-
-  - name: Swiss Medical Network
-    source: smartrecruiters
-    company_id: SwissMedicalNetwork1
-    countries: [ch]
-
-  - name: Nexthink
-    source: smartrecruiters
-    company_id: Nexthink
-    countries: [ch]
-
-  - name: Evooq
-    source: smartrecruiters
-    company_id: Evooq
-    countries: [ch]

@@ -30,7 +30,7 @@ log = logging.getLogger("jobwatch")
 
 # À augmenter quand les règles de tri changent : les offres déjà affichées sont alors
 # revérifiées (fiche rouverte) et retirées si elles ne passent plus.
-RULES_VERSION = 6   # v6 : offres écartées « expérience non précisée » pendant la panne de l'IA (modèle retiré) réexaminées
+RULES_VERSION = 7   # v7 : contrat lu dans l'intitulé, communes d'Île-de-France ajoutées, fiches Workday non lues (21/11/2026)
 LISTS = ["main", "boards", "ats"]   # sites carrière · sites d'emploi · plateformes Workday / SmartRecruiters
 CONFIGS = {"main": "config.yaml", "boards": "config_boards.yaml", "ats": "config_ats.yaml"}
 LATER = "__later__"  # pas de verdict possible ce passage (budget IA épuisé ou IA en panne) : on réessaiera
@@ -70,6 +70,8 @@ def judge(crit: Criteria, ai: ExperienceAI, comp: dict, title: str, context: str
             v.junior = v.junior or years <= 1
     # Expérience introuvable, même par l'IA : écartée si unknown_experience = drop
     if v.experience == "non précisée" and crit.unknown_experience == "drop":
+        if comp.get("source") in ("workday", "smartrecruiters") and len(text or "") < 300:
+            return False, LATER, v        # fiche pas lue (site saturé) : on ne juge pas une offre sans l'avoir lue
         if (ai.enabled and ai.calls >= ai.budget) or ai.failed or ai.broken:
             return False, LATER, v
         return False, "expérience non précisée (ni sur la fiche, ni par l'IA)", v
@@ -163,7 +165,8 @@ def run(argv=None) -> int:
     if not args.diagnose and store.state.get("rules_version", 1) < RULES_VERSION:
         before = len(store.rejected)
         store.rejected = {k: r for k, r in store.rejected.items()
-                          if not r.get("reason", "").startswith(("contrat", "expérience non précisée (ni sur la fiche"))}
+                          if not r.get("reason", "").startswith(("contrat", "expérience non précisée (ni sur la fiche", "lieu inconnu"))
+                          and "myworkdayjobs.com" not in (r.get("url") or "")}
         store.state["rules_version"] = RULES_VERSION
         log.info("Règles v%d : %d offre(s) écartée(s) seront réexaminées", RULES_VERSION, before - len(store.rejected))
     # Offres d'une zone retirée de config.yaml (ex. Londres) : on les retire du site

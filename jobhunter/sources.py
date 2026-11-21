@@ -598,11 +598,34 @@ def fetch_rss(fetcher: Fetcher, url: str) -> list[Listing]:
 
 
 # ---------------------------------------------------------------- Workday (API JSON)
+WD_COUNTRIES = {"france", "switzerland", "suisse", "schweiz", "svizzera", "luxembourg", "luxemburg"}
+
+
+def _workday_country_facets(js: dict) -> dict:
+    """Dans la réponse Workday, repère les filtres pays (France, Suisse, Luxembourg) pour ne plus
+    recevoir que les offres de ces pays. Renvoie {"locationCountry": [id, …]} ou {}."""
+    from .filters import norm
+    found: dict[str, list[str]] = {}
+
+    def walk(facets, param=None):
+        for f in facets or []:
+            p = f.get("facetParameter") or param
+            for v in f.get("values") or []:
+                if v.get("values"):
+                    walk([v], v.get("facetParameter") or p)
+                desc = norm(v.get("descriptor") or "")
+                if p and "country" in p.lower() and desc in WD_COUNTRIES and v.get("id"):
+                    found.setdefault(p, []).append(v["id"])
+    walk(js.get("facets"))
+    return found
+
+
 def collect_workday(comp: dict, fetcher: Fetcher, keywords: list[str], keyword_hit=None) -> tuple[list[Listing], list[str]]:
-    """Sites Workday (ex. Eiffage) : API publique POST …/wday/cxs/<tenant>/<site>/jobs."""
+    """Sites Workday : API publique POST …/wday/cxs/<tenant>/<site>/jobs.
+    Workday limite fort le nombre de requêtes (erreur 429) : peu de requêtes, espacées, filtrées par pays."""
     api, public = comp["api"].rstrip("/"), comp["public_url"].rstrip("/")
     out, errors = {}, []
-    # Certains sites Workday exigent désormais la session (cookies + jeton CSRF) de la page publique
+    # Certains sites Workday exigent la session (cookies + jeton CSRF) de la page publique
     headers = {"Accept": "application/json", "Content-Type": "application/json", "Origin": re.sub(r"(https://[^/]+).*", r"\1", public),
                "Referer": public, "Accept-Language": "fr-FR,fr;q=0.9,en;q=0.8"}
     try:
@@ -612,28 +635,56 @@ def collect_workday(comp: dict, fetcher: Fetcher, keywords: list[str], keyword_h
             headers["X-CALYPSO-CSRF-TOKEN"] = tok
     except Exception:
         pass
-    denied = 0
+    pause = float(comp.get("pause_seconds", 2.5))
+
+    def post(payload):
+        """Une requête ; en cas de 429, une seule nouvelle tentative après la pause demandée."""
+        for attempt in range(2):
+            fetcher._polite(api)
+            time.sleep(pause)
+            r = fetcher.s.post(api, json=payload, headers=headers, timeout=30)
+            if r.status_code != 429:
+                return r
+            wait = r.headers.get("Retry-After", "")
+            if attempt == 0:
+                time.sleep(min(45, int(wait)) if wait.isdigit() else 20)
+        return r
+
+    facets = dict(comp.get("facets", {}))
+    denied = limited = 0
+    countries_set = bool(facets)
     for q in comp.get("search_terms") or keywords:
-        page_full = True
+        if limited:
+            break
+        total = None
         for offset in comp.get("offsets", [0, 20]):
-            if not page_full:
-                break                                    # page précédente incomplète : rien plus loin
+            if total is not None and offset >= total:
+                break                                    # plus rien au-delà
             try:
-                payload = {"appliedFacets": comp.get("facets", {}), "limit": 20, "offset": offset, "searchText": q}
-                for attempt in range(3):
-                    fetcher._polite(api)
-                    time.sleep(1.5)                      # Workday limite le nombre de requêtes par minute
-                    r = fetcher.s.post(api, json=payload, headers=headers, timeout=30)
-                    if r.status_code != 429:
-                        break
-                    wait = r.headers.get("Retry-After", "")
-                    time.sleep(min(60, int(wait)) if wait.isdigit() else 15 * (attempt + 1))
-                if r.status_code in (401, 403, 429):
+                r = post({"appliedFacets": facets, "limit": 20, "offset": offset, "searchText": q})
+                if r.status_code == 429:
+                    limited += 1
+                    break
+                if r.status_code in (401, 403):
                     denied += 1
                 r.raise_for_status()
-                posts = r.json().get("jobPostings", [])
-                page_full = len(posts) >= 20
-                for jp in posts:
+                js = r.json()
+                # 1re réponse : on récupère les filtres pays et on relance la même recherche filtrée
+                if not countries_set and comp.get("country_filter", True):
+                    countries_set = True
+                    cf = _workday_country_facets(js)
+                    if cf:
+                        facets.update(cf)
+                        fetcher.diag.append(f"[workday] filtre pays : {cf}")
+                        r = post({"appliedFacets": facets, "limit": 20, "offset": offset, "searchText": q})
+                        if r.status_code == 429:
+                            limited += 1
+                            break
+                        r.raise_for_status()
+                        js = r.json()
+                if offset == 0:
+                    total = int(js.get("total") or 0)
+                for jp in js.get("jobPostings", []):
                     path = jp.get("externalPath") or ""
                     if not path or not jp.get("title"):
                         continue
@@ -644,15 +695,20 @@ def collect_workday(comp: dict, fetcher: Fetcher, keywords: list[str], keyword_h
             except Exception as e:
                 errors.append(f"{api} [{q}/{offset}] → {type(e).__name__}: {str(e)[:120]}")
     fetcher.diag.append(f"[workday] {len(out)} offres via l'API")
+    if limited and not out:
+        return [], ["Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage"]
+    if limited:
+        fetcher.diag.append("[workday] limité (429) en cours de route : la suite au prochain passage")
     if not out and denied:
         # API refusée : on ouvre la page publique dans le navigateur et on lit les liens des offres
-        fetcher.diag.append("[workday] API refusée (401/403/429) : lecture de la page publique avec le navigateur")
+        fetcher.diag.append("[workday] API refusée (401/403) : lecture de la page publique avec le navigateur")
         alt = {**comp, "source": "html", "render": True, "wait_ms": comp.get("wait_ms", 6000),
                "urls": [public + "?q={q}"], "link_pattern": comp.get("link_pattern", r"/job/")}
         listings, errs = collect(alt, fetcher, keywords, keyword_hit or (lambda t: True))
+        for l in listings:      # une seule adresse par offre : sans "?q=…" ni langue
+            l.url = re.sub(r"\?.*$", "", re.sub(r"(myworkdayjobs\.com)/[a-z]{2}-[A-Z]{2}/", r"\1/", l.url))
         return listings, (errs if not listings else [])
     return list(out.values()), errors
-
 
 def _html_to_text(h: str) -> str:
     return squash(BeautifulSoup(h or "", "lxml").get_text(" "))
@@ -663,8 +719,17 @@ def fetch_workday_detail(comp: dict, fetcher: Fetcher, url: str) -> Detail:
     api, public = comp["api"].rstrip("/"), comp["public_url"].rstrip("/")
     path = url[len(public):] if url.startswith(public) else "/job/" + url.split("/job/", 1)[-1]
     api_url = api[: -len("/jobs")] + path if api.endswith("/jobs") else api + path
-    fetcher._polite(api_url)
-    r = fetcher.s.get(api_url, headers={"Accept": "application/json"}, timeout=30)
+    path = path.split("?", 1)[0]
+    api_url = api[: -len("/jobs")] + path if api.endswith("/jobs") else api + path
+    for attempt in range(2):
+        fetcher._polite(api_url)
+        time.sleep(float(comp.get("pause_seconds", 2.5)))
+        r = fetcher.s.get(api_url, headers={"Accept": "application/json"}, timeout=30)
+        if r.status_code != 429:
+            break
+        time.sleep(20)
+    if r.status_code == 429:
+        raise RuntimeError("Workday limite les requêtes (429)")   # fiche non lue : l'offre sera relue plus tard
     if r.status_code >= 400:
         return fetch_detail(fetcher, url)                   # repli : la page publique
     info = (r.json() or {}).get("jobPostingInfo") or {}
