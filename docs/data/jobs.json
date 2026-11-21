@@ -1,6 +1,38 @@
 {
- "updated": "2026-11-21T19:04:28+00:00",
+ "updated": "2026-11-21T20:39:22+00:00",
  "jobs": [
+  {
+   "id": "f6657b237620",
+   "company": "L'Oréal",
+   "title": "Data Product Owner",
+   "url": "https://careers.loreal.com/fr/emploi/paris/data-product-owner/3456/46757027584",
+   "via": null,
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-09",
+   "seed": false,
+   "rv": 6,
+   "match": {
+    "score": 71,
+    "have": [
+     "sql",
+     "power bi",
+     "intelligence artificielle",
+     "data quality",
+     "spécifications"
+    ],
+    "missing": [
+     "gcp",
+     "modélisation"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-21T19:47:08+00:00",
+   "last_seen": "2026-11-21T19:47:08+00:00"
+  },
   {
    "id": "0ffed69ed881",
    "company": "Société Générale",
@@ -29,7 +61,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-20T21:09:28+00:00",
-   "last_seen": "2026-11-21T18:30:23+00:00"
+   "last_seen": "2026-11-21T20:11:48+00:00"
   },
   {
    "id": "74e549b5f579",
@@ -62,7 +94,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-20T13:03:59+00:00",
-   "last_seen": "2026-11-21T18:38:43+00:00"
+   "last_seen": "2026-11-21T20:20:24+00:00"
   },
   {
    "id": "48d982185dc9",
@@ -97,7 +129,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-19T19:02:50+00:00",
-   "last_seen": "2026-11-21T18:33:44+00:00"
+   "last_seen": "2026-11-21T20:15:21+00:00"
   },
   {
    "id": "4ba618558c99",
@@ -210,7 +242,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-14T14:43:41+00:00",
-   "last_seen": "2026-11-21T18:39:06+00:00"
+   "last_seen": "2026-11-21T20:20:47+00:00"
   },
   {
    "id": "61d98dcfaf61",
@@ -246,7 +278,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-09T21:36:35+00:00",
-   "last_seen": "2026-11-21T18:33:44+00:00"
+   "last_seen": "2026-11-21T20:15:21+00:00"
   },
   {
    "id": "78f165b6b23d",
@@ -274,7 +306,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-06T19:25:23+00:00",
-   "last_seen": "2026-11-21T18:38:43+00:00"
+   "last_seen": "2026-11-21T20:20:24+00:00"
   },
   {
    "id": "f236ed3489bf",
@@ -373,7 +405,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-04T19:46:49+00:00",
-   "last_seen": "2026-11-21T18:33:44+00:00"
+   "last_seen": "2026-11-21T20:15:21+00:00"
   },
   {
    "id": "664b3cc7e12f",
@@ -656,7 +688,7 @@
    "rv": 6,
    "match": null,
    "first_seen": "2026-10-28T10:34:45+00:00",
-   "last_seen": "2026-11-21T18:33:44+00:00"
+   "last_seen": "2026-11-21T20:15:21+00:00"
   },
   {
    "id": "76bc150e9b01",
@@ -685,7 +717,7 @@
     "missing": []
    },
    "first_seen": "2026-10-28T10:34:36+00:00",
-   "last_seen": "2026-11-21T18:33:44+00:00"
+   "last_seen": "2026-11-21T20:15:21+00:00"
   },
   {
    "id": "4e80bd2f5d16",
@@ -745,7 +777,7 @@
     ]
    },
    "first_seen": "2026-10-27T20:42:04+00:00",
-   "last_seen": "2026-11-21T18:33:44+00:00"
+   "last_seen": "2026-11-21T20:15:21+00:00"
   },
   {
    "id": "9e6271b7f744",
@@ -776,7 +808,7 @@
    "published": "2026-07-30",
    "seed": true,
    "first_seen": "2026-10-23T23:34:56+00:00",
-   "last_seen": "2026-11-21T12:53:35+00:00",
+   "last_seen": "2026-11-21T20:39:22+00:00",
    "country": "France",
    "rv": 6,
    "match": {
@@ -943,7 +975,7 @@
    "published": "2026-09-22",
    "seed": false,
    "first_seen": "2026-10-20T13:59:55+00:00",
-   "last_seen": "2026-11-21T18:33:44+00:00",
+   "last_seen": "2026-11-21T20:15:21+00:00",
    "date_tries": 1,
    "match": {
     "score": 75,
@@ -1002,7 +1034,7 @@
    "published": "2026-10-08",
    "seed": false,
    "first_seen": "2026-10-20T13:58:07+00:00",
-   "last_seen": "2026-11-21T18:33:44+00:00",
+   "last_seen": "2026-11-21T20:15:21+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 6,
@@ -1031,7 +1063,7 @@
    "published": "2026-10-14",
    "seed": false,
    "first_seen": "2026-10-20T13:57:31+00:00",
-   "last_seen": "2026-11-21T18:33:44+00:00",
+   "last_seen": "2026-11-21T20:15:21+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 6,
@@ -1064,7 +1096,7 @@
    "published": "2026-10-18",
    "seed": false,
    "first_seen": "2026-10-20T13:56:45+00:00",
-   "last_seen": "2026-11-21T18:33:44+00:00",
+   "last_seen": "2026-11-21T20:15:21+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 6,
