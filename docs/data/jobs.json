@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T21:40:05+00:00",
+ "updated": "2026-11-21T02:48:39+00:00",
  "jobs": [
   {
    "id": "0ffed69ed881",
@@ -29,7 +29,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-20T21:09:28+00:00",
-   "last_seen": "2026-11-20T21:09:28+00:00"
+   "last_seen": "2026-11-21T02:40:48+00:00"
   },
   {
    "id": "74e549b5f579",
@@ -97,7 +97,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-19T19:02:50+00:00",
-   "last_seen": "2026-11-20T21:12:52+00:00"
+   "last_seen": "2026-11-21T02:44:04+00:00"
   },
   {
    "id": "4ba618558c99",
@@ -246,7 +246,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-09T21:36:35+00:00",
-   "last_seen": "2026-11-20T21:12:52+00:00"
+   "last_seen": "2026-11-21T02:44:04+00:00"
   },
   {
    "id": "78f165b6b23d",
@@ -373,7 +373,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-04T19:46:49+00:00",
-   "last_seen": "2026-11-20T21:12:52+00:00"
+   "last_seen": "2026-11-21T02:44:04+00:00"
   },
   {
    "id": "664b3cc7e12f",
@@ -656,7 +656,7 @@
    "rv": 6,
    "match": null,
    "first_seen": "2026-10-28T10:34:45+00:00",
-   "last_seen": "2026-11-20T21:12:52+00:00"
+   "last_seen": "2026-11-21T02:44:04+00:00"
   },
   {
    "id": "76bc150e9b01",
@@ -685,7 +685,7 @@
     "missing": []
    },
    "first_seen": "2026-10-28T10:34:36+00:00",
-   "last_seen": "2026-11-20T21:12:52+00:00"
+   "last_seen": "2026-11-21T02:44:04+00:00"
   },
   {
    "id": "4e80bd2f5d16",
@@ -745,7 +745,7 @@
     ]
    },
    "first_seen": "2026-10-27T20:42:04+00:00",
-   "last_seen": "2026-11-20T21:12:52+00:00"
+   "last_seen": "2026-11-21T02:44:04+00:00"
   },
   {
    "id": "9e6271b7f744",
@@ -796,7 +796,7 @@
    "ghost": {
     "score": 2,
     "reasons": [
-     "en ligne depuis 113 jours (depuis le 30/07/2026)"
+     "en ligne depuis 114 jours (depuis le 30/07/2026)"
     ],
     "reposts": 0,
     "since": "2026-07-30"
@@ -874,7 +874,7 @@
    "ghost": {
     "score": 2,
     "reasons": [
-     "en ligne depuis 155 jours (depuis le 18/06/2026)"
+     "en ligne depuis 156 jours (depuis le 18/06/2026)"
     ],
     "reposts": 0,
     "since": "2026-06-18"
@@ -897,7 +897,7 @@
    "ghost": {
     "score": 2,
     "reasons": [
-     "en ligne depuis 136 jours (depuis le 07/07/2026)"
+     "en ligne depuis 137 jours (depuis le 07/07/2026)"
     ],
     "reposts": 0,
     "since": "2026-07-07"
@@ -943,7 +943,7 @@
    "published": "2026-09-22",
    "seed": false,
    "first_seen": "2026-10-20T13:59:55+00:00",
-   "last_seen": "2026-11-20T21:12:52+00:00",
+   "last_seen": "2026-11-21T02:44:04+00:00",
    "date_tries": 1,
    "match": {
     "score": 75,
@@ -1002,7 +1002,7 @@
    "published": "2026-10-08",
    "seed": false,
    "first_seen": "2026-10-20T13:58:07+00:00",
-   "last_seen": "2026-11-20T21:12:52+00:00",
+   "last_seen": "2026-11-21T02:44:04+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 6,
@@ -1031,7 +1031,7 @@
    "published": "2026-10-14",
    "seed": false,
    "first_seen": "2026-10-20T13:57:31+00:00",
-   "last_seen": "2026-11-20T21:12:52+00:00",
+   "last_seen": "2026-11-21T02:44:04+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 6,
@@ -1064,7 +1064,7 @@
    "published": "2026-10-18",
    "seed": false,
    "first_seen": "2026-10-20T13:56:45+00:00",
-   "last_seen": "2026-11-20T21:12:52+00:00",
+   "last_seen": "2026-11-21T02:44:04+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 6,
