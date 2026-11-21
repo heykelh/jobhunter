@@ -1,0 +1,58 @@
+{
+ "updated": "2026-11-21T19:05:31+00:00",
+ "companies": {
+  "Banque de France": {
+   "checked_at": "2026-11-21T18:25:33+00:00",
+   "error": "",
+   "warnings": [],
+   "links_found": 80,
+   "keyword_matches": 61,
+   "kept_this_run": 0,
+   "status": "ok",
+   "last_ok": "2026-11-21T18:50:13+00:00",
+   "failures": 0
+  },
+  "Sanofi": {
+   "checked_at": "2026-11-21T18:50:13+00:00",
+   "error": "",
+   "warnings": [],
+   "links_found": 143,
+   "keyword_matches": 40,
+   "kept_this_run": 0,
+   "status": "ok",
+   "last_ok": "2026-11-21T18:52:06+00:00",
+   "failures": 0
+  },
+  "Pernod Ricard": {
+   "checked_at": "2026-11-21T18:52:07+00:00",
+   "error": "",
+   "warnings": [
+    "https://pernodricard.wd3.myworkdayjobs.com/wday/cxs/pernodricard/pernod-ricard/jobs [pricing/0] → HTTPError: 429 Client Error: Too Many Requests for url: https://pernodricard.wd3.myworkdayjobs.com/wday/cxs/pernodricard/pernod-ric",
+    "https://pernodricard.wd3.myworkdayjobs.com/wday/cxs/pernodricard/pernod-ricard/jobs [pricing/20] → HTTPError: 429 Client Error: Too Many Requests for url: https://pernodricard.wd3.myworkdayjobs.com/wday/cxs/pernodricard/pernod-ric",
+    "https://pernodricard.wd3.myworkdayjobs.com/wday/cxs/pernodricard/pernod-ricard/jobs [revenue management/20] → HTTPError: 429 Client Error: Too Many Requests for url: https://pernodricard.wd3.myworkdayjobs.com/wday/cxs/pernodricard/pernod-ric",
+    "https://pernodricard.wd3.myworkdayjobs.com/wday/cxs/pernodricard/pernod-ricard/jobs [product builder/0] → HTTPError: 429 Client Error: Too Many Requests for url: https://pernodricard.wd3.myworkdayjobs.com/wday/cxs/pernodricard/pernod-ric",
+    "https://pernodricard.wd3.myworkdayjobs.com/wday/cxs/pernodricard/pernod-ricard/jobs [product builder/20] → HTTPError: 429 Client Error: Too Many Requests for url: https://pernodricard.wd3.myworkdayjobs.com/wday/cxs/pernodricard/pernod-ric"
+   ],
+   "links_found": 81,
+   "keyword_matches": 30,
+   "kept_this_run": 0,
+   "status": "ok",
+   "last_ok": "2026-11-21T19:02:19+00:00",
+   "failures": 0
+  },
+  "Chanel": {
+   "checked_at": "2026-11-21T19:02:19+00:00",
+   "error": "",
+   "warnings": [
+    "https://cc.wd3.myworkdayjobs.com/wday/cxs/cc/ChanelCareers/jobs [product builder/0] → HTTPError: 429 Client Error: Too Many Requests for url: https://cc.wd3.myworkdayjobs.com/wday/cxs/cc/ChanelCareers/jobs",
+    "https://cc.wd3.myworkdayjobs.com/wday/cxs/cc/ChanelCareers/jobs [product builder/20] → HTTPError: 502 Server Error: Bad Gateway for url: https://cc.wd3.myworkdayjobs.com/wday/cxs/cc/ChanelCareers/jobs"
+   ],
+   "links_found": 118,
+   "keyword_matches": 37,
+   "kept_this_run": 0,
+   "status": "ok",
+   "last_ok": "2026-11-21T19:05:30+00:00",
+   "failures": 0
+  }
+ }
+}

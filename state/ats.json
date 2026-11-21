@@ -1,0 +1,11 @@
+{
+ "seeded": [
+  "Banque de France",
+  "Sanofi",
+  "Pernod Ricard",
+  "Chanel"
+ ],
+ "zones_sig": "Luxembourg,Suisse,Île-de-France",
+ "rules_version": 6,
+ "next_company": 4
+}
