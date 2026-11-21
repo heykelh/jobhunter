@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T02:48:39+00:00",
+ "updated": "2026-11-21T13:19:14+00:00",
  "companies": {
   "Air France": {
    "checked_at": "2026-11-21T02:33:30+00:00",
@@ -13,14 +13,14 @@
    "failures": 0
   },
   "TotalEnergies": {
-   "checked_at": "2026-11-20T21:15:03+00:00",
+   "checked_at": "2026-11-21T12:32:57+00:00",
    "error": "",
    "warnings": [],
    "links_found": 200,
-   "keyword_matches": 20,
+   "keyword_matches": 19,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-20T21:15:33+00:00",
+   "last_ok": "2026-11-21T12:33:22+00:00",
    "failures": 0
   },
   "Société Générale": {
@@ -149,7 +149,7 @@
    "failures": 1
   },
   "VINCI (dont ETF)": {
-   "checked_at": "2026-11-20T21:15:33+00:00",
+   "checked_at": "2026-11-21T12:33:22+00:00",
    "error": "",
    "warnings": [],
    "links_found": 398,
@@ -157,23 +157,23 @@
    "kept_this_run": 0,
    "status": "ok",
    "failures": 0,
-   "last_ok": "2026-11-20T21:15:57+00:00"
+   "last_ok": "2026-11-21T12:33:44+00:00"
   },
   "Eiffage": {
-   "checked_at": "2026-11-20T21:15:57+00:00",
+   "checked_at": "2026-11-21T12:33:44+00:00",
    "error": "",
    "warnings": [
     "https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs [data/0] → HTTPError: 429 Client Error: Too Many Requests for url: https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs",
     "https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs [data/20] → HTTPError: 429 Client Error: Too Many Requests for url: https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs",
+    "https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs [analyst/0] → HTTPError: 429 Client Error: Too Many Requests for url: https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs",
     "https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs [analyste/0] → HTTPError: 429 Client Error: Too Many Requests for url: https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs",
-    "https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs [analyste/20] → HTTPError: 429 Client Error: Too Many Requests for url: https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs",
-    "https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs [product builder/0] → HTTPError: 429 Client Error: Too Many Requests for url: https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs"
+    "https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs [analyste/20] → HTTPError: 429 Client Error: Too Many Requests for url: https://eiffage.wd3.myworkdayjobs.com/wday/cxs/eiffage/Eiffage_Careers/jobs"
    ],
-   "links_found": 40,
+   "links_found": 61,
    "keyword_matches": 1,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-20T21:38:25+00:00",
+   "last_ok": "2026-11-21T12:53:35+00:00",
    "failures": 0
   },
   "Bouygues Telecom": {
@@ -188,41 +188,41 @@
    "last_ok": "2026-10-29T10:56:21+00:00"
   },
   "Orange": {
-   "checked_at": "2026-11-20T21:38:25+00:00",
+   "checked_at": "2026-11-21T12:53:35+00:00",
    "error": "",
    "warnings": [],
    "links_found": 90,
    "keyword_matches": 45,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-20T21:39:29+00:00",
+   "last_ok": "2026-11-21T12:54:39+00:00",
    "failures": 0
   },
   "L'Oréal": {
-   "checked_at": "2026-11-20T21:39:29+00:00",
+   "checked_at": "2026-11-21T12:54:39+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "vide",
-   "failures": 105
+   "failures": 106
   },
   "Julius Baer": {
-   "checked_at": "2026-11-21T02:08:38+00:00",
+   "checked_at": "2026-11-21T12:55:10+00:00",
    "error": "",
    "warnings": [
     "https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs [data/0] → HTTPError: 429 Client Error: Too Many Requests for url: https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs",
-    "https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs [data/20] → HTTPError: 429 Client Error: Too Many Requests for url: https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs",
     "https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs [analyst/0] → HTTPError: 429 Client Error: Too Many Requests for url: https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs",
     "https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs [analyst/20] → HTTPError: 429 Client Error: Too Many Requests for url: https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs",
-    "https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs [analyste/0] → HTTPError: 429 Client Error: Too Many Requests for url: https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs"
+    "https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs [analyste/0] → HTTPError: 429 Client Error: Too Many Requests for url: https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs",
+    "https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs [analyste/20] → HTTPError: 429 Client Error: Too Many Requests for url: https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs"
    ],
-   "links_found": 12,
-   "keyword_matches": 4,
+   "links_found": 39,
+   "keyword_matches": 5,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-21T02:31:17+00:00",
+   "last_ok": "2026-11-21T13:19:13+00:00",
    "failures": 0
   },
   "UBS": {

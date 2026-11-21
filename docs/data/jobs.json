@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T02:48:39+00:00",
+ "updated": "2026-11-21T13:19:13+00:00",
  "jobs": [
   {
    "id": "0ffed69ed881",
@@ -62,7 +62,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-20T13:03:59+00:00",
-   "last_seen": "2026-11-20T21:15:31+00:00"
+   "last_seen": "2026-11-21T12:33:22+00:00"
   },
   {
    "id": "48d982185dc9",
@@ -210,7 +210,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-14T14:43:41+00:00",
-   "last_seen": "2026-11-20T21:15:56+00:00"
+   "last_seen": "2026-11-21T12:33:44+00:00"
   },
   {
    "id": "61d98dcfaf61",
@@ -274,7 +274,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-06T19:25:23+00:00",
-   "last_seen": "2026-11-20T21:15:33+00:00"
+   "last_seen": "2026-11-21T12:33:22+00:00"
   },
   {
    "id": "f236ed3489bf",
@@ -570,7 +570,7 @@
    "ghost": {
     "score": 2,
     "reasons": [
-     "en ligne depuis 105 jours (depuis le 07/08/2026)"
+     "en ligne depuis 106 jours (depuis le 07/08/2026)"
     ],
     "reposts": 0,
     "since": "2026-08-07"
@@ -776,7 +776,7 @@
    "published": "2026-07-30",
    "seed": true,
    "first_seen": "2026-10-23T23:34:56+00:00",
-   "last_seen": "2026-11-20T21:38:25+00:00",
+   "last_seen": "2026-11-21T12:53:35+00:00",
    "country": "France",
    "rv": 6,
    "match": {
