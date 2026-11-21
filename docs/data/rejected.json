@@ -1,6 +1,310 @@
 {
- "updated": "2026-11-21T13:19:13+00:00",
+ "updated": "2026-11-21T19:04:28+00:00",
  "items": [
+  {
+   "id": "06073e8ae3cd",
+   "company": "Eiffage",
+   "title": "Analyste gouvernance sécurité - CDI F/H",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Saint-Ouen-sur-seine/Analyste-gouvernance-scurit-F-H_JR2026-4185?q=revenue+management",
+   "reason": "expérience non précisée (ni sur la fiche, ni par l'IA)",
+   "at": "2026-11-21T19:04:28+00:00"
+  },
+  {
+   "id": "a9573ba9ef78",
+   "company": "Eiffage",
+   "title": "Stage Ingénieur·e IA - H/F",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Pessac/Stage-Ingnieure-IA---H-F_JR2026-5532-1?q=ia",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-21T19:04:28+00:00"
+  },
+  {
+   "id": "e2c2ee134286",
+   "company": "Eiffage",
+   "title": "Stage en IA et SIRH",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Vlizy-Villacoublay/Stage-en-IA-et-SIRH_JR2026-5585-1?q=ia",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-21T19:04:28+00:00"
+  },
+  {
+   "id": "ac082688e84a",
+   "company": "Eiffage",
+   "title": "Stage - Data, IA et automatisation des process RH F/H",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Caen/Stage---Data--IA-et-automatisation-des-process-RH-F-H_JR2026-5824?q=ia",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-21T19:04:28+00:00"
+  },
+  {
+   "id": "7309199160e9",
+   "company": "Eiffage",
+   "title": "Analyste gouvernance sécurité - CDI F/H",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Saint-Ouen-sur-seine/Analyste-gouvernance-scurit-F-H_JR2026-4185?q=analyste",
+   "reason": "expérience non précisée (ni sur la fiche, ni par l'IA)",
+   "at": "2026-11-21T19:04:23+00:00"
+  },
+  {
+   "id": "bcd6d7e031a0",
+   "company": "Eiffage",
+   "title": "Analyste gouvernance sécurité - CDI F/H",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Saint-Ouen-sur-seine/Analyste-gouvernance-scurit-F-H_JR2026-4185?q=analyst",
+   "reason": "expérience non précisée (ni sur la fiche, ni par l'IA)",
+   "at": "2026-11-21T19:04:19+00:00"
+  },
+  {
+   "id": "4c529feaf346",
+   "company": "Eiffage",
+   "title": "Responsable Logistique Data Center (H/F)",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Les-Ulis/Responsable-Logistique-Data-Center--H-F-_JR2026-3963?q=data",
+   "reason": "titre exclu (data center)",
+   "at": "2026-11-21T19:04:16+00:00"
+  },
+  {
+   "id": "bd1673a85c2a",
+   "company": "Eiffage",
+   "title": "Directeur de travaux TCE Data F/H",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Ormoy/Directeur-de-travaux-TCE-Data-F-H_JR2026-1615?q=data",
+   "reason": "titre exclu (directeur)",
+   "at": "2026-11-21T19:04:16+00:00"
+  },
+  {
+   "id": "55f81c827cb0",
+   "company": "Eiffage",
+   "title": "Responsable Offre Datacenter (F/H)",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Le-Mans/Responsable-Offre-Datacenter--F-H-_JR2025-1660?q=data",
+   "reason": "titre exclu (datacenter)",
+   "at": "2026-11-21T19:04:16+00:00"
+  },
+  {
+   "id": "8971856fe73c",
+   "company": "Eiffage",
+   "title": "Directeur technique Datacenter F/H",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Le-Mans/Directeur-technique-Datacenter-F-H_JR2026-1619?q=data",
+   "reason": "titre exclu (directeur)",
+   "at": "2026-11-21T19:04:16+00:00"
+  },
+  {
+   "id": "89725558a16d",
+   "company": "Eiffage",
+   "title": "Technicien d'exploitation maintenance data center Marcoussis 91 F/H",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Marcoussis/Technicien-d-exploitation-maintenance-data-center-Marcoussis-91-F-H_JR2026-3529?q=data",
+   "reason": "titre exclu (data center)",
+   "at": "2026-11-21T19:04:16+00:00"
+  },
+  {
+   "id": "968dcb28b371",
+   "company": "Eiffage",
+   "title": "Responsable d'affaires CVCD/PL projets DATA CENTER F/H",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Orsay/Responsable-d-affaires-CVCD-PL-projets-DATA-CENTER-F-H_JR2026-4510?q=data",
+   "reason": "titre exclu (data center)",
+   "at": "2026-11-21T19:04:16+00:00"
+  },
+  {
+   "id": "04831da331db",
+   "company": "Eiffage",
+   "title": "Chargé de méthodes en data center Marcoussis 91 F/H",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Marcoussis/Charg-de-mthodes-en-data-center-Marcoussis-91-F-H_JR2026-5305?q=data",
+   "reason": "titre exclu (data center)",
+   "at": "2026-11-21T19:04:16+00:00"
+  },
+  {
+   "id": "b585e7b89d52",
+   "company": "Eiffage",
+   "title": "Stage - Data, IA et automatisation des process RH F/H",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Caen/Stage---Data--IA-et-automatisation-des-process-RH-F-H_JR2026-5824?q=data",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-21T19:04:16+00:00"
+  },
+  {
+   "id": "b8b4e0204e01",
+   "company": "Eiffage",
+   "title": "Technicien de maintenance CVC/froid data center Marcoussis 91 F/H",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Marcoussis/Technicien-de-maintenance-CVC-froid-data-center-Marcoussis-91-F-H_JR2026-3544?q=data",
+   "reason": "titre exclu (data center)",
+   "at": "2026-11-21T19:04:16+00:00"
+  },
+  {
+   "id": "031565c95b8f",
+   "company": "Eiffage",
+   "title": "Responsable d'affaires maintenance data center Bussy Saint-Georges 77 F/H",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Bussy-Saint-Georges/Responsable-d-affaires-maintenance-data-center-Bussy-Saint-Georges-77-F-H_JR2026-3542?q=data",
+   "reason": "titre exclu (data center)",
+   "at": "2026-11-21T19:04:16+00:00"
+  },
+  {
+   "id": "569699ded60b",
+   "company": "Eiffage",
+   "title": "Technicien d'exploitation maintenance data center Bussy-Saint-Georges 77 F/H",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Bussy-Saint-Georges/Technicien-d-exploitation-maintenance-data-center-Bussy-Saint-Georges-77-F-H_JR2026-3550?q=data",
+   "reason": "titre exclu (data center)",
+   "at": "2026-11-21T19:04:16+00:00"
+  },
+  {
+   "id": "ee0dff734e3c",
+   "company": "Eiffage",
+   "title": "Chargé de méthodes data center Bussy Saint-Georges 77 F/H",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Bussy-Saint-Georges/Charg-de-mthodes-data-center-Bussy-Saint-Georges-77-F-H_JR2026-3556?q=data",
+   "reason": "titre exclu (data center)",
+   "at": "2026-11-21T19:04:16+00:00"
+  },
+  {
+   "id": "a9fcaacbf079",
+   "company": "Eiffage",
+   "title": "Technicien de maintenance CFO HT/BT data center Marcoussis 91 F/H",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Marcoussis/Technicien-de-maintenance-CFO-HT-BT-data-center-Marcoussis-91-F-H_JR2026-3545?q=data",
+   "reason": "titre exclu (data center)",
+   "at": "2026-11-21T19:04:16+00:00"
+  },
+  {
+   "id": "9f655a24be14",
+   "company": "Eiffage",
+   "title": "Technicien de maintenance CVC/froid data center Bussy-Saint-Georges 77 F/H",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Bussy-Saint-Georges/Technicien-de-maintenance-CVC-froid-data-center-Bussy-Saint-Georges-77-F-H_JR2026-3549?q=data",
+   "reason": "titre exclu (data center)",
+   "at": "2026-11-21T19:04:16+00:00"
+  },
+  {
+   "id": "4cd821786883",
+   "company": "Eiffage",
+   "title": "Stage en IA et SIRH",
+   "url": "https://eiffage.wd3.myworkdayjobs.com/fr-FR/Eiffage_Careers/job/Vlizy-Villacoublay/Stage-en-IA-et-SIRH_JR2026-5585-1?q=data",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-21T19:04:16+00:00"
+  },
+  {
+   "id": "01a14fbeb4c1",
+   "company": "Accor",
+   "title": "Data Analytics Engineer \"MATE\" - F/H/X",
+   "url": "https://jobs.smartrecruiters.com/accorcorpo/744000158773040",
+   "reason": "contrat non précisé",
+   "at": "2026-11-21T18:28:41+00:00"
+  },
+  {
+   "id": "ee4bbce4e01c",
+   "company": "Accor",
+   "title": "B2B Sales & Care – Business Analyst Intern - M/F/X",
+   "url": "https://jobs.smartrecruiters.com/accorcorpo/744000156478260",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-21T18:28:41+00:00"
+  },
+  {
+   "id": "0e17b6fec8ee",
+   "company": "Accor",
+   "title": "Senior Manager Pricing Strategy F/H/X",
+   "url": "https://jobs.smartrecruiters.com/accorcorpo/744000156263214",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-21T18:28:41+00:00"
+  },
+  {
+   "id": "1b3d134ba455",
+   "company": "Accor",
+   "title": "Senior Manager Pricing Strategy F/M/X",
+   "url": "https://jobs.smartrecruiters.com/accorcorpo/744000156257679",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-21T18:28:41+00:00"
+  },
+  {
+   "id": "737b7d72949f",
+   "company": "Accor",
+   "title": "Stage Data Manager (H/F/X)",
+   "url": "https://jobs.smartrecruiters.com/accorcorpo/744000153791286",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-21T18:28:41+00:00"
+  },
+  {
+   "id": "1ad0da199b07",
+   "company": "Accor",
+   "title": "Group Consolidation Analyst — Internship F/M/X",
+   "url": "https://jobs.smartrecruiters.com/accorcorpo/744000151899369",
+   "reason": "titre exclu (internship)",
+   "at": "2026-11-21T18:28:41+00:00"
+  },
+  {
+   "id": "d4a00e3cfd0b",
+   "company": "Accor",
+   "title": "Analyste consolidation Groupe — Stage F/H/X",
+   "url": "https://jobs.smartrecruiters.com/accorcorpo/744000151898595",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-21T18:28:41+00:00"
+  },
+  {
+   "id": "c0a84ced0abf",
+   "company": "Accor",
+   "title": "Consolidation Analyst F/M/X",
+   "url": "https://jobs.smartrecruiters.com/accorcorpo/744000159636939",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-21T18:28:40+00:00"
+  },
+  {
+   "id": "e0678fbd548a",
+   "company": "Accor",
+   "title": "Cloud Data Platform Engineer - F/H/X",
+   "url": "https://jobs.smartrecruiters.com/accorcorpo/744000162558007",
+   "reason": "expérience demandée ≥ 5 ans « , cloud computing ou systemes d'information. 5+ ans d'experience sur des pla »",
+   "at": "2026-11-21T18:28:38+00:00"
+  },
+  {
+   "id": "c067040aa728",
+   "company": "Accor",
+   "title": "Tech Lead Data \"Marketing Data Hub\" F/H/X",
+   "url": "https://jobs.smartrecruiters.com/accorcorpo/744000162545160",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-21T18:28:38+00:00"
+  },
+  {
+   "id": "f2b12488e2c3",
+   "company": "Accor",
+   "title": "Principal AI Data Scientist - F/H/X",
+   "url": "https://jobs.smartrecruiters.com/accorcorpo/744000162543209",
+   "reason": "titre exclu (principal)",
+   "at": "2026-11-21T18:28:38+00:00"
+  },
+  {
+   "id": "59fbef567f5c",
+   "company": "Accor",
+   "title": "Principal AI Data Scientist - F/H/X",
+   "url": "https://jobs.smartrecruiters.com/accorcorpo/744000162542609",
+   "reason": "titre exclu (principal)",
+   "at": "2026-11-21T18:28:38+00:00"
+  },
+  {
+   "id": "c67f353c10a7",
+   "company": "Accor",
+   "title": "AI Product / SME Lead - F/M/X",
+   "url": "https://jobs.smartrecruiters.com/accorcorpo/744000162485789",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-21T18:28:38+00:00"
+  },
+  {
+   "id": "a48a50a54886",
+   "company": "Accor",
+   "title": "AI Product / SME Lead - F/M/X",
+   "url": "https://jobs.smartrecruiters.com/accorcorpo/744000162484850",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-21T18:28:38+00:00"
+  },
+  {
+   "id": "ef182ef0b66d",
+   "company": "Accor",
+   "title": "Business Performance & Data Analytics Intern (F/M/X)",
+   "url": "https://jobs.smartrecruiters.com/accorcorpo/744000162474322",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-21T18:28:38+00:00"
+  },
+  {
+   "id": "82c837fae126",
+   "company": "Accor",
+   "title": "Stagiaire Chef de projet Pricing F/H/X",
+   "url": "https://jobs.smartrecruiters.com/accorcorpo/744000162469111",
+   "reason": "titre exclu (stagiaire)",
+   "at": "2026-11-21T18:28:38+00:00"
+  },
+  {
+   "id": "ffd0ff62063a",
+   "company": "Accor",
+   "title": "Pricing project intern F/M/X",
+   "url": "https://jobs.smartrecruiters.com/accorcorpo/744000162468309",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-21T18:28:38+00:00"
+  },
   {
    "id": "67bbce45ef25",
    "company": "SIX Group",
