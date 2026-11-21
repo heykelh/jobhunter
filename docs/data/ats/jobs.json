@@ -1,4 +1,483 @@
 {
- "updated": "2026-11-21T19:05:31+00:00",
- "jobs": []
+ "updated": "2026-11-21T23:43:15+00:00",
+ "jobs": [
+  {
+   "id": "4de61765f8bd",
+   "company": "Rothschild & Co",
+   "title": "CDI - Business Application Support Analyst (H/F)",
+   "url": "https://rothschildandco.wd3.myworkdayjobs.com/Rothschildandco_Lateral/job/Paris/CDI---Business-Application-Support-Analyst--H-F-_JR016551",
+   "via": null,
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "1 an min.",
+   "junior": false,
+   "published": "2026-10-08",
+   "seed": true,
+   "rv": 7,
+   "match": {
+    "score": 71,
+    "have": [
+     "power bi",
+     "excel",
+     "aws",
+     "data quality",
+     "reporting"
+    ],
+    "missing": [
+     "azure",
+     "salesforce"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-21T23:37:20+00:00",
+   "last_seen": "2026-11-21T23:37:20+00:00"
+  },
+  {
+   "id": "eca056d21b89",
+   "company": "NEXTON",
+   "title": "Technicien Support N1 Data & BI H/F",
+   "url": "https://jobs.smartrecruiters.com/NEXTON/744000158100670",
+   "via": null,
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-10-27T16:33:12+00:00",
+   "seed": true,
+   "rv": 7,
+   "match": {
+    "score": 67,
+    "have": [
+     "power bi",
+     "qualité des données",
+     "gouvernance",
+     "tableaux de bord"
+    ],
+    "missing": [
+     "snowflake",
+     "jira"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-21T23:03:06+00:00",
+   "last_seen": "2026-11-21T23:03:06+00:00"
+  },
+  {
+   "id": "588dbbbb930c",
+   "company": "ALTEN",
+   "title": "Scrum Master Data (F/H)",
+   "url": "https://jobs.smartrecruiters.com/ALTEN/744000160152879",
+   "via": null,
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-06T09:32:44+00:00",
+   "seed": true,
+   "rv": 7,
+   "match": {
+    "score": 60,
+    "have": [
+     "machine learning",
+     "gouvernance",
+     "reporting"
+    ],
+    "missing": [
+     "agile",
+     "scrum"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-21T23:01:27+00:00",
+   "last_seen": "2026-11-21T23:01:27+00:00"
+  },
+  {
+   "id": "b9286ae86c61",
+   "company": "Wavestone",
+   "title": "CDI - Consultant·e Data - Secteur Public",
+   "url": "https://jobs.smartrecruiters.com/Wavestone1/744000097717820",
+   "via": null,
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "1 an min. · junior",
+   "junior": true,
+   "published": "2025-12-09T13:44:45+00:00",
+   "seed": true,
+   "rv": 7,
+   "match": {
+    "score": 44,
+    "have": [
+     "qualité des données",
+     "gouvernance",
+     "rgpd",
+     "conformité"
+    ],
+    "missing": [
+     "tableau",
+     "databricks",
+     "modélisation",
+     "catalogue",
+     "dataiku"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-21T22:59:54+00:00",
+   "last_seen": "2026-11-21T22:59:54+00:00",
+   "ghost": {
+    "score": 2,
+    "reasons": [
+     "en ligne depuis 347 jours (depuis le 09/12/2025)"
+    ],
+    "reposts": 0,
+    "since": "2025-12-09"
+   }
+  },
+  {
+   "id": "a3ea7b93645d",
+   "company": "Wavestone",
+   "title": "Data, Analytics & AI Consultant - Luxe, Retail, Hospitalité, Services - CDI",
+   "url": "https://jobs.smartrecruiters.com/Wavestone1/744000109231595",
+   "via": null,
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-02-13T14:03:59+00:00",
+   "seed": true,
+   "rv": 7,
+   "match": {
+    "score": 86,
+    "have": [
+     "sql",
+     "power bi",
+     "gouvernance",
+     "tableaux de bord",
+     "kpi",
+     "pilotage"
+    ],
+    "missing": [
+     "catalogue"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-21T22:59:42+00:00",
+   "last_seen": "2026-11-21T22:59:42+00:00",
+   "ghost": {
+    "score": 2,
+    "reasons": [
+     "en ligne depuis 281 jours (depuis le 13/02/2026)"
+    ],
+    "reposts": 0,
+    "since": "2026-02-13"
+   }
+  },
+  {
+   "id": "37170aa61de5",
+   "company": "Wavestone",
+   "title": "Consultant.e en transformation digitale (Data & IA) – Banque & Assurance – CDI",
+   "url": "https://jobs.smartrecruiters.com/Wavestone1/744000116456557",
+   "via": null,
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-03-24T16:47:24+00:00",
+   "seed": true,
+   "rv": 7,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-21T22:59:41+00:00",
+   "last_seen": "2026-11-21T22:59:41+00:00",
+   "ghost": {
+    "score": 2,
+    "reasons": [
+     "en ligne depuis 242 jours (depuis le 24/03/2026)"
+    ],
+    "reposts": 0,
+    "since": "2026-03-24"
+   }
+  },
+  {
+   "id": "4b1015f1eb56",
+   "company": "Wavestone",
+   "title": "Analyste UX, UI & Industrialisation du Design - Digital Customer – CDI",
+   "url": "https://jobs.smartrecruiters.com/Wavestone1/744000127368925",
+   "via": null,
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-05-20T07:44:58+00:00",
+   "seed": true,
+   "rv": 7,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-21T22:59:32+00:00",
+   "last_seen": "2026-11-21T22:59:32+00:00",
+   "ghost": {
+    "score": 2,
+    "reasons": [
+     "en ligne depuis 185 jours (depuis le 20/05/2026)"
+    ],
+    "reposts": 0,
+    "since": "2026-05-20"
+   }
+  },
+  {
+   "id": "dc0c54974e02",
+   "company": "Wavestone",
+   "title": "Consultant·e en Développement Web & Expériences Digitales : Product Builder IA – Luxe, Retail, Hospitalité, Services - CDI",
+   "url": "https://jobs.smartrecruiters.com/Wavestone1/744000132134441",
+   "via": null,
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-06-15T07:52:11+00:00",
+   "seed": true,
+   "rv": 7,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-21T22:59:29+00:00",
+   "last_seen": "2026-11-21T22:59:29+00:00",
+   "ghost": {
+    "score": 2,
+    "reasons": [
+     "en ligne depuis 159 jours (depuis le 15/06/2026)"
+    ],
+    "reposts": 0,
+    "since": "2026-06-15"
+   }
+  },
+  {
+   "id": "59fa5999a67e",
+   "company": "Wavestone",
+   "title": "AI Strategy & Business Transformation – Consultant.e junior / CDI (H/F)",
+   "url": "https://jobs.smartrecruiters.com/Wavestone1/744000159845339",
+   "via": null,
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-05T11:33:34+00:00",
+   "seed": true,
+   "rv": 7,
+   "match": {
+    "score": 100,
+    "have": [
+     "intelligence artificielle",
+     "conformité",
+     "anglais"
+    ],
+    "missing": []
+   },
+   "salary": null,
+   "first_seen": "2026-11-21T22:59:14+00:00",
+   "last_seen": "2026-11-21T22:59:14+00:00"
+  },
+  {
+   "id": "e2a0f1985c3a",
+   "company": "Wavestone",
+   "title": "CTO, CIO & IA - Consultant·e Junior en Transformation Digitale – CTO/CIO Advisory - CDI",
+   "url": "https://jobs.smartrecruiters.com/Wavestone1/744000162456804",
+   "via": null,
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-19T08:19:42+00:00",
+   "seed": true,
+   "rv": 7,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-21T22:59:04+00:00",
+   "last_seen": "2026-11-21T22:59:04+00:00"
+  },
+  {
+   "id": "534b53423429",
+   "company": "Wavestone",
+   "title": "Accompagner les CTO à l'ère de l'IA - Consultant·e Junior en Transformation Digitale - CTO Advisory - CDI",
+   "url": "https://jobs.smartrecruiters.com/Wavestone1/744000162457884",
+   "via": null,
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-19T08:19:53+00:00",
+   "seed": true,
+   "rv": 7,
+   "match": {
+    "score": 80,
+    "have": [
+     "aws",
+     "gouvernance",
+     "dashboard",
+     "pilotage"
+    ],
+    "missing": [
+     "gcp"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-21T22:59:03+00:00",
+   "last_seen": "2026-11-21T22:59:03+00:00"
+  },
+  {
+   "id": "f935a08b98b2",
+   "company": "Wavestone",
+   "title": "Cloud & IA - Consultant·e Junior en Transformation Digitale - CTO Advisory – CDI",
+   "url": "https://jobs.smartrecruiters.com/Wavestone1/744000162456092",
+   "via": null,
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-19T08:20:05+00:00",
+   "seed": true,
+   "rv": 7,
+   "match": {
+    "score": 100,
+    "have": [
+     "machine learning",
+     "intelligence artificielle",
+     "gouvernance",
+     "conformité"
+    ],
+    "missing": []
+   },
+   "salary": null,
+   "first_seen": "2026-11-21T22:58:54+00:00",
+   "last_seen": "2026-11-21T22:58:54+00:00"
+  },
+  {
+   "id": "b27da2846066",
+   "company": "Wavestone",
+   "title": "Plateformes digitales & IA - Consultant·e Junior en Transformation Digitale – CTO Advisory - CDI",
+   "url": "https://jobs.smartrecruiters.com/Wavestone1/744000162458036",
+   "via": null,
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-19T08:20:19+00:00",
+   "seed": true,
+   "rv": 7,
+   "match": {
+    "score": 50,
+    "have": [
+     "intelligence artificielle",
+     "gouvernance",
+     "pilotage"
+    ],
+    "missing": [
+     "azure",
+     "salesforce",
+     "dataiku"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-21T22:58:52+00:00",
+   "last_seen": "2026-11-21T22:58:52+00:00"
+  },
+  {
+   "id": "d543ae94949b",
+   "company": "Wavestone",
+   "title": "IA & Digital Workplace - Consultant·e Junior en Transformation Digitale - CTO Advisory – CDI",
+   "url": "https://jobs.smartrecruiters.com/Wavestone1/744000162458689",
+   "via": null,
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-19T08:22:35+00:00",
+   "seed": true,
+   "rv": 7,
+   "match": {
+    "score": 100,
+    "have": [
+     "machine learning",
+     "intelligence artificielle",
+     "pilotage"
+    ],
+    "missing": []
+   },
+   "salary": null,
+   "first_seen": "2026-11-21T22:58:51+00:00",
+   "last_seen": "2026-11-21T22:58:51+00:00"
+  },
+  {
+   "id": "2922939f4088",
+   "company": "Wavestone",
+   "title": "IA & SI – Consultant·e Junior - CTO Advisory - CDI",
+   "url": "https://jobs.smartrecruiters.com/Wavestone1/744000162458859",
+   "via": null,
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-19T08:23:02+00:00",
+   "seed": true,
+   "rv": 7,
+   "match": {
+    "score": 100,
+    "have": [
+     "intelligence artificielle",
+     "gouvernance",
+     "rgpd",
+     "ai act"
+    ],
+    "missing": []
+   },
+   "salary": null,
+   "first_seen": "2026-11-21T22:58:49+00:00",
+   "last_seen": "2026-11-21T22:58:49+00:00"
+  },
+  {
+   "id": "4dbeba352017",
+   "company": "Wavestone",
+   "title": "Consultant.e Data – Luxe, Retail, Hospitalité, Services - CDI",
+   "url": "https://jobs.smartrecruiters.com/Wavestone1/744000162754081",
+   "via": null,
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "1 an min. · junior",
+   "junior": true,
+   "published": "2026-11-20T15:00:45+00:00",
+   "seed": true,
+   "rv": 7,
+   "match": {
+    "score": 86,
+    "have": [
+     "power bi",
+     "intelligence artificielle",
+     "qualité des données",
+     "gouvernance",
+     "reporting",
+     "pilotage"
+    ],
+    "missing": [
+     "tableau"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-21T22:58:48+00:00",
+   "last_seen": "2026-11-21T22:58:48+00:00"
+  }
+ ]
 }

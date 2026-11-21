@@ -3,9 +3,28 @@
   "Banque de France",
   "Sanofi",
   "Pernod Ricard",
-  "Chanel"
+  "Chanel",
+  "Meetic",
+  "Tradelab",
+  "Transaction Connect",
+  "Talan",
+  "Wavestone",
+  "Sia Partners",
+  "Magellan Partners",
+  "ALTEN",
+  "Meritis",
+  "NEXTON",
+  "Everience",
+  "Bertelsmann",
+  "Swiss Medical Network",
+  "Nexthink",
+  "Evooq",
+  "AG2R La Mondiale",
+  "Deloitte France",
+  "Rothschild & Co",
+  "Deutsche Bank"
  ],
  "zones_sig": "Luxembourg,Suisse,Île-de-France",
- "rules_version": 6,
- "next_company": 4
+ "rules_version": 7,
+ "next_company": 37
 }
