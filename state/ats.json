@@ -22,9 +22,13 @@
   "AG2R La Mondiale",
   "Deloitte France",
   "Rothschild & Co",
-  "Deutsche Bank"
+  "Deutsche Bank",
+  "Publicis Groupe",
+  "Iliad - Free",
+  "Les Mousquetaires",
+  "Free2move"
  ],
  "zones_sig": "Luxembourg,Suisse,Île-de-France",
  "rules_version": 7,
- "next_company": 37
+ "next_company": 0
 }

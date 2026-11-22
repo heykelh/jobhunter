@@ -1,6 +1,128 @@
 {
- "updated": "2026-11-21T23:43:15+00:00",
+ "updated": "2026-11-22T01:08:27+00:00",
  "jobs": [
+  {
+   "id": "dcd246c86a00",
+   "company": "Banque de France",
+   "title": "AI/ML Engineer (H/F)",
+   "url": "https://bdf.wd103.myworkdayjobs.com/recrutement-banque-de-france/job/PARIS/DGSI---AI-ML-Engineer--H-F-_JR101116",
+   "via": null,
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "2 ans min.",
+   "junior": false,
+   "published": "2026-09-14",
+   "seed": false,
+   "rv": 7,
+   "match": {
+    "score": 78,
+    "have": [
+     "python",
+     "machine learning",
+     "intelligence artificielle",
+     "llm",
+     "rag",
+     "gouvernance",
+     "anglais"
+    ],
+    "missing": [
+     "modélisation",
+     "statistiques"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-22T00:54:50+00:00",
+   "last_seen": "2026-11-22T00:54:50+00:00"
+  },
+  {
+   "id": "40837f5814df",
+   "company": "Banque de France",
+   "title": "Data Scientist Suptech (H/F)",
+   "url": "https://bdf.wd103.myworkdayjobs.com/recrutement-banque-de-france/job/PARIS/Data-Scientist-Suptech--H-F-_JR100695",
+   "via": null,
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "2 ans min. · junior",
+   "junior": true,
+   "published": "2026-07-13",
+   "seed": false,
+   "rv": 7,
+   "match": {
+    "score": 58,
+    "have": [
+     "python",
+     "sql",
+     "machine learning",
+     "intelligence artificielle",
+     "llm",
+     "fastapi",
+     "scikit-learn"
+    ],
+    "missing": [
+     "modélisation",
+     "agile",
+     "tensorflow",
+     "pytorch",
+     "nlp"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-22T00:51:33+00:00",
+   "last_seen": "2026-11-22T00:51:33+00:00",
+   "ghost": {
+    "score": 2,
+    "reasons": [
+     "en ligne depuis 132 jours (depuis le 13/07/2026)"
+    ],
+    "reposts": 0,
+    "since": "2026-07-13"
+   }
+  },
+  {
+   "id": "f471bc7114f3",
+   "company": "Free2move",
+   "title": "Data Analyst Junior (Remote or Onsite)",
+   "url": "https://jobs.smartrecruiters.com/Free2move/743999747195496",
+   "via": null,
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2021-05-11T09:45:37+00:00",
+   "seed": true,
+   "rv": 7,
+   "match": {
+    "score": 50,
+    "have": [
+     "python",
+     "sql",
+     "power bi",
+     "docker",
+     "etl"
+    ],
+    "missing": [
+     "tableau",
+     "spark",
+     "kubernetes",
+     "git",
+     "agile"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-22T00:47:13+00:00",
+   "last_seen": "2026-11-22T00:47:13+00:00",
+   "ghost": {
+    "score": 2,
+    "reasons": [
+     "en ligne depuis 2020 jours (depuis le 11/05/2021)"
+    ],
+    "reposts": 0,
+    "since": "2021-05-11"
+   }
+  },
   {
    "id": "4de61765f8bd",
    "company": "Rothschild & Co",
@@ -62,7 +184,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-21T23:03:06+00:00",
-   "last_seen": "2026-11-21T23:03:06+00:00"
+   "last_seen": "2026-11-22T00:47:55+00:00"
   },
   {
    "id": "588dbbbb930c",
@@ -92,7 +214,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-21T23:01:27+00:00",
-   "last_seen": "2026-11-21T23:01:27+00:00"
+   "last_seen": "2026-11-22T00:47:48+00:00"
   },
   {
    "id": "b9286ae86c61",
@@ -126,7 +248,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-21T22:59:54+00:00",
-   "last_seen": "2026-11-21T22:59:54+00:00",
+   "last_seen": "2026-11-22T00:47:31+00:00",
    "ghost": {
     "score": 2,
     "reasons": [
@@ -166,7 +288,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-21T22:59:42+00:00",
-   "last_seen": "2026-11-21T22:59:42+00:00",
+   "last_seen": "2026-11-22T00:47:31+00:00",
    "ghost": {
     "score": 2,
     "reasons": [
@@ -193,7 +315,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-21T22:59:41+00:00",
-   "last_seen": "2026-11-21T22:59:41+00:00",
+   "last_seen": "2026-11-22T00:47:31+00:00",
    "ghost": {
     "score": 2,
     "reasons": [
@@ -220,7 +342,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-21T22:59:32+00:00",
-   "last_seen": "2026-11-21T22:59:32+00:00",
+   "last_seen": "2026-11-22T00:47:31+00:00",
    "ghost": {
     "score": 2,
     "reasons": [
@@ -247,7 +369,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-21T22:59:29+00:00",
-   "last_seen": "2026-11-21T22:59:29+00:00",
+   "last_seen": "2026-11-22T00:47:31+00:00",
    "ghost": {
     "score": 2,
     "reasons": [
@@ -282,7 +404,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-21T22:59:14+00:00",
-   "last_seen": "2026-11-21T22:59:14+00:00"
+   "last_seen": "2026-11-22T00:47:31+00:00"
   },
   {
    "id": "e2a0f1985c3a",
@@ -301,7 +423,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-21T22:59:04+00:00",
-   "last_seen": "2026-11-21T22:59:04+00:00"
+   "last_seen": "2026-11-22T00:47:31+00:00"
   },
   {
    "id": "534b53423429",
@@ -331,7 +453,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-21T22:59:03+00:00",
-   "last_seen": "2026-11-21T22:59:03+00:00"
+   "last_seen": "2026-11-22T00:47:31+00:00"
   },
   {
    "id": "f935a08b98b2",
@@ -359,7 +481,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-21T22:58:54+00:00",
-   "last_seen": "2026-11-21T22:58:54+00:00"
+   "last_seen": "2026-11-22T00:47:31+00:00"
   },
   {
    "id": "b27da2846066",
@@ -390,7 +512,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-21T22:58:52+00:00",
-   "last_seen": "2026-11-21T22:58:52+00:00"
+   "last_seen": "2026-11-22T00:47:31+00:00"
   },
   {
    "id": "d543ae94949b",
@@ -417,7 +539,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-21T22:58:51+00:00",
-   "last_seen": "2026-11-21T22:58:51+00:00"
+   "last_seen": "2026-11-22T00:47:31+00:00"
   },
   {
    "id": "2922939f4088",
@@ -445,7 +567,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-21T22:58:49+00:00",
-   "last_seen": "2026-11-21T22:58:49+00:00"
+   "last_seen": "2026-11-22T00:47:31+00:00"
   },
   {
    "id": "4dbeba352017",
@@ -477,7 +599,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-21T22:58:48+00:00",
-   "last_seen": "2026-11-21T22:58:48+00:00"
+   "last_seen": "2026-11-22T00:47:31+00:00"
   }
  ]
 }

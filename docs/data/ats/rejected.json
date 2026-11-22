@@ -1,6 +1,238 @@
 {
- "updated": "2026-11-21T23:43:15+00:00",
+ "updated": "2026-11-22T01:08:27+00:00",
  "items": [
+  {
+   "id": "a40aa173c144",
+   "company": "Sanofi",
+   "title": "Data & AI Engineer",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/SanofiCareers/job/Paris/Data---AI-Engineer_R2870666",
+   "reason": "contrat non précisé",
+   "at": "2026-11-22T01:00:48+00:00"
+  },
+  {
+   "id": "114398d966be",
+   "company": "Sanofi",
+   "title": "stage 6 mois analyste supply chain clinique",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/SanofiCareers/job/Montpellier/stage-6-mois-analyste-supply-chain-clinique_R2873737",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T01:00:48+00:00"
+  },
+  {
+   "id": "f825221c07c8",
+   "company": "Sanofi",
+   "title": "Data and AI Engineer",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/SanofiCareers/job/Lyon/Data-and-AI-Engineer_R2864478",
+   "reason": "lieu hors zones",
+   "at": "2026-11-22T01:00:00+00:00"
+  },
+  {
+   "id": "04d19aefd975",
+   "company": "Sanofi",
+   "title": "stage 6 mois data integrity et transformation digitale",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/SanofiCareers/job/Marcy-lEtoile/stage-6-mois-data-integrity-et-transformation-digitale_R2873971",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T01:00:00+00:00"
+  },
+  {
+   "id": "6d4f52f1a73b",
+   "company": "Sanofi",
+   "title": "QC analyst",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/SanofiCareers/job/Vitry-sur-Seine/QC-analyst_R2878752",
+   "reason": "contrat non précisé",
+   "at": "2026-11-22T00:59:13+00:00"
+  },
+  {
+   "id": "960ecabaa56d",
+   "company": "Sanofi",
+   "title": "Senior Principal Data Scientist, Agentic AI Canopy",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/SanofiCareers/job/Marcy-lEtoile/Senior-Principal-Data-Scientist--Agentic-AI-Canopy_R2873424-1",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-22T00:58:26+00:00"
+  },
+  {
+   "id": "713eafcd412b",
+   "company": "Banque de France",
+   "title": "Automatisation IA de process en Cybersécurité H/F",
+   "url": "https://bdf.wd103.myworkdayjobs.com/recrutement-banque-de-france/job/PARIS/Automatisation-IA-de-process-en-Cyberscurit-H-F_JR101806",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-22T00:58:02+00:00"
+  },
+  {
+   "id": "ab4f9fc78e44",
+   "company": "Banque de France",
+   "title": "Assistant IA et optimisation des processus interne H/F",
+   "url": "https://bdf.wd103.myworkdayjobs.com/recrutement-banque-de-france/job/AJACCIO/Assistant-IA-et-optimisation-des-processus-interne-H-F_JR100188",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T00:57:14+00:00"
+  },
+  {
+   "id": "2ca4e6bd3f3d",
+   "company": "Banque de France",
+   "title": "ANALYSTE ENQUETE CONJONCTURE H/F",
+   "url": "https://bdf.wd103.myworkdayjobs.com/recrutement-banque-de-france/job/RENNES/ANALYSTE-ENQUETE-CONJONCTURE-H-F_JR101746",
+   "reason": "lieu hors zones",
+   "at": "2026-11-22T00:56:27+00:00"
+  },
+  {
+   "id": "3ca2d352c2b5",
+   "company": "Banque de France",
+   "title": "Analyste quantitatif FX H/F",
+   "url": "https://bdf.wd103.myworkdayjobs.com/recrutement-banque-de-france/job/PARIS/Analyste-quantitatif-FX-H-F_JR101215",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-22T00:54:53+00:00"
+  },
+  {
+   "id": "2dc584d55a52",
+   "company": "Banque de France",
+   "title": "Chargé de projet innovation data / IA (H/F)",
+   "url": "https://bdf.wd103.myworkdayjobs.com/recrutement-banque-de-france/job/PARIS/Charg-de-projet-innovation-data---IA--H-F-_JR101337",
+   "reason": "expérience non précisée (ni sur la fiche, ni par l'IA)",
+   "at": "2026-11-22T00:54:47+00:00"
+  },
+  {
+   "id": "68f64aef8874",
+   "company": "Banque de France",
+   "title": "Data scientist en finance de marché - H/F",
+   "url": "https://bdf.wd103.myworkdayjobs.com/recrutement-banque-de-france/job/PARIS/Data-scientist-en-finance-de-march---H-F_JR101669",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-22T00:54:42+00:00"
+  },
+  {
+   "id": "dc2fabb9d895",
+   "company": "Banque de France",
+   "title": "Analyste Data Engineer (SQL Python R) H/F",
+   "url": "https://bdf.wd103.myworkdayjobs.com/recrutement-banque-de-france/job/PARIS/Analyste-Data-Engineer--SQL-Python-R--H-F_JR101598",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-22T00:53:55+00:00"
+  },
+  {
+   "id": "cd3f2f373f60",
+   "company": "Banque de France",
+   "title": "Développeur Power BI / Data Reporting - H/F",
+   "url": "https://bdf.wd103.myworkdayjobs.com/recrutement-banque-de-france/job/PARIS/Dveloppeur-Power-BI---Data-Reporting---H-F_JR101769",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-22T00:52:19+00:00"
+  },
+  {
+   "id": "c1f06a372afa",
+   "company": "Banque de France",
+   "title": "Data scientist (H/F)",
+   "url": "https://bdf.wd103.myworkdayjobs.com/recrutement-banque-de-france/job/AUTORITE-CONTROLE-PRUDENTIEL-ET-DE-RESOLUTION/Data-scientist---H-F-_JR100693",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T00:51:06+00:00"
+  },
+  {
+   "id": "1c0c5cd6f802",
+   "company": "Banque de France",
+   "title": "DATA SCIENTIST (H/F)",
+   "url": "https://bdf.wd103.myworkdayjobs.com/recrutement-banque-de-france/job/LA-COURNEUVE/DATA-SCIENTIST--H-F-_JR101579",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T00:50:18+00:00"
+  },
+  {
+   "id": "d12a03fe74fb",
+   "company": "Banque de France",
+   "title": "Data scientist (H/F)",
+   "url": "https://bdf.wd103.myworkdayjobs.com/recrutement-banque-de-france/job/PARIS/Data-scientist--H-F-_JR101640",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-22T00:49:32+00:00"
+  },
+  {
+   "id": "297f50226c43",
+   "company": "Iliad - Free",
+   "title": "Process Excellence Analyst - Paris - H/F",
+   "url": "https://jobs.smartrecruiters.com/Iliad-Free/744000157416089",
+   "reason": "contrat non précisé",
+   "at": "2026-11-22T00:47:07+00:00"
+  },
+  {
+   "id": "702fbe73d2ea",
+   "company": "Iliad - Free",
+   "title": "Ingénieur réseau DataCenter - Paris - H/F",
+   "url": "https://jobs.smartrecruiters.com/Iliad-Free/744000153198949",
+   "reason": "titre exclu (datacenter)",
+   "at": "2026-11-22T00:47:07+00:00"
+  },
+  {
+   "id": "8ef0f47f1015",
+   "company": "Iliad - Free",
+   "title": "Manager Data Scientist - Network Products & Services - Paris - H/F",
+   "url": "https://jobs.smartrecruiters.com/Iliad-Free/744000151597142",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-22T00:47:07+00:00"
+  },
+  {
+   "id": "ae694ce915ba",
+   "company": "Iliad - Free",
+   "title": "Motion Designer / Gen AI - Freelance - Paris",
+   "url": "https://jobs.smartrecruiters.com/Iliad-Free/744000149285529",
+   "reason": "titre exclu (freelance)",
+   "at": "2026-11-22T00:47:07+00:00"
+  },
+  {
+   "id": "79e7757b4620",
+   "company": "Iliad - Free",
+   "title": "Technicien Datacenter - Vitry-sur-Seine- F/H",
+   "url": "https://jobs.smartrecruiters.com/Iliad-Free/744000102292035",
+   "reason": "titre exclu (datacenter)",
+   "at": "2026-11-22T00:47:07+00:00"
+  },
+  {
+   "id": "daa355763c3b",
+   "company": "Iliad - Free",
+   "title": "Embedded AI / 5G Engineer, O-RAN - Paris - H/F",
+   "url": "https://jobs.smartrecruiters.com/Iliad-Free/744000160217549",
+   "reason": "contrat non précisé",
+   "at": "2026-11-22T00:47:06+00:00"
+  },
+  {
+   "id": "43702c234104",
+   "company": "Iliad - Free",
+   "title": "Stage - Data Scientist - Paris - H/F",
+   "url": "https://jobs.smartrecruiters.com/Iliad-Free/744000158718451",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T00:47:06+00:00"
+  },
+  {
+   "id": "9ca99056de96",
+   "company": "Iliad - Free",
+   "title": "Stage - Data Engineer - Paris - H/F",
+   "url": "https://jobs.smartrecruiters.com/Iliad-Free/744000158718524",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T00:47:06+00:00"
+  },
+  {
+   "id": "e572498a83a4",
+   "company": "Iliad - Free",
+   "title": "Stage - Business Analyst - Paris - H/F",
+   "url": "https://jobs.smartrecruiters.com/Iliad-Free/744000158720249",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T00:47:06+00:00"
+  },
+  {
+   "id": "fe829f3e98b5",
+   "company": "Iliad - Free",
+   "title": "Stage - AI Engineer LLM - Paris - H/F",
+   "url": "https://jobs.smartrecruiters.com/Iliad-Free/744000158719979",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T00:47:06+00:00"
+  },
+  {
+   "id": "6567c0e0dbca",
+   "company": "Iliad - Free",
+   "title": "Research Internship – AI for 5G O-RAN: GPU & DSP Algorithms for the Physical Layer - Paris - H/F",
+   "url": "https://jobs.smartrecruiters.com/Iliad-Free/744000162351159",
+   "reason": "titre exclu (internship)",
+   "at": "2026-11-22T00:47:04+00:00"
+  },
+  {
+   "id": "2d31cd7aef57",
+   "company": "Iliad - Free",
+   "title": "Data Manager TV - Paris - H/F",
+   "url": "https://jobs.smartrecruiters.com/Iliad-Free/744000161510239",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-22T00:47:04+00:00"
+  },
   {
    "id": "b5ba786edda0",
    "company": "Deutsche Bank",
