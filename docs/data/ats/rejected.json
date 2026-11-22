@@ -1,6 +1,838 @@
 {
- "updated": "2026-11-22T01:08:27+00:00",
+ "updated": "2026-11-22T13:36:27+00:00",
  "items": [
+  {
+   "id": "930e4de133c1",
+   "company": "Barclays",
+   "title": "Quantitative Analyst Risk Modeler",
+   "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/New-York-745-7th-Avenue/Quantitative-Analyst-Risk-Modeler_JR-0000140437",
+   "reason": "lieu hors zones",
+   "at": "2026-11-22T13:33:40+00:00"
+  },
+  {
+   "id": "bbc5a2919c21",
+   "company": "Barclays",
+   "title": "Business Analyst",
+   "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Bengaluru-Maruthi-Onyx---TESCO-TSA/Business-Analyst_JR-0000137253-1",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T13:32:53+00:00"
+  },
+  {
+   "id": "01f67e9b8ccf",
+   "company": "Barclays",
+   "title": "Business Analyst",
+   "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/Business-Analyst_JR-0000118931",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T13:32:06+00:00"
+  },
+  {
+   "id": "69ae912569b3",
+   "company": "Barclays",
+   "title": "Data Centre Technician",
+   "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Slough-Galvin-Road/Data-Centre-Technician_JR-0000123074",
+   "reason": "titre exclu (data centre)",
+   "at": "2026-11-22T13:32:06+00:00"
+  },
+  {
+   "id": "982d3c81be3a",
+   "company": "Barclays",
+   "title": "Business Analyst",
+   "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Business-Analyst_JR-0000122323-1",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T13:31:18+00:00"
+  },
+  {
+   "id": "b9ea450bc719",
+   "company": "Barclays",
+   "title": "Business Support Analyst - 8 month Fixed Term Contract",
+   "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/The-Gate-Village-Dubai/Business-Support-Analyst---8-month-Fixed-Term-Contract_JR-0000138658",
+   "reason": "lieu hors zones",
+   "at": "2026-11-22T13:30:31+00:00"
+  },
+  {
+   "id": "36f9bab0167a",
+   "company": "Barclays",
+   "title": "Private Bank Executive, Analyst",
+   "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Singapore-Marina-Bay-Financial-Tower-2/Private-Bank-Executive--Analyst_JR-0000140852",
+   "reason": "lieu hors zones",
+   "at": "2026-11-22T13:29:43+00:00"
+  },
+  {
+   "id": "ed8499b6937b",
+   "company": "Barclays",
+   "title": "Investigation Triage Analyst",
+   "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Investigation-Triage-Analyst_JR-0000135657-1",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T13:28:56+00:00"
+  },
+  {
+   "id": "86996950c46a",
+   "company": "Barclays",
+   "title": "Specialist Support Analyst",
+   "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Knutsford-Radbroke-Hall/Specialist-Support-Analyst_JR-0000140907-1",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T13:28:09+00:00"
+  },
+  {
+   "id": "ddab0009436f",
+   "company": "Barclays",
+   "title": "Analyst - Product Control",
+   "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Analyst---Product-Control_JR-0000116044",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T13:27:21+00:00"
+  },
+  {
+   "id": "c819b2c2f98b",
+   "company": "Barclays",
+   "title": "Counterparty Risk Analyst - CRM",
+   "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Mumbai-Nirlon-Knowledge-Park-IB--9th-floor/Counterparty-Risk-Analyst---CRM_JR-0000135309",
+   "reason": "lieu hors zones",
+   "at": "2026-11-22T13:26:34+00:00"
+  },
+  {
+   "id": "3b8ab9bae8cf",
+   "company": "Barclays",
+   "title": "Quantitative Analyst AVP - Treasury",
+   "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Mumbai-Nirlon-Knowledge-Park-BX-9th--11-12-floor/Quantitative-Analyst-AVP---Treasury_JR-0000070522-1",
+   "reason": "lieu hors zones",
+   "at": "2026-11-22T13:25:47+00:00"
+  },
+  {
+   "id": "f3692a422e01",
+   "company": "Barclays",
+   "title": "Data Engineer",
+   "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Data-Engineer_JR-0000136754",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T13:24:59+00:00"
+  },
+  {
+   "id": "0ce5f2c9d33b",
+   "company": "Barclays",
+   "title": "Software Engineer - AI",
+   "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Software-Engineer---AI_JR-0000130945",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T13:24:12+00:00"
+  },
+  {
+   "id": "325d0cb62736",
+   "company": "Barclays",
+   "title": "Remediation KYC Analyst",
+   "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Chennai-DLF-IT-Park/Remediation-KYC-Analyst_JR-0000136913-1",
+   "reason": "lieu hors zones",
+   "at": "2026-11-22T13:23:26+00:00"
+  },
+  {
+   "id": "8faa5f79cd48",
+   "company": "Barclays",
+   "title": "Business Analyst",
+   "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/Business-Analyst_JR-0000135685-1",
+   "reason": "lieu hors zones",
+   "at": "2026-11-22T13:23:23+00:00"
+  },
+  {
+   "id": "e48a5555cb35",
+   "company": "Barclays",
+   "title": "Legal Entity Controller Analyst",
+   "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Toronto-Bay-Wellington-Tower-L47/Legal-Entity-Controller-Analyst_JR-0000134436",
+   "reason": "lieu hors zones",
+   "at": "2026-11-22T13:23:20+00:00"
+  },
+  {
+   "id": "5117602b1409",
+   "company": "Barclays",
+   "title": "Analyst Macro Product control",
+   "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Analyst-Macro-Product-control_JR-0000114732",
+   "reason": "lieu hors zones",
+   "at": "2026-11-22T13:23:17+00:00"
+  },
+  {
+   "id": "38c9d652e271",
+   "company": "Barclays",
+   "title": "Analyst Macro Product Control",
+   "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Analyst-Macro-Product-Control_JR-0000131221",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T13:23:13+00:00"
+  },
+  {
+   "id": "99016c339d51",
+   "company": "Barclays",
+   "title": "Business Analyst",
+   "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Glasgow-Campus/Business-Analyst_JR-0000130045-1",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T13:22:26+00:00"
+  },
+  {
+   "id": "4724b3928dae",
+   "company": "Barclays",
+   "title": "Data Engineer",
+   "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Bengaluru-Maruthi-Onyx---TESCO-TSA/Data-Engineer_JR-0000108775",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T13:21:39+00:00"
+  },
+  {
+   "id": "c01d6999ddf6",
+   "company": "Barclays",
+   "title": "Director, Banking & Wholesale Lending Data Strategy & Governance",
+   "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/New-York-745-7th-Avenue/Director--Banking---Wholesale-Lending-Data-Strategy---Governance_JR-0000130287",
+   "reason": "titre exclu (director)",
+   "at": "2026-11-22T13:20:52+00:00"
+  },
+  {
+   "id": "326b4e5f69b5",
+   "company": "Avanade",
+   "title": "Dynamics 365 CE Functional Analyst",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AvanadeCareers/job/Stockholm/Dynamics-365-CE-Functional-Analyst_R00373332",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T13:18:51+00:00"
+  },
+  {
+   "id": "c4a7cdf7642c",
+   "company": "Avanade",
+   "title": "AI Strategy & Architecture Advisor",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AvanadeCareers/job/Madrid-Castellana-85/AI-Strategy---Architecture-Advisor_R00373422",
+   "reason": "lieu hors zones",
+   "at": "2026-11-22T13:18:04+00:00"
+  },
+  {
+   "id": "be438de447dd",
+   "company": "Avanade",
+   "title": "Azure Agentic AI Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AvanadeCareers/job/London/Azure-Agentic-AI-Engineer_R00373719-1",
+   "reason": "lieu hors zones",
+   "at": "2026-11-22T13:17:16+00:00"
+  },
+  {
+   "id": "dc5ed2e81064",
+   "company": "Avanade",
+   "title": "Agent 365 & Microsoft AI Security Consultant / Associate Manager",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AvanadeCareers/job/London/Microsoft-Secure-AI-Consultant---Associate-Manager_R00357750",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-22T13:17:16+00:00"
+  },
+  {
+   "id": "9856a76e942c",
+   "company": "Avanade",
+   "title": "Manager, Sr AI Architect",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AvanadeCareers/job/Chicago-Accenture-Tower-Corp/Manager--Sr-AI-Architect_R00373525",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-22T13:17:16+00:00"
+  },
+  {
+   "id": "e8254f4b1442",
+   "company": "Avanade",
+   "title": "Digital Business Analyst",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AvanadeCareers/job/Singapore/Digital-Business-Analyst_R00341673",
+   "reason": "lieu hors zones",
+   "at": "2026-11-22T13:16:29+00:00"
+  },
+  {
+   "id": "1e966de3a009",
+   "company": "Avanade",
+   "title": "Architecte Data Protection",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AvanadeCareers/job/Paris-Issy-Bords-de-Seine-1/Architecte-Data-Protection_R00373903",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-22T13:16:29+00:00"
+  },
+  {
+   "id": "04849f30d2f3",
+   "company": "onepoint",
+   "title": "Consultant - Business Analyst F/H",
+   "url": "https://onepoint.wd3.myworkdayjobs.com/WepointEN/job/Paris-France/Consultant---Business-Analyst-F-H_JR101394",
+   "reason": "contrat non précisé",
+   "at": "2026-11-22T13:13:49+00:00"
+  },
+  {
+   "id": "bb41935c7a12",
+   "company": "onepoint",
+   "title": "Data Engineer Confirmé Azure / Microsoft Fabric - F/H",
+   "url": "https://onepoint.wd3.myworkdayjobs.com/WepointEN/job/Aix-en-Provence-France/Data-Engineer-Confirm-Azure---Microsoft-Fabric---F-H_JR102222",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-22T13:13:49+00:00"
+  },
+  {
+   "id": "f7464c0ae49b",
+   "company": "onepoint",
+   "title": "Data Engineer Confirmé Azure / Microsoft Fabric - F/H",
+   "url": "https://onepoint.wd3.myworkdayjobs.com/WepointEN/job/Strasbourg-France/Data-Engineer-Confirm-Azure---Microsoft-Fabric---F-H_JR102648-1",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-22T13:13:49+00:00"
+  },
+  {
+   "id": "05eb397c02b2",
+   "company": "onepoint",
+   "title": "Data Engineer Confirmé Databricks - F/H",
+   "url": "https://onepoint.wd3.myworkdayjobs.com/WepointEN/job/Aix-en-Provence-France/Data-Engineer-Confirm-Databricks---F-H_JR102349-1",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-22T13:13:49+00:00"
+  },
+  {
+   "id": "c1b148fd3731",
+   "company": "onepoint",
+   "title": "Data Engineer Confirmé Databricks - F/H",
+   "url": "https://onepoint.wd3.myworkdayjobs.com/WepointEN/job/Strasbourg-France/Data-Engineer-Confirm-Databricks---F-H_JR102641-1",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-22T13:13:49+00:00"
+  },
+  {
+   "id": "fc753b24c294",
+   "company": "onepoint",
+   "title": "Data Product Owner F/H",
+   "url": "https://onepoint.wd3.myworkdayjobs.com/WepointEN/job/Nantes-France/Data-Product-Owner--F-H_JR103090",
+   "reason": "lieu hors zones",
+   "at": "2026-11-22T13:13:03+00:00"
+  },
+  {
+   "id": "9bb70d0cca73",
+   "company": "onepoint",
+   "title": "Consultant AI Risk Analyst - F/H",
+   "url": "https://onepoint.wd3.myworkdayjobs.com/WepointEN/job/Paris-France/Consultant-AI-Risk-Analyst---F-H_JR103197",
+   "reason": "contrat non précisé",
+   "at": "2026-11-22T13:13:01+00:00"
+  },
+  {
+   "id": "58bbfc29dd00",
+   "company": "onepoint",
+   "title": "Data Engineer Confirmé Azure / Microsoft Fabric - F/H",
+   "url": "https://onepoint.wd3.myworkdayjobs.com/WepointEN/job/Lyon-France/Data-Engineer-Confirm-Azure---Microsoft-Fabric---F-H_JR103180",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-22T13:13:01+00:00"
+  },
+  {
+   "id": "19aec8f8ed92",
+   "company": "onepoint",
+   "title": "Data Engineer Confirmé Databricks - F/H",
+   "url": "https://onepoint.wd3.myworkdayjobs.com/WepointEN/job/Lyon-France/Data-Engineer-Confirm-Databricks---F-H_JR103179-2",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-22T13:13:01+00:00"
+  },
+  {
+   "id": "dbeff1fc66a6",
+   "company": "onepoint",
+   "title": "Business Analyst (F/H)",
+   "url": "https://onepoint.wd3.myworkdayjobs.com/WepointEN/job/Nantes-France/Business-Analyst--F-H-_JR100038-3",
+   "reason": "lieu hors zones",
+   "at": "2026-11-22T13:12:58+00:00"
+  },
+  {
+   "id": "6b109dedfb54",
+   "company": "onepoint",
+   "title": "Data Engineer - F/H",
+   "url": "https://onepoint.wd3.myworkdayjobs.com/WepointEN/job/Paris-France/Consultant-en-Data-Engineering---F-H_JR101908-1",
+   "reason": "contrat non précisé",
+   "at": "2026-11-22T13:12:55+00:00"
+  },
+  {
+   "id": "789f11cb70b3",
+   "company": "onepoint",
+   "title": "Business Analyst / Consultant fonctionnel ServiceNow - F/H",
+   "url": "https://onepoint.wd3.myworkdayjobs.com/WepointEN/job/Paris-France/Business-Analyst---Consultant-fonctionnel-ServiceNow----F-H_JR103023-1",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T13:12:27+00:00"
+  },
+  {
+   "id": "d66d9966ebdb",
+   "company": "onepoint",
+   "title": "Business Analyst Data Confirmé F/H",
+   "url": "https://onepoint.wd3.myworkdayjobs.com/WepointEN/job/Lyon-France/Business-Analyst-Confirm-F-H_JR102160-1",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-22T13:12:27+00:00"
+  },
+  {
+   "id": "6c90729c7ca7",
+   "company": "onepoint",
+   "title": "Consultant Data & AI Transformation",
+   "url": "https://onepoint.wd3.myworkdayjobs.com/WepointEN/job/Paris-France/Consultant-confirm-en-Data-Strategy---Data-Transformation---F-H_JR100289",
+   "reason": "contrat non précisé",
+   "at": "2026-11-22T13:11:42+00:00"
+  },
+  {
+   "id": "af0e991cca55",
+   "company": "onepoint",
+   "title": "Data & AI Product & Process Design Expert - F/H",
+   "url": "https://onepoint.wd3.myworkdayjobs.com/WepointEN/job/Paris-France/Consultant-confirm-en-Data-Product-Management---F-H_JR102240-1",
+   "reason": "titre exclu (expert)",
+   "at": "2026-11-22T13:11:42+00:00"
+  },
+  {
+   "id": "9f4df9e57fca",
+   "company": "onepoint",
+   "title": "Consultant Data Gouvernance & Quality / Agentic Powered (F/H)",
+   "url": "https://onepoint.wd3.myworkdayjobs.com/WepointEN/job/Paris-France/Consultant-Confirm-en-Data-Gouvernance--F-H-_JR102891",
+   "reason": "contrat non précisé",
+   "at": "2026-11-22T13:11:14+00:00"
+  },
+  {
+   "id": "78d8233bb98e",
+   "company": "onepoint",
+   "title": "Data & AI Product Designer & Architect - F/H",
+   "url": "https://onepoint.wd3.myworkdayjobs.com/WepointEN/job/Paris-France/Leader-Data---AI-Product-Designer---Architect---F-H_JR103070",
+   "reason": "titre exclu (architect)",
+   "at": "2026-11-22T13:11:14+00:00"
+  },
+  {
+   "id": "47bd4a935d7f",
+   "company": "onepoint",
+   "title": "Business Analyst H/F",
+   "url": "https://onepoint.wd3.myworkdayjobs.com/WepointEN/job/Lyon-France/Business-Analyst-H-F_JR103567",
+   "reason": "lieu hors zones",
+   "at": "2026-11-22T13:10:28+00:00"
+  },
+  {
+   "id": "705aa369e98f",
+   "company": "onepoint",
+   "title": "Lead Business Analyst Data & IA (F/H)",
+   "url": "https://onepoint.wd3.myworkdayjobs.com/WepointEN/job/Paris-France/Lead-Business-Analyst-Data---IA--F-H-_JR103505-3",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-22T13:10:28+00:00"
+  },
+  {
+   "id": "13af1e68b494",
+   "company": "onepoint",
+   "title": "Architecte Souveraineté Data & IA (F/H)",
+   "url": "https://onepoint.wd3.myworkdayjobs.com/WepointEN/job/Paris-France/Architecte-Souverainet-Data---IA--F-H-_JR103504-3",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-22T13:10:28+00:00"
+  },
+  {
+   "id": "4b6b2e0ff9a3",
+   "company": "onepoint",
+   "title": "Consultant en Adoption IA Générative - Copilot & Powerplatform - H/F",
+   "url": "https://onepoint.wd3.myworkdayjobs.com/WepointEN/job/Paris-France/Consultant-en-Adoption-IA-Gnrative---Copilot---Powerplatform---H-F_JR102848",
+   "reason": "contrat non précisé",
+   "at": "2026-11-22T13:10:25+00:00"
+  },
+  {
+   "id": "dec5066b9384",
+   "company": "onepoint",
+   "title": "Stage de fin d'études - Consultant Stratégie IA F/H",
+   "url": "https://onepoint.wd3.myworkdayjobs.com/WepointEN/job/Paris-France/Stage---Stratgie-et-Transformation-Digitale---F-H_JR101554",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T13:10:25+00:00"
+  },
+  {
+   "id": "75574241bcc2",
+   "company": "onepoint",
+   "title": "Consultant Data Advisory F/H",
+   "url": "https://onepoint.wd3.myworkdayjobs.com/WepointEN/job/Paris-France/Consultant-Data-Advisory-F-H_JR103584",
+   "reason": "contrat non précisé",
+   "at": "2026-11-22T13:10:22+00:00"
+  },
+  {
+   "id": "bdf291aec7b5",
+   "company": "onepoint",
+   "title": "Leader Life Sciences / Santé Privée – Data et IA F/H",
+   "url": "https://onepoint.wd3.myworkdayjobs.com/WepointEN/job/Paris-France/Leader-Life-Sciences---Sant-Prive---Data-et-IA-F-H_JR103695",
+   "reason": "titre exclu (leader)",
+   "at": "2026-11-22T13:10:22+00:00"
+  },
+  {
+   "id": "8f2a04d25140",
+   "company": "onepoint",
+   "title": "AI Engineer - F/H",
+   "url": "https://onepoint.wd3.myworkdayjobs.com/WepointEN/job/Paris-France/Consultant-GenAI---F-H_JR102726",
+   "reason": "contrat non précisé",
+   "at": "2026-11-22T13:10:19+00:00"
+  },
+  {
+   "id": "53a263e64eff",
+   "company": "onepoint",
+   "title": "AI Makers Lead Tech - F/H",
+   "url": "https://onepoint.wd3.myworkdayjobs.com/WepointEN/job/Paris-France/Lead-Tech-IA---IA-Gen---F-H_JR102970-1",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-22T13:10:19+00:00"
+  },
+  {
+   "id": "1ff9c9a87355",
+   "company": "onepoint",
+   "title": "Data Engineer Confirmé (F/H)",
+   "url": "https://onepoint.wd3.myworkdayjobs.com/WepointEN/job/Nantes-France/Data-Engineer-Confirm--F-H-_JR102337-1",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-22T13:10:19+00:00"
+  },
+  {
+   "id": "0147da06931c",
+   "company": "onepoint",
+   "title": "Leader Conseil Product & Transformation AI H/F",
+   "url": "https://onepoint.wd3.myworkdayjobs.com/WepointEN/job/Paris-France/Leader-Conseil-Product---Transformation-AI-H-F_JR102914-3",
+   "reason": "titre exclu (leader)",
+   "at": "2026-11-22T13:10:19+00:00"
+  },
+  {
+   "id": "9caa4f7ecd33",
+   "company": "onepoint",
+   "title": "Tech Lead Data - H/F",
+   "url": "https://onepoint.wd3.myworkdayjobs.com/WepointEN/job/Paris-France/Tech-Lead-Data---H-F_JR102747-1",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-22T13:10:19+00:00"
+  },
+  {
+   "id": "1d29685a9f62",
+   "company": "onepoint",
+   "title": "Architecte IA / Senior Datascientist – IA générative - F/H",
+   "url": "https://onepoint.wd3.myworkdayjobs.com/WepointEN/job/Paris-France/Architecte-IA---Senior-Datascientist---IA-gnrative---F-H_JR101448",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-22T13:10:19+00:00"
+  },
+  {
+   "id": "fced00583cec",
+   "company": "onepoint",
+   "title": "Tech Lead AI - F/H",
+   "url": "https://onepoint.wd3.myworkdayjobs.com/WepointEN/job/Paris-France/Tech-Lead-AI---F-H_JR102719",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-22T13:10:19+00:00"
+  },
+  {
+   "id": "ebdfd50327e9",
+   "company": "onepoint",
+   "title": "Stage de fin d'études - Consultant Data F/H",
+   "url": "https://onepoint.wd3.myworkdayjobs.com/WepointEN/job/Aix-en-Provence-France/Stage-de-fin-d-tudes---Consultant-Data-F-H_JR102543",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T13:10:19+00:00"
+  },
+  {
+   "id": "7c8b4434fa39",
+   "company": "onepoint",
+   "title": "Stage de fin d’études – Consultant Transformation Digitale & IA – Secteur Énergie H/F",
+   "url": "https://onepoint.wd3.myworkdayjobs.com/WepointEN/job/Paris-France/Stage-de-fin-d-tudes---Consultant-Transformation-Digitale---IA---Secteur-nergie-H-F_JR103734",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T13:10:19+00:00"
+  },
+  {
+   "id": "24492abd46dd",
+   "company": "FDJ United",
+   "title": "Analyste CyberSoc - F/H - CDI",
+   "url": "https://groupefdj.wd103.myworkdayjobs.com/FDJ-UNITED/job/VITROLLES/Analyste-CyberSoc---F-H---CDI_JR103361-1",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T13:04:46+00:00"
+  },
+  {
+   "id": "b3338bbfaf40",
+   "company": "FDJ United",
+   "title": "Analyste M&A - F/H - Stage",
+   "url": "https://groupefdj.wd103.myworkdayjobs.com/FDJ-UNITED/job/BOULOGNE-BILLANCOURT/Analyste-M-A---F-H---Stage_JR103323",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T13:04:46+00:00"
+  },
+  {
+   "id": "5253f65417e7",
+   "company": "FDJ United",
+   "title": "Data Engineer",
+   "url": "https://groupefdj.wd103.myworkdayjobs.com/FDJ-UNITED/job/London/Data-Engineer_JR103332",
+   "reason": "lieu hors zones",
+   "at": "2026-11-22T13:03:59+00:00"
+  },
+  {
+   "id": "289c7711bb15",
+   "company": "FDJ United",
+   "title": "Senior Software Engineer - Pricing",
+   "url": "https://groupefdj.wd103.myworkdayjobs.com/FDJ-UNITED/job/London/Senior-Software-Engineer---Pricing_JR103473",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-22T13:03:59+00:00"
+  },
+  {
+   "id": "285a3b1af638",
+   "company": "FDJ United",
+   "title": "Alternant Analyste M&A",
+   "url": "https://groupefdj.wd103.myworkdayjobs.com/FDJ-UNITED/job/BOULOGNE-BILLANCOURT/Alternant-Analyste-M-A_JR103655",
+   "reason": "titre exclu (alternant)",
+   "at": "2026-11-22T13:03:59+00:00"
+  },
+  {
+   "id": "0d32e6869ffe",
+   "company": "FDJ United",
+   "title": "Senior Data Platform Engineer (Python)",
+   "url": "https://groupefdj.wd103.myworkdayjobs.com/FDJ-UNITED/job/Offsite-Serbia/Senior-Data-Platform-Engineer--Python-_JR103282",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-22T13:03:13+00:00"
+  },
+  {
+   "id": "8f8b5ab0067f",
+   "company": "Renault Group",
+   "title": "Procurement Data Scientist (H/F)",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/renault-group-careers/job/Guyancourt/Procurement-Data-Scientist--H-F-_JOBREQ_50232418-1",
+   "reason": "contrat non précisé",
+   "at": "2026-11-22T13:02:57+00:00"
+  },
+  {
+   "id": "f6b52b0c99e0",
+   "company": "Renault Group",
+   "title": "CS27- Bac+4/5 - Data Analyst - H/F",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/renault-group-careers/job/Le-Mans/CS27--Bac-4-5---Data-Analyst---H-F_JOBREQ_50280964",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T13:02:10+00:00"
+  },
+  {
+   "id": "7d62f2d2a069",
+   "company": "Renault Group",
+   "title": "Senior Data Scientist / Data Analyst appliqué à la Conduite Autonome (H/F)",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/renault-group-careers/job/Guyancourt/Senior-Data-Scientist---Data-Analyst-appliqu--la-Conduite-Autonome--H-F-_JOBREQ_50279131-1",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-22T13:02:10+00:00"
+  },
+  {
+   "id": "30d43912579f",
+   "company": "Renault Group",
+   "title": "Senior Data Scientist / Data Analyst applique a la Conduite Autonome (H/F)",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/renault-group-careers/job/Valbonne/Senior-Data-Scientist---Data-Analyst-applique-a-la-Conduite-Autonome_JOBREQ_50279211-1",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-22T13:02:10+00:00"
+  },
+  {
+   "id": "f1e3bb0c543e",
+   "company": "Renault Group",
+   "title": "CS27 BAC+4 - Data Analyst & Project Manager - Assistant Senior Manager Ventes Directes B to B France (H/F)",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/renault-group-careers/job/Guyancourt/CS-BAC-4-DATA-ANALYST---PROJECT-MANAGER---Assistant-SENIOR-MANAGER-Ventes-Directes-BtoB-France---H-F-_JOBREQ_50278794",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-22T13:02:10+00:00"
+  },
+  {
+   "id": "abecdb25bfcb",
+   "company": "Renault Group",
+   "title": "CS26-BAC+5 finance data analyst Usine de Cléon F/H",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/renault-group-careers/job/Clon/CS26-BAC-5-finance-data-analyst-Usine-de-Clon-F-H_JOBREQ_50284394",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T13:01:23+00:00"
+  },
+  {
+   "id": "e9eaa22dedc7",
+   "company": "Renault Group",
+   "title": "CS27 - Stage - Bac+5 - Assistant Product Owner & Data Analyst (H/F)",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/renault-group-careers/job/Guyancourt/CS27---Stage----Bac-5---Assistant-Product-Owner---Data-Analyst--H-F-_JOBREQ_50276219",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T13:01:23+00:00"
+  },
+  {
+   "id": "8af4680c0afd",
+   "company": "Renault Group",
+   "title": "CS27 Bac +4/5 - Stage - Process Analyst Order-to-Cash (H/F)",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/renault-group-careers/job/Le-Plessis-Robinson/CS27-Bac--4-5---Stage---Process-Analyst-Order-to-Cash--H-F-_JOBREQ_50285698",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T13:00:35+00:00"
+  },
+  {
+   "id": "0b9c3cd1d760",
+   "company": "Renault Group",
+   "title": "Business Analyst IT H/F",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/renault-group-careers/job/Paris/Business-Analyst-IT-H-F_JOBREQ_50272729",
+   "reason": "contrat non précisé",
+   "at": "2026-11-22T12:59:48+00:00"
+  },
+  {
+   "id": "ae2ea1eb1c8e",
+   "company": "Renault Group",
+   "title": "CS27 - Stage - BAC+5 - Data Analyst IA/CFD (H/F)",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/renault-group-careers/job/Guyancourt/CS27---Stage---BAC-5---Data-Analyst-IA-CFD--H-F-_JOBREQ_50284095",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T12:59:48+00:00"
+  },
+  {
+   "id": "5ef2e58139c5",
+   "company": "Renault Group",
+   "title": "Stage - Bac+5 - Analyste Risques (H/F)",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/renault-group-careers/job/Boulogne-Billancourt/Stage---Bac-5---Analyste-Risques--H-F-_JOBREQ_50287533",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T12:59:48+00:00"
+  },
+  {
+   "id": "3d8fe448144b",
+   "company": "Renault Group",
+   "title": "Stage - Bac+5 - Analyste Risque IT (H/F)",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/renault-group-careers/job/Boulogne-Billancourt/Stage---Bac-5---Analyste-Risque-IT--H-F-_JOBREQ_50287526",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T12:59:48+00:00"
+  },
+  {
+   "id": "636a60707233",
+   "company": "Renault Group",
+   "title": "Stage - Bac+4/5 - Analyste Conformité Anticorruption et Ethique (H/F)",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/renault-group-careers/job/Boulogne-Billancourt/Stage---Bac-4-5---Analyste-Conformit-Anticorruption-et-Ethique--H-F-_JOBREQ_50285661",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T12:59:48+00:00"
+  },
+  {
+   "id": "09edca59fffc",
+   "company": "Renault Group",
+   "title": "Customer Care Analyst - Bac+5 - Stage (H/F)",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/renault-group-careers/job/Boulogne-Billancourt/CS27----Bac-5---Charg-de-Communication--H-F-_JOBREQ_50287288",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T12:59:48+00:00"
+  },
+  {
+   "id": "79b6e32b3ea4",
+   "company": "Renault Group",
+   "title": "Analyste Pricing & Marketing B2B - Bac+5 - Stage (H/F)",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/renault-group-careers/job/Fontenay-sous-Bois/Analyste-Pricing---Marketing-B2B---Bac-5---Stage--H-F-_JOBREQ_50287342",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T12:59:48+00:00"
+  },
+  {
+   "id": "d222177d07cd",
+   "company": "Renault Group",
+   "title": "Stage - Bac+3/4/5 - Assistant Data Analyst (H/F)",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/renault-group-careers/job/Fontenay-sous-Bois/Stage---Bac-3-4-5---Assistant-Data-Analyst--H-F-_JOBREQ_50287378",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T12:59:02+00:00"
+  },
+  {
+   "id": "5ece4d9550cf",
+   "company": "Renault Group",
+   "title": "CS27 - Stage - Bac+5 - IA générative et Data Engineering pour l'ingénierie logicielle automobile - (H/F)",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/renault-group-careers/job/Lardy/CS27---Stage---Bac-5---IA-gnrative-et-Data-Engineering-pour-l-ingnierie-logicielle-automobile----H-F-_JOBREQ_50286977",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T12:59:02+00:00"
+  },
+  {
+   "id": "53ee4156ae2d",
+   "company": "Renault Group",
+   "title": "CS27 - BAC+3 à BAC+5 - Stage Déploiement arche de contrôle qualité par IA (H/F)",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/renault-group-careers/job/Douai/CS27---BAC-3---Stage-Dploiement-arche-de-contrle-qualit-par-IA-H-F_JOBREQ_50283038",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T12:59:02+00:00"
+  },
+  {
+   "id": "94f7b4d1915b",
+   "company": "Renault Group",
+   "title": "Analyste Performance Commerciale - Bac+4/5 - Stage (H/F)",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/renault-group-careers/job/Boulogne-Billancourt/CS27---Bac-4-5---Analyste-Performance--H-F-_JOBREQ_50287067",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T12:59:02+00:00"
+  },
+  {
+   "id": "6cd0234108f2",
+   "company": "Renault Group",
+   "title": "CS27 - Stage - BAC+5 - Ingénieur IA appliquée au PLM (H/F)",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/renault-group-careers/job/Guyancourt/CS27---Stage---BAC-5---Ingnieur-IA-applique-au-PLM--H-F-_JOBREQ_50285687",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T12:59:02+00:00"
+  },
+  {
+   "id": "7d53c185daa7",
+   "company": "Renault Group",
+   "title": "CS27 - Stage - BAC+5 – Géomatique & Data Engineering (H/F)",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/renault-group-careers/job/Guyancourt/CS27---Stage---BAC-3---Gomatique---Data-Engineering--H-F-_JOBREQ_50274296",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T12:59:02+00:00"
+  },
+  {
+   "id": "9d0b683bc054",
+   "company": "Renault Group",
+   "title": "Analyste Performance & Support Commercial B2B - Bac+4 - Stage (H/F)",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/renault-group-careers/job/Fontenay-sous-Bois/Analyste-Performance---Support-Commercial-B2B---Bac-4---Stage--H-F-_JOBREQ_50287357",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T12:59:02+00:00"
+  },
+  {
+   "id": "aa7b29b1c66a",
+   "company": "Renault Group",
+   "title": "Data Engineer - Bac+5 - Stage (H/F)",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/renault-group-careers/job/Boulogne-Billancourt/CS27---Bac-5---Data-Engineer--H-F-_JOBREQ_50282324",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T12:59:02+00:00"
+  },
+  {
+   "id": "25eec8cd62cb",
+   "company": "Renault Group",
+   "title": "Data Analyst - Bac+5- Stage (H/F)",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/renault-group-careers/job/Fontenay-sous-Bois/CS26-Bac-5-Data-Analyst--H-F-_JOBREQ_50287110",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T12:59:02+00:00"
+  },
+  {
+   "id": "ce90faff9aee",
+   "company": "Pernod Ricard",
+   "title": "Data Intelligence Specialist",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Data-Intelligence-Specialist_JR-055529-1",
+   "reason": "contrat non précisé",
+   "at": "2026-11-22T12:58:11+00:00"
+  },
+  {
+   "id": "6b23bf8dc2e1",
+   "company": "Pernod Ricard",
+   "title": "Data Sciences Intern - January 2027 - Paris",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Data-Sciences-Intern---January-2027---Paris_JR-055141-1",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-22T12:58:11+00:00"
+  },
+  {
+   "id": "035f172972ba",
+   "company": "Pernod Ricard",
+   "title": "Data Platform Intern - Paris - March 2027",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Data-Platform-Intern---Paris---March-2027_JR-055327-1",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-22T12:58:11+00:00"
+  },
+  {
+   "id": "69f789b5d87f",
+   "company": "Pernod Ricard",
+   "title": "Internship Data Sciences Intern - Paris - March 2027",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Internship-Data-Sciences-Intern---Paris---March-2027_JR-055342",
+   "reason": "titre exclu (internship)",
+   "at": "2026-11-22T12:58:11+00:00"
+  },
+  {
+   "id": "60814c6904d7",
+   "company": "Pernod Ricard",
+   "title": "Global Operations Analyst Intern - March 2027",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Global-Operations-Analyst-Intern---March-2027_JR-054681-1",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-22T12:58:11+00:00"
+  },
+  {
+   "id": "12ef0dc68397",
+   "company": "Pernod Ricard",
+   "title": "Supplier Carbon Analyst Intern - March 2027",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Supplier-Carbon-Analyst-Intern---March-2027_JR-054828",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-22T12:58:11+00:00"
+  },
+  {
+   "id": "e97ff10495cf",
+   "company": "Pernod Ricard",
+   "title": "Solution Architect - Agentic AI",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Solution-Architect---Agentic-AI_JR-053807-1",
+   "reason": "titre exclu (architect)",
+   "at": "2026-11-22T12:58:11+00:00"
+  },
+  {
+   "id": "6b8e7c0663b8",
+   "company": "Pernod Ricard",
+   "title": "VIE - Finance Analyst - Dublin",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/VIE---Finance-Analyst---Dublin_JR-055605",
+   "reason": "titre exclu (VIE)",
+   "at": "2026-11-22T12:58:11+00:00"
+  },
+  {
+   "id": "43fbc6d37ac7",
+   "company": "Pernod Ricard",
+   "title": "Business analyst intern - RTD - January 2027",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Business-analyst-intern---RTD---January-2027_JR-054911-1",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-22T12:58:11+00:00"
+  },
+  {
+   "id": "8a01052ff65c",
+   "company": "Pernod Ricard",
+   "title": "Global Innovation & Business Analyst Intern - January 2027",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Global-Innovation---Business-Analyst-Intern---January-2027_JR-054963",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-22T12:58:11+00:00"
+  },
+  {
+   "id": "401dc3aded00",
+   "company": "Pernod Ricard",
+   "title": "Convivialité Ventures Analyst Intern",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Convivialit-Ventures-Analyst-Intern_JR-055363",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-22T12:58:11+00:00"
+  },
+  {
+   "id": "ba17135ab3b0",
+   "company": "Pernod Ricard",
+   "title": "Data Hubs Lead",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Data-Hubs-Lead_JR-032790",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-22T12:57:24+00:00"
+  },
   {
    "id": "a40aa173c144",
    "company": "Sanofi",
