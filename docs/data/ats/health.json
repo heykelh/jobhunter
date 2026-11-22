@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-22T13:36:27+00:00",
+ "updated": "2026-11-22T22:50:56+00:00",
  "companies": {
   "Banque de France": {
-   "checked_at": "2026-11-22T12:55:29+00:00",
+   "checked_at": "2026-11-22T22:11:21+00:00",
    "error": "RuntimeError: Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage",
    "warnings": [
     "Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage"
@@ -12,10 +12,10 @@
    "kept_this_run": 2,
    "status": "erreur",
    "last_ok": "2026-11-22T00:58:02+00:00",
-   "failures": 1
+   "failures": 2
   },
   "Sanofi": {
-   "checked_at": "2026-11-22T12:55:56+00:00",
+   "checked_at": "2026-11-22T22:11:47+00:00",
    "error": "RuntimeError: Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage",
    "warnings": [
     "Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage"
@@ -25,21 +25,23 @@
    "kept_this_run": 0,
    "status": "erreur",
    "last_ok": "2026-11-22T01:00:48+00:00",
-   "failures": 1
+   "failures": 2
   },
   "Pernod Ricard": {
-   "checked_at": "2026-11-22T12:56:25+00:00",
-   "error": "",
-   "warnings": [],
-   "links_found": 40,
-   "keyword_matches": 12,
+   "checked_at": "2026-11-22T22:12:14+00:00",
+   "error": "RuntimeError: Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage",
+   "warnings": [
+    "Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage"
+   ],
+   "links_found": 0,
+   "keyword_matches": 0,
    "kept_this_run": 0,
-   "status": "ok",
+   "status": "erreur",
    "last_ok": "2026-11-22T12:58:11+00:00",
-   "failures": 0
+   "failures": 1
   },
   "Chanel": {
-   "checked_at": "2026-11-22T12:58:11+00:00",
+   "checked_at": "2026-11-22T22:13:07+00:00",
    "error": "RuntimeError: Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage",
    "warnings": [
     "Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage"
@@ -49,264 +51,266 @@
    "kept_this_run": 0,
    "status": "erreur",
    "last_ok": "2026-11-21T19:05:30+00:00",
-   "failures": 3
+   "failures": 4
   },
   "Meetic": {
-   "checked_at": "2026-11-22T12:54:35+00:00",
+   "checked_at": "2026-11-22T22:10:27+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "vide",
-   "failures": 3
+   "failures": 4
   },
   "Tradelab": {
-   "checked_at": "2026-11-22T12:54:37+00:00",
+   "checked_at": "2026-11-22T22:10:28+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "vide",
-   "failures": 3
+   "failures": 4
   },
   "Transaction Connect": {
-   "checked_at": "2026-11-22T12:54:38+00:00",
+   "checked_at": "2026-11-22T22:10:30+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "vide",
-   "failures": 3
+   "failures": 4
   },
   "Talan": {
-   "checked_at": "2026-11-22T12:54:40+00:00",
+   "checked_at": "2026-11-22T22:10:31+00:00",
    "error": "",
    "warnings": [],
    "links_found": 95,
    "keyword_matches": 95,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-22T12:54:47+00:00",
+   "last_ok": "2026-11-22T22:10:39+00:00",
    "failures": 0
   },
   "Wavestone": {
-   "checked_at": "2026-11-22T12:54:47+00:00",
+   "checked_at": "2026-11-22T22:10:39+00:00",
    "error": "",
    "warnings": [],
    "links_found": 108,
    "keyword_matches": 108,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-22T12:54:55+00:00",
+   "last_ok": "2026-11-22T22:10:46+00:00",
    "failures": 0
   },
   "Sia Partners": {
-   "checked_at": "2026-11-22T12:54:55+00:00",
+   "checked_at": "2026-11-22T22:10:46+00:00",
    "error": "",
    "warnings": [],
    "links_found": 36,
    "keyword_matches": 36,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-22T12:55:01+00:00",
+   "last_ok": "2026-11-22T22:10:52+00:00",
    "failures": 0
   },
   "Magellan Partners": {
-   "checked_at": "2026-11-22T12:55:01+00:00",
+   "checked_at": "2026-11-22T22:10:52+00:00",
    "error": "",
    "warnings": [],
    "links_found": 45,
    "keyword_matches": 45,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-22T12:55:05+00:00",
+   "last_ok": "2026-11-22T22:10:57+00:00",
    "failures": 0
   },
   "ALTEN": {
-   "checked_at": "2026-11-22T12:55:05+00:00",
+   "checked_at": "2026-11-22T22:10:57+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 36,
-   "keyword_matches": 36,
+   "links_found": 34,
+   "keyword_matches": 34,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-22T12:55:11+00:00",
+   "last_ok": "2026-11-22T22:11:03+00:00",
    "failures": 0
   },
   "Meritis": {
-   "checked_at": "2026-11-22T12:55:11+00:00",
+   "checked_at": "2026-11-22T22:11:03+00:00",
    "error": "",
    "warnings": [],
    "links_found": 37,
    "keyword_matches": 37,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-22T12:55:14+00:00",
+   "last_ok": "2026-11-22T22:11:06+00:00",
    "failures": 0
   },
   "NEXTON": {
-   "checked_at": "2026-11-22T12:55:14+00:00",
+   "checked_at": "2026-11-22T22:11:06+00:00",
    "error": "",
    "warnings": [],
    "links_found": 47,
    "keyword_matches": 47,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-22T12:55:19+00:00",
+   "last_ok": "2026-11-22T22:11:10+00:00",
    "failures": 0
   },
   "Everience": {
-   "checked_at": "2026-11-22T12:55:19+00:00",
+   "checked_at": "2026-11-22T22:11:10+00:00",
    "error": "",
    "warnings": [],
    "links_found": 21,
    "keyword_matches": 21,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-22T12:55:23+00:00",
+   "last_ok": "2026-11-22T22:11:15+00:00",
    "failures": 0
   },
   "Bertelsmann": {
-   "checked_at": "2026-11-22T12:55:23+00:00",
+   "checked_at": "2026-11-22T22:11:15+00:00",
    "error": "",
    "warnings": [],
    "links_found": 2,
    "keyword_matches": 2,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-22T12:55:25+00:00",
+   "last_ok": "2026-11-22T22:11:16+00:00",
    "failures": 0
   },
   "Swiss Medical Network": {
-   "checked_at": "2026-11-22T12:55:25+00:00",
+   "checked_at": "2026-11-22T22:11:16+00:00",
    "error": "",
    "warnings": [],
    "links_found": 2,
    "keyword_matches": 2,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-22T12:55:26+00:00",
+   "last_ok": "2026-11-22T22:11:18+00:00",
    "failures": 0
   },
   "Nexthink": {
-   "checked_at": "2026-11-22T12:55:26+00:00",
+   "checked_at": "2026-11-22T22:11:18+00:00",
    "error": "",
    "warnings": [],
    "links_found": 1,
    "keyword_matches": 1,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-22T12:55:28+00:00",
+   "last_ok": "2026-11-22T22:11:19+00:00",
    "failures": 0
   },
   "Evooq": {
-   "checked_at": "2026-11-22T12:55:28+00:00",
+   "checked_at": "2026-11-22T22:11:19+00:00",
    "error": "",
    "warnings": [],
    "links_found": 2,
    "keyword_matches": 2,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-22T12:55:29+00:00",
+   "last_ok": "2026-11-22T22:11:21+00:00",
    "failures": 0
   },
   "Renault Group": {
-   "checked_at": "2026-11-22T12:58:37+00:00",
-   "error": "",
-   "warnings": [],
-   "links_found": 64,
-   "keyword_matches": 25,
-   "status": "ok",
-   "failures": 0,
+   "checked_at": "2026-11-22T22:13:34+00:00",
+   "error": "RuntimeError: Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage",
+   "warnings": [
+    "Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage"
+   ],
+   "links_found": 0,
+   "keyword_matches": 0,
+   "status": "erreur",
+   "failures": 1,
    "kept_this_run": 0,
    "last_ok": "2026-11-22T13:02:57+00:00"
   },
   "FDJ United": {
-   "checked_at": "2026-11-22T13:02:57+00:00",
-   "error": "",
-   "warnings": [],
-   "links_found": 23,
-   "keyword_matches": 7,
-   "status": "ok",
-   "failures": 0,
+   "checked_at": "2026-11-22T22:14:01+00:00",
+   "error": "RuntimeError: Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage",
+   "warnings": [
+    "Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage"
+   ],
+   "links_found": 0,
+   "keyword_matches": 0,
+   "status": "erreur",
+   "failures": 1,
    "kept_this_run": 0,
    "last_ok": "2026-11-22T13:05:34+00:00"
   },
   "AG2R La Mondiale": {
-   "checked_at": "2026-11-22T13:05:34+00:00",
-   "error": "",
-   "warnings": [],
-   "links_found": 4,
+   "checked_at": "2026-11-22T22:14:28+00:00",
+   "error": "RuntimeError: Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage",
+   "warnings": [
+    "Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage"
+   ],
+   "links_found": 0,
    "keyword_matches": 0,
    "kept_this_run": 0,
-   "status": "ok",
+   "status": "erreur",
    "last_ok": "2026-11-22T13:06:03+00:00",
-   "failures": 0
+   "failures": 1
   },
   "Deloitte France": {
-   "checked_at": "2026-11-22T13:06:03+00:00",
-   "error": "RuntimeError: Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage",
-   "warnings": [
-    "Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage"
-   ],
-   "links_found": 0,
-   "keyword_matches": 0,
+   "checked_at": "2026-11-22T22:14:54+00:00",
+   "error": "",
+   "warnings": [],
+   "links_found": 132,
+   "keyword_matches": 74,
    "kept_this_run": 0,
-   "status": "erreur",
-   "last_ok": "2026-11-21T23:34:36+00:00",
-   "failures": 2
+   "status": "ok",
+   "last_ok": "2026-11-22T22:15:25+00:00",
+   "failures": 0
   },
   "PwC (jeunes diplômés)": {
-   "checked_at": "2026-11-22T13:06:29+00:00",
-   "error": "RuntimeError: Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage",
-   "warnings": [
-    "Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage"
-   ],
-   "links_found": 0,
-   "keyword_matches": 0,
-   "status": "erreur",
-   "failures": 3
+   "checked_at": "2026-11-22T22:15:25+00:00",
+   "error": "",
+   "warnings": [],
+   "links_found": 128,
+   "keyword_matches": 41,
+   "status": "ok",
+   "failures": 0,
+   "kept_this_run": 0,
+   "last_ok": "2026-11-22T22:34:54+00:00"
   },
   "Pierre Fabre": {
-   "checked_at": "2026-11-22T13:06:56+00:00",
-   "error": "RuntimeError: Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage",
-   "warnings": [
-    "Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage"
-   ],
-   "links_found": 0,
-   "keyword_matches": 0,
-   "status": "erreur",
-   "failures": 3
+   "checked_at": "2026-11-22T22:34:54+00:00",
+   "error": "",
+   "warnings": [],
+   "links_found": 20,
+   "keyword_matches": 19,
+   "status": "ok",
+   "failures": 0,
+   "kept_this_run": 1,
+   "last_ok": "2026-11-22T22:37:56+00:00"
   },
   "Rothschild & Co": {
-   "checked_at": "2026-11-22T13:07:22+00:00",
-   "error": "RuntimeError: Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage",
-   "warnings": [
-    "Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage"
-   ],
-   "links_found": 0,
-   "keyword_matches": 0,
-   "kept_this_run": 1,
-   "status": "erreur",
-   "last_ok": "2026-11-21T23:38:18+00:00",
-   "failures": 2
+   "checked_at": "2026-11-22T22:37:56+00:00",
+   "error": "",
+   "warnings": [],
+   "links_found": 27,
+   "keyword_matches": 14,
+   "kept_this_run": 0,
+   "status": "ok",
+   "last_ok": "2026-11-22T22:38:42+00:00",
+   "failures": 0
   },
   "Ipsen": {
-   "checked_at": "2026-11-22T13:07:48+00:00",
-   "error": "RuntimeError: Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage",
-   "warnings": [
-    "Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage"
-   ],
-   "links_found": 0,
-   "keyword_matches": 0,
-   "status": "erreur",
-   "failures": 3
+   "checked_at": "2026-11-22T22:38:42+00:00",
+   "error": "",
+   "warnings": [],
+   "links_found": 40,
+   "keyword_matches": 10,
+   "status": "ok",
+   "failures": 0,
+   "kept_this_run": 0,
+   "last_ok": "2026-11-22T22:40:14+00:00"
   },
   "Ardian": {
-   "checked_at": "2026-11-22T13:08:15+00:00",
+   "checked_at": "2026-11-22T22:40:14+00:00",
    "error": "RuntimeError: Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage",
    "warnings": [
     "Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage"
@@ -314,10 +318,10 @@
    "links_found": 0,
    "keyword_matches": 0,
    "status": "erreur",
-   "failures": 3
+   "failures": 4
   },
   "onepoint": {
-   "checked_at": "2026-11-22T13:09:07+00:00",
+   "checked_at": "2026-11-22T22:40:41+00:00",
    "error": "",
    "warnings": [],
    "links_found": 54,
@@ -325,10 +329,10 @@
    "status": "ok",
    "failures": 0,
    "kept_this_run": 0,
-   "last_ok": "2026-11-22T13:13:49+00:00"
+   "last_ok": "2026-11-22T22:41:29+00:00"
   },
   "Paris Saint-Germain": {
-   "checked_at": "2026-11-22T13:13:49+00:00",
+   "checked_at": "2026-11-22T22:41:29+00:00",
    "error": "RuntimeError: Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage",
    "warnings": [
     "Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage"
@@ -336,10 +340,21 @@
    "links_found": 0,
    "keyword_matches": 0,
    "status": "erreur",
-   "failures": 3
+   "failures": 4
   },
   "Open": {
-   "checked_at": "2026-11-22T13:14:47+00:00",
+   "checked_at": "2026-11-22T22:42:01+00:00",
+   "error": "",
+   "warnings": [],
+   "links_found": 55,
+   "keyword_matches": 24,
+   "status": "ok",
+   "failures": 0,
+   "kept_this_run": 0,
+   "last_ok": "2026-11-22T22:45:53+00:00"
+  },
+  "Avanade": {
+   "checked_at": "2026-11-22T22:45:53+00:00",
    "error": "RuntimeError: Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage",
    "warnings": [
     "Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage"
@@ -347,56 +362,49 @@
    "links_found": 0,
    "keyword_matches": 0,
    "status": "erreur",
-   "failures": 3
-  },
-  "Avanade": {
-   "checked_at": "2026-11-22T13:15:13+00:00",
-   "error": "",
-   "warnings": [],
-   "links_found": 20,
-   "keyword_matches": 7,
-   "status": "ok",
-   "failures": 0,
+   "failures": 1,
    "kept_this_run": 0,
    "last_ok": "2026-11-22T13:18:51+00:00"
   },
   "Deutsche Bank": {
-   "checked_at": "2026-11-22T13:18:51+00:00",
+   "checked_at": "2026-11-22T22:46:19+00:00",
+   "error": "",
+   "warnings": [],
+   "links_found": 25,
+   "keyword_matches": 4,
+   "kept_this_run": 0,
+   "status": "ok",
+   "last_ok": "2026-11-22T22:46:56+00:00",
+   "failures": 0
+  },
+  "Visa": {
+   "checked_at": "2026-11-22T22:46:56+00:00",
    "error": "RuntimeError: Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage",
    "warnings": [
     "Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage"
    ],
    "links_found": 0,
    "keyword_matches": 0,
-   "kept_this_run": 0,
    "status": "erreur",
-   "last_ok": "2026-11-21T23:43:15+00:00",
-   "failures": 2
-  },
-  "Visa": {
-   "checked_at": "2026-11-22T13:19:18+00:00",
-   "error": "",
-   "warnings": [],
-   "links_found": 3,
-   "keyword_matches": 0,
-   "status": "ok",
-   "failures": 0,
+   "failures": 1,
    "kept_this_run": 0,
    "last_ok": "2026-11-22T13:20:12+00:00"
   },
   "Barclays": {
-   "checked_at": "2026-11-22T13:20:12+00:00",
-   "error": "",
-   "warnings": [],
-   "links_found": 62,
-   "keyword_matches": 22,
-   "status": "ok",
-   "failures": 0,
+   "checked_at": "2026-11-22T22:47:21+00:00",
+   "error": "RuntimeError: Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage",
+   "warnings": [
+    "Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage"
+   ],
+   "links_found": 0,
+   "keyword_matches": 0,
+   "status": "erreur",
+   "failures": 1,
    "kept_this_run": 0,
    "last_ok": "2026-11-22T13:33:40+00:00"
   },
   "Lombard Odier": {
-   "checked_at": "2026-11-22T13:33:40+00:00",
+   "checked_at": "2026-11-22T22:47:48+00:00",
    "error": "RuntimeError: Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage",
    "warnings": [
     "Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage"
@@ -404,43 +412,45 @@
    "links_found": 0,
    "keyword_matches": 0,
    "status": "erreur",
-   "failures": 2
+   "failures": 3
   },
   "Apex Group": {
-   "checked_at": "2026-11-22T13:34:06+00:00",
-   "error": "RuntimeError: Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage",
-   "warnings": [
-    "Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage"
-   ],
-   "links_found": 0,
-   "keyword_matches": 0,
-   "status": "erreur",
-   "failures": 2
-  },
-  "Northern Trust": {
-   "checked_at": "2026-11-22T13:34:33+00:00",
-   "error": "RuntimeError: Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage",
-   "warnings": [
-    "Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage"
-   ],
-   "links_found": 0,
-   "keyword_matches": 0,
-   "status": "erreur",
-   "failures": 2
-  },
-  "Fidelity International": {
-   "checked_at": "2026-11-22T13:34:58+00:00",
+   "checked_at": "2026-11-22T22:48:15+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 3,
-   "keyword_matches": 0,
+   "links_found": 13,
+   "keyword_matches": 2,
    "status": "ok",
    "failures": 0,
+   "kept_this_run": 0,
+   "last_ok": "2026-11-22T22:49:37+00:00"
+  },
+  "Northern Trust": {
+   "checked_at": "2026-11-22T22:49:37+00:00",
+   "error": "RuntimeError: Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage",
+   "warnings": [
+    "Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage"
+   ],
+   "links_found": 0,
+   "keyword_matches": 0,
+   "status": "erreur",
+   "failures": 3
+  },
+  "Fidelity International": {
+   "checked_at": "2026-11-22T22:50:02+00:00",
+   "error": "RuntimeError: Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage",
+   "warnings": [
+    "Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage"
+   ],
+   "links_found": 0,
+   "keyword_matches": 0,
+   "status": "erreur",
+   "failures": 1,
    "kept_this_run": 0,
    "last_ok": "2026-11-22T13:36:00+00:00"
   },
   "Saxo Bank": {
-   "checked_at": "2026-11-22T13:36:00+00:00",
+   "checked_at": "2026-11-22T22:50:29+00:00",
    "error": "RuntimeError: Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage",
    "warnings": [
     "Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage"
@@ -448,48 +458,48 @@
    "links_found": 0,
    "keyword_matches": 0,
    "status": "erreur",
-   "failures": 2
+   "failures": 3
   },
   "Publicis Groupe": {
-   "checked_at": "2026-11-22T12:54:28+00:00",
+   "checked_at": "2026-11-22T22:10:19+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "vide",
-   "failures": 2
+   "failures": 3
   },
   "Iliad - Free": {
-   "checked_at": "2026-11-22T12:54:28+00:00",
+   "checked_at": "2026-11-22T22:10:19+00:00",
    "error": "",
    "warnings": [],
    "links_found": 12,
    "keyword_matches": 12,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-22T12:54:32+00:00",
+   "last_ok": "2026-11-22T22:10:24+00:00",
    "failures": 0
   },
   "Les Mousquetaires": {
-   "checked_at": "2026-11-22T12:54:32+00:00",
+   "checked_at": "2026-11-22T22:10:24+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "vide",
-   "failures": 2
+   "failures": 3
   },
   "Free2move": {
-   "checked_at": "2026-11-22T12:54:34+00:00",
+   "checked_at": "2026-11-22T22:10:25+00:00",
    "error": "",
    "warnings": [],
    "links_found": 1,
    "keyword_matches": 1,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-22T12:54:35+00:00",
+   "last_ok": "2026-11-22T22:10:27+00:00",
    "failures": 0
   }
  }

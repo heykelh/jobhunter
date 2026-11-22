@@ -1,6 +1,766 @@
 {
- "updated": "2026-11-22T13:36:27+00:00",
+ "updated": "2026-11-22T22:50:56+00:00",
  "items": [
+  {
+   "id": "d7416cbbc8b2",
+   "company": "Apex Group",
+   "title": "End User Technology Analyst",
+   "url": "https://theapexgroup.wd3.myworkdayjobs.com/apexgroupcareers/job/Munsbach-9A-rue-Gabriel-Lippmann/End-User-Technology-Analyst_JR-0022981",
+   "reason": "contrat non précisé",
+   "at": "2026-11-22T22:49:37+00:00"
+  },
+  {
+   "id": "e467773e18ad",
+   "company": "Apex Group",
+   "title": "Senior Technology Service Delivery Analyst",
+   "url": "https://theapexgroup.wd3.myworkdayjobs.com/apexgroupcareers/job/Luxembourg-City/IT-Delivery-Specialist_JR-0021841",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-22T22:48:51+00:00"
+  },
+  {
+   "id": "424b0a5fbd8e",
+   "company": "Open",
+   "title": "Business Analyst Secteur Mutuelle H/F",
+   "url": "https://open.wd103.myworkdayjobs.com/OPEN/job/Tours/Business-Analyst-Secteur-Mutuelle-H-F_R16284",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T22:45:53+00:00"
+  },
+  {
+   "id": "b8b457bd99ad",
+   "company": "Open",
+   "title": "Business Analyst confirmé secteur bancaire H/F",
+   "url": "https://open.wd103.myworkdayjobs.com/OPEN/job/Lyon/Business-Analyst-confirm-secteur-bancaire-H-F_R14348",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-22T22:45:53+00:00"
+  },
+  {
+   "id": "77e9a78096d0",
+   "company": "Open",
+   "title": "Business Analyst confirmé secteur bancaire H/F",
+   "url": "https://open.wd103.myworkdayjobs.com/OPEN/job/Toulouse/Business-Analyst-confirm-secteur-bancaire-H-F_R15086",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-22T22:45:53+00:00"
+  },
+  {
+   "id": "93e272f1b45f",
+   "company": "Open",
+   "title": "Consultant AMOA / Business Analyst confirmé sur de la Monétique H/F",
+   "url": "https://open.wd103.myworkdayjobs.com/OPEN/job/Levallois-Perret/Consultant-AMOA---Business-Analyst-confirm-sur-de-la-Montique-H-F_R10831",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-22T22:45:53+00:00"
+  },
+  {
+   "id": "1be87c3b341f",
+   "company": "Open",
+   "title": "Consultant AMOA / Business Analyst confirmé sur les Moyens de paiement / Instant Payment H/F",
+   "url": "https://open.wd103.myworkdayjobs.com/OPEN/job/Levallois-Perret/Consultant-AMOA---Business-Analyst-confirm-sur-les-Moyens-de-paiement---Instant-Payment-H-F_R13227",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-22T22:45:53+00:00"
+  },
+  {
+   "id": "dc30223aa332",
+   "company": "Open",
+   "title": "Consultant AMOA / Business Analyst Banque de détail, Finance de Marché ou Assurance confirmé - H/F",
+   "url": "https://open.wd103.myworkdayjobs.com/OPEN/job/Levallois-Perret/Consultant-AMOA---Business-Analyst-Banque-de-dtail--Finance-de-March-ou-Assurance---H-F_R10556",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-22T22:45:53+00:00"
+  },
+  {
+   "id": "5938a56b5340",
+   "company": "Open",
+   "title": "Business Analyst IT H/F",
+   "url": "https://open.wd103.myworkdayjobs.com/OPEN/job/Lille/Business-Analyst-IT-H-F_R15338",
+   "reason": "lieu hors zones",
+   "at": "2026-11-22T22:45:50+00:00"
+  },
+  {
+   "id": "7b6373dcb4bb",
+   "company": "Open",
+   "title": "IT Business Analyst H/F",
+   "url": "https://open.wd103.myworkdayjobs.com/OPEN/job/Luxembourg-Luxembourg/IT-Business-Analyst-H-F_R14758",
+   "reason": "contrat non précisé",
+   "at": "2026-11-22T22:45:45+00:00"
+  },
+  {
+   "id": "6c5aa91f7bee",
+   "company": "Open",
+   "title": "Business Analyst H/F",
+   "url": "https://open.wd103.myworkdayjobs.com/OPEN/job/Orlans/Business-Analyst-H-F_R16392",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T22:44:58+00:00"
+  },
+  {
+   "id": "cd22b0505c20",
+   "company": "Open",
+   "title": "Analyste d'exploitation H/F",
+   "url": "https://open.wd103.myworkdayjobs.com/OPEN/job/Tours/Analyste-d-exploitation-H-F_R16305",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T22:44:11+00:00"
+  },
+  {
+   "id": "1ba6ae8a6915",
+   "company": "Open",
+   "title": "Analyste d'exploitation H/F",
+   "url": "https://open.wd103.myworkdayjobs.com/OPEN/job/Tours/Analyste-d-exploitation-H-F_R15214",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T22:44:08+00:00"
+  },
+  {
+   "id": "4fa4e55bdd41",
+   "company": "Open",
+   "title": "Data Engineer – NiFi / PostgreSQL / Airflow - (H/F)",
+   "url": "https://open.wd103.myworkdayjobs.com/OPEN/job/Lyon/Lead-Tech-Data--Python-Spark-----H-F-_R15831",
+   "reason": "lieu hors zones",
+   "at": "2026-11-22T22:44:06+00:00"
+  },
+  {
+   "id": "b09157bb57bf",
+   "company": "Open",
+   "title": "Data Analyst Senior – Power BI / SQL - (H/F)",
+   "url": "https://open.wd103.myworkdayjobs.com/OPEN/job/Lyon/Data-Analyst-Senior---Power-BI---SQL----H-F-_R15834",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-22T22:44:06+00:00"
+  },
+  {
+   "id": "b2c8849e1611",
+   "company": "Open",
+   "title": "Consultant BI / Analyste BI Power BI confirmé H/F",
+   "url": "https://open.wd103.myworkdayjobs.com/OPEN/job/Orlans/Consultant-BI---Analyste-BI-Power-BI-confirm-H-F_R16426",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-22T22:44:06+00:00"
+  },
+  {
+   "id": "5d4bfd311dba",
+   "company": "Open",
+   "title": "Directeur de projet IA H/F",
+   "url": "https://open.wd103.myworkdayjobs.com/OPEN/job/Levallois-Perret/Consultant-Data---IA-H-F_R12614",
+   "reason": "titre exclu (directeur)",
+   "at": "2026-11-22T22:44:06+00:00"
+  },
+  {
+   "id": "2847ca1c6dde",
+   "company": "Open",
+   "title": "Consultant Architecte IA & GenAI F/H",
+   "url": "https://open.wd103.myworkdayjobs.com/OPEN/job/Rennes/Consultant-Architecte-IA---GenAI-F-H_R15256",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-22T22:44:06+00:00"
+  },
+  {
+   "id": "3fdd192ea047",
+   "company": "Open",
+   "title": "Ingénieur IA confirmé.e (H/F)",
+   "url": "https://open.wd103.myworkdayjobs.com/OPEN/job/Levallois-Perret/Ingnieur-IA--H-F-_R16573",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-22T22:44:06+00:00"
+  },
+  {
+   "id": "23417d58d0b2",
+   "company": "Open",
+   "title": "Chef de projet Data GCP H/F",
+   "url": "https://open.wd103.myworkdayjobs.com/OPEN/job/Levallois-Perret/TechLead-Data-H-F_R14987",
+   "reason": "contrat non précisé",
+   "at": "2026-11-22T22:44:03+00:00"
+  },
+  {
+   "id": "eb4cabf8887d",
+   "company": "Open",
+   "title": "Tech Lead Data Science / MLOps H/F",
+   "url": "https://open.wd103.myworkdayjobs.com/OPEN/job/Levallois-Perret/Tech-Lead-Data-Science---MLOps-H-F_R15093",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-22T22:44:03+00:00"
+  },
+  {
+   "id": "f3a2dc70207d",
+   "company": "Open",
+   "title": "Consultant Data Semarchy (H/F)",
+   "url": "https://open.wd103.myworkdayjobs.com/OPEN/job/Nantes/Consultant-Data-Semarchy--H-F-_R16483",
+   "reason": "lieu hors zones",
+   "at": "2026-11-22T22:44:00+00:00"
+  },
+  {
+   "id": "f00ad4854958",
+   "company": "Open",
+   "title": "Data Engineer spark scala",
+   "url": "https://open.wd103.myworkdayjobs.com/OPEN/job/Levallois-Perret/Data-Engineer-spark-scala_R15828",
+   "reason": "contrat non précisé",
+   "at": "2026-11-22T22:43:56+00:00"
+  },
+  {
+   "id": "7db0c917eaa8",
+   "company": "Open",
+   "title": "Data Engineer Expérimenté H/F",
+   "url": "https://open.wd103.myworkdayjobs.com/OPEN/job/Lille/Data-Engineer-Confirm-H-F_R13320",
+   "reason": "titre exclu (experimente)",
+   "at": "2026-11-22T22:43:56+00:00"
+  },
+  {
+   "id": "f5fa26c42b28",
+   "company": "Open",
+   "title": "Data Analyst Confirmé F/H",
+   "url": "https://open.wd103.myworkdayjobs.com/OPEN/job/Lille/Data-Analyst-Confirm-H-F_R13778",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-22T22:43:56+00:00"
+  },
+  {
+   "id": "6d43bab8924c",
+   "company": "Open",
+   "title": "Lead Tech Data (H/F)",
+   "url": "https://open.wd103.myworkdayjobs.com/OPEN/job/Lyon/Lead-Tech-Data--H-F-_R15610",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-22T22:43:56+00:00"
+  },
+  {
+   "id": "17f1bb119b53",
+   "company": "Ipsen",
+   "title": "Business Analyst R&D & Medical IT / Analyste Fonctionnel IT R&D & Médical H/F",
+   "url": "https://ipsen.wd103.myworkdayjobs.com/Ipsen_Careers/job/Paris/Business-Analyst-R-D---Medical-IT---Analyste-Fonctionnel-IT-R-D---Mdical-H-F_R-22637",
+   "reason": "contrat non précisé",
+   "at": "2026-11-22T22:40:14+00:00"
+  },
+  {
+   "id": "26e377b03a05",
+   "company": "Ipsen",
+   "title": "Business Analyst R&D & Medical IT / Analyste Fonctionnel IT R&D & Médical H/F",
+   "url": "https://ipsen.wd103.myworkdayjobs.com/Ipsen_Careers/job/Paris/Business-Analyst-R-D---Medical-IT---Analyste-Fonctionnel-IT-R-D---Mdical-H-F_R-22638",
+   "reason": "contrat non précisé",
+   "at": "2026-11-22T22:40:11+00:00"
+  },
+  {
+   "id": "9600a9cba55c",
+   "company": "Ipsen",
+   "title": "Cost & Value Management Analyst",
+   "url": "https://ipsen.wd103.myworkdayjobs.com/Ipsen_Careers/job/Paris/Cost---Value-Management-Analyst_R-22703",
+   "reason": "contrat non précisé",
+   "at": "2026-11-22T22:40:08+00:00"
+  },
+  {
+   "id": "d612611304d8",
+   "company": "Ipsen",
+   "title": "Global FP&A Analyst/ Analyste Global FP&A - H/F",
+   "url": "https://ipsen.wd103.myworkdayjobs.com/Ipsen_Careers/job/Paris/Global-FP-A-Analyst--Analyste-Global-FP-A---H-F_R-22909",
+   "reason": "contrat non précisé",
+   "at": "2026-11-22T22:40:04+00:00"
+  },
+  {
+   "id": "c6bc427ab197",
+   "company": "Ipsen",
+   "title": "Analyste Business Senior",
+   "url": "https://ipsen.wd103.myworkdayjobs.com/Ipsen_Careers/job/Paris/Analyste-Business-Senior_R-22375",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-22T22:40:04+00:00"
+  },
+  {
+   "id": "204e7ae023a9",
+   "company": "Ipsen",
+   "title": "Data & AI Project Lead",
+   "url": "https://ipsen.wd103.myworkdayjobs.com/Ipsen_Careers/job/Paris/Data---AI-Project-Lead_R-22373",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-22T22:39:18+00:00"
+  },
+  {
+   "id": "2d071be67804",
+   "company": "Ipsen",
+   "title": "Stagiaire Clinical Systems & data",
+   "url": "https://ipsen.wd103.myworkdayjobs.com/Ipsen_Careers/job/Paris/Stagiaire-Clinical-Systems---data_R-22980-1",
+   "reason": "titre exclu (stagiaire)",
+   "at": "2026-11-22T22:39:18+00:00"
+  },
+  {
+   "id": "bf75394843ea",
+   "company": "Ipsen",
+   "title": "Data & AI Platforms Solution Architect",
+   "url": "https://ipsen.wd103.myworkdayjobs.com/Ipsen_Careers/job/Paris/Data---AI-Platforms-Solution-Architect_R-21171",
+   "reason": "titre exclu (architect)",
+   "at": "2026-11-22T22:39:18+00:00"
+  },
+  {
+   "id": "f83756180358",
+   "company": "Ipsen",
+   "title": "Data/AI & Platforms Product Manager",
+   "url": "https://ipsen.wd103.myworkdayjobs.com/Ipsen_Careers/job/Paris/Data-AI---Platforms-Product-Manager_R-22720",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-22T22:39:18+00:00"
+  },
+  {
+   "id": "2a0ad2022963",
+   "company": "Ipsen",
+   "title": "Senior Manager, Data Transparency & Regulatory Disclosure",
+   "url": "https://ipsen.wd103.myworkdayjobs.com/Ipsen_Careers/job/London-UK/Senior-Manager--Data-Transparency---Regulatory-Disclosure_R-22828-1",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-22T22:39:18+00:00"
+  },
+  {
+   "id": "7ccb368b07fc",
+   "company": "Rothschild & Co",
+   "title": "Business Analyst (H/F) – CDD",
+   "url": "https://rothschildandco.wd3.myworkdayjobs.com/Rothschildandco_Lateral/job/Paris/Business-Analyst--H-F----CDD_JR016201",
+   "reason": "expérience non précisée (ni sur la fiche, ni par l'IA)",
+   "at": "2026-11-22T22:38:42+00:00"
+  },
+  {
+   "id": "527fc3e76b2a",
+   "company": "Pierre Fabre",
+   "title": "Cloud and Data Platform Engineer AWS- CDI- H/F",
+   "url": "https://pierrefabre.wd3.myworkdayjobs.com/External_Career_Site/job/Tarn-81/Cloud-and-Data-Platform-Engineer-AWS--CDI--H-F_JR114314",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T22:37:56+00:00"
+  },
+  {
+   "id": "dcca756467d4",
+   "company": "Pierre Fabre",
+   "title": "Data Engineering Lead- R&D pharma- M/F - CDI",
+   "url": "https://pierrefabre.wd3.myworkdayjobs.com/External_Career_Site/job/Haute-Garonne-31/Data-Engineering-Lead--R-D-pharma--M-F---CDI_JR114109",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-22T22:37:56+00:00"
+  },
+  {
+   "id": "fcccc056c804",
+   "company": "Pierre Fabre",
+   "title": "Chef(fe) de projet Data & IT - Stage - H/F",
+   "url": "https://pierrefabre.wd3.myworkdayjobs.com/External_Career_Site/job/France---Lavaur---Les-Cauquillous/Chef-fe--de-projet-Data---IT---Stage---H-F_JR114392",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T22:37:56+00:00"
+  },
+  {
+   "id": "ff8f954ce90a",
+   "company": "Pierre Fabre",
+   "title": "Senior Data Scientist – Multi‑omics AI & Target Identification - CDI",
+   "url": "https://pierrefabre.wd3.myworkdayjobs.com/External_Career_Site/job/Haute-Garonne-31/Senior-Data-Scientist---Multi-omics-AI---Target-Identification---CDI_JR112019",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-22T22:37:56+00:00"
+  },
+  {
+   "id": "0db96539333e",
+   "company": "Pierre Fabre",
+   "title": "Data Analyst - Pilotage des risques industrialisation produits - Stage - H/F",
+   "url": "https://pierrefabre.wd3.myworkdayjobs.com/External_Career_Site/job/Tarn-81/Data-Analyst---Pilotage-des-risques-industrialisation-produits---Stage---H-F_JR114029",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T22:37:56+00:00"
+  },
+  {
+   "id": "c72b8309ac32",
+   "company": "Pierre Fabre",
+   "title": "Chargé(e) Data et affaires réglementaires internationales - Stage - H/F",
+   "url": "https://pierrefabre.wd3.myworkdayjobs.com/External_Career_Site/job/Haute-Garonne-31/Charg-e--Data-et-affaires-rglementaires-internationales---Stage---H-F_JR114078",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T22:37:56+00:00"
+  },
+  {
+   "id": "753814d6b157",
+   "company": "Pierre Fabre",
+   "title": "Accélérateur(trice) de l'utilisation de la data - Stage - H/F",
+   "url": "https://pierrefabre.wd3.myworkdayjobs.com/External_Career_Site/job/Tarn-81/Acclrateur-trice--de-l-utilisation-de-la-data---Stage---H-F_JR114403",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T22:37:56+00:00"
+  },
+  {
+   "id": "a4e407ea14ab",
+   "company": "Pierre Fabre",
+   "title": "Chargé(e) de Formulation Dermo-Cosmétique & Data Quality – Stage – H/F",
+   "url": "https://pierrefabre.wd3.myworkdayjobs.com/External_Career_Site/job/Haute-Garonne-31/Charg-e--de-Formulation-Dermo-Cosmtique---Data-Quality---Stage---H-F_JR114450",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T22:37:56+00:00"
+  },
+  {
+   "id": "fda8cf97579c",
+   "company": "Pierre Fabre",
+   "title": "Chef(fe) Projet Data Supply Chain - BU International ISP - Stage - H/F",
+   "url": "https://pierrefabre.wd3.myworkdayjobs.com/External_Career_Site/job/Tarn-81/Chef-fe--Projet-Data-Supply-Chain---BU-International-ISP---Stage---H-F_JR114274",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T22:37:56+00:00"
+  },
+  {
+   "id": "c507003e207c",
+   "company": "Pierre Fabre",
+   "title": "Chargé(e) de consolidation Data et BDD Ingrédients Actifs – Stage - H/F",
+   "url": "https://pierrefabre.wd3.myworkdayjobs.com/External_Career_Site/job/Haute-Garonne-31/Charg-e--de-consolidation-Data-et-BDD-Ingrdients-Actifs---Stage---H-F_JR114192",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T22:37:56+00:00"
+  },
+  {
+   "id": "d18b9ccf1de2",
+   "company": "Pierre Fabre",
+   "title": "Responsable Data-IA B2B Groupe- F/H- CDI",
+   "url": "https://pierrefabre.wd3.myworkdayjobs.com/External_Career_Site/job/Tarn-81/Responsable-Data-IA-B2B-Groupe--F-H--CDI_JR114521",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T22:37:49+00:00"
+  },
+  {
+   "id": "8a486bdc5b18",
+   "company": "Pierre Fabre",
+   "title": "Data Steward/BA",
+   "url": "https://pierrefabre.wd3.myworkdayjobs.com/External_Career_Site/job/Haute-Garonne-31/Data-Steward-BA_JR113940-1",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T22:37:01+00:00"
+  },
+  {
+   "id": "00f5931d747f",
+   "company": "Pierre Fabre",
+   "title": "Data Long Terme - Stage - H/F",
+   "url": "https://pierrefabre.wd3.myworkdayjobs.com/External_Career_Site/job/France---Castres---Praudel/Data-Long-Terme---Stage---H-F_JR114462",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T22:37:01+00:00"
+  },
+  {
+   "id": "20982cb27391",
+   "company": "Pierre Fabre",
+   "title": "Data Analyst / Performance Groupe - Stage -H/F",
+   "url": "https://pierrefabre.wd3.myworkdayjobs.com/External_Career_Site/job/Tarn-81/Data-Analyst---Performance-Groupe---Stage--H-F_JR113954",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T22:37:01+00:00"
+  },
+  {
+   "id": "5d2c01c33d73",
+   "company": "Pierre Fabre",
+   "title": "Data scientist / Chémoinformaticien(ne) – Stage - H/F",
+   "url": "https://pierrefabre.wd3.myworkdayjobs.com/External_Career_Site/job/Haute-Garonne-31/Data-scientist---Stage---H-F_JR114082",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T22:37:01+00:00"
+  },
+  {
+   "id": "d76938c3a303",
+   "company": "Pierre Fabre",
+   "title": "Clinical Data Standards Lead -M/F- CDI",
+   "url": "https://pierrefabre.wd3.myworkdayjobs.com/External_Career_Site/job/Haute-Garonne-31/Clinical-Data-Standards-Lead--M-F--CDI_JR114150",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-22T22:37:01+00:00"
+  },
+  {
+   "id": "067ba66b12d1",
+   "company": "Pierre Fabre",
+   "title": "Bio-informaticien(ne) / Data Scientist - Stage - H/F",
+   "url": "https://pierrefabre.wd3.myworkdayjobs.com/External_Career_Site/job/Haute-Garonne-31/Data-scientist---Stage---H-F_JR114081",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T22:37:01+00:00"
+  },
+  {
+   "id": "01653020806a",
+   "company": "Pierre Fabre",
+   "title": "Data Analyst Finance – EPM & BI - Stage - H/F",
+   "url": "https://pierrefabre.wd3.myworkdayjobs.com/External_Career_Site/job/Tarn-81/Data-Analyst-Finance---EPM---BI---Stage---H-F_JR114631",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T22:37:01+00:00"
+  },
+  {
+   "id": "7cf75a4ea2a2",
+   "company": "PwC (jeunes diplômés)",
+   "title": "Konzultant/ka pro oblast Transfer pricing",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Prague/Konzultant-ka-pro-oblast-Transfer-pricing_767961WD-1",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T22:34:54+00:00"
+  },
+  {
+   "id": "e6d535735395",
+   "company": "PwC (jeunes diplômés)",
+   "title": "Transfer Pricing Intern – January 2027",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Genve/Transfer-Pricing-Intern---January-2027_759675WD",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-22T22:34:54+00:00"
+  },
+  {
+   "id": "8feec05dca3c",
+   "company": "PwC (jeunes diplômés)",
+   "title": "Intern - Tax, Transfer Pricing (October 2026 Intake)",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Kuala-Lumpur/Intern---Tax--Transfer-Pricing--October-2026-Intake-_759871WD",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-22T22:34:54+00:00"
+  },
+  {
+   "id": "2dafd6e55da5",
+   "company": "PwC (jeunes diplômés)",
+   "title": "Tax Associate - Transfer Pricing - Roma [TAX]",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Rome/Tax-Associate---Transfer-Pricing---Roma--TAX-_769174WD-1",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T22:34:07+00:00"
+  },
+  {
+   "id": "198b9dab5b13",
+   "company": "PwC (jeunes diplômés)",
+   "title": "Transfer Pricing Associate - July 2026 Intake",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Singapore/Transfer-Pricing-Associate---July-2026-Intake_643739WD",
+   "reason": "lieu hors zones",
+   "at": "2026-11-22T22:33:19+00:00"
+  },
+  {
+   "id": "15d1589a9fd7",
+   "company": "PwC (jeunes diplômés)",
+   "title": "Associate - International Tax & Transfer Pricing - Brescia [TAX]",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Brescia/Associate---International-Tax---Transfer-Pricing---Brescia--TAX-_773806WD-1",
+   "reason": "lieu hors zones",
+   "at": "2026-11-22T22:32:32+00:00"
+  },
+  {
+   "id": "eae0b6200c99",
+   "company": "PwC (jeunes diplômés)",
+   "title": "Stage - International Tax & Transfer Pricing - Brescia [TAX]",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Brescia/Stage---International-Tax---Transfer-Pricing---Brescia--TAX-_773805WD",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T22:32:32+00:00"
+  },
+  {
+   "id": "68bb5f32a063",
+   "company": "PwC (jeunes diplômés)",
+   "title": "Data Protection Analyst (m/f/d)",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Luxembourg/Data-Protection-Analyst--m-f-d-_610866WD-3",
+   "reason": "contrat non précisé",
+   "at": "2026-11-22T22:31:44+00:00"
+  },
+  {
+   "id": "cddd9c5e7c8c",
+   "company": "PwC (jeunes diplômés)",
+   "title": "Salesforce - Associate to Senior Associate - Core Business Analyst (Talent Pool)",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Jakarta/Salesforce---Associate-to-Senior-Associate---Core-Business-Analyst_605645WD-1",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-22T22:31:44+00:00"
+  },
+  {
+   "id": "50b977ffee3e",
+   "company": "PwC (jeunes diplômés)",
+   "title": "Senior Auditors for Data and Business Intelligence Analyst",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Phnom-Penh/Senior-Auditors-for-Data-and--Business-Intelligence-Analyst_462113WD-1",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-22T22:31:44+00:00"
+  },
+  {
+   "id": "db7a2cde8d6f",
+   "company": "PwC (jeunes diplômés)",
+   "title": "FY22 Junior Business Analyst temp intern (ORCL&WD+temp BA intern+SH)",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Shanghai/FY22-Junior-Business-Analyst-temp-intern---ORCL-WD-temp-BA-intern-SH-_292646WD",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-22T22:31:44+00:00"
+  },
+  {
+   "id": "8113b1607b5a",
+   "company": "PwC (jeunes diplômés)",
+   "title": "Stage - International Tax & Transfer Pricing - Milano [TAX]",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Milan/Stage---International-Tax---Transfer-Pricing---Milano--TAX-_774911WD",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-22T22:31:44+00:00"
+  },
+  {
+   "id": "4a615e90cbc3",
+   "company": "PwC (jeunes diplômés)",
+   "title": "Manager - International Tax & Transfer Pricing - Milano [TAX]",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Milan/Manager---International-Tax---Transfer-Pricing---Milano--TAX-_767895WD-1",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-22T22:31:44+00:00"
+  },
+  {
+   "id": "c80b55b06d33",
+   "company": "PwC (jeunes diplômés)",
+   "title": "Associate - Tax Technology Analyst",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Ho-Chi-Minh-City/Associate---Tax-Technology-Analyst_738864WD-1",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T22:30:57+00:00"
+  },
+  {
+   "id": "71f5bb55c0d7",
+   "company": "PwC (jeunes diplômés)",
+   "title": "Data Engineer (m/f/d)",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Luxembourg/Data-Engineer--m-f-d-_724434WD-1",
+   "reason": "contrat non précisé",
+   "at": "2026-11-22T22:30:09+00:00"
+  },
+  {
+   "id": "1a0c95d3719c",
+   "company": "PwC (jeunes diplômés)",
+   "title": "Operations and Change Management - Data Analyst Off-Cycle Internship (Jan - Jun 27)",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Singapore---Marina-One/Operations-and-Change-Management---Data-Analyst-Off-Cycle-Internship--Jan---Jun-27-_742359WD",
+   "reason": "titre exclu (internship)",
+   "at": "2026-11-22T22:30:09+00:00"
+  },
+  {
+   "id": "e583b5bdc80a",
+   "company": "PwC (jeunes diplômés)",
+   "title": "Data analyst - Technology Consulting",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Prague/Junior-BI-Data-analyst---Technology-Consulting_742239WD",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T22:28:34+00:00"
+  },
+  {
+   "id": "04d40bd3e13d",
+   "company": "PwC (jeunes diplômés)",
+   "title": "Junior Legal Analyst | Centre of Excellence",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Gdask/Junior-Legal-Analyst---Centre-of-Excellence_688650WD",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T22:27:46+00:00"
+  },
+  {
+   "id": "4e8c0587ef65",
+   "company": "PwC (jeunes diplômés)",
+   "title": "Data Analyst - Intern - Financial Crime team",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Prague/Data-Analyst---Intern---Financial-Crime-team_768785WD",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-22T22:27:46+00:00"
+  },
+  {
+   "id": "cb88b6bb745b",
+   "company": "PwC (jeunes diplômés)",
+   "title": "Analyste financier stagiaire",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Casablanca/Analyste-financier-stagiaire_767730WD",
+   "reason": "titre exclu (stagiaire)",
+   "at": "2026-11-22T22:27:46+00:00"
+  },
+  {
+   "id": "4d82ead66f4b",
+   "company": "PwC (jeunes diplômés)",
+   "title": "Data Engineer Intern",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Prague/Datov-internship-v-Technology-Consultingu_742242WD-1",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-22T22:27:46+00:00"
+  },
+  {
+   "id": "1b93db9b4982",
+   "company": "PwC (jeunes diplômés)",
+   "title": "Analyst/Senior Analyst",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Skopje/Analyst-Senior-Analyst_765590WD",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-22T22:27:46+00:00"
+  },
+  {
+   "id": "b88b9fe21357",
+   "company": "PwC (jeunes diplômés)",
+   "title": "AI Business Analyst",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Lviv/AI-Business-Analyst_770089WD",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T22:26:59+00:00"
+  },
+  {
+   "id": "1b29d7d94077",
+   "company": "PwC (jeunes diplômés)",
+   "title": "Junior AI Developer",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Lviv/Junior-AI-Developer_770091WD",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T22:26:11+00:00"
+  },
+  {
+   "id": "2d797b3de5f5",
+   "company": "PwC (jeunes diplômés)",
+   "title": "Risk Support Analyst",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Buenos-Aires/Risk-Support-Analyst_770280WD-1",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T22:25:23+00:00"
+  },
+  {
+   "id": "fe6c904c97db",
+   "company": "PwC (jeunes diplômés)",
+   "title": "AI Business Analyst",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Lviv/AI-Business-Analyst_771360WD",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T22:24:36+00:00"
+  },
+  {
+   "id": "569e4618bf79",
+   "company": "PwC (jeunes diplômés)",
+   "title": "Data Analyst in Forensic Technology Services team",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Prague/Data-Analyst-in-Forensic-Technology-Services-team_771497WD",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T22:23:48+00:00"
+  },
+  {
+   "id": "67b298245598",
+   "company": "PwC (jeunes diplômés)",
+   "title": "Financial Analyst (Shipping Industries)",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Athens/Financial-Analyst--Shipping-Industries-_771612WD-1",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T22:23:00+00:00"
+  },
+  {
+   "id": "5becb057fa3f",
+   "company": "PwC (jeunes diplômés)",
+   "title": "Data Engineer - Technology consulting",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Prague/Data-Engineer---Technology-consulting_772666WD-1",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T22:22:13+00:00"
+  },
+  {
+   "id": "dace986f45e2",
+   "company": "PwC (jeunes diplômés)",
+   "title": "Junior Analyst - Financial Crime (Deutschsprachige Projekte)",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Prague/Junior-Analyst---Financial-Crime--Deutschsprachige-Projekte-_773292WD",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T22:21:25+00:00"
+  },
+  {
+   "id": "f4070a5ea44f",
+   "company": "PwC (jeunes diplômés)",
+   "title": "Data Engineer(Middle/Senior)",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Lviv/Data-Engineer-Middle-Senior-_773242WD",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-22T22:21:25+00:00"
+  },
+  {
+   "id": "21fff37b924d",
+   "company": "PwC (jeunes diplômés)",
+   "title": "Project Coordinator / PMO Analyst (m/f)",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Bratislava/Project-Coordinator---PMO-Analyst--m-f-_773352WD-1",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T22:20:37+00:00"
+  },
+  {
+   "id": "f00c7e58b528",
+   "company": "PwC (jeunes diplômés)",
+   "title": "Functional Analyst",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Lviv/Functional-Analyst_774309WD",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T22:19:50+00:00"
+  },
+  {
+   "id": "5a55a859b912",
+   "company": "PwC (jeunes diplômés)",
+   "title": "Customer Data Analyst",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Milan/Customer-Data-Analyst_604265WD",
+   "reason": "lieu hors zones",
+   "at": "2026-11-22T22:19:02+00:00"
+  },
+  {
+   "id": "68f4b1a91311",
+   "company": "PwC (jeunes diplômés)",
+   "title": "Test Analyst Specialist - Trento [DIG]",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Trento/Test-Analyst-Specialist---Trento--DIG-_591159WD",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T22:18:14+00:00"
+  },
+  {
+   "id": "4f549bd96ffb",
+   "company": "PwC (jeunes diplômés)",
+   "title": "Junior Databricks Analyst",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Lviv/Junior-Databricks-Analyst_774952WD",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T22:17:26+00:00"
+  },
+  {
+   "id": "5f8de5a663e5",
+   "company": "PwC (jeunes diplômés)",
+   "title": "Senior Customer Data Analyst",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Milan/Senior-Customer-Data-Analyst_681244WD",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-22T22:17:26+00:00"
+  },
+  {
+   "id": "bd654f1980ff",
+   "company": "PwC (jeunes diplômés)",
+   "title": "Junior Data Analyst (Automation and VBA Focus)",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Lviv/Junior-Data-Analyst--Automation-and-VBA-Focus-_774953WD",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-22T22:16:39+00:00"
+  },
+  {
+   "id": "2f756baeb139",
+   "company": "PwC (jeunes diplômés)",
+   "title": "Senior Associate/Manager (w/m/d) in Transfer Pricing",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Wien---Donau-City-Strae-7/Senior-Associate--w-m-d--in-Transfer-Pricing_492540WD-1",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-22T22:15:52+00:00"
+  },
+  {
+   "id": "b77ec1036d94",
+   "company": "PwC (jeunes diplômés)",
+   "title": "Deals AI Off-Cycle Internship (Jan - Jun 27)",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Singapore/Deals-AI-Off-Cycle-Internship--Jan---Jun-27-_773718WD",
+   "reason": "titre exclu (internship)",
+   "at": "2026-11-22T22:15:52+00:00"
+  },
   {
    "id": "930e4de133c1",
    "company": "Barclays",

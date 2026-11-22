@@ -1,6 +1,36 @@
 {
- "updated": "2026-11-22T13:36:27+00:00",
+ "updated": "2026-11-22T22:50:56+00:00",
  "jobs": [
+  {
+   "id": "630a24a8fbe7",
+   "company": "Pierre Fabre",
+   "title": "Data Scientist Junior - Business Analytics - CDI - H/F",
+   "url": "https://pierrefabre.wd3.myworkdayjobs.com/External_Career_Site/job/Hauts-de-Seine-92/Data-Scientist-Junior---Business-Analytics_JR114497-1",
+   "via": null,
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-16",
+   "seed": true,
+   "rv": 7,
+   "match": {
+    "score": 40,
+    "have": [
+     "python",
+     "sql"
+    ],
+    "missing": [
+     "modélisation",
+     "statistiques",
+     "prévision"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-22T22:37:53+00:00",
+   "last_seen": "2026-11-22T22:37:53+00:00"
+  },
   {
    "id": "dcd246c86a00",
    "company": "Banque de France",
@@ -113,7 +143,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-22T00:47:13+00:00",
-   "last_seen": "2026-11-22T12:54:35+00:00",
+   "last_seen": "2026-11-22T22:10:27+00:00",
    "ghost": {
     "score": 2,
     "reasons": [
@@ -153,7 +183,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-21T23:37:20+00:00",
-   "last_seen": "2026-11-21T23:37:20+00:00"
+   "last_seen": "2026-11-22T22:38:38+00:00"
   },
   {
    "id": "eca056d21b89",
@@ -184,7 +214,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-21T23:03:06+00:00",
-   "last_seen": "2026-11-22T12:55:19+00:00"
+   "last_seen": "2026-11-22T22:11:10+00:00"
   },
   {
    "id": "588dbbbb930c",
@@ -214,7 +244,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-21T23:01:27+00:00",
-   "last_seen": "2026-11-22T12:55:11+00:00"
+   "last_seen": "2026-11-22T22:11:03+00:00"
   },
   {
    "id": "b9286ae86c61",
@@ -248,11 +278,11 @@
    },
    "salary": null,
    "first_seen": "2026-11-21T22:59:54+00:00",
-   "last_seen": "2026-11-22T12:54:55+00:00",
+   "last_seen": "2026-11-22T22:10:46+00:00",
    "ghost": {
     "score": 2,
     "reasons": [
-     "en ligne depuis 347 jours (depuis le 09/12/2025)"
+     "en ligne depuis 348 jours (depuis le 09/12/2025)"
     ],
     "reposts": 0,
     "since": "2025-12-09"
@@ -288,11 +318,11 @@
    },
    "salary": null,
    "first_seen": "2026-11-21T22:59:42+00:00",
-   "last_seen": "2026-11-22T12:54:55+00:00",
+   "last_seen": "2026-11-22T22:10:46+00:00",
    "ghost": {
     "score": 2,
     "reasons": [
-     "en ligne depuis 281 jours (depuis le 13/02/2026)"
+     "en ligne depuis 282 jours (depuis le 13/02/2026)"
     ],
     "reposts": 0,
     "since": "2026-02-13"
@@ -315,11 +345,11 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-21T22:59:41+00:00",
-   "last_seen": "2026-11-22T12:54:55+00:00",
+   "last_seen": "2026-11-22T22:10:46+00:00",
    "ghost": {
     "score": 2,
     "reasons": [
-     "en ligne depuis 242 jours (depuis le 24/03/2026)"
+     "en ligne depuis 243 jours (depuis le 24/03/2026)"
     ],
     "reposts": 0,
     "since": "2026-03-24"
@@ -342,7 +372,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-21T22:59:32+00:00",
-   "last_seen": "2026-11-22T12:54:55+00:00",
+   "last_seen": "2026-11-22T22:10:46+00:00",
    "ghost": {
     "score": 2,
     "reasons": [
@@ -369,7 +399,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-21T22:59:29+00:00",
-   "last_seen": "2026-11-22T12:54:55+00:00",
+   "last_seen": "2026-11-22T22:10:46+00:00",
    "ghost": {
     "score": 2,
     "reasons": [
@@ -404,7 +434,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-21T22:59:14+00:00",
-   "last_seen": "2026-11-22T12:54:55+00:00"
+   "last_seen": "2026-11-22T22:10:46+00:00"
   },
   {
    "id": "e2a0f1985c3a",
@@ -423,7 +453,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-21T22:59:04+00:00",
-   "last_seen": "2026-11-22T12:54:55+00:00"
+   "last_seen": "2026-11-22T22:10:46+00:00"
   },
   {
    "id": "534b53423429",
@@ -453,7 +483,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-21T22:59:03+00:00",
-   "last_seen": "2026-11-22T12:54:55+00:00"
+   "last_seen": "2026-11-22T22:10:46+00:00"
   },
   {
    "id": "f935a08b98b2",
@@ -481,7 +511,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-21T22:58:54+00:00",
-   "last_seen": "2026-11-22T12:54:55+00:00"
+   "last_seen": "2026-11-22T22:10:46+00:00"
   },
   {
    "id": "b27da2846066",
@@ -512,7 +542,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-21T22:58:52+00:00",
-   "last_seen": "2026-11-22T12:54:55+00:00"
+   "last_seen": "2026-11-22T22:10:46+00:00"
   },
   {
    "id": "d543ae94949b",
@@ -539,7 +569,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-21T22:58:51+00:00",
-   "last_seen": "2026-11-22T12:54:55+00:00"
+   "last_seen": "2026-11-22T22:10:46+00:00"
   },
   {
    "id": "2922939f4088",
@@ -567,7 +597,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-21T22:58:49+00:00",
-   "last_seen": "2026-11-22T12:54:55+00:00"
+   "last_seen": "2026-11-22T22:10:46+00:00"
   },
   {
    "id": "4dbeba352017",
@@ -599,7 +629,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-21T22:58:48+00:00",
-   "last_seen": "2026-11-22T12:54:55+00:00"
+   "last_seen": "2026-11-22T22:10:46+00:00"
   }
  ]
 }

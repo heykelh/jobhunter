@@ -33,7 +33,12 @@
   "Avanade",
   "Visa",
   "Barclays",
-  "Fidelity International"
+  "Fidelity International",
+  "PwC (jeunes diplômés)",
+  "Pierre Fabre",
+  "Ipsen",
+  "Open",
+  "Apex Group"
  ],
  "zones_sig": "Luxembourg,Suisse,Île-de-France",
  "rules_version": 7,
