@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T20:39:22+00:00",
+ "updated": "2026-11-22T00:38:45+00:00",
  "jobs": [
   {
    "id": "f6657b237620",
@@ -14,7 +14,7 @@
    "junior": true,
    "published": "2026-11-09",
    "seed": false,
-   "rv": 6,
+   "rv": 7,
    "match": {
     "score": 71,
     "have": [
@@ -31,7 +31,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-21T19:47:08+00:00",
-   "last_seen": "2026-11-21T19:47:08+00:00"
+   "last_seen": "2026-11-22T00:35:21+00:00"
   },
   {
    "id": "0ffed69ed881",
@@ -46,7 +46,7 @@
    "junior": true,
    "published": "2026-11-20",
    "seed": false,
-   "rv": 6,
+   "rv": 7,
    "match": {
     "score": 80,
     "have": [
@@ -61,7 +61,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-20T21:09:28+00:00",
-   "last_seen": "2026-11-21T20:11:48+00:00"
+   "last_seen": "2026-11-22T00:22:52+00:00"
   },
   {
    "id": "74e549b5f579",
@@ -76,7 +76,7 @@
    "junior": false,
    "published": "2026-11-20",
    "seed": false,
-   "rv": 6,
+   "rv": 7,
    "match": {
     "score": 50,
     "have": [
@@ -94,7 +94,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-20T13:03:59+00:00",
-   "last_seen": "2026-11-21T20:20:24+00:00"
+   "last_seen": "2026-11-22T00:32:57+00:00"
   },
   {
    "id": "48d982185dc9",
@@ -109,7 +109,7 @@
    "junior": true,
    "published": "2026-11-18",
    "seed": false,
-   "rv": 6,
+   "rv": 7,
    "match": {
     "score": 70,
     "have": [
@@ -129,7 +129,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-19T19:02:50+00:00",
-   "last_seen": "2026-11-21T20:15:21+00:00"
+   "last_seen": "2026-11-22T00:26:26+00:00"
   },
   {
    "id": "4ba618558c99",
@@ -230,7 +230,7 @@
    "junior": true,
    "published": "2026-11-06",
    "seed": false,
-   "rv": 6,
+   "rv": 7,
    "match": {
     "score": 100,
     "have": [
@@ -242,7 +242,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-14T14:43:41+00:00",
-   "last_seen": "2026-11-21T20:20:47+00:00"
+   "last_seen": "2026-11-22T00:33:28+00:00"
   },
   {
    "id": "61d98dcfaf61",
@@ -257,7 +257,7 @@
    "junior": true,
    "published": "2026-11-08",
    "seed": false,
-   "rv": 6,
+   "rv": 7,
    "match": {
     "score": 73,
     "have": [
@@ -278,7 +278,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-09T21:36:35+00:00",
-   "last_seen": "2026-11-21T20:15:21+00:00"
+   "last_seen": "2026-11-22T00:26:36+00:00"
   },
   {
    "id": "78f165b6b23d",
@@ -293,7 +293,7 @@
    "junior": false,
    "published": "2026-11-06",
    "seed": false,
-   "rv": 6,
+   "rv": 7,
    "match": {
     "score": 67,
     "have": [
@@ -306,7 +306,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-06T19:25:23+00:00",
-   "last_seen": "2026-11-21T20:20:24+00:00"
+   "last_seen": "2026-11-22T00:33:01+00:00"
   },
   {
    "id": "f236ed3489bf",
@@ -375,37 +375,6 @@
    "salary": null,
    "first_seen": "2026-11-05T01:01:30+00:00",
    "last_seen": "2026-11-17T22:06:48+00:00"
-  },
-  {
-   "id": "a3ccd8a29ce7",
-   "company": "BPCE",
-   "title": "Data scientist CDD (F/H)",
-   "url": "https://recrutement.bpce.fr/job/data-scientist-cdd-f-h",
-   "via": null,
-   "zone": "Île-de-France",
-   "country": "France",
-   "contract": "CDD",
-   "experience": "junior / débutant",
-   "junior": true,
-   "published": "2026-11-03",
-   "seed": false,
-   "rv": 6,
-   "match": {
-    "score": 83,
-    "have": [
-     "python",
-     "sql",
-     "machine learning",
-     "rag",
-     "business analyst"
-    ],
-    "missing": [
-     "sas"
-    ]
-   },
-   "salary": null,
-   "first_seen": "2026-11-04T19:46:49+00:00",
-   "last_seen": "2026-11-21T20:15:21+00:00"
   },
   {
    "id": "664b3cc7e12f",
@@ -685,10 +654,10 @@
    "junior": true,
    "published": "2026-10-28",
    "seed": false,
-   "rv": 6,
+   "rv": 7,
    "match": null,
    "first_seen": "2026-10-28T10:34:45+00:00",
-   "last_seen": "2026-11-21T20:15:21+00:00"
+   "last_seen": "2026-11-22T00:27:12+00:00"
   },
   {
    "id": "76bc150e9b01",
@@ -702,7 +671,7 @@
    "junior": true,
    "published": "2026-10-28",
    "seed": false,
-   "rv": 6,
+   "rv": 7,
    "match": {
     "score": 100,
     "have": [
@@ -717,7 +686,7 @@
     "missing": []
    },
    "first_seen": "2026-10-28T10:34:36+00:00",
-   "last_seen": "2026-11-21T20:15:21+00:00"
+   "last_seen": "2026-11-22T00:27:03+00:00"
   },
   {
    "id": "4e80bd2f5d16",
@@ -762,7 +731,7 @@
    "junior": true,
    "published": "2026-10-27",
    "seed": false,
-   "rv": 6,
+   "rv": 7,
    "match": {
     "score": 67,
     "have": [
@@ -777,7 +746,7 @@
     ]
    },
    "first_seen": "2026-10-27T20:42:04+00:00",
-   "last_seen": "2026-11-21T20:15:21+00:00"
+   "last_seen": "2026-11-22T00:27:22+00:00"
   },
   {
    "id": "9e6271b7f744",
@@ -828,7 +797,7 @@
    "ghost": {
     "score": 2,
     "reasons": [
-     "en ligne depuis 114 jours (depuis le 30/07/2026)"
+     "en ligne depuis 115 jours (depuis le 30/07/2026)"
     ],
     "reposts": 0,
     "since": "2026-07-30"
@@ -906,7 +875,7 @@
    "ghost": {
     "score": 2,
     "reasons": [
-     "en ligne depuis 156 jours (depuis le 18/06/2026)"
+     "en ligne depuis 157 jours (depuis le 18/06/2026)"
     ],
     "reposts": 0,
     "since": "2026-06-18"
@@ -929,7 +898,7 @@
    "ghost": {
     "score": 2,
     "reasons": [
-     "en ligne depuis 137 jours (depuis le 07/07/2026)"
+     "en ligne depuis 138 jours (depuis le 07/07/2026)"
     ],
     "reposts": 0,
     "since": "2026-07-07"
@@ -975,7 +944,7 @@
    "published": "2026-09-22",
    "seed": false,
    "first_seen": "2026-10-20T13:59:55+00:00",
-   "last_seen": "2026-11-21T20:15:21+00:00",
+   "last_seen": "2026-11-22T00:27:49+00:00",
    "date_tries": 1,
    "match": {
     "score": 75,
@@ -993,7 +962,7 @@
     ]
    },
    "country": "France",
-   "rv": 6
+   "rv": 7
   },
   {
    "id": "ff9740f1b7eb",
@@ -1034,10 +1003,10 @@
    "published": "2026-10-08",
    "seed": false,
    "first_seen": "2026-10-20T13:58:07+00:00",
-   "last_seen": "2026-11-21T20:15:21+00:00",
+   "last_seen": "2026-11-22T00:27:40+00:00",
    "date_tries": 1,
    "country": "France",
-   "rv": 6,
+   "rv": 7,
    "match": {
     "score": 40,
     "have": [
@@ -1063,10 +1032,10 @@
    "published": "2026-10-14",
    "seed": false,
    "first_seen": "2026-10-20T13:57:31+00:00",
-   "last_seen": "2026-11-21T20:15:21+00:00",
+   "last_seen": "2026-11-22T00:27:31+00:00",
    "date_tries": 1,
    "country": "France",
-   "rv": 6,
+   "rv": 7,
    "match": {
     "score": 78,
     "have": [
@@ -1096,10 +1065,10 @@
    "published": "2026-10-18",
    "seed": false,
    "first_seen": "2026-10-20T13:56:45+00:00",
-   "last_seen": "2026-11-21T20:15:21+00:00",
+   "last_seen": "2026-11-22T00:26:45+00:00",
    "date_tries": 1,
    "country": "France",
-   "rv": 6,
+   "rv": 7,
    "match": {
     "score": 75,
     "have": [
