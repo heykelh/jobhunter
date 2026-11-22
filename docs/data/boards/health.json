@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T13:27:56+00:00",
+ "updated": "2026-11-22T21:09:05+00:00",
  "companies": {
   "APEC": {
    "checked_at": "2026-11-14T12:14:36+00:00",
@@ -12,57 +12,57 @@
    "failures": 48
   },
   "HelloWork": {
-   "checked_at": "2026-11-22T13:24:42+00:00",
+   "checked_at": "2026-11-22T21:06:04+00:00",
    "error": "",
    "warnings": [],
    "links_found": 414,
    "keyword_matches": 352,
-   "kept_this_run": 1,
+   "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-22T13:26:32+00:00",
+   "last_ok": "2026-11-22T21:07:45+00:00",
    "failures": 0
   },
   "jobs.ch": {
-   "checked_at": "2026-11-22T13:26:41+00:00",
+   "checked_at": "2026-11-22T21:07:53+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 267,
-   "keyword_matches": 129,
+   "links_found": 265,
+   "keyword_matches": 125,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-22T13:27:06+00:00",
+   "last_ok": "2026-11-22T21:08:18+00:00",
    "failures": 0
   },
   "jobup.ch": {
-   "checked_at": "2026-11-22T13:27:06+00:00",
+   "checked_at": "2026-11-22T21:08:18+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 246,
+   "links_found": 247,
    "keyword_matches": 96,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-22T13:27:35+00:00",
+   "last_ok": "2026-11-22T21:08:43+00:00",
    "failures": 0
   },
   "Moovijob (Luxembourg)": {
-   "checked_at": "2026-11-22T13:27:35+00:00",
+   "checked_at": "2026-11-22T21:08:43+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "vide",
-   "failures": 24
+   "failures": 25
   },
   "HelloWork (Transavia, RATP, ADP)": {
-   "checked_at": "2026-11-22T13:26:32+00:00",
+   "checked_at": "2026-11-22T21:07:45+00:00",
    "error": "",
    "warnings": [],
    "links_found": 128,
    "keyword_matches": 2,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-22T13:26:41+00:00",
+   "last_ok": "2026-11-22T21:07:53+00:00",
    "failures": 0
   }
  }
