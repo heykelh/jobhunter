@@ -1,6 +1,38 @@
 {
- "updated": "2026-11-22T20:14:56+00:00",
+ "updated": "2026-11-23T01:04:49+00:00",
  "items": [
+  {
+   "id": "7552d08b39e4",
+   "company": "Crédit Agricole",
+   "title": "Business analyst H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-business-analyst-hf-reference--2026-116212--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-23T00:52:56+00:00"
+  },
+  {
+   "id": "54d9429a1faf",
+   "company": "Crédit Agricole",
+   "title": "Product Owner Secur'IA H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170477-401-product-owner-secur-ia-hf-reference--2026-116537--/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-23T00:52:55+00:00"
+  },
+  {
+   "id": "5b4b8c822bf4",
+   "company": "Crédit Agricole",
+   "title": "Sustainable Banking Analyst H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170466-4-sustainable-banking-analyst-hf-reference--2026-116893--/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-23T00:52:53+00:00"
+  },
+  {
+   "id": "5e47aefab3e0",
+   "company": "Société Générale",
+   "title": "Analyste Red Teaming des modèles d'embeddings",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-red-teaming-des-modeles-dembeddings-26000KQQ-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-23T00:52:02+00:00"
+  },
   {
    "id": "bea0dfcfb153",
    "company": "Orange",
