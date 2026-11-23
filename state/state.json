@@ -40,7 +40,8 @@
  ],
  "sequence": {
   "EDF / Enedis": {
-   "last": 187219
+   "last": 187219,
+   "empty_runs": 1
   }
  },
  "next_company": 0,

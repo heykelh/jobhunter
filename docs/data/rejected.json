@@ -1,6 +1,38 @@
 {
- "updated": "2026-11-23T19:46:06+00:00",
+ "updated": "2026-11-23T20:44:22+00:00",
  "items": [
+  {
+   "id": "73212503a3c0",
+   "company": "Orange",
+   "title": "Data Analyst Consultant",
+   "url": "https://orange.jobs/fr/fr/job/TOB-6422884/Data-Analyst-Consultant",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-23T20:42:12+00:00"
+  },
+  {
+   "id": "30c513ea6bd0",
+   "company": "Orange",
+   "title": "Data Engineer Consultant",
+   "url": "https://orange.jobs/fr/fr/job/TOB-3396197/Data-Engineer-Consultant",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-23T20:42:10+00:00"
+  },
+  {
+   "id": "e098348a73d5",
+   "company": "TotalEnergies",
+   "title": "Operational Risk Analyst (Contract)",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Operational-Risk-Analyst-Contract/86142",
+   "reason": "lieu hors zones",
+   "at": "2026-11-23T20:40:12+00:00"
+  },
+  {
+   "id": "252a53e35eaf",
+   "company": "Alstom",
+   "title": "Data Science & AI - Quality (Winter 2027)",
+   "url": "https://jobsearch.alstom.com/job/Saint-Bruno-Data-Science-&-AI-Quality-%28Winter-2027%29-QC/1459891033/",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-23T20:29:52+00:00"
+  },
   {
    "id": "b7e1748bc97e",
    "company": "ING",
