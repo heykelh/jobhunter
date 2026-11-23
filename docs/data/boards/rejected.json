@@ -1,6 +1,214 @@
 {
- "updated": "2026-11-23T01:50:19+00:00",
+ "updated": "2026-11-23T16:06:18+00:00",
  "items": [
+  {
+   "id": "e908b2ca8dd2",
+   "company": "jobup.ch",
+   "title": "Business Intelligence Analyst",
+   "url": "https://www.jobup.ch/fr/emplois/detail/2856d18f-d7eb-44a3-968f-08852121cd72/",
+   "reason": "expérience non précisée (ni sur la fiche, ni par l'IA)",
+   "at": "2026-11-23T16:05:57+00:00"
+  },
+  {
+   "id": "992467f2bb0e",
+   "company": "jobup.ch",
+   "title": "Senior Product Manager - AI Agent",
+   "url": "https://www.jobup.ch/fr/emplois/detail/2e423629-03f7-4ad1-968b-a7033cc7fcb5/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-23T16:05:57+00:00"
+  },
+  {
+   "id": "0c113e5ade08",
+   "company": "jobup.ch",
+   "title": "Scientific AI Platform Expert, Disease Area X",
+   "url": "https://www.jobup.ch/fr/emplois/detail/d915d05d-827f-41f4-9764-5a44d0fd0f6d/",
+   "reason": "titre exclu (expert)",
+   "at": "2026-11-23T16:05:57+00:00"
+  },
+  {
+   "id": "9afd86e66de2",
+   "company": "jobup.ch",
+   "title": "Consultant Lead - Software & Quality Engineering (AI-Powered) - AI-SDLC",
+   "url": "https://www.jobup.ch/fr/emplois/detail/279c0bc5-60f1-4542-867f-b22c7883581f/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-23T16:05:57+00:00"
+  },
+  {
+   "id": "36224566f52c",
+   "company": "jobup.ch",
+   "title": "Research Ethics Compliance Officer Sensitive Data",
+   "url": "https://www.jobup.ch/fr/emplois/detail/e86ab1dd-324e-4561-8c28-cf4e34c643c1/",
+   "reason": "expérience demandée ≥ 3 ans « esearch data, clinical trials, and biobanks. extensive experience with the preparation and »",
+   "at": "2026-11-23T16:05:55+00:00"
+  },
+  {
+   "id": "8a5d26b4f933",
+   "company": "jobup.ch",
+   "title": "Head of Data Foundations",
+   "url": "https://www.jobup.ch/fr/emplois/detail/20f2c942-8333-4d27-8f31-0345f1d8d804/",
+   "reason": "titre exclu (head)",
+   "at": "2026-11-23T16:05:55+00:00"
+  },
+  {
+   "id": "1a1138206a12",
+   "company": "jobs.ch",
+   "title": "AI Software Engineer (m/w/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/71f34092-d1a9-4586-b214-08f5938c9d4e/",
+   "reason": "expérience demandée ≥ 3 ans « que du paysage ia. ce que nous recherchons : plusieurs annees d'experience professionnelle en ingen »",
+   "at": "2026-11-23T16:05:25+00:00"
+  },
+  {
+   "id": "2d7a651029b4",
+   "company": "jobs.ch",
+   "title": "Head of Channel Sales (AI Software) - [A016040]",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/1c686a6d-c209-4d25-8574-179d4980f61b/",
+   "reason": "titre exclu (head)",
+   "at": "2026-11-23T16:05:25+00:00"
+  },
+  {
+   "id": "9aa1857252e9",
+   "company": "jobs.ch",
+   "title": "Consultant Lead - Software & Quality Engineering (AI-Powered) - AI-SDLC",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/279c0bc5-60f1-4542-867f-b22c7883581f/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-23T16:05:25+00:00"
+  },
+  {
+   "id": "48d4806e7853",
+   "company": "jobs.ch",
+   "title": "Quality Analyst (w/m/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/51842802-1294-48e7-b51b-47efb247a94d/",
+   "reason": "expérience demandée ≥ 3 ans « t evolutif vos competences vous possedez une experience solide en analyse de donnees, g »",
+   "at": "2026-11-23T16:05:24+00:00"
+  },
+  {
+   "id": "416ef7de1139",
+   "company": "jobs.ch",
+   "title": "Sales Analyst (m/w/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/88923494-1cb0-4833-9d79-3ca328deea03/",
+   "reason": "annonce en allemand (titre)",
+   "at": "2026-11-23T16:05:22+00:00"
+  },
+  {
+   "id": "f4dc15045ef3",
+   "company": "jobs.ch",
+   "title": "Business Data Analyst Hotel - Power BI (m/w/d) 80-100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/a2cd1fcc-c544-40dc-9bf4-b6af74bc85bf/",
+   "reason": "expérience demandée ≥ 3 ans « hotelier en forte croissance. grace a votre solide experience hoteliere, votre maitris »",
+   "at": "2026-11-23T16:05:20+00:00"
+  },
+  {
+   "id": "3871735ef06d",
+   "company": "jobs.ch",
+   "title": "Data Analyst - German",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/c40f8e1f-a008-4ed6-8213-c3fad80a3aa9/",
+   "reason": "expérience demandée ≥ 5 ans « tique ou qualification equivalente. au moins 5 ans d'experience professionn »",
+   "at": "2026-11-23T16:05:19+00:00"
+  },
+  {
+   "id": "53b20d616197",
+   "company": "HelloWork",
+   "title": "Data Analyst - Solutions IA H/F EURO INFORMATION",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85779183.html",
+   "reason": "expérience demandée ≥ 3 ans « ise via une experience concrete d'au minimum 3 ans. on dit de vous que vous »",
+   "at": "2026-11-23T16:04:19+00:00"
+  },
+  {
+   "id": "cd41f6e84808",
+   "company": "HelloWork",
+   "title": "Factory Lead - Forward Deployed ai Engineering H/F Alfene",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85781199.html",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-23T16:04:12+00:00"
+  },
+  {
+   "id": "71c994d8e7c9",
+   "company": "HelloWork",
+   "title": "Lead ai Adoption H/F Bouygues Construction",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85788341.html",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-23T16:03:52+00:00"
+  },
+  {
+   "id": "4d28c57f6409",
+   "company": "HelloWork",
+   "title": "Responsable Revenue Management H/F WOVEN PARTNERS",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85774023.html",
+   "reason": "expérience demandée ≥ 3 ans « tellerie, commerce, gestion ou equivalent. - experience significative en revenue management av »",
+   "at": "2026-11-23T16:03:35+00:00"
+  },
+  {
+   "id": "54dcf90155db",
+   "company": "HelloWork",
+   "title": "Product Owner Ai - Rpa & Builder H/F Edenred",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85782253.html",
+   "reason": "expérience demandée ≥ 5 ans « ialisation data, universite) et avez environ 5 ans d'experience en product »",
+   "at": "2026-11-23T16:03:34+00:00"
+  },
+  {
+   "id": "d6976c217ae8",
+   "company": "HelloWork",
+   "title": "Analyste Comptable H/F Crédit Agricole Assurances",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85775358.html",
+   "reason": "expérience demandée ≥ 3 ans « ou dans une fonction finance en entreprise. niveau d'experience minimum : 3 - 5 ans soft skills : aptitudes pe »",
+   "at": "2026-11-23T16:03:32+00:00"
+  },
+  {
+   "id": "d33e7e464dd2",
+   "company": "HelloWork",
+   "title": "Analyste Opérationnel H/F PROUDREED",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85783859.html",
+   "reason": "expérience demandée ≥ 3 ans « juridique. le profil recherche experience : 3/5 ans d'experience, sur un pos »",
+   "at": "2026-11-23T16:03:24+00:00"
+  },
+  {
+   "id": "c3790c59b2a6",
+   "company": "HelloWork",
+   "title": "Analyste de Tests H/F CASDEN Banque Populaire",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85780321.html",
+   "reason": "expérience demandée ≥ 5 ans « avez une experience significative d'au moins 5 ans dans les metiers de l'in »",
+   "at": "2026-11-23T16:03:23+00:00"
+  },
+  {
+   "id": "e89e52e83c26",
+   "company": "HelloWork",
+   "title": "Data Analyst H/F Maïki",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85792624.html",
+   "reason": "expérience demandée ≥ 3 ans « data ou informatique, avec une experience de 3 a 5 ans en data analytics et un »",
+   "at": "2026-11-23T16:03:21+00:00"
+  },
+  {
+   "id": "d273a34ec499",
+   "company": "HelloWork",
+   "title": "Demand Planning Analyst H/F Vaillant Group",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85789133.html",
+   "reason": "expérience demandée ≥ 3 ans « quivalent* experience : vous justifiez d'une experience significative en demand planning, supp »",
+   "at": "2026-11-23T16:03:20+00:00"
+  },
+  {
+   "id": "5b3ee65093b0",
+   "company": "HelloWork",
+   "title": "Manager Portefeuille Data Finance H/F Alveor",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85773006.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-23T16:03:19+00:00"
+  },
+  {
+   "id": "01b26f4b9558",
+   "company": "HelloWork",
+   "title": "Data Analytics Engineer Confirmé H/F Size Up Consulting",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85780175.html",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-23T16:03:19+00:00"
+  },
+  {
+   "id": "8fcd9f5593b6",
+   "company": "HelloWork",
+   "title": "Product Owner Data H/F Edenred",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85776726.html",
+   "reason": "expérience demandée ≥ 3 ans « e niveau bac +5 minimum et avez acquis entre 3 et 5 ans d'experience dans un pos »",
+   "at": "2026-11-23T16:03:15+00:00"
+  },
   {
    "id": "d55657e05dde",
    "company": "HelloWork",
