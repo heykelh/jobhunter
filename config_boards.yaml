@@ -54,6 +54,8 @@ companies:
       - https://www.hellowork.com/fr-fr/emploi/recherche.html?k=Transavia&c=CDI&c=CDD&p={page}
       - https://www.hellowork.com/fr-fr/emploi/recherche.html?k=RATP&l=%C3%8Ele-de-France&c=CDI&c=CDD&p={page}
       - https://www.hellowork.com/fr-fr/emploi/recherche.html?k=Groupe+ADP&c=CDI&c=CDD&p={page}
+      - https://www.hellowork.com/fr-fr/emploi/recherche.html?k=EDF&l=%C3%8Ele-de-France&c=CDI&c=CDD&p={page}
+      - https://www.hellowork.com/fr-fr/emploi/recherche.html?k=Enedis&l=%C3%8Ele-de-France&c=CDI&c=CDD&p={page}
     pages: [1, 2]
     link_pattern: /fr-fr/emplois/\d+\.html
 

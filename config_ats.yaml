@@ -20,10 +20,11 @@ max_details_per_company: 15     # fiches ouvertes par entreprise et par passage 
 experience_ai_per_run: 50
 
 # Recherches envoyées à Workday (les mots courts "ai" / "ia" ramènent trop d'offres sans rapport)
-ats_search_terms: &terms [data, analyst, analyste, pricing, revenue management]
+ats_search_terms: &terms [data, analyst, pricing, revenue management]
 
-# Workday limite fort le nombre de requêtes : un passage complet peut demander deux lancements,
-# le suivant reprend là où le précédent s'est arrêté.
+# Workday limite le nombre de requêtes par adresse (erreur 429). Le robot fait peu de requêtes par
+# entreprise (4 recherches filtrées par pays, 6 fiches au plus) ; s'il est quand même freiné, les
+# entreprises suivantes passent « en attente » et sont lues au prochain passage (ce n'est pas une panne).
 time_budget_minutes: 45
 
 companies:
@@ -130,172 +131,197 @@ companies:
     api: https://bdf.wd103.myworkdayjobs.com/wday/cxs/bdf/recrutement-banque-de-france/jobs
     public_url: https://bdf.wd103.myworkdayjobs.com/recrutement-banque-de-france
     search_terms: *terms
-    offsets: [0, 20]
+    offsets: [0]
+    max_details: 6
 
   - name: Sanofi
     source: workday
     api: https://sanofi.wd3.myworkdayjobs.com/wday/cxs/sanofi/SanofiCareers/jobs
     public_url: https://sanofi.wd3.myworkdayjobs.com/SanofiCareers
     search_terms: *terms
-    offsets: [0, 20]
+    offsets: [0]
+    max_details: 6
 
   - name: Pernod Ricard
     source: workday
     api: https://pernodricard.wd3.myworkdayjobs.com/wday/cxs/pernodricard/pernod-ricard/jobs
     public_url: https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard
     search_terms: *terms
-    offsets: [0, 20]
+    offsets: [0]
+    max_details: 6
 
   - name: Chanel
     source: workday
     api: https://cc.wd3.myworkdayjobs.com/wday/cxs/cc/ChanelCareers/jobs
     public_url: https://cc.wd3.myworkdayjobs.com/ChanelCareers
     search_terms: *terms
-    offsets: [0, 20]
+    offsets: [0]
+    max_details: 6
 
   - name: Renault Group
     source: workday
     api: https://alliancewd.wd3.myworkdayjobs.com/wday/cxs/alliancewd/renault-group-careers/jobs
     public_url: https://alliancewd.wd3.myworkdayjobs.com/renault-group-careers
     search_terms: *terms
-    offsets: [0, 20]
+    offsets: [0]
+    max_details: 6
 
   - name: FDJ United
     source: workday                # Française des Jeux
     api: https://groupefdj.wd103.myworkdayjobs.com/wday/cxs/groupefdj/FDJ-UNITED/jobs
     public_url: https://groupefdj.wd103.myworkdayjobs.com/FDJ-UNITED
     search_terms: *terms
-    offsets: [0, 20]
+    offsets: [0]
+    max_details: 6
 
   - name: AG2R La Mondiale
     source: workday
     api: https://ag2rlamondiale.wd3.myworkdayjobs.com/wday/cxs/ag2rlamondiale/Candidats/jobs
     public_url: https://ag2rlamondiale.wd3.myworkdayjobs.com/Candidats
     search_terms: *terms
-    offsets: [0, 20]
+    offsets: [0]
+    max_details: 6
 
   - name: Deloitte France
     source: workday
     api: https://fina.wd103.myworkdayjobs.com/wday/cxs/fina/DeloitteRecrute/jobs
     public_url: https://fina.wd103.myworkdayjobs.com/DeloitteRecrute
     search_terms: *terms
-    offsets: [0, 20]
+    offsets: [0]
+    max_details: 6
 
   - name: PwC (jeunes diplômés)
     source: workday                # offres juniors de PwC (France, Luxembourg, Suisse…)
     api: https://pwc.wd3.myworkdayjobs.com/wday/cxs/pwc/Global_Campus_Careers/jobs
     public_url: https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers
     search_terms: *terms
-    offsets: [0, 20]
+    offsets: [0]
+    max_details: 6
 
   - name: Pierre Fabre
     source: workday
     api: https://pierrefabre.wd3.myworkdayjobs.com/wday/cxs/pierrefabre/External_Career_Site/jobs
     public_url: https://pierrefabre.wd3.myworkdayjobs.com/External_Career_Site
     search_terms: *terms
-    offsets: [0, 20]
+    offsets: [0]
+    max_details: 6
 
   - name: Rothschild & Co
     source: workday
     api: https://rothschildandco.wd3.myworkdayjobs.com/wday/cxs/rothschildandco/Rothschildandco_Lateral/jobs
     public_url: https://rothschildandco.wd3.myworkdayjobs.com/Rothschildandco_Lateral
     search_terms: *terms
-    offsets: [0, 20]
+    offsets: [0]
+    max_details: 6
 
   - name: Ipsen
     source: workday
     api: https://ipsen.wd103.myworkdayjobs.com/wday/cxs/ipsen/Ipsen_Careers/jobs
     public_url: https://ipsen.wd103.myworkdayjobs.com/Ipsen_Careers
     search_terms: *terms
-    offsets: [0, 20]
+    offsets: [0]
+    max_details: 6
 
   - name: Ardian
     source: workday
     api: https://ardian.wd103.myworkdayjobs.com/wday/cxs/ardian/ArdianCareers/jobs
     public_url: https://ardian.wd103.myworkdayjobs.com/ArdianCareers
     search_terms: *terms
-    offsets: [0, 20]
+    offsets: [0]
+    max_details: 6
 
   - name: onepoint
     source: workday
     api: https://onepoint.wd3.myworkdayjobs.com/wday/cxs/onepoint/WepointEN/jobs
     public_url: https://onepoint.wd3.myworkdayjobs.com/WepointEN
     search_terms: *terms
-    offsets: [0, 20]
+    offsets: [0]
+    max_details: 6
 
   - name: Paris Saint-Germain
     source: workday
     api: https://parissaintgermain.wd3.myworkdayjobs.com/wday/cxs/parissaintgermain/rejoigneznous/jobs
     public_url: https://parissaintgermain.wd3.myworkdayjobs.com/rejoigneznous
     search_terms: *terms
-    offsets: [0, 20]
+    offsets: [0]
+    max_details: 6
 
   - name: Open
     source: workday                # ESN française
     api: https://open.wd103.myworkdayjobs.com/wday/cxs/open/OPEN/jobs
     public_url: https://open.wd103.myworkdayjobs.com/OPEN
     search_terms: *terms
-    offsets: [0, 20]
+    offsets: [0]
+    max_details: 6
 
   - name: Avanade
     source: workday
     api: https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/AvanadeCareers/jobs
     public_url: https://accenture.wd103.myworkdayjobs.com/AvanadeCareers
     search_terms: *terms
-    offsets: [0, 20]
+    offsets: [0]
+    max_details: 6
 
   - name: Deutsche Bank
     source: workday                # Paris et Luxembourg
     api: https://db.wd3.myworkdayjobs.com/wday/cxs/db/DBWebsite/jobs
     public_url: https://db.wd3.myworkdayjobs.com/DBWebsite
     search_terms: *terms
-    offsets: [0, 20]
+    offsets: [0]
+    max_details: 6
 
   - name: Visa
     source: workday                # bureau de Paris
     api: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/jobs
     public_url: https://visa.wd5.myworkdayjobs.com/Visa
     search_terms: *terms
-    offsets: [0, 20]
+    offsets: [0]
+    max_details: 6
 
   - name: Barclays
     source: workday
     api: https://barclays.wd3.myworkdayjobs.com/wday/cxs/barclays/External_Career_Site_Barclays/jobs
     public_url: https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays
     search_terms: *terms
-    offsets: [0, 20]
+    offsets: [0]
+    max_details: 6
 
   - name: Lombard Odier
     source: workday                # Genève et Luxembourg
     api: https://lombardodier.wd3.myworkdayjobs.com/wday/cxs/lombardodier/Lombard_Odier_Careers/jobs
     public_url: https://lombardodier.wd3.myworkdayjobs.com/Lombard_Odier_Careers
     search_terms: *terms
-    offsets: [0, 20]
+    offsets: [0]
+    max_details: 6
 
   - name: Apex Group
     source: workday                # Luxembourg
     api: https://theapexgroup.wd3.myworkdayjobs.com/wday/cxs/theapexgroup/apexgroupcareers/jobs
     public_url: https://theapexgroup.wd3.myworkdayjobs.com/apexgroupcareers
     search_terms: *terms
-    offsets: [0, 20]
+    offsets: [0]
+    max_details: 6
 
   - name: Northern Trust
     source: workday                # Luxembourg
     api: https://ntrs.wd1.myworkdayjobs.com/wday/cxs/ntrs/northerntrust/jobs
     public_url: https://ntrs.wd1.myworkdayjobs.com/northerntrust
     search_terms: *terms
-    offsets: [0, 20]
+    offsets: [0]
+    max_details: 6
 
   - name: Fidelity International
     source: workday                # Luxembourg
     api: https://fil.wd3.myworkdayjobs.com/wday/cxs/fil/001/jobs
     public_url: https://fil.wd3.myworkdayjobs.com/001
     search_terms: *terms
-    offsets: [0, 20]
+    offsets: [0]
+    max_details: 6
 
   - name: Saxo Bank
     source: workday                # Zurich
     api: https://saxobank.wd3.myworkdayjobs.com/wday/cxs/saxobank/CareeratSaxoBank/jobs
     public_url: https://saxobank.wd3.myworkdayjobs.com/CareeratSaxoBank
     search_terms: *terms
-    offsets: [0, 20]
+    offsets: [0]
+    max_details: 6

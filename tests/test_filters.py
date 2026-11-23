@@ -473,3 +473,27 @@ def test_workday_country_filter_and_contract_in_title(monkeypatch):
     assert c.evaluate("CDI – Ingénieur Analyste data", "Paris", "").contract == "CDI"
     from jobhunter.filters import detect_zone
     assert detect_zone("Vitry-sur-Seine") == "Île-de-France"
+
+
+def test_workday_429_pauses_all_workday_sources(monkeypatch):
+    import pytest
+    import jobhunter.sources as src
+    monkeypatch.setattr(src.time, "sleep", lambda s: None)
+    src._workday_blocked_until["t"] = 0
+    calls = []
+    def post(url, json=None, headers=None, timeout=0):
+        calls.append(url)
+        return _R(code=429)
+    f = _fetcher(get=lambda url, timeout=0, headers=None: _R(text=""), post=post)
+    comp = {"name": "X", "source": "workday", "api": "https://x.wd3.myworkdayjobs.com/wday/cxs/x/S/jobs",
+            "public_url": "https://x.wd3.myworkdayjobs.com/S", "search_terms": ["data", "analyst"]}
+    with pytest.raises(src.Postponed):
+        src.collect(comp, f, ["data"], None)
+    n = len(calls)
+    with pytest.raises(src.Postponed):                     # l'entreprise suivante n'interroge même pas Workday
+        src.collect({**comp, "name": "Y"}, f, ["data"], None)
+    assert len(calls) == n == 2
+    src._workday_blocked_until["t"] = 0
+    from jobhunter.filters import detect_contracts
+    assert detect_contracts("Type de contrat : Unlimited employment") == {"CDI"}
+    assert detect_contracts("Contrat fixe, 80-100%") == {"CDI"}

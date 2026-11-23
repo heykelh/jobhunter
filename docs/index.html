@@ -259,6 +259,7 @@
   .st.vide { background: var(--caution-soft); color: var(--caution); }
   .st.erreur { background: var(--signal-soft); color: var(--signal); }
   .st.désactivée { background: #e3e8ef; color: var(--muted); }
+  .st.en.attente, .st[class~="attente"] { background: #e8eefc; color: #3b5bb5; }
   .src .err { color: var(--signal); font-size: 12.5px; word-break: break-word; font-weight: 300; }
   .empty { text-align: center; color: var(--muted); padding: 48px 12px; font-weight: 300; }
   code { font-size: .9em; background: #e3e8ef; padding: 1px 5px; border-radius: 4px; }
@@ -818,6 +819,7 @@ function renderRun(st) {
         if (!e) return `<span class="rco ${x === current ? "now" : ""}">${esc(x)}</span>`;
         if (e.status === "désactivée") return `<span class="rco off" title="Source désactivée">${esc(x)}</span>`;
         if (e.status === "erreur") return `<span class="rco err" title="${esc(e.error || "erreur")}">${esc(x)} · erreur</span>`;
+        if (e.status === "en attente") return `<span class="rco" title="${esc(e.error || "")}">${esc(x)} · en attente</span>`;
         return `<span class="rco done" title="${e.links} liens lus">${esc(x)}${e.kept ? ` <span class="k">+${e.kept}</span>` : " ✓"}</span>`;
       }).join("")}</div>`;
     return true;

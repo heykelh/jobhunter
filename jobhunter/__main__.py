@@ -23,7 +23,7 @@ from .sponsors import SponsorRegister
 from .ai_check import ExperienceAI
 from .filters import Criteria, german_required, internship_evidence, norm
 from .notify import Notifier, Progress
-from .sources import Fetcher, collect, detail_for, fetch_detail
+from .sources import Fetcher, Postponed, collect, detail_for, fetch_detail
 from .store import ROOT, SITE_DATA, Store, job_id, now, _save
 
 log = logging.getLogger("jobwatch")
@@ -152,6 +152,10 @@ def run(argv=None) -> int:
         # État de santé des sources supprimées de la config (ex. Oman) : on l'oublie
         known = {c["name"] for c in cfg.get("companies", [])}
         store.health = {k: v for k, v in store.health.items() if k in known}
+        for c in cfg.get("companies", []):          # source désactivée : affichée comme telle, plus comme « vide »
+            if not c.get("enabled", True):
+                store.health[c["name"]] = {"checked_at": now(), "status": "désactivée", "failures": 0, "warnings": [],
+                                           "error": "désactivée dans la configuration"}
     # Offres déjà affichées dont le contrat ou l'expérience n'ont pas été trouvés : écartées si "drop"
     if not args.diagnose:
         for jid, job in list(store.jobs.items()):
@@ -209,6 +213,7 @@ def run(argv=None) -> int:
             log.info("▶ %s", name)
             h = store.health.get(name, {})
             h.update({"checked_at": now(), "error": "", "warnings": []})
+            fetcher.empty_ok = False
             try:
                 listings, errors = collect(comp, fetcher, crit.keywords, crit.keyword_hit,
                                            None if args.diagnose else store.state)
@@ -370,12 +375,17 @@ def run(argv=None) -> int:
                     if kept:
                         seeded_summary.append(f"{name} : {kept}")
                 h["kept_this_run"] = kept
-                h["status"] = "ok" if listings else "vide"
-                if listings:
+                h["status"] = "ok" if listings or fetcher.empty_ok else "vide"
+                if listings or fetcher.empty_ok:
                     h["last_ok"] = now()
                     h["failures"] = 0
                 else:
                     h["failures"] = h.get("failures", 0) + 1
+            except Postponed as e:
+                # le site demande une pause (ex. Workday) : pas une panne, la source sera lue au prochain passage
+                h["status"] = "en attente"
+                h["error"] = str(e)
+                log.info("  ⏸ %s", e)
             except Exception as e:
                 h["status"] = "erreur"
                 h["error"] = f"{type(e).__name__}: {str(e)[:300]}"

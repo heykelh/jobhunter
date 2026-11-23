@@ -181,6 +181,7 @@ class Fetcher:
         self.json_payloads: list = []     # (url, données) des réponses JSON du dernier rendu
         self.diag: list[str] = []         # remarques pour --diagnose
         self.dump_dir = None              # --diagnose : dossier où garder le HTML des pages sans offre
+        self.empty_ok = False             # la source a répondu correctement mais sans offre (pas une panne)
         self.page_info: str = ""          # titre de page + nb de liens du dernier rendu
 
     def _polite(self, url: str):
@@ -598,6 +599,15 @@ def fetch_rss(fetcher: Fetcher, url: str) -> list[Listing]:
 
 
 # ---------------------------------------------------------------- Workday (API JSON)
+class Postponed(Exception):
+    """Source pas lue ce passage (le site a demandé une pause) : ce n'est pas une panne."""
+
+
+# Workday limite les requêtes par adresse IP, toutes entreprises confondues : après un refus (429),
+# on laisse Workday tranquille pendant WORKDAY_PAUSE secondes pour toutes les entreprises suivantes.
+WORKDAY_PAUSE = 30 * 60
+_workday_blocked_until = {"t": 0.0}
+
 WD_COUNTRIES = {"france", "switzerland", "suisse", "schweiz", "svizzera", "luxembourg", "luxemburg"}
 
 
@@ -624,18 +634,25 @@ def collect_workday(comp: dict, fetcher: Fetcher, keywords: list[str], keyword_h
     """Sites Workday : API publique POST …/wday/cxs/<tenant>/<site>/jobs.
     Workday limite fort le nombre de requêtes (erreur 429) : peu de requêtes, espacées, filtrées par pays."""
     api, public = comp["api"].rstrip("/"), comp["public_url"].rstrip("/")
+    if time.time() < _workday_blocked_until["t"]:
+        raise Postponed("Workday a demandé une pause (trop de requêtes) : lue au prochain passage")
     out, errors = {}, []
-    # Certains sites Workday exigent la session (cookies + jeton CSRF) de la page publique
     headers = {"Accept": "application/json", "Content-Type": "application/json", "Origin": re.sub(r"(https://[^/]+).*", r"\1", public),
                "Referer": public, "Accept-Language": "fr-FR,fr;q=0.9,en;q=0.8"}
-    try:
-        fetcher.s.get(public, timeout=30)
-        tok = fetcher.s.cookies.get("CALYPSO_CSRF_TOKEN")
-        if tok:
-            headers["X-CALYPSO-CSRF-TOKEN"] = tok
-    except Exception:
-        pass
-    pause = float(comp.get("pause_seconds", 2.5))
+    session_done = {"v": False}
+
+    def open_session():
+        """Certains sites Workday exigent la session (cookies + jeton CSRF) de la page publique :
+        on ne l'ouvre que s'ils refusent l'API (une requête de moins sinon)."""
+        session_done["v"] = True
+        try:
+            fetcher.s.get(public, timeout=30)
+            tok = fetcher.s.cookies.get("CALYPSO_CSRF_TOKEN")
+            if tok:
+                headers["X-CALYPSO-CSRF-TOKEN"] = tok
+        except Exception:
+            pass
+    pause = float(comp.get("pause_seconds", 4))
 
     def post(payload):
         """Une requête ; en cas de 429, une seule nouvelle tentative après la pause demandée."""
@@ -643,11 +660,15 @@ def collect_workday(comp: dict, fetcher: Fetcher, keywords: list[str], keyword_h
             fetcher._polite(api)
             time.sleep(pause)
             r = fetcher.s.post(api, json=payload, headers=headers, timeout=30)
+            if r.status_code in (401, 403, 422) and not session_done["v"]:
+                open_session()
+                r = fetcher.s.post(api, json=payload, headers=headers, timeout=30)
             if r.status_code != 429:
                 return r
             wait = r.headers.get("Retry-After", "")
             if attempt == 0:
                 time.sleep(min(45, int(wait)) if wait.isdigit() else 20)
+        _workday_blocked_until["t"] = time.time() + WORKDAY_PAUSE
         return r
 
     facets = dict(comp.get("facets", {}))
@@ -696,7 +717,9 @@ def collect_workday(comp: dict, fetcher: Fetcher, keywords: list[str], keyword_h
                 errors.append(f"{api} [{q}/{offset}] → {type(e).__name__}: {str(e)[:120]}")
     fetcher.diag.append(f"[workday] {len(out)} offres via l'API")
     if limited and not out:
-        return [], ["Workday limite les requêtes (erreur 429) : nouvel essai au prochain passage"]
+        raise Postponed("Workday a demandé une pause (trop de requêtes) : lue au prochain passage")
+    if not out and not errors and not denied:
+        fetcher.empty_ok = True          # l'API a répondu : simplement aucune offre avec ces mots-clés
     if limited:
         fetcher.diag.append("[workday] limité (429) en cours de route : la suite au prochain passage")
     if not out and denied:
@@ -721,6 +744,8 @@ def fetch_workday_detail(comp: dict, fetcher: Fetcher, url: str) -> Detail:
     api_url = api[: -len("/jobs")] + path if api.endswith("/jobs") else api + path
     path = path.split("?", 1)[0]
     api_url = api[: -len("/jobs")] + path if api.endswith("/jobs") else api + path
+    if time.time() < _workday_blocked_until["t"]:
+        raise RuntimeError("Workday en pause (429)")
     for attempt in range(2):
         fetcher._polite(api_url)
         time.sleep(float(comp.get("pause_seconds", 2.5)))
@@ -729,6 +754,7 @@ def fetch_workday_detail(comp: dict, fetcher: Fetcher, url: str) -> Detail:
             break
         time.sleep(20)
     if r.status_code == 429:
+        _workday_blocked_until["t"] = time.time() + WORKDAY_PAUSE
         raise RuntimeError("Workday limite les requêtes (429)")   # fiche non lue : l'offre sera relue plus tard
     if r.status_code >= 400:
         return fetch_detail(fetcher, url)                   # repli : la page publique
@@ -801,6 +827,8 @@ def collect_francetravail(comp: dict, fetcher: Fetcher, keywords: list[str]) -> 
         except Exception as e:
             errors.append(f"France Travail [{q}] → {type(e).__name__}: {str(e)[:140]}")
     fetcher.diag.append(f"[france-travail] {len(out)} offres via l'API")
+    if not out and not errors:
+        fetcher.empty_ok = True
     return list(out.values()), (errors if not out else [])
 
 
@@ -842,6 +870,8 @@ def collect_smartrecruiters(comp: dict, fetcher: Fetcher, keyword_hit=None) -> t
                 break
             offset += 100
     fetcher.diag.append(f"[smartrecruiters] {len(out)} offres avec mots-clés via l'API ({cid})")
+    if not out and not errors:
+        fetcher.empty_ok = True          # l'API a répondu : aucune offre avec tes mots-clés dans ces pays
     return list(out.values()), (errors if not out else [])
 
 
@@ -1015,6 +1045,12 @@ def collect_sequence(comp: dict, fetcher: Fetcher, state: dict) -> tuple[list[Li
                 misses += 1
         return best
 
+    # Plusieurs passages de suite sans aucune offre : le curseur a peut-être dépassé le front
+    # (numéro isolé trouvé loin devant) : on recule de 400 numéros pour le retrouver.
+    if int(st.get("empty_runs", 0)) >= 3:
+        last = max(int(comp.get("start", 0)), last - 400)
+        st["empty_runs"] = 0
+        fetcher.diag.append(f"[séquence] rien depuis 3 passages : recul à {last}")
     best = scan(last)
     jumped = None
     if best is None and tried < max_probe:
@@ -1036,6 +1072,7 @@ def collect_sequence(comp: dict, fetcher: Fetcher, state: dict) -> tuple[list[Li
             best = scan(front) or front
     if best and best > last:
         st["last"] = best
+    st["empty_runs"] = 0 if out else int(st.get("empty_runs", 0)) + 1
     fetcher.diag.append(f"[séquence] départ {last}, {tried} numéros lus, {len(out)} offres, dernier trouvé {best}"
                         + (f" (saut jusqu'à {jumped})" if jumped else ""))
     return out, errors

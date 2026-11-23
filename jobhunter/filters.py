@@ -100,7 +100,8 @@ def detect_zone(text: str) -> str | None:
 # ------------------------------------------------------------------------ contrats
 CONTRACT_RE = {
     "CDI": re.compile(r"(?<![a-z])cdi(?![a-z])|duree indeterminee|(?<![a-z])permanent|regular position"
-                      r"|unbefristet|festanstellung|indefinite"),
+                      r"|unbefristet|festanstellung|feste anstellung|indefinite|unlimited (?:employment|contract)"
+                      r"|duree illimitee|(?:contrat|poste|emploi|engagement) (?:fixe|illimite)(?![a-z])|open[\s\-]ended"),
     "CDD": re.compile(r"(?<![a-z])cdd(?![a-z])|duree determinee|fixed[\s\-]term|(?<![a-z])befristet"
                       r"|temporary contract|contrat temporaire"),
 }
