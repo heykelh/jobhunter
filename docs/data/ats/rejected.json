@@ -1,6 +1,142 @@
 {
- "updated": "2026-11-23T16:02:00+00:00",
+ "updated": "2026-11-23T19:42:43+00:00",
  "items": [
+  {
+   "id": "08c3f0a25c2d",
+   "company": "Pierre Fabre",
+   "title": "Analyste Veille Concurrentielle - Stage - H/F",
+   "url": "https://pierrefabre.wd3.myworkdayjobs.com/External_Career_Site/job/Hauts-de-Seine-92/Analyste-Veille-Concurrentielle---Stage---H-F_JR114347",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-23T19:36:09+00:00"
+  },
+  {
+   "id": "8dd04fe7358f",
+   "company": "Pierre Fabre",
+   "title": "Chef(fe) de Projet Pricing - Stage - H/F",
+   "url": "https://pierrefabre.wd3.myworkdayjobs.com/External_Career_Site/job/France---Lavaur---Les-Cauquillous/Chef-fe--de-Projet-Pricing---Stage---H-F_JR114033",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-23T19:36:09+00:00"
+  },
+  {
+   "id": "137f29bfa3b1",
+   "company": "Pierre Fabre",
+   "title": "AI SOLUTIONS ARCHITECT & ENGINEER - M/F- CDI",
+   "url": "https://pierrefabre.wd3.myworkdayjobs.com/External_Career_Site/job/Tarn-81/AI-SOLUTIONS-ARCHITECT---ENGINEER---M-F--CDI_JR114330",
+   "reason": "titre exclu (architect)",
+   "at": "2026-11-23T19:35:59+00:00"
+  },
+  {
+   "id": "ac702fe47e75",
+   "company": "Pierre Fabre",
+   "title": "Business Analyst - Stage - H/F",
+   "url": "https://pierrefabre.wd3.myworkdayjobs.com/External_Career_Site/job/Tarn-81/Business-Analyst---Stage---H-F_JR114387",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-23T19:35:59+00:00"
+  },
+  {
+   "id": "099ef3f3f5ca",
+   "company": "PwC (jeunes diplômés)",
+   "title": "Data Analyst Intern - Technology Consulting",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Prague/Data-Analyst-Intern---Technology-Consulting_765323WD",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-23T19:34:41+00:00"
+  },
+  {
+   "id": "82a44c379572",
+   "company": "Deloitte France",
+   "title": "Talent Planner / Resource Management Analyst F/H",
+   "url": "https://fina.wd103.myworkdayjobs.com/DeloitteRecrute/job/Tunis-DATN/Talent-Planner---Resource-Management-Analyst-F-H_R-9635",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-23T19:34:13+00:00"
+  },
+  {
+   "id": "ab63a9f112c1",
+   "company": "Deloitte France",
+   "title": "Consultant Architecte Data - F/H",
+   "url": "https://fina.wd103.myworkdayjobs.com/DeloitteRecrute/job/Paris-La-Dfense/Consultant-Architecte-Data_R-6676",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-23T19:34:13+00:00"
+  },
+  {
+   "id": "b433732b0841",
+   "company": "NEXTON",
+   "title": "Product Builder H/F",
+   "url": "https://jobs.smartrecruiters.com/NEXTON/744000163255639",
+   "reason": "expérience demandée ≥ 3 ans « fications : fort d'une experience d'au moins 3 ans en tant que product owne »",
+   "at": "2026-11-23T19:29:47+00:00"
+  },
+  {
+   "id": "1bc4e0f91f77",
+   "company": "Meritis",
+   "title": "Ingénieur Data Analyst H/F)",
+   "url": "https://jobs.smartrecruiters.com/Meritis/744000163266299",
+   "reason": "contrat non précisé",
+   "at": "2026-11-23T19:29:41+00:00"
+  },
+  {
+   "id": "c156c740ed30",
+   "company": "ALTEN",
+   "title": "Consultant Data BI (H/F)",
+   "url": "https://jobs.smartrecruiters.com/ALTEN/744000163289750",
+   "reason": "lieu hors zones",
+   "at": "2026-11-23T19:29:36+00:00"
+  },
+  {
+   "id": "920790c2a16d",
+   "company": "Sia Partners",
+   "title": "Consultant - Cybersecurity & AI Trust",
+   "url": "https://jobs.smartrecruiters.com/Sia/744000163286989",
+   "reason": "contrat non précisé",
+   "at": "2026-11-23T19:29:24+00:00"
+  },
+  {
+   "id": "edb82c6470a1",
+   "company": "Sia Partners",
+   "title": "Manager - Cybersecurity & AI Trust",
+   "url": "https://jobs.smartrecruiters.com/Sia/744000163285024",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-23T19:29:24+00:00"
+  },
+  {
+   "id": "b805b5976295",
+   "company": "Sia Partners",
+   "title": "Stage de fin d'études - Cybersecurity & AI Trust",
+   "url": "https://jobs.smartrecruiters.com/Sia/744000163286559",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-23T19:29:24+00:00"
+  },
+  {
+   "id": "c4b64673f23f",
+   "company": "Sia Partners",
+   "title": "Senior Consultant - Data Privacy & AI Trust",
+   "url": "https://jobs.smartrecruiters.com/Sia/744000163285679",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-23T19:29:24+00:00"
+  },
+  {
+   "id": "5699d0a99256",
+   "company": "Talan",
+   "title": "Forward Deployed Engineer AI - CDI - F/H",
+   "url": "https://jobs.smartrecruiters.com/Talan/744000163266909",
+   "reason": "lieu hors zones",
+   "at": "2026-11-23T19:29:09+00:00"
+  },
+  {
+   "id": "05bc92643c39",
+   "company": "Talan",
+   "title": "Senior AI/Gen AI Engineer F/H",
+   "url": "https://jobs.smartrecruiters.com/Talan/744000163265450",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-23T19:29:09+00:00"
+  },
+  {
+   "id": "77503c3d99f1",
+   "company": "Talan",
+   "title": "Expert Data/IA / Manager d'équipe F/H",
+   "url": "https://jobs.smartrecruiters.com/Talan/744000163269158",
+   "reason": "titre exclu (expert)",
+   "at": "2026-11-23T19:29:08+00:00"
+  },
   {
    "id": "a8982cfa66a3",
    "company": "Northern Trust",
