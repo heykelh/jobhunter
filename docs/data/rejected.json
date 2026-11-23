@@ -1,6 +1,142 @@
 {
- "updated": "2026-11-23T14:49:14+00:00",
+ "updated": "2026-11-23T19:46:06+00:00",
  "items": [
+  {
+   "id": "b7e1748bc97e",
+   "company": "ING",
+   "title": "Data Analyst – Central Data Office (Marketing Technology)",
+   "url": "https://careers.ing.com/en/job/amsterdam/data-analyst-central-data-office-marketing-technology/3121/45697255488",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-23T19:46:06+00:00"
+  },
+  {
+   "id": "877556334ac5",
+   "company": "ING",
+   "title": "Internship AI for ESG",
+   "url": "https://careers.ing.com/en/job/brussels/internship-ai-for-esg/3121/47173134528",
+   "reason": "titre exclu (internship)",
+   "at": "2026-11-23T19:46:06+00:00"
+  },
+  {
+   "id": "6a7f704b1876",
+   "company": "UBS",
+   "title": "Operational Tax Specialist - AI - EMEA shift",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=350083",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-23T19:45:03+00:00"
+  },
+  {
+   "id": "69a2a6325500",
+   "company": "Orange",
+   "title": "Cyber Security Analyst",
+   "url": "https://orange.jobs/fr/fr/job/ICM-589203/Cyber-Security-Analyst",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-23T19:43:19+00:00"
+  },
+  {
+   "id": "7b97b7311986",
+   "company": "Orange",
+   "title": "Stage Data Analyste F/H",
+   "url": "https://orange.jobs/fr/fr/job/CTS-2026-54791/Stage-Data-Analyste-F-H",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-23T19:43:19+00:00"
+  },
+  {
+   "id": "ebbcd8288b98",
+   "company": "Orange",
+   "title": "Analyst - Operations",
+   "url": "https://orange.jobs/fr/fr/job/ICM-589345/Analyst-Operations",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-23T19:43:17+00:00"
+  },
+  {
+   "id": "2771106206df",
+   "company": "AXA",
+   "title": "Data Analyst RH H/F - [CDD 6 mois]",
+   "url": "https://careers.axa.com/jobs/30774",
+   "reason": "expérience non précisée (ni sur la fiche, ni par l'IA)",
+   "at": "2026-11-23T19:37:29+00:00"
+  },
+  {
+   "id": "9b5bd8da6fea",
+   "company": "AXA",
+   "title": "Data Analyst (F/H) - Stage",
+   "url": "https://careers.axa.com/jobs/36887",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-23T19:37:29+00:00"
+  },
+  {
+   "id": "5d3b35c75f95",
+   "company": "BPCE",
+   "title": "Analyste Crédit Professionnels de l'Immobilier H/F - Paris 13",
+   "url": "https://recrutement.bpce.fr/job/analyste-credit-professionnels-de-limmobilier-h-f-paris-13-2",
+   "reason": "expérience demandée ≥ 4 ans « ulaire d'un bac+5, vous justifiez d'au moins 4 ans d'experience en tant qu' »",
+   "at": "2026-11-23T19:36:18+00:00"
+  },
+  {
+   "id": "7ac593446a8c",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Recherche Data Scientice F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-recherche-data-scientice-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-23T19:36:09+00:00"
+  },
+  {
+   "id": "feafcde4081d",
+   "company": "Crédit Agricole",
+   "title": "Project Finance Analyst M/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170466-4-project-finance-analyst-mf-reference--2026-117688--/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-23T19:33:41+00:00"
+  },
+  {
+   "id": "eea664371799",
+   "company": "Crédit Agricole",
+   "title": "Stage - Analyste Multigestion Infrastructures H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-124-stage---analyste-multigestion-infrastructures-hf-reference--2026-116635--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-23T19:33:41+00:00"
+  },
+  {
+   "id": "c4c5b8daf48a",
+   "company": "Crédit Agricole",
+   "title": "Développeur Fullstack IA H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-124-developpeur-fullstack-ia-hf-reference--2026-117700--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-23T19:33:40+00:00"
+  },
+  {
+   "id": "b044142956df",
+   "company": "Crédit Agricole",
+   "title": "Data scientist H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-4-data-scientist-hf-reference--2026-116122--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-23T19:33:38+00:00"
+  },
+  {
+   "id": "08d1d7c94aca",
+   "company": "Crédit Agricole",
+   "title": "Analyste M&A Stage - Energy Transition H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-meta-stage---energy-transition-hf-reference--2026-117707--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-23T19:33:38+00:00"
+  },
+  {
+   "id": "de645e9f68fb",
+   "company": "Crédit Agricole",
+   "title": "Analyste Sectoriel H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170478-122-analyste-sectoriel-hf-reference--2026-113692--/",
+   "reason": "expérience demandée ≥ 3 ans « lisation : finance, economie ou en agronomie niveau d'experience minimum 3 - 5 ans competences recherchees - a »",
+   "at": "2026-11-23T19:33:37+00:00"
+  },
+  {
+   "id": "5eb3ede3db4e",
+   "company": "Société Générale",
+   "title": "Assistant Analyst Risques de crédit & Product Owner",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/assistant-analyst-risques-de-credit-product-owner-26000IPL-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-23T19:32:44+00:00"
+  },
   {
    "id": "e7f29488b13e",
    "company": "ING",
