@@ -1,6 +1,342 @@
 {
- "updated": "2026-11-23T01:04:49+00:00",
+ "updated": "2026-11-23T14:49:14+00:00",
  "items": [
+  {
+   "id": "e7f29488b13e",
+   "company": "ING",
+   "title": "IT Business Analyst with Payment System Experience",
+   "url": "https://careers.ing.com/en/job/istanbul/it-business-analyst-with-payment-system-experience/3121/33919715200",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-23T14:49:14+00:00"
+  },
+  {
+   "id": "3d2bc771b6a8",
+   "company": "ING",
+   "title": "Senior Analyst",
+   "url": "https://careers.ing.com/en/job/makati-city/senior-analyst/3121/43491209664",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-23T14:49:14+00:00"
+  },
+  {
+   "id": "f04ee642bcca",
+   "company": "ING",
+   "title": "Customer Journey Expert Catalog & Pricing",
+   "url": "https://careers.ing.com/en/job/amsterdam/customer-journey-expert-catalog-and-pricing/3121/47166504768",
+   "reason": "titre exclu (expert)",
+   "at": "2026-11-23T14:49:14+00:00"
+  },
+  {
+   "id": "8f359b82f16d",
+   "company": "SIX Group",
+   "title": "AI SDLC Engineer - Developer Experience",
+   "url": "https://jobs.six-group.com/job/Warsaw-AI-SDLC-Engineer-Developer-Experience/1431166433/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-23T14:48:22+00:00"
+  },
+  {
+   "id": "b2a92580e803",
+   "company": "UBS",
+   "title": "AI Quant Developer, FX Options E-Trading",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=352688",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-23T14:48:10+00:00"
+  },
+  {
+   "id": "2a08ca6d8533",
+   "company": "Orange",
+   "title": "Analyste/chercheur en vulnérabilités H/F",
+   "url": "https://orange.jobs/fr/fr/job/IOS-2026-2481/Analyste-chercheur-en-vulnérabilités-H-F",
+   "reason": "contrat non précisé",
+   "at": "2026-11-23T14:46:28+00:00"
+  },
+  {
+   "id": "c47ed90cd5f7",
+   "company": "Orange",
+   "title": "AI Solutions Lead (Technical Presales)",
+   "url": "https://orange.jobs/fr/fr/job/TOB-8779817/AI-Solutions-Lead-Technical-Presales",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-23T14:46:28+00:00"
+  },
+  {
+   "id": "88af79b37111",
+   "company": "Orange",
+   "title": "Senior AI Engineer - Consultant",
+   "url": "https://orange.jobs/fr/fr/job/TOB-8780030/Senior-AI-Engineer-Consultant",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-23T14:46:28+00:00"
+  },
+  {
+   "id": "5f78fdca2bbc",
+   "company": "VINCI (dont ETF)",
+   "title": "PFE Ingénieur études de prix F/H - Optimisation des réponses aux appels d'offres grâce à l'IA",
+   "url": "https://jobs.vinci.com/fr/emploi/auvergne-rhone-alpes/pfe-ingenieur-etudes-de-prix-f-h-optimisation-des-reponses-aux-appels-d-offres-grace-a-l-ia/1440/43614169792",
+   "reason": "lieu hors zones",
+   "at": "2026-11-23T14:44:30+00:00"
+  },
+  {
+   "id": "f6e5ab6cfb78",
+   "company": "VINCI (dont ETF)",
+   "title": "Analyste Fonctionnel SAP Controlling - 2 stages de fin d'études en pré-embauche F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/france/analyste-fonctionnel-sap-controlling-2-stages-de-fin-d-etudes-en-pre-embauche-f-h/1440/43838109504",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-23T14:44:29+00:00"
+  },
+  {
+   "id": "1fa224a372b4",
+   "company": "VINCI (dont ETF)",
+   "title": "Analyste Fonctionnel SI Finance - Dématérialisation - 1 stage de fin d'études en pré-embauche F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/france/analyste-fonctionnel-si-finance-dematerialisation-1-stage-de-fin-d-etudes-en-pre-embauche-f-h/1440/43828300928",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-23T14:44:29+00:00"
+  },
+  {
+   "id": "dbcaee0913fe",
+   "company": "VINCI (dont ETF)",
+   "title": "CDI - Analyste développeur .Net/Angular F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/pays-de-la-loire/cdi-analyste-developpeur-net-angular-f-h/1440/40115361600",
+   "reason": "lieu hors zones",
+   "at": "2026-11-23T14:44:27+00:00"
+  },
+  {
+   "id": "99f81d7ab170",
+   "company": "VINCI (dont ETF)",
+   "title": "Analyste Fonctionnel SIRH - 1 stage de fin d'études en pré-embauche F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/france/analyste-fonctionnel-sirh-1-stage-de-fin-d-etudes-en-pre-embauche-f-h/1440/43838107840",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-23T14:44:27+00:00"
+  },
+  {
+   "id": "68f5e68363ef",
+   "company": "VINCI (dont ETF)",
+   "title": "CDI - Analyste Développeur Angular / .Net F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/pays-de-la-loire/cdi-analyste-developpeur-angular-net-f-h/1440/40058011712",
+   "reason": "lieu hors zones",
+   "at": "2026-11-23T14:44:26+00:00"
+  },
+  {
+   "id": "1f7001fe39ac",
+   "company": "VINCI (dont ETF)",
+   "title": "CDI - Analyste Développeur Frontend Angular F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/pays-de-la-loire/cdi-analyste-developpeur-frontend-angular-f-h/1440/39652073984",
+   "reason": "lieu hors zones",
+   "at": "2026-11-23T14:44:24+00:00"
+  },
+  {
+   "id": "7bc56b409356",
+   "company": "VINCI (dont ETF)",
+   "title": "Analyste support applicatif – Trésorerie F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/france/analyste-support-applicatif-tresorerie-f-h/1440/41692262656",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-23T14:44:22+00:00"
+  },
+  {
+   "id": "6996f1fc2229",
+   "company": "VINCI (dont ETF)",
+   "title": "Ingénieur Data et Digitalisation F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/france/ingenieur-data-et-digitalisation-f-h/1440/46113162944",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-23T14:44:18+00:00"
+  },
+  {
+   "id": "89e702602321",
+   "company": "VINCI (dont ETF)",
+   "title": "Conducteur Travaux Principal Data centers F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/france/conducteur-travaux-principal-data-centers-f-h/1440/45736866432",
+   "reason": "titre exclu (principal)",
+   "at": "2026-11-23T14:44:18+00:00"
+  },
+  {
+   "id": "42c26b68a768",
+   "company": "VINCI (dont ETF)",
+   "title": "Responsable d'affaires Data Center F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/saint-ouen-sur-iton/responsable-d-affaires-data-center-f-h/1440/40559686976",
+   "reason": "titre exclu (data center)",
+   "at": "2026-11-23T14:44:18+00:00"
+  },
+  {
+   "id": "4196b5279ab9",
+   "company": "VINCI (dont ETF)",
+   "title": "Chef de Projet – Poste HTB – Data Center F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/ile-de-france/chef-de-projet-poste-htb-data-center-f-h/1440/42493613440",
+   "reason": "titre exclu (data center)",
+   "at": "2026-11-23T14:44:18+00:00"
+  },
+  {
+   "id": "667218aa8a37",
+   "company": "VINCI (dont ETF)",
+   "title": "Stage – Analyste développeur API F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/pays-de-la-loire/stage-analyste-developpeur-api-f-h/1440/47026193024",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-23T14:44:18+00:00"
+  },
+  {
+   "id": "87870a4352a2",
+   "company": "VINCI (dont ETF)",
+   "title": "Stage - Analyste Développeur F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/pays-de-la-loire/stage-analyste-developpeur-f-h/1440/45577913984",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-23T14:44:18+00:00"
+  },
+  {
+   "id": "7708e130eaea",
+   "company": "TotalEnergies",
+   "title": "CDI - Analyste Etudes Quantitatives - Retail Power and Gas France (F/H)",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/CDI-Analyste-Etudes-Quantitatives-Retail-Power-and-Gas-France-F-H/86504",
+   "reason": "expérience demandée ≥ 3 ans « gie, business & economie type de contrat cdi experience minimum 3 ans contexte et environnement au sein de ret »",
+   "at": "2026-11-23T14:43:53+00:00"
+  },
+  {
+   "id": "76b6d24e1a30",
+   "company": "AXA",
+   "title": "Stage – Data Scientist F/H - Algorithme de recommandation",
+   "url": "https://careers.axa.com/jobs/31106",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-23T14:40:02+00:00"
+  },
+  {
+   "id": "5ba882e702e2",
+   "company": "AXA",
+   "title": "Stage R&D - IA Explicative et Agentique pour l'Analyse de Sinistralité F/H",
+   "url": "https://careers.axa.com/jobs/31034",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-23T14:40:02+00:00"
+  },
+  {
+   "id": "2dbd3fd0869d",
+   "company": "AXA",
+   "title": "AXA Health Business - Head of Pricing and Underwriting, Partnership F/M",
+   "url": "https://careers.axa.com/jobs/37783",
+   "reason": "titre exclu (head)",
+   "at": "2026-11-23T14:40:02+00:00"
+  },
+  {
+   "id": "6215e3426db9",
+   "company": "BPCE",
+   "title": "ANALYSTE DE TESTS H/F",
+   "url": "https://recrutement.bpce.fr/job/analyste-de-tests-h-f",
+   "reason": "expérience demandée ≥ 5 ans « avez une experience significative d'au moins 5 ans dans les metiers de l'in »",
+   "at": "2026-11-23T14:38:52+00:00"
+  },
+  {
+   "id": "6c6e79cd0f76",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Analyste Crédit Corporate Mid & Large Cap F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-analyste-credit-corporate-mid-large-cap-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-23T14:38:44+00:00"
+  },
+  {
+   "id": "fb2666a5a098",
+   "company": "BPCE",
+   "title": "Senior Cyber & IT Risk Analyst (H/F)",
+   "url": "https://recrutement.bpce.fr/job/senior-cyber-it-risk-analyst-h-f",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-23T14:38:44+00:00"
+  },
+  {
+   "id": "8d49c8651592",
+   "company": "BPCE",
+   "title": "STAGE - Data Engineer (F/H) - Nantes",
+   "url": "https://recrutement.bpce.fr/job/stage-data-engineer-f-h-nantes",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-23T14:38:44+00:00"
+  },
+  {
+   "id": "cd7acf987543",
+   "company": "Crédit Agricole",
+   "title": "Analyste Comptable H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170464-137-analyste-comptable-hf-reference--2026-117662--/",
+   "reason": "expérience demandée ≥ 3 ans « ou dans une fonction finance en entreprise. niveau d'experience minimum 3 - 5 ans competences recherchees apti »",
+   "at": "2026-11-23T14:36:17+00:00"
+  },
+  {
+   "id": "3629d2faac9a",
+   "company": "Crédit Agricole",
+   "title": "Data Analyst",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/578-170479-3-data-analyst-reference--2026-114432--/",
+   "reason": "expérience demandée ≥ 3 ans « de microsoft dynamics 365 appreciee francais niveau d'experience minimum 3 - 5 ans competences recherchees - c »",
+   "at": "2026-11-23T14:36:16+00:00"
+  },
+  {
+   "id": "7fbb9048f426",
+   "company": "Crédit Agricole",
+   "title": "Analyste - Monitoring Portefeuille ESG H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste---monitoring-portefeuille-esg-hf-reference--2026-117669--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-23T14:36:15+00:00"
+  },
+  {
+   "id": "6746b91a5cf2",
+   "company": "Crédit Agricole",
+   "title": "Analyste Coverage - Midcaps H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170478-4-analyste-coverage---midcaps-hf-reference--2026-117680--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-23T14:36:13+00:00"
+  },
+  {
+   "id": "92613d52b323",
+   "company": "Crédit Agricole",
+   "title": "Analyste Corporate Advisory H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170478-4-analyste-corporate-advisory-hf-reference--2026-117681--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-23T14:36:11+00:00"
+  },
+  {
+   "id": "944cb429871a",
+   "company": "Crédit Agricole",
+   "title": "Stage - Client Insights Analyst H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage---client-insights-analyst-hf-reference--2026-117684--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-23T14:36:11+00:00"
+  },
+  {
+   "id": "eaee4abf4471",
+   "company": "Crédit Agricole",
+   "title": "FIG Coverage Analyst M/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170466-4-fig-coverage-analyst-mf-reference--2026-117687--/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-23T14:36:10+00:00"
+  },
+  {
+   "id": "52696c7659e9",
+   "company": "Société Générale",
+   "title": "DATA ANALYST JUNIOR",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/data-analyst-junior-26000NWX-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-23T14:35:20+00:00"
+  },
+  {
+   "id": "a5581499c8ed",
+   "company": "Société Générale",
+   "title": "Lead Business Analyst",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/lead-business-analyst-26000IJG-fr",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-23T14:35:20+00:00"
+  },
+  {
+   "id": "4ff24ae2a2f0",
+   "company": "Société Générale",
+   "title": "CHARGE/EE DE KYC - DATA",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/charge-ee-de-kyc-data-26000NWZ-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-23T14:35:19+00:00"
+  },
+  {
+   "id": "d50112e022db",
+   "company": "Société Générale",
+   "title": "ANALYSTE ESG",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-esg-26000NPF-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-23T14:35:18+00:00"
+  },
+  {
+   "id": "526348be57b4",
+   "company": "RATP Dev",
+   "title": "Stagiaire Data Analyst / Développeur BI H/F",
+   "url": "https://carrieres.ratpdevlyon.com/fr/annonce/4704507-stagiaire-data-analyst-developpeur-bi-hf-69100-villeurbanne",
+   "reason": "titre exclu (stagiaire)",
+   "at": "2026-11-23T14:31:20+00:00"
+  },
   {
    "id": "7552d08b39e4",
    "company": "Crédit Agricole",

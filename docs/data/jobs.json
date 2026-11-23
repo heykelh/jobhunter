@@ -1,6 +1,25 @@
 {
- "updated": "2026-11-23T01:04:49+00:00",
+ "updated": "2026-11-23T14:49:14+00:00",
  "jobs": [
+  {
+   "id": "fbf942aba14c",
+   "company": "VINCI (dont ETF)",
+   "title": "Junior Market Development Analyst F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/nanterre/junior-market-development-analyst-f-h/1440/46674181888",
+   "via": null,
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "3 ans min. · junior",
+   "junior": true,
+   "published": "2026-11-06",
+   "seed": false,
+   "rv": 7,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-23T14:44:21+00:00",
+   "last_seen": "2026-11-23T14:44:21+00:00"
+  },
   {
    "id": "f6657b237620",
    "company": "L'Oréal",
@@ -94,7 +113,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-20T13:03:59+00:00",
-   "last_seen": "2026-11-23T01:00:18+00:00"
+   "last_seen": "2026-11-23T14:43:53+00:00"
   },
   {
    "id": "48d982185dc9",
@@ -129,7 +148,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-19T19:02:50+00:00",
-   "last_seen": "2026-11-23T00:55:20+00:00"
+   "last_seen": "2026-11-23T14:38:52+00:00"
   },
   {
    "id": "4ba618558c99",
@@ -278,7 +297,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-09T21:36:35+00:00",
-   "last_seen": "2026-11-23T00:55:20+00:00"
+   "last_seen": "2026-11-23T14:38:52+00:00"
   },
   {
    "id": "78f165b6b23d",
@@ -306,7 +325,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-06T19:25:23+00:00",
-   "last_seen": "2026-11-23T01:00:18+00:00"
+   "last_seen": "2026-11-23T14:43:53+00:00"
   },
   {
    "id": "f236ed3489bf",
@@ -571,7 +590,7 @@
    "ghost": {
     "score": 2,
     "reasons": [
-     "en ligne depuis 107 jours (depuis le 07/08/2026)"
+     "en ligne depuis 108 jours (depuis le 07/08/2026)"
     ],
     "reposts": 0,
     "since": "2026-08-07"
@@ -657,7 +676,7 @@
    "rv": 7,
    "match": null,
    "first_seen": "2026-10-28T10:34:45+00:00",
-   "last_seen": "2026-11-23T00:55:20+00:00"
+   "last_seen": "2026-11-23T14:38:52+00:00"
   },
   {
    "id": "76bc150e9b01",
@@ -686,7 +705,7 @@
     "missing": []
    },
    "first_seen": "2026-10-28T10:34:36+00:00",
-   "last_seen": "2026-11-23T00:55:20+00:00"
+   "last_seen": "2026-11-23T14:38:52+00:00"
   },
   {
    "id": "4e80bd2f5d16",
@@ -746,7 +765,7 @@
     ]
    },
    "first_seen": "2026-10-27T20:42:04+00:00",
-   "last_seen": "2026-11-23T00:55:20+00:00"
+   "last_seen": "2026-11-23T14:38:52+00:00"
   },
   {
    "id": "9e6271b7f744",
@@ -1003,7 +1022,7 @@
    "published": "2026-10-08",
    "seed": false,
    "first_seen": "2026-10-20T13:58:07+00:00",
-   "last_seen": "2026-11-23T00:55:20+00:00",
+   "last_seen": "2026-11-23T14:38:52+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 7,
@@ -1032,7 +1051,7 @@
    "published": "2026-10-14",
    "seed": false,
    "first_seen": "2026-10-20T13:57:31+00:00",
-   "last_seen": "2026-11-23T00:55:20+00:00",
+   "last_seen": "2026-11-23T14:38:52+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 7,
@@ -1065,7 +1084,7 @@
    "published": "2026-10-18",
    "seed": false,
    "first_seen": "2026-10-20T13:56:45+00:00",
-   "last_seen": "2026-11-23T00:55:20+00:00",
+   "last_seen": "2026-11-23T14:38:52+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 7,
