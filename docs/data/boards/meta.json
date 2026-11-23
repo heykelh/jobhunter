@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T19:30:45+00:00",
+ "updated": "2026-11-23T20:28:01+00:00",
  "keywords": [
   "data",
   "analyst",
@@ -28,11 +28,11 @@
   "Moovijob (Luxembourg)"
  ],
  "ai": {
-  "ok": 8,
+  "ok": 9,
   "errors": 0,
   "last_error": "",
   "model": "openai/gpt-oss-120b",
   "waits": 2,
-  "at": "2026-11-23T19:30:45+00:00"
+  "at": "2026-11-23T20:28:01+00:00"
  }
 }
