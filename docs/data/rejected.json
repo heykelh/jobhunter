@@ -1,6 +1,206 @@
 {
- "updated": "2026-11-24T02:10:01+00:00",
+ "updated": "2026-11-24T15:05:16+00:00",
  "items": [
+  {
+   "id": "f39cb1a55665",
+   "company": "ING",
+   "title": "Performance Management & Data Squad Master for Tribe Insurance",
+   "url": "https://careers.ing.com/en/job/brussels/performance-management-and-data-squad-master-for-tribe-insurance/3121/44258223552",
+   "reason": "lieu hors zones (Belgique)",
+   "at": "2026-11-24T15:05:16+00:00"
+  },
+  {
+   "id": "e179b313ebbe",
+   "company": "SIX Group",
+   "title": "Data Licensing Specialist",
+   "url": "https://jobs.six-group.com/job/London-Data-Licensing-Specialist/1460235133/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-24T15:04:21+00:00"
+  },
+  {
+   "id": "f279eb9e1433",
+   "company": "SIX Group",
+   "title": "Real-time Data Service Specialist",
+   "url": "https://jobs.six-group.com/job/Warsaw-Real-time-Data-Service-Specialist/1460115333/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-24T15:04:19+00:00"
+  },
+  {
+   "id": "e52b5339e9a4",
+   "company": "UBS",
+   "title": "AI Algo Quant Developer",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=352341",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-24T15:04:07+00:00"
+  },
+  {
+   "id": "c4b6beaa1523",
+   "company": "UBS",
+   "title": "Market Conduct Surveillance Analyst",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=347482",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-24T15:04:06+00:00"
+  },
+  {
+   "id": "7207fe306684",
+   "company": "Orange",
+   "title": "Software Developer - MyEAP platform & AI Integration​",
+   "url": "https://orange.jobs/fr/fr/job/ERC-603522-20136094/Software-Developer-MyEAP-platform-AI-Integration​",
+   "reason": "expérience demandée ≥ 3 ans « erdana, geneva, sans-serif; font-size: 10pt\">proven experience as a <strong>full stack »",
+   "at": "2026-11-24T15:02:38+00:00"
+  },
+  {
+   "id": "859c65e09ce1",
+   "company": "Orange",
+   "title": "Data Center Expert",
+   "url": "https://orange.jobs/fr/fr/job/ERC-602627-20136094/Data-Center-Expert",
+   "reason": "titre exclu (data center)",
+   "at": "2026-11-24T15:02:36+00:00"
+  },
+  {
+   "id": "02f3229e5f23",
+   "company": "Orange",
+   "title": "Stage Data Analyst spécialisé outils LLM F/H",
+   "url": "https://orange.jobs/fr/fr/job/CTS-2026-55445/Stage-Data-Analyst-spécialisé-outils-LLM-F-H",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-24T15:02:36+00:00"
+  },
+  {
+   "id": "417c7d8938d1",
+   "company": "TotalEnergies",
+   "title": "Assistant(e) data & reporting finance débutant(e) H/F",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Assistant-e-data-reporting-finance-d-butant-e-H-F/86231",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-24T15:00:11+00:00"
+  },
+  {
+   "id": "c4f8c3f0e4df",
+   "company": "TotalEnergies",
+   "title": "Business Analyst Débutant - H/F",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Business-Analyst-D-butant-H-F/86574",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-24T15:00:09+00:00"
+  },
+  {
+   "id": "5630fd624208",
+   "company": "AXA",
+   "title": "Data Scientist tarification IARD (F/H)",
+   "url": "https://careers.axa.com/jobs/37163",
+   "reason": "expérience non précisée (ni sur la fiche, ni par l'IA)",
+   "at": "2026-11-24T14:56:15+00:00"
+  },
+  {
+   "id": "f54ddb0bec54",
+   "company": "AXA",
+   "title": "Stage – Data Scientist F/H",
+   "url": "https://careers.axa.com/jobs/31107",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-24T14:56:14+00:00"
+  },
+  {
+   "id": "9eb6f5900efe",
+   "company": "BPCE",
+   "title": "Analyste risques (F/H) - Risques / Sécurité",
+   "url": "https://recrutement.bpce.fr/job/analyste-risques-f-h-risques-securite",
+   "reason": "lieu hors zones",
+   "at": "2026-11-24T14:55:04+00:00"
+  },
+  {
+   "id": "0e7f366dc45d",
+   "company": "BPCE",
+   "title": "Data Analyst (H/F) - CDI",
+   "url": "https://recrutement.bpce.fr/job/data-analyst-h-f-cdi",
+   "reason": "lieu hors zones",
+   "at": "2026-11-24T14:54:55+00:00"
+  },
+  {
+   "id": "063f73531302",
+   "company": "BPCE",
+   "title": "ECOFI Investissements - Analyste ISR/ESG (F/H)",
+   "url": "https://recrutement.bpce.fr/job/ecofi-investissements-analyste-isr-esg-f-h",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « Vous avez déjà acquis une expérience sur un poste similaire. »",
+   "at": "2026-11-24T14:54:46+00:00"
+  },
+  {
+   "id": "52134027ebf9",
+   "company": "BPCE",
+   "title": "Business Analyst (F/H) - PRODUITS ET SERVICES ENTREPRISE MYSYS",
+   "url": "https://recrutement.bpce.fr/job/business-analyst-f-h-produits-et-services-entreprise-mysys",
+   "reason": "expérience demandée ≥ 3 ans « formation superieure bac +4/5, vous avez une experience significative dans le domaine bancaire »",
+   "at": "2026-11-24T14:54:37+00:00"
+  },
+  {
+   "id": "e9f11111ed37",
+   "company": "Crédit Agricole",
+   "title": "Assistant quant AI H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-assistant-quant-ai-hf-reference--2026-117725--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-24T14:51:50+00:00"
+  },
+  {
+   "id": "7f86e6f3dcf7",
+   "company": "Crédit Agricole",
+   "title": "Assistant Data analyst Cash Management H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-assistant-data-analyst-cash-management-hf-reference--2026-117727--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-24T14:51:48+00:00"
+  },
+  {
+   "id": "3af9d46680d2",
+   "company": "Crédit Agricole",
+   "title": "Assistant analyste titrisation – Capital Markets Funding H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-assistant-analyste-titrisation--capital-markets-funding-hf--reference--2026-117729--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-24T14:51:47+00:00"
+  },
+  {
+   "id": "2674e9895f7f",
+   "company": "Crédit Agricole",
+   "title": "STAGE - Business Analyst H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-137-stage---business-analyst-hf--reference--2026-117742--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-24T14:51:46+00:00"
+  },
+  {
+   "id": "69a43b71b44e",
+   "company": "Crédit Agricole",
+   "title": "Stage - Data Analyst & ALM Liquidité H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170479-3-stage---data-analyst-et-alm-liquidite-hf-reference--2026-117733--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-24T14:51:46+00:00"
+  },
+  {
+   "id": "7a16cd8335d4",
+   "company": "Accor",
+   "title": "Stage – Feasability Analyst, Ennismore Europe (H/F/NB)",
+   "url": "https://jobs.smartrecruiters.com/accorcorpo/744000163457269",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-24T14:49:17+00:00"
+  },
+  {
+   "id": "e22a1c49797f",
+   "company": "Accor",
+   "title": "Pricing Strategy & Transformation Manager F/H/X",
+   "url": "https://jobs.smartrecruiters.com/accorcorpo/744000163425829",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-24T14:49:17+00:00"
+  },
+  {
+   "id": "a209c240fab4",
+   "company": "Accor",
+   "title": "Pricing Strategy & Transformation Manager F/M/X",
+   "url": "https://jobs.smartrecruiters.com/accorcorpo/744000163423329",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-24T14:49:17+00:00"
+  },
+  {
+   "id": "759ce6678057",
+   "company": "Alstom",
+   "title": "Configuration Management Analyst",
+   "url": "https://jobsearch.alstom.com/job/Bangalore-Configuration-Management-Analyst/1429902733/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-24T14:49:00+00:00"
+  },
   {
    "id": "26fc07faa5f8",
    "company": "Crédit Agricole",
