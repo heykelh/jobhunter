@@ -1,70 +1,70 @@
 {
- "updated": "2026-11-23T20:44:22+00:00",
+ "updated": "2026-11-24T02:10:01+00:00",
  "companies": {
   "Air France": {
-   "checked_at": "2026-11-23T20:27:58+00:00",
+   "checked_at": "2026-11-24T01:52:57+00:00",
    "error": "",
    "warnings": [],
    "links_found": 22,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-23T20:28:00+00:00",
+   "last_ok": "2026-11-24T01:52:59+00:00",
    "failures": 0
   },
   "TotalEnergies": {
-   "checked_at": "2026-11-23T20:39:46+00:00",
+   "checked_at": "2026-11-24T02:05:16+00:00",
    "error": "",
    "warnings": [],
    "links_found": 200,
-   "keyword_matches": 21,
+   "keyword_matches": 20,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-23T20:40:12+00:00",
+   "last_ok": "2026-11-24T02:05:40+00:00",
    "failures": 0
   },
   "Société Générale": {
-   "checked_at": "2026-11-23T20:30:06+00:00",
+   "checked_at": "2026-11-24T01:55:08+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 74,
+   "links_found": 73,
    "keyword_matches": 24,
    "kept_this_run": 0,
    "status": "ok",
    "failures": 0,
-   "last_ok": "2026-11-23T20:31:55+00:00"
+   "last_ok": "2026-11-24T01:57:06+00:00"
   },
   "BNP Paribas": {
-   "checked_at": "2026-11-23T20:27:58+00:00",
+   "checked_at": "2026-11-24T01:52:57+00:00",
    "status": "désactivée",
    "failures": 0,
    "warnings": [],
    "error": "désactivée dans la configuration"
   },
   "Crédit Agricole": {
-   "checked_at": "2026-11-23T20:31:55+00:00",
+   "checked_at": "2026-11-24T01:57:06+00:00",
    "error": "",
    "warnings": [],
    "links_found": 33,
-   "keyword_matches": 7,
+   "keyword_matches": 8,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-23T20:32:45+00:00",
+   "last_ok": "2026-11-24T01:58:06+00:00",
    "failures": 0
   },
   "BPCE": {
-   "checked_at": "2026-11-23T20:32:46+00:00",
+   "checked_at": "2026-11-24T01:58:06+00:00",
    "error": "",
    "warnings": [],
    "links_found": 1574,
    "keyword_matches": 124,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-23T20:35:13+00:00",
+   "last_ok": "2026-11-24T02:00:41+00:00",
    "failures": 0
   },
   "AXA": {
-   "checked_at": "2026-11-23T20:35:13+00:00",
+   "checked_at": "2026-11-24T02:00:41+00:00",
    "error": "",
    "warnings": [],
    "links_found": 96,
@@ -72,61 +72,61 @@
    "kept_this_run": 0,
    "status": "ok",
    "failures": 0,
-   "last_ok": "2026-11-23T20:36:23+00:00"
+   "last_ok": "2026-11-24T02:01:52+00:00"
   },
   "SNCF": {
-   "checked_at": "2026-11-23T20:28:00+00:00",
+   "checked_at": "2026-11-24T01:52:59+00:00",
    "error": "",
    "warnings": [],
    "links_found": 210,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-23T20:28:00+00:00",
+   "last_ok": "2026-11-24T01:52:59+00:00",
    "failures": 0
   },
   "CFL": {
-   "checked_at": "2026-11-23T20:29:52+00:00",
+   "checked_at": "2026-11-24T01:54:52+00:00",
    "error": "",
    "warnings": [],
    "links_found": 25,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-23T20:30:02+00:00",
+   "last_ok": "2026-11-24T01:55:05+00:00",
    "failures": 0
   },
   "SBB CFF FFS": {
-   "checked_at": "2026-11-23T20:27:58+00:00",
+   "checked_at": "2026-11-24T01:52:57+00:00",
    "status": "désactivée",
    "failures": 0,
    "warnings": [],
    "error": "désactivée dans la configuration"
   },
   "RATP Dev": {
-   "checked_at": "2026-11-23T20:28:00+00:00",
+   "checked_at": "2026-11-24T01:52:59+00:00",
    "error": "",
    "warnings": [],
    "links_found": 20,
    "keyword_matches": 1,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-23T20:28:12+00:00",
+   "last_ok": "2026-11-24T01:53:11+00:00",
    "failures": 0
   },
   "Alstom": {
-   "checked_at": "2026-11-23T20:29:27+00:00",
+   "checked_at": "2026-11-24T01:54:29+00:00",
    "error": "",
    "warnings": [],
    "links_found": 222,
    "keyword_matches": 66,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-23T20:29:52+00:00",
+   "last_ok": "2026-11-24T01:54:52+00:00",
    "failures": 0
   },
   "EDF / Enedis": {
-   "checked_at": "2026-11-23T20:36:23+00:00",
+   "checked_at": "2026-11-24T02:01:52+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
@@ -134,10 +134,10 @@
    "kept_this_run": 0,
    "status": "vide",
    "last_ok": "2026-11-20T21:15:03+00:00",
-   "failures": 11
+   "failures": 12
   },
   "VINCI (dont ETF)": {
-   "checked_at": "2026-11-23T20:40:12+00:00",
+   "checked_at": "2026-11-24T02:05:40+00:00",
    "error": "",
    "warnings": [],
    "links_found": 391,
@@ -145,10 +145,10 @@
    "kept_this_run": 0,
    "status": "ok",
    "failures": 0,
-   "last_ok": "2026-11-23T20:40:35+00:00"
+   "last_ok": "2026-11-24T02:06:03+00:00"
   },
   "Eiffage": {
-   "checked_at": "2026-11-23T20:40:35+00:00",
+   "checked_at": "2026-11-24T02:06:03+00:00",
    "error": "Workday a demandé une pause (trop de requêtes) : lue au prochain passage",
    "warnings": [],
    "links_found": 0,
@@ -159,36 +159,36 @@
    "failures": 7
   },
   "Bouygues Telecom": {
-   "checked_at": "2026-11-23T20:27:58+00:00",
+   "checked_at": "2026-11-24T01:52:57+00:00",
    "status": "désactivée",
    "failures": 0,
    "warnings": [],
    "error": "désactivée dans la configuration"
   },
   "Orange": {
-   "checked_at": "2026-11-23T20:41:03+00:00",
+   "checked_at": "2026-11-24T02:06:32+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 90,
-   "keyword_matches": 45,
+   "links_found": 89,
+   "keyword_matches": 44,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-23T20:42:12+00:00",
+   "last_ok": "2026-11-24T02:07:38+00:00",
    "failures": 0
   },
   "L'Oréal": {
-   "checked_at": "2026-11-23T20:42:12+00:00",
+   "checked_at": "2026-11-24T02:07:38+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 117,
-   "keyword_matches": 10,
+   "links_found": 116,
+   "keyword_matches": 11,
    "kept_this_run": 0,
    "status": "ok",
    "failures": 0,
-   "last_ok": "2026-11-23T20:42:22+00:00"
+   "last_ok": "2026-11-24T02:07:49+00:00"
   },
   "Julius Baer": {
-   "checked_at": "2026-11-23T20:42:22+00:00",
+   "checked_at": "2026-11-24T02:07:49+00:00",
    "error": "Workday a demandé une pause (trop de requêtes) : lue au prochain passage",
    "warnings": [],
    "links_found": 0,
@@ -199,97 +199,97 @@
    "failures": 7
   },
   "UBS": {
-   "checked_at": "2026-11-23T20:42:23+00:00",
+   "checked_at": "2026-11-24T02:07:49+00:00",
    "error": "",
    "warnings": [],
    "links_found": 10,
-   "keyword_matches": 2,
+   "keyword_matches": 1,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-23T20:43:27+00:00",
+   "last_ok": "2026-11-24T02:08:57+00:00",
    "failures": 0
   },
   "SIX Group": {
-   "checked_at": "2026-11-23T20:43:27+00:00",
+   "checked_at": "2026-11-24T02:08:57+00:00",
    "error": "",
    "warnings": [],
    "links_found": 84,
    "keyword_matches": 22,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-23T20:43:37+00:00",
+   "last_ok": "2026-11-24T02:09:09+00:00",
    "failures": 0
   },
   "Advanzia Bank": {
-   "checked_at": "2026-11-23T20:43:37+00:00",
+   "checked_at": "2026-11-24T02:09:09+00:00",
    "error": "",
    "warnings": [],
    "links_found": 9,
    "keyword_matches": 2,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-23T20:43:43+00:00",
+   "last_ok": "2026-11-24T02:09:16+00:00",
    "failures": 0
   },
   "ING": {
-   "checked_at": "2026-11-23T20:43:43+00:00",
+   "checked_at": "2026-11-24T02:09:16+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 85,
+   "links_found": 86,
    "keyword_matches": 54,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-23T20:44:22+00:00",
+   "last_ok": "2026-11-24T02:10:01+00:00",
    "failures": 0
   },
   "Swiss Life": {
-   "checked_at": "2026-11-23T20:27:58+00:00",
+   "checked_at": "2026-11-24T01:52:57+00:00",
    "status": "désactivée",
    "failures": 0,
    "warnings": [],
    "error": "désactivée dans la configuration"
   },
   "SII Group": {
-   "checked_at": "2026-11-23T20:27:58+00:00",
+   "checked_at": "2026-11-24T01:52:57+00:00",
    "status": "désactivée",
    "failures": 0,
    "warnings": [],
    "error": "désactivée dans la configuration"
   },
   "RATP": {
-   "checked_at": "2026-11-23T20:28:12+00:00",
+   "checked_at": "2026-11-24T01:53:11+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "vide",
-   "failures": 16
+   "failures": 17
   },
   "Groupe ADP": {
-   "checked_at": "2026-11-23T20:29:09+00:00",
+   "checked_at": "2026-11-24T01:54:10+00:00",
    "error": "",
    "warnings": [],
    "links_found": 78,
    "keyword_matches": 2,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-23T20:29:16+00:00",
+   "last_ok": "2026-11-24T01:54:18+00:00",
    "failures": 0
   },
   "Disneyland Paris": {
-   "checked_at": "2026-11-23T20:29:16+00:00",
+   "checked_at": "2026-11-24T01:54:18+00:00",
    "error": "",
    "warnings": [],
    "links_found": 22,
    "keyword_matches": 2,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-23T20:29:27+00:00",
+   "last_ok": "2026-11-24T01:54:29+00:00",
    "failures": 0
   },
   "Accor": {
-   "checked_at": "2026-11-23T20:30:02+00:00",
+   "checked_at": "2026-11-24T01:55:05+00:00",
    "error": "",
    "warnings": [],
    "links_found": 17,
@@ -297,7 +297,7 @@
    "kept_this_run": 0,
    "status": "ok",
    "failures": 0,
-   "last_ok": "2026-11-23T20:30:06+00:00"
+   "last_ok": "2026-11-24T01:55:08+00:00"
   }
  }
 }
