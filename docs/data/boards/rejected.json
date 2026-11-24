@@ -1,6 +1,70 @@
 {
- "updated": "2026-11-23T20:28:01+00:00",
+ "updated": "2026-11-24T03:23:10+00:00",
  "items": [
+  {
+   "id": "26572c3bea8d",
+   "company": "jobup.ch",
+   "title": "Stagiaire Data Analyst - Supply Chain & Logistics",
+   "url": "https://www.jobup.ch/fr/emplois/detail/4c22d43e-31bf-4391-9a56-497312f97aad/",
+   "reason": "titre exclu (stagiaire)",
+   "at": "2026-11-24T03:22:50+00:00"
+  },
+  {
+   "id": "1bbb6bd57c5b",
+   "company": "jobs.ch",
+   "title": "Business Intelligence Analyst",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/2856d18f-d7eb-44a3-968f-08852121cd72/",
+   "reason": "expérience non précisée (ni sur la fiche, ni par l'IA)",
+   "at": "2026-11-24T03:22:24+00:00"
+  },
+  {
+   "id": "3d1b6f5b3a30",
+   "company": "jobs.ch",
+   "title": "AI for Science Engineer",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/f2452c8f-e6ba-4328-8d5e-5685924a14e9/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-24T03:22:24+00:00"
+  },
+  {
+   "id": "b3780054ac15",
+   "company": "jobs.ch",
+   "title": "Werkstudent/in Data Analytics (Teilzeit parallel zum Masterstudium)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/fc6b3341-5f4e-424e-b7fd-39fdef09cabe/",
+   "reason": "titre exclu (werkstudent)",
+   "at": "2026-11-24T03:22:22+00:00"
+  },
+  {
+   "id": "3d9e5d3ff3b1",
+   "company": "jobs.ch",
+   "title": "Senior Data Governance & Quality Manager 80-100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/5bb9da8d-22ab-4882-9cae-732deadc1a35/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-24T03:22:22+00:00"
+  },
+  {
+   "id": "2de9f949ead0",
+   "company": "HelloWork",
+   "title": "Consultant Stagiaire Data Science - Ai Engineer H/F Accenture France",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84672067.html",
+   "reason": "titre exclu (stagiaire)",
+   "at": "2026-11-24T03:21:26+00:00"
+  },
+  {
+   "id": "c04f80132989",
+   "company": "HelloWork",
+   "title": "Head Of Data Group H/F Exolys",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83691224.html",
+   "reason": "titre exclu (head)",
+   "at": "2026-11-24T03:21:22+00:00"
+  },
+  {
+   "id": "f7ccebdb70d8",
+   "company": "HelloWork",
+   "title": "Head Of Data Solution H/F AXA Partners",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84773542.html",
+   "reason": "titre exclu (head)",
+   "at": "2026-11-24T03:21:22+00:00"
+  },
   {
    "id": "fd0064fd865a",
    "company": "HelloWork (Transavia, RATP, ADP)",
