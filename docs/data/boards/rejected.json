@@ -1,6 +1,158 @@
 {
- "updated": "2026-11-24T03:23:10+00:00",
+ "updated": "2026-11-24T15:58:50+00:00",
  "items": [
+  {
+   "id": "e0b1d0667ba9",
+   "company": "jobup.ch",
+   "title": "Sales Analyst (m/w/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/8edf016a-fa4d-4b98-976d-67465fa9d9f7/",
+   "reason": "annonce en allemand (titre)",
+   "at": "2026-11-24T15:58:29+00:00"
+  },
+  {
+   "id": "12b45a72af20",
+   "company": "jobup.ch",
+   "title": "Safety Data Analyst (80-100%)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/4bba072f-35bd-401b-adb6-e5258fb8650d/",
+   "reason": "expérience demandée ≥ 3 ans « stion de l'information ou domaine similaire) experience averee avec des outils de busin »",
+   "at": "2026-11-24T15:58:28+00:00"
+  },
+  {
+   "id": "05acce0a95b7",
+   "company": "jobup.ch",
+   "title": "Agent Logistique - Data Center (a)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/ec97a161-d1a0-4127-8e7f-40a62e4f7aab/",
+   "reason": "titre exclu (data center)",
+   "at": "2026-11-24T15:58:28+00:00"
+  },
+  {
+   "id": "a371204c5e0b",
+   "company": "jobup.ch",
+   "title": "Senior Legal & Privacy Counsel for Sensitive Data in Human Research",
+   "url": "https://www.jobup.ch/fr/emplois/detail/c755c219-f28b-41c4-b42f-98d7427cf1ec/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-24T15:58:27+00:00"
+  },
+  {
+   "id": "deb9e43ef6ef",
+   "company": "jobup.ch",
+   "title": "Governance Data Project Manager - 80%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/410862dd-3a28-4df7-a22f-6b410230f738/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-24T15:58:25+00:00"
+  },
+  {
+   "id": "ad400fa300c1",
+   "company": "jobs.ch",
+   "title": "Data & AI Engineer (m/w/d), 60–100 %",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/f6d564be-76b1-4f9a-8044-9db4b5482713/",
+   "reason": "annonce en allemand (titre)",
+   "at": "2026-11-24T15:58:02+00:00"
+  },
+  {
+   "id": "76e467465991",
+   "company": "jobs.ch",
+   "title": "Controlling Data Analyst",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/42c8f837-ad4b-4d46-90dc-981922ad1b61/",
+   "reason": "expérience non précisée (ni sur la fiche, ni par l'IA)",
+   "at": "2026-11-24T15:58:01+00:00"
+  },
+  {
+   "id": "796779172588",
+   "company": "jobs.ch",
+   "title": "Project & Data Coordination Specialist",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/f0b1e08a-e6e5-4655-8637-63a0f25f028d/",
+   "reason": "expérience non précisée (ni sur la fiche, ni par l'IA)",
+   "at": "2026-11-24T15:58:00+00:00"
+  },
+  {
+   "id": "383912773504",
+   "company": "jobs.ch",
+   "title": "Sachbearbeiter/in Data Management 100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/e3496a3f-d672-472a-abb7-588b458dc319/",
+   "reason": "annonce en allemand (titre)",
+   "at": "2026-11-24T15:57:58+00:00"
+  },
+  {
+   "id": "8cec9db7172e",
+   "company": "HelloWork",
+   "title": "R&D Business Owner IA H/F HOUSE OF ABY",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85820723.html",
+   "reason": "expérience demandée ≥ 5 ans « mation scientifique (phd, pharmacien)minimum 5 ans d'experience en product »",
+   "at": "2026-11-24T15:57:16+00:00"
+  },
+  {
+   "id": "b4fb18df5da2",
+   "company": "HelloWork",
+   "title": "Ingénieur DevOps - IA Agentique H/F T-T CONSULTING",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85839349.html",
+   "reason": "expérience demandée ≥ 3 ans « rcheingenieur devops / ia agentique avec une experience confirmee en environnement techniq »",
+   "at": "2026-11-24T15:57:15+00:00"
+  },
+  {
+   "id": "cf1d4037c1c7",
+   "company": "HelloWork",
+   "title": "Responsable IT & IA H/F Bureau des Talents",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85833916.html",
+   "reason": "expérience demandée ≥ 5 ans « recherche 👤 profil rechercheindispensables * 5 a 10 ans d'experience en pme/eti, »",
+   "at": "2026-11-24T15:57:13+00:00"
+  },
+  {
+   "id": "d2850640731f",
+   "company": "HelloWork",
+   "title": "Chef de Projet IA H/F Klanik",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85818137.html",
+   "reason": "expérience demandée ≥ 3 ans « 'une formation superieure, tu disposes d'une experience significative dans le pilotage de proj »",
+   "at": "2026-11-24T15:57:12+00:00"
+  },
+  {
+   "id": "19bf5c256de7",
+   "company": "HelloWork",
+   "title": "Software Engineer - ai Factory H/F ByWinch",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85831788.html",
+   "reason": "expérience demandée ≥ 5 ans « nfiance dans la duree. mais aussi... minimum 5 ans d'experience2-3 jours pa »",
+   "at": "2026-11-24T15:57:09+00:00"
+  },
+  {
+   "id": "d836e2b6e649",
+   "company": "HelloWork",
+   "title": "Product Builder H/F Nexton",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85827099.html",
+   "reason": "expérience demandée ≥ 3 ans « ifications :fort d'une experience d'au moins 3 ans en tant que product owne »",
+   "at": "2026-11-24T15:57:07+00:00"
+  },
+  {
+   "id": "70cce74b06d2",
+   "company": "HelloWork",
+   "title": "Analyste Développeur Mainframe H/F Alteca",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85779505.html",
+   "reason": "expérience demandée ≥ 3 ans « ersite ou ecole d'ingenieur), tu as au moins 3 ans d'experience sur un post »",
+   "at": "2026-11-24T15:57:06+00:00"
+  },
+  {
+   "id": "2ddc21e662a1",
+   "company": "HelloWork",
+   "title": "Business Analyst H/F BPCE Solutions informatiques",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85748255.html",
+   "reason": "expérience demandée ≥ 4 ans « ou a l'universite, vous justifiez d'au moins 4 ans d'experience en tant que »",
+   "at": "2026-11-24T15:57:03+00:00"
+  },
+  {
+   "id": "1980c105cb2c",
+   "company": "HelloWork",
+   "title": "Chef de Projet Construction Data Centers H/F Profila",
+   "url": "https://www.hellowork.com/fr-fr/emplois/78212455.html",
+   "reason": "expérience demandée ≥ 5 ans « ont determinantes. vous justifiez d'au moins 5 ans d'experience reussie en »",
+   "at": "2026-11-24T15:57:01+00:00"
+  },
+  {
+   "id": "179384c03e43",
+   "company": "HelloWork",
+   "title": "Practice Manager Data et IA H/F JEMS",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85833541.html",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-24T15:56:57+00:00"
+  },
   {
    "id": "26572c3bea8d",
    "company": "jobup.ch",
