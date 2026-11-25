@@ -1,6 +1,102 @@
 {
- "updated": "2026-11-25T14:30:49+00:00",
+ "updated": "2026-11-25T23:34:54+00:00",
  "items": [
+  {
+   "id": "b9381877e4e0",
+   "company": "ING",
+   "title": "Senior Vulnerability Intelligence Analyst",
+   "url": "https://careers.ing.com/en/job/madrid/senior-vulnerability-intelligence-analyst/3121/47232224256",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-25T23:34:54+00:00"
+  },
+  {
+   "id": "d71001408bc5",
+   "company": "SIX Group",
+   "title": "AI Operations Specialist (80-100%)",
+   "url": "https://jobs.six-group.com/job/Zurich-AI-Operations-Specialist-%2880-100%29/1460756533/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-25T23:34:00+00:00"
+  },
+  {
+   "id": "65796071f6a1",
+   "company": "Orange",
+   "title": "Data Analyst / BI Developer F/H",
+   "url": "https://orange.jobs/fr/fr/job/IOS-2026-2704/Data-Analyst-BI-Developer-F-H",
+   "reason": "lieu hors zones",
+   "at": "2026-11-25T23:32:27+00:00"
+  },
+  {
+   "id": "acd81cf42a5b",
+   "company": "Orange",
+   "title": "Business Analyst Salesforce F/H",
+   "url": "https://orange.jobs/fr/fr/job/IOS-2026-1716/Business-Analyst-Salesforce-F-H",
+   "reason": "contrat non précisé",
+   "at": "2026-11-25T23:32:26+00:00"
+  },
+  {
+   "id": "77842677c66d",
+   "company": "VINCI (dont ETF)",
+   "title": "Responsable d'affaires Data Center CFO/CFA F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/nanterre/responsable-d-affaires-data-center-cfo-cfa-f-h/1440/47226767680",
+   "reason": "titre exclu (data center)",
+   "at": "2026-11-25T23:30:55+00:00"
+  },
+  {
+   "id": "b826144633b0",
+   "company": "TotalEnergies",
+   "title": "Analyste ESG - Débutant H/F",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Analyste-ESG-D-butant-H-F/86370",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-25T23:30:31+00:00"
+  },
+  {
+   "id": "3b749c76c494",
+   "company": "BPCE",
+   "title": "Data Scientist Confirmé F/H - Paris",
+   "url": "https://recrutement.bpce.fr/job/data-scientist-confirme-f-h-paris",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-25T23:25:31+00:00"
+  },
+  {
+   "id": "352727a5dedf",
+   "company": "BPCE",
+   "title": "Stagiaire Analyste Risques (H/F)",
+   "url": "https://recrutement.bpce.fr/job/stagiaire-analyste-risques-h-f",
+   "reason": "titre exclu (stagiaire)",
+   "at": "2026-11-25T23:25:21+00:00"
+  },
+  {
+   "id": "f8fc2485ce79",
+   "company": "Société Générale",
+   "title": "Analyste RH",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-rh-26000FNW-fr",
+   "reason": "expérience demandée ≥ 3 ans « disposez des competences suivantes :minimum 3 ans d'experience dans le dom »",
+   "at": "2026-11-25T23:21:57+00:00"
+  },
+  {
+   "id": "d679e5f5654a",
+   "company": "Société Générale",
+   "title": "Cash Management Value Chain Analyst",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/cash-management-value-chain-analyst-179-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-25T23:21:55+00:00"
+  },
+  {
+   "id": "cd2bb291f077",
+   "company": "Accor",
+   "title": "Assistant Pricing Manager - Stage (F/H/X)",
+   "url": "https://jobs.smartrecruiters.com/accorcorpo/744000163732301",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-25T23:19:59+00:00"
+  },
+  {
+   "id": "a0d2c8fe1773",
+   "company": "Disneyland Paris",
+   "title": "Stage – Data Analyst Workforce Insight - Deploiement (F/H/NB)",
+   "url": "https://www.disneycareers.com/fr/emploi/marne-la-vallee/stage-data-analyst-workforce-insight-deploiement-f-h-nb/391/103780827408",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-25T23:19:20+00:00"
+  },
   {
    "id": "984726e1a4eb",
    "company": "ING",
