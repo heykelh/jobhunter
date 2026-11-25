@@ -1,6 +1,166 @@
 {
- "updated": "2026-11-25T00:09:50+00:00",
+ "updated": "2026-11-25T14:30:49+00:00",
  "items": [
+  {
+   "id": "984726e1a4eb",
+   "company": "ING",
+   "title": "Business Analyst - US Spark",
+   "url": "https://careers.ing.com/en/job/makati-city/business-analyst-us-spark/3121/39284176320",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-25T14:30:49+00:00"
+  },
+  {
+   "id": "e497700d3e2b",
+   "company": "SIX Group",
+   "title": "Business Analyst",
+   "url": "https://jobs.six-group.com/job/Warsaw-Business-Analyst/1460712333/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-25T14:29:57+00:00"
+  },
+  {
+   "id": "4a41c02fdb15",
+   "company": "SIX Group",
+   "title": "Senior Market Data Sales Manager (80-100%)",
+   "url": "https://jobs.six-group.com/job/Zurich-Senior-Market-Data-Sales-Manager-%2880-100%29/1458546933/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-25T14:29:57+00:00"
+  },
+  {
+   "id": "3b148e3196e8",
+   "company": "L'Oréal",
+   "title": "6-MONTH INTERNSHIP - Starting January 2027 – Data – Master's ½ - €1700/month",
+   "url": "https://careers.loreal.com/fr/emploi/paris/6-month-internship-starting-january-2027-data-master-s-1700-month/3456/43673770368",
+   "reason": "titre exclu (internship)",
+   "at": "2026-11-25T14:28:38+00:00"
+  },
+  {
+   "id": "56c5d19d1b8c",
+   "company": "Orange",
+   "title": "Data Analyst",
+   "url": "https://orange.jobs/fr/fr/job/ERC-569820-20136094/Data-Analyst",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-25T14:28:27+00:00"
+  },
+  {
+   "id": "f393844139b2",
+   "company": "Orange",
+   "title": "Stage Data Analyst – Estimation et prédiction de la Qualité d'Expérience Client F/H",
+   "url": "https://orange.jobs/fr/fr/job/CTS-2026-55405/Stage-Data-Analyst-Estimation-et-prédiction-de-la-Qualité-d'Expérience-Client-F-H",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-25T14:28:27+00:00"
+  },
+  {
+   "id": "42c71518e3e6",
+   "company": "TotalEnergies",
+   "title": "Ingénieur IA agentique - Débutant H/F",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Ing-nieur-IA-agentique-D-butant-H-F/86325",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-25T14:25:53+00:00"
+  },
+  {
+   "id": "19ad769ef55e",
+   "company": "EDF / Enedis",
+   "title": "Classification automatique des défauts HTB-HTA en utilisant l'IA F/H",
+   "url": "https://www.edf.fr/edf-recrute/offre/detail/2026-187590",
+   "reason": "contrat non précisé",
+   "at": "2026-11-25T14:25:24+00:00"
+  },
+  {
+   "id": "6396bf5390a7",
+   "company": "EDF / Enedis",
+   "title": "Data analyste – Ecarts du périmètre d'équilibre F/H",
+   "url": "https://www.edf.fr/edf-recrute/offre/detail/2026-187850",
+   "reason": "contrat non précisé",
+   "at": "2026-11-25T14:25:24+00:00"
+  },
+  {
+   "id": "632d854e5c8a",
+   "company": "BPCE",
+   "title": "Analyste engagements (F/H)",
+   "url": "https://recrutement.bpce.fr/job/analyste-engagements-f-h",
+   "reason": "lieu hors zones",
+   "at": "2026-11-25T14:20:55+00:00"
+  },
+  {
+   "id": "7149e3591edc",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Commodity Structured Finance Analyst F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-commodity-structured-finance-analyst-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-25T14:20:47+00:00"
+  },
+  {
+   "id": "b6a24719595f",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Data Analyst F/H - NIM",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-data-analyst-f-h-nim",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-25T14:20:47+00:00"
+  },
+  {
+   "id": "85b8be318ae8",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Analyste de l'impacte / ESG F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-analyste-de-limpacte-esg-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-25T14:20:47+00:00"
+  },
+  {
+   "id": "cda9bb2bcd2d",
+   "company": "Crédit Agricole",
+   "title": "STAGE - Analyste Coverage - Pôle Banquiers Conseil H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-3-stage---analyste-coverage---pole-banquiers-conseil-hf-reference--2026-116545--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-25T14:18:14+00:00"
+  },
+  {
+   "id": "f7d6af86a2b2",
+   "company": "Crédit Agricole",
+   "title": "Senior Credit Analyst (w/m/d)",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170466-4-senior-credit-analyst-wmd-reference--2026-117539--/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-25T14:18:11+00:00"
+  },
+  {
+   "id": "dfb9ae9acc30",
+   "company": "Accor",
+   "title": "Assistant Pricing Manager - Stage (F/H/X)",
+   "url": "https://jobs.smartrecruiters.com/accorcorpo/744000163679342",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-25T14:15:15+00:00"
+  },
+  {
+   "id": "0f48d5b4cedd",
+   "company": "Alstom",
+   "title": "Technicien Analyste Testing",
+   "url": "https://jobsearch.alstom.com/job/Fez-Technicien-Analyste-Testing/1460555833/",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-25T14:15:00+00:00"
+  },
+  {
+   "id": "ebac28024972",
+   "company": "Alstom",
+   "title": "VIE - Operations Analyst",
+   "url": "https://jobsearch.alstom.com/job/Toronto-VIE-Operations-Analyst-ON/1460573733/",
+   "reason": "titre exclu (VIE)",
+   "at": "2026-11-25T14:14:58+00:00"
+  },
+  {
+   "id": "fc662abf35ae",
+   "company": "Disneyland Paris",
+   "title": "Stage – Project Business Analyst (F/H/NB)",
+   "url": "https://www.disneycareers.com/fr/emploi/marne-la-vallee/stage-project-business-analyst-f-h-nb/391/102631057568",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-25T14:14:36+00:00"
+  },
+  {
+   "id": "aa1537cfeb5a",
+   "company": "SNCF",
+   "title": "Tech Lead IA DevOps - F/H",
+   "url": "https://emploi.sncf.com/nos-offres/896545",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-25T14:13:06+00:00"
+  },
   {
    "id": "9f6f139c289e",
    "company": "ING",
