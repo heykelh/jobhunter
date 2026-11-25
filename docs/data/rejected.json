@@ -1,6 +1,158 @@
 {
- "updated": "2026-11-24T17:12:15+00:00",
+ "updated": "2026-11-25T00:09:50+00:00",
  "items": [
+  {
+   "id": "9f6f139c289e",
+   "company": "ING",
+   "title": "Data scientist(AI Automation)-2",
+   "url": "https://careers.ing.com/en/job/brussels/data-scientist-ai-automation-2/3121/47202475264",
+   "reason": "lieu hors zones (Belgique)",
+   "at": "2026-11-25T00:09:50+00:00"
+  },
+  {
+   "id": "389bc9b3850a",
+   "company": "ING",
+   "title": "International Payments Pricing Model Data Analyst",
+   "url": "https://careers.ing.com/en/job/brussels/international-payments-pricing-model-data-analyst/3121/47202475328",
+   "reason": "lieu hors zones (Belgique)",
+   "at": "2026-11-25T00:09:49+00:00"
+  },
+  {
+   "id": "e04e0c9d46a2",
+   "company": "ING",
+   "title": "AI Engineer(intern)",
+   "url": "https://careers.ing.com/en/job/brussels/ai-engineer-intern/3121/47202475200",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-25T00:09:49+00:00"
+  },
+  {
+   "id": "67aef7784d48",
+   "company": "L'Oréal",
+   "title": "Tech Product Owner Data Insights",
+   "url": "https://careers.loreal.com/fr/emploi/clichy/tech-product-owner-data-insights/3456/47204594176",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « Experience managing international Tech products or projects, ideally in an R&I, data, or scientific environmen »",
+   "at": "2026-11-25T00:07:41+00:00"
+  },
+  {
+   "id": "19b3b7add6e1",
+   "company": "VINCI (dont ETF)",
+   "title": "Data Analyst - 2 stages de fin d'études en pré-embauche F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/nanterre/data-analyst-2-stages-de-fin-d-etudes-en-pre-embauche-f-h/1440/47202885120",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-25T00:05:23+00:00"
+  },
+  {
+   "id": "519edd7e9568",
+   "company": "TotalEnergies",
+   "title": "Senior Asset Management Analyst",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Senior-Asset-Management-Analyst/86429",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-25T00:04:59+00:00"
+  },
+  {
+   "id": "75cdcd78c24f",
+   "company": "EDF / Enedis",
+   "title": "Développement d'outils IA pour laboratoires d'essais électriques F/H",
+   "url": "https://www.edf.fr/edf-recrute/offre/detail/2026-186990",
+   "reason": "contrat non précisé",
+   "at": "2026-11-25T00:04:36+00:00"
+  },
+  {
+   "id": "77cc2ad5a4c4",
+   "company": "BPCE",
+   "title": "Business Analyst (F/H) - PRODUITS ET SERVICES ENTREPRISE MYSYS",
+   "url": "https://recrutement.bpce.fr/job/business-analyst-f-h-produits-et-services-entreprise-mysys-2",
+   "reason": "expérience demandée ≥ 3 ans « formation superieure bac +4/5, vous avez une experience significative dans le domaine bancaire »",
+   "at": "2026-11-24T23:59:22+00:00"
+  },
+  {
+   "id": "0a039bb77195",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Business Analyste Finance F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-business-analyste-finance-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-24T23:59:22+00:00"
+  },
+  {
+   "id": "07a5be8c8fb5",
+   "company": "Crédit Agricole",
+   "title": "IT production support analyst M/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170477-136-it-production-support-analyst-mf-reference--2026-114829--/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-24T23:56:45+00:00"
+  },
+  {
+   "id": "e73f8701cff4",
+   "company": "Crédit Agricole",
+   "title": "Information Security Analyst M/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170477-4-information-security-analyst-mf-reference--2026-115637--/",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-24T23:56:43+00:00"
+  },
+  {
+   "id": "66480440b787",
+   "company": "Crédit Agricole",
+   "title": "Coverage Analyst",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/1478-170466-4-coverage-analyst-reference--2026-116483--/",
+   "reason": "lieu hors zones",
+   "at": "2026-11-24T23:56:41+00:00"
+  },
+  {
+   "id": "72cc94b456c9",
+   "company": "Crédit Agricole",
+   "title": "Analyste Décarbonation H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170463-4-analyste-decarbonation-hf-reference--2026-116826--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-24T23:56:40+00:00"
+  },
+  {
+   "id": "6cba5260444d",
+   "company": "Société Générale",
+   "title": "Analyste du crédit corporatif",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-du-credit-corporatif-26000NY0-fr",
+   "reason": "lieu hors zones",
+   "at": "2026-11-24T23:55:44+00:00"
+  },
+  {
+   "id": "d95dc5fb72d3",
+   "company": "Société Générale",
+   "title": "Analyste principal du crédit corporatif",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-principal-du-credit-corporatif-26000NXZ-fr",
+   "reason": "titre exclu (principal)",
+   "at": "2026-11-24T23:55:44+00:00"
+  },
+  {
+   "id": "e22f006c1030",
+   "company": "Société Générale",
+   "title": "Analyste du support applicatif",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-du-support-applicatif-26000KF0-fr",
+   "reason": "lieu hors zones",
+   "at": "2026-11-24T23:55:42+00:00"
+  },
+  {
+   "id": "0b69d10b4edd",
+   "company": "Société Générale",
+   "title": "FinOps – Data ingestion, Data analysis & Dashboarding",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/finops-data-ingestion-data-analysis-dashboarding-26000N9V-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-24T23:55:41+00:00"
+  },
+  {
+   "id": "a4d764b929d8",
+   "company": "Société Générale",
+   "title": "Analyste Quantitatif Risque de crédit IRB Retail",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-quantitatif-risque-de-credit-irb-retail-26000LEQ-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-24T23:55:39+00:00"
+  },
+  {
+   "id": "e3f8f392f8e6",
+   "company": "Alstom",
+   "title": "Project Installation Engineering Analyst",
+   "url": "https://jobsearch.alstom.com/job/Toronto-Project-Installation-Engineering-Analyst-ON/1460434533/",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-24T23:53:36+00:00"
+  },
   {
    "id": "836c60474b4d",
    "company": "SIX Group",
