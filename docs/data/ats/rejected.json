@@ -1,6 +1,190 @@
 {
- "updated": "2026-11-25T01:10:31+00:00",
+ "updated": "2026-11-25T15:04:15+00:00",
  "items": [
+  {
+   "id": "a30badf3949c",
+   "company": "Everience",
+   "title": "Consultant AI Delivery & Adoption Coordinator (H/F)",
+   "url": "https://jobs.smartrecruiters.com/EVERIENCE/744000163653479",
+   "reason": "contrat non précisé",
+   "at": "2026-11-25T15:03:37+00:00"
+  },
+  {
+   "id": "d5c6deca20de",
+   "company": "NEXTON",
+   "title": "Product Owner IA H/F",
+   "url": "https://jobs.smartrecruiters.com/NEXTON/744000163635229",
+   "reason": "expérience demandée ≥ 5 ans « mises en production. qualifications au moins 5 ans d'experience en tant que »",
+   "at": "2026-11-25T15:03:31+00:00"
+  },
+  {
+   "id": "905a27659e11",
+   "company": "NEXTON",
+   "title": "Data Scientist H/F",
+   "url": "https://jobs.smartrecruiters.com/NEXTON/744000163636779",
+   "reason": "expérience demandée ≥ 4 ans « plateformes transverses (datalake) au moins 4 ans d'experience sur un post »",
+   "at": "2026-11-25T15:03:29+00:00"
+  },
+  {
+   "id": "5ca46b6544cc",
+   "company": "NEXTON",
+   "title": "Change Manager IA H/F",
+   "url": "https://jobs.smartrecruiters.com/NEXTON/744000163640058",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-25T15:03:28+00:00"
+  },
+  {
+   "id": "073871961ed8",
+   "company": "NEXTON",
+   "title": "Tech Lead Transformation IA - Agentic Engineering H/F",
+   "url": "https://jobs.smartrecruiters.com/NEXTON/744000163634490",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-25T15:03:28+00:00"
+  },
+  {
+   "id": "98874440c680",
+   "company": "Meritis",
+   "title": "Ingénieur Data Analyst H/F)",
+   "url": "https://jobs.smartrecruiters.com/Meritis/744000163623601",
+   "reason": "contrat non précisé",
+   "at": "2026-11-25T15:03:23+00:00"
+  },
+  {
+   "id": "7570ee19f228",
+   "company": "Meritis",
+   "title": "Business Analyst Front Office Confirmé (H/F)",
+   "url": "https://jobs.smartrecruiters.com/Meritis/744000163683718",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-25T15:03:22+00:00"
+  },
+  {
+   "id": "86e4c3374e76",
+   "company": "ALTEN",
+   "title": "Analyste électrique électronique (H/F)",
+   "url": "https://jobs.smartrecruiters.com/ALTEN/744000163629219",
+   "reason": "lieu hors zones",
+   "at": "2026-11-25T15:03:19+00:00"
+  },
+  {
+   "id": "e031800bd6ec",
+   "company": "ALTEN",
+   "title": "Ingénieur DevOps IA / Cloud GCP (H/F)",
+   "url": "https://jobs.smartrecruiters.com/ALTEN/744000163635348",
+   "reason": "contrat non précisé",
+   "at": "2026-11-25T15:03:17+00:00"
+  },
+  {
+   "id": "eb24df1dec76",
+   "company": "ALTEN",
+   "title": "Développeur Full Stack Senior Java 21 / Angular 20 & IA Générative (H/F)",
+   "url": "https://jobs.smartrecruiters.com/ALTEN/744000163633179",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-25T15:03:17+00:00"
+  },
+  {
+   "id": "55c94aeac74c",
+   "company": "ALTEN",
+   "title": "AI Data Scientist (H/F)",
+   "url": "https://jobs.smartrecruiters.com/ALTEN/744000163635469",
+   "reason": "contrat non précisé",
+   "at": "2026-11-25T15:03:16+00:00"
+  },
+  {
+   "id": "17427bfdacd3",
+   "company": "ALTEN",
+   "title": "Product Owner Data / IA (H/F)",
+   "url": "https://jobs.smartrecruiters.com/ALTEN/744000163638709",
+   "reason": "expérience demandée ≥ 5 ans « on des nouvelles fonctionnalites. experience 5 a 10 ans d'experience professionn »",
+   "at": "2026-11-25T15:03:14+00:00"
+  },
+  {
+   "id": "3c55884f815e",
+   "company": "ALTEN",
+   "title": "Business Analyst SAP (H/F)",
+   "url": "https://jobs.smartrecruiters.com/ALTEN/744000163684582",
+   "reason": "lieu hors zones",
+   "at": "2026-11-25T15:03:13+00:00"
+  },
+  {
+   "id": "6cc971852d6c",
+   "company": "ALTEN",
+   "title": "Expert Technique en Robotique, Vision, IA et Développement (H/F)",
+   "url": "https://jobs.smartrecruiters.com/ALTEN/744000163699725",
+   "reason": "titre exclu (expert)",
+   "at": "2026-11-25T15:03:12+00:00"
+  },
+  {
+   "id": "b578b06efeff",
+   "company": "Magellan Partners",
+   "title": "PMO Gouvernance Data [Luxe-Retail] (H/F)",
+   "url": "https://jobs.smartrecruiters.com/Magellan/744000163639549",
+   "reason": "contrat non précisé",
+   "at": "2026-11-25T15:03:05+00:00"
+  },
+  {
+   "id": "7b669be71c54",
+   "company": "Magellan Partners",
+   "title": "Business Analyst Data Product [Luxe-Retail] (H/F)",
+   "url": "https://jobs.smartrecruiters.com/Magellan/744000163639396",
+   "reason": "contrat non précisé",
+   "at": "2026-11-25T15:03:04+00:00"
+  },
+  {
+   "id": "bc7b00382584",
+   "company": "Magellan Partners",
+   "title": "Senior Manager Transformation IA [Luxe-Retail] (H/F)",
+   "url": "https://jobs.smartrecruiters.com/Magellan/744000163640569",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-25T15:03:04+00:00"
+  },
+  {
+   "id": "93a17e672a13",
+   "company": "Magellan Partners",
+   "title": "Senior Manager Transformation Data [Luxe-Retail] (H/F)",
+   "url": "https://jobs.smartrecruiters.com/Magellan/744000163639194",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-25T15:03:04+00:00"
+  },
+  {
+   "id": "bd9ecd01ad19",
+   "company": "Magellan Partners",
+   "title": "Manager BI / Data Analytics [Luxe-Retail] (H/F)",
+   "url": "https://jobs.smartrecruiters.com/Magellan/744000163643819",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-25T15:03:02+00:00"
+  },
+  {
+   "id": "c39d3b86ef2b",
+   "company": "Sia Partners",
+   "title": "Senior Data Engineer Consultant",
+   "url": "https://jobs.smartrecruiters.com/Sia/744000163700680",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-25T15:02:58+00:00"
+  },
+  {
+   "id": "8cc375327d41",
+   "company": "Wavestone",
+   "title": "Accompagner les Tech Leaders à l'ère de l'IA - Stage de fin d'études",
+   "url": "https://jobs.smartrecruiters.com/Wavestone1/744000163645924",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-25T15:02:37+00:00"
+  },
+  {
+   "id": "b2378e2c1a5c",
+   "company": "Talan",
+   "title": "Business Analyst l Luxembourg",
+   "url": "https://jobs.smartrecruiters.com/Talan/744000163618149",
+   "reason": "contrat non précisé",
+   "at": "2026-11-25T15:02:30+00:00"
+  },
+  {
+   "id": "f67c616e73c1",
+   "company": "Talan",
+   "title": "Stage Data Engineer F/H",
+   "url": "https://jobs.smartrecruiters.com/Talan/744000163697470",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-25T15:02:28+00:00"
+  },
   {
    "id": "402001f96680",
    "company": "NEXTON",

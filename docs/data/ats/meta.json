@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T01:10:31+00:00",
+ "updated": "2026-11-25T15:04:15+00:00",
  "keywords": [
   "data",
   "analyst",
@@ -67,11 +67,11 @@
   "Saxo Bank"
  ],
  "ai": {
-  "ok": 1,
+  "ok": 6,
   "errors": 0,
   "last_error": "",
-  "model": "openai/gpt-oss-20b",
+  "model": "openai/gpt-oss-120b",
   "waits": 1,
-  "at": "2026-11-23T19:42:43+00:00"
+  "at": "2026-11-25T15:04:15+00:00"
  }
 }
