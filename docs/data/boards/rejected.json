@@ -1,6 +1,126 @@
 {
- "updated": "2026-11-26T15:24:15+00:00",
+ "updated": "2026-11-26T23:57:14+00:00",
  "items": [
+  {
+   "id": "8070da5e102f",
+   "company": "jobup.ch",
+   "title": "Business Developer (m/w/d) / Product Management Business Analyst (m/w/d) – International Leadership Program MOVE",
+   "url": "https://www.jobup.ch/fr/emplois/detail/c5f995fa-3b93-476a-84e0-f63e665021d9/",
+   "reason": "annonce en allemand (titre)",
+   "at": "2026-11-26T23:56:51+00:00"
+  },
+  {
+   "id": "7f19fb41da33",
+   "company": "jobup.ch",
+   "title": "Business Analyst (100%)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/b78043ce-dbb5-40c7-ba97-4cd63e3640e7/",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « Expérience en modélisation statistique et gestion de données. »",
+   "at": "2026-11-26T23:56:50+00:00"
+  },
+  {
+   "id": "01e889724b65",
+   "company": "jobs.ch",
+   "title": "Business Analyst (100%)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/1d28d44e-1d02-48c1-8a87-89f864e0c4bf/",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « Expertise analytique : Expérience en modélisation statistique et gestion de données. »",
+   "at": "2026-11-26T23:56:26+00:00"
+  },
+  {
+   "id": "588fbe9935be",
+   "company": "jobs.ch",
+   "title": "Senior Strategy Analyst (w/m/d) 80-100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/25275f81-4e38-4836-b1c3-5156988e77ba/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-26T23:56:26+00:00"
+  },
+  {
+   "id": "4fc3d0339fc0",
+   "company": "HelloWork",
+   "title": "Expert Data et IA H/F Siemens France",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85913134.html",
+   "reason": "titre exclu (expert)",
+   "at": "2026-11-26T23:55:45+00:00"
+  },
+  {
+   "id": "e7d5289b9037",
+   "company": "HelloWork",
+   "title": "Analyste Crédit H/F Actual group",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85921644.html",
+   "reason": "expérience demandée ≥ 5 ans « anque ou finance), vous justifiez d'au moins 5 ans d'experience en analyse »",
+   "at": "2026-11-26T23:55:36+00:00"
+  },
+  {
+   "id": "a816446db762",
+   "company": "HelloWork",
+   "title": "Analyste de Tests & Validation SAP S - 4Hana Sd - Mm H/F Metaline",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85914136.html",
+   "reason": "expérience demandée ≥ 4 ans « ais professionnel. experience et formation - 4 a 10 ans d'experience en tests et »",
+   "at": "2026-11-26T23:55:34+00:00"
+  },
+  {
+   "id": "a62a1f3a490a",
+   "company": "HelloWork",
+   "title": "Analyste Revenus Fournisseurs H/F Intersport",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85921094.html",
+   "reason": "expérience demandée ≥ 5 ans « , vous justifiez d'une experience d'au moins 5 ans dans un environnement ne »",
+   "at": "2026-11-26T23:55:33+00:00"
+  },
+  {
+   "id": "b9acae2e3f97",
+   "company": "HelloWork",
+   "title": "Analyste Voc H/F Bouygues Telecom",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85912735.html",
+   "reason": "expérience demandée ≥ 5 ans « ur specialise en cybersecurite avec au moins 5 ans d'experience en securite »",
+   "at": "2026-11-26T23:55:31+00:00"
+  },
+  {
+   "id": "321bd95a1a5c",
+   "company": "HelloWork",
+   "title": "Business Analyst Salesforce H/F Accenture France",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85923678.html",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « Vous avez une expérience préalable en tant que Business Analyst Senior ou Consultant ou Lead Fonctionnel »",
+   "at": "2026-11-26T23:55:29+00:00"
+  },
+  {
+   "id": "0a199bba8b0d",
+   "company": "HelloWork",
+   "title": "Business Analyst Servicenow H/F Inetum",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85913143.html",
+   "reason": "expérience demandée ≥ 3 ans « , systemes d'information ou gestion de projetexperience confirmee en tant que business ana »",
+   "at": "2026-11-26T23:55:27+00:00"
+  },
+  {
+   "id": "70b7d4051dda",
+   "company": "HelloWork",
+   "title": "Analyst Crédit en CDI H/F Talents Banque & Assurance",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85917325.html",
+   "reason": "expérience demandée ≥ 5 ans « emiere experience professionnelle d'au moins 5 ans en analyse credit. ce po »",
+   "at": "2026-11-26T23:55:24+00:00"
+  },
+  {
+   "id": "c5f0e390d2e9",
+   "company": "HelloWork",
+   "title": "Security Monitoring Analyst H/F AXA Group Operations",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85925948.html",
+   "reason": "expérience demandée ≥ 3 ans « atory overall work experience in the field - 3-5 years of experience in a secur »",
+   "at": "2026-11-26T23:55:22+00:00"
+  },
+  {
+   "id": "0d355270d2e1",
+   "company": "HelloWork",
+   "title": "Product Owner Data Bi H/F StarClay",
+   "url": "https://www.hellowork.com/fr-fr/emplois/84863892.html",
+   "reason": "expérience demandée ≥ 5 ans « ata ou equivalent, vous justifiez d'au moins 5 ans d'experience dans la ges »",
+   "at": "2026-11-26T23:55:21+00:00"
+  },
+  {
+   "id": "70a0d5d190d8",
+   "company": "HelloWork",
+   "title": "Ingénieur Devsecops Big Data H/F ALTEN",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85916151.html",
+   "reason": "expérience demandée ≥ 3 ans « s, ou un domaine connexe.experience :minimum 3 ans d'experience professionn »",
+   "at": "2026-11-26T23:55:18+00:00"
+  },
   {
    "id": "c8d98914f77e",
    "company": "jobs.ch",
