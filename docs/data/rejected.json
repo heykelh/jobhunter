@@ -1,6 +1,86 @@
 {
- "updated": "2026-11-26T11:54:59+00:00",
+ "updated": "2026-11-26T14:06:08+00:00",
  "items": [
+  {
+   "id": "13681e1f5de5",
+   "company": "ING",
+   "title": "Data Analyst",
+   "url": "https://careers.ing.com/en/job/makati-city/data-analyst/3121/47255013120",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-26T14:06:08+00:00"
+  },
+  {
+   "id": "fdca6ff3619d",
+   "company": "ING",
+   "title": "Senior Data & MLOps Engineer",
+   "url": "https://careers.ing.com/en/job/madrid/senior-data-and-mlops-engineer/3121/47255012928",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-26T14:06:08+00:00"
+  },
+  {
+   "id": "59f6006903c1",
+   "company": "ING",
+   "title": "Chapter Lead – Agentic AI Engineering",
+   "url": "https://careers.ing.com/en/job/istanbul/chapter-lead-agentic-ai-engineering/3121/47255012608",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-26T14:06:08+00:00"
+  },
+  {
+   "id": "68de1d910b6b",
+   "company": "UBS",
+   "title": "Trade Surveillance Operations Analyst",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=348961",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-26T14:05:06+00:00"
+  },
+  {
+   "id": "768905a66d51",
+   "company": "Orange",
+   "title": "Business Analyst",
+   "url": "https://orange.jobs/fr/fr/job/ERC-604202-20136094/Business-Analyst",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-26T14:03:48+00:00"
+  },
+  {
+   "id": "d573acbe71e0",
+   "company": "BPCE",
+   "title": "Data Engineer F/H",
+   "url": "https://recrutement.bpce.fr/job/data-engineer-f-h-2",
+   "reason": "expérience demandée ≥ 5 ans « perieure en informatique, vous avez au moins 5 ans d'experience reussie en »",
+   "at": "2026-11-26T13:56:45+00:00"
+  },
+  {
+   "id": "d6d40398c368",
+   "company": "BPCE",
+   "title": "Data Engineer F/H",
+   "url": "https://recrutement.bpce.fr/job/data-engineer-f-h-3",
+   "reason": "expérience demandée ≥ 5 ans « perieure en informatique, vous avez au moins 5 ans d'experience reussie en »",
+   "at": "2026-11-26T13:56:36+00:00"
+  },
+  {
+   "id": "76bf0036f9b1",
+   "company": "Crédit Agricole",
+   "title": "Stage Data Scientist – Score d'appétence commerciale et outils d'assistant à la vente H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-270-stage-data-scientist--score-d-appetence-commerciale-et-outils-d-assistant-a-la-vente-hf-reference--2026-117825--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-26T13:53:53+00:00"
+  },
+  {
+   "id": "47a8037b4790",
+   "company": "Crédit Agricole",
+   "title": "Stage Data Analyst – Ciblages Marketing H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-270-stage-data-analyst--ciblages-marketing-hf-reference--2026-117824--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-26T13:53:53+00:00"
+  },
+  {
+   "id": "ab4924e4d6d4",
+   "company": "Groupe ADP",
+   "title": "Stage – Data Scientist - F/H",
+   "url": "https://groupeadp-recrute.talent-soft.com/offre-de-emploi/emploi-stage-data-scientist-f-h_4987.aspx",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-26T13:50:34+00:00"
+  },
   {
    "id": "ceaa1d678dd5",
    "company": "UBS",
