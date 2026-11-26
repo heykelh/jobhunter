@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T00:44:57+00:00",
+ "updated": "2026-11-26T14:34:11+00:00",
  "keywords": [
   "data",
   "analyst",
@@ -70,8 +70,8 @@
   "ok": 6,
   "errors": 0,
   "last_error": "",
-  "model": "openai/gpt-oss-120b",
+  "model": "openai/gpt-oss-20b",
   "waits": 1,
-  "at": "2026-11-25T15:04:15+00:00"
+  "at": "2026-11-26T14:34:11+00:00"
  }
 }
