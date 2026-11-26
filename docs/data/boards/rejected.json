@@ -1,6 +1,230 @@
 {
- "updated": "2026-11-26T01:03:05+00:00",
+ "updated": "2026-11-26T11:41:10+00:00",
  "items": [
+  {
+   "id": "17e81beef4d4",
+   "company": "jobup.ch",
+   "title": "AI Operations Specialist (80-100%)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/a7c79673-f818-4d3e-be70-e7689432f533/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-26T11:40:48+00:00"
+  },
+  {
+   "id": "8bcb01274215",
+   "company": "jobup.ch",
+   "title": "Senior AI Architect — AI Factory (f/m/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/6c9e9dd8-c11a-4e23-ab62-f7da7e44b2c0/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-26T11:40:48+00:00"
+  },
+  {
+   "id": "f03fb9b9e3a1",
+   "company": "jobup.ch",
+   "title": "Data Engineer (AI Projects)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/91565e11-8daf-4763-9baf-c0ea4d2a2a54/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-26T11:40:47+00:00"
+  },
+  {
+   "id": "2d87077a81c7",
+   "company": "jobup.ch",
+   "title": "Pricing-Specialist / Speditionsfachmann 80 - 100% (m/w/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/e0e64ab9-838a-415e-b79d-0a7575165791/",
+   "reason": "expérience demandée ≥ 3 ans « ise de transit etablie et dynamique avec une longue experience sur le marche. l'entrepr »",
+   "at": "2026-11-26T11:40:45+00:00"
+  },
+  {
+   "id": "287f3d199896",
+   "company": "jobup.ch",
+   "title": "Product Designer - Digital Platforms (Real Estate, CRM & AI) (f/m/d) | 80–100% | Hybrid Working Model | Zürich, Switzerland",
+   "url": "https://www.jobup.ch/fr/emplois/detail/dc6a5ed9-df0b-4175-b63e-9a54647e3aea/",
+   "reason": "expérience demandée ≥ 6 ans « et l'efficacite de l'equipe. qualifications plus de 5 ans d'experience en tant que »",
+   "at": "2026-11-26T11:40:43+00:00"
+  },
+  {
+   "id": "5777249925c8",
+   "company": "jobup.ch",
+   "title": "Analyste développeur(-euse)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/98afc625-a016-46ec-a248-802fa6f70a61/",
+   "reason": "expérience demandée ≥ 5 ans « onnaissance de l'environnement .net c#, avec 5 annees d'experience professionn »",
+   "at": "2026-11-26T11:40:42+00:00"
+  },
+  {
+   "id": "f2c508e09e50",
+   "company": "jobup.ch",
+   "title": "Data Engineer 80 - 100 %",
+   "url": "https://www.jobup.ch/fr/emplois/detail/82f35bc3-cf81-486e-8392-274406b6b2dd/",
+   "reason": "expérience demandée ≥ 5 ans « es solutions innovantes. competences minimum 5 ans d'experience en data eng »",
+   "at": "2026-11-26T11:40:39+00:00"
+  },
+  {
+   "id": "7575ca6bb60a",
+   "company": "jobup.ch",
+   "title": "(Senior) Data & Analytics Spezialist/in 40-50 %",
+   "url": "https://www.jobup.ch/fr/emplois/detail/40e91208-5559-4094-8415-4ac22a9dbb8b/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-26T11:40:39+00:00"
+  },
+  {
+   "id": "d52ce44afe7a",
+   "company": "jobup.ch",
+   "title": "Professional Data Engineer",
+   "url": "https://www.jobup.ch/fr/emplois/detail/bf4e15ae-48b4-4148-ac8d-b9a279d2b4c8/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-26T11:40:37+00:00"
+  },
+  {
+   "id": "2bd728b788d5",
+   "company": "jobup.ch",
+   "title": "Business Data Analyst",
+   "url": "https://www.jobup.ch/fr/emplois/detail/fe71bb0a-aee5-42ab-8c4f-a4cb29904664/",
+   "reason": "expérience demandée ≥ 5 ans « resolution de problemes. competences minimum 5 ans d'experience en data eng »",
+   "at": "2026-11-26T11:40:36+00:00"
+  },
+  {
+   "id": "2d68e33705a9",
+   "company": "jobs.ch",
+   "title": "Application Analyst Epic Orders",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/32340a84-1768-4b4a-adce-7b2c4d3c4337/",
+   "reason": "allemand exigé « kommunizierst sicher in deutsch und englisch unser angebot abwec »",
+   "at": "2026-11-26T11:40:10+00:00"
+  },
+  {
+   "id": "a9b7e5f54840",
+   "company": "jobs.ch",
+   "title": "Global Pricing Lead, Global Pricing & Innovative Contracting",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/b6fc57ea-6d21-4992-a391-778a3d9a808d/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-26T11:40:10+00:00"
+  },
+  {
+   "id": "bf56a439c5cf",
+   "company": "jobs.ch",
+   "title": "Analyste développeur(-euse)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/98afc625-a016-46ec-a248-802fa6f70a61/",
+   "reason": "expérience demandée ≥ 5 ans « onnaissance de l'environnement .net c#, avec 5 annees d'experience professionn »",
+   "at": "2026-11-26T11:40:09+00:00"
+  },
+  {
+   "id": "ee695717ccf7",
+   "company": "jobs.ch",
+   "title": "Business Analyst Schadenmanagement 80 - 100 %",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/86c4c455-d8d4-4896-972b-83526531c493/",
+   "reason": "allemand exigé « s et conceptuelles, vous maitrisez parfaitement l'allemand. le francais est un »",
+   "at": "2026-11-26T11:40:07+00:00"
+  },
+  {
+   "id": "fb5d6d19f64d",
+   "company": "jobs.ch",
+   "title": "Senior Business Analyst Digital Banking Security (a) (80-100%)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/4c74c75c-9283-4909-9cf6-7e9d8a98d642/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-26T11:40:07+00:00"
+  },
+  {
+   "id": "a7b5288e722d",
+   "company": "jobs.ch",
+   "title": "Business Analyst & Consultant im ERP-Umfeld (80–100 %)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/2c087768-bd2a-4dc7-a1d0-24226c3e6951/",
+   "reason": "expérience non précisée (ni sur la fiche, ni par l'IA)",
+   "at": "2026-11-26T11:40:06+00:00"
+  },
+  {
+   "id": "ec5de6615521",
+   "company": "jobs.ch",
+   "title": "Data Product Engineer (m/w/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/a4465c59-da95-45d7-b5d3-5c20d94319aa/",
+   "reason": "annonce en allemand (titre)",
+   "at": "2026-11-26T11:40:04+00:00"
+  },
+  {
+   "id": "6dbe676f3677",
+   "company": "jobs.ch",
+   "title": "Senior Data Engineer (alle)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/f1002b9d-9e72-4760-8eb3-9c694e51c97b/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-26T11:40:04+00:00"
+  },
+  {
+   "id": "21b786072f35",
+   "company": "jobs.ch",
+   "title": "Head of Platform & Data (m/w/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/d2906638-a6d5-4d05-b16e-7650d408e7aa/",
+   "reason": "titre exclu (head)",
+   "at": "2026-11-26T11:40:04+00:00"
+  },
+  {
+   "id": "0a738a70c71a",
+   "company": "jobs.ch",
+   "title": "Master Data Lead | 80-100% | Schlieren",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/f39b106d-dca9-458f-bdf5-7bcfaebedb11/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-26T11:40:02+00:00"
+  },
+  {
+   "id": "ca3e484d146d",
+   "company": "jobs.ch",
+   "title": "(Senior) Data & Analytics Spezialist/in 40-50 %",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/c6a7a477-a89f-4ea0-8171-6fd95a31c62e/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-26T11:40:02+00:00"
+  },
+  {
+   "id": "ec7c24be445f",
+   "company": "HelloWork",
+   "title": "Analyste d'Exploitation Mainframe H/F DCS Easyware",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85902649.html",
+   "reason": "expérience demandée ≥ 3 ans « nts. le profil recherche vous disposez d'une experience confirmee en exploitation mainfram »",
+   "at": "2026-11-26T11:39:12+00:00"
+  },
+  {
+   "id": "dd33343203e0",
+   "company": "HelloWork",
+   "title": "Senior ai Engineer - Tech Lead IA H/F Alfene",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85899495.html",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-26T11:39:12+00:00"
+  },
+  {
+   "id": "2d3839d34cb5",
+   "company": "HelloWork",
+   "title": "Data Analyst H/F Viamedis",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85797110.html",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « Niveau Bac +5 (master) : Master Universitaire (en statistiques, mathématiques, data (analyst / science) gestio »",
+   "at": "2026-11-26T11:38:51+00:00"
+  },
+  {
+   "id": "5e687cbd085a",
+   "company": "HelloWork",
+   "title": "Data Engineer Spark - Scala - Plateforme Big Data H/F Externatic",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85894159.html",
+   "reason": "expérience demandée ≥ 15 ans « ence\": 12} les missions du poste cree il y a 15 ans, externatic est l'un des »",
+   "at": "2026-11-26T11:38:42+00:00"
+  },
+  {
+   "id": "1d9a5149d40d",
+   "company": "HelloWork",
+   "title": "IA Data Product Owner H/F Devoteam France",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85901502.html",
+   "reason": "expérience demandée ≥ 5 ans « e profil recherche vous justifiez d'au moins 5 ans d'experience en tant que »",
+   "at": "2026-11-26T11:38:40+00:00"
+  },
+  {
+   "id": "593b08d9b366",
+   "company": "HelloWork",
+   "title": "Tech Lead Data - Data Architect H/F Externatic",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85896230.html",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-26T11:38:37+00:00"
+  },
+  {
+   "id": "54dca28afc3a",
+   "company": "HelloWork",
+   "title": "Architecte Logiciel Data H/F PB Solutions",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85905167.html",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-26T11:38:37+00:00"
+  },
   {
    "id": "0541d80d8194",
    "company": "jobup.ch",
