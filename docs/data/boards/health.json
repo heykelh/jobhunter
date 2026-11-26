@@ -1,69 +1,69 @@
 {
- "updated": "2026-11-26T11:41:10+00:00",
+ "updated": "2026-11-26T15:24:15+00:00",
  "companies": {
   "APEC": {
-   "checked_at": "2026-11-26T11:38:14+00:00",
+   "checked_at": "2026-11-26T15:22:03+00:00",
    "status": "désactivée",
    "failures": 0,
    "warnings": [],
    "error": "désactivée dans la configuration"
   },
   "HelloWork": {
-   "checked_at": "2026-11-26T11:38:14+00:00",
+   "checked_at": "2026-11-26T15:22:03+00:00",
    "error": "",
    "warnings": [],
    "links_found": 414,
-   "keyword_matches": 355,
-   "kept_this_run": 0,
+   "keyword_matches": 353,
+   "kept_this_run": 2,
    "status": "ok",
-   "last_ok": "2026-11-26T11:39:25+00:00",
+   "last_ok": "2026-11-26T15:22:51+00:00",
    "failures": 0
   },
   "jobs.ch": {
-   "checked_at": "2026-11-26T11:39:39+00:00",
+   "checked_at": "2026-11-26T15:23:04+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 273,
+   "links_found": 272,
    "keyword_matches": 128,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-26T11:40:10+00:00",
+   "last_ok": "2026-11-26T15:23:29+00:00",
    "failures": 0
   },
   "jobup.ch": {
-   "checked_at": "2026-11-26T11:40:10+00:00",
+   "checked_at": "2026-11-26T15:23:29+00:00",
    "error": "",
    "warnings": [],
    "links_found": 248,
-   "keyword_matches": 98,
-   "kept_this_run": 1,
+   "keyword_matches": 99,
+   "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-26T11:40:48+00:00",
+   "last_ok": "2026-11-26T15:23:54+00:00",
    "failures": 0
   },
   "Moovijob (Luxembourg)": {
-   "checked_at": "2026-11-26T11:40:48+00:00",
+   "checked_at": "2026-11-26T15:23:54+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "vide",
-   "failures": 36
+   "failures": 37
   },
   "HelloWork (Transavia, RATP, ADP)": {
-   "checked_at": "2026-11-26T11:39:25+00:00",
+   "checked_at": "2026-11-26T15:22:51+00:00",
    "error": "",
    "warnings": [],
    "links_found": 202,
-   "keyword_matches": 6,
+   "keyword_matches": 7,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-26T11:39:39+00:00",
+   "last_ok": "2026-11-26T15:23:04+00:00",
    "failures": 0
   },
   "France Travail": {
-   "checked_at": "2026-11-26T11:38:14+00:00",
+   "checked_at": "2026-11-26T15:22:03+00:00",
    "status": "désactivée",
    "failures": 0,
    "warnings": [],
