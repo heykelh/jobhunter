@@ -1,6 +1,142 @@
 {
- "updated": "2026-11-26T14:06:08+00:00",
+ "updated": "2026-11-26T23:15:40+00:00",
  "items": [
+  {
+   "id": "8e4b8a1d7424",
+   "company": "ING",
+   "title": "Compliance Data Methodology",
+   "url": "https://careers.ing.com/en/job/warsaw/compliance-data-methodology/3121/47255012864",
+   "reason": "lieu hors zones",
+   "at": "2026-11-26T23:15:39+00:00"
+  },
+  {
+   "id": "df87873fd81b",
+   "company": "ING",
+   "title": "Data scientist Payment Problems",
+   "url": "https://careers.ing.com/en/job/amsterdam/data-scientist-payment-problems/3121/47255012992",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-26T23:15:37+00:00"
+  },
+  {
+   "id": "b1548d64f082",
+   "company": "TotalEnergies",
+   "title": "Ingénieur Data Solaire et IA débutant H/F",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Ing-nieur-Data-Solaire-et-IA-d-butant-H-F/85164",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-26T23:11:18+00:00"
+  },
+  {
+   "id": "bd2293daafda",
+   "company": "TotalEnergies",
+   "title": "VIE – Analyste Back-Office Enterprise (H/F) – Belgique",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/VIE-Analyste-Back-Office-Enterprise-H-F-Belgique/86666",
+   "reason": "titre exclu (VIE)",
+   "at": "2026-11-26T23:11:17+00:00"
+  },
+  {
+   "id": "8763ed845d24",
+   "company": "AXA",
+   "title": "Security Monitoring Analyst",
+   "url": "https://careers.axa.com/jobs/31261",
+   "reason": "expérience non précisée (ni sur la fiche, ni par l'IA)",
+   "at": "2026-11-26T23:07:18+00:00"
+  },
+  {
+   "id": "98148ad8b999",
+   "company": "AXA",
+   "title": "Ingénieur IA (F/H) - stage",
+   "url": "https://careers.axa.com/jobs/37351",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-26T23:07:18+00:00"
+  },
+  {
+   "id": "79e4d333c654",
+   "company": "BPCE",
+   "title": "Data Analyst Facturation - F/H",
+   "url": "https://recrutement.bpce.fr/job/data-analyst-facturation-f-h",
+   "reason": "expérience demandée ≥ 3 ans « rie, statistiques ou dans un domaine connexe experience significative en analyse de donnees, i »",
+   "at": "2026-11-26T23:06:07+00:00"
+  },
+  {
+   "id": "36237b36b20a",
+   "company": "BPCE",
+   "title": "Business Analyst SI Finance (F/H)",
+   "url": "https://recrutement.bpce.fr/job/business-analyst-si-finance-f-h",
+   "reason": "expérience demandée ≥ 3 ans « gestion, comptabilite) • vous disposez d'une experience averee en tant que business ana »",
+   "at": "2026-11-26T23:05:49+00:00"
+  },
+  {
+   "id": "15cf0725922a",
+   "company": "Crédit Agricole",
+   "title": "DATA ENGINEER H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170477-122-data-engineer-hf-reference--2026-117732--/",
+   "reason": "expérience demandée ≥ 3 ans « site ensimag insa utc compiegne. epita efrei niveau d'experience minimum 3 - 5 ans competences recherchees ing »",
+   "at": "2026-11-26T23:03:05+00:00"
+  },
+  {
+   "id": "56f769d90a1e",
+   "company": "Crédit Agricole",
+   "title": "AI ENGINEER H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170477-122-ai-engineer-hf-reference--2026-117755--/",
+   "reason": "expérience demandée ≥ 3 ans « ration etroite avec les equipes it et devops niveau d'experience minimum 3 - 5 ans competences recherchees llm »",
+   "at": "2026-11-26T23:03:04+00:00"
+  },
+  {
+   "id": "f3251b6697a6",
+   "company": "Crédit Agricole",
+   "title": "CHEF de PROJET DATA / IA H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170477-122-chef-de-projet-data--ia-hf-reference--2026-117745--/",
+   "reason": "expérience demandée ≥ 6 ans « ojets multi-acteurs et gouvernance associee. niveau d'experience minimum 6 - 10 ans competences recherchees me »",
+   "at": "2026-11-26T23:03:02+00:00"
+  },
+  {
+   "id": "0a72c3bf8a14",
+   "company": "Crédit Agricole",
+   "title": "Analyste - Intelligence Artificielle H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste---intelligence-artificielle-hf-reference--2026-111833--/",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-26T23:03:01+00:00"
+  },
+  {
+   "id": "ae29c3b8b5fe",
+   "company": "Crédit Agricole",
+   "title": "ARCHITECTE IA - IA GEN H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170477-122-architecte-ia---ia-gen-hf-reference--2026-117694--/",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-26T23:03:01+00:00"
+  },
+  {
+   "id": "fef62d4e4aac",
+   "company": "Crédit Agricole",
+   "title": "ARCHITECTE DATA H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170477-122-architecte-data-hf-reference--2026-117670--/",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-26T23:03:01+00:00"
+  },
+  {
+   "id": "fbc3c2ca8a76",
+   "company": "Société Générale",
+   "title": "Analyste financement ESG, institution financière et secteur public",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-financement-esg-institution-financiere-et-secteur-public-26000MPV-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-26T23:02:08+00:00"
+  },
+  {
+   "id": "c84969d47cb4",
+   "company": "Société Générale",
+   "title": "Analyste Reporting Reglementaire & Fiscalite Operationnelle - H/F",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-reporting-reglementaire-fiscalite-operationnelle-h-f-26000N86-fr",
+   "reason": "expérience non précisée (ni sur la fiche, ni par l'IA)",
+   "at": "2026-11-26T23:02:07+00:00"
+  },
+  {
+   "id": "435562bb8cfd",
+   "company": "Alstom",
+   "title": "Methods Analyst 1",
+   "url": "https://jobsearch.alstom.com/job/Thunder-Bay-Methods-Analyst-1-ON/1461153633/",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-26T22:59:21+00:00"
+  },
   {
    "id": "13681e1f5de5",
    "company": "ING",

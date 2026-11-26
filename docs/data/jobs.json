@@ -1,6 +1,25 @@
 {
- "updated": "2026-11-26T14:06:08+00:00",
+ "updated": "2026-11-26T23:15:40+00:00",
  "jobs": [
+  {
+   "id": "dd24184b2ff6",
+   "company": "BPCE",
+   "title": "Investment Analyst (F/M) - Mirova Kenya",
+   "url": "https://recrutement.bpce.fr/job/investment-analyst-f-m-mirova-kenya",
+   "via": null,
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "2 ans min. · junior",
+   "junior": true,
+   "published": "2026-11-26",
+   "seed": false,
+   "rv": 7,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-26T23:05:58+00:00",
+   "last_seen": "2026-11-26T23:05:58+00:00"
+  },
   {
    "id": "90de972876a6",
    "company": "Société Générale",
@@ -34,7 +53,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-26T11:42:13+00:00",
-   "last_seen": "2026-11-26T13:53:02+00:00"
+   "last_seen": "2026-11-26T23:02:08+00:00"
   },
   {
    "id": "1b8bb10dfb87",
@@ -65,7 +84,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-25T23:25:31+00:00",
-   "last_seen": "2026-11-26T13:56:45+00:00"
+   "last_seen": "2026-11-26T23:06:07+00:00"
   },
   {
    "id": "828791575f90",
@@ -119,7 +138,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-23T14:44:21+00:00",
-   "last_seen": "2026-11-26T14:02:09+00:00"
+   "last_seen": "2026-11-26T23:11:41+00:00"
   },
   {
    "id": "f6657b237620",
@@ -214,7 +233,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-20T13:03:59+00:00",
-   "last_seen": "2026-11-26T14:01:46+00:00"
+   "last_seen": "2026-11-26T23:11:18+00:00"
   },
   {
    "id": "48d982185dc9",
@@ -249,7 +268,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-19T19:02:50+00:00",
-   "last_seen": "2026-11-26T13:56:45+00:00"
+   "last_seen": "2026-11-26T23:06:07+00:00"
   },
   {
    "id": "4ba618558c99",
@@ -398,7 +417,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-09T21:36:35+00:00",
-   "last_seen": "2026-11-26T13:56:45+00:00"
+   "last_seen": "2026-11-26T23:06:07+00:00"
   },
   {
    "id": "78f165b6b23d",
@@ -777,7 +796,7 @@
    "rv": 7,
    "match": null,
    "first_seen": "2026-10-28T10:34:45+00:00",
-   "last_seen": "2026-11-26T13:56:45+00:00"
+   "last_seen": "2026-11-26T23:06:07+00:00"
   },
   {
    "id": "76bc150e9b01",
@@ -806,7 +825,7 @@
     "missing": []
    },
    "first_seen": "2026-10-28T10:34:36+00:00",
-   "last_seen": "2026-11-26T13:56:45+00:00"
+   "last_seen": "2026-11-26T23:06:07+00:00"
   },
   {
    "id": "4e80bd2f5d16",
@@ -1123,7 +1142,7 @@
    "published": "2026-10-08",
    "seed": false,
    "first_seen": "2026-10-20T13:58:07+00:00",
-   "last_seen": "2026-11-26T13:56:45+00:00",
+   "last_seen": "2026-11-26T23:06:07+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 7,
@@ -1152,7 +1171,7 @@
    "published": "2026-10-14",
    "seed": false,
    "first_seen": "2026-10-20T13:57:31+00:00",
-   "last_seen": "2026-11-26T13:56:45+00:00",
+   "last_seen": "2026-11-26T23:06:07+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 7,
@@ -1185,7 +1204,7 @@
    "published": "2026-10-18",
    "seed": false,
    "first_seen": "2026-10-20T13:56:45+00:00",
-   "last_seen": "2026-11-26T13:56:45+00:00",
+   "last_seen": "2026-11-26T23:06:07+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 7,
