@@ -1,6 +1,41 @@
 {
- "updated": "2026-11-25T23:34:54+00:00",
+ "updated": "2026-11-26T11:54:59+00:00",
  "jobs": [
+  {
+   "id": "90de972876a6",
+   "company": "Société Générale",
+   "title": "Data & Analytics Engineer – Risk & AI",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/data-analytics-engineer-risk-ai-26000JD8-fr",
+   "via": null,
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "2 ans min.",
+   "junior": false,
+   "published": "2026-11-26",
+   "seed": false,
+   "rv": 7,
+   "match": {
+    "score": 50,
+    "have": [
+     "python",
+     "sql",
+     "qualité des données",
+     "gouvernance",
+     "conformité"
+    ],
+    "missing": [
+     "sas",
+     "spark",
+     "git",
+     "modélisation",
+     "statistiques"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-26T11:42:13+00:00",
+   "last_seen": "2026-11-26T11:42:13+00:00"
+  },
   {
    "id": "1b8bb10dfb87",
    "company": "BPCE",
@@ -30,7 +65,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-25T23:25:31+00:00",
-   "last_seen": "2026-11-25T23:25:31+00:00"
+   "last_seen": "2026-11-26T11:45:40+00:00"
   },
   {
    "id": "828791575f90",
@@ -84,7 +119,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-23T14:44:21+00:00",
-   "last_seen": "2026-11-25T23:30:55+00:00"
+   "last_seen": "2026-11-26T11:51:08+00:00"
   },
   {
    "id": "f6657b237620",
@@ -116,7 +151,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-21T19:47:08+00:00",
-   "last_seen": "2026-11-25T23:32:39+00:00"
+   "last_seen": "2026-11-26T11:52:49+00:00"
   },
   {
    "id": "0ffed69ed881",
@@ -179,7 +214,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-20T13:03:59+00:00",
-   "last_seen": "2026-11-25T23:30:31+00:00"
+   "last_seen": "2026-11-26T11:50:45+00:00"
   },
   {
    "id": "48d982185dc9",
@@ -214,7 +249,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-19T19:02:50+00:00",
-   "last_seen": "2026-11-25T23:25:31+00:00"
+   "last_seen": "2026-11-26T11:45:40+00:00"
   },
   {
    "id": "4ba618558c99",
@@ -363,7 +398,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-09T21:36:35+00:00",
-   "last_seen": "2026-11-25T23:25:31+00:00"
+   "last_seen": "2026-11-26T11:45:40+00:00"
   },
   {
    "id": "78f165b6b23d",
@@ -656,7 +691,7 @@
    "ghost": {
     "score": 2,
     "reasons": [
-     "en ligne depuis 110 jours (depuis le 07/08/2026)"
+     "en ligne depuis 111 jours (depuis le 07/08/2026)"
     ],
     "reposts": 0,
     "since": "2026-08-07"
@@ -742,7 +777,7 @@
    "rv": 7,
    "match": null,
    "first_seen": "2026-10-28T10:34:45+00:00",
-   "last_seen": "2026-11-25T23:25:31+00:00"
+   "last_seen": "2026-11-26T11:45:40+00:00"
   },
   {
    "id": "76bc150e9b01",
@@ -771,7 +806,7 @@
     "missing": []
    },
    "first_seen": "2026-10-28T10:34:36+00:00",
-   "last_seen": "2026-11-25T23:25:31+00:00"
+   "last_seen": "2026-11-26T11:45:40+00:00"
   },
   {
    "id": "4e80bd2f5d16",
@@ -882,7 +917,7 @@
    "ghost": {
     "score": 2,
     "reasons": [
-     "en ligne depuis 118 jours (depuis le 30/07/2026)"
+     "en ligne depuis 119 jours (depuis le 30/07/2026)"
     ],
     "reposts": 0,
     "since": "2026-07-30"
@@ -960,7 +995,7 @@
    "ghost": {
     "score": 2,
     "reasons": [
-     "en ligne depuis 160 jours (depuis le 18/06/2026)"
+     "en ligne depuis 161 jours (depuis le 18/06/2026)"
     ],
     "reposts": 0,
     "since": "2026-06-18"
@@ -983,7 +1018,7 @@
    "ghost": {
     "score": 2,
     "reasons": [
-     "en ligne depuis 141 jours (depuis le 07/07/2026)"
+     "en ligne depuis 142 jours (depuis le 07/07/2026)"
     ],
     "reposts": 0,
     "since": "2026-07-07"
@@ -1088,7 +1123,7 @@
    "published": "2026-10-08",
    "seed": false,
    "first_seen": "2026-10-20T13:58:07+00:00",
-   "last_seen": "2026-11-25T23:25:31+00:00",
+   "last_seen": "2026-11-26T11:45:40+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 7,
@@ -1117,7 +1152,7 @@
    "published": "2026-10-14",
    "seed": false,
    "first_seen": "2026-10-20T13:57:31+00:00",
-   "last_seen": "2026-11-25T23:25:31+00:00",
+   "last_seen": "2026-11-26T11:45:40+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 7,
@@ -1150,7 +1185,7 @@
    "published": "2026-10-18",
    "seed": false,
    "first_seen": "2026-10-20T13:56:45+00:00",
-   "last_seen": "2026-11-25T23:25:31+00:00",
+   "last_seen": "2026-11-26T11:45:40+00:00",
    "date_tries": 1,
    "country": "France",
    "rv": 7,

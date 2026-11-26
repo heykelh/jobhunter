@@ -1,6 +1,70 @@
 {
- "updated": "2026-11-25T23:34:54+00:00",
+ "updated": "2026-11-26T11:54:59+00:00",
  "items": [
+  {
+   "id": "ceaa1d678dd5",
+   "company": "UBS",
+   "title": "Data Steward - Client Data Services",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=352400",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-26T11:53:56+00:00"
+  },
+  {
+   "id": "bbaaaa484946",
+   "company": "UBS",
+   "title": "Financing Quant Lead AI Engineer",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=353893",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-26T11:53:54+00:00"
+  },
+  {
+   "id": "7d190eae53b4",
+   "company": "VINCI (dont ETF)",
+   "title": "Chef de Projet – Poste HTB – Data Center F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/rueil/chef-de-projet-poste-htb-data-center-f-h/1440/42493613440",
+   "reason": "titre exclu (data center)",
+   "at": "2026-11-26T11:51:08+00:00"
+  },
+  {
+   "id": "ee624a376835",
+   "company": "BPCE",
+   "title": "CDD - Data Analyst - Marketing Commercial et CRM",
+   "url": "https://recrutement.bpce.fr/job/cdd-data-analyst-marketing-commercial-et-crm",
+   "reason": "lieu hors zones",
+   "at": "2026-11-26T11:45:40+00:00"
+  },
+  {
+   "id": "c4ebffad1fdb",
+   "company": "Crédit Agricole",
+   "title": "Business Analyst Wero H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170477-126-business-analyst-wero-hf-reference--2026-117610--/",
+   "reason": "expérience demandée ≥ 3 ans « ma 1 an dans le domaine paiement / monetique niveau d'experience minimum 3 - 5 ans competences recherchees cap »",
+   "at": "2026-11-26T11:43:04+00:00"
+  },
+  {
+   "id": "7bf0f9b7c713",
+   "company": "Alstom",
+   "title": "Analyste Financier FP&A",
+   "url": "https://jobsearch.alstom.com/job/Saint-Bruno-Analyste-Financier-FP&A-QC/1452260533/",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-26T11:40:13+00:00"
+  },
+  {
+   "id": "a28a63858746",
+   "company": "Alstom",
+   "title": "Ingénieur(e) Process / Data - H/F",
+   "url": "https://jobsearch.alstom.com/job/Ornans-Ing%C3%A9nieur%28e%29-Process-Data-HF-I/1431947533/",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-26T11:40:12+00:00"
+  },
+  {
+   "id": "7c7ca9f266fa",
+   "company": "Alstom",
+   "title": "FP&A Financial Analyst",
+   "url": "https://jobsearch.alstom.com/job/Saint-Bruno-FP&A-Financial-Analyst-QC/1452260433/",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-26T11:40:10+00:00"
+  },
   {
    "id": "b9381877e4e0",
    "company": "ING",
