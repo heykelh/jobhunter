@@ -1,6 +1,142 @@
 {
- "updated": "2026-11-26T23:57:14+00:00",
+ "updated": "2026-11-27T15:12:17+00:00",
  "items": [
+  {
+   "id": "91a1025bdafa",
+   "company": "jobup.ch",
+   "title": "Global Data, Analytics & AI Architecture Manager",
+   "url": "https://www.jobup.ch/fr/emplois/detail/fbe540db-bd8f-4095-9d30-758279819ce6/",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-27T15:11:56+00:00"
+  },
+  {
+   "id": "9e4eeb42da13",
+   "company": "jobup.ch",
+   "title": "AI Engineering Internship: LLM-Powered Document Migration",
+   "url": "https://www.jobup.ch/fr/emplois/detail/1806ebe7-cec6-4951-a2b5-430daf02fd2d/",
+   "reason": "titre exclu (internship)",
+   "at": "2026-11-27T15:11:56+00:00"
+  },
+  {
+   "id": "ea26659fd081",
+   "company": "jobup.ch",
+   "title": "Quantitative Research Intern – AI for Investment Research",
+   "url": "https://www.jobup.ch/fr/emplois/detail/b295f695-96f7-45a1-936e-fb66b081e942/",
+   "reason": "titre exclu (intern)",
+   "at": "2026-11-27T15:11:56+00:00"
+  },
+  {
+   "id": "db55833f9e96",
+   "company": "jobup.ch",
+   "title": "Associate Director – Scientific Data, Modeling & AI (m/f/d)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/743da070-3108-480f-85f1-249a877b43e9/",
+   "reason": "titre exclu (director)",
+   "at": "2026-11-27T15:11:56+00:00"
+  },
+  {
+   "id": "e0fe03c1b54d",
+   "company": "jobup.ch",
+   "title": "Business Analyst - Secteur Luxe",
+   "url": "https://www.jobup.ch/fr/emplois/detail/5ed9f264-6704-4692-b32b-3b2cb5b42706/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-27T15:11:53+00:00"
+  },
+  {
+   "id": "06be75d2a6be",
+   "company": "jobup.ch",
+   "title": "Consultant Data Management (all) 60-100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/126f9988-e911-44bb-b915-ceb77354efb4/",
+   "reason": "expérience demandée ≥ 3 ans « n superieure avec un background technique ou plusieurs annees d'experience professionnelle dans un »",
+   "at": "2026-11-27T15:11:51+00:00"
+  },
+  {
+   "id": "4c91d470262d",
+   "company": "jobup.ch",
+   "title": "Head of Data Intelligence",
+   "url": "https://www.jobup.ch/fr/emplois/detail/f50f0fdd-6d80-47d1-a5cf-2aca0c23f347/",
+   "reason": "titre exclu (head)",
+   "at": "2026-11-27T15:11:51+00:00"
+  },
+  {
+   "id": "0fc0d64280ef",
+   "company": "jobs.ch",
+   "title": "​​Business Analyst SAP Supply Chain (m/w/d)​",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/159c6799-ccc0-4edf-9646-b07cd822fee7/",
+   "reason": "annonce en allemand (titre)",
+   "at": "2026-11-27T15:11:27+00:00"
+  },
+  {
+   "id": "b26ea29515a5",
+   "company": "jobs.ch",
+   "title": "PI Server Data Historian Engineer - Sisslerfeld Site Development (a) 100%",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/d4586056-7f6a-4666-9339-82156084d5d2/",
+   "reason": "expérience demandée ≥ 3 ans « que, automatisation ou formation equivalente experience de plusieurs annees avec le systeme osisoft »",
+   "at": "2026-11-27T15:11:25+00:00"
+  },
+  {
+   "id": "8a0ee7c3445c",
+   "company": "jobs.ch",
+   "title": "IoT & Data Architect (w/m/d)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/e21cc267-9238-40d6-b459-be2dda861509/",
+   "reason": "titre exclu (architect)",
+   "at": "2026-11-27T15:11:25+00:00"
+  },
+  {
+   "id": "8d8d57ef49d1",
+   "company": "jobs.ch",
+   "title": "Data Platform Owner Databricks (a), (80-100%)",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/36d47db7-95be-41a5-a663-a2bcb469dfac/",
+   "reason": "expérience demandée ≥ 5 ans « s, genie logiciel ou domaine connexe minimum 5 ans d'experience professionn »",
+   "at": "2026-11-27T15:11:24+00:00"
+  },
+  {
+   "id": "8b6ab184ba92",
+   "company": "jobs.ch",
+   "title": "Head of Data Intelligence",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/aae09386-cf9e-4997-be4d-1740cec902de/",
+   "reason": "titre exclu (head)",
+   "at": "2026-11-27T15:11:22+00:00"
+  },
+  {
+   "id": "13d60cbbe8ac",
+   "company": "HelloWork",
+   "title": "Responsable Data & IA H/F Ortec Group",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85939607.html",
+   "reason": "expérience demandée ≥ 5 ans « data et intelligence artificielle, vous avez 5 ans d'experience dans la dat »",
+   "at": "2026-11-27T15:10:31+00:00"
+  },
+  {
+   "id": "9ae8768fe5c7",
+   "company": "HelloWork",
+   "title": "Data & ai Lead - Principal Architect H/F Team.is",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85931763.html",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-27T15:10:30+00:00"
+  },
+  {
+   "id": "2ad046e6001a",
+   "company": "HelloWork",
+   "title": "Senior ai Architect H/F Team.is",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85934480.html",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-27T15:10:27+00:00"
+  },
+  {
+   "id": "172d36cbec1c",
+   "company": "HelloWork",
+   "title": "Analyste Crédit H/F Actual Talent",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85926638.html",
+   "reason": "expérience demandée ≥ 5 ans « anque ou finance), vous justifiez d'au moins 5 ans d'experience en analyse »",
+   "at": "2026-11-27T15:10:24+00:00"
+  },
+  {
+   "id": "9b1a3a27e2c6",
+   "company": "HelloWork",
+   "title": "Head Of Data H/F Team.is",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85931794.html",
+   "reason": "titre exclu (head)",
+   "at": "2026-11-27T15:10:19+00:00"
+  },
   {
    "id": "8070da5e102f",
    "company": "jobup.ch",
