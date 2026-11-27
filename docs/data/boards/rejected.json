@@ -1,6 +1,46 @@
 {
- "updated": "2026-11-27T15:12:17+00:00",
+ "updated": "2026-11-27T20:24:30+00:00",
  "items": [
+  {
+   "id": "b9afdcf84e51",
+   "company": "jobup.ch",
+   "title": "Financial Analyst - 3 month interim role",
+   "url": "https://www.jobup.ch/fr/emplois/detail/4aa0f43b-70b3-49a7-99e7-4fcb1b2abc5c/",
+   "reason": "titre exclu (interim)",
+   "at": "2026-11-27T20:24:09+00:00"
+  },
+  {
+   "id": "4b67698fca34",
+   "company": "jobs.ch",
+   "title": "Senior Digital Business Analyst (UX/Service Design) - Hybrid",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/41a18421-e0fa-4028-ac68-2a5e074208f4/",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-27T20:23:46+00:00"
+  },
+  {
+   "id": "3b2beecd3fd7",
+   "company": "HelloWork",
+   "title": "Business Analyst H/F VPSitex",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85946153.html",
+   "reason": "expérience demandée ≥ 3 ans « agile et waterfall. profil recherche : plus 3 ans d'experience en tant qu' »",
+   "at": "2026-11-27T20:22:56+00:00"
+  },
+  {
+   "id": "fa0e7810cfac",
+   "company": "HelloWork",
+   "title": "Ingénieur DevOps - Plateforme Data H/F ANFSI",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85735873.html",
+   "reason": "expérience demandée ≥ 3 ans (lu par l'IA) « Vous avez plusieurs expériences réussies dans cette matière. »",
+   "at": "2026-11-27T20:22:49+00:00"
+  },
+  {
+   "id": "4552bbdf11f1",
+   "company": "HelloWork",
+   "title": "Data Project Lead H/F INNOCEAN France",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85944439.html",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-27T20:22:41+00:00"
+  },
   {
    "id": "91a1025bdafa",
    "company": "jobup.ch",
