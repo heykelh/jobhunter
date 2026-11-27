@@ -358,10 +358,10 @@ $("#pdf").addEventListener("click", () => {
 window.addEventListener("resize", fitScale);
 
 (async function init() {
-  const [base, gen, jobs] = await Promise.all([getJSON("data/cv/base.json"), id ? getJSON(`data/cv/${id}.json`) : null, getJSON("data/jobs.json"), getJSON("data/boards/jobs.json"), getJSON("data/ats/jobs.json")]).then(([b, g, ...ls]) => [b, g, { jobs: ls.flatMap(l => (l && l.jobs) || []) }]);
+  const [base, gen, jobs] = await Promise.all([getJSON("data/cv/base.json"), id ? getJSON(`data/cv/${id}.json`) : null, getJSON("data/jobs.json"), getJSON("data/boards/jobs.json"), getJSON("data/ats/jobs.json"), getJSON("data/nz/jobs.json")]).then(([b, g, ...ls]) => [b, g, { jobs: ls.flatMap(l => (l && l.jobs) || []) }]);
   BASE = base; GEN = gen; JOB = (jobs?.jobs || []).find(j => j.id === id) || null;
   const fromList = new URLSearchParams(location.search).get("p");
-  if (["boards", "ats"].includes(fromList)) document.querySelector("a.back").href = "./?p=" + fromList;
+  if (["boards", "ats", "nz"].includes(fromList)) document.querySelector("a.back").href = "./?p=" + fromList;
   if (!BASE) { $("#form").innerHTML = `<div class="empty">CV de base introuvable. Lance un passage du robot (mode run) pour publier cv/base_cv.json.</div>`; return; }
   $("#h").textContent = "CV · " + (JOB ? `${JOB.company} · ${JOB.title}` : (GEN?.intitule_offre || "CV de base"));
   const url = JOB?.url || GEN?.url_offre; if (url) $("#offer").href = url; else $("#offer").style.display = "none";
@@ -386,7 +386,7 @@ function start(saved) {
 // Pas encore de CV pour cette offre : il n'est fait qu'à la demande (1 appel IA par offre)
 function askGenerate() {
   const p = new URLSearchParams(location.search).get("p");
-  const list = ["boards", "ats"].includes(p) ? p : "main";
+  const list = ["boards", "ats", "nz"].includes(p) ? p : "main";
   $("#form").innerHTML = `<div class="panel gen">
       <h2>Pas encore de CV pour cette offre</h2>
       <p>Le robot relit la fiche et adapte ton CV de base à ${JOB ? "<strong>" + esc(JOB.title) + "</strong>" : "cette offre"} (titre, résumé, compétences, projets mis en avant). Compte environ 2 minutes.</p>

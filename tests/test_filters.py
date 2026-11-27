@@ -497,3 +497,29 @@ def test_workday_429_pauses_all_workday_sources(monkeypatch):
     from jobhunter.filters import detect_contracts
     assert detect_contracts("Type de contrat : Unlimited employment") == {"CDI"}
     assert detect_contracts("Contrat fixe, 80-100%") == {"CDI"}
+
+
+def test_seek_nz_and_work_rights():
+    from jobhunter.sources import collect
+    from jobhunter.filters import Criteria, needs_existing_work_rights
+    seen = []
+    def get(url, params=None, timeout=0, headers=None):
+        seen.append((url, dict(params or {})))
+        return _R({"data": [
+            {"id": 81234567, "title": "Data Analyst", "advertiser": {"description": "Watercare"},
+             "locations": [{"label": "Auckland CBD, Auckland"}], "workTypes": ["Full time"],
+             "listingDate": "2026-11-26T03:00:00Z", "salaryLabel": "$85k - $95k"},
+            {"id": 2, "title": "Plumber", "locations": [{"label": "Hamilton"}], "workTypes": ["Full time"]}]})
+    f = _fetcher(get=get)
+    comp = {"name": "SEEK", "source": "seek", "search_terms": ["data analyst"], "pages": [1, 2]}
+    ls, errs = collect(comp, f, ["data"], lambda t: "data" in t.lower())
+    assert not errs and len(ls) == 1 and ls[0].employer == "Watercare"
+    assert ls[0].url == "https://www.seek.co.nz/job/81234567"
+    assert seen[0][1]["siteKey"] == "NZ-Main" and len(seen) == 1          # page 1 incomplète : pas de page 2
+    c = Criteria.from_config({"keywords": ["data"], "zones": ["nouvelle-zelande"], "unknown_contract": "drop"})
+    v = c.evaluate(ls[0].title, ls[0].context, "")
+    assert v.ok and v.country == "Nouvelle-Zélande" and v.contract == "CDI"
+    assert not c.evaluate("Data Analyst", "Paris", "CDI").ok
+    assert needs_existing_work_rights("You must have the legal right to work in New Zealand to apply.")
+    assert needs_existing_work_rights("Unfortunately we are unable to sponsor visas for this role.")
+    assert not needs_existing_work_rights("We can support visa applications for the right candidate.")

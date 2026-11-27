@@ -51,6 +51,12 @@ ZONES: dict[str, re.Pattern] = {
         r"|neuilly|suresnes|gennevilliers|colombes|antony|torcy|lagny|chessy|serris|bussy|meaux|melun"
         r"|saint[\s\-]cloud|sevres|boissy|fontenay|bagnolet|aubervilliers|tremblay|beauchamp|trappes"
     ),
+    "Nouvelle-Zélande": re.compile(
+        r"nouvelle[\s\-]zelande|new zealand|aotearoa|(?<![a-z])nz(?![a-z])|auckland|wellington(?![a-z\s]*(?:management|ma\b|massachusetts|boston))"
+        r"|christchurch|(?<![a-z])hamilton(?=[^a-z]*(?:waikato|new zealand|nz|$))|tauranga|dunedin|palmerston north|napier|hastings[^a-z]*(?:hawke|nz)"
+        r"|(?<![a-z])nelson(?=[^a-z]*(?:tasman|new zealand|nz|$))|rotorua|new plymouth|whangarei|invercargill|queenstown|lower hutt|upper hutt"
+        r"|porirua|manukau|north shore|takapuna|waikato|canterbury[^a-z]*(?:nz|new zealand)|otago|marlborough|blenheim|gisborne|whanganui"
+    ),
     "Luxembourg": re.compile(
         r"luxembourg|luxemburg|esch[\s\-]sur[\s\-]alzette|bettembourg|leudelange|kirchberg|bertrange"
         r"|strassen|howald|differdange|dudelange|ettelbruck|mersch|wasserbillig|bissen|belval"
@@ -71,10 +77,11 @@ ZONES: dict[str, re.Pattern] = {
 }
 ZONE_KEYS = {"ile-de-france": "Île-de-France", "idf": "Île-de-France",
              "luxembourg": "Luxembourg", "suisse": "Suisse", "switzerland": "Suisse",
-             "belgique": "Belgique", "belgium": "Belgique"}
+             "belgique": "Belgique", "belgium": "Belgique",
+             "nouvelle-zelande": "Nouvelle-Zélande", "new-zealand": "Nouvelle-Zélande", "nz": "Nouvelle-Zélande"}
 # Catégorie (pays) affichée sur le site pour chaque zone
 COUNTRY = {"Île-de-France": "France", "Luxembourg": "Luxembourg", "Suisse": "Suisse",
-           "Belgique": "Belgique"}
+           "Belgique": "Belgique", "Nouvelle-Zélande": "Nouvelle-Zélande"}
 
 # Lieux clairement hors zones : sert à écarter une offre dont la fiche
 # dit "Lisbonne" même si le pied de page mentionne "Paris".
@@ -171,6 +178,25 @@ def german_required(title: str, text: str) -> str | None:
 def detect_contracts(text: str) -> set[str]:
     t = norm(text)
     return {k for k, rx in CONTRACT_RE.items() if rx.search(t)}
+
+
+# ---------------------------------------------------------------------- droit de travail (visa)
+# Offre réservée aux personnes qui ont DÉJÀ le droit de travailler dans le pays (pas de parrainage de visa)
+WORK_RIGHTS_RE = re.compile(
+    r"(?:must|need to|required to|should) (?:already )?(?:have|hold|possess)[^.]{0,40}(?:right|rights|eligibility|entitlement|authori[sz]ation) to work in (?:new zealand|nz|australia)"
+    r"|(?:nz|new zealand) (?:citizens?|residents?)(?: (?:or|and|/) (?:permanent )?residents?)? only"
+    r"|only (?:open to|consider(?:ing)?|accept(?:ing)?) [^.]{0,40}(?:citizens?|(?:permanent )?residents?)"
+    r"|(?:no|not able to|unable to|cannot|can ?not|will not|won't|do not|don't) (?:offer |provide )?(?:visa )?sponsor"
+    r"|without (?:the need for )?(?:visa )?sponsorship|sponsorship (?:is )?not (?:available|offered|provided)"
+    r"|valid (?:nz|new zealand) (?:work )?visa (?:is )?(?:required|essential)"
+)
+
+
+def needs_existing_work_rights(text: str) -> str | None:
+    """Phrase de l'offre qui exige d'avoir déjà le droit de travailler sur place, sinon None."""
+    t = norm(text or "")[:20000]
+    m = WORK_RIGHTS_RE.search(t)
+    return t[max(0, m.start() - 20): m.end() + 30].strip() if m else None
 
 
 # ---------------------------------------------------------------------- expérience

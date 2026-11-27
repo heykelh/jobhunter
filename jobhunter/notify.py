@@ -28,7 +28,7 @@ def fmt_published(p: str | None) -> str:
         return ""
 
 
-FLAGS = {"France": "🇫🇷", "Suisse": "🇨🇭", "Luxembourg": "🇱🇺", "Belgique": "🇧🇪"}
+FLAGS = {"France": "🇫🇷", "Suisse": "🇨🇭", "Luxembourg": "🇱🇺", "Belgique": "🇧🇪", "Nouvelle-Zélande": "🇳🇿"}
 
 
 def country_of(j: dict) -> str:

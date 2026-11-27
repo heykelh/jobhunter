@@ -611,10 +611,11 @@ _workday_blocked_until = {"t": 0.0}
 WD_COUNTRIES = {"france", "switzerland", "suisse", "schweiz", "svizzera", "luxembourg", "luxemburg"}
 
 
-def _workday_country_facets(js: dict) -> dict:
+def _workday_country_facets(js: dict, countries=None) -> dict:
     """Dans la réponse Workday, repère les filtres pays (France, Suisse, Luxembourg) pour ne plus
     recevoir que les offres de ces pays. Renvoie {"locationCountry": [id, …]} ou {}."""
     from .filters import norm
+    wanted = {norm(c) for c in countries} if countries else WD_COUNTRIES
     found: dict[str, list[str]] = {}
 
     def walk(facets, param=None):
@@ -624,7 +625,7 @@ def _workday_country_facets(js: dict) -> dict:
                 if v.get("values"):
                     walk([v], v.get("facetParameter") or p)
                 desc = norm(v.get("descriptor") or "")
-                if p and "country" in p.lower() and desc in WD_COUNTRIES and v.get("id"):
+                if p and "country" in p.lower() and desc in wanted and v.get("id"):
                     found.setdefault(p, []).append(v["id"])
     walk(js.get("facets"))
     return found
@@ -693,7 +694,7 @@ def collect_workday(comp: dict, fetcher: Fetcher, keywords: list[str], keyword_h
                 # 1re réponse : on récupère les filtres pays et on relance la même recherche filtrée
                 if not countries_set and comp.get("country_filter", True):
                     countries_set = True
-                    cf = _workday_country_facets(js)
+                    cf = _workday_country_facets(js, comp.get("countries"))
                     if cf:
                         facets.update(cf)
                         fetcher.diag.append(f"[workday] filtre pays : {cf}")
@@ -827,6 +828,57 @@ def collect_francetravail(comp: dict, fetcher: Fetcher, keywords: list[str]) -> 
         except Exception as e:
             errors.append(f"France Travail [{q}] → {type(e).__name__}: {str(e)[:140]}")
     fetcher.diag.append(f"[france-travail] {len(out)} offres via l'API")
+    if not out and not errors:
+        fetcher.empty_ok = True
+    return list(out.values()), (errors if not out else [])
+
+
+# ------------------------------------------------------------- SEEK (Nouvelle-Zélande / Australie)
+SEEK_HOSTS = ["https://www.seek.co.nz", "https://nz.seek.com"]
+
+
+def collect_seek(comp: dict, fetcher: Fetcher, keywords: list[str], keyword_hit=None) -> tuple[list[Listing], list[str]]:
+    """Recherche SEEK par l'API JSON qu'utilise le site (…/api/jobsearch/v5/search), 100 offres par page.
+    Type de poste SEEK : "Full time" = poste permanent, "Contract/Temp" = contrat à durée déterminée."""
+    hosts = [comp["host"]] if comp.get("host") else SEEK_HOSTS
+    out, errors = {}, []
+    work = {"full time": "permanent", "contract/temp": "fixed term contrat temporaire", "part time": "part time",
+            "casual/vacation": "casual temporary contract"}
+    for q in comp.get("search_terms") or keywords:
+        for page in comp.get("pages", [1, 2]):
+            got = None
+            for host in hosts:
+                url = f"{host}/api/jobsearch/v5/search"
+                params = {"siteKey": comp.get("site_key", "NZ-Main"), "where": comp.get("where", "All New Zealand"),
+                          "keywords": q, "page": page, "pageSize": 100, "sortmode": "ListedDate", "locale": "en-NZ",
+                          "sourcesystem": "houston"}
+                try:
+                    fetcher._polite(url)
+                    r = fetcher.s.get(url, params=params, timeout=30, headers={"Accept": "application/json"})
+                    r.raise_for_status()
+                    got = (r.json() or {}).get("data") or []
+                    hosts = [host]                                  # le bon domaine est trouvé : on le garde
+                    break
+                except Exception as e:
+                    errors.append(f"{url} [{q}/{page}] → {type(e).__name__}: {str(e)[:120]}")
+            if not got:
+                break
+            for j in got:
+                title = clean_title(j.get("title") or "")
+                if not title or not j.get("id") or (keyword_hit and not keyword_hit(title)):
+                    continue
+                link = f"{hosts[0]}/job/{j['id']}"
+                locs = ", ".join(l.get("label", "") for l in j.get("locations") or [] if isinstance(l, dict)) \
+                    or squash(" ".join(str(j.get(k) or "") for k in ("suburb", "area", "location")))
+                wts = [w for w in (j.get("workTypes") or ([j["workType"]] if j.get("workType") else []))]
+                ctx = squash(" · ".join(filter(None, [locs, "New Zealand"] + wts + [work.get(str(w).lower(), "") for w in wts]
+                                               + [j.get("salaryLabel") or j.get("salary") or "", j.get("teaser") or ""])))
+                adv = j.get("advertiser") or {}
+                out.setdefault(link, Listing(url=link, title=title, context=ctx, published=parse_date(j.get("listingDate")),
+                                             employer=(adv.get("description") if isinstance(adv, dict) else None) or j.get("companyName")))
+            if len(got) < 100:
+                break
+    fetcher.diag.append(f"[seek] {len(out)} offres avec mots-clés via l'API")
     if not out and not errors:
         fetcher.empty_ok = True
     return list(out.values()), (errors if not out else [])
@@ -1095,10 +1147,12 @@ def collect(comp: dict, fetcher: Fetcher, keywords: list[str], keyword_hit,
             state: dict | None = None) -> tuple[list[Listing], list[str]]:
     """Renvoie (offres trouvées, erreurs par URL)."""
     src = comp.get("source", "html")
-    if src in ("workday", "sequence", "reed", "smartrecruiters", "francetravail"):
+    if src in ("workday", "sequence", "reed", "smartrecruiters", "francetravail", "seek"):
         fetcher.diag = []
         if src == "smartrecruiters":
             return collect_smartrecruiters(comp, fetcher, keyword_hit)
+        if src == "seek":
+            return collect_seek(comp, fetcher, keywords, keyword_hit)
         if src == "francetravail":
             return collect_francetravail(comp, fetcher, keywords)
         if src == "workday":

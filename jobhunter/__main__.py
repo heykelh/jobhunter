@@ -21,7 +21,7 @@ from . import cv as cvgen
 from . import ghost, match
 from .sponsors import SponsorRegister
 from .ai_check import ExperienceAI
-from .filters import Criteria, german_required, internship_evidence, norm
+from .filters import Criteria, german_required, internship_evidence, needs_existing_work_rights, norm
 from .notify import Notifier, Progress
 from .sources import Fetcher, Postponed, collect, detail_for, fetch_detail
 from .store import ROOT, SITE_DATA, Store, job_id, now, _save
@@ -31,8 +31,8 @@ log = logging.getLogger("jobwatch")
 # À augmenter quand les règles de tri changent : les offres déjà affichées sont alors
 # revérifiées (fiche rouverte) et retirées si elles ne passent plus.
 RULES_VERSION = 7   # v7 : contrat lu dans l'intitulé, communes d'Île-de-France ajoutées, fiches Workday non lues (21/11/2026)
-LISTS = ["main", "boards", "ats"]   # sites carrière · sites d'emploi · plateformes Workday / SmartRecruiters
-CONFIGS = {"main": "config.yaml", "boards": "config_boards.yaml", "ats": "config_ats.yaml"}
+LISTS = ["main", "boards", "ats", "nz"]   # sites carrière · sites d'emploi · Workday / SmartRecruiters · Nouvelle-Zélande
+CONFIGS = {"main": "config.yaml", "boards": "config_boards.yaml", "ats": "config_ats.yaml", "nz": "config_nz.yaml"}
 LATER = "__later__"  # pas de verdict possible ce passage (budget IA épuisé ou IA en panne) : on réessaiera
 
 
@@ -53,6 +53,10 @@ def judge(crit: Criteria, ai: ExperienceAI, comp: dict, title: str, context: str
         why = german_required(title, structured + " " + text)
         if why:
             return False, why[:160], v
+    if rules.get("reject_needs_work_rights"):
+        quote = needs_existing_work_rights(structured + " " + text)
+        if quote:
+            return False, f"réservée aux personnes ayant déjà le droit de travailler sur place (pas de visa) « {quote[:110]} »", v
     sal_max = (d.extra.get("salary_max") if d else None)
     if rules.get("min_salary") and sal_max and sal_max < int(rules["min_salary"]):
         return False, (f"salaire max {d.extra.get('salary') or sal_max} sous le minimum visa "

@@ -1,0 +1,94 @@
+# ═══════════════════════════════════════════════════════════════════
+#  JobHunter — Nouvelle-Zélande
+#  Mêmes critères que config.yaml (mots-clés, contrats, expérience…), mais seulement pour
+#  des postes en Nouvelle-Zélande. Page du site : onglet « Nouvelle-Zélande »
+#  Workflow GitHub : JobHunter Nouvelle-Zelande (toutes les 6 h)
+#
+#  Visa : le PVT (Working Holiday) France–NZ est réservé aux 18-35 ans. Au-delà, il faut un
+#  employeur accrédité qui parraine un visa de travail (Accredited Employer Work Visa).
+#  Les offres qui exigent d'avoir DÉJÀ le droit de travailler en NZ sont donc écartées.
+# ═══════════════════════════════════════════════════════════════════
+extends: config.yaml
+
+zones: [nouvelle-zelande]
+
+country_rules:
+  Nouvelle-Zélande:
+    reject_needs_work_rights: true    # "must have the right to work in NZ", "NZ citizens or residents only"…
+
+max_details_per_company: 30
+experience_ai_per_run: 40
+
+# Recherches en anglais (les annonces néo-zélandaises sont en anglais)
+nz_search_terms: &terms [data analyst, data, analyst, pricing, revenue management, business intelligence, product]
+
+companies:
+
+  # ─── Sites d'emploi ─────────────────────────────────────────────
+  - name: SEEK
+    source: seek                # n°1 en Nouvelle-Zélande ; API JSON du site, offres les plus récentes d'abord
+    aggregator: true            # l'entreprise affichée est le vrai employeur
+    site_key: NZ-Main
+    where: All New Zealand
+    search_terms: *terms
+    pages: [1, 2]
+    max_details: 40
+
+  # ─── Employeurs sur SmartRecruiters ─────────────────────────────
+  - name: Accor Pacific
+    source: smartrecruiters     # groupe français : Sofitel, Pullman, Novotel, Mövenpick… à Auckland, Wellington, Queenstown
+    company_id: AccorCorpo
+    countries: [nz]
+
+  - name: Deloitte NZ
+    source: smartrecruiters
+    company_id: DeloitteNZ
+    countries: [nz]
+
+  - name: Contact Energy
+    source: smartrecruiters
+    company_id: ContactEnergy
+    countries: [nz]
+
+  - name: University of Auckland
+    source: smartrecruiters
+    company_id: TheUniversityOfAuckland
+    countries: [nz]
+
+  - name: AsureQuality
+    source: smartrecruiters
+    company_id: AsureQuality
+    countries: [nz]
+
+  - name: Hato Hone St John
+    source: smartrecruiters
+    company_id: HatoHoneStJohn
+    countries: [nz]
+
+  # ─── Employeurs sur Workday (filtrés sur la Nouvelle-Zélande) ────
+  - name: Pernod Ricard Winemakers NZ
+    source: workday             # groupe français : Brancott Estate, Church Road, Stoneleigh (Marlborough, Auckland)
+    api: https://pernodricard.wd3.myworkdayjobs.com/wday/cxs/pernodricard/pernod-ricard/jobs
+    public_url: https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard
+    countries: [New Zealand]
+    search_terms: [data, analyst, pricing, revenue]
+    offsets: [0]
+    max_details: 6
+
+  - name: PwC New Zealand
+    source: workday
+    api: https://pwc.wd3.myworkdayjobs.com/wday/cxs/pwc/Global_Experienced_Careers/jobs
+    public_url: https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers
+    countries: [New Zealand]
+    search_terms: [data, analyst, pricing]
+    offsets: [0]
+    max_details: 6
+
+  - name: Te Whatu Ora (Health NZ)
+    source: workday             # service de santé public néo-zélandais
+    api: https://health.wd105.myworkdayjobs.com/wday/cxs/health/External/jobs
+    public_url: https://health.wd105.myworkdayjobs.com/External
+    countries: [New Zealand]
+    search_terms: [data, analyst]
+    offsets: [0]
+    max_details: 6

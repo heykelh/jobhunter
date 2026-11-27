@@ -50,15 +50,16 @@ Un passage s'arrête de lui-même après 38 minutes (`time_budget_minutes`). Le 
 
 ---
 
-### Trois listes : sites carrière, sites d'emploi, Workday · SmartRecruiters
+### Quatre listes : sites carrière, sites d'emploi, Workday · SmartRecruiters, Nouvelle-Zélande
 
 | Liste | Sources | Réglages | Robot (GitHub Actions) | Données |
 |---|---|---|---|---|
 | Sites carrière (page d'accueil) | une trentaine d'entreprises (sites carrière officiels) | `config.yaml` | **JobHunter**, toutes les 30 min | `docs/data/` |
 | Sites d'emploi (`?p=boards`) | HelloWork, jobs.ch, jobup.ch, Moovijob, France Travail (si clés ajoutées) ; APEC désactivé : anti-robot | `config_boards.yaml` (reprend les critères de `config.yaml`) | **JobHunter sites d'emploi**, toutes les 2 h | `docs/data/boards/` |
 | Workday · SmartRecruiters (`?p=ats`) | API publiques Workday et SmartRecruiters d'une quarantaine d'employeurs (Banque de France, Sanofi, Chanel, Renault, Publicis, Free, Talan…) | `config_ats.yaml` (reprend les critères de `config.yaml`) | **JobHunter Workday SmartRecruiters**, toutes les 4 h | `docs/data/ats/` |
+| Nouvelle-Zélande (`?p=nz`) | SEEK (n°1 en NZ) + employeurs sur place (Accor Pacific, Pernod Ricard Winemakers, Deloitte NZ, PwC, Contact Energy…) ; offres réservées aux personnes ayant déjà le droit de travailler en NZ écartées | `config_nz.yaml` (reprend les critères de `config.yaml`, zone NZ) | **JobHunter Nouvelle-Zelande**, toutes les 6 h | `docs/data/nz/` |
 
-On passe de l'une à l'autre avec le sélecteur en haut du site. Chaque page a son bouton « Lancer une recherche ». Une offre déjà présente dans une liste n'est pas ajoutée aux autres. Le suivi des candidatures et les CV sont communs aux trois.
+On passe de l'une à l'autre avec le sélecteur en haut du site. Chaque page a son bouton « Lancer une recherche ». Une offre déjà présente dans une liste n'est pas ajoutée aux autres. Le suivi des candidatures et les CV sont communs aux quatre.
 
 ## 2. Le tri des offres
 
@@ -272,10 +273,12 @@ jobhunter/                     ← racine du dépôt
 ├─ config.yaml                 critères + liste des entreprises
 ├─ config_boards.yaml          sites d'emploi FR/CH/LU (mêmes critères)
 ├─ config_ats.yaml             employeurs sur Workday et SmartRecruiters (mêmes critères)
+├─ config_nz.yaml              Nouvelle-Zélande : SEEK et employeurs sur place
 ├─ requirements.txt
 ├─ .github/workflows/jobhunter.yml   robot des sites carrière
 ├─ .github/workflows/boards.yml      robot des sites d'emploi
 ├─ .github/workflows/ats.yml         robot Workday et SmartRecruiters
+├─ .github/workflows/nz.yml          robot Nouvelle-Zélande
 ├─ .github/workflows/cv.yml          CV d'une offre, à la demande
 ├─ jobhunter/                  le robot (Python)
 │  ├─ __main__.py              déroulé d'un passage (tri, revérification, notifs)
