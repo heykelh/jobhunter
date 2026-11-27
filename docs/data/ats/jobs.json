@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T00:53:09+00:00",
+ "updated": "2026-11-27T14:28:49+00:00",
  "jobs": [
   {
    "id": "2321d9c2ba14",
@@ -18,7 +18,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-26T14:33:03+00:00",
-   "last_seen": "2026-11-27T00:51:59+00:00"
+   "last_seen": "2026-11-27T14:27:33+00:00"
   },
   {
    "id": "6eaccad4f6a2",
@@ -48,7 +48,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-26T14:32:51+00:00",
-   "last_seen": "2026-11-27T00:51:59+00:00"
+   "last_seen": "2026-11-27T14:27:33+00:00"
   },
   {
    "id": "ed35e916ed6b",
@@ -76,7 +76,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-26T14:32:50+00:00",
-   "last_seen": "2026-11-27T00:51:59+00:00"
+   "last_seen": "2026-11-27T14:27:33+00:00"
   },
   {
    "id": "cc3f6b5bdbcd",
@@ -107,7 +107,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-26T14:32:48+00:00",
-   "last_seen": "2026-11-27T00:51:59+00:00"
+   "last_seen": "2026-11-27T14:27:33+00:00"
   },
   {
    "id": "b5f700a73af9",
@@ -134,7 +134,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-26T14:32:46+00:00",
-   "last_seen": "2026-11-27T00:51:59+00:00"
+   "last_seen": "2026-11-27T14:27:33+00:00"
   },
   {
    "id": "fe6da1477147",
@@ -162,7 +162,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-26T14:32:45+00:00",
-   "last_seen": "2026-11-27T00:51:59+00:00"
+   "last_seen": "2026-11-27T14:27:33+00:00"
   },
   {
    "id": "3fcead1d1bd0",
@@ -651,11 +651,11 @@
    },
    "salary": null,
    "first_seen": "2026-11-22T00:47:13+00:00",
-   "last_seen": "2026-11-27T00:51:39+00:00",
+   "last_seen": "2026-11-27T14:27:11+00:00",
    "ghost": {
     "score": 2,
     "reasons": [
-     "en ligne depuis 2025 jours (depuis le 11/05/2021)"
+     "en ligne depuis 2026 jours (depuis le 11/05/2021)"
     ],
     "reposts": 0,
     "since": "2021-05-11"
@@ -786,11 +786,11 @@
    },
    "salary": null,
    "first_seen": "2026-11-21T22:59:54+00:00",
-   "last_seen": "2026-11-27T00:51:59+00:00",
+   "last_seen": "2026-11-27T14:27:33+00:00",
    "ghost": {
     "score": 2,
     "reasons": [
-     "en ligne depuis 352 jours (depuis le 09/12/2025)"
+     "en ligne depuis 353 jours (depuis le 09/12/2025)"
     ],
     "reposts": 0,
     "since": "2025-12-09"
@@ -826,11 +826,11 @@
    },
    "salary": null,
    "first_seen": "2026-11-21T22:59:42+00:00",
-   "last_seen": "2026-11-27T00:51:59+00:00",
+   "last_seen": "2026-11-27T14:27:33+00:00",
    "ghost": {
     "score": 2,
     "reasons": [
-     "en ligne depuis 286 jours (depuis le 13/02/2026)"
+     "en ligne depuis 287 jours (depuis le 13/02/2026)"
     ],
     "reposts": 0,
     "since": "2026-02-13"
@@ -853,7 +853,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-21T22:59:41+00:00",
-   "last_seen": "2026-11-27T00:51:59+00:00",
+   "last_seen": "2026-11-27T14:27:33+00:00",
    "ghost": {
     "score": 2,
     "reasons": [
@@ -880,11 +880,11 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-21T22:59:32+00:00",
-   "last_seen": "2026-11-27T00:51:59+00:00",
+   "last_seen": "2026-11-27T14:27:33+00:00",
    "ghost": {
     "score": 2,
     "reasons": [
-     "en ligne depuis 190 jours (depuis le 20/05/2026)"
+     "en ligne depuis 191 jours (depuis le 20/05/2026)"
     ],
     "reposts": 0,
     "since": "2026-05-20"
@@ -907,11 +907,11 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-21T22:59:29+00:00",
-   "last_seen": "2026-11-27T00:51:59+00:00",
+   "last_seen": "2026-11-27T14:27:33+00:00",
    "ghost": {
     "score": 2,
     "reasons": [
-     "en ligne depuis 164 jours (depuis le 15/06/2026)"
+     "en ligne depuis 165 jours (depuis le 15/06/2026)"
     ],
     "reposts": 0,
     "since": "2026-06-15"
@@ -942,7 +942,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-21T22:59:14+00:00",
-   "last_seen": "2026-11-27T00:51:59+00:00"
+   "last_seen": "2026-11-27T14:27:33+00:00"
   },
   {
    "id": "e2a0f1985c3a",
@@ -1137,7 +1137,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-21T22:58:48+00:00",
-   "last_seen": "2026-11-27T00:51:59+00:00"
+   "last_seen": "2026-11-27T14:27:33+00:00"
   }
  ]
 }

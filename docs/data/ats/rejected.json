@@ -1,6 +1,246 @@
 {
- "updated": "2026-11-27T00:53:09+00:00",
+ "updated": "2026-11-27T14:28:49+00:00",
  "items": [
+  {
+   "id": "6dd7228a6d16",
+   "company": "NEXTON",
+   "title": "Data analyst Alteryx / PowerBI données ESG H/F",
+   "url": "https://jobs.smartrecruiters.com/NEXTON/744000164015509",
+   "reason": "expérience demandée ≥ 3 ans « ion superieure (bac+5), tu possedes au moins 3 ans d'experience en tant que »",
+   "at": "2026-11-27T14:28:08+00:00"
+  },
+  {
+   "id": "4f9c3a169eb5",
+   "company": "NEXTON",
+   "title": "Product Owner IA Générative H/F",
+   "url": "https://jobs.smartrecruiters.com/NEXTON/744000164015899",
+   "reason": "expérience demandée ≥ 5 ans « formation superieure (bac+5), tu as au moins 5 ans d'experience en tant que »",
+   "at": "2026-11-27T14:28:07+00:00"
+  },
+  {
+   "id": "4486f5d973cb",
+   "company": "NEXTON",
+   "title": "Consultant Senior Data Quality & Alteryx H/F",
+   "url": "https://jobs.smartrecruiters.com/NEXTON/744000164012386",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-27T14:28:07+00:00"
+  },
+  {
+   "id": "138cc2cb7b94",
+   "company": "NEXTON",
+   "title": "Business Analyst H/F",
+   "url": "https://jobs.smartrecruiters.com/NEXTON/744000164015585",
+   "reason": "lieu hors zones",
+   "at": "2026-11-27T14:28:05+00:00"
+  },
+  {
+   "id": "d8c743681cd0",
+   "company": "NEXTON",
+   "title": "Business Analyst H/F",
+   "url": "https://jobs.smartrecruiters.com/NEXTON/744000164016919",
+   "reason": "lieu hors zones",
+   "at": "2026-11-27T14:28:04+00:00"
+  },
+  {
+   "id": "6cda7a96abfd",
+   "company": "Meritis",
+   "title": "Product Owner IA (H/F)",
+   "url": "https://jobs.smartrecruiters.com/Meritis/744000164011079",
+   "reason": "lieu hors zones",
+   "at": "2026-11-27T14:27:58+00:00"
+  },
+  {
+   "id": "fb5e34faf24e",
+   "company": "Meritis",
+   "title": "Data Architecte (H/F)",
+   "url": "https://jobs.smartrecruiters.com/Meritis/744000163981609",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-27T14:27:58+00:00"
+  },
+  {
+   "id": "25affd4925f5",
+   "company": "Meritis",
+   "title": "Développeur IA (H/F)",
+   "url": "https://jobs.smartrecruiters.com/Meritis/744000164011399",
+   "reason": "lieu hors zones",
+   "at": "2026-11-27T14:27:56+00:00"
+  },
+  {
+   "id": "ab89667c165c",
+   "company": "Meritis",
+   "title": "Chef de Projet / Business Analyst Senior (H/F)",
+   "url": "https://jobs.smartrecruiters.com/Meritis/744000164010865",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-27T14:27:56+00:00"
+  },
+  {
+   "id": "af476c893edb",
+   "company": "Magellan Partners",
+   "title": "Chef de projet Data & BI [Luxe-Retail] (H/F)",
+   "url": "https://jobs.smartrecruiters.com/Magellan/744000163995199",
+   "reason": "expérience demandée ≥ 3 ans « es d'informations, vous justifiez d'au moins 3 ans d'experience professionn »",
+   "at": "2026-11-27T14:27:46+00:00"
+  },
+  {
+   "id": "5ffbdfeb63d5",
+   "company": "Magellan Partners",
+   "title": "Manager Data/IA [Luxe-Retail] (H/F)",
+   "url": "https://jobs.smartrecruiters.com/Magellan/744000163986415",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-27T14:27:46+00:00"
+  },
+  {
+   "id": "99baf80e6865",
+   "company": "Magellan Partners",
+   "title": "Architecte Power Platform IA & Copilot (H/F)",
+   "url": "https://jobs.smartrecruiters.com/Magellan/744000164030035",
+   "reason": "titre exclu (architecte)",
+   "at": "2026-11-27T14:27:44+00:00"
+  },
+  {
+   "id": "73ca9d0943c0",
+   "company": "Sia Partners",
+   "title": "Final year internship - Marketing Data Scientist",
+   "url": "https://jobs.smartrecruiters.com/Sia/744000164039714",
+   "reason": "titre exclu (internship)",
+   "at": "2026-11-27T14:27:39+00:00"
+  },
+  {
+   "id": "abf58368c907",
+   "company": "Wavestone",
+   "title": "Consultant.e Confirmé.e - Data Platform Engineer (H/F)",
+   "url": "https://jobs.smartrecruiters.com/Wavestone1/744000164041560",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-27T14:27:33+00:00"
+  },
+  {
+   "id": "43fbd67c8ab2",
+   "company": "Wavestone",
+   "title": "Consultant.e Confirmé.e - Data Science & IA (H/F)",
+   "url": "https://jobs.smartrecruiters.com/Wavestone1/744000164037524",
+   "reason": "titre exclu (confirme)",
+   "at": "2026-11-27T14:27:33+00:00"
+  },
+  {
+   "id": "61b84c1748c2",
+   "company": "Wavestone",
+   "title": "Senior Consultant / Manager – Google Cloud Data & AI Specialist (H/F/X)",
+   "url": "https://jobs.smartrecruiters.com/Wavestone1/744000164043761",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-27T14:27:33+00:00"
+  },
+  {
+   "id": "a991040268ee",
+   "company": "Wavestone",
+   "title": "Senior Consultant / Manager – Databricks Platform Lead (H/F/X)",
+   "url": "https://jobs.smartrecruiters.com/Wavestone1/744000164041700",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-27T14:27:33+00:00"
+  },
+  {
+   "id": "ada3c128601e",
+   "company": "Wavestone",
+   "title": "Manager - Data & AI strategy (H/F/X)",
+   "url": "https://jobs.smartrecruiters.com/Wavestone1/744000164041541",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-27T14:27:33+00:00"
+  },
+  {
+   "id": "32df0fdd6df3",
+   "company": "Wavestone",
+   "title": "Senior Consultant / Manager – Forward Deployed AI Engineer (H/F/X)",
+   "url": "https://jobs.smartrecruiters.com/Wavestone1/744000164041213",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-27T14:27:33+00:00"
+  },
+  {
+   "id": "e727765062f9",
+   "company": "Wavestone",
+   "title": "Manager – Data & AI Engineering Lead (H/F/X)",
+   "url": "https://jobs.smartrecruiters.com/Wavestone1/744000164043799",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-27T14:27:33+00:00"
+  },
+  {
+   "id": "2e7db8a158ea",
+   "company": "Wavestone",
+   "title": "Senior Consultant - AI Security",
+   "url": "https://jobs.smartrecruiters.com/Wavestone1/744000164041236",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-27T14:27:33+00:00"
+  },
+  {
+   "id": "43c4152daa53",
+   "company": "Wavestone",
+   "title": "Senior Consultant.e - AI transformation & strategy (H/F/X)",
+   "url": "https://jobs.smartrecruiters.com/Wavestone1/744000164043679",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-27T14:27:33+00:00"
+  },
+  {
+   "id": "afe936183fba",
+   "company": "Wavestone",
+   "title": "Senior Consultant – Generative AI & Agentic Engineer (H/F/X)",
+   "url": "https://jobs.smartrecruiters.com/Wavestone1/744000164042862",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-27T14:27:33+00:00"
+  },
+  {
+   "id": "b653dd524c1a",
+   "company": "Wavestone",
+   "title": "Senior Consultant.e - Data Scientist (H/F)",
+   "url": "https://jobs.smartrecruiters.com/Wavestone1/744000164037646",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-27T14:27:33+00:00"
+  },
+  {
+   "id": "096934b77aed",
+   "company": "Wavestone",
+   "title": "Senior Consultant – Data & AI Engineer (H/F/X)",
+   "url": "https://jobs.smartrecruiters.com/Wavestone1/744000164041686",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-27T14:27:33+00:00"
+  },
+  {
+   "id": "4157a4c0428d",
+   "company": "Wavestone",
+   "title": "Manager – Data & AI Platform Architect (H/F/X)",
+   "url": "https://jobs.smartrecruiters.com/Wavestone1/744000164041633",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-27T14:27:33+00:00"
+  },
+  {
+   "id": "86edd121f82c",
+   "company": "Wavestone",
+   "title": "Manager - Lead Data Scientist (H/F)",
+   "url": "https://jobs.smartrecruiters.com/Wavestone1/744000164042550",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-27T14:27:33+00:00"
+  },
+  {
+   "id": "259b76be1fd8",
+   "company": "Talan",
+   "title": "Ingénieur IA générative (F/H) - CDI - Lille",
+   "url": "https://jobs.smartrecruiters.com/Talan/744000163983344",
+   "reason": "lieu hors zones",
+   "at": "2026-11-27T14:27:26+00:00"
+  },
+  {
+   "id": "b4574e6536d9",
+   "company": "Talan",
+   "title": "Senior Consultant Conformité Réglementaire & Risques Data / IA (H/F)",
+   "url": "https://jobs.smartrecruiters.com/Talan/744000163963549",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-27T14:27:26+00:00"
+  },
+  {
+   "id": "2450d303fc82",
+   "company": "Talan",
+   "title": "Consultant AMOA SI / Business Analyst (F/H) - CDI - Niort",
+   "url": "https://jobs.smartrecruiters.com/Talan/744000163988715",
+   "reason": "lieu hors zones",
+   "at": "2026-11-27T14:27:24+00:00"
+  },
   {
    "id": "4d22257c0d0f",
    "company": "Meritis",
