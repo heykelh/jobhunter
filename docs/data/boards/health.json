@@ -1,76 +1,76 @@
 {
- "updated": "2026-11-27T20:24:30+00:00",
+ "updated": "2026-11-27T23:31:16+00:00",
  "companies": {
   "APEC": {
-   "checked_at": "2026-11-27T20:22:17+00:00",
+   "checked_at": "2026-11-27T23:29:23+00:00",
    "status": "désactivée",
    "failures": 0,
    "warnings": [],
    "error": "désactivée dans la configuration"
   },
   "HelloWork": {
-   "checked_at": "2026-11-27T20:22:18+00:00",
+   "checked_at": "2026-11-27T23:29:24+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 409,
-   "keyword_matches": 348,
+   "links_found": 410,
+   "keyword_matches": 349,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-27T20:23:09+00:00",
+   "last_ok": "2026-11-27T23:29:52+00:00",
    "failures": 0
   },
   "jobs.ch": {
-   "checked_at": "2026-11-27T20:23:23+00:00",
+   "checked_at": "2026-11-27T23:30:06+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 267,
+   "links_found": 258,
    "keyword_matches": 119,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-27T20:23:46+00:00",
+   "last_ok": "2026-11-27T23:30:32+00:00",
    "failures": 0
   },
   "jobup.ch": {
-   "checked_at": "2026-11-27T20:23:46+00:00",
+   "checked_at": "2026-11-27T23:30:32+00:00",
    "error": "",
    "warnings": [],
-   "links_found": 242,
+   "links_found": 241,
    "keyword_matches": 95,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-27T20:24:09+00:00",
+   "last_ok": "2026-11-27T23:30:55+00:00",
    "failures": 0
   },
   "Moovijob (Luxembourg)": {
-   "checked_at": "2026-11-27T20:24:09+00:00",
+   "checked_at": "2026-11-27T23:30:55+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
    "keyword_matches": 0,
    "kept_this_run": 0,
    "status": "vide",
-   "failures": 40
+   "failures": 41
   },
   "HelloWork (Transavia, RATP, ADP)": {
-   "checked_at": "2026-11-27T20:23:09+00:00",
+   "checked_at": "2026-11-27T23:29:52+00:00",
    "error": "",
    "warnings": [],
    "links_found": 205,
    "keyword_matches": 7,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-27T20:23:23+00:00",
+   "last_ok": "2026-11-27T23:30:06+00:00",
    "failures": 0
   },
   "France Travail": {
-   "checked_at": "2026-11-27T20:22:17+00:00",
+   "checked_at": "2026-11-27T23:29:23+00:00",
    "status": "désactivée",
    "failures": 0,
    "warnings": [],
    "error": "désactivée dans la configuration"
   },
   "Welcome to the Jungle": {
-   "checked_at": "2026-11-27T20:22:17+00:00",
+   "checked_at": "2026-11-27T23:29:23+00:00",
    "error": "RuntimeError: Welcome to the Jungle → JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
    "warnings": [
     "Welcome to the Jungle → JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
@@ -78,7 +78,7 @@
    "links_found": 0,
    "keyword_matches": 0,
    "status": "erreur",
-   "failures": 1
+   "failures": 2
   }
  }
 }
