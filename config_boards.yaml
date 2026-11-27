@@ -39,6 +39,13 @@ companies:
     params:
       region: "11"              # Île-de-France
 
+  - name: Welcome to the Jungle
+    source: wttj                # moteur de recherche du site (index Algolia public, clé relue à chaque passage)
+    aggregator: true            # l'entreprise affichée est le vrai employeur ; ses offres des 30 derniers jours
+    published_within_days: 30
+    pages: 2                    # 100 offres par page et par mot-clé
+    max_details: 40
+
   - name: HelloWork
     source: html                # chaque fiche contient ses données structurées (employeur, lieu, contrat, date)
     aggregator: true

@@ -833,6 +833,118 @@ def collect_francetravail(comp: dict, fetcher: Fetcher, keywords: list[str]) -> 
     return list(out.values()), (errors if not out else [])
 
 
+# ------------------------------------------------------------- Welcome to the Jungle
+WTTJ = "https://www.welcometothejungle.com"
+WTTJ_CONTRACTS = {"full_time": "CDI", "temporary": "CDD", "fixed_term": "CDD", "internship": "stage",
+                  "apprenticeship": "alternance", "freelance": "freelance", "vie": "VIE", "part_time": "temps partiel",
+                  "graduate_program": "CDI graduate", "other": ""}
+_wttj_env: dict = {}
+
+
+def _wttj_keys(fetcher: Fetcher) -> tuple[str, str]:
+    """Identifiant et clé de recherche Algolia publics du site (ils changent : relus à chaque passage)."""
+    if not _wttj_env:
+        r = fetcher.s.get(f"{WTTJ}/api/env", timeout=30, headers={"Accept": "application/json", "Referer": WTTJ + "/fr"})
+        r.raise_for_status()
+        env = r.json() or {}
+        flat = {}
+
+        def walk(d):
+            for k, v in (d.items() if isinstance(d, dict) else []):
+                if isinstance(v, dict):
+                    walk(v)
+                else:
+                    flat[str(k).upper()] = v
+        walk(env)
+        app = next((v for k, v in flat.items() if "ALGOLIA" in k and ("APP" in k)), None)
+        key = next((v for k, v in flat.items() if "ALGOLIA" in k and "KEY" in k and "ADMIN" not in k), None)
+        if not app or not key:
+            raise RuntimeError("clés Algolia introuvables dans /api/env (le site a changé)")
+        _wttj_env.update(app=str(app), key=str(key))
+    return _wttj_env["app"], _wttj_env["key"]
+
+
+def collect_wttj(comp: dict, fetcher: Fetcher, keywords: list[str], keyword_hit=None) -> tuple[list[Listing], list[str]]:
+    """Welcome to the Jungle : index de recherche Algolia public du site, offres des 30 derniers jours."""
+    out, errors = {}, []
+    try:
+        app, key = _wttj_keys(fetcher)
+    except Exception as e:
+        return [], [f"Welcome to the Jungle → {type(e).__name__}: {str(e)[:150]}"]
+    since = int(time.time()) - 86400 * int(comp.get("published_within_days", 30))
+    headers = {"X-Algolia-Application-Id": app, "X-Algolia-API-Key": key, "Referer": WTTJ + "/",
+               "Origin": WTTJ, "Content-Type": "application/json", "Accept": "application/json"}
+    indexes = [comp.get("index", "wttj_jobs_production_fr"), "wttj_jobs_production_en"]
+    from urllib.parse import urlencode
+    for q in comp.get("search_terms") or keywords:
+        for page in range(int(comp.get("pages", 2))):
+            params = urlencode({"query": q, "hitsPerPage": 100, "page": page, "distinct": "false",
+                                "numericFilters": f"published_at_timestamp>{since}"})
+            hits, total_pages = None, 0
+            for idx in indexes:
+                url = f"https://{app.lower()}-dsn.algolia.net/1/indexes/{idx}/query"
+                try:
+                    fetcher._polite(url)
+                    r = fetcher.s.post(url, json={"params": params}, headers=headers, timeout=30)
+                    r.raise_for_status()
+                    js = r.json() or {}
+                    hits, total_pages = js.get("hits") or [], int(js.get("nbPages") or 0)
+                    indexes = [idx]
+                    break
+                except Exception as e:
+                    errors.append(f"{url} [{q}] → {type(e).__name__}: {str(e)[:120]}")
+            if not hits:
+                break
+            for h in hits:
+                title = clean_title(h.get("name") or "")
+                org = h.get("organization") or {}
+                if not title or not h.get("slug") or not org.get("slug") or (keyword_hit and not keyword_hit(title)):
+                    continue
+                offices = h.get("offices") or []
+                where = "; ".join(squash(" ".join(filter(None, [o.get("city"), o.get("state"), o.get("country")])))
+                                  for o in offices if isinstance(o, dict))
+                ct = str(h.get("contract_type") or "")
+                ctx = squash(" · ".join(filter(None, [where, WTTJ_CONTRACTS.get(ct, ct.replace("_", " ")),
+                                                      f"expérience minimum {h['experience_level_minimum']} ans"
+                                                      if h.get("experience_level_minimum") not in (None, "") else ""])))
+                link = f"{WTTJ}/fr/companies/{org['slug']}/jobs/{h['slug']}"
+                pub = h.get("published_at") or h.get("published_at_timestamp")
+                out.setdefault(link, Listing(url=link, title=title, context=ctx, published=parse_date(pub),
+                                             employer=org.get("name")))
+            if page + 1 >= total_pages:
+                break
+    fetcher.diag.append(f"[wttj] {len(out)} offres avec mots-clés via Algolia")
+    if not out and not errors:
+        fetcher.empty_ok = True
+    return list(out.values()), (errors if not out else [])
+
+
+def fetch_wttj_detail(fetcher: Fetcher, url: str) -> Detail:
+    """Fiche par l'API du site (description, profil recherché), sinon la page."""
+    m = re.search(r"/companies/([^/]+)/jobs/([^/?#]+)", url)
+    if m:
+        try:
+            api = f"https://api.welcometothejungle.com/api/v1/organizations/{m.group(1)}/jobs/{m.group(2)}"
+            fetcher._polite(api)
+            r = fetcher.s.get(api, timeout=30, headers={"Accept": "application/json", "Referer": WTTJ + "/"})
+            if r.status_code < 400:
+                j = (r.json() or {}).get("job") or {}
+                text = " ".join(_html_to_text(j.get(k)) for k in ("description", "profile", "recruitment_process") if j.get(k))
+                if len(text) > 200:
+                    ct = str(j.get("contract_type") or "")
+                    offices = j.get("offices") or []
+                    d = Detail(text=squash(text), title=clean_title(j.get("name") or "") or None)
+                    d.structured = squash(" · ".join(filter(None, ["; ".join(squash(" ".join(filter(None, [o.get("city"), o.get("country")])))
+                                                                             for o in offices if isinstance(o, dict)),
+                                                                  WTTJ_CONTRACTS.get(ct, ct.replace("_", " "))])))
+                    d.published = parse_date(j.get("published_at"))
+                    d.employer = (j.get("organization") or {}).get("name")
+                    return d
+        except Exception:
+            pass
+    return fetch_detail(fetcher, url)
+
+
 # ------------------------------------------------------------- SEEK (Nouvelle-Zélande / Australie)
 SEEK_HOSTS = ["https://www.seek.co.nz", "https://nz.seek.com"]
 
@@ -1041,6 +1153,8 @@ def detail_for(comp: dict, fetcher: Fetcher, url: str) -> Detail:
             pass
     if comp.get("source") == "smartrecruiters":
         return fetch_smartrecruiters_detail(fetcher, url)
+    if comp.get("source") == "wttj":
+        return fetch_wttj_detail(fetcher, url)
     return fetch_detail(fetcher, url, render=comp.get("render_detail", comp.get("render", False)))
 
 
@@ -1147,10 +1261,12 @@ def collect(comp: dict, fetcher: Fetcher, keywords: list[str], keyword_hit,
             state: dict | None = None) -> tuple[list[Listing], list[str]]:
     """Renvoie (offres trouvées, erreurs par URL)."""
     src = comp.get("source", "html")
-    if src in ("workday", "sequence", "reed", "smartrecruiters", "francetravail", "seek"):
+    if src in ("workday", "sequence", "reed", "smartrecruiters", "francetravail", "seek", "wttj"):
         fetcher.diag = []
         if src == "smartrecruiters":
             return collect_smartrecruiters(comp, fetcher, keyword_hit)
+        if src == "wttj":
+            return collect_wttj(comp, fetcher, keywords, keyword_hit)
         if src == "seek":
             return collect_seek(comp, fetcher, keywords, keyword_hit)
         if src == "francetravail":

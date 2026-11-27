@@ -523,3 +523,33 @@ def test_seek_nz_and_work_rights():
     assert needs_existing_work_rights("You must have the legal right to work in New Zealand to apply.")
     assert needs_existing_work_rights("Unfortunately we are unable to sponsor visas for this role.")
     assert not needs_existing_work_rights("We can support visa applications for the right candidate.")
+
+
+def test_wttj_collect_and_detail():
+    import jobhunter.sources as src
+    src._wttj_env.clear()
+    posts = []
+    def get(url, timeout=0, headers=None, params=None):
+        if url.endswith("/api/env"):
+            return _R({"ALGOLIA_APPLICATION_ID": "CSEKHVMS53", "ALGOLIA_API_KEY_CLIENT": "abc"})
+        assert "api.welcometothejungle.com/api/v1/organizations/acme/jobs/data-analyst_paris" in url
+        return _R({"job": {"name": "Data Analyst", "description": "<p>" + "Analyse des données de vente. " * 10 + "</p>",
+                           "profile": "<p>Première expérience appréciée</p>", "contract_type": "full_time",
+                           "offices": [{"city": "Paris", "country": "France"}], "organization": {"name": "Acme"}}})
+    def post(url, json=None, headers=None, timeout=0):
+        posts.append((url, json, headers))
+        return _R({"nbPages": 1, "hits": [
+            {"name": "Data Analyst", "slug": "data-analyst_paris", "organization": {"slug": "acme", "name": "Acme"},
+             "offices": [{"city": "Paris", "country": "France"}], "contract_type": "full_time",
+             "published_at_timestamp": 1795000000},
+            {"name": "Stage Data Analyst", "slug": "stage", "organization": {"slug": "acme"}, "contract_type": "internship"},
+            {"name": "Commercial", "slug": "x", "organization": {"slug": "acme"}}]})
+    f = _fetcher(get=get, post=post)
+    comp = {"name": "Welcome to the Jungle", "source": "wttj", "search_terms": ["data"]}
+    ls, errs = src.collect(comp, f, ["data"], lambda t: "data" in t.lower())
+    assert not errs and len(ls) == 2 and ls[0].employer == "Acme" and "CDI" in ls[0].context
+    assert ls[0].url == "https://www.welcometothejungle.com/fr/companies/acme/jobs/data-analyst_paris"
+    assert "csekhvms53-dsn.algolia.net/1/indexes/wttj_jobs_production_fr/query" in posts[0][0]
+    assert posts[0][2]["Referer"].startswith("https://www.welcometothejungle.com") and "published_at_timestamp" in posts[0][1]["params"]
+    d = src.detail_for(comp, f, ls[0].url)
+    assert "Analyse des données" in d.text and "CDI" in d.structured and "Paris" in d.structured

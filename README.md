@@ -55,7 +55,7 @@ Un passage s'arrête de lui-même après 38 minutes (`time_budget_minutes`). Le 
 | Liste | Sources | Réglages | Robot (GitHub Actions) | Données |
 |---|---|---|---|---|
 | Sites carrière (page d'accueil) | une trentaine d'entreprises (sites carrière officiels) | `config.yaml` | **JobHunter**, toutes les 30 min | `docs/data/` |
-| Sites d'emploi (`?p=boards`) | HelloWork, jobs.ch, jobup.ch, Moovijob, France Travail (si clés ajoutées) ; APEC désactivé : anti-robot | `config_boards.yaml` (reprend les critères de `config.yaml`) | **JobHunter sites d'emploi**, toutes les 2 h | `docs/data/boards/` |
+| Sites d'emploi (`?p=boards`) | Welcome to the Jungle, HelloWork, jobs.ch, jobup.ch, Moovijob, France Travail (si clés ajoutées) ; APEC désactivé : anti-robot | `config_boards.yaml` (reprend les critères de `config.yaml`) | **JobHunter sites d'emploi**, toutes les 2 h | `docs/data/boards/` |
 | Workday · SmartRecruiters (`?p=ats`) | API publiques Workday et SmartRecruiters d'une quarantaine d'employeurs (Banque de France, Sanofi, Chanel, Renault, Publicis, Free, Talan…) | `config_ats.yaml` (reprend les critères de `config.yaml`) | **JobHunter Workday SmartRecruiters**, toutes les 4 h | `docs/data/ats/` |
 | Nouvelle-Zélande (`?p=nz`) | SEEK (n°1 en NZ) + employeurs sur place (Accor Pacific, Pernod Ricard Winemakers, Deloitte NZ, PwC, Contact Energy…) ; offres réservées aux personnes ayant déjà le droit de travailler en NZ écartées | `config_nz.yaml` (reprend les critères de `config.yaml`, zone NZ) | **JobHunter Nouvelle-Zelande**, toutes les 6 h | `docs/data/nz/` |
 
