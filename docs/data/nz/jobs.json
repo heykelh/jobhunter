@@ -1,0 +1,43 @@
+{
+ "updated": "2026-11-27T20:24:30+00:00",
+ "jobs": [
+  {
+   "id": "39a627299dc6",
+   "company": "salt",
+   "title": "Site Reliability Engineer (Datadog experience)",
+   "url": "https://www.seek.co.nz/job/96156517",
+   "via": "SEEK",
+   "zone": "Nouvelle-Zélande",
+   "country": "Nouvelle-Zélande",
+   "contract": "CDD",
+   "experience": "1 an min.",
+   "junior": false,
+   "published": "2026-11-26T23:20:55+00:00",
+   "seed": true,
+   "rv": 7,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-27T20:23:33+00:00",
+   "last_seen": "2026-11-27T20:23:33+00:00"
+  },
+  {
+   "id": "748d1df7f743",
+   "company": "Heartland Bank",
+   "title": "Graduate Test Analyst",
+   "url": "https://www.seek.co.nz/job/96100630",
+   "via": "SEEK",
+   "zone": "Nouvelle-Zélande",
+   "country": "Nouvelle-Zélande",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-24T21:17:13+00:00",
+   "seed": true,
+   "rv": 7,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-27T20:23:08+00:00",
+   "last_seen": "2026-11-27T20:23:08+00:00"
+  }
+ ]
+}

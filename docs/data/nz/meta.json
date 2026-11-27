@@ -1,0 +1,40 @@
+{
+ "updated": "2026-11-27T20:24:30+00:00",
+ "keywords": [
+  "data",
+  "analyst",
+  "analyste",
+  "product builder",
+  "revenue management",
+  "pricing",
+  "ai",
+  "ia"
+ ],
+ "contracts": [
+  "CDI",
+  "CDD"
+ ],
+ "zones": [
+  "Nouvelle-Zélande"
+ ],
+ "max_experience_years": 2,
+ "companies": [
+  "SEEK",
+  "Accor Pacific",
+  "Deloitte NZ",
+  "Contact Energy",
+  "University of Auckland",
+  "AsureQuality",
+  "Hato Hone St John",
+  "Pernod Ricard Winemakers NZ",
+  "PwC New Zealand",
+  "Te Whatu Ora (Health NZ)"
+ ],
+ "ai": {
+  "ok": 1,
+  "errors": 0,
+  "last_error": "",
+  "model": "openai/gpt-oss-120b",
+  "at": "2026-11-27T20:24:30+00:00"
+ }
+}
