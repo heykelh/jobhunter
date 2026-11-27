@@ -1,6 +1,102 @@
 {
- "updated": "2026-11-27T14:03:23+00:00",
+ "updated": "2026-11-27T20:36:44+00:00",
  "items": [
+  {
+   "id": "d989f0f5c2f1",
+   "company": "ING",
+   "title": "Technical Business Analyst",
+   "url": "https://careers.ing.com/en/job/istanbul/technical-business-analyst/3121/45961168064",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-27T20:36:44+00:00"
+  },
+  {
+   "id": "1eec1093e4f9",
+   "company": "UBS",
+   "title": "Trading AI Developer, Global Markets",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=352485",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-27T20:35:39+00:00"
+  },
+  {
+   "id": "e3a4ee81a547",
+   "company": "UBS",
+   "title": "Business Aligned Compliance Analyst",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=353673",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-27T20:35:38+00:00"
+  },
+  {
+   "id": "e36cd78c6229",
+   "company": "VINCI (dont ETF)",
+   "title": "PFE : conduite de travaux GC (IA Factory) F/H",
+   "url": "https://jobs.vinci.com/fr/emploi/besse-sur-braye/pfe-conduite-de-travaux-gc-ia-factory-f-h/1440/47286577024",
+   "reason": "lieu hors zones",
+   "at": "2026-11-27T20:32:51+00:00"
+  },
+  {
+   "id": "73586c2e0239",
+   "company": "BPCE",
+   "title": "Auditeur Data (F/H) - Orvault (44)",
+   "url": "https://recrutement.bpce.fr/job/auditeur-data-f-h-orvault-44",
+   "reason": "lieu hors zones",
+   "at": "2026-11-27T20:29:42+00:00"
+  },
+  {
+   "id": "9f75a4f54499",
+   "company": "BPCE",
+   "title": "Stage - 6 mois - Analyste Impact et ESG (F/H)",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-analyste-impact-et-esg-f-h",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-27T20:29:32+00:00"
+  },
+  {
+   "id": "ec2f4caedd7c",
+   "company": "Crédit Agricole",
+   "title": "STAGE - Data Management - FUND CHANNEL H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-124-stage---data-management---fund-channel-hf-reference--2026-117848--/",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-27T20:27:07+00:00"
+  },
+  {
+   "id": "fb7754aa247b",
+   "company": "Société Générale",
+   "title": "Analyste sur l'incertitude des IA Agentiques",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-sur-lincertitude-des-ia-agentiques-26000JYE-fr",
+   "reason": "contrat hors CDI/CDD (stage, alternance…)",
+   "at": "2026-11-27T20:26:17+00:00"
+  },
+  {
+   "id": "23bb727981c9",
+   "company": "Accor",
+   "title": "Data Product Director \"Digital & Guest Experience\" F/M/X",
+   "url": "https://jobs.smartrecruiters.com/accorcorpo/744000164076380",
+   "reason": "titre exclu (director)",
+   "at": "2026-11-27T20:24:15+00:00"
+  },
+  {
+   "id": "da87b1951c56",
+   "company": "Accor",
+   "title": "Data Product Director \"Digital & Guest Experience\" - F/M/X",
+   "url": "https://jobs.smartrecruiters.com/accorcorpo/744000164074268",
+   "reason": "titre exclu (director)",
+   "at": "2026-11-27T20:24:15+00:00"
+  },
+  {
+   "id": "6f9ee9ede81c",
+   "company": "Alstom",
+   "title": "HR Administration Analyst",
+   "url": "https://jobsearch.alstom.com/job/Queretaro-HR-Administration-Analyst-QUE/1461491433/",
+   "reason": "lieu inconnu ou hors zones",
+   "at": "2026-11-27T20:24:00+00:00"
+  },
+  {
+   "id": "c3da8cfa7151",
+   "company": "Disneyland Paris",
+   "title": "Stage Business Analyst F&B (H/F/NB)",
+   "url": "https://www.disneycareers.com/fr/emploi/marne-la-vallee/stage-business-analyst-f-and-b-h-f-nb/391/102640022176",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-27T20:23:35+00:00"
+  },
   {
    "id": "ca5bbb6a474c",
    "company": "SIX Group",
@@ -11904,102 +12000,6 @@
    "url": "https://recrutement.bpce.fr/job/chef-de-projet-si-gouvernance-data-f-h",
    "reason": "expérience demandée ≥ 4 ans",
    "at": "2026-10-20T13:56:27+00:00"
-  },
-  {
-   "id": "900294458b97",
-   "company": "BPCE",
-   "title": "Audit Interne - Data investigation (F/H) - CDD 6 mois",
-   "url": "https://recrutement.bpce.fr/job/audit-interne-data-investigation-f-h-cdd-6-mois",
-   "reason": "expérience demandée ≥ 5 ans",
-   "at": "2026-10-20T13:56:18+00:00"
-  },
-  {
-   "id": "8111a90107d7",
-   "company": "Crédit Agricole",
-   "title": "STAGE - Analyste Coverage H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-3-stage---analyste-coverage-hf-reference--2026-116545--/",
-   "reason": "titre exclu (stage)",
-   "at": "2026-10-20T13:55:28+00:00"
-  },
-  {
-   "id": "40d13c9f407d",
-   "company": "BPCE",
-   "title": "IT Data Architect (F/H)",
-   "url": "https://recrutement.bpce.fr/job/it-data-architect-f-h",
-   "reason": "expérience demandée ≥ 10 ans",
-   "at": "2026-10-20T13:27:02+00:00"
-  },
-  {
-   "id": "fc230f4193ce",
-   "company": "Crédit Agricole",
-   "title": "STAGE - Fund Dealing Officer / Transfer - Static Data – Account opening H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-136-stage---fund-dealing-officer--transfer---static-data--account-opening-hf-reference--2026-115854--/",
-   "reason": "titre exclu (stage)",
-   "at": "2026-10-20T13:26:14+00:00"
-  },
-  {
-   "id": "567c69f2cc2b",
-   "company": "Crédit Agricole",
-   "title": "STAGE - Analyste Coverage France - Lyon H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-3-stage---analyste-coverage-france---lyon-hf-reference--2026-116545--/",
-   "reason": "titre exclu (stage)",
-   "at": "2026-10-20T13:26:14+00:00"
-  },
-  {
-   "id": "89e49fd9099e",
-   "company": "Crédit Agricole",
-   "title": "Compensation analyst H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/577-170475-124-compensation-analyst-hf-reference--2026-116678--/",
-   "reason": "expérience demandée ≥ 3 ans",
-   "at": "2026-10-20T13:26:11+00:00"
-  },
-  {
-   "id": "91b89d94d736",
-   "company": "Crédit Agricole",
-   "title": "Stage - Business Strategy Analyst H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage---business-strategy-analyst-hf-reference--2026-115426--/",
-   "reason": "titre exclu (stage)",
-   "at": "2026-10-20T13:26:11+00:00"
-  },
-  {
-   "id": "179c2357152f",
-   "company": "Crédit Agricole",
-   "title": "Data Manager Trade Finance H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-data-manager-trade-finance-hf-reference--2026-116669--/",
-   "reason": "titre exclu (manager)",
-   "at": "2026-10-20T13:26:11+00:00"
-  },
-  {
-   "id": "d54ed5f0bc0d",
-   "company": "TotalEnergies",
-   "title": "Treasury Analyst (Contract)",
-   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Treasury-Analyst-Contract/84912",
-   "reason": "expérience demandée ≥ 3 ans",
-   "at": "2026-10-20T13:24:54+00:00"
-  },
-  {
-   "id": "a529302af38a",
-   "company": "TotalEnergies",
-   "title": "GIS Data Analyst",
-   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/GIS-Data-Analyst/83484",
-   "reason": "expérience demandée ≥ 5 ans",
-   "at": "2026-10-20T13:24:52+00:00"
-  },
-  {
-   "id": "d7d1acc63ff4",
-   "company": "TotalEnergies",
-   "title": "CDI - Analyste Expérimenté Performance Financière et Production CEE (H/F/X)",
-   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/CDI-Analyste-Exp-riment-Performance-Financi-re-et-Production-CEE-H-F-X/85041",
-   "reason": "titre exclu (experimente)",
-   "at": "2026-10-20T13:24:50+00:00"
-  },
-  {
-   "id": "459fcff562d6",
-   "company": "TotalEnergies",
-   "title": "Stage Data Analyst – Développement Réseau Stations - AS 24",
-   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Stage-Data-Analyst-D-veloppement-R-seau-Stations-AS-24/84790",
-   "reason": "titre exclu (stage)",
-   "at": "2026-10-20T13:24:50+00:00"
   }
  ]
 }
