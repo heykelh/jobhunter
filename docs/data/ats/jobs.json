@@ -1,6 +1,169 @@
 {
- "updated": "2026-11-27T14:28:49+00:00",
+ "updated": "2026-11-27T20:24:13+00:00",
  "jobs": [
+  {
+   "id": "9f9b116ecef7",
+   "company": "Wavestone",
+   "title": "CTO, CIO & IA - Consultant·e Junior en Transformation Digitale – CTO/CIO Advisory - CDI",
+   "url": "https://jobs.smartrecruiters.com/Wavestone1/744000164064660",
+   "via": null,
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-27T15:54:14+00:00",
+   "seed": false,
+   "rv": 7,
+   "match": null,
+   "salary": null,
+   "first_seen": "2026-11-27T20:22:53+00:00",
+   "last_seen": "2026-11-27T20:22:53+00:00"
+  },
+  {
+   "id": "de79382b0624",
+   "company": "Wavestone",
+   "title": "Accompagner les Tech Leaders à l'ère de l'IA - Consultant·e Junior en Transformation Digitale - CDI",
+   "url": "https://jobs.smartrecruiters.com/Wavestone1/744000164066834",
+   "via": null,
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-27T15:54:26+00:00",
+   "seed": false,
+   "rv": 7,
+   "match": {
+    "score": 80,
+    "have": [
+     "aws",
+     "gouvernance",
+     "dashboard",
+     "pilotage"
+    ],
+    "missing": [
+     "gcp"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-27T20:22:43+00:00",
+   "last_seen": "2026-11-27T20:22:43+00:00"
+  },
+  {
+   "id": "67602098d966",
+   "company": "Wavestone",
+   "title": "Cloud & IA - Consultant·e Junior en Transformation Digitale – CDI",
+   "url": "https://jobs.smartrecruiters.com/Wavestone1/744000164066939",
+   "via": null,
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-27T15:54:37+00:00",
+   "seed": false,
+   "rv": 7,
+   "match": {
+    "score": 100,
+    "have": [
+     "machine learning",
+     "intelligence artificielle",
+     "gouvernance",
+     "conformité"
+    ],
+    "missing": []
+   },
+   "salary": null,
+   "first_seen": "2026-11-27T20:22:42+00:00",
+   "last_seen": "2026-11-27T20:22:42+00:00"
+  },
+  {
+   "id": "071eb8d6c164",
+   "company": "Wavestone",
+   "title": "Plateformes digitales & IA - Consultant·e Junior en Transformation Digitale – CTO Advisory - CDI",
+   "url": "https://jobs.smartrecruiters.com/Wavestone1/744000164066440",
+   "via": null,
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-27T15:54:48+00:00",
+   "seed": false,
+   "rv": 7,
+   "match": {
+    "score": 50,
+    "have": [
+     "intelligence artificielle",
+     "gouvernance",
+     "pilotage"
+    ],
+    "missing": [
+     "azure",
+     "salesforce",
+     "dataiku"
+    ]
+   },
+   "salary": null,
+   "first_seen": "2026-11-27T20:22:40+00:00",
+   "last_seen": "2026-11-27T20:22:40+00:00"
+  },
+  {
+   "id": "66cd89942e81",
+   "company": "Wavestone",
+   "title": "IA & Digital Workplace - Consultant·e Junior en Transformation Digitale - CTO Advisory – CDI",
+   "url": "https://jobs.smartrecruiters.com/Wavestone1/744000164064757",
+   "via": null,
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-27T15:55:01+00:00",
+   "seed": false,
+   "rv": 7,
+   "match": {
+    "score": 100,
+    "have": [
+     "machine learning",
+     "intelligence artificielle",
+     "pilotage"
+    ],
+    "missing": []
+   },
+   "salary": null,
+   "first_seen": "2026-11-27T20:22:39+00:00",
+   "last_seen": "2026-11-27T20:22:39+00:00"
+  },
+  {
+   "id": "4808f6789fe1",
+   "company": "Wavestone",
+   "title": "IA & SI – Consultant·e Junior - CTO Advisory - CDI",
+   "url": "https://jobs.smartrecruiters.com/Wavestone1/744000164065766",
+   "via": null,
+   "zone": "Île-de-France",
+   "country": "France",
+   "contract": "CDI",
+   "experience": "junior / débutant",
+   "junior": true,
+   "published": "2026-11-27T15:55:28+00:00",
+   "seed": false,
+   "rv": 7,
+   "match": {
+    "score": 100,
+    "have": [
+     "intelligence artificielle",
+     "gouvernance",
+     "rgpd",
+     "ai act"
+    ],
+    "missing": []
+   },
+   "salary": null,
+   "first_seen": "2026-11-27T20:22:37+00:00",
+   "last_seen": "2026-11-27T20:22:37+00:00"
+  },
   {
    "id": "2321d9c2ba14",
    "company": "Wavestone",
@@ -571,7 +734,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-22T00:54:50+00:00",
-   "last_seen": "2026-11-25T01:10:29+00:00"
+   "last_seen": "2026-11-27T20:24:08+00:00"
   },
   {
    "id": "40837f5814df",
@@ -608,7 +771,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-22T00:51:33+00:00",
-   "last_seen": "2026-11-25T01:10:28+00:00",
+   "last_seen": "2026-11-27T20:24:06+00:00",
    "ghost": {
     "score": 2,
     "reasons": [
@@ -651,7 +814,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-22T00:47:13+00:00",
-   "last_seen": "2026-11-27T14:27:11+00:00",
+   "last_seen": "2026-11-27T20:22:16+00:00",
    "ghost": {
     "score": 2,
     "reasons": [
@@ -786,7 +949,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-21T22:59:54+00:00",
-   "last_seen": "2026-11-27T14:27:33+00:00",
+   "last_seen": "2026-11-27T20:22:53+00:00",
    "ghost": {
     "score": 2,
     "reasons": [
@@ -826,7 +989,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-21T22:59:42+00:00",
-   "last_seen": "2026-11-27T14:27:33+00:00",
+   "last_seen": "2026-11-27T20:22:53+00:00",
    "ghost": {
     "score": 2,
     "reasons": [
@@ -853,11 +1016,11 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-21T22:59:41+00:00",
-   "last_seen": "2026-11-27T14:27:33+00:00",
+   "last_seen": "2026-11-27T20:22:53+00:00",
    "ghost": {
     "score": 2,
     "reasons": [
-     "en ligne depuis 247 jours (depuis le 24/03/2026)"
+     "en ligne depuis 248 jours (depuis le 24/03/2026)"
     ],
     "reposts": 0,
     "since": "2026-03-24"
@@ -880,7 +1043,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-21T22:59:32+00:00",
-   "last_seen": "2026-11-27T14:27:33+00:00",
+   "last_seen": "2026-11-27T20:22:53+00:00",
    "ghost": {
     "score": 2,
     "reasons": [
@@ -907,7 +1070,7 @@
    "match": null,
    "salary": null,
    "first_seen": "2026-11-21T22:59:29+00:00",
-   "last_seen": "2026-11-27T14:27:33+00:00",
+   "last_seen": "2026-11-27T20:22:53+00:00",
    "ghost": {
     "score": 2,
     "reasons": [
@@ -942,7 +1105,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-21T22:59:14+00:00",
-   "last_seen": "2026-11-27T14:27:33+00:00"
+   "last_seen": "2026-11-27T20:22:53+00:00"
   },
   {
    "id": "e2a0f1985c3a",
@@ -1137,7 +1300,7 @@
    },
    "salary": null,
    "first_seen": "2026-11-21T22:58:48+00:00",
-   "last_seen": "2026-11-27T14:27:33+00:00"
+   "last_seen": "2026-11-27T20:22:53+00:00"
   }
  ]
 }

@@ -1,6 +1,78 @@
 {
- "updated": "2026-11-27T14:28:49+00:00",
+ "updated": "2026-11-27T20:24:13+00:00",
  "items": [
+  {
+   "id": "72d921380668",
+   "company": "NEXTON",
+   "title": "Business Analyst H/F",
+   "url": "https://jobs.smartrecruiters.com/NEXTON/744000164065789",
+   "reason": "lieu hors zones",
+   "at": "2026-11-27T20:23:20+00:00"
+  },
+  {
+   "id": "1aa5430c512b",
+   "company": "NEXTON",
+   "title": "Product Manager Data H/F",
+   "url": "https://jobs.smartrecruiters.com/NEXTON/744000164048899",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-27T20:23:20+00:00"
+  },
+  {
+   "id": "7584344060d2",
+   "company": "NEXTON",
+   "title": "Business Analyst Data senior H/F",
+   "url": "https://jobs.smartrecruiters.com/NEXTON/744000164047463",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-27T20:23:20+00:00"
+  },
+  {
+   "id": "405790c0270a",
+   "company": "ALTEN",
+   "title": "IT Business Analyst",
+   "url": "https://jobs.smartrecruiters.com/ALTEN/744000164053155",
+   "reason": "lieu hors zones",
+   "at": "2026-11-27T20:23:11+00:00"
+  },
+  {
+   "id": "d1e64e03fae9",
+   "company": "ALTEN",
+   "title": "Lead Data Engineer - Plateforme Skywise (H/F)",
+   "url": "https://jobs.smartrecruiters.com/ALTEN/744000164063499",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-27T20:23:10+00:00"
+  },
+  {
+   "id": "b28ee67fb699",
+   "company": "Magellan Partners",
+   "title": "Business Analyst / Salesforce (H/F)",
+   "url": "https://jobs.smartrecruiters.com/Magellan/744000164067819",
+   "reason": "contrat non précisé",
+   "at": "2026-11-27T20:23:04+00:00"
+  },
+  {
+   "id": "b8d5216358e6",
+   "company": "Magellan Partners",
+   "title": "Senior Business Analyst / Salesforce (H/F)",
+   "url": "https://jobs.smartrecruiters.com/Magellan/744000164054214",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-27T20:23:04+00:00"
+  },
+  {
+   "id": "af9cbd1bacca",
+   "company": "Sia Partners",
+   "title": "Data Analyst Manager",
+   "url": "https://jobs.smartrecruiters.com/Sia/744000164068379",
+   "reason": "titre exclu (manager)",
+   "at": "2026-11-27T20:22:58+00:00"
+  },
+  {
+   "id": "b19f9e650faa",
+   "company": "Talan",
+   "title": "Senior Business Analyst – Orchestrade",
+   "url": "https://jobs.smartrecruiters.com/Talan/744000164051558",
+   "reason": "titre exclu (senior)",
+   "at": "2026-11-27T20:22:28+00:00"
+  },
   {
    "id": "6dd7228a6d16",
    "company": "NEXTON",
