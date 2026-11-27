@@ -1,6 +1,14 @@
 {
- "updated": "2026-11-27T20:36:44+00:00",
+ "updated": "2026-11-27T22:56:15+00:00",
  "items": [
+  {
+   "id": "459fcff562d6",
+   "company": "TotalEnergies",
+   "title": "Stage Data Analyst – Développement Réseau Stations - AS 24",
+   "url": "https://jobs.totalenergies.com/fr_FR/careers/JobDetail/Stage-Data-Analyst-D-veloppement-R-seau-Stations-AS-24/84790",
+   "reason": "titre exclu (stage)",
+   "at": "2026-11-27T22:52:00+00:00"
+  },
   {
    "id": "d989f0f5c2f1",
    "company": "ING",
@@ -11992,14 +12000,6 @@
    "url": "https://recrutement.bpce.fr/job/stage-6-mois-data-scientist-ia-f-h",
    "reason": "titre exclu (stage)",
    "at": "2026-10-20T13:56:36+00:00"
-  },
-  {
-   "id": "c01f49b89d39",
-   "company": "BPCE",
-   "title": "Chef de Projet SI (Gouvernance Data) (F/H)",
-   "url": "https://recrutement.bpce.fr/job/chef-de-projet-si-gouvernance-data-f-h",
-   "reason": "expérience demandée ≥ 4 ans",
-   "at": "2026-10-20T13:56:27+00:00"
   }
  ]
 }
