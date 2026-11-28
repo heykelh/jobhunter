@@ -1,6 +1,126 @@
 {
- "updated": "2026-11-27T23:31:16+00:00",
+ "updated": "2026-11-28T14:18:37+00:00",
  "items": [
+  {
+   "id": "3587655293bd",
+   "company": "jobup.ch",
+   "title": "Business Process Consultant Data Science (w/m/d) – AI & SAP Retail Intelligence",
+   "url": "https://www.jobup.ch/fr/emplois/detail/dc324e87-3663-4de8-a978-dd3d3bf9a285/",
+   "reason": "annonce en allemand (titre)",
+   "at": "2026-11-28T14:18:15+00:00"
+  },
+  {
+   "id": "3dc18b635540",
+   "company": "jobup.ch",
+   "title": "AI Platform Engineer 80-100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/c3c64912-785f-49c8-a997-94c1abe7164e/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-28T14:18:13+00:00"
+  },
+  {
+   "id": "06de54a3d156",
+   "company": "jobup.ch",
+   "title": "Data Engineer (AI Projects)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/69048692-b8fa-4553-8169-2dcc02988ff5/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-28T14:18:11+00:00"
+  },
+  {
+   "id": "d28220cb3166",
+   "company": "jobup.ch",
+   "title": "AI Architect 80-100%",
+   "url": "https://www.jobup.ch/fr/emplois/detail/68728879-6fe5-441b-9204-51cdf94e9276/",
+   "reason": "titre exclu (architect)",
+   "at": "2026-11-28T14:18:11+00:00"
+  },
+  {
+   "id": "ed0158901447",
+   "company": "jobup.ch",
+   "title": "Scientific AI Platform Lead, Data Science, Disease Area X",
+   "url": "https://www.jobup.ch/fr/emplois/detail/71257b2a-0e1b-413e-b29c-45cb1f3d5d62/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-28T14:18:11+00:00"
+  },
+  {
+   "id": "9006846607ab",
+   "company": "jobup.ch",
+   "title": "Quantitative Analyst - Portfolio Optimization (Power and Gas)",
+   "url": "https://www.jobup.ch/fr/emplois/detail/4e20c8c2-eccd-4222-a368-13a207eca358/",
+   "reason": "contrat non précisé",
+   "at": "2026-11-28T14:18:10+00:00"
+  },
+  {
+   "id": "1d4cf4c1e3a9",
+   "company": "jobup.ch",
+   "title": "Global Pricing Lead, Global Pricing & Innovative Contracting",
+   "url": "https://www.jobup.ch/fr/emplois/detail/71b3fae0-95df-4232-bdb7-f93700293f0a/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-28T14:18:10+00:00"
+  },
+  {
+   "id": "e0dd607c5575",
+   "company": "jobs.ch",
+   "title": "Global Pricing Lead, Global Pricing & Innovative Contracting",
+   "url": "https://www.jobs.ch/fr/offres-emplois/detail/71b3fae0-95df-4232-bdb7-f93700293f0a/",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-28T14:17:46+00:00"
+  },
+  {
+   "id": "2be61214d38a",
+   "company": "HelloWork (Transavia, RATP, ADP)",
+   "title": "Tech Lead Data Engineering & Intégration H/F Transavia",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85975149.html",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-28T14:17:23+00:00"
+  },
+  {
+   "id": "77dd29dcd89e",
+   "company": "HelloWork",
+   "title": "Product Owner IA H/F Storm Group",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85954513.html",
+   "reason": "expérience demandée ≥ 5 ans « : tu justifies d'une experience confirmee de 5 a 10 ans en tant que product owne »",
+   "at": "2026-11-28T14:16:57+00:00"
+  },
+  {
+   "id": "bb798e1797a2",
+   "company": "HelloWork",
+   "title": "Data Scientist IA H/F Storm Group",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85954299.html",
+   "reason": "expérience demandée ≥ 3 ans « : tu justifies d'une experience confirmee de 3 a 7 ans en data science et devel »",
+   "at": "2026-11-28T14:16:55+00:00"
+  },
+  {
+   "id": "d2c3b83b7433",
+   "company": "HelloWork",
+   "title": "Analyste d'Exploitation Mainframe H/F DCS Easyware",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85959034.html",
+   "reason": "expérience demandée ≥ 3 ans « nts. le profil recherche vous disposez d'une experience confirmee en exploitation mainfram »",
+   "at": "2026-11-28T14:16:54+00:00"
+  },
+  {
+   "id": "62418f4c9c0c",
+   "company": "HelloWork",
+   "title": "Analyste Crédit H/F CreditJob",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85965375.html",
+   "reason": "expérience demandée ≥ 5 ans « rofil recherche profil :vous avez au minimum 5 annees d'experience professionn »",
+   "at": "2026-11-28T14:16:51+00:00"
+  },
+  {
+   "id": "1a50d2a91fef",
+   "company": "HelloWork",
+   "title": "Analyste Référentiel - Logistique en CDD H/F Carrefour",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85959513.html",
+   "reason": "expérience non précisée (ni sur la fiche, ni par l'IA)",
+   "at": "2026-11-28T14:16:50+00:00"
+  },
+  {
+   "id": "fd1640f189ac",
+   "company": "HelloWork",
+   "title": "Lead Data H/F Team.is",
+   "url": "https://www.hellowork.com/fr-fr/emplois/85960494.html",
+   "reason": "titre exclu (lead)",
+   "at": "2026-11-28T14:16:45+00:00"
+  },
   {
    "id": "e0dd34b25ec1",
    "company": "jobs.ch",
