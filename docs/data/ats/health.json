@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-28T00:18:01+00:00",
+ "updated": "2026-11-28T13:43:32+00:00",
  "companies": {
   "Banque de France": {
-   "checked_at": "2026-11-28T00:17:31+00:00",
+   "checked_at": "2026-11-28T13:43:03+00:00",
    "error": "Workday a demandé une pause (trop de requêtes) : lue au prochain passage",
    "warnings": [],
    "links_found": 20,
@@ -13,7 +13,7 @@
    "failures": 0
   },
   "Sanofi": {
-   "checked_at": "2026-11-28T00:18:00+00:00",
+   "checked_at": "2026-11-28T13:43:32+00:00",
    "error": "Workday a demandé une pause (trop de requêtes) : lue au prochain passage",
    "warnings": [],
    "links_found": 0,
@@ -24,7 +24,7 @@
    "failures": 4
   },
   "Pernod Ricard": {
-   "checked_at": "2026-11-28T00:18:00+00:00",
+   "checked_at": "2026-11-28T13:43:32+00:00",
    "error": "Workday a demandé une pause (trop de requêtes) : lue au prochain passage",
    "warnings": [],
    "links_found": 0,
@@ -35,7 +35,7 @@
    "failures": 3
   },
   "Chanel": {
-   "checked_at": "2026-11-28T00:18:00+00:00",
+   "checked_at": "2026-11-28T13:43:32+00:00",
    "error": "Workday a demandé une pause (trop de requêtes) : lue au prochain passage",
    "warnings": [],
    "links_found": 0,
@@ -46,7 +46,7 @@
    "failures": 6
   },
   "Meetic": {
-   "checked_at": "2026-11-28T00:16:36+00:00",
+   "checked_at": "2026-11-28T13:42:07+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
@@ -54,10 +54,10 @@
    "kept_this_run": 0,
    "status": "ok",
    "failures": 0,
-   "last_ok": "2026-11-28T00:16:37+00:00"
+   "last_ok": "2026-11-28T13:42:09+00:00"
   },
   "Tradelab": {
-   "checked_at": "2026-11-28T00:16:37+00:00",
+   "checked_at": "2026-11-28T13:42:09+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
@@ -65,10 +65,10 @@
    "kept_this_run": 0,
    "status": "ok",
    "failures": 0,
-   "last_ok": "2026-11-28T00:16:39+00:00"
+   "last_ok": "2026-11-28T13:42:10+00:00"
   },
   "Transaction Connect": {
-   "checked_at": "2026-11-28T00:16:39+00:00",
+   "checked_at": "2026-11-28T13:42:10+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
@@ -76,142 +76,142 @@
    "kept_this_run": 0,
    "status": "ok",
    "failures": 0,
-   "last_ok": "2026-11-28T00:16:40+00:00"
+   "last_ok": "2026-11-28T13:42:12+00:00"
   },
   "Talan": {
-   "checked_at": "2026-11-28T00:16:40+00:00",
+   "checked_at": "2026-11-28T13:42:12+00:00",
    "error": "",
    "warnings": [],
    "links_found": 91,
    "keyword_matches": 91,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-28T00:16:48+00:00",
+   "last_ok": "2026-11-28T13:42:19+00:00",
    "failures": 0
   },
   "Wavestone": {
-   "checked_at": "2026-11-28T00:16:48+00:00",
+   "checked_at": "2026-11-28T13:42:19+00:00",
    "error": "",
    "warnings": [],
    "links_found": 108,
    "keyword_matches": 108,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-28T00:16:55+00:00",
+   "last_ok": "2026-11-28T13:42:27+00:00",
    "failures": 0
   },
   "Sia Partners": {
-   "checked_at": "2026-11-28T00:16:55+00:00",
+   "checked_at": "2026-11-28T13:42:27+00:00",
    "error": "",
    "warnings": [],
    "links_found": 35,
    "keyword_matches": 35,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-28T00:17:01+00:00",
+   "last_ok": "2026-11-28T13:42:33+00:00",
    "failures": 0
   },
   "Magellan Partners": {
-   "checked_at": "2026-11-28T00:17:01+00:00",
+   "checked_at": "2026-11-28T13:42:33+00:00",
    "error": "",
    "warnings": [],
    "links_found": 42,
    "keyword_matches": 42,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-28T00:17:06+00:00",
+   "last_ok": "2026-11-28T13:42:37+00:00",
    "failures": 0
   },
   "ALTEN": {
-   "checked_at": "2026-11-28T00:17:06+00:00",
+   "checked_at": "2026-11-28T13:42:37+00:00",
    "error": "",
    "warnings": [],
    "links_found": 23,
    "keyword_matches": 23,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-28T00:17:12+00:00",
+   "last_ok": "2026-11-28T13:42:43+00:00",
    "failures": 0
   },
   "Meritis": {
-   "checked_at": "2026-11-28T00:17:12+00:00",
+   "checked_at": "2026-11-28T13:42:43+00:00",
    "error": "",
    "warnings": [],
    "links_found": 39,
    "keyword_matches": 39,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-28T00:17:15+00:00",
+   "last_ok": "2026-11-28T13:42:46+00:00",
    "failures": 0
   },
   "NEXTON": {
-   "checked_at": "2026-11-28T00:17:15+00:00",
+   "checked_at": "2026-11-28T13:42:46+00:00",
    "error": "",
    "warnings": [],
    "links_found": 49,
    "keyword_matches": 49,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-28T00:17:19+00:00",
+   "last_ok": "2026-11-28T13:42:51+00:00",
    "failures": 0
   },
   "Everience": {
-   "checked_at": "2026-11-28T00:17:19+00:00",
+   "checked_at": "2026-11-28T13:42:51+00:00",
    "error": "",
    "warnings": [],
    "links_found": 19,
    "keyword_matches": 19,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-28T00:17:24+00:00",
+   "last_ok": "2026-11-28T13:42:55+00:00",
    "failures": 0
   },
   "Bertelsmann": {
-   "checked_at": "2026-11-28T00:17:24+00:00",
+   "checked_at": "2026-11-28T13:42:55+00:00",
    "error": "",
    "warnings": [],
    "links_found": 2,
    "keyword_matches": 2,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-28T00:17:25+00:00",
+   "last_ok": "2026-11-28T13:42:57+00:00",
    "failures": 0
   },
   "Swiss Medical Network": {
-   "checked_at": "2026-11-28T00:17:25+00:00",
+   "checked_at": "2026-11-28T13:42:57+00:00",
    "error": "",
    "warnings": [],
    "links_found": 1,
    "keyword_matches": 1,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-28T00:17:28+00:00",
+   "last_ok": "2026-11-28T13:43:00+00:00",
    "failures": 0
   },
   "Nexthink": {
-   "checked_at": "2026-11-28T00:17:28+00:00",
+   "checked_at": "2026-11-28T13:43:00+00:00",
    "error": "",
    "warnings": [],
    "links_found": 1,
    "keyword_matches": 1,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-28T00:17:30+00:00",
+   "last_ok": "2026-11-28T13:43:01+00:00",
    "failures": 0
   },
   "Evooq": {
-   "checked_at": "2026-11-28T00:17:30+00:00",
+   "checked_at": "2026-11-28T13:43:01+00:00",
    "error": "",
    "warnings": [],
    "links_found": 2,
    "keyword_matches": 2,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-28T00:17:31+00:00",
+   "last_ok": "2026-11-28T13:43:03+00:00",
    "failures": 0
   },
   "Renault Group": {
-   "checked_at": "2026-11-28T00:18:01+00:00",
+   "checked_at": "2026-11-28T13:43:32+00:00",
    "error": "Workday a demandé une pause (trop de requêtes) : lue au prochain passage",
    "warnings": [],
    "links_found": 0,
@@ -222,7 +222,7 @@
    "last_ok": "2026-11-22T13:02:57+00:00"
   },
   "FDJ United": {
-   "checked_at": "2026-11-28T00:18:01+00:00",
+   "checked_at": "2026-11-28T13:43:32+00:00",
    "error": "Workday a demandé une pause (trop de requêtes) : lue au prochain passage",
    "warnings": [],
    "links_found": 0,
@@ -233,7 +233,7 @@
    "last_ok": "2026-11-22T13:05:34+00:00"
   },
   "AG2R La Mondiale": {
-   "checked_at": "2026-11-28T00:18:01+00:00",
+   "checked_at": "2026-11-28T13:43:32+00:00",
    "error": "Workday a demandé une pause (trop de requêtes) : lue au prochain passage",
    "warnings": [],
    "links_found": 52,
@@ -244,7 +244,7 @@
    "failures": 0
   },
   "Deloitte France": {
-   "checked_at": "2026-11-28T00:18:01+00:00",
+   "checked_at": "2026-11-28T13:43:32+00:00",
    "error": "Workday a demandé une pause (trop de requêtes) : lue au prochain passage",
    "warnings": [],
    "links_found": 132,
@@ -255,7 +255,7 @@
    "failures": 0
   },
   "PwC (jeunes diplômés)": {
-   "checked_at": "2026-11-28T00:18:01+00:00",
+   "checked_at": "2026-11-28T13:43:32+00:00",
    "error": "Workday a demandé une pause (trop de requêtes) : lue au prochain passage",
    "warnings": [],
    "links_found": 128,
@@ -266,7 +266,7 @@
    "last_ok": "2026-11-23T19:35:27+00:00"
   },
   "Pierre Fabre": {
-   "checked_at": "2026-11-28T00:18:01+00:00",
+   "checked_at": "2026-11-28T13:43:32+00:00",
    "error": "Workday a demandé une pause (trop de requêtes) : lue au prochain passage",
    "warnings": [],
    "links_found": 88,
@@ -277,7 +277,7 @@
    "last_ok": "2026-11-23T19:36:09+00:00"
   },
   "Rothschild & Co": {
-   "checked_at": "2026-11-28T00:18:01+00:00",
+   "checked_at": "2026-11-28T13:43:32+00:00",
    "error": "Workday a demandé une pause (trop de requêtes) : lue au prochain passage",
    "warnings": [],
    "links_found": 0,
@@ -288,7 +288,7 @@
    "failures": 2
   },
   "Ipsen": {
-   "checked_at": "2026-11-28T00:18:01+00:00",
+   "checked_at": "2026-11-28T13:43:32+00:00",
    "error": "Workday a demandé une pause (trop de requêtes) : lue au prochain passage",
    "warnings": [],
    "links_found": 0,
@@ -299,7 +299,7 @@
    "last_ok": "2026-11-22T22:40:14+00:00"
   },
   "Ardian": {
-   "checked_at": "2026-11-28T00:18:01+00:00",
+   "checked_at": "2026-11-28T13:43:32+00:00",
    "error": "Workday a demandé une pause (trop de requêtes) : lue au prochain passage",
    "warnings": [],
    "links_found": 0,
@@ -308,7 +308,7 @@
    "failures": 6
   },
   "onepoint": {
-   "checked_at": "2026-11-28T00:18:01+00:00",
+   "checked_at": "2026-11-28T13:43:32+00:00",
    "error": "Workday a demandé une pause (trop de requêtes) : lue au prochain passage",
    "warnings": [],
    "links_found": 0,
@@ -319,7 +319,7 @@
    "last_ok": "2026-11-22T22:41:29+00:00"
   },
   "Paris Saint-Germain": {
-   "checked_at": "2026-11-28T00:18:01+00:00",
+   "checked_at": "2026-11-28T13:43:32+00:00",
    "error": "Workday a demandé une pause (trop de requêtes) : lue au prochain passage",
    "warnings": [],
    "links_found": 0,
@@ -328,7 +328,7 @@
    "failures": 6
   },
   "Open": {
-   "checked_at": "2026-11-28T00:18:01+00:00",
+   "checked_at": "2026-11-28T13:43:32+00:00",
    "error": "Workday a demandé une pause (trop de requêtes) : lue au prochain passage",
    "warnings": [],
    "links_found": 0,
@@ -339,7 +339,7 @@
    "last_ok": "2026-11-23T15:35:47+00:00"
   },
   "Avanade": {
-   "checked_at": "2026-11-28T00:18:01+00:00",
+   "checked_at": "2026-11-28T13:43:32+00:00",
    "error": "Workday a demandé une pause (trop de requêtes) : lue au prochain passage",
    "warnings": [],
    "links_found": 0,
@@ -350,7 +350,7 @@
    "last_ok": "2026-11-23T15:39:29+00:00"
   },
   "Deutsche Bank": {
-   "checked_at": "2026-11-28T00:18:01+00:00",
+   "checked_at": "2026-11-28T13:43:32+00:00",
    "error": "Workday a demandé une pause (trop de requêtes) : lue au prochain passage",
    "warnings": [],
    "links_found": 0,
@@ -361,7 +361,7 @@
    "failures": 2
   },
   "Visa": {
-   "checked_at": "2026-11-28T00:18:01+00:00",
+   "checked_at": "2026-11-28T13:43:32+00:00",
    "error": "Workday a demandé une pause (trop de requêtes) : lue au prochain passage",
    "warnings": [],
    "links_found": 0,
@@ -372,7 +372,7 @@
    "last_ok": "2026-11-23T15:40:16+00:00"
   },
   "Barclays": {
-   "checked_at": "2026-11-28T00:18:01+00:00",
+   "checked_at": "2026-11-28T13:43:32+00:00",
    "error": "Workday a demandé une pause (trop de requêtes) : lue au prochain passage",
    "warnings": [],
    "links_found": 0,
@@ -383,7 +383,7 @@
    "last_ok": "2026-11-23T15:52:16+00:00"
   },
   "Lombard Odier": {
-   "checked_at": "2026-11-28T00:18:01+00:00",
+   "checked_at": "2026-11-28T13:43:32+00:00",
    "error": "Workday a demandé une pause (trop de requêtes) : lue au prochain passage",
    "warnings": [],
    "links_found": 0,
@@ -392,7 +392,7 @@
    "failures": 5
   },
   "Apex Group": {
-   "checked_at": "2026-11-28T00:18:01+00:00",
+   "checked_at": "2026-11-28T13:43:32+00:00",
    "error": "Workday a demandé une pause (trop de requêtes) : lue au prochain passage",
    "warnings": [],
    "links_found": 0,
@@ -403,7 +403,7 @@
    "last_ok": "2026-11-22T22:49:37+00:00"
   },
   "Northern Trust": {
-   "checked_at": "2026-11-28T00:18:01+00:00",
+   "checked_at": "2026-11-28T13:43:32+00:00",
    "error": "Workday a demandé une pause (trop de requêtes) : lue au prochain passage",
    "warnings": [],
    "links_found": 0,
@@ -414,7 +414,7 @@
    "last_ok": "2026-11-23T16:01:05+00:00"
   },
   "Fidelity International": {
-   "checked_at": "2026-11-28T00:18:01+00:00",
+   "checked_at": "2026-11-28T13:43:32+00:00",
    "error": "Workday a demandé une pause (trop de requêtes) : lue au prochain passage",
    "warnings": [],
    "links_found": 0,
@@ -425,7 +425,7 @@
    "last_ok": "2026-11-22T13:36:00+00:00"
   },
   "Saxo Bank": {
-   "checked_at": "2026-11-28T00:18:01+00:00",
+   "checked_at": "2026-11-28T13:43:32+00:00",
    "error": "Workday a demandé une pause (trop de requêtes) : lue au prochain passage",
    "warnings": [],
    "links_found": 0,
@@ -434,7 +434,7 @@
    "failures": 5
   },
   "Publicis Groupe": {
-   "checked_at": "2026-11-28T00:16:28+00:00",
+   "checked_at": "2026-11-28T13:41:59+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
@@ -442,21 +442,21 @@
    "kept_this_run": 0,
    "status": "ok",
    "failures": 0,
-   "last_ok": "2026-11-28T00:16:29+00:00"
+   "last_ok": "2026-11-28T13:42:00+00:00"
   },
   "Iliad - Free": {
-   "checked_at": "2026-11-28T00:16:29+00:00",
+   "checked_at": "2026-11-28T13:42:00+00:00",
    "error": "",
    "warnings": [],
    "links_found": 11,
    "keyword_matches": 11,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-28T00:16:33+00:00",
+   "last_ok": "2026-11-28T13:42:04+00:00",
    "failures": 0
   },
   "Les Mousquetaires": {
-   "checked_at": "2026-11-28T00:16:33+00:00",
+   "checked_at": "2026-11-28T13:42:04+00:00",
    "error": "",
    "warnings": [],
    "links_found": 0,
@@ -464,17 +464,17 @@
    "kept_this_run": 0,
    "status": "ok",
    "failures": 0,
-   "last_ok": "2026-11-28T00:16:34+00:00"
+   "last_ok": "2026-11-28T13:42:06+00:00"
   },
   "Free2move": {
-   "checked_at": "2026-11-28T00:16:34+00:00",
+   "checked_at": "2026-11-28T13:42:06+00:00",
    "error": "",
    "warnings": [],
    "links_found": 1,
    "keyword_matches": 1,
    "kept_this_run": 0,
    "status": "ok",
-   "last_ok": "2026-11-28T00:16:36+00:00",
+   "last_ok": "2026-11-28T13:42:07+00:00",
    "failures": 0
   }
  }
