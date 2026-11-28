@@ -1,6 +1,14 @@
 {
- "updated": "2026-11-27T22:56:15+00:00",
+ "updated": "2026-11-28T13:11:16+00:00",
  "items": [
+  {
+   "id": "c01f49b89d39",
+   "company": "BPCE",
+   "title": "Chef de Projet SI (Gouvernance Data) (F/H)",
+   "url": "https://recrutement.bpce.fr/job/chef-de-projet-si-gouvernance-data-f-h",
+   "reason": "expérience demandée ≥ 4 ans « teme d'information, vous disposez d'au moins 4 ans d'experience sur un post »",
+   "at": "2026-11-28T13:02:00+00:00"
+  },
   {
    "id": "459fcff562d6",
    "company": "TotalEnergies",
@@ -11992,14 +12000,6 @@
    "url": "https://recrutement.bpce.fr/job/stage-6-mois-analyste-risques-investissement-f-h",
    "reason": "titre exclu (stage)",
    "at": "2026-10-20T13:56:54+00:00"
-  },
-  {
-   "id": "4342a4d1ec10",
-   "company": "BPCE",
-   "title": "Stage - 6 mois - Data Scientist IA F/H",
-   "url": "https://recrutement.bpce.fr/job/stage-6-mois-data-scientist-ia-f-h",
-   "reason": "titre exclu (stage)",
-   "at": "2026-10-20T13:56:36+00:00"
   }
  ]
 }
